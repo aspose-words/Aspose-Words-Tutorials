@@ -31,6 +31,12 @@ Aspose.Words for Java 提供了強大的文件樣式工具，讓開發人員可�
 在這些教程中，我們不僅會專注於創建視覺上吸引人的文檔，還會專注於優化樣式過程以提高效率。 Aspose.Words for Java 提供了廣泛的 API，讓開發人員可以自動執行文件樣式任務。您將學習如何以程式設計方式應用樣式、根據資料動態產生文件佈局以及實現條件格式以突出顯示特定內容。透過利用這些高效的樣式技術，您可以大幅減少手動工作量並建立滿足您特定文件處理需求的動態客製化文件。
 
 ## 文件樣式教學
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
+### [How to edit footnote separator in Java with Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+
+
 ### [Word 文件樣式](./word-document-styling/)
 了解如何使用 Aspose.Words for Java 設定樣式和處理文件！使用原始程式碼範例創建視覺上令人驚嘆的輸出。 
 ### [在文件中套用樣式和字體](./applying-styles-fonts/)
@@ -47,6 +53,10 @@ Aspose.Words for Java 提供了強大的文件樣式工具，讓開發人員可�
 了解如何使用 Aspose.Words for Java 為 Word 文件的腳註套用樣式，包含程式碼範例與步驟說明。
 ### [如何在 Java Word 文件中偵測字體 – 完整指南](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 了解如何使用 Aspose.Words for Java 偵測 Word 文件中的字體，提供完整範例與步驟說明。
+### [在 Aspose.Words for Java 中設定預設字體 – 完整指南](./set-default-font-settings-in-aspose-words-for-java-complete/)
+了解如何在 Aspose.Words for Java 中設定預設字體，以程式方式統一文件字型樣式。提供原始程式碼範例與步驟說明。
+### [在 Word 圖表上設定陰影](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+了解如何使用 Aspose.Words for Java 為 Word 圖表添加陰影效果，帶有原始程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word جديد، وإدراج مخطط عمودي افتراضي باستخدام DocumentBuilder.InsertChart، والحصول على كائن Chart المضمن، وحفظ المستند كملف .docx.
+//ExStepSummary:0: إنشاء مستند Word فارغ وDocumentBuilder لتحريره.
+//ExStepSummary:1: إدراج مخطط عمودي بحجم 432 × 252 نقطة في المستند.
+//ExStepSummary:2: استرجاع كائن Chart من الشكل المُدرج لإجراء تخصيص إضافي إذا لزم الأمر.
+//ExStepSummary:3: حفظ المستند، الذي يحتوي الآن على المخطط العمودي المُدرج، كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

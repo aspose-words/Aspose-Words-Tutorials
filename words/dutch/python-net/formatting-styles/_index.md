@@ -55,6 +55,9 @@ Leer hoe u alinearanden efficiënt verwijdert en aanpast met Aspose.Words voor P
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Leer hoe je tabstops effectief kunt beheren in je Python-documenten met Aspose.Words. Deze handleiding behandelt het toevoegen, aanpassen en verwijderen van tabstops met praktische voorbeelden.
 
+    ### [Grafiek opmaken in een Word-document met Python](./how-to-style-chart-in-a-word-document-using-python/)
+Leer hoe u grafieken in Word-documenten kunt opmaken en aanpassen met Aspose.Words voor Python.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

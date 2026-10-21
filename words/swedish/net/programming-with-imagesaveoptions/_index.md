@@ -32,6 +32,15 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Spara Word som bilder med C# – Steg‑för‑steg‑guide](./save-word-as-images-with-c-step-by-step-guide/) | Lär dig hur du sparar ett Word-dokument som en serie bilder med C# i Aspose.Words för .NET, steg för steg. |
 | [Konvertera Word till PNG – Sammanfoga sidor till en vertikal remsa](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Lär dig hur du konverterar ett Word-dokument till en PNG-bild där alla sidor kombineras till en vertikal bildremsa. |
 | [Konvertera Word till PNG – Komplett C#-guide](./convert-word-to-png-complete-c-guide/) | Lär dig hur du konverterar Word-dokument till PNG-bilder med Aspose.Words för .NET i en komplett C#-guide. |
+| [Hur du anger DPI när du konverterar Word till PNG – Guide för högupplöst export](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Lär dig hur du ställer in DPI för högupplöst PNG-export från Word med Aspose.Words för .NET i en detaljerad guide. |
+| [Skapa PNG-rutnät från Word-dokument – Komplett guide](./create-png-grid-from-word-document-complete-guide/) | Lär dig hur du skapar ett PNG-rutnät från ett Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
+| [Hur du anger upplösning när du konverterar Word till PNG – Komplett guide](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Lär dig hur du ställer in upplösning för PNG-export från Word med Aspose.Words för .NET i en komplett guide. |
+| [Exportera Word som PNG – Konvertera DOCX till en bild](./export-word-as-png-convert-docx-to-one-image/) | Lär dig hur du exporterar ett Word-dokument till en enda PNG-bild med Aspose.Words för .NET. |
+| [Konvertera docx till png – Komplett steg‑för‑steg‑guide](./convert-docx-to-png-complete-step-by-step-guide/) | Lär dig hur du konverterar ett docx-dokument till png med en komplett steg-för-steg-guide i Aspose.Words för .NET. |
+| [Konvertera DOCX till PNG – Komplett C#-guide](./convert-docx-to-png-complete-c-guide/) | Lär dig hur du konverterar DOCX-filer till PNG med en komplett C#-guide i Aspose.Words för .NET. |
+| [Hur du anger DPI – Exportera Word till PNG-rutnät i C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Lär dig hur du ställer in DPI när du exporterar ett Word-dokument till ett PNG‑rutnät med C# i Aspose.Words för .NET. |
+| [Spara Word som PNG – Komplett Aspose.Words-guide](./save-word-as-png-complete-aspose-words-guide/) | Lär dig hur du sparar ett Word-dokument som PNG med Aspose.Words för .NET i en komplett guide. |
+| [Spara dokument som PNG i C# – Komplett guide](./save-document-as-png-in-c-complete-guide/) | Lär dig hur du sparar ett Word-dokument som PNG-bild med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

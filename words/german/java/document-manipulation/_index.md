@@ -55,7 +55,10 @@ Die Dokumentenbearbeitung mit Aspose.Words für Java ist eine wertvolle Fähigke
 
 Beginnen Sie Ihre Lernreise noch heute und erschließen Sie sich die endlosen Möglichkeiten der Dokumentbearbeitung mit Aspose.Words für Java.
 
-## Tutorials zur Dokumentbearbeitung
+## Tutorials
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+ zur Dokumentbearbeitung
 ### [Verwenden von Bereinigungsoptionen in Aspose.Words für Java](./using-cleanup-options/)
 Verbessern Sie die Übersichtlichkeit Ihrer Dokumente mit den Bereinigungsoptionen von Aspose.Words für Java. Erfahren Sie, wie Sie leere Absätze, ungenutzte Bereiche und mehr entfernen.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)
@@ -70,6 +73,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word-Doku
 Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Java-Dokumentbearbeitungsfähigkeiten.
 ### [Entfernen von Inhalten aus Dokumenten in Aspose.Words für Java](./removing-content-from-documents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word-Dokumenten in Java entfernen. Entfernen Sie Seitenumbrüche, Abschnittsumbrüche und mehr. Optimieren Sie Ihre Dokumentverarbeitung.
+### [Erstellen einer docx ActiveX-Schaltfläche in Java – vollständiger Programmierleitfaden](./create-docx-activex-button-in-java-complete-programming-guid/)
+Erfahren Sie, wie Sie in Java eine docx-Datei mit einer ActiveX-Schaltfläche erstellen und programmieren.
+### [Erstellen eines Word-Dokuments in Java mit Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Lernen Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument von Grund auf erstellen.
 ### [Verwenden von Lesezeichen in Aspose.Words für Java](./using-bookmarks/)
 Optimieren Sie Ihre Dokumentenverarbeitung mit Aspose.Words für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Lesezeichen für eine effiziente Inhaltsnavigation und -bearbeitung verwenden.
 ### [Verwenden von Dokumentbereichen in Aspose.Words für Java](./using-document-ranges/)
@@ -92,6 +99,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Dokumente in HTML-Seiten auftei
 Meistern Sie die Dokumenterstellung mit Aspose.Words für Java. Eine Schritt-für-Schritt-Anleitung zum Hinzufügen von Text, Tabellen, Bildern und mehr. Erstellen Sie mühelos beeindruckende Word-Dokumente.
 ### [Klonen und Kombinieren von Dokumenten in Aspose.Words für Java](./cloning-and-combining-documents/)
 Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
+### [Leeres Dokument mit interaktivem Schaltflächenbefehl in Word mit Java erstellen](./create-blank-document-with-an-interactive-command-button-in/)
+Erstellen Sie ein leeres Word-Dokument mit einer interaktiven Schaltfläche per Java.
 ### [Vergleichen von Dokumenten in Aspose.Words für Java](./comparing-documents/)
 Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java vergleichen, einer leistungsstarken Java-Bibliothek für effiziente Dokumentanalyse. 
 ### [Formatieren von Dokumenten in Aspose.Words für Java](./formatting-documents/)
@@ -104,6 +113,15 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie di
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+### [PDF-Zugänglichkeits-Tagging in Java – Barrierefreie PDFs generieren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs barrierefrei taggen und zugängliche Dokumente erstellen.
+
+### [Hinzufügen von Inhaltssteuerelementen in Word-Dokumenten mit Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Erfahren Sie, wie Sie Inhaltssteuerelemente in Word-Dokumenten programmgesteuert hinzufügen und konfigurieren.
+### [Erstellen eines leeren Word-Dokuments mit einem Textsteuerelement in Aspose.Words für Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument mit einem Textsteuerelement programmgesteuert erstellen.
+### [Wie man ein Word-Dokument programmgesteuert mit Aspose.Words erstellt](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen.
 ### [Wie man docx mit DocumentBuilder speichert und Text nach einem Steuerelement hinzufügt](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach einem Inhaltssteuerelement ein.
 

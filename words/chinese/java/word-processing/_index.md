@@ -47,6 +47,12 @@ Aspose.Words for Java 是一个功能强大且用途广泛的库，它使 Java �
 掌握 Aspose.Words for Java 的高级文档保存设置。轻松学习如何格式化、保护、优化和自动化文档创建。
 ### [使用清理、字段和 XML 数据操作文档内容](./manipulating-document-content/)
 学习如何使用 Aspose.Words for Java 操作文档内容。本分步指南提供了高效文档管理的源代码示例。
+### [使用 Java 创建径向图并将其插入 Word 文档](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+学习如何使用 Aspose.Words for Java 创建径向图并嵌入 Word 文档，实现动态数据可视化。
+
+### [编程创建 Word 文档 – 完整分步指南](./create-word-document-programmatically-full-step-by-step-guid/)
+学习如何使用 Aspose.Words for Java 通过代码一步步创建 Word 文档，涵盖文本、图像、表格等内容的插入与保存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

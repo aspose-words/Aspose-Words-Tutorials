@@ -31,6 +31,15 @@ Los tutoriales también abarcan los conceptos básicos de la manipulación de im
 | [Crear cuadrícula PNG desde documento Word – Guía paso a paso](./create-png-grid-from-word-document-step-by-step-guide/) | Aprenda a generar una cuadrícula de imágenes PNG a partir de un documento Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Guardar Word como imágenes con C# – Guía paso a paso](./save-word-as-images-with-c-step-by-step-guide/) | Aprenda a guardar documentos de Word como imágenes usando C# con Aspose.Words para .NET paso a paso. |
 | [Convertir Word a PNG – Guía completa en C#](./convert-word-to-png-complete-c-guide/) | Aprenda a convertir documentos Word a imágenes PNG con una guía completa en C# paso a paso. |
+| [Cómo establecer DPI al convertir Word a PNG – Guía de exportación de alta resolución](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Aprenda a establecer la resolución DPI al convertir documentos Word a imágenes PNG de alta resolución usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Crear cuadrícula PNG a partir de documento Word – Guía completa](./create-png-grid-from-word-document-complete-guide/) | Aprenda a crear una cuadrícula de imágenes PNG a partir de un documento Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Cómo establecer la resolución al convertir Word a PNG – Guía completa](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Aprenda a establecer la resolución al convertir documentos Word a imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Exportar Word como PNG – Convertir DOCX a una sola imagen](./export-word-as-png-convert-docx-to-one-image/) | Aprenda a convertir un documento DOCX completo en una única imagen PNG usando Aspose.Words para .NET. |
+| [Convertir docx a png – Guía completa paso a paso](./convert-docx-to-png-complete-step-by-step-guide/) | Aprenda a convertir documentos DOCX a imágenes PNG con una guía paso a paso usando Aspose.Words para .NET. |
+| [Convertir DOCX a PNG – Guía completa en C#](./convert-docx-to-png-complete-c-guide/) | Aprenda a convertir documentos DOCX a imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso en C#. |
+| [Cómo establecer DPI – Exportar Word a cuadrícula PNG en C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Aprenda a exportar páginas de un documento Word a una cuadrícula de imágenes PNG con control de DPI usando Aspose.Words para .NET en C#. |
+| [Guardar Word como PNG – Guía completa de Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Aprenda a guardar documentos Word como imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Guardar documento como PNG en C# – Guía completa](./save-document-as-png-in-c-complete-guide/) | Aprenda a guardar documentos Word como imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

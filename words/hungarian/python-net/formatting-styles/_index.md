@@ -55,6 +55,9 @@ Tanuld meg, hogyan távolíthatod el és szabhatod testre hatékonyan a bekezdé
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Tanuld meg, hogyan kezelheted hatékonyan a tabulátorpozíciókat Python dokumentumaidban az Aspose.Words segítségével. Ez az útmutató gyakorlati példákkal mutatja be a tabulátorpozíciók hozzáadását, testreszabását és eltávolítását.
 
+### [Hogyan formázzunk diagramot egy Word dokumentumban Python használatával](./how-to-style-chart-in-a-word-document-using-python/)
+Tanulja meg, hogyan formázhat diagramot egy Word dokumentumban Python segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

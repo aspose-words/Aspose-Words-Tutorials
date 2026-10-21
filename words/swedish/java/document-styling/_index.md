@@ -43,10 +43,18 @@ Lär dig hur du anpassar dokumentteman med Aspose.Words för Java. Den här omfa
 Lär dig hur du använder vattenstämplar och konfigurerar sidkonfigurationer med Aspose.Words för Java. En omfattande guide med källkod.
 ### [Formatering av dokumentsidhuvud och sidfot](./document-header-footer-styling/)
 Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för Java i den här detaljerade guiden. Steg-för-steg-instruktioner och källkod ingår.
+### [Hur du redigerar fotnotseparator i Java med Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Lär dig att anpassa fotnotseparatorn i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel.
 ### [Formatera fotnoter i Java med Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Lär dig hur du formaterar fotnoter i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel.
 ### [Hur du upptäcker teckensnitt i Java Word-dokument – Komplett guide](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Lär dig hur du identifierar och listar teckensnitt i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel.
+### [Ställ in standardteckensnitt i Aspose.Words för Java – Komplett guide](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Lär dig hur du ställer in standardteckensnitt för dokument med Aspose.Words för Java. En komplett guide med kodexempel.
+### [Sätta skugga på ett Word-diagram](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Lär dig hur du lägger till skugga på ett Word-diagram med Aspose.Words för Java.
+### [Hur du exploderar en del i ett Word-diagram och anpassar dess utseende](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Lär dig hur du exploderar en diagramdel i Word och anpassar dess stil med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

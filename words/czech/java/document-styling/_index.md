@@ -31,6 +31,12 @@ Jakmile si osvojíte základní dovednosti v oblasti stylingu dokumentů, přejd
 těchto tutoriálech se zaměříme nejen na vytváření vizuálně přitažlivých dokumentů, ale také na optimalizaci procesu stylingu pro efektivitu. Aspose.Words pro Javu nabízí širokou škálu API, která vývojářům umožňují automatizovat úlohy stylingu dokumentů. Naučíte se, jak programově aplikovat styly, dynamicky generovat rozvržení dokumentů na základě dat a implementovat podmíněné formátování pro zvýraznění konkrétního obsahu. Využitím těchto efektivních stylistických technik můžete výrazně snížit manuální úsilí a vytvářet dynamické, přizpůsobené dokumenty, které splňují vaše specifické potřeby zpracování dokumentů.
 
 ## Návody na stylování dokumentů
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
+### [How to edit footnote separator in Java with Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+
+
 ### [Stylování dokumentů Wordu](./word-document-styling/)
 Naučte se, jak stylovat a zpracovávat dokumenty pomocí Aspose.Words pro Javu! Vytvářejte vizuálně ohromující výstupy s příklady zdrojového kódu. 
 ### [Použití stylů a písem v dokumentech](./applying-styles-fonts/)
@@ -45,6 +51,10 @@ Naučte se, jak aplikovat vodoznaky a nastavit konfigurace stránek pomocí Aspo
 Naučte se v tomto podrobném průvodci, jak upravovat styly záhlaví a zápatí dokumentů pomocí Aspose.Words pro Javu. Součástí je podrobný návod a zdrojový kód.
 ### [Jak detekovat písma v Java Word dokumentech – kompletní průvodce](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Naučte se, jak pomocí Aspose.Words pro Javu detekovat písma v dokumentech Word a získat podrobné ukázky kódu.
+### [Nastavení výchozího písma v Aspose.Words pro Javu – Kompletní průvodce](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Naučte se, jak nastavit výchozí písmo pro všechny dokumenty pomocí Aspose.Words pro Javu s praktickými ukázkami kódu. 
+### [Nastavení stínu na grafu ve Wordu](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Naučte se, jak nastavit stín na grafu ve Wordu pomocí Aspose.Words pro Javu.
 ### [Jak stylovat poznámky pod čarou v Javě pomocí Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Naučte se, jak pomocí Aspose.Words pro Javu stylovat poznámky pod čarou v dokumentech Word s ukázkovým kódem.
 
