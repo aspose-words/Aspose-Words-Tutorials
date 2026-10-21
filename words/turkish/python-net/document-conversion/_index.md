@@ -48,6 +48,9 @@ Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve Word belg
 ### [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown'a Dönüştürme](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aspose.Words for Python kullanarak Word belgelerinden LaTeX dışa aktarımı ve DOCX'i Markdown'a dönüştürmeyi öğrenin.
 
+### [DOCX'i Markdown olarak kaydedin ve denklemleri LaTeX'e dışa aktarın](./save-docx-as-markdown-and-export-equations-to-latex/)
+Aspose.Words for Python kullanarak DOCX dosyalarını Markdown formatına kaydedin ve denklemleri LaTeX'e dönüştürün.
+
 ### [Word'den PDF Oluşturma – Aspose.Words ile Tam Python Kılavuzu](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python kullanarak Word belgelerinden PDF dosyaları oluşturmayı adım adım öğrenin.
 
@@ -222,6 +225,15 @@ Aspose.Words for Python kullanarak DOCX dosyalarını PDF formatına nasıl dön
 
 ### [Word'ü kurtarın ve LaTeX ile Markdown'a dönüştürün](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Aspose.Words for Python kullanarak bozuk Word belgelerini onarın ve LaTeX aracılığıyla Markdown'a dönüştürün.
+
+### [Office Math'i LaTeX'e Dışa Aktarma – Python Kılavuzu](./how-to-export-office-math-to-latex-in-python/)
+Aspose.Words for Python ile Office Math ifadelerini LaTeX formatına nasıl dışa aktaracağınızı adım adım öğrenin.
+
+### [Word'ü PDF Olarak Kaydet – Aspose.Words for Python ile](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Aspose.Words for Python kullanarak Word belgelerini PDF dosyalarına kaydetmeyi adım adım öğrenin.
+
+### [Özel Dikdörtgen Şekliyle PDF Olarak Belge Kaydetme – Python Kılavuzu](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Aspose.Words for Python kullanarak belgeye özel bir dikdörtgen şekli ekleyip PDF olarak kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

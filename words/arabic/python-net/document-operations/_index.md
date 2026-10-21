@@ -90,6 +90,9 @@
 ### [استعادة ملف DOCX تالف باستخدام Aspose.Words – دليل خطوة بخطوة](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
 دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words للغة بايثون.
 
+### [كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words للبايثون](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words للبايثون خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

@@ -41,6 +41,8 @@
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 ### [Πώς να εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Πώς να εξάγετε μαθηματικά Office σε LaTeX με Python](./how-to-export-office-math-to-latex-in-python/)
+Μάθετε πώς να εξάγετε μαθηματικά Office σε LaTeX χρησιμοποιώντας Aspose.Words για Python.
 ### [Δημιουργία PDF από Word – Πλήρης οδηγός Python με Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Μάθετε πώς να δημιουργείτε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Πλήρης οδηγός.
 ### [Δημιουργία Προσβάσιμου PDF από Word με Python – Οδηγός Βήμα‑βήμα](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -176,6 +178,12 @@
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με το Aspose.Words για Python.
 ### [Πώς να ανακτήσετε Word και να το μετατρέψετε σε Markdown με LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Μάθετε πώς να ανακτήσετε αρχεία Word και να τα μετατρέψετε σε Markdown με υποστήριξη LaTeX χρησιμοποιώντας Aspose.Words.
+### [Αποθήκευση docx ως markdown και εξαγωγή εξισώσεων σε LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown και να εξάγετε εξισώσεις σε LaTeX με το Aspose.Words για Python.
+### [Πώς να αποθηκεύσετε το Word ως PDF με το Aspose.Words για Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για Python.
+### [Πώς να αποθηκεύσετε το έγγραφο ως PDF με προσαρμοσμένο σχήμα ορθογωνίου σε Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα ως PDF με προσαρμοσμένο σχήμα ορθογωνίου χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

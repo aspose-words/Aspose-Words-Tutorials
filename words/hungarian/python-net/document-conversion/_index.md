@@ -45,6 +45,8 @@ Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertá
 Lépésről lépésre bemutatjuk, hogyan konvertálhat Word dokumentumokat PDF‑be Python és Aspose.Words használatával.
 ### [Hogyan konvertáljon DOCX-et PDF-be Pythonban az Aspose.Words használatával](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
 Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF formátumba Python és Aspose.Words segítségével.
+### [Hogyan mentse a Word dokumentumot PDF‑be az Aspose.Words for Python segítségével](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Ismerje meg, hogyan menthet Word dokumentumokat PDF formátumba Python és Aspose.Words használatával.
 ### [Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről lépésre útmutató](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Python és Aspose.Words használatával.
 ### [Hogyan exportáljon Word-et PDF-be, és generáljon akadálymentes PDF/UA-t](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
@@ -174,6 +176,11 @@ Ismerje meg, hogyan készíthet hozzáférhető PDF-et Word dokumentumokból Pyt
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba, majd exportálhatja PDF-be az Aspose.Words használatával.
 ### [Hogyan állítsa helyre a Word dokumentumot és konvertálja Markdown formátumba LaTeX segítségével](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Ismerje meg, hogyan állíthatja helyre a Word dokumentumokat, és konvertálhatja őket Markdown formátumba LaTeX használatával.
+### [DOCX mentése markdown formátumba és egyenletek exportálása LaTeX-be](./save-docx-as-markdown-and-export-equations-to-latex/)
+### [Hogyan exportálja az Office matematikát LaTeX-be Python segítségével](./how-to-export-office-math-to-latex-in-python/)
+Ismerje meg, hogyan exportálhatja az Office matematikát LaTeX formátumba Python használatával.
+### [Hogyan mentse a dokumentumot PDF‑be egy egyedi téglalap alakzattal Pythonban](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Ismerje meg, hogyan menthet PDF‑et egyedi téglalap alakú alakzattal a Word dokumentumból Python és Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

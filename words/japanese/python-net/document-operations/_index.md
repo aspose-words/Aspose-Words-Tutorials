@@ -88,6 +88,8 @@ Aspose.Words を使用して破損した DOCX ファイルを復元し、読み�
 ## 破損した DOCX の復元 – Word 文書を開いて読み込む
 破損した DOCX ファイルを開き、復元して読み込む方法をステップバイステップで解説します。
 
+### [Aspose.Words for Python を使用して破損した DOCX ファイルを復元する方法](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

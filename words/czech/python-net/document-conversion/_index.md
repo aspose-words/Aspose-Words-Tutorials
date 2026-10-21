@@ -173,6 +173,14 @@ Naučte se exportovat dokument Word do PDF a vytvořit přístupný PDF/UA pomoc
 ### [Jak převést DOCX do PDF v Pythonu pomocí Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
 ### [Jak obnovit Word a převést do Markdown s LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Naučte se obnovit poškozené soubory Word a převést je do Markdown s podporou LaTeX pomocí Aspose.Words pro Python.
+### [Uložení DOCX jako Markdown a export rovnic do LaTeXu](./save-docx-as-markdown-and-export-equations-to-latex/)
+Naučte se uložit DOCX jako Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words pro Python.
+### [Jak exportovat Office Math do LaTeX v Pythonu](./how-to-export-office-math-to-latex-in-python/)
+Naučte se exportovat rovnice a matematické objekty z Office do LaTeXu pomocí Aspose.Words pro Python.
+### [Jak uložit Word jako PDF pomocí Aspose.Words pro Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podrobnými ukázkami kódu.
+### [Jak uložit dokument jako PDF s vlastním obdélníkovým tvarem v Pythonu](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Naučte se uložit dokument jako PDF s vlastním obdélníkovým tvarem pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

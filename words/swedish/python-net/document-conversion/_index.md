@@ -44,6 +44,12 @@ Lär dig hur du exporterar Word-dokument till PDF och skapar en tillgänglig PDF
 Lär dig hur du skapar PDF från Word med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
 ### [Hur man konverterar DOCX till PDF i Python med Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
 Lär dig konvertera DOCX-filer till PDF med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Spara docx som markdown och exportera ekvationer till LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Lär dig spara DOCX-filer som Markdown och exportera ekvationer till LaTeX med Aspose.Words för Python.
+### [Hur man sparar Word som PDF med Aspose.Words för Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Lär dig hur du sparar Word-dokument som PDF med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Hur man sparar dokument som PDF med en anpassad rektangelform i Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Lär dig hur du sparar ett Word-dokument som PDF med en egen rektangulär form med Aspose.Words för Python.
 ### [Skapa tillgänglig PDF från Word med Python – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Lär dig hur du skapar en tillgänglig PDF från Word med Aspose.Words för Python. Följ steg‑för‑steg‑instruktioner och kodexempel.
 ### [Spara Word som Markdown – Komplett guide med PDF/A‑UA‑export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
@@ -173,6 +179,8 @@ Lär dig hur du konverterar ett Word-dokument till en tillgänglig PDF med Aspos
 Lär dig konvertera docx-filer till markdown och sedan exportera dem som PDF med Aspose.Words för Python.
 ### [Hur man återställer Word och konverterar till Markdown med LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Lär dig återställa korrupta Word-filer och konvertera dem till Markdown med LaTeX‑stöd via Aspose.Words för Python.
+### [Hur man exporterar Office-matematik till LaTeX i Python](./how-to-export-office-math-to-latex-in-python/)
+Lär dig hur du exporterar matematiska ekvationer från Office-dokument till LaTeX med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

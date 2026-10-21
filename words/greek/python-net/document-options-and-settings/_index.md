@@ -63,6 +63,8 @@
 Μάθετε πώς να ανακτήσετε αρχεία docx που έχουν καταστραφεί ή χαθεί χρησιμοποιώντας το Aspose.Words για Python.
 ### [Ενεργοποίηση λειτουργίας ανάκτησης για το άνοιγμα ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Μάθετε πώς να ανοίγετε κατεστραμμένα έγγραφα Word ενεργοποιώντας τη λειτουργία ανάκτησης.
+### [Πώς να ανακτήσετε κατεστραμμένα αρχεία docx με το Aspose.Words σε Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx χρησιμοποιώντας το Aspose.Words σε Python. Οδηγός βήμα προς βήμα με κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

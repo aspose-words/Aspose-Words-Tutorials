@@ -51,7 +51,6 @@ Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python effizient bear
 Erfahren Sie, wie Sie Dokumenteigenschaften und Metadaten mit Aspose.Words für Python verwalten. Schritt-für-Schritt-Anleitung mit Quellcode.
 
 ### [Erweitern der Dokumentfunktionalität mit Weberweiterungen](./document-functionality-web-extensions/)
-Erfahren Sie, wie Sie die Dokumentfunktionalität mit Web-Erweiterungen mithilfe von Aspose.Words für Python erweitern. Schritt-für-Schritt-Anleitung mit Quellcode für eine nahtlose Integration.
 ### [PDF barrierefrei machen mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Erfahren Sie, wie Sie PDFs mit Aspose.Words barrierefrei gestalten. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Wie man DOCX wiederherstellt – Komplettanleitung mit Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
@@ -68,6 +67,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python die MarkdownSaveOptions für 
 Erfahren Sie, wie Sie beschädigte docx-Dateien mit Aspose.Words für Python wiederherstellen.
 ### [Wiederherstellungsmodus aktivieren, um ein beschädigtes Word-Dokument zu öffnen](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren, um beschädigte Word-Dokumente mit Aspose.Words für Python zu öffnen.
+### [Wie man beschädigte docx-Dateien mit Aspose.Words in Python wiederherstellt](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Erfahren Sie, wie Sie beschädigte docx-Dateien mit Aspose.Words in Python reparieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

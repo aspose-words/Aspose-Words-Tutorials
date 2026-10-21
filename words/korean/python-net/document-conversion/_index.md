@@ -59,6 +59,8 @@ Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별
 
 ### [Python에서 Aspose.Words를 사용해 DOCX를 PDF로 변환하는 방법](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
 Aspose.Words를 활용해 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다!
+### [Aspose.Words for Python으로 Word를 PDF로 저장하는 방법](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Aspose.Words for Python을 사용해 Word 문서를 PDF 파일로 저장하는 방법을 단계별로 안내합니다.
 
 ### [Python으로 Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
@@ -232,6 +234,12 @@ docx 파일을 markdown으로 변환한 뒤 PDF로 내보내는 방법을 안내
 
 ### [Word를 PDF로 내보내고 접근성 PDF/UA 만들기](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하고 접근성 PDF/UA를 생성하는 방법을 단계별로 안내합니다.
+
+### [DOCX를 Markdown으로 저장하고 방정식을 LaTeX로 내보내기](./save-docx-as-markdown-and-export-equations-to-latex/)
+
+### [Python에서 Office 수학을 LaTeX로 내보내는 방법](./how-to-export-office-math-to-latex-in-python/)
+
+### [Python에서 사용자 정의 사각형 모양으로 문서를 PDF로 저장하는 방법](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

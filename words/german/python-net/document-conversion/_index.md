@@ -41,6 +41,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Markdown aus einem Word-Dokum
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
 ### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in LaTeX exportieren und anschließend in Markdown konvertieren.
+### [DOCX als Markdown speichern und Gleichungen nach LaTeX exportieren](./save-docx-as-markdown-and-export-equations-to-latex/)
+Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren und dabei Gleichungen nach LaTeX exportieren.
+### [Office-Mathematik nach LaTeX exportieren in Python](./how-to-export-office-math-to-latex-in-python/)
+Erfahren Sie, wie Sie mathematische Gleichungen aus Office-Dokumenten mit Aspose.Words für Python nach LaTeX konvertieren.
 ### [PDF aus Word erstellen – Vollständige Python-Anleitung mit Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF konvertieren und speichern.
 ### [Barrierefreies PDF aus Word mit Python – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -175,6 +179,10 @@ Lernen Sie, DOCX-Dateien in Markdown zu konvertieren und anschließend als PDF z
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in PDF konvertieren.
 ### [Wie man Word wiederherstellt und in Markdown mit LaTeX konvertiert](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Erfahren Sie, wie Sie beschädigte Word-Dateien wiederherstellen und anschließend in Markdown mit LaTeX konvertieren.
+### [Wie man Word als PDF speichert – Vollständige Python-Anleitung](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente einfach als PDF speichern.
+### [Wie man ein Dokument als PDF mit einer benutzerdefinierten Rechteckform in Python speichert](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Word-Dokument als PDF speichern und dabei ein benutzerdefiniertes Rechteck einfügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

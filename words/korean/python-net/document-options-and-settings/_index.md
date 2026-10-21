@@ -63,6 +63,8 @@ Python에서 LaTeX 문서 생성을 위해 MarkdownSaveOptions를 설정하는 �
 Aspose.Words for Python을 활용해 손상된 docx 파일을 복구하는 단계별 가이드입니다.
 ### [손상된 Word 문서를 열기 위한 복구 모드 활성화](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Aspose.Words for Python을 사용하여 손상된 Word 문서를 복구 모드로 열어 복구하는 방법을 단계별로 안내합니다.
+### [Python에서 Aspose.Words로 손상된 docx 파일 복구하기](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Python용 Aspose.Words를 활용해 손상된 docx 파일을 복구하는 단계별 가이드와 예제 코드를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

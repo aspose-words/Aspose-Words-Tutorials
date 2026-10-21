@@ -63,6 +63,8 @@ Hướng dẫn cách cấu hình MarkdownSaveOptions để xuất tài liệu La
 Hướng dẫn khôi phục các tệp docx bị hỏng hoặc mất dữ liệu bằng Aspose.Words cho Python.
 ### [Bật chế độ khôi phục để mở tài liệu Word bị hỏng](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Hướng dẫn cách bật chế độ khôi phục trong Aspose.Words để mở các tệp Word bị hỏng một cách an toàn.
+### [Cách khôi phục tệp docx bị hỏng bằng Aspose.Words trong Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Hướng dẫn khôi phục các tệp docx bị hỏng bằng Aspose.Words trong Python, kèm ví dụ mã nguồn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

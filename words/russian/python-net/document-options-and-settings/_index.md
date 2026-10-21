@@ -63,6 +63,8 @@
 Узнайте, как восстановить файлы docx с помощью Aspose.Words для Python.
 ### [Включить режим восстановления для открытия повреждённого документа Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Узнайте, как включить режим восстановления для открытия повреждённого документа Word с помощью Aspose.Words.
+### [Как восстановить повреждённые файлы docx с помощью Aspose.Words в Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words в Python. Пошаговое руководство с примером кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

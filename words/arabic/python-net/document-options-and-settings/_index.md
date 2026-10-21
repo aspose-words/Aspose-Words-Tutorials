@@ -63,6 +63,8 @@
 تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع مثال عملي.
 ### [تمكين وضع الاسترداد لفتح مستند Word تالف](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 تعرّف على كيفية تمكين وضع الاسترداد لفتح مستند Word تالف باستخدام Aspose.Words للبايثون. دليل خطوة بخطوة مع الكود المصدري.
+### [كيفية استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون خطوة بخطوة مع مثال عملي.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

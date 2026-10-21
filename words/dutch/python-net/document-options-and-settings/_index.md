@@ -67,6 +67,8 @@ Leer hoe u beschadigde docx-bestanden kunt herstellen met Aspose.Words voor Pyth
 
 ### [Herstelmodus inschakelen om een beschadigd Word-document te openen](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Leer hoe u de herstelmodus activeert om beschadigde Word-documenten te openen met Aspose.Words voor Python.
+### [Hoe docx-bestanden te herstellen die corrupt zijn met Aspose.Words in Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Leer hoe u beschadigde docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

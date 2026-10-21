@@ -63,6 +63,8 @@ Lär dig hur du konfigurerar MarkdownSaveOptions för LaTeX-export i Python med 
 Lär dig återställa skadade eller korrupta docx-filer med Aspose.Words för Python. Steg-för-steg-guide med kodexempel.
 ### [Aktivera återställningsläge för att öppna ett korrupt Word-dokument](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Lär dig hur du aktiverar återställningsläget för att öppna och reparera skadade Word-dokument med Aspose.Words för Python.
+### [Hur du återställer korrupta docx-filer med Aspose.Words i Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. Steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

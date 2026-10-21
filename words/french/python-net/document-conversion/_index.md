@@ -176,6 +176,14 @@ Apprenez à convertir un fichier DOCX en Markdown puis à l'exporter en PDF avec
 Apprenez à convertir des fichiers DOCX en PDF en utilisant Aspose.Words pour Python.
 ### [Comment récupérer Word et convertir en Markdown avec LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Apprenez à récupérer des documents Word corrompus et à les convertir en Markdown avec prise en charge LaTeX grâce à Aspose.Words pour Python.
+### [Enregistrer le DOCX en Markdown et exporter les équations vers LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Apprenez à convertir un fichier DOCX en Markdown tout en exportant les équations au format LaTeX avec Aspose.Words pour Python.
+### [Comment exporter les formules Office en LaTeX avec Python](./how-to-export-office-math-to-latex-in-python/)
+Apprenez à convertir les équations Office Math en LaTeX à l'aide d'Aspose.Words pour Python.
+### [Comment enregistrer Word en PDF avec Aspose.Words pour Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Apprenez à enregistrer vos documents Word au format PDF en utilisant Aspose.Words pour Python.
+### [Comment enregistrer un document en PDF avec une forme rectangulaire personnalisée en Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Apprenez à enregistrer un document Word en PDF en ajoutant une forme rectangulaire personnalisée avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

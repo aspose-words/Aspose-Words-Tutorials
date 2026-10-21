@@ -63,6 +63,8 @@ Ismerje meg, hogyan állíthatja be a MarkdownSaveOptions beállításait a LaTe
 Ismerje meg, hogyan lehet helyreállítani sérült vagy elveszett docx fájlokat az Aspose.Words for Python használatával.
 ### [Helyreállítási mód engedélyezése sérült Word dokumentum megnyitásához](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Tanulja meg, hogyan engedélyezheti a helyreállítási módot a sérült Word dokumentumok megnyitásához az Aspose.Words for Python segítségével.
+### [Hogyan állítsuk helyre a sérült docx fájlokat az Aspose.Words segítségével Pythonban](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat az Aspose.Words for Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

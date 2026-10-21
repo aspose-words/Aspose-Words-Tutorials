@@ -91,6 +91,9 @@ Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dalam Pyt
 ### [Cara memulihkan dokumen Word yang rusak dan menyimpan file Word yang dipulihkan dengan Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
 Pelajari cara memulihkan dokumen Word yang rusak dan menyimpan versi yang diperbaiki menggunakan Aspose.Words untuk Python-net.
 
+### [Cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Pelajari cara memulihkan file DOCX yang rusak secara otomatis dengan Aspose.Words untuk Python.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

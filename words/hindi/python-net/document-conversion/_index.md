@@ -56,6 +56,9 @@ Aspose.Words का उपयोग करके पायथन में DOCX 
 Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को सुलभ PDF में बदलने की चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [वर्ड को मार्कडाउन के रूप में सहेजें – PDF/A‑UA निर्यात के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+### [Aspose.Words for Python के साथ Word को PDF के रूप में सहेजें](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Aspose.Words का उपयोग करके पायथन में Word दस्तावेज़ को PDF में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [Word से PDF/UA बनाएं – चरण‑बद्ध गाइड](./create-pdf-ua-from-word-step-by-step-guide/)
 Word दस्तावेज़ से PDF/UA बनाना सीखें, चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 ### [DOCX को मार्कडाउन के रूप में सहेजें – समीकरणों को LaTeX में निर्यात करने के लिए त्वरित पायथन गाइड](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
@@ -219,6 +222,15 @@ Python और Aspose.Words का उपयोग करके Word फ़ाइ
 Aspose.Words के साथ docx को markdown में बदलें और PDF के रूप में निर्यात करें।
 ### [वर्ड को PDF में निर्यात करें और सुलभ PDF/UA बनाएं](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को PDF में बदलें और सुलभ PDF/UA बनाना सीखें।
+
+### [docx को मार्कडाउन के रूप में सहेजें और समीकरणों को LaTeX में निर्यात करें](./save-docx-as-markdown-and-export-equations-to-latex/)
+docx फ़ाइल को मार्कडाउन में बदलें और सभी समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने का विस्तृत मार्गदर्शन।
+
+### [ऑफ़िस गणित को LaTeX में निर्यात कैसे करें – पायथन गाइड](./how-to-export-office-math-to-latex-in-python/)
+पायथन में ऑफिस गणित समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के लिए चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [कस्टम आयताकार आकार के साथ दस्तावेज़ को PDF में सहेजें – Python गाइड](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Aspose.Words का उपयोग करके Python में कस्टम आयताकार आकार जोड़कर दस्तावेज़ को PDF में बदलने की चरण‑दर‑स्टेप मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

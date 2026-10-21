@@ -63,6 +63,8 @@ Aprenda a configurar MarkdownSaveOptions para exportar a LaTeX usando Aspose.Wor
 Aprenda a recuperar archivos DOCX dañados usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
 ### [Habilitar modo de recuperación para abrir un documento Word dañado](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Aprenda a activar el modo de recuperación y abrir documentos Word corruptos con Aspose.Words para Python. Guía paso a paso con código fuente.
+### [Cómo recuperar archivos docx corruptos con Aspose.Words en Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Aprenda a reparar archivos DOCX dañados usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

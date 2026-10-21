@@ -63,6 +63,7 @@ Pelajari cara mengonfigurasi MarkdownSaveOptions agar dapat mengekspor dokumen k
 Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python.
 ### [Aktifkan mode pemulihan untuk membuka dokumen Word yang rusak](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Pelajari cara mengaktifkan mode pemulihan agar dapat membuka dokumen Word yang rusak menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx Rusak dengan Aspose.Words di Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ PythonでAspose.Wordsを使用し、LaTeX形式で保存するためのMarkdownS
 Aspose.Words for Python を使用して破損した docx ファイルを復元する手順をステップバイステップで解説します。
 ### [破損したWord文書を開くためのリカバリモードの有効化](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 破損したWordファイルをリカバリモードで開く方法をステップバイステップで解説します。
+### [Python で Aspose.Words を使用して破損した docx ファイルを復元する方法](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Aspose.Words for Python を使用して破損した docx ファイルを復元する手順を学びます。コード例付きのステップバイステップガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

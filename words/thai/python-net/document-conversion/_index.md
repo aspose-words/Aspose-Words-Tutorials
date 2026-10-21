@@ -238,6 +238,17 @@
 ### [แปลง docx เป็น markdown และส่งออกเป็น PDF ด้วย Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 เรียนรู้วิธีแปลงไฟล์ docx ไปเป็น markdown แล้วส่งออกเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
 
+### [บันทึกไฟล์ docx เป็น markdown และส่งออกสมการเป็น LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words for Python
+
+### [วิธีส่งออก Office Math ไปเป็น LaTeX ด้วย Python](./how-to-export-office-math-to-latex-in-python/)
+
+### [วิธีบันทึก Word เป็น PDF ด้วย Aspose.Words สำหรับ Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีบันทึกเอกสารเป็น PDF ด้วยรูปสี่เหลี่ยมกำหนดเองใน Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+เรียนรู้วิธีบันทึกเอกสารเป็น PDF พร้อมรูปสี่เหลี่ยมกำหนดเองโดยใช้ Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

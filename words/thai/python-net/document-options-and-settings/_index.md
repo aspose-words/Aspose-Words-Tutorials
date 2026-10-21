@@ -67,6 +67,8 @@
 เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [เปิดโหมดการกู้คืนเพื่อเปิดเอกสาร Word ที่เสียหาย](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 เรียนรู้วิธีเปิดโหมดการกู้คืนเพื่อเปิดไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python
+### [วิธีกู้คืนไฟล์ docx ที่เสียหายด้วย Aspose.Words ใน Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายด้วย Aspose.Words ใน Python พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
