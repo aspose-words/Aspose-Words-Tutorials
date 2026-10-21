@@ -77,6 +77,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Sorozat formázása Word vonaldiagramban C#-val](./how-to-format-series-in-a-word-line-chart-with-c/) | Tanulja meg, hogyan formázhatja a sorozatot egy Word vonaldiagramban C# használatával ebben a lépésről lépésre útmutatóban. |
 | [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat kördiagramot Word dokumentumban az Aspose.Words for .NET használatával. |
 | [Hogyan hozzunk létre hisztogramot Wordben az Aspose.Words segítségével](./how-to-create-histogram-in-word-with-aspose-words/) | Tanulja meg, hogyan hozhat létre hisztogramot Word dokumentumban az Aspose.Words for .NET használatával. |
+| [Word dokumentum létrehozása testreszabott kördiagrammal C#-ban](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Tanulja meg, hogyan hozhat létre Word dokumentumot testreszabott kördiagrammal C#-ban az Aspose.Words for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

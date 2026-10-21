@@ -81,6 +81,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment afficher les pourcentages dans un graphique avec Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Apprenez à afficher les pourcentages sur les graphiques dans Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 | [Comment formater les séries dans un graphique en courbes Word avec C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Apprenez à formater les séries d'un graphique en courbes Word avec Aspose.Words pour .NET et C# grâce à ce guide étape par étape. |
 | [Comment créer un document Word C# avec un graphique à colonnes et des étiquettes formatées](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Apprenez à créer un document Word avec un graphique à colonnes et des étiquettes formatées en C# grâce à ce guide étape par étape. |
+| [Comment créer un document Word avec un graphique circulaire personnalisé en C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Apprenez à générer un document Word contenant un diagramme circulaire personnalisé avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@
 | [วิธีจัดรูปแบบซีรีส์ในแผนภูมิเส้นของ Word ด้วย C#](./how-to-format-series-in-a-word-line-chart-with-c/) | เรียน...
 | [วิธีสร้างฮิสโตแกรมใน Word ด้วย Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | เรียน...
 - [วิธีสร้างเอกสาร Word ด้วย C# พร้อมแผนภูมิคอลัมน์และป้ายข้อมูลที่จัดรูปแบบ](./how-to-create-word-document-c-with-a-column-chart-and-format/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีแผนภูมิคอลัมน์พร้อมป้ายข้อมูลจัดรูปแบบด้วย C# และ Aspose.Words
+| [วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่กำหนดเองใน C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่ปรับแต่งได้โดยใช้ Aspose.Words สำหรับ .NET ด้วย C# -
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

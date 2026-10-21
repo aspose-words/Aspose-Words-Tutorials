@@ -81,6 +81,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在 Word 折線圖中使用 C# 格式化系列](./how-to-format-series-in-a-word-line-chart-with-c/) |了解如何在 Word 折線圖中使用 C# 進行系列格式設定，提升圖表外觀。 |
 | [在 Word 中使用 Aspose.Words 建立直方圖](./how-to-create-histogram-in-word-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在 Word 文檔中建立直方圖，以視覺化資料分佈。 |
 | [使用 C# 建立帶格式化標籤的柱狀圖 Word 文件](./how-to-create-word-document-c-with-a-column-chart-and-format/) |了解如何在 Word 文件中使用 C# 插入柱狀圖並設定資料標籤格式。 |
+| [如何在 C# 中建立具有自訂餅圖的 Word 文件](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) |透過本步驟指南學習在 C# 使用 Aspose.Words for .NET 建立自訂餅圖的 Word 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

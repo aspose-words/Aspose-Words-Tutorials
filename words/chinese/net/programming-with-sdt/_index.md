@@ -31,6 +31,7 @@ Aspose.Words for .NET 教程将帮助您深入探索该库的功能，并学习�
 | [富文本框内容控件](./rich-text-box-content-control/) 通过本详细的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中添加和自定义富文本框内容控件。|
 | [设置内容控件颜色](./set-content-control-color/) 使用 Aspose.Words for .NET 轻松设置 Word 中结构化文档标签的颜色。使用本指南自定义您的结构化文档标签 (SDT)，提升文档外观。|
 | [清除内容控制](./clear-contents-control/) 通过我们的分步指南了解如何使用 Aspose.Words for .NET 清除 Word 文档中的内容控制。|
+| [在 Word 文档中使用 Aspose.Words 添加内容控件](./how-to-add-content-control-word-in-a-word-document-using-asp/) 学习如何使用 Aspose.Words 在 Word 文档中添加内容控件的步骤。|
 | [将 SDT 绑定到自定义 Xml 部分](./bind-sdt-to-custom-xml-part/) 通过本分步教程了解如何使用 Aspose.Words for .NET 将结构化文档标签 (SDT) 绑定到 Word 文档中的自定义 XML 部分。|
 | [设置内容控制样式](./set-content-control-style/) 学习如何使用 Aspose.Words for .NET 设置 Word 文档中的内容控制样式，本指南详尽，一步步讲解。非常适合提升文档美感。|
 | [创建映射到自定义 XML 部分的表重复部分](./creating-table-repeating-section-mapped-to-custom-xml-part/) 了解如何使用 Aspose.Words for .NET 创建一个表格，其中重复部分映射到 Word 文档中的 CustomXmlPart。|

@@ -43,6 +43,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Praca z otwartym modelem AI](./working-with-open-ai-model/) | Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz. |
 | [Praca z opcjami podsumowania](./working-with-summarize-options/) | Naucz się skutecznie podsumowywać dokumenty Word za pomocą Aspose.Words dla platformy .NET dzięki naszemu przewodnikowi krok po kroku dotyczącemu integrowania modeli AI w celu szybkiego uzyskiwania analiz. |
 | [Podsumowanie dokumentu Word w C# – Kompletny przewodnik z AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word w C#. |
+| [Jak podsumować dokument Word przy użyciu Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Dowiedz się, jak używać Aspose.Words AI do podsumowywania dokumentów Word w prosty i szybki sposób. |
 | [Jak sprawdzić gramatykę w DOCX przy użyciu Aspose.Words – użyj gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Dowiedz się, jak wykorzystać model gpt-4 turbo w Aspose.Words dla .NET do automatycznej korekty gramatycznej dokumentów DOCX. |
 | [Jak sprawdzić gramatykę w Wordzie przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Dowiedz się, jak używać Aspose.Words AI do automatycznego sprawdzania gramatyki w dokumentach Word. |
 | [Jak sprawdzić gramatykę w C# przy użyciu lokalnego LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Dowiedz się, jak wykorzystać lokalny model językowy do sprawdzania gramatyki w aplikacjach C# przy użyciu Aspose.Words. |
@@ -93,6 +94,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI w C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do tłumaczenia dokumentów DOCX na język francuski. |
 | [Jak podsumować pliki docx przy użyciu Aspose.Words AI w C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do podsumowywania plików docx. |
 | [Jak podsumować dokument Word przy użyciu dostawców AI w C#](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
+| [Jak używać tłumacza do automatyzacji tłumaczenia dokumentów w C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Dowiedz się, jak automatycznie tłumaczyć dokumenty przy użyciu Aspose.Words i tłumacza w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

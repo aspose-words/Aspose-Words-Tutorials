@@ -94,6 +94,8 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
 | [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
 | [Como resumir documento Word com provedores de IA em C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Aprenda a resumir documentos Word usando diferentes provedores de IA em C# com exemplos práticos. |
+| [Como resumir um documento Word com Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Aprenda a resumir documentos Word usando a IA do Aspose.Words com um guia completo passo a passo. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

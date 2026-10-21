@@ -37,6 +37,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Contoh OleControlType.CommandButton dalam Word](./insert-olecontroltype-commandbutton-example-in-word/) | Pelajari cara menyisipkan kontrol CommandButton menggunakan OleControlType dalam dokumen Word dengan Aspose.Words untuk .NET. |
 | [Cara Membuat Tombol Perintah ActiveX di Word menggunakan C#](./how-to-create-activex-command-button-in-word-using-c/) | Pelajari cara membuat tombol perintah ActiveX di dokumen Word menggunakan C# dengan Aspose.Words untuk .NET. |
 | [Cara Menambahkan Kontrol ActiveX ke Word dengan C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dengan C#. |
+| [Cara menyisipkan tombol perintah OLE dalam dokumen Word menggunakan C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Pelajari cara menyisipkan tombol perintah OLE ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

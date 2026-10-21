@@ -81,6 +81,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [C# ile Word satır grafiğinde serileri biçimlendirme](./how-to-format-series-in-a-word-line-chart-with-c/) | Bu adım adım kılavuzda C# kullanarak Word satır grafiğindeki serileri nasıl biçimlendireceğinizi öğrenin. |
 | [Aspose.Words ile Word'de Histogram Oluşturma](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine histogram eklemeyi adım adım öğrenin. |
 | [C# ile Sütun Grafiği ve Biçimlendirilmiş Etiketlerle Word Belgesi Oluşturma](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# kullanarak Word belgesine sütun grafiği ekleyin ve etiketleri biçimlendirin. |
+| [C# ile özelleştirilmiş pasta grafiği içeren Word belgesi oluşturma](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# kullanarak özelleştirilmiş bir pasta grafiği ekleyerek Word belgesi oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

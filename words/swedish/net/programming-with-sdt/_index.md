@@ -42,6 +42,7 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 
 | [Hur man skapar innehållskontroll i C# med Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Lär dig steg för steg hur du skapar en innehållskontroll i C# med Aspose.Words. |
 | [Spara Word-dokument med SDT med Aspose.Words i C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Lär dig hur du sparar ett Word-dokument med strukturerade dokumenttaggar (SDT) med Aspose.Words i C#. |
+| [Hur man lägger till innehållskontroll i ett Word-dokument med Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Lär dig att lägga till en innehållskontroll i ett Word-dokument med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

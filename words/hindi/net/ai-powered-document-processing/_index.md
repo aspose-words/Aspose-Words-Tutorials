@@ -93,6 +93,8 @@
 | [C# में AI दस्तावेज़ सारांशकर्ता का उपयोग कैसे करें](./how-to-use-an-ai-document-summarizer-in-c/) | .NET के लिए Aspose.Words के साथ C# में AI दस्तावेज़ सारांशकर्ता को लागू करने की पूरी गाइड। |
 | [Aspose.Words AI का उपयोग करके docx को फ़्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-using-aspose-words-ai/) | .NET के लिए Aspose.Words AI के साथ docx फ़ाइल को फ़्रेंच में अनुवाद करने की पूरी गाइड। |
 | [C# में Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
+| [Aspose.Words AI के साथ Word दस्तावेज़ का सारांश कैसे बनाएं](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [C# में अनुवादक का उपयोग करके दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-use-translator-to-automate-document-translation-in-c/) | .NET के लिए Aspose.Words और अनुवादक का उपयोग करके C# में दस्तावेज़ अनुवाद को स्वचालित करने का तरीका सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

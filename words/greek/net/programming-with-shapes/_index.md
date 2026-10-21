@@ -78,6 +78,7 @@
 | [Πώς να δημιουργήσετε κρυφό σχήμα docx με Aspose.Words σε C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Μάθετε πώς να δημιουργήσετε ένα κρυφό σχήμα σε αρχείο docx χρησιμοποιώντας Aspose.Words με C#. |
 | [Δημιουργία κενής εγγράφου Word και προσθήκη χρωματιστών σχημάτων με Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε χρωματιστά σχήματα χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να ομαδοποιήσετε σχήματα στο Word με Aspose.Words για C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για C#. |
+| [Πώς να δημιουργήσετε κενό έγγραφο Word και σχήματα ομάδας σε C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

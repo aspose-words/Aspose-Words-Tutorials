@@ -36,6 +36,7 @@ Estos tutoriales le ofrecen un enfoque práctico, paso a paso, para el procesami
 | [Insertar ejemplo de OleControlType.CommandButton en Word](./insert-olecontroltype-commandbutton-example-in-word/) Aprenda a insertar y configurar un control CommandButton usando OleControlType en documentos Word con Aspose.Words para .NET.
 | [Cómo crear un botón de comando ActiveX en Word usando C#](./how-to-create-activex-command-button-in-word-using-c/) Aprenda a crear y configurar un botón de comando ActiveX en documentos de Word mediante C# con Aspose.Words para .NET.
 | [Cómo agregar un control ActiveX en Word con C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Aprenda a agregar un control ActiveX en documentos de Word usando C# y Aspose.Words para .NET con una guía paso a paso. |
+| [Cómo insertar un botón de comando OLE en un documento de Word usando C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) Aprenda a insertar un botón de comando OLE en documentos de Word con Aspose.Words para .NET usando C# en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

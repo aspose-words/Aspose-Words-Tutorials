@@ -77,6 +77,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat dokumen Word kosong dan tambahkan bentuk berwarna dengan Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk berwarna menggunakan Aspose.Words untuk .NET. |
 | [Cara membuat shape tersembunyi docx dengan Aspose.Words di C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Pelajari cara membuat shape tersembunyi dalam file docx menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Cara Mengelompokkan Bentuk di Word menggunakan C# dan Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Pelajari cara mengelompokkan bentuk di Word dengan C# dan Aspose.Words dalam panduan langkah demi langkah. |
+| [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word kosong dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

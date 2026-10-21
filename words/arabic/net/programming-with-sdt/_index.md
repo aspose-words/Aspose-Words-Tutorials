@@ -42,6 +42,7 @@
 | [كيفية إنشاء عنصر تحكم محتوى في C# باستخدام Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | تعلم كيفية إنشاء عنصر تحكم محتوى في مستند Word باستخدام C# ومكتبة Aspose.Words. |
 | [كيفية حفظ مستند Word مع SDT باستخدام Aspose.Words في C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) |تعلم طريقة حفظ مستند Word يحتوي على عناصر تحكم المحتوى المُهيكل باستخدام Aspose.Words في C#. |
 
+| [كيفية إضافة عنصر تحكم محتوى في مستند Word باستخدام Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | تعلم خطوة بخطوة كيفية إضافة عنصر تحكم محتوى إلى مستند Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

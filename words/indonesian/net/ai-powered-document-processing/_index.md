@@ -92,6 +92,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara menerjemahkan docx ke bahasa Prancis dengan Aspose.Words AI di C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Pelajari cara menerjemahkan file DOCX ke bahasa Prancis menggunakan Aspose.Words AI dengan C# secara otomatis. |
 | [Cara merangkum file docx dengan Aspose.Words AI di C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Pelajari cara merangkum file DOCX menggunakan Aspose.Words AI dengan C# secara otomatis. |
 | [Cara Meringkas Dokumen Word dengan Penyedia AI di C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Pelajari cara meringkas dokumen Word menggunakan penyedia AI dalam C# dengan panduan langkah demi langkah. |
+| [Cara Meringkas Dokumen Word dengan Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan Aspose.Words AI dalam panduan langkah demi langkah. |
+| [Cara Menggunakan Penerjemah untuk Mengotomatiskan Terjemahan Dokumen di C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Pelajari cara mengotomatiskan terjemahan dokumen menggunakan Aspose.Words dan penerjemah AI dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

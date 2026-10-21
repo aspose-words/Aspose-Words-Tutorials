@@ -81,6 +81,8 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Serien in einem Word-Liniendiagramm mit C# formatieren](./how-to-format-series-in-a-word-line-chart-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Serien in einem Word-Liniendiagramm formatieren. |
 | [Wie man ein Histogramm in Word mit Aspose.Words erstellt](./how-to-create-histogram-in-word-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Histogramm in ein Word-Dokument einfügen und anpassen. |
 | [Wie man ein Word-Dokument mit C# erstellt, das ein Säulendiagramm mit formatierten Beschriftungen enthält](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und ein Säulendiagramm mit formatierten Datenbeschriftungen hinzufügen. |
+| [Wie man ein Word-Dokument mit einem benutzerdefinierten Kreisdiagramm in C# erstellt](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem individuell angepassten Kreisdiagramm in C# erstellen. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

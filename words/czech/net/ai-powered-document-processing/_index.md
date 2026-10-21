@@ -49,7 +49,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak zkontrolovat gramatiku ve Wordu pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Naučte se, jak pomocí Aspose.Words AI automaticky kontrolovat a opravovat gramatiku v dokumentech Word. |
 | [Jak zkontrolovat gramatiku v C# pomocí lokálního LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Rychle a přesně kontrolujte gramatiku v C# pomocí lokálního modelu LLM. |
 | [Jak sumarizovat dokumenty Word – Kompletní průvodce C#](./how-to-summarize-word-documents-complete-c-guide/) | Kompletní návod, jak pomocí Aspose.Words pro .NET a C# vytvořit shrnutí dokumentů Word s využitím AI. |
-| [Jak opravit gramatiku v souborech DOCX pomocí C# – Kompletní průvodce krok za krokem](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Naučte se pomocí Aspose.Words pro .NET opravit gramatické chyby v DOCX souborech pomocí C# v podrobném průvodci. |
+| [Jak opravit gramatiku v souborech DOCX pomocí C# – Kompletní průvodce krok za krokem](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Naučte se pomocí Aspose.Words pro .NET opravit gramatičké chyby v DOCX souborech pomocí C# v podrobném průvodci. |
 | [Shrnutí Word dokumentu s lokálním LLM – průvodce v C#](./summarize-word-document-with-local-llm-c-guide/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty bez odesílání dat do cloudu. |
 | [Jak zkontrolovat gramatiku v dokumentech Word – Kompletní průvodce v C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
 | [Jak zkontrolovat gramatiku pomocí lokálního LLM v C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Naučte se, jak pomocí lokálního LLM v C# kontrolovat gramatiku v dokumentech Word s Aspose.Words. |
@@ -90,6 +90,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak použít AI sumarizér dokumentů v C#](./how-to-use-an-ai-document-summarizer-in-c/) | Naučte se, jak pomocí AI sumarizovat dokumenty v C# s Aspose.Words. |
 | [Jak přeložit docx do francouzštiny pomocí Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Naučte se pomocí Aspose.Words AI přeložit dokument DOCX do francouzštiny. |
 | [Jak sumarizovat Word dokument s poskytovateli AI v C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Kompletní průvodce, jak pomocí různých AI poskytovatelů v C# vytvořit shrnutí Word dokumentu. |
+| [Jak shrnout Word dokument pomocí Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Kompletní průvodce, jak pomocí Aspose.Words AI vytvořit shrnutí Word dokumentu v C#. |
+| [Jak použít překladač k automatizaci překladu dokumentů v C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Naučte se pomocí Aspose.Words a AI překladače automaticky překládat dokumenty v C#. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

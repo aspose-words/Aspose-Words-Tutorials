@@ -82,6 +82,7 @@
 | [Как создать круговую диаграмму в документе Word с помощью Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как создать гистограмму в документе Word с помощью Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Узнайте, как добавить гистограмму в документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как создать документ Word на C# с колонной диаграммой и отформатированными метками](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Узнайте, как создать документ Word с колонной диаграммой и отформатировать метки данных, используя Aspose.Words для .NET. |
+| [Как создать документ Word с настраиваемой круговой диаграммой на C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Узнайте, как создать документ Word с кастомизированной круговой диаграммой в C# с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

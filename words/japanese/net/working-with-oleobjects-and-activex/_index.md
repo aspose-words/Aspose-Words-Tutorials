@@ -37,6 +37,7 @@ Aspose.Words for .NET の OLE および ActiveX オブジェクトを使った W
 | [Aspose.Words で Word 文書に ActiveX ボタンを追加する方法](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) Aspose.Words for .NET を使用して Word 文書に ActiveX ボタンを追加する手順をステップバイステップで解説します。 |
 | [Word に OleControlType.CommandButton の例を挿入する](./insert-olecontroltype-commandbutton-example-in-word/) Aspose.Words for .NET を使用して、Word 文書に OleControlType.CommandButton の例を挿入する方法をステップバイステップで解説します。 |
 | [C# で Word に ActiveX コントロールを追加する方法](./how-to-add-an-activex-control-word-in-word-with-c/) Aspose.Words for .NET と C# を使用して、Word 文書に ActiveX コントロールを挿入する手順を解説します。 |
+| [C# を使用して Word 文書に OLE コマンドボタンを挿入する](./how-to-insert-ole-command-button-in-a-word-document-using-c/) Aspose.Words for .NET を使い、C# で Word 文書に OLE コマンドボタンを追加する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

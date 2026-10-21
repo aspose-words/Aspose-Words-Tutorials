@@ -82,6 +82,8 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [C# で Word の折れ線グラフの系列をフォーマットする方法](./how-to-format-series-in-a-word-line-chart-with-c/) Aspose.Words for .NET を使用して、Word の折れ線グラフの系列をカスタマイズする手順をステップバイステップで解説します。 |
 | [Aspose.Words を使用して Word 文書にヒストグラムを作成する方法](./how-to-create-histogram-in-word-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書にヒストグラムを挿入し、データを視覚化する手順をステップバイステップで解説します。 |
 | [C# で列グラフと書式設定されたラベルを含む Word 文書を作成する方法](./how-to-create-word-document-c-with-a-column-chart-and-format/) Aspose.Words for .NET を使用して、C# で列グラフと書式設定ラベルを持つ Word 文書を作成する手順を解説します。 |
+| [C# でカスタマイズされた円グラフを含む Word 文書を作成する方法](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) Aspose.Words for .NET を使用して、カスタマイズされた円グラフを含む Word 文書を作成する手順をステップバイステップで解説します。 |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

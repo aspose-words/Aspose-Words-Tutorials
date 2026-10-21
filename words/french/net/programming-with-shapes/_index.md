@@ -77,6 +77,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Créer un document Word vierge et ajouter des formes colorées avec Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Apprenez à créer un document Word vierge et y ajouter des formes colorées à l'aide d'Aspose.Words pour .NET. |
 | [Comment créer un docx avec forme cachée avec Aspose.Words en C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Apprenez à créer un document Word contenant une forme cachée à l'aide d'Aspose.Words pour .NET en C#. |
 | [Comment regrouper des formes dans Word avec Aspose.Words pour C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Apprenez à regrouper plusieurs formes dans un document Word en utilisant Aspose.Words pour .NET avec ce guide étape par étape. |
+| [Comment créer un document Word vierge et regrouper des formes en C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Apprenez à créer un document Word vierge et à regrouper des formes en C# avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

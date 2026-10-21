@@ -78,6 +78,7 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [Aspose.Words で空白の Word 文書を作成し、カラー図形を追加](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) このチュートリアルでは、Aspose.Words for .NET を使用して、空白の Word 文書にカラフルな図形を追加する手順をステップバイステップで解説します。 |
 | [Aspose.Words を使用して C# で非表示シェイプの docx を作成する方法](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) Aspose.Words for .NET を使用して、非表示の図形を含む Word 文書を作成する手順を解説します。 |
 | [C# 用 Aspose.Words で Word の図形をグループ化する方法](./how-to-group-shapes-in-word-with-aspose-words-for-c/) Aspose.Words for .NET を使用し、C# で Word 文書内の図形をグループ化する手順をステップバイステップで解説します。 |
+| [C# で空白の Word 文書とグループ図形を作成する方法](./how-to-create-blank-word-document-and-group-shapes-in-c/) このチュートリアルでは、C# を使用して空白の Word 文書を作成し、グループ図形を追加する手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,7 @@ Die Codebeispiele in den Tutorials helfen Ihnen, die Konzepte zu verstehen und d
 
 | [Wie man ein Inhaltssteuerelement in C# mit Aspose.Words erstellt](./how-to-create-content-control-in-c-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Inhaltssteuerelement in C# erstellen. |
 | [Word-Dokument mit SDT speichern (C#)](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Erfahren Sie, wie Sie ein Word-Dokument mit strukturierten Inhaltssteuerelementen in C# speichern. |
+| [Wie man ein Inhaltssteuerelement in ein Word-Dokument mit Aspose.Words hinzufügt](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Erfahren Sie, wie Sie mit Aspose.Words ein Inhaltssteuerelement in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

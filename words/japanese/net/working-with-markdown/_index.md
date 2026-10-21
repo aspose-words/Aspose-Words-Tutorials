@@ -42,8 +42,7 @@ Words Processing with Markdownは、Aspose.Words for .NETライブラリを用�
 | [Aspose.Words で Markdown から Word を作成 – 完全ガイド](./create-word-from-markdown-with-aspose-words-full-guide/) Aspose.Words for .NET を使用して、Markdown から Word 文書を作成する完全ガイドです。ステップバイステップで解説します。 |
 | [強調点](./emphases/) Aspose.Words for .NET を使用して、Markdown で強調テキストを作成する方法を学びます。このガイドでは、太字、斜体、および複合スタイルをステップバイステップで説明します。 |
 | [警告ソースを使用する](./use-warning-source/) Markdownの警告を処理するためのWarningSourceクラスの使い方をステップバイステップで解説するガイドで、Aspose.Words for .NETをマスターしましょう。C#開発者に最適です。 |
-
-
+| [Markdown から C# で docx として文書を保存する方法](./how-to-save-document-as-docx-from-markdown-in-c/) Aspose.Words for .NET を使用して、Markdown から C# で docx ファイルに変換し保存する手順を解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

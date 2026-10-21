@@ -81,6 +81,8 @@
 | [إنشاء مخطط دائري في Word باستخدام C# – دليل خطوة بخطوة](./create-pie-chart-word-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words لـ .NET مع C# خطوة بخطوة. |
 | [كيفية تنسيق السلسلة في مخطط خطي في Word باستخدام C#](./how-to-format-series-in-a-word-line-chart-with-c/) | تعرّف على طريقة تنسيق سلاسل البيانات في مخطط خطي باستخدام Aspose.Words لـ .NET وC#. |
 | [كيفية إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | تعرّف على طريقة إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية إنشاء مستند Word مع مخطط دائري مخصص في C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | تعلم كيفية إنشاء مستند Word وإضافة مخطط دائري مخصص باستخدام Aspose.Words لـ .NET وC#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

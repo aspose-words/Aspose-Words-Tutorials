@@ -79,6 +79,7 @@
 | [كيفية إنشاء شكل مخفي في ملف docx باستخدام Aspose.Words في C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | تعلم كيفية إنشاء شكل مخفي في مستند Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام Aspose.Words لـ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
+| [كيفية إنشاء مستند Word فارغ وتجمّع الأشكال في C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words وC#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

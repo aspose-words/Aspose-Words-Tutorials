@@ -81,6 +81,7 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Jak sformatować serie na wykresie liniowym w Wordzie w C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Dowiedz się, jak formatować serie wykresu liniowego w dokumencie Word przy użyciu Aspose.Words i C#. |
 | [Jak utworzyć dokument Word w C# z wykresem kolumnowym i sformatowanymi etykietami](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Dowiedz się, jak w C# utworzyć dokument Word z wykresem kolumnowym i sformatowanymi etykietami danych. |
 | [Jak utworzyć histogram w programie Word przy użyciu Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Dowiedz się, jak w prosty sposób utworzyć histogram w dokumencie Word przy użyciu Aspose.Words dla .NET. |
+| [Jak utworzyć dokument Word z niestandardowym wykresem kołowym w C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Dowiedz się, jak utworzyć dokument Word z niestandardowym wykresem kołowym w C# przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
