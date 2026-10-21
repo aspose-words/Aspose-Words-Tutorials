@@ -75,6 +75,8 @@
 Научитесь вставлять кнопку ActiveX в документ Word и задавать её подпись с помощью Aspose.Words для Java.
 ### [Создание docx, содержащего ActiveX, с Java и Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Узнайте, как создавать документы docx с элементами ActiveX, используя Java и Aspose.Words.
+### [Создание пустого документа Word и добавление кнопки ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Узнайте, как создать пустой документ Word и добавить кнопку ActiveX с помощью Aspose.Words для Java.
 ### [Использование ревизий в Aspose.Words для Java](./using-revisions/)
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)

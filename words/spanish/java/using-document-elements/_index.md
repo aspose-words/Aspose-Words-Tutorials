@@ -54,6 +54,8 @@ Aprenda a crear documentos DOCX con controles ActiveX usando Java y Aspose.Words
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Crear un documento Word en blanco y agregar un botón ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Aprenda a crear un documento Word vacío y añadir un botón ActiveX usando Aspose.Words para Java.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)

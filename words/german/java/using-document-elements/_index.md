@@ -121,6 +121,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgeste
 Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstellen und ein Radar-Diagramm einfügen.
 ### [DOCX mit ActiveX in Java und Aspose.Words erstellen](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX-Dateien erstellen, die ActiveX-Steuerelemente enthalten.
+### [Ein leeres Word-Dokument erstellen und eine ActiveX-Schaltfläche hinzufügen (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erzeugen und eine ActiveX-Schaltfläche einfügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

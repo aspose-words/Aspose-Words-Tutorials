@@ -143,6 +143,8 @@ C# में Aspose.Words का उपयोग करके खाली द�
 
 ### [जावा के साथ docx में छवि सम्मिलित करें और Word में छवि छुपाएँ](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑चरण प्रक्रिया।
+### [जावा के साथ Word में आकृतियों को समूहित करने की पूरी गाइड](./how-to-group-shapes-in-word-with-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑चरण निर्देश।
 
 ## अतिरिक्त संसाधन
 

@@ -47,6 +47,7 @@
 
 ### [Εφαρμογή Σκιάς σε Σχήμα σε C# – Οδηγός Βήμα‑βήμα](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Μάθετε πώς να προσθέσετε εφέ σκιάς σε σχήματα χρησιμοποιώντας το Aspose.Words για C# με αναλυτικές οδηγίες βήμα‑βήμα.
+
 ### [Πώς να ορίσετε σκιά σε σχήμα στο Aspose.Words – Πλήρης οδηγός](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα με το Aspose.Words για Java, βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
 
@@ -122,6 +123,8 @@
 
 ### [Πώς να εισάγετε εικόνα σε docx και να κρύψετε την εικόνα στο Word με Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Μάθετε πώς να προσθέσετε εικόνα σε αρχείο docx και να την κρύψετε στο Word χρησιμοποιώντας Java.
+### [Πώς να ομαδοποιήσετε σχήματα στο Word με Java – πλήρης οδηγός](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word με το Aspose.Words για Java, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 ## Πρόσθετοι Πόροι
 

@@ -124,6 +124,8 @@ Scopri come creare un documento vuoto e inserire forme usando Aspose.Words per C
 
 ### [Come inserire un'immagine in un file docx e nascondere l'immagine in Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Scopri come aggiungere un'immagine a un documento DOCX e nasconderla in Word usando Aspose.Words per Java.
+### [Come raggruppare le forme in Word con Java – guida completa](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Scopri come raggruppare più forme in un documento Word usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

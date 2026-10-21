@@ -121,6 +121,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Dokument erstellen und
 
 ### [Wie man ein Bild in docx einfügt und das Bild in Word mit Java ausblendet](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Bild in ein DOCX einfügen und es anschließend ausblenden.
+### [Formen in Word mit Java gruppieren – vollständige Anleitung](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java mehrere Formen zu einer Gruppe zusammenfassen und deren Eigenschaften gemeinsam verwalten.
 
 ## Weitere Ressourcen
 

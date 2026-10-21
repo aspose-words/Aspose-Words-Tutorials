@@ -83,6 +83,8 @@ Hướng dẫn chi tiết cách sử dụng Forms2OleControl để chèn điều
 ### [Cách tạo forms2olecontrol trong mã với Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Hướng dẫn cách tạo đối tượng Forms2OleControl trong mã Java bằng Aspose.Words.
 ### [Cách tạo nút lệnh ActiveX trong Java](./how-to-create-activex-command-button-in-java/)
+### [Tạo tài liệu Word trống và thêm nút ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Hướng dẫn tạo tài liệu Word trống và chèn nút ActiveX bằng Aspose.Words cho Java.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)

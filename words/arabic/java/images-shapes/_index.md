@@ -124,6 +124,8 @@
 
 ### [كيفية إدراج صورة في ملف docx وإخفاء الصورة في Word باستخدام Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 تعلم كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose.Words لجافا.
+### [كيفية تجميع الأشكال في Word باستخدام Java – دليل كامل](./how-to-group-shapes-in-word-with-java-complete-guide/)
+تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
 
 ## موارد إضافية
 

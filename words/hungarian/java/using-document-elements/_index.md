@@ -118,6 +118,7 @@ Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
 ### [ActiveX parancsgomb létrehozása Java-ban](./how-to-create-activex-command-button-in-java/)
 Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az Aspose.Words segítségével.
+### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

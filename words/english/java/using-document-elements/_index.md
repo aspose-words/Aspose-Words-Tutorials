@@ -60,6 +60,8 @@ Learn how to create a radial chart in a Word document using Aspose.Words for Jav
 
 ### [How to create ActiveX command button in Java](./how-to-create-activex-command-button-in-java/)
 Learn how to add an ActiveX command button in Aspose.Words for Java documents with step-by-step guidance.
+### [Create a blank Word document and add an ActiveX button (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Learn how to create a blank Word document and insert an ActiveX button using Aspose.Words for Java.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

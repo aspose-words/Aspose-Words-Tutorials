@@ -123,6 +123,8 @@ C# と DocumentBuilder を使って Word 文書内の図形をグループ化す
 
 ### [Javaでdocxに画像を挿入し、Wordで画像を非表示にする方法](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
+### [Java で Word の図形をグループ化する方法 – 完全ガイド](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

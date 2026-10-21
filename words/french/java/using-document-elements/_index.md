@@ -117,6 +117,8 @@ Apprenez à créer un document Word via code Java et à y ajouter un bouton inte
 Apprenez à insérer un graphique en secteurs dans un document Word en utilisant Aspose.Words pour Java.
 ### [Comment créer un fichier docx contenant ActiveX avec Java et Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Apprenez à créer un document docx contenant des contrôles ActiveX avec Java et Aspose.Words.
+### [Créer un document Word vierge et ajouter un bouton ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

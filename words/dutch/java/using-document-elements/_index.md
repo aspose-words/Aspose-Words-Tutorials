@@ -81,6 +81,8 @@ Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aan
 Leer hoe u een DOCX-bestand met ActiveX-inhoud maakt met Java en Aspose.Words.
 ### [ActiveX-opdrachtknop maken in Java](./how-to-create-activex-command-button-in-java/)
 Leer hoe u een ActiveX-opdrachtknop toevoegt aan uw Java-toepassing met Aspose.Words.
+### [Maak een leeg Word-document en voeg een ActiveX-knop toe (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Leer hoe u een leeg Word-document maakt en een ActiveX-knop toevoegt met Aspose.Words voor Java.
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)

@@ -119,6 +119,8 @@
 
 ### [วิธีแทรกภาพลงในไฟล์ docx และซ่อนภาพใน Word ด้วย Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 เรียนรู้วิธีแทรกภาพในไฟล์ docx และซ่อนภาพในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+### [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-group-shapes-in-word-with-java-complete-guide/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

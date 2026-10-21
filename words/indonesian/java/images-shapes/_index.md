@@ -48,6 +48,8 @@ Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan 
 Panduan langkah demi langkah menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk C#.
 ### [Cara Menetapkan Bayangan pada Bentuk di Aspose.Words – Panduan Lengkap](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
+### [Cara Mengelompokkan Bentuk di Word dengan Java – Panduan Lengkap](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Panduan lengkap untuk mengelompokkan bentuk dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
 ### [Cara Menetapkan Bayangan pada Bentuk di C# – Tambahkan Bayangan Bentuk dengan Mudah](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Pelajari cara menambahkan efek bayangan pada bentuk di C# menggunakan Aspose.Words dengan langkah mudah.

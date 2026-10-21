@@ -48,6 +48,8 @@
 Узнайте, как добавить эффект тени к фигурам в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Как установить тень у фигуры в Aspose.Words – Полное руководство](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Узнайте, как добавить и настроить тень для фигур в документах Word с помощью Aspose.Words для Java.
+### [Как группировать фигуры в Word с помощью Java – полное руководство](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для Java.
 
 ### [Как добавить тень к фигуре в C# – легко добавить тень](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для C#.

@@ -48,6 +48,8 @@ Java를 사용해 Word 문서에서 구분 기호를 추출하는 방법을 단�
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Java에서 빈 Word 문서를 만들고 ActiveX 버튼 추가](./create-a-blank-word-document-and-add-an-activex-button-java/)
+빈 Word 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
 Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. 문서에 주석을 추가하고 사용자 지정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)

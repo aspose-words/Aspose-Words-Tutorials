@@ -122,6 +122,8 @@ Aspose.Words Java 代码教程
 
 ### [如何在 Java 中将图像插入 docx 并在 Word 中隐藏图像](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 了解如何在 Java 中将图像插入 docx 并在 Word 中隐藏图像。
+### [使用 Java 在 Word 中对形状进行分组 – 完整指南](./how-to-group-shapes-in-word-with-java-complete-guide/)
+学习如何在 Word 文档中使用 Aspose.Words for Java 对多个形状进行分组，以实现更复杂的布局和设计。
 
 ## 其他资源
 

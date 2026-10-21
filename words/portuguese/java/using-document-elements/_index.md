@@ -52,6 +52,8 @@ Aprenda a criar um documento Word vazio e inserir um controle de texto simples u
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Criando um documento Word em branco e adicionando um botão ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Aprenda a criar um documento Word vazio e inserir um botão ActiveX usando Aspose.Words para Java.
 ### [Usando comentários no Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentários no Aspose.Words para Java. Tutorial passo a passo para adicionar e personalizar comentários em seus documentos.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)

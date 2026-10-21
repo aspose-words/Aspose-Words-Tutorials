@@ -1,0 +1,7 @@
+Title: Create blank document, add ActiveX control with AI summary
+Slug: create-blank-document-add-activex-control-with-ai-summary
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-10-17T02:10:01.173807
+SourceRepo: AI Search API
+Keywords: create blank document, add activex control, summarize document with ai, translate text to spanish, save word document
+PRNumber: 325

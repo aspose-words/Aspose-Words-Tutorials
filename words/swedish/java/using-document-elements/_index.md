@@ -118,6 +118,8 @@ Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en knapp
 Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C#.
 ### [Hur man infogar ett cirkeldiagram i ett Word-dokument med Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
+### [Skapa ett tomt Word-dokument och lägg till en ActiveX-knapp (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar en ActiveX-knapp med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

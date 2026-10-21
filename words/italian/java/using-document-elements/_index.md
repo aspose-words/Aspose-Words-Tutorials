@@ -46,6 +46,8 @@ Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a cre
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Creare un documento Word vuoto e aggiungere un pulsante ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Impara a creare un documento Word vuoto e inserire un pulsante ActiveX usando Aspose.Words per Java.
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)

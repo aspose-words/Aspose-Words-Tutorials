@@ -119,6 +119,8 @@ Dowiedz się, jak w Aspose.Words for Java stworzyć wykres radialny w dokumencie
 Dowiedz się, jak w C# stworzyć pusty dokument Word i wstawić wykres radarowy krok po kroku.
 ### [Utwórz dokument Word programowo i wstaw przycisk](./create-word-document-programmatically-and-insert-a-button/)
 Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk przy użyciu Aspose.Words for Java.
+### [Utwórz pusty dokument Word i dodaj przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać przycisk ActiveX krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

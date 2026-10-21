@@ -93,6 +93,9 @@
 了解如何在 Java 中使用 Aspose.Words 建立包含 ActiveX 控制項的 docx 文件。
 ### [在 Aspose.Words for Java 中建立 ActiveX 命令按鈕](./how-to-create-activex-command-button-in-java/)
 了解如何在 Aspose.Words for Java 中使用 ActiveX 命令按鈕，實作互動式文件功能。
+### [在 Aspose.Words for Java 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-java/)
+了解如何使用 Aspose.Words for Java 建立空白 Word 文件，並在其中插入 ActiveX 按鈕，以實現互動功能。
+
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 

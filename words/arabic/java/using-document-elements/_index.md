@@ -74,6 +74,8 @@
 تعلم خطوة بخطوة كيفية إضافة زر ActiveX إلى مستند Word وتحديد تسمية الزر باستخدام Aspose.Words لجافا.
 ### [كيفية إنشاء forms2olecontrol في الكود باستخدام Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 دليل خطوة بخطوة لإنشاء عنصر forms2olecontrol برمجيًا باستخدام Aspose.Words لجافا.
+### [إنشاء مستند Word فارغ وإضافة زر ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة زر ActiveX باستخدام Aspose.Words لجافا.
 ### [استخدام المراجعات في Aspose.Words لـ Java](./using-revisions/)
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)

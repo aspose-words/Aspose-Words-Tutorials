@@ -123,6 +123,8 @@ Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in
 
 ### [Afbeelding invoegen in docx en verbergen in Word met Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
+### [Hoe vormen groeperen in Word met Java – complete gids](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Leer hoe u meerdere vormen in een Word‑document groepeert met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

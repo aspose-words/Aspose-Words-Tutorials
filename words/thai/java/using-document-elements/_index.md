@@ -115,6 +115,8 @@
 เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
 ### [วิธีสร้างปุ่มคำสั่ง ActiveX ใน Java](./how-to-create-activex-command-button-in-java/)
 เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

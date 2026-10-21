@@ -115,6 +115,7 @@ Pelajari cara menambahkan diagram pai ke dokumen Word dengan Aspose.Words untuk 
 Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan Aspose.Words.
 ### [Cara Membuat Tombol Perintah ActiveX di Java](./how-to-create-activex-command-button-in-java/)
 Pelajari cara membuat tombol perintah ActiveX di Aspose.Words untuk Java. Tambahkan kontrol interaktif ke dokumen Word Anda.
+### [Buat dokumen Word kosong dan tambahkan tombol ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

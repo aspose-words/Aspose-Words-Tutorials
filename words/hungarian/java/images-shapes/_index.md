@@ -122,6 +122,8 @@ Tanulja meg, hogyan hozhat létre üres Word-dokumentumot, és adhat hozzá alak
 
 ### [Hogyan szúrjunk be képet docx-be, és rejtsük el a képet Word-ben Java-val](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Word dokumentumban Java használatával.
+### [Hogyan csoportosítsunk alakzatokat Word-ben Java-val – teljes útmutató](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
 
 ## További források
 
