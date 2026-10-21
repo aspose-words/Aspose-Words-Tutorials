@@ -58,6 +58,9 @@ Comece sua jornada de aprendizado hoje mesmo e descubra as infinitas possibilida
 ## Tutoriais de Manipulação de Documentos
 ### [Marcação de acessibilidade PDF em Java – Gerar PDFs acessíveis](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aprenda a criar PDFs acessíveis com marcações de acessibilidade usando Aspose.Words para Java.
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Usando opções de limpeza no Aspose.Words para Java](./using-cleanup-options/)
 Melhore a clareza do documento com as opções de limpeza do Aspose.Words para Java. Aprenda a remover parágrafos vazios, regiões não utilizadas e muito mais.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)

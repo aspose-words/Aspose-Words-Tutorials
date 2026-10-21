@@ -49,6 +49,9 @@ Dowiedz się, jak wykrywać użyte czcionki w dokumentach Word przy użyciu Aspo
 Dowiedz się, jak ustawić domyślne czcionki w dokumentach przy użyciu Aspose.Words dla Javy. Przewodnik krok po kroku z przykładami kodu.
 ### [Jak ustawić cień na wykresie Word przy użyciu Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Dowiedz się, jak dodać cień do wykresu w dokumencie Word przy użyciu Aspose.Words for Java.
+### [Jak edytować separator przypisu w Javie przy użyciu Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Dowiedz się, jak zmienić separator przypisów w dokumentach Word przy użyciu Aspose.Words for Java. Praktyczny przewodnik z kodem źródłowym.
+### [Jak rozdzielić fragment wykresu w Wordzie i dostosować jego wygląd](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

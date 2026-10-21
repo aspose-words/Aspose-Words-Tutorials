@@ -43,6 +43,9 @@
 Помните, практика ведет к совершенству, и с Aspose.Words для Java вы в кратчайшие сроки научитесь создавать, изменять и улучшать документы как профессионал. Удачного кодирования!
 
 ## Использование обучающих материалов по элементам документа
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Использование комментариев в Aspose.Words для Java](./using-comments/)
 Узнайте, как использовать комментарии в Aspose.Words для Java. Пошаговое руководство по добавлению и настройке комментариев в ваших документах.
 ### [Использование полей в Aspose.Words для Java](./using-fields/)

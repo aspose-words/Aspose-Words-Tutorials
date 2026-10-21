@@ -60,6 +60,8 @@ Bắt đầu hành trình học tập của bạn ngay hôm nay và mở khóa k
 Tăng cường độ rõ nét của tài liệu với tùy chọn dọn dẹp Aspose.Words for Java. Tìm hiểu cách xóa các đoạn văn trống, vùng không sử dụng và nhiều hơn nữa.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
 Mở khóa Tự động hóa Tài liệu với Aspose.Words cho Java. Tìm hiểu cách hợp nhất, định dạng và chèn hình ảnh vào tài liệu Java. Hướng dẫn toàn diện và ví dụ mã để xử lý tài liệu hiệu quả.
+### [Tạo tài liệu Word với điều khiển nội dung văn bản thuần](./create-word-document-with-a-plain-text-content-control/)
+Hướng dẫn tạo tài liệu Word mới và chèn điều khiển nội dung văn bản thuần bằng Aspose.Words cho Java.
 ### [Sử dụng dữ liệu XML trong Aspose.Words cho Java](./using-xml-data/)
 Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, Mail Merge và Mustache Syntax với hướng dẫn từng bước.
 ### [Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java](./extracting-content-from-documents/)

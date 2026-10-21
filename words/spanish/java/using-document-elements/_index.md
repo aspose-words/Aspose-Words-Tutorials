@@ -51,6 +51,9 @@ Aprenda a modificar gráficos en documentos Word con Aspose.Words para Java paso
 Aprenda a guardar el documento Word tras modificar un gráfico de rosquilla usando Aspose.Words para Java.
 ### [Cómo crear un docx que contenga ActiveX con Java y Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Aprenda a crear documentos DOCX con controles ActiveX usando Java y Aspose.Words.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)

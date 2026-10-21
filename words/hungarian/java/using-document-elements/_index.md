@@ -48,6 +48,9 @@ Tanuld meg, hogyan adhatod hozzá a Forms2OleControl elemet a DOCX dokumentumokh
 
 ### [Word dokumentum létrehozása programozottan és gomb beszúrása](./create-word-document-programmatically-and-insert-a-button/)
 Tanuld meg, hogyan hozhatsz létre Word dokumentumot programból, és szúrj be gombot interaktív funkciókkal.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)

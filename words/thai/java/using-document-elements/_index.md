@@ -45,6 +45,9 @@
 ## การใช้บทช่วยสอนองค์ประกอบเอกสาร
 ### [สร้างเอกสาร Word ว่างด้วยปุ่มคำสั่ง – คู่มือทีละขั้นตอน](./create-blank-word-document-with-a-command-button-step-by-ste/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มปุ่มคำสั่งด้วยขั้นตอนง่ายๆ ใน Aspose.Words สำหรับ Java
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java](./using-comments/)
 เรียนรู้วิธีใช้คำอธิบายประกอบใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งคำอธิบายประกอบในเอกสารของคุณ
 ### [การใช้ฟิลด์ใน Aspose.Words สำหรับ Java](./using-fields/)

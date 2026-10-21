@@ -116,6 +116,12 @@
 ### [كيفية إنشاء مستند فارغ وإضافة أشكال باستخدام Aspose.Words في C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 تعلم كيفية إنشاء مستند Word فارغ وإضافة أشكال مختلفة باستخدام Aspose.Words في لغة C# خطوة بخطوة.
 
+### [كيفية تجميع الأشكال في Word باستخدام C# و DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و DocumentBuilder خطوة بخطوة.
+
+### [كيفية إخفاء الشكل في مستند Word باستخدام Java](./how-to-hide-shape-in-a-word-document-using-java/)
+تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+
 ## موارد إضافية
 
 ### [إنشاء مستند Word فارغ مع شكل إهليلجي مخفي](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

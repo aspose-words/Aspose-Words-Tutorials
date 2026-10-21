@@ -49,6 +49,10 @@ Scopri come individuare i font nei documenti Word con Aspose.Words per Java. Ese
 Scopri come impostare i font predefiniti nei documenti con Aspose.Words per Java, con esempi di codice passo passo.
 ### [Come impostare l'ombra su un grafico Word](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Scopri come aggiungere ombra a un grafico Word con Aspose.Words per Java. Esempi di codice passo passo. 
+### [Come modificare il separatore delle note a piè di pagina in Java con Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Scopri come personalizzare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per Java.
+### [Come esplodere una fetta in un grafico Word e personalizzarne l'aspetto](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Scopri come far esplodere una sezione di un grafico Word e personalizzarne l'aspetto con Aspose.Words per Java. Esempi di codice inclusi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

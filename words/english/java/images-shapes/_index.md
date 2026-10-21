@@ -46,6 +46,12 @@ public class InsertImageExample {
 ```
 
 ## Available Tutorials
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 
 ### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "./aspose-words-java-callback-custom-savings/" >}})
 A code tutorial for Aspose.Words Java

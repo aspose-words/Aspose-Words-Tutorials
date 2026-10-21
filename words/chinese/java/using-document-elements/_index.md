@@ -43,6 +43,9 @@
 记住，熟能生巧，有了 Aspose.Words for Java，您很快就能像专业人士一样创建、修改和增强文档。祝您编码愉快！
 
 ## 使用文档元素教程
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [在 Aspose.Words for Java 中使用注释](./using-comments/)
 学习如何在 Aspose.Words for Java 中使用注释。本教程将逐步讲解如何在文档中添加和自定义注释。
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)

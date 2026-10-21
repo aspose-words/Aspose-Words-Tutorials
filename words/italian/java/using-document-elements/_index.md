@@ -43,6 +43,9 @@ In conclusione, padroneggiare la manipolazione degli elementi dei documenti util
 Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a creare, modificare e migliorare documenti come un professionista in pochissimo tempo. Buona programmazione!
 
 ## Tutorial sull'utilizzo degli elementi del documento
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)

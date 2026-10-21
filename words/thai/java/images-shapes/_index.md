@@ -28,6 +28,9 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [การบันทึกหน้าและรูปภาพที่กำหนดเองใน Java ด้วย Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
@@ -110,6 +113,9 @@
 
 ### [วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างด้วย Aspose.Words ใน C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 เรียนรู้วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างใน C# ด้วย Aspose.Words
+
+### [วิธีซ่อนรูปร่างในเอกสาร Word ด้วย Java](./how-to-hide-shape-in-a-word-document-using-java/)
+เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

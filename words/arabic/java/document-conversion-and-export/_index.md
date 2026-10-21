@@ -74,6 +74,9 @@ weight: 22
 لمزيد من المعلومات، اطلع على [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/)، وللبدء، حمّله من [here](https://releases.aspose.com/words/java/). إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، لا تتردد في التواصل مع [support forum](https://forum.aspose.com/).
 
 ## دروس تحويل المستندات وتصديرها
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [إنشاء ملصقات باركود مخصصة في Aspose.Words for Java](./generating-custom-barcode-labels/)
 إنشاء ملصقات باركود مخصصة في Aspose.Words for Java. تعلم كيفية إنشاء حلول باركود مخصصة باستخدام Aspose.Words for Java في هذا الدليل خطوة بخطوة.
 

@@ -60,6 +60,9 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 完整指南展示如何在 Java 中使用 Aspose.Words 创建带有 ActiveX 按钮的 docx 文档。
 ### [使用 Aspose.Words 在 Word 文档中添加内容控件](./add-content-control-in-word-document-with-aspose-words/)
 学习如何使用 Aspose.Words 在 Word 文档中添加和管理内容控件。
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [在 Aspose.Words for Java 中使用清理选项](./using-cleanup-options/)
 使用 Aspose.Words for Java 清理选项增强文档清晰度。了解如何删除空段落、未使用的区域等。
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)

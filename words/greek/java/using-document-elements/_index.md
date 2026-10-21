@@ -114,6 +114,8 @@
 Μάθετε πώς να δημιουργήσετε αρχεία docx που περιέχουν στοιχεία ActiveX χρησιμοποιώντας Java και Aspose.Words.
 ### [Πώς να εισάγετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Μάθετε πώς να προσθέσετε γράφημα πίτας σε έγγραφο Word με Aspose.Words για Java.
+### [Πώς να αρχικοποιήσετε το DocumentBuilder για νέο έγγραφο χρησιμοποιώντας το Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+Μάθετε πώς να δημιουργήσετε και να αρχικοποιήσετε ένα DocumentBuilder για νέο έγγραφο με το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

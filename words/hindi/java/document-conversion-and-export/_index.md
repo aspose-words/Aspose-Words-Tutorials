@@ -65,6 +65,9 @@ Aspose.Words for Java की मुख्य विशेषताओं मे�
 अधिक जानकारी के लिए, देखें [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), और शुरू करने के लिए इसे [here](https://releases.aspose.com/words/java/) से डाउनलोड करें। यदि आपके कोई प्रश्न हैं या सहायता चाहिए, तो हमारे [support forum](https://forum.aspose.com/) पर संपर्क करें।
 
 ## दस्तावेज़ रूपांतरण और निर्यात ट्यूटोरियल
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Aspose.Words for Java में बारकोड जेनरेशन का उपयोग करना](./using-barcode-generation/)
 Aspose.Words for Java का उपयोग करके जावा में कस्टम बारकोड कैसे जेनरेट करें, सीखें। स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ दस्तावेज़ ऑटोमेशन को बढ़ाएँ।
 

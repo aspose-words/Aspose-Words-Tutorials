@@ -45,6 +45,9 @@ Ingat, latihan akan menghasilkan kesempurnaan, dan dengan Aspose.Words untuk Jav
 ## Menggunakan Tutorial Elemen Dokumen
 ### [Membuat dokumen Word kosong dan menyisipkan kontrol teks biasa di Aspose.Words untuk Java](./create-blank-word-document-and-insert-a-plain-text-control/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan kontrol teks biasa menggunakan Aspose.Words untuk Java.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)

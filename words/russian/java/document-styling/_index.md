@@ -49,6 +49,10 @@ Aspose.Words for Java предоставляет мощные инструмен
 Узнайте, как установить настройки шрифта по умолчанию в Aspose.Words для Java. Пошаговое руководство с примерами кода. 
 ### [Как установить тень на диаграмму Word с помощью Aspose.Words для Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Узнайте, как добавить тень к диаграммам Word, используя Aspose.Words для Java. Пошаговое руководство с примером кода.
+### [Как изменить разделитель сносок в Java с помощью Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Узнайте, как изменить разделитель сносок в документах Word с помощью Aspose.Words для Java.
+### [Как «взрывать» срез в диаграмме Word и настроить его внешний вид](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Узнайте, как «взрывать» отдельный срез в диаграмме Word и настраивать его внешний вид с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,6 +119,8 @@ Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív par
 Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot szövegvezérlő hozzáadásával az Aspose.Words for Java segítségével.
 ### [Word dokumentum létrehozása programozott módon az Aspose.Words segítségével](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Tanuld meg, hogyan hozhatsz létre Word dokumentumot kóddal az Aspose.Words használatával.
+### [Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel](./create-word-document-with-a-plain-text-content-control/)
+Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,12 @@ Tìm hiểu cách phát hiện các phông chữ được sử dụng trong tài
 ### [Cách đặt bóng cho biểu đồ Word bằng Aspose.Words cho Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Hướng dẫn cách thêm hiệu ứng bóng cho biểu đồ Word bằng Aspose.Words for Java, kèm ví dụ mã nguồn.
 
+### [Cách chỉnh sửa dấu phân cách chú thích trong Java với Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Tìm hiểu cách chỉnh sửa dấu phân cách chú thích trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Tìm hiểu cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện của chúng bằng Aspose.Words cho Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -49,6 +49,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Schriftarten in Word-Dokumenten
 Erfahren Sie, wie Sie mit Aspose.Words für Java die Standardschriftart und -größe festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Schatten für ein Word-Diagramm mit Aspose.Words für Java festlegen](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Word-Diagrammen hinzufügen und das Erscheinungsbild verbessern.
+### [Wie man das Fußnoten‑Trennzeichen in Java mit Aspose.Words bearbeitet](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie das Trennzeichen von Fußnoten in Java mit Aspose.Words anpassen.
+### [Wie man ein Segment in einem Word-Diagramm explodiert und dessen Aussehen anpasst](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Erfahren Sie, wie Sie ein Segment in einem Word-Diagramm explodieren und das Aussehen individuell anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

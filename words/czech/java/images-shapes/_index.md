@@ -28,6 +28,12 @@ oblasti zpracování dokumentů je integrace obrázků a tvarů klíčová pro v
 
 ## Dostupné tutoriály
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Ukládání vlastních stránek a obrázků v Javě pomocí zpětných volání Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Výukový program pro Aspose.Words v Javě
 

@@ -31,6 +31,12 @@ Jakmile si osvojíte základní dovednosti v oblasti stylingu dokumentů, přejd
 těchto tutoriálech se zaměříme nejen na vytváření vizuálně přitažlivých dokumentů, ale také na optimalizaci procesu stylingu pro efektivitu. Aspose.Words pro Javu nabízí širokou škálu API, která vývojářům umožňují automatizovat úlohy stylingu dokumentů. Naučíte se, jak programově aplikovat styly, dynamicky generovat rozvržení dokumentů na základě dat a implementovat podmíněné formátování pro zvýraznění konkrétního obsahu. Využitím těchto efektivních stylistických technik můžete výrazně snížit manuální úsilí a vytvářet dynamické, přizpůsobené dokumenty, které splňují vaše specifické potřeby zpracování dokumentů.
 
 ## Návody na stylování dokumentů
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
+### [How to edit footnote separator in Java with Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+
+
 ### [Stylování dokumentů Wordu](./word-document-styling/)
 Naučte se, jak stylovat a zpracovávat dokumenty pomocí Aspose.Words pro Javu! Vytvářejte vizuálně ohromující výstupy s příklady zdrojového kódu. 
 ### [Použití stylů a písem v dokumentech](./applying-styles-fonts/)

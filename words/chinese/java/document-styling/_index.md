@@ -49,6 +49,10 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 学习如何在 Aspose.Words for Java 中设置默认字体，包括字体名称、大小和样式的完整示例，帮助统一文档外观。
 ### [使用 Aspose.Words for Java 为 Word 图表设置阴影](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 学习如何使用 Aspose.Words for Java 为 Word 图表添加阴影效果，提升视觉表现。包含完整示例代码。
+### [如何在 Java 中编辑脚注分隔符](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+学习如何在 Java 中使用 Aspose.Words 编辑脚注分隔符，提供完整代码示例。
+### [在 Word 图表中拆分切片并自定义外观](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+学习如何在 Word 图表中拆分切片并自定义其外观，包含完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

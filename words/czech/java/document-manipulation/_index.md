@@ -136,6 +136,8 @@ Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspo
 ### [Vytvoření prázdného dokumentu s interaktivním tlačítkem v aplikaci Word pomocí Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj interaktivní tlačítko příkazu.
 ### [Jak vytvořit prázdný dokument Word s textovým ovládacím prvkem](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Vytvoření dokumentu Word s prostým textovým ovládacím prvkem](./create-word-document-with-a-plain-text-content-control/)
+Naučte se vytvořit dokument Word s jednoduchým textovým ovládacím prvkem pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

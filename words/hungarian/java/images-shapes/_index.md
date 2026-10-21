@@ -28,6 +28,12 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 
 ## Elérhető oktatóanyagok
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Egyéni oldal és kép mentése Java-ban Aspose.Words visszahívásokkal](./aspose-words-java-callback-custom-savings/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 

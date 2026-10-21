@@ -42,13 +42,15 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Dokumentelementbear
 
 Denken Sie daran: Übung macht den Meister. Mit Aspose.Words für Java erstellen, bearbeiten und verbessern Sie Dokumente im Handumdrehen wie ein Profi. Viel Spaß beim Programmieren!
 
-## Tutorials zum Verwenden von Dokumentelementen
 ### [Diagramm in einem Word-Dokument mit Java bearbeiten](./how-to-edit-chart-in-a-word-document-using-java/)
 Erfahren Sie, wie Sie Diagramme in Word-Dokumenten programmgesteuert mit Aspose.Words für Java bearbeiten und anpassen.
 
 ### [Word-Dokument nach Bearbeitung eines Donut-Diagramms in Java speichern](./save-word-document-after-editing-doughnut-chart-in-java/)
 Erfahren Sie, wie Sie ein Word-Dokument nach dem Bearbeiten eines Donut-Diagramms mit Aspose.Words für Java speichern.
 
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+ zum Verwenden von Dokumentelementen
 ### [Verwenden von Kommentaren in Aspose.Words für Java](./using-comments/)
 Erfahren Sie, wie Sie Kommentare in Aspose.Words für Java verwenden. Schritt-für-Schritt-Anleitung zum Hinzufügen und Anpassen von Kommentaren in Ihren Dokumenten.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)

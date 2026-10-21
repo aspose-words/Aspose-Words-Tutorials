@@ -45,6 +45,9 @@ Aspose.Words for Java를 사용하면 동적 문서를 즉시 생성할 수 있�
 ## 문서 요소 사용 튜토리얼
 ### [Java로 Word 문서에서 구분 기호 가져오기](./how-to-get-separator-in-word-docs-with-java/)
 Java를 사용해 Word 문서에서 구분 기호를 추출하는 방법을 단계별로 안내합니다.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
 Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. 문서에 주석을 추가하고 사용자 지정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)

@@ -45,6 +45,8 @@ Aspose.Words for Java के साथ, आप तुरंत गतिशी�
 ## दस्तावेज़ तत्वों का उपयोग ट्यूटोरियल
 ### [कमांड बटन के साथ खाली Word दस्तावेज़ बनाना – चरण‑दर‑चरण मार्गदर्शिका](./create-blank-word-document-with-a-command-button-step-by-ste/)
 कमांड बटन का उपयोग करके खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
 
 ### [Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना](./using-comments/)
 Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना सीखें। अपने दस्तावेज़ों में टिप्पणियाँ जोड़ने और उन्हें अनुकूलित करने के लिए चरण-दर-स्टेप ट्यूटोरियल।

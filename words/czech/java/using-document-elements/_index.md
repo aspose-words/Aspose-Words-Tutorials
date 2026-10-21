@@ -51,6 +51,9 @@ Naučte se, jak v Aspose.Words pro Javu získat a použít oddělovač v dokumen
 Naučte se, jak v Aspose.Words pro Javu přidat vodící čáry do koláčových grafů pomocí Chart API.
 ### [Jak vytvořit dokument Word s místodržiteli a seznamy](./how-to-create-word-document-with-placeholders-and-lists/)
 Naučte se, jak v Aspose.Words pro Javu vytvořit dokument Word s placeholdery a seznamy.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Používání komentářů v Aspose.Words pro Javu](./using-comments/)
 Naučte se, jak používat komentáře v Aspose.Words pro Javu. Podrobný návod pro přidávání a úpravu komentářů v dokumentech.
 ### [Používání polí v Aspose.Words pro Javu](./using-fields/)

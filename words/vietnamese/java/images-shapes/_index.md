@@ -28,6 +28,12 @@ Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình
 
 ## Hướng dẫn có sẵn
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Lưu trang và hình ảnh tùy chỉnh trong Java với Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Hướng dẫn mã cho Aspose.Words Java
 

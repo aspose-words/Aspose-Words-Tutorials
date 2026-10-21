@@ -119,6 +119,9 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Как программно создать документ Word с помощью Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words для Java.
 
+### [Создание документа Word с простым текстовым элементом управления](./create-word-document-with-a-plain-text-content-control/)
+Узнайте, как создать документ Word, содержащий простой текстовый элемент управления, используя Aspose.Words для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -119,6 +119,9 @@ Java के लिए Aspose.Words के साथ टेक्स्ट कं
 ### [Aspose.Words के साथ प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Aspose.Words for Java का उपयोग करके प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाने की विधि सीखें।
 
+### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
+सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -119,6 +119,9 @@ Voeg een inhoudsbesturingselement toe aan een Word-document met Aspose.Words. Vo
 ### [Maak een leeg document met een interactieve opdrachtknop in Word met Java](./create-blank-document-with-an-interactive-command-button-in/)
 Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoegt met Aspose.Words voor Java.
 
+### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
+Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -28,6 +28,12 @@ Inom dokumentbehandling är integrering av bilder och former avgörande för att
 
 ## Tillgängliga handledningar
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Spara anpassade sidor och bilder i Java med Aspose.Words-återanrop](./aspose-words-java-callback-custom-savings/)
 En kodhandledning för Aspose.Words Java
 

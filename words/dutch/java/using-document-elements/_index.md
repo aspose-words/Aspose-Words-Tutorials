@@ -42,7 +42,10 @@ Kortom, het beheersen van documentelementmanipulatie met Aspose.Words voor Java 
 
 Vergeet niet: oefening baart kunst, en met Aspose.Words voor Java maak, wijzig en verbeter je in een mum van tijd documenten als een professional. Veel plezier met programmeren!
 
-## Tutorials over het gebruik van documentelementen
+## Tutorials
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+ over het gebruik van documentelementen
 ### [Opmerkingen gebruiken in Aspose.Words voor Java](./using-comments/)
 Leer hoe je opmerkingen gebruikt in Aspose.Words voor Java. Stapsgewijze handleiding voor het toevoegen en aanpassen van opmerkingen in je documenten.
 ### [Velden gebruiken in Aspose.Words voor Java](./using-fields/)

@@ -99,6 +99,9 @@ Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step�
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
 ### [Using Office Math Objects in Aspose.Words for Java]({{< relref "using-office-math-objects/_index.md" >}})
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.

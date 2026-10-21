@@ -28,6 +28,9 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ## 利用可能なチュートリアル
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
 ### [Aspose.Words コールバックを使用して Java でカスタムページと画像を保存する](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Javaのコードチュートリアル
 
@@ -114,6 +117,9 @@ Javaで空白のWord文書を作成し、図形をグループ化する方法を
 
 ### [空白のドキュメントを作成し、Aspose.Words で図形を追加する方法（C#）](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Aspose.Words for C# を使用して、空白のドキュメントを作成し、図形を追加する手順を解説します。
+
+### [C# と DocumentBuilder を使用して Word で図形をグループ化する方法](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+C# と DocumentBuilder を使って Word 文書内の図形をグループ化する手順を解説します。
 
 ## 追加リソース
 

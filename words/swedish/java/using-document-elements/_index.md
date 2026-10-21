@@ -43,6 +43,9 @@ Sammanfattningsvis är det en värdefull färdighet för alla Java-utvecklare so
 Kom ihåg att övning ger färdighet, och med Aspose.Words för Java kommer du att skapa, modifiera och förbättra dokument som ett proffs på nolltid. Lycka till med kodningen!
 
 ## Handledningar för att använda dokumentelement
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Använda kommentarer i Aspose.Words för Java](./using-comments/)
 Lär dig hur du använder kommentarer i Aspose.Words för Java. Steg-för-steg-handledning för att lägga till och anpassa kommentarer i dina dokument.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)

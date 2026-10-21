@@ -45,6 +45,9 @@ Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz
 ## Korzystanie z samouczków dotyczących elementów dokumentu
 ### [Tworzenie wykresu kołowego w Wordzie przy użyciu Java – przewodnik krok po kroku](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Dowiedz się, jak w Aspose.Words for Java wygenerować wykres kołowy w dokumencie Word, krok po kroku.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
 Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)

@@ -55,6 +55,9 @@ Learn how to create Word documents with placeholders and lists using Aspose.Word
 Learn how to create a blank Word document and insert a plain‑text control using Aspose.Words for Java.
 ### [How to create radial chart in a Word document with Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Learn how to create a radial chart in a Word document using Aspose.Words for Java.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

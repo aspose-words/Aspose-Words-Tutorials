@@ -50,6 +50,10 @@ Learn how to detect fonts in Java Word documents using Aspose.Words for Java. St
 Learn how to configure default font settings globally in Aspose.Words for Java with code examples and step-by-step instructions.
 ### [How to set shadow on a Word chart with Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Learn how to add shadow effects to Word charts using Aspose.Words for Java with code examples. 
+### [How to edit footnote separator in Java with Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Learn how to edit footnote separators in Java using Aspose.Words. Step-by-step guide with source code.
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Learn how to explode a slice in a Word chart and customize its appearance using Aspose.Words for Java with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

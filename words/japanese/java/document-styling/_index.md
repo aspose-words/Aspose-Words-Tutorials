@@ -49,6 +49,10 @@ Aspose.Words for Java を使用して、Word 文書内のフォント情報を�
 Aspose.Words for Java を使用して、ドキュメント全体のデフォルトフォントを設定する方法をステップバイステップで解説します。
 ### [Aspose.Words for Java を使用して Word チャートに影を設定する方法](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Aspose.Words for Java で Word のチャートに影効果を適用する手順を学びます。
+### [JavaでAspose.Wordsを使用して脚注セパレーターを編集する方法](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java を使用して、脚注の区切り線をカスタマイズする手順をステップバイステップで解説します。
+### [Wordチャートでスライスを分割し、外観をカスタマイズする方法](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aspose.Words for Java を使用して、Word のチャートでスライスを分割し、外観をカスタマイズする手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
