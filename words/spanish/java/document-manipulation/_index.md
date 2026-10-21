@@ -56,6 +56,11 @@ La manipulación de documentos con Aspose.Words para Java es una habilidad valio
 Comience su viaje de aprendizaje hoy y descubra las infinitas posibilidades de manipulación de documentos con Aspose.Words para Java.
 
 ## Tutoriales de manipulación de documentos
+### [Cómo crear un documento Word en blanco con un control de texto](./how-to-create-a-blank-word-document-with-a-text-control/)
+Aprenda a crear un documento Word vacío y añadir un control de texto usando Aspose.Words para Java.
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Uso de opciones de limpieza en Aspose.Words para Java](./using-cleanup-options/)
 Mejore la claridad de sus documentos con las opciones de limpieza de Aspose.Words para Java. Aprenda a eliminar párrafos vacíos, regiones sin usar y más.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)
@@ -88,8 +93,12 @@ Aprenda a dividir documentos en páginas con Aspose.Words para Java. Guía paso 
 Aprenda a dividir documentos eficientemente en Aspose.Words para Java. Explore técnicas para encabezados, secciones e intervalos de páginas.
 ### [Dividir documentos en páginas HTML en Aspose.Words para Java](./splitting-documents-into-html-pages/)
 Aprenda a dividir documentos en páginas HTML con Aspose.Words para Java. Siga nuestra guía paso a paso para una conversión fluida de documentos.
+### [Agregar control de contenido en documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Aprenda a insertar y gestionar controles de contenido en documentos Word usando Aspose.Words para Java.
 ### [Agregar contenido usando DocumentBuilder en Aspose.Words para Java](./adding-content-using-documentbuilder/)
 Domina la creación de documentos con Aspose.Words para Java. Guía paso a paso para añadir texto, tablas, imágenes y más. Crea documentos Word impactantes sin esfuerzo.
+### [Cómo guardar docx con DocumentBuilder y añadir texto después de un control](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Aprenda a guardar documentos DOCX con DocumentBuilder y a insertar texto después de un control en Aspose.Words para Java.
 ### [Clonación y combinación de documentos en Aspose.Words para Java](./cloning-and-combining-documents/)
 Aprenda a clonar y combinar documentos en Aspose.Words para Java. Guía paso a paso con ejemplos de código fuente.
 ### [Comparación de documentos en Aspose.Words para Java](./comparing-documents/)
@@ -103,7 +112,16 @@ Descubra el poder de Aspose.Words para Java. Domine las opciones y configuracion
 ### [Uso de propiedades de documento en Aspose.Words para Java](./using-document-properties/)
 Optimice la gestión de documentos con Aspose.Words para Java. Aprenda a trabajar con propiedades de documentos, añadir metadatos personalizados y mucho más en este completo tutorial.
 ### [Uso de extensiones web en Aspose.Words para Java](./using-web-extensions/)
-Mejore sus documentos con extensiones web en Aspose.Words para Java. Aprenda a integrar contenido web sin problemas. 
+### [Etiquetado de accesibilidad PDF en Java – Generar PDFs accesibles](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aprenda a crear PDFs accesibles con etiquetas de accesibilidad usando Aspose.Words para Java.
+### [Crear botón ActiveX docx en Java – guía completa de programación](./create-docx-activex-button-in-java-complete-programming-guid/)
+Aprenda a crear un botón ActiveX en documentos DOCX usando Java con esta guía completa.
+### [Cómo crear un documento Word en Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con ejemplos de código paso a paso.
+### [Crear documento en blanco con un botón de comando interactivo en Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
+Cree un documento en blanco con un botón de comando interactivo en Word mediante Java.
+### [Cómo crear un documento Word programáticamente con Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a generar documentos Word de forma programática usando Aspose.Words en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

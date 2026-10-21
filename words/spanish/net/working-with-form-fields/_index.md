@@ -19,7 +19,7 @@ Aspose.Words para .NET admite varios tipos de campos de formulario, lo que le pe
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Insertar campo de formulario de cuadro combinado en un documento de Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Cómo convertir docx a PDF y ocultar campos de formulario en C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Crear documento Word programáticamente – guía paso a paso" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,9 @@ Trong bối cảnh kỹ thuật số ngày nay, tích hợp liền mạch và kh
 ### [Làm chủ dự án VBA trong Java bằng API Aspose.Words](./master-vba-project-manipulation-aspose-java/)
 Tìm hiểu cách tự động hóa xử lý tài liệu và nâng cao năng suất bằng cách thao tác các dự án VBA trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Cách tạo điều khiển ActiveX trong tài liệu Word bằng C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+Hướng dẫn chi tiết cách chèn và cấu hình điều khiển ActiveX trong tài liệu Word bằng C#.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

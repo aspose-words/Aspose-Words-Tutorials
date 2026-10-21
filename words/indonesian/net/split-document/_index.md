@@ -29,6 +29,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF dari Halaman – Panduan Ekstrak Halaman Tertentu](./create-pdf-from-pages-extract-specific-pages-guide/) | Pelajari cara membuat PDF dari halaman tertentu menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 | [Cara Membagi Dokumen Word menjadi Bagian berdasarkan Heading dalam C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Pelajari cara membagi dokumen Word menjadi beberapa bagian berdasarkan heading menggunakan Aspose.Words untuk .NET dengan C#. |
 
+| [Cara Membagi Dokumen Word menjadi File Terpisah dengan C#](./how-to-split-word-document-into-separate-files-with-c/) | Pelajari cara membagi dokumen Word menjadi beberapa file terpisah menggunakan C# dan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

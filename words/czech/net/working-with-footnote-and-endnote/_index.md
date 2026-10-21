@@ -23,6 +23,8 @@ Zpracování textu s poznámkami pod čarou a koncovými poznámkami je komplexn
 | [Nastavení sloupců poznámky pod čarou](./set-foot-note-columns/) | Naučte se, jak nastavit sloupce poznámek pod čarou v dokumentech Wordu pomocí Aspose.Words pro .NET. Snadno si přizpůsobte rozvržení poznámek pod čarou pomocí našeho podrobného návodu. |
 | [Nastavení pozice poznámky pod čarou a poznámky na konci](./set-footnote-and-end-note-position/) Naučte se, jak nastavit pozice poznámek pod čarou a koncových poznámek v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Nastavení možností poznámky na konci](./set-endnote-options/) | Naučte se, jak nastavit možnosti poznámky na konci textu v dokumentech Word pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. |
+| [Změna oddělovače poznámky pod čarou v C# pomocí Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Naučte se, jak změnit oddělovač poznámky pod čarou v dokumentech Word pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Získání oddělovače poznámky pod čarou v C# – kompletní průvodce Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Naučte se, jak získat oddělovač poznámky pod čarou v dokumentech Word pomocí Aspose.Words pro .NET v C#. |
 | [Jak změnit oddělovač poznámky pod čarou a přizpůsobit jeho styl v dokumentu Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Naučte se, jak změnit oddělovač poznámky pod čarou a upravit jeho styl v dokumentech Word pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

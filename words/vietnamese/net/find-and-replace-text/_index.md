@@ -26,7 +26,7 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | --- | --- |
 | [Tìm và thay thế văn bản đơn giản trong Word](./simple-find-replace/) | Tìm hiểu cách tìm và thay thế văn bản dễ dàng trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước. |
 | [Ký tự Meta trong mẫu tìm kiếm](./meta-characters-in-search-pattern/) | Tìm hiểu cách sử dụng ký tự meta trong các mẫu tìm kiếm với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Tối ưu hóa quá trình xử lý tài liệu của bạn. |
-| [Từ Thay thế Văn bản Có chứa Ký tự Meta](./replace-text-containing-meta-characters/) | Tìm hiểu cách thay thế văn bản chứa ký tự meta trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, hấp dẫn của chúng tôi để thao tác văn bản liền mạch. |
+| [Từ Thay Thế Văn Bản Có chứa Ký Tự Meta](./replace-text-containing-meta-characters/) | Tìm hiểu cách thay thế văn bản chứa ký tự meta trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, hấp dẫn của chúng tôi để thao tác văn bản liền mạch. |
 | [Bỏ qua văn bản bên trong trường](./ignore-text-inside-fields/) | Tìm hiểu cách thao tác văn bản bên trong các trường trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước với các ví dụ thực tế. |
 | [Bỏ qua văn bản bên trong Xóa bản sửa đổi](./ignore-text-inside-delete-revisions/) Tìm hiểu cách xử lý các bản sửa đổi được theo dõi trong tài liệu Word bằng Aspose.Words cho .NET. Làm chủ tự động hóa tài liệu với hướng dẫn toàn diện này. |
 | [Bỏ qua văn bản bên trong chèn sửa đổi](./ignore-text-inside-insert-revisions/) | Tìm hiểu cách quản lý hiệu quả các bản sửa đổi tài liệu với Aspose.Words cho .NET. Khám phá các kỹ thuật bỏ qua văn bản bên trong các bản sửa đổi chèn để chỉnh sửa hợp lý. |
@@ -36,6 +36,9 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | [Thay thế bằng chuỗi](./replace-with-string/) | Tìm hiểu cách thay thế chuỗi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc chỉnh sửa tài liệu. |
 | [Thay thế văn bản trong bảng](./replace-text-in-table/) | Thay thế văn bản trong bảng Word một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
 | [Thay thế văn bản trong DOCX bằng C# – Hướng dẫn từng bước](./replace-text-in-docx-with-c-step-by-step-guide/) | Tìm hiểu cách thay thế văn bản trong tệp DOCX bằng C# với Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Thay thế văn bản trong docx bằng C# – Hướng dẫn chi tiết từng bước](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thay thế văn bản trong tệp docx bằng C# sử dụng Aspose.Words cho .NET, từng bước một. |
+| [Cách viết lại đoạn văn bằng AI trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Hướng dẫn chi tiết cách sử dụng AI để viết lại đoạn văn trong tài liệu Word bằng C# và Aspose.Words. |
+| [Cách tạo mẫu tài liệu và điền dữ liệu vào bằng C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Hướng dẫn tạo mẫu tài liệu và tự động điền dữ liệu bằng C# với Aspose.Words cho .NET. |
 | [Cách thay thế các placeholder trong tệp docx bằng Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Hướng dẫn chi tiết cách thay thế các placeholder trong tệp DOCX bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -19,9 +19,7 @@ Aspose.Words pro .NET podporuje různé typy polí formulářů, což vám umož
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Vložit pole formuláře se seznamem v dokumentu Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Jak převést docx na pdf a skrýt formulářová pole v C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
-
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Vytvořit dokument Word programově – krok za krokem" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

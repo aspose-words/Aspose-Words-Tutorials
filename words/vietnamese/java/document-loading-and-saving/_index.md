@@ -82,64 +82,56 @@ Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù h
 
 ## Các Tutorial Liên Quan – Tải, Lưu và Chuyển Đổi
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
-Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn cho việc tích hợp tài liệu liền mạch.
-
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
-Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
-
 ### [Tạo Load Options trong Java – Phát hiện Phông chữ Thiếu & Cách Tải DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Học cách tạo Load Options trong Java để phát hiện phông chữ thiếu và tải tài liệu DOCX một cách hiệu quả.
 
 ### [Cách Khôi Phục DOCX – Tải Tệp Bị Hỏng với Tùy Chọn Khôi Phục](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Học cách khôi phục các tệp DOCX bị hỏng bằng các tùy chọn tải khôi phục trong Aspose.Words for Java.
 
-### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
-Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
-
-### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
-Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
-
 ### [Cách Khôi Phục Tệp DOCX với Aspose.Words – Hướng Dẫn Từng Bước](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words, bao gồm các bước thiết lập và mã mẫu Java.
 
-### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
-Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
-
-### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-Học cách lưu tài liệu HTML với bố cục cố định trong Aspose.Words for Java. Thực hiện theo hướng dẫn từng bước để định dạng tài liệu mượt mà.
-
-### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
-Trong tutorial này, chúng tôi đã đề cập đến các tùy chọn lưu HTML nâng cao với Aspose.Words for Java. Những tùy chọn này cho phép bạn tạo HTML chất lượng cao.
-
-### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
-
-### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
-Học cách chuyển đổi tài liệu Word sang Markdown với Aspose.Words for Java. Hướng dẫn chi tiết này bao gồm căn chỉnh bảng, xử lý hình ảnh và các yếu tố khác.
-
-### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
-Học cách lưu tài liệu ở định dạng ODT bằng Aspose.Words for Java. Đảm bảo tương thích với các bộ công cụ văn phòng mã nguồn mở.
-
-### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
-Học cách lưu tài liệu ở định dạng OOXML với Aspose.Words for Java. Bảo mật, tối ưu và tùy chỉnh file của bạn một cách dễ dàng.
-
-### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
-Học cách lưu tài liệu ở định dạng PCL bằng Aspose.Words for Java. Hướng dẫn chi tiết và ví dụ mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
-
-### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
-Học cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện cho việc chuyển đổi sang PDF.
-
-### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Học cách lưu tài liệu ở định dạng RTF bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
-
-### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
-Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words for Java. Thực hiện theo hướng dẫn chi tiết kèm ví dụ mã Java.
-
-### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
-Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
+### [Khôi phục tài liệu Word bị hỏng – Hướng dẫn Java toàn diện](./recover-broken-word-document-complete-java-guide/)
+### [Ghi lại Cảnh báo Thay thế Phông chữ – Phát hiện Phông chữ thiếu](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
+
+### [Lưu Tài Liệu Word – Đặt Cài Đặt Phông Chữ, Xử Lý Phông Chữ Thiếu](./save-word-document-set-font-settings-handle-missing-fonts/)
+Học cách lưu tài liệu Word, thiết lập phông chữ và xử lý các phông chữ bị thiếu.
+### [Đăng ký callback cảnh báo trong Java – Theo dõi phông chữ bị thiếu](./register-warning-callback-in-java-track-missing-fonts/)
+Học cách đăng ký callback để bắt các cảnh báo thiếu phông chữ khi tải tài liệu trong Aspose.Words cho Java.
+### [Phát hiện thiếu thay thế phông chữ trong Java – Hướng dẫn đầy đủ Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Học cách ghi lại các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
+
+### [Hướng Dẫn Callback Cảnh Báo – Tải Tài Liệu Word Trong Java](./warning-callback-tutorial-load-word-document-in-java/)
+### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
+### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
+Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
+
+### [Cấu hình LoadOptions cho Cảnh báo – Hướng dẫn Java đầy đủ](./configure-loadoptions-for-warnings-complete-java-guide/)
+### [Tải gạch chân markdown trong Java – hướng dẫn lập trình toàn diện](./load-markdown-underline-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
+
+### [Hướng Dẫn Thay Thế Phông Chữ Aspose – Xử Lý Phông Chữ Thiếu](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
+### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
+### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
+### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
+Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
+
+### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
+### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
+### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
+### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
+### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
+### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
+### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
+### [Recover Corrupted Word Document Using Aspose.Words – Guide](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [Cách Lưu Tệp DOCX bằng Java – Hướng Dẫn Chèn Content Control](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Cách khôi phục docx – Hướng dẫn toàn diện để đọc tệp Word bị hỏng](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -154,6 +146,27 @@ Hướng dẫn khôi phục file DOCX bị hỏng và lưu lại tài liệu đ�
 Học cách bật chế độ khôi phục để phục hồi tài liệu docx bị hỏng bằng Aspose.Words.
 ### [Cách khôi phục docx – Bật chế độ khôi phục & Đọc cảnh báo](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Hướng dẫn bật chế độ khôi phục khi mở file docx và cách đọc các cảnh báo để khôi phục tài liệu bị hỏng.
+
+### [Cách Khôi phục Tệp DOCX – Hướng dẫn Java Từng Bước](./how-to-recover-docx-files-step-by-step-java-guide/)
+Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words for Java qua các bước chi tiết và ví dụ mã nguồn thực tế.
+
+### [Khôi phục tài liệu Word – Hướng dẫn toàn diện để thiết lập chế độ khôi phục trong Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Mở Tài Liệu Word Bị Hỏng – Thiết Lập Chế Độ Phục Hồi trong Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Học cách mở tài liệu Word bị hỏng và thiết lập chế độ phục hồi trong Java bằng Aspose.Words.
+
+### [Khôi phục docx bị hỏng bằng Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Java, với hướng dẫn chi tiết và ví dụ mã nguồn.
+
+### [Recover corrupted docx with Aspose.Words – Complete Java Guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
+### [Khôi phục DOCX bị hỏng trong Java – Hướng dẫn lập trình toàn diện](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Tạo Tài Liệu Word Trống bằng Java – Hướng Dẫn Đầy Đủ Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Aspose.Words LoadOptions – Khôi phục tài liệu Word bị hỏng trong Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
+### [Cách tải tệp từ thư mục bằng Aspose.Words trong C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
 
 ## Câu Hỏi Thường Gặp
 

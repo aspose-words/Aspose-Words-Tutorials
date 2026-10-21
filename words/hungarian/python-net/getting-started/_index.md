@@ -30,6 +30,9 @@ Ismerje meg, hogyan valósíthat meg mért licencelést az Aspose.Words for Pyth
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Kód oktatóanyag az Aspose.Words Python-nethez
 
+### [CMake projekt felépítése: konfigurálás, építés és tesztelés](./build-cmake-project-configure-build-test/)
+Ismerje meg, hogyan konfigurálja, építse és tesztelje a CMake projektet a Python-net környezetben.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

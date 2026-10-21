@@ -45,6 +45,8 @@
 Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε ελλείπουσες γραμματοσειρές χρησιμοποιώντας το callback προειδοποίησης του Aspose.Words για Java.
 ### [Πώς να καταγράψετε προειδοποιήσεις – Εντοπισμός ελλιπών γραμματοσειρών στο Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε ελλείψεις γραμματοσειρών κατά την επεξεργασία εγγράφων με το Aspose.Words.
+### [Εύρεση ελλιπών γραμματοσειρών σε Java με Aspose.Words – Πλήρης οδηγός](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Μάθετε πώς να εντοπίζετε και να αντικαθιστάτε ελλιπείς γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

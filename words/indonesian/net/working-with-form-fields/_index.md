@@ -19,7 +19,7 @@ Aspose.Words untuk .NET mendukung berbagai jenis bidang formulir, yang memungkin
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Masukkan Kolom Formulir Kotak Kombo di Dokumen Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Cara mengonversi docx ke pdf dan menyembunyikan kolom formulir di C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Buat dokumen Word secara programatis – panduan langkah demi langkah" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

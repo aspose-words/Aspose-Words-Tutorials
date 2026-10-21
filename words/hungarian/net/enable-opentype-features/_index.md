@@ -24,6 +24,7 @@ Ismerje meg, hogyan engedélyezheti az OpenType funkciókat Word-dokumentumokban
 | [Word dokumentum létrehozása az Aspose.Words segítségével – Lépésről‑lépésre útmutató](./create-word-document-with-aspose-words-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre Word dokumentumot az Aspose.Words .NET könyvtár segítségével lépésről‑lépésre. |
 
 | [Word-dokumentum létrehozása változó betűtípussal – Útmutató](./create-word-document-with-variable-font-guide/) | Ismerje meg, hogyan hozhat létre Word-dokumentumot változó betűtípussal az Aspose.Words for .NET segítségével. |
+| [Változó súlyú betűtípus használata C#-ban – Teljes programozási útmutató](./use-variable-weight-font-in-c-complete-programming-guide/) | Ismerje meg, hogyan használhat változó súlyú betűtípust C#-ban az Aspose.Words segítségével ebben a részletes programozási útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

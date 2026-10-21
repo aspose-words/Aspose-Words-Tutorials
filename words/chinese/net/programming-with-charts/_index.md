@@ -36,11 +36,16 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入示例柱形图" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="使用 Aspose.Words for .NET 更新 Word 文档中的图表系列数据" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./add-named-series/" title="使用 Aspose.Words for .NET 在 Word 中的直方图图表添加命名数据系列" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="使用 Aspose.Words for .NET 验证 Word 文档中的图表系列和数据点" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 定制柱形图中的 X 轴网格线" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折线图中格式化次要 X 轴并将显示单位设置为千。" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words 径向图表示例：在 C# 中启用刻度" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="使用 Aspose.Words for .NET 在 C# 中保存带有爆炸饼图切片的修改文档" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
@@ -68,10 +73,21 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [在Word文档中隐藏图表轴](./hide-chart-axis/) 通过我们详细的分步教程了解如何使用 Aspose.Words for .NET 隐藏 Word 文档中的图表轴。|
 | [图表中勾选多线标签对齐](./tick-multi-line-label-alignment/) 学习如何使用 Aspose.Words for .NET 在图表中勾选多行标签对齐，并遵循我们详细的分步指南。适合所有级别的开发人员。|
 | [自定义图表数据标签](./chart-data-label/) 学习如何使用 Aspose.Words for .NET 自定义图表数据标签，分步指南。非常适合 .NET 开发人员。|
+| [C# 中的自定义图表数据标签位置](./custom-data-label-placement-for-charts-in-c/) 学习如何在 Aspose.Words for .NET 中使用 C# 为图表自定义数据标签的位置，实现更灵活的可视化。|
 | [设置图表中数据标签的默认选项](./default-options-for-data-labels/) 了解如何使用 Aspose.Words for .NET 设置图表中数据标签的默认选项。按照我们的分步指南，轻松创建和自定义图表。|
 | [自定义图表中的单个图表数据点](./single-chart-data-point/) 学习如何使用 Aspose.Words for .NET 自定义单个图表数据点，并遵循详细的分步指南。使用独特的标记和大小增强您的图表。|
 | [自定义图表中的单个图表系列](./single-chart-series/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列。按照我们的分步指南，获得无缝体验。|
-
+| [在 Word 中显示图表图例（C#）——完整分步指南](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中显示图表图例，提供完整的 C# 分步指南。|
+| [使用 Aspose.Words 在 C# 中分离饼图切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) 学习如何使用 Aspose.Words for .NET 在 C# 中将饼图切片分离，提供完整的分步指南。|
+| [在 C# 中使用 Aspose.Words 添加饼图标签 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) 学习如何在 C# 使用 Aspose.Words 为饼图添加标签，完整分步指南。|
+| [使用 Aspose.Words C# 在图表中显示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) 学习如何使用 Aspose.Words for .NET C# 在图表中显示百分比，轻松实现数据可视化。|
+| [如何在 C# 中向 Word 图表添加数据标签 – 分步指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) 学习使用 Aspose.Words for .NET 在 Word 图表中添加数据标签的完整步骤，提升文档可视化效果。|
+| [在 C# 中创建 Word 饼图 – 分步指南](./create-pie-chart-word-in-c-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中通过 C# 创建饼图，提供详细的分步指南。|
+| [如何在 Word 文档中使用 Aspose.Words 创建饼图](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) 学习使用 Aspose.Words for .NET 在 Word 文档中创建饼图的步骤，轻松实现数据可视化。|
+| [如何在 Word 折线图中使用 C# 格式化系列](./how-to-format-series-in-a-word-line-chart-with-c/) 学习如何使用 Aspose.Words for .NET 在 Word 折线图中格式化数据系列。|
+| [如何在 Word 中使用 Aspose.Words 创建直方图](./how-to-create-histogram-in-word-with-aspose-words/) 学习使用 Aspose.Words for .NET 在 Word 文档中创建直方图的步骤，轻松实现数据可视化。|
+| [如何使用 C# 在 Word 文档中创建柱形图并格式化标签](./how-to-create-word-document-c-with-a-column-chart-and-format/) 学习使用 Aspose.Words for .NET 在 Word 文档中插入柱形图并自定义标签格式的步骤。|
+| [如何使用 C# 创建带自定义饼图的 Word 文档](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) 学习如何在 Aspose.Words for .NET 中使用 C# 创建并自定义饼图，提升文档的可视化效果。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,8 +34,10 @@
 - [ผูก SDT กับส่วน XML ที่กำหนดเอง](./bind-sdt-to-custom-xml-part/) | เรียนรู้วิธีการผูก Structured Document Tags (SDT) กับ Custom XML Parts ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
 - [ตั้งค่ารูปแบบการควบคุมเนื้อหา](./set-content-control-style/) | เรียนรู้วิธีตั้งค่ารูปแบบการควบคุมเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะอย่างยิ่งสำหรับการปรับปรุงความสวยงามของเอกสาร -
 | [การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง](./creating-table-repeating-section-mapped-to-custom-xml-part/) | เรียนรู้วิธีการสร้างตารางที่มีส่วนที่ทำซ้ำซึ่งแมปกับ CustomXmlPart ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET
-- [หลายส่วน](./multi-section/) เรียนวิธีการทำงานกับแท็กเอกสารที่มีโครงสร้างหลายส่วนใน Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารแบบไดนามิก -
 | [ช่วงแท็กเอกสารที่มีโครงสร้าง เริ่มต้นการแมป XML](./structured-document-tag-range-start-xml-mapping/) | เรียนรู้วิธีการผูกข้อมูล XML แบบไดนามิกกับแท็กเอกสารที่มีโครงสร้างใน Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา |
+- [ตั้งค่าข้อความตัวแทนใน Aspose.Words – คู่มือ C# ครบถ้วน](./set-placeholder-text-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีตั้งค่าข้อความตัวแทนในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+- [วิธีเพิ่มการควบคุมเนื้อหาและสร้างเอกสาร Word ด้วย Aspose – คู่มือครบวงจร](./how-to-add-content-control-and-create-word-document-with-asp/) | เรียนรู้ขั้นตอนการเพิ่ม Content Control และสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
+- [วิธีสร้างการควบคุมเนื้อหาใน C# ด้วย Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | เรียนรู้วิธีสร้างและกำหนดค่าการควบคุมเนื้อหาในเอกสาร Word ด้วย C# และ Aspose.Words อย่างละเอียด
 | [สร้างเอกสาร Word ใหม่และแทรกการควบคุมเนื้อหาใน C#](./create-new-word-document-and-insert-content-control-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word ใหม่และเพิ่มการควบคุมเนื้อหาโดยใช้ C# กับ Aspose.Words |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

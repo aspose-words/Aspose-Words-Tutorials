@@ -50,12 +50,12 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle：**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### 取得授權
 Aspose.Words 為商業產品。您可以先使用免費 30 天試用版，或申請臨時授權以進行評估。詳情請造訪 [purchase page](https://purchase.aspose.com/buy)。
@@ -70,20 +70,20 @@ Aspose.Words 為商業產品。您可以先使用免費 30 天試用版，或申
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **步驟 2：** 建立並新增 Comment  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **步驟 3：** 為 Comment 新增回覆  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### 功能 2：列印所有評論
 **概述** – 取得所有頂層評論及其回覆以供檢閱。
@@ -92,7 +92,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **步驟 1：** 載入 Document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **步驟 2：** 取得並列印評論  
 ```java
@@ -106,7 +106,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### 功能 3：在 Java 中刪除評論回覆
 **概述** – 示範 **how to delete comment replies**，以保持文件整潔。
@@ -120,7 +120,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **步驟 2：** 移除回覆  
 ```java
@@ -139,7 +139,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **步驟 2：** 將 Comment 標記為完成  
 ```java
@@ -147,7 +147,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### 功能 5：從評論取得 UTC 日期與時間
 **概述** – 取得評論新增時的精確 UTC 時間戳，適用於稽核日誌。
@@ -161,7 +161,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **步驟 2：** 儲存並取得 UTC 日期  
 ```java
@@ -169,7 +169,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## 實務應用
 - **協同編輯：** 團隊可直接在產生的報告中新增與回覆。  

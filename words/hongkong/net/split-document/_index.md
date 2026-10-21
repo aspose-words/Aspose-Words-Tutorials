@@ -28,6 +28,7 @@
 | [合併文檔](./merge-documents/) |逐步指南解釋 Aspose.Words for .NET 的合併文件功能的 C# 原始碼 |
 | [按頁面範圍拆分 Word 文件](./by-page-range/) |透過我們詳細的逐步指南了解如何使用 Aspose.Words for .NET 按頁面範圍分割 Word 文件。非常適合開發人員。 |
 | [從頁面建立 PDF – 提取特定頁面指南](./create-pdf-from-pages-extract-specific-pages-guide/) |透過本指南學習如何使用 Aspose.Words for .NET 從文檔中提取指定頁面並生成 PDF。 |
+| [如何使用 C# 將 Word 文檔拆分為單獨的檔案](./how-to-split-word-document-into-separate-files-with-c/) |了解如何使用 Aspose.Words for .NET 及 C# 將 Word 文檔拆分為多個單獨檔案。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

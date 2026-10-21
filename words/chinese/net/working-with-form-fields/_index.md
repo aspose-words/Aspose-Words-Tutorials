@@ -19,8 +19,7 @@ Aspose.Words for .NET 支持多种表单字段类型，让您能够精确灵活�
 
 
 {{< tutorial-card link="./insert-form-fields/" title="在 Word 文档中插入组合框表单域" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="如何将 docx 转换为 pdf 并隐藏表单字段（C#）" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="编程创建 Word 文档 – 步骤指南" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

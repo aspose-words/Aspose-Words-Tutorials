@@ -19,7 +19,9 @@ Aspose.Words for .NET, çeşitli form alanı türlerini destekler ve karmaşık 
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekleme" imgSrc="./insert-form-fields/images/thumb.png" >}}
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="C#'ta docx'i PDF'ye dönüştürme ve form alanlarını gizleme" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Programatik Olarak Word Belgesi Oluşturma – Adım Adım Kılavuz" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

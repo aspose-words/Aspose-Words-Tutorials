@@ -36,6 +36,10 @@ Akár konkrét szavakat kell lecserélnie, akár szövegsablonokat kell frissít
 | [Cserélje karakterlánccal](./replace-with-string/) | Tanulja meg, hogyan cserélhet le karakterláncokat Word-dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik automatizálni szeretnék a dokumentumszerkesztést. |
 | [Szöveg cseréje a táblázatban](./replace-text-in-table/) | Könnyedén cserélhet ki szöveget egy Word-táblázatban az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló útmutatóval. |
 | [Szöveg cseréje DOCX-ben C#-val – Lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-step-by-step-guide/) | Tanulja meg, hogyan cserélhet szöveget DOCX fájlokban C# használatával az Aspose.Words for .NET segítségével. Részletes, lépésről‑lépésre útmutató. |
+| [Szöveg cseréje docx-ben C#-val – Teljes lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Ismerje meg, hogyan cserélhet szöveget egy docx fájlban C# használatával az Aspose.Words for .NET segítségével, részletes lépésekkel. |
+
+| [Hogyan írjunk át bekezdést AI-val C#-ban – Teljes útmutató](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Tanulja meg, hogyan használhatja az AI-t bekezdések átírásához C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |
+| [Hogyan generáljon dokumentumsablont és töltse fel adatokkal C#-ban](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Tanulja meg, hogyan hozhat létre dokumentumsablont és töltheti fel adatokal C#-ban az Aspose.Words for .NET segítségével. |
 | [Hogyan cserélje ki a helyőrzőket docx fájlokban az Aspose.Words segítségével](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Tanulja meg, hogyan helyettesítheti a helyőrzőket docx fájlokban az Aspose.Words for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

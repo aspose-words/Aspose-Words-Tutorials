@@ -45,6 +45,16 @@ Aspose.Words for Javaを使って透かしを適用し、ページ設定を行�
 この詳細なガイドでは、Aspose.Words for Java を使用してドキュメントのヘッダーとフッターにスタイルを設定する方法を学びます。ステップバイステップの説明とソースコードが含まれています。
 ### [Java Word 文書のフォント検出方法 – 完全ガイド](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java を使用して、Word 文書内のフォント情報を検出し、取得する方法をステップバイステップで解説します。
+### [Aspose.Words for Javaでデフォルトフォント設定を行う – 完全ガイド](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Aspose.Words for Java を使用して、ドキュメント全体のデフォルトフォントを設定する方法をステップバイステップで解説します。
+### [Aspose.Words for Java を使用して Word チャートに影を設定する方法](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java で Word のチャートに影効果を適用する手順を学びます。
+### [JavaでAspose.Wordsを使用して脚注セパレーターを編集する方法](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java を使用して、脚注の区切り線をカスタマイズする手順をステップバイステップで解説します。
+### [Wordチャートでスライスを分割し、外観をカスタマイズする方法](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aspose.Words for Java を使用して、Word のチャートでスライスを分割し、外観をカスタマイズする手順を解説します。
+### [JavaでAspose.Wordsを使用して脚注のスタイルを設定する方法](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java を使用して脚注の書式設定方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

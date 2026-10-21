@@ -24,7 +24,18 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
  ## Tutorials
 
+{{< tutorial-card link="./validate-chart-data/" title="Validate Chart Series and Data Points in a Word Document Using Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-named-series/" title="Add a Named Data Series to a Histogram Chart in Word Using Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Update Chart Title and Toggle Legend Visibility in Word Using Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./format-secondary-axis/" title="Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Customize X Axis Gridlines in a Column Chart Using Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 {{< tutorial-card link="./modify-chart-series/" title="Update Chart Series Data in a Word Document Using Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 
@@ -58,11 +69,13 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | --- | --- |
 | [Format Number Of Data Label In A Chart](./format-number-of-data-label/) | Learn how to format data labels in charts using Aspose.Words for .NET with this step-by-step guide. Enhance your Word documents effortlessly. |
 | [Create & Customize Chart Using Shape](./create-chart-using-shape/) | Learn how to create and customize charts in Word documents using Aspose.Words for .NET with this step-by-step guide. Perfect for data visualization. |
+| [Create pie chart word in C# – step‑by‑step guide](./create-pie-chart-word-in-c-step-by-step-guide/) | Learn how to create a pie chart in a Word document using Aspose.Words for .NET with this step-by-step guide. |
 | [Insert Simple Column Chart In A Word Document](./insert-simple-column-chart/) | Learn how to insert a simple column chart in Word using Aspose.Words for .NET. Enhance your documents with dynamic visual data presentations. |
 | [Insert Column Chart In A Word Document](./insert-column-chart/) | Learn how to insert column charts in Word documents using Aspose.Words for .NET. Enhance data visualization in your reports and presentations. |
 | [Insert Area Chart Into A Word Document](./insert-area-chart/) | Learn how to insert an area chart into a Word document using Aspose.Words for .NET in this comprehensive step-by-step guide. |
 | [Insert Bubble Chart In Word Document](./insert-bubble-chart/) | Learn how to insert a bubble chart in a Word document using Aspose.Words for .NET with this step-by-step guide. Enhance your documents. |
 | [Insert Scatter Chart in Word Document](./insert-scatter-chart/) | Learn how to insert a scatter chart in Word with Aspose.Words for .NET. Easy steps for integrating visual data representations into your documents. |
+| [How to create word document with a customized pie chart in C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Learn how to create a Word document with a customized pie chart in C# using Aspose.Words for .NET. |
 | [Define XY Axis Properties In A Chart](./define-xyaxis-properties/) | Learn how to define XY axis properties in a chart using Aspose.Words for .NET with this step-by-step guide. Perfect for .NET developers. |
 | [Add Date Time Values To Axis Of A Chart](./date-time-values-to-axis/) | Learn how to add date and time values to the axis of a chart using Aspose.Words for .NET in this comprehensive step-by-step guide. |
 | [Number Format For Axis In A Chart](./number-format-for-axis/) | Learn how to format chart axis numbers using Aspose.Words for .NET with this step-by-step guide. Enhance your document's readability and professionalism effortlessly. |
@@ -72,8 +85,19 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Tick Multi Line Label Alignment In A Chart](./tick-multi-line-label-alignment/) | Learn how to tick multi-line label alignment in a chart using Aspose.Words for .NET with our detailed step-by-step guide. Perfect for developers of all levels. |
 | [Customize Chart Data Label](./chart-data-label/) | Learn how to customize chart data labels using Aspose.Words for .NET in a step-by-step guide. Perfect for .NET developers. |
 | [Set Default Options For Data Labels In A Chart](./default-options-for-data-labels/) | Learn how to set default options for data labels in a chart using Aspose.Words for .NET. Follow our step-by-step guide to create and customize charts effortlessly. |
+| [Custom Data‑Label Placement for Charts in C#](./custom-data-label-placement-for-charts-in-c/) | Learn how to place custom data labels in charts using Aspose.Words for .NET with this step-by-step guide. |
+| [How to add data labels to a Word chart in C# – step‑by‑step guide](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Learn how to add data labels to Word charts using Aspose.Words for .NET with this step-by-step C# guide. |
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
+| [Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Learn how to display chart legends in Word documents using Aspose.Words for .NET with C#. Follow our step-by-step guide. |
+
+| [Explode Pie Chart Slice in C# with Aspose.Words – Full Guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Learn how to explode a pie chart slice in Word using Aspose.Words for .NET with this step-by-step guide. |
+| [Add pie chart labels in C# using Aspose.Words – Complete Guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Learn how to add labels to pie charts in Word using Aspose.Words for .NET with this comprehensive step-by-step guide. |
+| [How to Show Percentages in Chart with Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Learn how to display percentages in chart data labels using Aspose.Words for .NET with a clear step-by-step guide. |
+| [How to format series in a Word line chart with C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Learn how to format series in a line chart in Word using Aspose.Words for .NET with C# in this step-by-step guide. |
+| [How to create pie chart in a Word document with Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Learn how to create a pie chart in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to add visual data. |
+| [How to create histogram in Word with Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Learn how to create a histogram in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to visualize data. |
+| [How to create Word document C# with a column chart and formatted labels](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Learn how to create a Word document in C# with a column chart and formatted labels using Aspose.Words for .NET. |
 | [Aspose.Words radial chart example: enable graduations in C#](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Learn how to enable graduations on a radial chart using Aspose.Words for .NET in C#. |
 | [How to format chart in Word with C# and custom number formats](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Learn how to apply custom number formats to charts in Word using Aspose.Words for .NET and C#. |
 

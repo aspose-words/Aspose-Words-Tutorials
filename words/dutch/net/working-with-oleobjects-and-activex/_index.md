@@ -25,9 +25,19 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | --- | --- |
 | [Ole-object invoegen in Word-document](./insert-ole-object/) | Leer hoe u OLE-objecten in Word-documenten invoegt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter uw documenten met ingesloten content. |
 | [Ole-object in Word invoegen met Ole-pakket](./insert-ole-object-with-ole-package/) | Leer hoe u OLE-objecten in Word-documenten invoegt met Aspose.Words voor .NET. Volg onze gedetailleerde stapsgewijze handleiding om bestanden naadloos in te sluiten. |
-| [OLE-object in Word-document invoegen als pictogram](./insert-ole-object-as-icon/) | Leer hoe u een OLE-object als pictogram in Word-documenten invoegt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om uw documenten te verbeteren. |
+| [OLE-object in Word-document invoegen als pictogram](./insert-ole-object-as-icon/) | Leer hoe u een OLE-object als pictogram in Word-documenten invoegt met Aspose.Words voor .NET. Volg uw stapsgewijze handleiding om uw documenten te verbeteren. |
 | [Ole-object invoegen als pictogram met behulp van Stream](./insert-ole-object-as-icon-using-stream/) | Leer hoe u een OLE-object als pictogram invoegt met behulp van een stream met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze zelfstudie. |
 | [Actieve XControl-eigenschappen lezen uit een Word-bestand](./read-active-xcontrol-properties/) | Leer in een stapsgewijze handleiding hoe u eigenschappen van ActiveX-besturingselementen uit Word-bestanden kunt lezen met Aspose.Words voor .NET. Verbeter uw vaardigheden in documentautomatisering. |
+| [Word-document maken met ActiveX-knop – C#-handleiding](./create-word-document-with-activex-button-c-guide/) | Leer hoe u een Word-document met een ActiveX-knop maakt met C# en Aspose.Words voor .NET. |
+| [Word-documentknop maken met Aspose.Words – Volledig codevoorbeeld](./create-word-document-button-with-aspose-words-full-code-exam/) | Leer hoe u een knop maakt die een Word-document genereert met Aspose.Words, inclusief volledige code. |
+
+| [Opdrachtknop toevoegen aan Word-document met Aspose.Words – Complete gids](./add-command-button-to-word-document-with-aspose-words-comple/) | Leer hoe u een opdrachtknop aan een Word-document toevoegt met Aspose.Words voor .NET in deze volledige gids. |
+| [ActiveX-besturingselement toevoegen in Word met Aspose.Words – stapsgewijze handleiding](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Leer hoe u een ActiveX-besturingselement in een Word-document invoegt met Aspose.Words in deze stapsgewijze handleiding. |
+| [ActiveX-knop toevoegen in een Word-document met Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Leer hoe u een ActiveX-knop in een Word-document invoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
+| [OleControlType.CommandButton-voorbeeld invoegen in Word](./insert-olecontroltype-commandbutton-example-in-word/) | Leer hoe u een OleControlType.CommandButton-voorbeeld in een Word-document invoegt met Aspose.Words voor .NET. |
+| [ActiveX-opdrachtknop maken in Word met C#](./how-to-create-activex-command-button-in-word-using-c/) | Leer hoe u een ActiveX-opdrachtknop in een Word-document toevoegt met C# via Aspose.Words voor .NET. |
+| [Hoe een ActiveX-besturingselement in Word toevoegen met C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Leer hoe u een ActiveX-besturingselement in een Word-document kunt invoegen met C# en Aspose.Words voor .NET. |
+| [Hoe OLE-opdrachtknop in een Word-document invoegen met C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Leer hoe u een OLE-opdrachtknop in een Word-document invoegt met C# en Aspose.Words voor .NET. |
 | [Hoe een opdrachtknop programmatisch toevoegen in een Word-document](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Leer hoe u via code een opdrachtknop in een Word-document kunt invoegen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -19,7 +19,7 @@
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Εισαγωγή πεδίου φόρμας συνδυαστικού πλαισίου σε έγγραφο του Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Πώς να μετατρέψετε docx σε pdf και να κρύψετε πεδία φόρμας σε C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Δημιουργία εγγράφου Word προγραμματιστικά – οδηγός βήμα προς βήμα" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
