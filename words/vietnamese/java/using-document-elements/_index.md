@@ -24,11 +24,11 @@ Trước khi đi sâu vào hướng dẫn, điều cần thiết là phải nắ
 
 ## Truy cập và thao tác các phần tử tài liệu
 
-Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words for Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
+Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words cho Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
 
 ## Tạo tài liệu động
 
-Với Aspose.Words for Java, bạn có thể tạo tài liệu động ngay lập tức. Hãy tưởng tượng việc tạo hóa đơn, báo cáo hoặc hợp đồng trực tiếp từ ứng dụng Java của bạn. Các hướng dẫn này sẽ hướng dẫn bạn quy trình thêm nội dung, định dạng và lưu tài liệu động ở nhiều định dạng khác nhau như PDF, DOCX, v.v.
+Với Aspose.Words cho Java, bạn có thể tạo tài liệu động ngay lập tức. Hãy tưởng tượng việc tạo hóa đơn, báo cáo hoặc hợp đồng trực tiếp từ ứng dụng Java của bạn. Các hướng dẫn này sẽ hướng dẫn bạn quy trình thêm nội dung, định dạng và lưu tài liệu động ở nhiều định dạng khác nhau như PDF, DOCX, v.v.
 
 ## Nâng cao kỹ năng xử lý tài liệu của bạn
 
@@ -38,11 +38,22 @@ Bằng cách làm theo các hướng dẫn này, bạn không chỉ học đư�
 
 Sẵn sàng để bắt đầu? Hãy đến [Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để truy cập tài liệu toàn diện. Bạn sẽ tìm thấy các giải thích chi tiết, mẫu mã và tham chiếu API sẽ hướng dẫn bạn qua mọi khía cạnh của thao tác phần tử tài liệu.
 
-Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose.Words for Java là một kỹ năng có giá trị đối với bất kỳ nhà phát triển Java nào làm việc với tài liệu. Các hướng dẫn này cung cấp một lộ trình rõ ràng và có cấu trúc để giúp bạn trở nên thành thạo trong lĩnh vực này. Vì vậy, hãy xắn tay áo lên, tìm hiểu các hướng dẫn và mở khóa toàn bộ tiềm năng của Aspose.Words for Java trong các dự án xử lý tài liệu của bạn.
+Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose.Words cho Java là một kỹ năng có giá trị đối với bất kỳ nhà phát triển Java nào làm việc với tài liệu. Các hướng dẫn này cung cấp một lộ trình rõ ràng và có cấu trúc để giúp bạn trở nên thành thạo trong lĩnh vực này. Vì vậy, hãy xắn tay áo lên, tìm hiểu các hướng dẫn và mở khóa toàn bộ tiềm năng của Aspose.Words cho Java trong các dự án xử lý tài liệu của bạn.
 
-Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words for Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
+Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words cho Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
 
 ## Hướng dẫn sử dụng Document Elements
+### [Tạo tài liệu Word trống với nút lệnh – hướng dẫn từng bước](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và thêm nút lệnh để người dùng có thể tạo tài liệu mới.
+### [Cách thêm SDT trong C# – hướng dẫn đầy đủ cho các placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Hướng dẫn chi tiết cách chèn SDT (Structured Document Tag) trong C# để tạo các placeholder trong tài liệu Word.
+### [Cách tạo biểu đồ dạng tròn trong tài liệu Word bằng Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Hướng dẫn từng bước tạo biểu đồ dạng tròn trong tài liệu Word bằng Java sử dụng Aspose.Words.
+### [Cách chèn biểu đồ tròn vào tài liệu Word bằng Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
@@ -67,12 +78,47 @@ Học cách sử dụng Markdown trong Aspose.Words cho Java với hướng dẫ
 Học cách thao tác các nút trong Aspose.Words cho Java với hướng dẫn từng bước này. Mở khóa sức mạnh xử lý tài liệu.
 ### [Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java](./using-ole-objects-and-activex/)
 Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!
+### [Thêm Forms2OleControl vào DOCX – Hướng dẫn toàn diện Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách sử dụng Forms2OleControl để chèn điều khiển OLE vào tài liệu DOCX bằng Aspose.Words for Java.
+### [Cách tạo forms2olecontrol trong mã với Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Hướng dẫn cách tạo đối tượng Forms2OleControl trong mã Java bằng Aspose.Words.
+### [Cách tạo nút lệnh ActiveX trong Java](./how-to-create-activex-command-button-in-java/)
 ### [Tạo tài liệu Word trống và thêm nút ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Hướng dẫn tạo tài liệu Word trống và chèn nút ActiveX bằng Aspose.Words cho Java.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
 Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
+### [Đặt kích thước nút trong Word bằng Java – Hướng dẫn đầy đủ Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Học cách đặt kích thước nút trong tài liệu Word bằng Java sử dụng Aspose.Words. Hướng dẫn chi tiết từng bước để tùy chỉnh nút trong Word.
+### [Tạo biểu đồ tròn với Aspose.Words Java – Hướng dẫn chi tiết từng bước](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Học cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước.
+### [Chèn biểu đồ tròn trong Word bằng Aspose.Words – Hướng dẫn đầy đủ](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words cho Java, bao gồm tạo dữ liệu và định dạng biểu đồ.
+### [Cách chèn nút ActiveX trong Word – Đặt chú thích nút](./how-to-insert-activex-button-in-word-set-button-caption/)
+Học cách chèn nút ActiveX vào tài liệu Word và thiết lập chú thích cho nút bằng Aspose.Words cho Java.
+### [Cách lấy dấu phân cách trong tài liệu Word bằng Java](./how-to-get-separator-in-word-docs-with-java/)
+Hướng dẫn cách lấy dấu phân cách trong tài liệu Word bằng Java để xử lý nội dung tài liệu.
+### [Tạo biểu đồ tròn trong Word bằng Java – hướng dẫn từng bước](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng Java.
+### [Tạo tài liệu Word với các placeholder và danh sách trong Aspose.Words cho Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Hướng dẫn tạo tài liệu Word có placeholder và danh sách bằng Aspose.Words cho Java.
+### [Cách thêm đường dẫn vào biểu đồ tròn trong Java với Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Hướng dẫn từng bước để thêm các đường dẫn vào biểu đồ tròn trong Java sử dụng Chart API của Aspose.Words.
+### [Cách chèn nút lệnh vào tài liệu Word bằng Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Hướng dẫn chi tiết cách chèn nút lệnh vào tài liệu Word bằng Java, giúp tạo tài liệu tương tác.
+### [Cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Hướng dẫn chi tiết cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java với Aspose.Words.
+### [Lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut trong Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Hướng dẫn lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut bằng Aspose.Words for Java.
+### [Tạo tài liệu Word trống và chèn điều khiển văn bản thuần trong Aspose.Words cho Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Hướng dẫn tạo tài liệu Word trống và chèn một điều khiển văn bản thuần bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word bằng cách lập trình và chèn nút](./create-word-document-programmatically-and-insert-a-button/)
+Hướng dẫn tạo tài liệu Word và chèn nút tương tác bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và thêm biểu đồ radar trong C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Hướng dẫn tạo tài liệu Word trống và chèn biểu đồ radar bằng C# sử dụng Aspose.Words.
+### [Cách tạo file docx chứa ActiveX với Java và Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Hướng dẫn tạo tài liệu docx có chứa ActiveX bằng Java và Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

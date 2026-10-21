@@ -43,6 +43,11 @@ Aspose.Words for Java를 사용하면 동적 문서를 즉시 생성할 수 있�
 연습하면 완벽해진다는 것을 기억하세요. Aspose.Words for Java를 사용하면 순식간에 전문가처럼 문서를 만들고, 수정하고, 향상시킬 수 있습니다. 즐거운 코딩 되세요!
 
 ## 문서 요소 사용 튜토리얼
+### [Java로 Word 문서에서 구분 기호 가져오기](./how-to-get-separator-in-word-docs-with-java/)
+Java를 사용해 Word 문서에서 구분 기호를 추출하는 방법을 단계별로 안내합니다.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java에서 빈 Word 문서를 만들고 ActiveX 버튼 추가](./create-a-blank-word-document-and-add-an-activex-button-java/)
 빈 Word 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
@@ -69,10 +74,48 @@ Aspose.Words for Java에서 머리글과 바닥글을 사용하는 방법을 단
 이 단계별 튜토리얼을 통해 Aspose.Words for Java에서 노드를 조작하는 방법을 배워보세요. 문서 처리 능력을 최대한 활용하세요.
 ### [Aspose.Words for Java에서 OLE 개체 및 ActiveX 컨트롤 사용](./using-ole-objects-and-activex/)
 Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방법을 배워보세요. 인터랙티브 문서를 손쉽게 제작할 수 있습니다. 지금 바로 시작하세요!
+### [DOCX에 Forms2OleControl 추가 – 완전한 Aspose.Words 가이드](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aspose.Words for Java를 사용하여 DOCX 파일에 Forms2OleControl을 추가하는 방법을 단계별로 안내합니다.
+### [Word에서 ActiveX 버튼 삽입 – 버튼 캡션 설정](./how-to-insert-activex-button-in-word-set-button-caption/)
+Word 문서에 ActiveX 버튼을 삽입하고 캡션을 설정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 ActiveX가 포함된 DOCX 만들기](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java와 Aspose.Words를 활용해 ActiveX 컨트롤이 포함된 DOCX 파일을 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 ActiveX 명령 버튼 만들기](./how-to-create-activex-command-button-in-java/)
+Java에서 ActiveX 명령 버튼을 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 수정 사항 사용](./using-revisions/)
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [Aspose.Words Java를 사용하여 파이 차트 만들기 – 전체 단계별 가이드](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java를 활용해 파이 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Word에서 버튼 크기 설정 – 완전한 Aspose.Words 가이드](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aspose.Words for Java를 활용해 Word 문서의 버튼 크기를 조정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words for Java를 사용해 Word 문서에 파이 차트를 삽입하고, 데이터 바인딩 및 서식 지정 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 명령 버튼으로 빈 워드 문서 만들기](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [C#에서 SDT 추가 – Word 자리표시자를 위한 완전 가이드](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Word 문서의 자리표시자를 관리하기 위해 SDT(구조화된 문서 태그)를 추가하는 방법을 단계별로 안내합니다.
+### [Java로 Word에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
+### [Java와 Chart API를 사용하여 파이 차트에 리더 라인 추가하기](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java용 Aspose.Words Chart API를 활용해 파이 차트에 리더 라인을 추가하는 방법을 단계별로 안내합니다.
+### [플레이스홀더와 목록을 사용하여 워드 문서 만들기](./how-to-create-word-document-with-placeholders-and-lists/)
+플레이스홀더와 목록을 활용해 동적인 워드 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 명령 버튼 삽입하기](./how-to-insert-command-button-in-a-word-document-using-java/)
+Aspose.Words for Java를 이용해 Word 문서에 명령 버튼을 추가하고 동작하도록 설정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 차트 편집하기](./how-to-edit-chart-in-a-word-document-using-java/)
+### [Java용 Aspose.Words에서 코드로 forms2olecontrol 만들기](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [Java에서 도넛 차트를 편집한 후 Word 문서 저장](./save-word-document-after-editing-doughnut-chart-in-java/)
+Aspose.Words for Java를 사용해 도넛 차트를 수정하고 편집된 문서를 저장하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 Word 문서 만들고 일반 텍스트 컨트롤 삽입하기](./create-blank-word-document-and-insert-a-plain-text-control/)
+### [Java용 Aspose.Words에서 방사형 차트 만들기](./how-to-create-radial-chart-in-a-word-document-with-java/)
+### [프로그래밍으로 워드 문서를 만들고 버튼 삽입하기](./create-word-document-programmatically-and-insert-a-button/)
+Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 생성하고, 문서에 버튼을 삽입하는 방법을 단계별로 안내합니다.
+### [C#로 빈 Word 문서를 만들고 레이더 차트를 추가하는 방법](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입하기](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Java와 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

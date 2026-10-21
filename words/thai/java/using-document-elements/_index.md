@@ -43,6 +43,11 @@
 โปรดจำไว้ว่าการฝึกฝนทำให้เก่งขึ้น และด้วย Aspose.Words สำหรับ Java คุณจะสามารถสร้าง แก้ไข และปรับปรุงเอกสารได้เหมือนมืออาชีพในเวลาไม่นาน เขียนโค้ดให้สนุก!
 
 ## การใช้บทช่วยสอนองค์ประกอบเอกสาร
+### [สร้างเอกสาร Word ว่างด้วยปุ่มคำสั่ง – คู่มือทีละขั้นตอน](./create-blank-word-document-with-a-command-button-step-by-ste/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มปุ่มคำสั่งด้วยขั้นตอนง่ายๆ ใน Aspose.Words สำหรับ Java
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java](./using-comments/)
 เรียนรู้วิธีใช้คำอธิบายประกอบใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งคำอธิบายประกอบในเอกสารของคุณ
 ### [การใช้ฟิลด์ใน Aspose.Words สำหรับ Java](./using-fields/)
@@ -71,6 +76,45 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [ตั้งขนาดปุ่มใน Word ด้วย Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+เรียนรู้วิธีตั้งขนาดปุ่มในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียดและครบถ้วน
+### [สร้างแผนภูมิวงกลมด้วย Aspose.Words Java – คู่มือเต็มขั้นตอน](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
+### [เพิ่ม Forms2OleControl ไปยัง DOCX – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+เรียนรู้วิธีเพิ่ม Forms2OleControl ลงในไฟล์ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีแทรกปุ่ม ActiveX ใน Word – ตั้งค่าคำบรรยายของปุ่ม](./how-to-insert-activex-button-in-word-set-button-caption/)
+เรียนรู้วิธีแทรกปุ่ม ActiveX ลงในเอกสาร Word และตั้งค่าคำบรรยายของปุ่มอย่างละเอียด
+### [แทรกแผนภูมิวงกลมใน Word ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [วิธีรับตัวคั่นในเอกสาร Word ด้วย Java](./how-to-get-separator-in-word-docs-with-java/)
+เรียนรู้วิธีดึงตัวคั่นจากเอกสาร Word ด้วย Aspose.Words for Java
+### [วิธีเพิ่ม SDT ใน C# – คู่มือฉบับสมบูรณ์สำหรับตัวแทน Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [สร้างแผนภูมิวงกลมใน Word ด้วย Java – คู่มือทีละขั้นตอน](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+### [วิธีเพิ่มเส้นนำไปยังแผนภูมิวงกลมใน Java ด้วย Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+เรียนรู้วิธีเพิ่มเส้นนำในแผนภูมิวงกลมด้วย Chart API ของ Aspose.Words for Java
+### [วิธีสร้างเอกสาร Word ด้วยตัวแปรแทนที่และรายการ](./how-to-create-word-document-with-placeholders-and-lists/)
+เรียนรู้วิธีสร้างเอกสาร Word ที่มีตัวแปรแทนที่และรายการโดยใช้ Aspose.Words for Java
+### [การใช้ปุ่มคำสั่งใน Aspose.Words สำหรับ Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+เรียนรู้วิธีแทรกปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Java](./how-to-edit-chart-in-a-word-document-using-java/)
+เรียนรู้วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [วิธีสร้าง forms2olecontrol ในโค้ดด้วย Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [บันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+เรียนรู้วิธีบันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java ด้วย Aspose.Words
+### [สร้างเอกสาร Word ว่างและแทรกคอนโทรลข้อความธรรมดาใน Aspose.Words สำหรับ Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มคอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words for Java
+### [วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+เรียนรู้วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java อย่างละเอียดด้วยบทช่วยสอนขั้นตอนต่อขั้นตอน
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและแทรกปุ่ม](./create-word-document-programmatically-and-insert-a-button/)
+เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด Java และแทรกปุ่มโต้ตอบในเอกสาร
+### [วิธีสร้างเอกสาร Word ว่างและเพิ่มแผนภูมิเรดาร์ใน C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและใส่แผนภูมิเรดาร์โดยใช้ Aspose.Words for C#
+### [วิธีสร้างไฟล์ docx ที่มี ActiveX ด้วย Java และ Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+เรียนรู้วิธีสร้างไฟล์ DOCX ที่ฝัง ActiveX ด้วย Java และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
+### [วิธีสร้างปุ่มคำสั่ง ActiveX ใน Java](./how-to-create-activex-command-button-in-java/)
+เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 ### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
 

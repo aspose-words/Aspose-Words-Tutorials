@@ -46,7 +46,9 @@ Before you start, make sure you have:
 - An IDE such as **IntelliJ IDEA** or **Eclipse**.  
 - Basic Java knowledge and familiarity with **Maven** or **Gradle** for dependency management.  
 
-## Setting Up Aspose.Words
+## Setting up Aspose.Words
+
+To integrate Aspose.Words into your Java project, include the library as a Maven or Gradle dependency.
 
 ### Maven
 Add this snippet to your `pom.xml` file:
@@ -75,6 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Here’s a minimal Java program that creates an empty document:
 
+The `Document` class is the core object that represents a PDF, Word, or any supported file in memory. After adding the Maven dependency, you can instantiate it as follows:
 ```java
 import com.aspose.words.Document;
 
@@ -90,9 +93,9 @@ public class DocumentSetup {
 
 With the library ready, let’s dive into the core features.
 
-## Implementation Guide
+## Implementation guide
 
-### Feature 1: Document Initialization
+### Feature 1: document initialization
 
 #### Overview
 Creating a `GlossaryDocument` inside a main document lets you manage glossaries, styles, and custom parts in a clean, isolated container.
@@ -115,7 +118,7 @@ public class DocumentInitialization {
 
 *Why it matters:* This pattern is the foundation for **merging document sections** later on, because each section can maintain its own styles while still belonging to the same file.
 
-### Feature 2: Set Page Background Color
+### Feature 2: set page background color
 
 #### Overview
 You can apply a uniform tint to every page using `Document.setPageColor`. This directly addresses the primary keyword **set page background color**.
@@ -175,7 +178,7 @@ public class ImportNode {
 
 **Pro tip:** After importing, you can call `dstDoc.updatePageLayout()` to ensure page breaks and headers/footers are correctly recalculated.
 
-### Feature 4: Import Node with Custom Format Mode
+### Feature 4: import node with custom format mode
 
 #### Overview
 Sometimes the source and destination use different style definitions. `ImportFormatMode` lets you decide whether to keep the source styles or force the destination’s styles.

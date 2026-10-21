@@ -49,6 +49,9 @@
 ### [การใช้สิทธิ์ใช้งานกับ Aspose.Words สำหรับ Java](./applying-licensing/)
 เรียนรู้วิธีใช้สิทธิ์การใช้งาน Aspose.Words สำหรับ Java ทีละขั้นตอน เข้าถึงตอนนี้และปลดล็อกศักยภาพทั้งหมดของโปรแกรม
 
+### [สร้าง DocumentConfig ใน Java – ติดตามแบบอักษรที่หายไปด้วย Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+เรียนรู้วิธีสร้าง DocumentConfig ใน Java เพื่อติดตามแบบอักษรที่หายไปและจัดการฟอนต์ด้วย Aspose.Words
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
