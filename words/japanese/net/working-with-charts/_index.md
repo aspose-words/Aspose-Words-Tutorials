@@ -32,6 +32,8 @@ Aspose.Words for .NET は、Word 文書内のグラフ操作に役立つ強力�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Aspose.Words for .NET を使用して Word にシンプルな縦棒グラフを挿入する" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Wordでチャートを編集する方法：ラベル位置、フォントなどを変更" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

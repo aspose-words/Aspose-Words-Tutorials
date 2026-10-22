@@ -35,6 +35,14 @@ Aspose.Words for Python を用いたワードオートメーションを習得�
 ### [Wordの自動化が簡単に](./word-automation-made-easy/)
 Aspose.Words for Pythonを使えば、Word処理を簡単に自動化できます。プログラムでドキュメントを作成、フォーマット、操作。生産性を今すぐ向上させましょう！
 
+### [Pythonでdocxのテキスト置換 – 完全ステップバイステップガイド](./replace-text-docx-with-python-full-step-by-step-guide/)
+Pythonを使用してdocxファイル内のテキストを置換する方法をステップバイステップで解説します。
+
+### [PythonでAsposeを使用して文法修正を自動化する方法](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Asposeを活用し、Pythonで文書の文法チェックと自動修正を実装する手順を解説します。
+### [Pythonで影付きシェイプ付きの空白Word文書を作成](./create-blank-word-document-with-shadowed-shape-in-python/)
+PythonとAspose.Wordsを使用して、影付きシェイプを含む空白のWord文書をプログラムで作成する方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

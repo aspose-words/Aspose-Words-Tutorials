@@ -1,0 +1,7 @@
+Title: How to insert OLE command button in a Word document using C#
+Slug: how-to-insert-ole-command-button-in-a-word-document-using-c
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-10-07T14:57:14.611210
+SourceRepo: AI Search API
+Keywords: insert ole command button
+PRNumber: 305

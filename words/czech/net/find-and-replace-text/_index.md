@@ -30,12 +30,17 @@ Ať už potřebujete nahradit konkrétní slova, aktualizovat textové šablony 
 | [Ignorovat text uvnitř polí](./ignore-text-inside-fields/) | Naučte se, jak manipulovat s textem uvnitř polí v dokumentech Wordu pomocí Aspose.Words pro .NET. Tento tutoriál poskytuje podrobné pokyny s praktickými příklady. |
 | [Ignorovat text uvnitř Smazat revize](./ignore-text-inside-delete-revisions/) Naučte se, jak pracovat se sledovanými revizemi v dokumentech Word pomocí Aspose.Words pro .NET. Zvládněte automatizaci dokumentů s tímto komplexním tutoriálem. |
 | [Ignorovat text uvnitř vložených revizí](./ignore-text-inside-insert-revisions/) | Naučte se, jak efektivně spravovat revize dokumentů pomocí Aspose.Words pro .NET. Objevte techniky, jak ignorovat text uvnitř vložených revizí pro efektivnější úpravy. |
+| [Jak nahradit zástupné symboly v souborech docx pomocí Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Naučte se, jak nahradit zástupné symboly v souborech DOCX pomocí Aspose.Words pro .NET. |
 | [Nahradit text v zápatí](./replace-text-in-footer/) | Naučte se, jak nahradit text v zápatí dokumentu Word pomocí Aspose.Words pro .NET. Postupujte podle tohoto průvodce a zvládněte nahrazování textu s podrobnými příklady. |
 | [Nahradit regulárním výrazem](./replace-with-regex/) | Naučte se, jak používat regulární výrazy pro vyhledávání a nahrazování v dokumentech Wordu s Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem, abyste zvládli manipulaci s textem. |
 | [Rozpoznávání a substituce v rámci substitučních vzorů](./recognize-and-substitutions-within-replacement-patterns/) | Naučte se, jak rozpoznávat a nahrazovat text v náhradních vzorcích pomocí Aspose.Words pro .NET. Podrobný návod s podrobnými příklady. |
 | [Nahradit řetězcem](./replace-with-string/) | Naučte se, jak nahrazovat řetězce v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří chtějí automatizovat úpravy dokumentů. |
 | [Nahradit text v tabulce](./replace-text-in-table/) | Snadno nahraďte text v tabulce Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
-
+| [Nahraďte text v DOCX pomocí C# – krok za krokem](./replace-text-in-docx-with-c-step-by-step-guide/) | Naučte se, jak pomocí C# a Aspose.Words nahradit text v souborech DOCX v podrobném krok‑za‑krokem průvodci. |
+| [Nahrazení textu v docx pomocí C# – Kompletní průvodce krok za krokem](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Podrobný návod, jak pomocí Aspose.Words pro .NET a C# nahradit text v souborech DOCX krok za krokem. |
+| [Jak přepsat odstavec pomocí AI v C# – Kompletní průvodce](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Naučte se, jak pomocí AI automaticky přepsat odstavec v C# s podrobným návodem a ukázkami kódu. |
+| [Jak vygenerovat šablonu dokumentu a naplnit ji daty v C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Naučte se vytvořit šablonu dokumentu a naplnit ji daty pomocí Aspose.Words pro .NET v C#. |
+| [Automatizace generování dokumentů Word pomocí Aspose.Words v C#](./automate-word-document-generation-with-aspose-words-in-c/) | Naučte se automatizovat tvorbu dokumentů Word v C# pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

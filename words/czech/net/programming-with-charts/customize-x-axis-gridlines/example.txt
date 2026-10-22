@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit dokument Word, vložit sloupcový graf, nahradit jeho ukázková data a poté povolit a stylovat hlavní mřížky na primární ose X.
+//ExStepSummary:0: Vytvořte nový dokument Word a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Vložte do dokumentu sloupcový graf o rozměrech 432×252 a získejte jeho objekt Chart.
+//ExStepSummary:2: Odeberte výchozí řadu a přidejte vlastní řadu se třemi skupinami a hodnotami.
+//ExStepSummary:3: Získejte odkaz na primární vodorovnou (X) osu grafu.
+//ExStepSummary:4: Povolte zobrazení hlavních mřížek na primární ose X.
+//ExStepSummary:5: Nastavte barvu mřížek na modrou a jejich tloušťku na 2 body.
+//ExStepSummary:6: Uložte dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

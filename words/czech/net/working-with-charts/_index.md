@@ -32,6 +32,8 @@ Ponořte se hlouběji s našimi vnořenými stránkami a prozkoumejte specifick�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Vložení jednoduchého sloupcového grafu do Wordu pomocí Aspose.Words pro .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Jak upravit graf ve Wordu: změna pozice popisku, písma a další" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

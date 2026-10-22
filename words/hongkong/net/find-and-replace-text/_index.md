@@ -35,7 +35,13 @@ Aspose.Words for .NET 是一個功能強大的程式庫，它為 .NET 應用程�
 | [識別替換模式中的替換](./recognize-and-substitutions-within-replacement-patterns/) |了解如何使用 Aspose.Words for .NET 識別和取代替換模式中的文字。帶有詳細範例的分步指南。 |
 | [替換為字串](./replace-with-string/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 取代 Word 文件中的字串。非常適合希望自動化文件編輯的開發人員。 |
 | [替換表格中的文字](./replace-text-in-table/) |依照這份詳細的逐步指南，使用 Aspose.Words for .NET 輕鬆取代 Word 表中的文字。 |
+| [使用 C# 逐步取代 DOCX 文字](./replace-text-in-docx-with-c-step-by-step-guide/) |了解如何使用 Aspose.Words for .NET 及 C# 在 DOCX 文件中逐步執行文字取代操作。 |
+| [使用 C# 替換 docx 文本 – 完整逐步指南](./replace-text-in-docx-with-c-full-step-by-step-guide/) |本教學示範如何使用 Aspose.Words for .NET 以 C# 完整步驟替換 docx 文件中的文字。 |
+| [如何使用 AI 在 C# 中改寫段落 – 完整指南](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) |了解如何在 C# 中使用 AI 重新撰寫段落，提供完整步驟與範例，提升文件自動化效率。 |
+| [使用 Aspose.Words 在 C# 中自動化 Word 文件生成](./automate-word-document-generation-with-aspose-words-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中自動生成 Word 文件。 |
 
+| [如何在 C# 中產生文件範本並填入資料](./how-to-generate-document-template-and-fill-it-with-data-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中建立文件範本，並將資料填入以自動生成文件。 |
+| [使用 Aspose.Words 替換 docx 檔案中的佔位符](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) |了解如何使用 Aspose.Words 在 docx 檔案中替換佔位符。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

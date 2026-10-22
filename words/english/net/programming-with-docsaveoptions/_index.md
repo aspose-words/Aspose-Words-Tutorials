@@ -28,6 +28,7 @@ By following these tutorials, you will learn the best practices for saving your 
 | [Encrypt Document With Password](./encrypt-document-with-password/) | Learn how to encrypt a document with a password using Aspose.Words for .NET in this detailed, step-by-step guide. Secure your sensitive information effortlessly. |
 | [Do Not Compress Small Metafiles](./do-not-compress-small-metafiles/) | Learn how to use Aspose.Words for .NET to ensure small metafiles in Word documents are not compressed, preserving their quality and integrity. Step-by-step guide included. |
 | [Do Not Save Picture Bullet](./do-not-save-picture-bullet/) | earn how to handle picture bullets in Aspose.Words for .NET with our step-by-step guide. Simplify document management and create professional Word documents effortlessly. |
+| [How to Save Edited Document in C# with Aspose.Words – Step‑by‑Step Guide](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Learn how to save an edited document using Aspose.Words in C# with a clear, step‑by‑step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

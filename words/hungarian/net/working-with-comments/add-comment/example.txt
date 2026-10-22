@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Ez a bemutató bemutatja, hogyan hozhatunk létre egy új Word dokumentumot, adhatunk hozzá három bekezdést, keressünk meg egy adott bekezdést, csatoljunk hozzá egy szerzői információkat tartalmazó megjegyzést, és menthetjük az eredményt DOCX fájlként az Aspose.Words használatával.
+//ExStepSummary:0: Hozzunk létre egy új Document példányt és egy DocumentBuilder példányt a Word fájl felépítésének megkezdéséhez.
+//ExStepSummary:1: Használjuk a DocumentBuilder.Writeln metódust három különálló szövegbekezdés hozzáadásához a dokumentumhoz.
+//ExStepSummary:2: Biztonságosan lekérjük a második bekezdést, és ha a dokumentumban kevesebb mint két bekezdés van, akkor az elsőre váltunk.
+//ExStepSummary:3: Hozzunk létre egy Comment objektumot a szerző adataival, állítsuk be a szövegét, és csatoljuk a kiválasztott bekezdéshez.
+//ExStepSummary:4: Mentsük a módosított dokumentumot DOCX fájlként a 'sample.docx' néven az aktuális mappába.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

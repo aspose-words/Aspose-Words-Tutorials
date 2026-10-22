@@ -52,12 +52,12 @@ Thêm bình luận trong Java có nghĩa là tạo một nút `Comment`, gắn n
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### License Acquisition
 Aspose.Words là sản phẩm thương mại. Bạn có thể bắt đầu với bản dùng thử miễn phí 30 ngày hoặc yêu cầu giấy phép tạm thời để đánh giá. Truy cập [trang mua](https://purchase.aspose.com/buy) để biết chi tiết.
@@ -72,20 +72,20 @@ Aspose.Words là sản phẩm thương mại. Bạn có thể bắt đầu với
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** Create and Add a Comment → **Bước 2:** Tạo và thêm một bình luận  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** Add a Reply to the Comment → **Bước 3:** Thêm một phản hồi vào bình luận  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Feature 2: Print All Comments
 **Overview** – Retrieves every top‑level comment and its replies for review. → **Tổng quan** – Lấy mọi bình luận cấp cao nhất và các phản hồi của chúng để xem xét.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** Load the Document → **Bước 1:** Tải tài liệu  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** Retrieve and Print Comments → **Bước 2:** Truy xuất và in các bình luận  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Feature 3: How to Delete Comment Replies in Java
 **Overview** – Shows **how to delete comment replies** to keep the document tidy. → **Tổng quan** – Thể hiện **how to delete comment replies** để giữ tài liệu gọn gàng.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** Remove Replies → **Bước 2:** Xóa các phản hồi  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** Mark the Comment as Done → **Bước 2:** Đánh dấu bình luận là đã hoàn thành  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Feature 5: Get UTC Date and Time from Comment
 **Overview** – Retrieves the exact UTC timestamp a comment was added, ideal for audit logs. → **Tổng quan** – Lấy dấu thời gian UTC chính xác khi bình luận được thêm, lý tưởng cho nhật ký kiểm toán.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** Save and Retrieve the UTC Date → **Bước 2:** Lưu và truy xuất ngày UTC  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Practical Applications
 - **Collaborative Editing:** Teams can add and reply to comments directly in generated reports. → **Chỉnh sửa hợp tác:** Các nhóm có thể thêm và trả lời bình luận trực tiếp trong báo cáo được tạo.  
