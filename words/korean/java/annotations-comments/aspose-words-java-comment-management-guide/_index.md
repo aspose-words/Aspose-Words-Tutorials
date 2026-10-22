@@ -51,12 +51,12 @@ Java에서 주석을 추가한다는 것은 `Comment` 노드를 생성하고 이
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### 라이선스 획득
 Aspose.Words는 상용 제품입니다. 무료 30일 체험판을 사용하거나 평가용 임시 라이선스를 요청할 수 있습니다. 자세한 내용은 [구매 페이지](https://purchase.aspose.com/buy) 를 참고하세요.
@@ -71,20 +71,20 @@ Aspose.Words는 상용 제품입니다. 무료 30일 체험판을 사용하거�
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** 주석 생성 및 추가  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** 주석에 답글 추가  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### 기능 2: 모든 주석 출력
 **개요** – 최상위 주석과 그 답글을 모두 조회하여 검토합니다.
@@ -93,7 +93,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** 문서 로드  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** 주석 조회 및 출력  
 ```java
@@ -107,7 +107,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### 기능 3: Java에서 주석 답글 삭제 방법
 **개요** – 문서를 깔끔하게 유지하기 위해 **how to delete comment replies** 를 보여줍니다.
@@ -121,7 +121,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** 답글 삭제  
 ```java
@@ -140,7 +140,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** 주석을 완료 상태로 표시  
 ```java
@@ -148,7 +148,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### 기능 5: 주석의 UTC 날짜 및 시간 가져오기
 **개요** – 감사 로그에 이상적인 정확한 UTC 타임스탬프를 조회합니다.
@@ -162,7 +162,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** UTC 날짜 저장 및 조회  
 ```java
@@ -170,7 +170,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## 실용적인 활용 사례
 - **협업 편집:** 팀이 자동 생성 보고서에 직접 주석 및 답글을 추가할 수 있습니다.  

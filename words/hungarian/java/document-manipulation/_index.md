@@ -76,10 +76,16 @@ Optimalizálja dokumentumfeldolgozását az Aspose.Words for Java segítségéve
 Sajátítsd el a dokumentumtartomány-manipulációt az Aspose.Words for Java programban. Tanuld meg a szöveg törlését, kinyerését és formázását ezzel az átfogó útmutatóval.
 ### [Strukturált dokumentumcímkék (SDT) használata az Aspose.Words Java-ban](./using-structured-document-tags/)
 Tanuld meg, hogyan használd a strukturált dokumentumcímkéket (SDT) az Aspose.Words for Java programban ezzel az átfogó útmutatóval. Hozz létre, módosíts és köss SDT-ket egyéni XML adatokhoz.
+### [Új Word dokumentum létrehozása – Lépésről‑lépésre útmutató strukturált címke hozzáadásához](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Ismerje meg, hogyan hozhat létre új Word dokumentumot és adhat hozzá strukturált címkét a részletes példák segítségével.
 ### [Stílusok és témák használata az Aspose.Words for Java-ban](./using-styles-and-themes/)
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
 Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat.
+
+### [PDF hozzáférhetőségi címkézés Java-ban – Hozzon létre hozzáférhető PDF-eket](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Ismerje meg, hogyan lehet PDF-eket hozzáférhetővé tenni Java-ban az Aspose.Words segítségével, címkézéssel és szabványos megoldásokkal.
+
 ### [Dokumentumok védelme az Aspose.Words for Java programban](./protecting-documents/)
 Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóval és egyebekkel.
 ### [Dokumentumok oldalakra osztása az Aspose.Words for Java programban](./splitting-documents-into-pages/)
@@ -90,9 +96,11 @@ Tanuld meg, hogyan oszthatod hatékonyan a dokumentumokat az Aspose.Words for Ja
 Tanuld meg, hogyan bonthatod fel a dokumentumokat HTML oldalakra az Aspose.Words for Java segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes dokumentumkonvertáláshoz.
 ### [Tartalom hozzáadása a DocumentBuilder használatával az Aspose.Words for Java programban](./adding-content-using-documentbuilder/)
 Dokumentumkészítés mestere az Aspose.Words segítségével Java-ban. Lépésről lépésre útmutató szöveg, táblázatok, képek és egyebek hozzáadásához. Készítsen lenyűgöző Word-dokumentumokat könnyedén.
+### [Hogyan mentse el a docx-et a DocumentBuilder-rel, és szöveget adjon egy vezérlő után](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Ismerje meg, hogyan menthet docx fájlt a DocumentBuilder-rel, és adhat szöveget egy vezérlő után Java-ban.
 ### [Dokumentumok klónozása és kombinálása Aspose.Words programban Java-ban](./cloning-and-combining-documents/)
 Tanuld meg, hogyan klónozhatsz és kombinálhatsz dokumentumokat az Aspose.Words for Java programban. Lépésről lépésre útmutató forráskód példákkal.
-### [Dokumentumok összehasonlítása az Aspose.Words for Java programban](./comparing-documents/)
+### [Dokumentumok összehasonlítása az Aspose.Words for Java programban](./compare-documents/)
 Tanuld meg, hogyan hasonlíthatod össze a dokumentumokat az Aspose.Words for Java programban, amely egy hatékony Java könyvtár a hatékony dokumentumelemzéshez. 
 ### [Dokumentumok formázása az Aspose.Words Java-ban](./formatting-documents/)
 Tanuld meg a dokumentumok formázásának művészetét az Aspose.Words for Java programban átfogó útmutatónkkal. Fedezz fel hatékony funkciókat, és fejleszd dokumentumfeldolgozási készségeidet.
@@ -104,6 +112,24 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
+### [Docx ActiveX gomb létrehozása Java-ban – teljes programozási útmutató](./create-docx-activex-button-in-java-complete-programming-guid/)
+### [Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./how-to-create-a-word-document-in-java-with-aspose-words/)
+### [Tartalomvezérlő hozzáadása Word dokumentumba az Aspose.Words segítségével](./add-content-control-in-word-document-with-aspose-words/)
+Tanulja meg, hogyan adhat hozzá tartalomvezérlőket Word dokumentumokhoz az Aspose.Words Java használatával.
+
+### [Üres dokumentum létrehozása interaktív parancsgombbal Word-ben Java-val](./create-blank-document-with-an-interactive-command-button-in/)
+Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív parancsgombot tartalmaz Java-val.
+### [Üres Word dokumentum létrehozása szövegvezérlővel](./how-to-create-a-blank-word-document-with-a-text-control/)
+Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot szövegvezérlő hozzáadásával az Aspose.Words for Java segítségével.
+### [Word dokumentum létrehozása programozott módon az Aspose.Words segítségével](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot kóddal az Aspose.Words használatával.
+### [Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel](./create-word-document-with-a-plain-text-content-control/)
+Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel.
+
+### [Üres Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./create-blank-word-document-in-java-with-aspose-words/)
+Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot Java-ban az Aspose.Words könyvtár segítségével.
+### [Üres Word dokumentum létrehozása az Aspose.Words for Java segítségével](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot az Aspose.Words for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

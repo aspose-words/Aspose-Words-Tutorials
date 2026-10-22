@@ -50,6 +50,9 @@ Naučte se, jak efektivně spravovat zarážky tabulátoru v dokumentech Wordu p
 ### [Optimalizace stylů slov v Javě pomocí Aspose.Words: Odstranění nepoužívaných a duplicitních stylů](./optimize-word-styles-aspose-java/)
 Naučte se, jak efektivně spravovat styly dokumentů pomocí Aspose.Words pro Javu odstraněním nepoužívaných a duplicitních stylů, čímž zlepšíte výkon a udržovatelnost.
 
+### [Jak změnit formátování poznámky pod čarou v dokumentu Word pomocí Javy](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Naučte se, jak pomocí Aspose.Words pro Javu upravit formátování poznámek pod čarou v dokumentech Word.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

@@ -59,13 +59,13 @@ Añade la dependencia Maven a tu `pom.xml` (este es el **aspose words maven setu
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Si prefieres Gradle, usa el siguiente fragmento:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Obtención de licencia
 Para aprovechar al máximo Aspose.Words, necesitarás un archivo de licencia:
@@ -77,7 +77,10 @@ Después de obtener la licencia, inicialízala en tu aplicación Java de la sigu
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## ¿Cómo insertar caracteres de control en Java?
+La clase `DocumentBuilder` proporciona métodos para construir y modificar el contenido del documento de forma programática. Carga tu documento, crea un `DocumentBuilder` y llama a los métodos `write` o `insert` apropiados para agregar espacios, tabulaciones, saltos de línea o saltos de página. Este patrón de una sola línea —`builder.write(ControlChar.TAB)`— cubre la mayoría de las necesidades de diseño, y puedes encadenar múltiples llamadas para estructuras complejas. Para documentos grandes, la inserción por lotes reduce la sobrecarga de procesamiento. `ControlChar` es una enumeración de caracteres no imprimibles usados para el control del diseño.
 
 ## Guía de implementación
 Dividiremos nuestra implementación en dos características principales: manejo de retornos de carro e inserción de caracteres de control.
@@ -121,6 +124,7 @@ assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not
 ### Característica 2: Inserción de caracteres de control
 Esta característica se centra en añadir varios caracteres de control para mejorar el formato y la estructura del documento.
 
+### Característica 2: inserción de caracteres de control
 #### Guía paso a paso
 **Resumen**: Aprende a **insert control characters java** como espacios, tabulaciones, saltos de línea y saltos de página en tus documentos.
 

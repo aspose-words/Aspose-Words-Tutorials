@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word, แทรกแผนภูมิคอลัมน์, เพิ่มชุดข้อมูลแบบกำหนดเอง, และกำหนดขนาดฟอนต์และสีของป้ายกำกับข้อมูลเริ่มต้นที่ถูกนำไปใช้อย่างสม่ำเสมอกับชุดข้อมูลทั้งหมดในแผนภูมิ
+//ExStepSummary:0: สร้างเอกสาร Word ว่างใหม่และ DocumentBuilder เพื่อแก้ไขเอกสารนั้น
+//ExStepSummary:1: แทรกแผนภูมิคอลัมน์ขนาด 500×300 ลงในเอกสารและรับอ็อบเจ็กต์ Chart ของมัน
+//ExStepSummary:2: ลบชุดข้อมูลตัวอย่างเริ่มต้นที่ Aspose.Words เพิ่มเข้าไปในแผนภูมิใหม่
+//ExStepSummary:3: กำหนดป้ายชื่อหมวดหมู่และเพิ่มชุดข้อมูลสองชุด (Item Alpha และ Item Beta) พร้อมค่าของพวกมันลงในแผนภูมิ
+//ExStepSummary:4: ตั้งค่าขนาดฟอนต์และสีพื้นฐานที่จะนำไปใช้กับป้ายกำกับข้อมูลทั้งหมด
+//ExStepSummary:5: เปิดใช้งานป้ายกำกับข้อมูลสำหรับแต่ละชุด, แสดงค่าตัวเลข, และใช้ขนาดฟอนต์และสีที่กำหนดไว้ล่วงหน้า
+//ExStepSummary:6: บันทึกเอกสารเป็นไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

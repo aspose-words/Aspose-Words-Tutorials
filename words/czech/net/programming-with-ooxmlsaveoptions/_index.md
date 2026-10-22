@@ -29,7 +29,7 @@ Ať už chcete vytvářet dokumenty kompatibilní se staršími verzemi Wordu, z
 | [Aktualizovat vlastnost Čas posledního uloženého záznamu](./update-last-saved-time-property/) | Naučte se, jak aktualizovat vlastnost času posledního uložení v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem. |
 | [Zachovat starší řídicí znaky](./keep-legacy-control-chars/) | Naučte se, jak zachovat starší řídicí znaky v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. |
 | [Nastavení úrovně komprese](./set-compression-level/) | Naučte se, jak nastavit úroveň komprese v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu k optimalizaci úložiště a výkonu dokumentů. |
-
+| [Jak změnit kódování dokumentu Word pomocí Aspose.Words v C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Naučte se, jak změnit kódování souboru Word pomocí Aspose.Words v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak použít Aspose.Words k vytvoření dokumentu Word, vytvořit tabulku s pevnými šířkami sloupců, použít svislé zarovnání a orientaci textu, nastavit přesné výšky řádků, naplnit buňky textem a nakonec dokument uložit.
+//ExStepSummary:0: Vytvořte novou instanci třídy Document a DocumentBuilder, které budou použity k vytvoření tabulky.
+//ExStepSummary:1: Začněte novou tabulku, vložte první buňku a nastavte pevné šířky sloupců, aby se automaticky nepřizpůsobovaly.
+//ExStepSummary:2: Vertikálně vycentrujte obsah v aktuální buňce a zapište text první buňky prvního řádku.
+//ExStepSummary:3: Vložte druhou buňku prvního řádku a zapište její text.
+//ExStepSummary:4: Uzavřete první řádek, čímž dokončíte jeho rozvržení.
+//ExStepSummary:5: Začněte první buňku druhého řádku, nastavte výšku řádku přesně na 100 bodů, otočte text nahoru a zapište text buňky.
+//ExStepSummary:6: Vložte druhou buňku druhého řádku, otočte její text dolů a zapište text buňky.
+//ExStepSummary:7: Uzavřete druhý řádek, čímž dokončíte druhou řádku tabulky.
+//ExStepSummary:8: Ukončete tvorbu tabulky, čímž uzavřete strukturu tabulky.
+//ExStepSummary:9: Uložte dokončený dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd
