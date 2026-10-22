@@ -46,8 +46,11 @@
 {{< tutorial-card link="./update-chart-title/" title="Ενημέρωση του τίτλου του διαγράμματος και εναλλαγή της ορατότητας του υπομνήματος στο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Αποθήκευση τροποποιημένου εγγράφου με εκραγμένα τμήματα πίτας σε C# χρησιμοποιώντας Aspose.Words for .NET" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Πώς να μορφοποιήσετε γράφημα στο Word με C# και προσαρμοσμένες μορφές αριθμών" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Πώς να ορίσετε τον αριθμό κβαντισμού ιστογράμματος και να προσθέσετε ετικέτες δεδομένων σε γράφημα Word χρησιμοποιώντας C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Τίτλος | Περιγραφή |
@@ -79,6 +82,11 @@
 | [Προσθήκη ετικετών πίτας σε C# χρησιμοποιώντας Aspose.Words – Πλήρης Οδηγός](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες σε γράφημα πίτας σε C# χρησιμοποιώντας το Aspose.Words, με αναλυτικό βήμα‑βήμα οδηγό. |
 | [Πώς να εμφανίσετε ποσοστά σε γράφημα με Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Μάθετε πώς να εμφανίζετε ποσοστά σε γραφήματα χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
 | [Πώς να προσθέσετε ετικέτες δεδομένων σε γράφημα Word σε C# – οδηγός βήμα‑βήμα](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Μάθετε πώς να προσθέτετε ετικέτες δεδομένων σε γραφήματα Word χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |
+| [Πώς να μορφοποιήσετε σειρές σε γράφημα γραμμής Word με C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Μάθετε πώς να μορφοποιήσετε σειρές σε ένα γράφημα γραμμής στο Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
+| [Πώς να δημιουργήσετε γράφημα πίτας σε ένα έγγραφο Word με το Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Μάθετε πώς να δημιουργήσετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Πώς να δημιουργήσετε ιστόγραμμα σε Word με το Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Μάθετε πώς να δημιουργήσετε ιστόγραμμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Πώς να δημιουργήσετε έγγραφο Word C# με γράφημα στήλης και μορφοποιημένες ετικέτες](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με γράφημα στήλης και μορφοποιημένες ετικέτες χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να δημιουργήσετε έγγραφο Word με προσαρμοσμένο γράφημα πίτας σε C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με προσαρμοσμένο γράφημα πίτας χρησιμοποιώντας C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

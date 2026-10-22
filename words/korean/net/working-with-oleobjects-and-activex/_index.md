@@ -30,9 +30,15 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 | [Word 파일에서 Active XControl 속성 읽기](./read-active-xcontrol-properties/) | Aspose.Words for .NET을 사용하여 Word 파일에서 ActiveX 컨트롤 속성을 읽는 방법을 단계별 가이드로 알아보세요. 문서 자동화 기술을 향상시키세요. |
 | [ActiveX 버튼으로 Word 문서 만들기 – C# 가이드](./create-word-document-with-activex-button-c-guide/) | Aspose.Words for .NET을 사용하여 ActiveX 버튼이 포함된 Word 문서를 C#으로 만드는 방법을 단계별 가이드로 알아보세요. |
 | [Aspose.Words를 사용하여 Word에 ActiveX 컨트롤 추가하기 – 단계별 가이드](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words for .NET을 사용하여 Word 문서에 ActiveX 컨트롤을 삽입하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 Word 문서에 ActiveX 버튼 추가하는 방법](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words for .NET을 사용해 Word 문서에 ActiveX 버튼을 삽입하고 구성하는 단계별 가이드. |
+| [C#를 사용하여 Word에서 ActiveX 명령 버튼 만들기](./how-to-create-activex-command-button-in-word-using-c/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 ActiveX 명령 버튼을 삽입하고 설정하는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word 문서에 OLE 명령 버튼 삽입하는 방법](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Aspose.Words for .NET을 활용해 C#로 Word 문서에 OLE 명령 버튼을 삽입하는 단계별 가이드입니다. |
+| [Word 문서에 명령 버튼을 프로그래밍 방식으로 추가하는 방법](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Aspose.Words for .NET을 사용하여 Word 문서에 명령 버튼을 프로그래밍 방식으로 삽입하고 설정하는 방법을 단계별로 안내합니다. |
 
 | [Aspose.Words를 사용한 워드 문서 만들기 버튼 – 전체 코드 예제](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words를 이용해 워드 문서 생성 버튼을 구현하고 전체 코드를 확인하는 단계별 가이드 |
 | [Aspose.Words를 사용해 Word 문서에 명령 버튼 추가 – 완전 가이드](./add-command-button-to-word-document-with-aspose-words-comple/) | Aspose.Words for .NET을 사용하여 Word 문서에 명령 버튼을 삽입하고 구성하는 방법을 단계별로 안내합니다. |
+| [Word에 OleControlType.CommandButton 예제 삽입](./insert-olecontroltype-commandbutton-example-in-word/) | Aspose.Words for .NET을 사용하여 Word 문서에 OleControlType.CommandButton을 삽입하는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word에 ActiveX 컨트롤을 추가하는 방법](./how-to-add-an-activex-control-word-in-word-with-c/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 ActiveX 컨트롤을 삽입하는 단계별 가이드 |
 
 | [프로그래밍으로 워드 문서를 만들고 ActiveX 버튼 추가](./create-word-document-programmatically-and-add-activex-button/) | Aspose.Words for .NET을 사용하여 프로그래밍으로 워드 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}

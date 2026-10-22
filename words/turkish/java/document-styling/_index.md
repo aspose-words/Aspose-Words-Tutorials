@@ -41,12 +41,22 @@ Aspose.Words for Java kullanarak belgelerdeki paragrafları ve metinleri nasıl 
 Java için Aspose.Words kullanarak belge temalarını nasıl özelleştireceğinizi öğrenin. Bu kapsamlı kılavuz adım adım talimatlar ve kaynak kodu örnekleri sağlar.
 ### [Belge Filigranlama ve Sayfa Düzeni](./document-watermarking-page-setup/)
 Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
+### [Java'da Aspose.Words ile Dipnotları Biçimlendirme](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java kullanarak Word belgelerindeki dipnotları nasıl biçimlendireceğinizi öğrenin. Örnek kodlarla adım adım kılavuz.
 ### [Belge Başlığı ve Alt Bilgi Biçimlendirmesi](./document-header-footer-styling/)
-Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
+Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kod dahildir.
 ### [Java Word Belgelerinde Yazı Tiplerini Algılamak – Tam Kılavuz](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java kullanarak Word belgelerindeki yazı tiplerini nasıl tespit edeceğinizi öğrenin. Adım adım örnekler.
 ### [Aspose.Words for Java’da Varsayılan Yazı Tipi Ayarlarını Belirleme – Tam Kılavuz](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java’da varsayılan yazı tipi ayarlarını nasıl belirleyeceğinizi ve belge oluştururken otomatik olarak uygulayacağınızı öğrenin. 
+### [Aspose.Words for Java ile Word grafiğine gölge ekleme](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak Word grafiğine gölge eklemeyi öğrenin. Adım adım örneklerle açıklanmıştır.
+### [Java'da Aspose.Words ile dipnot ayırıcıyı düzenleme](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java kullanarak dipnot ayırıcılarını nasıl değiştireceğinizi öğrenin. Adım adım örnekler ve kod parçacıkları.
+### [Word grafiğinde dilimi patlatma ve görünümünü özelleştirme](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aspose.Words for Java ile Word grafiğindeki dilimi nasıl patlatıp görünümünü özelleştireceğinizi öğrenin.
+### [DOCX'te Dipnot Boşluğunu Değiştirme – Tam Kılavuz](./change-footnote-spacing-in-docx-complete-guide/)
+Aspose.Words for Java ile DOCX dosyalarında dipnot aralığını nasıl ayarlayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

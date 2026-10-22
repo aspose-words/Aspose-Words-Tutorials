@@ -53,6 +53,20 @@ Découvrez comment étendre les fonctionnalités de vos documents avec des exten
 Apprenez à rendre vos PDF accessibles avec Aspose.Words en Python. Guide complet étape par étape avec exemples de code.
 ### [Comment récupérer un DOCX – Guide complet avec Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Apprenez à récupérer des fichiers DOCX corrompus avec Aspose.Words. Guide complet étape par étape avec exemples de code.
+### [Récupérer un document Word corrompu avec Aspose.Words – guide étape par étape en Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Apprenez à restaurer un document Word endommagé avec Aspose.Words en Python. Guide détaillé pas à pas.
+### [Comment récupérer des fichiers docx en Python – guide étape par étape](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Apprenez à récupérer des fichiers docx corrompus en Python avec Aspose.Words. Guide détaillé étape par étape.
+### [Configurer les options MarkdownSaveOptions pour LaTeX en Python – guide Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Apprenez à configurer MarkdownSaveOptions pour exporter en LaTeX avec Aspose.Words pour Python. Guide étape par étape avec code source.
+### [Comment récupérer des fichiers docx avec Aspose.Words pour Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Apprenez à récupérer des fichiers docx corrompus à l'aide d'Aspose.Words pour Python. Guide étape par étape avec code source.
+### [Activer le mode de récupération pour ouvrir un document Word corrompu](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Apprenez à activer le mode de récupération afin d’ouvrir des documents Word corrompus avec Aspose.Words pour Python. Guide étape par étape avec code source.
+### [Comment récupérer des fichiers docx corrompus avec Aspose.Words en Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Apprenez à restaurer des fichiers DOCX endommagés à l'aide d'Aspose.Words pour Python. Guide pas à pas avec exemple de code.
+### [Gestionnaire d'avertissement de police Aspose – Détecter les polices manquantes et personnaliser le chargement du document](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Apprenez à gérer les avertissements de police, détecter les polices manquantes et personnaliser le chargement de documents avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

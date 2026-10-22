@@ -46,28 +46,35 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 {{< tutorial-card link="./update-chart-title/" title="Cập nhật tiêu đề biểu đồ và bật/tắt hiển thị legend trong Word bằng Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Lưu tài liệu đã chỉnh sửa với các lát bánh tròn nổ trong C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cách đặt số bin cho biểu đồ histogram và thêm nhãn dữ liệu trong biểu đồ Word bằng C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Điều chỉnh nhãn biểu đồ trong tài liệu Word bằng C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Định dạng số nhãn dữ liệu trong biểu đồ](./format-number-of-data-label/) | Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng. |
 | [Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape](./create-chart-using-shape/) | Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu. |
+| [Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word](./insert-simple-column-chart/) | Tìm hiểu cách chèn biểu đồ cột đơn giản vào Word bằng Aspose.Words cho .NET. Cải thiện tài liệu của bạn bằng các bài thuyết trình dữ liệu trực quan động. |
+| [Cách tạo tài liệu Word C# với biểu đồ cột và nhãn đã định dạng](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Hướng dẫn tạo tài liệu Word bằng C# với biểu đồ cột, đồng thời định dạng nhãn dữ liệu cho biểu đồ. |
 | [tạo biểu đồ radar trong tài liệu Word – hướng dẫn C# đầy đủ](./create-radar-chart-in-a-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách tạo biểu đồ radar trong tài liệu Word bằng Aspose.Words cho .NET với C#. |
-| [Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word](./insert-simple-column-chart/) Tìm hiểu cách chèn biểu đồ cột đơn giản vào Word bằng Aspose.Words cho .NET. Cải thiện tài liệu của bạn bằng các bài thuyết trình dữ liệu trực quan động. |
 | [Chèn Biểu Đồ Cột Vào Tài Liệu Word](./insert-column-chart/) | Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn. |
+| [Cách tạo tài liệu Word với biểu đồ tròn tùy chỉnh trong C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Hướng dẫn chi tiết cách tạo tài liệu Word và chèn biểu đồ tròn tùy chỉnh bằng Aspose.Words cho .NET trong C#. |
 | [Chèn Biểu đồ Diện tích Vào Tài liệu Word](./insert-area-chart/) | Tìm hiểu cách chèn biểu đồ miền vào tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Tạo biểu đồ tròn trong Word bằng C# – hướng dẫn từng bước](./create-pie-chart-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng C# và Aspose.Words cho .NET. |
 | [Chèn biểu đồ bong bóng vào tài liệu Word](./insert-bubble-chart/) | Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn. |
+| [Cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Hướng dẫn tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words. |
 | [Chèn biểu đồ phân tán vào tài liệu Word](./insert-scatter-chart/) | Tìm hiểu cách chèn biểu đồ phân tán trong Word bằng Aspose.Words cho .NET. Các bước dễ dàng để tích hợp biểu diễn dữ liệu trực quan vào tài liệu của bạn. |
+| [Xác định Thuộc tính Trục XY Trong Biểu đồ](./define-xyaxis-properties/) | Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET. |
 | [Tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Hướng dẫn tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho .NET, bao gồm các bước chi tiết và mã nguồn C#. |
-| [Xác định Thuộc tính Trục XY Trong Biểu đồ](./define-xyaxis-properties/) Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET. |
 | [Thêm giá trị ngày giờ vào trục của biểu đồ](./date-time-values-to-axis/) | Tìm hiểu cách thêm giá trị ngày và giờ vào trục biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Định dạng số cho trục trong biểu đồ](./number-format-for-axis/) | Tìm hiểu cách định dạng số trục biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Nâng cao khả năng đọc và tính chuyên nghiệp của tài liệu của bạn một cách dễ dàng. |
 | [Giới hạn của trục](./bounds-of-axis/) | Tìm hiểu cách thiết lập giới hạn của trục trong biểu đồ bằng Aspose.Words cho .NET để kiểm soát phạm vi giá trị hiển thị trên trục. |
 | [Đơn vị khoảng cách giữa các nhãn trên trục của biểu đồ](./interval-unit-between-labels-on-axis/) | Tìm hiểu cách thiết lập đơn vị khoảng cách giữa các nhãn trên trục của biểu đồ bằng Aspose.Words cho .NET. |
-| [Ẩn trục biểu đồ trong tài liệu Word](./hide-chart-axis/) Tìm hiểu cách ẩn trục biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. |
+| [Ẩn trục biểu đồ trong tài liệu Word](./hide-chart-axis/) | Tìm hiểu cách ẩn trục biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. |
 | [Đánh dấu căn chỉnh nhãn nhiều dòng trong biểu đồ](./tick-multi-line-label-alignment/) | Tìm hiểu cách đánh dấu căn chỉnh nhãn nhiều dòng trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển ở mọi cấp độ. |
 | [Tùy chỉnh nhãn dữ liệu biểu đồ](./chart-data-label/) | Tìm hiểu cách tùy chỉnh nhãn dữ liệu biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước. Hoàn hảo cho các nhà phát triển .NET. |
 | [Thêm nhãn biểu đồ tròn trong C# bằng Aspose.Words – Hướng dẫn đầy đủ](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Tìm hiểu cách thêm nhãn biểu đồ tròn trong C# bằng Aspose.Words cho .NET trong hướng dẫn đầy đủ này. |
@@ -79,6 +86,9 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Cách hiển thị phần trăm trong biểu đồ với Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tìm hiểu cách hiển thị phần trăm trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
 | [Cách thêm nhãn dữ liệu vào biểu đồ Word trong C# – hướng dẫn từng bước](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Hướng dẫn chi tiết cách thêm nhãn dữ liệu vào biểu đồ Word bằng C# trong Aspose.Words. |
 | [Tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C#](./custom-data-label-placement-for-charts-in-c/) | Hướng dẫn cách tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C# bằng Aspose.Words cho .NET. |
+| [Cách định dạng chuỗi trong biểu đồ đường Word bằng C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Hướng dẫn cách định dạng chuỗi dữ liệu trong biểu đồ đường của tài liệu Word bằng Aspose.Words cho .NET và C#. |
+| [Cách tạo biểu đồ histogram trong Word bằng Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Hướng dẫn từng bước tạo biểu đồ histogram trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Hướng dẫn cách định dạng biểu đồ trong Word bằng C# với các định dạng số tùy chỉnh. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

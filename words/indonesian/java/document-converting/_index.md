@@ -124,6 +124,14 @@ Panduan membuat PDF yang dapat diakses saat mengonversi DOCX ke PDF menggunakan 
 
 ### [Simpan Word sebagai Markdown – Panduan Java Lengkap (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 Panduan langkah‑per‑langkah untuk menyimpan dokumen Word sebagai file Markdown menggunakan Aspose.Words untuk Java.
+### [Mengonversi markdown ke docx di Java – panduan langkah‑per‑langkah](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file markdown menjadi dokumen Word (docx) menggunakan Aspose.Words untuk Java dalam panduan langkah‑per‑langkah.
+
+### [Cara mengonversi markdown ke docx dengan Java dan Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+Pelajari cara mengubah file markdown menjadi dokumen DOCX menggunakan Aspose.Words untuk Java dalam beberapa langkah mudah.
+
+### [Cara menyimpan Markdown sebagai DOCX menggunakan Java – panduan lengkap](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Panduan lengkap untuk menyimpan file Markdown menjadi DOCX menggunakan Aspose.Words untuk Java.
 
 ## Pertanyaan yang Sering Diajukan
 

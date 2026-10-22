@@ -39,6 +39,8 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Konvertera docx till png – Komplett steg‑för‑steg‑guide](./convert-docx-to-png-complete-step-by-step-guide/) | Lär dig hur du konverterar ett docx-dokument till png med en komplett steg-för-steg-guide i Aspose.Words för .NET. |
 | [Konvertera DOCX till PNG – Komplett C#-guide](./convert-docx-to-png-complete-c-guide/) | Lär dig hur du konverterar DOCX-filer till PNG med en komplett C#-guide i Aspose.Words för .NET. |
 | [Hur du anger DPI – Exportera Word till PNG-rutnät i C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Lär dig hur du ställer in DPI när du exporterar ett Word-dokument till ett PNG‑rutnät med C# i Aspose.Words för .NET. |
+| [Spara Word som PNG – Komplett Aspose.Words-guide](./save-word-as-png-complete-aspose-words-guide/) | Lär dig hur du sparar ett Word-dokument som PNG med Aspose.Words för .NET i en komplett guide. |
+| [Spara dokument som PNG i C# – Komplett guide](./save-document-as-png-in-c-complete-guide/) | Lär dig hur du sparar ett Word-dokument som PNG-bild med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

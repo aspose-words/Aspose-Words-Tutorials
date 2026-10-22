@@ -1,0 +1,7 @@
+Title: Create a blank Word document and add an ActiveX button (Java)
+Slug: create-a-blank-word-document-and-add-an-activex-button-java
+Category: using-document-elements
+ProcessedDate: 2026-10-17T02:22:55.684600
+SourceRepo: AI Search API
+Keywords: create blank word document, add activex button, set button caption, set button dimensions
+PRNumber: 326

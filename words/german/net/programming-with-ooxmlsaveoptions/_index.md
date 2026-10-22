@@ -29,7 +29,7 @@ Ob Sie Dokumente erstellen möchten, die mit älteren Word-Versionen kompatibel 
 | [Eigenschaft „Letzte Speicherungszeit aktualisieren“](./update-last-saved-time-property/) | Erfahren Sie, wie Sie die Eigenschaft „Zuletzt gespeicherte Zeit“ in Word-Dokumenten mit Aspose.Words für .NET aktualisieren. Folgen Sie unserer detaillierten Schritt-für-Schritt-Anleitung. |
 | [Behalten Sie die alten Steuerzeichen bei](./keep-legacy-control-chars/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET alte Steuerzeichen in Word-Dokumenten beibehalten. |
 | [Komprimierungsstufe festlegen](./set-compression-level/) | Erfahren Sie, wie Sie die Komprimierungsstufe in Word-Dokumenten mit Aspose.Words für .NET einstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre Dokumentenspeicherung und -leistung zu optimieren. |
-
+| [Wie Sie die Word-Dokumentkodierung mit Aspose.Words in C# ändern](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Ändern Sie die Zeichenkodierung von Word-Dokumenten mit Aspose.Words in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Aspose.Words for Java 提供了丰富的文档渲染教程，让您轻松创建�
 学习如何捕获 Aspose.Words 的警告信息，并检测文档中缺失的字体，以确保渲染质量。
 ### [在 Java 中使用 Aspose.Words 查找缺失字体 – 完整指南](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 学习如何使用 Aspose.Words for Java 检测并定位文档中缺失的字体，确保渲染效果完整。
+### [在 Java 中注册警告回调 – 完整编程指南](./register-warning-callback-in-java-complete-programming-guide/)
+学习如何在 Aspose.Words for Java 中注册警告回调，以捕获和处理文档处理过程中的警告信息。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

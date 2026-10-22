@@ -28,6 +28,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Ställ in Ms Word-version](./set-ms-word-version/) | Lär dig hur du ställer in MS Word-versioner med Aspose.Words för .NET med den detaljerade guiden. Perfekt för utvecklare som vill effektivisera dokumenthantering. |
 | [Använd tillfällig mapp i Word-dokument](./use-temp-folder/) | Lär dig hur du förbättrar prestandan för dina .NET-applikationer genom att använda en tillfällig mapp när du laddar Word-dokument med Aspose.Words. |
 | [Varning för återanrop i Word-dokument](./warning-callback/) | Lär dig hur du fångar och hanterar varningar i Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. Säkerställ robust dokumenthantering. |
+| [Ställ in varningsåteruppringning Aspose – Komplett guide för inläsning av Word-dokument](./set-warning-callback-aspose-complete-guide-for-word-document/) | Lär dig steg för steg hur du konfigurerar varningsåteruppringning i Aspose.Words för .NET för att hantera varningar vid inläsning av Word-dokument. |
 | [Ladda med kodning i Word-dokument](./load-with-encoding/) | Lär dig hur du laddar ett Word-dokument med specifik kodning med Aspose.Words för .NET. Steg-för-steg-guide med detaljerade förklaringar. |
 | [Hoppa över PDF-bilder](./skip-pdf-images/) | Lär dig hur du hoppar över bilder när du laddar PDF-dokument med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för sömlös textutvinning. |
 | [Konvertera metafiler till png](./convert-metafiles-to-png/) | Konvertera enkelt metafiler till PNG i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Förenkla din dokumenthantering. |
@@ -77,6 +78,10 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Hur man fångar varningar i C# – Upptäck saknade teckensnitt och logga ersättningar](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Lär dig hur du fångar varningar, upptäcker saknade teckensnitt och loggar teckensnittsersättningar i C# med Aspose.Words. |
 | [Återställ korrupt DOCX – Komplett C#-guide för att reparera och spara filer](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Lär dig hur du reparerar skadade DOCX-filer och sparar dem igen med Aspose.Words för .NET i en komplett C#‑guide. |
 | [Återställ korrupt docx – Fullständig guide för att ladda skadade Word-filer i C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Lär dig hur du laddar och reparerar korrupta docx-filer i C# med Aspose.Words för .NET. |
+| [Hur du återställer docx med Aspose.Words – Fullständig guide](./how-to-recover-docx-with-aspose-words-full-guide/) | Lär dig steg för steg hur du återställer skadade docx-filer med Aspose.Words i .NET – en komplett guide. |
+| [Återställ korrupt DOCX – Komplett guide för att reparera och ladda trasiga Word-filer](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Lär dig hur du reparerar och laddar korrupta DOCX-filer med Aspose.Words för .NET i en steg-för-steg-guide. |
+| [Återställ korrupt Word-dokument med Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Lär dig hur du återställer korrupta Word-dokument med Aspose.Words i C# i en steg-för-steg-guide. |
+| [Aktivera återställningsläge – Återställ korrupt Word-dokument](./enable-recovery-mode-recover-corrupted-word-document/) | Lär dig hur du aktiverar återställningsläge för att återställa korrupta Word-dokument med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

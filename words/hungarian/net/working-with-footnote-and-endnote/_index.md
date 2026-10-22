@@ -25,6 +25,8 @@ Szövegszerkesztés lábjegyzetekkel és végjegyzetekkel egy átfogó forrás, 
 | [Végjegyzet-beállítások megadása](./set-endnote-options/) | Tanulja meg, hogyan állíthat be végjegyzet-beállításokat Word-dokumentumokban az Aspose.Words for .NET használatával ezzel az átfogó, lépésről lépésre szóló útmutatóval. |
 | [Lábjegyzet elválasztó módosítása C#-ban az Aspose.Words használatával](./change-footnote-separator-in-c-using-aspose-words/) | Ismerje meg, hogyan változtathatja meg a lábjegyzet elválasztót C#-ban az Aspose.Words segítségével. |
 | [Lábjegyzet elválasztó lekérése C#-ban – teljes Aspose.Words útmutató](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Ismerje meg, hogyan kérheti le a lábjegyzet elválasztót C#-ban az Aspose.Words for .NET segítségével. |
+| [Lábjegyzet elválasztó módosítása és stílusának testreszabása Word-dokumentumban](./how-to-change-footnote-separator-and-customize-its-style-in/) | Ismerje meg, hogyan változtathatja meg a lábjegyzet elválasztót és testreszabhatja annak stílusát Word-dokumentumban az Aspose.Words for .NET segítségével. |
+
 | [Lábjegyzet elválasztó formázása C#-ban az Aspose.Words használatával](./format-footnote-separator-in-c-using-aspose-words/) | Ismerje meg, hogyan formázhatja a lábjegyzet elválasztót C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

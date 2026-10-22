@@ -57,6 +57,9 @@ Document manipulation using Aspose.Words for Java is a valuable skill for develo
 Start your learning journey today and unlock the endless possibilities of document manipulation with Aspose.Words for Java.
 
 ## Document Manipulation Tutorials
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -83,6 +86,8 @@ Learn how to enhance document formatting with Aspose.Words for Java. Explore sty
 Learn how to generate and customize Table of Contents (TOC) using Aspose.Words for Java. Create organized and professional documents effortlessly.
 ### [pdf accessibility tagging in Java – Generate Accessible PDFs](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Learn how to add accessibility tags to PDFs using Aspose.Words for Java, creating compliant and accessible PDF documents.
+### [How to create a blank Word document with a text control](./how-to-create-a-blank-word-document-with-a-text-control/)
+Learn how to generate a blank Word document and add a text control using Aspose.Words for Java.
 ### [Protecting Documents in Aspose.Words for Java](./protecting-documents/)
 Learn how to secure your Java Word documents with Aspose.Words for Java. Protect your data with password and more.
 ### [Splitting Documents into Pages in Aspose.Words for Java](./splitting-documents-into-pages/)
@@ -91,12 +96,20 @@ Learn how to split documents into pages using Aspose.Words for Java. Step-by-ste
 Learn how to split documents efficiently in Aspose.Words for Java. Explore techniques for headings, sections, and page ranges.
 ### [Splitting Documents into HTML Pages in Aspose.Words for Java](./splitting-documents-into-html-pages/)
 Learn how to split documents into HTML pages with Aspose.Words for Java. Follow our step-by-step guide for seamless document conversion.
+### [Add content control in Word document with Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Learn how to add content controls to Word documents using Aspose.Words for Java.
 ### [Adding Content using DocumentBuilder in Aspose.Words for Java](./adding-content-using-documentbuilder/)
 Master Document Creation with Aspose.Words for Java. A Step-by-Step Guide to Adding Text, Tables, Images, and More. Create Stunning Word Documents Effortlessly.
+### [How to save docx with DocumentBuilder and add text after a control](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Learn how to save a DOCX file using DocumentBuilder and insert text immediately after a content control in Aspose.Words for Java.
 ### [Cloning and Combining Documents in Aspose.Words for Java](./cloning-and-combining-documents/)
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
+### [Create blank document with an interactive command button in Word using Java](./create-blank-document-with-an-interactive-command-button-in/)
+Learn how to create a blank Word document with an interactive command button using Aspose.Words for Java.
 ### [Comparing Documents in Aspose.Words for Java](./comparing-documents/)
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
+### [Create New Word Document – Step‑by‑Step Guide to Adding a Structured Tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Learn how to create a new Word document and add a Structured Document Tag (SDT) using Aspose.Words for Java with clear code examples.
 ### [Formatting Documents in Aspose.Words for Java](./formatting-documents/)
 Learn the art of formatting documents in Aspose.Words for Java with our comprehensive guide. Explore powerful features and enhance your document processing skills.
 ### [Joining and Appending Documents in Aspose.Words for Java](./joining-and-appending-documents/)
@@ -106,7 +119,12 @@ Unlock the Power of Aspose.Words for Java. Master Document Options and Settings 
 ### [Using Document Properties in Aspose.Words for Java](./using-document-properties/)
 Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
-Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integrate web-based content seamlessly. 
+### [Create docx ActiveX button in Java – complete programming guide](./create-docx-activex-button-in-java-complete-programming-guid/)
+Learn how to add an ActiveX button to a DOCX file using Aspose.Words for Java with step-by-step code examples.
+### [How to create a Word document in Java with Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Learn to generate a Word document in Java using Aspose.Words with clear examples and best practices.
+### [How to create word document programmatically with Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Learn to generate Word documents programmatically using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

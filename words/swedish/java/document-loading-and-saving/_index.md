@@ -159,6 +159,9 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words för Java i en s
 ### [Återställ korrupt DOCX i Java – Komplett programmeringsguide](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Lär dig hur du reparerar skadade DOCX‑filer i Java med Aspose.Words, inklusive steg‑för‑steg‑kodexempel och bästa praxis.
 
+### [Återställ korrupt DOCX med Aspose.Words för Java – Komplett guide](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+
 ### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
@@ -202,6 +205,12 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en ko
 
 ### [Aspose Font Substitution‑handledning – Hantera saknade teckensnitt](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Lär dig att identifiera och ersätta saknade teckensnitt i Word‑dokument med Aspose.Words för Java.
+
+### [Hur du laddar en fil från en katalog med Aspose.Words i C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
+
+### [Ladda Markdown i Java – Komplett guide](./how-to-load-markdown-in-java-complete-guide/)
+Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, inklusive kodexempel och avancerade alternativ.
 
 ## Vanliga frågor
 

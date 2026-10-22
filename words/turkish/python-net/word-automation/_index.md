@@ -40,6 +40,8 @@ Python kullanarak docx dosyalarındaki metni nasıl değiştireceğinizi adım a
 
 ### [Python'da Dilbilgisi Düzeltmesini Otomatikleştirmek İçin Aspose Kullanımı](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Python'da Aspose.Words ile metinlerdeki dilbilgisi hatalarını otomatik olarak tespit edip düzeltebilirsiniz.
+### [Python ile gölgeli şekilli boş Word belgesi oluşturma](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python ve Aspose.Words kullanarak gölgeli bir şekil içeren boş bir Word belgesi oluşturun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

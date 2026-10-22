@@ -121,6 +121,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Πώς να Ανακτήσετε Αρχεία DOCX – Οδηγός Βήμα‑βήμα Java](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Ανάκτηση εγγράφου Word – Πλήρης Οδηγός για Ορισμό Λειτουργίας Ανάκτησης σε Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [Ανάκτηση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [Ανάκτηση κατεστραμμένου DOCX με Aspose.Words for Java – Πλήρης Οδηγός](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Πώς να ανακτήσετε docx – Πλήρης Οδηγός για Ανάγνωση Κατεστραμμένων Αρχείων Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Ορισμός λειτουργίας ανάκτησης για αποκατάσταση κατεστραμμένου εγγράφου Word](./set-recovery-mode-to-recover-broken-word-document/)
@@ -148,6 +149,8 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Φόρτωση υπογράμμισης markdown σε Java – πλήρης προγραμματιστικός οδηγός](./load-markdown-underline-in-java-complete-programming-guide/)
 ### [aspose words loadoptions – Ανάκτηση Κατεστραμμένων Word Docs σε Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [Aspose Font Substitution Tutorial – Διαχείριση Ελλειπουσών Γραμματοσειρών](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Πώς να φορτώσετε αρχείο από φάκελο χρησιμοποιώντας Aspose.Words σε C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Πώς να φορτώσετε Markdown σε Java – Πλήρης Οδηγός](./how-to-load-markdown-in-java-complete-guide/)
 
 ## Συχνές Ερωτήσεις
 

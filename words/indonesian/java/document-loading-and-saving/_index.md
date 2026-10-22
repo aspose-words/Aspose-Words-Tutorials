@@ -95,6 +95,8 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Pelajari cara Memuat Dokumen Teks, 
 
 ### [Muat garis bawah markdown di Java – panduan pemrograman lengkap](./load-markdown-underline-in-java-complete-programming-guide/)
 Panduan lengkap untuk memuat dan memproses underline markdown di Java menggunakan Aspose.Words.
+### [Cara Memuat Markdown di Java – Panduan Lengkap](./how-to-load-markdown-in-java-complete-guide/)
+Pelajari cara memuat file Markdown di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode.
 
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
 Pelajari manipulasi dokumen lanjutan dengan Aspose.Words untuk Java. Enkripsi, menangani metafile, dan lainnya. Dokumen Word Anda, cara Anda.
@@ -161,6 +163,8 @@ Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Jav
 Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan langkah‑langkah praktis dan contoh kode lengkap.
 ### [Pulihkan DOCX Rusak di Java – Panduan Pemrograman Lengkap](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Pelajari cara memulihkan file DOCX yang rusak di Java dengan contoh kode lengkap dan langkah‑langkah praktis.
+### [Pulihkan DOCX Rusak dengan Aspose.Words untuk Java – Panduan Lengkap](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan langkah‑langkah praktis dan contoh kode.
 
 ### [Menangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
@@ -210,6 +214,9 @@ Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java de
 
 ### [Tutorial Substitusi Font Aspose – Menangani Font yang Hilang](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Pelajari cara menangani font yang hilang dengan mengonfigurasi substitusi font di Aspose.Words untuk Java.
+
+### [Cara memuat file dari direktori menggunakan Aspose.Words di C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Pelajari cara memuat file dari folder menggunakan Aspose.Words di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

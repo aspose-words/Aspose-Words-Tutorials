@@ -37,20 +37,19 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Sisipkan Diagram Kolom Contoh dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./add-named-series/" title="Tambahkan Seri Data Bernama ke Diagram Histogram di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./add-named-series/images/thumb.png" >}}
-
-{{< tutorial-card link="./validate-chart-data/" title="Validasi Seri Diagram dan Titik Data dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
-
-{{< tutorial-card link="./customize-x-axis-gridlines/" title="Sesuaikan Garis Kisi Sumbu X pada Diagram Kolom Menggunakan Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+{{< tutorial-card link="./modify-chart-series/" title="Perbarui Data Seri Diagram dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./update-chart-title/" title="Perbarui Judul Diagram dan Alihkan Visibilitas Legenda di Word Menggunakan Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Contoh Bagan Radial Aspose.Words: Aktifkan Graduasi dalam C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Simpan Dokumen yang Dimodifikasi dengan Irisan Bagan Pai Meledak dalam C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cara memformat bagan di Word dengan C# dan format angka khusus" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cara mengatur jumlah bin histogram dan menambahkan label data dalam bagan Word menggunakan C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Sesuaikan Label Bagan Secara Programatis dalam Dokumen Word dengan C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Membuat & Menyesuaikan Bagan Menggunakan Bentuk](./create-chart-using-shape/) | Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data. Bahasa Indonesia:
@@ -77,6 +76,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara menambahkan label data ke bagan Word dalam C# – panduan langkah demi langkah](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Pelajari cara menambahkan label data pada bagan Word menggunakan C# dengan panduan langkah demi langkah ini. Bahasa Indonesia: |
 | [Penempatan Label Data Kustom untuk Bagan di C#](./custom-data-label-placement-for-charts-in-c/) | Pelajari cara menempatkan label data secara kustom pada bagan di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
 | [Membuat Bagan Pai di Word dengan C# – Panduan Langkah demi Langkah](./create-pie-chart-word-in-c-step-by-step-guide/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan C# dengan panduan langkah demi langkah ini. |
+| [Cara Membuat Bagan Pai dalam Dokumen Word dengan Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. Bahasa Indonesia: |
+| [Cara memformat seri pada bagan garis Word dengan C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Pelajari cara memformat seri pada bagan garis di dokumen Word menggunakan Aspose.Words untuk .NET dengan C#. Bahasa Indonesia: |
+| [Cara membuat histogram di Word dengan Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Pelajari cara membuat histogram dalam dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. Bahasa Indonesia: |
+| [Cara membuat dokumen Word C# dengan bagan kolom dan label terformat](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Pelajari cara membuat dokumen Word dengan bagan kolom dan label terformat menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Bahasa Indonesia: |
+| [Cara Membuat Dokumen Word dengan Diagram Pai yang Disesuaikan dalam C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Pelajari cara membuat dokumen Word berisi diagram pai yang disesuaikan menggunakan Aspose.Words untuk .NET dengan C#. Bahasa Indonesia: |
 | [Buat Bagan Radar dalam Dokumen Word – Panduan Lengkap C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Pelajari cara membuat bagan radar di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. Bahasa Indonesia:
 | [Buat Bagan Pai dalam Dokumen Word dengan Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. Bahasa Indonesia:
 

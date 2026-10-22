@@ -26,6 +26,7 @@ Words Processing with Footnotes and Endnotes is a comprehensive resource that wa
 | [Set Endnote Options](./set-endnote-options/) | Learn how to set endnote options in Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Change footnote separator in C# using Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Learn how to change the footnote separator in Word documents using Aspose.Words for .NET with C#. |
 | [retrieve footnote separator in C# – complete Aspose.Words guide](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Learn how to retrieve the footnote separator in Word documents using Aspose.Words for .NET with this complete C# guide. |
+| [How to change footnote separator and customize its style in a Word document](./how-to-change-footnote-separator-and-customize-its-style-in/) | Learn how to change the footnote separator and customize its style in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 | [Format footnote separator in C# using Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Learn how to format footnote separator in C# using Aspose.Words for .NET with this step-by-step guide. |
 
 

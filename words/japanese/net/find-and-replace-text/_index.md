@@ -38,6 +38,8 @@ Aspose.Words for .NETは、.NETアプリケーションでWord文書を処理す
 | [C# で DOCX のテキストを置換 – ステップバイステップ ガイド](./replace-text-in-docx-with-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で DOCX ファイル内のテキストを置換する方法をステップバイステップで解説します。 |
 | [C# で docx のテキストを置換 – 完全ステップバイステップガイド](./replace-text-in-docx-with-c-full-step-by-step-guide/) Aspose.Words for .NET を使用し、C# で docx ファイル内のテキストを置換する手順を詳細に解説します。 |
 | [C#でAIを使って段落を書き換える方法 – 完全ガイド](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) Aspose.Words for .NET と AI を組み合わせて、C# で段落を書き換える手順を詳しく解説します。 |
+| [C# でドキュメントテンプレートを生成し、データで埋める方法](./how-to-generate-document-template-and-fill-it-with-data-in-c/) Aspose.Words for .NET を使用して、C# でテンプレートを作成しデータを埋め込む手順を学びます。 |
+| [Aspose.Words で docx ファイルのプレースホルダーを置換する方法](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) Aspose.Words for .NET を使用して、docx ファイル内のプレースホルダーを置換する方法を学びます。 |
 | [C# で Aspose.Words を使用した Word 文書の自動生成](./automate-word-document-generation-with-aspose-words-in-c/) Aspose.Words for .NET を使用して、C# で Word 文書を自動的に生成する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

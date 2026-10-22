@@ -44,6 +44,16 @@
 تعلم كيفية توقيع مستندات Word برمجياً في Java باستخدام Aspose.Words مع خطوات مفصلة وأمثلة كود.
 ### [كيفية توقيع ملفات DOCX في C# – دليل خطوة بخطوة كامل](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 تعلم كيفية توقيع ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة، مع أمثلة عملية وشيفرة المصدر.
+### [كيفية توقيع ملفات docx باستخدام شهادة PFX – دليل خطوة بخطوة](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+تعرّف على كيفية توقيع ملفات docx باستخدام شهادة PFX عبر Aspose.Words لجافا بخطوات واضحة ومفصلة.
+### [كيفية توقيع مستند Word في C# باستخدام شهادة X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+تعرّف على كيفية توقيع مستند Word باستخدام Aspose.Words لـ C# وشهادة X509 لضمان سلامة المستند.
+### [كيفية إضافة توقيع رقمي إلى مستند Word باستخدام Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words خطوة بخطوة مع أمثلة الكود.
+### [كيفية توقيع مستند Word رقمياً باستخدام Java](./how-to-digitally-sign-word-document-using-java/)
+تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+### [دليل كامل لملف التوقيع الرقمي PFX في جافا](./digital-signature-pfx-file-in-java-complete-guide/)
+تعلم كيفية إنشاء واستخدام ملفات توقيع PFX الرقمية في جافا باستخدام Aspose.Words لتأمين المستندات بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,28 @@
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
 ### [Как установить тень в Aspose.Words – пример на Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Узнайте, как установить тень в документе Word с помощью Aspose.Words и Python.
+### [Рисование прямоугольника в PDF с помощью Aspose.Words для Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Узнайте, как с помощью Aspose.Words для Python нарисовать прямоугольник в PDF-документе.
+### [Добавление тени к фигуре в Python – полное руководство Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [Как добавить тень к фигуре Word с помощью Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
+### [Как сохранить PNG и добавить тень к фигуре с помощью Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Узнайте, как сохранять изображения в формате PNG и добавлять тень к фигурам с помощью Aspose.Words.
+
+### [Как создать столбчатую диаграмму в Python с помощью Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Узнайте, как создавать столбчатые диаграммы в Python с помощью Aspose.Words.
+### [Как применить эффект тени к фигуре Word с помощью Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Узнайте, как добавить эффект тени к фигурам в документах Word с помощью Aspose.Words для Python-net.
+
+### [Как создать прямоугольную фигуру в документе Word с помощью Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Узнайте, как создать прямоугольную фигуру в документе Word, используя Aspose.Words для Python.
+### [Добавление тени к фигуре в Python – Полное руководство по программированию](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
+### [Создание пустого документа Word и добавление тени к фигуре – Полное руководство на Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Узнайте, как создать пустой документ Word и добавить к фигуре теневой эффект с помощью Aspose.Words для Python.
+
+### [Создание пустого документа Word и добавление тени к фигуре – Полное руководство](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Узнайте, как создать пустой документ Word и добавить к фигуре теневой эффект с помощью Aspose.Words.
 
 ## Дополнительные ресурсы
 

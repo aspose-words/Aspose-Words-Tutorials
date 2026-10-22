@@ -40,6 +40,8 @@
 | [Экспорт Word в PNG – Преобразовать DOCX в одно изображение](./export-word-as-png-convert-docx-to-one-image/) | Узнайте, как экспортировать документ Word в один PNG‑файл, преобразовав DOCX в одно изображение с помощью Aspose.Words for .NET. |
 | [Конвертировать docx в png – Полное пошаговое руководство](./convert-docx-to-png-complete-step-by-step-guide/) | Узнайте, как преобразовать файлы DOCX в PNG с помощью Aspose.Words for .NET, следуя полному пошаговому руководству. |
 | [Конвертировать DOCX в PNG – Полное руководство C#](./convert-docx-to-png-complete-c-guide/) | Узнайте, как конвертировать DOCX в PNG с помощью Aspose.Words for .NET в полном руководстве на C#. |
+| [Сохранить Word как PNG – Полное руководство Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Узнайте, как полностью конвертировать документы Word в PNG с помощью Aspose.Words, следуя пошаговому руководству. |
+| [Сохранить документ как PNG в C# – Полное руководство](./save-document-as-png-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PNG с помощью Aspose.Words for .NET, используя C# и полные настройки. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

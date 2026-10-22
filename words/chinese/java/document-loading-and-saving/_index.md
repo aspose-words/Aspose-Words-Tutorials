@@ -93,6 +93,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ### [使用 Java 创建空白 Word 文档 – 完整 Aspose.Words 指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
 学习如何使用 Aspose.Words for Java 从头创建空白 Word 文档，并保存为 DOCX 等格式的完整分步指南。
+### [如何在 Java 中加载 Markdown – 完整指南](./how-to-load-markdown-in-java-complete-guide/)
+了解如何使用 Aspose.Words for Java 在 Java 环境中加载 Markdown 文档并转换为其他格式。
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -134,6 +136,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [在 Java 中恢复损坏的 DOCX – 完整编程指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
 学习使用 Aspose.Words for Java 在 Java 环境中检测并修复损坏的 DOCX 文件的完整步骤和代码示例。
 
+### [使用 Aspose.Words for Java 恢复损坏的 DOCX – 完整指南](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+学习如何使用 Aspose.Words for Java 修复损坏的 DOCX 文件，提供完整步骤和代码示例。
+
 ### [在 Java 中捕获字体替换警告 – Aspose.Words 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何恢复 docx – 读取损坏的 Word 文件完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 学习使用 Aspose.Words for Java 读取并修复受损的 DOCX 文件，提供完整步骤和示例代码。
@@ -169,6 +174,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ### [在 Java 中加载 Markdown 下划线 – 完整编程指南](./load-markdown-underline-in-java-complete-programming-guide/)
 了解如何在 Java 中使用 Aspose.Words 加载并处理 Markdown 文本的下划线，实现完整的编程指南。
+
+### [如何使用 Aspose.Words 在 C# 中从目录加载文件](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+了解如何在 C# 中使用 Aspose.Words 从指定目录加载文件。
 
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)

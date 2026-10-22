@@ -31,6 +31,9 @@ Miután elsajátítottad az alapvető dokumentumformázási készségeket, átt�
 Ezekben az oktatóanyagokban nemcsak a vizuálisan vonzó dokumentumok létrehozására fogunk összpontosítani, hanem a formázási folyamat hatékonyságnövelő optimalizálására is. Az Aspose.Words for Java széleskörű API-kat kínál, amelyek lehetővé teszik a fejlesztők számára a dokumentumformázási feladatok automatizálását. Megtanulod, hogyan alkalmazhatsz stílusokat programozottan, hogyan generálhatsz dinamikusan dokumentumelrendezéseket az adatok alapján, és hogyan valósíthatsz meg feltételes formázást adott tartalom kiemeléséhez. Ezen hatékony formázási technikák kihasználásával drasztikusan csökkentheted a manuális erőfeszítéseket, és dinamikus, testreszabott dokumentumokat hozhatsz létre, amelyek megfelelnek az adott dokumentumfeldolgozási igényeknek.
 
 ## Dokumentumstílus-oktatóanyagok
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
 ### [Word dokumentum formázása](./word-document-styling/)
 Tanuld meg, hogyan formázd és dolgozd fel a dokumentumokat az Aspose.Words for Java segítségével! Hozz létre vizuálisan lenyűgöző kimeneteket forráskódpéldákkal. 
 ### [Stílusok és betűtípusok alkalmazása dokumentumokban](./applying-styles-fonts/)
@@ -47,6 +50,15 @@ Tanuld meg, hogyan formázhatod a dokumentumok fejlécét és láblécét az Asp
 Tanuld meg, hogyan észleld a betűtípusokat a Java Word dokumentumokban az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 ### [Alapértelmezett betűtípus beállítása az Aspose.Words for Java-ban – Teljes útmutató](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Tanuld meg, hogyan állítsd be az alapértelmezett betűtípust az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal. 
+### [Hogyan állíts be árnyékot egy Word diagramon az Aspose.Words for Java segítségével](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Ismerd meg, hogyan adhat árnyékot a Word diagramokhoz az Aspose.Words for Java használatával, lépésről-lépésre útmutatóval.
+
+### [Lábjegyzet elválasztó szerkesztése Java-ban az Aspose.Words segítségével](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Tanuld meg, hogyan szerkesztheted a lábjegyzet elválasztót Java-ban az Aspose.Words használatával.
+### [Lábjegyzetek formázása Java-ban az Aspose.Words segítségével](./how-to-style-footnotes-in-java-using-aspose-words/)
+Tanuld meg, hogyan formázhatod a lábjegyzeteket Java-ban az Aspose.Words segítségével, lépésről-lépésre útmutatóval.
+### [Lábjegyzetek távolságának módosítása DOCX-ben – Teljes útmutató](./change-footnote-spacing-in-docx-complete-guide/)
+Tanuld meg, hogyan állíthatod be a lábjegyzetek közti távolságot DOCX dokumentumokban az Aspose.Words for Java segítségével. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

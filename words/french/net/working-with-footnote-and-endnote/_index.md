@@ -25,6 +25,8 @@ Traitement de texte avec notes de bas de page et de fin est une ressource compl�
 | [Définir les options de note de fin](./set-endnote-options/) | Apprenez à définir les options de note de fin dans les documents Word à l'aide d'Aspose.Words pour .NET avec ce guide complet étape par étape. |
 | [Modifier le séparateur de note de bas de page en C# avec Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Apprenez à modifier le séparateur des notes de bas de page dans vos documents Word en C# avec Aspose.Words. |
 | [Récupérer le séparateur de note de bas de page en C# – guide complet Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Apprenez à récupérer le séparateur de note de bas de page dans Word avec Aspose.Words pour .NET en C#. |
+| [Comment modifier le séparateur de note de bas de page et personnaliser son style dans un document Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Apprenez à modifier le séparateur des notes de bas de page et à personnaliser son apparence dans vos documents Word avec Aspose.Words pour .NET. |
+
 | [Formater le séparateur de note de bas de page en C# avec Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Apprenez à personnaliser le séparateur des notes de bas de page dans vos documents Word avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

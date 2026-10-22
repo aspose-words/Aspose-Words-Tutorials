@@ -68,6 +68,9 @@ Alors, plongez dans les tutoriels listés ci‑dessous et exploitez tout le pote
 Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words for Java](https://reference.aspose.com/words/java/), et pour commencer, téléchargez‑la depuis [ici](https://releases.aspose.com/words/java/). Si vous avez des questions ou besoin d’assistance, n’hésitez pas à vous rendre sur notre [forum de support](https://forum.aspose.com/).
 
 ## Tutoriels de conversion et d'exportation de documents
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Génération d'étiquettes de codes-barres personnalisées dans Aspose.Words pour Java](./generating-custom-barcode-labels/)
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
 
@@ -76,6 +79,9 @@ Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words 
 
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
+
+### [Comment créer un diagramme circulaire dans Word et l’enregistrer en PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Apprenez à créer un diagramme circulaire dans Word avec Aspose.Words et à le sauvegarder au format PNG.
 
 ### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
 Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words pour Java. Apprenez à manipuler et afficher facilement des objets Office Math.
@@ -126,6 +132,18 @@ Apprenez à ajuster la résolution des images lors de la conversion d’un fichi
 
 ### [Comment enregistrer le Markdown depuis Word – Guide complet Java](./how-to-save-markdown-from-word-complete-java-guide/)
 Apprenez à extraire et enregistrer le contenu Markdown d'un document Word en Java avec Aspose.Words, étape par étape.
+### [Comment convertir docx en markdown avec Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words, y compris la gestion des images et des équations.
+### [Comment enregistrer un document Word au format markdown avec des tables HTML en Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Apprenez à convertir un fichier Word en markdown tout en conservant les tables HTML grâce à Aspose.Words for Java.
+### [Convertir DOCX en Markdown – Guide complet avec exportation des équations mathématiques](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words.
+
+### [Convertir docx en markdown – Guide complet Java](./convert-docx-to-markdown-complete-java-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java avec Aspose.Words, étape par étape, incluant les meilleures pratiques.
+
+### [Enregistrer le docx au format markdown : conversion du docx en markdown avec Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java avec Aspose.Words, étape par étape.
 
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
@@ -152,6 +170,8 @@ Apprenez à convertir et enregistrer un document Word en PDF avec Aspose.Words f
 Apprenez à convertir un fichier Word en PDF en Java avec Aspose.Words, incluant les options d’enregistrement et la gestion des licences.
 ### [Enregistrer Word en PDF avec Aspose.Words – Guide complet Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Apprenez à convertir des fichiers Word en PDF en Java avec Aspose.Words grâce à ce guide complet étape par étape.
+### [Convertir docx en pdf en Java – Guide complet étape par étape](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers DOCX en PDF avec Aspose.Words for Java grâce à un guide détaillé pas à pas.
 
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Convertissez facilement des fichiers DOCX en PDF accessible en suivant les meilleures pratiques d’accessibilité.
@@ -180,8 +200,11 @@ Apprenez à créer des documents PDF/UA‑1 conformes en Java avec Aspose.Words,
 ### [Java docx en PDF – Générer un PDF accessible avec Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Convertissez des fichiers DOCX en PDF accessible en Java avec Aspose.Words, en respectant les normes d’accessibilité.
 
+### [Créer un PDF accessible à partir de DOCX – Guide complet étape par étape](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Apprenez à créer un PDF accessible à partir d'un fichier DOCX en suivant chaque étape, en respectant les normes d'accessibilité.
+
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
-Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+Apprenez à extraire et intégrer les images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
 
 ### [Intégrer des images en base64 lors de la conversion de DOCX en Markdown en Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Apprenez à convertir des documents DOCX en Markdown en incorporant les images sous forme de données base64 avec Aspose.Words for Java.
@@ -345,6 +368,13 @@ Apprenez à convertir des documents Word en PDF tout en respectant les normes d�
 Apprenez à convertir du texte Markdown en fichier DOCX en Java avec Aspose.Words, en enregistrant le résultat au format Word.
 ### [Enregistrer DOCX en Markdown – Guide complet Java](./save-docx-as-markdown-complete-java-guide/)
 Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words for Java, incluant la gestion des images et des équations.
+### [Enregistrer Word en Markdown – guide complet avec Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Apprenez à convertir des documents Word en fichiers Markdown en suivant un guide complet avec Aspose.Words.
+### [Comment effectuer la conversion markdown en docx en Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Apprenez à convertir des fichiers Markdown en documents DOCX en Java avec Aspose.Words.
+
+### [Comment enregistrer un PNG depuis Word – Guide complet étape par étape](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Apprenez à extraire et enregistrer des images PNG à partir de documents Word en Java avec Aspose.Words, étape par étape.
 
 ## Questions fréquentes
 

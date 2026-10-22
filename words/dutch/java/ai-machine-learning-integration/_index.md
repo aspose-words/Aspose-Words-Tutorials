@@ -71,6 +71,8 @@ Leer hoe je tekstsamenvatting en vertaling kunt automatiseren met Aspose.Words v
 Leer hoe je een aangepast AI‑model bouwt en Word‑paragrafen programmeermatig bewerkt met Aspose.Words voor Java.
 ### [Word-document maken in Java met aangepaste LLM-grammatica-controle](./create-word-document-java-with-custom-llm-grammar-check/)
 Leer hoe je met Aspose.Words voor Java een Word‑document genereert en automatisch grammatica‑controles uitvoert via een aangepast LLM.
+### [Bouw Grammaticacontroleur Java – Complete Stapsgewijze Gids](./build-grammar-checker-java-complete-step-by-step-guide/)
+Leer hoe je een grammaticacontroleur bouwt in Java met Aspose.Words, inclusief AI‑integratie voor foutdetectie en correcties.
 
 ## Aanvullende bronnen
 

@@ -36,9 +36,10 @@ Niezależnie od tego, czy musisz zastąpić określone słowa, zaktualizować sz
 | [Zamień na ciąg](./replace-with-string/) | Dowiedz się, jak zamieniać ciągi w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować edycję dokumentów. |
 | [Zamień tekst w tabeli](./replace-text-in-table/) | Bezproblemowo zamienisz tekst w tabeli programu Word za pomocą narzędzia Aspose.Words dla platformy .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. |
 | [Zamień tekst w DOCX przy użyciu C# – przewodnik krok po kroku](./replace-text-in-docx-with-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób zamienić tekst w plikach DOCX przy użyciu C# i Aspose.Words dla .NET, krok po kroku. |
-
 | [Zamień tekst w pliku docx przy użyciu C# – Pełny przewodnik krok po kroku](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Dowiedz się, jak przy użyciu C# i Aspose.Words dla .NET krok po kroku zamienić tekst w plikach docx. |
 | [Jak przepisać akapit przy użyciu AI w C# – Pełny przewodnik](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Dowiedz się, jak używać sztucznej inteligencji w C# do automatycznego przepisania akapitu w dokumentach Word, krok po kroku. |
+| [Jak wygenerować szablon dokumentu i wypełnić go danymi w C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Dowiedz się, jak tworzyć szablony dokumentów i wypełniać je danymi przy użyciu Aspose.Words w C#. |
+| [Jak zastąpić symbole zastępcze w plikach docx przy użyciu Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Dowiedz się, jak zamienić symbole zastępcze w dokumentach DOCX przy użyciu Aspose.Words dla .NET. |
 | [Automatyzuj generowanie dokumentów Word przy użyciu Aspose.Words w C#](./automate-word-document-generation-with-aspose-words-in-c/) | Dowiedz się, jak automatycznie generować dokumenty Word przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

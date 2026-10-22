@@ -37,6 +37,7 @@
 | [Come incorporare immagini in Markdown da DOCX](./how-to-embed-images-in-markdown-from-docx/) | Scopri come incorporare immagini da file DOCX in Markdown mantenendo la qualità e la corretta formattazione. |
 | [Salva immagini Word durante la conversione da Word a Markdown – Guida completa C#](./save-word-images-while-converting-word-to-markdown-complete/) | Impara a estrarre e salvare le immagini da documenti Word durante la conversione in Markdown con una guida completa in C#. |
 | [Salva docx come markdown – Guida completa con equazioni LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Impara a convertire file DOCX in Markdown includendo equazioni LaTeX con una guida dettagliata passo‑passo in C#. |
+| [Salva docx come markdown – Guida completa con estrazione immagini](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Scopri come salvare DOCX come Markdown con estrazione delle immagini, guida completa passo‑passo in C#. |
 | [Come esportare Markdown da Word – Guida completa C#](./how-to-export-markdown-from-word-complete-c-guide/) | Scopri come esportare documenti Word in Markdown con una guida completa in C#. |
 | [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa. |
 | [Come salvare Markdown da DOCX – Guida passo‑passo](./how-to-save-markdown-from-docx-step-by-step-guide/) | Scopri come salvare documenti DOCX in Markdown con una guida passo‑passo completa. |
@@ -92,6 +93,8 @@
 
 | [Salva DOCX come Markdown con Aspose.Words – Guida completa passo‑passo](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Impara a convertire file DOCX in Markdown con Aspose.Words seguendo una guida completa passo‑passo in C#. |
 | [Converti docx in markdown e salva le immagini da docx](./convert-docx-to-markdown-save-images-from-docx/) | Converti file DOCX in Markdown e salva le immagini estratte con Aspose.Words per .NET. |
+| [Converti docx in markdown – Guida completa con esportazione delle equazioni](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Scopri come convertire file DOCX in Markdown includendo l'esportazione delle equazioni con Aspose.Words per .NET. |
+| [Aspose docx to markdown – Guida completa per convertire ed estrarre immagini](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Scopri come convertire file DOCX in Markdown ed estrarre le immagini con Aspose.Words per .NET. |
 | [Come esportare LaTeX da Word: Converti DOCX in Markdown con Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Scopri come esportare equazioni LaTeX da documenti Word convertendoli in Markdown con Aspose.Words per .NET. |
 | [Salva docx come markdown – Esporta matematica Word in LaTeX con Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Scopri come esportare equazioni Word in LaTeX durante la conversione di DOCX in Markdown con Aspose.Words. |
 | [Converti Word in Markdown – Incorpora immagini come Base64](./convert-word-to-markdown-embed-images-as-base64/) | Converti documenti Word in Markdown incorporando le immagini direttamente come stringhe Base64 per un output autonomo. |
@@ -126,6 +129,8 @@
 | [Salva Word come Markdown – Esporta tabelle in HTML con Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Scopri come esportare tabelle da documenti Word in HTML durante la conversione in Markdown usando Aspose.Words per .NET. |
 | [Salva markdown come docx in C# – guida passo‑passo](./save-markdown-as-docx-in-c-step-by-step-guide/) | Impara a convertire file Markdown in documenti Word DOCX usando Aspose.Words per .NET con una guida passo‑passo in C#. |
 | [Salva markdown come Word – guida passo‑passo per sviluppatori C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Guida dettagliata per convertire file Markdown in documenti Word usando Aspose.Words per .NET in C#. |
+| [Carica immagini su CDN nella conversione da DOCX a Markdown – Guida completa](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Carica le immagini su un CDN durante la conversione da DOCX a Markdown per ottimizzare la gestione dei media. |
+| [Converti DOCX in Markdown – Guida completa con ombra della forma e recupero](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Scopri come convertire DOCX in Markdown includendo ombre delle forme e recupero dei contenuti con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

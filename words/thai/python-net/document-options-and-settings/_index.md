@@ -38,7 +38,7 @@
 - การป้องกันเอกสาร: เรียนรู้วิธีการรักษาความปลอดภัยเอกสารด้วยการป้องกันด้วยรหัสผ่านและการอนุญาต
 - การส่งออกและการแปลง: สำรวจตัวเลือกสำหรับการส่งออกเอกสารไปยังรูปแบบและแพลตฟอร์มต่างๆ
 
-เมื่อสิ้นสุดชุดบทความนี้ คุณจะมีทักษะในการสร้างเอกสารที่มีโครงสร้างที่ดีและดึงดูดสายตาพร้อมด้วยการตั้งค่าที่กำหนดเองซึ่งสอดคล้องกับข้อกำหนดเฉพาะของคุณ
+เมื่อสิ้นสุดชุดบทความนี้ คุณจะมีทักษะในการสร้างเอกสารที่มีโครงสร้างที่ดีและดึงด
 
 ## บทช่วยสอนเกี่ยวกับตัวเลือกและการตั้งค่าเอกสาร
 ### [เทคนิคขั้นสูงสำหรับการเข้าร่วมและการผนวกเอกสาร](./join-append-documents/)
@@ -54,9 +54,23 @@
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
 ### [วิธีกู้คืน DOCX – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนและตัวอย่างโค้ด
+### [Aspose Font Warning Handler – ตรวจจับฟอนต์ที่หายไปและปรับแต่งการโหลดเอกสาร](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+เรียนรู้วิธีจัดการคำเตือนฟอนต์ที่หายไปและปรับแต่งการโหลดเอกสารด้วย Aspose.Words ใน Python
 
 ### [ทำให้ PDF เข้าถึงได้ด้วย Aspose.Words – คู่มือครบขั้นตอน](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 เรียนรู้วิธีทำให้ไฟล์ PDF เข้าถึงได้โดยใช้ Aspose.Words พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ
+### [กู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words – คู่มือ Python ทีละขั้นตอน](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words ใน Python ด้วยขั้นตอนละเอียดและโค้ดตัวอย่าง
+### [วิธีกู้คืนไฟล์ docx ใน Python – คู่มือขั้นตอนโดยละเอียด](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายใน Python ด้วยขั้นตอนทีละขั้นตอนพร้อมตัวอย่างโค้ด
+### [กำหนดค่า MarkdownSaveOptions สำหรับ LaTeX ใน Python – คู่มือ Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+เรียนรู้วิธีกำหนดค่า MarkdownSaveOptions เพื่อส่งออกเป็น LaTeX ใน Python ด้วย Aspose.Words พร้อมตัวอย่างโค้ด
+### [วิธีกู้คืนไฟล์ docx ด้วย Aspose.Words สำหรับ Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python พร้อมขั้นตอนและตัวอย่างโค้ด
+### [เปิดโหมดการกู้คืนเพื่อเปิดเอกสาร Word ที่เสียหาย](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+เรียนรู้วิธีเปิดโหมดการกู้คืนเพื่อเปิดไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python
+### [วิธีกู้คืนไฟล์ docx ที่เสียหายด้วย Aspose.Words ใน Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายด้วย Aspose.Words ใน Python พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

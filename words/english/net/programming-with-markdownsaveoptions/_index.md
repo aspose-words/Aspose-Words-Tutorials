@@ -68,6 +68,7 @@ class Program
 | [Save docx as markdown with LaTeX equations – C# guide](./save-docx-as-markdown-with-latex-equations-c-guide/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [save docx as txt – convert docx to markdown](./save-docx-as-txt-convert-docx-to-markdown/) | Learn how to convert DOCX to TXT and then to Markdown using Aspose.Words for .NET. |
+| [Save docx as markdown – Complete Guide with Image Extraction](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with comprehensive image extraction using Aspose.Words for .NET. |
 | [Save docx as markdown with Aspose.Words – Full C# Guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/) |  |
 | [save docx as markdown – Export Word Math to LaTeX with Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Export Word Math equations to LaTeX while saving DOCX as Markdown using Aspose.Words. |
 | [Save markdown as docx in C# – step‑by‑step guide](./save-markdown-as-docx-in-c-step-by-step-guide/) |  |
@@ -93,6 +94,7 @@ class Program
 | [Convert docx to markdown – Complete C# Guide](./convert-docx-to-markdown-complete-c-guide/) | A comprehensive C# guide to convert DOCX files to Markdown using Aspose.Words, covering all options and best practices. |
 | [Convert DOCX to Markdown – Extract Images from DOCX with Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Learn how to extract images while converting DOCX to Markdown using Aspose.Words for .NET. |
 | [Convert Word to Markdown – Full Guide with PDF/UA Export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Learn how to convert Word documents to Markdown and export PDF/UA using Aspose.Words for .NET in a comprehensive step‑by‑step guide. |
+| [Convert docx to markdown – Complete Guide with Equation Export](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Learn how to convert DOCX to Markdown with full equation export using Aspose.Words for .NET. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Save Word as Markdown – Complete C# Guide](./how-to-save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a complete C# guide. |
 | [Convert docx to markdown with Aspose.Words – Full C# Guide](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Learn how to convert DOCX to Markdown using Aspose.Words with a comprehensive C# guide. |
@@ -152,6 +154,9 @@ class Program
 | [Save Document as Markdown with C# – Full Guide](./save-document-as-markdown-with-c-full-guide/) | Learn how to save documents as Markdown using Aspose.Words for .NET with a comprehensive C# guide. |
 | [Save Word as Markdown – Export Tables to HTML with Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Learn how to export Word tables to HTML while saving the document as Markdown using Aspose.Words for .NET. |
 | [Save markdown as word – step‑by‑step guide for C# developers](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [Upload Images to CDN in DOCX to Markdown Conversion – Complete Guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Learn how to upload images to a CDN during DOCX to Markdown conversion using Aspose.Words for .NET. |
+| [Aspose docx to markdown – Complete Guide to Convert and Extract Images](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Learn how to convert DOCX to Markdown and extract images using Aspose.Words for .NET. |
+| [Convert DOCX to Markdown – Complete Guide with Shape Shadow & Recovery](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

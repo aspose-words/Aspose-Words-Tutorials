@@ -77,6 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Boş bir belge oluşturan minimal bir Java programı:
 
+`Document` sınıfı, bir PDF, Word veya desteklenen herhangi bir dosyayı bellekte temsil eden temel nesnedir. Maven bağımlılığını ekledikten sonra, aşağıdaki gibi örnekleyebilirsiniz:
 ```java
 import com.aspose.words.Document;
 
@@ -92,9 +93,9 @@ public class DocumentSetup {
 
 Kütüphane hazır olduğunda, temel özelliklere dalalım.
 
-## Uygulama Kılavuzu
+## Uygulama rehberi
 
-### Özellik 1: Belge Başlatma
+### Özellik 1: belge başlatma
 
 #### Overview
 Ana belge içinde bir `GlossaryDocument` oluşturmak, sözlükleri, stilleri ve özel bölümleri temiz, izole bir kapsayıcıda yönetmenizi sağlar.
@@ -275,6 +276,6 @@ C: Belgeyi `new Document("file.doc")` ile yükleyin, `setPageColor` çağırın 
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -55,6 +55,9 @@ Java için Aspose.Words ile belge içeriğini nasıl düzenleyeceğinizi öğren
 ### [Programatik Olarak Word Belgesi Oluşturma – Tam Adım‑Adım Kılavuz](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Aspose.Words kullanarak Java'da programatik olarak Word belgesi oluşturmayı adım adım öğrenin. Temel ayarlar, metin ekleme ve kaydetme süreçleri.
+### [Java ile radyal grafik oluşturun ve Word'e ekleyin](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Java kullanarak radyal grafik oluşturun ve bunu Word belgesine ekleyerek raporlamayı zenginleştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

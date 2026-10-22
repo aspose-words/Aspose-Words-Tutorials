@@ -44,6 +44,7 @@
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
 ### [تحويل DOCX إلى Markdown – استخراج الصور من DOCX باستخدام Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
+### [حفظ docx كـ markdown – دليل كامل مع استخراج الصور](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 ### [كيفية تصدير Markdown من Word – دليل C# كامل](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -198,6 +199,12 @@
 ### [تحميل الصور إلى السحابة عند تحويل Word إلى Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
 ### [حفظ Word كـ Markdown – تصدير الجداول إلى HTML باستخدام Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 ### [حفظ markdown كـ docx في C# – دليل خطوة بخطوة](./save-markdown-as-docx-in-c-step-by-step-guide/)
+### [تحميل الصور إلى CDN في تحويل DOCX إلى Markdown – دليل كامل](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+### [تحويل docx إلى markdown – دليل كامل مع تصدير المعادلات](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+
+### [Aspose docx إلى markdown – دليل كامل للتحويل واستخراج الصور](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+
+### [تحويل DOCX إلى Markdown – دليل كامل مع ظل الشكل والاستعادة](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

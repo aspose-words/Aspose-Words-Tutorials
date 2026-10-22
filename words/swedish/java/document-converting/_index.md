@@ -124,6 +124,14 @@ Lär dig hur du skapar PDF‑filer som uppfyller tillgänglighetsstandarder när
 
 ### [Spara Word som Markdown – Komplett Java‑guide (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 Lär dig hur du konverterar Word‑dokument till Markdown‑format med Aspose.Words för Java i en komplett guide för 2026.
+### [Konvertera markdown till docx i Java – steg‑för‑steg‑guide](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Lär dig hur du konverterar markdown-filer till DOCX med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Hur man konverterar markdown till docx med Java och Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+Lär dig konvertera markdown-filer till DOCX med Aspose.Words för Java i några enkla steg.
+
+### [Hur du sparar Markdown som DOCX med Java – komplett guide](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Lär dig hur du konverterar Markdown-filer till DOCX med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

@@ -27,6 +27,7 @@
 | [تنسيق فاصل الحاشية السفلية في C# باستخدام Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | تعلم كيفية تنسيق فاصل الحاشية السفلية في مستندات Word باستخدام Aspose.Words مع C#. |
 
 | [استرجاع فاصل الحاشية السفلية في C# – دليل كامل لـ Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | تعلم كيفية استرجاع فاصل الحاشية السفلية في مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [كيفية تغيير فاصل الحاشية السفلية وتخصيص نمطها في مستند Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | تعلم تعديل فاصل الحواشي السفلية وتخصيص مظهره في مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
