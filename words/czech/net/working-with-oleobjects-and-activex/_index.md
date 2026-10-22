@@ -27,9 +27,18 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Vložení objektu Ole do Wordu pomocí balíčku Ole](./insert-ole-object-with-ole-package/) | Naučte se, jak vkládat objekty OLE do dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem a bezproblémově vkládejte soubory. |
 | [Vložit objekt Ole do dokumentu Word jako ikona](./insert-ole-object-as-icon/) | Naučte se, jak vložit objekt OLE jako ikonu do dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a vylepšete své dokumenty. |
 | [Vložit objekt Ole jako ikonu pomocí Streamu](./insert-ole-object-as-icon-using-stream/) | V tomto podrobném návodu krok za krokem se naučte, jak vložit objekt OLE jako ikonu pomocí streamu s Aspose.Words pro .NET. |
+| [Jak vložit OLE tlačítko příkazu do dokumentu Word pomocí C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Naučte se, jak pomocí Aspose.Words pro .NET vložit OLE tlačítko příkazu do dokumentu Word v jazyce C#. |
 | [Načíst vlastnosti ovládacího prvku Active XControl ze souboru aplikace Word](./read-active-xcontrol-properties/) | Naučte se, jak číst vlastnosti ovládacího prvku ActiveX ze souborů Wordu pomocí Aspose.Words pro .NET v podrobném návodu. Zlepšete si své dovednosti v automatizaci dokumentů. |
 | [Vytvořit dokument Word s tlačítkem ActiveX – průvodce C#](./create-word-document-with-activex-button-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit dokument Word s tlačítkem ActiveX v C#. |
 
+| [Vytvořit tlačítko pro dokument Word s Aspose.Words – kompletní příklad kódu](./create-word-document-button-with-aspose-words-full-code-exam/) | Naučte se, jak pomocí Aspose.Words vytvořit tlačítko, které generuje dokument Word, s kompletním ukázkovým kódem. |
+| [Přidání tlačítka Command do dokumentu Word s Aspose.Words – Kompletní průvodce](./add-command-button-to-word-document-with-aspose-words-comple/) | Naučte se, jak přidat tlačítko Command do dokumentu Word pomocí Aspose.Words v tomto podrobném návodu. |
+| [Jak přidat ovládací prvek ActiveX do Wordu pomocí Aspose.Words – krok za krokem](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Naučte se krok za krokem přidávat ovládací prvek ActiveX do dokumentu Word pomocí Aspose.Words. |
+| [Jak přidat tlačítko ActiveX do dokumentu Word pomocí Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Naučte se, jak vložit tlačítko ActiveX do dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Vložit příklad OleControlType.CommandButton do Wordu](./insert-olecontroltype-commandbutton-example-in-word/) | Ukázka, jak vložit ovládací prvek CommandButton typu OleControlType do dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Jak vytvořit tlačítko příkazu ActiveX ve Wordu pomocí C#](./how-to-create-activex-command-button-in-word-using-c/) | Naučte se, jak pomocí C# vytvořit tlačítko ActiveX v dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Jak přidat ActiveX ovládací prvek do Wordu pomocí C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Naučte se, jak vložit ActiveX ovládací prvek do dokumentu Word pomocí C# a Aspose.Words. |
+| [Jak programově přidat tlačítko příkazu do dokumentu Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Naučte se, jak pomocí Aspose.Words pro .NET programově vložit tlačítko příkazu do dokumentu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

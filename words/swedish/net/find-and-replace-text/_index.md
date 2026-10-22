@@ -32,12 +32,14 @@ Oavsett om du behöver ersätta specifika ord, uppdatera textmallar eller anpass
 | [Ignorera text inuti infoga revisioner](./ignore-text-inside-insert-revisions/) | Lär dig hur du hanterar dokumentrevisioner effektivt med Aspose.Words för .NET. Upptäck tekniker för att ignorera text inuti infogningsrevisioner för effektiv redigering. |
 | [Ersätt text i sidfot](./replace-text-in-footer/) | Lär dig hur du ersätter text i sidfoten i ett Word-dokument med Aspose.Words för .NET. Följ den här guiden för att bemästra textersättning med detaljerade exempel. |
 | [Ersätt med regex](./replace-with-regex/) | Lär dig hur du använder regex för att söka och ersätta i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide för att bemästra textmanipulation. |
+| [Hur man genererar dokumentmall och fyller den med data i C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Lär dig att skapa en dokumentmall och fylla den med data i C# med Aspose.Words för .NET. |
 | [Igenkänn och substitutioner inom ersättningsmönster](./recognize-and-substitutions-within-replacement-patterns/) | Lär dig hur du känner igen och ersätter text i ersättningsmönster med Aspose.Words för .NET. Steg-för-steg-guide med detaljerade exempel. |
 | [Ersätt med sträng](./replace-with-string/) | Lär dig hur du ersätter strängar i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som vill automatisera dokumentredigering. |
 | [Ersätt text i tabell](./replace-text-in-table/) | Ersätt enkelt text i Word-tabeller med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
 | [Ersätt text i DOCX med C# – Steg‑för‑steg‑guide](./replace-text-in-docx-with-c-step-by-step-guide/) | Lär dig hur du ersätter text i DOCX-filer med C# i en steg‑för‑steg‑guide. |
 | [Ersätt text i docx med C# – Fullständig steg‑för‑steg‑guide](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Lär dig hur du ersätter text i docx-filer med C# i en komplett steg‑för‑steg‑guide med kodexempel. |
 | [Hur du skriver om stycke med AI i C# – Fullständig guide](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Lär dig hur du använder AI för att automatiskt skriva om stycken i C# med Aspose.Words för .NET. |
+| [Hur man ersätter platshållare i docx-filer med Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Lär dig att ersätta platshållare i DOCX-filer med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

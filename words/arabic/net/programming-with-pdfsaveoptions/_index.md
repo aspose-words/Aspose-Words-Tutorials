@@ -45,13 +45,13 @@
 | [تحديث آخر خاصية مطبوعة في مستند PDF](./update-last-printed-property/) |تعرف على كيفية تحديث آخر خاصية مطبوعة في مستند PDF باستخدام Aspose.Words لـ .NET من خلال دليلنا خطوة بخطوة. |
 | [عرض تأثيرات DML 3D ثلاثية الأبعاد في مستند PDF](./dml-3deffects-rendering/) |تعرف على كيفية تقديم تأثيرات DML ثلاثية الأبعاد المذهلة في مستندات PDF باستخدام Aspose.Words for .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [استيفاء الصور في مستند PDF](./interpolate-images/) | تعلّم كيفية دمج الصور في مستند PDF باستخدام Aspose.Words for .NET من خلال دليلنا المفصل. حسّن جودة صور ملف PDF بسهولة. |
-| [إنشاء PDF يمكن الوصول إليه من C# – دليل خطوة بخطوة](./create-accessible-pdf-in-c-step-by-step-guide/) | دليل شامل لإنشاء ملفات PDF قابلة للوصول باستخدام C# و Aspose.Words. |
 | [حفظ مستند Word كملف PDF باستخدام Aspose Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لتحويل مستندات Word إلى PDF باستخدام Aspose.Words مع مثال كامل بلغة C#. |
 | [إنشاء ملف PDF ميسّر من Word – دليل C# كامل](./create-accessible-pdf-from-word-complete-c-guide/) | تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for .NET مع دليل شامل بلغة C# خطوة بخطوة. |
 | [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | دليل شامل خطوة بخطوة لتحويل ملفات docx إلى pdf باستخدام Aspose.Words في بيئة C#. |
 | [إنشاء ملف PDF يمكن الوصول إليه من Word باستخدام C# – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words وC# باتباع دليلنا التفصيلي خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word – دليل كامل](./create-accessible-pdf-from-word-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [إنشاء ملف PDF قابل للوصول من Word – دليل برمجة كامل](./create-accessible-pdf-from-word-complete-programming-guide/) | دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET. |
 | [إنشاء PDF يمكن الوصول إليه من Word باستخدام C# – دليل كامل](./create-accessible-pdf-from-word-in-c-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [حفظ المستند كملف PDF في C# – دليل كامل لتصدير Docx ومراقبة تغيّر الخطوط](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | تعرّف على حفظ مستند Word كملف PDF في C# مع مراقبة تغيّر الخطوط وإعدادات تصدير متقدمة. |
 | [حفظ ملف docx كـ pdf مع تصدير الشكل – دليل كامل](./save-docx-as-pdf-with-shape-export-complete-guide/) | تعلم كيفية حفظ مستندات docx كملفات PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
@@ -84,6 +84,11 @@
 | [حفظ المستند كملف PDF في C# – دليل كامل](./save-document-as-pdf-in-c-complete-guide/) | تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose.Words لـ .NET في C# مع شرح شامل للخيارات المتقدمة. |
 | [إنشاء ملف PDF قابل للوصول – تحويل Word إلى PDF باستخدام C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام C# و Aspose.Words. |
 | [حفظ المستند كملف PDF باستخدام Aspose.Words – دليل C# كامل](./save-document-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لحفظ المستندات كملفات PDF باستخدام Aspose.Words في بيئة C#. |
+| [حفظ Word كملف PDF – دليل كامل مع إمكانية الوصول](./save-word-as-pdf-complete-guide-with-accessibility/) |دليل شامل خطوة بخطوة لتحويل ملفات Word إلى PDF مع مراعاة إمكانية الوصول وفق معايير WCAG. |
+| [إنشاء ملف PDF/UA متوافق من Word – دليل تصدير كامل](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |دليل شامل خطوة بخطوة لتصدير ملفات PDF/UA متوافقة من مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [إنشاء ملف PDF قابل للوصول في C# – دليل خطوة بخطوة](./create-accessible-pdf-in-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
+| [حفظ المستند كملف PDF في C# – تصدير الأشكال المضمنة](./save-document-as-pdf-in-c-export-inline-shapes/) |تعلم كيفية تصدير الأشكال المضمنة عند حفظ مستند Word كملف PDF باستخدام Aspose.Words for .NET في C# خطوة بخطوة. |
+| [كيفية تعيين RenderChoiceFormFieldBorder إلى false عند تحويل Word إلى PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | تعلم كيفية تعطيل حدود حقول الاختيار عند تحويل مستندات Word إلى PDF باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

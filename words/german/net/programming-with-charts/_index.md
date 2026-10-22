@@ -46,9 +46,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 {{< tutorial-card link="./update-chart-title/" title="Diagrammtitel aktualisieren und Legenden‑Sichtbarkeit in Word mit Aspose.Words für .NET umschalten" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-
-
-
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titel | Beschreibung |
 | --- | --- |
@@ -62,17 +60,31 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Definieren der XY-Achseneigenschaften in einem Diagramm](./define-xyaxis-properties/) Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET XY-Achseneigenschaften in einem Diagramm definieren. Perfekt für .NET-Entwickler. |
 | [Hinzufügen von Datums- und Zeitwerten zur Achse eines Diagramms](./date-time-values-to-axis/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Datums- und Zeitwerte zur Achse eines Diagramms hinzufügen. |
 | [Zahlenformat für Achsen in einem Diagramm](./number-format-for-axis/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Diagrammachsenzahlen mit Aspose.Words für .NET formatieren. Verbessern Sie mühelos die Lesbarkeit und Professionalität Ihres Dokuments. |
+| [Diagramm in Word mit C# und benutzerdefinierten Zahlenformaten formatieren](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Erfahren Sie, wie Sie Diagramme in Word mit C# und eigenen Zahlenformaten formatieren. |
 | [Achsengrenzen](./bounds-of-axis/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grenzen einer Achse in einem Diagramm festlegen und so den auf der Achse angezeigten Wertebereich steuern. |
 | [Intervalleinheit zwischen Beschriftungen auf der Achse eines Diagramms](./interval-unit-between-labels-on-axis/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Intervalleinheit zwischen Beschriftungen auf der Achse eines Diagramms festlegen. |
 | [Diagrammachsen in einem Word-Dokument ausblenden](./hide-chart-axis/) Erfahren Sie in unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie die Diagrammachsen in einem Word-Dokument mit Aspose.Words für .NET ausblenden. |
 | [Aktivieren Sie die Ausrichtung mehrerer Linienbeschriftungen in einem Diagramm](./tick-multi-line-label-alignment/) | Erfahren Sie in unserer detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET die Ausrichtung mehrzeiliger Beschriftungen in einem Diagramm anpassen. Perfekt für Entwickler aller Erfahrungsstufen. |
 | [Diagrammdatenbeschriftung anpassen](./chart-data-label/) | Erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie Diagrammdatenbeschriftungen mit Aspose.Words für .NET anpassen. Perfekt für .NET-Entwickler. |
+| [Benutzerdefinierte Platzierung von Datenbeschriftungen für Diagramme in C#](./custom-data-label-placement-for-charts-in-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie benutzerdefinierte Datenbeschriftungen für Diagramme in C# mit Aspose.Words für .NET platzieren. |
+| [Hinzufügen von Datenbeschriftungen zu einem Word-Diagramm in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Erfahren Sie, wie Sie in C# Datenbeschriftungen zu Word-Diagrammen hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
 | [Diagrammlegende in Word mit C# anzeigen – vollständige Schritt‑für‑Schritt‑Anleitung](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET die Diagrammlegende in Word‑Dokumenten anzeigen. |
 | [Kuchenstück in einem Kreisdiagramm explodieren in C# mit Aspose.Words – Vollständige Anleitung](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie ein einzelnes Kuchenstück in einem Kreisdiagramm mit Aspose.Words für .NET hervorheben und anpassen. |
 | [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
+| [Prozentsätze in Diagrammen mit Aspose.Words C# anzeigen](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Prozentsätze in Diagrammen mit Aspose.Words für .NET anzeigen. |
+| [Erstellen eines Kreisdiagramms in Word mit C# – Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-word-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
+| [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
+| [Serien in einem Word-Liniendiagramm mit C# formatieren](./how-to-format-series-in-a-word-line-chart-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Serien in einem Word-Liniendiagramm formatieren. |
+| [Wie man ein Histogramm in Word mit Aspose.Words erstellt](./how-to-create-histogram-in-word-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Histogramm in ein Word-Dokument einfügen und anpassen. |
+| [Wie man ein Word-Dokument mit C# erstellt, das ein Säulendiagramm mit formatierten Beschriftungen enthält](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und ein Säulendiagramm mit formatierten Datenbeschriftungen hinzufügen. |
+| [Wie man ein Word-Dokument mit einem benutzerdefinierten Kreisdiagramm in C# erstellt](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem individuell angepassten Kreisdiagramm in C# erstellen. |
+
+| [Modifiziertes Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Erfahren Sie, wie Sie ein Word‑Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern. |
+| [Wie man die Bin-Anzahl eines Histogramms festlegt und Datenbeschriftungen zu einem Word-Diagramm in C# hinzufügt](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Erfahren Sie, wie Sie die Bin-Anzahl eines Histogramms festlegen und Datenbeschriftungen in einem Word-Diagramm mit C# hinzufügen. |
+| [Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Erfahren Sie, wie Sie Diagrammbeschriftungen in Word‑Dokumenten programmgesteuert mit C# anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

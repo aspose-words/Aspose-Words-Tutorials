@@ -40,6 +40,8 @@ Pythonを使用してdocxファイル内のテキストを置換する方法を�
 
 ### [PythonでAsposeを使用して文法修正を自動化する方法](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Asposeを活用し、Pythonで文書の文法チェックと自動修正を実装する手順を解説します。
+### [Pythonで影付きシェイプ付きの空白Word文書を作成](./create-blank-word-document-with-shadowed-shape-in-python/)
+PythonとAspose.Wordsを使用して、影付きシェイプを含む空白のWord文書をプログラムで作成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

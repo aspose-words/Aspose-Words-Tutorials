@@ -37,6 +37,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Multi Bagian](./multi-section/) Pelajari cara bekerja dengan tag dokumen terstruktur multi-bagian di Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Ideal untuk manipulasi dokumen dinamis. Bahasa Indonesia: |
 | [Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML](./structured-document-tag-range-start-xml-mapping/) | Pelajari cara mengikat data XML secara dinamis ke tag dokumen terstruktur di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami. |
 | [Mengatur Teks Placeholder di Aspose.Words – Panduan Lengkap C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Pelajari cara mengatur teks placeholder pada kontrol konten di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
+| [Cara Menambahkan Kontrol Konten dan Membuat Dokumen Word dengan Aspose – Panduan Lengkap](./how-to-add-content-control-and-create-word-document-with-asp/) | Pelajari cara menambahkan kontrol konten dan membuat dokumen Word secara lengkap menggunakan Aspose.Words untuk .NET. |
+| [Buat dokumen Word secara programatis – tambahkan kontrol konten dan placeholder](./create-word-document-programmatically-add-content-control-an/) | Pelajari cara membuat dokumen Word secara programatis, menambahkan kontrol konten dan placeholder menggunakan Aspose.Words untuk .NET. |
+| [Cara membuat kontrol konten dalam C# dengan Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Panduan langkah demi langkah untuk membuat kontrol konten di Word menggunakan C# dan Aspose.Words. |
+| [Cara menyimpan dokumen Word dengan SDT menggunakan Aspose.Words di C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Pelajari cara menyimpan dokumen Word yang berisi Kontrol Konten Terstruktur (SDT) menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Cara menambahkan kontrol konten di dokumen Word menggunakan Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Pelajari cara menambahkan kontrol konten ke dokumen Word dengan Aspose.Words dalam langkah-langkah mudah. |
+| [Buat dokumen Word baru dan sisipkan kontrol konten dalam C#](./create-new-word-document-and-insert-content-control-in-c/) | Pelajari cara membuat dokumen Word baru dan menambahkan kontrol konten menggunakan C# dengan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

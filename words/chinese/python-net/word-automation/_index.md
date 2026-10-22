@@ -40,6 +40,8 @@ Word 自动化彻底改变了文档管理和 Word 文档处理领域的格局。
 
 ### [如何使用 Aspose 在 Python 中自动化语法纠正](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 使用 Aspose.Words for Python，实现自动语法纠正，提升文档准确性和专业度。
+### [在 Python 中创建带阴影形状的空白 Word 文档](./create-blank-word-document-with-shadowed-shape-in-python/)
+使用 Aspose.Words for Python 创建空白 Word 文档并添加带阴影的形状，实现高级文档布局。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,12 +23,16 @@
 -
 - [ส่งออกเป็นมาร์กดาวน์พร้อมการจัดตำแหน่งเนื้อหาตาราง](./export-into-markdown-with-table-content-alignment/) | เรียนรู้วิธีการส่งออกเอกสาร Word เป็น Markdown พร้อมจัดตารางให้ตรงกันโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างตาราง Markdown ที่สมบูรณ์แบบ -
 | [ตั้งค่าโฟลเดอร์รูปภาพ](./set-images-folder/) แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ |
+- [บันทึก Markdown เป็น Word – คู่มือขั้นตอนโดยขั้นตอนสำหรับนักพัฒนา C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | เรียนรู้วิธีบันทึกไฟล์ Markdown เป็น Word ด้วย C# อย่างละเอียด
 
 ### [สร้างโฟลเดอร์ Assets สำหรับแปลง Word เป็น Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 วิธีสร้างโฟลเดอร์ Assets เพื่อจัดเก็บไฟล์และรูปภาพเมื่อแปลง Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 ### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
  
+### [แปลง docx เป็น markdown – คู่มือเต็มพร้อมเงารูปร่างและการกู้คืน](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมจัดการเงารูปร่างและกู้คืนไฟล์ที่เสียหายด้วย Aspose.Words สำหรับ .NET
+
 ### [สร้าง PDF ที่เข้าถึงได้และแปลง Word เป็น Markdown – คู่มือเต็ม C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 สร้าง PDF ที่เข้าถึงได้และแปลงไฟล์ Word เป็น Markdown ด้วย C# อย่างละเอียด
 ### [วิธีใช้ Markdown: แปลง DOCX เป็น Markdown พร้อมสมการ LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
@@ -45,8 +49,8 @@
 ### [แปลง docx เป็น markdown – คู่มือเต็ม C#](./convert-docx-to-markdown-complete-c-guide/)
 แปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย C# และ Aspose.Words
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-
 ### [บันทึก docx เป็น markdown พร้อมสมการ LaTeX – คู่มือ C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
+### [แปลง docx เป็น markdown – คู่มือเต็มพร้อมการส่งออกสมการ](./convert-docx-to-markdown-complete-guide-with-equation-export/)
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [ส่งออก docx เป็น markdown ใน C# – คู่มือเต็ม](./export-docx-to-markdown-in-c-complete-guide/)
@@ -54,6 +58,7 @@
 ### [บันทึก docx เป็น markdown – คู่มือ C# สมบูรณ์พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-full-guide-with-image-extraction/)
 ### [บันทึก docx เป็น markdown – คู่มือเต็มกับย่อหน้าว่าง](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C+
@@ -121,12 +126,16 @@
 ### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ด้วย Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 เรียนรู้วิธีส่งออกตารางจากไฟล์ Word เป็น HTML พร้อมบันทึกเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [บันทึก markdown เป็น docx ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
 ### [ส่งออก docx เป็น markdown – คู่มือเต็ม C#](./export-docx-as-markdown-complete-c-guide/)
+### [Aspose docx เป็น markdown – คู่มือเต็มสำหรับการแปลงและสกัดรูปภาพ](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown พร้อมสกัดรูปภาพด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 ### [กู้คืนเอกสาร Word ด้วย Aspose.Words – คู่มือเต็ม](./recover-word-document-with-aspose-words-full-guide/)
 เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
+### [อัปโหลดรูปภาพไปยัง CDN ในการแปลง DOCX เป็น Markdown – คู่มือเต็ม](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+เรียนรู้วิธีอัปโหลดรูปภาพไปยัง CDN ระหว่างการแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 ### [แปลง Docx เป็น Markdown ด้วย C# – คู่มือโปรแกรมเต็ม](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)

@@ -40,6 +40,8 @@ Leer hoe u tekst in een DOCX-bestand kunt vervangen met Python, stap voor stap, 
 
 ### [Hoe u Aspose gebruikt om grammatica-correctie te automatiseren in Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Leer hoe u met Aspose grammatica in documenten automatisch corrigeert via Python, met voorbeeldcode en stapsgewijze instructies.
+### [Maak een leeg Word-document met een schaduwvorm in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Maak een leeg Word-document en voeg een vorm met schaduw toe via Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

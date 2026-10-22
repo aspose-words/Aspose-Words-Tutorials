@@ -52,12 +52,12 @@ Menambahkan komentar dalam Java berarti membuat node `Comment`, menempelkannya k
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Akuisisi Lisensi
 Aspose.Words adalah produk komersial. Anda dapat memulai dengan percobaan gratis selama 30 hari atau meminta lisensi sementara untuk evaluasi. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk detail.
@@ -72,20 +72,20 @@ Aspose.Words adalah produk komersial. Anda dapat memulai dengan percobaan gratis
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Langkah 2:** Buat dan Tambahkan Komentar  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Langkah 3:** Tambahkan Balasan ke Komentar  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Fitur 2: Mencetak Semua Komentar
 **Gambaran Umum** – Mengambil setiap komentar tingkat atas dan balasannya untuk ditinjau.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Langkah 1:** Muat Dokumen  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Langkah 2:** Ambil dan Cetak Komentar  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Fitur 3: Cara Menghapus Balasan Komentar di Java
 **Gambaran Umum** – Menunjukkan **how to delete comment replies** untuk menjaga dokumen tetap rapi.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Langkah 2:** Hapus Balasan  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Langkah 2:** Tandai Komentar sebagai Selesai  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Fitur 5: Dapatkan Tanggal dan Waktu UTC dari Komentar
 **Gambaran Umum** – Mengambil timestamp UTC tepat saat komentar ditambahkan, ideal untuk log audit.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Langkah 2:** Simpan dan Ambil Tanggal UTC  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Aplikasi Praktis
 - **Penyuntingan Kolaboratif:** Tim dapat menambahkan dan membalas komentar langsung dalam laporan yang dihasilkan.  

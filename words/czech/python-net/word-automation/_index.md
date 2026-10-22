@@ -40,6 +40,8 @@ Naučte se, jak pomocí Aspose.Words pro Python nahradit text v souborech DOCX a
 
 ### [Jak použít Aspose k automatizaci opravy gramatiky v Pythonu](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Naučte se, jak pomocí Aspose.Words pro Python automatizovat kontrolu a opravu gramatických chyb ve vašich dokumentech.
+### [Vytvořte prázdný dokument Word s tvarem se stínem v Pythonu](./create-blank-word-document-with-shadowed-shape-in-python/)
+Vytvořte prázdný dokument Word a přidejte do něj tvar se stínem pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

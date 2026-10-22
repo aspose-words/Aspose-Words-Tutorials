@@ -88,6 +88,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)
 
+### [在 Java 中載入 Markdown 底線 – 完整程式指南](./load-markdown-underline-in-java-complete-programming-guide/)
+
 ### [進階儲存選項與 Aspose.Words for Java](./advance-saving-options/)
 
 ### [使用 Aspose.Words for Java 以固定版面儲存 HTML 文件](./saving-html-documents-with-fixed-layout/)
@@ -135,9 +137,12 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java 復原損壞的 docx](./recover-corrupted-docx-using-aspose-words-java/)
 ### [使用 Aspose.Words 復原損壞的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [在 Java 中修復損壞的 DOCX – 完整程式指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [使用 Aspose.Words for Java 復原損壞的 DOCX – 完整指南](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [使用 Aspose.Words for Java 復原 docx – 啟用復原模式並閱讀警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 ### [使用 Aspose.Words for Java 復原損壞的 Word 文件 – 完整 Java 指南](./recover-broken-word-document-complete-java-guide/)
@@ -158,6 +163,12 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [設定 LoadOptions 以捕獲警告 – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ### [使用 Aspose.Words for Java 建立空白 Word 文件 – 完整指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
+
+### [使用 Aspose.Words for Java 字體替換教學 – 處理缺少字體](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [使用 Aspose.Words for Java LoadOptions 復原損壞的 Word 文件](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
+### [如何使用 Aspose.Words 在 C# 中從目錄載入檔案](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## 常見問題
 

@@ -111,10 +111,16 @@ Học cách ghi lại các cảnh báo thay thế phông chữ khi tải tài li
 Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
 ### [Cấu hình LoadOptions cho Cảnh báo – Hướng dẫn Java đầy đủ](./configure-loadoptions-for-warnings-complete-java-guide/)
+### [Tải gạch chân markdown trong Java – hướng dẫn lập trình toàn diện](./load-markdown-underline-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
+
+### [Hướng Dẫn Thay Thế Phông Chữ Aspose – Xử Lý Phông Chữ Thiếu](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
+Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
+
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
 ### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
@@ -157,6 +163,12 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 ### [Khôi phục DOCX bị hỏng trong Java – Hướng dẫn lập trình toàn diện](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Tạo Tài Liệu Word Trống bằng Java – Hướng Dẫn Đầy Đủ Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Aspose.Words LoadOptions – Khôi phục tài liệu Word bị hỏng trong Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
+### [Cách tải tệp từ thư mục bằng Aspose.Words trong C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
+
+### [Khôi phục DOCX bị hỏng với Aspose.Words cho Java – Hướng dẫn toàn diện](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
 ## Câu Hỏi Thường Gặp
 

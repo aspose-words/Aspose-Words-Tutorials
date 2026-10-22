@@ -47,6 +47,8 @@ Lär dig hur du använder varningsåteruppringning för att upptäcka och spåra
 Lär dig hur du fångar varningsmeddelanden för att identifiera saknade teckensnitt när du använder Aspose.Words.
 ### [Hitta saknade teckensnitt i Java med Aspose.Words – Komplett guide](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Lär dig identifiera och ersätta saknade teckensnitt i dina Word-dokument med Aspose.Words för Java.
+### [Registrera varningsåteruppringning i Java – Komplett programmeringsguide](./register-warning-callback-in-java-complete-programming-guide/)
+Lär dig hur du registrerar en varningsåteruppringning i Aspose.Words för Java för att hantera varningar under bearbetning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to add a command button programmatically in a Word document
+Slug: how-to-add-a-command-button-programmatically-in-a-word-docum
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-10-14T00:08:14.876168
+SourceRepo: AI Search API
+Keywords: add command button programmatically, create word document button
+PRNumber: 321

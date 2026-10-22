@@ -39,6 +39,9 @@ Pelajari cara mengganti teks dalam file DOCX menggunakan Python secara lengkap d
 ### [Cara Menggunakan Aspose untuk Mengotomatisasi Koreksi Tata Bahasa di Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Pelajari cara menggunakan Aspose untuk secara otomatis memperbaiki tata bahasa dalam dokumen menggunakan Python.
 
+### [Buat dokumen Word kosong dengan bentuk berbayang dalam Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Buat dokumen Word kosong dan tambahkan bentuk berbayang menggunakan Aspose.Words untuk Python. Pelajari cara mengimplementasikannya secara mudah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

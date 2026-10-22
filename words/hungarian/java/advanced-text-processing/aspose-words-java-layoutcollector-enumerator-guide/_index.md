@@ -62,12 +62,12 @@ Győződjön meg arról, hogy az Aspose.Words for Java 25.3 (vagy újabb) verz
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Környezet beállítási követelmények
 - Telepített Java Development Kit (JDK).
@@ -92,6 +92,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+A könyvtár készen áll, most már elkezdheti használni a fő funkciókat.
+
+## Hogyan elemezzük az oldalakat a LayoutCollector segítségével?
+
+A `LayoutCollector` egy osztály, amely minden `Document` csomópontot a kezdő és befejező oldalszámához rendeli, lehetővé téve a pontos paginációs elemzést. Töltse be a dokumentumot, csatolja a `LayoutCollector`-t, és kérdezze le az oldal információkat – a teljes művelet csak néhány kódsort igényel, és megbízható eredményeket ad még nagy fájlok esetén is.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 A könyvtár készen áll, most merüljünk el a fő funkciókban.
@@ -110,7 +120,7 @@ A `LayoutCollector` segítségével lekérheti bármely csomópont kezdő és be
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Dokumentum feltöltése**
 Itt olyan tartalmat adunk hozzá, amely több oldalra terjed:
@@ -121,7 +131,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Elrendezés frissítése és metrikák lekérdezése**
 ```java
@@ -129,6 +139,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Magyarázat:**  
+- `DocumentBuilder` tartalmat szúr be.  
+- `updatePageLayout()` kényszeríti a layout átfutást, hogy az oldalszámok pontosak legyenek.  
+- `getStartPage` / `getEndPage` visszaadják egy csomópont első és utolsó oldalin indexét.
+
+## Hogyan soroljuk fel a layout elemeket a LayoutEnumerator-rel?
+
+A `LayoutEnumerator` egy osztály, amely bejárja a dokumentum vizuális layout fáját, feltárva minden elem típusát, pozícióját és méretét – tökéletes egyedi rendereléshez vagy elemzésekhez. A `LayoutEnumerator` bejárja a vizuális layout fát, feltárva minden elem típusát, pozícióját és méretét – tökéletes egyedi rendereléshez vagy elemzésekhez.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Magyarázat
@@ -147,7 +170,7 @@ Bejárhatja az oldalakat, bekezdéseket, sorokat és egyéb elrendezési entitá
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Előre és hátra történő bejárás**
 ```java
@@ -158,6 +181,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Magyarázat:**  
+- `moveParent()` felfelé mozog a fában.  
+- A rekurzív bejárás teljes hozzáférést biztosít minden layout csomóponthoz.
+
+## Hogyan valósítsuk meg az oldal layout visszahívásokat?
+
+Az `IPageLayoutCallback` egy interfész a layout események fogadására a dokumentum feldolgozása során, lehetővé téve, hogy reagáljon a layout változásokra, például szekció újrarendezésére vagy a renderelés befejezésére. Az `IPageLayoutCallback` megvalósítása lehetővé teszi, hogy reagáljon a layout eseményekre, mint a szekció újrarendezése vagy a renderelés befejezése, dinamikus vezérlést adva a dokumentum generálási folyamatnak.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Magyarázat
@@ -176,9 +211,9 @@ Az `IPageLayoutCallback` interfész értesíti, amikor egy dokumentum része bef
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. Visszahívási metódusok implementálása**
+### 2. lépés: Visszahívási metódusok megvalósítása
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -198,6 +233,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Magyarázat:**  
+- `notify()` eseményazonosítót kap.  
+- `ImageSaveOptions` testreszabható a visszahíváson belül a valós idejű kép rendereléshez.
+
+## Hogyan indítsuk újra az oldalszámozást folytonos szekciókban?
+
+A `ContinuousSectionRestart` egy felsorolás, amely meghatározza, hogy az oldalszámozás újraindul-e a folytonos szekciókban, finomhangolt vezérlést biztosítva a számozási sémák felett a dokumentumban. Ha egy dokumentum több, folyamatosan áramló szekciót tartalmaz, szabályozhatja, hogy az oldalszámok automatikusan újrainduljanak-e.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Magyarázat
@@ -215,13 +262,13 @@ A `ContinuousSectionRestart` opció beállításával eldöntheti, hogy az oldal
 **1. Dokumentum betöltése**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Oldalszámozási beállítások konfigurálása**
+### 2. lépés: Oldalszámozási beállítások konfigurálása
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Magyarázat
 - **`setContinuousSectionPageNumberingRestart()`** megmondja az Aspose.Words‑nek, hogyan kezelje a számozást folytonos szakaszokban.
