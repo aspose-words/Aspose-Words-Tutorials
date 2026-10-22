@@ -100,6 +100,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Lägg till sammanfattning i Word-dokument med Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Lär dig hur du använder Aspose.Words AI för att automatiskt lägga till sammanfattningar i Word-dokument. |
 | [Sammanfatta Word-dokument i C# – komplett Aspose.Words AI-guide](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | En fullständig guide för att sammanfatta Word-dokument med Aspose.Words och AI i C#. |
 | [Översätt docx till franska med Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Lär dig att översätta docx-filer till franska med Aspose.Words AI. |
+| [Skapa ett tomt Word-dokument och översätt det till franska](./create-a-blank-word-document-and-translate-it-to-french/) | Skapa ett tomt Word-dokument och översätt det till franska med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -101,6 +101,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words AI ile Word Belgesine Özet Ekle](./add-summary-to-word-document-with-aspose-words-ai/) | Aspose.Words AI kullanarak bir Word belgesine otomatik özet eklemeyi öğrenin. |
 | [C# ile Word belgesini özetleme – tam Aspose.Words AI rehberi](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | C# kullanarak Word belgelerini AI ile özetlemeyi adım adım öğrenin. |
 | [Aspose.Words AI ile docx dosyasını Fransızcaya çevir](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx belgelerini Fransızcaya otomatik çevirin. |
+| [Boş bir Word belgesi oluşturun ve Fransızcaya çevirin](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturun ve içeriğini Fransızcaya çevirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

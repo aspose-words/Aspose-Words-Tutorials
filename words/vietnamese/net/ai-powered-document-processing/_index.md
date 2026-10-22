@@ -101,6 +101,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Thêm tóm tắt vào tài liệu Word với Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Hướng dẫn cách sử dụng Aspose.Words AI để thêm tóm tắt tự động vào tài liệu Word một cách nhanh chóng và chính xác. |
 | [Tóm tắt tài liệu Word trong C# – hướng dẫn đầy đủ Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
 | [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
+| [Tạo tài liệu Word trống và dịch sang tiếng Pháp](./create-a-blank-word-document-and-translate-it-to-french/) | Tạo tài liệu Word mới và sử dụng Aspose.Words để dịch nội dung sang tiếng Pháp một cách nhanh chóng. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

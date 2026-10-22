@@ -101,6 +101,7 @@
 | [إضافة ملخص إلى مستند Word باستخدام Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | تعلم كيفية إضافة ملخص إلى مستندات Word باستخدام Aspose.Words AI لتسريع إدارة المحتوى. |
 | [تلخيص مستند Word باستخدام C# – دليل Aspose.Words AI الكامل](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | دليل شامل لتلخيص مستند Word باستخدام C# و Aspose.Words AI. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | دليل شامل لترجمة مستندات docx إلى اللغة الفرنسية باستخدام تقنية Aspose.Words AI. |
+| [إنشاء مستند Word فارغ وترجمته إلى الفرنسية](./create-a-blank-word-document-and-translate-it-to-french/) | تعلم كيفية إنشاء مستند Word فارغ وترجمته إلى اللغة الفرنسية باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -99,6 +99,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Menambahkan Ringkasan ke Dokumen Word dengan Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Tambahkan ringkasan otomatis ke dokumen Word menggunakan AI Aspose.Words untuk .NET. Panduan langkah demi langkah. |
 | [Menerjemahkan docx ke bahasa Prancis dengan Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Pelajari cara menerjemahkan dokumen docx ke bahasa Prancis secara otomatis menggunakan Aspose.Words AI. |
 | [Ringkas Dokumen Word dalam C# – panduan lengkap Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Panduan lengkap untuk meringkas dokumen Word menggunakan Aspose.Words AI di C#. |
+| [Buat dokumen Word kosong dan terjemahkan ke bahasa Prancis](./create-a-blank-word-document-and-translate-it-to-french/) | Pelajari cara membuat dokumen Word kosong dan menerjemahkannya ke bahasa Prancis menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

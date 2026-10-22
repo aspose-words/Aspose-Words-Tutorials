@@ -100,6 +100,7 @@
 | [Προσθήκη περίληψης σε έγγραφο Word με Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Μάθετε πώς να προσθέσετε αυτόματα περίληψη σε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI. |
 | [Σύνοψη εγγράφου Word σε C# – πλήρης οδηγός Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με το Aspose.Words AI σε πλήρη βήμα-βήμα οδηγό. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI σε .NET. |
+| [Δημιουργία κενής εγγράφου Word και μετάφραση στα γαλλικά](./create-a-blank-word-document-and-translate-it-to-french/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να το μεταφράσετε αυτόματα στα γαλλικά χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

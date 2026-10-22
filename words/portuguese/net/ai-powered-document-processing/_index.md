@@ -101,6 +101,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Adicionar Resumo ao Documento Word com Aspose.Words IA](./add-summary-to-word-document-with-aspose-words-ai/) | Adicione um resumo ao documento Word usando a IA do Aspose.Words para .NET em poucos passos. |
 | [Resumir documento Word em C# – guia completo Aspose.Words IA](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Aprenda a resumir documentos Word usando C# e Aspose.Words com IA, passo a passo, para resultados rápidos e precisos. |
 | [Traduzir docx para francês com Aspose.Words IA](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos Word para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Criar um documento Word em branco e traduzi-lo para o francês](./create-a-blank-word-document-and-translate-it-to-french/) | Aprenda a criar um documento Word vazio e traduzi-lo para o francês usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
