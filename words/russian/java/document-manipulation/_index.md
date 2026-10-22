@@ -78,8 +78,14 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как использовать структурированные теги документов (SDT) в Aspose.Words для Java с помощью этого всеобъемлющего руководства. Создавайте, изменяйте и привязывайте SDT к пользовательским данным XML.
 ### [Использование стилей и тем в Aspose.Words для Java](./using-styles-and-themes/)
 Узнайте, как улучшить форматирование документов с помощью Aspose.Words для Java. Изучите стили, темы и многое другое в этом подробном руководстве с примерами исходного кода.
+### [Создание нового документа Word – пошаговое руководство по добавлению структурированного тега](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Узнайте, как создать новый документ Word и добавить в него структурированный тег с помощью Aspose.Words для Java.
 ### [Создание оглавления в Aspose.Words для Java](./generating-table-of-contents/)
 Узнайте, как создавать и настраивать оглавление (TOC) с помощью Aspose.Words для Java. Создавайте организованные и профессиональные документы без усилий.
+### [Создание пустого документа Word с интерактивной кнопкой команды на Java](./create-blank-document-with-an-interactive-command-button-in/)
+Создайте пустой документ Word с интерактивной кнопкой команды, используя Aspose.Words для Java.
+### [Создание пустого документа Word в Java с Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Создайте пустой документ Word в Java с помощью Aspose.Words.
 ### [Защита документов в Aspose.Words для Java](./protecting-documents/)
 Узнайте, как защитить документы Java Word с помощью Aspose.Words for Java. Защитите свои данные паролем и т. д.
 ### [Разделение документов на страницы в Aspose.Words для Java](./splitting-documents-into-pages/)
@@ -90,6 +96,12 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов.
 ### [Добавление контента с помощью DocumentBuilder в Aspose.Words для Java](./adding-content-using-documentbuilder/)
 Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
+### [Как создать документ Word в Java с помощью Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
+### [Как создать пустой документ Word с текстовым контролом](./how-to-create-a-blank-word-document-with-a-text-control/)
+Создайте пустой документ Word и добавьте в него текстовый контрол с помощью Aspose.Words для Java.
+### [Как установить имя тега и добавить SDT в документ Word с C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Узнайте, как задать имя тега и добавить структурированный документный тег (SDT) в Word с помощью C#.
 ### [Клонирование и объединение документов в Aspose.Words для Java](./cloning-and-combining-documents/)
 Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
 ### [Сравнение документов в Aspose.Words для Java](./comparing-documents/)
@@ -103,7 +115,23 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Использование свойств документа в Aspose.Words для Java](./using-document-properties/)
 Оптимизируйте управление документами с помощью Aspose.Words для Java. Научитесь работать со свойствами документа, добавлять пользовательские метаданные и многое другое в этом всеобъемлющем руководстве.
 ### [Использование веб-расширений в Aspose.Words для Java](./using-web-extensions/)
-Улучшайте документы с помощью веб-расширений в Aspose.Words для Java. Научитесь бесшовно интегрировать веб-контент. 
+### [Тегирование PDF для доступности в Java – Генерация доступных PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Узнайте, как добавить теги доступности в PDF с помощью Aspose.Words for Java, чтобы создавать документы, соответствующие стандартам доступности.
+### [Создание кнопки ActiveX в docx на Java – полное руководство по программированию](./create-docx-activex-button-in-java-complete-programming-guid/)
+Подробное руководство по созданию кнопки ActiveX в файлах docx с использованием Aspose.Words для Java.
+
+### [Добавление элемента управления содержимым в документ Word с Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
+### [Как программно создать документ Word с помощью Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words для Java.
+
+### [Создание документа Word с простым текстовым элементом управления](./create-word-document-with-a-plain-text-content-control/)
+Узнайте, как создать документ Word, содержащий простой текстовый элемент управления, используя Aspose.Words для Java.
+
+### [Как сохранить DOCX с помощью DocumentBuilder и добавить текст после элемента управления](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Сохраните документ DOCX с DocumentBuilder и вставьте текст сразу после управляющего элемента. 
+### [Как создать пустой документ Word с помощью Aspose.Words для Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Создайте пустой документ Word с помощью Aspose.Words для Java. Пошаговое руководство по инициализации нового документа.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

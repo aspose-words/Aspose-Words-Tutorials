@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να χρησιμοποιήσετε το Aspose.Words Document και το DocumentBuilder για να δημιουργήσετε ένα έγγραφο Word, να ενσωματώσετε ένα διάγραμμα ιστογράμματος και να προσθέσετε μια επισημασμένη σειρά δεδομένων χρησιμοποιώντας την υπερφόρτωση ChartSeriesCollection.Add που δέχεται ένα όνομα και τιμές.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό έγγραφο Word και ένα DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα σχήμα διαγράμματος ιστογράμματος μεγέθους 500×300 στο έγγραφο και αποκτήστε το αντικείμενο Chart του.
+//ExStepSummary:2: Αφαιρέστε τη προεπιλεγμένη σειρά placeholder που προσθέτει το Aspose.Words στα νέα διαγράμματα.
+//ExStepSummary:3: Προσθέστε μια ονομαστική σειρά με το όνομα "Demo Series" και τα καθορισμένα σημεία δεδομένων στο διάγραμμα ιστογράμματος.
+//ExStepSummary:4: Αποθηκεύστε το έγγραφο σε αρχείο .docx που περιέχει την επισημασμένη σειρά διαγράμματος.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

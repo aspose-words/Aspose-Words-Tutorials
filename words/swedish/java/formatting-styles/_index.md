@@ -50,6 +50,8 @@ Lär dig hur du effektivt hanterar tabbstopp i Word-dokument med Aspose.Words f�
 ### [Optimera ordformat i Java med Aspose.Words: Ta bort oanvända och duplicerade format](./optimize-word-styles-aspose-java/)
 Lär dig hur du effektivt hanterar dokumentformat med Aspose.Words för Java genom att ta bort oanvända och duplicerade format, vilket förbättrar prestanda och underhållbarhet.
 
+### [Hur du ändrar fotnotformat i ett Word-dokument med Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

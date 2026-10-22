@@ -33,6 +33,15 @@ Az oktatóanyagok a képmanipuláció alapvető fogalmait is lefedik, beleértve
 | [Word konvertálása PNG-re – Oldalak egyesítése függőleges csíkba](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Tanulja meg, hogyan konvertálhatja a Word-dokumentumokat PNG-re, és egyesítheti az oldalakat egy függőleges csíkba az Aspose.Words for .NET segítségével. |
 | [Word konvertálása PNG-re – Teljes C# útmutató](./convert-word-to-png-complete-c-guide/) | Ismerje meg, hogyan konvertálhatja a Word-dokumentumokat PNG formátumba C#-ban, részletes lépésekkel. |
 | [Hogyan állítsuk be a DPI-t a Word PNG-re konvertálásakor – Magas felbontású export útmutató](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Ismerje meg, hogyan exportálhat Word-dokumentumot PNG formátumba magas DPI-vel, a részletes, lépésről‑lépésre útmutatóval. |
+| [PNG rács létrehozása Word dokumentumból – Teljes útmutató](./create-png-grid-from-word-document-complete-guide/) | Tanulja meg, hogyan hozhat létre PNG képrácsot Word dokumentumból az Aspose.Words for .NET segítségével, részletes lépésekkel. |
+| [Hogyan állítsuk be a felbontást a Word PNG-re konvertálásakor – Teljes útmutató](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Ismerje meg, hogyan állíthatja be a felbontást a Word dokumentum PNG formátumba konvertálásakor C#-ban, részletes lépésekkel. |
+| [DOCX konvertálása PNG-re – Teljes C# útmutató](./convert-docx-to-png-complete-c-guide/) | Ismerje meg, hogyan konvertálhat DOCX fájlokat PNG képekké C#-ban az Aspose.Words for .NET segítségével, részletes lépésről-lépésre útmutatóval. |
+
+| [Word exportálása PNG-ként – DOCX konvertálása egyetlen képpé](./export-word-as-png-convert-docx-to-one-image/) | Tanulja meg, hogyan exportálhatja a Word-dokumentumot PNG formátumba egyetlen képként az Aspose.Words for .NET segítségével. |
+| [DOCX konvertálása PNG-re – Teljes lépésről‑lépésre útmutató](./convert-docx-to-png-complete-step-by-step-guide/) | Tanulja meg, hogyan konvertáljon DOCX fájlokat PNG képekké az Aspose.Words for .NET használatával részletes, lépésről‑lépésre útmutatóval. |
+| [Hogyan állítsuk be a DPI-t – Word exportálása PNG rácsba C#-ban](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Ismerje meg, hogyan állíthatja be a DPI értéket a Word dokumentum PNG rácsba exportálásakor C#-ban, részletes lépésekkel. |
+| [Word mentése PNG-ként – Teljes Aspose.Words útmutató](./save-word-as-png-complete-aspose-words-guide/) | Ismerje meg, hogyan menthet Word-dokumentumot PNG formátumba részletes, lépésről lépésre útmutatóval az Aspose.Words for .NET használatával. |
+| [Dokumentum mentése PNG-ként C#-ban – Teljes C# útmutató](./save-document-as-png-in-c-complete-guide/) | Ismerje meg, hogyan menthet Word-dokumentumot PNG formátumba C#-ban részletes, lépésről-lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

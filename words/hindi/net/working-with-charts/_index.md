@@ -32,6 +32,8 @@ Aspose.Words for .NET, Word दस्तावेज़ों में चा�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title=".NET के लिए Aspose.Words का उपयोग करके Word में एक सरल कॉलम चार्ट डालें" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="वर्ड में चार्ट को कैसे संपादित करें: लेबल की स्थिति, फ़ॉन्ट और अधिक बदलें" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

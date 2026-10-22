@@ -45,6 +45,7 @@ Ez egy átfogó forrásanyag, amely segít elsajátítani a Word-dokumentumok me
 | [Mezők konvertálása a bekezdésben](./convert-fields-in-paragraph/) | Tanulja meg, hogyan konvertálhatja a HA mezőket egyszerű szöveggé Word-dokumentumokban az Aspose.Words for .NET segítségével ebből a részletes, lépésről lépésre szóló útmutatóból. |
 | [Mezők konvertálása a dokumentumban](./convert-fields-in-document/) | Tanulja meg, hogyan konvertálhat mezőket Word-dokumentumokban az Aspose.Words for .NET segítségével ebből az útmutatóból. Kövesse oktatóanyagunkat a dokumentumok mezőinek hatékony kezeléséhez és átalakításához. |
 | [Mezők konvertálása a törzsben](./convert-fields-in-body/) | Ismerje meg, hogyan használható az Aspose.Words for .NET az oldalmezők szöveggé alakításához egy Word-dokumentum törzsében. |
+| [Számlasablon létrehozása és adatok egyesítése az Aspose.Words használatával](./create-invoice-template-and-merge-data-using-aspose-words/) | Ismerje meg, hogyan hozhat létre számlasablont és egyesítheti az adatokat az Aspose.Words for .NET segítségével. |
 | [Nyelv módosítása](./change-locale/) Tanulja meg, hogyan módosíthatja a területi beállításokat Word-dokumentumokban az Aspose.Words for .NET használatával ebből az útmutatóból. Tökéletes nemzetközi ügyfelek és projektek kezeléséhez. |
 
 

@@ -34,6 +34,7 @@ Bu eğitimler, Aspose.Words for .NET kitaplığını kullanarak belge özellikle
 | [Kontrol Karakterlerini Kullan](./use-control-characters/) | Aspose.Words for .NET kullanarak Word belge görevlerinin nasıl otomatikleştirileceğini keşfedin. Bu kılavuz, iş akışınızı verimli hale getirerek kurulum, metin değiştirme ve daha fazlasını kapsar. |
 | [Word Belgesinde Sayfaları Sayma – Geri Kazan ve Say](./how-to-count-pages-in-a-word-document-recover-count/) | Aspose.Words for .NET kullanarak bir Word belgesindeki sayfaları nasıl sayacağınızı ve sayfa sayısını nasıl alacağınızı öğrenin. |
 
+| [Word Belgelerinde Sayfa Sayısını Kontrol Et – Bozuk Dosyaları Kurtarın](./check-page-count-in-word-docs-recover-corrupted-files/) | Word belgelerindeki sayfa sayısını kontrol edin ve bozuk dosyaları kurtarmak için adım adım kılavuz. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

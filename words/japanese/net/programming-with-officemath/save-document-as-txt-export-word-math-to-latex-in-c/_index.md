@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-01-11
-description: 文書をtxtとして保存し、WordからLaTeXへ数式をエクスポートする方法を学びましょう。docxをLaTeXに変換し、数式をLaTeXにエクスポートする手順をステップバイステップで解説します。
+date: 2026-04-24
+description: Aspose.Words を使用してドキュメントを txt として保存し、Word を LaTeX に変換します。Word の数式を LaTeX
+  にすばやくエクスポートする方法を学びましょう。
 draft: false
 keywords:
 - save document as txt
-- how to export math
-- convert docx to latex
-- convert word equations latex
-- export equations to latex
+- convert word to latex
+- convert word equations to latex
+- export word math latex
 language: ja
-og_description: ドキュメントをtxtとして保存し、Wordから数式をLaTeXにエクスポートします。方程式をLaTeXにエクスポートし、docxをLaTeXに変換する方法を網羅したC#チュートリアルです。
-og_title: ドキュメントをTxtとして保存 – Wordの数式をLaTeXにエクスポート (C# ガイド)
+og_description: C# を使用して文書を txt として保存し、Word の数式を LaTeX に変換します。コード付きのステップバイステップ完全ガイド。
+og_title: 文書をTXTとして保存 – Wordの数式をLaTeXへエクスポート
 tags:
 - Aspose.Words
 - C#
 - LaTeX
-title: ドキュメントをTxtとして保存 – C#でWordの数式をLaTeXにエクスポート
+title: 文書をTXTとして保存 – C#でWordの数式をLaTeXにエクスポート
 url: /ja/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/
 ---
 
@@ -24,144 +24,206 @@ url: /ja/net/programming-with-officemath/save-document-as-txt-export-word-math-t
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ドキュメントを Txt として保存 – C# で Word の数式を LaTeX にエクスポート
+# ドキュメントをTXTとして保存 – C#でWordの数式をLaTeXにエクスポート
 
-数式をLaTeXで完璧にレンダリングしたまま、ドキュメントを**txtファイルとして保存**する必要に迫られたことはありませんか？そんな経験はあなただけではありません。多くの開発者が、WordのOfficeMathオブジェクトがプレーンテキストとしてエクスポートされた後に消えてしまい、判読不能な記号の羅列になってしまうという問題に直面しています。
+高度な数式をそのまま残したまま、**save document as txt**したいことはありませんか？ あなただけではありません。Word の組み込み「プレーンテキストとして保存」は Office Math をすべて破棄し、読めない文字化けになってしまいます。 もし数式を保持しつつ、きれいな LaTeX に変換できたらどうでしょうか？
 
-朗報です！数行のC#コードで、Aspose.Wordsにすべての数式オブジェクトをきれいなLaTeXコードに変換した`.txt`ファイルを出力させることができます。このチュートリアルでは、具体的な手順を解説し、**`.docx`ファイルから数式をエクスポートする方法**を説明します。さらに、Asposeを使用していない場合でも、**docxファイルをLaTeXに変換する方法**についても触れます。
+このチュートリアルでは、Aspose.Words for .NET を使用して **Word を LaTeX 対応テキスト** に変換する正確な手順を解説します。 最終的に、すべての数式が正しい LaTeX マークアップとして表現された `.txt` ファイルが手に入ります。 論文や Markdown ファイルにそのまま貼り付けられます。 外部コンバータは不要、手動でコピー＆ペーストする必要もありません—C# の数行で完了します。
 
-このチュートリアルを終える頃には、**数式をLaTeXにエクスポート**する実行可能なコードスニペット、各設定が重要な理由の明確な説明、そしてよくある落とし穴を回避するためのヒントが手に入ります。
+## What You’ll Learn
 
-## 必要なもの
+- Aspose.Words で `.docx` ファイルを読み込む方法
+- `TxtSaveOptions` を構成して Office Math を LaTeX としてエクスポートする方法
+- 任意のエディタで開けるプレーンテキストファイルとして保存する手順
+- インライン数式とディスプレイ数式のエッジケース処理、複数ドキュメントを一括処理するための簡単なヒント
 
-- **.NET 6+**（コードは.NET Frameworkでも動作しますが、最新の環境を考慮して.NET 6をターゲットとします）
-- **Aspose.Words for .NET** NuGetパッケージ（無料トライアル版で十分です）
-- OfficeMathオブジェクトが少なくとも1つ含まれているWordファイル（`input.docx`）（Wordの数式エディタで入力した数式を想像してください）
-- お好みのIDE（Visual Studio、VS Code、Riderなど）
+### Prerequisites
 
-以上です。追加のライブラリや外部コンバータは不要です。早速始めましょう。
+- .NET 6.0 以降（.NET Framework 4.6+ でも動作します）
+- Aspose.Words for .NET NuGet パッケージ（`Install-Package Aspose.Words`）
+- 少なくとも 1 つの数式（Office Math オブジェクト）を含む Word ドキュメント
 
-![ドキュメントを txt として保存の例](image.png "LaTeX 数式が含まれる .txt ファイルを示すスクリーンショット – ドキュメントを txt として保存")
+---
 
-## ステップ1：ソースドキュメントの読み込みとTXT保存オプションの準備
+## Step 1: Install Aspose.Words and Set Up the Project
 
-まず、Wordファイルを開きます。次に、`TxtSaveOptions`インスタンスを作成し、Asposeに対して、検出されたOfficeMathオブジェクトをLaTeXとしてエクスポートするように指示します。これが**数式を正しくエクスポートする方法**の核心です。
+まず、ライブラリをプロジェクトに追加します。ソリューションフォルダーでターミナルを開き、次のコマンドを実行してください。
+
+```bash
+dotnet add package Aspose.Words
+```
+
+> **Pro tip:** Visual Studio の NuGet パッケージマネージャ UI でも同様に「Aspose.Words」を検索してインストールできます。
+
+次に新しいコンソールアプリを作成するか、既存プロジェクトにコードを貼り付けます。必要な `using` ディレクティブは以下の通りです。
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
+```
 
-class ExportMathToLatex
+これにより `Document` クラスと `TxtSaveOptions` 型がスコープに入ります。
+
+## Step 2: Load the Source Document
+
+Aspose.Words に数式が埋め込まれた Word ファイルの場所を指定します。`YOUR_DIRECTORY/input.docx` を実際のパスに置き換えてください。
+
+```csharp
+// Load the source .docx file
+Document doc = new Document(@"C:\MyDocs\input.docx");
+```
+
+> **Why this matters:** ドキュメントを読み込むことで、Aspose.Words は内部の Office Math オブジェクトへフルアクセスできるようになります。単純なテキストエクスポートでは取得できない情報です。
+
+## Step 3: Configure TxtSaveOptions for LaTeX Export
+
+`TxtSaveOptions` オブジェクトで魔法が起きます。`OfficeMathExportMode` を `LaTeX` に設定するだけで、すべての数式が LaTeX 形式に変換されます。
+
+```csharp
+// Configure save options to export Office Math as LaTeX
+TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    static void Main()
+    // Export all Office Math objects as LaTeX code
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // Optional: keep line breaks similar to the original layout
+    PreserveTableLayout = true
+};
+```
+
+> **What if you need MathML instead?** `OfficeMathExportMode` を `MathML` に変更してください。同じ API が複数の出力形式をサポートしています。
+
+## Step 4: Save the Document as Plain‑Text
+
+いよいよファイルを書き出します。生成される `Math.txt` には通常のテキストに加えて、各数式の LaTeX フラグメントが含まれます。
+
+```csharp
+// Save the document as a .txt file with LaTeX equations
+doc.Save(@"C:\MyDocs\Math.txt", txtOptions);
+Console.WriteLine("Document saved as txt with LaTeX equations.");
+```
+
+プログラムを実行すると、次のような内容のファイルが作成されます。
+
+```
+This is a simple paragraph.
+
+Here is an inline equation: $E = mc^2$
+
+And a displayed equation:
+\[
+\int_{0}^{\infty} e^{-x} \, dx = 1
+\]
+```
+
+インライン数式は `$…$` で囲まれ、ディスプレイ数式は `\[` と `\]` でラップされていることに注目してください。これは標準的な LaTeX の慣例で、Aspose.Words が自動的に行ってくれます。
+
+## Step 5: Verify the Output (Optional)
+
+LaTeX が正しく生成されているか確認したい場合は、`.txt` を `pdflatex` などの LaTeX コンパイラや Overleaf のようなオンラインレンダラに渡してみてください。エラーなくコンパイルでき、数式が Word と同じように表示されれば成功です。
+
+```bash
+pdflatex Math.txt
+```
+
+「Undefined control sequence」エラーが出た場合は、埋め込む先の LaTeX 文書のプリアンブルに必要なパッケージ（例: `amsmath`）が含まれているか確認してください。
+
+## Handling Common Variations
+
+### Converting Multiple Files in a Folder
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\MyDocs\", "*.docx");
+foreach (var file in files)
+{
+    Document d = new Document(file);
+    d.Save(Path.ChangeExtension(file, ".txt"), txtOptions);
+}
+Console.WriteLine("Batch conversion complete.");
+```
+
+### Dealing with Inline vs. Display Equations
+
+Aspose.Words は Word 内のレイアウトに基づいて自動的に数式タイプを判別します。特定のスタイルに強制したい場合は、出力後に後処理を行うことができます。
+
+```csharp
+string txt = File.ReadAllText(@"C:\MyDocs\Math.txt");
+txt = txt.Replace("$", "\\(").Replace("$", "\\)"); // forces inline math delimiters
+File.WriteAllText(@"C:\MyDocs\Math_fixed.txt", txt);
+```
+
+### Exporting to Other Formats
+
+LaTeX が目的でない場合は、エクスポートモードを切り替えるだけです。
+
+```csharp
+txtOptions.OfficeMathExportMode = OfficeMathExportMode.MathML; // for MathML
+```
+
+HTML に埋め込んで MathML を使用したい場合は、`HtmlSaveOptions` を利用してください。
+
+---
+
+## Full Working Example
+
+以下はそのまま実行可能な完全サンプルです。`.NET` コンソールプロジェクトの `Program.cs` にコピー＆ペーストしてください。
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+namespace WordToLatexTxt
+{
+    class Program
     {
-        // Step 1: Load the .docx that contains OfficeMath objects
-        Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
-
-        // Step 2: Configure TXT options – the key line for LaTeX export
-        TxtSaveOptions txtOptions = new TxtSaveOptions
+        static void Main(string[] args)
         {
-            // This tells Aspose to turn each equation into LaTeX syntax
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
+            // 1️⃣ Load the source document
+            Document doc = new Document(@"C:\MyDocs\input.docx");
 
-        // Step 3: Save as plain‑text; the math will be LaTeX now
-        doc.Save(@"YOUR_DIRECTORY\Math.txt", txtOptions);
-        Console.WriteLine("Document saved as txt with LaTeX equations.");
+            // 2️⃣ Set up save options to export Office Math as LaTeX
+            TxtSaveOptions saveOptions = new TxtSaveOptions
+            {
+                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                PreserveTableLayout = true
+            };
+
+            // 3️⃣ Save as plain‑text with LaTeX equations
+            string outputPath = @"C:\MyDocs\Math.txt";
+            doc.Save(outputPath, saveOptions);
+
+            Console.WriteLine($"✅ Saved document as txt at: {outputPath}");
+            Console.WriteLine("Open the file to see LaTeX‑formatted equations.");
+        }
     }
 }
 ```
 
-**なぜこれが重要なのか:** - `OfficeMathExportMode.LaTeX` は、OfficeMath の内部表現を LaTeX プロセッサが理解できる形式に変換するスイッチです。
+プログラムを実行（`dotnet run`）し、`Math.txt` を開くと、Word の内容が LaTeX 数式とともにそのまま表示されます。
 
-- このスイッチがない場合、エクスポートは単純な Unicode フォールバックに切り替わり、多くのエディタでは `∑` のように表示されたり、文字化けしたりします。
+---
 
-## ステップ 2: 出力の確認 – .txt ファイルの内容
+## Frequently Asked Questions
 
-プログラムを実行し、任意のテキストエディタ (メモ帳、VS Code、Sublime Text など) で `Math.txt` ファイルを開きます。以下のような内容が表示されるはずです。
+**Q: Does this work with older .doc files?**  
+A: Yes—Aspose.Words can open legacy `.doc` files, but complex equations may be stored as images. In that case the exporter falls back to a placeholder comment.
 
-```
-Here is a simple equation:
-\[
-E = mc^{2}
-\]
+**Q: What if an equation contains custom symbols?**  
+A: Aspose.Words maps most Office Math symbols to standard LaTeX commands. For truly custom symbols you might need to manually edit the generated LaTeX.
 
-And a more complex integral:
-\[
-\int_{0}^{\infty} e^{-x^{2}} \,dx = \frac{\sqrt{\pi}}{2}
-\]
-```
+**Q: Is the output UTF‑8 encoded?**  
+A: By default, `TxtSaveOptions` writes UTF‑8, which is safe for most languages and symbols.
 
-区切り文字「\[」と「\]」が見つかったら、**数式をLaTeXにエクスポートすることに成功しています**。これらの区切り文字は、表示形式の数式をLaTeXドキュメントに埋め込むための標準的な方法です。
+---
 
-### 簡単な確認
+## Conclusion
 
-LaTeXスニペットをOverleafやLaTeX-Liveなどのオンラインレンダラーにコピーしてください。エラーなくコンパイルされるはずです。「未定義の制御シーケンス」というメッセージが表示される場合は、Aspose.Wordsの最新バージョンを使用していることを確認してください。古いビルドでは、OfficeMathの最新機能が利用できない場合があります。
+You now know how to **save document as txt** while preserving every equation as clean LaTeX markup. This approach lets you **convert Word to LaTeX** without third‑party tools, and it scales from a single file to whole folders. Next, you might explore **convert word equations to LaTeX** for batch processing, or dive into **export word math latex** for HTML or Markdown pipelines.
 
-## ステップ3：別の方法 - TxtSaveOptionsを使用せずにDocxをLaTeXに変換する
-
-プレーンテキストのラッパーではなく、完全な`.tex`ファイルが必要な場合があります。`TxtSaveOptions`を使用する方法が最も簡単ですが、Asposeには専用の`LatexSaveOptions`クラスも用意されています。要約版はこちらです。
-
-```csharp
-using Aspose.Words.Saving;
-
-// ...
-
-LatexSaveOptions latexOptions = new LatexSaveOptions
-{
-    // Preserve the original document structure
-    ExportHeadersFooters = true,
-    // Optional: embed images as base64 strings
-    ExportImagesAsBase64 = true
-};
-
-doc.Save(@"YOUR_DIRECTORY\FullDocument.tex", latexOptions);
-```
-
-**使用すべき場面:** - セクション、見出し、画像を含む完全なLaTeXソースファイルが必要な場合。
-
-- 後続のワークフローで、コピー＆ペーストではなくLaTeXコンパイラ（pdflatex、xelatexなど）を使用する場合。
-
-どちらの方法も**docxをLaTeXに変換**しますが、テキストと数式のみが必要な場合は`TxtSaveOptions`メソッドが最適です。Markdownパイプラインやシンプルなスクリプトベースの処理に組み込むのにうってつけです。
-
-## よくある落とし穴とプロのヒント
-
-| 落とし穴 | 原因 | 解決策 |
-
-|---------|----------------|-----|
-
-| **LaTeX区切り文字が不足している** | `LaTeX`ではなく`OfficeMathExportMode.Text`を使用している。 | `OfficeMathExportMode.LaTeX`が設定されていることを確認してください。 |
-
-| **数式がUnicode記号として表示される** | 以前のAspose.Wordsバージョン（< 22.1）ではLaTeXエクスポートがサポートされていませんでした。| NuGetパッケージを最新の安定版に更新してください。|
-
-| **ファイルパスのエラー** | バックスラッシュをエスケープせずにパスをハードコーディングしています。| `@"C:\path\file.docx"` のように文字列をそのまま使用するか、`Path.Combine` を使用してください。|
-
-| **大きなドキュメントの処理速度が低下する** | 数式が多数含まれる大きなドキュメントを保存すると、メモリを大量に消費する可能性があります。| 保存する前に `doc.UpdatePageLayout()` を呼び出すか、ドキュメントを分割してください。|
-
-**ヒント:** 複数のファイルをバッチ処理する場合は、保存ロジックを `try…catch` ブロックで囲み、`Aspose.Words.FileFormatException` をログに記録してください。そうすることで、形式が正しくない数式が1つあっても、処理全体が中断されることはありません。
-
-## エッジケース - ドキュメントにOfficeMathが含まれていない場合はどうすればよいですか？
-
-エクスポートツールは通常のテキストをそのまま出力します。LaTeXの区切り文字は追加されませんが、それで問題ありません。どうしてもLaTeXラッパーが必要な場合は、出力全体を`\[` `\]`で囲むように手動で追加してください。
-
-```csharp
-string content = File.ReadAllText(@"YOUR_DIRECTORY\Math.txt");
-File.WriteAllText(@"YOUR_DIRECTORY\MathWrapped.txt", $"\\[\n{content}\n\\]");
-```
-
-## まとめ
-
-OfficeMathオブジェクトをすべてクリーンなLaTeXに変換しながらドキュメントをtxtファイルとして保存する方法、`LatexSaveOptions`を使用した代替の`docxからLaTeXへの変換`の方法、そして実際のプロジェクトで数式をLaTeXにエクスポートするための実践的なヒントについて説明しました。
-
-重要なポイントは、`OfficeMathExportMode`を`LaTeX`に設定し、Asposeに処理を任せることです。生成された`.txt`ファイルは、Markdownジェネレーター、静的サイトパイプライン、カスタムパーサーなど、あらゆるツールに渡すことができます。
-
-### 次のステップ
-
-- このエクスポートをMarkdownジェネレーターと組み合わせて、LaTeXを直接埋め込んだ`.md`ファイルを生成してみましょう。
-- 図や表が必要な場合は、ドキュメント全体を変換するために`LatexSaveOptions`を検討してみてください。
-予算が限られている場合は、無料の**Open XML SDK**を検討してみてください。多少の手作業は必要ですが、OfficeMath XMLを抽出してカスタムマッパーでLaTeXに変換できます。
-特定の数式や別のファイル形式について質問がある場合は、コメントを残してください。一緒に解決策を探しましょう。コーディングを楽しんでください。そして、LaTeXが常に一発でコンパイルされますように！
+Feel free to experiment—swap `OfficeMathExportMode` for MathML, tweak line‑break handling, or integrate this snippet into a larger document‑generation workflow. Happy coding, and may your equations always render perfectly!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

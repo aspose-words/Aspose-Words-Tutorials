@@ -68,13 +68,13 @@ Aspose.Wordsは、低レベルのバイト操作を意識することなく、�
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Gradleをご利用の場合は、以下のコードスニペットを使用してください。
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## ライセンスの取得
 Aspose.Wordsを最大限に活用するには、ライセンスファイルが必要です。
@@ -86,7 +86,10 @@ Aspose.Wordsを最大限に活用するには、ライセンスファイルが�
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Java で制御文字を挿入する方法
+`DocumentBuilder` クラスは、プログラムで文書コンテンツを構築・変更するためのメソッドを提供します。文書を読み込み、`DocumentBuilder` を作成し、適切な `write` または `insert` メソッドを呼び出してスペース、タブ、改行、ページ区切りを追加します。この単一行パターン（`builder.write(ControlChar.TAB)`）はほとんどのレイアウト要件をカバーし、複雑な構造には複数の呼び出しをチェーンできます。大きな文書では、バッチ挿入により処理オーバーヘッドが削減されます。`ControlChar` はレイアウト制御に使用される非印刷文字の列挙型です。
 
 ## 実装ガイド
 実装は、改行処理と制御文字の挿入という2つの主要機能に分けて説明します。

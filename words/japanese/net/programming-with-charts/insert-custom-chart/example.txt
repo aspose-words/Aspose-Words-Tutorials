@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word ドキュメントを作成し、縦棒グラフ（column chart）を挿入し、既定のデータをクリアして、2 次元配列からカスタムデータを設定する方法を示します（各行をシリーズ、各列をカテゴリにマッピング）。その後、タイトルを追加してファイルを保存します。
+//ExStepSummary:0: 新しい Document を作成し、それに添付された DocumentBuilder を作成します。
+//ExStepSummary:1: ドキュメントにサイズ 432x252 ポイントの column chart を挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: チャートから自動生成されたサンプルシリーズを削除します。
+//ExStepSummary:3: X 軸のカテゴリラベルと各シリーズの凡例エントリを定義します。
+//ExStepSummary:4: 各行が 1 つのシリーズの値を保持する 2 次元配列を作成します。
+//ExStepSummary:5: 各シリーズを反復処理し、マトリックスからその行の値を抽出し、対応する凡例エントリと X 軸ラベルを使用してシリーズをチャートに追加します。
+//ExStepSummary:6: チャートのタイトルテキストを「Half‑Yearly Revenue」に設定し、表示させます。
+//ExStepSummary:7: カスタムチャートを含むドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

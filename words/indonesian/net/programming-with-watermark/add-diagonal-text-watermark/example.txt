@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word baru, mengonfigurasi watermark teks khusus dengan pengaturan font tertentu, menerapkan watermark ke dokumen, dan menyimpan hasilnya sebagai file .docx menggunakan API Document.Watermark.SetText.
+//ExStepSummary:0: Buat sebuah instance dokumen Word kosong baru dengan nama `document`.
+//ExStepSummary:1: Konfigurasikan `watermarkSettings` dengan font Arial 48‑pt berwarna abu-abu, tata letak diagonal, dan render opak.
+//ExStepSummary:2: Terapkan watermark teks "Private" ke `document` menggunakan pengaturan yang telah didefinisikan sebelumnya.
+//ExStepSummary:3: Tentukan jalur file tempat dokumen berwatermark akan disimpan.
+//ExStepSummary:4: Simpan `document` yang telah dimodifikasi ke jalur yang ditentukan sebagai file .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

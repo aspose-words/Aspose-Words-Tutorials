@@ -46,19 +46,22 @@ Att lägga till en kommentar i Java innebär att skapa en `Comment`-nod, fästa 
 
 ### Lägga till Aspose.Words‑beroendet
 
-**Maven:**
+### Installera Aspose.Words för Java
+Aspose.Words levereras som en enda JAR. Lägg till beroendet som matchar ditt byggverktyg.
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Licensanskaffning
 Aspose.Words är en kommersiell produkt. Du kan börja med en gratis 30‑dagars provperiod eller begära en tillfällig licens för utvärdering. Besök [purchase page](https://purchase.aspose.com/buy) för detaljer.
@@ -73,20 +76,20 @@ Aspose.Words är en kommersiell produkt. Du kan börja med en gratis 30‑dagars
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Steg 2:** Skapa och lägg till en kommentar  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Steg 3:** Lägg till ett svar på kommentaren  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Funktion 2: Skriv ut alla kommentarer
 **Översikt** – Hämtar varje toppnivå‑kommentar och dess svar för granskning.
@@ -95,7 +98,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Steg 1:** Ladda dokumentet  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Steg 2:** Hämta och skriv ut kommentarer  
 ```java
@@ -109,7 +112,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Funktion 3: Hur man tar bort svar på kommentarer i Java
 **Översikt** – Visar **how to delete comment replies** för att hålla dokumentet prydligt.
@@ -123,7 +126,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Steg 2:** Ta bort svar  
 ```java
@@ -142,7 +145,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Steg 2:** Markera kommentaren som klar  
 ```java
@@ -150,7 +153,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Funktion 5: Hämta UTC‑datum och tid från kommentar
 **Översikt** – Hämtar den exakta UTC‑tidsstämpeln när en kommentar lades till, idealiskt för revisionsloggar.
@@ -164,7 +167,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Steg 2:** Spara och hämta UTC‑datumet  
 ```java
@@ -172,7 +175,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Praktiska tillämpningar
 - **Samarbetsredigering:** Team kan lägga till och svara på kommentarer direkt i genererade rapporter.  

@@ -41,6 +41,9 @@ Výukový program pro Aspose.Words v Javě
 ### [Přejmenování polí pro sloučení slov pomocí Aspose.Words pro Javu](./rename-word-merge-fields-aspose-words-java/)
 Výukový program pro Aspose.Words v Javě
 
+### [Vytvořte šablonu hromadné korespondence a převod DOCX do PDF v C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Naučte se vytvořit šablonu hromadné korespondence a převést soubor DOCX do PDF pomocí Aspose.Words v C#.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

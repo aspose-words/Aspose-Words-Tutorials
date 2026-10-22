@@ -60,12 +60,12 @@ weight: 1
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### متطلبات إعداد البيئة
 - تثبيت مجموعة تطوير جافا (JDK).
@@ -90,6 +90,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+مع جاهزية المكتبة، يمكنك البدء في استخدام الميزات الأساسية.
+
+## كيفية تحليل الصفحات باستخدام LayoutCollector؟
+
+`LayoutCollector` هو فئة تقوم بربط كل عقدة في `Document` بأرقام الصفحات البداية والنهاية، مما يتيح تحليل ترقيم الصفحات بدقة. حمّل مستندك، أرفق `LayoutCollector`، واستعلم عن معلومات الصفحات – العملية بأكملها تتطلب بضع أسطر من الشيفرة وتوفر نتائج موثوقة حتى للملفات الكبيرة.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 مع جاهزية المكتبة، يمكننا الغوص في الميزات الأساسية.
@@ -108,7 +118,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. ملء المستند**
 هنا، سنضيف محتوى يمتد عبر عدة صفحات:
@@ -119,14 +129,27 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
-**3. تحديث التخطيط واسترجاع المقاييس**
+### الخطوة 3: تحديث التخطيط واسترجاع المقاييس
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Explanation:**  
+- `DocumentBuilder` يدرج المحتوى.  
+- `updatePageLayout()` يجبر مرور تخطيط لضمان دقة أرقام الصفحات.  
+- `getStartPage` / `getEndPage` تُرجع فهارس الصفحة الأولى والأخيرة لأي عقدة.
+
+## كيفية تعداد عناصر التخطيط باستخدام LayoutEnumerator؟
+
+`LayoutEnumerator` هو فئة تتجول في شجرة التخطيط البصري للمستند، وتكشف عن نوع كل عنصر، موقعه، وحجمه — مثالي للتصيير المخصص أو التحليلات. الـ `LayoutEnumerator` يتجول في شجرة التخطيط البصري، ويكشف عن نوع كل عنصر، موقعه، وحجمه — مثالي للتصيير المخصص أو التحليلات.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### شرح
@@ -145,7 +168,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. التجوال للأمام وللخلف**
 ```java
@@ -156,6 +179,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Explanation:**  
+- `moveParent()` يصعد إلى أعلى الشجرة.  
+- التجول المتكرر يمنحك وصولًا كاملاً إلى كل عقدة تخطيط.
+
+## كيفية تنفيذ ردود نداء تخطيط الصفحة؟
+
+`IPageLayoutCallback` هو واجهة لتلقي أحداث التخطيط أثناء معالجة المستند، مما يتيح لك الاستجابة لتغييرات التخطيط مثل إعادة تدفق الأقسام أو إكمال التصيير. تنفيذ `IPageLayoutCallback` يسمح لك بالاستجابة لأحداث التخطيط مثل إعادة تدفق الأقسام أو إكمال التصيير، مما يمنحك تحكمًا ديناميكيًا في خط أنابيب إنشاء المستند.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### شرح
@@ -174,7 +209,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. تنفيذ طرق رد النداء**
 ```java
@@ -196,6 +231,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Explanation:**  
+- `notify()` يتلقى معرف الحدث.  
+- `ImageSaveOptions` يمكن تخصيصه داخل رد النداء لتصيير الصور أثناء التنفيذ.
+
+## كيفية إعادة تشغيل ترقيم الصفحات في الأقسام المتصلة؟
+
+`ContinuousSectionRestart` هو تعداد يحدد ما إذا كان ترقيم الصفحات يعاد في الأقسام المتصلة، مما يمنحك تحكمًا دقيقًا في أنظمة الترقيم عبر المستند. عندما يحتوي المستند على أقسام متعددة تتدفق بشكل مستمر، يمكنك التحكم فيما إذا كان ترقيم الصفحات يعاد تلقائيًا.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### شرح
@@ -213,13 +260,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. تحميل المستند**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. ضبط خيارات ترقيم الصفحات**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### شرح
 - **`setContinuousSectionPageNumberingRestart()`** يحدد كيفية تعامل Aspose.Words مع الترقيم في الأقسام المتصلة.
