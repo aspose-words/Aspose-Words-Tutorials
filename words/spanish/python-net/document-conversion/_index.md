@@ -287,6 +287,9 @@ Aprenda a generar PDFs accesibles a partir de archivos DOCX usando Aspose.Words 
 ### [Cómo guardar docx como txt con ecuaciones LaTeX usando Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Aprenda a guardar archivos DOCX como TXT conservando ecuaciones LaTeX con Aspose.Words para Python.
 
+### [Recuperar docx corrupto y convertir a markdown con Aspose](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+Aprenda a recuperar archivos DOCX dañados y convertirlos a Markdown usando Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

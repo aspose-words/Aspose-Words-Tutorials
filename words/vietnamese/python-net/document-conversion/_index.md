@@ -295,6 +295,9 @@ Hướng dẫn chuyển đổi tệp docx sang PDF có hỗ trợ tính năng tr
 ### [Cách lưu docx thành txt với các phương trình LaTeX bằng Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại các công thức LaTeX bằng Aspose.Words cho Python.
 
+### [Khôi phục tệp docx bị hỏng và chuyển sang markdown với Aspose](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung sang định dạng Markdown bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

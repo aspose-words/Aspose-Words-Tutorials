@@ -282,6 +282,8 @@ Scopri come trasformare file DOCX in file di testo TXT usando Aspose.Words per P
 
 ### [Come salvare docx come txt con equazioni LaTeX usando Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Guida passo passo per esportare documenti DOCX in file di testo mantenendo le equazioni LaTeX con Aspose.Words per Python.
+### [Recupera docx corrotti e converti in markdown con Aspose](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+Impara a recuperare file DOCX danneggiati e convertirli in Markdown con Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

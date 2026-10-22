@@ -213,6 +213,8 @@ Naučte se převést soubory DOCX na PDF s podporou přístupnosti pomocí Aspos
 Naučte se převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words v Pythonu.
 ### [Jak uložit docx jako txt s LaTeX rovnicemi pomocí Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Naučte se uložit soubor DOCX jako TXT a zachovat LaTeX rovnice pomocí Aspose.Words pro Python.
+### [Obnova poškozeného DOCX a převod na Markdown s Aspose](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+Naučte se obnovit poškozené soubory DOCX a převést je do Markdownu pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

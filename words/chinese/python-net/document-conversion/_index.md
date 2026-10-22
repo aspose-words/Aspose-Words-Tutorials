@@ -278,6 +278,8 @@
 
 ### [如何使用 Aspose.Words 将 docx 保存为带 LaTeX 方程的 txt](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 学习使用 Aspose.Words 将包含 LaTeX 方程的 docx 文档转换并保存为 txt 文件。
+### [使用 Aspose 恢复损坏的 DOCX 并转换为 Markdown](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+学习如何使用 Aspose.Words for Python 恢复损坏的 DOCX 并将其转换为 Markdown。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

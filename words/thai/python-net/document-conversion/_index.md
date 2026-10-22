@@ -292,6 +292,9 @@
 ### [วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words อย่างละเอียด
 
+### [กู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose](./recover-corrupted-docx-and-convert-to-markdown-with-aspose/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
