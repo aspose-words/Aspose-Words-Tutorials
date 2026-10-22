@@ -87,6 +87,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Wie man die Bin-Anzahl eines Histogramms festlegt und Datenbeschriftungen zu einem Word-Diagramm in C# hinzufügt](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Erfahren Sie, wie Sie die Bin-Anzahl eines Histogramms festlegen und Datenbeschriftungen in einem Word-Diagramm mit C# hinzufügen. |
 | [Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Erfahren Sie, wie Sie Diagrammbeschriftungen in Word‑Dokumenten programmgesteuert mit C# anpassen. |
 | [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen. |
+| [Radar-Diagramm erstellen und in Word einfügen mit C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm erstellen und in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

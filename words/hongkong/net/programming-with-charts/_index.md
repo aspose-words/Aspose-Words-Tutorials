@@ -89,6 +89,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [如何在 C# 中建立具有自訂餅圖的 Word 文件](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) |透過本步驟指南學習在 C# 使用 Aspose.Words for .NET 建立自訂餅圖的 Word 文件。 |
 | [在 Word 文件中建立雷達圖 – 完整 C# 教學](./create-radar-chart-in-a-word-document-complete-c-guide/) |透過完整的 C# 教學在 Word 文件中建立雷達圖，展示多維資料。 |
 | [使用 Aspose.Words 建立餅圖 Word 文件](./create-pie-chart-word-document-with-aspose-words/) |  |
+| [如何使用 C# 建立雷達圖並將圖表添加至 Word](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) |透過本指南了解如何使用 Aspose.Words for .NET 以 C# 建立雷達圖並將其插入 Word 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

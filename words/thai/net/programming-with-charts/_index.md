@@ -86,6 +86,7 @@
 | [วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่กำหนดเองใน C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่ปรับแต่งได้โดยใช้ Aspose.Words สำหรับ .NET ด้วย C# -
 | [สร้างแผนภูมเรดาร์ในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./create-radar-chart-in-a-word-document-complete-c-guide/) | เรียนรู้วิธีสร้างและปรับแต่งแผนภูมเรดาร์ใน Word ด้วย C# อย่างละเอียดในคู่มือขั้นตอนนี้ -
 
+| [วิธีสร้างแผนภูมิเรดาร์และเพิ่มแผนภูมิลงใน Word ด้วย C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | เรียนรู้วิธีสร้างแผนภูมิเรดาร์และแทรกลงในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วย C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

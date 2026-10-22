@@ -30,6 +30,8 @@
 | [إنشاء سطر توقيع جديد وتعيين معرف الموفر](./create-new-signature-line-and-set-provider-id/) | تعرّف على كيفية إنشاء سطر توقيع جديد وتعيين مُعرّف المُزوّد في مستندات Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة. |
 | [الوصول والتحقق من التوقيع في مستند Word](./access-and-verify-signature/) | تمكّن من الوصول إلى التوقيعات الرقمية والتحقق منها في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل الشامل خطوة بخطوة. تأكّد من صحة المستندات بسهولة. |
 | [إضافة توقيع رقمي إلى PDF باستخدام C# و Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | تعلّم كيفية إضافة توقيع رقمي إلى ملفات PDF باستخدام Aspose.Words في C# من خلال هذا الدليل المفصل خطوة بخطوة. |
+| [كيفية توقيع مستند Word باستخدام شهادة مع Aspose.Words في C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | تعلّم كيفية توقيع مستند Word باستخدام شهادة رقمية في C# عبر Aspose.Words. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

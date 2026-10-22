@@ -39,6 +39,7 @@
 
 - [วิธีเพิ่มปุ่มคำสั่งโดยโปรแกรมในเอกสาร Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | เรียนรู้วิธีสร้างปุ่มคำสั่งในเอกสาร Word ด้วยโค้ดโดยใช้ Aspose.Words for .NET
 - [สร้างเอกสาร Word ด้วยโปรแกรมและเพิ่มปุ่ม ActiveX](./create-word-document-programmatically-and-add-activex-button/) | เรียนรู้วิธีสร้างเอกสาร Word อย่างอัตโนมัติและเพิ่มปุ่ม ActiveX ด้วย Aspose.Words for .NET |
+- [วิธีสร้างเอกสาร Word ด้วยปุ่มคำสั่ง ActiveX ใน C#](./how-to-create-word-document-with-an-activex-command-button-i/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีปุ่มคำสั่ง ActiveX ด้วย C# โดยใช้ Aspose.Words for .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

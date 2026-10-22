@@ -35,6 +35,7 @@ Dessa handledningar ger dig en praktisk steg-för-steg-metod för ordbehandling 
 | [Lägg till kommandoknapp i Word-dokument med Aspose.Words – Komplett guide](./add-command-button-to-word-document-with-aspose-words-comple/) | Lär dig hur du lägger till en kommandoknapp i ett Word-dokument med Aspose.Words för .NET i en steg-för-steg-guide. |
 | [Infoga ActiveX-kontroll i Word med Aspose.Words - steg-för-steg-guide](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Lär dig hur du lägger till en ActiveX‑kontroll i ett Word‑dokument med Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Hur du lägger till en kommandoknapp programatiskt i ett Word-dokument](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Lär dig hur du programatiskt lägger till en kommandoknapp i ett Word-dokument med Aspose.Words för .NET. |
+| [Hur man skapar Word-dokument med en ActiveX-kommandoknapp i C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Lär dig hur du skapar ett Word-dokument med en ActiveX-kommandoknapp i C#. |
 
 | [Hur man lägger till en ActiveX-knapp i ett Word-dokument med Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Lär dig hur du infogar en ActiveX-knapp i ett Word-dokument med Aspose.Words för .NET i en steg-för-steg-guide. |
 | [Skapa ActiveX-kommandoknapp i Word med C#](./how-to-create-activex-command-button-in-word-using-c/) | Lär dig hur du skapar en ActiveX-kommandoknapp i ett Word-dokument med C# i Aspose.Words för .NET. |

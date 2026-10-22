@@ -44,6 +44,8 @@ Ordbehandling med Markdown ger en omfattande resurs för att lära sig arbeta me
 | [Skapa Word från Markdown med Aspose.Words – Fullständig guide](./create-word-from-markdown-with-aspose-words-full-guide/) | Lär dig hur du skapar ett Word-dokument från Markdown med Aspose.Words i en komplett guide. |
 | [Spara dokument som docx från Markdown i C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Lär dig hur du konverterar Markdown till ett DOCX-dokument med Aspose.Words för .NET i C#. |
 | [Hur man sparar markdown som docx med Aspose.Words i C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Lär dig hur du sparar ett Markdown-dokument som DOCX med Aspose.Words för .NET i C#. |
+| [Spara dokument som docx från Markdown med C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Lär dig hur du konverterar ett Markdown-dokument till DOCX med Aspose.Words för .NET och C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

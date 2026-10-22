@@ -43,6 +43,7 @@ Az oktatóanyagokban található kódminták segítenek megérteni az SDT vezér
 | [Hogyan mentse el a Word-dokumentumot SDT-vel az Aspose.Words használatával C#-ban](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Tanulja meg, hogyan menthet Word-dokumentumot SDT-vel az Aspose.Words C#-ban. |
 | [Hogyan adjon hozzá tartalomvezérlő szót egy Word-dokumentumba az Aspose.Words használatával](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Ismerje meg, hogyan hozhat létre tartalomvezérlőket Word-dokumentumban az Aspose.Words segítségével. |
 | [Új Word dokumentum létrehozása és tartalomvezérlő beszúrása C#-ban](./create-new-word-document-and-insert-content-control-in-c/) | Ismerje meg, hogyan hozhat létre új Word dokumentumot, és szúrhat be tartalomvezérlőt C#-ban az Aspose.Words for .NET segítségével. |
+| [Word-dokumentum létrehozása tartalomvezérlőkkel C#-ban](./how-to-create-word-document-with-content-controls-in-c/) | Tanulja meg, hogyan hozhat létre Word-dokumentumot tartalomvezérlőkkel C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

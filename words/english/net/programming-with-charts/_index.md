@@ -102,6 +102,7 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Aspose.Words radial chart example: enable graduations in C#](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Learn how to enable graduations on a radial chart using Aspose.Words for .NET in C#. |
 | [How to format chart in Word with C# and custom number formats](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Learn how to apply custom number formats to charts in Word using Aspose.Words for .NET and C#. |
 | [Create Radar Chart In A Word Document – Complete C# Guide](./create-radar-chart-in-a-word-document-complete-c-guide/) | Learn how to create a radar chart in a Word document using Aspose.Words for .NET with this complete C# guide. |
+| [How to create radar chart and add chart to Word with C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Learn how to create a radar chart and insert it into a Word document using Aspose.Words for .NET with C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

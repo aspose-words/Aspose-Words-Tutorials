@@ -30,6 +30,8 @@ Aspose.Words for .NET предоставляет комплексные руко
 | [Создать новую строку подписи и задать идентификатор поставщика](./create-new-signature-line-and-set-provider-id/) | Узнайте, как создать новую строку подписи и задать идентификатор поставщика в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство. |
 | [Доступ и проверка подписи в документе Word](./access-and-verify-signature/) | Получайте доступ и проверяйте цифровые подписи в документах Word с помощью Aspose.Words для .NET с этим всеобъемлющим пошаговым руководством. Обеспечьте подлинность документа без усилий. |
 | [Добавить цифровую подпись в PDF на C# с помощью Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Узнайте, как добавить цифровую подпись в PDF с помощью Aspose.Words для .NET на C# в этом пошаговом руководстве. |
+| [Подписание Word с сертификатом с помощью Aspose.Words в C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Узнайте, как подписать документ Word сертификатом, используя Aspose.Words в C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

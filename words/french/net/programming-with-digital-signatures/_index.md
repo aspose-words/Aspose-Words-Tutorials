@@ -31,6 +31,7 @@ Grâce à ces tutoriels, vous maîtriserez les fonctionnalités de signature num
 | [Accéder et vérifier la signature dans un document Word](./access-and-verify-signature/) Accédez et vérifiez les signatures numériques de vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. Assurez l'authenticité de vos documents en toute simplicité. |
 | [Ajouter une signature numérique à un PDF en C# avec Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Apprenez à ajouter une signature numérique à un PDF en C# avec Aspose.Words grâce à ce guide étape par étape. |
 
+| [Comment signer un document Word avec un certificat en utilisant Aspose.Words en C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Apprenez à signer un document Word avec un certificat en C# grâce à Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

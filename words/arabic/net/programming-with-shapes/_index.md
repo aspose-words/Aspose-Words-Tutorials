@@ -83,6 +83,8 @@
 | [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية إنشاء مستند Word فارغ وتجمّع الأشكال في C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words وC#. |
 | [إنشاء مستند Word برمجيًا وتجمّع الأشكال في C#](./create-word-document-programmatically-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word برمجيًا وإضافة مجموعة من الأشكال باستخدام Aspose.Words for .NET وC#. |
+| [كيفية إنشاء شكل مستطيل وتجمّع الأشكال في Word باستخدام Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | تعلم كيفية إنشاء شكل مستطيل وتجمّع الأشكال في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
+| [إنشاء مستند Word فارغ وإضافة شكل مستطيل](./create-a-blank-word-document-and-add-a-rectangle-shape/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل مستطيل باستخدام Aspose.Words للـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

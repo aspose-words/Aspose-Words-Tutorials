@@ -91,6 +91,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment formater un graphique dans Word avec C# et des formats numériques personnalisés](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Apprenez à appliquer des formats numériques personnalisés aux graphiques Word avec Aspose.Words pour .NET en C#. |
 | [Créer un graphique radar dans un document Word – guide complet C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Apprenez à créer un graphique radar dans Word avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
 
+| [Comment créer un graphique radar et l'ajouter à Word avec C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Apprenez à créer un graphique radar et l'insérer dans un document Word avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

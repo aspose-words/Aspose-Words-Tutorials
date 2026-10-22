@@ -82,6 +82,8 @@
 | [Как создать скрытую форму docx с Aspose.Words на C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Узнайте, как создать скрытую форму в документе docx с помощью Aspose.Words на C#. |
 | [Создать документ Word программно и сгруппировать фигуры в C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Узнайте, как программно создать документ Word и объединить фигуры в одну группу с помощью Aspose.Words для .NET. |
 | [Вставить прямоугольную форму в Word с C# – полное руководство](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Узнайте, как вставить прямоугольную форму в документ Word с помощью C# в этом полном пошаговом руководстве. |
+| [Создать пустой документ Word с фигурой прямоугольника](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с помощью Aspose.Words для .NET. |
+| [Как создать прямоугольную форму и группировать фигуры в Word с Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Узнайте, как создавать прямоугольные формы и объединять их в группы в документах Word с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

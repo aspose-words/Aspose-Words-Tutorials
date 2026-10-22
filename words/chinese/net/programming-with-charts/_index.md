@@ -90,6 +90,7 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [如何使用 C# 在 Word 文档中创建柱形图并格式化标签](./how-to-create-word-document-c-with-a-column-chart-and-format/) 学习使用 Aspose.Words for .NET 在 Word 文档中插入柱形图并自定义标签格式的步骤。|
 | [如何使用 C# 创建带自定义饼图的 Word 文档](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) 学习如何在 Aspose.Words for .NET 中使用 C# 创建并自定义饼图，提升文档的可视化效果。|
 | [在 Word 文档中创建雷达图 – 完整 C# 指南](./create-radar-chart-in-a-word-document-complete-c-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建雷达图，完整的 C# 示例指南。|
+| [如何使用 C# 创建雷达图并将图表添加到 Word](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建雷达图并将其添加到文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

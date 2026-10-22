@@ -67,7 +67,7 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Formato de número para el eje de un gráfico](./number-format-for-axis/) Aprenda a formatear los números de los ejes de un gráfico con Aspose.Words para .NET con una guía paso a paso. Mejore la legibilidad y el profesionalismo de sus documentos sin esfuerzo.
 | [Guardar documento modificado con porciones de gráfico de pastel explotadas en C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) Aprenda a guardar un documento Word con porciones de gráfico de pastel explotadas usando Aspose.Words para .NET en C#. |
 | [Límites del eje](./bounds-of-axis/) | Aprenda a establecer los límites de un eje en un gráfico utilizando Aspose.Words para .NET controlando el rango de valores que se muestran en el eje. |
-| [Unidad de intervalo entre etiquetas en el eje de un gráfico](./interval-unit-between-labels-on-axis/) | Aprenda a establecer la unidad de intervalo entre etiquetas en el eje de un gráfico usando Aspose.Words para .NET.
+| [Unidad de intervalo entre etiquetas en el eje de un gráfico](./interval-unit-between-labels-on-axis/) | Aprenda a establecer la unidad de intervalo entre etiquetas en el eje de un gráfico usando Aspose.Words para .NET. |
 | [Ocultar el eje del gráfico en un documento de Word](./hide-chart-axis/) Aprenda a ocultar el eje del gráfico en un documento de Word usando Aspose.Words para .NET con nuestro tutorial detallado paso a paso. |
 | [Marcar la alineación de etiquetas de varias líneas en un gráfico](./tick-multi-line-label-alignment/) Aprenda a marcar la alineación de etiquetas multilínea en un gráfico usando Aspose.Words para .NET con nuestra guía detallada paso a paso. Ideal para desarrolladores de todos los niveles.
 | [Personalizar la etiqueta de datos del gráfico](./chart-data-label/) Aprenda a personalizar las etiquetas de datos de gráficos con Aspose.Words para .NET con una guía paso a paso. Ideal para desarrolladores .NET.
@@ -89,6 +89,7 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Cómo formatear un gráfico en Word con C# y formatos de número personalizados](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) Aprenda a aplicar formatos de número personalizados a los gráficos en documentos Word usando Aspose.Words para .NET y C#. 
 | [Crear un gráfico de radar en un documento de Word – guía completa en C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Guía completa paso a paso en C# para crear gráficos de radar en documentos de Word con Aspose.Words. |
 | [Crear gráfico de pastel en documento Word con Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Aprenda a crear un gráfico de pastel en un documento de Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Crear un gráfico de radar y añadirlo a Word con C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) Aprenda a crear un gráfico de radar y añadirlo a un documento de Word usando Aspose.Words para .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

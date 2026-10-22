@@ -41,6 +41,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Cách thêm nút lệnh vào tài liệu Word bằng lập trình](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Hướng dẫn chèn nút lệnh vào tài liệu Word bằng mã, sử dụng Aspose.Words cho .NET. |
 
 | [Cách chèn nút lệnh OLE vào tài liệu Word bằng C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Hướng dẫn chi tiết cách chèn nút lệnh OLE vào tài liệu Word bằng C# với Aspose.Words. |
+| [Cách tạo tài liệu Word với nút lệnh ActiveX trong C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Hướng dẫn tạo tài liệu Word có nút lệnh ActiveX bằng C# sử dụng Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

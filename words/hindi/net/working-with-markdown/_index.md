@@ -43,9 +43,9 @@
 | [C# में Aspose.Words के साथ मार्कडाउन को docx के रूप में सहेजना](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | C# में Aspose.Words का उपयोग करके मार्कडाउन को DOCX फ़ाइल में बदलने का तरीका सीखें। |
 | [जोर](./emphases/) | .NET के लिए Aspose.Words का उपयोग करके Markdown में जोरदार टेक्स्ट बनाने का तरीका जानें। यह गाइड चरण-दर-चरण निर्देशों के साथ बोल्ड, इटैलिक और संयुक्त शैलियों को कवर करती है। |
 | [चेतावनी स्रोत का उपयोग करें](./use-warning-source/) | Markdown चेतावनियों को संभालने के लिए WarningSource क्लास का उपयोग करने पर इस चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words को मास्टर करें। C# डेवलपर्स के लिए बिल्कुल सही। |
-
 | [Aspose.Words के साथ मार्कडाउन से Word बनाएं – पूर्ण गाइड](./create-word-from-markdown-with-aspose-words-full-guide/) | Aspose.Words का उपयोग करके मार्कडाउन को Word दस्तावेज़ में बदलने की पूरी प्रक्रिया सीखें। |
 
+| [Markdown से C# का उपयोग करके दस्तावेज़ को docx के रूप में सहेजें](./how-to-save-document-as-docx-from-markdown-using-c/) | C# में Aspose.Words का उपयोग करके Markdown से docx फ़ाइल में दस्तावेज़ सहेजने का चरण-दर-चरण मार्गदर्शक। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

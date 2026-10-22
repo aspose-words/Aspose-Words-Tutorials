@@ -89,6 +89,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [C# ile özelleştirilmiş pasta grafiği içeren Word belgesi oluşturma](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# kullanarak özelleştirilmiş bir pasta grafiği ekleyerek Word belgesi oluşturmayı adım adım öğrenin. |
 | [Aspose.Words radial grafik örneği: C#'da derecelendirmeleri etkinleştirme](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words for .NET kullanarak radial grafiklerde derecelendirmeleri nasıl etkinleştireceğinizi öğrenin. |
 | [Aspose.Words ile Word belgesine pasta grafiği oluşturma](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine pasta grafiği eklemeyi öğrenin. |
+| [Radar Grafiği Oluşturma ve Word'e Grafik Ekleme C# ile](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aspose.Words for .NET kullanarak C# ile radar grafiği oluşturup Word belgesine eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

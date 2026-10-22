@@ -44,6 +44,7 @@ Les exemples de code fournis dans les tutoriels vous aideront à comprendre les 
 | [Comment enregistrer un document Word avec SDT en utilisant Aspose.Words en C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) |  |
 | [Comment ajouter un contrôle de contenu Word dans un document Word à l'aide d'Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Apprenez à insérer un contrôle de contenu dans un document Word avec Aspose.Words pour .NET. |
 | [Créer un nouveau document Word et insérer un contrôle de contenu en C#](./create-new-word-document-and-insert-content-control-in-c/) | Apprenez à créer un document Word et à y insérer un contrôle de contenu à l'aide d'Aspose.Words pour .NET en C#. |
+| [Comment créer un document Word avec des contrôles de contenu en C#](./how-to-create-word-document-with-content-controls-in-c/) | Apprenez à créer un document Word contenant des contrôles de contenu en C# avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

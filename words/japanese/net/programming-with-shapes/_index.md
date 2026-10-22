@@ -82,6 +82,9 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [Aspose.Words を使用して C# で非表示シェイプの docx を作成する方法](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) Aspose.Words for .NET を使用して、非表示の図形を含む Word 文書を作成する手順を解説します。 |
 | [C# 用 Aspose.Words で Word の図形をグループ化する方法](./how-to-group-shapes-in-word-with-aspose-words-for-c/) Aspose.Words for .NET を使用し、C# で Word 文書内の図形をグループ化する手順をステップバイステップで解説します。 |
 | [C# で空白の Word 文書とグループ図形を作成する方法](./how-to-create-blank-word-document-and-group-shapes-in-c/) このチュートリアルでは、C# を使用して空白の Word 文書を作成し、グループ図形を追加する手順を学びます。 |
+| [Aspose.Words を使用して Word に長方形の図形とグループ図形を作成する方法](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) Aspose.Words for .NET で長方形とグループ図形を作成する手順を解説します。 |
+| [影付き長方形シェイプで空白の Word 文書を作成 – ステップバイステップ ガイド](./create-blank-word-document-with-shadowed-rectangle-step-by-step/) Aspose.Words for .NET を使用して、影付き長方形シェイプを持つ空白の Word 文書を作成する手順を解説します。 |
+| [空白の Word 文書に長方形シェイプを追加](./create-a-blank-word-document-and-add-a-rectangle-shape/) Aspose.Words for .NET を使用して、空白の Word 文書に長方形シェイプを追加する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

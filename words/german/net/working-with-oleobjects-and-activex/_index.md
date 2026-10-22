@@ -40,6 +40,7 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 
 | [Wie man programmgesteuert eine Schaltfläche in ein Word-Dokument einfügt](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET programmgesteuert eine Schaltfläche in ein Word-Dokument einfügen. |
 | [Word-Dokument programmgesteuert erstellen und ActiveX-Schaltfläche hinzufügen](./create-word-document-programmatically-and-add-activex-button/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument programmgesteuert erstellen und eine ActiveX-Schaltfläche hinzufügen. |
+| [Word-Dokument mit ActiveX-Schaltfläche in C# erstellen](./how-to-create-word-document-with-an-activex-command-button-i/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und eine ActiveX-Schaltfläche in C# hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

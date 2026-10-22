@@ -35,6 +35,7 @@
 | [Как создать кнопку команд ActiveX в Word с помощью C#](./how-to-create-activex-command-button-in-word-using-c/) | Узнайте, как добавить кнопку команд ActiveX в документ Word с помощью C# и Aspose.Words. |
 | [Как добавить элемент управления ActiveX в Word с помощью C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Узнайте, как добавить элемент управления ActiveX в документ Word с помощью C# и Aspose.Words для .NET. |
 | [Создать документ Word программно и добавить кнопку ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Узнайте, как программно создать документ Word и добавить кнопку ActiveX с помощью Aspose.Words для .NET. |
+| [Создание документа Word с кнопкой ActiveX на C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Узнайте, как добавить кнопку управления ActiveX в документ Word с помощью Aspose.Words для .NET на C#. |
 
 | [Добавить кнопку Command в документ Word с Aspose.Words – Полное руководство](./add-command-button-to-word-document-with-aspose-words-comple/) | Узнайте, как добавить кнопку Command в документ Word с помощью Aspose.Words, используя пошаговое руководство. |
 | [Как добавить элемент управления ActiveX в Word с помощью Aspose.Words – пошаговое руководство](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Узнайте, как вставлять и настраивать элементы управления ActiveX в документах Word с помощью Aspose.Words в пошаговом руководстве. |

@@ -43,6 +43,7 @@
 | [Πώς να αποθηκεύσετε έγγραφο Word με SDT χρησιμοποιώντας το Aspose.Words σε C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word που περιέχει SDT χρησιμοποιώντας Aspose.Words σε C#. |
 | [Πώς να προσθέσετε στοιχείο ελέγχου περιεχομένου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Μάθετε πώς να προσθέσετε ένα στοιχείο ελέγχου περιεχομένου σε έγγραφο Word με το Aspose.Words για .NET. |
 | [Δημιουργία νέου εγγράφου Word και εισαγωγή ελέγχου περιεχομένου σε C#](./create-new-word-document-and-insert-content-control-in-c/) | Μάθετε πώς να δημιουργήσετε ένα νέο έγγραφο Word και να προσθέσετε έλεγχο περιεχομένου χρησιμοποιώντας C# και Aspose.Words. |
+| [Πώς να δημιουργήσετε έγγραφο Word με στοιχεία ελέγχου σε C#](./how-to-create-word-document-with-content-controls-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

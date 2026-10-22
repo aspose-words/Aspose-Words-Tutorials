@@ -44,6 +44,8 @@
 | [Δημιουργία Word από Markdown με Aspose.Words – Πλήρης Οδηγός](./create-word-from-markdown-with-aspose-words-full-guide/) | Μάθετε πώς να δημιουργείτε έγγραφα Word από αρχεία Markdown χρησιμοποιώντας το Aspose.Words σε πλήρη οδηγό βήμα προς βήμα. |
 | [Πώς να αποθηκεύσετε έγγραφο ως docx από Markdown σε C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Μάθετε πώς να μετατρέψετε και να αποθηκεύσετε αρχεία Markdown ως έγγραφα docx χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 | [Πώς να αποθηκεύσετε markdown ως docx με Aspose.Words σε C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Μάθετε πώς να μετατρέπετε αρχεία markdown σε μορφή docx χρησιμοποιώντας Aspose.Words για .NET σε C#. |
+| [Πώς να αποθηκεύσετε το έγγραφο ως docx από Markdown με C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Μάθετε πώς να μετατρέψετε έγγραφα Markdown σε αρχείο docx χρησιμοποιώντας Aspose.Words για .NET με C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

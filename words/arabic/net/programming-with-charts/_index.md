@@ -65,6 +65,7 @@
 | [كيفية إنشاء مستند Word باستخدام C# مع مخطط عمودي وتنسيق التسميات](./how-to-create-word-document-c-with-a-column-chart-and-format/) | تعلم خطوة بخطوة إنشاء مستند Word يحتوي على مخطط عمودي مع تنسيق تسميات البيانات باستخدام Aspose.Words وC#. |
 | [إدراج مخطط المنطقة في مستند Word](./insert-area-chart/) |تعرف على كيفية إدراج مخطط منطقة في مستند Word باستخدام Aspose.Words لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
 | [إدراج مخطط فقاعي في مستند Word](./insert-bubble-chart/) | تعلّم كيفية إدراج مخطط فقاعي في وورد باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستنداتك. |
+| [كيفية إنشاء مخطط رادار وإضافة المخطط إلى Word باستخدام C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | تعلم خطوة بخطوة كيفية إنشاء مخطط رادار وإدراجه في مستند Word باستخدام Aspose.Words لـ .NET وC#. |
 | [إدراج مخطط التشتت في مستند Word](./insert-scatter-chart/) | تعلّم كيفية إدراج مخطط تشتت في وورد باستخدام Aspose.Words لـ .NET. خطوات سهلة لدمج تمثيلات البيانات المرئية في مستنداتك. |
 | [كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | تعلّم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
 | [تحديد خصائص المحور XY في الرسم البياني](./define-xyaxis-properties/) تعلّم كيفية تعريف خصائص المحور X وY في مخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET. |

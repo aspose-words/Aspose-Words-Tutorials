@@ -82,6 +82,8 @@
 | [Πώς να ομαδοποιήσετε σχήματα στο Word με Aspose.Words για C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για C#. |
 | [Πώς να δημιουργήσετε κενό έγγραφο Word και σχήματα ομάδας σε C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) |  |
 | [Δημιουργία ορθογωνίου σχήματος στο Word με C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Οδηγός βήμα‑βήμα για την προσθήκη ορθογωνίου σχήματος σε έγγραφο Word με C#. |
+| [Πώς να δημιουργήσετε σχήμα ορθογωνίου και ομάδες σχημάτων στο Word με Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου και να ομαδοποιήσετε σχήματα σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
+| [Δημιουργία κενής εγγράφου Word και προσθήκη σχήματος ορθογωνίου](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σχήμα ορθογωνίου χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

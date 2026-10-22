@@ -30,6 +30,8 @@ Dzięki tym samouczkom będziesz w stanie opanować funkcje podpisu cyfrowego As
 | [Utwórz nową linię podpisu i ustaw identyfikator dostawcy](./create-new-signature-line-and-set-provider-id/) | Dowiedz się, jak utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku. |
 | [Dostęp i weryfikacja podpisu w dokumencie Word](./access-and-verify-signature/) | Uzyskaj dostęp i weryfikuj podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij autentyczność dokumentu bez wysiłku. |
 | [Dodaj podpis cyfrowy do PDF w C# przy użyciu Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Dowiedz się, jak dodać podpis cyfrowy do pliku PDF w C# przy użyciu Aspose.Words w kilku prostych krokach. |
+| [Jak podpisać dokument Word certyfikatem przy użyciu Aspose.Words w C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Dowiedz się, jak podpisać dokument Word certyfikatem przy użyciu Aspose.Words w C# w kilku prostych krokach. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

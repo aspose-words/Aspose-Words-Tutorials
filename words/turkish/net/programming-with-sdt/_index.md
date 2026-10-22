@@ -44,6 +44,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | [C# ile Aspose.Words kullanarak içerik kontrolü oluşturma](./how-to-create-content-control-in-c-with-aspose-words/) |  |
 | [SDT kullanarak Word belgesini Aspose.Words ile C#'ta nasıl kaydedilir](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Aspose.Words ile SDT içeren bir Word belgesini C# kullanarak kaydetmeyi öğrenin. |
 | [Aspose.Words ile bir Word belgesine içerik kontrolü ekleme](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aspose.Words ile bir Word belgesine içerik kontrolü eklemenin adım adım rehberi. |
+| [C# ile içerik denetimlerine sahip Word belgesi oluşturma](./how-to-create-word-document-with-content-controls-in-c/) | Aspose.Words for .NET kullanarak C# ile içerik denetimlerine sahip bir Word belgesi oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

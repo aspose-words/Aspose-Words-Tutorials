@@ -40,6 +40,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Jak přidat ActiveX ovládací prvek do Wordu pomocí C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Naučte se, jak vložit ActiveX ovládací prvek do dokumentu Word pomocí C# a Aspose.Words. |
 | [Jak programově přidat tlačítko příkazu do dokumentu Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Naučte se, jak pomocí Aspose.Words pro .NET programově vložit tlačítko příkazu do dokumentu Word. |
 | [Vytvořit dokument Word programově a přidat tlačítko ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko ActiveX pomocí Aspose.Words pro .NET. |
+| [Jak vytvořit dokument Word s tlačítkem ActiveX v C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Naučte se, jak vytvořit dokument Word obsahující tlačítko ActiveX pomocí C# a Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

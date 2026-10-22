@@ -88,6 +88,7 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Hur man skapar histogram i Word med Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Lär dig hur du skapar ett histogram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |
 | [Hur man skapar ett Word-dokument med ett anpassat cirkeldiagram i C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Lär dig hur du skapar ett Word-dokument med ett anpassat cirkeldiagram i C# med Aspose.Words för .NET. |
 | [Hur man ställer in histogrambinsantal och lägger till dataetiketter i ett Word-diagram med C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Lär dig hur du anger antalet histogrambins och lägger till dataetiketter i ett Word-diagram med C#. |
+| [Hur man skapar radardiagram och lägger till diagram i Word med C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Lär dig skapa ett radardiagram och infoga det i ett Word-dokument med Aspose.Words för .NET och C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

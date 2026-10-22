@@ -88,6 +88,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [C#를 사용하여 Word 라인 차트에서 시리즈 서식 지정하는 방법](./how-to-format-series-in-a-word-line-chart-with-c/) | Aspose.Words for .NET을 활용해 Word 라인 차트의 데이터 시리즈를 C# 코드로 서식 지정하는 단계별 가이드입니다. |
 | [Aspose.Words를 사용하여 Word에서 히스토그램 만들기](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 히스토그램을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 레이더 차트 만들기 – 완전 C# 가이드](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 레이더 차트를 삽입하고 사용자 지정하는 전체 단계별 C# 가이드입니다. |
+| [C#를 사용하여 레이더 차트를 만들고 Word에 차트 추가](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aspose.Words for .NET을 활용해 레이더 차트를 생성하고 Word 문서에 삽입하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

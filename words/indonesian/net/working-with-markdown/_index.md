@@ -44,6 +44,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Word dari Markdown dengan Aspose.Words – Panduan Lengkap](./create-word-from-markdown-with-aspose-words-full-guide/) | Pelajari cara mengonversi file Markdown menjadi dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah. Bahasa Indonesia: |
 | [Cara menyimpan dokumen sebagai docx dari Markdown di C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Pelajari cara menyimpan dokumen Markdown menjadi file docx menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Cara menyimpan markdown sebagai docx dengan Aspose.Words di C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Pelajari cara menyimpan file Markdown menjadi dokumen DOCX menggunakan Aspose.Words di C# dengan contoh langkah demi langkah. |
+| [Cara menyimpan dokumen sebagai docx dari Markdown menggunakan C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Pelajari cara menyimpan dokumen Markdown menjadi file docx menggunakan C# dengan Aspose.Words untuk .NET. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

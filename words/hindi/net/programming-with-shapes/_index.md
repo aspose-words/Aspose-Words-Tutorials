@@ -42,6 +42,7 @@
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके दृश्य हमेशा सटीक हों। |
 | [Aspose.Words के साथ Word में आयत आकार बनाएं – चरण‑दर‑चरण गाइड](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
+| [Aspose.Words के साथ Word में आयत आकार और समूह आकृतियाँ बनाना](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार और समूह आकृतियों को बनाने की चरण‑दर‑चरण गाइड। |
 | [Word आकृतियों में शैडो प्रभाव जोड़ें – पूर्ण C# गाइड](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Aspose.Words for .NET का उपयोग करके Word आकृतियों में शैडो प्रभाव जोड़ने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [शैडो वाले आयत के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | .NET के लिए Aspose.Words का उपयोग करके शैडो वाले आयत आकार के साथ Word दस्तावेज़ बनाना सीखें। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑शरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके दृश्य हमेशा सटीक हों। |
@@ -86,6 +87,7 @@
 | [Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं और रंगीन आकृतियां जोड़ें](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Aspose.Words का उपयोग करके एक खाली Word फ़ाइल बनाएं और उसमें रंगीन आकृतियां जोड़ने के चरण‑दर‑श... |
 | [C# में Aspose.Words के साथ छिपी आकृति वाला docx कैसे बनाएं](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | C# में Aspose.Words के साथ छिपी आकृति वाला docx फ़ाइल बनाने की प्रक्रिया सीखें। |
 | [C# में प्रोग्रामेटिकली Word दस्तावेज़ बनाएं और समूह आकृतियों को जोड़ें](./create-word-document-programmatically-and-group-shapes-in-c/) | C# में प्रोग्रामेटिकली Word दस्तावेज़ बनाकर समूह आकृतियों को जोड़ना सीखें। |
+| [एक खाली Word दस्तावेज़ बनाएं और आयत आकार जोड़ें](./create-a-blank-word-document-and-add-a-rectangle-shape/) | एक खाली Word दस्तावेज़ बनाकर उसमें आयत आकार जोड़ना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

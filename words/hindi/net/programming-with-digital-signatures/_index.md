@@ -30,6 +30,7 @@ Aspose.Words for .NET आपको वर्ड प्रोसेसिंग �
 | [नई हस्ताक्षर लाइन बनाएं और प्रदाता आईडी सेट करें](./create-new-signature-line-and-set-provider-id/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नई हस्ताक्षर पंक्ति बनाना और प्रदाता ID सेट करना सीखें। चरण-दर-चरण मार्गदर्शिका। |
 | [वर्ड दस्तावेज़ में हस्ताक्षर तक पहुँचें और सत्यापित करें](./access-and-verify-signature/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में डिजिटल हस्ताक्षरों तक पहुँचें और उन्हें सत्यापित करें। दस्तावेज़ की प्रामाणिकता को आसानी से सुनिश्चित करें। |
 | [C# में Aspose.Words का उपयोग करके PDF में डिजिटल हस्ताक्षर जोड़ें](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Aspose.Words का उपयोग करके C# में PDF दस्तावेज़ में डिजिटल हस्ताक्षर जोड़ने की प्रक्रिया सीखें। |
+| [C# में Aspose.Words का उपयोग करके प्रमाणपत्र के साथ Word पर हस्ताक्षर कैसे करें](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | C# में Aspose.Words का उपयोग करके प्रमाणपत्र के साथ Word दस्तावेज़ पर डिजिटल हस्ताक्षर करने की चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

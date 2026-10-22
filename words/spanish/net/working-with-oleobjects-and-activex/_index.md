@@ -39,6 +39,7 @@ Estos tutoriales le ofrecen un enfoque práctico, paso a paso, para el procesami
 | [Cómo insertar un botón de comando OLE en un documento de Word usando C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) Aprenda a insertar un botón de comando OLE en documentos de Word con Aspose.Words para .NET usando C# en esta guía paso a paso.
 | [Cómo agregar un botón de comando programáticamente en un documento de Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) Aprenda a añadir un botón de comando a un documento de Word mediante código con Aspose.Words para .NET. |
 | [Crear documento de Word programáticamente y añadir botón ActiveX](./create-word-document-programmatically-and-add-activex-button/) Aprenda a crear un documento de Word mediante código y agregar un botón ActiveX usando Aspose.Words para .NET.
+| [Cómo crear un documento Word con un botón de comando ActiveX en C#](./how-to-create-word-document-with-an-activex-command-button-i/) Aprenda a crear un documento Word con un botón de comando ActiveX usando C# y Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

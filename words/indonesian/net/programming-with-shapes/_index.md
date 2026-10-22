@@ -38,6 +38,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara mengelompokkan bentuk di Word dengan Aspose.Words untuk C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk C#. Bahasa Indonesia: |
 | [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Buat dokumen Word kosong dengan Aspose.Words – Panduan Langkah demi Langkah](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words dengan panduan langkah demi langkah yang mudah diikuti. |
+| [Cara Membuat Bentuk Persegi Panjang dan Mengelompokkan Bentuk di Word dengan Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Pelajari cara membuat bentuk persegi panjang dan mengelompokkan bentuk di dokumen Word menggunakan Aspose.Words untuk .NET. |
 | [Tambahkan Efek Bayangan ke Bentuk Word – Panduan Lengkap C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Buat Dokumen Word dengan Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Pelajari cara membuat dokumen Word dengan persegi panjang berbayang menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. |
 | [Buat bentuk persegi panjang di Word menggunakan C# – Panduan Langkah demi Langkah](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
@@ -81,6 +82,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengelompokkan Bentuk di Word menggunakan C# – panduan pemrograman lengkap](./group-shapes-in-word-using-c-complete-programming-guide/) | Pelajari cara mengelompokkan bentuk di Word menggunakan C# dengan panduan pemrograman lengkap. |
 | [Buat dokumen Word secara programatis dan grupkan bentuk di C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word secara programatis dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Sisipkan bentuk persegi panjang di Word dengan C# – panduan lengkap](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Pelajari cara menyisipkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan panduan lengkap ini. |
+| [Buat dokumen Word kosong dan tambahkan bentuk persegi panjang](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk persegi panjang menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

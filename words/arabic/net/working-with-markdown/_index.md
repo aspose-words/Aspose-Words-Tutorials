@@ -44,6 +44,7 @@
 | [استخدم مصدر التحذير](./use-warning-source/) أتقن استخدام Aspose.Words لـ .NET مع هذا الدليل التفصيلي حول استخدام فئة WarningSource للتعامل مع تحذيرات Markdown. مثالي لمطوري C#.
 | [إنشاء مستند Word من Markdown باستخدام Aspose.Words – دليل كامل](./create-word-from-markdown-with-aspose-words-full-guide/) | تعرّف على كيفية تحويل ملفات Markdown إلى مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [كيفية حفظ ملف markdown كـ docx باستخدام Aspose.Words في C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | تعلّم كيفية تحويل ملفات markdown إلى صيغة docx وحفظها باستخدام Aspose.Words في C#. |
+| [كيفية حفظ المستند كملف docx من Markdown باستخدام C#](./how-to-save-document-as-docx-from-markdown-using-c/) | تعلم كيفية تحويل مستند Markdown وحفظه كملف docx باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
