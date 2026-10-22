@@ -102,6 +102,8 @@ Markdown ファイルを Aspose.Words for Java で読み込み、DOCX 形式で�
 ### [Aspose.Words で Word を PDF に保存 – 完全 Java ガイド](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Aspose.Words for Java を使用して Word 文書を PDF に変換する手順をステップバイステップで解説します。
 
+### [PDF として文書を保存 – 完全 Aspose.Words ガイド](./save-document-as-pdf-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、文書を PDF に変換し保存する手順をステップバイステップで解説します。
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 
@@ -242,6 +244,9 @@ Word 文書を Markdown に変換する際、画像や図の解像度を指定�
 ### [Word を Markdown に保存する方法 – 完全 Java ガイド](./how-to-save-markdown-from-word-complete-java-guide/)
 Aspose.Words for Java を使用して Word 文書を Markdown に変換し、保存する手順をステップバイステップで解説します。
 
+### [Java で Word を Markdown に保存 – 完全ガイド](./save-word-as-markdown-in-java-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書を Markdown 形式に変換し保存する手順をステップバイステップで解説します。
+
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [ドキュメントをTXTとして保存 – DOCXをLaTeXテキストに変換](./save-document-as-txt-convert-docx-to-text-with-latex/)
 ### [Aspose.Words for Java で文書を PDF に保存 – 完全ステップバイステップガイド](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
@@ -298,6 +303,12 @@ Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する�
 
 ### [Aspose.Words for Java を使用して Markdown を DOCX として保存する方法](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Aspose.Words for Java で Markdown を DOCX に変換し、保存する手順をステップバイステップで解説します。
+
+### [Aspose.Words で PDF/UA を作成 – 完全ガイド](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aspose.Words を使用して PDF/UA (アクセシブル PDF) を作成する手順をステップバイステップで解説します。
+
+### [Word から PNG への変換時にページごとにシート数を設定する – 完全ガイド](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Aspose.Words for Java を使用して、Word から PNG への変換時にページごとにシート数を設定する方法をステップバイステップで解説します。
 
 ---
 

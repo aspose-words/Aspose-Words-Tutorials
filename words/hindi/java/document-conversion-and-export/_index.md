@@ -129,6 +129,9 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
+### [जावा में Word को Markdown के रूप में सहेजें – पूर्ण गाइड](./save-word-as-markdown-in-java-complete-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
+
 ### [docx को txt के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-equations-to-latex/)
 Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और Word गणितीय समीकरणों को LaTeX स्वरूप में निर्यात करें।
 
@@ -179,6 +182,15 @@ Java में Aspose.Words का उपयोग करके Word दस्�
 DOCX फ़ाइल से पूर्णतः सुलभ PDF बनाने की विस्तृत चरण‑दर‑चरण प्रक्रिया, एक्सेसिबिलिटी सेटिंग्स सहित।
 
 ### [Word से PNG कैसे सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
+
+### [दस्तावेज़ को PDF के रूप में सहेजें – Aspose.Words का पूर्ण गाइड](./save-document-as-pdf-complete-aspose-words-guide/)
+Aspose.Words for Java का उपयोग करके दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [Aspose.Words के साथ PDF/UA बनाना – पूर्ण गाइड](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aspose.Words for Java का उपयोग करके PDF/UA फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
+
+### [Word से PNG रूपांतरण में प्रति शीट पृष्ठ सेट करें – पूर्ण गाइड](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Word दस्तावेज़ को PNG में बदलते समय प्रति शीट कई पृष्ठ सेट करने की प्रक्रिया को चरण‑दर‑स्टेप समझें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

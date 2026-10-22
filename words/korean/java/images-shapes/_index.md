@@ -145,6 +145,8 @@ Java를 사용하여 ActiveX CommandButton을 Word 문서에 삽입하는 방법
 
 ### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
 Java를 사용해 Word 문서에서 도형을 숨기고 채우기 색상을 설정하는 방법을 단계별로 안내합니다.
+### [Java에서 Word 문서 저장 – 사각형 도형 및 그림자 추가](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Java를 사용해 Word 문서에 사각형 도형과 그림자를 추가하고 저장하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

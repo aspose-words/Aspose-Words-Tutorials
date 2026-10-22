@@ -126,6 +126,9 @@ Aspose.Words for Java를 사용해 Word 문서의 인라인 도형을 포함한 
 ### [Aspose.Words로 워드 파일을 PDF로 저장 – 전체 Java 가이드](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 전체 단계별 Java 가이드.
 
+### [문서를 PDF로 저장 – 완전 Aspose.Words 가이드](./save-document-as-pdf-complete-aspose-words-guide/)
+Aspose.Words for Java를 사용해 문서를 PDF로 저장하는 전체 단계별 가이드.
+
 ### [DOCX에서 접근성 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Aspose Words를 사용하여 DOCX에서 접근성 PDF 만들기](./create-accessible-pdf-from-docx-using-aspose-words/)
 
@@ -170,6 +173,9 @@ Aspose.Words for Java를 사용해 DOCX 파일을 Markdown 형식으로 변환�
 ### [DOCX를 Markdown으로 저장 – Java 완전 가이드](./save-docx-as-markdown-complete-java-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 마크다운 형식으로 변환하고 저장하는 전체 단계별 가이드.
 
+### [Java용 Aspose.Words에서 Word를 Markdown으로 저장 – 완전 가이드](./save-word-as-markdown-in-java-complete-guide/)
+Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하고 저장하는 전체 단계별 가이드.
+
 ### [DOCX 변환 시 Markdown에 이미지 삽입하는 방법](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [Word에서 Markdown 내보내기 – 완전 가이드](./how-to-export-markdown-from-word-complete-guide/)
@@ -179,6 +185,8 @@ DOCX를 Markdown으로 변환하는 과정에서 이미지 파일을 CDN에 자�
 
 ### [DOCX를 Markdown으로 변환할 때 이미지를 Base64로 삽입하기](./embed-images-as-base64-when-converting-docx-to-markdown/)
 DOCX를 Markdown으로 변환하면서 이미지 파일을 Base64 인코딩으로 삽입하는 방법을 단계별로 안내합니다.
+
+### [Word에서 PNG 변환 시 페이지당 시트 설정 – 완전 가이드](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
 
 ### [문서를 TXT로 저장 – Word 수식 내보내기 빠른 가이드](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [Java에서 DOCX를 Markdown으로 변환할 때 이미지를 Base64로 삽입하기](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -315,6 +323,9 @@ Aspose.Words for Java를 사용해 Word 문서를 HTML 테이블을 유지한 �
 ### [Word에서 PNG 저장하기 – 완전 단계별 가이드](./how-to-save-png-from-word-complete-step-by-step-guide/)
 ### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 markdown 형식으로 변환하는 단계별 방법을 안내합니다.
+
+### [Aspose.Words로 PDF/UA 생성 – 완전 가이드](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aspose.Words for Java를 사용해 PDF/UA(접근성 PDF) 파일을 생성하고, 접근성 옵션을 설정하는 전체 단계별 가이드.
 
 ## 자주 묻는 질문
 

@@ -142,6 +142,8 @@ Lär dig hur du lägger till en CommandButton i ett Word-dokument via ActiveX me
 
 ### [Skapa Word-dokument java – dölj form och ange fyllningsfärg](./create-word-document-java-hide-shape-and-set-fill-color/)
 Lär dig hur du döljer en form och sätter fyllningsfärg i ett Word-dokument med Aspose.Words för Java.
+### [Spara Word-dokument – Lägg till rektangel med skuggeffekt i Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Lär dig hur du sparar ett Word-dokument och lägger till en rektangel med skuggeffekt med Aspose.Words för Java.
 
 ## Ytterligare resurser
 

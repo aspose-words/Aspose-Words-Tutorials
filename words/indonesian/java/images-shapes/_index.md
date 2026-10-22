@@ -143,6 +143,8 @@ Pelajari cara menambahkan CommandButton ke dokumen menggunakan Aspose.Words Acti
 
 ### [Buat dokumen Word Java – sembunyikan bentuk dan atur warna isi](./create-word-document-java-hide-shape-and-set-fill-color/)
 Pelajari cara menyembunyikan bentuk dan mengatur warna isi dalam dokumen Word menggunakan Aspose.Words untuk Java.
+### [Simpan Dokumen Word – Tambahkan Bentuk Persegi Panjang dengan Bayangan di Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Pelajari cara menyimpan dokumen Word sambil menambahkan bentuk persegi panjang dengan efek bayangan menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 

@@ -144,6 +144,8 @@ Dowiedz się, jak dodać przycisk CommandButton przy użyciu ActiveX w aplikacji
 
 ### [Utwórz dokument Word w Javie – ukryj kształt i ustaw kolor wypełnienia](./create-word-document-java-hide-shape-and-set-fill-color/)
 Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumencie Word przy użyciu Aspose.Words dla Java.
+### [Zapisz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Dowiedz się, jak zapisać dokument Word, dodając prostokątny kształt z efektem cienia przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

@@ -143,6 +143,8 @@ Aspose.Words Java 代码教程
 
 ### [创建 Word 文档 Java – 隐藏形状并设置填充颜色](./create-word-document-java-hide-shape-and-set-fill-color/)
 演示如何在 Word 文档中隐藏形状并更改填充颜色。
+### [保存 Word 文档 – 在 Java 中添加矩形形状和阴影](./save-word-document-add-rectangle-shape-shadow-in-java/)
+演示如何在 Java 中使用 Aspose.Words 保存 Word 文档并添加带阴影的矩形形状。
 
 ## 其他资源
 

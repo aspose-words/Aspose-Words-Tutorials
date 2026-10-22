@@ -121,6 +121,8 @@
 เรียนรู้วิธีแทรกภาพในไฟล์ docx และซ่อนภาพในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
 ### [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-group-shapes-in-word-with-java-complete-guide/)
 เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [บันทึกเอกสาร Word – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาใน Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+เรียนรู้วิธีบันทึกเอกสาร Word พร้อมเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาโดยใช้ Aspose.Words สำหรับ Java
 
 ### [เพิ่มเงาให้รูปทรงใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-java-complete-programming-guide/)
 เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java

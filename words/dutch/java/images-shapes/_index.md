@@ -143,6 +143,8 @@ Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Asp
 Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
 
 ### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+### [Word-document opslaan – Rechthoekvorm en schaduw toevoegen in Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Leer hoe u een Word-document opslaat en een rechthoekige vorm met schaduweffect toevoegt met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

@@ -75,6 +75,8 @@ Hướng dẫn xây dựng mô hình AI tùy chỉnh và tích hợp để chỉ
 Hướng dẫn tạo tài liệu Word trong Java và tích hợp mô hình ngôn ngữ tùy chỉnh để kiểm tra ngữ pháp tự động.
 ### [Xây dựng Trình Kiểm tra Ngữ pháp Java – Hướng Dẫn Chi Tiết Từng Bước](./build-grammar-checker-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách xây dựng công cụ kiểm tra ngữ pháp trong Java bằng Aspose.Words và tích hợp AI để phát hiện lỗi ngữ pháp.
+### [Tóm tắt tài liệu Word trong Java – Hướng dẫn chi tiết từng bước](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách sử dụng Aspose.Words for Java để tóm tắt nội dung tài liệu Word bằng AI, bao gồm cài đặt, gọi API và chèn kết quả.
 
 ## Additional Resources
 

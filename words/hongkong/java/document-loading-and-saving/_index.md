@@ -172,6 +172,9 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java LoadOptions 復原損壞的 Word 文件](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [如何使用 Aspose.Words 在 C# 中從目錄載入檔案](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [在 Java 中修復損壞的 docx – 完整指南](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [如何在 Aspose.Words Java 中設定回呼 – 偵測與處理缺少的字體](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## 常見問題
 

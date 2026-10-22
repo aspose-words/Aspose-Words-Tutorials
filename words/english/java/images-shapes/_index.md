@@ -162,6 +162,17 @@ Learn how to insert a CommandButton into a Word document using Aspose.Words Acti
 
 ### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
 Learn how to hide a shape and set its fill color in a Word document using Aspose.Words for Java.
+### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "aspose-words-java-callback-custom-savings" >}})
+A code tutorial for Aspose.Words Java
+
+### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "render-word-pages-thumbnails-aspose-java" >}})
+Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
+
+### [Create word document java – add rectangle shape with shadow effect]({{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
+Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
+
+### [Save word document – add rectangle shape & shadow in java]({{< relref "save-word-document-add-rectangle-shape-shadow-in-java" >}})
+Learn how to save a Word document after adding a rectangle shape with a shadow effect using Aspose.Words for Java.
 
 ## Additional Resources
 
@@ -197,6 +208,8 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 

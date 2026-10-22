@@ -171,6 +171,11 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Tutorial de sustitución de fuentes Aspose – Manejar fuentes faltantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ### [Cómo cargar un archivo desde el directorio usando Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide/)
+
+### [Recuperar docx corrupto en Java – Guía completa](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Cómo establecer una devolución de llamada en Aspose.Words Java – Detectar y manejar fuentes faltantes](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Preguntas frecuentes
 

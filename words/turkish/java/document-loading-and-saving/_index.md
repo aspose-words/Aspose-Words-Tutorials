@@ -200,6 +200,10 @@ C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işley
 Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
 
 ### [Java’da Markdown Yükleme – Tam Kılavuz](./how-to-load-markdown-in-java-complete-guide/)
+### [Java’da Bozuk docx Dosyasını Kurtarma – Tam Kılavuz](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Aspose.Words Java’da geri arama ayarlama – Eksik Yazı Tiplerini Algıla ve İşle](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Eksik yazı tiplerini tespit etmek ve yönetmek için Aspose.Words Java’da geri arama (callback) nasıl ayarlanır?
 
 ## Sıkça Sorulan Sorular
 

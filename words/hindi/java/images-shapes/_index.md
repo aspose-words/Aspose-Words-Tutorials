@@ -169,6 +169,8 @@ Aspose.Words Java का उपयोग करके खाली Word फ़�
 
 ### [जावा में Aspose.Words का उपयोग करके छिपी हुई छवि के साथ Word दस्तावेज़ बनाएं](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Aspose.Words का उपयोग करके जावा में छिपी हुई छवि के साथ Word दस्तावेज़ बनाने का तरीका सीखें।
+### [जावा में Word दस्तावेज़ सहेजें – आयताकार आकार और छाया जोड़ें](./save-word-document-add-rectangle-shape-shadow-in-java/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ को सहेजते समय आयताकार आकार और छाया प्रभाव कैसे जोड़ें, सीखें।
 
 ## अतिरिक्त संसाधन
 

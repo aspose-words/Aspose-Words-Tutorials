@@ -169,6 +169,8 @@ Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose
 ### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Hogyan töltsünk be fájlt könyvtárból az Aspose.Words segítségével C#‑ban](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Hogyan állítsuk be a beállításokat az Aspose.Words for Java‑ban – teljes útmutató](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+### [Sérült docx helyreállítása Java‑ban – Teljes útmutató](./recover-corrupted-docx-in-java-complete-guide/)
+### [Visszahívás beállítása az Aspose.Words Java‑ban – Hiányzó betűkészletek észlelése és kezelése](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Gyakran Ismételt Kérdések
 

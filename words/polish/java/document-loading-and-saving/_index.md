@@ -139,6 +139,8 @@ Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzy
 
 ### [Odzyskaj uszkodzony DOCX przy użyciu Aspose.Words for Java – Kompletny przewodnik](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Dowiedz się, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
+### [Odzyskaj uszkodzony docx w Javie – Kompletny przewodnik](./recover-corrupted-docx-in-java-complete-guide/)
+Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX w Javie przy użyciu Aspose.Words.
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -180,6 +182,8 @@ Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy
 Dowiedz się, jak obsługiwać brakujące czcionki i przechwytywać ostrzeżenia o podstawianiu czcionek w Aspose.Words for Java.
 ### [Jak załadować plik z katalogu przy użyciu Aspose.Words w C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Dowiedz się, jak załadować plik z określonego katalogu przy użyciu Aspose.Words w języku C#.
+
+### [Jak ustawić callback w Aspose.Words Java – wykrywanie i obsługa brakujących czcionek](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Najczęściej zadawane pytania
 

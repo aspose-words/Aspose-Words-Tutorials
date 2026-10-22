@@ -127,6 +127,8 @@ Scopri come individuare e riparare DOCX danneggiati in Java usando Aspose.Words,
 Scopri come utilizzare LoadOptions per recuperare documenti Word corrotti in Java con Aspose.Words.
 ### [Recuperare DOCX corrotto con Aspose.Words per Java – Guida completa](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Impara a riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
+### [Recupera docx corrotto in Java – Guida completa](./recover-corrupted-docx-in-java-complete-guide/)
+Scopri come riparare file DOCX danneggiati in Java con Aspose.Words, con esempi passo‑passo e consigli pratici.
 
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
@@ -218,6 +220,7 @@ Scopri come caricare e gestire le sottolineature nei file Markdown usando Aspose
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font mancanti durante l'elaborazione dei documenti con Aspose.Words per Java.
 ### [Come caricare un file da una directory usando Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Scopri come caricare file da una cartella in C# con Aspose.Words, includendo esempi di codice e impostazioni di caricamento.
+### [come impostare il callback in Aspose.Words Java – Rilevare e gestire i font mancanti](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ### [Come caricare Markdown in Java – Guida completa](./how-to-load-markdown-in-java-complete-guide/)
 Scopri come caricare file Markdown in Java usando Aspose.Words, con esempi di codice e opzioni di configurazione.

@@ -212,6 +212,11 @@ Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words
 ### [Aspose Lettertypevervanging Tutorial – Ontbrekende Lettertypen Afhandelen](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Leer hoe je ontbrekende lettertypen kunt afhandelen en vervangingswaarschuwingen vastlegt met Aspose.Words for Java.
 ### [Herstel beschadigde DOCX met Aspose.Words voor Java – Complete gids](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+### [Beschadigde docx herstellen in Java – Complete gids](./recover-corrupted-docx-in-java-complete-guide/)
+Leer hoe je beschadigde DOCX‑bestanden kunt repareren en verwerken met Aspose.Words for Java.
+
+### [Hoe een callback instellen in Aspose.Words Java – Ontbrekende lettertypen detecteren en afhandelen](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Leer hoe je een callback configureert om ontbrekende lettertypen te detecteren en af te handelen in Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

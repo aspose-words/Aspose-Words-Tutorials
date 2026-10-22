@@ -142,6 +142,8 @@ Apprenez à insérer un bouton de commande ActiveX dans un document Word en util
 
 ### [Créer un document Word Java – masquer une forme et définir la couleur de remplissage](./create-word-document-java-hide-shape-and-set-fill-color/)
 Apprenez à masquer une forme et à définir sa couleur de remplissage dans un document Word en Java avec Aspose.Words.
+### [Enregistrer un document Word – Ajouter une forme rectangle et une ombre en Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Apprenez à enregistrer un document Word en ajoutant une forme rectangle avec effet d'ombre en Java à l'aide d'Aspose.Words.
 
 ## Ressources supplémentaires
 

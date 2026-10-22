@@ -143,6 +143,8 @@ Ismerje meg, hogyan szúrhat be CommandButton elemet ActiveX használatával Jav
 
 ### [Word dokumentum létrehozása Java – alakzat elrejtése és kitöltőszín beállítása](./create-word-document-java-hide-shape-and-set-fill-color/)
 Ismerje meg, hogyan rejthet el alakzatot és állíthat be kitöltőszínt a Word dokumentumban Java-val az Aspose.Words segítségével.
+### [Word dokumentum mentése – Téglalap alakzat és árnyék hozzáadása Java-ban](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Ismerje meg, hogyan menthet Word dokumentumot, miközben téglalap alakzatot és árnyékot ad hozzá Java-ban az Aspose.Words segítségével.
 
 ## További források
 

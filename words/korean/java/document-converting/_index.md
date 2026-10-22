@@ -84,22 +84,14 @@ Word 문서(DOC, DOCX, RTF 등)를 PDF 파일로 변환한다는 것은 원본 �
 ## 문서 변환 튜토리얼
 
 ### [문서 변환 기능 사용하기](./using-document-converting/)
-Aspose.Words for Java를 사용한 효율적인 문서 변환 방법을 배우세요. 파일을 변환, 병합 및 처리하는 작업을 완벽히 수행합니다. 하나의 강력한 라이브러리로 워크플로를 간소화합니다.
-
 ### [문서를 PDF로 내보내기](./exporting-documents-to-pdf/)
-Aspose.Words for Java를 사용해 문서를 PDF로 내보내는 방법을 배우세요. 이 단계별 가이드는 원활한 문서 변환을 위한 프로세스를 간소화합니다.
-
 ### [문서를 다양한 형식으로 변환하기](./converting-documents-different-formats/)
-Aspose.Words for Java를 사용해 문서를 다양한 형식으로 변환하는 방법을 배우세요. 효율적인 문서 변환을 위한 단계별 가이드입니다.
-
 ### [HTML을 문서로 변환하기](./converting-html-documents/)
-Aspose.Words for Java를 사용해 HTML을 Word 문서로 손쉽게 변환하세요. 포괄적인 가이드를 통해 몇 단계만으로 변환 방법을 배울 수 있습니다.
-
 ### [SaveOptions를 사용한 문서 변환](./document-conversion-saveoptions/)
-Aspose.Words for Java를 사용해 DOCX를 EPUB으로 효율적으로 변환하세요. 이 단계별 가이드에서 저장 옵션을 맞춤 설정하고, 콘텐츠를 분할하며, 문서 속성을 내보내는 방법을 배웁니다.
-
 ### [문서를 이미지로 변환하기](./converting-documents-images/)
-Aspose.Words for Java를 사용해 Word 문서를 이미지로 변환하는 방법을 배우세요. 코드 예제와 FAQ가 포함된 단계별 가이드입니다.
+### [DOCX를 Markdown으로 변환 – 완전 단계별 가이드](./convert-docx-to-markdown-complete-step-by-step-guide/)
+### [DOCX를 Markdown으로 변환 – 완전 가이드](./convert-docx-to-markdown-complete-guide/)
+### [Aspose 사용 방법: Java에서 DOCX를 PDF로 변환 – 완전 가이드](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
 
 ### [Aspose.Words로 docx를 마크다운으로 저장하는 완전 가이드](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 마크다운 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.

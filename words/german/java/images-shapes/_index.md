@@ -142,6 +142,8 @@ Ein Beispiel, das zeigt, wie Sie mit Aspose.Words ActiveX in Java einen CommandB
 
 ### [Word-Dokument in Java erstellen – Form ausblenden und Füllfarbe setzen](./create-word-document-java-hide-shape-and-set-fill-color/)
 Ein Beispiel, das zeigt, wie man in Aspose.Words für Java eine Form ausblendet und die Füllfarbe festlegt.
+### [Word-Dokument speichern – Rechteckform mit Schatten in Java hinzufügen](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Ein Codebeispiel, das zeigt, wie man ein Word-Dokument speichert und dabei ein Rechteck mit Schatten in Java hinzufügt.
 
 ## Weitere Ressourcen
 

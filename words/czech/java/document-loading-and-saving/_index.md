@@ -176,6 +176,9 @@ Naučte se načíst soubor z adresáře v C# pomocí knihovny Aspose.Words s pra
 ### [Obnovení poškozeného DOCX s Aspose.Words pro Java – Kompletní průvodce](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Kompletní návod, jak opravit poškozené soubory DOCX pomocí Aspose.Words for Java, včetně kroků pro načtení, opravu a uložení dokumentu.
 
+### [Obnovení poškozeného docx v Javě – Kompletní průvodce](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Jak nastavit zpětné volání v Aspose.Words pro Java – Detekce a zpracování chybějících fontů](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Často kladené otázky
 

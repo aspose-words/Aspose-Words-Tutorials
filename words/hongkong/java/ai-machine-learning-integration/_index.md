@@ -74,6 +74,8 @@ AI 文件處理將傳統的文件操作（合併、格式化、轉換）與機�
 展示如何在 Java 中結合自訂大型語言模型進行文法檢查，同時生成 Word 文件。
 ### [建立 Java 文法檢查器 – 完整步驟指南](./build-grammar-checker-java-complete-step-by-step-guide/)
 學習如何使用 Aspose.Words for Java 結合 AI 服務，打造完整的文法檢查工具，從文本分析到錯誤標示一步步實作。
+### [在 Java 中摘要 Word 文件 – 完整步驟指南](./summarize-word-document-in-java-complete-step-by-step-guide/)
+學習如何使用 Aspose.Words for Java 逐步實作文件摘要，從讀取到生成精簡內容。
 
 ## 其他資源
 

@@ -151,6 +151,8 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como carregar arquivo de diretório usando Aspose.Words em C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Recuperar DOCX corrompido com Aspose.Words para Java – Guia Completo](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Como definir opções no Aspose.Words para Java – guia completo](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+### [Recuperar docx corrompido em Java – Guia Completo](./recover-corrupted-docx-in-java-complete-guide/)
+### [Definindo callback no Aspose.Words for Java – Detectar e Manipular Fontes Ausentes](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Perguntas Frequentes
 

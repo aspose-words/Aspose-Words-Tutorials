@@ -162,6 +162,9 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑va
 ### [Hogyan konvertáljunk DOCX‑t markdownra az Aspose.Words segítségével](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba az Aspose.Words for Java segítségével.
 
+### [Word mentése Markdown formátumba Java‑ban – Teljes útmutató](./save-word-as-markdown-in-java-complete-guide/)
+Tanuld meg, hogyan konvertálj Word dokumentumot Markdown‑ra Java‑val az Aspose.Words segítségével.
+
 
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
@@ -174,6 +177,8 @@ Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként az Aspose.Words Java A
 ### [PDF/UA kompatibilis fájl létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 ### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Lépésről‑lépésre útmutató a Word dokumentumok PDF‑be konvertálásához az Aspose.Words for Java használatával.
+### [Dokumentum mentése PDF‑ként – Teljes Aspose.Words útmutató](./save-document-as-pdf-complete-aspose-words-guide/)
+Tanulja meg, hogyan menthet dokumentumot PDF formátumba az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
 
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
@@ -347,6 +352,11 @@ Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba Java‑val
 
 ### [Hogyan mentse a Markdown‑t DOCX‑ként az Aspose.Words for Java használatával](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Tanulja meg, hogyan konvertálja a Markdown fájlokat DOCX formátumba Java‑val az Aspose.Words segítségével.
+
+### [PDF/UA létrehozása az Aspose.Words segítségével – Teljes útmutató](./create-pdf-ua-with-aspose-words-complete-guide/)
+Ismerje meg, hogyan hozhat létre PDF/UA dokumentumot az Aspose.Words for Java‑val, lépésről‑lépésre útmutatóval.
+
+### [Oldalak lapra állítása a Word‑ból PNG konverzió során – Teljes útmutató](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

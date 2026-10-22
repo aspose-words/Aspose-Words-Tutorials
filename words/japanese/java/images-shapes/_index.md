@@ -144,6 +144,8 @@ Javaで複数のシェイプをグループ化し、空白のWord文書に挿入
 
 ### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
+### [Word文書を保存 – Javaで長方形シェイプと影を追加](./save-word-document-add-rectangle-shape-shadow-in-java/)
+JavaでWord文書を保存し、長方形シェイプに影を付ける方法を学びます。
 
 ## 追加リソース
 

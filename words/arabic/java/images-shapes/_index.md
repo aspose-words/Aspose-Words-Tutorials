@@ -145,6 +145,8 @@
 
 ### [إنشاء مستند Word في Java – إخفاء الشكل وتعيين لون التعبئة](./create-word-document-java-hide-shape-and-set-fill-color/)
 تعلم كيفية إخفاء شكل في مستند Word وتحديد لون التعبئة باستخدام Aspose.Words لجافا
+### [حفظ مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./save-word-document-add-rectangle-shape-shadow-in-java/)
+تعلم كيفية حفظ مستند Word وإضافة شكل مستطيل بظل باستخدام Aspose.Words for Java
 
 ## موارد إضافية
 

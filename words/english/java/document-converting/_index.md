@@ -57,6 +57,19 @@ Add the Aspose.Words dependency to your `pom.xml` (Maven) or `build.gradle` (Gra
 ### 2. load the source word document
 Create a `Document` instance pointing to your `.docx` (or other supported) file.
 
+```java
+import com.aspose.words.*;
+
+public class ConvertToPdf {
+    public static void main(String[] args) throws Exception {
+        // Load the Word document
+        Document doc = new Document("input.docx");
+        // Save as PDF
+        doc.save("output.pdf", SaveFormat.PDF);
+    }
+}
+```
+
 ### 3. (Optional) Configure PDF Save Options
 If you need to control image quality, font embedding, or PDF compliance, instantiate `PdfSaveOptions` and adjust the properties.
 
@@ -164,6 +177,14 @@ Learn how to convert DOCX files to Markdown format with Aspose.Words for Java in
 A quick low‑code guide to convert DOCX files to PDF in Java using Aspose.Words, with minimal setup and code.
 ### [Save Word as Markdown – Complete Java Guide (2026)]({{< relref "save-word-as-markdown-complete-java-guide-2026/_index.md" >}})
 Learn how to convert Word documents to Markdown format using Aspose.Words for Java with detailed code examples and best practices.
+### [Convert DOCX to Markdown – Complete Step‑by‑Step Guide]({{< relref "convert-docx-to-markdown-complete-step-by-step-guide/_index.md" >}})
+Learn how to convert DOCX files to Markdown format using Aspose.Words for Java with a detailed, step‑by‑step tutorial.
+
+### [Convert DOCX to Markdown – Complete Guide]({{< relref "convert-docx-to-markdown-complete-guide/_index.md" >}})
+Learn how to convert DOCX files to Markdown format using Aspose.Words for Java with a comprehensive step‑by‑step guide.
+
+### [How to Use Aspose: Convert DOCX to PDF in Java – Complete Guide]({{< relref "how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/_index.md" >}})
+Step‑by‑step guide to convert DOCX files to PDF using Aspose.Words for Java, covering setup, code examples, and best practices.
 
 ## Frequently asked questions
 

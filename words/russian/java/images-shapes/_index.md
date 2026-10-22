@@ -143,6 +143,8 @@
 
 ### [Учебник Aspose.Words ActiveX – вставка CommandButton с Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 Узнайте, как добавить кнопку CommandButton в документ Word через ActiveX с использованием Java.
+### [Сохранение документа Word в Java – Добавление прямоугольной фигуры с теневым эффектом](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Сохраните документ Word, добавив прямоугольную фигуру с теневым эффектом, используя Aspose.Words для Java.
 
 ## Дополнительные ресурсы
 

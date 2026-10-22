@@ -120,6 +120,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Java でロードオプションを作成 – 欠落フォントを検出し DOCX をロードする方法](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 
 ### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide/)
 
 ### [破損した Word ドキュメントを開く – Java でリカバリーモードを設定](./open-corrupted-word-document-set-recovery-mode-in-java/)
 ### [Aspose.Words for Java を使用した破損した docx の復元](./recover-corrupted-docx-using-aspose-words-java/)
@@ -167,6 +168,9 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Java で Markdown をロードする方法 – 完全ガイド](./how-to-load-markdown-in-java-complete-guide/)
 
 ### [Aspose.Words for Java のオプション設定方法 – 完全ガイド](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+### [Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Aspose.Words Java でコールバックを設定する方法 – 欠落フォントの検出と処理](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## よくある質問
 

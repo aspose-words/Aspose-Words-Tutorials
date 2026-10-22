@@ -76,6 +76,8 @@ Impara a costruire un modello AI su misura e a modificarne i paragrafi nei docum
 Impara a generare documenti Word in Java e a verificare la grammatica usando un modello LLM personalizzato.
 ### [Costruire un correttore grammaticale Java – Guida completa passo‑passo](./build-grammar-checker-java-complete-step-by-step-guide/)
 Impara a sviluppare un correttore grammaticale in Java integrando modelli AI per l'analisi e la correzione del testo.
+### [Riepiloga documento Word in Java – Guida completa passo‑passo](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Impara a riassumere automaticamente documenti Word con Aspose.Words per Java, passo dopo passo, usando modelli AI.
 
 ## Risorse aggiuntive
 

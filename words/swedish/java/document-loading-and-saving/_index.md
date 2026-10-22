@@ -213,6 +213,10 @@ Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
 
 ### [Ladda Markdown i Java – Komplett guide](./how-to-load-markdown-in-java-complete-guide/)
 Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, inklusive kodexempel och avancerade alternativ.
+### [Återställ korrupt docx i Java – Komplett guide](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Hur du ställer in callback i Aspose.Words för Java – Upptäck och hantera saknade teckensnitt](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Lär dig hur du konfigurerar en callback-funktion för att identifiera och hantera saknade teckensnitt i Aspose.Words för Java.
 
 ## Vanliga frågor
 

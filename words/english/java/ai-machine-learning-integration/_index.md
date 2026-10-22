@@ -75,6 +75,9 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 ### [Master text processing in Java: using Aspose.Words & AI models for summarization and translation]({{< relref "java-aspose-words-text-processing/_index.md" >}})
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
+### [Summarize word document in java – complete step‑by‑Step guide]({{< relref "summarize-word-document-in-java-complete-step-by-step-guide/_index.md" >}})
+Step‑by‑step guide to extract text from a Word file and generate a concise summary using Aspose.Words for Java and AI models.
+
 ### [Create custom AI model – edit Word paragraphs in Java]({{< relref "create-custom-ai-model-edit-word-paragraphs-in-java/_index.md" >}})
 Learn how to build a custom AI model and integrate it to edit Word paragraphs programmatically using Aspose.Words for Java.
 ### [Create Word document Java with Custom LLM Grammar Check]({{< relref "create-word-document-java-with-custom-llm-grammar-check/_index.md" >}})

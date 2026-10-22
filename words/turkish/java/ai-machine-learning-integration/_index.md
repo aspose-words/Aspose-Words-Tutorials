@@ -75,6 +75,8 @@ Java’da Aspose.Words kullanarak özel bir AI modeli oluşturup, Word belgeleri
 
 ### [Java'da Dilbilgisi Denetleyicisi Oluşturma – Tam Adım Adım Kılavuz](./build-grammar-checker-java-complete-step-by-step-guide/)
 Java ve Aspose.Words kullanarak adım adım bir dilbilgisi denetleyicisi oluşturun ve metin doğrulamasını otomatikleştirin.
+### [Java'da Word Belgesini Özetleme – Tam Adım Adım Kılavuz](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Java ve Aspose.Words ile Word belgelerini adım adım özetleyin. Tam bir rehber.
 
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)

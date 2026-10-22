@@ -202,6 +202,9 @@ Java में Markdown लोड करने का पूरा गाइड�
 ### [Aspose.Words for Java में विकल्प सेट करने का तरीका – पूर्ण गाइड](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 Aspose.Words for Java में विभिन्न लोड और सेव विकल्पों को कैसे कॉन्फ़िगर करें, इस पूर्ण गाइड में सीखें।
+### [जावा में भ्रष्ट docx को पुनर्प्राप्त करें – पूर्ण गाइड](./recover-corrupted-docx-in-java-complete-guide/)
+
+### [Aspose.Words Java में कॉलबैक सेट करना – लापता फ़ॉन्ट्स का पता लगाएँ और संभालें](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

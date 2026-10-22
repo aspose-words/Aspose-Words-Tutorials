@@ -74,6 +74,9 @@ AI‑обработка документов сочетает традицион
 Научитесь создавать собственную AI‑модель и использовать её для автоматического редактирования абзацев в документах Word с помощью Aspose.Words for Java.
 ### [Создание проверщика грамматики Java – Полное пошаговое руководство](./build-grammar-checker-java-complete-step-by-step-guide/)
 
+### [Суммировать документ Word в Java – Полное пошаговое руководство](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words for Java автоматически создавать резюме содержимого Word‑документов.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words for Java](https://reference.aspose.com/words/java/)

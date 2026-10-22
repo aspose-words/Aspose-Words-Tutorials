@@ -160,6 +160,8 @@ Kompletní návod, jak převést soubory DOCX na Markdown pomocí Aspose.Words f
 
 ### [Uložit DOCX jako Markdown: Převod DOCX na Markdown pomocí Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 Naučte se převést soubory DOCX do formátu Markdown pomocí Aspose.Words.
+### [Uložit Word jako Markdown v Javě – Kompletní průvodce](./save-word-as-markdown-in-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést dokument Word do formátu Markdown s podrobným nastavením a ukázkovým kódem.
 
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
@@ -187,6 +189,8 @@ Naučte se, jak pomocí Aspose.Words pro Javu převést soubor Word do PDF pomoc
 Naučte se, jak pomocí Aspose.Words for Java uložit dokument do formátu DOCX s pokročilými možnostmi nastavení.
 ### [Převod docx do pdf v Javě – Kompletní průvodce krok za krokem](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words převést soubory DOCX do PDF v Javě pomocí podrobného krok‑za‑krokem návodu.
+### [Uložit dokument jako PDF – Kompletní průvodce Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Naučte se, jak pomocí Aspose.Words for Java uložit dokument do PDF s kompletním nastavením a optimalizací výstupu.
 
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
@@ -385,6 +389,11 @@ Naučte se, jak pomocí Aspose.Words for Java uložit stránky dokumentu Word ja
 Naučte se převést DOCX na Markdown v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem návodem.
 ### [Jak uložit Markdown jako DOCX pomocí Aspose.Words pro Javu](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Naučte se převést soubor Markdown na DOCX pomocí Aspose.Words for Java v několika krocích.
+### [Vytvořit PDF UA pomocí Aspose.Words – Kompletní průvodce](./create-pdf-ua-with-aspose-words-complete-guide/)
+Naučte se, jak pomocí Aspose.Words vytvořit PDF soubor s podporou ukrajinského jazyka a nastavit správné kódování.
+
+### [Nastavení počtu stránek na list při konverzi Word do PNG – Kompletní průvodce](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Naučte se, jak nastavit počet stránek na list při převodu dokumentu Word do PNG pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

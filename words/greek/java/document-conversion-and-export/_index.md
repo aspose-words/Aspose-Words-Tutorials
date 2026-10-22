@@ -223,6 +223,12 @@ weight: 22
 ### [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words for Java με πλήρη οδηγίες βήμα‑βήμα.
 
+### [Αποθήκευση Εγγράφου ως PDF – Πλήρης Οδηγός Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words for Java με πλήρη οδηγό βήμα‑βήμα.
+
+### [Δημιουργία PDF UA με Aspose.Words – Πλήρης Οδηγός](./create-pdf-ua-with-aspose-words-complete-guide/)
+Μάθετε πώς να δημιουργήσετε PDF με υποστήριξη UA (Unicode) χρησιμοποιώντας το Aspose.Words σε Java, βήμα‑βήμα οδηγός.
+
 ### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Ενσωμάτωση εικόνων σε base64 κατά τη μετατροπή DOCX σε Markdown με Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Μάθετε πώς να ενσωματώνετε εικόνες σε μορφή base64 κατά τη μετατροπή αρχείων DOCX σε Markdown χρησιμοποιώντας Aspose.Words for Java.
@@ -376,6 +382,11 @@ weight: 22
 Μάθετε πώς να εξάγετε εικόνες PNG από έγγραφα Word με απλό κώδικα.
 ### [Δημιουργία markdown από docx σε Java – πλήρης οδηγός Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε markdown χρησιμοποιώντας το Aspose.Words for Java.
+### [Αποθήκευση Word ως Markdown σε Java – Πλήρης Οδηγός](./save-word-as-markdown-in-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Ορισμός Σελίδων ανά Φύλλο στη Μετατροπή Word σε PNG – Πλήρης Οδηγός](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Μάθετε πώς να ορίζετε πολλές σελίδες ανά φύλλο κατά τη μετατροπή εγγράφων Word σε PNG με Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

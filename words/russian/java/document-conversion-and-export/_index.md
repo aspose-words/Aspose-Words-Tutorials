@@ -176,6 +176,8 @@ weight: 22
 
 ### [Сохранить docx как markdown: Конвертировать docx в markdown с помощью Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 Преобразуйте DOCX в Markdown, сохранив форматирование и изображения, используя Aspose.Words for Java.
+### [Сохранить Word как Markdown в Java — полное руководство](./save-word-as-markdown-in-java-complete-guide/)
+Пошаговое руководство по сохранению документов Word в формате Markdown с помощью Aspose.Words for Java.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -390,6 +392,14 @@ weight: 22
 Преобразуйте DOCX в markdown в Java с помощью Aspose.Words, пошаговое полное руководство.
 ### [Как сохранить Markdown как DOCX с помощью Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Узнайте, как конвертировать Markdown в DOCX с помощью Aspose.Words for Java.
+### [Сохранить документ как PDF – Полное руководство Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Подробное руководство по сохранению документов в PDF с использованием Aspose.Words for Java, включая настройки качества и шифрования.
+
+### [Создание PDF/UA с Aspose.Words – Полное руководство](./create-pdf-ua-with-aspose-words-complete-guide/)
+Полное руководство по созданию PDF/UA (универсального доступного PDF) с помощью Aspose.Words для Java.
+
+### [Установка количества страниц на лист при конвертации Word в PNG – Полное руководство](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Узнайте, как задать количество страниц на лист при конвертации документов Word в PNG с помощью Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

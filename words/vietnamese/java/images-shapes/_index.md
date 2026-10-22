@@ -145,6 +145,8 @@ Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua Active
 
 ### [Tạo tài liệu Word bằng Java – ẩn hình dạng và đặt màu nền](./create-word-document-java-hide-shape-and-set-fill-color/)
 Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
+### [Lưu tài liệu Word – Thêm hình chữ nhật và bóng trong Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Hướng dẫn lưu tài liệu Word sau khi chèn hình chữ nhật có bóng bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

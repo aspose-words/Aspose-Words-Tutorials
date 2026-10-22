@@ -73,6 +73,8 @@ Ismerje meg, hogyan hozhat létre egyedi AI modellt, és szerkesztheti a Word be
 Ismerje meg, hogyan hozhat létre Word dokumentumot Java-ban, és használhat egyedi LLM-et a nyelvtan-ellenőrzéshez.
 ### [Grammatikaellenőrző építése Java‑ban – Teljes lépésről‑lépésre útmutató](./build-grammar-checker-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan építhet saját grammatikaellenőrzőt Java‑ban az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
+### [Word dokumentum összefoglalása Java-ban – Teljes lépésről‑lépésre útmutató](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.Words for Java-t a Word dokumentumok automatikus összefoglalásához egy részletes, gyakorlati útmutatóban.
 
 ## További források
 

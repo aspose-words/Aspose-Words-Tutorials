@@ -74,6 +74,8 @@ weight: 20
 
 ### [إنشاء مدقق قواعد اللغة Java – دليل خطوة بخطوة كامل](./build-grammar-checker-java-complete-step-by-step-guide/)
 تعلم كيفية بناء مدقق قواعد اللغة باستخدام Aspose.Words for Java وتكامل الذكاء الاصطناعي خطوة بخطوة.
+### [تلخيص مستند Word في Java – دليل خطوة بخطوة كامل](./summarize-word-document-in-java-complete-step-by-step-guide/)
+تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words for Java عبر خطوات مفصلة وشاملة.
 
 ## موارد إضافية
 

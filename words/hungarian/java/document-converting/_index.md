@@ -85,7 +85,7 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 
 ### [A dokumentumkonvertálási funkció használata](./using-document-converting/)
 ### [Dokumentumok exportálása PDF-be](./exporting-documents-to-pdf/)
-### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-forms/)
+### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-formats/)
 ### [HTML konvertálása dokumentumokká](./converting-html-documents/)
 ### [Dokumentumkonvertálás SaveOptions-szal](./document-conversion-saveoptions/)
 ### [Dokumentumé](./converting-documents-images/)
@@ -104,6 +104,9 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [Markdown mentése DOCX-be Java-val – Teljes útmutató](./how-to-save-markdown-as-docx-using-java-complete-guide/)
 ### [Markdown konvertálása DOCX-be az Aspose.Words for Java‑val – lépésről‑lépésre útmutató](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
 ### [DOCX konvertálása markdown formátumba az Aspose.Words for Java használatával](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+### [DOCX konvertálása Markdownra – Teljes lépésről‑lépésre útmutató](./convert-docx-to-markdown-complete-step-by-step-guide/)
+### [DOCX konvertálása Markdownra – Teljes útmutató](./convert-docx-to-markdown-complete-guide/)
+### [Hogyan használja az Aspose-t: DOCX konvertálása PDF-re Java‑ban – Teljes útmutató](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

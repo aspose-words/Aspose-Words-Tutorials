@@ -86,6 +86,9 @@ AI を活用して LLM を設定し、DOCX 内のテキストを自動的に置�
 ### [Java 用文法チェッカー構築 – 完全ステップバイステップガイド](./build-grammar-checker-java-complete-step-by-step-guide/)
 
 Java で文法チェッカーを構築し、AI を活用した高度な校正機能を実装する完全ガイドです。
+### [Java で Word ドキュメントを要約する – 完全ステップバイステップガイド](./summarize-word-document-in-java-complete-step-by-step-guide/)
+
+Java と Aspose.Words を使って、Word 文書を自動要約する手順を詳しく解説します。
 
 ## 追加リソース
 

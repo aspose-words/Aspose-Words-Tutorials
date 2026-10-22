@@ -147,6 +147,8 @@ Java kullanarak ActiveX kontrolü ekleyerek bir CommandButton oluşturmayı öğ
 
 ### [Java ile Word belgesi oluştur – şekli gizle ve dolgu rengini ayarla](./create-word-document-java-hide-shape-and-set-fill-color/)
 Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlamayı öğrenin.
+### [Java ile Word Belgesini Kaydet – Gölge Efektiyle Dikdörtgen Şekil Ekle](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Java ile Word belgesini kaydederken gölge efektiyle dikdörtgen şekil eklemeyi öğrenin.
 
 ## Ek Kaynaklar
 

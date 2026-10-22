@@ -76,6 +76,8 @@ AI 文档处理将传统的文档操作（合并、格式化、转换）与机�
 学习如何在 Java 中使用 Aspose.Words 创建 Word 文档，并集成自定义大语言模型进行实时语法检查。
 ### [构建语法检查器 Java – 完整分步指南](./build-grammar-checker-java-complete-step-by-step-guide/)
 一步步教您使用 Aspose.Words for Java 构建语法检查器，实现自动化文本校对功能。
+### [在 Java 中对 Word 文档进行摘要 – 完整分步指南](./summarize-word-document-in-java-complete-step-by-step-guide/)
+一步步教您使用 Aspose.Words for Java 对 Word 文档进行自动摘要，提升文档处理效率。
 
 ## 其他资源
 

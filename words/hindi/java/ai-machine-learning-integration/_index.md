@@ -74,6 +74,8 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 कस्टम LLM का उपयोग करके जावा में दस्तावेज़ बनाते समय व्याकरण जांच को एकीकृत करने का तरीका सीखें।
 ### [Java में व्याकरण जाँचकर्ता बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./build-grammar-checker-java-complete-step-by-step-guide/)
 Java में व्याकरण जाँचकर्ता बनाने के लिए चरण‑दर‑चरण मार्गदर्शन, Aspose.Words और AI का उपयोग करके।
+### [जावा में Word दस्तावेज़ का सारांश – पूर्ण चरण‑दर‑चरण गाइड](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word फ़ाइल को स्वचालित रूप से सारांशित करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

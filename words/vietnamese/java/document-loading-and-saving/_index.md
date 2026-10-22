@@ -139,6 +139,9 @@ Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua h
 ### [Cách Lưu Tệp DOCX bằng Java – Hướng Dẫn Chèn Content Control](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 
 
+### [Cách thiết lập callback trong Aspose.Words Java – Phát hiện và Xử lý phông chữ bị thiếu](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Học cách thiết lập callback để phát hiện và xử lý các phông chữ thiếu khi tải tài liệu bằng Aspose.Words cho Java.
+
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Cách khôi phục docx – Hướng dẫn toàn diện để đọc tệp Word bị hỏng](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng, đọc nội dung và lưu lại bằng Aspose.Words cho Java.
@@ -175,6 +178,7 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
 
 ### [Khôi phục DOCX bị hỏng với Aspose.Words cho Java – Hướng dẫn toàn diện](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+### [Khôi phục docx bị hỏng trong Java – Hướng dẫn toàn diện](./recover-corrupted-docx-in-java-complete-guide/)
 
 ## Câu Hỏi Thường Gặp
 

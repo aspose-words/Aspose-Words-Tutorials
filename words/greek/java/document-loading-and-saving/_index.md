@@ -153,6 +153,9 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Πώς να φορτώσετε Markdown σε Java – Πλήρης Οδηγός](./how-to-load-markdown-in-java-complete-guide/)
 
 ### [Πώς να ορίσετε επιλογές στο Aspose.Words για Java – πλήρης οδηγός](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide/)
+### [Ανάκτηση κατεστραμμένου docx σε Java – Πλήρης Οδηγός](./recover-corrupted-docx-in-java-complete-guide/)
+### [πώς να ορίσετε callback στο Aspose.Words Java – Εντοπισμός και Διαχείριση Ελλειπουσών Γραμματοσειρών](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Συχνές Ερωτήσεις
 

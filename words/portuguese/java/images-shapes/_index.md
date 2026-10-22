@@ -142,6 +142,8 @@ Um tutorial de código para inserir um CommandButton usando Aspose.Words ActiveX
 
 ### [Criar documento Word Java – ocultar forma e definir cor de preenchimento](./create-word-document-java-hide-shape-and-set-fill-color/)
 Aprenda a ocultar uma forma e definir sua cor de preenchimento em documentos Word usando Aspose.Words para Java.
+### [Salvar documento Word – Adicionar forma retangular com sombra](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Aprenda a salvar um documento Word após inserir uma forma retangular com efeito de sombra usando Aspose.Words para Java.
 
 ## Recursos adicionais
 

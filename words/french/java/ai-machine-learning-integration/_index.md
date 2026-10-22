@@ -76,6 +76,8 @@ Apprenez à créer votre propre modèle d'IA et à l'utiliser pour modifier auto
 Apprenez à générer des documents Word en Java et à intégrer un LLM personnalisé pour corriger automatiquement la grammaire.
 ### [Créer un correcteur grammatical Java – Guide complet étape par étape](./build-grammar-checker-java-complete-step-by-step-guide/)
 Apprenez à créer un correcteur grammatical en Java avec Aspose.Words, en intégrant l'IA pour détecter et corriger les erreurs de texte.
+### [Résumer un document Word en Java – Guide complet étape par étape](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Apprenez à résumer automatiquement des documents Word en Java en utilisant Aspose.Words et les services d'IA, avec un guide complet pas à pas.
 
 ## Ressources supplémentaires
 

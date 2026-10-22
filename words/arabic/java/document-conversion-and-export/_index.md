@@ -152,6 +152,8 @@ weight: 22
 
 ### [حفظ docx كـ markdown: تحويل docx إلى markdown باستخدام Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 تعلم كيفية حفظ مستندات DOCX كملفات Markdown باستخدام Aspose.Words لجافا.
+### [حفظ Word كملف Markdown في Java – دليل شامل](./save-word-as-markdown-in-java-complete-guide/)
+دليل شامل لحفظ مستندات Word كملفات Markdown باستخدام Aspose.Words for Java.
 
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
@@ -178,6 +180,8 @@ weight: 22
 تعلم كيفية حفظ مستند Word كملف PDF مع الحفاظ على الأشكال المضمنة باستخدام Aspose.Words for Java.
 ### [تحويل docx إلى pdf في Java – دليل شامل خطوة بخطوة](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
 دليل شامل يوضح كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+### [حفظ المستند كملف PDF – دليل كامل لـ Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+دليل شامل لحفظ المستند كملف PDF باستخدام Aspose.Words for Java مع أمثلة خطوة بخطوة.
 
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
@@ -382,6 +386,11 @@ weight: 22
 
 ### [كيفية حفظ Markdown كملف DOCX باستخدام Aspose.Words للـ Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 تعلم كيفية تحويل ملفات Markdown إلى مستندات DOCX باستخدام Aspose.Words for Java خطوة بخطوة.
+### [إنشاء PDF UA باستخدام Aspose.Words – دليل شامل](./create-pdf-ua-with-aspose-words-complete-guide/)
+دليل كامل لإنشاء ملفات PDF مع دعم اللغة العربية (UA) باستخدام Aspose.Words في Java.
+
+### [تعيين عدد الصفحات لكل ورقة في تحويل Word إلى PNG – دليل شامل](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+دليل شامل لتعيين عدد الصفحات لكل ورقة عند تحويل مستند Word إلى صور PNG باستخدام Aspose.Words.
 
 ## الأسئلة المتكررة
 

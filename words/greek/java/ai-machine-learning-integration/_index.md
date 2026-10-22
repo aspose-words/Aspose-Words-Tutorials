@@ -75,6 +75,8 @@ weight: 20
 
 ### [Δημιουργία Ελεγκτή Γραμματικής Java – Πλήρης Οδηγός Βήμα‑βήμα](./build-grammar-checker-java-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έναν ελεγκτή γραμματικής σε Java χρησιμοποιώντας το Aspose.Words, ενσωματώνοντας AI για ανίχνευση λαθών.
+### [Συνοψίστε Έγγραφο Word σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να συνοψίσετε έγγραφα Word σε Java χρησιμοποιώντας Aspose.Words και μοντέλα AI, βήμα‑βήμα.
 
 ## Πρόσθετοι Πόροι
 

@@ -124,6 +124,8 @@ Naučte se, jak vytvořit prázdný dokument a přidat do něj tvary pomocí Asp
 Naučte se, jak vložit obrázek do DOCX a poté jej skrýt ve Wordu pomocí Aspose.Words pro Javu.
 ### [Jak seskupit tvary ve Wordu s Javou – kompletní průvodce](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Uložit Word dokument v Javě – Přidat obdélníkový tvar se stínem](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Naučte se, jak uložit Word dokument a přidat do něj obdélníkový tvar se stínem pomocí Aspose.Words pro Javu.
 
 ### [Přidat stín k tvaru v Javě – Kompletní programovací průvodce](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.

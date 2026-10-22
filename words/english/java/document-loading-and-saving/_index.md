@@ -191,6 +191,9 @@ Step‑by‑step guide to recover corrupted DOCX files using Aspose.Words for Ja
 
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
+### [Recover corrupted docx in Java – Complete Guide]({{< relref "recover-corrupted-docx-in-java-complete-guide/_index.md" >}})
+Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
 ### [set recovery mode to recover broken Word document](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -225,7 +228,6 @@ Learn how to load files from a directory using Aspose.Words in C#.
 ### [How to set options in Aspose.Words for Java – complete guide](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Comprehensive guide on configuring load and save options in Aspose.Words for Java to control document processing behavior.
 
-## Frequently Asked Questions
 ### [Determining Document Format in Aspose.Words for Java]({{< relref "determining-document-format/_index.md" >}})
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
@@ -259,6 +261,8 @@ Learn how to repair corrupted DOCX files and process them using Aspose.Words for
 Learn how to repair corrupted DOCX files using Aspose.Words for Java with step‑by‑step instructions and code examples.
 
 ### [Capture font substitution warnings in java with Aspose.Words – complete guide]({{< relref "capture-font-substitution-warnings-in-java-with-aspose-words/_index.md" >}})
+### [how to set callback in Aspose.Words Java – Detect and Handle Missing Fonts]({{< relref "how-to-set-callback-in-aspose-words-java-detect-and-handle-m/_index.md" >}})
+Learn how to set a callback in Aspose.Words for Java to detect missing fonts and handle them gracefully during document processing.
 
 ## Frequently asked questions
 

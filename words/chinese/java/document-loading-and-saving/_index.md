@@ -180,6 +180,10 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [如何在 Aspose.Words for Java 中设置选项 – 完整指南](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 全面介绍在 Java 中使用 Aspose.Words 设置加载和保存选项的步骤与示例。
 
+### [如何在 Aspose.Words Java 中设置回调 – 检测并处理缺失字体](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+
+### [在 Java 中恢复损坏的 docx – 完整指南](./recover-corrupted-docx-in-java-complete-guide/)
+
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)
 学习如何捕获字体替换警告并检测文档中缺失的字体，以确保文档渲染一致性。

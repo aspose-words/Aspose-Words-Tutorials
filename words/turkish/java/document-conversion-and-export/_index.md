@@ -160,6 +160,8 @@ Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekil
 
 ### [Java’da docx'i pdf'e dönüştürme – Tam Adım‑Adım Kılavuz](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
 Java’da Aspose.Words for Java kullanarak docx dosyalarını PDF’ye hızlı ve eksiksiz bir şekilde dönüştürün.
+### [Belgeyi PDF Olarak Kaydet – Tam Aspose.Words Kılavuzu](./save-document-as-pdf-complete-aspose-words-guide/)
+Aspose.Words for Java kullanarak belgeyi PDF formatına kaydetmeyi adım adım öğrenin.
 
 ### [DOCX'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişilebilirlik özelliklerini ayarlamayı adım adım öğrenin.
@@ -370,6 +372,14 @@ Word belgesinden PNG formatında görüntü kaydetmeyi adım adım öğrenin.
 
 ### [Aspose.Words for Java ile Markdown'ı DOCX Olarak Kaydetme](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Markdown dosyasını DOCX formatına dönüştürerek belge oluşturmayı adım adım öğrenin.
+### [Java’da Word Belgesini Markdown Olarak Kaydetme – Tam Kılavuz](./save-word-as-markdown-in-java-complete-guide/)
+Java’da Aspose.Words kullanarak Word belgelerini Markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [Aspose.Words ile PDF UA Oluşturma – Tam Kılavuz](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aspose.Words for Java kullanarak PDF/UA (Erişilebilir PDF) oluşturmayı adım adım öğrenin.
+
+### [Word'de Sayfa Başına Sayfa Sayısını PNG Dönüşümünde Ayarlama – Tam Kılavuz](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Aspose.Words for Java kullanarak Word belgelerini PNG'ye dönüştürürken sayfa başına sayfa sayısını nasıl ayarlayacağınızı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 
