@@ -280,6 +280,8 @@
 学习使用 Aspose.Words 将包含 LaTeX 方程的 docx 文档转换并保存为 txt 文件。
 ### [如何恢复 DOCX 并转换为 Markdown 与 PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 学习如何使用 Aspose.Words for Python 恢复损坏的 DOCX 并将其转换为 Markdown 和 PDF。
+### [如何保存 PDF 并将 DOCX 转换为 Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+学习使用 Aspose.Words for Python 将 PDF 保存并将 DOCX 文件转换为 Markdown，轻松实现格式转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

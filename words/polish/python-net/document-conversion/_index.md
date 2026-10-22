@@ -276,6 +276,8 @@ Dowiedz się, jak przy użyciu Aspose.Words dla Pythona konwertować pliki docx 
 Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument docx jako plik txt zachowując równania LaTeX.
 ### [Jak odzyskać DOCX i przekonwertować na Markdown i PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na formaty Markdown oraz PDF.
+### [Jak zapisać PDF i przekonwertować DOCX na Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument PDF i przekonwertować DOCX na Markdown.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

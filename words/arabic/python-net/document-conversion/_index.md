@@ -211,6 +211,8 @@
 تعلم كيفية حفظ مستندات docx كملفات txt مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words لبايثون.
 ### [كيفية استعادة DOCX وتحويله إلى Markdown و PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 تعلم كيفية إصلاح ملفات DOCX التالفة وتحويلها إلى صيغتي Markdown و PDF باستخدام Aspose.Words لبايثون.
+### [كيفية حفظ PDF وتحويل DOCX إلى Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+تعلم كيفية حفظ ملفات PDF وتحويل مستندات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

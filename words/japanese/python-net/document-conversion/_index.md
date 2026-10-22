@@ -281,6 +281,8 @@ Aspose.Words for Python を利用し、Word 文書を PDF に変換して保存�
 docx をアクセシビリティ対応の PDF に変換する手順を Python で解説します。
 ### [DOCX を復元し、Markdown と PDF に変換する方法](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 破損した DOCX を復元し、Markdown と PDF へ変換する手順を解説します。
+### [PDF を保存し、DOCX を Markdown に変換する方法](./how-to-save-pdf-and-convert-docx-to-markdown/)
+PDF を保存し、DOCX を Markdown に変換する手順を Python で解説します。簡単に実装可能です！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

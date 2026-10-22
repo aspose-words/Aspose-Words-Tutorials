@@ -214,6 +214,8 @@ Aprenda a converter arquivos DOCX em arquivos TXT usando Aspose.Words para Pytho
 Aprenda a converter arquivos DOCX em TXT preservando equações LaTeX com Aspose.Words para Python.
 ### [Como Recuperar DOCX e Converter para Markdown e PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 Aprenda a recuperar arquivos DOCX corrompidos e convertê-los para Markdown e PDF usando Aspose.Words para Python.
+### [Como salvar PDF e converter DOCX para Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+Aprenda a salvar documentos como PDF e convertê-los para Markdown a partir de arquivos DOCX usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

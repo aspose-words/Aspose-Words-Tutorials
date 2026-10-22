@@ -278,6 +278,8 @@ Aspose.Words का उपयोग करके पायथन में docx 
 Aspose.Words के साथ docx फ़ाइल को txt में LaTeX समीकरणों सहित सहेजने की पूरी प्रक्रिया।
 ### [DOCX को पुनर्प्राप्त करें और मार्कडाउन व PDF में बदलें](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 DOCX फ़ाइल को ठीक करें और उसे मार्कडाउन व PDF फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+### [PDF को सहेजें और DOCX को मार्कडाउन में परिवर्तित करें](./how-to-save-pdf-and-convert-docx-to-markdown/)
+PDF फ़ाइल को सहेजें और DOCX को मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

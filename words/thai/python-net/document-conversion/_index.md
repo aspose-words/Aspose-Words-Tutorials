@@ -295,6 +295,9 @@
 ### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown และ PDF ด้วย Aspose.Words for Python
 
+### [วิธีบันทึก PDF และแปลง DOCX เป็น Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+เรียนรู้วิธีบันทึกไฟล์ PDF และแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

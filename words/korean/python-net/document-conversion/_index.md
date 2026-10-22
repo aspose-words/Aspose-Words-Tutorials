@@ -288,6 +288,7 @@ Aspose.Words를 활용하여 LaTeX 방정식이 포함된 docx 파일을 텍스�
 
 ### [DOCX 복구 및 Markdown·PDF 변환 가이드](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 손상된 DOCX 파일을 복구하고, 이를 Markdown과 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [PDF 저장 및 DOCX를 Markdown으로 변환하는 방법](./how-to-save-pdf-and-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

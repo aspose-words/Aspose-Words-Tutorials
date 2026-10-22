@@ -298,6 +298,9 @@ Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại 
 ### [Khôi phục DOCX và Chuyển sang Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang định dạng Markdown và PDF bằng Aspose.Words for Python.
 
+### [Cách lưu PDF và chuyển DOCX sang Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
+Hướng dẫn lưu PDF và chuyển đổi DOCX sang Markdown bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
