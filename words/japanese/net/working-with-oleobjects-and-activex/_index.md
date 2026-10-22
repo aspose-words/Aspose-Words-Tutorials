@@ -35,6 +35,7 @@ Aspose.Words for .NET の OLE および ActiveX オブジェクトを使った W
 | [Word文書にコマンドボタンをプログラムで追加する方法](./how-to-add-a-command-button-programmatically-in-a-word-docum/) Aspose.Words for .NET を使用して、Word 文書にコマンドボタンをプログラムで挿入する手順を解説します。 |
 | [プログラムで Word 文書を作成し、ActiveX ボタンを追加する](./create-word-document-programmatically-and-add-activex-button/) |
 | [ActiveX コマンド ボタンを使用して Word 文書を C# で作成する方法](./how-to-create-word-document-with-an-activex-command-button-i/) Aspose.Words for .NET を利用し、C# で ActiveX コマンドボタンを含む Word 文書を作成する手順をステップバイステップで解説します。 |
+| [空白ドキュメントを作成し、AI要約付きActiveXコントロールを追加](./create-blank-document-add-activex-control-with-ai-summary/) Aspose.Words for .NET を使用して、空白の Word 文書を作成し、AI が生成した要約を持つ ActiveX コントロールを追加する手順を解説します。 |
 
 | [Aspose.Words を使用して Word 文書にコマンドボタンを追加する – 完全ガイド](./add-command-button-to-word-document-with-aspose-words-comple/) Aspose.Words for .NET で Word 文書にコマンドボタンを挿入し、設定やイベント処理を行う方法をステップバイステップで解説します。 |
 | [Aspose.Words で Word 文書に ActiveX ボタンを追加する方法](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) Aspose.Words for .NET を使用して Word 文書に ActiveX ボタンを追加する手順をステップバイステップで解説します。 |

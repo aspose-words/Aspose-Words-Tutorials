@@ -42,6 +42,7 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-word-document-programmatically-and-add-activex-button/) | .NET के लिए Aspose.Words का उपयोग करके प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं और ActiveX बटन जोड़ें। |
 | [C# में ActiveX कमांड बटन के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-an-activex-command-button-i/) | .NET के लिए Aspose.Words का उपयोग करके C# में ActiveX कमांड बटन के साथ Word दस्तावेज़ बनाना सीखें। |
 | [C# Word ऑटोमेशन में सबमिट बटन कैसे बनाएं](./how-to-create-submit-button-in-c-word-automation/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में सबमिट बटन जोड़ने की प्रक्रिया सीखें। |
+| [खाली दस्तावेज़ बनाकर AI सारांश के साथ ActiveX नियंत्रण जोड़ें](./create-blank-document-add-activex-control-with-ai-summary/) | खाली दस्तावेज़ बनाकर AI सारांश के साथ ActiveX नियंत्रण जोड़ें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

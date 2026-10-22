@@ -42,6 +42,7 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Créer un document Word programmatique et ajouter un bouton ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Apprenez à créer un document Word par programmation et à y ajouter un bouton ActiveX avec Aspose.Words pour .NET. |
 | [Comment créer un document Word avec un bouton de commande ActiveX en C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Apprenez à créer un document Word contenant un bouton de commande ActiveX en C# avec Aspose.Words pour .NET. |
 | [Comment créer un bouton d’envoi en automatisation Word C#](./how-to-create-submit-button-in-c-word-automation/) | Apprenez à ajouter un bouton de soumission dans un document Word via l’automatisation C# avec Aspose.Words. |
+| [Créer un document vierge, ajouter un contrôle ActiveX avec résumé IA](./create-blank-document-add-activex-control-with-ai-summary/) | Apprenez à créer un document vierge et y ajouter un contrôle ActiveX générant un résumé à l'aide de l'IA avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

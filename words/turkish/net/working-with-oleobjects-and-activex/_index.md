@@ -42,6 +42,7 @@ Bu eğitimler size Aspose.Words for .NET'te OLE ve ActiveX nesneleriyle Word İ�
 | [Word Belgesine Programlı Şekilde Komut Düğmesi Ekleme](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Aspose.Words for .NET kullanarak Word belgesine programlı olarak bir komut düğmesi eklemeyi öğrenin. |
 | [Programlı olarak Word belgesi oluştur ve ActiveX düğmesi ekle](./create-word-document-programmatically-and-add-activex-button/) | Aspose.Words for .NET kullanarak programlı şekilde Word belgesi oluşturup ActiveX düğmesi ekleyin. |
 | [C# Word otomasyonunda gönder düğmesi oluşturma](./how-to-create-submit-button-in-c-word-automation/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde gönder düğmesi eklemeyi öğrenin. |
+| [Boş belge oluştur, AI özetiyle ActiveX denetimi ekle](./create-blank-document-add-activex-control-with-ai-summary/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturup, AI özetine sahip bir ActiveX denetimi ekleyin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

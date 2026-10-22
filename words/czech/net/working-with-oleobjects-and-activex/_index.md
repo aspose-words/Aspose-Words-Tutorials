@@ -42,6 +42,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Vytvořit dokument Word programově a přidat tlačítko ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko ActiveX pomocí Aspose.Words pro .NET. |
 | [Jak vytvořit dokument Word s tlačítkem ActiveX v C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Naučte se, jak vytvořit dokument Word obsahující tlačítko ActiveX pomocí C# a Aspose.Words pro .NET. |
 | [Jak vytvořit tlačítko Odeslat v automatizaci Wordu v C#](./how-to-create-submit-button-in-c-word-automation/) | Naučte se, jak vytvořit tlačítko Odeslat v automatizaci Wordu pomocí C# a Aspose.Words. |
+| [Vytvořit prázdný dokument, přidat ActiveX ovládací prvek s AI souhrnem](./create-blank-document-add-activex-control-with-ai-summary/) | Naučte se vytvořit prázdný dokument a přidat ActiveX ovládací prvek, který generuje AI souhrn. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

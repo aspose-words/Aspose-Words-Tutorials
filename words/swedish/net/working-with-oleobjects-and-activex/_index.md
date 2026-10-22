@@ -41,6 +41,7 @@ Dessa handledningar ger dig en praktisk steg-för-steg-metod för ordbehandling 
 | [Skapa ActiveX-kommandoknapp i Word med C#](./how-to-create-activex-command-button-in-word-using-c/) | Lär dig hur du skapar en ActiveX-kommandoknapp i ett Word-dokument med C# i Aspose.Words för .NET. |
 | [Skapa Word-dokument programatiskt och lägg till ActiveX-knapp](./create-word-document-programmatically-and-add-activex-button/) | Lär dig hur du programatiskt skapar ett Word-dokument och lägger till en ActiveX-knapp med Aspose.Words för .NET. |
 | [Hur man skapar en submit‑knapp i C# Word‑automation](./how-to-create-submit-button-in-c-word-automation/) | Lär dig hur du skapar en submit‑knapp i Word‑automation med C# och Aspose.Words för .NET. |
+| [Skapa tomt dokument, lägg till ActiveX-kontroll med AI-sammanfattning](./create-blank-document-add-activex-control-with-ai-summary/) | Lär dig hur du skapar ett tomt dokument och lägger till en ActiveX‑kontroll med en AI‑genererad sammanfattning i Aspose.Words för .NET. |
 
 | [Hur man lägger till en ActiveX-kontroll i Word med C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Lär dig hur du lägger till en ActiveX-kontroll i ett Word-dokument med C# och Aspose.Words för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
