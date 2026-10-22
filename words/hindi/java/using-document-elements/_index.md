@@ -82,6 +82,8 @@ Java और Aspose.Words का उपयोग करके ActiveX शाम�
 Java में Aspose.Words का उपयोग करके ActiveX कमांड बटन कैसे बनाएं, सीखें।
 ### [Java के लिए एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Java में Aspose.Words का उपयोग करके एक खाली Word फ़ाइल बनाएं और उसमें ActiveX बटन जोड़ें।
+### [जावा के लिए Aspose.Words में ActiveX जोड़ना और Word दस्तावेज़ में पाई चार्ट सम्मिलित करना](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+ActiveX जोड़कर और पाई चार्ट सम्मिलित करके Word दस्तावेज़ को गतिशील बनाना सीखें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)

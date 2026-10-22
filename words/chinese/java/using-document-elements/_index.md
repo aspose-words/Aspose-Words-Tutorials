@@ -132,6 +132,8 @@
 学习如何使用 Aspose.Words for Java 在 Word 文档中创建并自定义图表。
 ### [在 Aspose.Words for Java 中插入饼图 – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
 学习如何使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图，完整步骤指南。
+### [在 Word 文档中添加 ActiveX 并插入饼图](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+学习如何在 Aspose.Words for Java 中使用 ActiveX 并在 Word 文档中插入饼图。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Pelajari cara membuat dokumen Word kosong dan menambahkan kontrol teks biasa men
 
 ### [Cara Mengatur Posisi Tombol dalam Dokumen Word dengan Java](./how-to-set-button-position-in-a-word-document-with-java/)
 Pelajari cara menempatkan tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
+### [Cara Menambahkan ActiveX dan Menyisipkan Diagram Lingkaran di Dokumen Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Pelajari cara menambahkan kontrol ActiveX dan menyisipkan diagram lingkaran ke dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)

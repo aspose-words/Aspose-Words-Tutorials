@@ -86,6 +86,8 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 ### [ActiveX gomb beszúrása Word-ben – Gombfelirat beállítása](./how-to-insert-activex-button-in-word-set-button-caption/)
 Tanuld meg, hogyan szúrj be ActiveX gombot Word dokumentumba, és állítsd be a feliratát lépésről lépésre.
 ### [Docx létrehozása ActiveX-szel Java és Aspose.Words segítségével](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+### [Hogyan adjunk hozzá ActiveX-et és szúrjunk be kördiagramot egy Word dokumentumba](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Ismerd meg, hogyan lehet ActiveX vezérlőt hozzáadni és kördiagramot beilleszteni egy Word dokumentumba az Aspose.Words for Java segítségével.
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)

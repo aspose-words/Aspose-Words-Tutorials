@@ -80,6 +80,8 @@ Java ve Aspose.Words kullanarak ActiveX içeren docx dosyaları oluşturmayı ad
 Java'da Aspose.Words kullanarak ActiveX komut düğmesi eklemeyi adım adım öğrenin.
 ### [Boş bir Word belgesi oluşturun ve ActiveX düğmesi ekleyin (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Java ile boş bir Word dosyası oluşturup içine ActiveX düğmesi eklemeyi öğrenin.
+### [Word belgesine ActiveX ekleme ve pasta grafiği ekleme](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Word belgesine ActiveX ekleyip pasta grafiği eklemeyi öğrenin. Dinamik ve görsel raporlar oluşturun.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)

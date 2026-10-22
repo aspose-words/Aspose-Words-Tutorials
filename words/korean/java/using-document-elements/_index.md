@@ -86,6 +86,8 @@ Word 문서에 ActiveX 버튼을 삽입하고 캡션을 설정하는 방법을 �
 Java와 Aspose.Words를 활용해 ActiveX 컨트롤이 포함된 DOCX 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 ActiveX 명령 버튼 만들기](./how-to-create-activex-command-button-in-java/)
 Java에서 ActiveX 명령 버튼을 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+### [Word 문서에 ActiveX 추가 및 파이 차트 삽입 방법](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Aspose.Words for Java를 사용하여 Word 문서에 ActiveX 컨트롤을 추가하고 파이 차트를 삽입하는 단계별 가이드입니다.
 ### [Java용 Aspose.Words에서 수정 사항 사용](./using-revisions/)
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)

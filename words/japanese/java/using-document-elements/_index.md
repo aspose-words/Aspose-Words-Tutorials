@@ -48,22 +48,31 @@ Aspose.Words for Javaを使えば、動的なドキュメントを即座に作�
 
 ### [Aspose.Words for Java でのコメントの使用](./using-comments/)
 Aspose.Words for Javaでコメントを使用する方法を学びましょう。ドキュメントにコメントを追加およびカスタマイズするためのステップバイステップのチュートリアルです。
+
 ### [Aspose.Words for Java でのフィールドの使用](./using-fields/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のフィールドを効果的に使用する方法を学びましょう。動的な Word 文書を簡単に作成できます。
+
 ### [Aspose.Words for Java でのフォントの使用](./using-fonts/)
 Aspose.Words for Java のフォント書式設定（サイズ、スタイル、色など）を詳しく見てみましょう。美しくフォーマットされたドキュメントを簡単に作成できます。
+
 ### [Aspose.Words for Java で脚注と文末脚注を使用する](./using-footnotes-and-endnotes/)
 Aspose.Words for Javaで脚注と文末脚注を効果的に使う方法を学びましょう。今すぐドキュメントの書式設定スキルを磨きましょう！
+
 ### [Aspose.Words for Java でのフォームフィールドの使用](./using-form-fields/)
 Aspose.Words for Java を使用して、フォーム フィールドを含むインタラクティブな Word 文書を作成する方法を学びます。今すぐ始めましょう。
+
 ### [Aspose.Words for Java で HarfBuzz を使用する](./using-harfbuzz/)
 Aspose.Words for JavaでHarfBuzzを使って高度なテキストシェーピングを行う方法を学びましょう。このステップバイステップガイドで、複雑なスクリプトにおけるテキストレンダリングを強化しましょう。
+
 ### [Aspose.Words for Java でヘッダーとフッターを使用する](./using-headers-and-footers/)
 Aspose.Words for Javaでヘッダーとフッターの使い方をステップバイステップで学びましょう。プロフェッショナルなドキュメントを簡単に作成できます。
+
 ### [Aspose.Words for Java でハイフネーションを使用する](./using-hyphenation/)
 この包括的なチュートリアルで、Aspose.Words for Java でハイフネーションを効果的に使用する方法を学びましょう。今すぐドキュメントの読みやすさを向上させましょう。
+
 ### [Aspose.Words for Java でリストを使用する](./using-lists/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のリストの使い方を学びましょう。ドキュメントを効果的に整理し、フォーマットしましょう。
+
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
 ### [Aspose.Words for Java のノードの使用](./using-nodes/)
@@ -127,6 +136,9 @@ Javaを使用してWord文書内のボタンの位置を設定する手順を学
 ### [JavaでWord文書にチャートを作成する方法](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 Aspose.Words for Java を使用して、Word 文書にチャートを挿入し、カスタマイズする手順を学びましょう。
 ### [Javaで円グラフを挿入する完全ガイド](./insert-pie-chart-word-in-java-complete-guide/)
+
+### [Word 文書に ActiveX を追加し、円グラフを挿入する方法](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Aspose.Words for JavaでActiveXを追加し、円グラフを文書に挿入する手順を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

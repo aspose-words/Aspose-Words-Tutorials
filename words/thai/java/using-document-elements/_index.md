@@ -128,6 +128,8 @@
 เรียนรู้ขั้นตอนการแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java อย่างละเอียดและครบถ้วน
 ### [วิธีตั้งตำแหน่งปุ่มในเอกสาร Word ด้วย Java](./how-to-set-button-position-in-a-word-document-with-java/)
 เรียนรู้วิธีกำหนดตำแหน่งของปุ่มในเอกสาร Word ด้วย Java อย่างละเอียดในบทช่วยสอนนี้
+### [วิธีเพิ่ม ActiveX และแทรกแผนภูมิวงกลมในเอกสาร Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+เรียนรู้วิธีเพิ่ม ActiveX และสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

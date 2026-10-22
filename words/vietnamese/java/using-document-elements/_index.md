@@ -87,6 +87,8 @@ Hướng dẫn cách tạo đối tượng Forms2OleControl trong mã Java bằn
 ### [Cách tạo nút lệnh ActiveX trong Java](./how-to-create-activex-command-button-in-java/)
 ### [Tạo tài liệu Word trống và thêm nút ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Hướng dẫn tạo tài liệu Word trống và chèn nút ActiveX bằng Aspose.Words cho Java.
+### [Cách thêm ActiveX và chèn biểu đồ tròn vào tài liệu Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Hướng dẫn chi tiết cách tích hợp ActiveX và tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words for Java.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)

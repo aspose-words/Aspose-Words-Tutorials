@@ -53,6 +53,8 @@ Erfahren Sie, wie Sie ein Word-Dokument nach dem Bearbeiten eines Donut-Diagramm
  zum Verwenden von Dokumentelementen
 ### [Wie man ein Kuchendiagramm-Segment in Java explodiert – Aspose.Words Chart-Tutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Erfahren Sie, wie Sie in Aspose.Words für Java ein Kuchendiagramm-Segment hervorheben (explodieren) und anpassen.
+### [ActiveX hinzufügen und ein Kreisdiagramm in ein Word-Dokument einfügen](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Erfahren Sie, wie Sie ActiveX-Steuerelemente einbinden und ein Kreisdiagramm in ein Word-Dokument einfügen.
 ### [Verwenden von Kommentaren in Aspose.Words für Java](./using-comments/)
 Erfahren Sie, wie Sie Kommentare in Aspose.Words für Java verwenden. Schritt-für-Schritt-Anleitung zum Hinzufügen und Anpassen von Kommentaren in Ihren Dokumenten.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)

@@ -132,6 +132,8 @@ Lär dig hur du skapar och infogar ett pajdiagram i ett Word-dokument med Java o
 Lär dig hur du skapar diagram i Word-dokument med Java och Aspose.Words i denna steg-för-steg-handledning.
 ### [Hur man ställer in knappens position i ett Word-dokument med Java](./how-to-set-button-position-in-a-word-document-with-java/)
 Lär dig hur du placerar en knapp i ett Word-dokument med Java. Steg-för-steg-guide för exakt positionering.
+### [Hur man lägger till ActiveX och infogar ett cirkeldiagram i ett Word-dokument](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Lär dig att lägga till ActiveX och infoga ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

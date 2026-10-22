@@ -131,6 +131,7 @@
 Μάθετε πώς να δημιουργήσετε γραφήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Εισαγωγή διαγράμματος πίτας στο Word με Java – πλήρης οδηγός](./insert-pie-chart-word-in-java-complete-guide/)
 Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να προσθέσετε ActiveX και να εισαγάγετε διάγραμμα πίτας σε έγγραφο Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

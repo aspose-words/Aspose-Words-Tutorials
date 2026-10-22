@@ -97,6 +97,8 @@
 ### [在 Aspose.Words for Java 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-java/)
 了解如何使用 Aspose.Words for Java 建立空白 Word 文件，並在其中插入 ActiveX 按鈕，以實現互動功能。
 
+### [在 Aspose.Words for Java 中使用 ActiveX 並插入餅圖](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+學習如何在 Word 文件中加入 ActiveX 控制項並插入餅圖，提升文件互動性與視覺呈現。
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 

@@ -92,6 +92,8 @@ Naučte se, jak vytvořit soubor DOCX s vloženými ActiveX ovládacími prvky p
 Naučte se, jak v Aspose.Words pro Javu vytvořit příkazové tlačítko ActiveX.
 ### [Vytvoření prázdného dokumentu Word a přidání tlačítka ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Naučte se vytvořit prázdný dokument Word a přidat tlačítko ActiveX pomocí Aspose.Words pro Javu.
+### [Jak přidat ActiveX a vložit koláčový graf do dokumentu Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Naučte se přidávat ActiveX a vkládat koláčové grafy do dokumentů Word pomocí Aspose.Words pro Javu.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)

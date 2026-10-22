@@ -71,7 +71,7 @@ Naucz się używać list w Aspose.Words for Java dzięki temu samouczkowi krok p
 ### [Używanie Markdown w Aspose.Words dla Java](./using-markdown/)
 Naucz się używać Markdown w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
 ### [Korzystanie z węzłów w Aspose.Words dla Java](./using-nodes/)
-Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
+Naucz się manipulować węzłami w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
 Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
 ### [Jak wstawić przycisk ActiveX w Word – Ustaw podpis przycisku](./how-to-insert-activex-button-in-word-set-button-caption/)
@@ -82,6 +82,8 @@ Dowiedz się, jak generować dokumenty DOCX z osadzonymi kontrolkami ActiveX prz
 Dowiedz się, jak przy pomocy Aspose.Words for Java dodać wykres kołowy do dokumentu Word w kilku prostych krokach.
 ### [Jak utworzyć przycisk polecenia ActiveX w Javie](./how-to-create-activex-command-button-in-java/)
 Dowiedz się, jak w Aspose.Words dla Java dodać przycisk polecenia ActiveX do dokumentu Word.
+### [Jak dodać ActiveX i wstawić wykres kołowy w dokumencie Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Naucz się dodawać kontrolki ActiveX i wstawiać wykresy kołowe w dokumentach Word przy użyciu Aspose.Words dla Java.
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
