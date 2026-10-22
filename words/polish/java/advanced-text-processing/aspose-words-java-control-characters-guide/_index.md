@@ -59,13 +59,13 @@ Dodaj zależność Maven do swojego `pom.xml` (to jest **aspose words maven setu
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Jeśli wolisz Gradle, użyj następującego fragmentu:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Nabycie licencji
 Aby w pełni wykorzystać Aspose.Words, potrzebny będzie plik licencyjny:
@@ -77,7 +77,7 @@ Po uzyskaniu licencji zainicjalizuj ją w aplikacji Java w następujący sposób
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Przewodnik po implementacji
 Podzielimy naszą implementację na dwie główne funkcje: obsługę powrotów karetki oraz wstawianie znaków kontrolnych.

@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο Word, να διαμορφώσετε ένα προσαρμοσμένο υδατογράφημα κειμένου με συγκεκριμένες ρυθμίσεις γραμματοσειράς, να εφαρμόσετε το υδατογράφημα στο έγγραφο και να αποθηκεύσετε το αποτέλεσμα ως αρχείο .docx χρησιμοποιώντας το API Document.Watermark.SetText.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό αντικείμενο εγγράφου Word με όνομα `document`.
+//ExStepSummary:1: Διαμορφώστε το `watermarkSettings` με γραμματοσειρά Arial 48 pt σε γκρι χρώμα, διαγώνια διάταξη και αδιαφανή απόδοση.
+//ExStepSummary:2: Εφαρμόστε το υδατογράφημα κειμένου "Private" στο `document` χρησιμοποιώντας τις προηγουμένως ορισμένες ρυθμίσεις.
+//ExStepSummary:3: Ορίστε τη διαδρομή αρχείου όπου θα αποθηκευτεί το έγγραφο με υδατογράφημα.
+//ExStepSummary:4: Αποθηκεύστε το τροποποιημένο `document` στην καθορισμένη διαδρομή ως αρχείο .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

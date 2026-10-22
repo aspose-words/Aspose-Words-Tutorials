@@ -1,0 +1,7 @@
+Title: How to use translator to automate document translation in C#
+Slug: how-to-use-translator-to-automate-document-translation-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-07T14:57:29.197338
+SourceRepo: AI Search API
+Keywords: how to use translator, translate docx to spanish, translate word document google, translate word file, automate document translation
+PRNumber: 305

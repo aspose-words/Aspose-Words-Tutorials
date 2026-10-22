@@ -42,10 +42,26 @@ Tìm hiểu cách tùy chỉnh chủ đề tài liệu bằng Aspose.Words for J
 ### [Đóng dấu bản quyền tài liệu và thiết lập trang](./document-watermarking-page-setup/)
 Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằng Aspose.Words cho Java. Hướng dẫn toàn diện với mã nguồn.
 ### [Kiểu dáng của Đầu trang và Chân trang Tài liệu](./document-header-footer-styling/)
-Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn.
+### [Cài đặt Phông chữ Mặc định trong Aspose.Words cho Java – Hướng dẫn đầy đủ](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Tìm hiểu cách thiết lập phông chữ mặc định cho tài liệu bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
 ### [Cách phát hiện phông chữ trong tài liệu Word Java – Hướng dẫn toàn diện](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Tìm hiểu cách phát hiện các phông chữ được sử dụng trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn chi tiết với mã nguồn.
+### [Cách đặt bóng cho biểu đồ Word bằng Aspose.Words cho Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Hướng dẫn cách thêm hiệu ứng bóng cho biểu đồ Word bằng Aspose.Words for Java, kèm ví dụ mã nguồn.
+
+### [Cách chỉnh sửa dấu phân cách chú thích trong Java với Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Tìm hiểu cách chỉnh sửa dấu phân cách chú thích trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Tìm hiểu cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện của chúng bằng Aspose.Words cho Java.
+
+### [Cách tạo kiểu chú thích trong Java bằng Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Tìm hiểu cách tạo kiểu cho chú thích trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn chi tiết với mã nguồn.
+### [Thay đổi khoảng cách chú thích trong DOCX – Hướng dẫn toàn diện](./change-footnote-spacing-in-docx-complete-guide/)
+Tìm hiểu cách điều chỉnh khoảng cách chú thích trong tài liệu DOCX bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm mã nguồn.
+### [Cách chỉnh sửa chú thích trong Java với Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Tìm hiểu cách chỉnh sửa chú thích trong tài liệu Java bằng Aspose.Words. Hướng dẫn chi tiết với mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

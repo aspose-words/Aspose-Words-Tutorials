@@ -43,6 +43,12 @@
 Μάθετε πώς να διαχειρίζεστε τις γραμματοσειρές σε εφαρμογές Java χρησιμοποιώντας το Aspose.Words. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
 ### [Εκπαίδευση Callback Προειδοποίησης Aspose – Ανίχνευση και Παρακολούθηση Ελλειπόντων Γραμματοσειρών](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε ελλείπουσες γραμματοσειρές χρησιμοποιώντας το callback προειδοποίησης του Aspose.Words για Java.
+### [Πώς να καταγράψετε προειδοποιήσεις – Εντοπισμός ελλιπών γραμματοσειρών στο Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε ελλείψεις γραμματοσειρών κατά την επεξεργασία εγγράφων με το Aspose.Words.
+### [Εύρεση ελλιπών γραμματοσειρών σε Java με Aspose.Words – Πλήρης οδηγός](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Μάθετε πώς να εντοπίζετε και να αντικαθιστάτε ελλιπείς γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Καταχώρηση Callback Προειδοποίησης σε Java – Πλήρης Οδηγός Προγραμματισμού](./register-warning-callback-in-java-complete-programming-guide/)
+Μάθετε πώς να καταχωρήσετε callback προειδοποίησης στο Aspose.Words για Java, βήμα προς βήμα με παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

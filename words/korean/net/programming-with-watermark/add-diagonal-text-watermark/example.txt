@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 새 Word 문서를 생성하고, 특정 글꼴 설정으로 사용자 정의 텍스트 워터마크를 구성한 다음, 해당 워터마크를 문서에 적용하고, Document.Watermark.SetText API를 사용하여 결과를 .docx 파일로 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: `document`라는 이름의 새 빈 Word 문서 인스턴스를 생성합니다.
+//ExStepSummary:1: `watermarkSettings`를 Arial 48pt 회색 글꼴, 대각선 레이아웃, 불투명 렌더링으로 구성합니다.
+//ExStepSummary:2: 앞서 정의한 설정을 사용하여 텍스트 워터마크 \"Private\"를 `document`에 적용합니다.
+//ExStepSummary:3: 워터마크가 적용된 문서를 저장할 파일 경로를 정의합니다.
+//ExStepSummary:4: 수정된 `document`를 지정된 경로에 .docx 파일로 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

@@ -43,6 +43,12 @@ Tìm hiểu cách chuyển đổi tài liệu sang HTML dễ dàng với Aspose.
 Tìm hiểu cách quản lý và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho Java, bao gồm các ví dụ thực tế.
 ### [Hướng dẫn callback cảnh báo Aspose – Phát hiện và theo dõi phông chữ thiếu](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Tìm hiểu cách sử dụng callback cảnh báo để phát hiện và theo dõi các phông chữ thiếu trong tài liệu.
+### [Cách bắt cảnh báo – Phát hiện phông chữ thiếu trong Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Hướng dẫn phát hiện và xử lý các cảnh báo khi tài liệu thiếu phông chữ bằng Aspose.Words cho Java.
+### [Tìm phông chữ thiếu trong Java với Aspose.Words – Hướng dẫn toàn diện](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Khám phá cách phát hiện và thay thế các phông chữ thiếu trong tài liệu Word khi sử dụng Aspose.Words cho Java.
+### [Đăng ký Callback Cảnh báo trong Java – Hướng dẫn Lập trình Toàn diện](./register-warning-callback-in-java-complete-programming-guide/)
+Tìm hiểu cách đăng ký callback cảnh báo trong Aspose.Words cho Java để xử lý thông báo và lỗi một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word ドキュメントの作成、列グラフの挿入、サンプルデータの入力、軸線は表示したままプロット領域の枠線を非表示にする方法、そして最終的にドキュメントを保存する手順を示します。
+//ExStepSummary:0: 新しい空の Word ドキュメントと、それを編集するための DocumentBuilder を作成します。
+//ExStepSummary:1: ドキュメントに 432×252 の列グラフを挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: 既存の系列をすべてクリアし、3 つのカテゴリラベルを定義して、サンプル値を持つ系列をグラフに追加します。
+//ExStepSummary:3: プロット領域のストロークの太さを 0 に設定し、枠線を削除しつつ軸線は表示されたままにします。
+//ExStepSummary:4: 変更したドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

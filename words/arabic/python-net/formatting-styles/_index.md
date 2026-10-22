@@ -55,6 +55,9 @@
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 تعلّم كيفية إدارة علامات التبويب بفعالية في مستندات بايثون باستخدام Aspose.Words. يغطي هذا الدليل إضافة علامات التبويب وتخصيصها وإزالتها مع أمثلة عملية.
 
+    ### [كيفية تنسيق المخطط في مستند Word باستخدام Python](./how-to-style-chart-in-a-word-document-using-python/)
+تعلم كيفية تنسيق المخططات داخل مستندات Word باستخدام Aspose.Words للغة Python.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

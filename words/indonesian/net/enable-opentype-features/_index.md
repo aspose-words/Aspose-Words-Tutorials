@@ -24,6 +24,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word dengan Aspose.Words – Panduan Langkah‑demi‑Langkah](./create-word-document-with-aspose-words-step-by-step-guide/) | Pelajari cara membuat dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah yang mudah diikuti. |
 
 | [Buat Dokumen Word dengan Font Variabel – Panduan](./create-word-document-with-variable-font-guide/) | Pelajari cara membuat dokumen Word menggunakan font variabel dengan panduan langkah demi langkah ini. |
+| [Gunakan Font Berat Variabel di C# – Panduan Pemrograman Lengkap](./use-variable-weight-font-in-c-complete-programming-guide/) | Pelajari cara menggunakan font dengan berat variabel di C# menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

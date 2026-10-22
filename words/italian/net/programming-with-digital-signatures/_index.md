@@ -25,11 +25,12 @@ Con questi tutorial, imparerai a padroneggiare le funzionalità di firma digital
 | [Firma documento Word](./sign-document/) | Scopri come firmare un documento Word utilizzando Aspose.Words per .NET con questa guida passo passo. Proteggi i tuoi documenti con facilità. |
 | [Firma di un documento Word crittografato](./signing-encrypted-document/) | Scopri come firmare documenti Word crittografati utilizzando Aspose.Words per .NET con questa guida dettagliata e passo passo. Perfetta per gli sviluppatori. |
 | [Creazione e firma di una nuova riga di firma](./creating-and-signing-new-signature-line/) | Scopri come creare e firmare digitalmente una riga di firma in un documento Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per l'automazione dei documenti. |
+| [Come firmare Word con certificato usando Aspose.Words in C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Scopri come firmare un documento Word con certificato utilizzando Aspose.Words per .NET in C# con questa guida passo passo. |
 | [Firma della riga di firma esistente nel documento Word](./signing-existing-signature-line/) | Scopri come firmare una riga di firma esistente in un documento Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata passo passo. Perfetta per gli sviluppatori. |
 | [Imposta l'ID del fornitore della firma nel documento Word](./set-signature-provider-id/) Imposta in modo sicuro un ID fornitore di firme nei documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata di 2000 parole per firmare digitalmente i tuoi documenti. |
 | [Crea una nuova riga di firma e imposta l'ID del fornitore](./create-new-signature-line-and-set-provider-id/) | Scopri come creare una nuova riga per la firma e impostare l'ID del provider nei documenti Word utilizzando Aspose.Words per .NET. Guida dettagliata. |
 | [Accedi e verifica la firma nel documento Word](./access-and-verify-signature/) | Accedi e verifica le firme digitali nei documenti Word utilizzando Aspose.Words per .NET con questa guida completa passo passo. Garantisci l'autenticità dei documenti senza sforzo. |
-
+| [Aggiungi firma digitale a PDF in C# usando Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Scopri come aggiungere una firma digitale a un PDF in C# con Aspose.Words per .NET in pochi passaggi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

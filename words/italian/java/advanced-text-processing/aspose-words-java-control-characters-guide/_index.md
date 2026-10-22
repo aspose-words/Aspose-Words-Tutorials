@@ -59,13 +59,13 @@ Aggiungi la dipendenza Maven al tuo `pom.xml` (questa è la **aspose words maven
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Se preferisci Gradle, usa il seguente snippet:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Acquisizione della licenza
 Per sfruttare appieno Aspose.Words, avrai bisogno di un file di licenza:
@@ -77,7 +77,10 @@ Dopo aver ottenuto la licenza, inizializzala nella tua applicazione Java come se
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Come inserire caratteri di controllo in Java?
+La classe `DocumentBuilder` fornisce metodi per costruire e modificare il contenuto del documento in modo programmatico. Carica il tuo documento, crea un `DocumentBuilder` e chiama i metodi `write` o `insert` appropriati per aggiungere spazi, tabulazioni, interruzioni di riga o interruzioni di pagina. Questo modello a riga singola — `builder.write(ControlChar.TAB)` — copre la maggior parte delle esigenze di layout, e puoi concatenare più chiamate per strutture complesse. Per documenti di grandi dimensioni, l'inserimento batch riduce il carico di elaborazione. `ControlChar` è un'enumerazione di caratteri non stampabili usati per il controllo del layout.
 
 ## Guida all'implementazione
 Divideremo la nostra implementazione in due funzionalità principali: gestione dei ritorni a capo e inserimento di caratteri di controllo.

@@ -1,0 +1,7 @@
+Title: How to hide shape in a Word document using Java
+Slug: how-to-hide-shape-in-a-word-document-using-java
+Category: images-shapes
+ProcessedDate: 2026-10-04T10:50:12.425240
+SourceRepo: AI Search API
+Keywords: how to hide shape, hide shape in word, make shape invisible word, hide shape microsoft word
+PRNumber: 302

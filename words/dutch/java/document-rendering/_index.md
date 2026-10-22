@@ -43,6 +43,12 @@ Leer hoe u moeiteloos documenten naar HTML kunt renderen met Aspose.Words voor J
 Leer hoe u lettertypen beheert in Java‑toepassingen met Aspose.Words, inclusief insluiten, vervangen en aanpassen voor consistente weergave.
 ### [Aspose-waarschuwing callback‑tutorial – Ontdek en volg ontbrekende lettertypen](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Leer hoe u ontbrekende lettertypen detecteert en bijhoudt met de Aspose‑waarschuwing‑callback in Java.
+### [Hoe waarschuwingen vast te leggen – Ontbrekende lettertypen detecteren in Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Leer hoe u waarschuwingen kunt vastleggen en ontbrekende lettertypen detecteert met Aspose.Words.
+### [Ontdek ontbrekende lettertypen in Java met Aspose.Words – Complete gids](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Leer hoe u ontbrekende lettertypen in Java kunt vinden met Aspose.Words. Stapsgewijze handleiding met codevoorbeelden.
+### [Waarschuwingscallback registreren in Java – Complete programmeergids](./register-warning-callback-in-java-complete-programming-guide/)
+Leer hoe u een waarschuwingscallback registreert in Aspose.Words voor Java met een volledige programmeergids en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
