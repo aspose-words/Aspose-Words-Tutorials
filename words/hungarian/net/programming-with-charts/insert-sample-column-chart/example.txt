@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Ez az útmutató bemutatja, hogyan hozhatunk létre egy új Word dokumentumot, szúrjunk be egy alapértelmezett oszlopdiagramot a DocumentBuilder.InsertChart segítségével, szerezzük meg a beágyazott Chart objektumot, és mentsük a dokumentumot .docx fájlba.
+//ExStepSummary:0: Hozzon létre egy üres Word dokumentumot és egy DocumentBuilder objektumot a szerkesztéshez.
+//ExStepSummary:1: Szúrjon be egy 432 × 252 pont méretű oszlopdiagramot a dokumentumba.
+//ExStepSummary:2: A beillesztett alakzatból szerezze meg a Chart objektumot a további testreszabáshoz, ha szükséges.
+//ExStepSummary:3: Mentse a dokumentumot, amely most már tartalmazza a beillesztett oszlopdiagramot, .docx fájlba.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

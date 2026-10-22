@@ -18,6 +18,12 @@
 Procesamiento de texto con marca de agua es un recurso completo que le guía a través del proceso de procesamiento de texto con marcas de agua en documentos de Word utilizando la biblioteca Aspose.Words para .NET. Los tutoriales ofrecen explicaciones paso a paso, código fuente detallado y ejemplos prácticos para agregar, personalizar y administrar marcas de agua en sus documentos de Word. Aprenderá a agregar texto, imágenes, formas o gráficos como marcas de agua, ajustar su posición y apariencia, y opciones avanzadas como agregar marcas de agua personalizadas mediante campos. Este recurso es esencial para desarrolladores que deseen automatizar la administración de marcas de agua en sus documentos de Word utilizando Aspose.Words para .NET.
 
  ## Tutoriales
+
+{{< tutorial-card link="./add-text-watermark/" title="Agregar marca de agua de texto diagonal roja a documentos Word usando Aspose.Words para .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Crear una marca de agua de texto diagonal con fuente personalizada en un documento Word usando Aspose.Words for .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Título | Descripción |
 | --- | --- |
 | [Agregar marca de agua de texto con opciones específicas](./add-text-watermark-with-specific-options/) Aprenda a agregar una marca de agua de texto con opciones específicas a sus documentos de Word con Aspose.Words para .NET. Personalice fácilmente la fuente, el tamaño, el color y el diseño.

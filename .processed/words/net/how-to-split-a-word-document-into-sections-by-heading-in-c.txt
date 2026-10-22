@@ -1,0 +1,7 @@
+Title: How to split a Word document into sections by heading in C#
+Slug: how-to-split-a-word-document-into-sections-by-heading-in-c
+Category: split-document
+ProcessedDate: 2026-10-14T00:08:52.772022
+SourceRepo: AI Search API
+Keywords: split document into sections, how to split word, split word c#, split word by heading, split document by heading
+PRNumber: 321

@@ -49,6 +49,9 @@ Kom ihåg att för detaljerade kodexempel och ytterligare vägledning, se [Aspos
 ### [Tillämpa licenser för Aspose.Words för Java](./applying-licensing/)
 Lär dig hur du ansöker om licens för Aspose.Words för Java steg för steg. Få åtkomst nu och lås upp dess fulla potential.
 
+### [Skapa DocumentConfig i Java – Spåra saknade teckensnitt med Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Lär dig hur du konfigurerar DocumentConfig för att identifiera och logga saknade teckensnitt i dina Java-dokument.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

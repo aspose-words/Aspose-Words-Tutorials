@@ -65,7 +65,16 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ## Tillgängliga handledningar
 
 ### [Behärska textbehandling i Java: Använd Aspose.Words & AI‑modeller för sammanfattning och översättning](./java-aspose-words-text-processing/)
-Lär dig hur du automatiserar textsammanfattning och översättning med Aspose.Words för Java med OpenAI:s GPT‑4 och Googles Gemini. Förbättra dina Java‑applikationer idag.
+
+### [Skapa anpassad AI-modell – Redigera Word‑paragrafer i Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+
+### [Hur man konfigurerar LLM – Ersätt text i DOCX med AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Lär dig konfigurera en stor språkmodell för att automatiskt ersätta text i DOCX-filer med AI‑genererat innehåll.
+
+### [Skapa Word-dokument i Java med anpassad LLM-grammatikgranskning](./create-word-document-java-with-custom-llm-grammar-check/)
+Lär dig skapa Word-dokument i Java och använda en anpassad LLM för grammatikkontroll.
+
+### [Bygg grammatikkontroll i Java – Komplett steg‑för‑steg‑guide](./build-grammar-checker-java-complete-step-by-step-guide/)
 
 ## Ytterligare resurser
 
@@ -93,6 +102,14 @@ A: Validera AI‑utdata innan du infogar den. Använd Aspose.Words `DocumentBuil
 **Q: Behöver jag återträna modeller för domänspecifikt språk?**  
 A: För de flesta användningsfall fungerar förtränade modeller bra. Om du behöver högre noggrannhet, överväg att finjustera en modell på ditt eget korpus och sedan anropa den via samma API.
 
+---
+
+---
+
+**Senast uppdaterad:** 2025-11-25  
+**Testad med Aspose.Words for Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -100,9 +117,3 @@ A: För de flesta användningsfall fungerar förtränade modeller bra. Om du beh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-11-25  
-**Testad med Aspose.Words for Java 24.11  
-**Författare:** Aspose

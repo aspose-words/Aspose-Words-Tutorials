@@ -46,7 +46,7 @@ Il s'agit d'une ressource complète pour apprendre à utiliser les champs dans l
 | [Convertir les champs dans le document](./convert-fields-in-document/) | Apprenez à convertir les champs de vos documents Word avec Aspose.Words pour .NET grâce à ce guide. Suivez notre tutoriel pour gérer et transformer efficacement les champs de vos documents. |
 | [Convertir les champs dans le corps](./convert-fields-in-body/) | Apprenez à utiliser Aspose.Words pour .NET pour convertir les champs de page en texte dans le corps d'un document Word. |
 | [Changer les paramètres régionaux](./change-locale/) Apprenez à modifier les paramètres régionaux de vos documents Word avec Aspose.Words pour .NET grâce à ce guide. Idéal pour gérer des clients et des projets internationaux. |
-
+| [Créer un modèle de facture et fusionner les données avec Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Apprenez à créer un modèle de facture et à fusionner des données avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

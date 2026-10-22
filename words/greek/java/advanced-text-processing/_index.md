@@ -64,6 +64,9 @@ weight: 12
 ### [Κατακτώντας το Aspose.Words Java&#58; Πλήρης Οδηγός για LayoutCollector & LayoutEnumerator για Επεξεργασία Κειμένου](./aspose-words-java-layoutcollector-enumerator-guide/)
 Αποκτήστε τη δύναμη του **LayoutCollector** και του **LayoutEnumerator** του Aspose.Words Java για προχωρημένη επεξεργασία κειμένου. Μάθετε πώς να διαχειρίζεστε αποδοτικά τις διατάξεις εγγράφων, να αναλύετε τη σελιδοποίηση και να ελέγχετε την αρίθμηση σελίδων.
 
+### [Δημιουργία σχήματος ορθογωνίου στο Word με C# – Οδηγός βήμα‑βήμα](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Μάθετε πώς να σχεδιάσετε και να τοποθετήσετε ένα σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for C#.
+
 ## Συνηθισμένες Περιπτώσεις Χρήσης
 
 | Σενάριο | Πώς Βοηθά |

@@ -25,9 +25,7 @@ title: Docx opslaan als markdown & afbeeldingen extraheren – C#‑gids
 url: /nl/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-to keep the same structure.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -26,11 +26,23 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word](./insert-ole-object/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn bằng nội dung nhúng. |
 | [Chèn Đối Tượng Ole Vào Word Với Gói Ole](./insert-ole-object-with-ole-package/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nhúng tệp một cách liền mạch. |
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng](./insert-ole-object-as-icon/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn. |
-| [Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream](./insert-ole-object-as-icon-using-stream/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. |
+| [Chèn đối tượng Ole làm Biểu tượng Sử dụng Stream](./insert-ole-object-as-icon-using-stream/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. |
 | [Đọc Thuộc Tính Active XControl Từ Tệp Word](./read-active-xcontrol-properties/) | Tìm hiểu cách đọc thuộc tính điều khiển ActiveX từ các tệp Word bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Nâng cao kỹ năng tự động hóa tài liệu của bạn. |
+| [Tạo tài liệu Word với nút ActiveX – Hướng dẫn C#](./create-word-document-with-activex-button-c-guide/) | Tìm hiểu cách tạo tài liệu Word có nút ActiveX bằng C# với Aspose.Words cho .NET trong hướng dẫn chi tiết này. |
+| [Tạo nút tài liệu Word với Aspose.Words – Ví dụ mã đầy đủ](./create-word-document-button-with-aspose-words-full-code-exam/) | Tìm hiểu cách tạo nút để tạo tài liệu Word bằng Aspose.Words với ví dụ mã đầy đủ. |
+| [Cách thêm điều khiển ActiveX vào Word với Aspose.Words – hướng dẫn từng bước](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Hướng dẫn chi tiết cách chèn điều khiển ActiveX vào tài liệu Word bằng Aspose.Words. |
+| [Tạo tài liệu Word bằng chương trình và thêm nút ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Hướng dẫn tạo tài liệu Word bằng mã và chèn nút ActiveX vào tài liệu. |
 | [Cách tạo nút gửi trong tự động hoá Word bằng C#](./how-to-create-submit-button-in-c-word-automation/) | Hướng dẫn tạo nút submit trong tự động hoá Word bằng C#. |
 
+| [Thêm Nút Lệnh vào Tài Liệu Word với Aspose.Words – Hướng Dẫn Đầy Đủ](./add-command-button-to-word-document-with-aspose-words-comple/) | Hướng dẫn chi tiết cách chèn và cấu hình nút lệnh trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Cách thêm nút ActiveX vào tài liệu Word bằng Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Hướng dẫn chi tiết cách chèn nút ActiveX vào tài liệu Word bằng Aspose.Words cho .NET. |
+| [Chèn ví dụ OleControlType.CommandButton vào Word](./insert-olecontroltype-commandbutton-example-in-word/) | Hướng dẫn cách chèn đối tượng OleControlType.CommandButton vào tài liệu Word bằng Aspose.Words cho .NET. |
+| [Cách tạo nút lệnh ActiveX trong Word bằng C#](./how-to-create-activex-command-button-in-word-using-c/) | Hướng dẫn tạo nút lệnh ActiveX trong Word bằng C# sử dụng Aspose.Words cho .NET. |
+| [Cách thêm điều khiển ActiveX vào Word bằng C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Hướng dẫn cách chèn điều khiển ActiveX vào tài liệu Word bằng C# sử dụng Aspose.Words. |
+| [Cách thêm nút lệnh vào tài liệu Word bằng lập trình](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Hướng dẫn chèn nút lệnh vào tài liệu Word bằng mã, sử dụng Aspose.Words cho .NET. |
 
+| [Cách chèn nút lệnh OLE vào tài liệu Word bằng C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Hướng dẫn chi tiết cách chèn nút lệnh OLE vào tài liệu Word bằng C# với Aspose.Words. |
+| [Cách tạo tài liệu Word với nút lệnh ActiveX trong C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Hướng dẫn tạo tài liệu Word có nút lệnh ActiveX bằng C# sử dụng Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

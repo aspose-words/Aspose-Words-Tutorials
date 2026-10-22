@@ -1,0 +1,7 @@
+Title: Create blank Word document with placeholder text using C#
+Slug: create-blank-word-document-with-placeholder-text-using-c
+Category: document-manipulation
+ProcessedDate: 2026-10-14T00:37:09.030930
+SourceRepo: AI Search API
+Keywords: create blank word document, set placeholder text, how to create control, write new line, add plain text control
+PRNumber: 322

@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να προσθέσετε αυτόματα ένα κόκκινο διαγώνιο υδατογράφημα κειμένου σε κάθε νέο έγγραφο Word που δημιουργείται σε μια διαδικασία παρτίδας αναφορών χρησιμοποιώντας τις κλάσεις Aspose.Words Document και DocumentBuilder.
+//ExStepSummary:0: Δημιουργήστε το φάκελο \"GeneratedReports\" όπου θα αποθηκευτούν τα αρχεία εξόδου.
+//ExStepSummary:1: Ξεκινήστε έναν βρόχο που θα δημιουργήσει τρία ξεχωριστά έγγραφα.
+//ExStepSummary:2: Δημιουργήστε ένα νέο κενό αντικείμενο εγγράφου Word.
+//ExStepSummary:3: Χρησιμοποιήστε το DocumentBuilder για να γράψετε μια γραμμή τίτλου και μια περιγραφή στο έγγραφο.
+//ExStepSummary:4: Ορίστε την εμφάνιση του υδατογραφήματος, συμπεριλαμβανομένης της γραμματοσειράς, του μεγέθους, του χρώματος και της διαγώνιας διάταξης.
+//ExStepSummary:5: Εφαρμόστε το ρυθμισμένο κόκκινο διαγώνιο υδατογράφημα με το κείμενο \"PROTECTED\" στο έγγραφο.
+//ExStepSummary:6: Αποθηκεύστε το υδατογραφημένο έγγραφο στο φάκελο \"GeneratedReports\" με ένα μοναδικό όνομα αρχείου.
+//ExStepSummary:7: Κλείστε τον βρόχο μετά την επεξεργασία του τρέχοντος εγγράφου.
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

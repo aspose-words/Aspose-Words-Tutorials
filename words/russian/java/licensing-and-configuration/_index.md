@@ -48,6 +48,8 @@
 ## Учебные пособия по лицензированию и настройке
 ### [Применение лицензирования к Aspose.Words для Java](./applying-licensing/)
 Узнайте, как применять лицензирование к Aspose.Words for Java шаг за шагом. Получите доступ сейчас и раскройте весь его потенциал.
+### [Создание DocumentConfig в Java – Отслеживание недостающих шрифтов с Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Узнайте, как создать DocumentConfig в Java и отслеживать недостающие шрифты с помощью Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

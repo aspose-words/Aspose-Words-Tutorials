@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Αυτό το εκπαιδευτικό υλικό δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο Word, να εισάγετε ένα προεπιλεγμένο ραβδόγραμμα με το DocumentBuilder.InsertChart, να αποκτήσετε το ενσωματωμένο αντικείμενο Chart και να αποθηκεύσετε το έγγραφο σε αρχείο .docx.
+//ExStepSummary:0: Δημιουργήστε ένα κενό έγγραφο Word και ένα DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα ραβδόγραμμα μεγέθους 432 × 252 σημείων στο έγγραφο.
+//ExStepSummary:2: Ανακτήστε το αντικείμενο Chart από το εισαχθέν σχήμα για περαιτέρω προσαρμογή, εάν χρειάζεται.
+//ExStepSummary:3: Αποθηκεύστε το έγγραφο, το οποίο τώρα περιέχει το εισαχθέν ραβδόγραμμα, σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

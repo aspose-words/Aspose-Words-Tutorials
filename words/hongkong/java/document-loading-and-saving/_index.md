@@ -80,14 +80,18 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 文件設定是提供符合需求文件的關鍵。學習如何調整頁面大小、邊距、字型等設定，以達到理想的輸出效果。
 
 ## 相關教學 – 載入、儲存與轉換
-
 ### [使用 Aspose.Words for Java 載入與儲存 HTML 文件](./loading-and-saving-html-documents/)
 
 ### [使用 Aspose.Words for Java 的載入選項](./using-load-options/)
 
+### [如何在 Aspose.Words for Java 中設定選項 – 完整指南](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
 ### [設定 Aspose.Words for Java 的 RTF 載入選項](./configuring-rtf-load-options/)
 
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)
+
+### [在 Java 中載入 Markdown 底線 – 完整程式指南](./load-markdown-underline-in-java-complete-programming-guide/)
+### [如何在 Java 中載入 Markdown – 完整指南](./how-to-load-markdown-in-java-complete-guide/)
 
 ### [進階儲存選項與 Aspose.Words for Java](./advance-saving-options/)
 
@@ -103,6 +107,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 將文件儲存為 OOXML 格式](./saving-documents-as-ooxml-format/)
 
+### [如何使用 Java 儲存 DOCX 檔案 – 插入內容控制項指南](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
 ### [使用 Aspose.Words for Java 將文件儲存為 PCL 格式](./saving-documents-as-pcl-format/)
 
 ### [使用 Aspose.Words for Java 將文件儲存為 PDF](./saving-documents-as-pdf/)
@@ -111,11 +117,61 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 將文件儲存為文字檔](./saving-documents-as-text-files/)
 
+### [儲存 Word 文件 – 設定字體、處理缺少的字體](./save-word-document-set-font-settings-handle-missing-fonts/)
+
 ### [使用 Aspose.Words for Java 判斷文件格式](./determining-document-format/)
+
+### [如何使用 Aspose.Words 恢復 docx – 啟用復原模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+
+- [如何復原 DOCX – 設定復原模式與顯示警告](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+### [如何復原 docx – 使用 Java 儲存復原後的文件](./how-to-recover-docx-save-recovered-document-using-java/)
+
+- [如何使用 Aspose.Words 復原 DOCX 檔案 – 步驟指南](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [使用 Aspose.Words for Java 復原 DOCX – 載入損毀檔案的復原選項](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [在 Java 中建立載入選項 – 偵測缺少字型與如何載入 DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
+### [設定復原模式以修復損壞的 Word 文件](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [修復損壞的 docx – 完整指南：修復與處理文件](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [如何恢復 DOCX 檔案 – 步驟說明 Java 指南](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [開啟損壞的 Word 文件 – 在 Java 中設定復原模式](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [使用 Aspose.Words for Java 復原損壞的 docx](./recover-corrupted-docx-using-aspose-words-java/)
+### [使用 Aspose.Words 復原損壞的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [在 Java 中修復損壞的 DOCX – 完整程式指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [使用 Aspose.Words for Java 復原損壞的 DOCX – 完整指南](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
+### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [使用 Aspose.Words for Java 復原 docx – 啟用復原模式並閱讀警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+### [使用 Aspose.Words for Java 復原損壞的 Word 文件 – 完整 Java 指南](./recover-broken-word-document-complete-java-guide/)
+
+### [捕捉字體替換警告 – 偵測缺少的字體](./capture-font-substitution-warnings-detect-missing-fonts/)
+
+### [恢復 Word 文件 – 完整指南：在 Java 中設定復原模式](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [在 Java 中註冊警告回呼 – 追蹤缺少字體](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [使用 Aspose.Words for Java 偵測缺少字體替換 – 完整指南](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [使用 Aspose.Words for Java 復原損毀的 Word 文件 – 指南](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [警告回呼教學 – 在 Java 中載入 Word 文件](./warning-callback-tutorial-load-word-document-in-java/)
+
+### [使用 Aspose.Words for Java 記錄字體替換警告](./log-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [設定 LoadOptions 以捕獲警告 – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [使用 Aspose.Words for Java 建立空白 Word 文件 – 完整指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
+
+### [使用 Aspose.Words for Java 字體替換教學 – 處理缺少字體](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [使用 Aspose.Words for Java LoadOptions 復原損壞的 Word 文件](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
+### [如何使用 Aspose.Words 在 C# 中從目錄載入檔案](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## 常見問題
 

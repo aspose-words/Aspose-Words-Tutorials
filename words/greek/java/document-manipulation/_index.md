@@ -76,10 +76,20 @@
 Κύριος χειρισμός εύρους εγγράφων στο Aspose.Words για Java. Μάθετε να διαγράφετε, να εξάγετε και να μορφοποιείτε κείμενο με αυτόν τον ολοκληρωμένο οδηγό.
 ### [Χρήση ετικετών δομημένων εγγράφων (SDT) στο Aspose.Words για Java](./using-structured-document-tags/)
 Μάθετε πώς να χρησιμοποιείτε τις ετικέτες δομημένων εγγράφων (SDT) στο Aspose.Words για Java με αυτόν τον ολοκληρωμένο οδηγό. Δημιουργήστε, τροποποιήστε και συνδέστε SDT σε προσαρμοσμένα δεδομένα XML.
+### [Δημιουργία νέου εγγράφου Word – Οδηγός βήμα‑βήμα για την προσθήκη δομημένης ετικέτας](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Μάθετε πώς να δημιουργήσετε ένα νέο έγγραφο Word και να προσθέσετε δομημένη ετικέτα με απλά βήματα.
 ### [Χρήση στυλ και θεμάτων στο Aspose.Words για Java](./using-styles-and-themes/)
 Μάθετε πώς να βελτιώσετε τη μορφοποίηση εγγράφων με το Aspose.Words για Java. Εξερευνήστε στυλ, θέματα και πολλά άλλα σε αυτόν τον ολοκληρωμένο οδηγό με παραδείγματα πηγαίου κώδικα.
 ### [Δημιουργία Πίνακα Περιεχομένων στο Aspose.Words για Java](./generating-table-of-contents/)
 Μάθετε πώς να δημιουργείτε και να προσαρμόζετε Πίνακα Περιεχομένων (TOC) χρησιμοποιώντας το Aspose.Words για Java. Δημιουργήστε οργανωμένα και επαγγελματικά έγγραφα χωρίς κόπο.
+### [Δημιουργία κουμπιού ActiveX σε docx με Java – πλήρης προγραμματιστικός οδηγός](./create-docx-activex-button-in-java-complete-programming-guid/)
+Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα docx χρησιμοποιώντας Java.
+### [Προσθήκη ελέγχου περιεχομένου σε έγγραφο Word με Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία κενής εγγράφου με διαδραστικό κουμπί εντολής στο Word με Java](./create-blank-document-with-an-interactive-command-button-in/)
+Δημιουργήστε ένα κενό έγγραφο Word με διαδραστικό κουμπί εντολής χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία κενής Word εγγράφου σε Java με Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Προστασία εγγράφων στο Aspose.Words για Java](./protecting-documents/)
 Μάθετε πώς να ασφαλίσετε τα έγγραφα Java Word σας με το Aspose.Words για Java. Προστατέψτε τα δεδομένα σας με κωδικό πρόσβασης και πολλά άλλα.
 ### [Διαχωρισμός εγγράφων σε σελίδες στο Aspose.Words για Java](./splitting-documents-into-pages/)
@@ -90,6 +100,8 @@
 Μάθετε πώς να διαχωρίζετε έγγραφα σε σελίδες HTML με το Aspose.Words για Java. Ακολουθήστε τον αναλυτικό οδηγό μας για απρόσκοπτη μετατροπή εγγράφων.
 ### [Προσθήκη περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words για Java](./adding-content-using-documentbuilder/)
 Δημιουργία εγγράφων Master με Aspose.Words για Java. Ένας οδηγός βήμα προς βήμα για την προσθήκη κειμένου, πινάκων, εικόνων και άλλων. Δημιουργήστε εκπληκτικά έγγραφα Word χωρίς κόπο.
+### [Πώς να αποθηκεύσετε docx με DocumentBuilder και να προσθέσετε κείμενο μετά από έναν έλεγχο](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Μάθετε πώς να αποθηκεύσετε ένα αρχείο docx με DocumentBuilder και να εισάγετε κείμενο αμέσως μετά από έναν έλεγχο.
 ### [Κλωνοποίηση και συνδυασμός εγγράφων στο Aspose.Words για Java](./cloning-and-combining-documents/)
 Μάθετε πώς να κλωνοποιείτε και να συνδυάζετε έγγραφα στο Aspose.Words για Java. Οδηγός βήμα προς βήμα με παραδείγματα πηγαίου κώδικα.
 ### [Σύγκριση εγγράφων στο Aspose.Words για Java](./comparing-documents/)
@@ -104,6 +116,19 @@
 Βελτιστοποιήστε τη διαχείριση εγγράφων με το Aspose.Words για Java. Μάθετε να εργάζεστε με ιδιότητες εγγράφων, να προσθέτετε προσαρμοσμένα μεταδεδομένα και πολλά άλλα σε αυτό το ολοκληρωμένο σεμινάριο.
 ### [Χρήση επεκτάσεων ιστού στο Aspose.Words για Java](./using-web-extensions/)
 Βελτιώστε τα έγγραφα με επεκτάσεις ιστού στο Aspose.Words για Java. Μάθετε να ενσωματώνετε απρόσκοπτα περιεχόμενο ιστού. 
+### [Πώς να δημιουργήσετε ένα έγγραφο Word σε Java με το Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word από το μηδέν χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Επισήμανση προσβασιμότητας PDF σε Java – Δημιουργία προσβάσιμων PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Μάθετε πώς να δημιουργείτε προσβάσιμα PDF με ετικέτες προσβασιμότητας χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε ένα κενό έγγραφο Word με έλεγχο κειμένου](./how-to-create-a-blank-word-document-with-a-text-control/)
+Δημιουργήστε ένα κενό έγγραφο Word και προσθέστε έλεγχο κειμένου.
+### [Πώς να δημιουργήσετε έγγραφο Word προγραμματιστικά με το Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Μάθετε πώς να δημιουργήσετε προγραμματιστικά ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία εγγράφου Word με έλεγχο απλού κειμένου](./create-word-document-with-a-plain-text-content-control/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει έναν έλεγχο απλού κειμένου χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε κενό έγγραφο Word με Aspose.Words για Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

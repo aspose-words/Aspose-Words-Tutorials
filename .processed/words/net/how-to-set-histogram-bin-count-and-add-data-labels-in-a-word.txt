@@ -1,0 +1,7 @@
+Title: How to set histogram bin count and add data labels in a Word chart using C#
+Slug: how-to-set-histogram-bin-count-and-add-data-labels-in-a-word
+Category: programming-with-charts
+ProcessedDate: 2026-10-14T00:08:44.313475
+SourceRepo: AI Search API
+Keywords: set histogram bin count, add data labels histogram, how to update word chart, enable chart data labels, load word document c#
+PRNumber: 321
