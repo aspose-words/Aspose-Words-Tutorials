@@ -30,6 +30,7 @@ Whether you want to create documents compatible with older versions of Word, red
 | [Update Last Saved Time Property](./update-last-saved-time-property/) | Learn how to update the last saved time property in Word documents using Aspose.Words for .NET. Follow our detailed, step-by-step guide. |
 | [Keep Legacy Control Chars](./keep-legacy-control-chars/) | Learn how to preserve legacy control characters in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 | [Set Compression Level](./set-compression-level/) | Learn how to set the compression level in Word documents using Aspose.Words for .NET. Follow our step-by-step guide to optimize your document storage and performance. |
+| [How to change Word document encoding with Aspose.Words in C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Learn how to modify the encoding of Word documents using Aspose.Words for .NET in C#. Follow our step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

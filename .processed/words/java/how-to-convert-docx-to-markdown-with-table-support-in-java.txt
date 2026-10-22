@@ -1,0 +1,7 @@
+Title: How to convert docx to markdown with table support in Java
+Slug: how-to-convert-docx-to-markdown-with-table-support-in-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-10-04T10:50:16.049538
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, how to export tables, how to set markdown, save word as markdown, how to convert docx
+PRNumber: 302

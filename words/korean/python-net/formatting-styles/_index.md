@@ -55,6 +55,9 @@ Aspose.Words for Python을 사용하여 단락 테두리를 효율적으로 제�
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Aspose.Words를 사용하여 Python 문서에서 탭 정지를 효과적으로 관리하는 방법을 알아보세요. 이 가이드에서는 실제 예제를 통해 탭 정지를 추가, 사용자 지정 및 제거하는 방법을 다룹니다.
 
+    ### [Python을 사용하여 Word 문서에서 차트 스타일링하는 방법](./how-to-style-chart-in-a-word-document-using-python/)
+Python과 Aspose.Words를 활용해 Word 문서 내 차트의 색상, 레이아웃 및 서식을 맞춤 설정하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

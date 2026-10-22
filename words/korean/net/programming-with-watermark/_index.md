@@ -18,6 +18,12 @@
 워터마크를 사용한 워드 프로세싱(Words Processing with Watermark)은 Aspose.Words for .NET 라이브러리를 사용하여 Word 문서에 워터마크를 사용하는 워드 프로세싱 과정을 안내하는 포괄적인 리소스입니다. 이 튜토리얼에서는 Word 문서에 워터마크를 추가, 사용자 지정 및 관리하는 방법에 대한 단계별 설명, 자세한 소스 코드, 그리고 실제 예제를 제공합니다. 텍스트, 이미지, 도형 또는 그래픽을 워터마크로 추가하고, 위치와 모양을 조정하는 방법, 그리고 필드를 사용하여 사용자 지정 워터마크를 추가하는 등의 고급 옵션을 배우게 됩니다. 이 리소스는 Aspose.Words for .NET을 사용하여 Word 문서에서 워터마크 관리를 자동화하려는 개발자에게 필수적입니다.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./add-text-watermark/" title="Aspose.Words for .NET을 사용하여 Word 문서에 빨간 대각선 텍스트 워터마크 추가" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Aspose.Words for .NET을 사용하여 Word 문서에 사용자 정의 글꼴로 대각선 텍스트 워터마크 만들기" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | 제목 | 설명 |
 | --- | --- |
 | [특정 옵션으로 텍스트 워터마크 추가](./add-text-watermark-with-specific-options/) | Aspose.Words for .NET을 사용하여 Word 문서에 특정 옵션으로 텍스트 워터마크를 추가하는 방법을 알아보세요. 글꼴, 크기, 색상 및 레이아웃을 간편하게 사용자 지정할 수 있습니다. |

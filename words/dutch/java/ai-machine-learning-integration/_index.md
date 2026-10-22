@@ -67,6 +67,13 @@ Exporteer het verrijkte document naar het formaat dat je nodig hebt—PDF, DOCX,
 ### [Beheers tekstverwerking in Java: Aspose.Words & AI‑modellen gebruiken voor samenvatting en vertaling](./java-aspose-words-text-processing/)
 Leer hoe je tekstsamenvatting en vertaling kunt automatiseren met Aspose.Words voor Java en OpenAI's GPT‑4 en Google's Gemini. Verbeter vandaag nog je Java‑applicaties.
 
+### [Aangepast AI‑model maken – Word‑paragrafen bewerken in Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Leer hoe je een aangepast AI‑model bouwt en Word‑paragrafen programmeermatig bewerkt met Aspose.Words voor Java.
+### [Word-document maken in Java met aangepaste LLM-grammatica-controle](./create-word-document-java-with-custom-llm-grammar-check/)
+Leer hoe je met Aspose.Words voor Java een Word‑document genereert en automatisch grammatica‑controles uitvoert via een aangepast LLM.
+### [Bouw Grammaticacontroleur Java – Complete Stapsgewijze Gids](./build-grammar-checker-java-complete-step-by-step-guide/)
+Leer hoe je een grammaticacontroleur bouwt in Java met Aspose.Words, inclusief AI‑integratie voor foutdetectie en correcties.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words for Java Documentatie](https://reference.aspose.com/words/java/)
@@ -93,6 +100,14 @@ A: Valideer de AI‑output voordat je deze invoegt. Gebruik de `DocumentBuilder`
 **Q: Moet ik modellen opnieuw trainen voor domeinspecifieke taal?**  
 A: Voor de meeste use cases werken voorgetrainde modellen goed. Als je hogere nauwkeurigheid nodig hebt, overweeg dan een model te fine‑tunen op je eigen corpus en het vervolgens via dezelfde API aan te roepen.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -100,9 +115,3 @@ A: Voor de meeste use cases werken voorgetrainde modellen goed. Als je hogere na
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

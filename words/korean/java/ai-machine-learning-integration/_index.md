@@ -66,6 +66,13 @@ Aspose.Words를 사용하면 새로운 `DocumentBuilder`를 생성하고 원하�
 ### [Java에서 텍스트 처리 마스터&#58; Aspose.Words 및 AI 모델을 사용한 요약 및 번역](./java-aspose-words-text-processing/)
 OpenAI의 GPT‑4와 Google Gemini를 활용하여 Aspose.Words for Java로 텍스트 요약 및 번역을 자동화하는 방법을 배웁니다. 오늘 바로 Java 애플리케이션을 강화하세요.
 
+### [맞춤형 AI 모델 만들기 – Java에서 Word 단락 편집](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+AI 모델을 커스터마이징하여 Java에서 Word 문서의 단락을 자동으로 편집하는 방법을 배웁니다.
+### [Custom LLM 문법 검사를 사용한 Java 워드 문서 생성](./create-word-document-java-with-custom-llm-grammar-check/)
+Custom LLM을 활용해 문법 검사를 수행하고, Aspose.Words for Java로 워드 문서를 자동으로 생성하는 방법을 배웁니다.
+### [Java 문법 검사기 구축 – 완전 단계별 가이드](./build-grammar-checker-java-complete-step-by-step-guide/)
+Aspose.Words와 AI를 활용해 Java에서 문법 검사기를 구현하는 전체 과정을 단계별로 안내합니다.
+
 ## 추가 리소스
 
 - [Aspose.Words for Java 문서](https://reference.aspose.com/words/java/)
@@ -92,6 +99,14 @@ A: 삽입하기 전에 AI 출력물을하세요. Aspose.Words의 `DocumentBuilde
 **Q: 도메인 특화 언어를 위해 모델을 재학습해야 하나요?**  
 A: 대부분의 경우 사전 학습된 모델로 충분합니다. 더 높은 정확도가 필요하면 자체 코퍼스에 모델을 파인튜닝한 뒤 동일한 API로 호출하는 것을 고려하세요.
 
+---
+
+---
+
+**마지막 업데이트:** 2025-11-25  
+**테스트 환경:** Aspose.Words for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -99,9 +114,3 @@ A: 대부분의 경우 사전 학습된 모델로 충분합니다. 더 높은 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-11-25  
-**테스트 환경:** Aspose.Words for Java 24.11  
-**작성자:** Aspose

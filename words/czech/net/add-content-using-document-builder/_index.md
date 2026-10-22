@@ -32,6 +32,7 @@ Tato příručka se ponoří do všestrannosti třídy DocumentBuilder a krok za
 
 {{< tutorial-card link="./insert-table-contents/" title="Vytvořte dokument Word s obsahem v .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Vytvořte více dokumentů Word pomocí Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Dưới đây là một chương trình Java tối thiểu tạo một tài liệu rỗng:
 
+Lớp `Document` là đối tượng cốt lõi đại diện cho PDF, Word hoặc bất kỳ tệp hỗ trợ nào trong bộ nhớ. Sau khi thêm phụ thuộc Maven, bạn có thể khởi tạo nó như sau:
 ```java
 import com.aspose.words.Document;
 
@@ -99,6 +100,8 @@ Với thư viện đã sẵn sàng, chúng ta sẽ đi sâu vào các tính năn
 #### Tổng quan
 Tạo một `GlossaryDocument` bên trong tài liệu chính cho phép bạn quản lý các từ điển, kiểu dáng và các phần tùy chỉnh trong một container sạch sẽ, tách biệt.
 
+#### Cách khởi tạo tài liệu bảng chú giải?
+Tạo một thể hiện `Document` chính, sau đó gắn một `GlossaryDocument` để quản lý các mục bảng chú giải trong một tệp duy nhất, thống nhất. GlossaryDocument đại diện cho phần bảng chú giải của tài liệu Word, lưu trữ các mục như mục bảng chú giải, chú thích cuối và các phần tùy chỉnh.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -122,6 +125,8 @@ public class DocumentInitialization {
 #### Tổng quan
 Bạn có thể áp dụng một tông màu đồng nhất cho mọi trang bằng cách sử dụng `Document.setPageColor`. Điều này trực tiếp đáp ứng từ khóa chính **đặt màu nền trang**.
 
+#### Cách đặt màu nền trang?
+Sử dụng phương thức `setPageColor()` trên đối tượng `Document`, truyền vào giá trị `java.awt.Color` đại diện cho màu mong muốn.
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -148,6 +153,8 @@ public class SetPageBackgroundColor {
 #### Tổng quan
 Khi cần kết hợp nội dung từ nhiều nguồn, bạn có thể nhập toàn bộ một phần (hoặc bất kỳ node nào) từ tài liệu này sang tài liệu khác. Đây là cốt lõi của **gộp các phần tài liệu** và **nhập phần từ tài liệu**.
 
+#### Cách nhập một phần từ tài liệu nguồn?
+Gọi `importNode()` trên `Document` đích, cung cấp node cần nhập và một `ImportFormatMode` xác định cách xử lý kiểu dáng.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -177,11 +184,13 @@ public class ImportNode {
 
 **Mẹo chuyên nghiệp:** Sau khi nhập, bạn có thể gọi `dstDoc.updatePageLayout()` để đảm bảo các ngắt trang và phần đầu/chân trang được tính lại chính xác.
 
-### Tính năng 4: Nhập Node với Chế độ Định dạng Tùy chỉnh
+### Tính năng 4: nhập node với chế độ định dạng tùy chỉnh
 
 #### Tổng quan
 Đôi khi nguồn và đích sử dụng các định nghĩa kiểu khác nhau. `ImportFormatMode` cho phép bạn quyết định giữ lại các kiểu của nguồn hoặc buộc sử dụng các kiểu của đích.
 
+#### Cách áp dụng chế độ nhập định dạng tùy chỉnh?
+Xác định `ImportFormatMode` mong muốn khi gọi `importNode()`. Điều này cho phép bạn kiểm soát việc giữ hay ghi đè định dạng nguồn. ImportFormatMode là một enum định nghĩa cách định dạng được xử lý trong quá trình nhập node, như giữ kiểu nguồn hoặc sử dụng kiểu đích.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -212,6 +221,8 @@ public class ImportNodeCustom {
 #### Tổng quan
 Ngoài màu đồng nhất, bạn có thể nhúng các hình dạng hoặc hình ảnh làm nền trang. Ví dụ này thêm một hình sao đỏ, nhưng bạn có thể thay thế bằng bất kỳ hình ảnh nào để **tạo hình nền tài liệu**.
 
+#### Cách chèn hình dạng nền?
+Tạo một `Shape` loại `ShapeType.IMAGE`, đặt bố cục của nó thành `WRAP_NONE`, và thêm vào header hoặc footer của tài liệu để nó xuất hiện phía sau mọi văn bản. Shape đại diện cho một đối tượng vẽ như hình ảnh, hộp văn bản hoặc hình học có thể được đặt ở bất kỳ vị trí nào trong tài liệu.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -271,6 +282,6 @@ public class SetBackgroundShape {
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

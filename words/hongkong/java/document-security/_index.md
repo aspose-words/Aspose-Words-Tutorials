@@ -39,8 +39,26 @@
 了解如何使用 Aspose.Words for Java 加密和解密文件。透過逐步指導和原始程式碼範例有效地保護您的資料。
 ### [文件中的數位簽名](./digital-signatures-in-documents/)
 了解如何使用 Aspose.Words for Java 在文件中實作安全數位簽章。透過逐步指導和原始碼確保文件的完整性
+### [如何使用 X509 憑證在 C# 中簽署 Word 文件](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+了解如何使用 Aspose.Words for C# 透過 X509 憑證簽署 Word 文件，確保文件完整性與安全性。
+### [如何在 Word 文件中添加數位簽名](./how-to-add-a-digital-signature-to-a-word-document/)
+了解如何使用 Aspose.Words for Java 為 Word 文件添加數位簽章，確保文件完整性與身份驗證。
 ### [文檔編輯和資料保護](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保護您的文件並編輯敏感資料。帶有原始程式碼的分步指南。
+### [使用 Aspose.Words 在 Java 中簽署 Word 文件 – 完整指南](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+了解如何使用 Aspose.Words for Java 為 Word 文件添加數位簽章，完整步驟與範例代碼。
+### [如何在 C# 中簽署 DOCX 檔案 – 完整步驟指南](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+使用 Aspose.Words for C# 簽署 DOCX 檔案，提供完整步驟說明與範例程式碼，確保文件安全與完整性。
+### [如何使用 PFX 憑證簽署 docx 檔案 – 步驟說明](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+本教學說明如何使用 Aspose.Words for Java 透過 PFX 憑證對 docx 檔案進行簽名，提供完整範例與步驟。
+### [如何使用 Aspose.Words 為 Word 文件添加數位簽章](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+了解如何使用 Aspose.Words 為 Word 文件添加安全的數位簽章，保護文件完整性與真實性。
+### [如何使用 Java 為 Word 文件添加數位簽名](./how-to-digitally-sign-word-document-using-java/)
+使用 Aspose.Words for Java 為 Word 文件實作數位簽章，確保文件完整性與真實性。
+### [Java 中的 PFX 數位簽章檔案完整指南](./digital-signature-pfx-file-in-java-complete-guide/)
+了解如何在 Java 中使用 Aspose.Words 產生與驗證 PFX 數位簽章檔案，提供完整步驟與範例程式碼。
+### [如何在 Java 中簽署 docx 文件 – 步驟說明指南](./how-to-sign-docx-in-java-step-by-step-guide/)
+了解如何在 Java 中使用 Aspose.Words 為 docx 文件簽名的逐步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

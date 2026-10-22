@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words を使用して Word 文書を作成し、固定列幅のテーブルを構築し、垂直方向の配置とテキストの向きを適用し、正確な行の高さを設定し、セルにテキストを入力し、最後に文書を保存する方法を示します。
+//ExStepSummary:0: テーブルの構築に使用する新しい Document と DocumentBuilder をインスタンス化します。
+//ExStepSummary:1: 新しいテーブルを開始し、最初のセルを挿入し、列幅を固定して自動調整されないようにします。
+//ExStepSummary:2: 現在のセル内のコンテンツを垂直方向に中央揃えにし、1 行目の最初のセルのテキストを書き込みます。
+//ExStepSummary:3: 1 行目の2 番目のセルを挿入し、そのテキストを書き込みます。
+//ExStepSummary:4: 1 行目を閉じて、レイアウトを確定します。
+//ExStepSummary:5: 2 行目の最初のセルを開始し、行の高さを正確に 100 ポイントに設定し、テキストを上向きに回転させ、セルのテキストを書き込みます。
+//ExStepSummary:6: 2 行目の2 番目のセルを挿入し、テキストを下向きに回転させ、セルのテキストを書き込みます。
+//ExStepSummary:7: 2 行目を閉じて、テーブルの2 行目を完成させます。
+//ExStepSummary:8: テーブルの構築を終了し、テーブル構造を確定します。
+//ExStepSummary:9: 完成した文書を .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

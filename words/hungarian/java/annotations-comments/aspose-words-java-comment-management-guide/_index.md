@@ -52,12 +52,12 @@ Megjegyzés hozzáadása Java‑ban azt jelenti, hogy létrehozunk egy `Comment`
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Licenc beszerzése
 Az Aspose.Words kereskedelmi termék. Kezdhetsz egy ingyenes 30‑napos próbaidőszakkal, vagy kérhetsz ideiglenes licencet értékeléshez. A részletekért látogasd meg a [purchase page](https://purchase.aspose.com/buy) oldalt.
@@ -72,20 +72,20 @@ Az Aspose.Words kereskedelmi termék. Kezdhetsz egy ingyenes 30‑napos próbaid
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **2. lépés:** Megjegyzés létrehozása és hozzáadása  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **3. lépés:** Válasz hozzáadása a megjegyzéshez  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### 2. funkció: Összes megjegyzés kiíratása
 **Áttekintés** – Lekéri minden felső‑szintű megjegyzést és annak válaszait áttekintés céljából.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **1. lépés:** Dokumentum betöltése  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **2. lépés:** Megjegyzések lekérése és kiíratása  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### 3. funkció: Hogyan töröljük a megjegyzés‑válaszokat Java‑ban
 **Áttekintés** – Megmutatja, **hogyan töröljük a megjegyzés‑válaszokat**, hogy a dokumentum rendezett maradjon.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **2. lépés:** Válaszok eltávolítása  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **2. lépés:** A megjegyzés „kész” jelölése  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### 5. funkció: UTC dátum és idő lekérése a megjegyzésből
 **Áttekintés** – Lekéri a megjegyzés pontos UTC időbélyegét, ami ideális auditnaplókhoz.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **2. lépés:** Mentés és az UTC dátum lekérése  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Gyakorlati alkalmazások
 - **Kollaboratív szerkesztés:** A csapatok közvetlenül a generált jelentésekben adhatnak hozzá és válaszolhatnak megjegyzésekre.  

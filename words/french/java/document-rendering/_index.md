@@ -45,6 +45,10 @@ Apprenez à gérer les polices dans vos documents Java avec Aspose.Words, inclua
 Apprenez à gérer les avertissements de polices manquantes avec Aspose.Words pour Java grâce à un callback personnalisé.
 ### [Comment capturer les avertissements – détecter les polices manquantes dans Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Apprenez à intercepter les avertissements et à identifier les polices manquantes lors du rendu avec Aspose.Words.
+### [Trouver les polices manquantes en Java avec Aspose.Words – Guide complet](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Apprenez à détecter et remplacer les polices manquantes dans vos documents Word avec Aspose.Words pour Java.
+### [Enregistrement du rappel d'avertissement en Java – Guide complet de programmation](./register-warning-callback-in-java-complete-programming-guide/)
+Apprenez à enregistrer un rappel d'avertissement avec Aspose.Words pour Java. Guide complet avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word جديد، وتكوين علامة مائية نصية مخصصة بإعدادات خط محددة، وتطبيق العلامة المائية على المستند، وحفظ النتيجة كملف .docx باستخدام واجهة برمجة التطبيقات Document.Watermark.SetText.
+//ExStepSummary:0: أنشئ مثيلاً جديداً فارغاً لمستند Word باسم `document`.
+//ExStepSummary:1: قم بتكوين `watermarkSettings` باستخدام خط Arial بحجم 48 نقطة ولون رمادي، وتخطيط قطري، وعرض غير شفاف.
+//ExStepSummary:2: طبق العلامة المائية النصية \"Private\" على `document` باستخدام الإعدادات المحددة مسبقاً.
+//ExStepSummary:3: حدد مسار الملف الذي سيتم حفظ المستند المائي عليه.
+//ExStepSummary:4: احفظ الـ `document` المعدل إلى المسار المحدد كملف .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd
