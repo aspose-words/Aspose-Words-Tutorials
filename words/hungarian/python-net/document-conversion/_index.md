@@ -215,6 +215,8 @@ Ismerje meg, hogyan menthet docx fájlokat txt‑be LaTeX egyenletekkel az Aspos
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown és PDF formátumba Python segítségével.
 ### [Hogyan mentse a PDF-et és konvertálja a DOCX-et Markdown formátumba](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Ismerje meg, hogyan menthet PDF-et, és konvertálhatja a DOCX fájlokat Markdown formátumba Python segítségével.
+### [DOCX konvertálása Markdown formátumba az Aspose.Words segítségével Pythonban](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdown formátumba az Aspose.Words for Python használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

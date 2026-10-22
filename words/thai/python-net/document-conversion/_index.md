@@ -298,6 +298,9 @@
 ### [วิธีบันทึก PDF และแปลง DOCX เป็น Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 เรียนรู้วิธีบันทึกไฟล์ PDF และแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Python
 
+### [แปลง docx เป็น markdown ด้วย Aspose.Words ใน Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

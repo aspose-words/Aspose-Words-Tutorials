@@ -73,7 +73,6 @@ Aspose.Words for Python kullanarak Word belgelerini PDF'ye dönüştürün ve er
 ### [Word'den Markdown Kaydet – PDF/A‑UA Dışa Aktarma ile Tam Kılavuz](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aspose.Words for Python kullanarak Word belgelerini Markdown formatına kaydedin ve PDF/A‑UA uyumlu dosyalar oluşturun.
 ### [Word'den PDF/UA Oluşturma – Adım Adım Kılavuz](./create-pdf-ua-from-word-step-by-step-guide/)
-Aspose.Words for Python kullanarak Word belgelerinden PDF/UA dosyaları oluşturmayı adım adım öğrenin.
 ### [DOCX'i Markdown Olarak Kaydet – Denklemleri LaTeX'e Aktarmak İçin Hızlı Python Kılavuzu](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
 Aspose.Words for Python kullanarak DOCX dosyalarındaki denklemleri LaTeX formatına dönüştürerek Markdown'a kaydedin.
 
@@ -282,6 +281,7 @@ Aspose.Words for Python kullanarak docx dosyalarını txt formatına nasıl dön
 Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve aynı anda Markdown ve PDF formatlarına dönüştürün.
 ### [PDF'yi Kaydetme ve DOCX'i Markdown'a Dönüştür – Tam Python Kılavuzu](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Aspose.Words for Python kullanarak PDF kaydetmeyi ve DOCX dosyalarını Markdown formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Words ile Python’da docx’i Markdown’a Dönüştürme](./convert-docx-to-markdown-with-aspose-words-in-python/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

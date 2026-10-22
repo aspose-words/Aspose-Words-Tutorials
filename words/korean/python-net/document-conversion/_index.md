@@ -62,6 +62,8 @@ Word 문서를 LaTeX 형식으로 내보내고 DOCX를 Markdown으로 변환하�
 
 ### [Aspose.Words를 사용해 Word 문서에서 LaTeX 내보내기](./how-to-export-latex-from-word-documents-using-aspose-words/)
 Aspose.Words를 활용해 Word 문서를 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용한 docx를 markdown으로 변환하기 - Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Aspose.Words와 Python을 활용해 docx 파일을 markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Word에서 PDF 만들기 – Aspose.Words와 함께하는 완전 Python 가이드](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.

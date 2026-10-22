@@ -1,0 +1,7 @@
+Title: Apply heading style footnotes with Aspose.Words for Java
+Slug: apply-heading-style-footnotes-with-aspose-words-for-java
+Category: annotations-comments
+ProcessedDate: 2026-10-10T19:05:53.445413
+SourceRepo: AI Search API
+Keywords: apply heading style footnotes
+PRNumber: 311

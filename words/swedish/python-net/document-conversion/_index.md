@@ -218,6 +218,8 @@ Lär dig hur du sparar DOCX-filer som TXT med LaTeX‑ekvationer med Aspose.Word
 Lär dig återställa korrupta DOCX-filer och konvertera dem till Markdown och PDF med Aspose.Words för Python.
 ### [Hur man sparar PDF och konverterar DOCX till Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Lär dig hur du sparar PDF och konverterar DOCX till Markdown med Aspose.Words för Python.
+### [Konvertera DOCX till Markdown med Aspose.Words i Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words i Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

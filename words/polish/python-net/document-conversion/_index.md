@@ -279,6 +279,8 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik
 ### [Jak zapisać PDF i przekonwertować DOCX na Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument PDF i przekonwertować DOCX na Markdown.
 
+### [Konwertuj docx do markdown przy użyciu Aspose.Words w Pythonie](./convert-docx-to-markdown-with-aspose-words-in-python/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

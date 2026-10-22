@@ -285,6 +285,9 @@ Leer hoe je beschadigde DOCX-bestanden kunt herstellen en ze naar Markdown en PD
 ### [Hoe PDF op te slaan en DOCX naar Markdown te converteren](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Leer hoe je PDF's opslaat en DOCX-bestanden converteert naar Markdown met Aspose.Words voor Python.
 
+### [DOCX naar Markdown converteren met Aspose.Words in Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Leer hoe je DOCX-bestanden naar Markdown converteert met Aspose.Words voor Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

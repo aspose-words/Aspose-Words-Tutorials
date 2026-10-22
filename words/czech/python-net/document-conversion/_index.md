@@ -217,6 +217,8 @@ Naučte se uložit soubor DOCX jako TXT a zachovat LaTeX rovnice pomocí Aspose.
 Naučte se opravit poškozené soubory DOCX a převést je do formátů Markdown a PDF pomocí Aspose.Words pro Python.
 ### [Jak uložit PDF a převést DOCX na Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Naučte se uložit dokument jako PDF a převést soubory DOCX do formátu Markdown pomocí Aspose.Words pro Python.
+### [Převod docx na markdown pomocí Aspose.Words v Pythonu](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Naučte se převést soubory DOCX na Markdown pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

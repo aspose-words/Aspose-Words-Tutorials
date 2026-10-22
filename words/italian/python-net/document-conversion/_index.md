@@ -287,6 +287,9 @@ Scopri come riparare file DOCX danneggiati e convertirli sia in Markdown che in 
 ### [Come salvare PDF e convertire DOCX in Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Scopri come salvare documenti PDF e trasformare file DOCX in Markdown usando Aspose.Words per Python.
 
+### [Converti docx in markdown con Aspose.Words in Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Scopri come convertire file DOCX in Markdown usando Aspose.Words per Python. Guida passo passo per una conversione semplice ed efficace.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

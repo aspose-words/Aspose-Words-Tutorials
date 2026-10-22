@@ -220,6 +220,8 @@
 Μάθετε πώς να επαναφέρετε αρχεία DOCX και να τα μετατρέψετε σε Markdown και PDF με το Aspose.Words για Python.
 ### [Πώς να αποθηκεύσετε PDF και να μετατρέψετε DOCX σε Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Μάθετε πώς να αποθηκεύσετε PDF και να μετατρέψετε αρχεία DOCX σε Markdown με το Aspose.Words για Python.
+### [Μετατροπή docx σε markdown με Aspose.Words σε Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

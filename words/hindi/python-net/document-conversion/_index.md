@@ -281,6 +281,9 @@ DOCX फ़ाइल को ठीक करें और उसे मार्
 ### [PDF को सहेजें और DOCX को मार्कडाउन में परिवर्तित करें](./how-to-save-pdf-and-convert-docx-to-markdown/)
 PDF फ़ाइल को सहेजें और DOCX को मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
+### [DOCX को मार्कडाउन में बदलें – Aspose.Words के साथ पायथन](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Aspose.Words का उपयोग करके पायथन में DOCX को मार्कडाउन में बदलने का चरण‑दर‑स्टेप मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
