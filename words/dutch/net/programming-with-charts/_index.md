@@ -83,6 +83,9 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Hoe een grafiek in Word te formatteren met C# en aangepaste getalformaten](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Leer hoe u met C# aangepaste getalformaten toepast op grafieken in Word met Aspose.Words. |
 | [Hoe het aantal histogrambins in te stellen en gegevenslabels toe te voegen in een Word‑grafiek met C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Leer hoe u het aantal bins van een histogram instelt en data‑labels toevoegt aan een Word‑grafiek met C#. |
 | [Programmamatig grafieklabels aanpassen in een Word‑document met C#](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Leer hoe u grafieklabels in een Word‑document programmatic kunt aanpassen met C#. |
+| [Radar-diagram maken in een Word-document – volledige C#-handleiding](./create-radar-chart-in-a-word-document-complete-c-guide/) | Leer hoe u een radardiagram in een Word-document invoegt met Aspose.Words voor .NET via een volledige C#-stapsgewijze handleiding. |
+| [Maak een taartdiagram in een Word-document met Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Leer hoe u een taartdiagram in een Word-document maakt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
+| [Hoe een radardiagram te maken en een diagram toe te voegen aan Word met C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Leer hoe u een radardiagram maakt en toevoegt aan een Word-document met Aspose.Words voor .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

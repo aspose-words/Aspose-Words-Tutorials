@@ -55,6 +55,10 @@ Scopri come aggiungere ombra a un grafico Word con Aspose.Words per Java. Esempi
 Scopri come personalizzare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per Java.
 ### [Come esplodere una fetta in un grafico Word e personalizzarne l'aspetto](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Scopri come far esplodere una sezione di un grafico Word e personalizzarne l'aspetto con Aspose.Words per Java. Esempi di codice inclusi.
+### [Modifica della spaziatura delle note a piè di pagina in DOCX – Guida completa](./change-footnote-spacing-in-docx-complete-guide/)
+Scopri come modificare la spaziatura delle note a piè di pagina nei documenti DOCX con Aspose.Words per Java. Esempi di codice inclusi.
+### [Come modificare la nota a piè di pagina in Java con Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Scopri come modificare le note a piè di pagina nei documenti usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

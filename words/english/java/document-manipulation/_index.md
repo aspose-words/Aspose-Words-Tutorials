@@ -102,12 +102,16 @@ Learn how to add content controls to Word documents using Aspose.Words for Java.
 Master Document Creation with Aspose.Words for Java. A Step-by-Step Guide to Adding Text, Tables, Images, and More. Create Stunning Word Documents Effortlessly.
 ### [How to save docx with DocumentBuilder and add text after a control](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Learn how to save a DOCX file using DocumentBuilder and insert text immediately after a content control in Aspose.Words for Java.
+### [How to create blank word document with Aspose.Words for Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Create a blank Word document using Aspose.Words for Java with simple code examples.
 ### [Cloning and Combining Documents in Aspose.Words for Java](./cloning-and-combining-documents/)
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
 ### [Create blank document with an interactive command button in Word using Java](./create-blank-document-with-an-interactive-command-button-in/)
 Learn how to create a blank Word document with an interactive command button using Aspose.Words for Java.
 ### [Comparing Documents in Aspose.Words for Java](./comparing-documents/)
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
+### [Create New Word Document – Step‑by‑Step Guide to Adding a Structured Tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Learn how to create a new Word document and add a Structured Document Tag (SDT) using Aspose.Words for Java with clear code examples.
 ### [Formatting Documents in Aspose.Words for Java](./formatting-documents/)
 Learn the art of formatting documents in Aspose.Words for Java with our comprehensive guide. Explore powerful features and enhance your document processing skills.
 ### [Joining and Appending Documents in Aspose.Words for Java](./joining-and-appending-documents/)
@@ -123,6 +127,8 @@ Learn how to add an ActiveX button to a DOCX file using Aspose.Words for Java wi
 Learn to generate a Word document in Java using Aspose.Words with clear examples and best practices.
 ### [How to create word document programmatically with Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Learn to generate Word documents programmatically using Aspose.Words for Java.
+### [Create blank word document in Java with Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Create a blank Word document using Aspose.Words for Java. Simple step-by-step guide with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

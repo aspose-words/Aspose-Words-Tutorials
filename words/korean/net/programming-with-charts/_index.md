@@ -63,6 +63,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [C#를 사용하여 열 차트와 서식이 지정된 레이블이 포함된 Word 문서 만들기](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aspose.Words for .NET을 활용해 열 차트와 서식이 적용된 레이블을 포함한 Word 문서를 C#으로 만드는 방법을 단계별로 안내합니다. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |
 | [Word 문서에 거품형 차트 삽입](./insert-bubble-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 거품형 차트를 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 더욱 풍성하게 만들어 보세요. |
+| [Aspose.Words로 파이 차트가 포함된 Word 문서 만들기](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 분산형 차트 삽입](./insert-scatter-chart/) | Aspose.Words for .NET을 사용하여 Word에 분산형 차트를 삽입하는 방법을 알아보세요. 시각적 데이터 표현을 문서에 통합하는 간단한 단계입니다. |
 | [Aspose.Words를 사용하여 Word 문서에 파이 차트 만들기](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [C#에서 맞춤형 파이 차트가 포함된 Word 문서 만들기](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 맞춤형 파이 차트를 포함한 Word 문서를 만드는 방법을 단계별로 안내합니다. |
@@ -86,6 +87,8 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [C#에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [C#를 사용하여 Word 라인 차트에서 시리즈 서식 지정하는 방법](./how-to-format-series-in-a-word-line-chart-with-c/) | Aspose.Words for .NET을 활용해 Word 라인 차트의 데이터 시리즈를 C# 코드로 서식 지정하는 단계별 가이드입니다. |
 | [Aspose.Words를 사용하여 Word에서 히스토그램 만들기](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 히스토그램을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [Word 문서에 레이더 차트 만들기 – 완전 C# 가이드](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 레이더 차트를 삽입하고 사용자 지정하는 전체 단계별 C# 가이드입니다. |
+| [C#를 사용하여 레이더 차트를 만들고 Word에 차트 추가](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aspose.Words for .NET을 활용해 레이더 차트를 생성하고 Word 문서에 삽입하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

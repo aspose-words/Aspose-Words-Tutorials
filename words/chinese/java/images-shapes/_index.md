@@ -124,6 +124,25 @@ Aspose.Words Java 代码教程
 了解如何在 Java 中将图像插入 docx 并在 Word 中隐藏图像。
 ### [使用 Java 在 Word 中对形状进行分组 – 完整指南](./how-to-group-shapes-in-word-with-java-complete-guide/)
 学习如何在 Word 文档中使用 Aspose.Words for Java 对多个形状进行分组，以实现更复杂的布局和设计。
+### [在 Java 中为形状添加阴影 – 完整编程指南](./add-shadow-to-shape-in-java-complete-programming-guide/)
+详细介绍如何使用 Aspose.Words for Java 为文档中的形状添加阴影效果的完整步骤。
+### [使用 Aspose.Words for Java 创建空白 Word 文档并添加组合形状](./create-blank-word-document-with-grouped-shape-java-guide/)
+演示如何使用 Aspose.Words for Java 创建空白文档并在其中插入组合形状，实现复杂布局。
+
+### [使用 Aspose.Words for Java 创建 Word 文档 – 插入并隐藏图像](./create-word-document-java-insert-and-hide-images-with-aspose/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 插入图像并将其隐藏，以实现更灵活的文档布局。
+
+### [在 Java 中插入饼图 – 爆炸、旋转和突出显示切片](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+演示如何使用 Aspose.Words for Java 在文档中插入饼图并对切片进行爆炸、旋转和高亮显示。
+
+### [在 Java 中创建带分组形状的空白 Word 文档](./create-blank-word-document-with-grouped-shapes-in-java/)
+演示如何在 Java 中使用 Aspose.Words 创建空白文档并向其中添加分组形状。
+
+### [Aspose.Words ActiveX 教程 – 使用 Java 插入 CommandButton](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+了解如何在 Java 中使用 Aspose.Words ActiveX 将 CommandButton 插入 Word 文档。
+
+### [创建 Word 文档 Java – 隐藏形状并设置填充颜色](./create-word-document-java-hide-shape-and-set-fill-color/)
+演示如何在 Word 文档中隐藏形状并更改填充颜色。
 ### [保存 Word 文档 – 在 Java 中添加矩形形状和阴影](./save-word-document-add-rectangle-shape-shadow-in-java/)
 演示如何在 Java 中使用 Aspose.Words 保存 Word 文档并添加带阴影的矩形形状。
 
@@ -146,6 +165,10 @@ Aspose.Words Java 代码教程
 
 ### [如何在 Word 文档中使用 Java 创建环形图](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 使用 Aspose.Words for Java 在 Word 文档中创建环形图。
+### [如何在 Java 中创建空白 Word 文档并对形状进行分组](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [使用 Aspose.Words 在 Java 中创建带隐藏图像的 Word 文档](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+演示如何在 Java 中使用 Aspose.Words 将隐藏图像嵌入 Word 文档。
 
 ## 其他资源
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

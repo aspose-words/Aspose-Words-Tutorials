@@ -125,6 +125,25 @@ C# と DocumentBuilder を使って Word 文書内の図形をグループ化す
 Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
 ### [Java で Word の図形をグループ化する方法 – 完全ガイド](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
+### [Javaでシェイプに影を追加 – 完全プログラミングガイド](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Javaでシェイプに影効果を追加し、ドキュメントの視覚的魅力を高める方法を学びます。
+### [空白のWord文書を作成し、グループ化されたシェイプを追加する – Java ガイド](./create-blank-word-document-with-grouped-shape-java-guide/)
+Javaで空白のWord文書を作成し、グループ化されたシェイプを追加する方法を学びます。
+
+### [JavaでWord文書を作成 – Aspose.Wordsで画像を挿入し非表示にする](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java を使用して、画像を文書に挿入し、必要に応じて非表示にする方法を学びます。
+
+### [Javaで円グラフを挿入 – スライスを分割、回転、ハイライト](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java を使用して、円グラフを文書に挿入し、スライスの分離、回転、ハイライト設定を行う方法を学びます。
+
+### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
+JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
+
+### [Javaでグループ化シェイプを使用して空白のWord文書を作成](./create-blank-word-document-with-grouped-shapes-in-java/)
+Javaで複数のシェイプをグループ化し、空白のWord文書に挿入する方法を学びます。
+
+### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
 ### [Word文書を保存 – Javaで長方形シェイプと影を追加](./save-word-document-add-rectangle-shape-shadow-in-java/)
 JavaでWord文書を保存し、長方形シェイプに影を付ける方法を学びます。
 
@@ -147,6 +166,11 @@ C#で空白のWord文書を作成し、非表示の楕円形を追加する方�
 
 ### [Java を使用して Word 文書にドーナツチャートを作成する方法](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 JavaでWord文書にドーナツ形状のチャートを挿入する手順を解説します。
+### [Javaで空白のWord文書を作成し、図形をグループ化する方法](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Javaを使用して新しいWord文書を作成し、複数の図形をグループ化する手順を解説します。
+
+### [Aspose.Words を使用して Java で非表示画像を含む Word 文書を作成する](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java を使い、文書内に表示されない画像を埋め込む方法をステップバイステップで解説します。
 
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

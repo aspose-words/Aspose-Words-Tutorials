@@ -56,6 +56,8 @@ Aprenda a crear documentos DOCX con controles ActiveX usando Java y Aspose.Words
 
 ### [Crear un documento Word en blanco y agregar un botón ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Aprenda a crear un documento Word vacío y añadir un botón ActiveX usando Aspose.Words para Java.
+### [Cómo explotar una porción de pastel en Aspose.Words para Java](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aprenda a destacar una porción de gráfico circular en Aspose.Words para Java con este tutorial paso a paso.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)
@@ -120,6 +122,16 @@ Aprenda a crear documentos Word mediante código Java y añadir botones interact
 Aprenda a crear un documento Word vacío y añadir un gráfico de radar en C# con Aspose.Words.
 ### [Cómo insertar un gráfico circular en un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Aprenda a agregar un gráfico circular a un documento Word con Aspose.Words para Java paso a paso.
+### [Cómo agregar un botón a un documento de Word – Guía paso a paso](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aprenda a insertar un botón interactivo en un documento Word con Aspose.Words para Java paso a paso.
+### [Cómo insertar un gráfico circular en Word – añadir porcentaje de etiqueta de datos](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Aprenda a insertar un gráfico circular en Word y añadir etiquetas de datos con porcentaje usando Aspose.Words para Java.
+### [Cómo crear un gráfico en Word con Java y Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Aprenda a crear gráficos en documentos Word usando Java y Aspose.Words paso a paso.
+### [Insertar gráfico circular en Word con Java – guía completa](./insert-pie-chart-word-in-java-complete-guide/)
+Aprenda a insertar gráficos de pastel en documentos Word usando Java y Aspose.Words paso a paso.
+### [Cómo establecer la posición de un botón en un documento Word con Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Aprenda a colocar y posicionar botones en documentos Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

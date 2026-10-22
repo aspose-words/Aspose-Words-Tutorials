@@ -82,6 +82,11 @@ Step‑by‑step guide to extract text from a Word file and generate a concise s
 Learn how to build a custom AI model and integrate it to edit Word paragraphs programmatically using Aspose.Words for Java.
 ### [Create Word document Java with Custom LLM Grammar Check]({{< relref "create-word-document-java-with-custom-llm-grammar-check/_index.md" >}})
 Learn how to generate Word documents in Java and integrate a custom LLM for advanced grammar checking.
+### [Master text processing in java: using Aspose.Words & AI models for summarization and translation](./java-aspose-words-text-processing/)
+Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
+
+### [Build grammar checker java – complete step‑by‑Step guide](./build-grammar-checker-java-complete-step-by-step-guide/)
+Learn how to create a Java grammar checker using Aspose.Words and AI models to detect and correct language errors in documents.
 
 ## Additional Resources
 

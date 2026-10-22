@@ -97,6 +97,10 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak używać tłumacza do automatyzacji tłumaczenia dokumentów w C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Dowiedz się, jak automatycznie tłumaczyć dokumenty przy użyciu Aspose.Words i tłumacza w C#. |
 | [Podsumowanie dokumentu Word przy użyciu podsumowania AI](./summarize-word-document-with-ai-document-summarization/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word. |
 | [Jak przetłumaczyć docx na francuski przy użyciu AI w C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Dowiedz się, jak używać Aspose.Words i AI do tłumaczenia dokumentów DOCX na język francuski w C#. |
+| [Dodaj podsumowanie do dokumentu Word przy użyciu Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Dowiedz się, jak dodać podsumowanie do dokumentu Word przy użyciu AI w Aspose.Words dla .NET. |
+| [Podsumuj dokument Word w C# – kompletny przewodnik Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do automatycznego podsumowywania dokumentów Word. |
+| [Tłumaczenie docx na francuski przy użyciu Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Dowiedz się, jak tłumaczyć dokumenty docx na język francuski przy użyciu AI w Aspose.Words dla .NET. |
+| [Utwórz pusty dokument Word i przetłumacz go na francuski](./create-a-blank-word-document-and-translate-it-to-french/) | Dowiedz się, jak utworzyć pusty dokument Word i przetłumaczyć go na język francuski przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

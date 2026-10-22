@@ -254,6 +254,28 @@ Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF
 
 ### [सुलभ PDF बनाएं – Aspose.Words के साथ पूर्ण गाइड](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Aspose.Words का उपयोग करके सुलभ PDF बनाने की पूरी प्रक्रिया सीखें, जिसमें टैगिंग, संरचना और पहुँच मानकों का पालन शामिल है।
+### [docx को txt के रूप में सहेजें – पायथन के साथ Word गणित को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+docx फ़ाइल को txt में बदलें और Word में मौजूद गणितीय समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करें।
+
+### [Python के साथ सुलभ PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Python के साथ सुलभ PDF बनाने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+
+### [पायथन में वर्ड दस्तावेज़ से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+पायथन का उपयोग करके वर्ड फ़ाइल को PDF में बदलने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+### [Aspose.Words का उपयोग करके docx को txt LaTeX गणित के रूप में सहेजें](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Aspose.Words का उपयोग करके docx को txt और LaTeX गणित के साथ सहेजें।
+
+### [Aspose.Words के साथ पायथन में वर्ड को PDF के रूप में सहेजें](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को PDF में बदलने की चरण-दर-चरण गाइड।
+
+### [Python में एक्सेसिबिलिटी के साथ docx को PDF में कैसे बदलें](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Aspose.Words के साथ एक्सेसिबिलिटी फीचर जोड़ते हुए docx को PDF में परिवर्तित करने की गाइड।
+
+### [Aspose.Words के साथ पायथन में docx को txt में कैसे बदलें](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में docx फ़ाइल को txt में बदलने की चरण-दर-चरण गाइड।
+
+### [Aspose.Words का उपयोग करके docx को txt में LaTeX समीकरणों के साथ कैसे सहेजें](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words के साथ docx फ़ाइल को txt में LaTeX समीकरणों सहित सहेजने की पूरी प्रक्रिया।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

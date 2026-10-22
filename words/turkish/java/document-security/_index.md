@@ -41,6 +41,8 @@ Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nas
 Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın
 ### [Java ile Word belgesini dijital olarak imzalama](./how-to-digitally-sign-word-document-using-java/)
 Java ile Aspose.Words kullanarak Word belgelerini dijital olarak imzalamanın adım adım rehberi.
+### [Word belgesine dijital imza ekleme](./how-to-add-a-digital-signature-to-a-word-document/)
+Aspose.Words for Java kullanarak bir Word belgesine dijital imza eklemeyi adım adım öğrenin.
 ### [Belge Düzenleme ve Veri Koruma](./document-redaction-data-protection/)
 Aspose.Words for Java kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Aspose.Words ile Java’da Word Belgesini İmzalama – Tam Kılavuz](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -53,6 +55,10 @@ Aspose.Words for Java ile PFX sertifikası kullanarak docx dosyalarını güvenl
 C# ve X509 sertifikasıyla Word belgesini nasıl imzalayacağınızı adım adım öğrenin.
 ### [Aspose.Words ile bir Word belgesine dijital imza ekleme](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Aspose.Words for Java kullanarak Word belgesine dijital imza eklemeyi adım adım öğrenin.
+### [Java’da Dijital İmza PFX Dosyası – Tam Kılavuz](./digital-signature-pfx-file-in-java-complete-guide/)
+Java’da Aspose.Words kullanarak PFX dosyasıyla dijital imza oluşturma ve doğrulama adımlarını öğrenin.
+### [Java'da docx dosyasını imzalama – adım adım rehber](./how-to-sign-docx-in-java-step-by-step-guide/)
+Java için Aspose.Words kullanarak docx dosyalarını nasıl imzalayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,10 @@ Aspose.Words for Java kullanarak Word grafiğine gölge eklemeyi öğrenin. Adı
 Aspose.Words for Java kullanarak dipnot ayırıcılarını nasıl değiştireceğinizi öğrenin. Adım adım örnekler ve kod parçacıkları.
 ### [Word grafiğinde dilimi patlatma ve görünümünü özelleştirme](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Aspose.Words for Java ile Word grafiğindeki dilimi nasıl patlatıp görünümünü özelleştireceğinizi öğrenin.
+### [DOCX'te Dipnot Boşluğunu Değiştirme – Tam Kılavuz](./change-footnote-spacing-in-docx-complete-guide/)
+Aspose.Words for Java ile DOCX dosyalarında dipnot aralığını nasıl ayarlayacağınızı adım adım öğrenin.
+### [Java'da Aspose.Words ile dipnotu düzenleme](./how-to-edit-footnote-in-java-with-aspose-words/)
+Aspose.Words for Java kullanarak belgelerdeki dipnotları nasıl düzenleyeceğinizi öğrenin. Adım adım kod örnekleriyle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

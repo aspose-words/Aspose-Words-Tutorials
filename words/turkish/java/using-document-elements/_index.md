@@ -117,6 +117,17 @@ Aspose.Words for Java kullanarak boş bir Word belgesi oluşturun ve içine düz
 ### [C# ile boş bir Word belgesi oluşturma ve radar grafiği ekleme](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Java ile Word belgesine pasta grafiği ekleme](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Java ve Aspose.Words kullanarak Word belgesine pasta grafiği eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Pasta Grafik Ekleme – Veri Etiketi Yüzdesi](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word belgesine pasta grafik ekleyin ve veri etiketlerine yüzde değerlerini otomatik olarak ekleyin.
+### [Java için Aspose.Words'de Düğme Ekleme – Adım Adım Kılavuz](./how-to-add-button-to-word-document-step-by-step-guide/)
+Word belgesine bir düğme eklemeyi ve özelleştirmeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Pasta Dilimini Patlatma](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+### [Java için Aspose.Words'de Düğme Konumunu Ayarlama](./how-to-set-button-position-in-a-word-document-with-java/)
+Java kullanarak bir Word belgesinde düğmenin konumunu nasıl ayarlayacağınızı öğrenin.
+### [Java ve Aspose.Words ile Word'de Grafik Oluşturma](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Java ve Aspose.Words kullanarak Word belgelerinde grafik eklemeyi ve özelleştirmeyi öğrenin.
+### [Java'da Pasta Grafik Ekleme – Tam Kılavuz](./insert-pie-chart-word-in-java-complete-guide/)
+Java ve Aspose.Words kullanarak Word belgesine pasta grafik eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

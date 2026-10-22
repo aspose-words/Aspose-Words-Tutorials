@@ -66,6 +66,10 @@ Naučte se efektivně používat poznámky pod čarou a vysvětlivky v Aspose.Wo
 "Naučte se používat Aspose.Words pro Javu k vytváření interaktivních dokumentů Word s formulářovými poli. Začněte hned teď!"
 ### [Vytvoření prázdného dokumentu Word a vložení textového ovládacího prvku](./create-blank-word-document-and-insert-a-plain-text-control/)
 Naučte se, jak vytvořit prázdný dokument Word a přidat do něj ovládací prvek pro prostý text pomocí Aspose.Words pro Javu.
+### [Jak vytvořit graf ve Wordu pomocí Javy a Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a vložit graf do dokumentu Word.
+### [Vložení koláčového grafu do Wordu v Javě – kompletní průvodce](./insert-pie-chart-word-in-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a vložit koláčový graf do dokumentu Word.
 ### [Použití HarfBuzz v Aspose.Words pro Javu](./using-harfbuzz/)
 Naučte se používat HarfBuzz pro pokročilé tvarování textu v Aspose.Words pro Javu. Vylepšete vykreslování textu ve složitých skriptech s tímto podrobným návodem.
 ### [Používání záhlaví a zápatí v Aspose.Words pro Javu](./using-headers-and-footers/)
@@ -120,6 +124,14 @@ Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko
 Naučte se vytvořit prázdný dokument Word a vložit do něj radarový graf pomocí C#.
 ### [Jak vložit koláčový graf do dokumentu Word pomocí Javy](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Naučte se, jak vložit koláčový graf do dokumentu Word pomocí Aspose.Words pro Javu.
+### [Jak přidat tlačítko do dokumentu Word – krok za krokem](./how-to-add-button-to-word-document-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit interaktivní tlačítko do dokumentu Word s podrobným návodem.
+### [Jak vložit koláčový graf do Wordu – přidat procentuální popisek dat](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Naučte se, jak vytvořit koláčový graf ve Wordu a přidat k němu procentuální popisky dat pomocí Aspose.Words pro Javu.
+### [Jak roztrhnout výseč koláče v Javě – tutoriál Aspose.Words graf](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a roztrhnout výseč koláčového grafu v dokumentu.
+### [Jak nastavit pozici tlačítka ve Word dokumentu pomocí Javy](./how-to-set-button-position-in-a-word-document-with-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu nastavit pozici tlačítka v dokumentu Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแยกเนื้อหาจากเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดของเราจะทำให้กระบวนการนี้ง่ายขึ้น
 ### [วิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java](./helper-methods-for-extracting-content/)
 เรียนรู้วิธีแยกเนื้อหาจากเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java สำรวจวิธีการช่วยเหลือ การจัดรูปแบบแบบกำหนดเอง และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้
+### [วิธีสร้างเอกสาร Word ว่างด้วย Aspose.Words สำหรับ Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างโดยใช้ Aspose.Words สำหรับ Java อย่างง่ายดาย
 ### [การค้นหาและแทนที่ข้อความใน Aspose.Words สำหรับ Java](./finding-and-replacing-text/)
 เรียนรู้วิธีค้นหาและแทนที่ข้อความในเอกสาร Word ด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด พัฒนาทักษะการจัดการเอกสาร Java ของคุณ
 ### [การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java](./removing-content-from-documents/)
@@ -121,6 +123,10 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Words สำหรับ Java
 ### [วิธีสร้างเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 เรียนรู้วิธีสร้างไฟล์ Word อย่างอัตโนมัติด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ใหม่ – คู่มือขั้นตอนการเพิ่มแท็กโครงสร้าง](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+เรียนรู้วิธีสร้างเอกสาร Word ใหม่และเพิ่มแท็กโครงสร้างอย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [สร้างเอกสาร Word ว่างใน Java ด้วย Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ Word เปล่าใน Java ด้วย Aspose.Words อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

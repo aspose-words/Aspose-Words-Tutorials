@@ -86,7 +86,8 @@ Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz s
 Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
-
+### [Tworzenie nowego dokumentu Word – Przewodnik krok po kroku po dodawaniu znacznika strukturalnego](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Dowiedz się, jak utworzyć nowy dokument Word i dodać do niego znacznik strukturalny przy użyciu Aspose.Words for Java.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
 Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words for Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
 
@@ -127,7 +128,6 @@ Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla be
 Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
 
 ### [Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java](./using-web-extensions/)
-Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
 ### [Tagowanie dostępności PDF w Javie – generowanie dostępnych PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
 ### [Utworzenie przycisku ActiveX w pliku docx w Javie – kompletny przewodnik programistyczny](./create-docx-activex-button-in-java-complete-programming-guid/)
@@ -141,6 +141,10 @@ Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu
 
 ### [Jak programowo tworzyć dokument Word przy użyciu Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Dowiedz się, jak programowo tworzyć dokumenty Word przy użyciu Aspose.Words w Javie.
+### [Tworzenie pustego dokumentu Word w Javie przy użyciu Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words.
+### [Jak utworzyć pusty dokument Word przy użyciu Aspose.Words dla Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Dowiedz się, jak szybko utworzyć pusty dokument Word przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

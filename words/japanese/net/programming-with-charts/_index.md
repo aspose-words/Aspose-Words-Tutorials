@@ -65,6 +65,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [Word文書に面グラフを挿入する](./insert-area-chart/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書に面グラフを挿入する方法を説明します。 |
 | [Word文書にバブルチャートを挿入する](./insert-bubble-chart/) Aspose.Words for .NET を使用して Word 文書にバブルチャートを挿入する方法を、このステップバイステップガイドで学びましょう。文書の魅力を高めましょう。 |
 | [C# で円グラフを作成する – ステップバイステップ ガイド](./create-pie-chart-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書に円グラフを挿入する方法を段階的に解説します。 |
+| [Word文書にレーダーチャートを作成する – 完全 C# ガイド](./create-radar-chart-in-a-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書にレーダーチャートを作成する方法をステップバイステップで解説します。 |
 | [Word文書に散布図を挿入する](./insert-scatter-chart/) Aspose.Words for .NET を使ってWordに散布図を挿入する方法を学びましょう。視覚的なデータ表現をドキュメントに組み込むための簡単な手順です。 |
 | [グラフのXY軸プロパティを定義する](./define-xyaxis-properties/) Aspose.Words for .NET を使用してグラフのXY軸プロパティを定義する方法を、ステップバイステップで解説するガイドです。.NET開発者に最適です。 |
 | [グラフの軸に日付と時刻の値を追加する](./date-time-values-to-axis/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用してグラフの軸に日付と時刻の値を追加する方法を学習します。 |
@@ -83,12 +84,14 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [C# で Aspose.Words を使用して円グラフのラベルを追加する完全ガイド](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、C# で円グラフのデータラベルを追加・カスタマイズする方法をステップバイステップで解説します。 |
 | [Aspose.Words C# でチャートにパーセンテージを表示する方法](./how-to-show-percentages-in-chart-with-aspose-words-c/) Aspose.Words for .NET を使用して、チャートにパーセンテージ表示を追加する手順をステップバイステップで解説します。 |
 | [C# で Word のチャートにデータ ラベルを追加する方法 – ステップバイステップ ガイド](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) Aspose.Words for .NET を使用して、C# で Word のチャートにデータ ラベルを追加する手順を詳しく解説します。 |
+| [Aspose.Words で円グラフを作成する Word 文書](./create-pie-chart-word-document-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書に円グラフを挿入する方法をステップバイステップで解説します。 |
 
 | [Aspose.Words を使用して Word 文書に円グラフを作成する方法](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書に円グラフを挿入する手順をステップバイステップで解説します。 |
 | [C# で Word の折れ線グラフの系列をフォーマットする方法](./how-to-format-series-in-a-word-line-chart-with-c/) Aspose.Words for .NET を使用して、Word の折れ線グラフの系列をカスタマイズする手順をステップバイステップで解説します。 |
 | [Aspose.Words を使用して Word 文書にヒストグラムを作成する方法](./how-to-create-histogram-in-word-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書にヒストグラムを挿入し、データを視覚化する手順をステップバイステップで解説します。 |
 | [C# で列グラフと書式設定されたラベルを含む Word 文書を作成する方法](./how-to-create-word-document-c-with-a-column-chart-and-format/) Aspose.Words for .NET を使用して、C# で列グラフと書式設定ラベルを持つ Word 文書を作成する手順を解説します。 |
 | [C# でカスタマイズされた円グラフを含む Word 文書を作成する方法](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) Aspose.Words for .NET を使用して、カスタマイズされた円グラフを含む Word 文書を作成する手順をステップバイステップで解説します。 |
+| [C# でレーダーチャートを作成し、Word にチャートを追加する方法](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) Aspose.Words for .NET を使用して、C# でレーダーチャートを作成し、Word 文書に挿入する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

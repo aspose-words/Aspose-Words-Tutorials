@@ -43,6 +43,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java sichere digitale Signaturen in 
 Erfahren Sie, wie Sie docx-Dateien mit einem PFX-Zertifikat digital signieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Wie Sie eine digitale Signatur zu einem Word-Dokument mit Aspose.Words hinzufügen](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Erfahren Sie, wie Sie mit Aspose.Words digitale Signaturen in Word-Dokumente einbetten.
+### [Wie man docx in Java signiert – Schritt‑für‑Schritt‑Anleitung](./how-to-sign-docx-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie docx-Dateien mit Aspose.Words für Java signieren – detaillierte Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Dokumentenredaktion und Datenschutz](./document-redaction-data-protection/)
 Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vertrauliche Daten schwärzen. Schritt-für-Schritt-Anleitung mit Quellcode.
 ### [Word-Dokument in Java mit Aspose.Words signieren – Komplettanleitung](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -53,6 +55,10 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für C# signieren. Eine voll
 Erfahren Sie, wie Sie ein Word-Dokument in C# mit einem X509-Zertifikat signieren.
 ### [Wie man ein Word-Dokument mit Java digital signiert](./how-to-digitally-sign-word-document-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java digitale Signaturen in Word-Dokumenten hinzufügen, um deren Integrität zu gewährleisten.
+### [Digitale PFX‑Signaturdatei in Java – Vollständige Anleitung](./digital-signature-pfx-file-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java digitale PFX‑Signaturdateien erstellen und einsetzen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+### [Digitale Signatur zu einem Word-Dokument hinzufügen](./how-to-add-a-digital-signature-to-a-word-document/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java digitale Signaturen in Word-Dokumente einfügen, um die Integrität zu gewährleisten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

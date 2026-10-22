@@ -36,6 +36,11 @@ Aprenda a otimizar a saída SVG usando Aspose.Words para Python. Este guia abord
 
 ### [Adicionar sombra a forma em Python – Tutorial completo do Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python. Guia passo a passo com exemplos de código.
+### [Criar Documento Word em Branco e Adicionar Sombra a Forma – Guia Completo em Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Aprenda a criar um documento Word vazio e aplicar sombra a formas usando Aspose.Words para Python-net.
+
+### [Criar Documento Word em Branco e Adicionar Sombra a Forma – Tutorial Completo](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Aprenda a criar um documento Word vazio e aplicar sombra a formas usando Aspose.Words para Python-net, passo a passo.
 
 ### [Como adicionar sombra em C# – Guia completo de programação](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos em documentos Word usando Aspose.Words para C# com este guia completo.
@@ -71,11 +76,16 @@ Aprenda a gerar gráficos de colunas em documentos Word usando Aspose.Words para
 Aprenda a salvar imagens PNG e aplicar sombra a formas em documentos Word usando Aspose.Words para Python-net.
 ### [Como aplicar efeito de sombra a uma forma Word com Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Aprenda a aplicar efeito de sombra a formas em documentos Word usando Aspose.Words.
+### [Como definir sombra em uma forma no Aspose.Words para Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Aprenda a aplicar sombra a uma forma em documentos Word usando Aspose.Words para Python.
 
 ### [Como criar forma de retângulo em um documento Word usando Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Aprenda a inserir e configurar uma forma de retângulo em documentos Word usando Aspose.Words para Python.
 ### [Adicionar sombra a forma em Python – Guia completo de programação](./add-shadow-to-shape-in-python-complete-programming-guide/)
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python com este guia completo.
+
+### [Como criar documento com forma de retângulo e sombra em Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Aprenda a gerar documentos Word contendo um retângulo com sombra usando Aspose.Words para Python.
 
 ## Recursos adicionais
 

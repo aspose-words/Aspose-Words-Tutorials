@@ -124,6 +124,25 @@
 ### [บันทึกเอกสาร Word – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาใน Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
 เรียนรู้วิธีบันทึกเอกสาร Word พร้อมเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาโดยใช้ Aspose.Words สำหรับ Java
 
+### [เพิ่มเงาให้รูปทรงใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-java-complete-programming-guide/)
+เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ว่างพร้อมรูปร่างกลุ่ม – คู่มือ Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปร่างกลุ่มโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word ด้วย Java – แทรกและซ่อนรูปภาพด้วย Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word และซ่อนรูปภาพเหล่านั้นโดยใช้ Aspose.Words สำหรับ Java
+
+### [แทรกแผนภูมิวงกลมใน Java – แยกส่วน, หมุนและไฮไลท์สไลซ์](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java พร้อมการแยกส่วน, หมุนและไฮไลท์สไลซ์โดยใช้ Aspose.Words
+
+### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+
+### [บทแนะนำ Aspose.Words ActiveX – แทรก CommandButton ด้วย Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+เรียนรู้วิธีแทรกปุ่ม CommandButton ในเอกสาร Word ผ่าน ActiveX ด้วย Java
+
+### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
+เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -143,6 +162,12 @@
 
 ### [วิธีสร้างแผนภูมิโดนัทในเอกสาร Word ด้วย Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 เรียนรู้วิธีสร้างแผนภูมิแบบโดนัทในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
+### [วิธีสร้างเอกสาร Word เปล่าและจัดกลุ่มรูปร่างใน Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างไฟล์ Word ว่างและจัดกลุ่มรูปร่างด้วย Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word พร้อมรูปภาพที่ซ่อนอยู่ใน Java ด้วย Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+เรียนรู้วิธีแทรกรูปภาพที่ซ่อนอยู่ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

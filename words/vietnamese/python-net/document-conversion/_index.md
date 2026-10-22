@@ -272,6 +272,29 @@ Hướng dẫn chi tiết cách lưu tệp DOCX dưới dạng PDF bằng Aspose
 ### [Tạo PDF có khả năng truy cập – Hướng dẫn đầy đủ với Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho Python, nâng cao tính bao gồm tài liệu.
 
+### [Lưu docx thành txt – Xuất công thức Word sang LaTeX bằng Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Hướng dẫn lưu tài liệu DOCX dưới dạng TXT và chuyển công thức Word sang LaTeX bằng Aspose.Words cho Python.
+
+### [Tạo PDF có khả năng truy cập với Python – Hướng dẫn đầy đủ từng bước](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho Python, bao gồm các bước cấu hình và tối ưu hoá.
+
+### [Tạo PDF từ tài liệu Word bằng Python – Hướng dẫn từng bước](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Hướng dẫn từng bước tạo PDF từ tài liệu Word bằng Aspose.Words cho Python, tối ưu chất lượng và bảo toàn định dạng.
+### [Cách lưu docx dưới dạng txt LaTeX math bằng Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Hướng dẫn lưu tài liệu docx thành tệp txt chứa công thức LaTeX bằng Aspose.Words.
+
+### [Cách chuyển đổi docx sang txt trong Python với Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Hướng dẫn chi tiết cách chuyển đổi tệp docx thành txt trong Python bằng Aspose.Words.
+
+### [Cách lưu Word dưới dạng PDF với Aspose.Words trong Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Hướng dẫn lưu tài liệu Word thành PDF bằng Aspose.Words trong Python.
+
+### [Cách chuyển đổi docx sang pdf với khả năng truy cập trong Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Hướng dẫn chuyển đổi tệp docx sang PDF có hỗ trợ tính năng truy cập cho người dùng khuyết tật bằng Aspose.Words trong Python.
+
+### [Cách lưu docx thành txt với các phương trình LaTeX bằng Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại các công thức LaTeX bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

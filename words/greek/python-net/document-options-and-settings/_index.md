@@ -66,6 +66,8 @@
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx χρησιμοποιώντας το Aspose.Words σε Python. Οδηγός βήμα προς βήμα με κώδικα.
 ### [Aspose Font Warning Handler – Εντοπισμός Ελλειπουσών Γραμματοσειρών & Προσαρμογή Φόρτωσης Εγγράφου](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Μάθετε πώς να εντοπίζετε ελλείπουσες γραμματοσειρές και να προσαρμόζετε τη φόρτωση εγγράφων με το Aspose Font Warning Handler.
+### [Ενεργοποίηση λειτουργίας ανάκτησης για την αποκατάσταση ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης για την αποκατάσταση κατεστραμμένων εγγράφων Word με το Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

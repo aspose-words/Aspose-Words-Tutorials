@@ -55,6 +55,10 @@
 Μάθετε πώς να προσαρμόζετε το διαχωριστικό υποσημειώσεων σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Πώς να μορφοποιήσετε υποσημειώσεις σε Java με το Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Μάθετε πώς να εφαρμόζετε στυλ σε υποσημειώσεις εγγράφων χρησιμοποιώντας το Aspose.Words για Java. Οδηγός βήμα προς βήμα με κώδικα.
+### [Αλλαγή απόστασης υποσημειώσεων σε DOCX – Πλήρης Οδηγός](./change-footnote-spacing-in-docx-complete-guide/)
+Μάθετε πώς να ρυθμίζετε την απόσταση των υποσημειώσεων σε DOCX με το Aspose.Words για Java. Οδηγός βήμα‑βήμα με παραδείγματα κώδικα.
+### [Πώς να επεξεργαστείτε υποσημείωση σε Java με το Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Μάθετε πώς να επεξεργαστείτε υποσημειώσεις σε έγγραφα χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

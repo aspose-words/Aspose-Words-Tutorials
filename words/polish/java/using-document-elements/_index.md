@@ -121,6 +121,18 @@ Dowiedz się, jak w C# stworzyć pusty dokument Word i wstawić wykres radarowy 
 Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk przy użyciu Aspose.Words for Java.
 ### [Utwórz pusty dokument Word i dodaj przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać przycisk ActiveX krok po kroku.
+### [Jak wstawić wykres kołowy w Word – dodać procent w etykiecie danych](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Dowiedz się, jak wstawić wykres kołowy w dokumencie Word i dodać etykiety danych wyświetlające procenty.
+### [Jak dodać przycisk do dokumentu Word – przewodnik krok po kroku](./how-to-add-button-to-word-document-step-by-step-guide/)
+Dowiedz się, jak wstawić przycisk do dokumentu Word przy użyciu Aspose.Words for Java, krok po kroku.
+### [Jak wyodrębnić kawałek wykresu kołowego w Javie – samouczek Aspose.Words chart](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Dowiedz się, jak wyodrębnić fragment wykresu kołowego w Aspose.Words for Java, aby podkreślić ważne dane w raporcie.
+### [Jak ustawić pozycję przycisku w dokumencie Word przy użyciu Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Dowiedz się, jak ustawić pozycję przycisku w dokumencie Word przy użyciu Aspose.Words for Java.
+### [Jak utworzyć wykres w Wordzie przy użyciu Java i Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Dowiedz się, jak tworzyć wykresy w dokumentach Word przy użyciu Java i Aspose.Words w kilku prostych krokach.
+### [Wstaw wykres kołowy w Wordzie przy użyciu Java – kompletny przewodnik](./insert-pie-chart-word-in-java-complete-guide/)
+Dowiedz się, jak w prosty sposób wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word b
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Cách làm nổ miếng bánh pie trong Java – Hướng dẫn biểu đồ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Hướng dẫn từng bước để làm nổ miếng bánh pie trong biểu đồ Aspose.Words cho Java.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
@@ -119,6 +121,16 @@ Hướng dẫn tạo tài liệu Word và chèn nút tương tác bằng Aspose.
 Hướng dẫn tạo tài liệu Word trống và chèn biểu đồ radar bằng C# sử dụng Aspose.Words.
 ### [Cách tạo file docx chứa ActiveX với Java và Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Hướng dẫn tạo tài liệu docx có chứa ActiveX bằng Java và Aspose.Words.
+### [Cách thêm nút vào tài liệu Word – Hướng dẫn từng bước](./how-to-add-button-to-word-document-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn nút vào tài liệu Word và tùy chỉnh hành vi của nó.
+### [Cách chèn biểu đồ tròn trong Word – thêm nhãn dữ liệu phần trăm](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word và hiển thị nhãn phần trăm cho dữ liệu.
+### [Cách tạo biểu đồ trong Word bằng Java và Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Hướng dẫn chi tiết cách tạo biểu đồ trong tài liệu Word bằng Java sử dụng Aspose.Words.
+### [Chèn biểu đồ tròn vào Word bằng Java – hướng dẫn đầy đủ](./insert-pie-chart-word-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Java sử dụng Aspose.Words.
+### [Cách đặt vị trí nút trong tài liệu Word bằng Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Hướng dẫn cách đặt vị trí nút trong tài liệu Word bằng Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

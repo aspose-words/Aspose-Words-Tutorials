@@ -73,6 +73,8 @@ Pelajari cara mengonfigurasi model bahasa besar untuk mengganti teks dalam file 
 ### [Buat Model AI Kustom – Mengedit Paragraf Word di Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Pelajari cara membuat model AI kustom untuk mengedit paragraf Word secara otomatis menggunakan Java.
 
+### [Membangun Pemeriksa Tata Bahasa Java – Panduan Lengkap Langkah demi Langkah](./build-grammar-checker-java-complete-step-by-step-guide/)
+Pelajari cara membuat pemeriksa tata bahasa berbasis AI di Java dengan Aspose.Words, termasuk integrasi model bahasa dan penanganan dokumen.
 ### [Meringkas Dokumen Word di Java – Panduan Lengkap Langkah‑per‑Langkah](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Pelajari cara meringkas isi dokumen Word secara otomatis menggunakan Aspose.Words untuk Java dan model AI dalam panduan langkah demi langkah.
 

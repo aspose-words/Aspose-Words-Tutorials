@@ -67,6 +67,8 @@
 了解如何在 Python 中使用 Aspose.Words 復原受損的 docx 檔案。
 ### [Aspose 字體警告處理程序 – 偵測缺少字體並自訂文件載入](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 了解如何使用 Aspose.Words for Python 的字體警告處理程序偵測缺失字體並自訂文件載入行為。帶有原始程式碼的分步指南。
+### [啟用復原模式以恢復損壞的 Word 文件](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+了解如何在 Aspose.Words for Python 中啟用復原模式，以修復受損的 Word 文件並恢復內容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

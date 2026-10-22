@@ -1,0 +1,7 @@
+Title: How to explode slice in a Word chart and customize its appearance
+Slug: how-to-explode-slice-in-a-word-chart-and-customize-its-appea
+Category: document-styling
+ProcessedDate: 2026-10-04T10:50:14.149147
+SourceRepo: AI Search API
+Keywords: how to explode slice, modify chart in word, explode pie chart slice, change doughnut chart size, customize pie chart word
+PRNumber: 302

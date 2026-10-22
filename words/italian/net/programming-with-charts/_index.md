@@ -62,6 +62,8 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Inserisci un grafico a colonne in un documento Word](./insert-column-chart/) | Scopri come inserire grafici a colonne nei documenti Word utilizzando Aspose.Words per .NET. Migliora la visualizzazione dei dati nei tuoi report e nelle tue presentazioni. |
 | [Inserire un grafico ad area in un documento Word](./insert-area-chart/) | Scopri come inserire un grafico ad area in un documento Word utilizzando Aspose.Words per .NET in questa guida completa passo dopo passo. |
 | [Inserisci grafico a bolle nel documento Word](./insert-bubble-chart/) | Scopri come inserire un grafico a bolle in un documento Word utilizzando Aspose.Words per .NET con questa guida passo passo. Migliora i tuoi documenti. |
+| [Crea un grafico a torta in un documento Word con Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Scopri come creare un grafico a torta in un documento Word usando Aspose.Words per .NET. |
+| [Crea un grafico radar in un documento Word – guida completa C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Scopri come creare un grafico radar in Word utilizzando Aspose.Words per .NET con questa guida completa passo passo. |
 | [Inserisci grafico a dispersione nel documento Word](./insert-scatter-chart/) | Scopri come inserire un grafico a dispersione in Word con Aspose.Words per .NET. Semplici passaggi per integrare rappresentazioni visive dei dati nei tuoi documenti. |
 | [Creare un grafico a torta in Word con C# – guida passo‑passo](./create-pie-chart-word-in-c-step-by-step-guide/) | Scopri come creare un grafico a torta in Word utilizzando Aspose.Words per .NET con questa guida passo passo. |
 | [Definire le proprietà dell'asse XY in un grafico](./define-xyaxis-properties/) Scopri come definire le proprietà degli assi XY in un grafico utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetta per gli sviluppatori .NET. |
@@ -85,6 +87,7 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Come formattare le serie in un grafico a linee Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Scopri come formattare le serie di un grafico a linee in Word usando Aspose.Words per .NET e C#. |
 | [Come creare un istogramma in Word con Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Scopri come creare un istogramma in un documento Word usando Aspose.Words per .NET con questa guida passo passo. |
 | [Salva documento modificato con fette di grafico a torta esplose in C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Scopri come salvare un documento Word con fette di grafico a torta esplose usando Aspose.Words per .NET in C#. |
+| [Come creare un grafico radar e aggiungerlo a Word con C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Scopri come creare un grafico radar e inserirlo in un documento Word usando Aspose.Words per .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -112,6 +112,9 @@ weight: 22
 ### [Create markdown from document – Export and save images](./create-markdown-from-document-export-and-save-images/)
 Μάθετε πώς να μετατρέψετε έγγραφα σε markdown και να αποθηκεύσετε τις ενσωματωμένες εικόνες χρησιμοποιώντας Aspose.Words for Java.
 
+### [Πώς να αποθηκεύσετε Markdown ως DOCX χρησιμοποιώντας το Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε DOCX με Aspose.Words for Java.
+
 ### [Πώς να εξάγετε LaTeX από DOCX – Οδηγός Μετατροπής Word σε TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
 Μάθετε πώς να εξάγετε περιεχόμενο LaTeX από αρχεία DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας Aspose.Words for Java.
 
@@ -166,8 +169,8 @@ weight: 22
 ### [Αποθήκευση Word ως Markdown – πλήρης οδηγός με χρήση Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε μορφή Markdown με το Aspose.Words.
 
-### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
-Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown όταν μετατρέπετε DOCX με Aspose.Words for Java.
+### [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός με Εξαγωγή Μαθηματικών](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε μαθηματικές εξισώσεις σε LaTeX.
 
 ### [Αποθήκευση Εγγράφου ως DOCX – Μετατροπή Markdown σε Word με Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε έγγραφα Word (DOCX) χρησιμοποιώντας το Aspose.Words for Java.
@@ -194,6 +197,15 @@ weight: 22
 
 ### [Αποθήκευση docx ως txt – Εξαγωγή Εξισώσεων Word σε LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
 Μάθετε πώς να αποθηκεύετε DOCX ως αρχείο TXT και να εξάγετε εξισώσεις Word σε LaTeX.
+### [Μετατροπή docx σε markdown – Πλήρης οδηγός Java](./convert-docx-to-markdown-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας Aspose.Words for Java, με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+
+### [Αποθήκευση docx ως markdown: Μετατροπή docx σε markdown χρησιμοποιώντας το Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με το Aspose.Words.
+
+### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown ...
+
 
 ### [Aspose.Words σε PDF – Μετατροπή DOCX σε PDF με Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF ...
@@ -360,6 +372,16 @@ weight: 22
 
 ### [Πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το αποθηκεύσετε ως PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το εξάγετε ως αρχείο PNG χρησιμοποιώντας Aspose.Words for Java.
+### [Μετατροπή docx σε pdf σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF ...
+
+### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Βήμα‑βήμα](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε προσάσιμο PDF από έγγραφο DOCX με πλήρη οδηγό βήμα‑βήμα.
+
+### [Πώς να αποθηκεύσετε PNG από το Word – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε εικόνες PNG από έγγραφα Word με απλό κώδικα.
+### [Δημιουργία markdown από docx σε Java – πλήρης οδηγός Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε markdown χρησιμοποιώντας το Aspose.Words for Java.
 ### [Αποθήκευση Word ως Markdown σε Java – Πλήρης Οδηγός](./save-word-as-markdown-in-java-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 

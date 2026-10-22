@@ -41,7 +41,7 @@ Bạn cần chuyển đổi tài liệu giữa các định dạng khác nhau? A
 
 ## Nâng cao kỹ năng xử lý tài liệu của bạn
 
-Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words for Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
+Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words cho Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
 
 ### Tính năng tài liệu nâng cao
 
@@ -78,6 +78,8 @@ Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words c
 Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
 ### [Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java](./using-structured-document-tags/)
 Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh.
+### [Tạo tài liệu Word mới – Hướng dẫn từng bước để thêm Thẻ có cấu trúc](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn Thẻ có cấu trúc bằng Aspose.Words for Java.
 ### [Sử dụng Styles và Themes trong Aspose.Words cho Java](./using-styles-and-themes/)
 Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn.
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)
@@ -119,6 +121,10 @@ Hướng dẫn tạo tài liệu Word trong Java bằng Aspose.Words.
 Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống với điều khiển văn bản](./how-to-create-a-blank-word-document-with-a-text-control/)
 ### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống trong Aspose.Words cho Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java, bao gồm các bước khởi tạo Document và lưu file.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

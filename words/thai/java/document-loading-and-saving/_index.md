@@ -85,7 +85,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การกำหนดค่า RTF Load Options ใน Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
-
+### [วิธีโหลด Markdown ใน Java – คู่มือฉบับสมบูรณ์](./how-to-load-markdown-in-java-complete-guide/)
 ### [ตัวเลือกการบันทึกขั้นสูงด้วย Aspose.Words for Java](./advance-saving-options/)
 
 ### [การบันทึกเอกสาร HTML ด้วย Fixed Layout ใน Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -117,6 +117,9 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [กู้ไฟล์ Word – คู่มือฉบับสมบูรณ์ในการตั้งค่าโหมดการกู้คืนใน Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [เปิดไฟล์ Word ที่เสีย – ตั้งค่าโหมดการกู้คืนใน Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 ### [กู้ไฟล์ docx ที่เสียด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
+### [กู้ไฟล์ DOCX ที่เสียด้วย Aspose.Words for Java – คู่มือฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [วิธีกู้คืนไฟล์ docx – คู่มือฉบับสมบูรณ์เพื่ออ่านไฟล์ Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [วิธีรับฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -142,6 +145,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [Aspose.Words LoadOptions – กู้ไฟล์ Word ที่เสียใน Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [การแทนที่ฟอนต์ Aspose – จัดการฟอนต์ที่หายไป](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [วิธีโหลดไฟล์จากไดเรกทอรีโดยใช้ Aspose.Words ใน C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [วิธีตั้งค่าตัวเลือกใน Aspose.Words for Java – คู่มือฉบับสมบูรณ์](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 ### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide/)
 ### [กู้ไฟล์ docx ที่เสียใน Java – คู่มือฉบับเต็ม](./recover-corrupted-docx-in-java-complete-guide/)
 ### [วิธีตั้งค่า callback ใน Aspose.Words for Java – ตรวจจับและจัดการฟอนต์ที่หายไป](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)

@@ -126,6 +126,25 @@ Hướng dẫn chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần
 
 ### [Cách nhóm các hình dạng trong Word bằng Java – hướng dẫn đầy đủ](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Thêm bóng cho hình dạng trong Java – Hướng dẫn lập trình đầy đủ](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word trống với hình dạng nhóm – Hướng dẫn Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình dạng nhóm bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word bằng Java – Chèn và ẩn hình ảnh với Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Hướng dẫn cách chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần thiết bằng Aspose.Words cho Java.
+
+### [Chèn biểu đồ tròn trong Java – Tách, Xoay & Làm nổi bật các lát cắt](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Hướng dẫn cách chèn biểu đồ tròn, tách, xoay và làm nổi bật các lát cắt trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word trống với các hình dạng nhóm trong Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng được nhóm lại bằng Aspose.Words cho Java.
+
+### [Hướng dẫn Aspose.Words ActiveX – chèn một CommandButton bằng Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua ActiveX trong Java.
+
+### [Tạo tài liệu Word bằng Java – ẩn hình dạng và đặt màu nền](./create-word-document-java-hide-shape-and-set-fill-color/)
+Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Lưu tài liệu Word – Thêm hình chữ nhật và bóng trong Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Hướng dẫn lưu tài liệu Word sau khi chèn hình chữ nhật có bóng bằng Aspose.Words cho Java.
 
@@ -148,6 +167,11 @@ Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn bằn
 
 ### [Cách tạo biểu đồ donut trong tài liệu Word bằng Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng trong Java bằng Aspose.Words.
+
+### [Tạo tài liệu Word với hình ảnh ẩn trong Java bằng Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Hướng dẫn tạo tài liệu Word và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

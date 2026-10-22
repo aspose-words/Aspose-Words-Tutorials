@@ -44,6 +44,7 @@ Tekstverwerking met Markdown biedt een uitgebreide bron om te leren werken met h
 | [Markdown-bestand laden in een document – Complete parseringshandleiding](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Leer hoe u een Markdown-bestand volledig kunt parseren en laden in een Word-document met Aspose.Words voor .NET. |
 | [Document opslaan als docx vanuit Markdown in C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Leer hoe u een Markdown-document opslaat als DOCX met Aspose.Words voor .NET in C#. |
 | [Markdown opslaan als docx met Aspose.Words in C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Leer hoe u een Markdown-bestand opslaat als DOCX met Aspose.Words voor .NET in C#. |
+| [Hoe een document opslaan als docx vanuit Markdown met C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Leer hoe u een Markdown-document kunt converteren en opslaan als DOCX-bestand met Aspose.Words voor .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

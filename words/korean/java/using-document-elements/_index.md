@@ -60,6 +60,8 @@ Aspose.Words for Java에서 글꼴 서식을 살펴보세요: 크기, 스타일,
 Aspose.Words for Java에서 각주와 미주를 효과적으로 사용하는 방법을 배워보세요. 오늘 바로 문서 서식 작성 능력을 향상시켜 보세요!
 ### [Java용 Aspose.Words에서 폼 필드 사용](./using-form-fields/)
 Aspose.Words for Java를 사용하여 양식 필드가 있는 대화형 Word 문서를 만드는 방법을 알아보세요. 지금 바로 시작하세요!
+### [Word 문서에 버튼 추가 – 단계별 가이드](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aspose.Words for Java를 사용하여 Word 문서에 버튼을 삽입하고 동작을 설정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 HarfBuzz 사용하기](./using-harfbuzz/)
 Aspose.Words for Java에서 HarfBuzz를 사용하여 고급 텍스트 셰이핑을 구현하는 방법을 알아보세요. 이 단계별 가이드를 통해 복잡한 스크립트의 텍스트 렌더링을 향상시켜 보세요.
 ### [Java용 Aspose.Words에서 헤더와 푸터 사용하기](./using-headers-and-footers/)
@@ -72,6 +74,8 @@ Aspose.Words for Java에서 머리글과 바닥글을 사용하는 방법을 단
 이 단계별 튜토리얼을 통해 Aspose.Words for Java에서 마크다운을 사용하는 방법을 배워보세요. 마크다운 문서를 손쉽게 만들고, 스타일을 지정하고, 저장하세요.
 ### [Java용 Aspose.Words에서 노드 사용](./using-nodes/)
 이 단계별 튜토리얼을 통해 Aspose.Words for Java에서 노드를 조작하는 방법을 배워보세요. 문서 처리 능력을 최대한 활용하세요.
+### [Java용 Aspose.Words에서 파이 슬라이스 폭발하기 – 차트 튜토리얼](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aspose.Words for Java 차트에서 파이 슬라이스를 분리하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words for Java에서 OLE 개체 및 ActiveX 컨트롤 사용](./using-ole-objects-and-activex/)
 Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방법을 배워보세요. 인터랙티브 문서를 손쉽게 제작할 수 있습니다. 지금 바로 시작하세요!
 ### [DOCX에 Forms2OleControl 추가 – 완전한 Aspose.Words 가이드](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
@@ -116,6 +120,14 @@ Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를
 C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 파이 차트 삽입하기](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Java와 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 데이터 레이블 백분율 추가](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word 문서에 파이 차트를 삽입하고 데이터 레이블에 백분율을 표시하는 방법을 단계별로 안내합니다.
+### [Java와 Aspose.Words를 사용해 Word에서 차트 만들기](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Java와 Aspose.Words를 활용해 Word 문서에 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-word-in-java-complete-guide/)
+Java용 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 Word 문서의 버튼 위치 설정](./how-to-set-button-position-in-a-word-document-with-java/)
+Aspose.Words for Java를 사용해 Word 문서에 버튼을 삽입하고 원하는 위치에 배치하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

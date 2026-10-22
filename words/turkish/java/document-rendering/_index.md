@@ -47,6 +47,8 @@ Aspose.Words for Java'da eksik yazı tiplerini tespit edip izlemek için uyarı 
 Aspose.Words'ta eksik yazı tiplerini tespit etmek ve uyarıları yakalamak için adım adım rehber.
 ### [Java'da Eksik Yazı Tiplerini Bulma – Aspose.Words Tam Kılavuzu](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Java uygulamalarınızda eksik yazı tiplerini tespit edip çözümlemeyi adım adım öğrenin.
+### [Java'da Uyarı Geri Çağrısını Kaydetme – Tam Programlama Kılavuzu](./register-warning-callback-in-java-complete-programming-guide/)
+Aspose.Words for Java'da uyarı geri çağrısını kaydederek belge işleme sırasında oluşan uyarıları yakalayın ve yönetin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

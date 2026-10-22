@@ -164,6 +164,10 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Aspose フォント置換チュートリアル – 欠落フォントの処理](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ### [Aspose.Words を使用した C# でディレクトリからファイルを読み込む方法](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Aspose.Words for Java で破損した DOCX を復元 – 完全ガイド](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+### [Java で Markdown をロードする方法 – 完全ガイド](./how-to-load-markdown-in-java-complete-guide/)
+
+### [Aspose.Words for Java のオプション設定方法 – 完全ガイド](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 ### [Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-in-java-complete-guide/)
 
 ### [Aspose.Words Java でコールバックを設定する方法 – 欠落フォントの検出と処理](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)

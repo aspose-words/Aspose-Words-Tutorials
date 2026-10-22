@@ -39,6 +39,8 @@
 تعلّم كيفية تشفير المستندات وفك تشفيرها باستخدام Aspose.Words لجافا. وفّر حمايةً فعّالة لبياناتك من خلال إرشادات خطوة بخطوة وأمثلة على أكواد المصدر.
 ### [التوقيعات الرقمية في المستندات](./digital-signatures-in-documents/)
 تعرّف على كيفية تطبيق التوقيعات الرقمية الآمنة في المستندات باستخدام Aspose.Words لجافا. اضمن سلامة المستندات من خلال إرشادات خطوة بخطوة وشيفرة المصدر.
+### [كيفية إضافة توقيع رقمي إلى مستند Word](./how-to-add-a-digital-signature-to-a-word-document/)
+تعلم كيفية إضافة توقيع رقمي إلى مستند Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 ### [تحرير المستندات وحماية البيانات](./document-redaction-data-protection/)
 ### [توقيع مستند Word في Java باستخدام Aspose.Words – دليل شامل](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 تعلم كيفية توقيع مستندات Word برمجياً في Java باستخدام Aspose.Words مع خطوات مفصلة وأمثلة كود.
@@ -52,6 +54,10 @@
 تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words خطوة بخطوة مع أمثلة الكود.
 ### [كيفية توقيع مستند Word رقمياً باستخدام Java](./how-to-digitally-sign-word-document-using-java/)
 تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+### [دليل كامل لملف التوقيع الرقمي PFX في جافا](./digital-signature-pfx-file-in-java-complete-guide/)
+تعلم كيفية إنشاء واستخدام ملفات توقيع PFX الرقمية في جافا باستخدام Aspose.Words لتأمين المستندات بسهولة.
+### [كيفية توقيع ملف docx في Java – دليل خطوة بخطوة](./how-to-sign-docx-in-java-step-by-step-guide/)
+تعلم كيفية توقيع مستندات docx في Java باستخدام Aspose.Words خطوة بخطوة مع مثال عملي.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

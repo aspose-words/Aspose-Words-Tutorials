@@ -126,6 +126,25 @@ Aspose.Words for C#를 이용해 빈 Word 문서를 생성하고 다양한 도�
 Java를 사용하여 docx에 이미지를 삽입하고 Word에서 숨기는 방법을 단계별로 안내합니다.
 ### [Java로 Word에서 도형 그룹화하기 – 완전 가이드](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Java를 사용하여 Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니다.
+### [Java에서 도형에 그림자 추가 – 완전 프로그래밍 가이드](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Java를 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [그룹화된 도형이 포함된 빈 Word 문서 만들기 – Java 가이드](./create-blank-word-document-with-grouped-shape-java-guide/)
+Java를 사용해 그룹화된 도형이 포함된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [Java로 Word 문서 만들기 – Aspose.Words를 사용하여 이미지 삽입 및 숨기기](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java를 활용해 Word 문서에 이미지를 삽입하고, 필요에 따라 숨기는 방법을 단계별로 안내합니다.
+
+### [Java에서 파이 차트 삽입 – 조각을 분리하고 회전 및 강조하기](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Java와 Aspose.Words를 사용해 파이 차트를 삽입하고, 조각을 분리·회전·강조하는 방법을 단계별로 안내합니다.
+
+### [Java에서 그룹화된 도형이 포함된 빈 Word 문서 만들기](./create-blank-word-document-with-grouped-shapes-in-java/)
+Java를 사용해 그룹화된 도형이 포함된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words ActiveX 튜토리얼 – Java로 CommandButton 삽입](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Java를 사용하여 ActiveX CommandButton을 Word 문서에 삽입하는 방법을 단계별로 안내합니다.
+
+### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
+Java를 사용해 Word 문서에서 도형을 숨기고 채우기 색상을 설정하는 방법을 단계별로 안내합니다.
 ### [Java에서 Word 문서 저장 – 사각형 도형 및 그림자 추가](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Java를 사용해 Word 문서에 사각형 도형과 그림자를 추가하고 저장하는 방법을 단계별로 안내합니다.
 
@@ -148,6 +167,11 @@ C#를 사용하여 빈 Word 문서를 생성하고 숨겨진 타원 도형을 �
 
 ### [Java로 Word 문서에 도넛 차트 만들기](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Java를 사용해 Word 문서에 도넛 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 도형을 그룹화하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

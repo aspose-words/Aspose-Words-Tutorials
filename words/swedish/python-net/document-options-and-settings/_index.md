@@ -67,6 +67,8 @@ Lär dig hur du aktiverar återställningsläget för att öppna och reparera sk
 Lär dig återställa skadade docx-filer med Aspose.Words i Python. Steg-för-steg-guide med kodexempel.
 ### [Aspose Font-varningshanterare – Upptäck saknade teckensnitt och anpassa dokumentladdning](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Lär dig hur du använder Aspose Font Warning Handler för att identifiera saknade teckensnitt och anpassa hur dokument laddas in.
+### [Aktivera återställningsläge för att återställa ett skadat Word-dokument](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Lär dig hur du aktiverar återställningsläge i Aspose.Words för att reparera korrupta Word-dokument. Steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

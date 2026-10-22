@@ -66,9 +66,20 @@
 تعلم كيفية إنشاء مخطط عمودي في مستندات Word باستخدام Aspose.Words وPython.
 ### [كيفية تطبيق تأثير الظل على شكل Word باستخدام Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للغة Python-net.
+### [كيفية تعيين الظل على شكل في Aspose.Words لـ Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+تعلم كيفية تعيين الظل على الأشكال في مستندات Word باستخدام Aspose.Words للبايثون.
 
 ### [كيفية إنشاء شكل مستطيل في مستند Word باستخدام Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 تعلم كيفية إنشاء شكل مستطيل داخل مستند Word باستخدام مكتبة Aspose.Words للغة Python.
+
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل بلغة Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words لبايثون خطوة بخطوة.
+
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+تعلم خطوة بخطوة كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words.
+
+### [كيفية إنشاء مستند مع شكل مستطيل وظل في بايثون](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+تعلم كيفية إنشاء مستند Word يحتوي على شكل مستطيل مع تأثير الظل باستخدام Aspose.Words لبايثون.
 
 ## موارد إضافية
 

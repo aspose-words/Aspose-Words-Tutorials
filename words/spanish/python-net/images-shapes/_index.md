@@ -42,6 +42,9 @@ Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words y Pyth
 ### [Cómo establecer sombra en Aspose.Words – Ejemplo en Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Aprenda a aplicar sombras a objetos en documentos Word usando Aspose.Words con Python.
 
+### [Cómo crear un documento con una forma de rectángulo y sombra en Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Aprenda a crear documentos Word con una forma rectangular y sombra usando Aspose.Words para Python.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 

@@ -48,6 +48,17 @@ Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a cre
 
 ### [Creare un documento Word vuoto e aggiungere un pulsante ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Impara a creare un documento Word vuoto e inserire un pulsante ActiveX usando Aspose.Words per Java.
+### [Come aggiungere un pulsante a un documento Word – Guida passo‑passo](./how-to-add-button-to-word-document-step-by-step-guide/)
+Scopri come inserire un pulsante interattivo in un documento Word usando Aspose.Words per Java, con istruzioni dettagliate passo dopo passo.
+### [Come impostare la posizione del pulsante in un documento Word con Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Impara a impostare la posizione di un pulsante in un documento Word usando Java.
+
+### [Come creare un grafico in Word con Java e Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Scopri come generare grafici dinamici in documenti Word usando Java e Aspose.Words.
+
+### [Inserire un grafico a torta in Word con Java – guida completa](./insert-pie-chart-word-in-java-complete-guide/)
+Scopri come inserire un grafico a torta in un documento Word usando Java.
+
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)
@@ -119,6 +130,10 @@ Impara a generare un documento Word e aggiungere un pulsante tramite Aspose.Word
 Scopri come creare un documento DOCX con contenuti ActiveX usando Java e Aspose.Words.
 ### [Come inserire un grafico a torta in un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Impara a inserire un grafico a torta in un documento Word con Aspose.Words per Java.
+### [Come inserire un grafico a torta in Word – aggiungere la percentuale dell'etichetta dati](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Scopri come inserire un grafico a torta in Word e aggiungere le percentuali alle etichette dei dati con Aspose.Words per Java.
+### [Come far esplodere una fetta di torta in Java – tutorial su grafici Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Scopri come far esplodere una fetta di grafico a torta in Aspose.Words per Java con questo tutorial passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -94,9 +94,13 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan használja a fordítót a dokumentumfordítás automatizálásához C#-ban](./how-to-use-translator-to-automate-document-translation-in-c/) | Ismerje meg, hogyan automatizálhatja a dokumentumok fordítását C#-ban az Aspose.Words fordítóval. |
 | [Word dokumentum összefoglalása AI dokumentum-összegzéssel](./summarize-word-document-with-ai-document-summarization/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-alapú dokumentum-összegzéshez Word fájlokban. |
 | [Hogyan fordítsuk le a docx-et franciára AI-val C#-ban](./how-to-translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-val a docx fájlok francia nyelvre történő fordításához C#-ban. |
+| [Összegzés hozzáadása Word-dokumentumhoz az Aspose.Words AI segítségével](./add-summary-to-word-document-with-aspose-words-ai/) | Ismerje meg, hogyan adhat hozzá automatikus összegzést Word-dokumentumokhoz az Aspose.Words AI használatával. |
+| [Word dokumentum összefoglalása C#-ban – teljes Aspose.Words AI útmutató](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Lépésről lépésre bemutatja, hogyan használja az Aspose.Words AI-t Word dokumentumok C#-ban történő összefoglalásához. |
+| [docx fájl francia nyelvre fordítása Aspose.Words AI-val](./translate-docx-to-french-with-aspose-words-ai/) | Az Aspose.Words AI segítségével docx fájlok francia nyelvre fordítása. |
 
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |
+| [Üres Word dokumentum létrehozása és francia nyelvre fordítása](./create-a-blank-word-document-and-translate-it-to-french/) | Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és fordíthatja le francia nyelvre az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

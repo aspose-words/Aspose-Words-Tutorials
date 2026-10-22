@@ -197,6 +197,20 @@ Ismerje meg, hogyan menthet DOCX fájlokat markdown formátumba a teljes útmuta
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF-be az Aspose.Words használatával, részletes lépésekkel és példákkal.
 ### [hozzáférhető PDF létrehozása – Teljes útmutató az Aspose.Words segítségével](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Ismerje meg, hogyan hozhat létre hozzáférhető PDF fájlokat az Aspose.Words használatával, részletes lépésekkel és példákkal.
+### [docx mentése txt-ként – Word Math exportálása LaTeX-be Python segítségével](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Tanulja meg, hogyan exportálhatja a Word matematikai képleteket LaTeX formátumba, miközben a docx fájlt txt-re menti Python használatával.
+### [Elérhető PDF generálása Python‑nal – Teljes lépésről‑lépésre útmutató](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Ismerje meg, hogyan hozhat létre akadálymentes PDF‑eket Python segítségével, részletes példákkal és legjobb gyakorlatokkal.
+### [PDF létrehozása Word dokumentumból Python‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF‑et Word dokumentumokból Python segítségével, részletes lépésekkel és példakóddal.
+### [Hogyan mentse a docx fájlt txt LaTeX matematikaként az Aspose.Words segítségével](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Tanulja meg, hogyan menthet docx fájlokat txt formátumba LaTeX matematikával az Aspose.Words használatával.
+### [Hogyan mentse a Word dokumentumot PDF-be az Aspose.Words segítségével Pythonban](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+### [Hogyan konvertálja a docx fájlt PDF-be hozzáférhetőséggel Pythonban](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+### [Hogyan konvertálja a docx fájlt txt formátumba Pythonban az Aspose.Words segítségével](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Tanulja meg, hogyan konvertálhatja a docx fájlokat egyszerűen txt formátumba Python és Aspose.Words használatával.
+### [Hogyan mentse a docx fájlt txt formátumba LaTeX egyenletekkel az Aspose.Words használatával](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Ismerje meg, hogyan menthet docx fájlokat txt‑be LaTeX egyenletekkel az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

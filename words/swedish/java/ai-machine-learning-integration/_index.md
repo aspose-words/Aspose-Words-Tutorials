@@ -74,6 +74,7 @@ Lär dig konfigurera en stor språkmodell för att automatiskt ersätta text i D
 ### [Skapa Word-dokument i Java med anpassad LLM-grammatikgranskning](./create-word-document-java-with-custom-llm-grammar-check/)
 Lär dig skapa Word-dokument i Java och använda en anpassad LLM för grammatikkontroll.
 
+### [Bygg grammatikkontroll i Java – Komplett steg‑för‑steg‑guide](./build-grammar-checker-java-complete-step-by-step-guide/)
 ### [Sammanfatta Word-dokument i Java – Komplett steg‑för‑steg‑guide](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Lär dig hur du med Aspose.Words för Java skapar en komplett guide för att automatiskt sammanfatta innehållet i Word‑dokument.
 

@@ -119,6 +119,19 @@
 学习如何在 Aspose.Words for Java 中创建 ActiveX 命令按钮，实现交互式文档功能。
 ### [在 Aspose.Words for Java 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-java/)
 学习如何在 Java 中创建空白 Word 文档并添加 ActiveX 按钮。
+### [在 Word 中插入饼图并添加数据标签百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+学习在 Aspose.Words for Java 中插入饼图并添加显示百分比的数据标签。
+
+### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
+### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
+### [在 Aspose.Words for Java 中设置按钮位置](./how-to-set-button-position-in-a-word-document-with-java/)
+学习如何在 Word 文档中使用 Aspose.Words for Java 将按钮放置在指定位置。
+### [使用 Java 和 Aspose.Words 在 Word 中创建图表](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中创建并自定义图表。
+### [在 Aspose.Words for Java 中插入饼图 – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图，完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,8 @@ Leer hoe je met Aspose.Words voor Python LaTeX exporteert vanuit Word en DOCX-be
 
 ### [Hoe LaTeX te exporteren vanuit Word-documenten met Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
 Leer hoe je met Aspose.Words LaTeX kunt exporteren vanuit Word-documenten.
+### [Hoe docx op te slaan als txt met LaTeX‑vergelijkingen met Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Leer hoe je docx-bestanden opslaat als txt met LaTeX‑vergelijkingen via Aspose.Words.
 
 ### [PDF maken vanuit Word – Complete Python-gids met Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF converteert in een volledige gids.
@@ -259,6 +261,25 @@ Leer hoe je DOCX-bestanden naar PDF converteert met Aspose.Words voor Python in 
 
 ### [Toegankelijke PDF maken – Complete gids met Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Leer hoe je met Aspose.Words voor Python toegankelijke PDF-bestanden maakt die voldoen aan WCAG-richtlijnen.
+### [docx opslaan als txt – Exporteer Word-wiskunde naar LaTeX met Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Leer hoe je docx-bestanden als txt opslaat en wiskundige formules uit Word exporteert naar LaTeX met Aspose.Words voor Python.
+
+### [Genereer Toegankelijke PDF met Python – Complete Stapsgewijze Gids](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt, inclusief tags en structuur voor betere toegankelijkheid.
+
+### [PDF maken vanuit Word-document in Python – Complete Stapsgewijze Gids](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Leer hoe je met Aspose.Words voor Python een PDF genereert vanuit een Word‑document, stap‑voor‑stap.
+### [Hoe docx op te slaan als txt LaTeX-wiskunde met Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Leer hoe je docx-bestanden kunt opslaan als txt met LaTeX-wiskunde met behulp van Aspose.Words.
+
+### [Hoe Word op te slaan als PDF met Aspose.Words in Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Leer hoe je Word-documenten kunt opslaan als PDF met Aspose.Words voor Python.
+
+### [Hoe docx naar pdf te converteren met toegankelijkheid in Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Leer hoe je docx-bestanden naar PDF converteert met behoud van toegankelijkheidsfuncties in Python.
+
+### [Hoe docx naar txt te converteren in Python met Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Leer hoe je docx-bestanden naar txt converteert met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,6 +97,10 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du använder översättaren för att automatisera dokumentöversättning i C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Lär dig att automatiskt översätta dokument med Aspose.Words och C#‑kod. |
 | [Sammanfatta Word-dokument med AI-dokumentsammanfattning](./summarize-word-document-with-ai-document-summarization/) | Lär dig att använda AI för att automatiskt sammanfatta Word-dokument med Aspose.Words. |
 | [Hur du översätter docx till franska med AI i C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Lär dig att automatiskt översätta DOCX-filer till franska med AI i C# med Aspose.Words. |
+| [Lägg till sammanfattning i Word-dokument med Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Lär dig hur du använder Aspose.Words AI för att automatiskt lägga till sammanfattningar i Word-dokument. |
+| [Sammanfatta Word-dokument i C# – komplett Aspose.Words AI-guide](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | En fullständig guide för att sammanfatta Word-dokument med Aspose.Words och AI i C#. |
+| [Översätt docx till franska med Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Lär dig att översätta docx-filer till franska med Aspose.Words AI. |
+| [Skapa ett tomt Word-dokument och översätt det till franska](./create-a-blank-word-document-and-translate-it-to-french/) | Skapa ett tomt Word-dokument och översätt det till franska med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

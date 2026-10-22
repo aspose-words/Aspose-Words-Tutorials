@@ -67,6 +67,7 @@ Scopri come abilitare la modalità di recupero per aprire documenti Word corrott
 Scopri come recuperare file docx corrotti utilizzando Aspose.Words per Python. Guida passo passo con esempi di codice.
 ### [Gestore Avvisi Font Aspose – Rileva Font Mancanti e Personalizza il Caricamento del Documento](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Scopri come gestire gli avvisi di font mancanti e personalizzare il caricamento dei documenti con Aspose.Words per Python.
+### [Abilita la modalità di recupero per ripristinare un documento Word danneggiato](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

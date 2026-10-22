@@ -55,6 +55,11 @@ Aspose.Words for Java предоставляет мощные инструмен
 Узнайте, как «взрывать» отдельный срез в диаграмме Word и настраивать его внешний вид с помощью Aspose.Words для Java.
 ### [Как стилизовать сноски в Java с помощью Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Узнайте, как стилизовать сноски в документах Word с помощью Aspose.Words для Java.
+### [Изменение интервала сносок в DOCX – Полное руководство](./change-footnote-spacing-in-docx-complete-guide/)
+Узнайте, как изменить интервал сносок в DOCX с помощью Aspose.Words для Java. Пошаговое руководство с примерами кода.
+
+### [Как редактировать сноску в Java с помощью Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Узнайте, как редактировать сноски в документах с помощью Aspose.Words для Java. Пошаговое руководство с примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

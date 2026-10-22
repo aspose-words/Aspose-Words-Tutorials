@@ -57,6 +57,10 @@ Ismerd meg, hogyan adhat árnyékot a Word diagramokhoz az Aspose.Words for Java
 Tanuld meg, hogyan szerkesztheted a lábjegyzet elválasztót Java-ban az Aspose.Words használatával.
 ### [Lábjegyzetek formázása Java-ban az Aspose.Words segítségével](./how-to-style-footnotes-in-java-using-aspose-words/)
 Tanuld meg, hogyan formázhatod a lábjegyzeteket Java-ban az Aspose.Words segítségével, lépésről-lépésre útmutatóval.
+### [Lábjegyzetek távolságának módosítása DOCX-ben – Teljes útmutató](./change-footnote-spacing-in-docx-complete-guide/)
+Tanuld meg, hogyan állíthatod be a lábjegyzetek közti távolságot DOCX dokumentumokban az Aspose.Words for Java segítségével. 
+### [Lábjegyzet szerkesztése Java-ban az Aspose.Words segítségével](./how-to-edit-footnote-in-java-with-aspose-words/)
+Tanuld meg, hogyan szerkesztheted a lábjegyzeteket az Aspose.Words for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

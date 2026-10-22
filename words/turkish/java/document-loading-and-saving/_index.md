@@ -191,9 +191,15 @@ Java’da eksik yazı tiplerini yakalayarak ve değiştirme uyarılarını yöne
 
 ### [Java’da markdown alt çizgisi yükleme – tam programlama rehberi](./load-markdown-underline-in-java-complete-programming-guide/)
 Java’da markdown alt çizgilerini nasıl yükleyeceğinizi adım adım öğrenin.
+### [Aspose.Words for Java’da Seçenekleri Ayarlama – Tam Kılavuz](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Aspose.Words for Java’da çeşitli ayarları nasıl yapılandıracağınızı ve belge işleme sürecinizi özelleştireceğinizi öğrenin.
 
 ### [Aspose.Words ile C#’ta Klasörden Dosya Yükleme](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işleyebileceğinizi adım adım öğrenin.
+### [Aspose.Words for Java ile Bozuk DOCX Dosyasını Kurtarma – Tam Kılavuz](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
+
+### [Java’da Markdown Yükleme – Tam Kılavuz](./how-to-load-markdown-in-java-complete-guide/)
 ### [Java’da Bozuk docx Dosyasını Kurtarma – Tam Kılavuz](./recover-corrupted-docx-in-java-complete-guide/)
 
 ### [Aspose.Words Java’da geri arama ayarlama – Eksik Yazı Tiplerini Algıla ve İşle](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)

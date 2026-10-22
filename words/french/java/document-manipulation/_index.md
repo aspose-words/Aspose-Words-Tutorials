@@ -63,6 +63,8 @@ Apprenez à générer automatiquement des documents Word avec Aspose.Words en Ja
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [Créer un document Word vierge en Java avec Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Apprenez à créer un document Word vierge en Java à l'aide d'Aspose.Words.
 ### [Utilisation des options de nettoyage dans Aspose.Words pour Java](./using-cleanup-options/)
 Améliorez la clarté de vos documents grâce aux options de nettoyage d'Aspose.Words pour Java. Apprenez à supprimer les paragraphes vides, les zones inutilisées, etc.
 ### [Utilisation des champs dans Aspose.Words pour Java](./using-fields/)
@@ -83,6 +85,8 @@ Optimisez le traitement de vos documents avec Aspose.Words pour Java. Apprenez �
 Maîtrisez la manipulation de plages de documents dans Aspose.Words pour Java. Apprenez à supprimer, extraire et formater du texte grâce à ce guide complet.
 ### [Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java](./using-structured-document-tags/)
 Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java grâce à ce guide complet. Créez, modifiez et liez des SDT à des données XML personnalisées.
+### [Créer un nouveau document Word – Guide étape par étape pour ajouter une balise structurée](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Apprenez à créer un document Word et à insérer une balise structurée grâce à un guide détaillé avec exemples de code.
 ### [Utilisation des styles et des thèmes dans Aspose.Words pour Java](./using-styles-and-themes/)
 Apprenez à améliorer la mise en forme de vos documents avec Aspose.Words pour Java. Explorez les styles, les thèmes et bien plus encore dans ce guide complet avec des exemples de code source.
 ### [Génération d'une table des matières dans Aspose.Words pour Java](./generating-table-of-contents/)
@@ -109,6 +113,8 @@ Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide 
 Apprenez à créer un document Word en Java avec Aspose.Words grâce à un guide pas à pas et du code source.
 ### [Comparaison de documents dans Aspose.Words pour Java](./comparing-documents/)
 Apprenez à comparer des documents dans Aspose.Words pour Java, une puissante bibliothèque Java pour une analyse efficace des documents. 
+### [Créer un document Word vierge avec Aspose.Words pour Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Apprenez à créer un document Word vierge en Java avec Aspose.Words, étape par étape.
 ### [Formatage de documents dans Aspose.Words pour Java](./formatting-documents/)
 Apprenez l'art de la mise en forme de documents dans Aspose.Words pour Java grâce à notre guide complet. Explorez de puissantes fonctionnalités et améliorez vos compétences en traitement de documents.
 ### [Joindre et ajouter des documents dans Aspose.Words pour Java](./joining-and-appending-documents/)

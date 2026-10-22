@@ -58,6 +58,8 @@ Leer effectief voetnoten en eindnoten gebruiken in Aspose.Words voor Java. Verbe
 Leer hoe u Aspose.Words voor Java kunt gebruiken om interactieve Word-documenten met formuliervelden te maken. Ga nu aan de slag!
 ### [HarfBuzz gebruiken in Aspose.Words voor Java](./using-harfbuzz/)
 Leer HarfBuzz gebruiken voor geavanceerde tekstvormgeving in Aspose.Words voor Java. Verbeter de tekstweergave in complexe scripts met deze stapsgewijze handleiding.
+### [Hoe de knoppositie instellen in een Word-document met Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Leer hoe u knoppen kunt positioneren in een Word-document met Aspose.Words voor Java.
 ### [Kop- en voetteksten gebruiken in Aspose.Words voor Java](./using-headers-and-footers/)
 Leer stap voor stap hoe je kop- en voetteksten gebruikt in Aspose.Words voor Java. Maak moeiteloos professionele documenten.
 ### [Afbreking gebruiken in Aspose.Words voor Java](./using-hyphenation/)
@@ -117,6 +119,16 @@ Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Asp
 ### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Hoe een cirkeldiagram in een Word-document met Java in te voegen](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
+### [Cirkeldiagram invoegen in Word – gegevenslabelpercentage toevoegen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
+### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
+Leer hoe u een klikbare knop in een Word‑document kunt invoegen met Aspose.Words voor Java in deze stapsgewijze tutorial.
+### [Hoe een taartpunt te exploderen in Java – Aspose.Words diagramtutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Leer hoe u een taartpunt kunt laten exploderen in een diagram met Aspose.Words voor Java.
+### [Grafiek maken in Word met Java en Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Leer hoe u diagrammen toevoegt aan Word-documenten met Java en Aspose.Words in deze stapsgewijze tutorial.
+### [Cirkeldiagram invoegen in Aspose.Words voor Java – volledige gids](./insert-pie-chart-word-in-java-complete-guide/)
+Leer stap voor stap hoe u een cirkeldiagram in een Word-document kunt invoegen met Java en Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

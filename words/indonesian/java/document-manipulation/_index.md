@@ -66,6 +66,10 @@ Pelajari cara membuat dokumen Word secara otomatis menggunakan Aspose.Words untu
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [Buat Dokumen Word Baru – Panduan Langkah-demi-Langkah Menambahkan Tag Terstruktur](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Pelajari cara membuat dokumen Word baru dan menambahkan Structured Tag dengan contoh kode lengkap.
+### [Cara Membuat Dokumen Word Kosong dengan Aspose.Words untuk Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dalam beberapa langkah sederhana.
 ### [Menggunakan Opsi Pembersihan di Aspose.Words untuk Java](./using-cleanup-options/)
 Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -124,6 +128,8 @@ Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words
 Pelajari cara menambahkan kontrol konten ke dokumen Word menggunakan Aspose.Words untuk Java.
 ### [Cara menyimpan docx dengan DocumentBuilder dan menambahkan teks setelah kontrol](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Pelajari cara menyimpan file docx menggunakan DocumentBuilder dan menambahkan teks setelah kontrol dalam dokumen.
+### [Membuat Dokumen Word Kosong di Java dengan Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dalam beberapa langkah sederhana.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

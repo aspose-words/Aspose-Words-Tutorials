@@ -95,6 +95,9 @@ Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng 
 ### [Khôi phục tài liệu Word bị hỏng – Hướng dẫn Java toàn diện](./recover-broken-word-document-complete-java-guide/)
 ### [Ghi lại Cảnh báo Thay thế Phông chữ – Phát hiện Phông chữ thiếu](./capture-font-substitution-warnings-detect-missing-fonts/)
 
+### [Cách đặt tùy chọn trong Aspose.Words cho Java – hướng dẫn đầy đủ](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Hướng dẫn chi tiết cách cấu hình các tùy chọn trong Aspose.Words cho Java.
+
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Lưu Tài Liệu Word – Đặt Cài Đặt Phông Chữ, Xử Lý Phông Chữ Thiếu](./save-word-document-set-font-settings-handle-missing-fonts/)
@@ -115,6 +118,9 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài li�
 Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
 
 ### [Hướng Dẫn Thay Thế Phông Chữ Aspose – Xử Lý Phông Chữ Thiếu](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Cách tải Markdown trong Java – Hướng dẫn toàn diện](./how-to-load-markdown-in-java-complete-guide/)
+Học cách tải và xử lý tệp Markdown trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
@@ -171,6 +177,7 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 ### [Cách tải tệp từ thư mục bằng Aspose.Words trong C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
 
+### [Khôi phục DOCX bị hỏng với Aspose.Words cho Java – Hướng dẫn toàn diện](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Khôi phục docx bị hỏng trong Java – Hướng dẫn toàn diện](./recover-corrupted-docx-in-java-complete-guide/)
 
 ## Câu Hỏi Thường Gặp

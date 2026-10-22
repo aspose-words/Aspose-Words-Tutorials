@@ -40,6 +40,7 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | [Cách viết lại đoạn văn bằng AI trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Hướng dẫn chi tiết cách sử dụng AI để viết lại đoạn văn trong tài liệu Word bằng C# và Aspose.Words. |
 | [Cách tạo mẫu tài liệu và điền dữ liệu vào bằng C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Hướng dẫn tạo mẫu tài liệu và tự động điền dữ liệu bằng C# với Aspose.Words cho .NET. |
 | [Cách thay thế các placeholder trong tệp docx bằng Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Hướng dẫn chi tiết cách thay thế các placeholder trong tệp DOCX bằng Aspose.Words cho .NET. |
+| [Tự động tạo tài liệu Word với Aspose.Words trong C#](./automate-word-document-generation-with-aspose-words-in-c/) | Hướng dẫn tự động tạo tài liệu Word bằng Aspose.Words trong C# với các ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

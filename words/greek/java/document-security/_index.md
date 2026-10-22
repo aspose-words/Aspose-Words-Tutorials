@@ -53,6 +53,12 @@
 Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Πώς να υπογράψετε ψηφιακά ένα έγγραφο Word χρησιμοποιώντας Java](./how-to-digitally-sign-word-document-using-java/)
 Μάθετε πώς να προσθέσετε ψηφιακές υπογραφές σε έγγραφα Word με το Aspose.Words για Java, βήμα-βήμα με παραδείγματα κώδικα.
+### [Αρχείο PFX Ψηφιακής Υπογραφής σε Java – Πλήρης Οδηγός](./digital-signature-pfx-file-in-java-complete-guide/)
+Μάθετε πώς να δημιουργείτε και να χρησιμοποιείτε αρχεία PFX για ψηφιακές υπογραφές σε Java με το Aspose.Words.
+### [Πώς να υπογράψετε αρχεία docx σε Java – βήμα‑βήμα οδηγός](./how-to-sign-docx-in-java-step-by-step-guide/)
+Μάθετε πώς να προσθέσετε ψηφιακές υπογραφές σε αρχεία docx με Aspose.Words για Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφο Word](./how-to-add-a-digital-signature-to-a-word-document/)
+Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

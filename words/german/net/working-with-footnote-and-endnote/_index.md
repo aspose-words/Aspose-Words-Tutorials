@@ -27,6 +27,7 @@
 | [Fußnotentrennzeichen in C# abrufen – vollständige Aspose.Words-Anleitung](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET das Fußnotentrennzeichen in C# abrufen und verwenden. |
 | [Fußnoten-Trennzeichen ändern und Stil anpassen](./how-to-change-footnote-separator-and-customize-its-style-in/) | Erfahren Sie, wie Sie das Fußnoten‑Trennzeichen ändern und dessen Formatierung in Word‑Dokumenten mit Aspose.Words für .NET anpassen. |
 
+| [Formatieren des Fußnotentrennzeichens in C# mit Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET das Trennzeichen von Fußnoten in C# formatieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

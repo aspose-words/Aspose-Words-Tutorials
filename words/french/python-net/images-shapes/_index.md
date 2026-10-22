@@ -76,9 +76,19 @@ Apprenez à enregistrer une image PNG et à ajouter une ombre à une forme dans 
 Apprenez à générer un diagramme à colonnes dans un document Word en utilisant Aspose.Words pour Python-net.
 ### [Comment appliquer un effet d'ombre à une forme Word avec Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Apprenez à ajouter un effet d'ombre aux formes Word avec Aspose.Words.
+### [Comment définir une ombre sur une forme dans Aspose.Words pour Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Apprenez à appliquer une ombre à une forme dans vos documents Word avec Aspose.Words pour Python.
 
 ### [Comment créer une forme rectangle dans un document Word à l'aide de Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Apprenez à insérer et configurer une forme rectangle dans un document Word avec Aspose.Words et Python.
+### [Créer un document Word vierge et ajouter une ombre à une forme – Guide complet Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Apprenez à créer un document Word vierge et à appliquer une ombre à une forme en utilisant Aspose.Words pour Python.
+
+### [Créer un document Word vierge et ajouter une ombre à une forme – Tutoriel complet](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Apprenez à créer un document Word vierge et à appliquer une ombre à une forme avec Aspose.Words pour Python‑net.
+
+### [Comment créer un document avec une forme rectangulaire et une ombre en Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Apprenez à créer un document Word contenant une forme rectangulaire avec ombre en utilisant Aspose.Words pour Python.
 
 ## Ressources supplémentaires
 

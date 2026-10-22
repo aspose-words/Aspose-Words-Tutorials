@@ -55,6 +55,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Word-Diagrammen hin
 Erfahren Sie, wie Sie das Trennzeichen von Fußnoten in Java mit Aspose.Words anpassen.
 ### [Wie man ein Segment in einem Word-Diagramm explodiert und dessen Aussehen anpasst](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Erfahren Sie, wie Sie ein Segment in einem Word-Diagramm explodieren und das Aussehen individuell anpassen.
+### [Fußnotenabstand in DOCX ändern – Komplettanleitung](./change-footnote-spacing-in-docx-complete-guide/)
+Erfahren Sie, wie Sie den Abstand von Fußnoten in DOCX-Dokumenten mit Aspose.Words für Java anpassen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Fußnoten in Java mit Aspose.Words bearbeiten](./how-to-edit-footnote-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie Fußnoten in Dokumenten mit Aspose.Words für Java programmgesteuert bearbeiten und anpassen. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

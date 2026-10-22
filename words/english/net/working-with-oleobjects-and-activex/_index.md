@@ -27,6 +27,7 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | [Add Command Button to Word Document with Aspose.Words – Complete Guide](./add-command-button-to-word-document-with-aspose-words-comple/) | Learn how to add a command button to Word documents using Aspose.Words for .NET in a comprehensive step‑by‑step guide. |
 | [How to add ActiveX button in a Word document with Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Learn how to add an ActiveX button to a Word document using Aspose.Words for .NET in a step-by-step guide. |
 | [How to add an ActiveX control word in Word with C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Learn how to add an ActiveX control to a Word document using C# and Aspose.Words for .NET in a step-by-step guide. |
+| [Create word document programmatically and add ActiveX button](./create-word-document-programmatically-and-add-activex-button/) | Learn how to programmatically create a Word document and add an ActiveX button using Aspose.Words for .NET in a step-by-step guide. |
 | [Insert Ole Object In Word Document](./insert-ole-object/) | Learn how to insert OLE objects in Word documents using Aspose.Words for .NET with this step-by-step guide. Enhance your documents with embedded content. |
 | [Insert Ole Object In Word With Ole Package](./insert-ole-object-with-ole-package/) | Learn how to insert OLE objects in Word documents using Aspose.Words for .NET. Follow our detailed step-by-step guide to embed files seamlessly. |
 | [Insert Ole Object In Word Document As Icon](./insert-ole-object-as-icon/) | Learn how to insert an OLE object as an icon in Word documents using Aspose.Words for .NET. Follow our step-by-step guide to enhance your documents. |
@@ -39,6 +40,7 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | [create word document button with Aspose.Words – Full Code Example](./create-word-document-button-with-aspose-words-full-code-exam/) | Learn how to create a Word document button using Aspose.Words with a full code example. |
 | [how to add activex control in Word with Aspose.Words – step‑by‑step guide](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Learn how to add an ActiveX control in Word using Aspose.Words for .NET with this step-by-step guide. |
 | [How to create ActiveX command button in Word using C#](./how-to-create-activex-command-button-in-word-using-c/) | Learn how to create an ActiveX command button in a Word document using C# and Aspose.Words for .NET with a step-by-step guide. |
+| [How to create Word document with an ActiveX command button in C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Learn how to create a Word document with an ActiveX command button in C# using Aspose.Words for .NET in a step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

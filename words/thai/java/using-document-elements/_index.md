@@ -75,7 +75,6 @@
 ### [การใช้การแก้ไขใน Aspose.Words สำหรับ Java](./using-revisions/)
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
-สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
 ### [ตั้งขนาดปุ่มใน Word ด้วย Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 เรียนรู้วิธีตั้งขนาดปุ่มในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียดและครบถ้วน
 ### [สร้างแผนภูมิวงกลมด้วย Aspose.Words Java – คู่มือเต็มขั้นตอน](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
@@ -117,6 +116,18 @@
 เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 ### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
+### [วิธีแทรกแผนภูมิวงกลมใน Word – เพิ่มป้ายข้อมูลเปอร์เซ็นต์](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมใน Aspose.Words สำหรับ Java พร้อมเพิ่มป้ายข้อมูลเปอร์เซ็นต์
+### [วิธีเพิ่มปุ่มในเอกสาร Word – คู่มือทีละขั้นตอน](./how-to-add-button-to-word-document-step-by-step-guide/)
+เรียนรู้วิธีแทรกปุ่มลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายและเป็นขั้นตอน
+### [วิธีแยกชิ้นพายใน Java – บทช่วยสอนแผนภูมิ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+เรียนรู้วิธีแยกชิ้นพายในแผนภูมิ Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีสร้างแผนภูมิใน Word ด้วย Java และ Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+เรียนรู้วิธีสร้างแผนภูมิในเอกสาร Word ด้วย Java และ Aspose.Words อย่างละเอียด
+### [การแทรกแผนภูมิวงกลมใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./insert-pie-chart-word-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java อย่างละเอียดและครบถ้วน
+### [วิธีตั้งตำแหน่งปุ่มในเอกสาร Word ด้วย Java](./how-to-set-button-position-in-a-word-document-with-java/)
+เรียนรู้วิธีกำหนดตำแหน่งของปุ่มในเอกสาร Word ด้วย Java อย่างละเอียดในบทช่วยสอนนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@ Poznaj, jak skonfigurować model LLM, aby automatycznie zamieniać tekst w dokum
 Dowiedz się, jak zbudować własny model AI i używać go do dynamicznej edycji akapitów w dokumentach Word przy użyciu Aspose.Words w Javie.
 ### [Tworzenie dokumentu Word w Javie z niestandardową kontrolą gramatyki LLM](./create-word-document-java-with-custom-llm-grammar-check/)
 Dowiedz się, jak generować dokument Word w Javie i integrować własny model LLM do sprawdzania gramatyki.
+### [Budowanie sprawdzania gramatyki w Javie – Kompletny przewodnik krok po kroku](./build-grammar-checker-java-complete-step-by-step-guide/)
+Krok po kroku pokażemy, jak zbudować w Javie sprawdzacz gramatyki wykorzystujący AI, integrując Aspose.Words i modele językowe.
 ### [Podsumowanie dokumentu Word w Javie – Kompletny przewodnik krok po kroku](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak używać Aspose.Words for Java do automatycznego podsumowywania dokumentów Word przy użyciu AI w pełnym, praktycznym przewodniku.
 

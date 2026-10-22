@@ -31,6 +31,8 @@ Door documentbeveiliging onder de knie te krijgen met Aspose.Words voor Java, ku
 ## Tutorials over documentbeveiliging
 ### [Hoe u uw documenten veilig en beveiligd houdt](./keep-documents-safe-secure/)
 Beveilig uw documenten met Aspose.Words voor Java. Versleutel, bescherm en voeg moeiteloos digitale handtekeningen toe. Houd uw gegevens veilig.
+### [Hoe u een digitale handtekening aan een Word-document toevoegt](./how-to-add-a-digital-signature-to-a-word-document/)
+Leer hoe u met Aspose.Words voor Java een digitale handtekening aan een Word-document kunt toevoegen voor authenticatie en integriteit.
 ### [Documenten beveiligen met wachtwoorden](./securing-documents-passwords/)
 Ontdek hoe u documenten met wachtwoorden kunt beveiligen met Aspose.Words voor Java. Deze stapsgewijze handleiding bevat broncode en tips van experts. Houd uw gegevens veilig.
 ### [Documentmachtigingen beheren](./managing-document-permissions/)
@@ -53,6 +55,10 @@ Leer hoe u docx‑bestanden ondertekent met een PFX‑certificaat met Aspose.Wor
 Leer hoe u met Aspose.Words digitale handtekeningen aan Word-documenten kunt toevoegen voor authenticatie en integriteit.
 ### [Hoe u een Word-document digitaal ondertekent met Java](./how-to-digitally-sign-word-document-using-java/)
 Leer hoe u Word-documenten digitaal ondertekent met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Digitale handtekening PFX-bestand in Java – Complete gids](./digital-signature-pfx-file-in-java-complete-guide/)
+Leer hoe u PFX-bestanden gebruikt voor digitale handtekeningen in Java met Aspose.Words. Volledige stapsgewijze gids.
+### [Hoe u docx in Java ondertekent – stap‑voor‑stap gids](./how-to-sign-docx-in-java-step-by-step-guide/)
+Leer hoe u docx‑bestanden in Java kunt ondertekenen met Aspose.Words, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

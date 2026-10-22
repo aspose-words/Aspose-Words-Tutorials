@@ -124,6 +124,25 @@ Panduan membuat dokumen kosong dan menambahkan bentuk menggunakan Aspose.Words u
 
 ### [Cara menyisipkan gambar ke dalam docx dan menyembunyikan gambar di Word dengan Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Panduan langkah demi langkah menyisipkan gambar ke dokumen DOCX dan menyembunyikannya di Word menggunakan Aspose.Words untuk Java.
+### [Tambahkan Bayangan ke Bentuk di Java – Panduan Pemrograman Lengkap](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
+### [Buat dokumen Word kosong dengan shape berkelompok – Panduan Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan shape yang dikelompokkan menggunakan Aspose.Words untuk Java.
+
+### [Buat Dokumen Word Java – Sisipkan dan Sembunyikan Gambar dengan Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Pelajari cara menyisipkan gambar ke dalam dokumen Word dan menyembunyikannya menggunakan Aspose.Words untuk Java.
+
+### [Sisipkan Diagram Pai di Java – Pecah, Putar & Sorot Irisan](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Pelajari cara menyisipkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java, termasuk memecah, memutar, dan menyorot irisan.
+
+### [Buat Dokumen Word Kosong dengan Bentuk Berkelompok di Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk yang dikelompokkan menggunakan Aspose.Words untuk Java.
+
+### [Tutorial Aspose.Words ActiveX – menyisipkan CommandButton dengan Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Pelajari cara menambahkan CommandButton ke dokumen menggunakan Aspose.Words ActiveX dengan Java.
+
+### [Buat dokumen Word Java – sembunyikan bentuk dan atur warna isi](./create-word-document-java-hide-shape-and-set-fill-color/)
+Pelajari cara menyembunyikan bentuk dan mengatur warna isi dalam dokumen Word menggunakan Aspose.Words untuk Java.
 ### [Simpan Dokumen Word – Tambahkan Bentuk Persegi Panjang dengan Bayangan di Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Pelajari cara menyimpan dokumen Word sambil menambahkan bentuk persegi panjang dengan efek bayangan menggunakan Aspose.Words untuk Java.
 
@@ -145,6 +164,12 @@ Pelajari cara membuat dokumen Word secara programatik dan mengelompokkan bentuk 
 
 ### [Cara membuat diagram donat dalam dokumen Word dengan Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Pelajari cara membuat diagram donat di dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Pelajari cara membuat dokumen Word kosong dan mengelompokkan bentuk-bentuk di dalamnya menggunakan Aspose.Words untuk Java.
+
+### [Buat dokumen Word dengan gambar tersembunyi di Java menggunakan Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Pelajari cara menyisipkan gambar tersembunyi ke dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

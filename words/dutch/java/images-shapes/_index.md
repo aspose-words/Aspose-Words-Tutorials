@@ -125,6 +125,24 @@ Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in
 Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
 ### [Hoe vormen groeperen in Word met Java – complete gids](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Leer hoe u meerdere vormen in een Word‑document groepeert met Aspose.Words voor Java.
+### [Schaduw toevoegen aan vorm in Java – Complete programmeergids](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Leer hoe u een vorm in een Word-document in Java een schaduweffect geeft met een stapsgewijze programmeergids.
+### [Leeg Word-document maken met gegroepeerde vorm – Java-gids](./create-blank-word-document-with-grouped-shape-java-guide/)
+Leer hoe u een leeg Word-document maakt en een gegroepeerde vorm toevoegt met Aspose.Words voor Java.
+
+### [Word-document maken in Java – Afbeeldingen invoegen en verbergen met Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt met Aspose.Words voor Java.
+
+### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
+
+### [Word-document maken in Java – vorm verbergen en vulkleur instellen](./create-word-document-java-hide-shape-and-set-fill-color/)
+Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Aspose.Words voor Java.
+
+### [Leeg Word-document maken met gegroepeerde vormen in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
+
+### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 ### [Word-document opslaan – Rechthoekvorm en schaduw toevoegen in Java](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Leer hoe u een Word-document opslaat en een rechthoekige vorm met schaduweffect toevoegt met Aspose.Words voor Java.
 
@@ -147,6 +165,11 @@ Leer hoe u een leeg Word-document maakt en een verborgen ellipsvorm toevoegt met
 
 ### [Hoe een donutgrafiek in een Word-document te maken met Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Leer hoe u een donutgrafiek toevoegt aan een Word-document met Java.
+### [Hoe een leeg Word-document te maken en vormen te groeperen in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voor Java.
+
+### [Maak een Word-document met een verborgen afbeelding in Java met Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Leer hoe u een verborgen afbeelding toevoegt aan een Word-document met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

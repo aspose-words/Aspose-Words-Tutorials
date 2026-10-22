@@ -93,6 +93,8 @@ Aspose.Words for Java'da belgeleri etkili bir şekilde nasıl böleceğinizi ö�
 Aspose.Words for Java ile belgeleri HTML sayfalarına nasıl böleceğinizi öğrenin. Sorunsuz belge dönüşümü için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Words for Java'da DocumentBuilder Kullanarak İçerik Ekleme](./adding-content-using-documentbuilder/)
 Java için Aspose.Words ile Ana Belge Oluşturma. Metin, Tablo, Resim ve Daha Fazlasını Eklemek İçin Adım Adım Kılavuz. Zahmetsizce Çarpıcı Word Belgeleri Oluşturun.
+### [Java için Aspose.Words'de Boş Word Belgesi Oluşturma](./create-blank-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java kullanarak sıfırdan bir Word belgesi oluşturmayı öğrenin.
 ### [Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirme](./cloning-and-combining-documents/)
 Aspose.Words for Java'da belgeleri nasıl klonlayacağınızı ve birleştireceğinizi öğrenin. Kaynak kod örnekleriyle adım adım kılavuz.
 ### [Java için Aspose.Words'de Belgeleri Karşılaştırma](./comparing-documents/)
@@ -120,6 +122,10 @@ Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belg
 ### [Java için Aspose.Words ile programlı olarak Word belgesi oluşturma](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [DocumentBuilder ile docx kaydetme ve bir kontrolün sonrasına metin ekleme](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 DocumentBuilder kullanarak docx dosyasını kaydedin ve bir kontrolün ardından metin eklemeyi öğrenin.
+### [Java için Aspose.Words'de Yeni Word Belgesi Oluşturma – Yapılandırılmış Etiket Eklemek İçin Adım‑Adım Kılavuz](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturun ve yapılandırılmış etiket eklemeyi adım adım öğrenin.
+### [Aspose.Words for Java ile Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak sıfırdan boş bir Word belgesi oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

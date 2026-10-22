@@ -126,6 +126,25 @@ Aprenda a crear un documento vacío y añadir formas usando Aspose.Words en C#.
 
 ### [Cómo insertar una imagen en docx y ocultar la imagen en Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Aprenda a insertar y ocultar imágenes en documentos Word usando Aspose.Words para Java.
+### [Agregar sombra a una forma en Java – Guía completa de programación](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Aprenda a agregar sombra a una forma en Java usando Aspose.Words con una guía paso a paso.
+### [Crear documento Word en blanco con forma agrupada – Guía Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a crear un documento Word vacío y añadir una forma agrupada usando Aspose.Words para Java.
+
+### [Crear documento Word en Java – Insertar y ocultar imágenes con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aprenda a insertar imágenes en un documento Word y ocultarlas según sea necesario usando Aspose.Words para Java.
+
+### [Insertar gráfico de pastel en Java – Explotar, rotar y resaltar porciones](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aprenda a crear un gráfico de pastel en Java, aplicar explosión, rotar y resaltar secciones usando Aspose.Words.
+
+### [Crear documento Word en blanco con formas agrupadas en Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a crear un documento Word vacío y agregar formas agrupadas usando Aspose.Words para Java.
+
+### [Tutorial Aspose.Words ActiveX – insertar un CommandButton con Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Aprenda a insertar un CommandButton en un control ActiveX usando Aspose.Words y Java.
+
+### [Crear documento Word en Java – ocultar forma y establecer color de relleno](./create-word-document-java-hide-shape-and-set-fill-color/)
+Aprenda a crear un documento Word en Java, ocultar una forma y definir su color de relleno con Aspose.Words.
 ### [Guardar documento Word – Añadir forma de rectángulo con sombra](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Aprenda a guardar un documento Word en Java añadiendo una forma rectangular con efecto de sombra usando Aspose.Words.
 
@@ -148,6 +167,11 @@ Aprenda a generar un documento Word vacío y añadir una forma elíptica oculta 
 
 ### [Cómo crear un gráfico de dona en un documento Word con Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Aprenda a generar un gráfico de dona en un documento Word usando Aspose.Words para Java.
+### [Cómo crear un documento Word en blanco y agrupar formas en Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aprenda a crear un documento Word vacío y agrupar varias formas usando Aspose.Words para Java.
+
+### [Crear documento Word con una imagen oculta en Java usando Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words para Java.
 
 ## Recursos adicionales
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

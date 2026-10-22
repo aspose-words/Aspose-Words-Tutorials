@@ -78,6 +78,8 @@ Optimaliseer uw documentverwerking met Aspose.Words voor Java. Leer in deze stap
 Beheers de manipulatie van documentbereiken in Aspose.Words voor Java. Leer tekst verwijderen, extraheren en opmaken met deze uitgebreide handleiding.
 ### [Het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java](./using-structured-document-tags/)
 Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide handleiding. Maak, wijzig en koppel SDT's aan aangepaste XML-gegevens.
+### [Nieuw Word-document maken – Stapsgewijze handleiding voor het toevoegen van een gestructureerde tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Leer hoe u een nieuw Word-document maakt en een gestructureerde tag toevoegt met deze stapsgewijze tutorial.
 ### [Stijlen en thema's gebruiken in Aspose.Words voor Java](./using-styles-and-themes/)
 Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide handleiding met broncodevoorbeelden.
 ### [Inhoudsopgave genereren in Aspose.Words voor Java](./generating-table-of-contents/)
@@ -123,6 +125,10 @@ Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoeg
 
 ### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
 Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken in Java met Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
+### [Leeg Word-document maken met Aspose.Words voor Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Leer hoe u een leeg Word-document kunt maken met Aspose.Words voor Java, inclusief basisinstellingen en codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

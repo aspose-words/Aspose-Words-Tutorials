@@ -31,6 +31,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word dengan Tombol ActiveX – Panduan C#](./create-word-document-with-activex-button-c-guide/) | Pelajari cara membuat dokumen Word dengan tombol ActiveX menggunakan Aspose.Words untuk .NET dalam panduan C# langkah demi langkah. |
 | [Buat tombol dokumen Word dengan Aspose.Words – Contoh Kode Lengkap](./create-word-document-button-with-aspose-words-full-code-exam/) | Pelajari cara membuat tombol untuk menghasilkan dokumen Word menggunakan Aspose.Words dengan contoh kode lengkap. |
 | [Cara Menambahkan Kontrol ActiveX di Word dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
+| [Cara Membuat Dokumen Word dengan Tombol Perintah ActiveX di C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Pelajari cara membuat dokumen Word yang berisi tombol perintah ActiveX menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 
 | [Menambahkan Tombol Perintah ke Dokumen Word dengan Aspose.Words – Panduan Lengkap](./add-command-button-to-word-document-with-aspose-words-comple/) | Pelajari cara menambahkan tombol perintah ke dokumen Word menggunakan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 | [Cara Menambahkan Tombol ActiveX dalam Dokumen Word dengan Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Pelajari cara menambahkan tombol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
@@ -39,6 +40,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menambahkan Kontrol ActiveX ke Word dengan C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Cara menyisipkan tombol perintah OLE dalam dokumen Word menggunakan C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Pelajari cara menyisipkan tombol perintah OLE ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah. |
 | [Cara menambahkan tombol perintah secara programatis dalam dokumen Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Pelajari cara menambahkan tombol perintah ke dokumen Word secara programatis menggunakan Aspose.Words untuk .NET. |
+| [Buat dokumen Word secara programatis dan tambahkan tombol ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Pelajari cara membuat dokumen Word secara programatis dan menambahkan tombol ActiveX menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

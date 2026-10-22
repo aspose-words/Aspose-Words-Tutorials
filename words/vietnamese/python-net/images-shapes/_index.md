@@ -74,9 +74,19 @@ Hướng dẫn cách lưu hình ảnh PNG và áp dụng hiệu ứng bóng đ�
 Hướng dẫn chi tiết cách tạo biểu đồ cột trong tài liệu Word bằng Python và Aspose.Words.
 ### [Cách áp dụng hiệu ứng bóng cho hình dạng Word bằng Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words.
+### [Cách thiết lập bóng đổ cho hình dạng trong Aspose.Words cho Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho Python.
 
 ### [Cách tạo hình chữ nhật trong tài liệu Word bằng Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng Python và Aspose.Words.
+### [Tạo tài liệu Word trống và thêm bóng đổ vào hình dạng – Hướng dẫn Python đầy đủ](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hiệu ứng bóng đổ cho hình dạng bằng Aspose.Words cho Python-net.
+
+### [Tạo tài liệu Word trống và thêm bóng đổ vào hình dạng – Hướng dẫn đầy đủ](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hiệu ứng bóng đổ cho hình dạng bằng Aspose.Words cho Python-net.
+
+### [Cách tạo tài liệu với hình chữ nhật và bóng đổ trong Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Hướng dẫn chi tiết cách tạo tài liệu Word với hình chữ nhật và hiệu ứng bóng đổ bằng Aspose.Words cho Python-net.
 
 ## Tài nguyên bổ sung
 

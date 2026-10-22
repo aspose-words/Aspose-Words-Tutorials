@@ -126,6 +126,25 @@
 تعلم كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose.Words لجافا.
 ### [كيفية تجميع الأشكال في Word باستخدام Java – دليل كامل](./how-to-group-shapes-in-word-with-java-complete-guide/)
 تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
+### [إضافة ظل إلى الشكل في جافا – دليل برمجة كامل](./add-shadow-to-shape-in-java-complete-programming-guide/)
+دليل شامل يوضح كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا
+### [إنشاء مستند Word فارغ مع شكل مجموعة – دليل Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل مجموعة باستخدام Aspose.Words for Java
+
+### [إنشاء مستند Word في Java – إدراج وإخفاء الصور باستخدام Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+تعلم كيفية إدراج الصور في مستند Word وإخفائها باستخدام Aspose.Words for Java
+
+### [إدراج مخطط دائري في Java – تفجير، تدوير وتحديد الشرائح](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+تعلم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words for Java مع تفجير وتدوير وتظليل الشرائح.
+
+### [إنشاء مستند Word فارغ مع أشكال مجمعة في Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال المجمعة باستخدام Aspose.Words لجافا
+
+### [دروس Aspose.Words ActiveX – إدراج زر CommandButton باستخدام Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+تعلم كيفية إضافة زر CommandButton إلى مستند Word باستخدام ActiveX و Java
+
+### [إنشاء مستند Word في Java – إخفاء الشكل وتعيين لون التعبئة](./create-word-document-java-hide-shape-and-set-fill-color/)
+تعلم كيفية إخفاء شكل في مستند Word وتحديد لون التعبئة باستخدام Aspose.Words لجافا
 ### [حفظ مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./save-word-document-add-rectangle-shape-shadow-in-java/)
 تعلم كيفية حفظ مستند Word وإضافة شكل مستطيل بظل باستخدام Aspose.Words for Java
 
@@ -148,6 +167,10 @@
 
 ### [كيفية إنشاء مخطط دونات في مستند Word باستخدام Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 تعلم كيفية إنشاء مخطط دونات داخل مستند Word باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مستند Word فارغ وتجميع الأشكال في Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [إنشاء مستند Word بصورة مخفية في Java باستخدام Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+دليل لإنشاء مستند Word يحتوي على صورة مخفية باستخدام Aspose.Words لجافا.
 
 ## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

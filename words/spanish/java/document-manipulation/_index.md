@@ -81,6 +81,8 @@ Optimice el procesamiento de sus documentos con Aspose.Words para Java. Aprenda 
 Domine la manipulación de rangos de documentos en Aspose.Words para Java. Aprenda a eliminar, extraer y formatear texto con esta guía completa.
 ### [Uso de etiquetas de documento estructurado (SDT) en Aspose.Words para Java](./using-structured-document-tags/)
 Aprenda a usar etiquetas de documento estructurado (SDT) en Aspose.Words para Java con esta guía completa. Cree, modifique y vincule SDT con datos XML personalizados.
+### [Crear nuevo documento Word – Guía paso a paso para agregar una etiqueta estructurada](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aprenda a crear un documento Word desde cero y añadir etiquetas estructuradas mediante Aspose.Words para Java.
 ### [Uso de estilos y temas en Aspose.Words para Java](./using-styles-and-themes/)
 Aprenda a mejorar el formato de documentos con Aspose.Words para Java. Explore estilos, temas y más en esta guía completa con ejemplos de código fuente.
 ### [Generación de una tabla de contenido en Aspose.Words para Java](./generating-table-of-contents/)
@@ -122,6 +124,10 @@ Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con eje
 Cree un documento en blanco con un botón de comando interactivo en Word mediante Java.
 ### [Cómo crear un documento Word programáticamente con Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Aprenda a generar documentos Word de forma programática usando Aspose.Words en Java.
+### [Crear documento Word en blanco en Java con Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Aprenda a generar un documento Word vacío usando Aspose.Words para Java con ejemplos de código simples.
+### [Cómo crear un documento Word en blanco con Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aprenda a crear un documento Word vacío usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

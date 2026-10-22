@@ -55,6 +55,11 @@ Lär dig hur du ställer in standardteckensnitt för dokument med Aspose.Words f
 Lär dig hur du lägger till skugga på ett Word-diagram med Aspose.Words för Java.
 ### [Hur du exploderar en del i ett Word-diagram och anpassar dess utseende](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Lär dig hur du exploderar en diagramdel i Word och anpassar dess stil med Aspose.Words för Java.
+### [Ändra fotnotsavstånd i DOCX – Komplett guide](./change-footnote-spacing-in-docx-complete-guide/)
+Lär dig hur du justerar avståndet för fotnoter i DOCX-dokument med Aspose.Words för Java. Steg‑för‑steg‑guide med kodexempel.
+
+### [Redigera fotnot i Java med Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Lär dig hur du redigerar fotnoter i dokument med Aspose.Words för Java. Steg-för-steg-guide med källkod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

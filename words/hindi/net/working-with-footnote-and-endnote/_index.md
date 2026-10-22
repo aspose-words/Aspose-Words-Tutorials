@@ -26,6 +26,8 @@
 | [C# में Aspose.Words का उपयोग करके फुटनोट विभाजक बदलें](./change-footnote-separator-in-c-using-aspose-words/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में फुटनोट सेपरेटर को बदलने का तरीका सीखें। |
 | [C# में फुटनोट सेपरेटर प्राप्त करें – पूर्ण Aspose.Words गाइड](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में फुटनोट सेपरेटर कैसे प्राप्त करें, इस पूर्ण मार्गदर्शिका में सीखें। |
 | [Word दस्तावेज़ में फुटनोट सेपरेटर बदलें और शैली को अनुकूलित करें](./how-to-change-footnote-separator-and-customize-its-style-in/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में फुटनोट सेपरेटर बदलें और उसकी शैली को अनुकूलित करें। |
+| [Aspose.Words का उपयोग करके C# में फुटनोट सेपरेटर को फ़ॉर्मेट करें](./format-footnote-separator-in-c-using-aspose-words/) | Aspose.Words के साथ C# में फुटनोट सेपरेटर को फ़ॉर्मेट करने का तरीका सीखें। |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

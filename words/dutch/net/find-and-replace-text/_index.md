@@ -41,6 +41,7 @@ Of u nu specifieke woorden moet vervangen, tekstsjablonen moet bijwerken of de i
 | [Hoe een documenttemplate te genereren en te vullen met gegevens in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Leer hoe u een documenttemplate maakt en vult met data in C# met Aspose.Words voor .NET. |
 
 | [Hoe placeholders in docx-bestanden te vervangen met Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Leer hoe u placeholders in DOCX-bestanden vervangt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
+| [Automatiseer het genereren van Word-documenten met Aspose.Words in C#](./automate-word-document-generation-with-aspose-words-in-c/) | Leer hoe u automatisch Word-documenten genereert met Aspose.Words in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

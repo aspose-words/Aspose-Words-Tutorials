@@ -43,6 +43,8 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
 | [Vytvořit dokument Word programově – přidat ovládací prvek obsahu a zástupný text](./create-word-document-programmatically-add-content-control-an/) | Naučte se, jak programově vytvořit dokument Word, přidat ovládací prvek obsahu a nastavit zástupný text pomocí Aspose.Words pro .NET. |
 | [Jak uložit dokument Word s SDT pomocí Aspose.Words v C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Naučte se, jak uložit dokument Word s tagy strukturovaných dokumentů pomocí Aspose.Words v C#. |
 | [Jak přidat ovládací prvek obsahu do dokumentu Word pomocí Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Naučte se, jak pomocí Aspose.Words přidat ovládací prvek obsahu do dokumentu Word. |
+| [Jak vytvořit dokument Word s ovládacími prvky v C#](./how-to-create-word-document-with-content-controls-in-c/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit dokument Word s ovládacími prvky v jazyce C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

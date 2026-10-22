@@ -127,6 +127,26 @@ Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 ### [Uložit Word dokument v Javě – Přidat obdélníkový tvar se stínem](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Naučte se, jak uložit Word dokument a přidat do něj obdélníkový tvar se stínem pomocí Aspose.Words pro Javu.
 
+### [Přidat stín k tvaru v Javě – Kompletní programovací průvodce](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Vytvořit prázdný Word dokument se seskupeným tvarem – Java průvodce](./create-blank-word-document-with-grouped-shape-java-guide/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat do něj seskupený tvar pomocí Aspose.Words pro Javu.
+
+### [Vytvořit Word dokument v Javě – Vkládat a skrývat obrázky pomocí Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Naučte se, jak vložit obrázky do dokumentu Word a následně je skrýt pomocí Aspose.Words pro Javu.
+
+### [Vložit koláčový graf v Javě – Rozdělit, otočit a zvýraznit výseče](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit koláčový graf, rozdělit výseče, otáčet je a zvýraznit vybrané části.
+
+### [Vytvořit prázdný Word dokument se seskupenými tvary v Javě](./create-blank-word-document-with-grouped-shapes-in-java/)
+Naučte se vytvořit prázdný dokument Word se seskupenými tvary v Javě.
+
+### [Aspose.Words ActiveX tutoriál – vložení CommandButtonu v Javě](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Naučte se, jak pomocí ActiveX a Aspose.Words v Javě vložit ovládací prvek CommandButton do dokumentu Word.
+
+### [Vytvořit Word dokument v Javě – skrýt tvar a nastavit barvu výplně](./create-word-document-java-hide-shape-and-set-fill-color/)
+Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -143,6 +163,11 @@ Naučte se, jak programově vytvořit prázdný dokument Word a vložit do něj 
 
 ### [Jak vytvořit prstencový graf v dokumentu Word pomocí Javy](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Naučte se, jak programově vytvořit prstencový graf v dokumentu Word pomocí Aspose.Words pro Javu.
+### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Vytvoření dokumentu Word s skrytým obrázkem v Javě pomocí Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Naučte se, jak vložit skrytý obrázek do dokumentu Word v Javě pomocí Aspose.Words.
 
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

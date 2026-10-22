@@ -63,6 +63,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Alan Grafiğini Word Belgesine Ekleme](./insert-area-chart/) | Bu kapsamlı adım adım kılavuzda Aspose.Words for .NET kullanarak Word belgesine alan grafiğinin nasıl ekleneceğini öğrenin. |
 | [Word Belgesine Baloncuk Grafiği Ekle](./insert-bubble-chart/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine bir kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin. |
 | [Word Belgesine Dağılım Grafiği Ekleme](./insert-scatter-chart/) | Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar. |
+| [Word Belgesine Radar Grafiği Ekleme – Tam C# Rehberi](./create-radar-chart-in-a-word-document-complete-c-guide/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine radar grafiği eklemeyi öğrenin. |
 | [Bir Grafikte XY Eksen Özelliklerini Tanımlayın](./define-xyaxis-properties/) Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmel. |
 | [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin. |
 | [Bir Grafikteki Eksen İçin Sayı Biçimi](./number-format-for-axis/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafik eksen numaralarını nasıl biçimlendireceğinizi öğrenin. Belgenizin okunabilirliğini ve profesyonelliğini zahmetsizce artırın. |
@@ -87,6 +88,8 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [C# ile Sütun Grafiği ve Biçimlendirilmiş Etiketlerle Word Belgesi Oluşturma](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# kullanarak Word belgesine sütun grafiği ekleyin ve etiketleri biçimlendirin. |
 | [C# ile özelleştirilmiş pasta grafiği içeren Word belgesi oluşturma](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# kullanarak özelleştirilmiş bir pasta grafiği ekleyerek Word belgesi oluşturmayı adım adım öğrenin. |
 | [Aspose.Words radial grafik örneği: C#'da derecelendirmeleri etkinleştirme](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words for .NET kullanarak radial grafiklerde derecelendirmeleri nasıl etkinleştireceğinizi öğrenin. |
+| [Aspose.Words ile Word belgesine pasta grafiği oluşturma](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine pasta grafiği eklemeyi öğrenin. |
+| [Radar Grafiği Oluşturma ve Word'e Grafik Ekleme C# ile](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aspose.Words for .NET kullanarak C# ile radar grafiği oluşturup Word belgesine eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

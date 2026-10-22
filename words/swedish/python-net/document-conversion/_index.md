@@ -198,6 +198,22 @@ Lär dig hur du sparar DOCX som Markdown med Aspose.Words för Python. Fullstän
 Lär dig hur du sparar DOCX som PDF med Aspose.Words för Python. Följ en komplett steg‑för‑steg‑guide med kodexempel.
 ### [Skapa tillgänglig PDF – Komplett guide med Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Lär dig hur du skapar tillgängliga PDF-filer med Aspose.Words för Python. Följ steg‑för‑steg‑instruktioner och kodexempel.
+### [Spara DOCX som TXT – Exportera Word-matematik till LaTeX med Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Lär dig hur du sparar DOCX-filer som TXT och exporterar Word-matematik till LaTeX med Aspose.Words för Python.
+### [Skapa tillgänglig PDF med Python – Komplett steg‑för‑steg‑guide](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Lär dig hur du skapar PDF-filer som uppfyller tillgänglighetsstandarder med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Skapa PDF från Word-dokument i Python – Steg‑för‑steg‑guide](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Lär dig hur du skapar PDF-filer från Word-dokument med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Hur man sparar docx som txt LaTeX-matematik med Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Lär dig hur du sparar docx-filer som txt med LaTeX-matematik med Aspose.Words. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man sparar Word som PDF med Aspose.Words i Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Lär dig hur du sparar Word-dokument som PDF med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man konverterar docx till pdf med tillgänglighet i Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Lär dig konvertera docx-filer till PDF med tillgänglighetsfunktioner i Python med Aspose.Words.
+### [Hur man konverterar docx till txt i Python med Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Lär dig hur du konverterar docx-filer till txt med Aspose.Words i Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man sparar docx som txt med LaTeX‑ekvationer med Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Lär dig hur du sparar DOCX-filer som TXT med LaTeX‑ekvationer med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

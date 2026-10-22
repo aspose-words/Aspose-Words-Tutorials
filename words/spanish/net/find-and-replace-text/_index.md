@@ -37,6 +37,7 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 | [Reemplazar texto en la tabla](./replace-text-in-table/) | Reemplace sin esfuerzo texto en una tabla de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
 | [Reemplazar texto en DOCX con C# – Guía paso a paso](./replace-text-in-docx-with-c-step-by-step-guide/) Aprenda a reemplazar texto en archivos DOCX usando C# con Aspose.Words para .NET, siguiendo una guía paso a paso. |
 | [Cómo generar una plantilla de documento y completarla con datos en C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aprenda a crear una plantilla de documento y rellenarla con datos usando Aspose.Words para .NET en C#. |
+| [Automatizar la generación de documentos Word con Aspose.Words en C#](./automate-word-document-generation-with-aspose-words-in-c/) Aprenda a generar documentos Word de forma automática usando Aspose.Words en C# con esta guía paso a paso. |
 
 | [Reemplazar texto en docx con C# – Guía completa paso a paso](./replace-text-in-docx-with-c-full-step-by-step-guide/) Aprenda a reemplazar texto en archivos docx usando C# con Aspose.Words para .NET mediante una guía detallada paso a paso. |
 | [Cómo reescribir párrafo con IA en C# – Guía completa](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) Aprenda a reescribir párrafos usando IA en C# con Aspose.Words para .NET. Guía paso a paso y ejemplos claros. |

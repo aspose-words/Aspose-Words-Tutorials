@@ -70,6 +70,8 @@ Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
 ### [Infoga cirkeldiagram i Word med Aspose.Words – Komplett guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Lär dig steg för steg hur du infogar och anpassar cirkeldiagram i Word-dokument med Aspose.Words.
+### [Infoga cirkeldiagram i Word – lägg till procentsats för datamärket](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Lär dig hur du infogar ett cirkeldiagram i Word och visar procentsatser i datamärken med Aspose.Words för Java.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
 ### [Hur man infogar en ActiveX‑knapp i Word – Ställ in knappens rubrik](./how-to-insert-activex-button-in-word-set-button-caption/)
@@ -120,6 +122,16 @@ Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C
 Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
 ### [Skapa ett tomt Word-dokument och lägg till en ActiveX-knapp (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Lär dig hur du skapar ett tomt Word-dokument och infogar en ActiveX-knapp med Aspose.Words för Java.
+### [Hur man lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
+Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
+### [Hur man exploderar en pajskiva i Java – Aspose.Words diagramhandledning](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Lär dig hur du får en pajskiva att explodera i ett diagram med Aspose.Words för Java. Steg-för-steg-guide.
+### [Infoga pajdiagram i Word med Java – komplett guide](./insert-pie-chart-word-in-java-complete-guide/)
+Lär dig hur du skapar och infogar ett pajdiagram i ett Word-dokument med Java och Aspose.Words i denna kompletta guide.
+### [Hur man skapar diagram i Word med Java och Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Lär dig hur du skapar diagram i Word-dokument med Java och Aspose.Words i denna steg-för-steg-handledning.
+### [Hur man ställer in knappens position i ett Word-dokument med Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Lär dig hur du placerar en knapp i ett Word-dokument med Java. Steg-för-steg-guide för exakt positionering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

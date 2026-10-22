@@ -26,6 +26,8 @@ Processamento de Texto com Notas de Rodapé e Notas Finais é um recurso abrange
 | [Alterar separador de nota de rodapé em C# usando Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Aprenda a alterar o separador de notas de rodapé em documentos do Word usando Aspose.Words para .NET com C#. |
 | [Recuperar separador de nota de rodapé em C# – guia completo do Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Aprenda a obter o separador de notas de rodapé em documentos Word usando Aspose.Words para .NET com este guia completo em C#. |
 | [Como alterar o separador de nota de rodapé e personalizar seu estilo em um documento Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Aprenda a modificar o separador de notas de rodapé e aplicar estilos personalizados em documentos Word usando Aspose.Words para .NET. |
+| [Formatar separador de nota de rodapé em C# usando Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Aprenda a personalizar o separador de notas de rodapé em documentos Word usando Aspose.Words para .NET com C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

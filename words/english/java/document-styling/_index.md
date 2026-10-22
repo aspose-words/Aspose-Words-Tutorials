@@ -56,6 +56,10 @@ Learn how to edit footnote separators in Java using Aspose.Words. Step-by-step g
 Learn how to explode a slice in a Word chart and customize its appearance using Aspose.Words for Java with step-by-step code examples.
 ### [how to style footnotes in Java using Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Learn how to style footnotes in Java Word documents using Aspose.Words. Step-by-step guide with source code examples.
+### [Change footnote spacing in DOCX – Complete Guide](./change-footnote-spacing-in-docx-complete-guide/)
+Learn how to change footnote spacing in DOCX using Aspose.Words for Java. Step-by-step guide with source code examples.
+### [How to edit footnote in Java with Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Learn how to edit footnotes in Word documents using Aspose.Words for Java with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

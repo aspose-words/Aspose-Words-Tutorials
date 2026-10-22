@@ -67,6 +67,8 @@ Aspose.Words for Python을 사용하여 손상된 Word 문서를 복구 모드�
 Python용 Aspose.Words를 활용해 손상된 docx 파일을 복구하는 단계별 가이드와 예제 코드를 제공합니다.
 ### [Aspose 글꼴 경고 처리기 – 누락된 글꼴 감지 및 문서 로드 맞춤화](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Aspose.Words for Python에서 글꼴 경고를 처리하고 누락된 글꼴을 감지하며 문서 로드 방식을 사용자 지정하는 방법을 단계별로 안내합니다.
+### [손상된 Word 문서 복구를 위한 복구 모드 활성화](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Aspose.Words for Python을 사용하여 손상된 Word 문서를 복구 모드로 복구하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

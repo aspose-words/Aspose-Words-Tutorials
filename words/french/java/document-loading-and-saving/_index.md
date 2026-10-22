@@ -89,6 +89,8 @@ Maîtrisez les options de chargement dans Aspose.Words for Java. Personnalisez l
 
 ### [Créer des options de chargement en Java – Détecter les polices manquantes et comment charger un DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Apprenez à créer des LoadOptions pour détecter les polices manquantes et charger correctement les fichiers DOCX avec Aspose.Words for Java.
+### [Comment définir les options dans Aspose.Words for Java – guide complet](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Apprenez à configurer toutes les options de chargement et d’enregistrement dans Aspose.Words for Java avec des exemples détaillés.
 
 ### [Configuration des options de chargement RTF dans Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez à reconnaître le texte UTF‑8 dans les documents RTF. Guide étape par étape avec des exemples de code.
@@ -114,6 +116,8 @@ Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le tr
 ### [Aspose.Words LoadOptions – Récupérer les documents Word corrompus en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus et les convertir avec Aspose.Words for Java.
 
+### [Récupérer un DOCX corrompu avec Aspose.Words for Java – Guide complet](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
 ### [Récupérer un docx corrompu en Java – Guide complet](./recover-corrupted-docx-in-java-complete-guide/)
 Apprenez à réparer les fichiers DOCX endommagés en Java avec Aspose.Words, récupérer le contenu et le traiter efficacement.
 
@@ -215,6 +219,8 @@ Apprenez à charger et gérer le soulignement Markdown dans des applications Jav
 ### [Tutoriel de substitution de polices Aspose – Gérer les polices manquantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Apprenez à capturer et gérer les avertissements de substitution de polices lors du chargement de documents Word avec des polices manquantes grâce à Aspose.Words for Java.
 ### [Comment charger un fichier depuis un répertoire avec Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Comment charger le Markdown en Java – Guide complet](./how-to-load-markdown-in-java-complete-guide/)
+Apprenez à charger des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
 
 ## Foire aux questions
 

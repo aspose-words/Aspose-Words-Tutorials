@@ -74,6 +74,8 @@ Aprenda a configurar um modelo de linguagem grande para substituir automaticamen
 Aprenda a criar um modelo de IA personalizado e usá‑lo para editar automaticamente parágrafos em documentos Word usando Aspose.Words para Java.
 ### [Criar documento Word em Java com Verificação Gramatical LLM Personalizada](./create-word-document-java-with-custom-llm-grammar-check/)
 Aprenda a gerar documentos Word em Java e aplicar verificação gramatical usando um modelo de linguagem personalizado.
+### [Construir Verificador Gramatical Java – Guia Completo Passo a Passo](./build-grammar-checker-java-complete-step-by-step-guide/)
+Aprenda a criar um verificador gramatical em Java usando Aspose.Words e APIs de IA, com exemplos completos e código pronto para uso.
 ### [Resumir Documento Word em Java – Guia Completo Passo a Passo](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Aprenda a resumir documentos Word usando Aspose.Words para Java com um guia passo a passo completo.
 

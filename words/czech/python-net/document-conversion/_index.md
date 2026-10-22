@@ -197,6 +197,22 @@ Naučte se uložit soubor DOCX jako Markdown pomocí Aspose.Words pro Python.
 Naučte se převést soubor DOCX do PDF pomocí Aspose.Words pro Python krok za krokem.
 ### [Vytvoření přístupného PDF – kompletní průvodce s Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Naučte se vytvářet přístupné PDF soubory s Aspose.Words v Pythonu a splňte požadavky na přístupnost.
+### [Uložení DOCX jako TXT – Export matematických výrazů Wordu do LaTeXu pomocí Pythonu](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Naučte se exportovat matematické rovnice z DOCX do LaTeXu a uložit soubor jako TXT pomocí Aspose.Words pro Python.
+### [Generování přístupného PDF v Pythonu – kompletní průvodce krok za krokem](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Naučte se vytvářet přístupná PDF soubory v Pythonu pomocí Aspose.Words, dodržovat standardy WCAG a zlepšit čitelnost pro všechny uživatele.
+### [Vytvoření PDF z dokumentu Word v Pythonu – kompletní průvodce](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Naučte se pomocí Aspose.Words pro Python převést soubory Word do formátu PDF s podrobnými ukázkami a tipy.
+### [Jak uložit docx jako txt LaTeX matematiku pomocí Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Naučte se uložit soubor DOCX jako textový soubor s LaTeX matematikou pomocí Aspose.Words.
+### [Jak uložit Word jako PDF pomocí Aspose.Words v Pythonu](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Naučte se uložit dokument Word jako PDF pomocí Aspose.Words pro Python.
+### [Jak převést docx na pdf s přístupností v Pythonu](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Naučte se převést soubory DOCX na PDF s podporou přístupnosti pomocí Aspose.Words pro Python.
+### [Jak převést docx na txt v Pythonu pomocí Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Naučte se převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words v Pythonu.
+### [Jak uložit docx jako txt s LaTeX rovnicemi pomocí Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Naučte se uložit soubor DOCX jako TXT a zachovat LaTeX rovnice pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

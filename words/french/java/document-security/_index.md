@@ -43,6 +43,8 @@ Apprenez à implémenter des signatures numériques sécurisées dans vos docume
 Apprenez à signer des fichiers docx à l'aide d'un certificat PFX grâce à un guide détaillé pas à pas avec Aspose.Words pour Java.
 ### [Comment signer numériquement un document Word avec Java](./how-to-digitally-sign-word-document-using-java/)
 Apprenez à signer numériquement des documents Word en Java avec Aspose.Words. Guide étape par étape avec code source.
+### [Comment ajouter une signature numérique à un document Word](./how-to-add-a-digital-signature-to-a-word-document/)
+Apprenez à insérer une signature numérique dans un document Word avec Aspose.Words pour Java, incluant le code source et les meilleures pratiques.
 ### [Rédaction de documents et protection des données](./document-redaction-data-protection/)
 Apprenez à sécuriser vos documents et à supprimer les données sensibles avec Aspose.Words pour Java. Guide étape par étape avec code source.
 ### [Signer un document Word en Java avec Aspose.Words – Guide complet](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -53,6 +55,10 @@ Apprenez à signer numériquement des fichiers DOCX en C# avec Aspose.Words, gr�
 Apprenez à signer un document Word en C# à l'aide d'un certificat X509 avec Aspose.Words. Guide pas à pas avec code source.
 ### [Comment ajouter une signature numérique à un document Word avec Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Apprenez à ajouter une signature numérique à un document Word en utilisant Aspose.Words pour Java, avec exemples de code détaillés.
+### [Fichier PFX de signature numérique en Java – Guide complet](./digital-signature-pfx-file-in-java-complete-guide/)
+Apprenez à créer et utiliser des fichiers PFX pour les signatures numériques avec Aspose.Words pour Java. Guide complet avec exemples de code.
+### [Comment signer un docx en Java – guide étape par étape](./how-to-sign-docx-in-java-step-by-step-guide/)
+Apprenez à signer des fichiers docx en Java avec un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

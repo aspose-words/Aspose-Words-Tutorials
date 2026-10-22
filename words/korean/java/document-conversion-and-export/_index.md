@@ -195,6 +195,9 @@ Aspose.Words for Java를 사용해 DOCX를 Markdown으로 변환하면서 이미
 ### [Java용 Aspose.Words에서 Word를 Markdown으로 내보내는 방법 – 완전 가이드](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하는 단계별 전체 가이드.
 
+### [Aspose.Words for Java를 사용하여 Markdown을 DOCX로 저장하는 방법](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 Markdown 파일을 DOCX 형식으로 저장하는 단계별 가이드.
+
 ### [DOCX에서 LaTeX 내보내기 – 완전한 Java 가이드](./how-to-export-latex-from-docx-complete-java-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 LaTeX 형식으로 변환하는 단계별 방법을 안내합니다.
 
@@ -311,6 +314,15 @@ Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환�
 
 ### [Java에서 HTML 테이블이 포함된 Word를 마크다운으로 저장하는 방법](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Aspose.Words for Java를 사용해 Word 문서를 HTML 테이블을 유지한 채 마크다운 파일로 변환하는 단계별 가이드.
+### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf/)
+### [Java에서 docx를 pdf로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+### [DOCX에서 접근성 PDF 만들기 – 완전 단계별 가이드](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+### [DOCX를 Markdown으로 변환 – 수학 내보내기 포함 완전 가이드](./convert-docx-to-markdown-complete-guide-with-math-export/)
+### [DOCX를 Markdown으로 변환 – 완전 Java 가이드](./convert-docx-to-markdown-complete-java-guide/)
+### [docx를 markdown으로 저장: Aspose.Words를 사용하여 변환](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+### [Word에서 PNG 저장하기 – 완전 단계별 가이드](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 markdown 형식으로 변환하는 단계별 방법을 안내합니다.
 
 ### [Aspose.Words로 PDF/UA 생성 – 완전 가이드](./create-pdf-ua-with-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용해 PDF/UA(접근성 PDF) 파일을 생성하고, 접근성 옵션을 설정하는 전체 단계별 가이드.

@@ -55,6 +55,10 @@ Apprenez à modifier le séparateur des notes de bas de page dans les documents 
 Apprenez à détacher une tranche d'un graphique Word et à personnaliser son apparence avec Aspose.Words pour Java.
 ### [Comment styliser les notes de bas de page en Java avec Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Apprenez à appliquer des styles aux notes de bas de page dans les documents Word avec Aspose.Words pour Java. Guide complet avec exemples de code.
+### [Modifier l'espacement des notes de bas de page dans DOCX – Guide complet](./change-footnote-spacing-in-docx-complete-guide/)
+Apprenez à ajuster l'espacement des notes de bas de page dans les fichiers DOCX avec Aspose.Words pour Java. Guide complet avec exemples de code.
+### [Comment modifier une note de bas de page en Java avec Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Apprenez à modifier les notes de bas de page dans vos documents Java avec Aspose.Words. Guide étape par étape avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

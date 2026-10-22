@@ -44,6 +44,8 @@
 | [경고 소스 사용](./use-warning-source/) | Markdown 경고 처리를 위한 WarningSource 클래스 사용에 대한 단계별 가이드를 통해 Aspose.Words for .NET을 완벽하게 익혀 보세요. C# 개발자에게 안성맞춤입니다. |
 | [Aspose.Words로 마크다운에서 Word 만들기 – 전체 가이드](./create-word-from-markdown-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용해 마크다운 파일을 Word 문서로 변환하고, 전체 과정을 단계별로 안내합니다. |
 | [Aspose.Words를 사용하여 마크다운을 docx로 저장하는 방법(C#)](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Aspose.Words for .NET을 사용해 마크다운 파일을 DOCX 형식으로 저장하는 단계별 가이드입니다. |
+| [Markdown에서 C#을 사용하여 docx로 저장하기](./how-to-save-document-as-docx-from-markdown-using-c/) | Aspose.Words for .NET을 사용해 Markdown을 docx 파일로 변환하고 저장하는 방법을 단계별로 안내합니다. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

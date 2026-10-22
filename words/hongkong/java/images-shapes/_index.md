@@ -124,6 +124,25 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Words for Java 在 Word 文檔中插入圖片並將其隱藏，以實現更靈活的內容呈現。
 ### [如何在 Word 中使用 Java 將形狀分組 – 完整指南](./how-to-group-shapes-in-word-with-java-complete-guide/)
 了解如何在 Java 中使用 Aspose.Words for Java 將 Word 文檔中的形狀分組，並自訂屬性以提升文件的結構與視覺效果。
+### [在 Java 中為形狀添加陰影 – 完整程式設計指南](./add-shadow-to-shape-in-java-complete-programming-guide/)
+本指南詳細說明如何使用 Aspose.Words for Java 為形狀添加陰影效果，涵蓋完整程式碼示例與步驟說明。
+### [建立空白 Word 文件並加入群組形狀 – Java 指南](./create-blank-word-document-with-grouped-shape-java-guide/)
+示範如何在 Java 中使用 Aspose.Words 建立空白的 Word 文件，並將多個形狀組合為群組形狀。
+
+### [建立 Word 文件 Java – 插入並隱藏圖像](./create-word-document-java-insert-and-hide-images-with-aspose/)
+示範如何在 Java 中使用 Aspose.Words 插入圖像並將其隱藏於 Word 文件中。
+
+### [在 Java 中插入餅圖 – 爆炸、旋轉與突出切片](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+示範如何在 Java 中使用 Aspose.Words 插入餅圖，並設定爆炸、旋轉及突出顯示切片。
+
+### [在 Java 中建立帶群組形狀的空白 Word 文件](./create-blank-word-document-with-grouped-shapes-in-java/)
+示範如何在 Java 使用 Aspose.Words 建立空白 Word 文件並加入群組形狀。
+
+### [Aspose.Words ActiveX 教學 – 在 Java 中插入 CommandButton](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+示範如何在 Java 中使用 Aspose.Words ActiveX 插入 CommandButton 控制項。
+
+### [建立 Word 文件 Java – 隱藏形狀並設定填充顏色](./create-word-document-java-hide-shape-and-set-fill-color/)
+示範如何在 Java 中使用 Aspose.Words 隱藏形狀並設定其填充顏色。
 ### [儲存 Word 文件 – 在 Java 中添加矩形形狀與陰影](./save-word-document-add-rectangle-shape-shadow-in-java/)
 示範如何在 Java 中使用 Aspose.Words 儲存 Word 文件，同時加入帶陰影的矩形形狀。
 
@@ -146,6 +165,12 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 Word 文件中使用 Java 建立環形圖表](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 示範如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂環形圖表。
+
+### [如何在 Java 中建立空白 Word 文件並對形狀進行分組](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+了解如何使用 Aspose.Words for Java 建立空白文件並將多個形狀分組，以便於佈局管理。
+
+### [在 Java 中使用 Aspose.Words 建立隱藏圖像的 Word 文件](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+示範如何在 Java 中使用 Aspose.Words 建立包含隱藏圖像的 Word 文件
 
 ## 其他資源
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)

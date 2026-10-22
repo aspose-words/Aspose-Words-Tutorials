@@ -98,6 +98,8 @@ Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words para Python, r
 Aprenda a restaurar arquivos DOCX corrompidos usando Aspose.Words para Python, garantindo a integridade dos documentos.
 ### [Recuperar Documento Word Corrompido com Aspose.Words – Guia Completo](./recover-corrupted-word-document-with-aspose-words-complete-g/)
 Aprenda a recuperar documentos Word corrompidos usando Aspose.Words, com etapas detalhadas e exemplos de código.
+### [Recuperar DOCX Corrompido – Guia Completo em Python](./recover-corrupted-docx-complete-python-guide/)
+Aprenda a recuperar arquivos DOCX corrompidos passo a passo usando Aspose.Words para Python, com exemplos completos e dicas avançadas.
 
 ## Recursos adicionais
 

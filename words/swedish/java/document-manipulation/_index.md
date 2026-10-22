@@ -73,6 +73,8 @@ Lär dig hur du enkelt extraherar innehåll från dokument med Aspose.Words för
 Lär dig hur du effektivt extraherar innehåll från Word-dokument med Aspose.Words för Java. Utforska hjälpmetoder, anpassad formatering och mer i den här omfattande guiden.
 ### [Hitta och ersätta text i Aspose.Words för Java](./finding-and-replacing-text/)
 Lär dig hur du hittar och ersätter text i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel. Förbättra dina kunskaper i hantering av Java-dokument.
+### [Hur man skapar ett tomt Word-dokument med Aspose.Words för Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Skapa ett tomt Word-dokument med Aspose.Words för Java i några enkla steg.
 ### [Ta bort innehåll från dokument i Aspose.Words för Java](./removing-content-from-documents/)
 Lär dig hur du tar bort innehåll från Word-dokument i Java med Aspose.Words för Java. Ta bort sidbrytningar, avsnittsbrytningar och mer. Optimera din dokumentbehandling.
 ### [Använda bokmärken i Aspose.Words för Java](./using-bookmarks/)
@@ -123,6 +125,11 @@ Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kommandoknapp med Aspose.Words för Java.
 ### [Skapa Word-dokument programatiskt med Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Lär dig skapa ett Word-dokument programatiskt med Aspose.Words i Java.
+### [Skapa nytt Word-dokument – Steg‑för‑steg‑guide för att lägga till en strukturerad tagg](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad tagg med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Skapa tomt Word-dokument i Java med Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Lär dig hur du snabbt skapar ett tomt Word-dokument i Java med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

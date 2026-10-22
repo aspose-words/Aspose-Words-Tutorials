@@ -123,6 +123,25 @@ Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Dokument erstellen und
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Bild in ein DOCX einfügen und es anschließend ausblenden.
 ### [Formen in Word mit Java gruppieren – vollständige Anleitung](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java mehrere Formen zu einer Gruppe zusammenfassen und deren Eigenschaften gemeinsam verwalten.
+### [Schatten zu Form in Java hinzufügen – Vollständiger Programmierleitfaden](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Ein umfassendes Beispiel, das zeigt, wie Sie in Aspose.Words für Java Schatten zu Formen hinzufügen und anpassen.
+### [Leeres Word-Dokument mit gruppierter Form – Java-Anleitung](./create-blank-word-document-with-grouped-shape-java-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein leeres Dokument erstellt und eine gruppierte Form hinzufügt.
+
+### [Word-Dokument in Java erstellen – Bilder einfügen und ausblenden mit Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Ein Codebeispiel, das zeigt, wie man Bilder in ein Word-Dokument einfügt und sie bei Bedarf ausblendet.
+
+### [Kuchendiagramm in Java einfügen – Segmente aufteilen, drehen und hervorheben](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kuchendiagramm einfügen und einzelne Segmente hervorheben, drehen und explodieren.
+
+### [Leeres Word-Dokument mit gruppierten Formen in Java erstellen](./create-blank-word-document-with-grouped-shapes-in-java/)
+Ein Beispiel, das zeigt, wie man ein leeres Word-Dokument erstellt und darin gruppierte Formen in Java hinzufügt.
+
+### [Aspose.Words ActiveX-Tutorial – CommandButton mit Java einfügen](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Ein Beispiel, das zeigt, wie Sie mit Aspose.Words ActiveX in Java einen CommandButton in ein Word-Dokument einfügen.
+
+### [Word-Dokument in Java erstellen – Form ausblenden und Füllfarbe setzen](./create-word-document-java-hide-shape-and-set-fill-color/)
+Ein Beispiel, das zeigt, wie man in Aspose.Words für Java eine Form ausblendet und die Füllfarbe festlegt.
 ### [Word-Dokument speichern – Rechteckform mit Schatten in Java hinzufügen](./save-word-document-add-rectangle-shape-shadow-in-java/)
 Ein Codebeispiel, das zeigt, wie man ein Word-Dokument speichert und dabei ein Rechteck mit Schatten in Java hinzufügt.
 
@@ -145,6 +164,12 @@ Ein Code‑Tutorial, das zeigt, wie Sie mit C# ein leeres Word‑Dokument erzeug
 
 ### [Wie man ein Donut-Diagramm in einem Word-Dokument mit Java erstellt](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Donut-Diagramm in ein Word-Dokument einfügen.
+
+### [Erstellen eines leeren Word-Dokuments und Gruppieren von Formen in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und mehrere Formen zu einer Gruppe zusammenfassen.
+
+### [Word-Dokument mit verstecktem Bild in Java mit Aspose.Words erstellen](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument erstellen, das ein verstecktes Bild enthält.
 
 ## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

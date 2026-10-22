@@ -70,6 +70,8 @@ OpenAI의 GPT‑4와 Google Gemini를 활용하여 Aspose.Words for Java로 텍�
 AI 모델을 커스터마이징하여 Java에서 Word 문서의 단락을 자동으로 편집하는 방법을 배웁니다.
 ### [Custom LLM 문법 검사를 사용한 Java 워드 문서 생성](./create-word-document-java-with-custom-llm-grammar-check/)
 Custom LLM을 활용해 문법 검사를 수행하고, Aspose.Words for Java로 워드 문서를 자동으로 생성하는 방법을 배웁니다.
+### [Java 문법 검사기 구축 – 완전 단계별 가이드](./build-grammar-checker-java-complete-step-by-step-guide/)
+Aspose.Words와 AI를 활용해 Java에서 문법 검사기를 구현하는 전체 과정을 단계별로 안내합니다.
 ### [Java에서 Word 문서 요약 – 완전 단계별 가이드](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Java와 Aspose.Words를 사용해 Word 문서를 자동으로 요약하는 방법을 단계별로 안내합니다.
 

@@ -43,6 +43,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको लाइब�
 | [Aspose.Words का उपयोग करके C# में SDT के साथ Word दस्तावेज़ को कैसे सहेजें](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | C# में Aspose.Words का उपयोग करके संरचित दस्तावेज़ टैग (SDT) के साथ Word फ़ाइल को सहेजने की प्रक्रिया सीखें। |
 | [Aspose.Words का उपयोग करके Word दस्तावेज़ में कंटेंट कंट्रोल शब्द कैसे जोड़ें](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aspose.Words के साथ Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |
 | [C# में नया Word दस्तावेज़ बनाएं और सामग्री नियंत्रण सम्मिलित करें](./create-new-word-document-and-insert-content-control-in-c/) | C# कोड के साथ नया Word फ़ाइल बनाकर उसमें कंटेंट कंट्रोल जोड़ना सीखें। |
+| [C# में कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./how-to-create-word-document-with-content-controls-in-c/) | C# में कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

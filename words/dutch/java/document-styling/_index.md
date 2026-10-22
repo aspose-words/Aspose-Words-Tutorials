@@ -55,6 +55,10 @@ Leer hoe u schaduweffecten toevoegt aan diagrammen in Word-documenten met Aspose
 Leer hoe je een segment in een Word-diagram kunt laten exploderen en de weergave kunt aanpassen met Aspose.Words voor Java.
 ### [Hoe voetnoten te stylen in Java met Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Leer hoe je voetnoten kunt opmaken in Word-documenten met Aspose.Words voor Java, inclusief voorbeeldcode.
+### [Voetnootafstand wijzigen in DOCX – Complete gids](./change-footnote-spacing-in-docx-complete-guide/)
+Leer hoe u de afstand tussen voetnoten aanpast in DOCX-bestanden met Aspose.Words voor Java. Stapsgewijze handleiding met codevoorbeelden.
+### [Hoe voetnoot te bewerken in Java met Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Leer hoe u voetnoten in een Word-document bewerkt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

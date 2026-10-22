@@ -27,6 +27,7 @@ Ordbehandling med fotnoter och slutnoter är en omfattande resurs som guidar dig
 | [Hur du ändrar fotnotseparator och anpassar dess stil i ett Word-dokument](./how-to-change-footnote-separator-and-customize-its-style-in/) | Lär dig hur du ändrar fotnotseparatorn och anpassar dess format i Word-dokument med Aspose.Words för .NET. |
 
 | [Hämta fotnotseparator i C# – komplett Aspose.Words-guide](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Lär dig hur du hämtar fotnotseparatorn i ett Word-dokument med Aspose.Words för .NET i C#. |
+| [Formatera fotnotseparator i C# med Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Lär dig hur du formaterar fotnotseparatorn i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

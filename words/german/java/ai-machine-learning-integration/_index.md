@@ -74,6 +74,8 @@ Erfahren Sie, wie Sie ein LLM einrichten, um Text in DOCX‑Dateien automatisch 
 Erfahren Sie, wie Sie ein benutzerdefiniertes KI‑Modell trainieren und damit Word‑Absätze in Java programmgesteuert bearbeiten.
 ### [Word‑Dokument in Java mit benutzerdefiniertem LLM‑Grammatik‑Check erstellen](./create-word-document-java-with-custom-llm-grammar-check/)
 Erfahren Sie, wie Sie ein Word‑Dokument in Java erzeugen und dabei ein benutzerdefiniertes LLM zur Grammatikprüfung einsetzen.
+### [Grammar Checker in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./build-grammar-checker-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java einen Grammatikprüfer implementieren, der KI‑Modelle nutzt, um Texte zu analysieren und zu korrigieren.
 ### [Word-Dokument in Java zusammenfassen – Vollständige Schritt‑für‑Schritt‑Anleitung](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words für Java automatisch zusammenfassen und die wichtigsten Inhalte extrahieren.
 
