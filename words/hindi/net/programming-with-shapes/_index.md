@@ -26,11 +26,17 @@
 | --- | --- |
 | [समूह आकार जोड़ें](./add-group-shape/) | इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में समूह आकृतियों को जोड़ना सीखें। |
 | [Word में समूह आकृतियाँ – Aspose.Words के साथ पूर्ण C# गाइड](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को जोड़ने और प्रबंधित करने के लिए विस्तृत C# चरण‑दर‑शिक्षा। |
+| [C# के साथ Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-with-c/) | C# कोड का उपयोग करके Word फ़ाइल में कई आकृतियों को समूह बनाने की प्रक्रिया सीखें। |
+| [Aspose.Words for C# के साथ Word में आकृतियों को समूहित करना](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C# का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने की प्रक्रिया सीखें। |
+| [C# का उपयोग करके Word में समूह आकृतियों – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-using-c-complete-programming-guide/) | C# के साथ Word में समूह आकृतियों को जोड़ने और प्रबंधित करने के लिए पूर्ण मार्गदर्शिका |
 | [आकृति डालें](./insert-shape/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करना और उनमें हेरफेर करना सीखें। |
 | [Word दस्तावेज़ C# – शैडो के साथ आकृति जोड़ें](./create-word-document-c-add-shape-with-shadow/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में शैडो के साथ आकृति जोड़ने का चरण‑दर‑चरण मार्गदर्शन। |
+| [C# और Aspose.Words का उपयोग करके Word में आकृतियों को समूहित करें](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C# कोड के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को जोड़ने की चरण‑दर‑शरण मार्गदर्शिका। |
+| [C# में खाली Word दस्तावेज़ बनाएं और समूह आकृतियों को जोड़ें](./how-to-create-blank-word-document-and-group-shapes-in-c/) | C# का उपयोग करके खाली Word दस्तावेज़ बनाना और समूह आकृतियों को जोड़ना सीखें। |
 | [पहलू अनुपात लॉक किया गया](./aspect-ratio-locked/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों के पहलू अनुपात को लॉक करना सीखें। अपनी छवियों और आकृतियों को आनुपातिक बनाए रखने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [सेल में लेआउट](./layout-in-cell/) | इस विस्तृत गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके सेल में लेआउट सेट करना सीखें। Word दस्तावेज़ों को कस्टमाइज़ करने की इच्छुक डेवलपर्स के लिए बिल्कुल सही। |
 | [कटे हुए कोने जोड़ें](./add-corners-snipped/) | जानें कि Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ों में कोनों को काटकर आकार कैसे जोड़ें। यह चरण-दर-चरण मार्गदर्शिका सुनिश्चित करती है कि आप अपने दस्तावेज़ों को आसानी से बेहतर बना सकते हैं। |
+| [Word में आकृतियों को समूहित करने और दस्तावेज़ में आकृतियाँ जोड़ने का तरीका](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Word दस्तावेज़ में आकृतियों को समूहित करके जोड़ने की प्रक्रिया सीखें। |
 | [वास्तविक आकार सीमा अंक प्राप्त करें](./get-actual-shape-bounds-points/) | जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में वास्तविक आकार सीमा बिंदु कैसे प्राप्त करें। इस विस्तृत गाइड के साथ सटीक आकार हेरफेर सीखें। |
 | [वर्टिकल एंकर](./vertical-anchor/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण‑दर‑शरण मार्गदर्शिका शामिल है।|
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
@@ -72,6 +78,12 @@
 | [Word में आयत बनाएं – Aspose के साथ Word में आकृतियाँ जोड़ें](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार जोड़ने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [छिपी हुई दीर्घवृत्त आकृति के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | C# में Aspose.Words का उपयोग करके छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word में समूहित आकृतियों के साथ docx फ़ाइल सहेजें](./save-docx-file-with-grouped-shapes-in-word-using-c/) | .NET के लिए Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ को सहेजना सीखें। |
+| [C# के साथ आयत आकार डालें – चरण‑दर‑श Aspose.Words गाइड](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | .NET के लिए Aspose.Words का उपयोग करके C# में आयत आकार कैसे डालें, इस चरण‑दर‑श मार्गदर्शिका में सीखें। |
+| [Word आकृतियों में शैडो कैसे जोड़ें – पूर्ण C# गाइड](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word आकृतियों में शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
+| [C# में आकृतियों पर शैडो सेट करने का तरीका – पूर्ण Aspose.Words गाइड](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | C# में Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
+| [C# में आयत आकार बनाएं और कई आकृतियों को समूहित करें](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाना और कई आकृतियों को समूहित करना सीखें। |
+| [Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं और रंगीन आकृतियां जोड़ें](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Aspose.Words का उपयोग करके एक खाली Word फ़ाइल बनाएं और उसमें रंगीन आकृतियां जोड़ने के चरण‑दर‑श... |
+| [C# में Aspose.Words के साथ छिपी आकृति वाला docx कैसे बनाएं](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | C# में Aspose.Words के साथ छिपी आकृति वाला docx फ़ाइल बनाने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

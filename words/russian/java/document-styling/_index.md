@@ -47,6 +47,16 @@ Aspose.Words for Java предоставляет мощные инструмен
 Узнайте, как определять шрифты в документах Word с помощью Aspose.Words для Java. Подробное руководство с примерами кода.
 ### [Установка настроек шрифта по умолчанию в Aspose.Words для Java – Полное руководство](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Узнайте, как установить настройки шрифта по умолчанию в Aspose.Words для Java. Пошаговое руководство с примерами кода. 
+### [Как установить тень на диаграмму Word с помощью Aspose.Words для Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Узнайте, как добавить тень к диаграммам Word, используя Aspose.Words для Java. Пошаговое руководство с примером кода.
+### [Как изменить разделитель сносок в Java с помощью Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Узнайте, как изменить разделитель сносок в документах Word с помощью Aspose.Words для Java.
+### [Как «взрывать» срез в диаграмме Word и настроить его внешний вид](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Узнайте, как «взрывать» отдельный срез в диаграмме Word и настраивать его внешний вид с помощью Aspose.Words для Java.
+### [Как стилизовать сноски в Java с помощью Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Узнайте, как стилизовать сноски в документах Word с помощью Aspose.Words для Java.
+### [Изменение интервала сносок в DOCX – Полное руководство](./change-footnote-spacing-in-docx-complete-guide/)
+Узнайте, как изменить интервал сносок в DOCX с помощью Aspose.Words для Java. Пошаговое руководство с примерами кода.
 
 ### [Как редактировать сноску в Java с помощью Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
 Узнайте, как редактировать сноски в документах с помощью Aspose.Words для Java. Пошаговое руководство с примерами кода.

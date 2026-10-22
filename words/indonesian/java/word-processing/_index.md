@@ -55,6 +55,9 @@ Pelajari cara memanipulasi konten dokumen dengan Aspose.Words untuk Java. Pandua
 ### [Buat Dokumen Word Secara Programatis – Panduan Langkah‑per‑Langkah Lengkap](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Panduan lengkap membuat dokumen Word secara programatis dengan Aspose.Words untuk Java, termasuk contoh kode langkah demi langkah.
+### [Buat diagram radial dan sisipkan diagram ke Word dengan Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Pelajari cara membuat diagram radial dan menyisipkannya ke dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

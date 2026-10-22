@@ -31,6 +31,14 @@
 | [Δημιουργία εγγράφου Word με κουμπί ActiveX – Οδηγός C#](./create-word-document-with-activex-button-c-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με κουμπί ActiveX χρησιμοποιώντας C# και Aspose.Words για .NET. |
 | [Δημιουργία κουμπιού εγγράφου Word με Aspose.Words – Πλήρες Παράδειγμα Κώδικα](./create-word-document-button-with-aspose-words-full-code-exam/) | Μάθετε πώς να δημιουργήσετε ένα κουμπί που παράγει έγγραφο Word χρησιμοποιώντας το Aspose.Words, με πλήρες παράδειγμα κώδικα. |
 | [Προσθήκη κουμπιού εντολής σε έγγραφο Word με το Aspose.Words – Πλήρης Οδηγός](./add-command-button-to-word-document-with-aspose-words-comple/) | Μάθετε πώς να προσθέσετε κουμπί εντολής σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό. |
+| [πώς να προσθέσετε έλεγχο ActiveX σε Word με το Aspose.Words – βήμα‑βήμα οδηγός](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Μάθετε πώς να ενσωματώσετε έλεγχο ActiveX σε έγγραφα Word χρησιμοποιώντας το Aspose.Words, βήμα‑βήμα. |
+| [Πώς να προσθέσετε κουμπί ActiveX σε έγγραφο Word με το Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Εισαγωγή OleControlType.CommandButton σε Word](./insert-olecontroltype-commandbutton-example-in-word/) | Μάθετε πώς να προσθέσετε ένα κουμπί CommandButton μέσω OleControlType σε έγγραφα Word με Aspose.Words για .NET. |
+| [Πώς να δημιουργήσετε κουμπί εντολών ActiveX στο Word χρησιμοποιώντας C#](./how-to-create-activex-command-button-in-word-using-c/) | Μάθετε πώς να προσθέσετε και να διαμορφώσετε ένα κουμπί εντολών ActiveX σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words. |
+| [Πώς να προσθέσετε έναν έλεγχο ActiveX σε Word με C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Μάθετε πώς να προσθέσετε έναν έλεγχο ActiveX σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
+
+| [Πώς να εισαγάγετε κουμπί εντολής OLE σε έγγραφο Word χρησιμοποιώντας C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Μάθετε πώς να προσθέσετε κουμπί εντολής OLE σε έγγραφα Word με C# χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να προσθέσετε ένα κουμπί εντολής προγραμματιστικά σε έγγραφο Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε προγραμματιστικά ένα κουμπί εντολής σε έγγραφα Word με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

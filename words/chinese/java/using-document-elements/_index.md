@@ -43,6 +43,9 @@
 记住，熟能生巧，有了 Aspose.Words for Java，您很快就能像专业人士一样创建、修改和增强文档。祝您编码愉快！
 
 ## 使用文档元素教程
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [在 Aspose.Words for Java 中使用注释](./using-comments/)
 学习如何在 Aspose.Words for Java 中使用注释。本教程将逐步讲解如何在文档中添加和自定义注释。
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
@@ -53,6 +56,10 @@
 学习如何在 Aspose.Words for Java 中高效使用脚注和尾注。立即提升您的文档格式化技能！
 ### [在 Aspose.Words for Java 中使用表单字段](./using-form-fields/)
 学习使用 Aspose.Words for Java 创建带有表单字段的交互式 Word 文档。立即开始！
+### [在 Aspose.Words for Java 中创建空白 Word 文档并插入纯文本控件](./create-blank-word-document-and-insert-a-plain-text-control/)
+学习如何创建空白 Word 文档并在其中插入纯文本内容控件。
+### [在 Aspose.Words for Java 中创建径向图表](./how-to-create-radial-chart-in-a-word-document-with-java/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中生成径向图表。
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 学习使用 HarfBuzz 在 Aspose.Words for Java 中进行高级文本整形。本分步指南将帮助您增强复杂脚本中的文本渲染。
 ### [在 Aspose.Words for Java 中使用页眉和页脚](./using-headers-and-footers/)
@@ -82,6 +89,41 @@
 ### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
 ### [使用命令按钮创建空白 Word 文档 – 步骤指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [在 Aspose.Words for Java 中获取分隔符](./how-to-get-separator-in-word-docs-with-java/)
+学习如何在 Aspose.Words for Java 中获取分隔符，以便在文档中插入或识别分隔线。
+### [在 C# 中添加 SDT – Word 占位符完整指南](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+学习如何在 C# 中使用 SDT（结构化文档标签）来实现 Word 占位符的完整指南。
+### [使用 Java 在 Word 中创建饼图 – 分步指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中创建饼图，完整的分步示例。
+### [在 Aspose.Words for Java 中使用占位符和列表创建 Word 文档](./how-to-create-word-document-with-placeholders-and-lists/)
+学习如何在 Aspose.Words for Java 中创建包含占位符和列表的 Word 文档，实现动态内容生成。
+### [在 Java 中使用 Chart API 为饼图添加引导线](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
+### [在 Aspose.Words for Java 中使用命令按钮](./how-to-insert-command-button-in-a-word-document-using-java/)
+学习如何在 Aspose.Words for Java 中向 Word 文档插入命令按钮，实现交互式文档功能。
+### [在 Aspose.Words 中使用代码创建 forms2olecontrol](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+学习如何在代码中使用 Aspose.Words 创建 forms2olecontrol。
+### [在 Aspose.Words for Java 中编辑 Word 文档中的图表](./how-to-edit-chart-in-a-word-document-using-java/)
+本教程演示如何使用 Aspose.Words for Java 在 Word 文档中编辑图表，包括修改数据、样式并保存。
+### [在 Java 中编辑环形图后保存 Word 文档](./save-word-document-after-editing-doughnut-chart-in-java/)
+本教程演示如何使用 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
+### [在 C# 中创建空白 Word 文档并添加雷达图](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
+### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
+使用 Aspose.Words for Java 通过代码创建 Word 文档并添加交互式按钮。
+### [使用 Java 和 Aspose.Words 创建包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+学习如何使用 Java 和 Aspose.Words 创建包含 ActiveX 控件的 docx 文档。
+### [在 Aspose.Words for Java 中使用饼图](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中插入饼图并自定义其外观。
+### [在 Aspose.Words for Java 中创建 ActiveX 命令按钮](./how-to-create-activex-command-button-in-java/)
+学习如何在 Aspose.Words for Java 中创建 ActiveX 命令按钮，实现交互式文档功能。
+### [在 Aspose.Words for Java 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-java/)
+学习如何在 Java 中创建空白 Word 文档并添加 ActiveX 按钮。
+### [在 Word 中插入饼图并添加数据标签百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+学习在 Aspose.Words for Java 中插入饼图并添加显示百分比的数据标签。
+
+### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
 ### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
 

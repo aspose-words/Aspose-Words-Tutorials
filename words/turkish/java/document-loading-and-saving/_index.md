@@ -90,7 +90,7 @@ Aspose.Words for Java’da Yükleme Seçeneklerini ustalıkla kullanın. Belge y
 ### [Aspose.Words for Java’da RTF Yükleme Seçeneklerini Yapılandırma](./configuring-rtf-load-options/)
 Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belgelerinde UTF-8 metni tanıma yöntemlerini öğrenin. Adım adım kılavuz ve kod örnekleri.
 
-### [Aspose.Words for Java ile Metin Dosyalarını Yükleme](./loading-text-files/)
+### [Aspose.Words for Java’nun Metin Dosyalarını Yükleme](./loading-text-files/)
 Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
@@ -132,7 +132,10 @@ Aspose.Words for Java ile belgeleri RTF formatında nasıl kaydedeceğinizi öğ
 Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğinizi öğrenin. Java kod örnekleriyle adım adım rehberimizi izleyin.
 
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
-Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
+Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin. 
+
+### [Aspose.Words for Java LoadOptions – Bozuk Word Belgelerini Kurtarma](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Java’da Aspose.Words LoadOptions kullanarak bozuk Word dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
 
 ### [Aspose.Words for Java ile DOCX Kurtarma – Bozuk Dosyaları Kurtarma Seçenekleriyle Yükleme](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
@@ -183,11 +186,20 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 Java’da Aspose.Words ile belge yüklerken uyarı geri çağrısını nasıl ele alacağınızı öğrenin.
 ### [Uyarılar İçin LoadOptions Yapılandırma – Tam Java Kılavuzu](./configure-loadoptions-for-warnings-complete-java-guide/)
 Java’da Aspose.Words ile uyarıların yakalanması için LoadOptions nasıl yapılandırılır, örnek kodlarla adım adım öğrenin.
+### [Aspose Yazı Tipi Değiştirme Eğitimi – Eksik Yazı Tiplerini Ele Alma](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Java’da eksik yazı tiplerini yakalayarak ve değiştirme uyarılarını yöneterek belge işleme sürecinizi iyileştirin.
 
 ### [Java’da markdown alt çizgisi yükleme – tam programlama rehberi](./load-markdown-underline-in-java-complete-programming-guide/)
 Java’da markdown alt çizgilerini nasıl yükleyeceğinizi adım adım öğrenin.
 ### [Aspose.Words for Java’da Seçenekleri Ayarlama – Tam Kılavuz](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Aspose.Words for Java’da çeşitli ayarları nasıl yapılandıracağınızı ve belge işleme sürecinizi özelleştireceğinizi öğrenin.
+
+### [Aspose.Words ile C#’ta Klasörden Dosya Yükleme](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işleyebileceğinizi adım adım öğrenin.
+### [Aspose.Words for Java ile Bozuk DOCX Dosyasını Kurtarma – Tam Kılavuz](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
+
+### [Java’da Markdown Yükleme – Tam Kılavuz](./how-to-load-markdown-in-java-complete-guide/)
 
 ## Sıkça Sorulan Sorular
 

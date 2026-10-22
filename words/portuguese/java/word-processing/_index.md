@@ -50,6 +50,9 @@ Aprenda a manipular o conteúdo de documentos com o Aspose.Words para Java. Este
 ### [Criar documento Word programaticamente – Guia completo passo a passo](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Aprenda a criar documentos Word em Java de forma programática com um guia detalhado passo a passo, incluindo inserção de texto, imagens e formatação.
+### [Criar gráfico radial e inserir gráfico no Word com Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Aprenda a gerar um gráfico radial e incorporá-lo em um documento Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

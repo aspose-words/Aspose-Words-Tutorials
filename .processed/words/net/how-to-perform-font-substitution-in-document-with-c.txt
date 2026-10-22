@@ -1,0 +1,7 @@
+Title: How to perform font substitution in document with C#
+Slug: how-to-perform-font-substitution-in-document-with-c
+Category: working-with-fonts
+ProcessedDate: 2026-10-14T00:08:27.441835
+SourceRepo: AI Search API
+Keywords: font substitution in document
+PRNumber: 321

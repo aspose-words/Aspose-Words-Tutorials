@@ -50,6 +50,9 @@ Pelajari cara mengelola tab stop secara efektif dalam dokumen Word menggunakan A
 ### [Mengoptimalkan Gaya Kata di Java Menggunakan Aspose.Words: Hapus Gaya yang Tidak Digunakan dan Duplikat](./optimize-word-styles-aspose-java/)
 Pelajari cara mengelola gaya dokumen secara efisien dengan Aspose.Words untuk Java dengan menghapus gaya yang tidak digunakan dan duplikat, meningkatkan kinerja dan pemeliharaan.
 
+### [Cara Mengubah Format Catatan Kaki dalam Dokumen Word menggunakan Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Pelajari cara mengubah format catatan kaki di dokumen Word dengan Aspose.Words untuk Java secara programatis.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

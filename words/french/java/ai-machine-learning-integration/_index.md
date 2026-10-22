@@ -1,8 +1,8 @@
 ---
 date: 2025-11-25
 description: Apprenez comment intégrer l'IA pour le traitement intelligent de documents
-  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA, la
-  génération de contenu et la traduction.
+  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA,
+  la génération de contenu et la traduction.
 title: Comment intégrer l'IA avec Aspose.Words pour Java – IA & ML
 url: /fr/java/ai-machine-learning-integration/
 weight: 20
@@ -72,6 +72,10 @@ Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspo
 Apprenez à configurer un modèle de langage pour remplacer automatiquement du texte dans des fichiers DOCX à l'aide d'Aspose.Words et d'une IA.
 ### [Créer un modèle IA personnalisé – Modifier les paragraphes Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Apprenez à créer votre propre modèle d'IA et à l'utiliser pour modifier automatiquement les paragraphes des documents Word avec Aspose.Words en Java.
+### [Créer un document Word en Java avec vérification grammaticale LLM personnalisée](./create-word-document-java-with-custom-llm-grammar-check/)
+Apprenez à générer des documents Word en Java et à intégrer un LLM personnalisé pour corriger automatiquement la grammaire.
+### [Créer un correcteur grammatical Java – Guide complet étape par étape](./build-grammar-checker-java-complete-step-by-step-guide/)
+Apprenez à créer un correcteur grammatical en Java avec Aspose.Words, en intégrant l'IA pour détecter et corriger les erreurs de texte.
 
 ## Ressources supplémentaires
 

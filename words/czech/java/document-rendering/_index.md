@@ -47,6 +47,8 @@ Naučte se, jak pomocí callbacku varování zachytit a sledovat chybějící p�
 Naučte se zachytávat varování a identifikovat chybějící písma při práci s Aspose.Words v Javě.
 ### [Najděte chybějící písma v Javě s Aspose.Words – Kompletní průvodce](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Naučte se, jak v Javě pomocí Aspose.Words najít chybějící písma a zajistit správné vykreslování dokumentů.
+### [Registrace varovného zpětného volání v Javě – Kompletní programovací průvodce ](./register-warning-callback-in-java-complete-programming-guide/)
+Naučte se, jak v Aspose.Words pro Javu zaregistrovat varovný callback a spravovat upozornění během zpracování dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

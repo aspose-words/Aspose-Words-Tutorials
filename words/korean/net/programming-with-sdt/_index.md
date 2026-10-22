@@ -40,6 +40,10 @@ Aspose.Words for .NET 자습서를 통해 라이브러리의 기능을 심층적
 | [Aspose를 사용하여 콘텐츠 컨트롤을 추가하고 Word 문서를 만드는 방법 – 완전 가이드](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words for .NET을 활용해 콘텐츠 컨트롤을 삽입하고 Word 문서를 생성하는 전체 과정을 단계별로 안내합니다. |
 | [프로그래밍으로 워드 문서 만들기 – 콘텐츠 컨트롤 및 플레이스홀더 추가](./create-word-document-programmatically-add-content-control-an/) | Aspose.Words for .NET을 사용해 프로그래밍으로 워드 문서를 생성하고 콘텐츠 컨트롤과 플레이스홀더를 추가하는 방법을 단계별로 안내합니다. |
 
+| [Aspose.Words를 사용하여 C#에서 콘텐츠 컨트롤 만들기](./how-to-create-content-control-in-c-with-aspose-words/) | Aspose.Words for .NET을 사용해 C#에서 콘텐츠 컨트롤을 만드는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 C#에서 SDT가 포함된 Word 문서 저장 방법](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Aspose.Words for .NET을 사용해 SDT가 포함된 Word 문서를 C#에서 저장하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 Word 문서에 콘텐츠 컨트롤을 추가하는 방법](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aspose.Words for .NET을 이용해 Word 문서에 콘텐츠 컨트롤을 삽입하고 설정하는 단계별 가이드. |
+| [C#로 새 Word 문서를 만들고 콘텐츠 컨트롤 삽입](./create-new-word-document-and-insert-content-control-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 새 Word 문서를 만들고 콘텐츠 컨트롤을 삽입하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

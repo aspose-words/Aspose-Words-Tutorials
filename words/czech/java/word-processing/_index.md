@@ -50,6 +50,9 @@ Naučte se, jak manipulovat s obsahem dokumentů pomocí Aspose.Words pro Javu. 
 ### [Vytvoření dokumentu Word programově – Kompletní průvodce krok za krokem](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Naučte se, jak programově vytvořit dokument Word v Javě pomocí Aspose.Words s podrobnými kroky a ukázkami kódu.
+### [Vytvořit radiální graf a vložit jej do Wordu v Javě](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Naučte se vytvořit radiální graf a vložit jej do dokumentu Word pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

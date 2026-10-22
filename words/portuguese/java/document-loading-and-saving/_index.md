@@ -58,7 +58,7 @@ Para realmente dominar a manipulação de documentos, é preciso primeiro compre
 
 #### Começando
 
-O primeiro passo da sua jornada é familiarizar-se com o básico. Vamos guiá-lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
+O primeiro passo da sua jornada é familiarizar‑se com o básico. Vamos guiá‑lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
 
 #### Carregando Documentos
 
@@ -88,7 +88,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Configurando Opções de Carregamento RTF no Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [Carregando Arquivos de Texto com Aspose.Words for Java](./loading-text-files/)
-
+### [Como Carregar Markdown em Java – Guia Completo](./how-to-load-markdown-in-java-complete-guide/)
 ### [Opções Avançadas de Salvamento com Aspose.Words for Java](./advance-saving-options/)
 
 ### [Salvando Documentos HTML com Layout Fixo no Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -146,6 +146,10 @@ As configurações de documentos são a chave para entregar documentos adaptados
 
 ### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [Carregar sublinhado markdown em Java – guia completo de programação](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Aspose.Words LoadOptions – Recuperar documentos Word corrompidos em Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Tutorial de Substituição de Fontes Aspose – Lidar com Fontes Ausentes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Como carregar arquivo de diretório usando Aspose.Words em C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Recuperar DOCX corrompido com Aspose.Words para Java – Guia Completo](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Como definir opções no Aspose.Words para Java – guia completo](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ## Perguntas Frequentes

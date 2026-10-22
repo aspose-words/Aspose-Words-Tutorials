@@ -47,6 +47,8 @@ Aspose.Words में चेतावनी कॉलबैक सेट कर
 Aspose.Words में लापता फ़ॉन्ट्स की चेतावनियों को पकड़ने और संभालने के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [Java में लापता फ़ॉन्ट्स खोजें Aspose.Words के साथ – पूर्ण मार्गदर्शिका](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Java में लापता फ़ॉन्ट्स को पहचानने और बदलने के लिए चरण-दर-चरण गाइड, स्रोत कोड सहित।
+### [जावा में चेतावनी कॉलबैक पंजीकरण – पूर्ण प्रोग्रामिंग गाइड](./register-warning-callback-in-java-complete-programming-guide/)
+Aspose.Words for Java में चेतावनी कॉलबैक को पंजीकृत करने की पूरी प्रक्रिया सीखें, कोड उदाहरणों के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

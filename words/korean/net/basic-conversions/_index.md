@@ -35,6 +35,7 @@
 | [Docx를 txt로 저장 – Word 파일을 일반 텍스트로 변환하는 완전 가이드](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Aspose.Words for .NET을 사용해 Docx 파일을 txt 형식으로 변환하는 전체 단계별 가이드입니다. 개발자를 위한 상세 예제 포함. |
 | [Docx를 Txt로 변환 – Word 수식 LaTeX 내보내기](./convert-docx-to-txt-export-word-equations-as-latex/) | Aspose.Words for .NET을 사용하여 DOCX를 TXT로 변환하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 | [Docx를 Txt로 변환 – Word 수학을 LaTeX로 변환하는 완전 가이드](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Aspose.Words for .NET을 사용하여 Docx 파일의 수학 수식을 LaTeX 형식으로 변환하고 Txt 파일로 저장하는 전체 가이드입니다. |
+| [C#에서 Docx를 Txt로 변환 – 완전 프로그래밍 가이드](./convert-docx-to-txt-with-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx 파일을 Txt 형식으로 변환하는 전체 단계별 가이드입니다. |
 | [텍스트 파일을 Word 문서로 변환](./txt-to-docx/) | Aspose.Words for .NET을 사용하여 텍스트 파일을 Word 문서로 변환하는 방법을 알아보세요. 포괄적인 가이드를 통해 문서 변환을 효율적으로 관리하세요. | 
 | [PDF를 Jpeg로 저장](./pdf-to-jpeg/) | Aspose.Words for .NET을 사용하여 PDF를 JPEG로 손쉽게 변환하세요. 자세한 가이드와 예시, FAQ를 참고하세요. 개발자와 애호가에게 안성맞춤입니다. |
 | [PDF를 Word 형식(Docx)으로 저장](./pdf-to-docx/) | Aspose.Words for .NET을 사용하여 PDF를 Word 문서(Docx)로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자에게 안성맞춤입니다. |
@@ -81,6 +82,9 @@
 | [C#에서 Word를 PDF로 만들기 – 빠른 로우코드 가이드](./create-pdf-from-word-in-c-fast-low-code-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 빠르게 PDF로 변환하는 로우코드 가이드를 제공합니다. |
 | [Aspose.Words로 Word를 PDF로 저장 – 완전한 가이드](./save-word-as-pdf-with-aspose-words-complete-guide/) | Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [Aspose.Words로 Markdown을 DOCX로 변환 – 완전 C# 가이드](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용해 Markdown을 DOCX로 변환하는 전체 단계별 C# 가이드입니다. |
+| [DOCX를 PDF로 변환 C# – 완전한 단계별 가이드](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 전체 단계별 가이드입니다. |
+| [C#에서 Docx를 PDF로 변환 – 완전한 단계별 가이드](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.Words와 C#을 사용해 Docx 파일을 PDF로 변환하는 완전한 단계별 가이드입니다. |
+| [C#에서 DOCX를 PDF로 만들기 – 단계별 가이드](./create-pdf-from-docx-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

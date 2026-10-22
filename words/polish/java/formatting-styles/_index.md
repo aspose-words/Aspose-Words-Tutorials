@@ -50,6 +50,9 @@ Dowiedz się, jak skutecznie zarządzać tabulatorami w dokumentach Worda, używ
 ### [Optymalizacja stylów programu Word w Javie przy użyciu Aspose.Words: usuwanie nieużywanych i duplikatów stylów](./optimize-word-styles-aspose-java/)
 Dowiedz się, jak efektywnie zarządzać stylami dokumentów za pomocą Aspose.Words for Java, usuwając nieużywane i zduplikowane style, co zwiększa wydajność i łatwość konserwacji.
 
+### [Jak zmienić formatowanie przypisów w dokumencie Word przy użyciu Javy](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Dowiedz się, jak programowo modyfikować formatowanie przypisów w dokumentach Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

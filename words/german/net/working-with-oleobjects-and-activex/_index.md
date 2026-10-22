@@ -31,6 +31,14 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 | [Word-Dokument mit ActiveX-Button erstellen – C#-Leitfaden](./create-word-document-with-activex-button-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem ActiveX-Button in C# erstellen. |
 | [Word-Dokument-Schaltfläche mit Aspose.Words erstellen – Vollständiges Codebeispiel](./create-word-document-button-with-aspose-words-full-code-exam/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Schaltfläche erstellen, die ein Word-Dokument generiert – vollständiges Codebeispiel. |
 | [Schaltfläche zum Word-Dokument mit Aspose.Words hinzufügen – Komplettanleitung](./add-command-button-to-word-document-with-aspose-words-comple/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET eine Schaltfläche in ein Word-Dokument einfügen. |
+| [ActiveX-Steuerelement in Word mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein ActiveX-Steuerelement in ein Word-Dokument einfügen. |
+| [ActiveX-Schaltfläche in Word-Dokument hinzufügen](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine ActiveX-Schaltfläche in ein Word-Dokument einfügen. |
+| [Einfügen eines OleControlType.CommandButton-Beispiels in Word](./insert-olecontroltype-commandbutton-example-in-word/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein OleControlType.CommandButton-Beispiel in ein Word-Dokument einfügen. |
+| [ActiveX-Befehlsschaltfläche in Word mit C# erstellen](./how-to-create-activex-command-button-in-word-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine ActiveX-Befehlsschaltfläche in Word mithilfe von C# einfügen. |
+| [Wie man ein ActiveX-Steuerelement in Word mit C# hinzufügt](./how-to-add-an-activex-control-word-in-word-with-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein ActiveX-Steuerelement in ein Word-Dokument mit C# einfügen. |
+| [OLE-Befehlsschaltfläche in Word-Dokument mit C# einfügen](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine OLE-Befehlsschaltfläche in ein Word-Dokument einfügen. |
+
+| [Wie man programmgesteuert eine Schaltfläche in ein Word-Dokument einfügt](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET programmgesteuert eine Schaltfläche in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

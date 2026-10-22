@@ -52,6 +52,9 @@ Aspose.Words สำหรับ Java เป็นไลบรารีที่�
 ### [การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML](./manipulating-document-content/)
 
 เรียนรู้วิธีการจัดการเนื้อหาเอกสารด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ
+### [สร้างแผนภูมิรัศมีและแทรกแผนภูมิลงใน Word ด้วย Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+เรียนรู้วิธีสร้างแผนภูมิรัศมีด้วย Aspose.Words for Java และแทรกลงในเอกสาร Word อย่างง่ายดาย
 
 ### [สร้างเอกสาร Word อย่างเป็นโปรแกรม – คู่มือเต็มขั้นตอน](./create-word-document-programmatically-full-step-by-step-guid/)
 

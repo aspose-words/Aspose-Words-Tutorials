@@ -90,6 +90,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words Java 고급 HTML 문서 저장 옵션](./advance-html-documents-saving-options/)
 ### [Aspose.Words for Java에서 문서 이미지 저장](./saving-images-from-documents/)
 ### [Aspose.Words for Java로 문서를 Markdown으로 저장](./saving-documents-as-markdown/)
+### [Java에서 Markdown 로드하기 – 완전 가이드](./how-to-load-markdown-in-java-complete-guide/)
 ### [Aspose.Words for Java로 문서를 ODT 형식으로 저장](./saving-documents-as-odt-format/)
 ### [Aspose.Words for Java로 문서를 OOXML 형식으로 저장](./saving-documents-as-ooxml-format/)
 ### [Aspose.Words for Java로 문서를 PCL 형식으로 저장](./saving-documents-as-pcl-format/)
@@ -103,7 +104,9 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [DOCX 파일 복구 방법 – 단계별 Java 가이드](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Aspose.Words로 손상된 docx 복구 – 완전 Java 가이드](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [Aspose.Words for Java를 사용한 손상된 DOCX 복구 – 완전 가이드](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [docx 복구 방법 – 손상된 Word 파일 읽기 완전 가이드](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
 ### [손상된 Word 문서 복구를 위한 복구 모드 설정](./set-recovery-mode-to-recover-broken-word-document/)
@@ -130,6 +133,10 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Java로 DOCX 파일 저장 – 콘텐츠 컨트롤 삽입 가이드](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 ### [Java를 사용하여 빈 Word 문서 만들기 – 전체 Aspose.Words 가이드](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [Java에서 마크다운 밑줄 로드 – 완전 프로그래밍 가이드](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Aspose Words LoadOptions – Java에서 손상된 Word 문서 복구](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Aspose 글꼴 대체 튜토리얼 – 누락된 글꼴 처리](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [Aspose.Words를 사용하여 C#에서 디렉터리의 파일을 로드하는 방법](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## 자주 묻는 질문
 

@@ -47,6 +47,8 @@ Aprenda a detectar y rastrear fuentes faltantes usando callbacks de advertencia 
 Aprenda a capturar advertencias y detectar fuentes faltantes al procesar documentos con Aspose.Words para Java.
 ### [Buscar fuentes faltantes en Java con Aspose.Words – Guía completa](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Aprenda a detectar y reemplazar fuentes faltantes en documentos Word usando Aspose.Words para Java.
+### [Registro de devolución de llamada de advertencia en Java – Guía completa de programación](./register-warning-callback-in-java-complete-programming-guide/)
+Aprenda a registrar una devolución de llamada de advertencia en Aspose.Words para Java y gestionar mensajes de proceso de forma eficaz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

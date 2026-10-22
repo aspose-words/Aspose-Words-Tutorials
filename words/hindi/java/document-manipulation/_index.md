@@ -49,7 +49,7 @@ Aspose.Words for Java एक शक्तिशाली और बहुमु�
 
 ## जावा ट्यूटोरियल के लिए Aspose.Words कहां खोजें
 
-क्या आप अपने दस्तावेज़ में हेरफेर की यात्रा शुरू करने के लिए तैयार हैं? आप हमारे ट्यूटोरियल और संसाधनों तक पहुँच सकते हैं [Aspose.Words API दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)चाहे आप शुरुआती या अनुभवी डेवलपर हों, हमारे चरण-दर-चरण ट्यूटोरियल सभी कौशल स्तरों को पूरा करते हैं।
+क्या आप अपने दस्तावेज़ में हेरफेर की यात्रा शुरू करने के लिए तैयार हैं? आप हमारे ट्यूटोरियल और संसाधनों तक पहुँच सकते हैं [Aspose.Words API दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)चाहे आप शुरुआती या अनुभवी डेवलपर हों, हमारे चरण-दर-स्टेप ट्यूटोरियल सभी कौशल स्तरों को पूरा करते हैं।
 
 जावा के लिए Aspose.Words का उपयोग करके दस्तावेज़ हेरफेर डेवलपर्स और व्यवसायों के लिए एक मूल्यवान कौशल है। हमारे ट्यूटोरियल और Aspose.Words की शक्ति के साथ, आप अपने दस्तावेज़-संबंधित कार्यों को सुव्यवस्थित कर सकते हैं, उत्पादकता बढ़ा सकते हैं और आसानी से शानदार दस्तावेज़ बना सकते हैं।
 
@@ -76,6 +76,10 @@ Aspose.Words for Java के साथ अपने दस्तावेज़ 
 Aspose.Words for Java में दस्तावेज़ श्रेणी में हेरफेर करना सीखें। इस व्यापक गाइड के साथ टेक्स्ट को हटाना, निकालना और फ़ॉर्मेट करना सीखें।
 ### [Java के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना](./using-structured-document-tags/)
 इस व्यापक गाइड के साथ Aspose.Words for Java में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना सीखें। कस्टम XML डेटा के लिए SDTs बनाएँ, संशोधित करें और बाँधें।
+### [Aspose.Words के साथ Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ना](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ने की प्रक्रिया सीखें।
+### [नया Word दस्तावेज़ बनाएं – संरचित टैग जोड़ने के लिए चरण-दर-चरण गाइड](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाएं और संरचित टैग जोड़ें। चरण-दर-चरण कोड उदाहरण।
 ### [Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना](./using-styles-and-themes/)
 Aspose.Words for Java के साथ दस्तावेज़ स्वरूपण को बेहतर बनाने का तरीका जानें। स्रोत कोड उदाहरणों के साथ इस व्यापक गाइड में शैलियों, थीम और बहुत कुछ का अन्वेषण करें।
 ### [Java के लिए Aspose.Words में विषय-सूची तैयार करना](./generating-table-of-contents/)
@@ -106,6 +110,21 @@ Aspose.Words for Java के साथ दस्तावेज़ प्रब�
 Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें। 
 ### [Java में PDF एक्सेसिबिलिटी टैगिंग – सुलभ PDFs बनाना](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Java के लिए Aspose.Words के साथ PDF में एक्सेसिबिलिटी टैग जोड़ें और सुलभ PDFs जनरेट करें।
+### [Java में docx ActiveX बटन बनाना – पूर्ण प्रोग्रामिंग गाइड](./create-docx-activex-button-in-java-complete-programming-guid/)
+Java में docx फ़ाइल में ActiveX बटन जोड़ने की पूरी मार्गदर्शिका।
+### [Java में Aspose.Words के साथ Word दस्तावेज़ बनाना](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
+### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
+Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
+### [Java के लिए Aspose.Words में टेक्स्ट कंट्रोल के साथ एक खाली Word दस्तावेज़ बनाना](./how-to-create-a-blank-word-document-with-a-text-control/)
+Java के लिए Aspose.Words के साथ टेक्स्ट कंट्रोल वाले खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+### [Aspose.Words के साथ प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aspose.Words for Java का उपयोग करके प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाने की विधि सीखें।
+
+### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
+सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder का उपयोग करके docx फ़ाइल सहेजें और कंट्रोल के बाद टेक्स्ट डालें।
 
 ### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
 Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।

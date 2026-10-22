@@ -113,6 +113,12 @@ Apprenez à réparer les fichiers DOCX corrompus en Java avec Aspose.Words grâc
 ### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
 
+### [Aspose.Words LoadOptions – Récupérer les documents Word corrompus en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus et les convertir avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu avec Aspose.Words for Java – Guide complet](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 
@@ -156,12 +162,14 @@ Apprenez à charger des fichiers DOCX corrompus et à récupérer le contenu gr�
 Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
 
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
+
 ### [Comment récupérer un docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words for Java.
+
 ### [Définir le mode de récupération pour récupérer un document Word endommagé](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Comment récupérer les polices manquantes en Java – Guide Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-Apprenez à détecter et charger les polices manquantes lors du traitement de documents Word avec Aspose.Words for Java.
 ### [Comment récupérer des fichiers DOCX avec Aspose.Words – Guide étape par étape](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Apprenez à restaurer des fichiers DOCX corrompus avec Aspose.Words en suivant un guide complet et des exemples de code Java.
 ### [Comment récupérer un docx – enregistrer le document récupéré en Java](./how-to-recover-docx-save-recovered-document-using-java/)
@@ -205,6 +213,11 @@ Apprenez à créer un document Word vierge en Java avec Aspose.Words, incluant l
 
 ### [Charger le soulignement Markdown en Java – guide complet de programmation](./load-markdown-underline-in-java-complete-programming-guide/)
 Apprenez à charger et gérer le soulignement Markdown dans des applications Java avec Aspose.Words. Guide complet avec exemples de code.
+### [Tutoriel de substitution de polices Aspose – Gérer les polices manquantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Apprenez à capturer et gérer les avertissements de substitution de polices lors du chargement de documents Word avec des polices manquantes grâce à Aspose.Words for Java.
+### [Comment charger un fichier depuis un répertoire avec Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Comment charger le Markdown en Java – Guide complet](./how-to-load-markdown-in-java-complete-guide/)
+Apprenez à charger des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
 
 ## Foire aux questions
 

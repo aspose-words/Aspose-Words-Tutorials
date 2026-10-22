@@ -126,8 +126,6 @@ Tanulja meg, hogyan mentse a dokumentumokat RTF formátumban az Aspose.Words for
 Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words for Java‑val. Kövesse részletes útmutatónkat Java kódrészletekkel.
 
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
-Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.Words‑szal. Azonosítsa a DOC, DOCX és egyéb formátumokat. Hatékony fájlkezelés.
-
 ### [Hogyan állítsuk vissza a DOCX-et – Állítsa be a helyreállítási módot és jelenítse meg a figyelmeztetéseket](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 
 ### [DOCX fájlok helyreállítása Aspose.Words‑szal – Lépés‑ről‑lépés útmutató](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
@@ -140,13 +138,13 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 
 ### [Sérült docx helyreállítása Aspose.Words‑szal – Teljes Java útmutató](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [Sérült DOCX helyreállítása Java‑ban – Teljes programozási útmutató](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide/)
+### [Sérült DOCX helyreállítása Aspose.Words for Java‑val – Teljes útmutató](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Word dokumentum mentése – Betűtípus-beállítások megadása, hiányzó betűtípusok kezelése](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-
 ### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
-
 ### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Hogyan állítsuk helyre a DOCX‑et – mentse a helyreállított dokumentumot Java‑val](./how-to-recover-docx-save-recovered-document-using-java/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a helyreállított dokumentumot Java‑val az Aspose.Words segítségével.
@@ -167,6 +165,9 @@ Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose
 ### [Hogyan mentse el a DOCX fájlt Java‑val – Tartalomvezérlő beszúrása útmutató](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 ### [Üres Word dokumentum létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [Markdown aláhúzás betöltése Java‑ban – teljes programozási útmutató](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Hogyan töltsünk be fájlt könyvtárból az Aspose.Words segítségével C#‑ban](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Hogyan állítsuk be a beállításokat az Aspose.Words for Java‑ban – teljes útmutató](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések

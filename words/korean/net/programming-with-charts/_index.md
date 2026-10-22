@@ -46,9 +46,13 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET을 사용하여 Word에서 차트 제목을 업데이트하고 범례 표시 여부를 전환하기" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C#에서 폭발된 파이 차트 조각을 포함한 수정 문서 저장" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="C#와 사용자 지정 숫자 형식을 사용하여 Word에서 차트 서식 지정하는 방법" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C#를 사용하여 Word 차트에서 히스토그램 빈 개수를 설정하고 데이터 레이블 추가하는 방법" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C#를 사용하여 Word 문서에서 차트 레이블을 프로그래밍 방식으로 조정하기" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | 제목 | 설명 |
 | --- | --- |
@@ -56,9 +60,12 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [모양을 사용하여 차트 만들기 및 사용자 지정](./create-chart-using-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 차트를 만들고 사용자 지정하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화에 적합합니다. |
 | [Word 문서에 간단한 막대형 차트 삽입](./insert-simple-column-chart/) Aspose.Words for .NET을 사용하여 Word에 간단한 세로 막대형 차트를 삽입하는 방법을 알아보세요. 역동적인 시각적 데이터 프레젠테이션으로 문서를 더욱 풍부하게 만들어 보세요. |
 | [Word 문서에 막대형 차트 삽입](./insert-column-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 세로 막대형 차트를 삽입하는 방법을 알아보세요. 보고서와 프레젠테이션의 데이터 시각화를 향상시켜 보세요. |
+| [C#를 사용하여 열 차트와 서식이 지정된 레이블이 포함된 Word 문서 만들기](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aspose.Words for .NET을 활용해 열 차트와 서식이 적용된 레이블을 포함한 Word 문서를 C#으로 만드는 방법을 단계별로 안내합니다. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |
 | [Word 문서에 거품형 차트 삽입](./insert-bubble-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 거품형 차트를 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 더욱 풍성하게 만들어 보세요. |
 | [Word 문서에 분산형 차트 삽입](./insert-scatter-chart/) | Aspose.Words for .NET을 사용하여 Word에 분산형 차트를 삽입하는 방법을 알아보세요. 시각적 데이터 표현을 문서에 통합하는 간단한 단계입니다. |
+| [Aspose.Words를 사용하여 Word 문서에 파이 차트 만들기](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [C#에서 맞춤형 파이 차트가 포함된 Word 문서 만들기](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 맞춤형 파이 차트를 포함한 Word 문서를 만드는 방법을 단계별로 안내합니다. |
 | [차트에서 XY 축 속성 정의](./define-xyaxis-properties/) Aspose.Words for .NET을 사용하여 차트에서 XY 축 속성을 정의하는 방법을 단계별 가이드를 통해 알아보세요. .NET 개발자에게 안성맞춤입니다. |
 | [차트 축에 날짜 시간 값 추가](./date-time-values-to-axis/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 차트 축에 날짜 및 시간 값을 추가하는 방법을 알아보세요. |
 | [차트의 축에 대한 숫자 형식](./number-format-for-axis/) | Aspose.Words for .NET을 사용하여 차트 축 번호 서식을 지정하는 방법을 단계별 가이드를 통해 알아보세요. 문서의 가독성과 전문성을 손쉽게 높여 보세요. |
@@ -76,6 +83,9 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [C#와 Aspose.Words를 사용한 파이 차트 조각 분리 – 전체 가이드](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용하여 파이 차트의 조각을 분리하는 방법을 단계별로 안내합니다. |
 | [C#와 Aspose.Words를 사용하여 파이 차트 레이블 추가 – 전체 가이드](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트 레이블을 추가하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words C#로 차트에 백분율 표시하는 방법](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET을 사용해 차트 데이터에 백분율을 표시하는 방법을 단계별로 안내합니다. |
+| [C#에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word 라인 차트에서 시리즈 서식 지정하는 방법](./how-to-format-series-in-a-word-line-chart-with-c/) | Aspose.Words for .NET을 활용해 Word 라인 차트의 데이터 시리즈를 C# 코드로 서식 지정하는 단계별 가이드입니다. |
+| [Aspose.Words를 사용하여 Word에서 히스토그램 만들기](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 히스토그램을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
