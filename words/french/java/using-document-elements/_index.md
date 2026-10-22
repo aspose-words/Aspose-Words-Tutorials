@@ -45,6 +45,8 @@ N'oubliez pas : c'est en forgeant qu'on devient forgeron. Avec Aspose.Words pour
 ## Tutoriels sur l'utilisation des éléments de document
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
+### [Comment définir la position d'un bouton dans un document Word avec Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Apprenez à positionner un bouton dans un document Word en utilisant Aspose.Words pour Java.
 
 ### [Utilisation des commentaires dans Aspose.Words pour Java](./using-comments/)
 Apprenez à utiliser les commentaires dans Aspose.Words pour Java. Tutoriel étape par étape pour ajouter et personnaliser des commentaires dans vos documents.
@@ -125,6 +127,11 @@ Apprenez à insérer un graphique circulaire dans Word et à afficher les pource
 Apprenez à insérer un bouton interactif dans un document Word avec Aspose.Words pour Java, étape par étape.
 ### [Comment exploser une part de tarte en Java – Tutoriel de graphique Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Apprenez à faire exploser une part de diagramme circulaire dans un graphique Aspose.Words en Java.
+### [Comment créer un graphique dans Word avec Java et Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Apprenez à créer des graphiques dans un document Word en utilisant Aspose.Words pour Java.
+
+### [Insérer un diagramme circulaire Word en Java – guide complet](./insert-pie-chart-word-in-java-complete-guide/)
+Apprenez à insérer un diagramme circulaire dans un document Word en Java avec Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

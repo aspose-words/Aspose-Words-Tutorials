@@ -57,6 +57,8 @@ Aspose.Words를 사용하여 X509 인증서로 C# 워드 문서에 디지털 서
 Aspose.Words for Java를 활용해 Word 문서에 디지털 서명을 적용하는 단계별 가이드입니다.
 ### [Java에서 디지털 서명 PFX 파일 – 완전 가이드](./digital-signature-pfx-file-in-java-complete-guide/)
 Aspose.Words for Java를 사용해 PFX 파일로 디지털 서명을 적용하고 검증하는 방법을 단계별로 안내합니다.
+### [Word 문서에 디지털 서명 추가하는 방법](./how-to-add-a-digital-signature-to-a-word-document/)
+Aspose.Words for Java를 사용해 Word 문서에 디지털 서명을 적용하는 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

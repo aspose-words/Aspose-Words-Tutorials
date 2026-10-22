@@ -43,6 +43,8 @@ Scopri come implementare firme digitali sicure nei documenti utilizzando Aspose.
 Impara a firmare documenti docx usando un certificato PFX con Aspose.Words per Java, passo dopo passo con esempi di codice.
 ### [Come aggiungere una firma digitale a un documento Word con Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Impara ad aggiungere firme digitali ai documenti Word usando Aspose.Words per Java, con esempi di codice e best practice.
+### [Come aggiungere una firma digitale a un documento Word](./how-to-add-a-digital-signature-to-a-word-document/)
+Impara ad aggiungere firme digitali ai documenti Word con Aspose.Words per Java, includendo esempi di codice e best practice.
 ### [Redazione di documenti e protezione dei dati](./document-redaction-data-protection/)
 Scopri come proteggere i tuoi documenti e oscurare i dati sensibili utilizzando Aspose.Words per Java. Guida passo passo con codice sorgente.
 ### [Firma documenti Word in Java con Aspose.Words – Guida completa](./sign-word-document-in-java-with-aspose-words-complete-guide/)

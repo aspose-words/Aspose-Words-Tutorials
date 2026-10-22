@@ -143,6 +143,8 @@ Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu
 Dowiedz się, jak programowo tworzyć dokumenty Word przy użyciu Aspose.Words w Javie.
 ### [Tworzenie pustego dokumentu Word w Javie przy użyciu Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words.
+### [Jak utworzyć pusty dokument Word przy użyciu Aspose.Words dla Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Dowiedz się, jak szybko utworzyć pusty dokument Word przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

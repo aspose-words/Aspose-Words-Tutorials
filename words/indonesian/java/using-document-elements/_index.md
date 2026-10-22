@@ -48,6 +48,8 @@ Pelajari cara membuat dokumen Word kosong dan menambahkan kontrol teks biasa men
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Cara Mengatur Posisi Tombol dalam Dokumen Word dengan Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Pelajari cara menempatkan tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -122,6 +124,10 @@ Pelajari cara menyisipkan diagram pai di Word dengan menambahkan label data pers
 Pelajari cara menambahkan tombol ke dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 ### [Cara meledakkan irisan pai di Java – tutorial diagram Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Pelajari cara meledakkan irisan pai dalam diagram menggunakan Aspose.Words untuk Java.
+### [Menyisipkan diagram pai di Word dengan Java – panduan lengkap](./insert-pie-chart-word-in-java-complete-guide/)
+Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
+### [Cara Membuat Diagram di Word dengan Java dan Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Pelajari cara membuat diagram di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

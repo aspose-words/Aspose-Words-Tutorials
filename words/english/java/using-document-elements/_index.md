@@ -128,6 +128,12 @@ Learn how to generate a blank Word file and insert a radar chart programmaticall
 Learn how to add a button to a Word document using Aspose.Words for Java. Follow this step‑by‑step guide for developers.
 ### [how to insert pie chart in Word – add data label percent](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Learn how to insert a pie chart in Word and add data label percentages using Aspose.Words for Java.
+### [How to create chart in Word with Java and Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Learn how to create charts in Word documents using Aspose.Words for Java.
+### [Insert pie chart word in Java – complete guide](./insert-pie-chart-word-in-java-complete-guide/)
+Learn how to insert a pie chart into a Word document using Aspose.Words for Java with this complete step-by-step guide.
+### [How to set button position in a Word document with Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Learn how to position buttons in Word documents using Aspose.Words for Java with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

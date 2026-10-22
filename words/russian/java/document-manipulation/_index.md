@@ -128,6 +128,8 @@ Aspose.Words для Java — это мощный и универсальный A
 
 ### [Как сохранить DOCX с помощью DocumentBuilder и добавить текст после элемента управления](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Сохраните документ DOCX с DocumentBuilder и вставьте текст сразу после управляющего элемента. 
+### [Как создать пустой документ Word с помощью Aspose.Words для Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Создайте пустой документ Word с помощью Aspose.Words для Java. Пошаговое руководство по инициализации нового документа.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

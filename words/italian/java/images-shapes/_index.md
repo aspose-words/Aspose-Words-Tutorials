@@ -165,6 +165,11 @@ Scopri come generare un documento Word vuoto e inserire una forma ellittica nasc
 
 ### [Come creare un grafico a ciambella in un documento Word con Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Scopri come generare un grafico a ciambella in un documento Word usando Aspose.Words per Java.
+### [Come creare un documento Word vuoto e raggruppare forme in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Impara a creare un documento Word vuoto e a raggruppare forme usando Aspose.Words per Java.
+
+### [Crea documento Word con un'immagine nascosta in Java usando Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Scopri come inserire un'immagine nascosta in un documento Word con Aspose.Words per Java.
 
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

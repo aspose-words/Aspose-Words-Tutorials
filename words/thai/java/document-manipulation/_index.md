@@ -66,6 +66,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแยกเนื้อหาจากเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดของเราจะทำให้กระบวนการนี้ง่ายขึ้น
 ### [วิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java](./helper-methods-for-extracting-content/)
 เรียนรู้วิธีแยกเนื้อหาจากเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java สำรวจวิธีการช่วยเหลือ การจัดรูปแบบแบบกำหนดเอง และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้
+### [วิธีสร้างเอกสาร Word ว่างด้วย Aspose.Words สำหรับ Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างโดยใช้ Aspose.Words สำหรับ Java อย่างง่ายดาย
 ### [การค้นหาและแทนที่ข้อความใน Aspose.Words สำหรับ Java](./finding-and-replacing-text/)
 เรียนรู้วิธีค้นหาและแทนที่ข้อความในเอกสาร Word ด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด พัฒนาทักษะการจัดการเอกสาร Java ของคุณ
 ### [การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java](./removing-content-from-documents/)

@@ -113,6 +113,8 @@ Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide 
 Apprenez à créer un document Word en Java avec Aspose.Words grâce à un guide pas à pas et du code source.
 ### [Comparaison de documents dans Aspose.Words pour Java](./comparing-documents/)
 Apprenez à comparer des documents dans Aspose.Words pour Java, une puissante bibliothèque Java pour une analyse efficace des documents. 
+### [Créer un document Word vierge avec Aspose.Words pour Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Apprenez à créer un document Word vierge en Java avec Aspose.Words, étape par étape.
 ### [Formatage de documents dans Aspose.Words pour Java](./formatting-documents/)
 Apprenez l'art de la mise en forme de documents dans Aspose.Words pour Java grâce à notre guide complet. Explorez de puissantes fonctionnalités et améliorez vos compétences en traitement de documents.
 ### [Joindre et ajouter des documents dans Aspose.Words pour Java](./joining-and-appending-documents/)

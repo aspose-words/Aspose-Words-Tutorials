@@ -165,6 +165,11 @@ Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn bằn
 
 ### [Cách tạo biểu đồ donut trong tài liệu Word bằng Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng trong Java bằng Aspose.Words.
+
+### [Tạo tài liệu Word với hình ảnh ẩn trong Java bằng Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Hướng dẫn tạo tài liệu Word và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

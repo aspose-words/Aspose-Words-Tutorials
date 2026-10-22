@@ -129,6 +129,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erzeug
 Erfahren Sie, wie Sie in Aspose.Words für Java eine Schaltfläche in ein Word-Dokument einfügen und konfigurieren.
 ### [Kreisdiagramm in Word einfügen – Prozentuale Datenbeschriftungen hinzufügen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Erfahren Sie, wie Sie ein Kreisdiagramm in Word einfügen und Prozentwerte als Datenbeschriftungen anzeigen lassen.
+### [Diagramm in Word mit Java und Aspose.Words erstellen](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Diagramme in Word-Dokumenten erstellen und anpassen.
+### [Einfügen von Kreisdiagrammen in Word mit Java – vollständige Anleitung](./insert-pie-chart-word-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen.
+### [Festlegen der Schaltflächenposition in Aspose.Words für Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Erfahren Sie, wie Sie die Position einer Schaltfläche in einem Word-Dokument mit Aspose.Words für Java festlegen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

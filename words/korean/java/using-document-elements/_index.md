@@ -122,6 +122,12 @@ C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하
 Java와 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 데이터 레이블 백분율 추가](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Word 문서에 파이 차트를 삽입하고 데이터 레이블에 백분율을 표시하는 방법을 단계별로 안내합니다.
+### [Java와 Aspose.Words를 사용해 Word에서 차트 만들기](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Java와 Aspose.Words를 활용해 Word 문서에 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-word-in-java-complete-guide/)
+Java용 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 Word 문서의 버튼 위치 설정](./how-to-set-button-position-in-a-word-document-with-java/)
+Aspose.Words for Java를 사용해 Word 문서에 버튼을 삽입하고 원하는 위치에 배치하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

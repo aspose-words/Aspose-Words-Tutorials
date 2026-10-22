@@ -368,6 +368,9 @@ Hướng dẫn chi tiết cách lưu tài liệu Word thành ảnh PNG bằng As
 ### [Tạo markdown từ docx trong Java – hướng dẫn đầy đủ Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown trong Java bằng Aspose.Words.
 
+### [Cách lưu Markdown thành DOCX bằng Aspose.Words cho Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words for Java.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  

@@ -164,6 +164,11 @@ Aspose.Words ActiveX ट्यूटोरियल में Java का उप
 
 ### [जावा में Word दस्तावेज़ बनाएं – आकृति को छिपाएँ और भरने का रंग सेट करें](./create-word-document-java-hide-shape-and-set-fill-color/)
 जावा में Aspose.Words का उपयोग करके आकृति को छिपाने और भराव रंग सेट करने का तरीका सीखें।
+### [जावा में खाली Word दस्तावेज़ बनाएं और आकृतियों को समूहित करें](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aspose.Words Java का उपयोग करके खाली Word फ़ाइल बनाना और कई आकृतियों को एक समूह में जोड़ना सीखें।
+
+### [जावा में Aspose.Words का उपयोग करके छिपी हुई छवि के साथ Word दस्तावेज़ बनाएं](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words का उपयोग करके जावा में छिपी हुई छवि के साथ Word दस्तावेज़ बनाने का तरीका सीखें।
 
 ## अतिरिक्त संसाधन
 

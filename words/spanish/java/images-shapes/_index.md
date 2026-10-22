@@ -165,6 +165,11 @@ Aprenda a generar un documento Word vacío y añadir una forma elíptica oculta 
 
 ### [Cómo crear un gráfico de dona en un documento Word con Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Aprenda a generar un gráfico de dona en un documento Word usando Aspose.Words para Java.
+### [Cómo crear un documento Word en blanco y agrupar formas en Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aprenda a crear un documento Word vacío y agrupar varias formas usando Aspose.Words para Java.
+
+### [Crear documento Word con una imagen oculta en Java usando Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words para Java.
 
 ## Recursos adicionales
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

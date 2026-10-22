@@ -126,6 +126,12 @@
 本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
 ### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
+### [在 Aspose.Words for Java 中设置按钮位置](./how-to-set-button-position-in-a-word-document-with-java/)
+学习如何在 Word 文档中使用 Aspose.Words for Java 将按钮放置在指定位置。
+### [使用 Java 和 Aspose.Words 在 Word 中创建图表](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中创建并自定义图表。
+### [在 Aspose.Words for Java 中插入饼图 – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图，完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

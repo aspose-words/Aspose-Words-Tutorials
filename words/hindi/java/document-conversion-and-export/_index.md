@@ -88,6 +88,9 @@ Aspose.Words for Java में टेबल्स को फ़ॉर्मे�
 ### [Java में docx को markdown के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Java में Aspose.Words का उपयोग करके DOCX फ़ाइल को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
 
+### [Markdown को DOCX के रूप में सहेजें – Aspose.Words for Java का उपयोग करके](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Aspose.Words for Java के साथ Markdown फ़ाइल को DOCX में बदलने की प्रक्रिया सीखें। चरण‑दर‑स्टेप कोड उदाहरण।
+
 ### [डॉक्यूमेंट से मार्कडाउन बनाएं – निर्यात करें और छवियों को सहेजें](./create-markdown-from-document-export-and-save-images/)
 Aspose.Words for Java का उपयोग करके डॉक्यूमेंट को मार्कडाउन में बदलें, छवियों को निर्यात और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
 
@@ -126,11 +129,9 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
-### [docx को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
 ### [docx को txt के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-equations-to-latex/)
 Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और Word गणितीय समीकरणों को LaTeX स्वरूप में निर्यात करें।
 
-DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
 ### [DOCX को मार्कडाउन में बदलें – गणित निर्यात के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-math-export/)
 
 ### [DOCX को markdown में बदलें – पूर्ण जावा गाइड](./convert-docx-to-markdown-complete-java-guide/)
@@ -149,6 +150,9 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX फ़ॉर्मेट में बदलने की चरण‑दर‑स्टेप गाइड।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
+### [DOCX को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+DOCX को markdown में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Java में Aspose.Words का उपयोग करके DOCX को Markdown में परिवर्तित करते समय इमेजेज को Base64 एन्कोडेड रूप में एम्बेड करने का चरण‑दर‑स्टेप गाइड।
 
@@ -185,6 +189,7 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 
 ### [Aspose के साथ Word से एक्सेसिबल PDF बनाना – जावा](./generate-accessible-pdf-from-word-with-aspose-java/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से एक्सेसिबल PDF उत्पन्न करने की पूरी गाइड।
+
 ### [DOCX को Markdown में बदलें – गणित निर्यात के साथ पूर्ण Java गाइड](./convert-docx-to-markdown-with-math-export-full-java-guide/)
 
 ### [DOCX को TXT में बदलें – Word समीकरणों को LaTeX के रूप में निर्यात करें](./convert-docx-to-txt-export-word-equations-as-latex/)

@@ -128,6 +128,8 @@ Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel.
 
 ### [Üres Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./create-blank-word-document-in-java-with-aspose-words/)
 Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot Java-ban az Aspose.Words könyvtár segítségével.
+### [Üres Word dokumentum létrehozása az Aspose.Words for Java segítségével](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot az Aspose.Words for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

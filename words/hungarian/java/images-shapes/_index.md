@@ -163,6 +163,11 @@ Tanulja meg, hogyan hozhat létre üres Word dokumentumot, és rejtett ellipszis
 
 ### [Hogyan hozzunk létre fánkdiagramot Word dokumentumban Java-val](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Tanulja meg, hogyan generálhat fánkdiagramot Word dokumentumokban Java segítségével, részletes kódpéldákkal.
+### [Hogyan hozzunk létre üres Word-dokumentumot és csoportosítsunk alakzatokat Java-ban](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Ismerje meg, hogyan hozhat létre üres Word-dokumentumot és csoportosíthat alakzatokat Java használatával.
+
+### [Word-dokumentum létrehozása rejtett képpel Java-ban az Aspose.Words használatával](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Tanulja meg, hogyan ágyazhat be rejtett képet egy Word-dokumentumba Java és Aspose.Words segítségével.
 
 ## További források
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

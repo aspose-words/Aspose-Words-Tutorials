@@ -255,6 +255,7 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word‑Dokumenten i
 
 ### [Barrierefreies PDF aus Word mit Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java barrierefreie PDFs aus Word-Dokumenten erstellen und PDF/UA‑Konformität sicherstellen.
+
 ### [DOCX in TXT konvertieren – Word‑Gleichungen als LaTeX exportieren](./convert-docx-to-txt-export-word-equations-as-latex/)
 Konvertieren Sie DOCX‑Dateien in reine Textdateien und exportieren Sie darin enthaltene Word‑Gleichungen im LaTeX‑Format.
 
@@ -363,6 +364,8 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java Markdown‑Dateien in DOCX‑Dok
 Speichern Sie ein Word-Dokument als Markdown, wobei HTML‑Tabellen erhalten bleiben, mit Aspose.Words für Java.
 ### [Barrierefreies PDF aus DOCX erstellen – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF aus DOCX erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht.
+### [Wie man Markdown als DOCX mit Aspose.Words für Java speichert](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Speichern Sie Markdown-Inhalte als DOCX-Datei mit Aspose.Words für Java.
 
 ## Häufig gestellte Fragen
 

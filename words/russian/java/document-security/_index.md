@@ -43,6 +43,8 @@
 Узнайте, как подписать файлы docx с использованием сертификата PFX, следуя пошаговым инструкциям и примерам кода.
 ### [Как подписать документ Word в C# с использованием сертификата X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Узнайте, как подписать документ Word в C# с помощью сертификата X509, используя Aspose.Words.
+### [Как добавить цифровую подпись в документ Word](./how-to-add-a-digital-signature-to-a-word-document/)
+Узнайте, как добавить цифровую подпись в документ Word с помощью Aspose.Words для Java.
 ### [Редактирование документов и защита данных](./document-redaction-data-protection/)
 Узнайте, как защитить ваши документы и отредактировать конфиденциальные данные с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом.
 ### [Подпись Word-документа в Java с Aspose.Words – Полное руководство](./sign-word-document-in-java-with-aspose-words-complete-guide/)

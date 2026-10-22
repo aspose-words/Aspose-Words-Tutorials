@@ -368,6 +368,9 @@ Aspose.Words for Java kullanarak docx dosyalarını markdown formatına dönüş
 ### [Word'den PNG Kaydetme – Tam Adım‑Adım Kılavuz](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Word belgesinden PNG formatında görüntü kaydetmeyi adım adım öğrenin.
 
+### [Aspose.Words for Java ile Markdown'ı DOCX Olarak Kaydetme](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Markdown dosyasını DOCX formatına dönüştürerek belge oluşturmayı adım adım öğrenin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

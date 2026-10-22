@@ -163,6 +163,12 @@ Ein Code‑Tutorial, das zeigt, wie Sie mit C# ein leeres Word‑Dokument erzeug
 ### [Wie man ein Donut-Diagramm in einem Word-Dokument mit Java erstellt](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Donut-Diagramm in ein Word-Dokument einfügen.
 
+### [Erstellen eines leeren Word-Dokuments und Gruppieren von Formen in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und mehrere Formen zu einer Gruppe zusammenfassen.
+
+### [Word-Dokument mit verstecktem Bild in Java mit Aspose.Words erstellen](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument erstellen, das ein verstecktes Bild enthält.
+
 ## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)

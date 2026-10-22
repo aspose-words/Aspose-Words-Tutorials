@@ -163,6 +163,11 @@ Leer hoe u een leeg Word-document maakt en een verborgen ellipsvorm toevoegt met
 
 ### [Hoe een donutgrafiek in een Word-document te maken met Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Leer hoe u een donutgrafiek toevoegt aan een Word-document met Java.
+### [Hoe een leeg Word-document te maken en vormen te groeperen in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voor Java.
+
+### [Maak een Word-document met een verborgen afbeelding in Java met Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Leer hoe u een verborgen afbeelding toevoegt aan een Word-document met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

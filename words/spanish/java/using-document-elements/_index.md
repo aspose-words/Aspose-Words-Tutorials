@@ -126,6 +126,12 @@ Aprenda a agregar un gráfico circular a un documento Word con Aspose.Words para
 Aprenda a insertar un botón interactivo en un documento Word con Aspose.Words para Java paso a paso.
 ### [Cómo insertar un gráfico circular en Word – añadir porcentaje de etiqueta de datos](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Aprenda a insertar un gráfico circular en Word y añadir etiquetas de datos con porcentaje usando Aspose.Words para Java.
+### [Cómo crear un gráfico en Word con Java y Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Aprenda a crear gráficos en documentos Word usando Java y Aspose.Words paso a paso.
+### [Insertar gráfico circular en Word con Java – guía completa](./insert-pie-chart-word-in-java-complete-guide/)
+Aprenda a insertar gráficos de pastel en documentos Word usando Java y Aspose.Words paso a paso.
+### [Cómo establecer la posición de un botón en un documento Word con Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Aprenda a colocar y posicionar botones en documentos Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

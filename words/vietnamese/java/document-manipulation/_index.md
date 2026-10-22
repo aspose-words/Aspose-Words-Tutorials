@@ -123,6 +123,8 @@ Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác
 ### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống trong Aspose.Words cho Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java, bao gồm các bước khởi tạo Document và lưu file.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

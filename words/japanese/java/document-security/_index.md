@@ -57,6 +57,8 @@ Aspose.Words for Java を使用して、Word 文書に安全なデジタル署�
 Aspose.Words for Javaを使用して、PFXファイルを用いたデジタル署名の作成と適用方法をステップバイステップで解説します。
 ### [Javaでdocxに署名する方法 – ステップバイステップガイド](./how-to-sign-docx-in-java-step-by-step-guide/)
 Aspose.Words for Javaを使用して、docxファイルに安全にデジタル署名を追加する手順を解説します。
+### [Word文書にデジタル署名を追加する方法](./how-to-add-a-digital-signature-to-a-word-document/)
+Aspose.Words for Javaを使用して、Word文書に安全なデジタル署名を付与する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

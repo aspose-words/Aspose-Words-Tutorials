@@ -182,6 +182,11 @@ Learn how to generate a doughnut chart in a Word document using Aspose.Words for
 
 ### [How to create blank Word document and add a hidden ellipse shape in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Learn how to generate a blank Word document and insert a hidden ellipse shape using Aspose.Words for C#.
+### [How to create a blank Word document and group shapes in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
+
+### [Create word document with a hidden image in Java using Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Learn how to embed a hidden image in a Word document using Aspose.Words for Java.
 
 ## Additional Resources
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

@@ -164,6 +164,11 @@ Dowiedz się, jak utworzyć pusty dokument Word i dodać ukryty kształt elipsy 
 
 ### [Jak utworzyć wykres pierścieniowy w dokumencie Word w Javie](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Dowiedz się, jak generować wykresy pierścieniowe w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Jak utworzyć pusty dokument Word i grupować kształty w Javie](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word oraz grupować kształty w jednym pliku.
+
+### [Utwórz dokument Word z ukrytym obrazem w Javie przy użyciu Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Dowiedz się, jak w Javie utworzyć dokument Word zawierający ukryty obraz przy użyciu Aspose.Words.
 
 ## Dodatkowe zasoby
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

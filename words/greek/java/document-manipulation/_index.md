@@ -127,6 +127,8 @@
 Μάθετε πώς να δημιουργήσετε προγραμματιστικά ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Δημιουργία εγγράφου Word με έλεγχο απλού κειμένου](./create-word-document-with-a-plain-text-content-control/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει έναν έλεγχο απλού κειμένου χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε κενό έγγραφο Word με Aspose.Words για Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
