@@ -56,6 +56,10 @@ Aspose.Words for Java를 활용한 문서 관리는 개발자와 기업 모두�
 오늘부터 학습 여정을 시작하고 Aspose.Words for Java로 문서 조작의 무한한 가능성을 열어보세요.
 
 ## 문서 조작 튜토리얼
+### [Aspose.Words를 사용하여 프로그래밍 방식으로 워드 문서 만들기](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Java용 Aspose.Words에서 정리 옵션 사용](./using-cleanup-options/)
 Aspose.Words for Java 정리 옵션을 사용하여 문서의 명확성을 향상하세요. 빈 단락, 사용하지 않는 영역 등을 제거하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)
@@ -92,6 +96,8 @@ Aspose.Words for Java에서 문서를 효율적으로 분할하는 방법을 알
 Aspose.Words for Java를 사용하여 문서를 HTML 페이지로 분할하는 방법을 알아보세요. 원활한 문서 변환을 위한 단계별 가이드를 따라해 보세요.
 ### [Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가](./adding-content-using-documentbuilder/)
 Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요.
+### [Java용 Aspose.Words에서 DocumentBuilder로 docx 저장 및 컨트롤 뒤에 텍스트 추가](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder를 사용해 docx 파일을 저장하고, 특정 컨트롤 뒤에 텍스트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 문서 복제 및 결합](./cloning-and-combining-documents/)
 Aspose.Words for Java에서 문서를 복제하고 결합하는 방법을 알아보세요. 소스 코드 예제를 포함한 단계별 가이드입니다.
 ### [Java용 Aspose.Words에서 문서 비교](./comparing-documents/)
@@ -115,6 +121,10 @@ Aspose.Words for Java를 사용하여 Word 문서에 콘텐츠 컨트롤을 추�
 Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포함한 빈 문서를 생성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 텍스트 컨트롤을 사용하여 빈 Word 문서 만들기](./how-to-create-a-blank-word-document-with-a-text-control/)
 텍스트 컨트롤을 활용해 빈 Word 문서를 생성하고 기본 설정을 적용하는 방법을 단계별로 안내합니다.
+### [새 Word 문서 만들기 – 구조화된 태그 추가 단계별 가이드](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화된 태그를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 Word 문서 만들기](./create-blank-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

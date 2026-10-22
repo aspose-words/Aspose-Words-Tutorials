@@ -81,6 +81,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Wie man docx mit Aspose.Words wiederherstellt – Vollständige Anleitung](./how-to-recover-docx-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für .NET vollständig wiederherstellen – Schritt‑für‑Schritt‑Anleitung. |
 | [Beschädigtes DOCX wiederherstellen – Komplettanleitung zum Reparieren und Laden defekter Word-Dateien](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig reparieren und laden können – Schritt‑für‑Schritt‑Anleitung. |
 | [Beschädigtes Word-Dokument mit Aspose.Words C# wiederherstellen](./recover-corrupted-word-document-using-aspose-words-c/) | Wiederherstellen eines beschädigten Word-Dokuments mit Aspose.Words in C# – Schritt‑für‑Schritt‑Anleitung. |
+| [Wiederherstellungsmodus aktivieren – Beschädigtes Word-Dokument wiederherstellen](./enable-recovery-mode-recover-corrupted-word-document/) | Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren, um beschädigte Word-Dokumente mit Aspose.Words für .NET zu reparieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,11 +84,14 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 的載入選項](./using-load-options/)
 
+### [如何在 Aspose.Words for Java 中設定選項 – 完整指南](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
 ### [設定 Aspose.Words for Java 的 RTF 載入選項](./configuring-rtf-load-options/)
 
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)
 
 ### [在 Java 中載入 Markdown 底線 – 完整程式指南](./load-markdown-underline-in-java-complete-programming-guide/)
+### [如何在 Java 中載入 Markdown – 完整指南](./how-to-load-markdown-in-java-complete-guide/)
 
 ### [進階儲存選項與 Aspose.Words for Java](./advance-saving-options/)
 
@@ -137,6 +140,7 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java 復原損壞的 docx](./recover-corrupted-docx-using-aspose-words-java/)
 ### [使用 Aspose.Words 復原損壞的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [在 Java 中修復損壞的 DOCX – 完整程式指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [使用 Aspose.Words for Java 復原損壞的 DOCX – 完整指南](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 

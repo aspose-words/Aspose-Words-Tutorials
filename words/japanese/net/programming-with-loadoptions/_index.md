@@ -80,6 +80,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Aspose.Words で docx を復元する方法 – 完全ガイド](./how-to-recover-docx-with-aspose-words-full-guide/) Aspose.Words for .NET を使用して、docx ファイルを完全に復元する手順をステップバイステップで解説します。 |
 | [破損したDOCXの復元 – 壊れたWordファイルの修復と読み込み完全ガイド](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを修復し、正しく読み込む手順をステップバイステップで解説します。 |
 | [Aspose.Words C# を使用して破損した Word 文書を復元する](./recover-corrupted-word-document-using-aspose-words-c/) Aspose.Words for .NET の LoadOptions を活用し、破損した Word 文書を復元する手順をステップバイステップで解説します。 |
+| [復元モードを有効にする – 破損した Word 文書を復元](./enable-recovery-mode-recover-corrupted-word-document/) Aspose.Words for .NET の LoadOptions を使用して、復元モードを有効にし、破損した Word 文書を安全に復元する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

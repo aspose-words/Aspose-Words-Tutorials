@@ -132,6 +132,8 @@ Java와 Aspose.Words를 사용해 마크다운 파일을 DOCX 문서로 변환�
 
 ### [Java를 사용해 마크다운을 DOCX로 저장하는 완전 가이드](./how-to-save-markdown-as-docx-using-java-complete-guide/)
 Java와 Aspose.Words를 활용해 마크다운 파일을 DOCX 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Aspose.Words for Java를 사용하여 마크다운을 DOCX로 변환 – 단계별 가이드](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
+Aspose.Words for Java를 활용해 마크다운 파일을 DOCX 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

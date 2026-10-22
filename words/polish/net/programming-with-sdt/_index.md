@@ -41,6 +41,9 @@ Przykłady kodu zawarte w samouczkach pomogą Ci zrozumieć koncepcje i ćwiczy�
 | [Ustaw tekst zastępczy w Aspose.Words – Kompletny przewodnik C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Dowiedz się, jak ustawić tekst zastępczy w kontrolkach SDT przy użyciu Aspose.Words dla .NET w języku C#. |
 | [Jak dodać kontrolkę zawartości i utworzyć dokument Word przy użyciu Aspose – Kompletny przewodnik](./how-to-add-content-control-and-create-word-document-with-asp/) | Kompletny przewodnik krok po kroku, jak dodać kontrolkę zawartości i wygenerować dokument Word przy użyciu Aspose.Words dla .NET. |
 | [Utwórz dokument Word programowo – dodaj kontrolkę zawartości i symbol zastępczy](./create-word-document-programmatically-add-content-control-an/) | Dowiedz się, jak programowo utworzyć dokument Word i dodać kontrolkę zawartości wraz z symbolem zastępczym przy użyciu Aspose.Words dla .NET. |
+| [Jak dodać kontrolkę zawartości w dokumencie Word przy użyciu Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Dowiedz się, jak dodać kontrolkę zawartości w dokumencie Word przy użyciu Aspose.Words. |
+| [Utwórz nowy dokument Word i wstaw kontrolkę zawartości w C#](./create-new-word-document-and-insert-content-control-in-c/) | Dowiedz się, jak utworzyć nowy dokument Word i dodać kontrolkę zawartości przy użyciu C# i Aspose.Words. |
+| [Jak utworzyć dokument Word z kontrolkami zawartości w C#](./how-to-create-word-document-with-content-controls-in-c/) | Dowiedz się, jak w C# stworzyć dokument Word z kontrolkami zawartości przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

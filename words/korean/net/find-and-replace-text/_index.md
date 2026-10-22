@@ -40,6 +40,8 @@ Aspose.Words for .NET은 .NET 애플리케이션에서 Word 문서의 단어 처
 
 | [C#에서 AI를 사용하여 단락 재작성하기 – 전체 가이드](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Aspose.Words for .NET과 AI를 활용해 C#에서 단락을 자동으로 재작성하는 방법을 단계별로 안내합니다. |
 | [C#에서 문서 템플릿을 생성하고 데이터를 채우는 방법](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 문서 템플릿을 만들고 데이터를 삽입하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 docx 파일의 자리표시자를 교체하는 방법](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Aspose.Words for .NET을 사용해 docx 파일 내 자리표시자를 교체하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Words를 사용한 워드 문서 자동 생성](./automate-word-document-generation-with-aspose-words-in-c/) | Aspose.Words를 활용해 C#으로 워드 문서를 자동으로 만들고 내용을 채우는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

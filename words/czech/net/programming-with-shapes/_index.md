@@ -19,7 +19,7 @@ Výukové programy Aspose.Words pro .NET o zpracování textu pomocí tvarů nab
 
 V těchto tutoriálech se naučíte, jak do dokumentů přidávat tvary, jako jsou obdélníky, kruhy, čáry a šipky, a vylepšit tak rozvržení a vizualizaci informací. Také se naučíte, jak manipulovat s vlastnostmi tvarů, jako je rotace, průhlednost a výplň, tak, aby vyhovovaly vašim specifickým potřebám.
 
-Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete manipulaci s tvary v dokumentech Wordu, což vám umožní vytvářet vizuálně přitažlivé a profesionálně vypadající dokumenty. Ať už jste začátečník nebo zkušený vývojář, tyto tutoriály vás provedou celým procesem a pomohou vám plně využít potenciál manipulace s tvary v Aspose.Words pro .NET.
+Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete manipulaci s tvary v dokumentech Word, což vám umožní vytvářet vizuálně přitažlivé a profesionálně vypadající dokumenty. Ať už jste začátečník nebo zkušený vývojář, tyto tutoriály vás provedou celým procesem a pomohou vám plně využít potenciál manipulace s tvary v Aspose.Words pro .NET.
 
  ## Návody
 | Název | Popis |
@@ -30,6 +30,8 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Jak seskupit tvary ve Wordu a přidat je do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Naučte se, jak seskupit tvary a přidávat je do dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak seskupit tvary v dokumentu Word pomocí C#](./how-to-group-shapes-in-a-word-document-with-c/) | Naučte se, jak seskupit tvary v dokumentu Word pomocí C# s Aspose.Words. |
 | [Vytvořit obdélníkový tvar a seskupit více tvarů v C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Naučte se, jak vytvořit obdélníkový tvar a seskupit více tvarů v dokumentech Word pomocí Aspose.Words pro .NET v C#. |
+| [Jak seskupit tvary ve Wordu pomocí C# a Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Naučte se, jak seskupit tvary ve Wordu pomocí C# a Aspose.Words v tomto podrobném návodu. |
+| [Jak vytvořit prázdný dokument Word a seskupit tvary v C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit prázdný dokument Word a seskupit tvary v C#. |
 | [Vložit tvar](./insert-shape/) | Naučte se, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Poměr stran uzamčen](./aspect-ratio-locked/) | Naučte se, jak uzamknout poměr stran tvarů v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu, abyste zachovali proporce obrázků a tvarů. |
 | [Rozložení v buňce](./layout-in-cell/) | Naučte se, jak nastavit rozvržení v buňce pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí přizpůsobit dokumenty Wordu. |
@@ -51,7 +53,10 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 
 | [Vytvořit obdélníkový tvar v C# s Aspose.Words – krok za krokem](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Naučte se, jak pomocí Aspose.Words v C# vytvořit obdélníkový tvar ve Wordu krok za krokem. |
 | [Vytvořit prázdný dokument Word a přidat barevné tvary pomocí Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Naučte se, jak vytvořit prázdný dokument Word a přidat do něj barevné tvary pomocí Aspose.Words pro .NET. |
+| [Skupinové tvary ve Wordu pomocí C# – kompletní programovací průvodce](./group-shapes-in-word-using-c-complete-programming-guide/) | Naučte se, jak seskupovat tvary ve Wordu pomocí C# s tímto kompletním programovacím průvodcem. |
+| [Jak vytvořit obdélníkový tvar a seskupit tvary ve Wordu pomocí Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Naučte se, jak pomocí Aspose.Words vytvořit obdélníkový tvar a seskupit více tvarů ve Word dokumentu. |
 | [Aspose.Words – Stín tvaru – Přidání stínu do tvaru Wordu v C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Naučte se, jak přidat stín k tvaru ve Wordu pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Vytvořit prázdný dokument Word a přidat obdélníkový tvar](./create-a-blank-word-document-and-add-a-rectangle-shape/) |  |
 | [Vytvořit prázdný dokument Word se stínovaným obdélníkovým tvarem – krok za krokem](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Naučte se, jak vytvořit prázdný dokument Word a přidat do něj stínovaný obdélníkový tvar pomocí Aspose.Words pro .NET. |
 | [Přidat stín k tvaru v C# – Kompletní průvodce aplikací stínového efektu](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 | [Jak upravit stín tvaru v C# pomocí Aspose.Words – krok za krokem](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Naučte se, jak upravit stín tvaru v dokumentech Word pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. |
@@ -77,6 +82,8 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Jak nastavit stín na tvary v C# – Kompletní průvodce Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Naučte se, jak nastavit stín pro tvary ve Wordu pomocí Aspose.Words pro .NET v C#. |
 | [Jak vytvořit skrytý tvar docx pomocí Aspose.Words v C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Naučte se, jak pomocí Aspose.Words v C# vytvořit dokument DOCX se skrytým tvarem. |
 | [Jak seskupit tvary ve Wordu pomocí Aspose.Words pro C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Naučte se, jak seskupit tvary ve Wordu pomocí Aspose.Words pro C# v tomto podrobném návodu. |
+| [Vytvořit dokument Word programově a seskupit tvary v C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Naučte se, jak programově vytvořit dokument Word a seskupit tvary pomocí Aspose.Words pro .NET v C#. |
+| [Vložit obdélníkový tvar ve Wordu pomocí C# – kompletní průvodce](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Kompletní návod, jak vložit obdélníkový tvar do dokumentu Word pomocí C# a Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

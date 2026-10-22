@@ -27,6 +27,7 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Kryssrutetyp Innehållskontroll](./check-box-type-content-control/) | Lär dig hur du lägger till en Check Box Type Content Control i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-handledningen. |
 | [Kryssrutans nuvarande tillstånd](./current-state-of-check-box/) | Lär dig hur du hanterar kryssrutor i Word-dokument med Aspose.Words för .NET. Den här guiden beskriver hur du konfigurerar, uppdaterar och sparar kryssrutor programmatiskt. |
 | [Ändra innehållskontroller](./modify-content-controls/) | Lär dig hur du ändrar strukturerade dokumenttaggar i Word med Aspose.Words för .NET. Uppdatera text, rullgardinsmenyer och bilder steg för steg. |
+| [Hur man skapar Word-dokument med innehållskontroller i C#](./how-to-create-word-document-with-content-controls-in-c/) | Lär dig hur du skapar ett Word-dokument med innehållskontroller i C# med Aspose.Words för .NET. |
 | [Kontroll av innehåll i kombinationsrutan](./combo-box-content-control/) | Skapa en innehållskontroll för kombinationsrutor i Word-dokument med Aspose.Words för .NET med vår detaljerade handledning. Perfekt för att förbättra ditt dokuments interaktivitet. |
 | [Kontroll av innehåll i RTF-rutor](./rich-text-box-content-control/) | Lär dig hur du lägger till och anpassar en RTF-innehållskontroll i ett Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
 | [Ange färg för innehållskontroll](./set-content-control-color/) | Ställ enkelt in färgen på taggar för strukturerade dokument i Word med Aspose.Words för .NET. Anpassa dina SDT:er för att förbättra dokumentets utseende med den här enkla guiden. |
@@ -42,6 +43,8 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 
 | [Hur man skapar innehållskontroll i C# med Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Lär dig steg för steg hur du skapar en innehållskontroll i C# med Aspose.Words. |
 | [Spara Word-dokument med SDT med Aspose.Words i C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Lär dig hur du sparar ett Word-dokument med strukturerade dokumenttaggar (SDT) med Aspose.Words i C#. |
+| [Hur man lägger till innehållskontroll i ett Word-dokument med Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Lär dig att lägga till en innehållskontroll i ett Word-dokument med Aspose.Words. |
+| [Skapa nytt Word-dokument och infoga innehållskontroll i C#](./create-new-word-document-and-insert-content-control-in-c/) | Lär dig hur du skapar ett Word-dokument och lägger till en innehållskontroll med C# och Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

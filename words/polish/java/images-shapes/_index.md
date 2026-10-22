@@ -28,6 +28,12 @@ dziedzinie przetwarzania dokumentów integrowanie obrazów i kształtów jest kl
 
 ## Dostępne samouczki
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Niestandardowe zapisywanie stron i obrazów w Javie z wywołaniami zwrotnymi Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
@@ -38,10 +44,14 @@ Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Wor
 
 ### [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
+
 ### [Zastosowanie efektu cienia do kształtu w C# – przewodnik krok po kroku](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Words, krok po kroku.
 ### [Jak ustawić cień na kształcie w Aspose.Words – kompletny przewodnik](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
-Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Words for Java, krok po kroku.
+Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Words dla Java, krok po kroku.
+
+### [Jak grupować kształty w Wordzie przy użyciu Javy – kompletny przewodnik](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Dowiedz się, jak grupować kształty w dokumencie Word przy użyciu Aspose.Words dla Java.
 
 ### [Jak ustawić cień na kształcie w C# – łatwe dodawanie cienia do kształtu](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Dowiedz się, jak dodać cień do kształtu w C# przy użyciu Aspose.Words, aby poprawić wygląd dokumentów.
@@ -103,6 +113,37 @@ Dowiedz się, jak grupować kształty i dodawać prostokąt w dokumencie Word pr
 
 ### [Jak ukryć kształt w Wordzie przy użyciu C# i Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Dowiedz się, jak ukryć kształt w dokumencie Word przy użyciu C# i Aspose.Words.
+
+### [Jak utworzyć pusty dokument Word i grupować kształty w Javie](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word i grupować kształty przy użyciu Aspose.Words dla Java.
+
+### [Utwórz nowy dokument Word z ukrytym obrazem – przewodnik krok po kroku](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Dowiedz się, jak utworzyć dokument Word zawierający ukryty obraz, korzystając z Aspose.Words dla Java.
+
+### [Jak utworzyć pusty dokument i dodać kształty przy użyciu Aspose.Words w C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Dowiedz się, jak utworzyć pusty dokument i dodać do niego kształty przy użyciu Aspose.Words w C#.
+
+### [Jak wstawić obraz do pliku docx i ukryć obraz w Wordzie przy użyciu Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Dowiedz się, jak wstawić obraz do dokumentu docx i ukryć go w Wordzie przy użyciu Aspose.Words dla Java.
+### [Dodaj cień do kształtu w Javie – Kompletny przewodnik programistyczny](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Utwórz pusty dokument Word z grupowanym kształtem – przewodnik Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowany kształt przy użyciu Aspose.Words dla Java.
+
+### [Utwórz dokument Word w Javie – Wstaw i ukryj obrazy](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając z Aspose.Words dla Java.
+
+### [Wstaw wykres kołowy w Javie – rozdziel, obróć i podświetl fragmenty](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Utwórz pusty dokument Word z grupowanymi kształtami w Javie](./create-blank-word-document-with-grouped-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+
+### [Samouczek Aspose.Words ActiveX – wstaw przycisk CommandButton w Javie](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Dowiedz się, jak dodać przycisk CommandButton przy użyciu ActiveX w aplikacji Java z Aspose.Words.
+
+### [Utwórz dokument Word w Javie – ukryj kształt i ustaw kolor wypełnienia](./create-word-document-java-hide-shape-and-set-fill-color/)
+Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumencie Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

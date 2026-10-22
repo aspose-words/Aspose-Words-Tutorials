@@ -51,6 +51,12 @@ Lépésről lépésre bemutatja, hogyan írhat alá Word dokumentumokat Java-ban
 Aláírás DOCX fájlok C#‑ban, részletes lépésről‑lépésre útmutató kóddal és szakértői tippekkel.
 ### [Hogyan írjon alá Word dokumentumot C#-ban X509 tanúsítvánnyal](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Ismerje meg, hogyan lehet X509 tanúsítvánnyal digitálisan aláírni egy Word dokumentumot C#-ban az Aspose.Words segítségével.
+### [Hogyan digitálisan aláírjon Word dokumentumot Java-val](./how-to-digitally-sign-word-document-using-java/)
+Digitálisan aláírja a Word dokumentumot Java-val az Aspose.Words segítségével.
+### [Digitális aláírás PFX fájl Java-ban – Teljes útmutató](./digital-signature-pfx-file-in-java-complete-guide/)
+Ismerje meg, hogyan használhatja a PFX fájlokat digitális aláírásokhoz Java-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
+### [Docx aláírása Java-ban – lépésről‑lépésre útmutató](./how-to-sign-docx-in-java-step-by-step-guide/)
+Tanulja meg, hogyan aláírhat docx dokumentumokat Java segítségével, részletes lépésről‑lépésre útmutatóval és forráskóddal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

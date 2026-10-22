@@ -51,6 +51,9 @@ Naučte se, jak v Aspose.Words pro Javu získat a použít oddělovač v dokumen
 Naučte se, jak v Aspose.Words pro Javu přidat vodící čáry do koláčových grafů pomocí Chart API.
 ### [Jak vytvořit dokument Word s místodržiteli a seznamy](./how-to-create-word-document-with-placeholders-and-lists/)
 Naučte se, jak v Aspose.Words pro Javu vytvořit dokument Word s placeholdery a seznamy.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Používání komentářů v Aspose.Words pro Javu](./using-comments/)
 Naučte se, jak používat komentáře v Aspose.Words pro Javu. Podrobný návod pro přidávání a úpravu komentářů v dokumentech.
 ### [Používání polí v Aspose.Words pro Javu](./using-fields/)
@@ -79,6 +82,12 @@ Naučte se manipulovat s uzly v Aspose.Words pro Javu s tímto podrobným návod
 Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro Javu. Snadno vytvářejte interaktivní dokumenty. Začněte hned teď!
 ### [Jak vložit tlačítko ActiveX do Wordu – nastavit popisek tlačítka](./how-to-insert-activex-button-in-word-set-button-caption/)
 Naučte se, jak vložit tlačítko ActiveX do dokumentu Word a nastavit jeho popisek pomocí Aspose.Words pro Javu.
+### [Jak vytvořit docx obsahující ActiveX pomocí Javy a Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Naučte se, jak vytvořit soubor DOCX s vloženými ActiveX ovládacími prvky pomocí Javy a Aspose.Words.
+### [Jak vytvořit příkazové tlačítko ActiveX v Javě](./how-to-create-activex-command-button-in-java/)
+Naučte se, jak v Aspose.Words pro Javu vytvořit příkazové tlačítko ActiveX.
+### [Vytvoření prázdného dokumentu Word a přidání tlačítka ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Naučte se vytvořit prázdný dokument Word a přidat tlačítko ActiveX pomocí Aspose.Words pro Javu.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
@@ -109,6 +118,14 @@ Naučte se, jak pomocí Aspose.Words pro Javu vytvořit radiální graf v dokume
 Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko pomocí Aspose.Words pro Javu.
 ### [Jak vytvořit prázdný dokument Word a přidat radarový graf v C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Naučte se vytvořit prázdný dokument Word a vložit do něj radarový graf pomocí C#.
+### [Jak vložit koláčový graf do dokumentu Word pomocí Javy](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Naučte se, jak vložit koláčový graf do dokumentu Word pomocí Aspose.Words pro Javu.
+### [Jak přidat tlačítko do dokumentu Word – krok za krokem](./how-to-add-button-to-word-document-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit interaktivní tlačítko do dokumentu Word s podrobným návodem.
+### [Jak vložit koláčový graf do Wordu – přidat procentuální popisek dat](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Naučte se, jak vytvořit koláčový graf ve Wordu a přidat k němu procentuální popisky dat pomocí Aspose.Words pro Javu.
+### [Jak roztrhnout výseč koláče v Javě – tutoriál Aspose.Words graf](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a roztrhnout výseč koláčového grafu v dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

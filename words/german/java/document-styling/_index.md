@@ -43,12 +43,22 @@ Erfahren Sie, wie Sie Dokumentdesigns mit Aspose.Words für Java anpassen. Diese
 Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seitenkonfigurationen einrichten. Eine umfassende Anleitung mit Quellcode.
 ### [Stil der Kopf- und Fußzeile des Dokuments](./document-header-footer-styling/)
 Erfahren Sie in dieser ausführlichen Anleitung, wie Sie Dokumentkopf- und -fußzeilen mit Aspose.Words für Java formatieren. Schritt-für-Schritt-Anleitung und Quellcode inklusive.
+### [Fußnoten in Java mit Aspose.Words formatieren](./how-to-style-footnotes-in-java-using-aspose-words/)
+Erfahren Sie, wie Sie Fußnoten in Word-Dokumenten mit Aspose.Words für Java formatieren und anpassen. Schritt-für-Schritt-Anleitung mit Beispielcode.
 ### [Wie man Schriftarten in Java-Word-Dokumenten erkennt – Komplettanleitung](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schriftarten in Word-Dokumenten erkennen. Schritt-für-Schritt-Anleitung mit Beispielcode.
 ### [Standard-Schrifteinstellungen in Aspose.Words für Java festlegen – Komplettanleitung](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java die Standardschriftart und -größe festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Schatten für ein Word-Diagramm mit Aspose.Words für Java festlegen](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Word-Diagrammen hinzufügen und das Erscheinungsbild verbessern.
+### [Wie man das Fußnoten‑Trennzeichen in Java mit Aspose.Words bearbeitet](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie das Trennzeichen von Fußnoten in Java mit Aspose.Words anpassen.
+### [Wie man ein Segment in einem Word-Diagramm explodiert und dessen Aussehen anpasst](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Erfahren Sie, wie Sie ein Segment in einem Word-Diagramm explodieren und das Aussehen individuell anpassen.
+### [Fußnotenabstand in DOCX ändern – Komplettanleitung](./change-footnote-spacing-in-docx-complete-guide/)
+Erfahren Sie, wie Sie den Abstand von Fußnoten in DOCX-Dokumenten mit Aspose.Words für Java anpassen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Fußnoten in Java mit Aspose.Words bearbeiten](./how-to-edit-footnote-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie Fußnoten in Dokumenten mit Aspose.Words für Java programmgesteuert bearbeiten und anpassen. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ganti teks dalam docx dengan C# – Panduan Langkah-demi-Langkah Lengkap](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Pelajari cara mengganti teks dalam file docx menggunakan C# dengan panduan langkah demi langkah lengkap menggunakan Aspose.Words untuk .NET. |
 | [Cara Menulis Ulang Paragraf dengan AI di C# – Panduan Lengkap](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Pelajari cara menggunakan AI untuk menulis ulang paragraf dalam kode C# dengan panduan lengkap dan contoh praktis. |
 | [Cara Membuat Templat Dokumen dan Mengisinya dengan Data di C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Pelajari cara membuat templat dokumen dan mengisinya dengan data menggunakan C# dan Aspose.Words untuk .NET. |
+| [Cara mengganti placeholder dalam file DOCX dengan Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Pelajari cara mengganti placeholder dalam file DOCX menggunakan Aspose.Words untuk .NET dengan contoh kode langkah demi langkah. |
+| [Otomatisasi pembuatan dokumen Word dengan Aspose.Words di C#](./automate-word-document-generation-with-aspose-words-in-c/) | Pelajari cara mengotomatiskan pembuatan dokumen Word menggunakan Aspose.Words dengan bahasa C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

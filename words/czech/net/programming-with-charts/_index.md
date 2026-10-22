@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
+"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobné vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
 "linktitle": "Používání grafů"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Používání API grafů slov"
@@ -46,9 +46,13 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 {{< tutorial-card link="./update-chart-title/" title="Aktualizujte název grafu a přepněte viditelnost legendy ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programaticky upravit popisky grafu v dokumentu Word pomocí C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Uložení upraveného dokumentu s výbuchovými výsečemi koláčového grafu v C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Jak formátovat graf ve Wordu pomocí C# a vlastních číselných formátů" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Jak nastavit počet košů histogramu a přidat popisky dat v grafu Word pomocí C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 | Název | Popis |
 | --- | --- |
@@ -61,6 +65,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Vložení bublinového grafu do dokumentu Word](./insert-bubble-chart/) | Naučte se, jak vložit bublinový graf do dokumentu Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty. |
 | [Vytvoření koláčového grafu ve Wordu v C# – krok za krokem](./create-pie-chart-word-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit koláčový graf ve Wordu v C# krok za krokem. |
 | [Vložení bodového grafu do dokumentu Word](./insert-scatter-chart/) | Naučte se, jak vložit bodový graf do Wordu pomocí Aspose.Words pro .NET. Snadné kroky pro integraci vizuálních datových reprezentací do vašich dokumentů. |
+| [Jak vytvořit radarový graf a přidat graf do Wordu pomocí C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Naučte se, jak vytvořit radarový graf a vložit jej do dokumentu Word pomocí Aspose.Words pro .NET a C#. |
 | [Definování vlastností osy XY v grafu](./define-xyaxis-properties/) Naučte se, jak definovat vlastnosti osy XY v grafu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro vývojáře .NET. |
 | [Přidání hodnot data a času na osu grafu](./date-time-values-to-axis/) | Naučte se v tomto komplexním návodu krok za krokem, jak přidat hodnoty data a času na osu grafu pomocí Aspose.Words pro .NET. |
 | [Číselný formát pro osu v grafu](./number-format-for-axis/) | Naučte se, jak formátovat čísla os grafu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Bez námahy vylepšete čitelnost a profesionalitu svého dokumentu. |
@@ -81,6 +86,10 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Jak formátovat řady v čárovém grafu Wordu pomocí C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Naučte se, jak upravit formát řad v čárovém grafu v dokumentu Word pomocí Aspose.Words pro .NET a C#. |
 | [Jak vytvořit histogram v dokumentu Word pomocí Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Naučte se, jak vytvořit histogram v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Naučte se vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky dat. |
+| [Jak vytvořit dokument Word s přizpůsobeným koláčovým grafem v C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Naučte se vytvořit dokument Word s vlastním koláčovým grafem pomocí Aspose.Words pro .NET v C#. |
+| [Příklad radiálního grafu Aspose.Words: povolení stupnice v C#](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Naučte se, jak povolit stupnice v radiálním grafu pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Vytvoření radarového grafu v dokumentu Word – kompletní průvodce C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Naučte se, jak vytvořit radarový graf v dokumentu Word pomocí Aspose.Words pro .NET v podrobném C# průvodci. |
+| [Vytvoření koláčového grafu v dokumentu Word pomocí Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Naučte se, jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

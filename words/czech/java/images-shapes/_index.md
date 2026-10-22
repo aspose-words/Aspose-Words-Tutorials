@@ -28,6 +28,12 @@ oblasti zpracování dokumentů je integrace obrázků a tvarů klíčová pro v
 
 ## Dostupné tutoriály
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Ukládání vlastních stránek a obrázků v Javě pomocí zpětných volání Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Výukový program pro Aspose.Words v Javě
 
@@ -37,8 +43,11 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
 ### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
+
 ### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 
@@ -101,6 +110,40 @@ Naučte se, jak vytvořit skupinový tvar v dokumentu DOCX a přidat interaktivn
 Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu pomocí Aspose.Words pro Javu.
 
 ### [Jak skrýt tvar ve Wordu pomocí C# a Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+
+### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Vytvořte nový dokument Word se skrytým obrázkem – krok‑za‑krokem průvodce](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Naučte se, jak vytvořit dokument Word s ukrytým obrázkem pomocí Aspose.Words pro Javu.
+
+### [Jak vytvořit prázdný dokument a přidat tvary pomocí Aspose.Words v C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Naučte se, jak vytvořit prázdný dokument a přidat do něj tvary pomocí Aspose.Words v C#.
+
+### [Jak vložit obrázek do souboru docx a skrýt obrázek ve Wordu pomocí Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Naučte se, jak vložit obrázek do DOCX a poté jej skrýt ve Wordu pomocí Aspose.Words pro Javu.
+### [Jak seskupit tvary ve Wordu s Javou – kompletní průvodce](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Přidat stín k tvaru v Javě – Kompletní programovací průvodce](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Vytvořit prázdný Word dokument se seskupeným tvarem – Java průvodce](./create-blank-word-document-with-grouped-shape-java-guide/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat do něj seskupený tvar pomocí Aspose.Words pro Javu.
+
+### [Vytvořit Word dokument v Javě – Vkládat a skrývat obrázky pomocí Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Naučte se, jak vložit obrázky do dokumentu Word a následně je skrýt pomocí Aspose.Words pro Javu.
+
+### [Vložit koláčový graf v Javě – Rozdělit, otočit a zvýraznit výseče](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit koláčový graf, rozdělit výseče, otáčet je a zvýraznit vybrané části.
+
+### [Vytvořit prázdný Word dokument se seskupenými tvary v Javě](./create-blank-word-document-with-grouped-shapes-in-java/)
+Naučte se vytvořit prázdný dokument Word se seskupenými tvary v Javě.
+
+### [Aspose.Words ActiveX tutoriál – vložení CommandButtonu v Javě](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Naučte se, jak pomocí ActiveX a Aspose.Words v Javě vložit ovládací prvek CommandButton do dokumentu Word.
+
+### [Vytvořit Word dokument v Javě – skrýt tvar a nastavit barvu výplně](./create-word-document-java-hide-shape-and-set-fill-color/)
+Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 

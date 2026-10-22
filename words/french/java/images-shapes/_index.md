@@ -28,6 +28,12 @@ Dans le domaine du traitement de documents, l'intégration d'images et de formes
 
 ## Tutoriels disponibles
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Enregistrement de pages et d'images personnalisées en Java avec les rappels Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Un tutoriel de code pour Aspose.Words Java
 
@@ -38,6 +44,7 @@ Apprenez à insérer une forme rectangle avec ombre dans un document Word en Jav
 
 ### [Ajouter une ombre à une forme dans Word – Guide complet Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
+
 ### [Appliquer un effet d'ombre à une forme en C# – Guide étape par étape](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Découvrez comment ajouter un effet d'ombre à une forme en C# avec Aspose.Words, étape par étape.
 ### [Comment définir une ombre sur une forme dans Aspose.Words – Guide complet](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -104,6 +111,37 @@ Apprenez à regrouper des formes et à insérer un rectangle dans un document Wo
 
 ### [Comment masquer une forme dans Word avec C# et Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Apprenez à masquer une forme dans un document Word à l'aide de C# et Aspose.Words.
+
+### [Comment créer un document Word vierge et regrouper des formes en Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Créer un nouveau document Word avec une image cachée – guide étape par étape](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+
+### [Comment créer un document vierge et ajouter des formes avec Aspose.Words en C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Apprenez à créer un document vierge et y ajouter des formes en C# avec Aspose.Words.
+
+### [Comment insérer une image dans un docx et masquer l'image dans Word avec Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Apprenez à insérer une image dans un fichier docx et à la masquer dans Word à l'aide d'Aspose.Words pour Java.
+### [Comment regrouper des formes dans Word avec Java – guide complet](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Apprenez à regrouper plusieurs formes dans un document Word à l’aide d’Aspose.Words pour Java.
+### [Ajouter une ombre à une forme en Java – Guide complet de programmation](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Apprenez à appliquer des effets d’ombre aux formes dans vos documents Word en Java avec Aspose.Words.
+### [Créer un document Word vierge avec forme groupée – Guide Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Apprenez à créer un document Word vide contenant une forme groupée à l'aide d'Aspose.Words pour Java.
+
+### [Créer un document Word Java – Insérer et masquer des images avec Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Apprenez à insérer des images dans un document Word Java et à les masquer à l’aide d’Aspose.Words.
+
+### [Insérer un diagramme circulaire en Java – Faire exploser, pivoter et mettre en évidence les tranches](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Apprenez à insérer un diagramme circulaire, à faire exploser, pivoter et mettre en évidence des tranches dans un document Word avec Aspose.Words pour Java.
+
+### [Créer un document Word vierge avec des formes groupées en Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Apprenez à créer un document Word vierge contenant des formes groupées en Java avec Aspose.Words.
+
+### [Tutoriel Aspose.Words ActiveX – insérer un CommandButton avec Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Apprenez à insérer un bouton de commande ActiveX dans un document Word en utilisant Java et Aspose.Words.
+
+### [Créer un document Word Java – masquer une forme et définir la couleur de remplissage](./create-word-document-java-hide-shape-and-set-fill-color/)
+Apprenez à masquer une forme et à définir sa couleur de remplissage dans un document Word en Java avec Aspose.Words.
 
 ## Ressources supplémentaires
 

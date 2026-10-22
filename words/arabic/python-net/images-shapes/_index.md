@@ -38,7 +38,8 @@
     تعلّم خطوة بخطوة كيفية حفظ مستند Word مع مستطيل بظل باستخدام Aspose.Words لبايثون.
 
 ### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
-تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
+
+### [إضافة الظل إلى الشكل في Python – دليل برمجة شامل](./add-shadow-to-shape-in-python-complete-programming-guide/)
 
 ### [إضافة مستطيل إلى PDF باستخدام Aspose.Words – دليل خطوة بخطوة](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.Words خطوة بخطوة.
@@ -67,6 +68,15 @@
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للغة Python-net.
 ### [كيفية تعيين الظل على شكل في Aspose.Words لـ Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
 تعلم كيفية تعيين الظل على الأشكال في مستندات Word باستخدام Aspose.Words للبايثون.
+
+### [كيفية إنشاء شكل مستطيل في مستند Word باستخدام Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+تعلم كيفية إنشاء شكل مستطيل داخل مستند Word باستخدام مكتبة Aspose.Words للغة Python.
+
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل بلغة Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words لبايثون خطوة بخطوة.
+
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+تعلم خطوة بخطوة كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words.
 
 ## موارد إضافية
 

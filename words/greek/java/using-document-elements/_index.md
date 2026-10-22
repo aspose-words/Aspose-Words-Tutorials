@@ -49,6 +49,10 @@
 ### [Δημιουργία κενού εγγράφου Word με κουμπί εντολής – οδηγός βήμα‑βήμα](./create-blank-word-document-with-a-command-button-step-by-ste/)
 ### [Δημιουργία κενής εγγράφου Word και εισαγωγή ελέγχου απλού κειμένου](./create-blank-word-document-and-insert-a-plain-text-control/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε έλεγχο απλού κειμένου με το Aspose.Words για Java.
+### [Δημιουργία κενής εγγράφου Word και προσθήκη κουμπιού ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε κουμπί ActiveX χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να προσθέσετε κουμπί σε έγγραφο Word – Οδηγός βήμα προς βήμα](./how-to-add-button-to-word-document-step-by-step-guide/)
+Μάθετε πώς να προσθέσετε κουμπί σε έγγραφο Word με Aspose.Words για Java. Οδηγός βήμα‑βήμα.
 ### [Χρήση σχολίων στο Aspose.Words για Java](./using-comments/)
 Μάθετε πώς να χρησιμοποιείτε σχόλια στο Aspose.Words για Java. Βήμα προς βήμα οδηγός για την προσθήκη και προσαρμογή σχολίων στα έγγραφά σας.
 ### [Χρήση πεδίων στο Aspose.Words για Java](./using-fields/)
@@ -61,7 +65,7 @@
 "Μάθετε να χρησιμοποιείτε το Aspose.Words για Java για να δημιουργείτε διαδραστικά έγγραφα Word με πεδία φόρμας. Ξεκινήστε τώρα!"
 ### [Χρήση του HarfBuzz στο Aspose.Words για Java](./using-harfbuzz/)
 Μάθετε να χρησιμοποιείτε το HarfBuzz για προηγμένη διαμόρφωση κειμένου στο Aspose.Words για Java. Βελτιώστε την απόδοση κειμένου σε σύνθετα σενάρια με αυτόν τον οδηγό βήμα προς βήμα.
-### [Χρήση κεφαλίδων και υποσέλιδων στο Aspose.Words για Java](./using-headers-and-footers/)
+### [Χρήση κεφαλίδων και υποσημείων στο Aspose.Words για Java](./using-headers-and-footers/)
 Μάθετε βήμα προς βήμα πώς να χρησιμοποιείτε κεφαλίδες και υποσέλιδα στο Aspose.Words για Java. Δημιουργήστε επαγγελματικά έγγραφα χωρίς κόπο.
 ### [Χρήση συλλαβισμού στο Aspose.Words για Java](./using-hyphenation/)
 Μάθετε πώς να χρησιμοποιείτε αποτελεσματικά τη συλλαβή στο Aspose.Words για Java με αυτό το ολοκληρωμένο σεμινάριο. Βελτιώστε την αναγνωσιμότητα των εγγράφων σήμερα!
@@ -75,6 +79,7 @@
 Μάθετε να χρησιμοποιείτε αντικείμενα OLE και στοιχεία ελέγχου ActiveX στο Aspose.Words για Java. Δημιουργήστε διαδραστικά έγγραφα με ευκολία. Ξεκινήστε τώρα!
 ### [Πώς να εισαγάγετε κουμπί ActiveX στο Word – Ορισμός λεζάντας κουμπιού](./how-to-insert-activex-button-in-word-set-button-caption/)
 Μάθετε πώς να προσθέσετε κουμπί ActiveX σε έγγραφο Word και να ορίσετε τη λεζάντα του σε αυτό το βήμα‑προς‑βήμα σεμινάριο.
+### [Πώς να δημιουργήσετε κουμπί εντολής ActiveX σε Java](./how-to-create-activex-command-button-in-java/)
 ### [Χρήση αναθεωρήσεων στο Aspose.Words για Java](./using-revisions/)
 Μάθετε να χρησιμοποιείτε αποτελεσματικά το Aspose.Words για τα στοιχεία ελέγχου αναθεώρησης της Java. Οδηγός βήμα προς βήμα για προγραμματιστές. Βελτιστοποιήστε τη διαχείριση εγγράφων σας.
 ### [Χρήση Ενοτήτων στο Aspose.Words για Java](./using-sections/)
@@ -110,6 +115,16 @@
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ενσωματώσετε διάγραμμα ραντάρ χρησιμοποιώντας C#.
 ### [Δημιουργία εγγράφου Word προγραμματιστικά και εισαγωγή κουμπιού](./create-word-document-programmatically-and-insert-a-button/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word μέσω κώδικα Java και να προσθέσετε ένα διαδραστικό κουμπί.
+### [Πώς να δημιουργήσετε docx που περιέχει ActiveX με Java και Aspose.Words](./how-to-create-docx-containing-activex-with-java/)
+Μάθετε πώς να δημιουργήσετε αρχεία docx που περιέχουν στοιχεία ActiveX χρησιμοποιώντας Java και Aspose.Words.
+### [Πώς να εισάγετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Μάθετε πώς να προσθέσετε γράφημα πίτας σε έγγραφο Word με Aspose.Words για Java.
+### [Πώς να αρχικοποιήσετε το DocumentBuilder για νέο έγγραφο χρησιμοποιώντας το Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+Μάθετε πώς να δημιουργήσετε και να αρχικοποιήσετε ένα DocumentBuilder για νέο έγγραφο με το Aspose.Words για Java.
+### [Χρήση διαγράμματος πίτας στο Aspose.Words για Java – προσθήκη ποσοστού ετικέτας δεδομένων](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Μάθετε πώς να εισάγετε διάγραμμα πίτας στο Word και να προσθέσετε ποσοστά ετικετών δεδομένων με το Aspose.Words για Java.
+### [Πώς να εκτοξεύσετε φέτα πίτας σε Java – Εκπαίδευση διαγράμματος Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Μάθετε πώς να εκτοξεύσετε φέτα πίτας σε διάγραμμα Word χρησιμοποιώντας Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

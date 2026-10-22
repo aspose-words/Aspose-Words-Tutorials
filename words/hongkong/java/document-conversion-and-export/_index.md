@@ -63,9 +63,14 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ## 文件轉換與匯出教學
 ### [Convert Word to PDF – Generate Accessible PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
+
+### [如何在 Word 中建立圓餅圖並儲存為 PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 
@@ -74,8 +79,14 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [將 Word 儲存為 Markdown – 使用 Java 匯出數學至 LaTeX](./save-word-as-markdown-export-math-to-latex-with-java/)
 ### [將 DOCX 儲存為 Markdown – 完整 Java 指南](./save-docx-as-markdown-complete-java-guide/)
 ### [如何使用 Aspose.Words 將 docx 轉換為 markdown](./how-to-convert-docx-to-markdown-with-aspose-words/)
+### [將 DOCX 轉換為 Markdown – 完整指南與數學匯出](./convert-docx-to-markdown-complete-guide-with-math-export/)
+
+### [Convert docx to markdown – Complete Java Guide](./convert-docx-to-markdown-complete-java-guide/)
+### [在 Java 中從 docx 建立 markdown – 完整 Aspose.Words 指南](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+
+### [將 docx 轉換為 PDF – 完整步驟指南](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 
@@ -258,6 +269,11 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [將 Word 儲存為 Markdown – 完整指南（使用 Aspose.Words）](./save-word-as-markdown-complete-guide-using-aspose-words/)
 ### [如何在 Java 中執行 Markdown 轉換為 DOCX](./how-to-perform-markdown-to-docx-conversion-in-java/)
 ### [如何在 Java 中將 Word 儲存為 Markdown 並保留 HTML 表格](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+### [從 DOCX 建立可存取 PDF – 完整步驟指南](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+
+### [將 docx 儲存為 markdown：使用 Aspose.Words 轉換 docx 為 markdown](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+
+### [如何從 Word 儲存 PNG – 完整步驟指南](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ## 常見問題
 

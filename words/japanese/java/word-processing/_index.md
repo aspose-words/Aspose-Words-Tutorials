@@ -49,6 +49,10 @@ Aspose.Words for Java を使ってドキュメントコンテンツを操作す�
 ### [プログラムでWord文書を作成 – 完全ステップバイステップガイド](./create-word-document-programmatically-full-step-by-step-guid/)
 JavaでWord文書を最初から作成する手順を詳細に解説します。コード例とベストプラクティスを紹介。
 
+### [Javaでラジアルチャートを作成し、Wordにチャートを挿入する](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Javaを使用してラジアルチャートを作成し、Aspose.WordsでWord文書に挿入する方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

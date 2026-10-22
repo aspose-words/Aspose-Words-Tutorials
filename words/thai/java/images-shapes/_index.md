@@ -28,6 +28,9 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [การบันทึกหน้าและรูปภาพที่กำหนดเองใน Java ด้วย Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
@@ -101,6 +104,42 @@
 
 ### [วิธีซ่อนรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words
+
+### [วิธีสร้างเอกสาร Word เปล่าและจัดกลุ่มรูปร่างใน Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word ใหม่พร้อมรูปภาพที่ซ่อนอยู่ – คู่มือขั้นตอนโดยละเอียด](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+เรียนรู้วิธีสร้างเอกสาร Word พร้อมรูปภาพที่ซ่อนอยู่ในขั้นตอนง่ายๆ
+
+### [วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างด้วย Aspose.Words ใน C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+เรียนรู้วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างใน C# ด้วย Aspose.Words
+
+### [วิธีซ่อนรูปร่างในเอกสาร Word ด้วย Java](./how-to-hide-shape-in-a-word-document-using-java/)
+เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
+### [วิธีแทรกภาพลงในไฟล์ docx และซ่อนภาพใน Word ด้วย Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+เรียนรู้วิธีแทรกภาพในไฟล์ docx และซ่อนภาพในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+### [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-group-shapes-in-word-with-java-complete-guide/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [เพิ่มเงาให้รูปทรงใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-java-complete-programming-guide/)
+เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ว่างพร้อมรูปร่างกลุ่ม – คู่มือ Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปร่างกลุ่มโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word ด้วย Java – แทรกและซ่อนรูปภาพด้วย Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word และซ่อนรูปภาพเหล่านั้นโดยใช้ Aspose.Words สำหรับ Java
+
+### [แทรกแผนภูมิวงกลมใน Java – แยกส่วน, หมุนและไฮไลท์สไลซ์](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java พร้อมการแยกส่วน, หมุนและไฮไลท์สไลซ์โดยใช้ Aspose.Words
+
+### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+
+### [บทแนะนำ Aspose.Words ActiveX – แทรก CommandButton ด้วย Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+เรียนรู้วิธีแทรกปุ่ม CommandButton ในเอกสาร Word ผ่าน ActiveX ด้วย Java
+
+### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
+เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

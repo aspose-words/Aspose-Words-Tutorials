@@ -90,8 +90,12 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแบ่งเอกสารออกเป็นหน้า HTML ด้วย Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงเอกสารอย่างราบรื่น
 ### [การเพิ่มเนื้อหาโดยใช้ DocumentBuilder ใน Aspose.Words สำหรับ Java](./adding-content-using-documentbuilder/)
 สร้างเอกสารอย่างมืออาชีพด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนในการเพิ่มข้อความ ตาราง รูปภาพ และอื่นๆ สร้างเอกสาร Word ที่สวยงามได้อย่างง่ายดาย
+### [การบันทึก docx ด้วย DocumentBuilder และเพิ่มข้อความหลังคอนโทรลใน Aspose.Words สำหรับ Java](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+บันทึกไฟล์ docx ด้วย DocumentBuilder แล้วเพิ่มข้อความหลังคอนโทรล
 ### [การโคลนและการรวมเอกสารใน Aspose.Words สำหรับ Java](./cloning-and-combining-documents/)
 เรียนรู้วิธีโคลนและรวมเอกสารใน Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
+### [การสร้างเอกสาร Word ด้วยคอนเทนต์คอนโทรลข้อความธรรมดา](./create-word-document-with-a-plain-text-content-control/)
+เรียนรู้วิธีสร้างเอกสาร Word พร้อมคอนเทนต์คอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words สำหรับ Java
 ### [การเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java](./comparing-documents/)
 เรียนรู้วิธีเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java ซึ่งเป็นไลบรารี Java ที่ทรงพลังสำหรับการวิเคราะห์เอกสารอย่างมีประสิทธิภาพ 
 ### [การจัดรูปแบบเอกสารใน Aspose.Words สำหรับ Java](./formatting-documents/)
@@ -115,6 +119,12 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 ### [สร้างเอกสารเปล่าพร้อมปุ่มคำสั่งโต้ตอบใน Word ด้วย Java](./create-blank-document-with-an-interactive-command-button-in/)
 ### [วิธีสร้างเอกสาร Word ว่างพร้อมตัวควบคุมข้อความใน Aspose.Words สำหรับ Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Words สำหรับ Java
+### [วิธีสร้างเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+เรียนรู้วิธีสร้างไฟล์ Word อย่างอัตโนมัติด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ใหม่ – คู่มือขั้นตอนการเพิ่มแท็กโครงสร้าง](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+เรียนรู้วิธีสร้างเอกสาร Word ใหม่และเพิ่มแท็กโครงสร้างอย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [สร้างเอกสาร Word ว่างใน Java ด้วย Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ Word เปล่าใน Java ด้วย Aspose.Words อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

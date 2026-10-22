@@ -75,6 +75,16 @@ Tanuld meg, hogyan adhatsz árnyékhatást Word alakzatokhoz az Aspose.Words has
 ### [Hogyan állíts be árnyékot egy alakzatra az Aspose.Words for Pythonban](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
 Tanuld meg, hogyan alkalmazhatsz árnyékhatást alakzatokra az Aspose.Words for Python használatával, lépésről lépésre útmutató.
 
+### [Téglalap alakzat létrehozása Word dokumentumban Python használatával](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Tanuld meg, hogyan hozhatsz létre téglalap alakzatot Word dokumentumban a Python és az Aspose.Words segítségével.
+### [Árnyék hozzáadása alakzathoz Pythonban – Teljes programozási útmutató](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Ismerd meg, hogyan adhatod hozzá az árnyékot alakzatokhoz Pythonban az Aspose.Words segítségével, lépésről lépésre útmutató.
+### [Üres Word dokumentum létrehozása és árnyék hozzáadása alakzathoz – Teljes Python útmutató](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Tanuld meg, hogyan hozz létre üres Word dokumentumot, és adj árnyékot az alakzatokhoz a Python‑net és az Aspose.Words segítségével.
+
+### [Üres Word dokumentum létrehozása és árnyék hozzáadása alakzathoz – Teljes útmutató](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Tanuld meg, hogyan hozz létre üres Word dokumentumot, és adj árnyékot az alakzatokhoz a Python‑net és az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

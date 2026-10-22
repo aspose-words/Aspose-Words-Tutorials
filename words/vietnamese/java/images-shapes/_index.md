@@ -28,6 +28,12 @@ Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình
 
 ## Hướng dẫn có sẵn
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Lưu trang và hình ảnh tùy chỉnh trong Java với Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Hướng dẫn mã cho Aspose.Words Java
 
@@ -38,8 +44,10 @@ Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word b�
 
 ### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ### [Áp dụng hiệu ứng bóng cho hình dạng trong C# – Hướng dẫn từng bước](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng C# sử dụng Aspose.Words.
+
 ### [Cách đặt bóng cho hình dạng trong Aspose.Words – Hướng dẫn chi tiết](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 
@@ -104,6 +112,39 @@ Hướng dẫn cách nhóm các hình dạng và thêm hình chữ nhật trong 
 
 ### [Cách ẩn hình dạng trong Word bằng C# và Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Hướng dẫn ẩn một hình dạng trong tài liệu Word bằng C# và Aspose.Words.
+
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word mới với hình ảnh ẩn – hướng dẫn từng bước](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
+
+### [Cách tạo tài liệu trống và thêm hình dạng với Aspose.Words trong C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+
+### [Cách chèn hình ảnh vào docx và ẩn hình ảnh trong Word bằng Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Hướng dẫn chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần, sử dụng Aspose.Words cho Java.
+
+### [Cách nhóm các hình dạng trong Word bằng Java – hướng dẫn đầy đủ](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Thêm bóng cho hình dạng trong Java – Hướng dẫn lập trình đầy đủ](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word trống với hình dạng nhóm – Hướng dẫn Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình dạng nhóm bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word bằng Java – Chèn và ẩn hình ảnh với Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Hướng dẫn cách chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần thiết bằng Aspose.Words cho Java.
+
+### [Chèn biểu đồ tròn trong Java – Tách, Xoay & Làm nổi bật các lát cắt](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Hướng dẫn cách chèn biểu đồ tròn, tách, xoay và làm nổi bật các lát cắt trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word trống với các hình dạng nhóm trong Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng được nhóm lại bằng Aspose.Words cho Java.
+
+### [Hướng dẫn Aspose.Words ActiveX – chèn một CommandButton bằng Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua ActiveX trong Java.
+
+### [Tạo tài liệu Word bằng Java – ẩn hình dạng và đặt màu nền](./create-word-document-java-hide-shape-and-set-fill-color/)
+Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

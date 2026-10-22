@@ -41,6 +41,9 @@ Gli esempi di codice forniti nei tutorial ti aiuteranno a comprendere i concetti
 | [Crea un documento Word programmaticamente – aggiungi un controllo di contenuto e un segnaposto](./create-word-document-programmatically-add-content-control-an/) | Scopri come generare un documento Word con controlli di contenuto e segnaposto usando Aspose.Words per .NET. |
 | [Come creare un controllo di contenuto in C# con Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Scopri come creare un controllo di contenuto in C# utilizzando Aspose.Words per .NET con questa guida passo passo. |
 | [Come salvare un documento Word con SDT usando Aspose.Words in C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Scopri come salvare un documento Word contenente controlli SDT con Aspose.Words per .NET in C#. |
+| [Come aggiungere un controllo di contenuto Word in un documento Word utilizzando Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Scopri come inserire un controllo di contenuto in un documento Word con Aspose.Words per .NET passo passo. |
+| [Crea nuovo documento Word e inserisci un controllo di contenuto in C#](./create-new-word-document-and-insert-content-control-in-c/) | Scopri come creare un documento Word e aggiungere un controllo di contenuto usando Aspose.Words per .NET in C#. |
+| [Come creare un documento Word con controlli di contenuto in C#](./how-to-create-word-document-with-content-controls-in-c/) | Scopri come creare un documento Word con controlli di contenuto usando C# e Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

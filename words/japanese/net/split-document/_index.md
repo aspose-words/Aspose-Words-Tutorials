@@ -21,6 +21,7 @@ Split Documentは、Aspose.Words for .NETライブラリを用いてドキュメ
 タイトル | 説明 |
 | --- | --- |
 | [見出しでWord文書を分割するHTML](./by-headings-html/) Aspose.Words for .NET を使用して、Word 文書を見出しごとに分割し、HTML に変換する方法を学びましょう。詳細なステップバイステップガイドをご覧ください。 |
+| [C# で見出しで Word 文書をセクションに分割する方法](./how-to-split-a-word-document-into-sections-by-heading-in-c/) Aspose.Words for .NET を使用して、C# で見出しに基づき Word 文書をセクションに分割する方法を学びます。 |
 | [Word文書をセクションごとに分割するHTML](./by-sections-html/) この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書をセクションごとに HTML に分割する方法を学習します。 |
 | [Word文書をセクションごとに分割する](./by-sections/) Aspose.Words for .NET を使用して Word 文書をセクションに分割する方法を学びましょう。この詳細なステップバイステップガイドに従って、効率的なドキュメント管理を実現しましょう。 |
 | [Word文書をページごとに分割する](./page-by-page/) Aspose.Words for .NET を使用して Word 文書をページごとに分割する方法を、この詳細なステップバイステップガイドで学びましょう。大規模な文書を効率的に管理するのに最適です。 |

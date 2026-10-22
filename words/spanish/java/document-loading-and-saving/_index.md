@@ -83,6 +83,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ## Tutoriales relacionados – Cargar, guardar y convertir
 ### [Cargando y guardando documentos HTML con Aspose.Words for Java](./loading-and-saving-html-documents/)
 
+### [Cómo establecer opciones en Aspose.Words for Java – guía completa](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
 ### [Trabajando con opciones de carga en Aspose.Words for Java](./using-load-options/)
 
 ### [Configurando opciones de carga RTF en Aspose.Words for Java](./configuring-rtf-load-options/)
@@ -90,6 +92,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Cargando archivos de texto con Aspose.Words for Java](./loading-text-files/)
 
 ### [Cómo recuperar docx – guardar documento recuperado usando Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Cómo cargar Markdown en Java – Guía completa](./how-to-load-markdown-in-java-complete-guide/)
 
 ### [Opciones avanzadas de guardado con Aspose.Words for Java](./advance-saving-options/)
 
@@ -131,6 +134,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Recuperar docx corrupto usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Recuperar docx corrupto con Aspose.Words – Guía completa Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [Recuperar DOCX corrupto en Java – Guía completa de programación](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Recuperar DOCX corrupto con Aspose.Words para Java – Guía completa](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 

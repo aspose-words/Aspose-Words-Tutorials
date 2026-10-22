@@ -36,7 +36,7 @@ W tej serii samouczków przeprowadzimy Cię przez szereg opcji i ustawień dokum
 - Style i motywy: Przeglądaj predefiniowane style i motywy, aby zachować spójny wygląd dokumentu.
 - Właściwości dokumentu: Dowiedz się, jak ustawić metadane, takie jak tytuł, autor i słowa kluczowe.
 - Ochrona dokumentów: Dowiedz się, jak zabezpieczać dokumenty za pomocą hasła i uprawnień.
-- Eksport i konwersja: Poznaj opcje eksportowania dokumentów do różnych formatów i na różne platformy.
+- Eksport i konwersja: Poznaj opcje eksportowania dokumentów do różnych formatów i na różne platformi.
 
 Po ukończeniu tego kursu będziesz w stanie tworzyć przejrzyste, atrakcyjne wizualnie dokumenty z ustawieniami dostosowanymi do Twoich konkretnych wymagań.
 
@@ -45,6 +45,8 @@ Po ukończeniu tego kursu będziesz w stanie tworzyć przejrzyste, atrakcyjne wi
 Poznaj zaawansowane techniki łączenia i dołączania dokumentów za pomocą Aspose.Words w Pythonie. Przewodnik krok po kroku z przykładami kodu.
 ### [Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności](./manage-document-options-settings/)
 Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
+### [Jak odzyskać uszkodzone pliki docx za pomocą Aspose.Words w Pythonie](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Dowiedz się, jak naprawić uszkodzone pliki docx przy użyciu Aspose.Words w Pythonie. Praktyczny przewodnik z przykładami kodu.
 ### [Właściwości dokumentu i zarządzanie metadanymi](./document-properties-metadata/)
 Dowiedz się, jak zarządzać właściwościami dokumentu i metadanymi za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
 ### [Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych](./document-functionality-web-extensions/)
@@ -61,6 +63,10 @@ Dowiedz się, jak przywrócić uszkodzone pliki docx w Pythonie, korzystając z 
 Skonfiguruj opcje MarkdownSaveOptions dla LaTeX w Pythonie przy użyciu Aspose.Words.
 ### [Jak odzyskać pliki docx za pomocą Aspose.Words dla Pythona](./how-to-recover-docx-files-with-aspose-words-for-python/)
 Dowiedz się, jak przywrócić uszkodzone pliki docx przy użyciu Aspose.Words dla Pythona. Praktyczny przewodnik krok po kroku.
+### [Włącz tryb odzyskiwania, aby otworzyć uszkodzony dokument Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Dowiedz się, jak włączyć tryb odzyskiwania, aby otworzyć uszkodzony dokument Word przy użyciu Aspose.Words.
+### [Obsługa ostrzeżeń czcionek Aspose – wykryj brakujące czcionki i dostosuj ładowanie dokumentu](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Dowiedz się, jak obsługiwać ostrzeżenia o brakujących czcionkach i dostosowywać ładowanie dokumentu przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

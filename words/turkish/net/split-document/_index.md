@@ -21,7 +21,8 @@ Split Document, Aspose.Words for .NET kütüphanesini kullanarak bir belgenin ay
 | Başlık | Açıklama |
 | --- | --- |
 | [Word Belgesini Başlıklara Göre Böl Html](./by-headings-html/) | Aspose.Words for .NET kullanarak bir Word belgesini başlıklara göre HTML'ye nasıl böleceğinizi öğrenin. Ayrıntılı, adım adım kılavuzumuzu izleyin. |
-| [Word Belgesini Bölümlere Göre Böl HTML](./by-sections-html/) Bu ayrıntılı, adım adım kılavuzla, Aspose.Words for .NET kullanarak bir Word belgesini bölümlere ayırarak HTML'ye nasıl dönüştüreceğinizi öğrenin.
+| [C# ile Word Belgesini Başlıklara Göre Böl](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Aspose.Words for .NET kullanarak C# ile bir Word belgesini başlıklara göre bölmeyi adım adım öğrenin. |
+| [Word Belgesini Bölümlere Göre Böl HTML](./by-sections-html/) Bu ayrıntlı, adım adım kılavuzla, Aspose.Words for .NET kullanarak bir Word belgesini bölümlere ayırarak HTML'ye nasıl dönüştüreceğinizi öğrenin.
 | [Word Belgesini Bölümlere Göre Böl](./by-sections/) | Aspose.Words for .NET kullanarak bir Word belgesini bölümlere ayırmayı öğrenin. Verimli belge yönetimi için bu ayrıntılı, adım adım kılavuzu izleyin. |
 | [Word Belgesini Sayfaya Göre Böl](./page-by-page/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesini sayfalara göre nasıl böleceğinizi öğrenin. Büyük belgeleri verimli bir şekilde yönetmek için mükemmeldir. |
 | [Belgeleri Birleştir](./merge-documents/) | Aspose.Words for .NET'in Merge Documents özelliğinin C# kaynak kodunu açıklayan adım adım kılavuz |

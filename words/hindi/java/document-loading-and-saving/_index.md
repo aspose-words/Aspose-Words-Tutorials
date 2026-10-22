@@ -158,6 +158,9 @@ Aspose.Words for Java का उपयोग करके क्षतिग्�
 ### [Aspose.Words LoadOptions – जावा में करप्ट Word दस्तावेज़ पुनर्प्राप्त करें](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Aspose.Words LoadOptions का उपयोग करके जावा में करप्ट Word फ़ाइलों को पुनर्प्राप्त और प्रोसेस करें।
 
+### [Aspose.Words for Java के साथ भ्रष्ट DOCX को पुनर्प्राप्त करें – पूर्ण गाइड](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Aspose.Words for Java का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्प्राप्त करने की पूरी प्रक्रिया सीखें।
+
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx को पुनर्प्राप्त करने का पूर्ण गाइड – भ्रष्ट Word फ़ाइलें पढ़ें](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
@@ -194,6 +197,11 @@ Aspose.Words for Java के साथ खाली Word फ़ाइल बन�
 
 ### [C# में Aspose.Words के साथ डायरेक्टरी से फ़ाइल लोड करना](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 C# में Aspose.Words का उपयोग करके फ़ाइल लोड करने का तरीका सीखें।
+### [Java में Markdown लोड करने का पूर्ण गाइड](./how-to-load-markdown-in-java-complete-guide/)
+Java में Markdown लोड करने का पूरा गाइड। कोड उदाहरणों के साथ चरण‑दर‑चरण सीखें।
+### [Aspose.Words for Java में विकल्प सेट करने का तरीका – पूर्ण गाइड](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
+Aspose.Words for Java में विभिन्न लोड और सेव विकल्पों को कैसे कॉन्फ़िगर करें, इस पूर्ण गाइड में सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

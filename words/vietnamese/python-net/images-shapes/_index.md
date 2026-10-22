@@ -36,6 +36,8 @@ Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. H
 
 ### [Thêm Bóng Đổ cho Hình dạng trong Python với Aspose.Words – Hướng Dẫn Đầy Đủ](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Python và Aspose.Words.
+### [Thêm Bóng Đổ cho Hình dạng trong Python – Hướng Dẫn Lập Trình Đầy Đủ](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Tìm hiểu cách thêm bóng đổ vào các hình dạng trong tài liệu Word bằng Python và Aspose.Words, nâng cao tính thẩm mỹ và chuyên nghiệp.
 
 ### [Cách Thêm Bóng Đổ trong C# – Hướng Dẫn Lập Trình Đầy Đủ](./how-to-add-shadow-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng trong tài liệu Word bằng C# và Aspose.Words.
@@ -74,6 +76,14 @@ Hướng dẫn chi tiết cách tạo biểu đồ cột trong tài liệu Word 
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words.
 ### [Cách thiết lập bóng đổ cho hình dạng trong Aspose.Words cho Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho Python.
+
+### [Cách tạo hình chữ nhật trong tài liệu Word bằng Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng Python và Aspose.Words.
+### [Tạo tài liệu Word trống và thêm bóng đổ vào hình dạng – Hướng dẫn Python đầy đủ](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hiệu ứng bóng đổ cho hình dạng bằng Aspose.Words cho Python-net.
+
+### [Tạo tài liệu Word trống và thêm bóng đổ vào hình dạng – Hướng dẫn đầy đủ](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hiệu ứng bóng đổ cho hình dạng bằng Aspose.Words cho Python-net.
 
 ## Tài nguyên bổ sung
 

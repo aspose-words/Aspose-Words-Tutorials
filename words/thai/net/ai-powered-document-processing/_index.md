@@ -47,6 +47,8 @@
 | [วิธีตรวจสอบไวยากรณ์ใน Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ -
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย LLM ภายในเครื่อง](./how-to-check-grammar-in-c-using-a-local-llm/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องตรวจสอบไวยากรณ์โค้ด C# ของคุณอย่างแม่นยำด้วย Aspose.Words -
 - [วิธีตรวจสอบไวยากรณ์ในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-check-grammar-in-word-documents-complete-c-guide/) | เรียนรู้การใช้ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word ด้วย C# อย่างง่ายดาย -
+| [วิธีสรุปเอกสาร Word ด้วย Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | เรียนรู้วิธีสรุปเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words AI ในขั้นตอนง่ายๆ -
+| [วิธีใช้ Translator เพื่ออัตโนมัติการแปลเอกสารใน C#](./how-to-use-translator-to-automate-document-translation-in-c/) | เรียนรู้วิธีใช้ Aspose.Words กับ Translator เพื่อแปลเอกสารโดยอัตโนมัติใน C# -
 | 
 | [สรุปเอกสาร Word ด้วย AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | เปรียบเทียบการสรุปเอกสาร Word ด้วยโมเดล OpenAI และ Gemini โดยใช้ Aspose.Words สำหรับ .NET - 
 | [วิธีโหลด Word ใน C# และเขียนย่อหน้าใหม่ด้วย AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | เรียนรู้วิธีโหลดไฟล์ Word ด้วย C# แล้วใช้ AI เพื่อเขียนทับย่อหน้าอย่างอัตโนมัติ เพิ่มประสิทธิภาพการแก้ไขเอกสาร - 
@@ -79,6 +81,13 @@
 | [วิธีเขียนใหม่ย่อหน้าด้วย LLM ท้องถิ่นใน C# – คู่มือฉบับสมบูรณ์](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | เรียนรู้วิธีใช้ LLM ท้องถิ่นใน C# เพื่อเขียนใหม่ย่อหน้าอย่างมีประสิทธิภาพด้วย Aspose.Words - |
 | [วิธีใช้ตัวสรุปเอกสาร AI ด้วย C#](./how-to-use-an-ai-document-summarizer-in-c/) | เรียนรู้วิธีใช้ตัวสรุปเอกสาร AI ด้วย C# เพื่อสรุปไฟล์ Word อย่างรวดเร็วและแม่นยำ -
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อแปลเอกสาร Word (.docx) เป็นภาษาฝรั่งเศสอย่างแม่นยำและรวดเร็ว -
+| [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI ใน C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อแปลเอกสาร Word เป็นภาษาฝรั่งเศสใน C# อย่างง่ายดาย -
+| [วิธีสรุปเอกสาร Word ด้วยผู้ให้บริการ AI ใน C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับผู้ให้บริการ AI ต่างๆ เพื่อสรุปเอกสาร Word ด้วย C# - 
+| [สรุปเอกสาร Word ด้วยการสรุปโดย AI](./summarize-word-document-with-ai-document-summarization/) | เรียนรู้วิธีสรุปเอกสาร Word อย่างมีประสิทธิภาพด้วย AI - 
+| [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย AI ใน C#](./how-to-translate-docx-to-french-with-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words กับ AI เพื่อแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# - 
+| [เพิ่มสรุปลงในเอกสาร Word ด้วย Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | เรียนรู้วิธีเพิ่มสรุปอัตโนมัติลงในไฟล์ Word โดยใช้ Aspose.Words AI อย่างง่ายและรวดเร็ว |
+| [สรุปเอกสาร Word ด้วย C# – คู่มือ Aspose.Words AI ฉบับสมบูรณ์](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | เรียนรู้วิธีสรุปเอกสาร Word ด้วย C# โดยใช้ Aspose.Words และ AI อย่างละเอียด |
+| [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | เรียนรู้วิธีแปลเอกสาร Word เป็นภาษาฝรั่งเศสโดยใช้ Aspose.Words AI อย่างง่ายและรวดเร็ว |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

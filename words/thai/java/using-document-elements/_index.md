@@ -45,6 +45,9 @@
 ## การใช้บทช่วยสอนองค์ประกอบเอกสาร
 ### [สร้างเอกสาร Word ว่างด้วยปุ่มคำสั่ง – คู่มือทีละขั้นตอน](./create-blank-word-document-with-a-command-button-step-by-ste/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มปุ่มคำสั่งด้วยขั้นตอนง่ายๆ ใน Aspose.Words สำหรับ Java
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java](./using-comments/)
 เรียนรู้วิธีใช้คำอธิบายประกอบใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งคำอธิบายประกอบในเอกสารของคุณ
 ### [การใช้ฟิลด์ใน Aspose.Words สำหรับ Java](./using-fields/)
@@ -106,6 +109,20 @@
 เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด Java และแทรกปุ่มโต้ตอบในเอกสาร
 ### [วิธีสร้างเอกสาร Word ว่างและเพิ่มแผนภูมิเรดาร์ใน C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและใส่แผนภูมิเรดาร์โดยใช้ Aspose.Words for C#
+### [วิธีสร้างไฟล์ docx ที่มี ActiveX ด้วย Java และ Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+เรียนรู้วิธีสร้างไฟล์ DOCX ที่ฝัง ActiveX ด้วย Java และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
+### [วิธีสร้างปุ่มคำสั่ง ActiveX ใน Java](./how-to-create-activex-command-button-in-java/)
+เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
+### [วิธีแทรกแผนภูมิวงกลมใน Word – เพิ่มป้ายข้อมูลเปอร์เซ็นต์](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมใน Aspose.Words สำหรับ Java พร้อมเพิ่มป้ายข้อมูลเปอร์เซ็นต์
+### [วิธีเพิ่มปุ่มในเอกสาร Word – คู่มือทีละขั้นตอน](./how-to-add-button-to-word-document-step-by-step-guide/)
+เรียนรู้วิธีแทรกปุ่มลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายและเป็นขั้นตอน
+### [วิธีแยกชิ้นพายใน Java – บทช่วยสอนแผนภูมิ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+เรียนรู้วิธีแยกชิ้นพายในแผนภูมิ Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,15 @@ Lär dig steg för steg hur du lägger till skuggeffekt på en form i Word-dokum
 ### [Hur du ställer in skugga på en form i Aspose.Words för Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
 Lär dig hur du lägger till och anpassar skuggeffekter på former i Word-dokument med Aspose.Words för Python.
 
+### [Hur man skapar rektangelform i ett Word-dokument med Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+### [Hur man lägger till skugga på form i Python – Komplett programmeringsguide](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Lär dig steg för steg hur du lägger till skugga på former i Python med Aspose.Words för att förbättra dokumentens visuella utseende.
+### [Skapa tomt Word-dokument och lägg till skugga på form – Fullständig Python-guide](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till skugga på en form med Aspose.Words för Python.
+
+### [Skapa tomt Word-dokument och lägg till skugga på form – Fullständig handledning](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till skugga på en form med Aspose.Words.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

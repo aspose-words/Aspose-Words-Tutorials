@@ -73,6 +73,9 @@ weight: 20
 ### [Δημιουργία Προσαρμοσμένου Μοντέλου AI – Επεξεργασία Παραγράφων Word σε Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Μάθετε πώς να δημιουργήσετε προσαρμοσμένο μοντέλο AI και να επεξεργαστείτε παραγράφους Word με χρήση Aspose.Words σε Java.
 
+### [Δημιουργία Ελεγκτή Γραμματικής Java – Πλήρης Οδηγός Βήμα‑βήμα](./build-grammar-checker-java-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έναν ελεγκτή γραμματικής σε Java χρησιμοποιώντας το Aspose.Words, ενσωματώνοντας AI για ανίχνευση λαθών.
+
 ## Πρόσθετοι Πόροι
 
 - [Τεκμηρίωση Aspose.Words for Java](https://reference.aspose.com/words/java/)

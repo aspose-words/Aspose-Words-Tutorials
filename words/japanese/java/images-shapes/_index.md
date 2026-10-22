@@ -28,6 +28,9 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ## 利用可能なチュートリアル
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
 ### [Aspose.Words コールバックを使用して Java でカスタムページと画像を保存する](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Javaのコードチュートリアル
 
@@ -38,6 +41,7 @@ JavaでWord文書に影効果付きの長方形シェイプを追加し、視覚
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
 ### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -104,6 +108,42 @@ Aspose.Words for Java を使い、Word 文書内で図形をグループ化し�
 
 ### [C# と Aspose.Words を使用して Word で図形を非表示にする方法](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 C# と Aspose.Words を使用して Word 文書内の図形を非表示にする手順を解説します。
+
+### [Javaで空白のWord文書を作成し、図形をグループ化する方法](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Javaで空白のWord文書を作成し、図形をグループ化する方法を解説します。
+
+### [非表示画像付きの新しいWord文書を作成する – ステップバイステップ ガイド](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+非表示画像を使用してWord文書を作成する方法をステップバイステップで解説します。
+
+### [空白のドキュメントを作成し、Aspose.Words で図形を追加する方法（C#）](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words for C# を使用して、空白のドキュメントを作成し、図形を追加する手順を解説します。
+
+### [C# と DocumentBuilder を使用して Word で図形をグループ化する方法](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+C# と DocumentBuilder を使って Word 文書内の図形をグループ化する手順を解説します。
+
+### [Javaでdocxに画像を挿入し、Wordで画像を非表示にする方法](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
+### [Java で Word の図形をグループ化する方法 – 完全ガイド](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
+### [Javaでシェイプに影を追加 – 完全プログラミングガイド](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Javaでシェイプに影効果を追加し、ドキュメントの視覚的魅力を高める方法を学びます。
+### [空白のWord文書を作成し、グループ化されたシェイプを追加する – Java ガイド](./create-blank-word-document-with-grouped-shape-java-guide/)
+Javaで空白のWord文書を作成し、グループ化されたシェイプを追加する方法を学びます。
+
+### [JavaでWord文書を作成 – Aspose.Wordsで画像を挿入し非表示にする](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java を使用して、画像を文書に挿入し、必要に応じて非表示にする方法を学びます。
+
+### [Javaで円グラフを挿入 – スライスを分割、回転、ハイライト](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java を使用して、円グラフを文書に挿入し、スライスの分離、回転、ハイライト設定を行う方法を学びます。
+
+### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
+JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
+
+### [Javaでグループ化シェイプを使用して空白のWord文書を作成](./create-blank-word-document-with-grouped-shapes-in-java/)
+Javaで複数のシェイプをグループ化し、空白のWord文書に挿入する方法を学びます。
+
+### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
 
 ## 追加リソース
 

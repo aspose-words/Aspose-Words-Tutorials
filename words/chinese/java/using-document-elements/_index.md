@@ -43,6 +43,9 @@
 记住，熟能生巧，有了 Aspose.Words for Java，您很快就能像专业人士一样创建、修改和增强文档。祝您编码愉快！
 
 ## 使用文档元素教程
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [在 Aspose.Words for Java 中使用注释](./using-comments/)
 学习如何在 Aspose.Words for Java 中使用注释。本教程将逐步讲解如何在文档中添加和自定义注释。
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
@@ -108,6 +111,21 @@
 学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
 ### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
 使用 Aspose.Words for Java 通过代码创建 Word 文档并添加交互式按钮。
+### [使用 Java 和 Aspose.Words 创建包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+学习如何使用 Java 和 Aspose.Words 创建包含 ActiveX 控件的 docx 文档。
+### [在 Aspose.Words for Java 中使用饼图](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中插入饼图并自定义其外观。
+### [在 Aspose.Words for Java 中创建 ActiveX 命令按钮](./how-to-create-activex-command-button-in-java/)
+学习如何在 Aspose.Words for Java 中创建 ActiveX 命令按钮，实现交互式文档功能。
+### [在 Aspose.Words for Java 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-java/)
+学习如何在 Java 中创建空白 Word 文档并添加 ActiveX 按钮。
+### [在 Word 中插入饼图并添加数据标签百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+学习在 Aspose.Words for Java 中插入饼图并添加显示百分比的数据标签。
+
+### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
+### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

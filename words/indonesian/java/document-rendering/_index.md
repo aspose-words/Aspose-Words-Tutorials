@@ -47,6 +47,8 @@ Pelajari cara menggunakan callback peringatan Aspose untuk mendeteksi dan melaca
 Pelajari cara menangkap peringatan dan mendeteksi font yang hilang saat memproses dokumen dengan Aspose.Words untuk Java.
 ### [Temukan Font yang Hilang di Java dengan Aspose.Words – Panduan Lengkap](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Pelajari cara menemukan dan mengatasi font yang hilang dalam dokumen Word menggunakan Aspose.Words untuk Java. Panduan lengkap dengan contoh kode.
+### [Mendaftarkan Callback Peringatan di Java – Panduan Pemrograman Lengkap](./register-warning-callback-in-java-complete-programming-guide/)
+Pelajari cara mendaftarkan callback peringatan di Aspose.Words untuk Java, termasuk contoh kode dan penjelasan lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

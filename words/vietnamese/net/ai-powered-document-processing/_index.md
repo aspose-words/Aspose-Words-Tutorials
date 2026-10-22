@@ -48,6 +48,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách kiểm tra ngữ pháp trong C# bằng LLM cục bộ](./how-to-check-grammar-in-c-using-a-local-llm/) | Tìm hiểu cách sử dụng LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu nhanh chóng và chính xác. |
 | [Tóm tắt tài liệu Word bằng AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | So sánh cách OpenAI và Gemini tóm tắt tài liệu Word bằng AI trong Aspose.Words cho .NET. |
 | [Cách tóm tắt tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-summarize-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET với C# để tóm tắt tài liệu Word một cách hiệu quả. |
+| [Cách tóm tắt tài liệu Word bằng AI Aspose.Words](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words AI để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
 | [Cách sửa lỗi ngữ pháp trong tệp DOCX bằng C# – Hướng dẫn chi tiết từng bước](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để tự động sửa lỗi ngữ pháp trong tài liệu DOCX bằng C#. |
 | [Tóm tắt tài liệu Word bằng LLM cục bộ – Hướng dẫn C#](./summarize-word-document-with-local-llm-c-guide/) | Khám phá cách sử dụng Aspose.Words cho .NET với LLM cục bộ để tóm tắt tài liệu Word bằng C# một cách nhanh chóng và hiệu quả. |
 | [Cách Kiểm Tra Ngữ Pháp trong Tài Liệu Word – Hướng Dẫn C# Đầy Đủ](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp trong tài liệu Word bằng C#. |
@@ -91,6 +92,16 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách viết lại đoạn văn bằng LLM cục bộ trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và LLM cục bộ để viết lại đoạn văn trong C#. |
 | [Cách sử dụng công cụ tóm tắt tài liệu AI trong C#](./how-to-use-an-ai-document-summarizer-in-c/) | Hướng dẫn chi tiết cách tích hợp bộ tóm tắt tài liệu AI vào ứng dụng C# bằng Aspose.Words. |
 | [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI để dịch tài liệu DOCX sang tiếng Pháp. |
+| [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI trong C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Hướng dẫn sử dụng Aspose.Words AI trong C# để dịch tài liệu DOCX sang tiếng Pháp một cách nhanh chóng. |
+| [Cách tóm tắt tệp docx với Aspose.Words AI trong C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI trong C# để tóm tắt các tệp docx nhanh chóng và hiệu quả. |
+| [Cách tóm tắt tài liệu Word với các nhà cung cấp AI trong C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và các nhà cung cấp AI để tóm tắt tài liệu Word bằng C#. |
+| [Cách sử dụng trình dịch để tự động dịch tài liệu trong C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Hướng dẫn sử dụng Aspose.Words và AI để tự động dịch tài liệu Word bằng C#. |
+| [Tóm tắt tài liệu Word bằng AI – Hướng dẫn tóm tắt tài liệu](./summarize-word-document-with-ai-document-summarization/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word một cách nhanh chóng. |
+| [Cách dịch tài liệu docx sang tiếng Pháp bằng AI trong C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để dịch tài liệu DOCX sang tiếng Pháp bằng C#. |
+| [Thêm tóm tắt vào tài liệu Word với Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Hướng dẫn cách sử dụng Aspose.Words AI để thêm tóm tắt tự động vào tài liệu Word một cách nhanh chóng và chính xác. |
+| [Tóm tắt tài liệu Word trong C# – hướng dẫn đầy đủ Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
+| [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
+| [Tạo tài liệu Word trống và dịch sang tiếng Pháp](./create-a-blank-word-document-and-translate-it-to-french/) | Tạo tài liệu Word mới và sử dụng Aspose.Words để dịch nội dung sang tiếng Pháp một cách nhanh chóng. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -91,6 +91,10 @@ Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumen
 
 ### [Utwórz Opcje Ładowania w Javie – Wykryj Brakujące Czcionki i Jak Ładować DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcionki i prawidłowo ładować pliki DOCX przy użyciu Aspose.Words.
+### [Jak ustawić opcje w Aspose.Words for Java – kompletny przewodnik](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Dowiedz się, jak konfigurować wszystkie opcje Aspose.Words for Java, aby kontrolować ładowanie, zapisywanie i konwersję dokumentów.
+
+Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak rozpoznawać tekst UTF‑8 w dokumentach RTF. Przewodnik krok po kroku z przykładami kodu.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
@@ -98,6 +102,8 @@ Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcion
 
 ### [Ładowanie podkreśleń Markdown w Javie – kompletny przewodnik programistyczny](./load-markdown-underline-in-java-complete-programming-guide/)
 Dowiedz się, jak wczytywać i obsługiwać podkreślenia w plikach Markdown przy użyciu Aspose.Words for Java.
+### [Jak ładować Markdown w Javie – Kompletny przewodnik](./how-to-load-markdown-in-java-complete-guide/)
+Dowiedz się, jak załadować pliki Markdown w Javie przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -130,6 +136,9 @@ Poznaj, jak naprawić uszkodzone pliki DOCX w Javie przy użyciu Aspose.Words. K
 
 ### [Aspose.Words LoadOptions – odzyskiwanie uszkodzonych dokumentów Word w Javie](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzyskiwania uszkodzonych plików DOC/DOCX.
+
+### [Odzyskaj uszkodzony DOCX przy użyciu Aspose.Words for Java – Kompletny przewodnik](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Dowiedz się, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)

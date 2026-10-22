@@ -42,7 +42,10 @@ Kortom, het beheersen van documentelementmanipulatie met Aspose.Words voor Java 
 
 Vergeet niet: oefening baart kunst, en met Aspose.Words voor Java maak, wijzig en verbeter je in een mum van tijd documenten als een professional. Veel plezier met programmeren!
 
-## Tutorials over het gebruik van documentelementen
+## Tutorials
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+ over het gebruik van documentelementen
 ### [Opmerkingen gebruiken in Aspose.Words voor Java](./using-comments/)
 Leer hoe je opmerkingen gebruikt in Aspose.Words voor Java. Stapsgewijze handleiding voor het toevoegen en aanpassen van opmerkingen in je documenten.
 ### [Velden gebruiken in Aspose.Words voor Java](./using-fields/)
@@ -74,6 +77,12 @@ Leer hoe u Forms2OleControl gebruikt om OLE-besturingselementen toe te voegen aa
 ### [Hoe een ActiveX-knop in Word in te voegen – knopbijschrift instellen](./how-to-insert-activex-button-in-word-set-button-caption/)
 Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aanpast met Aspose.Words voor Java.
 ### [Hoe forms2olecontrol in code maken met Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [Hoe een docx met ActiveX te maken met Java en Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Leer hoe u een DOCX-bestand met ActiveX-inhoud maakt met Java en Aspose.Words.
+### [ActiveX-opdrachtknop maken in Java](./how-to-create-activex-command-button-in-java/)
+Leer hoe u een ActiveX-opdrachtknop toevoegt aan uw Java-toepassing met Aspose.Words.
+### [Maak een leeg Word-document en voeg een ActiveX-knop toe (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Leer hoe u een leeg Word-document maakt en een ActiveX-knop toevoegt met Aspose.Words voor Java.
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
@@ -106,6 +115,14 @@ Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
 ### [Word-document programmatisch maken en een knop invoegen in Aspose.Words voor Java](./create-word-document-programmatically-and-insert-a-button/)
 Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Aspose.Words voor Java.
 ### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [Hoe een cirkeldiagram in een Word-document met Java in te voegen](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
+### [Cirkeldiagram invoegen in Word – gegevenslabelpercentage toevoegen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
+### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
+Leer hoe u een klikbare knop in een Word‑document kunt invoegen met Aspose.Words voor Java in deze stapsgewijze tutorial.
+### [Hoe een taartpunt te exploderen in Java – Aspose.Words diagramtutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Leer hoe u een taartpunt kunt laten exploderen in een diagram met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

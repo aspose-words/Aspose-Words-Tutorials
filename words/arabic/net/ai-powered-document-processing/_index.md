@@ -43,6 +43,7 @@
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
 | [تلخيص مستند Word في C# – دليل شامل مدعوم بالذكاء الاصطناعي](./summarize-word-document-in-c-complete-ai-powered-guide/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# ودمج نماذج الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
+| [تلخيص مستند Word باستخدام ملخص المستندات بالذكاء الاصطناعي](./summarize-word-document-with-ai-document-summarization/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام تقنيات الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية فحص القواعد النحوية في DOCX باستخدام Aspose.Words – استخدم gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | تعلم كيفية فحص القواعد النحوية في مستندات DOCX باستخدام Aspose.Words و gpt-4 turbo للحصول على نصوص خالية من الأخطاء. |
 | [كيفية فحص القواعد النحوية في Word باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | تعلم كيفية استخدام Aspose.Words AI لفحص القواعد النحوية في مستندات Word وتحسين جودة النص بسهولة. |
 | [كيفية فحص القواعد النحوية في C# باستخدام نموذج لغة محلي](./how-to-check-grammar-in-c-using-a-local-llm/) | تعلم كيفية فحص القواعد النحوية في تطبيقات C# باستخدام نموذج لغة محلي لتصحيح النصوص بدقة. |
@@ -91,6 +92,16 @@
 | [كيفية إعادة كتابة فقرة باستخدام نموذج لغة محلي في C# – دليل كامل](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | تعرّف على كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words خطوة بخطوة. |
 | [كيفية استخدام ملخص المستندات الذكي في C#](./how-to-use-an-ai-document-summarizer-in-c/) | دليل خطوة بخطوة لاستخدام ملخص المستندات المدعوم بالذكاء الاصطناعي في C# مع Aspose.Words. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
+| [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
+| [كيف تلخص مستند Word باستخدام مزودي الذكاء الاصطناعي في C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام مزودي الذكاء الاصطناعي في C#. |
+| [كيفية تلخيص مستند Word باستخدام Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام Aspose.Words AI للحصول على ملخصات دقيقة وسريعة. |
+| [كيفية استخدام المترجم لأتمتة ترجمة المستندات في C#](./how-to-use-translator-to-automate-document-translation-in-c/) | تعلم كيفية أتمتة ترجمة مستندات Word باستخدام Aspose.Words وC# ومترجم الذكاء الاصطناعي. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./how-to-translate-docx-to-french-with-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام الذكاء الاصطناعي وC# مع Aspose.Words. |
+| [إضافة ملخص إلى مستند Word باستخدام Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | تعلم كيفية إضافة ملخص إلى مستندات Word باستخدام Aspose.Words AI لتسريع إدارة المحتوى. |
+| [تلخيص مستند Word باستخدام C# – دليل Aspose.Words AI الكامل](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | دليل شامل لتلخيص مستند Word باستخدام C# و Aspose.Words AI. |
+| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | دليل شامل لترجمة مستندات docx إلى اللغة الفرنسية باستخدام تقنية Aspose.Words AI. |
+| [إنشاء مستند Word فارغ وترجمته إلى الفرنسية](./create-a-blank-word-document-and-translate-it-to-french/) | تعلم كيفية إنشاء مستند Word فارغ وترجمته إلى اللغة الفرنسية باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

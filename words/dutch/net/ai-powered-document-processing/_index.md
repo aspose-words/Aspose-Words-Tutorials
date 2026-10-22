@@ -44,6 +44,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
 | [Hoe Word-documenten samen te vatten – Complete C#-gids](./how-to-summarize-word-documents-complete-c-guide/) | Leer hoe u Word-documenten kunt samenvatten met Aspose.Words voor .NET in C# met een stapsgewijze handleiding. |
 | [Samenvatten van Word-document in C# – Complete AI‑aangedreven gids](./summarize-word-document-in-c-complete-ai-powered-guide/) | Leer hoe u Word-documenten in C# volledig automatisch kunt samenvatten met AI, stap‑voor‑stap handleiding. |
+| [Hoe Word-document samen te vatten met AI-providers in C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Leer hoe u Word-documenten in C# automatisch kunt samenvatten met verschillende AI-providers. |
 | [Hoe controleer je grammatica in DOCX met Aspose.Words – gebruik gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Leer hoe u grammatica in DOCX-bestanden controleert met Aspose.Words en GPT‑4 Turbo. |
 | [Hoe grammatica in Word te controleren met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Leer hoe u met Aspose.Words AI grammaticale fouten in Word-documenten detecteert en corrigeert voor foutloze inhoud. |
 | [Hoe grammatica te controleren in C# met een lokale LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Leer hoe u met een lokale LLM grammatica controleert in C# voor nauwkeurige tekstcorrectie. |
@@ -91,6 +92,16 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe een alinea herschrijven met een lokale LLM in C# – Complete gids](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Leer hoe u met een lokale LLM in C# alinea's herschrijft voor betere tekstkwaliteit met Aspose.Words. |
 | [Hoe een AI-documentsamenvatter te gebruiken in C#](./how-to-use-an-ai-document-summarizer-in-c/) | Leer hoe u een AI-documentensamenvatter in C# kunt inzetten voor automatische samenvatting van Word-bestanden. |
 | [Hoe docx naar het Frans vertalen met Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met behulp van Aspose.Words AI. |
+| [Hoe docx-bestanden samen te vatten met Aspose.Words AI in C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Leer hoe u docx-bestanden automatisch kunt samenvatten met Aspose.Words AI in C#. |
+| [Hoe docx naar Frans te vertalen met Aspose.Words AI in C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |  |
+| [Hoe een Word-document samen te vatten met Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Leer hoe u Word-documenten automatisch kunt samenvatten met Aspose.Words AI in C#. |
+| [Hoe u vertaler gebruikt om documentvertaling in C# te automatiseren](./how-to-use-translator-to-automate-document-translation-in-c/) | Leer hoe u documentvertaling automatiseert met Aspose.Words voor .NET en een vertaler in C#. |
+| [Hoe docx naar Frans te vertalen met AI in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met AI in C#. |
+| [Samenvatten van Word-document met AI-documentensamenvatting](./summarize-word-document-with-ai-document-summarization/) | Leer hoe u Word-documenten automatisch samenvat met AI in Aspose.Words voor .NET. |
+| [Samenvatting toevoegen aan Word-document met Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI een samenvatting aan een Word-document kunt toevoegen voor snelle inzichten. |
+| [Samenvatten van Word-document in C# – volledige Aspose.Words AI-gids](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Leer hoe u met Aspose.Words voor .NET en AI een Word-document in C# volledig kunt samenvatten. |
+| [Vertaal docx naar Frans met Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Leer hoe u met Aspose.Words voor .NET en AI een docx-bestand naar het Frans vertaalt. |
+| [Maak een leeg Word-document en vertaal het naar het Frans](./create-a-blank-word-document-and-translate-it-to-french/) | Leer hoe u een leeg Word-document maakt en automatisch naar het Frans vertaalt met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

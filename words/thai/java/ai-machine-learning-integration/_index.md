@@ -73,6 +73,8 @@ AI document processing ผสานการจัดการเอกสาร
 เรียนรู้วิธีสร้างโมเดล AI ของคุณเองและใช้เพื่อแก้ไขย่อหน้าของเอกสาร Word ด้วย Aspose.Words for Java
 ### [สร้างเอกสาร Word ด้วย Java และการตรวจสอบไวยากรณ์ LLM แบบกำหนดเอง](./create-word-document-java-with-custom-llm-grammar-check/)
 เรียนรู้วิธีสร้างเอกสาร Word ใน Java พร้อมตรวจสอบไวยากรณ์โดยใช้โมเดลภาษา LLM ที่กำหนดเอง
+### [สร้างตัวตรวจสอบไวยากรณ์ด้วย Java – คู่มือเต็มขั้นตอน](./build-grammar-checker-java-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้างตัวตรวจสอบไวยากรณ์ใน Java ด้วย Aspose.Words และ AI เพื่อประมวลผลข้อความอย่างแม่นยำ
 
 ## Additional Resources
 

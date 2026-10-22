@@ -38,6 +38,8 @@ Automatizálja a szövegszerkesztést könnyedén az Aspose.Words for Python seg
 Tanulja meg, hogyan cserélhet szöveget docx fájlokban Python kóddal, részletes példákkal és magyarázatokkal.
 ### [Hogyan használja az Aspose-t a nyelvtani javítás automatizálásához Pythonban](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Ismerje meg, hogyan automatizálhatja a nyelvtani hibák javítását Aspose segítségével Pythonban, példákkal és részletes útmutatóval.
+### [Üres Word dokumentum létrehozása árnyékolt alakzattal Pythonban](./create-blank-word-document-with-shadowed-shape-in-python/)
+Üres Word dokumentumot hoz létre árnyékolt alakzattal Python és Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

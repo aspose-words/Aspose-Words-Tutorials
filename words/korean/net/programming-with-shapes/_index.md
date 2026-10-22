@@ -28,6 +28,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [Word에서 도형을 그룹화하고 문서에 도형 추가하는 방법](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형을 그룹화하고 새 도형을 추가하는 단계별 가이드. |
 | [C#를 사용하여 Word 문서에서 도형 그룹화하는 방법](./how-to-group-shapes-in-a-word-document-with-c/) | C# 코드로 Word 문서에서 여러 도형을 그룹으로 묶는 단계별 가이드. |
 | [Aspose.Words for C#를 사용하여 Word에서 도형 그룹화하는 방법](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C#를 사용해 Word 문서에서 도형을 그룹화하는 단계별 가이드. |
+| [C#를 사용한 Word 그룹 도형 – 완전 프로그래밍 가이드](./group-shapes-in-word-using-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#로 Word 문서에 그룹 도형을 추가하고 관리하는 전체 가이드를 단계별로 안내합니다. |
 | [모양 삽입](./insert-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에 도형을 삽입하고 조작하는 방법을 단계별 가이드를 통해 알아보세요. |
 | [종횡비 잠금](./aspect-ratio-locked/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형의 가로 세로 비율을 고정하는 방법을 알아보세요. 이 단계별 가이드를 따라 이미지와 도형의 비율을 유지하세요. |
 | [셀 레이아웃](./layout-in-cell/) | Aspose.Words for .NET을 사용하여 셀 레이아웃을 설정하는 방법을 이 포괄적인 가이드를 통해 알아보세요. Word 문서를 사용자 지정하려는 개발자에게 적합합니다. |
@@ -50,6 +51,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [C#와 Aspose.Words를 사용하여 도형 그림자 편집하기 – 단계별 가이드](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words for .NET을 사용하여 C#에서 도형 그림자를 편집하는 방법을 단계별로 안내합니다. |
 | [도형에 그림자 추가 – C# 개발자를 위한 단계별 가이드](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aspose.Words for .NET을 사용하여 Word 문서의 도형에 그림자를 추가하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words를 사용하여 빈 Word 문서 만들기 – 단계별 가이드](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words를 사용하여 빈 Word 문서를 만드는 방법을 단계별로 안내합니다. |
+| [C#로 빈 Word 문서를 만들고 그룹 모양을 추가하기](./how-to-create-blank-word-document-and-group-shapes-in-c/) | C#를 사용해 빈 Word 문서를 만들고 그룹 모양을 추가하는 방법을 단계별로 안내합니다. |
 | [사각형 도형 만들기, 그림자 추가 및 PDF 저장](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET을 사용해 사각형 도형을 만들고 그림자를 적용한 뒤 PDF로 저장하는 방법을 단계별로 안내합니다. |
 | [Word에서 사각형 도형 만들기 – 전체 Aspose.Words 가이드](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 사각형 도형을 만들고 전체 가이드를 통해 모든 기능을 배웁니다. |
 | [그림자와 사각형 도형이 있는 Word 문서 만들기 – 단계별 가이드](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aspose.Words for .NET을 사용하여 사각형 도형과 그림자를 포함한 Word 문서를 만드는 방법을 단계별로 안내합니다. |
@@ -78,6 +80,11 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [C#를 사용하여 Word에서 도형 숨기기 – 단계별 가이드](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 문서에서 도형을 숨기는 방법을 단계별로 안내합니다. |
 | [C#에서 도형에 그림자 설정하기 – 완전한 Aspose.Words 가이드](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | C#와 Aspose.Words를 활용해 Word 도형에 그림자를 설정하는 전체 가이드를 제공합니다. |
 | [C#에서 Aspose.Words를 사용해 숨겨진 도형 docx 만들기](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Aspose.Words와 C#를 이용해 숨겨진 도형이 포함된 docx 파일을 생성하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용하여 Word에서 도형 그룹화하기](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C#와 Aspose.Words를 활용해 Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word에 사각형 모양 삽입 – 전체 가이드](./insert-rectangle-shape-in-word-with-c-complete-guide/) | C# 코드로 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 전체 단계별 가이드입니다. |
+| [C#를 사용하여 프로그래밍 방식으로 Word 문서 만들기 및 그룹 모양 추가](./create-word-document-programmatically-and-group-shapes-in-c/) | C# 코드로 Word 문서를 생성하고 그룹 모양을 추가하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 Word에서 사각형 도형 및 그룹 도형 만들기](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Aspose.Words for .NET을 사용해 Word 문서에 사각형 도형을 만들고 그룹화하는 방법을 단계별로 안내합니다. |
+| [빈 Word 문서 만들기 및 사각형 도형 추가](./create-a-blank-word-document-and-add-a-rectangle-shape/) | 빈 Word 문서에 사각형 도형을 삽입하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

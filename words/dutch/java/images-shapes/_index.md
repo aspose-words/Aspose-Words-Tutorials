@@ -28,6 +28,12 @@ In de wereld van documentverwerking is het integreren van afbeeldingen en vormen
 
 ## Beschikbare tutorials
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Aangepaste pagina's en afbeeldingen opslaan in Java met Aspose.Words callbacks](./aspose-words-java-callback-custom-savings/)
 Een codetutorial voor Aspose.Words Java
 
@@ -38,6 +44,7 @@ Leer hoe u een rechthoekige vorm met schaduweffect toevoegt aan een Word-documen
 
 ### [Schaduw toevoegen aan vorm in Word – Complete Aspose.Words-gids](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
+
 ### [Schaduweffect toepassen op een vorm in C# – Stapsgewijze handleiding](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Leer hoe u een schaduweffect op een vorm toepast in C# met Aspose.Words.
 ### [Hoe schaduw instellen op een vorm in Aspose.Words – Complete gids](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -104,6 +111,38 @@ Leer hoe u meerdere vormen groepeert en een rechthoek toevoegt in een Word-docum
 
 ### [Hoe een vorm verbergen in Word met C# en Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Leer hoe u een vorm verbergt in een Word-document met C# en Aspose.Words.
+
+### [Hoe een leeg Word-document te maken en vormen te groeperen in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voor Java.
+
+### [Nieuw Word-document maken met een verborgen afbeelding – stapsgewijze handleiding](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Leer hoe u een nieuw Word-document maakt en een verborgen afbeelding toevoegt met Aspose.Words voor Java.
+
+### [Leeg document maken en vormen toevoegen met Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in C#.
+
+### [Afbeelding invoegen in docx en verbergen in Word met Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
+### [Hoe vormen groeperen in Word met Java – complete gids](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Leer hoe u meerdere vormen in een Word‑document groepeert met Aspose.Words voor Java.
+### [Schaduw toevoegen aan vorm in Java – Complete programmeergids](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Leer hoe u een vorm in een Word-document in Java een schaduweffect geeft met een stapsgewijze programmeergids.
+### [Leeg Word-document maken met gegroepeerde vorm – Java-gids](./create-blank-word-document-with-grouped-shape-java-guide/)
+Leer hoe u een leeg Word-document maakt en een gegroepeerde vorm toevoegt met Aspose.Words voor Java.
+
+### [Word-document maken in Java – Afbeeldingen invoegen en verbergen met Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt met Aspose.Words voor Java.
+
+### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
+
+### [Word-document maken in Java – vorm verbergen en vulkleur instellen](./create-word-document-java-hide-shape-and-set-fill-color/)
+Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Aspose.Words voor Java.
+
+### [Leeg Word-document maken met gegroepeerde vormen in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
+
+### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 
 ## Aanvullende bronnen
 

@@ -28,6 +28,12 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 ## Mevcut Eğitimler
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Aspose.Words Geri Aramaları ile Java'da Özel Sayfa ve Resim Kaydetme](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java için bir kod eğitimi
 
@@ -36,8 +42,10 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 
 ### [Word'de Şekle Gölge Ekle – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı öğrenin.
+
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
+
 ### [Aspose.Words'te Şekle Gölge Nasıl Eklenir – Tam Kılavuz](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java'da şekillere gölge ekleyerek belge görünümünü nasıl geliştireceğinizi adım adım öğrenin.
 
@@ -106,6 +114,39 @@ Aspose.Words kullanarak Word belgelerinde şekilleri gruplama ve dikdörtgen ekl
 
 ### [C# ve Aspose.Words ile Word'de Şekli Gizleme](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 C# ve Aspose.Words kullanarak Word belgesindeki şekli nasıl gizleyeceğinizi öğrenin.
+
+### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri bir grup içinde yönetmeyi öğrenin.
+
+### [Gizli bir resimle yeni Word belgesi oluşturma – adım adım kılavuz](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Gizli bir resim ekleyerek yeni bir Word belgesi oluşturmayı adım adım öğrenin.
+
+### [Aspose.Words ile C#'ta Boş Belge Oluşturma ve Şekil Ekleme](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words kullanarak C# ile boş bir Word belgesi oluşturup şekil eklemeyi öğrenin.
+
+### [Java ile docx dosyasına resim ekleme ve Word'de resmi gizleme](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Java kullanarak docx belgesine resim ekleyin ve Word içinde resmi gizleyin.
+### [Java ile Word'de Şekilleri Gruplama – Tam Kılavuz](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Java kullanarak Word belgelerinde şekilleri nasıl gruplayacağınızı adım adım öğrenin.
+
+### [Java’da Şekle Gölge Ekle – Tam Programlama Kılavuzu](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Java kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin.
+### [Gruplandırılmış Şekilli Boş Word Belgesi Oluşturma – Java Rehberi](./create-blank-word-document-with-grouped-shape-java-guide/)
+Java ile grup içinde şekil içeren boş bir Word belgesi oluşturmayı adım adım öğrenin.
+
+### [Java ile Word Belgesi Oluştur – Aspose.Words ile Görüntü Ekleme ve Gizleme](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java kullanarak bir Word belgesine görüntü eklemeyi ve gerektiğinde gizlemeyi öğrenin.
+
+### [Java'da Pasta Grafiği Ekle – Dilimleri Patlat, Döndür ve Vurgula](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java kullanarak bir Word belgesine pasta grafiği eklemeyi, dilimleri patlatmayı, döndürmeyi ve vurgulamayı öğrenin.
+### [Java'da Gruplandırılmış Şekillerle Boş Word Belgesi Oluşturma](./create-blank-word-document-with-grouped-shapes-in-java/)
+Java kullanarak bir Word belgesi oluşturun ve içinde birden fazla şekli gruplayarak ekleyin.
+
+### [Aspose.Words ActiveX eğitimi – Java ile bir CommandButton ekleme](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Java kullanarak ActiveX kontrolü ekleyerek bir CommandButton oluşturmayı öğrenin.
+
+### [Java ile Word belgesi oluştur – şekli gizle ve dolgu rengini ayarla](./create-word-document-java-hide-shape-and-set-fill-color/)
+Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlamayı öğrenin.
 
 ## Ek Kaynaklar
 

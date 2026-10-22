@@ -39,9 +39,11 @@ Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. P
 
 ### [Menambahkan Bayangan pada Bentuk di Python dengan Aspose.Words – Panduan Lengkap](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Pelajari cara menambahkan bayangan pada bentuk di Python menggunakan Aspose.Words. Panduan lengkap ini membantu Anda menguasai teknik shading.
+### [Menambahkan Bayangan pada Bentuk di Python – Panduan Pemrograman Lengkap](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Pelajari cara menambahkan efek bayangan pada bentuk di Python menggunakan Aspose.Words untuk meningkatkan tampilan dokumen Anda.
 
 ### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
-Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
+Pelajari cara menambahkan efek bayangan pada elemen di C# dengan pandilan lengkap ini.
 
 ### [Menambahkan persegi panjang ke PDF dengan Aspose.Words – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Pelajari cara menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Words dengan contoh kode Python-net yang mudah diikuti.
@@ -77,6 +79,15 @@ Pelajari cara membuat diagram kolom di Python dengan Aspose.Words.
 Pelajari cara menambahkan efek bayangan pada bentuk Word menggunakan Aspose.Words.
 ### [Cara Menetapkan Bayangan pada Bentuk di Aspose.Words untuk Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python.
+
+### [Cara Membuat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Python.
+
+### [Buat Dokumen Word Kosong dan Tambahkan Bayangan pada Bentuk – Panduan Python Lengkap](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk Python-net.
+
+### [Buat Dokumen Word Kosong dan Tambahkan Bayangan pada Bentuk – Tutorial Lengkap](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Panduan lengkap untuk membuat dokumen Word kosong dan menambahkan bayangan pada bentuk menggunakan Aspose.Words untuk Python-net.
 
 ## Sumber Daya Tambahan
 

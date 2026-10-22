@@ -61,6 +61,12 @@ Naučte se, jak obnovit poškozené soubory DOCX v Pythonu pomocí Aspose.Words.
 Naučte se nastavit MarkdownSaveOptions pro export do LaTeXu v Pythonu pomocí Aspose.Words.
 ### [Jak obnovit soubory docx pomocí Aspose.Words pro Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
 Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python. Praktický návod s ukázkovým kódem.
+### [Povolení režimu obnovy pro otevření poškozeného dokumentu Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Naučte se, jak aktivovat režim obnovy a otevřít poškozený soubor Word pomocí Aspose.Words v Pythonu.
+### [Jak obnovit poškozené soubory docx pomocí Aspose.Words v Pythonu](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words v Pythonu. Praktický návod s ukázkovým kódem.
+### [Aspose Font Warning Handler – Detekce chybějících fontů a přizpůsobení načítání dokumentu](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Naučte se, jak detekovat chybějící fonty a přizpůsobit načítání dokumentu pomocí Aspose Font Warning Handler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

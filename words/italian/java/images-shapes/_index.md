@@ -28,6 +28,12 @@ Nell'ambito dell'elaborazione dei documenti, l'integrazione di immagini e forme 
 
 ## Tutorial disponibili
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Salvataggio di pagine e immagini personalizzate in Java con callback di Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Un tutorial sul codice per Aspose.Words Java
 
@@ -38,6 +44,7 @@ Impara a inserire una forma rettangolare con ombra in un documento Word usando A
 
 ### [Aggiungi ombra alla forma in Word – Guida completa Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Scopri come applicare ombre alle forme nei documenti Word usando Aspose.Words per Java.
+
 ### [Applicare l'effetto ombra a una forma in C# – Guida passo‑passo](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Scopri come aggiungere un effetto ombra a una forma usando Aspose.Words per C# con esempi pratici passo‑passo.
 ### [Come impostare l'ombra su una forma in Aspose.Words – Guida completa](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -105,6 +112,39 @@ Scopri come raggruppare forme e aggiungere un rettangolo in un documento Word us
 
 ### [Come nascondere una forma in Word con C# e Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Scopri come nascondere una forma in un documento Word usando C# e Aspose.Words.
+
+### [Come creare un documento Word vuoto e raggruppare forme in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Scopri come creare un documento Word vuoto e raggruppare forme usando Aspose.Words per Java.
+
+### [Crea un nuovo documento Word con un'immagine nascosta – guida passo‑a‑passo](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Scopri come inserire un'immagine nascosta in un documento Word usando Aspose.Words per Java.
+
+### [Come creare un documento vuoto e aggiungere forme con Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Scopri come creare un documento vuoto e inserire forme usando Aspose.Words per C#.
+
+### [Come inserire un'immagine in un file docx e nascondere l'immagine in Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Scopri come aggiungere un'immagine a un documento DOCX e nasconderla in Word usando Aspose.Words per Java.
+### [Come raggruppare le forme in Word con Java – guida completa](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Scopri come raggruppare più forme in un documento Word usando Aspose.Words per Java.
+### [Aggiungi ombra a una forma in Java – Guida completa di programmazione](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Scopri come aggiungere ombra a una forma nei documenti Word usando Aspose.Words per Java, con esempi di codice dettagliati.
+### [Crea documento Word vuoto con forma raggruppata – Guida Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Impara a creare un documento Word vuoto e aggiungere una forma raggruppata usando Aspose.Words per Java.
+
+### [Crea documento Word Java – Inserisci e nascondi immagini con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Impara a inserire immagini in un documento Word e nasconderle usando Aspose.Words per Java.
+
+### [Inserisci grafico a torta in Java – Esplodi, ruota e evidenzia le fette](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Impara a inserire un grafico a torta, esplodere, ruotare e evidenziare le fette in un documento Word usando Aspose.Words per Java.
+
+### [Crea documento Word vuoto con forme raggruppate in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Impara a creare un documento Word vuoto e aggiungere forme raggruppate usando Aspose.Words per Java.
+
+### [Tutorial Aspose.Words ActiveX – inserire un CommandButton con Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Scopri come aggiungere un CommandButton tramite ActiveX in un'applicazione Java usando Aspose.Words.
+
+### [Crea documento Word Java – nascondi forma e imposta colore di riempimento](./create-word-document-java-hide-shape-and-set-fill-color/)
+Impara a nascondere una forma e a impostare il colore di riempimento in un documento Word usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

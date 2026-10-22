@@ -26,6 +26,8 @@ Procesamiento de texto con notas al pie y al final es un recurso completo que le
 | [Cambiar separador de notas al pie en C# usando Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Aprenda a modificar el separador de notas al pie en documentos de Word con Aspose.Words para .NET usando C#. |
 | [Recuperar separador de nota al pie en C#](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Aprenda a obtener el separador de notas al pie en documentos Word con Aspose.Words para .NET usando C#. |
 
+| [Cómo cambiar el separador de notas al pie y personalizar su estilo en un documento Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Aprenda a modificar el separador de notas al pie y aplicar estilos personalizados en documentos Word con Aspose.Words para .NET. |
+| [Formato del separador de notas al pie en C# usando Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Aprenda a personalizar el separador de notas al pie en documentos de Word con C# y Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

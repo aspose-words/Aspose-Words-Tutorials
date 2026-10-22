@@ -46,9 +46,9 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET का उपयोग करके Word में चार्ट शीर्षक अपडेट करें और लेजेंड की दृश्यता टॉगल करें" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# का उपयोग करके Word चार्ट में हिस्टोग्राम बिन काउंट सेट करें और डेटा लेबल जोड़ें" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-
-
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# के साथ Word दस्तावेज़ में चार्ट लेबल को प्रोग्रामेटिक रूप से समायोजित करें" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | शीर्षक | विवरण |
 | --- | --- |
@@ -62,6 +62,8 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में पाई चार्ट बनाएं – चरण-दर-चरण गाइड](./create-pie-chart-word-in-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में पाई चार्ट बनाना सीखें। अपने Word दस्तावेज़ में डेटा विज़ुअलाइज़ेशन जोड़ें। |
 | [C# के साथ कॉलम चार्ट और फ़ॉर्मेटेड लेबल के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# का उपयोग करके कॉलम चार्ट और फ़ॉर्मेटेड डेटा लेबल के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
 | [Aspose.Words के साथ Word दस्तावेज़ में पाई चार्ट बनाना](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट कैसे बनाएं, सीखें। |
+| [Word दस्तावेज़ में रडार चार्ट बनाना – पूर्ण C# गाइड](./create-radar-chart-in-a-word-document-complete-c-guide/) | C# का उपयोग करके Word दस्तावेज़ में रडार चार्ट बनाने की पूरी गाइड। |
+| [C# के साथ रडार चार्ट बनाएं और वर्ड में जोड़ें](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके रडार चार्ट बनाना और वर्ड दस्तावेज़ में सम्मिलित करना सीखें। |
 | [चार्ट में XY अक्ष गुण परिभाषित करें](./define-xyaxis-properties/) इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में XY अक्ष गुणधर्मों को परिभाषित करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही। |
 | [चार्ट के अक्ष में दिनांक समय मान जोड़ें](./date-time-values-to-axis/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट के अक्ष में दिनांक और समय मान जोड़ना सीखें। |
 | [चार्ट में अक्ष के लिए संख्या प्रारूप](./number-format-for-axis/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट अक्ष संख्याओं को प्रारूपित करना सीखें। अपने दस्तावेज़ की पठनीयता और व्यावसायिकता को सहजता से बढ़ाएँ। |
@@ -81,6 +83,10 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में चार्ट के लिए कस्टम डेटा‑लेबल प्लेसमेंट](./custom-data-label-placement-for-charts-in-c/) | C# में Aspose.Words का उपयोग करके चार्ट डेटा‑लेबल को कस्टम स्थान पर रखने की चरण‑दर‑चरण गाइड। |
 | [C# के साथ Word लाइन चार्ट में श्रृंखला को फ़ॉर्मेट करें](./how-to-format-series-in-a-word-line-chart-with-c/) | .NET के लिए Aspose.Words का उपयोग करके Word लाइन चार्ट में डेटा श्रृंखला को फ़ॉर्मेट करने की चरण-दर-चरण गाइड। |
 | [Word में Aspose.Words के साथ हिस्टोग्राम बनाना](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words का उपयोग करके Word में हिस्टोग्राम बनाने की चरण-दर-चरण गाइड। |
+| [C# में अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# में Aspose.Words का उपयोग करके अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
+| [Aspose.Words रेडियल चार्ट उदाहरण: C# में ग्रेजुएशन सक्षम करें](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words में रेडियल चार्ट पर ग्रेजुएशन सक्षम करने का चरण-दर-चरण उदाहरण। |
+| [C# में विस्फोटित पाई चार्ट स्लाइस के साथ संशोधित दस्तावेज़ सहेजें](./save-modified-document-with-exploded-pie-chart-slices-in-c/) |  |
+| [Aspose.Words के साथ पाई चार्ट वाला Word दस्तावेज़ बनाएं](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट बनाने की चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,7 +92,8 @@ Naučte se, jak vylepšit formátování dokumentů pomocí Aspose.Words pro Jav
 Naučte se, jak vložit a konfigurovat ovládací prvky obsahu v dokumentu Word pomocí Aspose.Words pro Javu.
 ### [Generování obsahu v Aspose.Words pro Javu](./generating-table-of-contents/)
 Naučte se, jak generovat a upravovat obsah (TOC) pomocí Aspose.Words pro Javu. Vytvářejte bez námahy organizované a profesionální dokumenty.
-
+### [Jak vytvořit Word dokument programově pomocí Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Vytvořte Word dokument programově s Aspose.Words v Javě.
 ### [Ochrana dokumentů v Aspose.Words pro Javu](./protecting-documents/)
 Naučte se, jak zabezpečit dokumenty Java Word pomocí Aspose.Words pro Javu. Chraňte svá data heslem a dalšími funkcemi.
 
@@ -128,6 +129,10 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
+Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah.
+### [Vytvoření prázdného dokumentu Word v Javě s Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word.
+
 ### [PDF označování přístupnosti v Javě – Generování přístupných PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a generovat přístupné PDF dokumenty.
 ### [Vytvoření ActiveX tlačítka v DOCX v Javě – kompletní programovací průvodce](./create-docx-activex-button-in-java-complete-programming-guid/)
@@ -135,6 +140,13 @@ Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspo
 ### [Vytvoření prázdného dokumentu s interaktivním tlačítkem v aplikaci Word pomocí Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj interaktivní tlačítko příkazu.
 ### [Jak vytvořit prázdný dokument Word s textovým ovládacím prvkem](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Vytvoření dokumentu Word s prostým textovým ovládacím prvkem](./create-word-document-with-a-plain-text-content-control/)
+Naučte se vytvořit dokument Word s jednoduchým textovým ovládacím prvkem pomocí Aspose.Words pro Javu.
+
+### [Jak uložit docx pomocí DocumentBuilder a přidat text po ovládacím prvku](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Naučte se uložit soubor DOCX pomocí DocumentBuilder a vložit text za konkrétní kontrolní prvek.
+### [Vytvoření nového dokumentu Word – krok za krokem průvodce přidáním strukturovaného tagu](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Naučte se, jak vytvořit nový dokument Word a přidat do něj strukturovaný tag pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

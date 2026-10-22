@@ -43,6 +43,9 @@
 تذكر، الممارسة تُكسبك الإتقان، ومع Aspose.Words لجافا، ستتمكن من إنشاء وتعديل وتحسين مستنداتك باحترافية وفي وقت قصير. برمجة ممتعة!
 
 ## دروس تعليمية حول استخدام عناصر المستند
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [استخدام التعليقات في Aspose.Words للغة Java](./using-comments/)
 تعرّف على كيفية استخدام التعليقات في Aspose.Words لجافا. دليل خطوة بخطوة لإضافة التعليقات وتخصيصها في مستنداتك.
 ### [استخدام الحقول في Aspose.Words لـ Java](./using-fields/)
@@ -71,6 +74,8 @@
 تعلم خطوة بخطوة كيفية إضافة زر ActiveX إلى مستند Word وتحديد تسمية الزر باستخدام Aspose.Words لجافا.
 ### [كيفية إنشاء forms2olecontrol في الكود باستخدام Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 دليل خطوة بخطوة لإنشاء عنصر forms2olecontrol برمجيًا باستخدام Aspose.Words لجافا.
+### [إنشاء مستند Word فارغ وإضافة زر ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة زر ActiveX باستخدام Aspose.Words لجافا.
 ### [استخدام المراجعات في Aspose.Words لـ Java](./using-revisions/)
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
@@ -104,6 +109,16 @@
 تعرف على طريقة إنشاء مخطط شعاعي داخل مستند Word باستخدام مكتبة Aspose.Words لجافا.
 ### [إنشاء مستند Word برمجيًا وإدراج زر](./create-word-document-programmatically-and-insert-a-button/)
 ### [كيفية إنشاء مستند Word فارغ وإضافة مخطط راداري في C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [كيفية إنشاء ملف docx يحتوي على ActiveX باستخدام Java و Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+### [كيفية إدراج مخطط دائري في مستند Word باستخدام Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
+### [كيفية إنشاء زر أمر ActiveX في جافا](./how-to-create-activex-command-button-in-java/)
+تعلم كيفية إنشاء زر أمر ActiveX في مستندات Aspose.Words باستخدام جافا.
+### [كيفية إدراج مخطط دائري في Word – إضافة نسبة تسمية البيانات](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+تعلم كيفية إدراج مخطط دائري في مستند Word وإضافة نسبة تسمية البيانات باستخدام Aspose.Words لجافا.
+### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
+### [كيفية تفجير شريحة فطيرة في Java – دليل Aspose.Words للمخططات](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+تعلم كيفية تفجير شريحة فطيرة في مخططات Aspose.Words باستخدام Java. دليل خطوة بخطوة لإنشاء مخططات تفاعلية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

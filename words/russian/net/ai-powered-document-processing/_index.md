@@ -91,6 +91,17 @@
 | [Как переписать абзац с помощью локальной LLM на C# – Полное руководство](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Узнайте, как использовать локальную LLM в C# для переписывания абзацев, улучшая содержание и стиль текста. |
 | [Как использовать AI‑сумматор документов в C#](./how-to-use-an-ai-document-summarizer-in-c/) | Полное руководство по использованию AI‑сумматора документов в C# с Aspose.Words. |
 | [Как перевести docx на французский с помощью Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Полное руководство по автоматическому переводу документов DOCX на французский язык с использованием AI Aspose.Words. |
+| [Как перевести docx на французский с помощью Aspose.Words AI в C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Полное руководство по переводу DOCX‑файлов на французский язык с использованием Aspose.Words и ИИ в C#. |
+| [Как резюмировать файлы docx с помощью Aspose.Words AI на C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Подробное руководство по созданию резюме docx‑файлов с помощью Aspose.Words AI на C#. |
+| [Как резюмировать документ Word с провайдерами ИИ на C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Пошаговое руководство по резюмированию Word‑документов с использованием различных ИИ‑провайдеров в C#. |
+| [Как резюмировать документ Word с Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Пошаговое руководство по резюмированию документов Word с использованием AI Aspose.Words. |
+| [Как использовать переводчик для автоматизации перевода документов в C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Узнайте, как автоматизировать перевод документов с помощью Aspose.Words и Translator в C#. |
+| [Резюмирование документа Word с ИИ‑резюмированием](./summarize-word-document-with-ai-document-summarization/) | Полное руководство по резюмированию документов Word с использованием ИИ‑технологий. |
+| [Как перевести docx на французский с помощью ИИ в C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу DOCX‑файлов на французский язык с использованием ИИ и Aspose.Words в C#. |
+| [Добавить резюме в документ Word с помощью Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Узнайте, как автоматически добавить резюме в документ Word, используя возможности AI Aspose.Words. |
+| [Резюмирование документа Word на C# – полное руководство по Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Полное пошаговое руководство по использованию Aspose.Words AI для резюмирования документов Word на C#. |
+| [Перевод DOCX на французский с помощью Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Узнайте, как использовать Aspose.Words AI для автоматического перевода файлов DOCX на французский язык. |
+| [Создайте пустой документ Word и переведите его на французский](./create-a-blank-word-document-and-translate-it-to-french/) | Узнайте, как создать пустой документ Word и автоматически перевести его на французский с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

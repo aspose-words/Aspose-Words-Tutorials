@@ -73,6 +73,9 @@ LLM'yi yapılandırarak AI destekli metin değiştirme işlemini DOCX belgelerin
 ### [Özel AI Modeli Oluşturun – Java’da Word Paragraflarını Düzenleyin](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Java’da Aspose.Words kullanarak özel bir AI modeli oluşturup, Word belgelerindeki paragrafları otomatik olarak düzenleyin.
 
+### [Java'da Dilbilgisi Denetleyicisi Oluşturma – Tam Adım Adım Kılavuz](./build-grammar-checker-java-complete-step-by-step-guide/)
+Java ve Aspose.Words kullanarak adım adım bir dilbilgisi denetleyicisi oluşturun ve metin doğrulamasını otomatikleştirin.
+
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)
 - [Aspose.Words for API Referansı](https://reference.aspose.com/words/java/)

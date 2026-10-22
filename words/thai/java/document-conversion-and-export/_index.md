@@ -94,6 +94,16 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words
 ### [วิธีแปลง docx เป็น markdown ด้วย Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างง่ายด้วย Aspose.Words สำหรับ Java
+### [แปลง DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการส่งออกสมการ](./convert-docx-to-markdown-complete-guide-with-math-export/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์อย่างครบถ้วน
+
+### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./convert-docx-to-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Java อย่างละเอียดตามขั้นตอน
+
+### [บันทึก docx เป็น markdown: แปลง docx เป็น markdown ด้วย Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown อย่างง่ายด้วย Aspose.Words
+### [สร้าง markdown จาก docx ด้วย Java – คู่มือเต็ม Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+เรียนรู้วิธีสร้างไฟล์ markdown จาก docx ด้วย Java โดยใช้ Aspose.Words
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -170,9 +180,12 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
 ### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือเต็ม Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างเต็มรูปแบบด้วย Aspose.Words สำหรับ Java
+### [แปลง docx เป็น PDF ใน Java – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Java อย่างละเอียดตามขั้นตอน
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
 ### [ฝังรูปภาพเป็น base64 เมื่อแปลง DOCX เป็น Markdown ใน Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 เรียนรู้วิธีฝังรูปภาพเป็น Base64 ระหว่างการแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java
 
@@ -214,6 +227,7 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ใน Java – คู่มือเต็ม](./create-accessible-pdf-from-docx-in-java-full-guide/)
 เรียนรู้วิธีแปลง DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้เครื่องมือช่วยเหลือโดยใช้ Aspose.Words for Java อย่างละเอียด
+
 ### [docx to pdf tutorial – Convert Word to PDF with LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย LowCode โดยใช้ Aspose.Words for Java
 
@@ -348,6 +362,14 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ใน Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ด้วย Aspose.Words for Java
+
+### [วิธีสร้างแผนภูมิวงกลมใน Word และบันทึกเป็น PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java และบันทึกเป็นไฟล์ PNG
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือขั้นตอนเต็ม](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX อย่างละเอียดด้วยขั้นตอนครบถ้วนใน Aspose.Words for Java
+
+### [วิธีบันทึก PNG จาก Word – คู่มือขั้นตอนเต็ม](./how-to-save-png-from-word-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PNG จากเอกสาร Word อย่างละเอียดด้วยขั้นตอนครบถ้วน
 
 ## คำถามที่พบบ่อย
 

@@ -40,7 +40,9 @@ Whether you need to replace specific words, update text templates, or customize 
 | [Replace text in docx with C# – Full Step‑by‑Step Guide](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Learn how to replace text in DOCX files using C# with Aspose.Words for .NET in this comprehensive step‑by‑step guide. |
 | [How to Rewrite Paragraph with AI in C# – Full Guide](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Learn how to use AI to rewrite paragraphs in Word documents using C# and Aspose.Words. Step-by-step guide with code examples. |
 | [How to generate document template and fill it with data in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Learn how to generate a document template and populate it with data using Aspose.Words for .NET in C#. |
+| [Automate word document generation with Aspose.Words in C#](./automate-word-document-generation-with-aspose-words-in-c/) | Learn how to automate Word document generation using Aspose.Words for .NET in C#. Follow this step-by-step guide. |
 
+| [How to replace placeholders in docx files with Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Learn how to replace placeholders in DOCX files using Aspose.Words for .NET with a step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,11 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 完整指南展示如何在 Java 中使用 Aspose.Words 创建带有 ActiveX 按钮的 docx 文档。
 ### [使用 Aspose.Words 在 Word 文档中添加内容控件](./add-content-control-in-word-document-with-aspose-words/)
 学习如何使用 Aspose.Words 在 Word 文档中添加和管理内容控件。
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+### [在 Aspose.Words for Java 中创建空白 Word 文档](./create-blank-word-document-in-java-with-aspose-words/)
+学习如何使用 Aspose.Words for Java 在 Java 中快速创建空白的 Word 文档。
+
 ### [在 Aspose.Words for Java 中使用清理选项](./using-cleanup-options/)
 使用 Aspose.Words for Java 清理选项增强文档清晰度。了解如何删除空段落、未使用的区域等。
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
@@ -80,6 +85,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 掌握 Aspose.Words for Java 中的文档范围操作。通过这份全面的指南学习如何删除、提取和格式化文本。
 ### [在 Aspose.Words for Java 中使用结构化文档标签（SDT）](./using-structured-document-tags/)
 通过本指南学习如何在 Aspose.Words for Java 中使用结构化文档标签 (SDT)。创建、修改 SDT 并将其绑定到自定义 XML 数据。
+### [在 Aspose.Words for Java 中创建新 Word 文档 – 添加结构化标签的分步指南](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+本教程逐步演示如何使用 Aspose.Words for Java 创建新 Word 文档并添加结构化标签，实现文档结构化管理。
 ### [在 Aspose.Words for Java 中使用样式和主题](./using-styles-and-themes/)
 学习如何使用 Aspose.Words for Java 增强文档格式。本指南包含源代码示例，全面介绍样式、主题等功能。
 ### [在 Aspose.Words for Java 中生成目录](./generating-table-of-contents/)
@@ -109,13 +116,16 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 ### [在 Aspose.Words for Java 中使用文档属性](./using-document-properties/)
 使用 Aspose.Words for Java 优化文档管理。在本教程中，您将学习如何使用文档属性、添加自定义元数据等。
 ### [在 Aspose.Words for Java 中使用 Web 扩展](./using-web-extensions/)
-使用 Aspose.Words for Java 中的 Web 扩展功能增强文档。学习如何无缝集成基于 Web 的内容。 
 ### [在 Java 中进行 PDF 可访问性标记 – 生成可访问的 PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 学习如何使用 Aspose.Words for Java 为 PDF 文档添加可访问性标签，生成符合标准的可访问 PDF。
 ### [使用 Aspose.Words 在 Java 中创建 Word 文档](./how-to-create-a-word-document-in-java-with-aspose-words/)
 学习如何使用 Aspose.Words for Java 从头创建并保存 Word 文档的完整步骤和示例代码。
 ### [在 Aspose.Words for Java 中创建带文本控件的空白 Word 文档](./how-to-create-a-blank-word-document-with-a-text-control/)
 使用 Aspose.Words for Java 创建一个带文本控件的空白 Word 文档，以实现表单功能。
+### [使用 Aspose.Words 程序化创建 Word 文档](./how-to-create-word-document-programmatically-with-aspose-wor/)
+了解如何使用 Aspose.Words 在 Java 中自动生成 Word 文档的完整步骤和代码示例。
+### [使用 DocumentBuilder 保存 docx 并在控件后添加文本](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+学习如何使用 DocumentBuilder 保存 docx 文件，并在特定控件后插入文本。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

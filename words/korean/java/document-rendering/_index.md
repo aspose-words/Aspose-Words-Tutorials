@@ -47,6 +47,8 @@ Aspose.Words for Java에서 누락된 글꼴을 감지하고 추적하는 경고
 Aspose.Words에서 누락된 글꼴을 감지하고 경고를 캡처하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words와 함께 Java에서 누락된 글꼴 찾기 – 완전 가이드](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용하여 문서에서 누락된 글꼴을 식별하고 대체하는 방법을 단계별로 안내합니다.
+### [Java에서 경고 콜백 등록 – 완전 프로그래밍 가이드](./register-warning-callback-in-java-complete-programming-guide/)
+Aspose.Words for Java에서 경고 콜백을 등록하고 처리하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

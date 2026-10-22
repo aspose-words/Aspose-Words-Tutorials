@@ -61,6 +61,12 @@
 تعلم كيفية تكوين خيارات حفظ Markdown لتوليد مستندات LaTeX باستخدام Aspose.Words في بايثون.
 ### [كيفية استعادة ملفات docx باستخدام Aspose.Words للبايثون](./how-to-recover-docx-files-with-aspose-words-for-python/)
 تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع مثال عملي.
+### [تمكين وضع الاسترداد لفتح مستند Word تالف](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+تعرّف على كيفية تمكين وضع الاسترداد لفتح مستند Word تالف باستخدام Aspose.Words للبايثون. دليل خطوة بخطوة مع الكود المصدري.
+### [كيفية استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون خطوة بخطوة مع مثال عملي.
+### [معالج تحذير الخطوط في Aspose – اكتشاف الخطوط المفقودة وتخصيص تحميل المستند](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+تعلم كيفية التعامل مع تحذيرات الخطوط المفقودة وتخصيص عملية تحميل المستند باستخدام Aspose.Words في بايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

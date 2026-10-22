@@ -42,6 +42,9 @@ De codevoorbeelden in de tutorials helpen je de concepten te begrijpen en de fun
 | [Hoe maak je een inhoudsbesturingselement in C# met Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Leer hoe u met Aspose.Words in C# een inhoudsbesturingselement maakt en configureert. |
 | [Hoe een Word-document met SDT opslaan met Aspose.Words in C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Leer hoe u een Word-document met gestructureerde inhoudsbesturingselementen opslaat met Aspose.Words in C#. |
 
+| [Hoe een inhoudsbesturingselement toevoegen aan een Word-document met Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Leer hoe u een inhoudsbesturingselement in een Word-document toevoegt met Aspose.Words voor .NET. |
+| [Nieuw Word-document maken en inhoudsbesturingselement invoegen in C#](./create-new-word-document-and-insert-content-control-in-c/) | Leer hoe u een nieuw Word-document maakt en een inhoudsbesturingselement toevoegt met C# en Aspose.Words voor .NET. |
+| [Hoe maak je een Word-document met inhoudsbesturingselementen in C#](./how-to-create-word-document-with-content-controls-in-c/) | Leer hoe u een Word-document met inhoudsbesturingselementen maakt in C# met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
