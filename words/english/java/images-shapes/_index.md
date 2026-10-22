@@ -154,6 +154,15 @@ Learn how to insert images into a Word document and hide them using Aspose.Words
 ### [Insert Pie Chart in Java – Explode, Rotate & Highlight Slices](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Learn how to insert a pie chart, explode slices, rotate, and highlight specific sections in a Word document using Aspose.Words for Java.
 
+### [Create blank Word document with grouped shapes in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Learn how to create a blank Word document and add grouped shapes using Aspose.Words for Java.
+
+### [Aspose.Words ActiveX tutorial – insert a CommandButton with Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Learn how to insert a CommandButton into a Word document using Aspose.Words ActiveX with Java.
+
+### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
+Learn how to hide a shape and set its fill color in a Word document using Aspose.Words for Java.
+
 ## Additional Resources
 
 ### [Create a blank Word document with a hidden ellipse shape](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

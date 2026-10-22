@@ -126,6 +126,9 @@ Tanuld meg, hogyan hozhatsz létre Word dokumentumot kóddal az Aspose.Words has
 ### [Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel](./create-word-document-with-a-plain-text-content-control/)
 Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel.
 
+### [Üres Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./create-blank-word-document-in-java-with-aspose-words/)
+Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot Java-ban az Aspose.Words könyvtár segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

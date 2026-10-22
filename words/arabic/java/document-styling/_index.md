@@ -56,6 +56,8 @@
 تعلّم كيفية تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا مع أمثلة عملية.
 ### [تغيير تباعد الحواشي السفلية في DOCX – دليل كامل](./change-footnote-spacing-in-docx-complete-guide/)
 تعلّم كيفية تعديل تباعد الحواشي السفلية في مستندات DOCX باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تعديل الحاشية السفلية في جافا باستخدام Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+تعلّم كيفية تعديل الحواشي السفلية في المستندات باستخدام Aspose.Words لجافا مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

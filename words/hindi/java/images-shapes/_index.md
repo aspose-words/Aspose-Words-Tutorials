@@ -156,6 +156,15 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 ### [जावा में पाई चार्ट सम्मिलित करें – स्लाइस को विस्फोटित, घुमाएँ और हाइलाइट करें](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Aspose.Words for Java का उपयोग करके पाई चार्ट बनाना, स्लाइस को विस्फोटित, घुमाना और हाइलाइट करना सीखें।
 
+### [जावा में समूहित आकृतियों के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-with-grouped-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके समूहित आकृतियों के साथ एक खाली Word दस्तावेज़ बनाने का चरण-दर-चरण मार्गदर्शन।
+
+### [Aspose.Words ActiveX ट्यूटोरियल – Java के साथ CommandButton सम्मिलित करें](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Aspose.Words ActiveX ट्यूटोरियल में Java का उपयोग करके CommandButton कैसे जोड़ें, सीखें।
+
+### [जावा में Word दस्तावेज़ बनाएं – आकृति को छिपाएँ और भरने का रंग सेट करें](./create-word-document-java-hide-shape-and-set-fill-color/)
+जावा में Aspose.Words का उपयोग करके आकृति को छिपाने और भराव रंग सेट करने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

@@ -369,6 +369,8 @@ Pelajari cara membuat PDF aksesibel dari DOCX secara detail, langkah demi langka
 
 ### [Cara Menyimpan PNG dari Word – Panduan Lengkap Langkah demi Langkah](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Pelajari cara mengekspor halaman atau gambar Word menjadi file PNG dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+### [Buat markdown dari docx di Java – panduan lengkap Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Pelajari cara mengonversi file DOCX menjadi markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

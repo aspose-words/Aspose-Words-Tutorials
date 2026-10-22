@@ -136,6 +136,15 @@ Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając
 ### [Wstaw wykres kołowy w Javie – rozdziel, obróć i podświetl fragmenty](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz pusty dokument Word z grupowanymi kształtami w Javie](./create-blank-word-document-with-grouped-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+
+### [Samouczek Aspose.Words ActiveX – wstaw przycisk CommandButton w Javie](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Dowiedz się, jak dodać przycisk CommandButton przy użyciu ActiveX w aplikacji Java z Aspose.Words.
+
+### [Utwórz dokument Word w Javie – ukryj kształt i ustaw kolor wypełnienia](./create-word-document-java-hide-shape-and-set-fill-color/)
+Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumencie Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

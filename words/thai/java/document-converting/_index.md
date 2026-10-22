@@ -135,6 +135,8 @@ weight: 14
 
 ### [วิธีบันทึก Markdown เป็น DOCX ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-save-markdown-as-docx-using-java-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับ
+### [แปลง Markdown เป็น DOCX ด้วย Aspose.Words for Java – คู่มือขั้นตอนโดยละเอียด](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX อย่างง่ายด้วย Aspose.Words for Java.
 
 ## คำถามที่พบบ่อย
 

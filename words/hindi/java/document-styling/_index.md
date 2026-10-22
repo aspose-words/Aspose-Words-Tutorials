@@ -60,6 +60,7 @@ Java के लिए Aspose.Words का उपयोग करके Word च�
 
 ### [DOCX में फुटनोट स्पेसिंग बदलें – पूर्ण गाइड](./change-footnote-spacing-in-docx-complete-guide/)
 DOCX फ़ाइल में फुटनोट की दूरी को समायोजित करने के लिए चरण-दर-चरण मार्गदर्शिका। Aspose.Words for Java के साथ कोड उदाहरण।
+### [जावा में Aspose.Words के साथ फुटनोट संपादित करना](./how-to-edit-footnote-in-java-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

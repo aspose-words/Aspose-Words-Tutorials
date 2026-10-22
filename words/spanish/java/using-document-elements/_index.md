@@ -56,6 +56,8 @@ Aprenda a crear documentos DOCX con controles ActiveX usando Java y Aspose.Words
 
 ### [Crear un documento Word en blanco y agregar un botón ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Aprenda a crear un documento Word vacío y añadir un botón ActiveX usando Aspose.Words para Java.
+### [Cómo explotar una porción de pastel en Aspose.Words para Java](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aprenda a destacar una porción de gráfico circular en Aspose.Words para Java con este tutorial paso a paso.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)

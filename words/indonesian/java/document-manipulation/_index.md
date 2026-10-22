@@ -126,6 +126,8 @@ Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words
 Pelajari cara menambahkan kontrol konten ke dokumen Word menggunakan Aspose.Words untuk Java.
 ### [Cara menyimpan docx dengan DocumentBuilder dan menambahkan teks setelah kontrol](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Pelajari cara menyimpan file docx menggunakan DocumentBuilder dan menambahkan teks setelah kontrol dalam dokumen.
+### [Membuat Dokumen Word Kosong di Java dengan Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dalam beberapa langkah sederhana.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

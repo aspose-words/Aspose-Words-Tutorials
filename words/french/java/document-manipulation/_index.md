@@ -63,6 +63,8 @@ Apprenez à générer automatiquement des documents Word avec Aspose.Words en Ja
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [Créer un document Word vierge en Java avec Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Apprenez à créer un document Word vierge en Java à l'aide d'Aspose.Words.
 ### [Utilisation des options de nettoyage dans Aspose.Words pour Java](./using-cleanup-options/)
 Améliorez la clarté de vos documents grâce aux options de nettoyage d'Aspose.Words pour Java. Apprenez à supprimer les paragraphes vides, les zones inutilisées, etc.
 ### [Utilisation des champs dans Aspose.Words pour Java](./using-fields/)

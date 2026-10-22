@@ -166,6 +166,7 @@ Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Asp
 Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
 ### [Vytvoření prázdného dokumentu Word v Javě – Kompletní průvodce Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem průvodcem.
+### [Jak nastavit možnosti v Aspose.Words pro Javu – kompletní průvodce](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ### [Aspose – Průvodce nahrazením fontů – Řešení chybějících fontů](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Naučte se, jak detekovat a nahradit chybějící fonty při práci s dokumenty v Aspose.Words.

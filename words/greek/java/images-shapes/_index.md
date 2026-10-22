@@ -137,6 +137,15 @@
 ### [Εισαγωγή διαγράμματος πίτας σε Java – Έκρηξη, Περιστροφή & Επισήμανση Τμημάτων](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε ένα διάγραμμα πίτας, με εκρήξεις, περιστροφή και επισήμανση τμημάτων, χρησιμοποιώντας Aspose.Words για Java.
 
+### [Δημιουργία εγγράφου Word Java – απόκρυψη σχήματος και ορισμός χρώματος γεμίσματος](./create-word-document-java-hide-shape-and-set-fill-color/)
+Μάθετε πώς να κρύψετε σχήματα και να ορίσετε χρώμα γεμίσματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένα σχήματα σε Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένα σχήματα χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Aspose.Words ActiveX σεμινάριο – εισαγωγή CommandButton με Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Μάθετε πώς να ενσωματώσετε ένα CommandButton ActiveX σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 ### [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

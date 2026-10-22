@@ -121,6 +121,8 @@
 เรียนรู้วิธีแทรกแผนภูมิวงกลมใน Aspose.Words สำหรับ Java พร้อมเพิ่มป้ายข้อมูลเปอร์เซ็นต์
 ### [วิธีเพิ่มปุ่มในเอกสาร Word – คู่มือทีละขั้นตอน](./how-to-add-button-to-word-document-step-by-step-guide/)
 เรียนรู้วิธีแทรกปุ่มลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายและเป็นขั้นตอน
+### [วิธีแยกชิ้นพายใน Java – บทช่วยสอนแผนภูมิ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+เรียนรู้วิธีแยกชิ้นพายในแผนภูมิ Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

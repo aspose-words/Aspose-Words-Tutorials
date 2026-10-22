@@ -43,6 +43,8 @@ Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą 
 Dowiedz się, jak dodać podpis cyfrowy do dokumentu Word przy użyciu Aspose.Words, aby zapewnić integralność i autentyczność dokumentu.
 ### [Jak cyfrowo podpisać dokument Word przy użyciu Javy](./how-to-digitally-sign-word-document-using-java/)
 Dowiedz się, jak dodać cyfrowy podpis do dokumentu Word w Javie, zapewniając integralność i autentyczność pliku.
+### [Jak podpisać plik docx w Javie – przewodnik krok po kroku](./how-to-sign-docx-in-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób dodać podpis cyfrowy do plików docx w Javie, korzystając z Aspose.Words.
 ### [Redakcja dokumentów i ochrona danych](./document-redaction-data-protection/)
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
 ### [Podpisywanie dokumentu Word w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./sign-word-document-in-java-with-aspose-words-complete-guide/)

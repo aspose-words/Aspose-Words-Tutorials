@@ -57,6 +57,8 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 学习如何使用 Aspose.Words for Java 为文档脚注应用样式，包括字体、颜色和位置的自定义。
 ### [更改 DOCX 脚注间距 – 完整指南](./change-footnote-spacing-in-docx-complete-guide/)
 学习如何使用 Aspose.Words for Java 更改 DOCX 文档中脚注的间距。提供源代码示例和完整步骤。
+### [如何在 Java 中使用 Aspose.Words 编辑脚注](./how-to-edit-footnote-in-java-with-aspose-words/)
+学习如何使用 Aspose.Words for Java 编辑文档中的脚注，包含示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

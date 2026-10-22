@@ -65,6 +65,8 @@ Aprenda a aplicar estilo a notas al pie en documentos Word con Aspose.Words para
 
 ### [Cambiar el espaciado de notas al pie en DOCX – Guía completa](./change-footnote-spacing-in-docx-complete-guide/)
 Aprenda a modificar el espaciado de notas al pie en documentos DOCX con Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+### [Cómo editar notas al pie en Java con Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Aprenda a modificar notas al pie en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

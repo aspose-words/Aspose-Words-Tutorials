@@ -386,6 +386,8 @@ weight: 22
 
 ### [Как сохранить PNG из Word – Полное пошаговое руководство](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Узнайте, как экспортировать страницы Word в PNG‑изображения с помощью Aspose.Words for Java, шаг за шагом.
+### [Создание markdown из docx в Java – полное руководство Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Преобразуйте DOCX в markdown в Java с помощью Aspose.Words, пошаговое полное руководство.
 
 ## Часто задаваемые вопросы
 

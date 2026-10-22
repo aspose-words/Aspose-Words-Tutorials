@@ -121,6 +121,8 @@ Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met 
 Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
 ### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
 Leer hoe u een klikbare knop in een Word‑document kunt invoegen met Aspose.Words voor Java in deze stapsgewijze tutorial.
+### [Hoe een taartpunt te exploderen in Java – Aspose.Words diagramtutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Leer hoe u een taartpunt kunt laten exploderen in een diagram met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

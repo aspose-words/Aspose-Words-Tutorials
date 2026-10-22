@@ -52,7 +52,7 @@ Az alábbiakban egy tömör áttekintést talál a tipikus munkafolyamatról. (A
 
 ## Dokumentumok betöltése és mentése – A fő koncepciók
 
-### A dokumentumbetöltés erejének feltárása
+### A dokumentummetöltés erejének feltárása
 
 A dokumentumműveletek valódi elsajátításához először meg kell érteni a dokumentumok hatékony betöltésének művészetét. Az Aspose.Words for Java ezt a feladatot rendkívül egyszerűvé teszi, és oktatóanyagaink minden lépésben végigkísérik.
 
@@ -168,6 +168,7 @@ Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose
 ### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Hogyan töltsünk be fájlt könyvtárból az Aspose.Words segítségével C#‑ban](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Hogyan állítsuk be a beállításokat az Aspose.Words for Java‑ban – teljes útmutató](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

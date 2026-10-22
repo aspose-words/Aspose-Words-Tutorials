@@ -120,6 +120,8 @@ Pelajari cara membuat tombol perintah ActiveX di Aspose.Words untuk Java. Tambah
 Pelajari cara menyisipkan diagram pai di Word dengan menambahkan label data persentase menggunakan Aspose.Words untuk Java.
 ### [Cara Menambahkan Tombol ke Dokumen Word – Panduan Langkah demi Langkah](./how-to-add-button-to-word-document-step-by-step-guide/)
 Pelajari cara menambahkan tombol ke dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
+### [Cara meledakkan irisan pai di Java – tutorial diagram Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Pelajari cara meledakkan irisan pai dalam diagram menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

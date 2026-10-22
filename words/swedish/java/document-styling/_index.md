@@ -58,6 +58,9 @@ Lär dig hur du exploderar en diagramdel i Word och anpassar dess stil med Aspos
 ### [Ändra fotnotsavstånd i DOCX – Komplett guide](./change-footnote-spacing-in-docx-complete-guide/)
 Lär dig hur du justerar avståndet för fotnoter i DOCX-dokument med Aspose.Words för Java. Steg‑för‑steg‑guide med kodexempel.
 
+### [Redigera fotnot i Java med Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Lär dig hur du redigerar fotnoter i dokument med Aspose.Words för Java. Steg-för-steg-guide med källkod.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

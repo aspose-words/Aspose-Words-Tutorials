@@ -134,6 +134,15 @@ Aprenda a criar um documento Word em branco contendo formas agrupadas usando Asp
 ### [Inserir Gráfico de Pizza em Java – Explodir, Rotacionar e Realçar Fatias](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Aprenda a inserir um gráfico de pizza em documentos Word usando Aspose.Words para Java, incluindo explosão, rotação e realce de fatias.
 
+### [Criar documento Word em branco com formas agrupadas em Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word vazio e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Tutorial Aspose.Words ActiveX – inserir um CommandButton com Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Um tutorial de código para inserir um CommandButton usando Aspose.Words ActiveX com Java.
+
+### [Criar documento Word Java – ocultar forma e definir cor de preenchimento](./create-word-document-java-hide-shape-and-set-fill-color/)
+Aprenda a ocultar uma forma e definir sua cor de preenchimento em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ### [Criar um documento Word em branco com uma forma elipse oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

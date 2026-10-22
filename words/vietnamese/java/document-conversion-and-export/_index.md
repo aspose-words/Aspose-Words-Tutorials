@@ -365,6 +365,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có kh
 
 ### [Cách Lưu PNG từ Word – Hướng Dẫn Chi Tiết Từng Bước](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành ảnh PNG bằng Aspose.Words for Java trong từng bước cụ thể.
+### [Tạo markdown từ docx trong Java – hướng dẫn đầy đủ Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown trong Java bằng Aspose.Words.
 
 ## Câu hỏi thường gặp
 

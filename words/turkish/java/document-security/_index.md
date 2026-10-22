@@ -55,6 +55,8 @@ C# ve X509 sertifikasıyla Word belgesini nasıl imzalayacağınızı adım adı
 Aspose.Words for Java kullanarak Word belgesine dijital imza eklemeyi adım adım öğrenin.
 ### [Java’da Dijital İmza PFX Dosyası – Tam Kılavuz](./digital-signature-pfx-file-in-java-complete-guide/)
 Java’da Aspose.Words kullanarak PFX dosyasıyla dijital imza oluşturma ve doğrulama adımlarını öğrenin.
+### [Java'da docx dosyasını imzalama – adım adım rehber](./how-to-sign-docx-in-java-step-by-step-guide/)
+Java için Aspose.Words kullanarak docx dosyalarını nasıl imzalayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

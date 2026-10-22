@@ -123,6 +123,8 @@ Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX ave
 Apprenez à insérer un graphique circulaire dans Word et à afficher les pourcentages sur les étiquettes de données.
 ### [Comment ajouter un bouton à un document Word – Guide étape par étape](./how-to-add-button-to-word-document-step-by-step-guide/)
 Apprenez à insérer un bouton interactif dans un document Word avec Aspose.Words pour Java, étape par étape.
+### [Comment exploser une part de tarte en Java – Tutoriel de graphique Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Apprenez à faire exploser une part de diagramme circulaire dans un graphique Aspose.Words en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

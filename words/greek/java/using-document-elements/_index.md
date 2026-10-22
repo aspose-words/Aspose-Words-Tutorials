@@ -123,6 +123,8 @@
 Μάθετε πώς να δημιουργήσετε και να αρχικοποιήσετε ένα DocumentBuilder για νέο έγγραφο με το Aspose.Words για Java.
 ### [Χρήση διαγράμματος πίτας στο Aspose.Words για Java – προσθήκη ποσοστού ετικέτας δεδομένων](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Μάθετε πώς να εισάγετε διάγραμμα πίτας στο Word και να προσθέσετε ποσοστά ετικετών δεδομένων με το Aspose.Words για Java.
+### [Πώς να εκτοξεύσετε φέτα πίτας σε Java – Εκπαίδευση διαγράμματος Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Μάθετε πώς να εκτοξεύσετε φέτα πίτας σε διάγραμμα Word χρησιμοποιώντας Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

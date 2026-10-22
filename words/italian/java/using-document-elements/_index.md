@@ -123,6 +123,8 @@ Scopri come creare un documento DOCX con contenuti ActiveX usando Java e Aspose.
 Impara a inserire un grafico a torta in un documento Word con Aspose.Words per Java.
 ### [Come inserire un grafico a torta in Word – aggiungere la percentuale dell'etichetta dati](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Scopri come inserire un grafico a torta in Word e aggiungere le percentuali alle etichette dei dati con Aspose.Words per Java.
+### [Come far esplodere una fetta di torta in Java – tutorial su grafici Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Scopri come far esplodere una fetta di grafico a torta in Aspose.Words per Java con questo tutorial passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

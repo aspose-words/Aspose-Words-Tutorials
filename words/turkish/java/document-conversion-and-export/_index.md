@@ -136,6 +136,8 @@ Word belgelerini Markdown formatına kaydetmeyi adım adım öğrenin ve Java’
 Aspose.Words kullanarak docx dosyalarını markdown formatına dönüştürmeyi adım adım öğrenin.
 ### [DOCX'i Markdown'a Dönüştürme – Matematik Dışa Aktarmalı Tam Kılavuz](./convert-docx-to-markdown-complete-guide-with-math-export/)
 Aspose.Words for Java kullanarak DOCX dosyalarını Markdown formatına dönüştürün ve matematik denklemlerini LaTeX'e dışa aktarın.
+### [Java’da docx’ten markdown oluşturma – tam Aspose.Words rehberi](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aspose.Words for Java kullanarak docx dosyasını markdown’a dönüştürün ve tam kılavuzu izleyin.
 
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.

@@ -55,6 +55,8 @@
 เรียนรู้วิธีลงลายเซ็นดิจิทัลในไฟล์ Word ด้วย Aspose.Words for Java อย่างละเอียด พร้อมตัวอย่างโค้ด
 ### [ไฟล์ PFX ลายเซ็นดิจิทัลใน Java – คู่มือฉบับสมบูรณ์](./digital-signature-pfx-file-in-java-complete-guide/)
 เรียนรู้วิธีใช้ไฟล์ PFX เพื่อลายเซ็นดิจิทัลใน Java ด้วย Aspose.Words พร้อมขั้นตอนและโค้ดตัวอย่าง
+### [วิธีลงลายเซ็น docx ใน Java – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-sign-docx-in-java-step-by-step-guide/)
+เรียนรู้วิธีลงลายเซ็นไฟล์ docx ด้วย Java อย่างละเอียดด้วยขั้นตอนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

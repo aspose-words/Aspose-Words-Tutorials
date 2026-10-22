@@ -54,6 +54,8 @@ Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word b
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Cách làm nổ miếng bánh pie trong Java – Hướng dẫn biểu đồ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Hướng dẫn từng bước để làm nổ miếng bánh pie trong biểu đồ Aspose.Words cho Java.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)

@@ -135,6 +135,15 @@ Pelajari cara menyisipkan gambar ke dalam dokumen Word dan menyembunyikannya men
 ### [Sisipkan Diagram Pai di Java – Pecah, Putar & Sorot Irisan](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Pelajari cara menyisipkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java, termasuk memecah, memutar, dan menyorot irisan.
 
+### [Buat Dokumen Word Kosong dengan Bentuk Berkelompok di Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk yang dikelompokkan menggunakan Aspose.Words untuk Java.
+
+### [Tutorial Aspose.Words ActiveX – menyisipkan CommandButton dengan Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Pelajari cara menambahkan CommandButton ke dokumen menggunakan Aspose.Words ActiveX dengan Java.
+
+### [Buat dokumen Word Java – sembunyikan bentuk dan atur warna isi](./create-word-document-java-hide-shape-and-set-fill-color/)
+Pelajari cara menyembunyikan bentuk dan mengatur warna isi dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

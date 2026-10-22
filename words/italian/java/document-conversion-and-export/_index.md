@@ -370,6 +370,8 @@ Scopri come trasformare DOCX in PDF accessibili con istruzioni dettagliate e cod
 
 ### [Come salvare PNG da Word – Guida completa passo‑passo](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Scopri come estrarre e salvare immagini PNG da documenti Word usando Aspose.Words per Java in pochi semplici passaggi.
+### [Crea markdown da docx in Java – guida completa Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Scopri come convertire file DOCX in markdown usando Aspose.Words per Java con una guida completa passo‑passo.
 
 ## Domande frequenti
 

@@ -136,6 +136,15 @@ Naučte se, jak vložit obrázky do dokumentu Word a následně je skrýt pomoc�
 ### [Vložit koláčový graf v Javě – Rozdělit, otočit a zvýraznit výseče](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Naučte se, jak pomocí Aspose.Words pro Javu vložit koláčový graf, rozdělit výseče, otáčet je a zvýraznit vybrané části.
 
+### [Vytvořit prázdný Word dokument se seskupenými tvary v Javě](./create-blank-word-document-with-grouped-shapes-in-java/)
+Naučte se vytvořit prázdný dokument Word se seskupenými tvary v Javě.
+
+### [Aspose.Words ActiveX tutoriál – vložení CommandButtonu v Javě](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Naučte se, jak pomocí ActiveX a Aspose.Words v Javě vložit ovládací prvek CommandButton do dokumentu Word.
+
+### [Vytvořit Word dokument v Javě – skrýt tvar a nastavit barvu výplně](./create-word-document-java-hide-shape-and-set-fill-color/)
+Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

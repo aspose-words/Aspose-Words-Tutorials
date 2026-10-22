@@ -41,7 +41,7 @@ Bạn cần chuyển đổi tài liệu giữa các định dạng khác nhau? A
 
 ## Nâng cao kỹ năng xử lý tài liệu của bạn
 
-Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words for Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
+Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words cho Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
 
 ### Tính năng tài liệu nâng cao
 
@@ -121,6 +121,8 @@ Hướng dẫn tạo tài liệu Word trong Java bằng Aspose.Words.
 Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống với điều khiển văn bản](./how-to-create-a-blank-word-document-with-a-text-control/)
 ### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

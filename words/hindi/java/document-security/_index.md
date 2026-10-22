@@ -57,6 +57,8 @@ Aspose.Words का उपयोग करके Word दस्तावेज�
 Aspose.Words for Java के साथ Word दस्तावेज़ पर डिजिटल हस्ताक्षर जोड़ने की चरण-दर-चरण मार्गदर्शिका।
 ### [जावा में डिजिटल हस्ताक्षर PFX फ़ाइल – पूर्ण गाइड](./digital-signature-pfx-file-in-java-complete-guide/)
 जावा में Aspose.Words का उपयोग करके PFX फ़ाइल के साथ डिजिटल हस्ताक्षर कैसे लागू करें, इस पूर्ण गाइड में सीखें।
+### [Java में docx पर हस्ताक्षर कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-sign-docx-in-java-step-by-step-guide/)
+Java के लिए Aspose.Words के साथ docx फ़ाइलों पर डिजिटल हस्ताक्षर जोड़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

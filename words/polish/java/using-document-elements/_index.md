@@ -125,6 +125,8 @@ Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać
 Dowiedz się, jak wstawić wykres kołowy w dokumencie Word i dodać etykiety danych wyświetlające procenty.
 ### [Jak dodać przycisk do dokumentu Word – przewodnik krok po kroku](./how-to-add-button-to-word-document-step-by-step-guide/)
 Dowiedz się, jak wstawić przycisk do dokumentu Word przy użyciu Aspose.Words for Java, krok po kroku.
+### [Jak wyodrębnić kawałek wykresu kołowego w Javie – samouczek Aspose.Words chart](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Dowiedz się, jak wyodrębnić fragment wykresu kołowego w Aspose.Words for Java, aby podkreślić ważne dane w raporcie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,8 @@ Lär dig steg-för-steg hur du signerar Word-dokument digitalt med Aspose.Words.
 Lär dig hur du implementerar digitala signaturer i Word-dokument med Aspose.Words för Java. Säkerställ äkthet och integritet.
 ### [Digital signatur PFX-fil i Java – Komplett guide](./digital-signature-pfx-file-in-java-complete-guide/)
 Lär dig hur du använder en PFX-fil för digital signering av dokument i Java med Aspose.Words. Komplett steg-för-steg-guide med kodexempel.
+### [Hur du signerar docx i Java – steg‑för‑steg‑guide](./how-to-sign-docx-in-java-step-by-step-guide/)
+Lär dig hur du signerar docx‑filer i Java med Aspose.Words, steg för steg med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

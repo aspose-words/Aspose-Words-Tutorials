@@ -354,6 +354,9 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中将 DOCX 保存为 Markdown：使用 Aspose.Words 将 DOCX 转换为 Markdown](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 
 ### [在 Aspose.Words for Java 中将 Word 保存为 PNG – 完整分步指南](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [在 Java 中从 DOCX 创建 Markdown – 完整 Aspose.Words 指南](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+
+使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown，并保留格式和图像。
 
 ## 常见问题
 

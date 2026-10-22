@@ -124,6 +124,8 @@ Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words f
 Lär dig hur du skapar ett tomt Word-dokument och infogar en ActiveX-knapp med Aspose.Words för Java.
 ### [Hur man lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
 Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
+### [Hur man exploderar en pajskiva i Java – Aspose.Words diagramhandledning](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Lär dig hur du får en pajskiva att explodera i ett diagram med Aspose.Words för Java. Steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ## Tutoriales relacionados – Cargar, guardar y convertir
 ### [Cargando y guardando documentos HTML con Aspose.Words for Java](./loading-and-saving-html-documents/)
 
+### [Cómo establecer opciones en Aspose.Words for Java – guía completa](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
 ### [Trabajando con opciones de carga en Aspose.Words for Java](./using-load-options/)
 
 ### [Configurando opciones de carga RTF en Aspose.Words for Java](./configuring-rtf-load-options/)

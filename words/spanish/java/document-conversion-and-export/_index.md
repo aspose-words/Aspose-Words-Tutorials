@@ -375,6 +375,8 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos DOCX 
 
 ### [Cómo guardar PNG desde Word – Guía completa paso a paso](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Aprenda a extraer e guardar imágenes PNG de documentos Word usando Aspose.Words for Java en una guía paso a paso.
+### [Crear markdown a partir de docx en Java – guía completa de Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aprenda a generar archivos markdown a partir de documentos DOCX usando Aspose.Words for Java con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

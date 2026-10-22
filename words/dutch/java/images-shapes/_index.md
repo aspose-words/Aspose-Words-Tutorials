@@ -136,6 +136,14 @@ Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt m
 ### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
 
+### [Word-document maken in Java – vorm verbergen en vulkleur instellen](./create-word-document-java-hide-shape-and-set-fill-color/)
+Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Aspose.Words voor Java.
+
+### [Leeg Word-document maken met gegroepeerde vormen in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
+
+### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+
 ## Aanvullende bronnen
 
 ### [Maak een leeg Word-document met een verborgen ellipsvorm](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

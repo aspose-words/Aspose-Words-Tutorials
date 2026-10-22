@@ -380,6 +380,8 @@ Podrobný krok‑za‑krokem návod, jak převést DOCX na přístupný PDF s po
 
 ### [Jak uložit PNG z Wordu – kompletní průvodce krok za krokem](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words for Java uložit stránky dokumentu Word jako soubory PNG v několika řádcích kódu.
+### [Vytvořit markdown z docx v Javě – kompletní průvodce Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Naučte se převést DOCX na Markdown v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 

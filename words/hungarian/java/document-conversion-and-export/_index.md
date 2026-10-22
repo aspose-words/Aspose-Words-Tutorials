@@ -342,6 +342,8 @@ Tanuld meg, hogyan hozhatsz kördiagramot Wordben, majd exportáld PNG képként
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes lépésről‑lépésre útmutató](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
 ### [DOCX mentése markdownként: DOCX konvertálása markdownra az Aspose.Words használatával](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 ### [Hogyan mentse el a PNG-t a Word‑ből – Teljes lépésről‑lépésre útmutató](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [Markdown létrehozása DOCX‑ből Java‑ban – teljes Aspose.Words útmutató](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba Java‑val az Aspose.Words segítségével.
 
 ## Gyakran Ismételt Kérdések
 

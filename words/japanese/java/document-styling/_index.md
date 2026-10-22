@@ -58,6 +58,9 @@ Aspose.Words for Java を使用して脚注の書式設定方法を学びます�
 ### [DOCX の脚注間隔を変更する – 完全ガイド](./change-footnote-spacing-in-docx-complete-guide/)
 Aspose.Words for Java を使用して DOCX の脚注間隔を調整する方法をステップバイステップで解説します。
 
+### [JavaでAspose.Wordsを使用して脚注を編集する方法](./how-to-edit-footnote-in-java-with-aspose-words/)
+Aspose.Words for Java を使い、文書内の脚注を追加・編集・削除する手順を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

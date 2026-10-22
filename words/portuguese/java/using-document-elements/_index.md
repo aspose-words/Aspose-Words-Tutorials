@@ -124,6 +124,8 @@ Aprenda a inserir gráficos de pizza em documentos Word com Aspose.Words para Ja
 Aprenda a inserir botões interativos em documentos Word usando Aspose.Words para Java, passo a passo.
 ### [Como inserir gráfico de pizza no Word – adicionar rótulo de dados percentual](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Aprenda a inserir um gráfico de pizza no Word e adicionar rótulos de dados em percentagem passo a passo.
+### [Como explodir uma fatia de pizza em Java – Tutorial de gráfico Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aprenda a explodir fatias de pizza em gráficos de pizza usando Aspose.Words para Java. Guia passo a passo para melhorar visualizações.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

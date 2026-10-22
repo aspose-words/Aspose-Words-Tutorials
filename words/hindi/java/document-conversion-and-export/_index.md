@@ -121,6 +121,8 @@ Word दस्तावेज़ को Markdown में बदलते स�
 
 ### [Aspose.Words के साथ docx को markdown में बदलना](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलने की प्रक्रिया सीखें। कोड उदाहरण और चरण‑दर‑स्टेप गाइड।
+### [जावा में docx से markdown बनाएं – पूर्ण Aspose.Words गाइड](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+जावा में Aspose.Words का उपयोग करके docx फ़ाइल को markdown में बदलने की पूरी गाइड।
 
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)

@@ -122,6 +122,8 @@
 Узнайте, как добавить круговую диаграмму в документ Word и отобразить процентные подписи данных с помощью Aspose.Words для Java.
 ### [Как добавить кнопку в документ Word – пошаговое руководство](./how-to-add-button-to-word-document-step-by-step-guide/)
 Узнайте, как добавить интерактивную кнопку в документ Word с помощью Aspose.Words для Java. Пошаговое руководство.
+### [Как выделить кусок пирога в Java – учебник по диаграммам Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Узнайте, как программно выделять отдельный сектор круговой диаграммы в Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

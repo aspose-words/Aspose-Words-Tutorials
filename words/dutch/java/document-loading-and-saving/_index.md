@@ -101,6 +101,8 @@ Leer hoe je lettertype‑instellingen configureert en ontbrekende lettertypen be
 Leer hoe je een waarschuwingscallback registreert om ontbrekende lettertypen te detecteren tijdens het laden van documenten.
 ### [Lettertypevervangingswaarschuwingen loggen in Java met Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Ontdek hoe je lettertypevervangingswaarschuwingen kunt loggen en analyseren bij het verwerken van documenten met Aspose.Words for Java.
+### [Hoe opties instellen in Aspose.Words voor Java – volledige gids](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Leer hoe je alle laad‑ en opslaanopties configureert in Aspose.Words voor Java met uitgebreide voorbeelden.
 
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.

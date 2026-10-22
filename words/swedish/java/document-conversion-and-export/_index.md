@@ -146,6 +146,8 @@ Lär dig hur du konverterar Markdown-filer till DOCX med Aspose.Words för Java.
 
 ### [Hur man sparar Word som markdown med HTML‑tabeller i Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Lär dig hur du sparar ett Word‑dokument som markdown med HTML‑tabeller i Java med Aspose.Words.
+### [Skapa markdown från docx i Java – komplett Aspose.Words‑guide](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Lär dig hur du konverterar DOCX-filer till Markdown i Java med Aspose.Words i en fullständig steg‑för‑steg‑guide.
 
 ### [Spara dokument som PDF med Java – Komplett steg‑för‑steg‑guide](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 Lär dig hur du sparar ett Word‑dokument som PDF i Java med Aspose.Words i en komplett steg‑för‑steg‑guide.

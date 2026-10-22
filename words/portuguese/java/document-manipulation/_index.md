@@ -125,6 +125,8 @@ Aprenda a criar um documento Word em branco com um botão de comando interativo 
 Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
 ### [Como salvar docx com DocumentBuilder e adicionar texto após um controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Aprenda a salvar documentos DOCX usando DocumentBuilder e inserir texto imediatamente após um controle no Aspose.Words para Java.
+### [Criando documento Word em branco em Java com Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Aprenda a criar um documento Word vazio usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

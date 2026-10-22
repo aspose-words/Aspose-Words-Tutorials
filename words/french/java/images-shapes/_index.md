@@ -134,6 +134,15 @@ Apprenez à insérer des images dans un document Word Java et à les masquer à 
 ### [Insérer un diagramme circulaire en Java – Faire exploser, pivoter et mettre en évidence les tranches](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Apprenez à insérer un diagramme circulaire, à faire exploser, pivoter et mettre en évidence des tranches dans un document Word avec Aspose.Words pour Java.
 
+### [Créer un document Word vierge avec des formes groupées en Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Apprenez à créer un document Word vierge contenant des formes groupées en Java avec Aspose.Words.
+
+### [Tutoriel Aspose.Words ActiveX – insérer un CommandButton avec Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Apprenez à insérer un bouton de commande ActiveX dans un document Word en utilisant Java et Aspose.Words.
+
+### [Créer un document Word Java – masquer une forme et définir la couleur de remplissage](./create-word-document-java-hide-shape-and-set-fill-color/)
+Apprenez à masquer une forme et à définir sa couleur de remplissage dans un document Word en Java avec Aspose.Words.
+
 ## Ressources supplémentaires
 
 ### [Créer un document Word vierge avec une forme ellipse cachée](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -55,6 +55,8 @@
 Узнайте, как добавить цифровую подпись в документ Word, используя Aspose.Words для Java.
 ### [Полное руководство по файлу PFX цифровой подписи в Java](./digital-signature-pfx-file-in-java-complete-guide/)
 Узнайте, как создать и использовать PFX‑файл цифровой подписи в Java с помощью Aspose.Words, включая генерацию, импорт и подпись документов.
+### [Как подписать docx в Java – пошаговое руководство](./how-to-sign-docx-in-java-step-by-step-guide/)
+Пошаговое руководство по подписанию файлов docx в Java с использованием Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

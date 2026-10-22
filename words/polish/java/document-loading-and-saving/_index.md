@@ -91,6 +91,10 @@ Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumen
 
 ### [Utwórz Opcje Ładowania w Javie – Wykryj Brakujące Czcionki i Jak Ładować DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcionki i prawidłowo ładować pliki DOCX przy użyciu Aspose.Words.
+### [Jak ustawić opcje w Aspose.Words for Java – kompletny przewodnik](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Dowiedz się, jak konfigurować wszystkie opcje Aspose.Words for Java, aby kontrolować ładowanie, zapisywanie i konwersję dokumentów.
+
+Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak rozpoznawać tekst UTF‑8 w dokumentach RTF. Przewodnik krok po kroku z przykładami kodu.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)

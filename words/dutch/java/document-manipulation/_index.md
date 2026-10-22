@@ -125,6 +125,8 @@ Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoeg
 
 ### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
 Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken in Java met Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -177,6 +177,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ### [如何使用 Aspose.Words 在 C# 中从目录加载文件](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 了解如何在 C# 中使用 Aspose.Words 从指定目录加载文件。
+### [如何在 Aspose.Words for Java 中设置选项 – 完整指南](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+全面介绍在 Java 中使用 Aspose.Words 设置加载和保存选项的步骤与示例。
 
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)

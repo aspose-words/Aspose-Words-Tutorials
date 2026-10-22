@@ -95,6 +95,9 @@ Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng 
 ### [Khôi phục tài liệu Word bị hỏng – Hướng dẫn Java toàn diện](./recover-broken-word-document-complete-java-guide/)
 ### [Ghi lại Cảnh báo Thay thế Phông chữ – Phát hiện Phông chữ thiếu](./capture-font-substitution-warnings-detect-missing-fonts/)
 
+### [Cách đặt tùy chọn trong Aspose.Words cho Java – hướng dẫn đầy đủ](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Hướng dẫn chi tiết cách cấu hình các tùy chọn trong Aspose.Words cho Java.
+
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Lưu Tài Liệu Word – Đặt Cài Đặt Phông Chữ, Xử Lý Phông Chữ Thiếu](./save-word-document-set-font-settings-handle-missing-fonts/)

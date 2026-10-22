@@ -55,6 +55,8 @@ Leer hoe u met Aspose.Words digitale handtekeningen aan Word-documenten kunt toe
 Leer hoe u Word-documenten digitaal ondertekent met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
 ### [Digitale handtekening PFX-bestand in Java – Complete gids](./digital-signature-pfx-file-in-java-complete-guide/)
 Leer hoe u PFX-bestanden gebruikt voor digitale handtekeningen in Java met Aspose.Words. Volledige stapsgewijze gids.
+### [Hoe u docx in Java ondertekent – stap‑voor‑stap gids](./how-to-sign-docx-in-java-step-by-step-guide/)
+Leer hoe u docx‑bestanden in Java kunt ondertekenen met Aspose.Words, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

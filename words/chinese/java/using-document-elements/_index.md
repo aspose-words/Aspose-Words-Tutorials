@@ -124,6 +124,8 @@
 
 ### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
 本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
+### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

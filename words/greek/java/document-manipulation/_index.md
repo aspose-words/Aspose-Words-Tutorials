@@ -88,6 +88,8 @@
 Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Δημιουργία κενής εγγράφου με διαδραστικό κουμπί εντολής στο Word με Java](./create-blank-document-with-an-interactive-command-button-in/)
 Δημιουργήστε ένα κενό έγγραφο Word με διαδραστικό κουμπί εντολής χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία κενής Word εγγράφου σε Java με Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Προστασία εγγράφων στο Aspose.Words για Java](./protecting-documents/)
 Μάθετε πώς να ασφαλίσετε τα έγγραφα Java Word σας με το Aspose.Words για Java. Προστατέψτε τα δεδομένα σας με κωδικό πρόσβασης και πολλά άλλα.
 ### [Διαχωρισμός εγγράφων σε σελίδες στο Aspose.Words για Java](./splitting-documents-into-pages/)

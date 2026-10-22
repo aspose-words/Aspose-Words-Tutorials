@@ -135,6 +135,15 @@
 ### [Вставка круговой диаграммы в Java – Взрыв, вращение и выделение секторов](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java, включая разрыв, вращение и выделение секторов.
 
+### [Создание документа Word в Java – скрыть фигуру и установить цвет заливки](./create-word-document-java-hide-shape-and-set-fill-color/)
+Узнайте, как скрыть фигуру и задать цвет заливки в документе Word с помощью Aspose.Words для Java.
+
+### [Создание пустого документа Word с группированными фигурами в Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Узнайте, как создать пустой документ Word и добавить в него сгруппированные фигуры с помощью Aspose.Words для Java.
+
+### [Учебник Aspose.Words ActiveX – вставка CommandButton с Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Узнайте, как добавить кнопку CommandButton в документ Word через ActiveX с использованием Java.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

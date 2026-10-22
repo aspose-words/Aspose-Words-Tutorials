@@ -133,6 +133,14 @@
 ### [แทรกแผนภูมิวงกลมใน Java – แยกส่วน, หมุนและไฮไลท์สไลซ์](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java พร้อมการแยกส่วน, หมุนและไฮไลท์สไลซ์โดยใช้ Aspose.Words
 
+### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+
+### [บทแนะนำ Aspose.Words ActiveX – แทรก CommandButton ด้วย Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+เรียนรู้วิธีแทรกปุ่ม CommandButton ในเอกสาร Word ผ่าน ActiveX ด้วย Java
+
+### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
+เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

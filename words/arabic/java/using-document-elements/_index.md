@@ -117,6 +117,8 @@
 ### [كيفية إدراج مخطط دائري في Word – إضافة نسبة تسمية البيانات](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 تعلم كيفية إدراج مخطط دائري في مستند Word وإضافة نسبة تسمية البيانات باستخدام Aspose.Words لجافا.
 ### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
+### [كيفية تفجير شريحة فطيرة في Java – دليل Aspose.Words للمخططات](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+تعلم كيفية تفجير شريحة فطيرة في مخططات Aspose.Words باستخدام Java. دليل خطوة بخطوة لإنشاء مخططات تفاعلية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

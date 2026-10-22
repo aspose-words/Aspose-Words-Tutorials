@@ -135,6 +135,15 @@ Aspose.Words Java 代码教程
 ### [在 Java 中插入饼图 – 爆炸、旋转和突出显示切片](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 演示如何使用 Aspose.Words for Java 在文档中插入饼图并对切片进行爆炸、旋转和高亮显示。
 
+### [在 Java 中创建带分组形状的空白 Word 文档](./create-blank-word-document-with-grouped-shapes-in-java/)
+演示如何在 Java 中使用 Aspose.Words 创建空白文档并向其中添加分组形状。
+
+### [Aspose.Words ActiveX 教程 – 使用 Java 插入 CommandButton](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+了解如何在 Java 中使用 Aspose.Words ActiveX 将 CommandButton 插入 Word 文档。
+
+### [创建 Word 文档 Java – 隐藏形状并设置填充颜色](./create-word-document-java-hide-shape-and-set-fill-color/)
+演示如何在 Word 文档中隐藏形状并更改填充颜色。
+
 ## 其他资源
 
 ### [创建一个带有隐藏椭圆形状的空白 Word 文档](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

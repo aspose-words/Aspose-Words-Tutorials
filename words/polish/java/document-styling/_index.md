@@ -56,6 +56,8 @@ Dowiedz się, jak zmienić separator przypisów w dokumentach Word przy użyciu 
 Dowiedz się, jak formatować i stylizować przypisy w dokumentach Word przy użyciu Aspose.Words for Java.
 ### [Zmiana odstępu przypisów w DOCX – Kompletny przewodnik](./change-footnote-spacing-in-docx-complete-guide/)
 Dowiedz się, jak zmienić odstępy przypisów w dokumentach DOCX przy użyciu Aspose.Words for Java. Praktyczny przewodnik z przykładami kodu.
+### [Jak edytować przypis w Javie przy użyciu Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Dowiedz się, jak modyfikować przypisy w dokumentach przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,8 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلّم كيفية تحميل وحفظ مستندات HTML في جافا باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة برمجية لدمج المستندات بسلاسة.
 ### [العمل مع خيارات التحميل في Aspose.Words لـ Java](./using-load-options/)
 إتقان خيارات التحميل في Aspose.Words لجافا. خصّص تحميل المستندات، وتشفيرها، وتحويل الأشكال، وتعيين إصدارات Word، والمزيد لمعالجة مستندات جافا بكفاءة.
+### [كيفية تعيين الخيارات في Aspose.Words لـ Java – دليل كامل](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+دليل شامل لتعيين خيارات التحميل والحفظ في Aspose.Words لـ Java خطوة بخطوة.
 ### [تكوين خيارات تحميل RTF في Aspose.Words لـ Java](./configuring-rtf-load-options/)
 تكوين خيارات تحميل RTF في Aspose.Words لجافا. تعلّم كيفية تمييز نصوص UTF-8 في مستندات RTF. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [تحميل ملفات النصوص باستخدام Aspose.Words لـ Java](./loading-text-files/)

@@ -375,6 +375,8 @@ Apprenez à convertir des fichiers Markdown en documents DOCX en Java avec Aspos
 
 ### [Comment enregistrer un PNG depuis Word – Guide complet étape par étape](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Apprenez à extraire et enregistrer des images PNG à partir de documents Word en Java avec Aspose.Words, étape par étape.
+### [Créer du markdown à partir de docx en Java – guide complet Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java avec Aspose.Words, incluant l’exportation des images et des équations.
 
 ## Questions fréquentes
 

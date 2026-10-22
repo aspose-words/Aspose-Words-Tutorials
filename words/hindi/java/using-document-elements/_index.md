@@ -85,7 +85,6 @@ Java में Aspose.Words का उपयोग करके एक खाल
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
-जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
 ### [DOCX में Forms2OleControl जोड़ें – पूर्ण Aspose.Words गाइड](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 DOCX दस्तावेज़ में Forms2OleControl जोड़ने के लिए चरण-दर-चरण Aspose.Words गाइड।
 
@@ -125,6 +124,8 @@ Word दस्तावेज़ में बटन कैसे डाले�
 
 ### [Word में पाई चार्ट कैसे डालें – डेटा लेबल प्रतिशत जोड़ें](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Word दस्तावेज़ में पाई चार्ट डालें और डेटा लेबल में प्रतिशत दिखाएँ। चरण-दर-चरण ट्यूटोरियल।
+### [Java के लिए Aspose.Words में पाई स्लाइस को एक्सप्लोड करना](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Java में Aspose.Words चार्ट का उपयोग करके पाई स्लाइस को एक्सप्लोड करने की चरण-दर-चरण ट्यूटोरियल।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

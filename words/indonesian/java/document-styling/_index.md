@@ -56,6 +56,8 @@ Pelajari cara meledakkan irisan pada diagram Word dan menyesuaikan tampilannya m
 ### [Cara Menata Catatan Kaki di Java menggunakan Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 ### [Ubah Jarak Catatan Kaki di DOCX – Panduan Lengkap](./change-footnote-spacing-in-docx-complete-guide/)
 Pelajari cara mengubah jarak catatan kaki dalam file DOCX menggunakan Aspose.Words untuk Java. Panduan lengkap dengan contoh kode sumber.
+### [Cara mengedit catatan kaki di Java dengan Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Pelajari cara mengedit catatan kaki dalam dokumen menggunakan Aspose.Words untuk Java dengan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

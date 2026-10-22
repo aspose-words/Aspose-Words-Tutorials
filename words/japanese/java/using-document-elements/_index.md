@@ -120,6 +120,8 @@ Aspose.Words for Java を使って、Word 文書に円グラフを作成・挿�
 空白の Word 文書を作成し、ActiveX ボタンを配置する方法をステップバイステップで学びます。
 ### [Word 文書にボタンを追加する方法 – ステップバイステップガイド](./how-to-add-button-to-word-document-step-by-step-guide/)
 Aspose.Words for Javaを使用して、Word 文書にボタンを挿入し、機能させる手順をステップバイステップで解説します。
+### [Java でパイスライスを爆発させる方法 – Aspose.Words チャート チュートリアル](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aspose.Words for Java のチャート機能を使って、円グラフのスライスを個別に飛び出させる方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

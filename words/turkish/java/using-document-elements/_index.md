@@ -121,6 +121,7 @@ Java ve Aspose.Words kullanarak Word belgesine pasta grafiği eklemeyi adım ad�
 Word belgesine pasta grafik ekleyin ve veri etiketlerine yüzde değerlerini otomatik olarak ekleyin.
 ### [Java için Aspose.Words'de Düğme Ekleme – Adım Adım Kılavuz](./how-to-add-button-to-word-document-step-by-step-guide/)
 Word belgesine bir düğme eklemeyi ve özelleştirmeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Pasta Dilimini Patlatma](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

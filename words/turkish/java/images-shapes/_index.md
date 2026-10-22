@@ -139,6 +139,14 @@ Aspose.Words for Java kullanarak bir Word belgesine görüntü eklemeyi ve gerek
 
 ### [Java'da Pasta Grafiği Ekle – Dilimleri Patlat, Döndür ve Vurgula](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Aspose.Words for Java kullanarak bir Word belgesine pasta grafiği eklemeyi, dilimleri patlatmayı, döndürmeyi ve vurgulamayı öğrenin.
+### [Java'da Gruplandırılmış Şekillerle Boş Word Belgesi Oluşturma](./create-blank-word-document-with-grouped-shapes-in-java/)
+Java kullanarak bir Word belgesi oluşturun ve içinde birden fazla şekli gruplayarak ekleyin.
+
+### [Aspose.Words ActiveX eğitimi – Java ile bir CommandButton ekleme](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Java kullanarak ActiveX kontrolü ekleyerek bir CommandButton oluşturmayı öğrenin.
+
+### [Java ile Word belgesi oluştur – şekli gizle ve dolgu rengini ayarla](./create-word-document-java-hide-shape-and-set-fill-color/)
+Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlamayı öğrenin.
 
 ## Ek Kaynaklar
 

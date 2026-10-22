@@ -54,6 +54,8 @@
 تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 ### [دليل كامل لملف التوقيع الرقمي PFX في جافا](./digital-signature-pfx-file-in-java-complete-guide/)
 تعلم كيفية إنشاء واستخدام ملفات توقيع PFX الرقمية في جافا باستخدام Aspose.Words لتأمين المستندات بسهولة.
+### [كيفية توقيع ملف docx في Java – دليل خطوة بخطوة](./how-to-sign-docx-in-java-step-by-step-guide/)
+تعلم كيفية توقيع مستندات docx في Java باستخدام Aspose.Words خطوة بخطوة مع مثال عملي.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

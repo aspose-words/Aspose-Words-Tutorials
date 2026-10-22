@@ -135,6 +135,7 @@
 本教學說明如何使用 Aspose.Words for Java 在 Word 文件中插入餅圖並設定其屬性。
 ### [在 Word 中插入餅圖 – 添加資料標籤百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 了解如何在 Word 文檔中插入餅圖並顯示資料標籤的百分比。
+### [在 Aspose.Words for Java 中爆炸餅圖切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

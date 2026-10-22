@@ -222,6 +222,8 @@ Learn how to load markdown files with underline formatting in Java using Aspose.
 
 ### [How to load file from directory using Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Learn how to load files from a directory using Aspose.Words in C#.
+### [How to set options in Aspose.Words for Java – complete guide](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Comprehensive guide on configuring load and save options in Aspose.Words for Java to control document processing behavior.
 
 ## Frequently Asked Questions
 ### [Determining Document Format in Aspose.Words for Java]({{< relref "determining-document-format/_index.md" >}})

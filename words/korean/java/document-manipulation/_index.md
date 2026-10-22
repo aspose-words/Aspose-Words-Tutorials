@@ -123,6 +123,8 @@ Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포
 텍스트 컨트롤을 활용해 빈 Word 문서를 생성하고 기본 설정을 적용하는 방법을 단계별로 안내합니다.
 ### [새 Word 문서 만들기 – 구조화된 태그 추가 단계별 가이드](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화된 태그를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 Word 문서 만들기](./create-blank-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

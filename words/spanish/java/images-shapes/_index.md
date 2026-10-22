@@ -137,6 +137,15 @@ Aprenda a insertar imágenes en un documento Word y ocultarlas según sea necesa
 ### [Insertar gráfico de pastel en Java – Explotar, rotar y resaltar porciones](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Aprenda a crear un gráfico de pastel en Java, aplicar explosión, rotar y resaltar secciones usando Aspose.Words.
 
+### [Crear documento Word en blanco con formas agrupadas en Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a crear un documento Word vacío y agregar formas agrupadas usando Aspose.Words para Java.
+
+### [Tutorial Aspose.Words ActiveX – insertar un CommandButton con Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Aprenda a insertar un CommandButton en un control ActiveX usando Aspose.Words y Java.
+
+### [Crear documento Word en Java – ocultar forma y establecer color de relleno](./create-word-document-java-hide-shape-and-set-fill-color/)
+Aprenda a crear un documento Word en Java, ocultar una forma y definir su color de relleno con Aspose.Words.
+
 ## Recursos adicionales
 
 ### [Crear un documento Word en blanco con una forma elíptica oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

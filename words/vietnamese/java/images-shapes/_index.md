@@ -137,6 +137,15 @@ Hướng dẫn cách chèn hình ảnh vào tài liệu Word và ẩn chúng khi
 ### [Chèn biểu đồ tròn trong Java – Tách, Xoay & Làm nổi bật các lát cắt](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Hướng dẫn cách chèn biểu đồ tròn, tách, xoay và làm nổi bật các lát cắt trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Tạo tài liệu Word trống với các hình dạng nhóm trong Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng được nhóm lại bằng Aspose.Words cho Java.
+
+### [Hướng dẫn Aspose.Words ActiveX – chèn một CommandButton bằng Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua ActiveX trong Java.
+
+### [Tạo tài liệu Word bằng Java – ẩn hình dạng và đặt màu nền](./create-word-document-java-hide-shape-and-set-fill-color/)
+Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -368,6 +368,8 @@ Dowiedz się, jak krok po kroku wygenerować dostępny PDF z pliku DOCX, spełni
 
 ### [Jak zapisać PNG z Worda – Kompletny przewodnik krok po kroku](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Dowiedz się, jak wyeksportować obrazy jako pliki PNG z dokumentów Word przy użyciu Aspose.Words for Java.
+### [Utwórz markdown z docx w Javie – pełny przewodnik Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Pełny przewodnik, jak wygenerować pliki markdown z dokumentów DOCX w Javie przy użyciu Aspose.Words.
 
 ## Najczęściej zadawane pytania
 

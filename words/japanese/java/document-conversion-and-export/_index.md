@@ -290,6 +290,9 @@ Word 文書内で円グラフを作成し、画像として PNG 形式でエク�
 
 ### [Word から PNG を保存する方法 – 完全ステップバイステップガイド](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
+### [Java で docx から markdown を作成 – 完全 Aspose.Words ガイド](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aspose.Words for Java を使用して、DOCX ファイルを Markdown に変換する手順をステップバイステップで解説します。
+
 ---
 
 **最終更新日:** 2025-12-10  

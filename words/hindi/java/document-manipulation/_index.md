@@ -126,6 +126,9 @@ Aspose.Words for Java का उपयोग करके प्रोग्र�
 ### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 DocumentBuilder का उपयोग करके docx फ़ाइल सहेजें और कंट्रोल के बाद टेक्स्ट डालें।
 
+### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
+Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

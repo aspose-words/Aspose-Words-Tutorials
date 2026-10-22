@@ -177,6 +177,9 @@ Erfahren Sie, wie Sie mit Aspose.Words in C# Dateien aus einem Verzeichnis laden
 ### [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden mit Aspose.Words für Java](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen.
 
+### [Wie man Optionen in Aspose.Words für Java festlegt – vollständiger Leitfaden](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Erfahren Sie, wie Sie alle Optionen von Aspose.Words für Java konfigurieren, um das Verhalten beim Laden und Speichern zu steuern.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

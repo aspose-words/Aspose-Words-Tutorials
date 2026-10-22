@@ -137,6 +137,15 @@ Aspose.Words for Java를 활용해 Word 문서에 이미지를 삽입하고, 필
 ### [Java에서 파이 차트 삽입 – 조각을 분리하고 회전 및 강조하기](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Java와 Aspose.Words를 사용해 파이 차트를 삽입하고, 조각을 분리·회전·강조하는 방법을 단계별로 안내합니다.
 
+### [Java에서 그룹화된 도형이 포함된 빈 Word 문서 만들기](./create-blank-word-document-with-grouped-shapes-in-java/)
+Java를 사용해 그룹화된 도형이 포함된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words ActiveX 튜토리얼 – Java로 CommandButton 삽입](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Java를 사용하여 ActiveX CommandButton을 Word 문서에 삽입하는 방법을 단계별로 안내합니다.
+
+### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
+Java를 사용해 Word 문서에서 도형을 숨기고 채우기 색상을 설정하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ### [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

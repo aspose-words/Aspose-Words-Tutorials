@@ -371,6 +371,8 @@ weight: 22
 
 ### [Πώς να αποθηκεύσετε PNG από το Word – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Μάθετε πώς να εξάγετε εικόνες PNG από έγγραφα Word με απλό κώδικα.
+### [Δημιουργία markdown από docx σε Java – πλήρης οδηγός Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε markdown χρησιμοποιώντας το Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

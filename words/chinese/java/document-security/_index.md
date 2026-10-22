@@ -55,6 +55,8 @@
 使用 Aspose.Words for Java 为 Word 文档添加数字签名，确保文件完整性和真实性。
 ### [Java 中的数字签名 PFX 文件 – 完整指南](./digital-signature-pfx-file-in-java-complete-guide/)
 学习如何在 Java 中使用 PFX 文件进行数字签名，提供分步指导和示例代码，确保文档安全。
+### [如何在 Java 中签署 docx – 步骤指南](./how-to-sign-docx-in-java-step-by-step-guide/)
+使用 Aspose.Words for Java 实现 docx 文件的数字签名，提供分步说明和示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

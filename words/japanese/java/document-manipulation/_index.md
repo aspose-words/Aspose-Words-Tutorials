@@ -124,6 +124,8 @@ Java と Aspose.Words を使って、インタラクティブなコマンドボ�
 Aspose.Words を使って Java で Word 文書をプログラム的に作成する手順をステップバイステップで解説します。
 ### [プレーンテキスト コンテンツコントロールで Word 文書を作成する](./create-word-document-with-a-plain-text-content-control/)
 プレーンテキスト コンテンツコントロールを使用して、Word 文書を作成する方法を学びます。
+### [Aspose.Words for Java を使用して Java で空白の Word 文書を作成する](./create-blank-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java を使って、空の Word 文書を作成する基本的な手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

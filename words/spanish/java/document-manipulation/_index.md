@@ -124,6 +124,8 @@ Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con eje
 Cree un documento en blanco con un botón de comando interactivo en Word mediante Java.
 ### [Cómo crear un documento Word programáticamente con Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Aprenda a generar documentos Word de forma programática usando Aspose.Words en Java.
+### [Crear documento Word en blanco en Java con Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Aprenda a generar un documento Word vacío usando Aspose.Words para Java con ejemplos de código simples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

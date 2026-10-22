@@ -135,6 +135,15 @@ Tanulja meg, hogyan szúrhat be és rejthet el képeket egy Word dokumentumban J
 ### [Kördiagram beszúrása Java-ban – szeletek szétrobbanása, forgatása és kiemelése](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Tanulja meg, hogyan hozhat létre és testreszabhat kördiagramot Java-ban, beleértve a szeletek szétrobbanását, forgatását és kiemelését.
 
+### [Üres Word dokumentum létrehozása csoportosított alakzatokkal Java-ban](./create-blank-word-document-with-grouped-shapes-in-java/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzatokkal Java-ban az Aspose.Words segítségével.
+
+### [Aspose.Words ActiveX oktatóanyag – CommandButton beszúrása Java-val](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Ismerje meg, hogyan szúrhat be CommandButton elemet ActiveX használatával Java-ban az Aspose.Words segítségével.
+
+### [Word dokumentum létrehozása Java – alakzat elrejtése és kitöltőszín beállítása](./create-word-document-java-hide-shape-and-set-fill-color/)
+Ismerje meg, hogyan rejthet el alakzatot és állíthat be kitöltőszínt a Word dokumentumban Java-val az Aspose.Words segítségével.
+
 ## További források
 
 ### [Üres Word dokumentum létrehozása rejtett ellipszis alakzattal](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

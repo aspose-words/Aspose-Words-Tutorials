@@ -55,6 +55,7 @@ Naučte se, jak přidat digitální podpis do dokumentu Word pomocí Aspose.Word
 Naučte se, jak pomocí Aspose.Words pro Javu přidat digitální podpis do dokumentu Word a zajistit jeho integritu.
 ### [Digitální podpis PFX soubor v Javě – Kompletní průvodce](./digital-signature-pfx-file-in-java-complete-guide/)
 Kompletní návod, jak vytvořit a použít PFX soubor pro digitální podpisy v Javě s Aspose.Words.
+### [Jak podepsat soubor docx v Javě – krok za krokem](./how-to-sign-docx-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

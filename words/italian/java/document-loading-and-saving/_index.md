@@ -222,6 +222,9 @@ Scopri come caricare file da una cartella in C# con Aspose.Words, includendo ese
 ### [Come caricare Markdown in Java – Guida completa](./how-to-load-markdown-in-java-complete-guide/)
 Scopri come caricare file Markdown in Java usando Aspose.Words, con esempi di codice e opzioni di configurazione.
 
+### [Come impostare le opzioni in Aspose.Words per Java – guida completa](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Scopri come configurare tutte le opzioni disponibili in Aspose.Words per Java per personalizzare il caricamento e il salvataggio dei documenti.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

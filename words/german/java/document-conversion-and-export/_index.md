@@ -206,6 +206,8 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln.
 
 ### [DOCX als Markdown speichern – DOCX in Markdown konvertieren mit Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln und dabei Text, Bilder und Formate erhalten.
+### [Markdown aus DOCX in Java erstellen – vollständige Aspose.Words‑Anleitung](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java DOCX‑Dateien in Markdown konvertieren.
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 

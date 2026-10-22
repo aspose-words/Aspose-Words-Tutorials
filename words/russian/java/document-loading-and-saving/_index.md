@@ -213,6 +213,9 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 
 ### [Восстановление повреждённого DOCX с Aspose.Words for Java – Полное руководство](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
+### [Как установить параметры в Aspose.Words for Java – полное руководство](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Подробное руководство по настройке параметров загрузки и сохранения в Aspose.Words for Java.
+
 ## Часто задаваемые вопросы
 
 **Q:** Как программно **save images from word** документы?  

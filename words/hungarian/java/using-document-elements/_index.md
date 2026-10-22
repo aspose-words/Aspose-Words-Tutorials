@@ -123,6 +123,8 @@ Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az 
 ### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 ### [Gomb hozzáadása Word dokumentumhoz – Lépésről‑lépésre útmutató](./how-to-add-button-to-word-document-step-by-step-guide/)
 Tanuld meg, hogyan adhatsz hozzá gombot egy Word dokumentumhoz lépésről‑lépésre.
+### [Hogyan robbantsuk szét a kördiagram szeletet Java-ban – Aspose.Words diagram oktatóanyag](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Tanuld meg, hogyan lehet a kördiagram szeletet szétrobbanni Java-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

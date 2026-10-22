@@ -368,6 +368,8 @@ Leer hoe je een DOCX‑bestand omzet naar Markdown met Aspose.Words in Java, inc
 
 ### [Hoe PNG opslaan vanuit Word – Complete stap‑voor‑stap gids](./how-to-save-png-from-word-complete-step-by-step-guide/)
 Leer hoe je PNG‑afbeeldingen uit een Word‑document opslaat met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
+### [Maak markdown van docx in Java – volledige Aspose.Words-gids](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Leer hoe je met Aspose.Words for Java een DOCX-bestand omzet naar Markdown, inclusief opmaak en afbeeldingen.
 
 ## Veelgestelde Vragen
 

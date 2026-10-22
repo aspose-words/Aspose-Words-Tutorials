@@ -134,6 +134,15 @@ Lär dig hur du infogar och döljer bilder i ett Word-dokument med Aspose.Words 
 ### [Infoga cirkeldiagram i Java – Explodera, rotera och markera segment](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Lär dig hur du skapar och anpassar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java, inklusive att explodera, rotera och markera segment.
 
+### [Skapa tomt Word-dokument med grupperade former i Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade former med Aspose.Words för Java.
+
+### [Aspose.Words ActiveX-handledning – infoga en CommandButton med Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Lär dig hur du lägger till en CommandButton i ett Word-dokument via ActiveX med Java.
+
+### [Skapa Word-dokument java – dölj form och ange fyllningsfärg](./create-word-document-java-hide-shape-and-set-fill-color/)
+Lär dig hur du döljer en form och sätter fyllningsfärg i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
