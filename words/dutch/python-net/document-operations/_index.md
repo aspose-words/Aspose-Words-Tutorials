@@ -70,6 +70,9 @@ Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words
 ### [Herstel beschadigde DOCX – Complete Python-gids](./recover-corrupted-docx-complete-python-guide/)
 Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python-net.
 
+### [Hoe docx‑bestanden te herstellen met Aspose.Words voor Python – stapsgewijze handleiding](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python in een stapsgewijze gids.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

@@ -44,6 +44,8 @@ Learn how to implement secure digital signatures in documents using Aspose.Words
 Learn how to sign DOCX files using a PFX certificate with Aspose.Words for Java. Step-by-step guide with source code.
 ### [How to add a digital signature to a Word document with Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Learn how to add a digital signature to a Word document using Aspose.Words for Java with step-by-step guidance and sample code.
+### [How to add a digital signature to a Word document](./how-to-add-a-digital-signature-to-a-word-document/)
+Learn how to add a digital signature to a Word document using Aspose.Words for Java.
 ### [Document Redaction and Data Protection](./document-redaction-data-protection/)
 Learn how to secure your documents and redact sensitive data using Aspose.Words for Java. Step-by-step guide with source code.
 ### [Sign Word Document in Java with Aspose.Words – Complete Guide](./sign-word-document-in-java-with-aspose-words-complete-guide/)

@@ -119,6 +119,12 @@
 ### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
 ### [كيفية تفجير شريحة فطيرة في Java – دليل Aspose.Words للمخططات](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 تعلم كيفية تفجير شريحة فطيرة في مخططات Aspose.Words باستخدام Java. دليل خطوة بخطوة لإنشاء مخططات تفاعلية.
+### [كيفية إنشاء مخطط في Word باستخدام Java و Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+تعلم كيفية إنشاء مخططات بيانية في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+### [كيفية ضبط موضع الزر في مستند Word باستخدام Java](./how-to-set-button-position-in-a-word-document-with-java/)
+تعلم كيفية تحديد موضع زر في مستند Word باستخدام Aspose.Words لجافا.
+### [إدراج مخطط دائري في Word باستخدام Java – دليل كامل](./insert-pie-chart-word-in-java-complete-guide/)
+تعلم كيفية إدراج مخطط دائري في مستند Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

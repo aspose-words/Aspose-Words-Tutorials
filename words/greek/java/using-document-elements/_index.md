@@ -125,6 +125,12 @@
 Μάθετε πώς να εισάγετε διάγραμμα πίτας στο Word και να προσθέσετε ποσοστά ετικετών δεδομένων με το Aspose.Words για Java.
 ### [Πώς να εκτοξεύσετε φέτα πίτας σε Java – Εκπαίδευση διαγράμματος Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Μάθετε πώς να εκτοξεύσετε φέτα πίτας σε διάγραμμα Word χρησιμοποιώντας Java.
+### [Πώς να ορίσετε τη θέση του κουμπιού σε ένα έγγραφο Word με Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Μάθετε πώς να τοποθετήσετε κουμπί σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να δημιουργήσετε γράφημα σε Word με Java και Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Μάθετε πώς να δημιουργήσετε γραφήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
+### [Εισαγωγή διαγράμματος πίτας στο Word με Java – πλήρης οδηγός](./insert-pie-chart-word-in-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

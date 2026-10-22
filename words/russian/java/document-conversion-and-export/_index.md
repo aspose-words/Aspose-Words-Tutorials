@@ -388,6 +388,8 @@ weight: 22
 Узнайте, как экспортировать страницы Word в PNG‑изображения с помощью Aspose.Words for Java, шаг за шагом.
 ### [Создание markdown из docx в Java – полное руководство Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Преобразуйте DOCX в markdown в Java с помощью Aspose.Words, пошаговое полное руководство.
+### [Как сохранить Markdown как DOCX с помощью Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Узнайте, как конвертировать Markdown в DOCX с помощью Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

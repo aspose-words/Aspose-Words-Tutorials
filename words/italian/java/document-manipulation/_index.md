@@ -126,6 +126,8 @@ Scopri come generare un documento Word vuoto e aggiungere un pulsante di comando
 Impara a creare un documento Word vuoto e aggiungere un controllo di testo usando Aspose.Words per Java.
 ### [Come salvare docx con DocumentBuilder e aggiungere testo dopo un controllo](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subito dopo un controllo specifico.
+### [Come creare un documento Word vuoto con Aspose.Words per Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi passaggi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

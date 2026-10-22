@@ -165,6 +165,11 @@ C#를 사용하여 빈 Word 문서를 생성하고 숨겨진 타원 도형을 �
 
 ### [Java로 Word 문서에 도넛 차트 만들기](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Java를 사용해 Word 문서에 도넛 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 도형을 그룹화하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

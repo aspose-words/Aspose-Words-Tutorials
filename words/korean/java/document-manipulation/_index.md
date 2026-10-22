@@ -125,6 +125,8 @@ Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포
 Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화된 태그를 추가하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 빈 Word 문서 만들기](./create-blank-word-document-in-java-with-aspose-words/)
 Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 워드 문서 만들기](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

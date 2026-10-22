@@ -105,9 +105,6 @@ Dowiedz się, jak konwertować dokument do formatu Markdown i wyodrębniać osad
 ### [Jak wyeksportować LaTeX z DOCX – przewodnik konwersji Word do TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
 Dowiedz się, jak przekształcić dokument Word (DOCX) w plik LaTeX/TXT przy użyciu Aspose.Words for Java.
 
-### [Utwórz PDF UA w Javie – Kompletny przewodnik](./create-pdf-ua-in-java-complete-guide/)
-Dowiedz się, jak tworzyć dokumenty PDF/UA w Javie przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
-
 ### [Jak odzyskać DOCX, wyeksportować do Markdown i PDF/UA – Kompletny przewodnik Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
 Dowiedz się, jak naprawić uszkodzony plik DOCX, a następnie wyeksportować go do formatu Markdown oraz PDF/UA przy użyciu Aspose.Words for Java.
 
@@ -204,14 +201,12 @@ Dowiedz się, jak osadzać obrazy jako base64 przy konwertowaniu DOCX do Markdow
 ### [Jak wyeksportować LaTeX z DOCX – Kompletny przewodnik w Javie](./how-to-export-latex-from-docx-complete-java-guide/)
 Learn how to convert DOCX files to LaTeX format using Aspose.Words for Java. Step‑by‑step guide with sample code.
 
-### [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
-Dowiedz się, jak konwertować DOCX na PDF przy użyciu Aspose.Words dla Javy. Przewodnik krok po kroku z przykładowym kodem.
-
 ### [Jak wyeksportować Markdown z Worda przy użyciu Javy – Kompletny przewodnik](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Dowiedz się, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words dla Javy. Przewodnik krok po kroku z przykładowym kodem.
 
 ### [Generowanie dostępnego PDF z Worda przy użyciu Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word przy użyciu Aspose.Words for Java, spełniający standardy dostępności.
+
 ### [Konwertuj docx na txt – Eksportuj równania Word jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Dowiedz się, jak przekonwertować plik DOCX na TXT oraz wyeksportować równania Word jako kod LaTeX przy użyciu Aspose.Words for Java.
 
@@ -370,6 +365,9 @@ Dowiedz się, jak krok po kroku wygenerować dostępny PDF z pliku DOCX, spełni
 Dowiedz się, jak wyeksportować obrazy jako pliki PNG z dokumentów Word przy użyciu Aspose.Words for Java.
 ### [Utwórz markdown z docx w Javie – pełny przewodnik Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Pełny przewodnik, jak wygenerować pliki markdown z dokumentów DOCX w Javie przy użyciu Aspose.Words.
+
+### [Jak zapisać Markdown jako DOCX przy użyciu Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Dowiedz się, jak konwertować pliki Markdown do formatu DOCX w Javie przy pomocy Aspose.Words, krok po kroku z przykładowym kodem.
 
 ## Najczęściej zadawane pytania
 

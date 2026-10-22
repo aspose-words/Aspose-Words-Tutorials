@@ -165,6 +165,11 @@
 
 ### [Πώς να δημιουργήσετε διάγραμμα ντόνατ σε έγγραφο Word με Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Μάθετε πώς να δημιουργήσετε διάγραμμα ντόνατ σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα σε Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Δημιουργία εγγράφου Word με κρυφή εικόνα σε Java χρησιμοποιώντας το Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Μάθετε πώς να ενσωματώσετε κρυφή εικόνα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

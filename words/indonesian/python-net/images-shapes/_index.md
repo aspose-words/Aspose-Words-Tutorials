@@ -77,6 +77,8 @@ Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan 
 Pelajari cara membuat diagram kolom di Python dengan Aspose.Words.
 ### [Cara Menerapkan Efek Bayangan pada Bentuk Word dengan Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Pelajari cara menambahkan efek bayangan pada bentuk Word menggunakan Aspose.Words.
+### [Cara Menetapkan Bayangan pada Bentuk di Aspose.Words untuk Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python.
 
 ### [Cara Membuat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Python.

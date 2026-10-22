@@ -161,6 +161,11 @@ Naučte se, jak programově vytvořit prázdný dokument Word a vložit do něj 
 
 ### [Jak vytvořit prstencový graf v dokumentu Word pomocí Javy](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Naučte se, jak programově vytvořit prstencový graf v dokumentu Word pomocí Aspose.Words pro Javu.
+### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Vytvoření dokumentu Word s skrytým obrázkem v Javě pomocí Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Naučte se, jak vložit skrytý obrázek do dokumentu Word v Javě pomocí Aspose.Words.
 
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

@@ -206,6 +206,14 @@ Apprenez à enregistrer un fichier DOCX en texte brut et à convertir les équat
 Apprenez à créer des PDF accessibles avec Python en suivant un guide complet étape par étape, utilisant Aspose.Words.
 ### [Créer un PDF à partir d'un document Word en Python – Guide étape par étape](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Apprenez à générer un PDF à partir d'un fichier Word en utilisant Aspose.Words pour Python, avec un guide détaillé étape par étape.
+### [Comment enregistrer un docx en txt avec des formules LaTeX à l'aide d'Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Apprenez à enregistrer un fichier DOCX au format texte contenant des formules LaTeX avec Aspose.Words.
+### [Comment enregistrer un Word en PDF avec Aspose.Words en Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Apprenez à convertir un fichier Word en PDF en utilisant Aspose.Words pour Python.
+### [Comment convertir un docx en pdf avec accessibilité en Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Apprenez à convertir un fichier DOCX en PDF tout en conservant l'accessibilité avec Aspose.Words pour Python.
+### [Comment convertir un docx en txt en Python avec Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Apprenez à convertir des fichiers DOCX en fichiers texte TXT en utilisant Aspose.Words pour Python.
 ### [Comment enregistrer un docx en txt avec des équations LaTeX en utilisant Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Apprenez à convertir un fichier DOCX en texte tout en conservant les équations LaTeX avec Aspose.Words pour Python.
 

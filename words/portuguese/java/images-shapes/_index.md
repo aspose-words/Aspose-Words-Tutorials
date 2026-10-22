@@ -162,6 +162,11 @@ Aprenda a gerar um documento Word vazio e inserir uma elipse oculta usando Aspos
 
 ### [Como criar um gráfico de rosca em um documento Word com Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Aprenda a gerar gráficos de rosca em documentos Word usando Aspose.Words para Java.
+### [Como criar um documento Word em branco e agrupar formas em Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aprenda a gerar um documento Word vazio e agrupar formas usando Aspose.Words para Java.
+
+### [Criar documento Word com uma imagem oculta em Java usando Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aprenda a inserir uma imagem oculta em documentos Word com Aspose.Words para Java.
 
 ## Recursos adicionais
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

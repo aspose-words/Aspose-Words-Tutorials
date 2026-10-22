@@ -50,6 +50,15 @@ Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a cre
 Impara a creare un documento Word vuoto e inserire un pulsante ActiveX usando Aspose.Words per Java.
 ### [Come aggiungere un pulsante a un documento Word – Guida passo‑passo](./how-to-add-button-to-word-document-step-by-step-guide/)
 Scopri come inserire un pulsante interattivo in un documento Word usando Aspose.Words per Java, con istruzioni dettagliate passo dopo passo.
+### [Come impostare la posizione del pulsante in un documento Word con Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Impara a impostare la posizione di un pulsante in un documento Word usando Java.
+
+### [Come creare un grafico in Word con Java e Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Scopri come generare grafici dinamici in documenti Word usando Java e Aspose.Words.
+
+### [Inserire un grafico a torta in Word con Java – guida completa](./insert-pie-chart-word-in-java-complete-guide/)
+Scopri come inserire un grafico a torta in un documento Word usando Java.
+
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)

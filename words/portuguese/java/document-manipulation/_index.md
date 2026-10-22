@@ -127,6 +127,8 @@ Aprenda a gerar documentos Word de forma programática usando Aspose.Words para 
 Aprenda a salvar documentos DOCX usando DocumentBuilder e inserir texto imediatamente após um controle no Aspose.Words para Java.
 ### [Criando documento Word em branco em Java com Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Aprenda a criar um documento Word vazio usando Aspose.Words para Java.
+### [Como criar um documento Word em branco com Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aprenda a gerar um documento Word vazio usando Aspose.Words para Java com código simples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

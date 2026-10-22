@@ -57,6 +57,8 @@ Digitálisan aláírja a Word dokumentumot Java-val az Aspose.Words segítségé
 Ismerje meg, hogyan használhatja a PFX fájlokat digitális aláírásokhoz Java-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 ### [Docx aláírása Java-ban – lépésről‑lépésre útmutató](./how-to-sign-docx-in-java-step-by-step-guide/)
 Tanulja meg, hogyan aláírhat docx dokumentumokat Java segítségével, részletes lépésről‑lépésre útmutatóval és forráskóddal.
+### [Hogyan adjon digitális aláírást egy Word dokumentumhoz](./how-to-add-a-digital-signature-to-a-word-document/)
+Ismerje meg, hogyan adhat digitális aláírást Word dokumentumokhoz az Aspose.Words for Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

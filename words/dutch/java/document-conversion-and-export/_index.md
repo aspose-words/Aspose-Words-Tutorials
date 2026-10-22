@@ -113,6 +113,9 @@ Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt vanuit een Wor
 ### [Docx opslaan als markdown in Java – Complete stap‑voor‑stap gids](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Leer hoe je een DOCX‑bestand converteert en opslaat als Markdown met Aspose.Words for Java in een gedetailleerde stap‑voor‑stap handleiding.
 
+### [Hoe Markdown opslaan als DOCX met Aspose.Words voor Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Leer hoe je een Markdown‑bestand converteert en opslaat als DOCX met Aspose.Words for Java in een eenvoudige stap‑voor‑stap gids.
+
 ### [Hoe DOCX te herstellen, exporteren naar Markdown & PDF/UA – Complete Java-gids](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
 Leer hoe je beschadigde DOCX-bestanden herstelt, converteert naar Markdown en PDF/UA met Aspose.Words for Java.
 

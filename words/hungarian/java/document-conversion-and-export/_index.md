@@ -345,6 +345,9 @@ Tanuld meg, hogyan hozhatsz kördiagramot Wordben, majd exportáld PNG képként
 ### [Markdown létrehozása DOCX‑ből Java‑ban – teljes Aspose.Words útmutató](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba Java‑val az Aspose.Words segítségével.
 
+### [Hogyan mentse a Markdown‑t DOCX‑ként az Aspose.Words for Java használatával](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Tanulja meg, hogyan konvertálja a Markdown fájlokat DOCX formátumba Java‑val az Aspose.Words segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

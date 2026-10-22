@@ -72,6 +72,8 @@
 ### [วิธีสร้างแผนภูมิคอลัมน์ใน Python ด้วย Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 ### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 เรียนรู้วิธีการเพิ่มเอฟเฟกต์เงาให้กับรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python-net
+### [วิธีตั้งเงาบนรูปร่างใน Aspose.Words สำหรับ Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+คำแนะนำการตั้งค่าเงาบนรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
 
 ### [วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 ### [วิธีเพิ่มเงาให้รูปทรงใน Python – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-programming-guide/)

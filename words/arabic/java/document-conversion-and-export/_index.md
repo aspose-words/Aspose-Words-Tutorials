@@ -380,6 +380,9 @@ weight: 22
 ### [إنشاء markdown من docx في Java – دليل كامل لـ Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
 
+### [كيفية حفظ Markdown كملف DOCX باستخدام Aspose.Words للـ Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات DOCX باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

@@ -164,6 +164,11 @@ C#で空白のWord文書を作成し、非表示の楕円形を追加する方�
 
 ### [Java を使用して Word 文書にドーナツチャートを作成する方法](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 JavaでWord文書にドーナツ形状のチャートを挿入する手順を解説します。
+### [Javaで空白のWord文書を作成し、図形をグループ化する方法](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Javaを使用して新しいWord文書を作成し、複数の図形をグループ化する手順を解説します。
+
+### [Aspose.Words を使用して Java で非表示画像を含む Word 文書を作成する](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java を使い、文書内に表示されない画像を埋め込む方法をステップバイステップで解説します。
 
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

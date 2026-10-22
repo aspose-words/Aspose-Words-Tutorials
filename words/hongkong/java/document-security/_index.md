@@ -41,6 +41,8 @@
 了解如何使用 Aspose.Words for Java 在文件中實作安全數位簽章。透過逐步指導和原始碼確保文件的完整性
 ### [如何使用 X509 憑證在 C# 中簽署 Word 文件](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 了解如何使用 Aspose.Words for C# 透過 X509 憑證簽署 Word 文件，確保文件完整性與安全性。
+### [如何在 Word 文件中添加數位簽名](./how-to-add-a-digital-signature-to-a-word-document/)
+了解如何使用 Aspose.Words for Java 為 Word 文件添加數位簽章，確保文件完整性與身份驗證。
 ### [文檔編輯和資料保護](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保護您的文件並編輯敏感資料。帶有原始程式碼的分步指南。
 ### [使用 Aspose.Words 在 Java 中簽署 Word 文件 – 完整指南](./sign-word-document-in-java-with-aspose-words-complete-guide/)

@@ -205,6 +205,14 @@ Pelajari cara mengekspor persamaan matematika dari dokumen Word ke format LaTeX 
 Pelajari cara menghasilkan PDF yang ramah aksesibilitas menggunakan Aspose.Words untuk Python, termasuk tag, teks alternatif, dan struktur dokumen.
 ### [Buat PDF dari Dokumen Word dengan Python – Panduan Langkah demi Langkah](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
+### [Cara Menyimpan docx sebagai txt LaTeX Math menggunakan Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Pelajari cara menyimpan file docx menjadi teks dengan rumus LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Menyimpan Word sebagai PDF dengan Aspose.Words di Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python.
+### [Cara Mengonversi docx ke pdf dengan Aksesibilitas di Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Pelajari cara mengonversi file docx menjadi PDF yang dapat diakses menggunakan Aspose.Words untuk Python.
+### [Cara Mengonversi docx ke txt di Python dengan Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Pelajari cara mengonversi file docx menjadi teks (txt) menggunakan Aspose.Words untuk Python.
 ### [Cara menyimpan docx sebagai txt dengan persamaan LaTeX menggunakan Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Pelajari cara menyimpan file docx sebagai txt dengan persamaan LaTeX menggunakan Aspose.Words untuk Python.
 

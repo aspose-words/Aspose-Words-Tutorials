@@ -74,6 +74,8 @@ Leer hoe u een PNG-afbeelding opslaat en een schaduw toevoegt aan een vorm met A
 ### [Hoe een kolomgrafiek te maken met Python en Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 ### [Hoe schaduweffect toe te passen op een Word-vorm met Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Leer hoe u een schaduweffect op een Word-vorm toepast met Aspose.Words voor Python-net.
+### [Hoe schaduw op een vorm instellen in Aspose.Words voor Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Leer hoe u een schaduweffect toevoegt aan een vorm in een Word-document met Aspose.Words voor Python.
 
 ### [Hoe een rechthoekvorm te maken in een Word-document met Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Leer hoe u een rechthoekvorm toevoegt aan een Word-document met Python en Aspose.Words.

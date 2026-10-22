@@ -125,6 +125,12 @@ Hướng dẫn tạo tài liệu docx có chứa ActiveX bằng Java và Aspose.
 Hướng dẫn chi tiết cách chèn nút vào tài liệu Word và tùy chỉnh hành vi của nó.
 ### [Cách chèn biểu đồ tròn trong Word – thêm nhãn dữ liệu phần trăm](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word và hiển thị nhãn phần trăm cho dữ liệu.
+### [Cách tạo biểu đồ trong Word bằng Java và Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Hướng dẫn chi tiết cách tạo biểu đồ trong tài liệu Word bằng Java sử dụng Aspose.Words.
+### [Chèn biểu đồ tròn vào Word bằng Java – hướng dẫn đầy đủ](./insert-pie-chart-word-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Java sử dụng Aspose.Words.
+### [Cách đặt vị trí nút trong tài liệu Word bằng Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Hướng dẫn cách đặt vị trí nút trong tài liệu Word bằng Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

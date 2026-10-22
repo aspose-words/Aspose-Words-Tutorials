@@ -279,6 +279,15 @@
 
 ### [สร้าง PDF จากเอกสาร Word ด้วย Python – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+### [วิธีบันทึกไฟล์ docx เป็น txt LaTeX math ด้วย Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็นไฟล์ txt ที่มีสูตร LaTeX math ด้วย Aspose.Words for Python
+
+### [วิธีบันทึก Word เป็น PDF ด้วย Aspose.Words ใน Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+
+### [วิธีแปลง docx เป็น pdf พร้อมการเข้าถึงใน Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+
+### [วิธีแปลง docx เป็น txt ใน Python ด้วย Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น txt ด้วย Aspose.Words for Python อย่างละเอียด
 
 ### [วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words อย่างละเอียด

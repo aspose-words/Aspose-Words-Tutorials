@@ -165,6 +165,10 @@
 
 ### [كيفية إنشاء مخطط دونات في مستند Word باستخدام Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 تعلم كيفية إنشاء مخطط دونات داخل مستند Word باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مستند Word فارغ وتجميع الأشكال في Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [إنشاء مستند Word بصورة مخفية في Java باستخدام Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+دليل لإنشاء مستند Word يحتوي على صورة مخفية باستخدام Aspose.Words لجافا.
 
 ## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

@@ -57,6 +57,8 @@ Panduan langkah demi langkah untuk menandatangani dokumen Word secara digital de
 Pelajari cara menggunakan file PFX untuk menandatangani dokumen secara digital di Java dengan contoh kode lengkap.
 ### [Cara menandatangani docx di Java – panduan langkah demi langkah](./how-to-sign-docx-in-java-step-by-step-guide/)
 Panduan lengkap untuk menandatangani file docx menggunakan Aspose.Words untuk Java dengan contoh kode langkah demi langkah.
+### [Cara menambahkan tanda tangan digital ke dokumen Word](./how-to-add-a-digital-signature-to-a-word-document/)
+Pelajari cara menambahkan tanda tangan digital ke dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

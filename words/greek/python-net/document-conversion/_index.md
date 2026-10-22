@@ -207,6 +207,14 @@
 Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF με το Aspose.Words για Python, ακολουθώντας βήμα‑βήμα οδηγίες για πλήρη συμβατότητα και προσβασιμότητα.
 ### [Δημιουργία PDF από έγγραφο Word σε Python – Οδηγός βήμα‑βήμα](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Πώς να αποθηκεύσετε docx ως txt LaTeX μαθηματικά με το Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε txt με LaTeX μαθηματικά χρησιμοποιώντας Aspose.Words.
+### [Πώς να αποθηκεύσετε Word ως PDF με το Aspose.Words σε Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Μάθετε πώς να αποθηκεύσετε αρχεία Word ως PDF με το Aspose.Words για Python.
+### [Πώς να μετατρέψετε docx σε pdf με προσβασιμότητα σε Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε PDF με προσβασιμότητα χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να μετατρέψετε docx σε txt σε Python με το Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε txt χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να αποθηκεύσετε docx ως txt με εξισώσεις LaTeX χρησιμοποιώντας Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

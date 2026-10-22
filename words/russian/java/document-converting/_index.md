@@ -136,6 +136,9 @@ weight: 14
 ### [Конвертировать markdown в docx с Aspose.Words для Java – пошаговое руководство](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
 Узнайте, как преобразовать файлы markdown в формат docx с помощью Aspose.Words for Java, следуя пошаговым инструкциям.
 
+### [Как конвертировать docx в markdown с помощью Aspose.Words для Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words for Java.
+
 ## Часто задаваемые вопросы
 
 **Q:** *Можно ли конвертировать Word‑файлы, защищённые паролем, в PDF?*  

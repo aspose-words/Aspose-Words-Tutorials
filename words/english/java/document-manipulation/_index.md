@@ -102,6 +102,8 @@ Learn how to add content controls to Word documents using Aspose.Words for Java.
 Master Document Creation with Aspose.Words for Java. A Step-by-Step Guide to Adding Text, Tables, Images, and More. Create Stunning Word Documents Effortlessly.
 ### [How to save docx with DocumentBuilder and add text after a control](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Learn how to save a DOCX file using DocumentBuilder and insert text immediately after a content control in Aspose.Words for Java.
+### [How to create blank word document with Aspose.Words for Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Create a blank Word document using Aspose.Words for Java with simple code examples.
 ### [Cloning and Combining Documents in Aspose.Words for Java](./cloning-and-combining-documents/)
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
 ### [Create blank document with an interactive command button in Word using Java](./create-blank-document-with-an-interactive-command-button-in/)

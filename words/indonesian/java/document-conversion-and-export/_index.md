@@ -218,6 +218,7 @@ Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words 
 
 ### [Membuat PDF yang dapat diakses dari Word dengan Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Pelajari cara menghasilkan PDF yang memenuhi standar aksesibilitas dari dokumen Word menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
 ### [Konversi docx ke txt – Ekspor Persamaan Word sebagai LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Pelajari cara mengonversi file DOCX menjadi TXT dan mengekspor persamaan Word ke format LaTeX menggunakan Aspose.Words for Java.
 
@@ -371,6 +372,9 @@ Pelajari cara membuat PDF aksesibel dari DOCX secara detail, langkah demi langka
 Pelajari cara mengekspor halaman atau gambar Word menjadi file PNG dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
 ### [Buat markdown dari docx di Java – panduan lengkap Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
 Pelajari cara mengonversi file DOCX menjadi markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
+### [Cara menyimpan Markdown sebagai DOCX menggunakan Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Simpan file Markdown sebagai DOCX menggunakan Aspose.Words for Java dengan panduan langkah demi langkah lengkap.
 
 ## Pertanyaan yang Sering Diajukan
 

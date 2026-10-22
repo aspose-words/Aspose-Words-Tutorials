@@ -148,6 +148,9 @@ Naučte se uložit soubor DOCX pomocí DocumentBuilder a vložit text za konkré
 ### [Vytvoření nového dokumentu Word – krok za krokem průvodce přidáním strukturovaného tagu](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Naučte se, jak vytvořit nový dokument Word a přidat do něj strukturovaný tag pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit prázdný dokument Word pomocí Aspose.Words pro Javu](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

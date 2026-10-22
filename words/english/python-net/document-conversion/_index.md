@@ -205,6 +205,14 @@ Learn how to export Word Math equations to LaTeX and save DOCX as TXT using Aspo
 Learn how to create accessible PDF files using Aspose.Words for Python with a comprehensive step‑by‑step guide.
 ### [Create PDF from Word Document in Python – Step‑by‑Step Guide](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Learn how to generate PDFs from Word documents using Aspose.Words for Python in this detailed step‑by‑step guide.
+### [How to save docx as txt LaTeX math using Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Learn how to convert DOCX files to plain text with LaTeX math support using Aspose.Words for Python.
+### [How to convert docx to txt in Python with Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Learn how to convert DOCX files to plain text using Aspose.Words for Python.
+### [How to save Word as PDF with Aspose.Words in Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Learn how to convert Word documents to PDF using Aspose.Words for Python in a simple step-by-step guide.
+### [How to convert docx to pdf with accessibility in Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Learn how to convert DOCX files to accessible PDFs using Aspose.Words for Python, preserving accessibility features.
 ### [How to save docx as txt with LaTeX equations using Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Learn how to export DOCX as plain text while preserving LaTeX equations using Aspose.Words for Python.
 

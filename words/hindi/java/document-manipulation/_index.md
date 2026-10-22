@@ -128,6 +128,8 @@ DocumentBuilder का उपयोग करके docx फ़ाइल सह�
 
 ### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
 Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।
+### [Java के लिए Aspose.Words में खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aspose.Words for Java का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें। सरल कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
