@@ -32,6 +32,8 @@ Tauchen Sie tiefer in unsere verschachtelten Seiten ein und entdecken Sie spezif
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Fügen Sie mit Aspose.Words für .NET ein einfaches Säulendiagramm in Word ein" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Wie man ein Diagramm in Word bearbeitet: Beschriftungsposition, Schriftart und mehr ändern" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

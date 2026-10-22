@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Sử dụng các lớp Document và DocumentBuilder, hướng dẫn này cho thấy cách thêm một trường DATE động vào phần đầu trang chính (primary header) của tài liệu Word và sau đó lưu tệp.
+//ExStepSummary:0: Tạo một Document mới và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Di chuyển con trỏ của builder đến phần đầu trang chính (primary header) để các chèn tiếp theo ảnh hưởng đến phần đầu trang.
+//ExStepSummary:2: Viết nhãn tĩnh và chèn một trường DATE được định dạng dưới dạng “MMMM d, yyyy” vào phần đầu trang, tạo ra một ngày động.
+//ExStepSummary:3: Quay lại phần thân chính và thêm một đoạn mẫu, minh họa nội dung tài liệu bình thường cùng với phần đầu trang.
+//ExStepSummary:4: Lưu tài liệu dưới dạng tệp .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

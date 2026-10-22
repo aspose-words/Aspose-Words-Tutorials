@@ -23,7 +23,19 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Persamaan Matematika](./math-equations/) | Pelajari cara mengonfigurasi persamaan matematika dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh, Tanya Jawab Umum, dan banyak lagi. |
 | [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dengan C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | Pelajari cara menyimpan dokumen .docx sebagai file .txt dan mengekspor persamaan Word Math ke format LaTeX menggunakan C#. |
 | [Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX dalam C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | Pelajari cara menyimpan dokumen sebagai file txt dan mengekspor persamaan Word ke format LaTeX menggunakan C#. |
+| [Simpan docx sebagai txt – Ekspor Persamaan ke LaTeX dengan Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan ke format LaTeX menggunakan Aspose.Words untuk .NET. |
+| [Cara Mengonversi Persamaan di Word ke LaTeX – Simpan sebagai TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Pelajari cara mengonversi persamaan dalam dokumen Word menjadi format LaTeX dan menyimpannya sebagai file TXT menggunakan Aspose.Words untuk .NET. |
+| [Simpan docx sebagai txt – Panduan Lengkap C# untuk Mengekspor Matematika Word sebagai LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan Word ke LaTeX menggunakan C#. |
+| [Konversi Word ke LaTeX – Panduan Lengkap C# untuk Mengekspor Office Math sebagai LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Pelajari cara mengonversi dokumen Word menjadi LaTeX dan mengekspor persamaan Office Math menggunakan C# dengan Aspose.Words. |
+| [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dalam C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan Word ke LaTeX menggunakan C#. |
+| [Simpan Office Math LaTeX – Ekspor Persamaan Word ke LaTeX dalam C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Pelajari cara mengekspor persamaan Office Math ke format LaTeX menggunakan C#. |
+| [Konversi DOCX ke TXT – Ekspor Persamaan Word ke LaTeX dalam C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Pelajari cara mengonversi file DOCX menjadi TXT dan mengekspor persamaan Word ke format LaTeX menggunakan C#. |
+| [Cara Mengekspor Matematika dari Word ke LaTeX – Panduan Lengkap](./how-to-export-math-from-word-to-latex-complete-guide/) | Pelajari cara mengekspor persamaan matematika dari dokumen Word ke format LaTeX dengan langkah-langkah lengkap menggunakan Aspose.Words untuk .NET. |
+| [Cara Mengekspor LaTeX dari Word – Panduan Pemrograman Lengkap](./how-to-export-latex-from-word-complete-programming-guide/) | Pelajari cara mengekspor persamaan LaTeX dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap. |
+| [Konversi Persamaan Word ke LaTeX – Panduan Lengkap C#](./convert-word-equations-to-latex-complete-c-guide/) | Pelajari cara mengonversi persamaan Word menjadi LaTeX menggunakan C# dengan panduan lengkap. |
+| [Simpan docx sebagai txt – Ekspor Persamaan Word ke MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Pelajari cara menyimpan dokumen .docx sebagai file .txt dan mengekspor persamaan Word ke format MathML menggunakan C#. |
 
+| [Cara Menyimpan DOCX sebagai TXT dengan Ekspor Matematika LaTeX](./how-to-save-docx-as-txt-with-latex-math-export/) | Pelajari cara menyimpan file DOCX menjadi TXT sambil mengekspor persamaan LaTeX menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

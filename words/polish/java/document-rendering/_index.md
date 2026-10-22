@@ -39,6 +39,16 @@ Dowiedz się, jak wzbogacić swoje dokumenty o kształty i grafikę, korzystają
 Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla Java. Ucz się krok po kroku z przykładami kodu źródłowego.
 ### [Renderowanie dokumentów do HTML](./rendering-documents-html/)
 Dowiedz się, jak bez wysiłku renderować dokumenty do HTML za pomocą Aspose.Words dla Java. Przewodnik krok po kroku dotyczący wydajnej konwersji dokumentów.
+### [Jak obsługiwać czcionki w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Poznaj, jak zarządzać czcionkami w aplikacjach Java przy użyciu Aspose.Words. Kompletny przewodnik z przykładami kodu.
+### [Samouczek aspose warning callback – wykrywanie i śledzenie brakujących czcionek](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Dowiedz się, jak obsługiwać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
+### [Jak przechwytywać ostrzeżenia – wykrywać brakujące czcionki w Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Dowiedz się, jak przechwytywać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
+### [Znajdowanie brakujących czcionek w Javie z Aspose.Words – Kompletny przewodnik](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Dowiedz się, jak wykrywać i rozwiązywać problemy z brakującymi czcionkami w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Rejestracja wywołania zwrotnego ostrzeżenia w Javie – Kompletny przewodnik programistyczny](./register-warning-callback-in-java-complete-programming-guide/)
+Poznaj, jak zarejestrować callback ostrzeżeń w Aspose.Words for Java, aby obsługiwać i logować ostrzeżenia podczas przetwarzania dokumentów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

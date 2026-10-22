@@ -52,12 +52,12 @@ Een commentaar toevoegen in Java betekent het aanmaken van een `Comment`‑knoop
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Licentie‑acquisitie
 Aspose.Words is een commercieel product. Je kunt beginnen met een gratis proefperiode van 30 dagen of een tijdelijke licentie aanvragen voor evaluatie. Bezoek de [purchase page](https://purchase.aspose.com/buy) voor details.
@@ -72,20 +72,20 @@ Aspose.Words is een commercieel product. Je kunt beginnen met een gratis proefpe
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Stap 2:** Maak een commentaar aan en voeg het toe  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Stap 3:** Voeg een antwoord toe aan het commentaar  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Functie 2: Alle commentaren afdrukken
 **Overzicht** – Haalt elk top‑level commentaar en de bijbehorende antwoorden op voor beoordeling.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Stap 1:** Laad het document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Stap 2:** Haal commentaren op en druk ze af  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Functie 3: Hoe commentaar‑antwoorden te verwijderen in Java
 **Overzicht** – Toont **how to delete comment replies** om het document netjes te houden.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Stap 2:** Verwijder antwoorden  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Stap 2:** Markeer het commentaar als voltooid  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Functie 5: UTC‑datum en -tijd ophalen uit commentaar
 **Overzicht** – Haalt de exacte UTC‑tijdstempel op waarop een commentaar is toegevoegd, ideaal voor audit‑logboeken.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Stap 2:** Sla op en haal de UTC‑datum op  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Praktische toepassingen
 - **Collaborative Editing:** Teams kunnen direct in gegenereerde rapporten commentaren toevoegen en beantwoorden.  

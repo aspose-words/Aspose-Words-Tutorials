@@ -34,7 +34,8 @@ Niezależnie od tego, czy tworzysz raporty, generujesz umowy, czy budujesz zaawa
 - **Easy Integration** – Włączenie potężnych możliwości dokumentów do aplikacji Java przy minimalnej ilości kodu.
 - **Platform Independence** – Działanie w dowolnym środowisku obsługującym Javę, w tym na komputerach stacjonarnych, w sieci i w aplikacjach mobilnych.
 
-## Dostępne kategorie samouczków
+## Jak wygenerować PDF z Worda przy użyciu Aspose.Words for Java?
+`Document` jest obiektem Aspose.Words, który ładuje i reprezentuje plik Word. Aby wygenerować PDF, załaduj istniejący plik Word przy użyciu `new Document("input.docx")` i wywołaj `doc.save("output.pdf", SaveFormat.PDF)`. Aspose.Words automatycznie zachowuje czcionki, tabele, obrazy i złożone układy, dostarczając PDF identyczny wizualnie ze źródłowym dokumentem, jednocześnie efektywnie obsługując duże pliki.
 
 ### [Integracja AI i uczenia maszynowego](./ai-machine-learning-integration/)
 

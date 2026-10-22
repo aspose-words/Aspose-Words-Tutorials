@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un document Word contenant un graphique en colonnes, rouvrir le document, récupérer les séries de graphique existantes, modifier leurs points de données et enregistrer le fichier mis à jour afin que le graphique reflète les nouvelles valeurs.
+//ExStepSummary:0: Créez un nouveau Document, insérez un graphique en colonnes avec un DocumentBuilder, puis enregistrez-le comme fichier initial.
+//ExStepSummary:1: Ouvrez le fichier enregistré et localisez la forme du graphique pour obtenir l'objet Chart existant.
+//ExStepSummary:2: Effacez les valeurs de la première série et ajoutez de nouveaux points, puis ajustez la deuxième série en supprimant son premier point et en en ajoutant un nouveau.
+//ExStepSummary:3: Enregistrez le document modifié dans un nouveau fichier contenant le graphique mis à jour.
+//ExStepImage:0:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+Shape chartContainer = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObject = chartContainer.Chart;
+const string sourceFile = "initial_chart.docx";
+document.Save(sourceFile);
+
+//ExStep:1-
+Document openedDoc = new Document(sourceFile);
+Shape? chartShape = openedDoc.GetChildNodes(NodeType.Shape, true)
+                                    .OfType<Shape>()
+                                    .FirstOrDefault(s => s.HasChart);
+if (chartShape == null)
+    throw new InvalidOperationException("Unable to locate a chart shape inside the document.");
+Chart existingChart = chartShape.Chart;
+
+//ExStep:2-
+if (existingChart.Series.Count > 0)
+{
+    ChartSeries primarySeries = existingChart.Series[0];
+    primarySeries.ClearValues();
+
+    primarySeries.Add(ChartXValue.FromString("Group A"), ChartYValue.FromDouble(15));
+    primarySeries.Add(ChartXValue.FromString("Group B"), ChartYValue.FromDouble(30));
+    primarySeries.Add(ChartXValue.FromString("Group C"), ChartYValue.FromDouble(45));
+}
+
+if (existingChart.Series.Count > 1)
+{
+    ChartSeries secondarySeries = existingChart.Series[1];
+    if (secondarySeries.YValues.Count > 0)
+        secondarySeries.Remove(0);
+
+    secondarySeries.Add(ChartXValue.FromString("Group D"), ChartYValue.FromDouble(25));
+}
+
+//ExStep:3-
+const string resultFile = "updated_chart.docx";
+openedDoc.Save(resultFile);
+//ExEnd

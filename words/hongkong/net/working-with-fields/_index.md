@@ -46,7 +46,7 @@
 | [轉換文檔中的字段](./convert-fields-in-document/) |透過本指南了解如何使用 Aspose.Words for .NET 轉換 Word 文件中的欄位。按照我們的教學有效地管理和轉換文件中的欄位。 |
 | [轉換正文中的字段](./convert-fields-in-body/) |了解如何使用 Aspose.Words for .NET 將頁面欄位轉換為 Word 文件正文中的文字。 |
 | [更改區域設定](./change-locale/) |透過本指南了解如何使用 Aspose.Words for .NET 變更 Word 文件中的語言環境。非常適合處理國際客戶和專案。 |
-
+| [使用 Aspose.Words 建立發票範本並合併資料](./create-invoice-template-and-merge-data-using-aspose-words/) |了解如何使用 Aspose.Words for .NET 建立發票範本並將資料合併生成 Word 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

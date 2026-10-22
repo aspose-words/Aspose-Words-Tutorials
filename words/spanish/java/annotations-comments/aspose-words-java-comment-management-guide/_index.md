@@ -52,12 +52,12 @@ Agregar un comentario en Java significa crear un nodo `Comment`, adjuntarlo a un
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Obtención de licencia
 Aspose.Words es un producto comercial. Puedes comenzar con una prueba gratuita de 30 días o solicitar una licencia temporal para evaluación. Visita la [purchase page](https://purchase.aspose.com/buy) para más detalles.
@@ -72,20 +72,20 @@ Aspose.Words es un producto comercial. Puedes comenzar con una prueba gratuita d
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Paso 2:** Crear y agregar un comentario  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Paso 3:** Agregar una respuesta al comentario  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Función 2: Imprimir todos los comentarios
 **Visión general** – Recupera cada comentario de nivel superior y sus respuestas para revisión.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Paso 1:** Cargar el documento  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Paso 2:** Recuperar e imprimir los comentarios  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Función 3: Cómo eliminar respuestas a comentarios en Java
 **Visión general** – Muestra **how to delete comment replies** para mantener el documento ordenado.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Paso 2:** Eliminar respuestas  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Paso 2:** Marcar el comentario como completado  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Función 5: Obtener fecha y hora UTC del comentario
 **Visión general** – Recupera la marca de tiempo UTC exacta en que se agregó un comentario, ideal para registros de auditoría.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Paso 2:** Guardar y recuperar la fecha UTC  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Aplicaciones prácticas
 - **Edición colaborativa:** Los equipos pueden agregar y responder a comentarios directamente en los informes generados.  

@@ -1,0 +1,7 @@
+Title: Hide picture in Word – step‑by‑step Java guide with Aspose
+Slug: hide-picture-in-word-step-by-step-java-guide-with-aspose
+Category: images-shapes
+ProcessedDate: 2026-08-14T11:14:24.455392
+SourceRepo: AI Search API
+Keywords: hide picture in word, how to hide picture, how to hide image, set hidden property, hide shape in word
+PRNumber: 252

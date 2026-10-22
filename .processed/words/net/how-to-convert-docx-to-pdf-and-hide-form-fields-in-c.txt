@@ -1,0 +1,7 @@
+Title: How to convert docx to pdf and hide form fields in C#
+Slug: how-to-convert-docx-to-pdf-and-hide-form-fields-in-c
+Category: working-with-form-fields
+ProcessedDate: 2026-10-14T00:08:35.806560
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, save word as pdf, export word document to pdf, how to hide form fields pdf
+PRNumber: 321

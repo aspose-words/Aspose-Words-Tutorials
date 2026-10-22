@@ -49,6 +49,25 @@ Scopri come manipolare in modo efficiente i documenti Word usando Aspose.Words p
 Scopri come gestire le proprietà e i metadati dei documenti utilizzando Aspose.Words per Python. Guida passo passo con codice sorgente.
 ### [Estensione delle funzionalità dei documenti con le estensioni Web](./document-functionality-web-extensions/)
 Scopri come estendere le funzionalità dei documenti con estensioni web utilizzando Aspose.Words per Python. Guida passo passo con codice sorgente per un'integrazione perfetta.
+### [Rendi PDF Accessibile con Aspose.Words – Guida Completa Passo‑Passo](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Scopri come rendere i PDF accessibili aggiungendo tag e struttura con Aspose.Words. Guida dettagliata passo passo con esempi di codice.
+### [Come recuperare DOCX – Guida completa con Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Scopri come recuperare file DOCX danneggiati con Aspose.Words. Guida completa passo passo con esempi di codice.
+### [Recupera documento Word corrotto con Aspose.Words – guida passo‑passo Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Scopri come riparare documenti Word danneggiati usando Aspose.Words in Python, con esempi pratici passo‑passo.
+### [Come recuperare file docx in Python – guida passo‑passo](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Scopri come recuperare file DOCX corrotti o danneggiati in Python usando Aspose.Words. Guida passo passo con esempi di codice.
+### [Configura MarkdownSaveOptions per LaTeX in Python – Guida Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Scopri come configurare MarkdownSaveOptions per esportare documenti in LaTeX usando Aspose.Words per Python. Guida passo passo con esempi.
+### [Come recuperare file docx con Aspose.Words per Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Scopri come recuperare file docx corrotti o danneggiati usando Aspose.Words per Python. Guida passo passo con esempi di codice.
+### [Abilita la modalità di recupero per aprire un documento Word danneggiato](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Scopri come abilitare la modalità di recupero per aprire documenti Word corrotti usando Aspose.Words per Python. Guida passo passo con codice sorgente.
+### [Come recuperare file docx corrotti con Aspose.Words in Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Scopri come recuperare file docx corrotti utilizzando Aspose.Words per Python. Guida passo passo con esempi di codice.
+### [Gestore Avvisi Font Aspose – Rileva Font Mancanti e Personalizza il Caricamento del Documento](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Scopri come gestire gli avvisi di font mancanti e personalizzare il caricamento dei documenti con Aspose.Words per Python.
+### [Abilita la modalità di recupero per ripristinare un documento Word danneggiato](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

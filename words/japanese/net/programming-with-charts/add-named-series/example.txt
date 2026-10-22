@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words の Document と DocumentBuilder を使用して Word 文書を作成し、ヒストグラム チャートを埋め込み、名前と値を受け取る ChartSeriesCollection.Add のオーバーロードを使ってラベル付きデータ系列を追加する方法を示します。
+//ExStepSummary:0: 新しい空の Word 文書と、それを編集するための DocumentBuilder を作成します。
+//ExStepSummary:1: サイズ 500×300 のヒストグラム チャート シェイプを文書に挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: Aspose.Words が新しいチャートに追加するデフォルトのプレースホルダー系列を削除します。
+//ExStepSummary:3: 指定されたデータポイントを持つ「Demo Series」という名前の系列をヒストグラム チャートに追加します。
+//ExStepSummary:4: ラベル付きチャート系列を含む .docx ファイルとして文書を保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

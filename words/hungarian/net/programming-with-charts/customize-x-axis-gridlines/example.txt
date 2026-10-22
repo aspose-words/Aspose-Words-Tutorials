@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Ez az útmutató bemutatja, hogyan hozhatunk létre egy Word dokumentumot, szúrhatunk be egy oszlopdiagramot, cserélhetjük le a mintaadatokat, majd engedélyezhetjük és formázhatjuk a fő rácsvonalakat az elsődleges X tengelyen.
+//ExStepSummary:0: Hozzon létre egy új Word dokumentumot és egy DocumentBuilder objektumot a szerkesztéséhez.
+//ExStepSummary:1: Szúrjon be egy 432×252 méretű oszlopdiagramot a dokumentumba, és szerezze meg a hozzá tartozó Chart objektumot.
+//ExStepSummary:2: Távolítsa el az alapértelmezett sorozatot, és adjon hozzá egy egyéni sorozatot három csoporttal és értékkel.
+//ExStepSummary:3: Szerezzen referenciát a diagram elsődleges vízszintes (X) tengelyéhez.
+//ExStepSummary:4: Engedélyezze a fő rácsvonalak megjelenítését az elsődleges X tengelyen.
+//ExStepSummary:5: Állítsa be a rácsvonalak színét kékre, és a vastagságukat 2 pontra.
+//ExStepSummary:6: Mentse a dokumentumot .docx fájlba.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

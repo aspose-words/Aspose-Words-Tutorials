@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit nový dokument Word, vložit výchozí sloupcový graf pomocí DocumentBuilder.InsertChart, získat vložený objekt Chart a uložit dokument do souboru .docx.
+//ExStepSummary:0: Vytvořte prázdný dokument Word a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Vložte sloupcový graf o rozměrech 432 × 252 bodů do dokumentu.
+//ExStepSummary:2: Získáte objekt Chart z vloženého tvaru pro další úpravy, pokud je to potřeba.
+//ExStepSummary:3: Uložte dokument, který nyní obsahuje vložený sloupcový graf, do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

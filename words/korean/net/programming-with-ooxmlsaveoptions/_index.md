@@ -29,7 +29,7 @@ OOXMLSaveOptions를 사용한 단어 처리에 대한 Aspose.Words for .NET 튜�
 | [마지막으로 저장된 시간 속성 업데이트](./update-last-saved-time-property/) | Aspose.Words for .NET을 사용하여 Word 문서에서 마지막으로 저장된 시간 속성을 업데이트하는 방법을 알아보세요. 자세한 단계별 가이드를 따라해 보세요. |
 | [레거시 제어 문자 유지](./keep-legacy-control-chars/) | 이 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에서 레거시 제어 문자를 보존하는 방법을 알아보세요. |
 | [압축 레벨 설정](./set-compression-level/) | Aspose.Words for .NET을 사용하여 Word 문서의 압축 수준을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 문서 저장 및 성능을 최적화하세요. |
-
+| [Aspose.Words를 사용하여 C#에서 Word 문서 인코딩 변경하는 방법](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서의 인코딩을 변경하는 단계별 가이드를 제공합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

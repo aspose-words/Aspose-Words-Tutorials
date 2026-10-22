@@ -49,6 +49,26 @@ Lär dig hur du effektivt hanterar Word-dokument med Aspose.Words för Python. S
 Lär dig hur du hanterar dokumentegenskaper och metadata med Aspose.Words för Python. Steg-för-steg-guide med källkod.
 ### [Utöka dokumentfunktionalitet med webbtillägg](./document-functionality-web-extensions/)
 Lär dig hur du utökar dokumentfunktionalitet med webbtillägg med Aspose.Words för Python. Steg-för-steg-guide med källkod för sömlös integration.
+### [Gör PDF tillgänglig med Aspose.Words – Komplett steg‑för‑steg‑guide](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Lär dig hur du gör PDF-filer tillgängliga enligt standarder med Aspose.Words i en komplett steg‑för‑steg‑guide.
+### [Hur du återställer DOCX – Komplett guide med Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Lär dig hur du återställer skadade DOCX-filer med Aspose.Words. Steg-för-steg-guide med kodexempel.
+### [Återställ korrupt Word-dokument med Aspose.Words – steg‑för‑steg Python‑guide](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Lär dig hur du reparerar skadade Word-dokument med Aspose.Words i Python. En detaljerad steg‑för‑steg‑guide.
+### [Hur du återställer docx-filer i Python – steg‑för‑steg‑guide](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. En steg‑för‑steg‑guide med kodexempel.
+### [Konfigurera MarkdownSaveOptions för LaTeX i Python – Aspose.Words-guide](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Lär dig hur du konfigurerar MarkdownSaveOptions för LaTeX-export i Python med Aspose.Words.
+### [Hur du återställer docx-filer med Aspose.Words för Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Lär dig återställa skadade eller korrupta docx-filer med Aspose.Words för Python. Steg-för-steg-guide med kodexempel.
+### [Aktivera återställningsläge för att öppna ett korrupt Word-dokument](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Lär dig hur du aktiverar återställningsläget för att öppna och reparera skadade Word-dokument med Aspose.Words för Python.
+### [Hur du återställer korrupta docx-filer med Aspose.Words i Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. Steg-för-steg-guide med kodexempel.
+### [Aspose Font-varningshanterare – Upptäck saknade teckensnitt och anpassa dokumentladdning](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Lär dig hur du använder Aspose Font Warning Handler för att identifiera saknade teckensnitt och anpassa hur dokument laddas in.
+### [Aktivera återställningsläge för att återställa ett skadat Word-dokument](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Lär dig hur du aktiverar återställningsläge i Aspose.Words för att reparera korrupta Word-dokument. Steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
