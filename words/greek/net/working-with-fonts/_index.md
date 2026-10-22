@@ -84,6 +84,7 @@
 | [Πώς να εντοπίσετε γραμματοσειρές σε C# – Πλήρης Οδηγός](./how-to-detect-fonts-in-c-complete-guide/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words για .NET. |
 | [Αντικατάσταση Γραμματοσειρών Aspose – Εντοπισμός Ελλειπουσών Γραμματοσειρών σε Έγγραφα Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Μάθετε πώς να εντοπίζετε ελλείπουσες γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Πώς να ανιχνεύσετε την αντικατάσταση στο Aspose.Words – Διαχείριση ελλιπών γραμματοσειρών](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Μάθετε πώς να ανιχνεύετε την αντικατάσταση γραμματοσειρών και να διαχειρίζεστε ελλιπείς γραμματοσειρές στο Aspose.Words για .NET. |
+| [Πώς να εκτελέσετε αντικατάσταση γραμματοσειράς σε έγγραφο με C#](./how-to-perform-font-substitution-in-document-with-c/) |  |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 | [Πώς να ορίσετε FontSettings – Διαχείριση ελλιπών γραμματοσειρών](./how-to-set-fontsettings-handle-missing-fonts/) | Μάθετε πώς να ρυθμίσετε FontSettings για να αντιμετωπίζετε ελλιπείς γραμματοσειρές σε έγγραφα Word με Aspose.Words για .NET. |
@@ -93,6 +94,9 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 | [Πώς να φορτώσετε γραμματοσειρές σε .NET – Ορισμός ρυθμίσεων γραμματοσειράς & προειδοποιήσεων](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Μάθετε πώς να φορτώνετε γραμματοσειρές σε .NET, να ορίζετε ρυθμίσεις γραμματοσειράς και να διαχειρίζεστε προειδοποιήσεις με το Aspose.Words για .NET. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+| [Αποθήκευση docx ως pdf & ανίχνευση ελλιπών γραμματοσειρών χρησιμοποιώντας το Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως pdf και να εντοπίζετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

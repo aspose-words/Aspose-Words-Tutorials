@@ -24,6 +24,7 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
+| [Tạo tài liệu Word mới và chèn điều khiển nội dung trong C#](./create-new-word-document-and-insert-content-control-in-c/) | Hướng dẫn tạo tài liệu Word mới và chèn điều khiển nội dung bằng C# trong Aspose.Words. |
 | [Kiểm soát nội dung loại hộp kiểm](./check-box-type-content-control/) | Tìm hiểu cách thêm Kiểm soát nội dung loại hộp kiểm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
 | [Trạng thái hiện tại của hộp kiểm](./current-state-of-check-box/) | Tìm hiểu cách quản lý hộp kiểm trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, cập nhật và lưu hộp kiểm theo chương trình. |
 | [Sửa đổi Kiểm soát Nội dung](./modify-content-controls/) | Tìm hiểu cách sửa đổi thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Cập nhật văn bản, danh sách thả xuống và hình ảnh từng bước. |
@@ -41,6 +42,8 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
 
 | [Tạo tài liệu Word bằng lập trình – thêm điều khiển nội dung và placeholder](./create-word-document-programmatically-add-content-control-an/) | Hướng dẫn tạo tài liệu Word mới bằng mã, chèn điều khiển nội dung và placeholder để người dùng nhập dữ liệu. |
 | [Cách tạo điều khiển nội dung trong C# với Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Hướng dẫn tạo và cấu hình điều khiển nội dung trong tài liệu Word bằng C# và Aspose.Words. |
+| [Cách lưu tài liệu Word với SDT bằng Aspose.Words trong C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Hướng dẫn lưu tài liệu Word có chứa Structured Document Tag (SDT) bằng Aspose.Words trong C#. |
+| [Cách thêm kiểm soát nội dung từ trong tài liệu Word bằng Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Hướng dẫn chi tiết cách chèn kiểm soát nội dung vào tài liệu Word bằng Aspose.Words. |
 | [Cách tạo tài liệu Word với các điều khiển nội dung trong C#](./how-to-create-word-document-with-content-controls-in-c/) | Hướng dẫn tạo tài liệu Word có các điều khiển nội dung bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -70,9 +70,9 @@
 | [วิธีจับการแจ้งเตือนใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจับการแจ้งเตือนใน Aspose.Words ด้วย C# อย่างครบถ้วนในบทช่วยสอนนี้ |
 | [วิธีใช้ IWarningCallback – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | เรียนรู้วิธีใช้ IWarningCallback เพื่อตรวจจับแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
+| [วิธีทำการทดแทนแบบอักษรในเอกสารด้วย C#](./how-to-perform-font-substitution-in-document-with-c/) | เรียนรู้วิธีทำการทดแทนแบบอักษรในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วย C# -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 

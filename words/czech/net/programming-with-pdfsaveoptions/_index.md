@@ -86,6 +86,7 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Vytvořte přístupný PDF z Wordu pomocí Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit přístupný PDF z dokumentu Word. |
 | [Převod DOCX do PDF pomocí Aspose.Words – Kompletní programovací průvodce](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Kompletní průvodce převodem souborů DOCX do PDF v C# pomocí Aspose.Words. |
 | [Vytvořte přístupný PDF z DOCX – Kompletní programovací průvodce](./create-accessible-pdf-from-docx-complete-programming-guide/) | Kompletní průvodce programovacím převodem souborů DOCX do přístupného PDF pomocí Aspose.Words pro .NET. |
+| [Jak nastavit RenderChoiceFormFieldBorder na false při převodu Wordu do PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Naučte se, jak při převodu dokumentu Word do PDF vypnout ohraničení formulářových polí. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -28,6 +28,12 @@
 
 ## 可用教程
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [使用 Aspose.Words 回呼在 Java 中儲存自訂頁面和映像](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java 程式碼教程
 
@@ -94,8 +100,69 @@ Aspose.Words Java 程式碼教程
 示範如何在 Aspose.Words for C# 中設定形狀的隱藏屬性。
 ### [在 Java 中建立空白 Word 文件並分組形狀](./create-blank-word-document-and-group-shapes-in-java/)
 示範如何在 Java 中創建空白的 Word 文檔並將多個形狀分組以便於管理。
+### [在 Word 中使用 Java 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
+學習如何使用 Aspose.Words for Java 在 Word 文檔中插入並自訂矩形形狀的完整步驟。
+
+### [如何在 C# 中建立群組形狀 docx 並添加互動控制](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+示範如何在 C# 使用 Aspose.Words 建立群組形狀並加入互動控制。
+### [在 Word 中對形狀分組並添加矩形（使用 Aspose.Words）](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+示範如何在 Word 文檔中將多個形狀分組，並使用 Aspose.Words 插入帶自訂屬性的矩形。
+
+### [如何使用 C# 和 Aspose.Words 在 Word 中隱藏形狀](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+示範如何在 Word 文檔中使用 C# 隱藏形狀。
+
+### [如何在 Java 中建立空白 Word 文件並對形狀進行分組](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+了解如何使用 Aspose.Words for Java 建立空白文件並將形狀分組，以便於佈局管理。
+
+### [建立帶有隱藏圖片的新 Word 文件 – 步驟說明指南](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+了解如何在 Word 文件中加入隱藏圖片的步驟與程式碼示例。
+
+### [如何使用 Aspose.Words 在 C# 中建立空白文件並添加形狀](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+了解如何在 C# 使用 Aspose.Words 建立空白 Word 文件並插入各種形狀。
+
+### [如何在 Java 中將圖片插入 docx 並在 Word 中隱藏圖片](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+了解如何使用 Aspose.Words for Java 在 Word 文檔中插入圖片並將其隱藏，以實現更靈活的內容呈現。
+### [如何在 Word 中使用 Java 將形狀分組 – 完整指南](./how-to-group-shapes-in-word-with-java-complete-guide/)
+了解如何在 Java 中使用 Aspose.Words for Java 將 Word 文檔中的形狀分組，並自訂屬性以提升文件的結構與視覺效果。
+### [在 Java 中為形狀添加陰影 – 完整程式設計指南](./add-shadow-to-shape-in-java-complete-programming-guide/)
+本指南詳細說明如何使用 Aspose.Words for Java 為形狀添加陰影效果，涵蓋完整程式碼示例與步驟說明。
+### [建立空白 Word 文件並加入群組形狀 – Java 指南](./create-blank-word-document-with-grouped-shape-java-guide/)
+示範如何在 Java 中使用 Aspose.Words 建立空白的 Word 文件，並將多個形狀組合為群組形狀。
+
+### [建立 Word 文件 Java – 插入並隱藏圖像](./create-word-document-java-insert-and-hide-images-with-aspose/)
+示範如何在 Java 中使用 Aspose.Words 插入圖像並將其隱藏於 Word 文件中。
+
+### [在 Java 中插入餅圖 – 爆炸、旋轉與突出切片](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+示範如何在 Java 中使用 Aspose.Words 插入餅圖，並設定爆炸、旋轉及突出顯示切片。
+
+### [在 Java 中建立帶群組形狀的空白 Word 文件](./create-blank-word-document-with-grouped-shapes-in-java/)
+示範如何在 Java 使用 Aspose.Words 建立空白 Word 文件並加入群組形狀。
+
+### [Aspose.Words ActiveX 教學 – 在 Java 中插入 CommandButton](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+示範如何在 Java 中使用 Aspose.Words ActiveX 插入 CommandButton 控制項。
+
+### [建立 Word 文件 Java – 隱藏形狀並設定填充顏色](./create-word-document-java-hide-shape-and-set-fill-color/)
+示範如何在 Java 中使用 Aspose.Words 隱藏形狀並設定其填充顏色。
 
 ## 其他資源
+
+### [建立帶隱藏橢圓形的空白 Word 文件](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+示範如何在空白 Word 文件中加入隱藏的橢圓形。
+
+### [如何在 Java 中建立包含圓餅圖的 Word 文件](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+了解如何使用 Aspose.Words for Java 在 Word 文件中插入圓餅圖，並自訂其外觀與資料。
+
+### [如何在 Word 中建立空白文件並新增形狀](./how-to-create-blank-document-and-add-shapes-to-word/)
+示範如何使用 Aspose.Words for Java 建立空白 Word 文件，並向其中加入各種形狀。
+
+### [在 Java 中程式化建立 Word 文件，將形狀分組](./create-word-document-programmatically-group-shapes-in-java/)
+示範如何使用 Aspose.Words for Java 程式化建立 Word 文件並將多個形狀分組。
+
+### [如何在 C# 中建立空白 Word 文件並加入隱藏的橢圓形狀](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+示範如何使用 Aspose.Words for C# 建立空白文件，並在其中加入隱藏的橢圓形狀以供後續操作。
+
+### [如何在 Word 文件中使用 Java 建立環形圖表](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+示範如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂環形圖表。
 
 ## 其他資源
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)

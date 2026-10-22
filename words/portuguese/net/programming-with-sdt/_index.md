@@ -40,6 +40,9 @@ Os exemplos de código fornecidos nos tutoriais ajudarão você a entender os co
 | [Como adicionar controle de conteúdo e criar documento Word com Aspose – Guia completo](./how-to-add-content-control-and-create-word-document-with-asp/) | Aprenda passo a passo como adicionar controles de conteúdo e criar documentos Word usando Aspose.Words para .NET. |
 | [Criar documento Word programaticamente – adicionar controle de conteúdo e placeholder](./create-word-document-programmatically-add-content-control-an/) | Aprenda a criar um documento Word programaticamente, adicionando um controle de conteúdo e um placeholder usando Aspose.Words para .NET. |
 | [Como criar controle de conteúdo em C# com Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Aprenda a criar um controle de conteúdo em C# usando Aspose.Words com este tutorial passo a passo. |
+| [Como salvar documento Word com SDT usando Aspose.Words em C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Aprenda a salvar documentos Word contendo Controles de Conteúdo Estruturado (SDT) usando Aspose.Words para .NET em C#. |
+| [Como adicionar controle de conteúdo Word em um documento Word usando Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aprenda a inserir um controle de conteúdo em um documento Word usando Aspose.Words para .NET passo a passo. |
+| [Criar novo documento Word e inserir controle de conteúdo em C#](./create-new-word-document-and-insert-content-control-in-c/) | Aprenda a criar um documento Word e inserir um controle de conteúdo usando C# com Aspose.Words para .NET. |
 | [Como criar documento Word com controles de conteúdo em C#](./how-to-create-word-document-with-content-controls-in-c/) | Aprenda a criar um documento Word contendo controles de conteúdo usando C# e Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

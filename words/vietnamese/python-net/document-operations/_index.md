@@ -78,6 +78,9 @@ Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng 
     ### [Khôi phục tệp DOCX bị hỏng trong Python – Hướng dẫn toàn diện](./recover-corrupted-docx-files-in-python-complete-guide/)
 Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Python, bao gồm các bước và ví dụ thực tế.
 
+    ### [Khôi phục tài liệu Word bị hỏng bằng Aspose.Words – Hướng dẫn toàn diện](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Hướng dẫn đầy đủ cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong Python-net.
+
     ### [Cách khôi phục tệp DOCX trong Python – Hướng dẫn đầy đủ](./how-to-recover-docx-files-in-python-complete-guide/)
 Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng trong Python bằng Aspose.Words.
 
@@ -89,6 +92,11 @@ Hướng dẫn khôi phục tệp DOCX bị hỏng trong Python bằng thư vi�
 
 ### [Cách khôi phục tài liệu Word bị hỏng và lưu tệp Word đã khôi phục bằng Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
 Hướng dẫn khôi phục tài liệu Word bị hỏng và lưu lại tệp Word đã khôi phục bằng Aspose.Words.
+### [Cách khôi phục tệp docx bị hỏng bằng Aspose.Words cho Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Python.
+
+    ### [Khôi phục DOCX bị hỏng – Hướng dẫn Python đầy đủ](./recover-corrupted-docx-complete-python-guide/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words trong Python, bao gồm các bước và mã mẫu.
 
 ## Tài nguyên bổ sung
 

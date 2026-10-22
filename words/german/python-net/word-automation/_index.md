@@ -40,6 +40,8 @@ Erfahren Sie, wie Sie DOCX-Dateien programmgesteuert mit Python ersetzen und bea
 
 ### [So verwenden Sie Aspose, um Grammatikprüfungen in Python zu automatisieren](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Erfahren Sie, wie Sie mit Aspose Grammatikfehler in Word-Dokumenten automatisch korrigieren und Ihre Python-Anwendungen verbessern.
+### [Erstellen eines leeren Word-Dokuments mit schattierter Form in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Erzeugen Sie ein leeres Word-Dokument und fügen Sie eine schattierte Form mit Aspose.Words für Python hinzu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

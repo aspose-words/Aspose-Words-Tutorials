@@ -40,6 +40,8 @@ Apprenez à remplacer du texte dans des fichiers DOCX en utilisant Python, avec 
 
 ### [Comment utiliser Aspose pour automatiser la correction grammaticale en Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Apprenez à corriger automatiquement la grammaire des documents Word avec Aspose.Words et Python.
+### [Créer un document Word vierge avec forme ombrée en Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Créez un document Word vierge contenant une forme avec ombre en utilisant Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

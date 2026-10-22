@@ -44,6 +44,8 @@
 | [सारांश विकल्पों के साथ कार्य करना](./working-with-summarize-options/) | त्वरित जानकारी के लिए AI मॉडल को एकीकृत करने पर हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को प्रभावी ढंग से सारांशित करना सीखें। |
 | [Word दस्तावेज़ों को सारांशित करने का तरीका – पूर्ण C# गाइड](./how-to-summarize-word-documents-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को C# में प्रभावी रूप से सारांशित करना सीखें। |
 | [C# में Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](./summarize-word-document-in-c-complete-ai-powered-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [C# में Aspose.Words AI के साथ docx फ़ाइलों का सारांश कैसे करें](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में docx फ़ाइलों को सारांशित करने की पूरी गाइड। |
+| [C# में AI प्रदाताओं के साथ Word दस्तावेज़ का सारांश कैसे बनाएं](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 | [Aspose.Words के साथ DOCX में व्याकरण जांचें – gpt-4 टर्बो का उपयोग करें](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | gpt-4 टर्बो का उपयोग करके .NET में Aspose.Words के साथ DOCX फ़ाइलों की व्याकरण जाँच कैसे करें, सीखें। |
 | [Aspose.Words AI के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI का उपयोग करके Word दस्तावेज़ों में व्याकरण त्रुटियों को पहचानें और सुधारें। चरण-दर-चरण गाइड। |
 | [AI के साथ Word दस्तावेज़ का सारांश – OpenAI बनाम Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI और Gemini मॉडल का उपयोग करके Word दस्तावेज़ को AI से सारांशित करने की तुलना और मार्गदर्शन। |
@@ -87,6 +89,17 @@
 | [स्थानीय LLM ट्यूटोरियल – स्थानीय LLM को कॉल करना और व्याकरण जांच चलाना](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | स्थानीय LLM को कैसे कॉल करें और Aspose.Words के साथ व्याकरण जांच लागू करें। |
 | [C# में सारांश रिपोर्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-summary-report-in-c-complete-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके संपूर्ण सारांश रिपोर्ट बनाने की विस्तृत प्रक्रिया सीखें। |
 | [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |
+| [C# में स्थानीय LLM के साथ पैराग्राफ को पुनर्लेखन कैसे करें – पूर्ण गाइड](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | C# में स्थानीय बड़े भाषा मॉडल का उपयोग करके पैराग्राफ को पुनर्लेखित करने की पूरी प्रक्रिया सीखें। |
+| [C# में AI दस्तावेज़ सारांशकर्ता का उपयोग कैसे करें](./how-to-use-an-ai-document-summarizer-in-c/) | .NET के लिए Aspose.Words के साथ C# में AI दस्तावेज़ सारांशकर्ता को लागू करने की पूरी गाइड। |
+| [Aspose.Words AI का उपयोग करके docx को फ़्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-using-aspose-words-ai/) | .NET के लिए Aspose.Words AI के साथ docx फ़ाइल को फ़्रेंच में अनुवाद करने की पूरी गाइड। |
+| [C# में Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
+| [Aspose.Words AI के साथ Word दस्तावेज़ का सारांश कैसे बनाएं](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [C# में अनुवादक का उपयोग करके दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-use-translator-to-automate-document-translation-in-c/) | .NET के लिए Aspose.Words और अनुवादक का उपयोग करके C# में दस्तावेज़ अनुवाद को स्वचालित करने का तरीका सीखें। |
+| [AI दस्तावेज़ सारांश के साथ Word दस्तावेज़ को सारांशित करना](./summarize-word-document-with-ai-document-summarization/) | .NET के लिए Aspose.Words का उपयोग करके AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [AI के साथ C# में docx को फ्रेंच में अनुवाद करने का तरीका](./how-to-translate-docx-to-french-with-ai-in-c/) | AI का उपयोग करके C# में docx फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
+| [Aspose.Words AI के साथ Word दस्तावेज़ में सारांश जोड़ें](./add-summary-to-word-document-with-aspose-words-ai/) | .NET के लिए Aspose.Words AI का उपयोग करके Word दस्तावेज़ में स्वचालित सारांश कैसे जोड़ें, सीखें। |
+| [C# में Word दस्तावेज़ का सारांश – पूर्ण Aspose.Words AI गाइड](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ को AI के साथ प्रभावी रूप से सारांशित करना सीखें। |
+| [Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद करें](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में docx फ़ाइलों को फ्रेंच में अनुवाद करना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

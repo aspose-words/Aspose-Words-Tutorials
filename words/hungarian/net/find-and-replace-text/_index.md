@@ -39,6 +39,9 @@ Akár konkrét szavakat kell lecserélnie, akár szövegsablonokat kell frissít
 | [Szöveg cseréje docx-ben C#-val – Teljes lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Ismerje meg, hogyan cserélhet szöveget egy docx fájlban C# használatával az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 
 | [Hogyan írjunk át bekezdést AI-val C#-ban – Teljes útmutató](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Tanulja meg, hogyan használhatja az AI-t bekezdések átírásához C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |
+| [Hogyan generáljon dokumentumsablont és töltse fel adatokkal C#-ban](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Tanulja meg, hogyan hozhat létre dokumentumsablont és töltheti fel adatokal C#-ban az Aspose.Words for .NET segítségével. |
+| [Hogyan cserélje ki a helyőrzőket docx fájlokban az Aspose.Words segítségével](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Tanulja meg, hogyan helyettesítheti a helyőrzőket docx fájlokban az Aspose.Words for .NET használatával. |
+| [Word dokumentum generálás automatizálása Aspose.Words használatával C#-ban](./automate-word-document-generation-with-aspose-words-in-c/) | Tanulja meg, hogyan automatizálhatja a Word dokumentumok létrehozását C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

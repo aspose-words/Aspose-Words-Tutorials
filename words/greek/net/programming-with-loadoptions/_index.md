@@ -81,6 +81,8 @@
 | [Ορισμός προειδοποίησης callback στο Aspose – Πλήρης Οδηγός για Φόρτωση Εγγράφου Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | Μάθετε πώς να ορίσετε callback προειδοποίησης κατά τη φόρτωση εγγράφων Word με το Aspose.Words για .NET. |
 | [Πώς να ανακτήσετε docx με Aspose.Words – Πλήρης Οδηγός](./how-to-recover-docx-with-aspose-words-full-guide/) | Μάθετε πώς να ανακτήσετε αρχεία docx με πλήρη οδηγό βήμα προς βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 | [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός για Διόρθωση και Φόρτωση Κατεστραμμένων Αρχείων Word](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Μάθετε πώς να επαναφέρετε και να φορτώσετε κατεστραμμένα αρχεία DOCX με πλήρη βήμα-βήμα οδηγό. |
+| [Ανάκτηση Κατεστραμμένου Εγγράφου Word χρησιμοποιώντας Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# με το Aspose.Words, βήμα προς βήμα οδηγός. |
+| [Ενεργοποίηση λειτουργίας ανάκτησης – Ανάκτηση κατεστραμμένου εγγράφου Word](./enable-recovery-mode-recover-corrupted-word-document/) | Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης για να ανοίξετε και να επαναφέρετε κατεστραμμένα έγγραφα Word με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

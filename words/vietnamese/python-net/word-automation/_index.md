@@ -39,6 +39,9 @@ Hướng dẫn chi tiết cách thay thế nội dung trong file docx bằng Pyt
 ### [Cách sử dụng Aspose để tự động sửa ngữ pháp trong Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Hướng dẫn tự động phát hiện và sửa lỗi ngữ pháp trong tài liệu Word bằng Aspose.Words cho Python.
 
+### [Tạo tài liệu Word trống với hình dạng có bóng trong Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Tạo tài liệu Word trống và chèn hình dạng có hiệu ứng bóng bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

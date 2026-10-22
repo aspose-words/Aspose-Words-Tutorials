@@ -76,6 +76,20 @@ Aspose.Words का उपयोग करके PNG फ़ाइल सहे�
 ### [Aspose.Words के साथ पायथन में कॉलम चार्ट बनाना](./how-to-create-column-chart-python-with-aspose-words/)
 Aspose.Words का उपयोग करके पायथन में कॉलम चार्ट कैसे बनाएं, सीखें।
 
+### [Aspose.Words के साथ Word आकृति पर शैडो प्रभाव कैसे लागू करें](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Word आकृति में शैडो इफ़ेक्ट जोड़ने की प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [Python का उपयोग करके Word दस्तावेज़ में आयत आकार कैसे बनाएं](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python के साथ Aspose.Words का उपयोग करके Word फ़ाइल में आयत आकार जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें।
+### [Python में आकृति में शैडो जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python में आकृति में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [खाली वर्ड दस्तावेज़ बनाएं और आकृति में छाया जोड़ें – पूर्ण पायथन गाइड](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Python में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाना और आकृति पर छाया प्रभाव लागू करना सीखें।
+
+### [खाली Word दस्तावेज़ बनाएं और आकृति में छाया जोड़ें – पूर्ण ट्यूटोरियल](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Python में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाना और आकृति पर छाया प्रभाव लागू करना सीखें।
+
 ## अतिरिक्त संसाधन
 
 {{< /blocks/products/pf/tutorial-page-section >}}

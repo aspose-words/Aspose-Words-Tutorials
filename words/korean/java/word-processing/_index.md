@@ -50,6 +50,7 @@ Aspose.Words for Java를 사용하여 문서 콘텐츠를 조작하는 방법을
 ### [프로그래밍으로 워드 문서 만들기 – 전체 단계별 가이드](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Java를 사용해 코딩으로 워드 문서를 처음부터 완전하게 생성하는 방법을 단계별로 안내합니다.
+### [Java로 방사형 차트를 만들고 차트를 Word에 삽입하기](./create-radial-chart-and-insert-chart-into-word-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

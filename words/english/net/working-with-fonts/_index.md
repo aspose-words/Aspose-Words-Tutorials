@@ -54,6 +54,7 @@ doc.Save("Output.docx");
 | [Handle Font Substitution in Aspose.Words – Complete Programming Guide](./handle-font-substitution-in-aspose-words-complete-programmin/) | Learn how to handle font substitution in Aspose.Words for .NET with this complete programming guide. |
 | [Aspose Font Substitution – How to Configure Font Settings in C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Learn how to configure font substitution settings in Aspose.Words for .NET using C# in this step-by-step tutorial. |
 | [Enable Font Warnings in Aspose.Words – Complete C# Guide](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Learn how to enable font warnings in Aspose.Words for .NET with a comprehensive C# guide. |
+| [How to perform font substitution in document with C#](./how-to-perform-font-substitution-in-document-with-c/) | Learn how to perform font substitution in a Word document using Aspose.Words for .NET with C#. |
 | [Set Font Fallback Settings](./set-font-fallback-settings/) | Learn how to set font substitution settings in Aspose.Words for .NET and customize font substitution in your Word documents. |
 | [Load Noto Fallback Settings](./load-noto-fallback-settings/) | Learn how to load Noto fallback settings in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to ensure all characters display correctly. |
 | [Set Fonts Folders Default Instance](./set-fonts-folders-default-instance/) | Learn how to set fonts folders for the default instance in Aspose.Words for .NET with this step-by-step tutorial. Customize your Word documents effortlessly. |
@@ -104,6 +105,7 @@ doc.Save("Output.docx");
 
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [How to Load Fonts in .NET – Set Font Settings & Warnings](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Learn how to load fonts in .NET, configure font settings, and handle warnings using Aspose.Words for .NET. |
+| [Save docx as pdf & detect missing fonts using Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Learn how to save a DOCX as PDF and detect missing fonts using Aspose.Words for .NET in this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

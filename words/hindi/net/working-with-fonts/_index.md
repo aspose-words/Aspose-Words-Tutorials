@@ -64,6 +64,7 @@
 | [Aspose.Words में फ़ॉन्ट प्रतिस्थापन चेतावनियों को सक्षम करें – पूर्ण गाइड](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | .NET के लिए Aspose.Words का उपयोग करके फ़ॉन्ट प्रतिस्थापन चेतावनियों को सक्षम करने के लिए पूर्ण चरण-दर-चरण गाइड। |
 | [Aspose.Words में फ़ॉन्ट प्रतिस्थापन को संभालें – पूर्ण प्रोग्रामिंग गाइड](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aspose.Words में फ़ॉन्ट प्रतिस्थापन को प्रबंधित करने के लिए पूर्ण चरण‑दर‑चरण प्रोग्रामिंग गाइड। |
 | [Aspose.Words में प्रतिस्थापन का पता लगाएँ – लापता फ़ॉन्ट्स को संभालें](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | .NET के लिए Aspose.Words में फ़ॉन्ट प्रतिस्थापन का पता लगाएँ और लापता फ़ॉन्ट्स को संभालें। |
+| [Aspose.Words का उपयोग करके docx को pdf के रूप में सहेजें और लापता फ़ॉन्ट्स का पता लगाएँ](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | .NET के लिए Aspose.Words का उपयोग करके docx को PDF में बदलें और लापता फ़ॉन्ट्स की पहचान करें। |
 | [Aspose.Words में फ़ॉन्ट्स को कैप्चर करने का तरीका – पूर्ण गाइड](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words के साथ फ़ॉन्ट कैप्चर करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शन। |
 | [c# वर्ड दस्तावेज़ लोड करें – गायब फ़ॉन्ट्स का पता लगाएँ और संभालें](./c-load-word-document-detect-handle-missing-fonts/) | इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ लोड करते समय गायब फ़ॉन्ट्स का पता लगाना और संभालना सीखें। |
 | [फ़ॉन्ट चेतावनी हैंडलर बनाएं – C# में गायब फ़ॉन्ट्स का पता लगाएँ](./create-font-warning-handler-detect-missing-fonts-in-c/) | .NET के लिए Aspose.Words का उपयोग करके C# में फ़ॉन्ट चेतावनी हैंडलर बनाकर गायब फ़ॉन्ट्स का पता लगाना सीखें। |
@@ -84,6 +85,7 @@
 | [Aspose.Words में चेतावनियों को कैप्चर करने का तरीका – पूर्ण C# गाइड](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ चेतावनी अधिसूचनाओं को कैसे पकड़ें, इस पूर्ण C# गाइड में सीखें। |
 | [Aspose.Words में फ़ॉन्ट चेतावनियों को सक्षम करें – पूर्ण C# गाइड](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ फ़ॉन्ट चेतावनियों को सक्षम करने के लिए चरण-दर-चरण C# मार्गदर्शिका। |
 | [C# में फ़ॉन्ट्स का पता कैसे लगाएँ – पूर्ण गाइड](./how-to-detect-fonts-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके फ़ॉन्ट्स का पता लगाने की पूरी प्रक्रिया सीखें। |
+| [C# के साथ दस्तावेज़ में फ़ॉन्ट प्रतिस्थापन कैसे करें](./how-to-perform-font-substitution-in-document-with-c/) | C# में Aspose.Words का उपयोग करके दस्तावेज़ में फ़ॉन्ट प्रतिस्थापन कैसे करें, इस चरण‑दर‑चरण गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

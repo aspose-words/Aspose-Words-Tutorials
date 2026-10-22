@@ -46,9 +46,15 @@
 {{< tutorial-card link="./update-chart-title/" title="تحديث عنوان المخطط وتبديل إظهار وسيلة الإيضاح في Word باستخدام Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="حفظ المستند المعدل بشرائح فطيرة منفجرة في C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="كيفية تنسيق المخطط في Word باستخدام C# وتنسيقات الأرقام المخصصة" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="كيفية تعيين عدد صناديق الرسم البياني التكراري وإضافة تسميات البيانات في مخطط Word باستخدام C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./single-chart-series/" title="تخصيص سلسلة مخطط واحد في مخطط" imgSrc="./single-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="تعديل تسميات المخطط برمجيًا في مستند Word باستخدام C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | العنوان | الوصف |
 | --- | --- |
@@ -56,10 +62,12 @@
 | [إنشاء مخطط وتخصيصه باستخدام الشكل](./create-chart-using-shape/) تعلّم كيفية إنشاء وتخصيص المخططات البيانية في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لتصور البيانات. |
 | [إدراج مخطط عمودي بسيط في مستند Word](./insert-simple-column-chart/) تعلّم كيفية إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words لـ .NET. حسّن مستنداتك بعروض بيانات مرئية ديناميكية. |
 | [إدراج مخطط عمودي في مستند Word](./insert-column-chart/) | تعلّم كيفية إدراج مخططات عمودية في مستندات Word باستخدام Aspose.Words لـ .NET. حسّن عرض البيانات في تقاريرك وعروضك التقديمية. |
+| [كيفية إنشاء مستند Word باستخدام C# مع مخطط عمودي وتنسيق التسميات](./how-to-create-word-document-c-with-a-column-chart-and-format/) | تعلم خطوة بخطوة إنشاء مستند Word يحتوي على مخطط عمودي مع تنسيق تسميات البيانات باستخدام Aspose.Words وC#. |
 | [إدراج مخطط المنطقة في مستند Word](./insert-area-chart/) |تعرف على كيفية إدراج مخطط منطقة في مستند Word باستخدام Aspose.Words لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
-| [إدراج مخطط فقاعي في مستند Word](./insert-bubble-chart/) | تعلّم كيفية إدراج مخطط فقاعي في مستند وورد باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستنداتك. |
+| [إدراج مخطط فقاعي في مستند Word](./insert-bubble-chart/) | تعلّم كيفية إدراج مخطط فقاعي في وورد باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستنداتك. |
 | [كيفية إنشاء مخطط رادار وإضافة المخطط إلى Word باستخدام C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | تعلم خطوة بخطوة كيفية إنشاء مخطط رادار وإدراجه في مستند Word باستخدام Aspose.Words لـ .NET وC#. |
 | [إدراج مخطط التشتت في مستند Word](./insert-scatter-chart/) | تعلّم كيفية إدراج مخطط تشتت في وورد باستخدام Aspose.Words لـ .NET. خطوات سهلة لدمج تمثيلات البيانات المرئية في مستنداتك. |
+| [كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | تعلّم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
 | [تحديد خصائص المحور XY في الرسم البياني](./define-xyaxis-properties/) تعلّم كيفية تعريف خصائص المحور X وY في مخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET. |
 | [إضافة قيم التاريخ والوقت إلى محور الرسم البياني](./date-time-values-to-axis/) |تعرف على كيفية إضافة قيم التاريخ والوقت إلى محور الرسم البياني باستخدام Aspose.Words لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
 | [تنسيق الأرقام للمحور في الرسم البياني](./number-format-for-axis/) تعلّم كيفية تنسيق أرقام محاور المخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. حسّن قابلية قراءة مستندك واحترافيته بسهولة. |
@@ -78,6 +86,12 @@
 | [كيفية إضافة تسميات البيانات إلى مخطط Word باستخدام C# – دليل خطوة بخطوة](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | تعلم كيفية إضافة وتخصيص تسميات البيانات في مخططات Word باستخدام Aspose.Words لـ .NET في دليل تفصيلي خطوة بخطوة. |
 | [تخصيص موضع تسمية البيانات للمخططات في C#](./custom-data-label-placement-for-charts-in-c/) | تعلم كيفية وضع تسميات البيانات في المخططات بشكل مخصص باستخدام Aspose.Words لـ .NET وC#. |
 | [إنشاء مخطط دائري في Word باستخدام C# – دليل خطوة بخطوة](./create-pie-chart-word-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words لـ .NET مع C# خطوة بخطوة. |
+| [كيفية تنسيق السلسلة في مخطط خطي في Word باستخدام C#](./how-to-format-series-in-a-word-line-chart-with-c/) | تعرّف على طريقة تنسيق سلاسل البيانات في مخطط خطي باستخدام Aspose.Words لـ .NET وC#. |
+| [كيفية إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | تعرّف على طريقة إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية إنشاء مستند Word مع مخطط دائري مخصص في C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | تعلم كيفية إنشاء مستند Word وإضافة مخطط دائري مخصص باستخدام Aspose.Words لـ .NET وC#. |
+
+| [إنشاء مخطط رادار في مستند Word – دليل C# كامل](./create-radar-chart-in-a-word-document-complete-c-guide/) | تعرّف على كيفية إنشاء مخطط رادار في مستند Word باستخدام Aspose.Words لـ .NET مع مثال كامل بلغة C#. |
+| [إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | تعرّف على كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ Ordbehandling med Markdown ger en omfattande resurs för att lära sig arbeta me
 | [Använd varningskälla](./use-warning-source/) | Bemästra Aspose.Words för .NET med den här steg-för-steg-guiden om hur du använder WarningSource-klassen för att hantera Markdown-varningar. Perfekt för C#-utvecklare. |
 | [Ladda Markdown-fil i ett dokument – Komplett parsningstutorial](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Lär dig hur du läser en Markdown-fil och konverterar den till ett Word-dokument med Aspose.Words för .NET i en komplett guide. |
 | [Skapa Word från Markdown med Aspose.Words – Fullständig guide](./create-word-from-markdown-with-aspose-words-full-guide/) | Lär dig hur du skapar ett Word-dokument från Markdown med Aspose.Words i en komplett guide. |
+| [Spara dokument som docx från Markdown i C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Lär dig hur du konverterar Markdown till ett DOCX-dokument med Aspose.Words för .NET i C#. |
+| [Hur man sparar markdown som docx med Aspose.Words i C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Lär dig hur du sparar ett Markdown-dokument som DOCX med Aspose.Words för .NET i C#. |
 | [Spara dokument som docx från Markdown med C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Lär dig hur du konverterar ett Markdown-dokument till DOCX med Aspose.Words för .NET och C#. |
 
 

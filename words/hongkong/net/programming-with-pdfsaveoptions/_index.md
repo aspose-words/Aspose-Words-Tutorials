@@ -88,6 +88,7 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [使用 Aspose.Words 將 Word 另存為 PDF – 完整可存取性指南](./save-word-as-pdf-complete-guide-with-accessibility/) |透過本完整指南，了解如何使用 Aspose.Words 將 Word 文件轉換為符合可存取性標準的 PDF。 |
 | [從 Word 建立符合 PDF/UA 標準的完整匯出檔案](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |本指南說明如何使用 Aspose.Words for .NET 從 Word 建立符合 PDF/UA 標準的完整匯出檔案。 |
 | [在 C# 中將文件另存為 PDF – 匯出內嵌圖形](./save-document-as-pdf-in-c-export-inline-shapes/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 C# 中將文件另存為 PDF 並匯出內嵌圖形。 |
+| [在將 Word 轉換為 PDF 時將 RenderChoiceFormFieldBorder 設為 false](./how-to-set-renderchoiceformfieldborder-false-when-converting/) |說明如何在使用 Aspose.Words for .NET 轉換 Word 為 PDF 時，將 RenderChoiceFormFieldBorder 設為 false 以避免表單欄位邊框顯示。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

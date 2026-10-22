@@ -90,6 +90,7 @@
 - [สร้างไฟล์ PDF/UA ที่สอดคล้องจาก Word – คู่มือการส่งออกเต็มรูปแบบ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องจากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 - [บันทึกเอกสารเป็น PDF ใน C# – ส่งออก Inline Shapes](./save-document-as-pdf-in-c-export-inline-shapes/) | เรียนรู้วิธีส่งออก Inline Shapes ไปยัง PDF ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนแบบละเอียด
 - [สร้าง PDF ที่เข้าถึงได้ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-accessible-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วย C# ผ่านขั้นตอนละเอียด
+- [วิธีตั้งค่า RenderChoiceFormFieldBorder เป็น false เมื่อแปลง Word เป็น PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | เรียนรู้วิธีตั้งค่า RenderChoiceFormFieldBorder เป็น false ในการแปลง Word เป็น PDF ด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

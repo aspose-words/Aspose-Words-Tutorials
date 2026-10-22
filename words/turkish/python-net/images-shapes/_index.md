@@ -36,6 +36,8 @@ Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğini
 
 ### [Python'da Şekle Gölge Ekleme – Aspose.Words ile Tam Kılavuz](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Aspose.Words for Python kullanarak şekillere gölge eklemeyi adım adım öğrenin ve belgelerinizi görsel olarak zenginleştirin.
+### [Python'da Şekle Gölge Ekleme – Tam Programlama Kılavuzu](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin.
 
 ### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.
@@ -73,6 +75,16 @@ Aspose.Words kullanarak PNG olarak kaydedip şekle gölge eklemeyi öğrenin.
 
 ### [Python ile Aspose.Words kullanarak Sütun Grafik Oluşturma](./how-to-create-column-chart-python-with-aspose-words/)
 Python ve Aspose.Words ile sütun grafik oluşturmayı adım adım öğrenin.
+### [Aspose.Words ile Word şekline gölge efekti uygulama](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words ile Word şekline gölge efekti eklemeyi öğrenin.
+
+### [Python ile bir Word belgesine dikdörtgen şekil ekleme](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin.
+### [Boş Word Belgesi Oluşturma ve Şekle Gölge Ekleme – Tam Python Kılavuzu](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Python ile Aspose.Words kullanarak boş bir Word belgesi oluşturun ve şekillere gölge eklemeyi adım adım öğrenin.
+
+### [Boş Word Belgesi Oluşturma ve Şekle Gölge Ekleme – Tam Kılavuz](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Python ile Aspose.Words kullanarak boş bir Word belgesi oluşturun ve şekillere gölge eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

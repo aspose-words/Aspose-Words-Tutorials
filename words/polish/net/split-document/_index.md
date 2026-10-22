@@ -21,12 +21,14 @@ Split Document to kompleksowe źródło, które wyjaśnia, jak podzielić dokume
 | Tytuł | Opis |
 | --- | --- |
 | [Podziel dokument Word według nagłówków Html](./by-headings-html/) | Dowiedz się, jak podzielić dokument Word według nagłówków na HTML za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku. |
+| [Jak podzielić dokument Word na sekcje według nagłówka w C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET podzielić dokument Word na sekcje według nagłówków w C#. |
 | [Podziel dokument Word według sekcji HTML](./by-sections-html/) Dowiedz się, jak podzielić dokument Word na sekcje do formatu HTML za pomocą Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku. |
 | [Podziel dokument Word według sekcji](./by-sections/) | Dowiedz się, jak podzielić dokument Word na sekcje za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby skutecznie zarządzać dokumentami. |
 | [Podziel dokument Word według strony](./page-by-page/) | Dowiedz się, jak podzielić dokument Word według strony za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do wydajnego zarządzania dużymi dokumentami. |
 | [Scalanie dokumentów](./merge-documents/) | Przewodnik krok po kroku objaśniający kod źródłowy C# funkcji scalania dokumentów Aspose.Words dla platformy .NET |
 | [Podziel dokument Word według zakresu stron](./by-page-range/) | Dowiedz się, jak podzielić dokument Word według zakresu stron za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów. |
 | [Utwórz PDF ze stron – Przewodnik wyodrębniania konkretnych stron](./create-pdf-from-pages-extract-specific-pages-guide/) | Dowiedz się, jak przy użyciu Aspose.PDF dla .NET utworzyć plik PDF z wybranymi stronami, korzystając z prostego przewodnika krok po kroku. |
+| [Jak podzielić dokument Word na oddzielne pliki w C#](./how-to-split-word-document-into-separate-files-with-c/) | Dowiedz się, jak podzielić dokument Word na oddzielne pliki przy użyciu C# i Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

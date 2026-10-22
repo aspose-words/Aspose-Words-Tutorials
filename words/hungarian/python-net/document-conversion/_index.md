@@ -40,11 +40,21 @@ Ismerje meg, hogyan menthet Word dokumentumot markdown formátumba táblázatok 
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
 ### [Hogyan exportáljon LaTeX-et a Word-ből – DOCX konvertálása Markdown formátumba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba Python segítségével.
+Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba.
+### [Hogyan exportáljon LaTeX-et a Word-ből és konvertálja a DOCX-et Markdown formátumba](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumból, majd a DOCX-et Markdown formátumba konvertálhatja Python és Aspose.Words segítségével.
+### [Hogyan exportáljon LaTeX-et a Word dokumentumokból az Aspose.Words használatával](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból az Aspose.Words segítségével.
 ### [PDF létrehozása Word-ből – Teljes Python útmutató az Aspose.Words segítségével](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Lépésről lépésre bemutatjuk, hogyan konvertálhat Word dokumentumokat PDF‑be Python és Aspose.Words használatával.
+### [Hogyan konvertáljon DOCX-et PDF-be Pythonban az Aspose.Words használatával](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF formátumba Python és Aspose.Words segítségével.
+### [Hogyan mentse a Word dokumentumot PDF‑be az Aspose.Words for Python segítségével](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Ismerje meg, hogyan menthet Word dokumentumokat PDF formátumba Python és Aspose.Words használatával.
 ### [Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről lépésre útmutató](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Python és Aspose.Words használatával.
+### [Hogyan exportáljon Word-et PDF-be, és generáljon akadálymentes PDF/UA-t](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Ismerje meg, hogyan exportálhat Word dokumentumot PDF-be, és hozhat létre akadálymentes PDF/UA-t Python és Aspose.Words segítségével.
 ### [Word mentése Markdown formátumba – Teljes útmutató PDF/A‑UA exporttal](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja őket PDF/A‑UA szabvánnyal Python segítségével.
 ### [PDF/UA létrehozása Word-ből – Lépésről‑lépésre útmutató](./create-pdf-ua-from-word-step-by-step-guide/)
@@ -154,6 +164,45 @@ Ismerje meg, hogyan konvertálhat markdown fájlokat docx formátumba Pythonban 
 Ismerje meg, hogyan menthet Word dokumentumot PDF formátumba az Aspose Words használatával.
 ### [DOCX konvertálása TXT-be és a Word egyenletek exportálása LaTeX-be](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat TXT formátumba, és exportálja a Word egyenleteket LaTeX kódra.
+### [Hogyan mentse a Word dokumentumot markdown formátumba, és őrizze meg az egyenleteket az Aspose.Words for Python segítségével](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Ismerje meg, hogyan menthet Word dokumentumokat markdown formátumba, miközben megőrzik az egyenleteket az Aspose.Words for Python használatával.
+### [Hogyan állítsuk helyre a docx fájlokat és konvertáljuk őket markdown, PDF vagy txt formátumba az Aspose.Words for Python segítségével](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Ismerje meg, hogyan állíthatja helyre a docx fájlokat, és konvertálhatja őket markdown, PDF vagy txt formátumba Python segítségével.
+### [Hogyan mentse a DOCX-et markdown formátumba LaTeX-szel az Aspose.Words segítségével](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat Markdown formátumba LaTeX támogatással az Aspose.Words segítségével.
+### [Hogyan mentse a DOCX-et PDF formátumba az Aspose.Words segítségével Pythonban](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF-be Python és Aspose.Words használatával.
+### [Hogyan mentse a DOCX-et TXT formátumba az Aspose.Words for Python segítségével](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+Ismerje meg, hogyan mentheti el a DOCX fájlokat TXT formátumba az Aspose.Words for Python segítségével.
+### [Hogyan hozzon létre akadálymentes PDF-et egy Word dokumentumból Python segítségével](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+Ismerje meg, hogyan készíthet hozzáférhető PDF-et Word dokumentumokból Python és Aspose.Words használatával.
+### [DOCX konvertálása Markdown formátumba és PDF-be exportálása az Aspose.Words segítségével](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba, majd exportálhatja PDF-be az Aspose.Words használatával.
+### [Hogyan állítsa helyre a Word dokumentumot és konvertálja Markdown formátumba LaTeX segítségével](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Ismerje meg, hogyan állíthatja helyre a Word dokumentumokat, és konvertálhatja őket Markdown formátumba LaTeX használatával.
+### [DOCX mentése markdown formátumba és egyenletek exportálása LaTeX-be](./save-docx-as-markdown-and-export-equations-to-latex/)
+### [Hogyan exportálja az Office matematikát LaTeX-be Python segítségével](./how-to-export-office-math-to-latex-in-python/)
+Ismerje meg, hogyan exportálhatja az Office matematikát LaTeX formátumba Python használatával.
+### [Hogyan mentse a dokumentumot PDF‑be egy egyedi téglalap alakzattal Pythonban](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Ismerje meg, hogyan menthet PDF‑et egyedi téglalap alakú alakzattal a Word dokumentumból Python és Aspose.Words segítségével.
+### [Hogyan állítsa helyre a sérült docx fájlt, és konvertálja Markdown, egyszerű szöveg és PDF formátumba az Aspose.Words segítségével](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown, egyszerű szöveg vagy PDF formátumba Python és Aspose.Words használatával.
+### [DOCX mentése PDF-be az Aspose.Words segítségével: lépésről‑lépésre útmutató](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Ismerje meg, hogyan menthet DOCX fájlokat PDF formátumba az Aspose.Words for Python használatával.
+### [Word exportálása PDF-be PDF/UA megfelelőséggel Pythonban](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Ismerje meg, hogyan exportálhat Word dokumentumokat PDF/UA szabványnak megfelelően Python és Aspose.Words segítségével.
+### [DOCX mentése markdown formátumba – Teljes útmutató a Word markdownba konvertálásához](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Ismerje meg, hogyan menthet DOCX fájlokat markdown formátumba a teljes útmutató segítségével.
+### [DOCX mentése PDF-be az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF-be az Aspose.Words használatával, részletes lépésekkel és példákkal.
+### [hozzáférhető PDF létrehozása – Teljes útmutató az Aspose.Words segítségével](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Ismerje meg, hogyan hozhat létre hozzáférhető PDF fájlokat az Aspose.Words használatával, részletes lépésekkel és példákkal.
+### [docx mentése txt-ként – Word Math exportálása LaTeX-be Python segítségével](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Tanulja meg, hogyan exportálhatja a Word matematikai képleteket LaTeX formátumba, miközben a docx fájlt txt-re menti Python használatával.
+### [Elérhető PDF generálása Python‑nal – Teljes lépésről‑lépésre útmutató](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Ismerje meg, hogyan hozhat létre akadálymentes PDF‑eket Python segítségével, részletes példákkal és legjobb gyakorlatokkal.
+### [PDF létrehozása Word dokumentumból Python‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF‑et Word dokumentumokból Python segítségével, részletes lépésekkel és példakóddal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

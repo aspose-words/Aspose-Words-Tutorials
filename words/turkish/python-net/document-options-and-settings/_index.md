@@ -60,6 +60,12 @@ Python kullanarak bozulmuş docx dosyalarını nasıl kurtaracağınızı adım 
 Python ile LaTeX çıktısı için MarkdownSaveOptions ayarlarını nasıl yapılandıracağınızı öğrenin.
 ### [Aspose.Words for Python ile docx dosyalarını nasıl kurtarılır](./how-to-recover-docx-files-with-aspose-words-for-python/)
 Aspose.Words for Python kullanarak bozuk veya kaybolmuş docx dosyalarını kurtarma yöntemlerini öğrenin.
+### [Bozuk bir Word belgesini açmak için kurtarma modunu etkinleştirme](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Python için Aspose.Words kullanarak bozuk bir Word belgesini kurtarma modunda açmayı öğrenin.
+### [Aspose.Words ile Bozuk docx Dosyalarını Python’da Kurtarma](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Aspose.Words kullanarak bozuk docx dosyalarını nasıl kurtaracağınızı öğrenin.
+### [Aspose Yazı Tipi Uyarı İşleyicisi – Eksik Yazı Tiplerini Algıla ve Belge Yüklemeyi Özelleştir](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Python için Aspose.Words'ü kullanarak eksik yazı tiplerini tespit edin ve belge yükleme sürecini özelleştirin. Kaynak kodlu adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,7 +32,7 @@ Naučte se, jak analyzovat typy médií, šifrovat soubory a ověřovat digitál
 Naučte se, jak optimalizovat zpracování obrázků v dokumentech RTF pomocí Aspose.Words pro Python. Ukládejte obrázky ve formátu WMF a zajistěte kompatibilitu se staršími čtečkami.
 
 ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
-Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words pro Python. Tato příručka se zabývá uživatelskými funkcemi, jako jsou vlastnosti podobné obrázkům, vykreslování textu a vylepšení zabezpečení.
+Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words v Pythonu. Tato příručka se zabývá uživatelskými funkcemi, jako jsou vlastnosti podobné obrázkům, vykreslování textu a vylepšení zabezpečení.
 
 ### [Jak přidat stín v C# – Kompletní programovací průvodce](./how-to-add-shadow-in-c-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Words v C# přidat stín do objektů a vylepšit vizuální vzhled dokumentů.
@@ -72,6 +72,17 @@ Naučte se ukládat obrázky PNG a přidávat stíny k tvarům v dokumentech pom
 
 ### [Jak vytvořit sloupcový graf v Pythonu pomocí Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Naučte se, jak pomocí Aspose.Words v Pythonu vytvořit sloupcový graf.
+### [Jak použít efekt stínu na tvar ve Wordu pomocí Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+
+### [Jak vytvořit obdélníkový tvar ve Word dokumentu pomocí Pythonu](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Naučte se, jak pomocí Aspose.Words pro Python vytvořit obdélníkový tvar ve Word dokumentu.
+### [Jak přidat stín do tvaru v Pythonu – Kompletní programovací průvodce](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words v Pythonu přidat stín do tvarů a vylepšit vizuální vzhled dokumentů.
+### [Vytvoření prázdného dokumentu Word a přidání stínu k tvaru – Kompletní průvodce v Pythonu](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomocí Aspose.Words v Pythonu.
+
+### [Vytvoření prázdného dokumentu Word a přidání stínu k tvaru – Kompletní průvodce](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomocí Aspose.Words.
 
 ## Další zdroje
 

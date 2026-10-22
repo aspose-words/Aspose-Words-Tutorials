@@ -43,6 +43,9 @@
 請記住，熟能生巧，使用 Aspose.Words for Java，您很快就能像專業人士一樣建立、修改和增強文件。編碼愉快！
 
 ## 使用文件元素教學
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [在 Aspose.Words for Java 中使用註釋](./using-comments/)
 了解如何在 Aspose.Words for Java 中使用註解。有關在文件中新增和自訂註解的逐步教學。
 
@@ -79,11 +82,21 @@
 
 ### [在 Aspose.Words for Java 中使用節點](./using-nodes/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
-
+### [在 Aspose.Words for Java 中添加按鈕 – 步驟指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+了解如何在 Aspose.Words for Java 中向 Word 文檔添加互動式按鈕的完整步驟。
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
 ### [在 Word 中插入 ActiveX 按鈕 – 設定按鈕說明文字](./how-to-insert-activex-button-in-word-set-button-caption/)
 了解如何在 Word 中插入 ActiveX 按鈕並設定按鈕說明文字，提供逐步指導與程式碼範例。
+### [在程式碼中使用 Aspose.Words 建立 forms2olecontrol 控制項](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+了解如何在 Java 程式碼中使用 Aspose.Words 建立 forms2olecontrol，以嵌入 OLE 控制項。
+### [在 Java 與 Aspose.Words 中建立包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+了解如何在 Java 中使用 Aspose.Words 建立包含 ActiveX 控制項的 docx 文件。
+### [在 Aspose.Words for Java 中建立 ActiveX 命令按鈕](./how-to-create-activex-command-button-in-java/)
+了解如何在 Aspose.Words for Java 中使用 ActiveX 命令按鈕，實作互動式文件功能。
+### [在 Aspose.Words for Java 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-java/)
+了解如何使用 Aspose.Words for Java 建立空白 Word 文件，並在其中插入 ActiveX 按鈕，以實現互動功能。
+
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 
@@ -108,6 +121,21 @@
 
 ### [在 Java 中使用 Chart API 為餅圖添加指示線](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 了解如何在 Java 中使用 Chart API 為餅圖添加指示線，提升圖表的可讀性與美觀。
+### [在 Aspose.Words for Java 中編輯 Word 文件的圖表](./how-to-edit-chart-in-a-word-document-using-java/)
+了解如何使用 Java 透過 Aspose.Words 編輯 Word 文件中的圖表。
+### [在 Java 中編輯甜甜圈圖表後儲存 Word 文件](./save-word-document-after-editing-doughnut-chart-in-java/)
+了解如何在 Java 使用 Aspose.Words 編輯甜甜圈圖表後保存 Word 文件。
+### [建立空白 Word 文件並插入純文字控制項](./create-blank-word-document-and-insert-a-plain-text-control/)
+### [在 Aspose.Words for Java 中使用 Java 建立徑向圖表](./how-to-create-radial-chart-in-a-word-document-with-java/)
+了解如何在 Word 文件中使用 Java 生成徑向圖表並嵌入文檔。
+### [如何在 C# 中建立空白 Word 文件並加入雷達圖](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [在 Aspose.Words for Java 中以程式方式建立 Word 文件並插入按鈕](./create-word-document-programmatically-and-insert-a-button/)
+了解如何使用 Aspose.Words for Java 程式化建立 Word 文件，並在文件中加入可點擊的按鈕。
+### [如何使用 Java 在 Word 文件中插入餅圖](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+本教學說明如何使用 Aspose.Words for Java 在 Word 文件中插入餅圖並設定其屬性。
+### [在 Word 中插入餅圖 – 添加資料標籤百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+了解如何在 Word 文檔中插入餅圖並顯示資料標籤的百分比。
+### [在 Aspose.Words for Java 中爆炸餅圖切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Pulihkan File Word Rusak – Panduan Lengkap Membuka DOCX Korup & Mendapatkan Jumlah Halaman](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Pelajari cara memulihkan file Word yang rusak, membuka DOCX korup, dan menghitung jumlah halaman dengan Aspose.Words untuk .NET. |
 | [Cara Memulihkan DOCX – Panduan C# untuk File Word yang Rusak](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan Aspose.Words untuk .NET. |
 | [Memulihkan Dokumen Word dengan Aspose.Words di C#](./recover-word-document-with-aspose-words-in-c/) Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah. Bahasa Indonesia:
+| [Memulihkan Dokumen Word Rusak menggunakan Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dengan C# dalam panduan langkah demi langkah. |
 | [Cara Memulihkan DOCX – Mengatur Mode Pemulihan & Membuka File Word yang Rusak](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Pelajari cara memulihkan file DOCX dengan mengatur mode pemulihan dan membuka file Word yang rusak menggunakan Aspose.Words. |
 | [Cara Menggunakan LoadOptions di Aspose.Words – Panduan Lengkap](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Panduan lengkap untuk menggunakan LoadOptions dalam Aspose.Words, termasuk contoh kode dan tips konfigurasi. |
 | [Cara Menggunakan LoadOptions untuk Mendeteksi Font yang Hilang](./how-to-use-loadoptions-to-detect-missing-fonts/) | Pelajari cara menggunakan LoadOptions untuk mendeteksi font yang hilang saat memuat dokumen Word dengan Aspose.Words untuk .NET. |
@@ -80,6 +81,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Pulihkan DOCX Rusak – Panduan Lengkap C# untuk Memperbaiki dan Menyimpan File](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Panduan lengkap C# untuk memperbaiki file DOCX yang rusak dan menyimpannya kembali dengan Aspose.Words. |
 | [Pulihkan docx yang rusak – Panduan Lengkap Memuat File Word Rusak di C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Pelajari cara memulihkan dan memuat file DOCX yang rusak menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah. |
 | [Recover Corrupted DOCX – Complete Guide to Fixing and Loading Broken Word Files](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Panduan lengkap untuk memperbaiki dan memuat file DOCX yang rusak menggunakan Aspose.Words. |
+| [Aktifkan mode pemulihan – Pulihkan dokumen Word yang rusak](./enable-recovery-mode-recover-corrupted-word-document/) | Pelajari cara mengaktifkan mode pemulihan untuk memulihkan dokumen Word yang rusak menggunakan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

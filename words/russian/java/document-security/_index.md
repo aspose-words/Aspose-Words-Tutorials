@@ -49,6 +49,14 @@
 Узнайте, как подписать Word-документ в Java с помощью Aspose.Words. Полное руководство с примерами кода.
 ### [Как подписать файлы DOCX в C# – Полное пошаговое руководство](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Узнайте, как подписать файлы DOCX в C# с помощью Aspose.Words, следуя полному пошаговому руководству и примерам кода.
+### [Как добавить цифровую подпись в документ Word с помощью Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Узнайте, как добавить цифровую подпись в документ Word с помощью Aspose.Words, используя пошаговые инструкции и пример кода.
+### [Как цифрово подписать документ Word с помощью Java](./how-to-digitally-sign-word-document-using-java/)
+Узнайте, как добавить цифровую подпись в документ Word, используя Aspose.Words для Java.
+### [Полное руководство по файлу PFX цифровой подписи в Java](./digital-signature-pfx-file-in-java-complete-guide/)
+Узнайте, как создать и использовать PFX‑файл цифровой подписи в Java с помощью Aspose.Words, включая генерацию, импорт и подпись документов.
+### [Как подписать docx в Java – пошаговое руководство](./how-to-sign-docx-in-java-step-by-step-guide/)
+Пошаговое руководство по подписанию файлов docx в Java с использованием Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

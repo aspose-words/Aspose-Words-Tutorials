@@ -40,6 +40,8 @@ Python을 사용해 docx 파일의 텍스트를 손쉽게 교체하는 전체 �
 
 ### [Python에서 Aspose를 사용하여 문법 교정을 자동화하는 방법](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Aspose를 활용해 Python에서 문서의 문법 오류를 자동으로 감지하고 교정하는 방법을 단계별로 안내합니다.
+### [Python에서 그림자 모양이 있는 빈 Word 문서 만들기](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python을 사용해 그림자 효과가 적용된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

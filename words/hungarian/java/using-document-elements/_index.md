@@ -46,6 +46,13 @@ Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítség�
 ### [Forms2OleControl hozzáadása DOCX-hez – Teljes Aspose.Words útmutató](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Tanuld meg, hogyan adhatod hozzá a Forms2OleControl elemet a DOCX dokumentumokhoz az Aspose.Words for Java segítségével.
 
+### [Word dokumentum létrehozása programozottan és gomb beszúrása](./create-word-document-programmatically-and-insert-a-button/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot programból, és szúrj be gombot interaktív funkciókkal.
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
+### [Kördiagram beszúrása Wordben – adatcímke százalék hozzáadása](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Tanuld meg, hogyan szúrj be kördiagramot a Word dokumentumba, és add hozzá az adatcímkék százalékos értékét.
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
@@ -72,10 +79,13 @@ Tanuld meg, hogyan hozhatsz létre Word dokumentumot helyőrzőkkel és listákk
 Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésről lépésre szóló oktatóanyaggal. Hozz létre, formázz és ments el Markdown dokumentumokat könnyedén.
 ### [Csomópontok használata az Aspose.Words-ben Java-ban](./using-nodes/)
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
-### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
+### [Diagram szerkesztése Word dokumentumban Java-val](./how-to-edit-chart-in-a-word-document-using-java/)
+Tanuld meg, hogyan módosíthatod a diagramokat Word dokumentumokban Java segítségével, lépésről lépésre útmutatóval.
+### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
 ### [ActiveX gomb beszúrása Word-ben – Gombfelirat beállítása](./how-to-insert-activex-button-in-word-set-button-caption/)
 Tanuld meg, hogyan szúrj be ActiveX gombot Word dokumentumba, és állítsd be a feliratát lépésről lépésre.
+### [Docx létrehozása ActiveX-szel Java és Aspose.Words segítségével](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
@@ -96,6 +106,25 @@ Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segíts
 Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
 ### [Parancsgomb beszúrása Word dokumentumba Java használatával](./how-to-insert-command-button-in-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítségével.
+### [Forms2OleControl létrehozása kódból az Aspose.Words segítségével](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Ismerje meg, hogyan hozhat létre Forms2OleControl objektumot kódból az Aspose.Words Java-ban.
+### [Word dokumentum mentése a gyűrűdiagram szerkesztése után Java-ban](./save-word-document-after-editing-doughnut-chart-in-java/)
+Tanuld meg, hogyan mentheted el a Word dokumentumot a gyűrűdiagram módosítása után Java-val.
+### [Radiális diagram létrehozása Word dokumentumban Java-val](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Tanuld meg, hogyan készíts radiális diagramot Word dokumentumban Java segítségével.
+### [Üres Word dokumentum létrehozása és egyszerű szövegvezérlő beszúrása](./create-blank-word-document-and-insert-a-plain-text-control/)
+Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű szövegvezérlőt.
+### [Üres Word dokumentum létrehozása és radar diagram hozzáadása C#-ban](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
+### [Kördiagram használata az Aspose.Words Java-ban](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
+### [ActiveX parancsgomb létrehozása Java-ban](./how-to-create-activex-command-button-in-java/)
+Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az Aspose.Words segítségével.
+### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+### [Gomb hozzáadása Word dokumentumhoz – Lépésről‑lépésre útmutató](./how-to-add-button-to-word-document-step-by-step-guide/)
+Tanuld meg, hogyan adhatsz hozzá gombot egy Word dokumentumhoz lépésről‑lépésre.
+### [Hogyan robbantsuk szét a kördiagram szeletet Java-ban – Aspose.Words diagram oktatóanyag](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Tanuld meg, hogyan lehet a kördiagram szeletet szétrobbanni Java-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

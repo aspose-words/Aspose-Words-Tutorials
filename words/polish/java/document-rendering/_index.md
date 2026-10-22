@@ -47,6 +47,8 @@ Dowiedz się, jak obsługiwać ostrzeżenia i wykrywać brakujące czcionki podc
 Dowiedz się, jak przechwytywać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
 ### [Znajdowanie brakujących czcionek w Javie z Aspose.Words – Kompletny przewodnik](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Dowiedz się, jak wykrywać i rozwiązywać problemy z brakującymi czcionkami w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Rejestracja wywołania zwrotnego ostrzeżenia w Javie – Kompletny przewodnik programistyczny](./register-warning-callback-in-java-complete-programming-guide/)
+Poznaj, jak zarejestrować callback ostrzeżeń w Aspose.Words for Java, aby obsługiwać i logować ostrzeżenia podczas przetwarzania dokumentów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

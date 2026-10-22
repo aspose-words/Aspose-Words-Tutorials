@@ -41,7 +41,7 @@ Bạn cần chuyển đổi tài liệu giữa các định dạng khác nhau? A
 
 ## Nâng cao kỹ năng xử lý tài liệu của bạn
 
-Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words for Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
+Đến thời điểm này, bạn đã nắm vững những kiến thức cơ bản về Aspose.Words cho Java. Nhưng vẫn còn rất nhiều điều để khám phá! 
 
 ### Tính năng tài liệu nâng cao
 
@@ -60,6 +60,8 @@ Bắt đầu hành trình học tập của bạn ngay hôm nay và mở khóa k
 Tăng cường độ rõ nét của tài liệu với tùy chọn dọn dẹp Aspose.Words for Java. Tìm hiểu cách xóa các đoạn văn trống, vùng không sử dụng và nhiều hơn nữa.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
 Mở khóa Tự động hóa Tài liệu với Aspose.Words cho Java. Tìm hiểu cách hợp nhất, định dạng và chèn hình ảnh vào tài liệu Java. Hướng dẫn toàn diện và ví dụ mã để xử lý tài liệu hiệu quả.
+### [Tạo tài liệu Word với điều khiển nội dung văn bản thuần](./create-word-document-with-a-plain-text-content-control/)
+Hướng dẫn tạo tài liệu Word mới và chèn điều khiển nội dung văn bản thuần bằng Aspose.Words cho Java.
 ### [Sử dụng dữ liệu XML trong Aspose.Words cho Java](./using-xml-data/)
 Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, Mail Merge và Mustache Syntax với hướng dẫn từng bước.
 ### [Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java](./extracting-content-from-documents/)
@@ -76,6 +78,8 @@ Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words c
 Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
 ### [Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java](./using-structured-document-tags/)
 Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh.
+### [Tạo tài liệu Word mới – Hướng dẫn từng bước để thêm Thẻ có cấu trúc](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn Thẻ có cấu trúc bằng Aspose.Words for Java.
 ### [Sử dụng Styles và Themes trong Aspose.Words cho Java](./using-styles-and-themes/)
 Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn.
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)
@@ -90,6 +94,10 @@ Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Kh�
 Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
 ### [Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java](./adding-content-using-documentbuilder/)
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
+### [Thêm Content Control trong tài liệu Word bằng Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Hướng dẫn cách chèn và quản lý Content Control trong tài liệu Word bằng Aspose.Words for Java.
+### [Cách lưu docx bằng DocumentBuilder và thêm văn bản sau một điều khiển](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Lưu tài liệu docx và chèn văn bản sau một điều khiển bằng DocumentBuilder.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
 Tìm hiểu cách sao chép và kết hợp tài liệu trong Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
 ### [So sánh các tài liệu trong Aspose.Words cho Java](./comparing-documents/)
@@ -109,6 +117,12 @@ Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ n�
 Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng Aspose.Words for Java.
 ### [Cách tạo tài liệu Word trong Java với Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo tài liệu Word trong Java bằng Aspose.Words.
+### [Tạo tài liệu trống với nút lệnh tương tác trong Word bằng Java](./create-blank-document-with-an-interactive-command-button-in/)
+Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống với điều khiển văn bản](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

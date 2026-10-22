@@ -39,6 +39,8 @@ Tìm hiểu cách quản lý quyền tài liệu hiệu quả bằng Aspose.Word
 Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Java. Bảo mật dữ liệu của bạn hiệu quả với hướng dẫn từng bước và ví dụ về mã nguồn.
 ### [Chữ ký số trong tài liệu](./digital-signatures-in-documents/)
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
+### [Cách ký file docx trong Java – hướng dẫn từng bước](./how-to-sign-docx-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách ký file docx bằng Aspose.Words for Java, bao gồm mã nguồn mẫu và các lưu ý quan trọng.
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
 ### [Ký tài liệu Word trong Java với Aspose.Words – Hướng dẫn toàn diện](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -49,6 +51,12 @@ Hướng dẫn chi tiết cách ký tài liệu DOCX bằng C# với Aspose.Word
 Hướng dẫn chi tiết cách ký file docx bằng chứng chỉ PFX với Aspose.Words for Java, bao gồm các bước cấu hình và mã nguồn mẫu.
 ### [Cách ký tài liệu Word trong C# bằng chứng chỉ X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Hướng dẫn ký tài liệu Word bằng C# sử dụng chứng chỉ X509, bảo vệ tính toàn vẹn và xác thực.
+### [Cách thêm chữ ký số vào tài liệu Word bằng Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Hướng dẫn chi tiết cách chèn chữ ký số vào tài liệu Word bằng Aspose.Words, bảo vệ tính toàn vẹn và xác thực.
+### [Ký số tài liệu Word bằng Java](./how-to-digitally-sign-word-document-using-java/)
+Hướng dẫn chi tiết cách ký số tài liệu Word bằng Java với Aspose.Words, bao gồm mã nguồn và các bước thực hiện.
+### [Tệp PFX Chữ ký số trong Java – Hướng dẫn toàn diện](./digital-signature-pfx-file-in-java-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng tệp PFX để ký số tài liệu trong Java bằng Aspose.Words, bao gồm mã nguồn và các bước cấu hình.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

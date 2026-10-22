@@ -39,6 +39,8 @@
 เรียนรู้วิธีการเข้ารหัสและถอดรหัสเอกสารด้วย Aspose.Words สำหรับ Java รักษาความปลอดภัยข้อมูลของคุณอย่างมีประสิทธิภาพด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ
 ### [ลายเซ็นดิจิทัลในเอกสาร](./digital-signatures-in-documents/)
 เรียนรู้วิธีการนำลายเซ็นดิจิทัลที่ปลอดภัยไปใช้กับเอกสารโดยใช้ Aspose.Words สำหรับ Java รับรองความสมบูรณ์ของเอกสารด้วยคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ
+### [วิธีเพิ่มลายเซ็นดิจิทัลในเอกสาร Word ด้วย Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+เรียนรู้วิธีเพิ่มลายเซ็นดิจิทัลในไฟล์ Word ด้วย Aspose.Words อย่างง่ายดายและปลอดภัย
 ### [การแก้ไขเอกสารและการปกป้องข้อมูล](./document-redaction-data-protection/)
 เรียนรู้วิธีรักษาความปลอดภัยเอกสารและแก้ไขข้อมูลสำคัญโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
 ### [วิธีลงลายเซ็นเอกสาร Word ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -49,6 +51,12 @@
 เรียนรู้วิธีลงนามไฟล์ docx ด้วยใบรับรอง PFX อย่างปลอดภัยโดยใช้ Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ด
 ### [วิธีลงลายเซ็นเอกสาร Word ด้วย C# และใบรับรอง X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 เรียนรู้วิธีใช้ Aspose.Words สำหรับ C# เพื่อเซ็นเอกสาร Word ด้วยใบรับรอง X509 อย่างปลอดภัย
+### [วิธีลงลายเซ็นดิจิทัลในเอกสาร Word ด้วย Java](./how-to-digitally-sign-word-document-using-java/)
+เรียนรู้วิธีลงลายเซ็นดิจิทัลในไฟล์ Word ด้วย Aspose.Words for Java อย่างละเอียด พร้อมตัวอย่างโค้ด
+### [ไฟล์ PFX ลายเซ็นดิจิทัลใน Java – คู่มือฉบับสมบูรณ์](./digital-signature-pfx-file-in-java-complete-guide/)
+เรียนรู้วิธีใช้ไฟล์ PFX เพื่อลายเซ็นดิจิทัลใน Java ด้วย Aspose.Words พร้อมขั้นตอนและโค้ดตัวอย่าง
+### [วิธีลงลายเซ็น docx ใน Java – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-sign-docx-in-java-step-by-step-guide/)
+เรียนรู้วิธีลงลายเซ็นไฟล์ docx ด้วย Java อย่างละเอียดด้วยขั้นตอนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

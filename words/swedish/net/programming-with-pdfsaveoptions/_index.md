@@ -88,6 +88,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Spara Word som PDF – Komplett guide med tillgänglighet](./save-word-as-pdf-complete-guide-with-accessibility/) | Lär dig hur du sparar Word-dokument som PDF med full tillgänglighet i en komplett guide. |
 | [Skapa PDF/UA‑kompatibel fil från Word – Fullständig exportguide](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Lär dig hur du exporterar ett Word-dokument till en PDF/UA‑kompatibel fil med en komplett guide. |
 | [Spara dokument som PDF i C# – Exportera inline‑former](./save-document-as-pdf-in-c-export-inline-shapes/) | Lär dig hur du sparar ett Word‑dokument som PDF i C# och exporterar inbäddade inline‑former med Aspose.Words för .NET. |
+| [Hur man sätter RenderChoiceFormFieldBorder till false vid konvertering av Word till PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,12 @@ Step-by-step guide to recover corrupted DOCX files using Aspose.Words for Python
     ### [How to recover corrupted Word document and save recovered Word file with Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
 Learn how to recover a corrupted Word document and save the repaired file using Aspose.Words for Python-net.
 
+    ### [Recover Corrupted Word Document with Aspose.Words – Complete Guide](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Learn how to recover corrupted Word documents using Aspose.Words for Python-net with step-by-step instructions.
+
+    ### [Recover Corrupted DOCX – Complete Python Guide](./recover-corrupted-docx-complete-python-guide/)
+Learn how to fully recover corrupted DOCX files using Aspose.Words for Python-net.
+
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
     Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
 
@@ -85,6 +91,9 @@ Learn how to recover a corrupted Word document and save the repaired file using 
 Learn how to recover and restore corrupted DOCX files using Aspose.Words for Python-net.
 
     ### [How to recover docx in Python using Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+
+### [Recover corrupted docx with Aspose.Words – step‑by‑step guide](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net with a detailed step‑by‑step guide.
 
 ## Additional Resources
 

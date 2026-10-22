@@ -90,6 +90,7 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create Accessible PDF – Convert Word to PDF with C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Learn how to convert Word documents to accessible PDF using Aspose.Words for .NET with C# in this step‑by‑step guide. |
 | [Save Word as PDF – Complete Guide with Accessibility](./save-word-as-pdf-complete-guide-with-accessibility/) | Learn how to convert Word documents to accessible PDFs using Aspose.Words for .NET, covering tags, alt text, and PDF/UA compliance. |
 | [Create PDF/UA Compliant File from Word – Full Export Guide](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Learn how to create a PDF/UA compliant file from Word using Aspose.Words for .NET with a comprehensive export guide. |
+| [How to set RenderChoiceFormFieldBorder false when converting Word to PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Learn how to disable RenderChoiceFormFieldBorder during Word to PDF conversion using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

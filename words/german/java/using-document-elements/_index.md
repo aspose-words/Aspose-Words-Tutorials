@@ -42,7 +42,17 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Dokumentelementbear
 
 Denken Sie daran: Übung macht den Meister. Mit Aspose.Words für Java erstellen, bearbeiten und verbessern Sie Dokumente im Handumdrehen wie ein Profi. Viel Spaß beim Programmieren!
 
-## Tutorials zum Verwenden von Dokumentelementen
+### [Diagramm in einem Word-Dokument mit Java bearbeiten](./how-to-edit-chart-in-a-word-document-using-java/)
+Erfahren Sie, wie Sie Diagramme in Word-Dokumenten programmgesteuert mit Aspose.Words für Java bearbeiten und anpassen.
+
+### [Word-Dokument nach Bearbeitung eines Donut-Diagramms in Java speichern](./save-word-document-after-editing-doughnut-chart-in-java/)
+Erfahren Sie, wie Sie ein Word-Dokument nach dem Bearbeiten eines Donut-Diagramms mit Aspose.Words für Java speichern.
+
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+ zum Verwenden von Dokumentelementen
+### [Wie man ein Kuchendiagramm-Segment in Java explodiert – Aspose.Words Chart-Tutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Erfahren Sie, wie Sie in Aspose.Words für Java ein Kuchendiagramm-Segment hervorheben (explodieren) und anpassen.
 ### [Verwenden von Kommentaren in Aspose.Words für Java](./using-comments/)
 Erfahren Sie, wie Sie Kommentare in Aspose.Words für Java verwenden. Schritt-für-Schritt-Anleitung zum Hinzufügen und Anpassen von Kommentaren in Ihren Dokumenten.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)
@@ -65,6 +75,8 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Listen in Aspose.Words für
 Erfahren Sie, wie Sie ein Word-Dokument mit Platzhaltern und Listen in Aspose.Words für Java erstellen und dynamisch befüllen.
 ### [Verwenden von Markdown in Aspose.Words für Java](./using-markdown/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
+### [Einfügen eines Kreisdiagramms in ein Word-Dokument mit Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
 ### [Erstellen eines Kreisdiagramms in Word mit Java – Schritt-für-Schritt-Anleitung](./create-pie-chart-in-word-with-java-step-by-step-guide/)
@@ -73,6 +85,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-D
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
 ### [ActiveX-Schaltfläche in Word einfügen – Beschriftung festlegen](./how-to-insert-activex-button-in-word-set-button-caption/)
 Erfahren Sie, wie Sie in Aspose.Words für Java eine ActiveX-Schaltfläche einfügen und deren Beschriftung festlegen.
+### [Erstellen einer ActiveX-Schaltfläche in Aspose.Words für Java](./how-to-create-activex-command-button-in-java/)
+Lernen Sie, wie Sie in Aspose.Words für Java eine ActiveX-Befehlsschaltfläche erstellen und in Ihre Dokumente einbinden.
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Erstellen eines Kreisdiagramms mit Aspose.Words für Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
@@ -95,6 +109,26 @@ Erfahren Sie, wie Sie Trennzeichen in Word-Dokumenten mit Aspose.Words für Java
 Erfahren Sie, wie Sie mit der Chart‑API Führungs­linien zu Kreisdiagrammen in Java hinzufügen.
 ### [Einfügen einer Befehls‑Schaltfläche in ein Word‑Dokument mit Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java eine Befehls‑Schaltfläche in ein Word‑Dokument einfügen und konfigurieren.
+### [Erstellen von forms2olecontrol im Code mit Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Erfahren Sie, wie Sie programmgesteuert ein forms2olecontrol mit Aspose.Words in Java erstellen und konfigurieren.
+### [Erstellen eines leeren Word-Dokuments und Einfügen einer Nur-Text-Steuerung](./create-blank-word-document-and-insert-a-plain-text-control/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument erstellen und ein Nur-Text-Steuerelement hinzufügen.
+### [Erstellen eines radialen Diagramms in einem Word-Dokument mit Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Erfahren Sie, wie Sie ein radiales Diagramm in einem Word-Dokument mit Java erstellen.
+
+### [Word-Dokument programmgesteuert erstellen und einen Button einfügen](./create-word-document-programmatically-and-insert-a-button/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen und einen interaktiven Button hinzufügen.
+
+### [Erstellen eines leeren Word-Dokuments und Hinzufügen eines Radar-Diagramms in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstellen und ein Radar-Diagramm einfügen.
+### [DOCX mit ActiveX in Java und Aspose.Words erstellen](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX-Dateien erstellen, die ActiveX-Steuerelemente enthalten.
+### [Ein leeres Word-Dokument erstellen und eine ActiveX-Schaltfläche hinzufügen (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erzeugen und eine ActiveX-Schaltfläche einfügen.
+### [Schaltfläche zu Word-Dokument hinzufügen – Schritt-für-Schritt-Anleitung](./how-to-add-button-to-word-document-step-by-step-guide/)
+Erfahren Sie, wie Sie in Aspose.Words für Java eine Schaltfläche in ein Word-Dokument einfügen und konfigurieren.
+### [Kreisdiagramm in Word einfügen – Prozentuale Datenbeschriftungen hinzufügen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Erfahren Sie, wie Sie ein Kreisdiagramm in Word einfügen und Prozentwerte als Datenbeschriftungen anzeigen lassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

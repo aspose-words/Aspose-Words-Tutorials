@@ -69,6 +69,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Betűtípus-helyettesítés kezelése az Aspose.Words-ben – Teljes programozási útmutató](./handle-font-substitution-in-aspose-words-complete-programmin/) | Ismerje meg, hogyan kezelheti a betűtípus-helyettesítést az Aspose.Words for .NET-ben részletes, lépésről lépésre útmutatóval. |
 | [Hogyan észlelje a helyettesítést az Aspose.Words-ben – Hiányzó betűtípusok kezelése](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Ismerje meg, hogyan észlelheti a betűtípus-helyettesítést és kezelheti a hiányzó betűtípusokat az Aspose.Words for .NET-ben. |
 | [Az IWarningCallback használata – Hiányzó betűtípusok észlelése az Aspose.Words-ben](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Tanulja meg, hogyan használhatja az IWarningCallback interfészt a hiányzó betűtípusok észleléséhez az Aspose.Words for .NET-ben. |
+| [DOCX mentése PDF‑ként és hiányzó betűtípusok észlelése az Aspose.Words használatával](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Tanulja meg, hogyan menthet DOCX fájlt PDF‑be és észlelheti a hiányzó betűtípusokat az Aspose.Words for .NET használatával. |
 
 | [Betűtípus figyelmeztetések kezelése az Aspose.Words-ben – Hiányzó betűtípusok észlelése](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Tanulja meg, hogyan kezelje a betűtípus figyelmeztetéseket és észlelje a hiányzó betűtípusokat az Aspose.Words for .NET használatával. |
 | [Betűtípus figyelmeztetések rögzítése C#-ban – Teljes útmutató](./capture-font-warnings-in-c-complete-guide/) | Ismerje meg, hogyan rögzítheti a betűtípus figyelmeztetéseket C#-ban az Aspose.Words for .NET segítségével. |
@@ -89,11 +90,12 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Betűtípusok felismerése C#-ban – Teljes útmutató](./how-to-detect-fonts-in-c-complete-guide/) | Ismerje meg, hogyan észlelheti a betűtípusokat C#-ban az Aspose.Words for .NET segítségével részletes, lépésről lépésre útmutatóval. |
 | [Aspose betűtípus-helyettesítés – Hiányzó betűtípusok észlelése Word dokumentumokban](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Ismerje meg, hogyan észlelheti a hiányzó betűtípusokat a Word-dokumentumokban az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+| [Betűtípus-helyettesítés végrehajtása dokumentumban C#-ban](./how-to-perform-font-substitution-in-document-with-c/) |  |
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -47,6 +47,8 @@ Leer hoe u ontbrekende lettertypen detecteert en bijhoudt met de Aspose‑waarsc
 Leer hoe u waarschuwingen kunt vastleggen en ontbrekende lettertypen detecteert met Aspose.Words.
 ### [Ontdek ontbrekende lettertypen in Java met Aspose.Words – Complete gids](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Leer hoe u ontbrekende lettertypen in Java kunt vinden met Aspose.Words. Stapsgewijze handleiding met codevoorbeelden.
+### [Waarschuwingscallback registreren in Java – Complete programmeergids](./register-warning-callback-in-java-complete-programming-guide/)
+Leer hoe u een waarschuwingscallback registreert in Aspose.Words voor Java met een volledige programmeergids en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

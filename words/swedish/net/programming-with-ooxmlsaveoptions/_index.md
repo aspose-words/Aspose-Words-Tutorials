@@ -29,6 +29,7 @@ Oavsett om du vill skapa dokument som är kompatibla med äldre versioner av Wor
 | [Uppdatera egenskapen för senast sparade tid](./update-last-saved-time-property/) | Lär dig hur du uppdaterar egenskapen för senast sparade tid i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide. |
 | [Behåll äldre kontrolltecken](./keep-legacy-control-chars/) | Lär dig hur du bevarar äldre kontrolltecken i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. |
 | [Ställ in komprimeringsnivå](./set-compression-level/) | Lär dig hur du ställer in komprimeringsnivån i Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att optimera din dokumentlagring och prestanda. |
+| [Hur du ändrar teckenkodning för Word-dokument med Aspose.Words i C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Lär dig hur du ändrar teckenkodning för Word-dokument med Aspose.Words i C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

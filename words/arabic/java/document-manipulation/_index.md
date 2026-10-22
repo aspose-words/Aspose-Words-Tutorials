@@ -56,6 +56,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ابدأ رحلة التعلم الخاصة بك اليوم واكتشف إمكانيات لا حصر لها في التعامل مع المستندات باستخدام Aspose.Words for Java.
 
 ## دروس معالجة المستندات
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [استخدام خيارات التنظيف في Aspose.Words لـ Java](./using-cleanup-options/)
 حسّن وضوح مستنداتك باستخدام خيارات التنظيف في Aspose.Words لجافا. تعرّف على كيفية إزالة الفقرات الفارغة والمناطق غير المستخدمة والمزيد.
 ### [استخدام الحقول في Aspose.Words لـ Java](./using-fields/)
@@ -76,6 +79,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 أتقن التعامل مع نطاقات المستندات في Aspose.Words لجافا. تعلم كيفية حذف النصوص واستخراجها وتنسيقها مع هذا الدليل الشامل.
 ### [استخدام علامات المستندات المنظمة (SDT) في Aspose.Words لـ Java](./using-structured-document-tags/)
 تعرّف على كيفية استخدام علامات المستندات المنظمة (SDT) في Aspose.Words لـ Java من خلال هذا الدليل الشامل. أنشئ علامات المستندات المنظمة، وعدّلها، واربطها ببيانات XML مخصصة.
+### [إنشاء مستند Word جديد – دليل خطوة بخطوة لإضافة علامة منظمة](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+تعلم كيفية إنشاء مستند Word جديد وإضافة علامة منظمة باستخدام Aspose.Words لجافا.
 ### [استخدام الأنماط والموضوعات في Aspose.Words لـ Java](./using-styles-and-themes/)
 تعرّف على كيفية تحسين تنسيق المستندات باستخدام Aspose.Words لجافا. استكشف الأنماط والسمات والمزيد في هذا الدليل الشامل مع أمثلة على أكواد المصدر.
 ### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
@@ -92,6 +97,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلّم كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
 ### [إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java](./adding-content-using-documentbuilder/)
 أتقن إنشاء المستندات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لإضافة النصوص والجداول والصور وغيرها. أنشئ مستندات Word رائعة بكل سهولة.
+### [إنشاء مستند فارغ مع زر أمر تفاعلي في Word باستخدام Java](./create-blank-document-with-an-interactive-command-button-in/)
+### [كيفية حفظ ملف docx باستخدام DocumentBuilder وإضافة نص بعد عنصر تحكم](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+احفظ ملفات docx باستخدام DocumentBuilder وأضف نصًا بعد عنصر تحكم بسهولة.
 ### [استنساخ ودمج المستندات في Aspose.Words لـ Java](./cloning-and-combining-documents/)
 تعلّم كيفية استنساخ ودمج المستندات في Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة على الكود المصدري.
 ### [مقارنة المستندات في Aspose.Words لـ Java](./comparing-documents/)
@@ -110,6 +118,13 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلم كيفية إضافة وسوم الوصول إلى ملفات PDF باستخدام Aspose.Words لجافا لإنشاء مستندات PDF متوافقة مع معايير إمكانية الوصول.
 ### [كيفية إنشاء مستند Word في Java باستخدام Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 تعلم خطوة بخطوة إنشاء مستند Word باستخدام Aspose.Words في Java.
+### [إضافة عنصر تحكم المحتوى في مستند Word باستخدام Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+تعلم كيفية إضافة عناصر تحكم المحتوى إلى مستندات Word باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مستند Word فارغ مع عنصر تحكم نص](./how-to-create-a-blank-word-document-with-a-text-control/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة عنصر تحكم نصي باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مستند Word برمجيًا باستخدام Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [إنشاء مستند Word فارغ في Java باستخدام Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+تعلم كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words لجافا بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [c# načíst dokument Word – detekovat a řešit chybějící fonty](./c-load-word-document-detect-handle-missing-fonts/) | Naučte se, jak načíst dokument Word v C# a detekovat chybějící písma, případně je nahradit pomocí Aspose.Words pro .NET. |
 | [Aspose substituce písem: Detekce chybějících písem v dokumentech Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Naučte se, jak detekovat chybějící písma v dokumentech Word pomocí Aspose.Words pro .NET. |
 | [Zvládání nahrazování písem v Aspose.Words – Kompletní programovací průvodce](./handle-font-substitution-in-aspose-words-complete-programmin/) | Naučte se, jak kompletně řídit nahrazování písem v Aspose.Words pomocí podrobného programovacího průvodce. |
+| [Uložit DOCX jako PDF a detekovat chybějící písma pomocí Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Naučte se, jak převést soubor DOCX na PDF a zjistit chybějící písma pomocí Aspose.Words pro .NET. |
 | [Jak načíst DOCX a detekovat chybějící písma – Kompletní průvodce C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Naučte se, jak načíst soubor DOCX a zjistit chybějící písma pomocí Aspose.Words pro .NET v tomto kompletním C# průvodci. |
 | [Zaznamenávat varování o nahrazení písem – Kompletní průvodce Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Naučte se, jak zaznamenávat varování o nahrazení písem v Aspose.Words pro .NET pomocí podrobného návodu krok za krokem. |
 | [Vytvořit obslužnou rutinu varování o písmu – Detekce chybějících písem v C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Naučte se, jak vytvořit obslužný program varování o písmu, který detekuje chybějící písma v C# pomocí Aspose.Words. |
@@ -84,6 +85,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Uložit dokument Word – Detekovat chybějící písma pomocí Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Naučte se, jak uložit dokument Word a detekovat chybějící písma pomocí Aspose.Words pro .NET. |
 | [Vytvořit výstražné zpětné volání pro načítání dokumentů Word – kompletní průvodce](./create-warning-callback-for-loading-word-documents-complete/) | Naučte se, jak nastavit výstražný callback při načítání dokumentů Word pomocí Aspose.Words pro .NET. |
 | [Jak detekovat písma v C# – Kompletní průvodce](./how-to-detect-fonts-in-c-complete-guide/) | Naučte se, jak v C# detekovat písma v dokumentech pomocí Aspose.Words pro .NET v tomto podrobném průvodci. |
+| [Jak provést substituci písma v dokumentu pomocí C#](./how-to-perform-font-substitution-in-document-with-c/) | Naučte se, jak provést substituci písma v dokumentu Word pomocí Aspose.Words pro .NET v C#. |
 
 | [Jak použít IWarningCallback – Detekce chybějících písem s Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Naučte se, jak pomocí IWarningCallback detekovat chybějící písma v Aspose.Words pro .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
