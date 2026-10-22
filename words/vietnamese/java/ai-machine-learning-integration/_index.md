@@ -73,6 +73,8 @@ Hướng dẫn cấu hình mô hình ngôn ngữ lớn để tự động thay t
 Hướng dẫn xây dựng mô hình AI tùy chỉnh và tích hợp để chỉnh sửa các đoạn văn trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Tạo tài liệu Word bằng Java với Kiểm tra Ngữ pháp LLM Tùy chỉnh](./create-word-document-java-with-custom-llm-grammar-check/)
 Hướng dẫn tạo tài liệu Word trong Java và tích hợp mô hình ngôn ngữ tùy chỉnh để kiểm tra ngữ pháp tự động.
+### [Xây dựng Trình Kiểm tra Ngữ pháp Java – Hướng Dẫn Chi Tiết Từng Bước](./build-grammar-checker-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách xây dựng công cụ kiểm tra ngữ pháp trong Java bằng Aspose.Words và tích hợp AI để phát hiện lỗi ngữ pháp.
 
 ## Additional Resources
 

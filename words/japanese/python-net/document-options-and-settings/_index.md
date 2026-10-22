@@ -64,6 +64,14 @@ PythonとAspose.Wordsを使用して、破損したdocxファイルを復元す�
 
 ### [PythonでMarkdownSaveOptionsをLaTeX用に構成する – Aspose.Words ガイド](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 PythonでAspose.Wordsを使用し、LaTeX形式で保存するためのMarkdownSaveOptions設定方法をステップバイステップで解説します。
+### [Aspose.Words for Python で docx ファイルを復元する方法](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Aspose.Words for Python を使用して破損した docx ファイルを復元する手順をステップバイステップで解説します。
+### [破損したWord文書を開くためのリカバリモードの有効化](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+破損したWordファイルをリカバリモードで開く方法をステップバイステップで解説します。
+### [Python で Aspose.Words を使用して破損した docx ファイルを復元する方法](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Aspose.Words for Python を使用して破損した docx ファイルを復元する手順を学びます。コード例付きのステップバイステップガイドです。
+### [Aspose フォント警告ハンドラ – 欠落フォントの検出とドキュメント読み込みのカスタマイズ](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Aspose.Words for Python を使用して、欠落フォントを検出し、ドキュメントの読み込みをカスタマイズする方法を学びます。コード例付きのステップバイステップガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

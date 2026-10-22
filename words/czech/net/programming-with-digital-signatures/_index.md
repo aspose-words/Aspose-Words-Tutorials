@@ -29,7 +29,7 @@ Díky těmto tutoriálům zvládnete funkce digitálního podpisu v Aspose.Words
 | [Nastavení ID poskytovatele podpisu v dokumentu Word](./set-signature-provider-id/) Bezpečně nastavte ID poskytovatele podpisu v dokumentech Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného 2000slovného návodu k digitálnímu podepsání dokumentů. |
 | [Vytvořit nový řádek podpisu a nastavit ID poskytovatele](./create-new-signature-line-and-set-provider-id/) | Naučte se, jak vytvořit nový řádek podpisu a nastavit ID poskytovatele v dokumentech Word pomocí Aspose.Words pro .NET. Podrobný návod. |
 | [Přístup a ověření podpisu v dokumentu Word](./access-and-verify-signature/) | Získejte přístup k digitálním podpisům v dokumentech Word a ověřte je pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. Zajistěte pravost dokumentu bez námahy. |
-
+| [Přidat digitální podpis do PDF v C# pomocí Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Naučte se, jak přidat digitální podpis do PDF pomocí Aspose.Words v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

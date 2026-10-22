@@ -29,7 +29,7 @@ Aspose.Words for .NET은 워드 프로세싱 작업을 쉽게 안내하는 포�
 | [Word 문서에서 서명 공급자 ID 설정](./set-signature-provider-id/) Aspose.Words for .NET을 사용하여 Word 문서에 서명 공급자 ID를 안전하게 설정하세요. 2,000단어 분량의 자세한 가이드를 따라 문서에 디지털 서명을 하세요. |
 | [새 서명란을 만들고 공급자 ID를 설정합니다.](./create-new-signature-line-and-set-provider-id/) | Aspose.Words for .NET을 사용하여 Word 문서에 새 서명란을 만들고 공급자 ID를 설정하는 방법을 알아보세요. 단계별 가이드입니다. |
 | [Word 문서에서 서명 접근 및 확인](./access-and-verify-signature/) | Aspose.Words for .NET을 사용하여 Word 문서의 디지털 서명에 액세스하고 검증하는 방법을 단계별로 안내하는 포괄적인 가이드를 참고하세요. 문서의 진위 여부를 손쉽게 확인할 수 있습니다. |
-
+| [C#에서 Aspose.Words를 사용해 PDF에 디지털 서명 추가](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Aspose.Words를 사용하여 C#에서 PDF에 디지털 서명을 추가하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

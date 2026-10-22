@@ -36,6 +36,11 @@ Scopri come ottimizzare l'output SVG utilizzando Aspose.Words per Python. Questa
 
 ### [Crea documento Word con Python – Guida per aggiungere ombra alla forma](./create-word-document-python-add-shadow-to-shape-guide/)
 Scopri come creare un documento Word in Python e aggiungere ombre alle forme con Aspose.Words, includendo esempi di codice dettagliati.
+### [Crea documento Word vuoto e aggiungi ombra alla forma – Guida completa Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Scopri come creare un documento Word vuoto e applicare un'ombra a una forma usando Aspose.Words per Python-net, con esempi di codice passo passo.
+
+### [Crea documento Word vuoto e aggiungi ombra alla forma – Guida completa](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Scopri come creare un documento Word vuoto e aggiungere un'ombra a una forma con Aspose.Words per Python-net, con esempi pratici passo passo.
 
 ### [Come aggiungere l'ombra in C# – Guida completa alla programmazione](./how-to-add-shadow-in-c-complete-programming-guide/)
 Scopri come aggiungere ombre agli oggetti in C# usando Aspose.Words, con esempi completi e passaggi dettagliati.
@@ -67,6 +72,18 @@ Impara a disegnare rettangoli nei PDF usando Aspose.Words per Python, con esempi
 Scopri come aggiungere ombre alle forme nei documenti Word usando Aspose.Words per Python, con esempi pratici e passaggi dettagliati.
 ### [Come aggiungere l'ombra a una forma Word usando Python](./how-to-add-shadow-to-a-word-shape-using-python/)
 Scopri come aggiungere ombre alle forme Word con Aspose.Words per Python, con esempi pratici e passaggi dettagliati.
+### [Come salvare PNG e aggiungere ombra a una forma con Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Scopri come salvare un'immagine PNG e aggiungere un'ombra a una forma usando Aspose.Words per Python-net.
+
+### [Come creare un grafico a colonne in Python con Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Scopri come generare un grafico a colonne in un documento Word usando Aspose.Words per Python-net.
+### [Come applicare l'effetto ombra a una forma Word con Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Scopri come aggiungere un effetto ombra alle forme nei documenti Word usando Aspose.Words per Python-net.
+
+### [Come creare una forma rettangolare in un documento Word usando Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Scopri come inserire e formattare una forma rettangolare in un documento Word con Aspose.Words per Python.
+### [Aggiungere l'ombra a una forma in Python – Guida completa alla programmazione](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Scopri come aggiungere ombre alle forme in Python usando Aspose.Words, con esempi completi e passaggi dettagliati.
 
 ## Risorse aggiuntive
 

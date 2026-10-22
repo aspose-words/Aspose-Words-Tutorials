@@ -66,6 +66,21 @@
 ### [เพิ่มเงาให้รูปร่างใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 ### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Python](./how-to-add-shadow-to-a-word-shape-using-python/)
 เรียนรู้วิธีการเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net อย่างละเอียด
+### [วิธีบันทึก PNG และเพิ่มเงาให้กับรูปร่างด้วย Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+เรียนรู้วิธีบันทึกรูป PNG และเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net
+
+### [วิธีสร้างแผนภูมิคอลัมน์ใน Python ด้วย Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+เรียนรู้วิธีการเพิ่มเอฟเฟกต์เงาให้กับรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python-net
+
+### [วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+### [วิธีเพิ่มเงาให้รูปทรงใน Python – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-programming-guide/)
+เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Python เพื่อเพิ่มความสวยงามและความเป็นมืออาชีพ
+### [สร้างเอกสาร Word ว่างและเพิ่มเงาให้รูปทรง – คู่มือเต็ม Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรงโดยใช้ Aspose.Words สำหรับ Python
+
+### [สร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรง – คำแนะนำเต็ม](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรงโดยใช้ Aspose.Words สำหรับ Python-net
 
 ## แหล่งข้อมูลเพิ่มเติม
 

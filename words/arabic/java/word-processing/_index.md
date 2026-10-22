@@ -50,6 +50,9 @@ Aspose.Words لجافا هي مكتبة قوية ومتعددة الاستخدا
 ### [إنشاء مستند Word برمجيًا – دليل شامل خطوة بخطوة](./create-word-document-programmatically-full-step-by-step-guid/)
 
 تعلم كيفية إنشاء مستند Word برمجيًا باستخدام Aspose.Words لجافا خطوة بخطوة من البداية حتى النهاية.
+### [إنشاء مخطط شعاعي وإدراجه في مستند Word باستخدام Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+تعلم كيفية إنشاء مخطط شعاعي وإدراجه في مستند Word باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

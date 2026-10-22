@@ -73,6 +73,9 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [Aspose.Words के साथ DOCX को PDF में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Aspose.Words का उपयोग करके DOCX को PDF में बदलने की पूरी प्रोग्रामिंग गाइड। |
 | [DOCX से सुलभ PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-docx-complete-programming-guide/) | C# में Aspose.Words का उपयोग करके DOCX से सुलभ PDF बनाने की पूरी प्रोग्रामिंग गाइड। |
 | [Aspose.Words के साथ Word को सुलभ PDF में बदलें – पूर्ण गाइड](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Aspose.Words का उपयोग करके Word दस्तावेज़ को सुलभ PDF में बदलने की पूरी मार्गदर्शिका। |
+| [Word से PDF/UA अनुरूप फ़ाइल बनाएं – पूर्ण निर्यात गाइड](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Word दस्तावेज़ को PDF/UA मानकों के अनुरूप निर्यात करने की पूरी प्रक्रिया सीखें। |
+| [C# में दस्तावेज़ को PDF के रूप में सहेजें – इनलाइन शैप्स निर्यात करें](./save-document-as-pdf-in-c-export-inline-shapes/) | C# में Aspose.Words का उपयोग करके इनलाइन शैप्स को PDF में निर्यात करने की चरण‑दर‑चरण मार्गदर्शिका। |
+| [Word को PDF में बदलते समय RenderChoiceFormFieldBorder को false सेट करें](./how-to-set-renderchoiceformfieldborder-false-when-converting/) |  |
 
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
 | [Aspose के साथ Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया को चरण‑दर‑चरण सीखें। |

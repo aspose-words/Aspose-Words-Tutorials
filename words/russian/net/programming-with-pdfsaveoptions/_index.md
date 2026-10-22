@@ -44,7 +44,7 @@
 | [Сжатие изображений в PDF-документе](./image-compression/) Узнайте, как сжимать изображения в документах PDF с помощью Aspose.Words для .NET. Следуйте этому руководству для оптимизации размера и качества файла. |
 | [Обновить последнее напечатанное свойство в документе PDF](./update-last-printed-property/) | Узнайте, как обновить последнее напечатанное свойство в документе PDF с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. |
 | [Конвертировать DOCX в PDF с Aspose.Words – Полное руководство по программированию](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Полное руководство по конвертации DOCX в PDF с помощью Aspose.Words для .NET на C#. |
-| [Создание доступного PDF в C# – пошаговое руководство](./create-accessible-pdf-in-c-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET на C# в пошаговом руководстве. |
+| [Как установить RenderChoiceFormFieldBorder в false при конвертации Word в PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Узнайте, как отключить отображение границы поля формы выбора при конвертации Word в PDF с помощью Aspose.Words для .NET. |
 | [Сохранить Word как PDF с Aspose Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению документов Word в PDF с помощью Aspose.Words на C#. |
 | [Сохранить DOCX в PDF с Aspose.Words – Полное руководство на C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Полное руководство на C# по сохранению DOCX в PDF с помощью Aspose.Words. |
 | [Создать доступный PDF из Word с помощью C# – пошаговое руководство](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью C# и Aspose.Words, следуя подробному пошаговому руководству. |
@@ -86,6 +86,9 @@
 | [Как сохранить PDF из Word в C# – Полное руководство](./how-to-save-pdf-from-word-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью C# и Aspose.Words, следуя пошаговому полному руководству. |
 | [Сохранить документ как PDF в C# – Полное руководство](./save-document-as-pdf-in-c-complete-guide/) | Подробное руководство по сохранению документов Word в PDF с помощью Aspose.Words for .NET на C#. |
 | [Сохранить Word в PDF – Полное руководство с доступностью](./save-word-as-pdf-complete-guide-with-accessibility/) | Полное руководство по сохранению документов Word в PDF с поддержкой доступности, используя Aspose.Words для .NET. |
+| [Создать PDF/UA совместимый файл из Word – Полное руководство по экспорту](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Узнайте, как создать PDF/UA совместимый файл из Word, следуя полному руководству по экспорту с помощью Aspose.Words для .NET. |
+| [Сохранить документ как PDF в C# – Экспорт встроенных фигур](./save-document-as-pdf-in-c-export-inline-shapes/) | Узнайте, как экспортировать встроенные фигуры при сохранении документа Word в PDF с помощью Aspose.Words для .NET на C#. |
+| [Создание доступного PDF в C# – пошаговое руководство](./create-accessible-pdf-in-c-step-by-step-guide/) | Узнайте, как создать доступный PDF в C# с пошаговыми инструкциями, используя Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

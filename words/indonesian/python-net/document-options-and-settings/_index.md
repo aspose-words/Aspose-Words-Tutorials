@@ -59,6 +59,13 @@ Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dalam 
 Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 ### [Konfigurasi MarkdownSaveOptions untuk LaTeX di Python – Panduan Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Pelajari cara mengonfigurasi MarkdownSaveOptions agar dapat mengekspor dokumen ke format LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx dengan Aspose.Words untuk Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python.
+### [Aktifkan mode pemulihan untuk membuka dokumen Word yang rusak](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Pelajari cara mengaktifkan mode pemulihan agar dapat membuka dokumen Word yang rusak menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx Rusak dengan Aspose.Words di Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+### [Penangan Peringatan Font Aspose – Deteksi Font yang Hilang & Sesuaikan Pemuatan Dokumen](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Pelajari cara menangani peringatan font, mendeteksi font yang hilang, dan menyesuaikan proses pemuatan dokumen dengan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

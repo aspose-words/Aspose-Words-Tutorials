@@ -120,6 +120,10 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word को Markdown में बदलते समय छवियों को क्लाउड पर अपलोड करें](./upload-images-to-cloud-when-converting-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय छवियों को क्लाउड स्टोरेज में अपलोड करने की प्रक्रिया। |
 | [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ तालिकाओं को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजते हुए तालिकाओं को HTML में निर्यात करने का तरीका सीखें। |
 | [मार्कडाउन को वर्ड के रूप में सहेजें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [DOCX से Markdown रूपांतरण में CDN पर छवियों को अपलोड करें – पूर्ण गाइड](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | DOCX को Markdown में बदलते समय छवियों को CDN पर अपलोड करने की पूरी गाइड। |
+| [DOCX को मार्कडाउन में बदलें – समीकरण निर्यात के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-equation-export/) | DOCX को मार्कडाउन में बदलते समय समीकरण निर्यात को शामिल करने की पूरी गाइड। |
+| [Aspose docx को markdown में बदलें – रूपांतरण और छवियों को निकालने की पूरी गाइड](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। चरण‑दर‑दर कोड उदाहरण और सर्वोत्तम अभ्यास। |
+| [DOCX को Markdown में बदलें – आकार छाया और पुनर्प्राप्ति के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | .NET के लिए Aspose.Words का उपयोग करके आकार छाया और पुनर्प्राप्ति के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |

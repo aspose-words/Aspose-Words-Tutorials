@@ -47,6 +47,8 @@ Ismerje meg, hogyan használja a figyelmeztető visszahívást a hiányzó betű
 Tanulja meg, hogyan rögzítheti a figyelmeztetéseket és észlelheti a hiányzó betűtípusokat az Aspose.Words használatával.
 ### [Hiányzó betűtípusok keresése Java-ban az Aspose.Words segítségével – Teljes útmutató](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Ismerje meg, hogyan találhatja meg és kezelheti a hiányzó betűtípusokat Java‑alkalmazásokban az Aspose.Words használatával.
+### [Figyelmeztető visszahívás regisztrálása Java-ban – Teljes programozási útmutató](./register-warning-callback-in-java-complete-programming-guide/)
+Ismerje meg, hogyan regisztrálhat figyelmeztető visszahívást az Aspose.Words for Java-ban, részletes példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

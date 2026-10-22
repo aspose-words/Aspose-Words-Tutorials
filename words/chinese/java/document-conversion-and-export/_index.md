@@ -69,10 +69,14 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
+
+学习如何在 Aspose.Words for Java 中创建和自定义图表。探索数据可视化的图表类型、格式和轴属性。
+
+### [在 Aspose.Words for Java 中创建饼图并保存为 PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+
+本教程演示如何使用 Aspose.Words for Java 在 Word 文档中创建饼图并将其导出为 PNG 图像。
+
 ### [在 Aspose.Words for Java 中使用 Office Math 对象](./using-office-math-objects/)
-
-使用 Aspose.Words for Java 解锁文档中数学公式的强大功能。学习如何轻松操作和显示 Office Math 对象。
-
 ### [在 Aspose.Words for Java 中使用文档形状](./using-document-shapes/)
 
 解锁 Aspose.Words for Java 中文档形状的强大功能。通过分步示例学习如何创建视觉效果引人入胜的文档。
@@ -85,6 +89,10 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 学习如何使用 Aspose.Words for Java 将 DOCX 转换为符合 WCAG 标准的可访问 PDF，涵盖标签、结构和元数据设置。
 
+### [在 Aspose.Words for Java 中将 DOCX 转换为 PDF – 完整分步指南](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+
+### [从 DOCX 创建可访问 PDF – 完整分步指南](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+
 ### [在 Java 中创建可访问 PDF – 完整标记指南](./create-accessible-pdf-in-java-full-tagging-guide/)
 
 本教程详细演示如何使用 Aspose.Words for Java 在 Java 环境下生成符合 WCAG 标准的可访问 PDF，并完整添加标签。
@@ -96,9 +104,6 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [Java 将 DOCX 转换为 PDF – 使用 Aspose.Words 生成可访问 PDF](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
-
-了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
-
 ### [在 Java 中将 docx 保存为 markdown – 完整分步指南](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 本教程详细演示如何使用 Aspose.Words for Java 将 DOCX 文档转换并保存为 Markdown 格式，包含完整代码示例。
 
@@ -131,6 +136,25 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [在 Aspose.Words for Java 中将 Word 导出为 Markdown – 将文档保存为 Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 演示如何使用 Aspose.Words for Java 将 Word 文档转换并保存为 Markdown 格式，包含代码示例和关键设置。
+
+### [使用 Aspose.Words 将 docx 转换为 markdown 的方法](./how-to-convert-docx-to-markdown-with-aspose-words/)
+
+演示如何使用 Aspose.Words for Java 将 DOCX 文件转换为 Markdown，提供代码示例和关键设置。
+
+### [在 Aspose.Words for Java 中将 Markdown 转换为 DOCX](./how-to-perform-markdown-to-docx-conversion-in-java/)
+
+本教程演示如何使用 Aspose.Words for Java 将 Markdown 文件转换为 DOCX 文档，包含代码示例和关键设置。
+
+### [在 Aspose.Words for Java 中将 Word 保存为带 HTML 表格的 Markdown](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+
+演示如何使用 Aspose.Words for Java 将 Word 文档转换为 Markdown，并保留其中的 HTML 表格。
+
+### [在 Java 中将 docx 转换为带表格支持的 Markdown](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+演示如何使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown，同时保留表格的布局和内容。
+### [在 Aspose.Words for Java 中将 DOCX 转换为 Markdown – 完整指南（含数学导出）](./convert-docx-to-markdown-complete-guide-with-math-export/)
+
+### [在 Aspose.Words for Java 中将 DOCX 转换为 Markdown – 完整 Java 指南](./convert-docx-to-markdown-complete-java-guide/)
 
 ### [将文档另存为 TXT – 导出 Word 数学的快速指南](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 
@@ -180,6 +204,7 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [将 Word 导出为 Markdown – 完整 Java 指南](./export-word-to-markdown-full-java-guide/)
 
 ### [将 DOCX 转换为 Markdown（含数学导出） – 完整 Java 指南](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+
 ### [将 docx 保存为 txt – 快速 C# 指南，支持 LaTeX 数学导出](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 
 本教程演示如何使用 Aspose.Words for Java 将 DOCX 转换为纯文本，并导出嵌入的 LaTeX 数学公式。
@@ -200,6 +225,7 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 本教程逐步演示如何使用 Aspose.Words for Java 将 Word 文档导出为 Markdown 格式，包含完整代码示例。
 
 ### [在 Aspose.Words for Java 中从 DOCX 创建可访问 PDF – 完整指南](./create-accessible-pdf-from-docx-in-java-full-guide/)
+
 ### [docx 转 pdf 教程 – 使用 LowCode 将 Word 转换为 PDF](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 
 使用 LowCode 平台将 Word 文档快速转换为 PDF，提供示例代码和步骤指南。
@@ -324,6 +350,13 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中将 Word 保存为 Markdown – 使用 Aspose.Words 的完整指南](./save-word-as-markdown-complete-guide-using-aspose-words/)
 
 完整指南展示如何使用 Aspose.Words 将 Word 文档导出为 Markdown，包括代码示例和高级选项。
+
+### [在 Aspose.Words for Java 中将 DOCX 保存为 Markdown：使用 Aspose.Words 将 DOCX 转换为 Markdown](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+
+### [在 Aspose.Words for Java 中将 Word 保存为 PNG – 完整分步指南](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [在 Java 中从 DOCX 创建 Markdown – 完整 Aspose.Words 指南](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+
+使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown，并保留格式和图像。
 
 ## 常见问题
 

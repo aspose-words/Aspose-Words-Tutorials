@@ -83,6 +83,8 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Markdown naar DOCX converteren met Aspose.Words – Complete C#-gids](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Leer hoe u Markdown-bestanden naar DOCX converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 | [DOCX naar PDF converteren C# – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Leer hoe u DOCX-bestanden naar PDF converteert in C# met Aspose.Words via een volledige stap‑voor‑stap gids. |
 | [Converteer Docx naar PDF in C# – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u docx naar pdf converteert in C# met Aspose.Words, stap‑voor‑stap met voorbeeldcode. |
+| [PDF maken van DOCX in C# – Stapsgewijze gids](./create-pdf-from-docx-in-c-step-by-step-guide/) | Leer hoe u een DOCX-bestand naar PDF converteert in C# met Aspose.Words, met voorbeeldcode en stapsgewijze uitleg. |
+| [DOCX naar TXT converteren met C# – Complete programmeergids](./convert-docx-to-txt-with-c-complete-programming-guide/) | Leer hoe u DOCX-bestanden naar TXT converteert met C# en Aspose.Words voor .NET in een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

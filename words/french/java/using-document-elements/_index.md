@@ -43,6 +43,9 @@ En conclusion, maîtriser la manipulation des éléments de documents avec Aspos
 N'oubliez pas : c'est en forgeant qu'on devient forgeron. Avec Aspose.Words pour Java, vous créerez, modifierez et améliorerez vos documents comme un pro en un rien de temps. Bon codage !
 
 ## Tutoriels sur l'utilisation des éléments de document
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Utilisation des commentaires dans Aspose.Words pour Java](./using-comments/)
 Apprenez à utiliser les commentaires dans Aspose.Words pour Java. Tutoriel étape par étape pour ajouter et personnaliser des commentaires dans vos documents.
 ### [Utilisation des champs dans Aspose.Words pour Java](./using-fields/)
@@ -69,6 +72,10 @@ Apprenez à manipuler les nœuds dans Aspose.Words pour Java grâce à ce tutori
 Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words pour Java. Créez facilement des documents interactifs. Commencez dès maintenant !
 ### [Ajouter Forms2OleControl à DOCX – Guide complet Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Apprenez à insérer un contrôle Forms2Ole dans un fichier DOCX avec Aspose.Words. Guide complet étape par étape.
+### [Comment créer forms2olecontrol en code avec Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Apprenez à créer des contrôles Forms2OLE dans le code avec Aspose.Words pour Java.
+### [Comment créer un bouton de commande ActiveX en Java](./how-to-create-activex-command-button-in-java/)
+Apprenez à créer un bouton de commande ActiveX dans Aspose.Words pour Java.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
@@ -88,6 +95,36 @@ Apprenez à créer un diagramme circulaire dans Word en utilisant Aspose.Words p
 ### [Comment ajouter un SDT en C# – guide complet pour les espaces réservés Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Apprenez à insérer des contrôles de contenu (SDT) avec Aspose.Words pour C# afin de gérer les espaces réservés dans vos documents Word.
 ### [Comment obtenir un séparateur dans les documents Word avec Java](./how-to-get-separator-in-word-docs-with-java/)
+### [Comment ajouter des lignes de repère à un diagramme circulaire en Java avec l'API Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Apprenez à ajouter des lignes de repère aux graphiques circulaires en Java à l'aide de l'API Chart d'Aspose.
+### [Créer un document Word avec des espaces réservés et des listes](./how-to-create-word-document-with-placeholders-and-lists/)
+Apprenez à générer des documents Word contenant des espaces réservés et des listes dynamiques avec Aspose.Words pour Java.
+### [Comment insérer un bouton de commande dans un document Word à l'aide de Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Apprenez à insérer un bouton de commande dans un document Word avec Aspose.Words pour Java.
+### [Utilisation de la modification de graphiques dans un document Word avec Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Apprenez à modifier les graphiques dans un document Word en utilisant Aspose.Words pour Java, étape par étape.
+### [Enregistrer le document Word après modification du graphique en anneau en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Apprenez à enregistrer un document Word après avoir modifié un graphique en anneau avec Aspose.Words pour Java.
+### [Comment créer un diagramme radial dans un document Word avec Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Apprenez à créer un diagramme radial dans un document Word en utilisant Aspose.Words pour Java.
+### [Créer un document Word vierge et insérer un contrôle de texte brut dans Aspose.Words pour Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Apprenez à créer un document Word vierge et à insérer un contrôle de texte brut avec Aspose.Words pour Java.
+### [Comment créer un document Word vierge et ajouter un graphique radar en C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+
+### [Créer un document Word programmatique et insérer un bouton](./create-word-document-programmatically-and-insert-a-button/)
+Apprenez à créer un document Word via code Java et à y ajouter un bouton interactif.
+### [Comment insérer un diagramme circulaire dans un document Word avec Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Apprenez à insérer un graphique en secteurs dans un document Word en utilisant Aspose.Words pour Java.
+### [Comment créer un fichier docx contenant ActiveX avec Java et Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Apprenez à créer un document docx contenant des contrôles ActiveX avec Java et Aspose.Words.
+### [Créer un document Word vierge et ajouter un bouton ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX avec Aspose.Words pour Java.
+### [Comment insérer un diagramme circulaire dans Word – ajouter le pourcentage d'étiquette de données](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Apprenez à insérer un graphique circulaire dans Word et à afficher les pourcentages sur les étiquettes de données.
+### [Comment ajouter un bouton à un document Word – Guide étape par étape](./how-to-add-button-to-word-document-step-by-step-guide/)
+Apprenez à insérer un bouton interactif dans un document Word avec Aspose.Words pour Java, étape par étape.
+### [Comment exploser une part de tarte en Java – Tutoriel de graphique Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Apprenez à faire exploser une part de diagramme circulaire dans un graphique Aspose.Words en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

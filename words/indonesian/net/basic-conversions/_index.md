@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Konversi docx ke txt dengan persamaan LaTeX – Panduan Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Pelajari cara mengonversi file DOCX ke TXT sambil mempertahankan persamaan LaTeX menggunakan Aspose.Words untuk .NET. |
 | [Simpan docx sebagai txt – Panduan Lengkap Mengonversi File Word ke Teks Biasa](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Pelajari cara menyimpan file DOCX sebagai TXT dengan Aspose.Words untuk .NET dalam panduan lengkap langkah demi langkah. |
 | [Konversi DOCX ke TXT – Panduan Lengkap C# untuk Persamaan LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Pelajari cara mengonversi DOCX ke TXT dengan dukungan persamaan LaTeX menggunakan Aspose.Words dalam C#. Panduan langkah demi langkah. |
+| [Mengonversi docx ke txt dengan C# – Panduan Pemrograman Lengkap](./convert-docx-to-txt-with-c-complete-programming-guide/) | Pelajari cara mengonversi file DOCX ke TXT menggunakan Aspose.Words untuk .NET dengan panduan lengkap dalam C#. Praktis untuk pengembang. |
 | [Konversi File Teks Ke Dokumen Word](./txt-to-docx/) | Pelajari cara mengonversi berkas teks ke dokumen Word menggunakan Aspose.Words untuk .NET. Kelola konversi dokumen secara efisien dengan panduan lengkap kami. Bahasa Indonesia: |
 | [Simpan Pdf sebagai Jpeg](./pdf-to-jpeg/) | Ubah PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar. Bahasa Indonesia: |
 | [Simpan PDF ke Format Word (Docx)](./pdf-to-docx/) | Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang. |
@@ -83,6 +84,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Mengonversi Markdown ke DOCX dengan Aspose.Words – Panduan Lengkap C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Pelajari cara mengonversi file Markdown ke DOCX menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah lengkap. |
 | [Mengonversi DOCX ke PDF C# – Panduan Lengkap Langkah‑demi‑Langkah](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Panduan lengkap mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Mengonversi docx ke pdf dalam C# – Panduan Lengkap Langkah‑demi‑Langkah](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Panduan lengkap mengonversi DOCX ke PDF dengan Aspose.Words di C#. Contoh kode dan penjelasan detail untuk pengembang. |
+| [Buat PDF dari DOCX di C# – Panduan Langkah‑demi‑Langkah](./create-pdf-from-docx-in-c-step-by-step-guide/) | Pelajari cara membuat PDF dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

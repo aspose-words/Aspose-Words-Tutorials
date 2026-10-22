@@ -29,6 +29,7 @@ Aspose.Words for .NET 提供全面的教程，引導您輕鬆完成文字處理�
 | [在 Word 文件中設定簽名提供者 ID](./set-signature-provider-id/) |使用 Aspose.Words for .NET 在 Word 文件中安全地設定簽名提供者 ID。請按照我們詳細的 2000 字指南對您的文件進行數位簽章。 |
 | [建立新的簽名行並設定提供者 ID](./create-new-signature-line-and-set-provider-id/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立新的簽名行並設定提供者 ID。逐步指南。 |
 | [存取並驗證 Word 文件中的簽名](./access-and-verify-signature/) |透過這份全面的逐步指南，使用 Aspose.Words for .NET 存取和驗證 Word 文件中的數位簽章。輕鬆確保文件的真實性。 |
+| [在 C# 中使用 Aspose.Words 為 PDF 添加數位簽章](./add-digital-signature-to-pdf-in-c-using-aspose-words/) |了解如何使用 Aspose.Words for .NET 在 PDF 文件中加入數位簽章，提升文件安全性。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

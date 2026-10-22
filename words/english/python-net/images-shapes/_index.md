@@ -63,6 +63,23 @@ Learn how to apply shadow effects to shapes in Word documents using Aspose.Words
 ### [Draw rectangle in PDF with Aspose.Words for Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Learn how to draw a rectangle shape in a PDF document using Aspose.Words for Python.
 ### [Add shadow to shape in Python – complete Aspose.Words guide](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [How to save PNG and add shadow to shape with Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Learn how to save a shape as PNG and apply a shadow effect using Aspose.Words for Python-net.
+
+### [How to create column chart python with Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Learn how to generate a column chart in a Word document using Aspose.Words for Python-net.
+### [How to apply shadow effect to a Word shape with Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Learn how to add a shadow effect to Word shapes using Aspose.Words for Python-net with step-by-step examples.
+
+### [How to create rectangle shape in a Word document using Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Learn how to insert and customize a rectangle shape in a Word document using Aspose.Words for Python-net with clear code examples.
+### [Add Shadow to Shape in Python – Complete Programming Guide](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Learn how to add shadow effects to shapes in Word documents using Aspose.Words for Python with detailed code examples.
+### [Create Blank Word Document and Add Shadow to Shape – Full Python Guide](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Learn how to create a blank Word document and apply shadow effects to shapes using Aspose.Words for Python-net with step-by-step code.
+
+### [Create Blank Word Document and Add Shadow to Shape – Full Tutorial](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Learn how to create a blank Word document and add shadow effects to shapes using Aspose.Words for Python-net with detailed code examples.
 
 ## Additional Resources
 

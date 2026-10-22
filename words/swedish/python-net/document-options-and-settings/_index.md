@@ -59,6 +59,14 @@ Lär dig hur du reparerar skadade Word-dokument med Aspose.Words i Python. En de
 Lär dig återställa skadade docx-filer med Aspose.Words i Python. En steg‑för‑steg‑guide med kodexempel.
 ### [Konfigurera MarkdownSaveOptions för LaTeX i Python – Aspose.Words-guide](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Lär dig hur du konfigurerar MarkdownSaveOptions för LaTeX-export i Python med Aspose.Words.
+### [Hur du återställer docx-filer med Aspose.Words för Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Lär dig återställa skadade eller korrupta docx-filer med Aspose.Words för Python. Steg-för-steg-guide med kodexempel.
+### [Aktivera återställningsläge för att öppna ett korrupt Word-dokument](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Lär dig hur du aktiverar återställningsläget för att öppna och reparera skadade Word-dokument med Aspose.Words för Python.
+### [Hur du återställer korrupta docx-filer med Aspose.Words i Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. Steg-för-steg-guide med kodexempel.
+### [Aspose Font-varningshanterare – Upptäck saknade teckensnitt och anpassa dokumentladdning](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Lär dig hur du använder Aspose Font Warning Handler för att identifiera saknade teckensnitt och anpassa hur dokument laddas in.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

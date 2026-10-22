@@ -39,6 +39,8 @@ Aprenda a gestionar eficazmente los permisos de documentos con Aspose.Words para
 Aprenda a cifrar y descifrar documentos con Aspose.Words para Java. Proteja sus datos eficientemente con instrucciones paso a paso y ejemplos de código fuente.
 ### [Firmas digitales en documentos](./digital-signatures-in-documents/)
 Aprenda a implementar firmas digitales seguras en documentos con Aspose.Words para Java. Garantice la integridad de los documentos con instrucciones paso a paso y el código fuente.
+### [Cómo añadir una firma digital a un documento Word con Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Aprenda a agregar firmas digitales a documentos Word usando Aspose.Words, con ejemplos de código y pasos detallados.
 ### [Redacción de documentos y protección de datos](./document-redaction-data-protection/)
 Aprenda a proteger sus documentos y a redactar información confidencial con Aspose.Words para Java. Guía paso a paso con código fuente.
 ### [Firmar documento Word en Java con Aspose.Words – Guía completa](./sign-word-document-in-java-with-aspose-words-complete-guide/)
@@ -47,6 +49,14 @@ Aprenda a firmar documentos Word en Java usando Aspose.Words con ejemplos paso a
 Aprenda a firmar archivos DOCX en C# con Aspose.Words mediante una guía paso a paso con ejemplos de código.
 ### [Cómo firmar archivos docx con un certificado PFX – guía paso a paso](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 Aprenda a firmar archivos docx usando un certificado PFX con instrucciones paso a paso y ejemplos de código.
+### [Cómo firmar un documento Word en C# usando un certificado X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Aprenda a firmar documentos Word en C# con un certificado X509 usando Aspose.Words para Java. Guía paso a paso con código fuente.
+### [Cómo firmar digitalmente un documento Word usando Java](./how-to-digitally-sign-word-document-using-java/)
+Aprenda a firmar digitalmente documentos Word con Java y Aspose.Words, paso a paso con ejemplos de código.
+### [Archivo PFX de firma digital en Java – Guía completa](./digital-signature-pfx-file-in-java-complete-guide/)
+Aprenda a crear y usar archivos PFX para firmas digitales en Java con Aspose.Words, paso a paso y con ejemplos de código.
+### [Cómo firmar docx en Java – guía paso a paso](./how-to-sign-docx-in-java-step-by-step-guide/)
+Aprenda a firmar archivos docx en Java usando Aspose.Words, con ejemplos de código paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Tìm hiểu cách sử dụng callback cảnh báo để phát hiện và theo d
 Hướng dẫn phát hiện và xử lý các cảnh báo khi tài liệu thiếu phông chữ bằng Aspose.Words cho Java.
 ### [Tìm phông chữ thiếu trong Java với Aspose.Words – Hướng dẫn toàn diện](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Khám phá cách phát hiện và thay thế các phông chữ thiếu trong tài liệu Word khi sử dụng Aspose.Words cho Java.
+### [Đăng ký Callback Cảnh báo trong Java – Hướng dẫn Lập trình Toàn diện](./register-warning-callback-in-java-complete-programming-guide/)
+Tìm hiểu cách đăng ký callback cảnh báo trong Aspose.Words cho Java để xử lý thông báo và lỗi một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

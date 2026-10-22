@@ -72,6 +72,8 @@ Aprende a automatizar la resumición y traducción de texto usando Aspose.Words 
 Aprende a crear y usar un modelo de IA propio para modificar párrafos en documentos Word con Aspose.Words y Java.
 ### [Crear documento Word en Java con verificación gramatical de LLM personalizado](./create-word-document-java-with-custom-llm-grammar-check/)
 Aprende a generar documentos Word en Java y a usar un modelo LLM personalizado para corregir gramática automáticamente.
+### [Construye un Corrector Gramatical en Java – Guía Completa Paso a Paso](./build-grammar-checker-java-complete-step-by-step-guide/)
+Aprende a crear un corrector gramatical en Java usando Aspose.Words y modelos de IA para detectar y corregir errores de forma automática.
 
 ## Recursos adicionales
 

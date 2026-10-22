@@ -48,7 +48,6 @@
 ### [Ιδιότητες εγγράφου και διαχείριση μεταδεδομένων](./document-properties-metadata/)
 Μάθετε πώς να διαχειρίζεστε ιδιότητες και μεταδεδομένα εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Οδηγός βήμα προς βήμα με πηγαίο κώδικα.
 ### [Επέκταση λειτουργικότητας εγγράφων με επεκτάσεις ιστού](./document-functionality-web-extensions/)
-Μάθετε πώς να επεκτείνετε τη λειτουργικότητα εγγράφων με επεκτάσεις ιστού χρησιμοποιώντας το Aspose.Words για Python. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για απρόσκοπτη ενσωμάτωση.
 ### [Δημιουργία Προσβάσιμου PDF με το Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Μάθετε πώς να κάνετε τα PDF προσβάσιμα χρησιμοποιώντας το Aspose.Words με έναν πλήρη οδηγό βήμα‑βήμα και παραδείγματα κώδικα.
 ### [Πώς να ανακτήσετε DOCX – Πλήρης οδηγός με Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
@@ -59,6 +58,14 @@
 Μάθετε πώς να ανακτήσετε αρχεία docx σε Python με οδηγίες βήμα‑βήμα.
 ### [Διαμόρφωση MarkdownSaveOptions για LaTeX σε Python – Οδηγός Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Μάθετε πώς να ρυθμίσετε τις επιλογές αποθήκευσης Markdown για εξαγωγή σε LaTeX χρησιμοποιώντας Aspose.Words σε Python.
+### [Πώς να ανακτήσετε αρχεία docx με το Aspose.Words για Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Μάθετε πώς να ανακτήσετε αρχεία docx που έχουν καταστραφεί ή χαθεί χρησιμοποιώντας το Aspose.Words για Python.
+### [Ενεργοποίηση λειτουργίας ανάκτησης για το άνοιγμα ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Μάθετε πώς να ανοίγετε κατεστραμμένα έγγραφα Word ενεργοποιώντας τη λειτουργία ανάκτησης.
+### [Πώς να ανακτήσετε κατεστραμμένα αρχεία docx με το Aspose.Words σε Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx χρησιμοποιώντας το Aspose.Words σε Python. Οδηγός βήμα προς βήμα με κώδικα.
+### [Aspose Font Warning Handler – Εντοπισμός Ελλειπουσών Γραμματοσειρών & Προσαρμογή Φόρτωσης Εγγράφου](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Μάθετε πώς να εντοπίζετε ελλείπουσες γραμματοσειρές και να προσαρμόζετε τη φόρτωση εγγράφων με το Aspose Font Warning Handler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

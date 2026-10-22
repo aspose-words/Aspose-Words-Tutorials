@@ -66,6 +66,23 @@ Aspose.Words for Python を使用して PDF に矩形を描画し、カスタム
 Python を使用して図形に影効果を適用する手順を詳しく解説します。
 ### [Python を使用して Word の図形に影を追加する方法](./how-to-add-shadow-to-a-word-shape-using-python/)
 Python-net を使って Word 文書の図形に影効果を適用する手順を解説します。
+### [Aspose.Words で PNG を保存し、図形に影を追加する方法](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words を使用して PNG 画像を保存し、Word 文書内の図形に影効果を適用する手順を解説します。
+
+### [Aspose.Words を使用した Python のカラムチャート作成方法](./how-to-create-column-chart-python-with-aspose-words/)
+Python でカラムチャートを作成し、Word 文書に統合する手順を解説します。
+### [Aspose.Words で Word の図形に影効果を適用する方法](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words を使用して、Word 文書内の図形に影効果を追加する手順を解説します。
+
+### [Python で Word 文書に矩形シェイプを作成する方法](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python を使って Word 文書に矩形シェイプを挿入し、位置やサイズを設定する手順を解説します。
+### [Python で図形に影を追加する方法 – 完全プログラミングガイド](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python を使用して図形に影効果を適用する手順を詳しく解説します。
+### [空白の Word 文書を作成し、図形に影を追加する – 完全 Python ガイド](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Python を使用して空白の Word 文書を作成し、図形に影効果を適用する手順を詳しく解説します。
+
+### [空白の Word 文書を作成し、図形に影を追加する – 完全チュートリアル](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Python を使用して空白の Word 文書を作成し、図形に影効果を適用する手順を詳しく解説します。
 
 ## 追加リソース
 

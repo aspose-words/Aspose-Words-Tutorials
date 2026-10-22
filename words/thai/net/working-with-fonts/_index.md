@@ -48,7 +48,6 @@
 - [วิธีตรวจจับแบบอักษรในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | เรียนรู้วิธีตรวจจับแบบอักษรที่ใช้ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด -
 | [รับการแจ้งเตือนแบบอักษร](./receive-notifications-of-fonts/) | เรียนรู้วิธีรับการแจ้งเตือนแบบอักษรที่ขาดหายหรือถูกแทนที่เมื่อใช้ Aspose.Words สำหรับ .NET -
 | [จัดการการแจ้งเตือนแบบอักษรใน Aspose.Words – ตรวจหาแบบอักษรที่หายไป](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | เรียนรู้วิธีจัดการการแจ้งเตือนแบบอักษรที่หายไปใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน -
-| [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 | [จับการแจ้งเตือนฟอนต์ใน C# – คู่มือเต็ม](./capture-font-warnings-in-c-complete-guide/) | เรียนรู้วิธีจับการแจ้งเตือนฟอนต์ที่หายหรือถูกแทนที่ใน Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด -
 - [เปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words – คู่มือฉบับสมบูรณ์](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | เรียนรู้วิธีเปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words สำหรับ .NET เพื่อให้คุณทราบเมื่อแบบอักษรถูกแทนที่ -
 - [จัดการการทดแทนแบบอักษรใน Aspose.Words – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./handle-font-substitution-in-aspose-words-complete-programmin/) | เรียนรู้วิธีจัดการการทดแทนแบบอักษรอย่างละเอียดใน Aspose.Words สำหรับ .NET ด้วยคู่มือการเขียนโปรแกรมฉบับสมบูรณ์ -
@@ -69,9 +68,11 @@
 | [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words |
 | [สร้างการเรียกกลับคำเตือนสำหรับการโหลดเอกสาร Word – คู่มือฉบับสมบูรณ์](./create-warning-callback-for-loading-word-documents-complete/) | เรียนรู้วิธีสร้าง callback คำเตือนเมื่อโหลดเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีจับการแจ้งเตือนใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจับการแจ้งเตือนใน Aspose.Words ด้วย C# อย่างครบถ้วนในบทช่วยสอนนี้ |
+| [วิธีใช้ IWarningCallback – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | เรียนรู้วิธีใช้ IWarningCallback เพื่อตรวจจับแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
+| [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
+| [วิธีทำการทดแทนแบบอักษรในเอกสารด้วย C#](./how-to-perform-font-substitution-in-document-with-c/) | เรียนรู้วิธีทำการทดแทนแบบอักษรในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วย C# -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 

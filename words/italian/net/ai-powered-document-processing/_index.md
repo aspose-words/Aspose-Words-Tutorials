@@ -81,11 +81,27 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Riassumere documento Word in C# – guida passo‑passo con IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Scopri come riassumere documenti Word in C# usando l'intelligenza artificiale, con istruzioni dettagliate passo‑passo. |
 | [Come tradurre DOCX in francese e automatizzare la traduzione dei documenti](./how-to-translate-docx-to-french-and-automate-document-transl/) | Scopri come tradurre automaticamente file DOCX in francese usando Aspose.Words per .NET. |
 | [Come chiamare CheckGrammar in C# – Guida completa](./how-to-call-checkgrammar-in-c-complete-guide/) | Scopri come utilizzare il metodo CheckGrammar in C# con Aspose.Words per .NET per migliorare la correzione grammaticale dei documenti. |
+| [Tutorial LLM locale – Come chiamare un LLM locale ed eseguire il controllo grammaticale](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Scopri come integrare un modello LLM locale in Aspose.Words per .NET e utilizzare il controllo grammaticale. |
+| [Creare un report di riepilogo in C# – Guida completa passo‑passo](./create-summary-report-in-c-complete-step-by-step-guide/) | Scopri come generare un report di riepilogo in C# con Aspose.Words, seguendo una guida dettagliata passo‑passo. |
+| [Creare modello AI personalizzato – Guida completa al controllo grammaticale in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Scopri come creare un modello AI personalizzato per il controllo grammaticale in C# con Aspose.Words per .NET. |
+| [Come riscrivere un paragrafo con un LLM locale in C# – Guida completa](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Scopri come utilizzare un modello linguistico locale in C# per riscrivere paragrafi con Aspose.Words, passo dopo passo. |
+| [Come utilizzare un riassuntore di documenti AI in C#](./how-to-use-an-ai-document-summarizer-in-c/) | Scopri come riassumere documenti con intelligenza artificiale in C# usando Aspose.Words, con esempi passo‑passo. |
+| [Come tradurre docx in francese usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Scopri come tradurre file DOCX in francese con l'AI di Aspose.Words in pochi passaggi. |
+| [Come tradurre docx in francese con Aspose.Words AI in C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Scopri come tradurre file DOCX in francese usando l'AI di Aspose.Words con C#. |
+| [Come riassumere file docx con Aspose.Words AI in C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Scopri come utilizzare Aspose.Words AI in C# per riassumere rapidamente file DOCX con una guida passo‑passo. |
+| [Come riassumere un documento Word con provider AI in C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Scopri come riassumere documenti Word in C# utilizzando diversi provider di intelligenza artificiale. |
+| [Come riassumere un documento Word con Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Scopri come riassumere documenti Word usando l'IA di Aspose.Words con una guida passo‑passo in C#. |
+| [Come utilizzare il traduttore per automatizzare la traduzione dei documenti in C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Scopri come automatizzare la traduzione dei documenti con Aspose.Words per .NET usando il traduttore in C#. |
+| [Aggiungere riepilogo a documento Word con Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Scopri come aggiungere un riepilogo a un documento Word usando l'AI di Aspose.Words per .NET. |
+| [Riassumere documento Word in C# – guida completa Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Guida completa per riassumere documenti Word in C# usando l'intelligenza artificiale di Aspose.Words. |
+| [Tradurre docx in francese con Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Guida per tradurre documenti DOCX in francese usando l'intelligenza artificiale di Aspose.Words. |
 | [Creare un documento Word vuoto e tradurlo in francese](./create-a-blank-word-document-and-translate-it-to-french/) | Scopri come generare un documento Word vuoto e tradurlo automaticamente in francese usando Aspose.Words per .NET. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 | [Creare un riepilogo del documento con Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Crea un riepilogo efficace dei documenti usando Aspose.Words per .NET e i modelli OpenAI. |
 | [Tradurre docx in francese con Aspose.Words e Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Scopri come tradurre documenti DOCX in francese usando Aspose.Words per .NET e l'API di Google. |
+| [Riassumere documento Word con sintesi AI](./summarize-word-document-with-ai-document-summarization/) | Scopri come riassumere documenti Word usando l'intelligenza artificiale con Aspose.Words per .NET. |
+| [Come tradurre docx in francese con IA in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Scopri come tradurre file DOCX in francese usando l'intelligenza artificiale con Aspose.Words per .NET e C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

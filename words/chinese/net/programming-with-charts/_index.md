@@ -47,18 +47,25 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 {{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="使用 Aspose.Words for .NET 在 C# 中保存带有爆炸饼图切片的修改文档" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="使用 C# 和自定义数字格式在 Word 中格式化图表" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="使用 C# 在 Word 图表中设置直方图箱数并添加数据标签" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./single-chart-series/" title="使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列" imgSrc="./single-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="使用 C# 在 Word 文档中以编程方式调整图表标签" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|
 | [使用形状创建和自定义图表](./create-chart-using-shape/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建和自定义图表，本指南循序渐进，助您轻松实现数据可视化。|
 | [在Word文档中插入简单柱形图](./insert-simple-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 中插入简单柱形图。使用动态可视化数据演示增强您的文档。|
-| [在Word文档中插入柱形图](./insert-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中插入柱形图。增强报告和演示文稿中的数据可视化。|
+| [在Word文档中插入柱形图](./insert-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中插入柱形图。增强报告和演示稿中的数据可视化。|
 | [将面积图插入Word文档](./insert-area-chart/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 将面积图插入 Word 文档。|
 | [在 Word 文档中插入气泡图](./insert-bubble-chart/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中插入气泡图，并遵循本分步指南。增强您的文档。|
 | [在 Word 文档中插入散点图](./insert-scatter-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 中插入散点图。将可视化数据表示集成到文档中的简单步骤。|
+| [使用 Aspose.Words 在 Word 文档中创建饼图](./create-pie-chart-word-document-with-aspose-words/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建饼图，分步指南帮助您快速实现数据可视化。|
 | [在图表中定义 XY 轴属性](./define-xyaxis-properties/) 本分步指南将指导您如何使用 Aspose.Words for .NET 定义图表中的 XY 轴属性。非常适合 .NET 开发人员。|
 | [将日期时间值添加到图表的轴上](./date-time-values-to-axis/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 将日期和时间值添加到图表的轴。|
 | [图表中坐标轴的数字格式](./number-format-for-axis/) 学习如何使用 Aspose.Words for .NET 格式化图表轴数字，轻松提升文档的可读性和专业性。|
@@ -77,6 +84,12 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [使用 Aspose.Words C# 在图表中显示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) 学习如何使用 Aspose.Words for .NET C# 在图表中显示百分比，轻松实现数据可视化。|
 | [如何在 C# 中向 Word 图表添加数据标签 – 分步指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) 学习使用 Aspose.Words for .NET 在 Word 图表中添加数据标签的完整步骤，提升文档可视化效果。|
 | [在 C# 中创建 Word 饼图 – 分步指南](./create-pie-chart-word-in-c-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中通过 C# 创建饼图，提供详细的分步指南。|
+| [如何在 Word 文档中使用 Aspose.Words 创建饼图](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) 学习使用 Aspose.Words for .NET 在 Word 文档中创建饼图的步骤，轻松实现数据可视化。|
+| [如何在 Word 折线图中使用 C# 格式化系列](./how-to-format-series-in-a-word-line-chart-with-c/) 学习如何使用 Aspose.Words for .NET 在 Word 折线图中格式化数据系列。|
+| [如何在 Word 中使用 Aspose.Words 创建直方图](./how-to-create-histogram-in-word-with-aspose-words/) 学习使用 Aspose.Words for .NET 在 Word 文档中创建直方图的步骤，轻松实现数据可视化。|
+| [如何使用 C# 在 Word 文档中创建柱形图并格式化标签](./how-to-create-word-document-c-with-a-column-chart-and-format/) 学习使用 Aspose.Words for .NET 在 Word 文档中插入柱形图并自定义标签格式的步骤。|
+| [如何使用 C# 创建带自定义饼图的 Word 文档](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) 学习如何在 Aspose.Words for .NET 中使用 C# 创建并自定义饼图，提升文档的可视化效果。|
+| [在 Word 文档中创建雷达图 – 完整 C# 指南](./create-radar-chart-in-a-word-document-complete-c-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建雷达图，完整的 C# 示例指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

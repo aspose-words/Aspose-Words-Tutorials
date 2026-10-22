@@ -21,12 +21,14 @@ Split Document je komplexní zdroj, který vysvětluje, jak rozdělit dokument n
 | Název | Popis |
 | --- | --- |
 | [Rozdělit dokument Wordu podle nadpisů v HTML](./by-headings-html/) | Naučte se, jak rozdělit dokument Wordu podle nadpisů do HTML pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem. |
+| [Jak rozdělit dokument Word do sekcí podle nadpisu v C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Naučte se, jak v C# pomocí Aspose.Words rozdělit dokument Word na sekce podle nadpisů. |
 | [Rozdělit dokument Word podle sekcí HTML](./by-sections-html/) Naučte se, jak rozdělit dokument Wordu po sekcích do HTML pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Rozdělit dokument Wordu podle sekcí](./by-sections/) | Naučte se, jak rozdělit dokument Wordu na sekce pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu krok za krokem pro efektivní správu dokumentů. |
 | [Rozdělit dokument Wordu podle stránek](./page-by-page/) | Naučte se, jak rozdělit dokument Wordu po stránkách pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. Ideální pro efektivní správu velkých dokumentů. |
 | [Sloučit dokumenty](./merge-documents/) | Podrobný návod k vysvětlení zdrojového kódu C# funkce Merge Documents v Aspose.Words pro .NET |
 | [Rozdělit dokument Wordu podle rozsahu stránek](./by-page-range/) | Naučte se, jak rozdělit dokument Wordu podle rozsahu stránek pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře. |
 | [Vytvořit PDF ze stránek – Průvodce extrahováním konkrétních stránek](./create-pdf-from-pages-extract-specific-pages-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit PDF soubor extrahováním vybraných stránek z dokumentu. |
+| [Rozdělit dokument Word do samostatných souborů pomocí C#](./how-to-split-word-document-into-separate-files-with-c/) | Naučte se, jak rozdělit dokument Word na samostatné soubory pomocí C# a Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
