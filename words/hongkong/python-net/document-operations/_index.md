@@ -87,6 +87,8 @@ Aspose.Words Python-net 程式碼教學
 了解如何使用 Aspose.Words 復原受損的 Word 文件並將其儲存為新檔案。
 ### [使用 Aspose.Words 復原損壞的 DOCX – 步驟指南](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
 了解如何使用 Aspose.Words for Python‑net 逐步復原受損的 DOCX 檔案。
+### [如何使用 Aspose.Words for Python 復原 DOCX 檔案 – 步驟說明指南](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+了解如何透過 Aspose.Words for Python 逐步復原受損的 DOCX 檔案，提高文件恢復效率。
 
 ### [如何使用 Aspose.Words for Python 復原損壞的 DOCX 檔案](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
 了解如何使用 Aspose.Words for Python 復原受損的 DOCX 檔案。

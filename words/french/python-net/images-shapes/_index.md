@@ -76,6 +76,8 @@ Apprenez à enregistrer une image PNG et à ajouter une ombre à une forme dans 
 Apprenez à générer un diagramme à colonnes dans un document Word en utilisant Aspose.Words pour Python-net.
 ### [Comment appliquer un effet d'ombre à une forme Word avec Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Apprenez à ajouter un effet d'ombre aux formes Word avec Aspose.Words.
+### [Comment définir une ombre sur une forme dans Aspose.Words pour Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Apprenez à appliquer une ombre à une forme dans vos documents Word avec Aspose.Words pour Python.
 
 ### [Comment créer une forme rectangle dans un document Word à l'aide de Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Apprenez à insérer et configurer une forme rectangle dans un document Word avec Aspose.Words et Python.

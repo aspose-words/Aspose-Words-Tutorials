@@ -76,6 +76,8 @@ Aprenda a gerar gráficos de colunas em documentos Word usando Aspose.Words para
 Aprenda a salvar imagens PNG e aplicar sombra a formas em documentos Word usando Aspose.Words para Python-net.
 ### [Como aplicar efeito de sombra a uma forma Word com Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Aprenda a aplicar efeito de sombra a formas em documentos Word usando Aspose.Words.
+### [Como definir sombra em uma forma no Aspose.Words para Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Aprenda a aplicar sombra a uma forma em documentos Word usando Aspose.Words para Python.
 
 ### [Como criar forma de retângulo em um documento Word usando Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Aprenda a inserir e configurar uma forma de retângulo em documentos Word usando Aspose.Words para Python.

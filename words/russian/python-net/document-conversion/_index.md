@@ -201,6 +201,14 @@
 Узнайте, как с помощью Aspose.Words для Python генерировать PDF, соответствующие требованиям доступности, шаг за шагом.
 ### [Создание PDF из документа Word в Python — пошаговое руководство](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Words для Python преобразовать документ Word в PDF шаг за шагом.
+### [Как сохранить docx как txt LaTeX‑математику с помощью Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Узнайте, как сохранять документы DOCX в текстовый формат с поддержкой LaTeX‑математики, используя Aspose.Words для Python.
+### [Как сохранить Word как PDF с помощью Aspose.Words в Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Узнайте, как сохранять документы Word в формате PDF с помощью Aspose.Words для Python.
+### [Как конвертировать docx в pdf с доступностью в Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Узнайте, как с помощью Aspose.Words для Python конвертировать документы DOCX в PDF с поддержкой доступности.
+### [Как конвертировать docx в txt в Python с Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы DOCX в текстовый формат TXT.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

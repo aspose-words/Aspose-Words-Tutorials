@@ -203,6 +203,12 @@ Tanulja meg, hogyan exportálhatja a Word matematikai képleteket LaTeX formátu
 Ismerje meg, hogyan hozhat létre akadálymentes PDF‑eket Python segítségével, részletes példákkal és legjobb gyakorlatokkal.
 ### [PDF létrehozása Word dokumentumból Python‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF‑et Word dokumentumokból Python segítségével, részletes lépésekkel és példakóddal.
+### [Hogyan mentse a docx fájlt txt LaTeX matematikaként az Aspose.Words segítségével](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Tanulja meg, hogyan menthet docx fájlokat txt formátumba LaTeX matematikával az Aspose.Words használatával.
+### [Hogyan mentse a Word dokumentumot PDF-be az Aspose.Words segítségével Pythonban](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+### [Hogyan konvertálja a docx fájlt PDF-be hozzáférhetőséggel Pythonban](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+### [Hogyan konvertálja a docx fájlt txt formátumba Pythonban az Aspose.Words segítségével](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Tanulja meg, hogyan konvertálhatja a docx fájlokat egyszerűen txt formátumba Python és Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

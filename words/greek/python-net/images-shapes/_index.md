@@ -74,6 +74,8 @@
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε γράφημα στήλης σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να εφαρμόσετε εφέ σκιά σε σχήμα Word με Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Μάθετε πώς να προσθέσετε εφέ σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για Python-net.
+### [Πώς να ορίσετε σκιά σε σχήμα στο Aspose.Words για Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας το Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
 
 ### [Πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Python‑net, βήμα‑βήμα.

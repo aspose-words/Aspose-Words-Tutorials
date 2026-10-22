@@ -287,6 +287,17 @@
 
 ### [使用 Python 從 Word 文件建立 PDF – 完整步驟指南](./create-pdf-from-word-document-in-python-step-by-step-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為 PDF 的完整步驟，快速生成高品質 PDF 文件。
+### [如何將 docx 儲存為 txt LaTeX 數學格式 – 完整指南](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+學習使用 Aspose.Words 將 docx 轉存為 txt，並保留 LaTeX 數學公式的完整步驟。
+
+### [如何使用 Aspose.Words 在 Python 中將 Word 儲存為 PDF](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 PDF 的完整步驟。
+
+### [如何在 Python 中將 docx 轉換為具可存取性的 PDF](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+學習使用 Aspose.Words for Python 將 docx 轉換為符合可存取性標準的 PDF，確保文件對所有使用者友好。
+
+### [如何在 Python 中將 docx 轉換為 txt – 完整指南](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+學習使用 Aspose.Words for Python 將 docx 文件轉換為 txt 的完整步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
