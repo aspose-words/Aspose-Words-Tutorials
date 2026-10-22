@@ -123,6 +123,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstelle
 Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX-Dateien erstellen, die ActiveX-Steuerelemente enthalten.
 ### [Ein leeres Word-Dokument erstellen und eine ActiveX-Schaltfläche hinzufügen (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erzeugen und eine ActiveX-Schaltfläche einfügen.
+### [Schaltfläche zu Word-Dokument hinzufügen – Schritt-für-Schritt-Anleitung](./how-to-add-button-to-word-document-step-by-step-guide/)
+Erfahren Sie, wie Sie in Aspose.Words für Java eine Schaltfläche in ein Word-Dokument einfügen und konfigurieren.
+### [Kreisdiagramm in Word einfügen – Prozentuale Datenbeschriftungen hinzufügen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Erfahren Sie, wie Sie ein Kreisdiagramm in Word einfügen und Prozentwerte als Datenbeschriftungen anzeigen lassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

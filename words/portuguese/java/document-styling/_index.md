@@ -55,6 +55,8 @@ Aprenda a definir fontes padrão programaticamente no Aspose.Words para Java. Gu
 Aprenda a aplicar sombra a gráficos do Word usando Aspose.Words para Java com exemplos de código.
 ### [Como explodir fatia em um gráfico do Word e personalizar sua aparência](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Aprenda a explodir fatias de gráficos no Word e personalizar sua aparência usando Aspose.Words para Java.
+### [Alterar espaçamento de notas de rodapé em DOCX – Guia completo](./change-footnote-spacing-in-docx-complete-guide/)
+Aprenda a modificar o espaçamento de notas de rodapé em documentos DOCX usando Aspose.Words para Java. Guia completo com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

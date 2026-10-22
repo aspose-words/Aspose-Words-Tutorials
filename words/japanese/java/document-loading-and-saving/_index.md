@@ -164,6 +164,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words を使用した C# でディレクトリからファイルを読み込む方法](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Aspose.Words for Java で破損した DOCX を復元 – 完全ガイド](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+### [Java で Markdown をロードする方法 – 完全ガイド](./how-to-load-markdown-in-java-complete-guide/)
 
 ## よくある質問
 

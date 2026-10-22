@@ -214,6 +214,8 @@ Apprenez à charger et gérer le soulignement Markdown dans des applications Jav
 ### [Tutoriel de substitution de polices Aspose – Gérer les polices manquantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Apprenez à capturer et gérer les avertissements de substitution de polices lors du chargement de documents Word avec des polices manquantes grâce à Aspose.Words for Java.
 ### [Comment charger un fichier depuis un répertoire avec Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+### [Comment charger le Markdown en Java – Guide complet](./how-to-load-markdown-in-java-complete-guide/)
+Apprenez à charger des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
 
 ## Foire aux questions
 

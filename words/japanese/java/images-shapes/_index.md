@@ -127,6 +127,14 @@ Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表�
 Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
 ### [Javaでシェイプに影を追加 – 完全プログラミングガイド](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Javaでシェイプに影効果を追加し、ドキュメントの視覚的魅力を高める方法を学びます。
+### [空白のWord文書を作成し、グループ化されたシェイプを追加する – Java ガイド](./create-blank-word-document-with-grouped-shape-java-guide/)
+Javaで空白のWord文書を作成し、グループ化されたシェイプを追加する方法を学びます。
+
+### [JavaでWord文書を作成 – Aspose.Wordsで画像を挿入し非表示にする](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java を使用して、画像を文書に挿入し、必要に応じて非表示にする方法を学びます。
+
+### [Javaで円グラフを挿入 – スライスを分割、回転、ハイライト](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java を使用して、円グラフを文書に挿入し、スライスの分離、回転、ハイライト設定を行う方法を学びます。
 
 ## 追加リソース
 

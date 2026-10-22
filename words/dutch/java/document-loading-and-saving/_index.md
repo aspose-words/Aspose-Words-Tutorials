@@ -114,6 +114,8 @@ Leer hoe je docx-bestanden kunt herstellen door herstelmodus in te schakelen en 
 Leer hoe je waarschuwingen voor lettertype‑substitutie kunt vastleggen en ontbrekende lettertypen detecteert met Aspose.Words for Java.
 ### [Bestand uit map laden met Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Leer hoe je een bestand uit een map laadt met Aspose.Words in C#.
+### [Hoe Markdown in Java te laden – Complete gids](./how-to-load-markdown-in-java-complete-guide/)
+Leer hoe je Markdown-bestanden kunt laden in Java met Aspose.Words, inclusief code‑voorbeelden en geavanceerde opties.
 
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.

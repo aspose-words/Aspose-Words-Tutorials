@@ -128,6 +128,14 @@
 تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
 ### [إضافة ظل إلى الشكل في جافا – دليل برمجة كامل](./add-shadow-to-shape-in-java-complete-programming-guide/)
 دليل شامل يوضح كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا
+### [إنشاء مستند Word فارغ مع شكل مجموعة – دليل Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل مجموعة باستخدام Aspose.Words for Java
+
+### [إنشاء مستند Word في Java – إدراج وإخفاء الصور باستخدام Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+تعلم كيفية إدراج الصور في مستند Word وإخفائها باستخدام Aspose.Words for Java
+
+### [إدراج مخطط دائري في Java – تفجير، تدوير وتحديد الشرائح](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+تعلم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words for Java مع تفجير وتدوير وتظليل الشرائح.
 
 ## موارد إضافية
 

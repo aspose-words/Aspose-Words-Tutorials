@@ -121,6 +121,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Words สำหรับ Java
 ### [วิธีสร้างเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 เรียนรู้วิธีสร้างไฟล์ Word อย่างอัตโนมัติด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ใหม่ – คู่มือขั้นตอนการเพิ่มแท็กโครงสร้าง](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+เรียนรู้วิธีสร้างเอกสาร Word ใหม่และเพิ่มแท็กโครงสร้างอย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

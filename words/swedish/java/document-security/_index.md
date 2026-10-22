@@ -53,6 +53,8 @@ Steg‑för‑steg‑guide för att signera Word‑dokument i C# med ett X509‑
 Lär dig steg-för-steg hur du signerar Word-dokument digitalt med Aspose.Words.
 ### [Hur du digitalt signerar Word-dokument med Java](./how-to-digitally-sign-word-document-using-java/)
 Lär dig hur du implementerar digitala signaturer i Word-dokument med Aspose.Words för Java. Säkerställ äkthet och integritet.
+### [Digital signatur PFX-fil i Java – Komplett guide](./digital-signature-pfx-file-in-java-complete-guide/)
+Lär dig hur du använder en PFX-fil för digital signering av dokument i Java med Aspose.Words. Komplett steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

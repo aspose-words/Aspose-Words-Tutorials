@@ -123,6 +123,8 @@ Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kommandoknapp med Aspose.Words för Java.
 ### [Skapa Word-dokument programatiskt med Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Lär dig skapa ett Word-dokument programatiskt med Aspose.Words i Java.
+### [Skapa nytt Word-dokument – Steg‑för‑steg‑guide för att lägga till en strukturerad tagg](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad tagg med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

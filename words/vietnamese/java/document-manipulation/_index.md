@@ -78,6 +78,8 @@ Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words c
 Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
 ### [Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java](./using-structured-document-tags/)
 Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh.
+### [Tạo tài liệu Word mới – Hướng dẫn từng bước để thêm Thẻ có cấu trúc](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn Thẻ có cấu trúc bằng Aspose.Words for Java.
 ### [Sử dụng Styles và Themes trong Aspose.Words cho Java](./using-styles-and-themes/)
 Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn.
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)

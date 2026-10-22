@@ -55,6 +55,8 @@ Aspose.Words for Java มอบเครื่องมืออันทรง�
 เรียนรู้วิธีตั้งค่าฟอนต์เริ่มต้นสำหรับเอกสารด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
 ### [การตั้งเงาบนแผนภูมิ Word ด้วย Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 เรียนรู้วิธีเพิ่มเงาให้กับแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ด
+### [เปลี่ยนระยะห่างของเชิงอรรถใน DOCX – คู่มือฉบับสมบูรณ์](./change-footnote-spacing-in-docx-complete-guide/)
+เรียนรู้วิธีปรับระยะห่างของเชิงอรรถในไฟล์ DOCX ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดเต็มรูปแบบ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

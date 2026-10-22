@@ -121,6 +121,10 @@ Dowiedz się, jak w C# stworzyć pusty dokument Word i wstawić wykres radarowy 
 Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk przy użyciu Aspose.Words for Java.
 ### [Utwórz pusty dokument Word i dodaj przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać przycisk ActiveX krok po kroku.
+### [Jak wstawić wykres kołowy w Word – dodać procent w etykiecie danych](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Dowiedz się, jak wstawić wykres kołowy w dokumencie Word i dodać etykiety danych wyświetlające procenty.
+### [Jak dodać przycisk do dokumentu Word – przewodnik krok po kroku](./how-to-add-button-to-word-document-step-by-step-guide/)
+Dowiedz się, jak wstawić przycisk do dokumentu Word przy użyciu Aspose.Words for Java, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

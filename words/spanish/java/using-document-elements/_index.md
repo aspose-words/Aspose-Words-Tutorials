@@ -120,6 +120,10 @@ Aprenda a crear documentos Word mediante código Java y añadir botones interact
 Aprenda a crear un documento Word vacío y añadir un gráfico de radar en C# con Aspose.Words.
 ### [Cómo insertar un gráfico circular en un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Aprenda a agregar un gráfico circular a un documento Word con Aspose.Words para Java paso a paso.
+### [Cómo agregar un botón a un documento de Word – Guía paso a paso](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aprenda a insertar un botón interactivo en un documento Word con Aspose.Words para Java paso a paso.
+### [Cómo insertar un gráfico circular en Word – añadir porcentaje de etiqueta de datos](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Aprenda a insertar un gráfico circular en Word y añadir etiquetas de datos con porcentaje usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,8 @@ Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcion
 
 ### [Ładowanie podkreśleń Markdown w Javie – kompletny przewodnik programistyczny](./load-markdown-underline-in-java-complete-programming-guide/)
 Dowiedz się, jak wczytywać i obsługiwać podkreślenia w plikach Markdown przy użyciu Aspose.Words for Java.
+### [Jak ładować Markdown w Javie – Kompletny przewodnik](./how-to-load-markdown-in-java-complete-guide/)
+Dowiedz się, jak załadować pliki Markdown w Javie przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)

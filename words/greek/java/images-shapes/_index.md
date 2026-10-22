@@ -128,6 +128,14 @@
 
 ### [Προσθήκη σκιάς σε σχήμα σε Java – Πλήρης Οδηγός Προγραμματισμού](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένο σχήμα – Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένο σχήμα χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Δημιουργία εγγράφου Word Java – Εισαγωγή και απόκρυψη εικόνων με Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Μάθετε πώς να εισάγετε εικόνες σε έγγραφο Word και να τις κρύψετε χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Εισαγωγή διαγράμματος πίτας σε Java – Έκρηξη, Περιστροφή & Επισήμανση Τμημάτων](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε ένα διάγραμμα πίτας, με εκρήξεις, περιστροφή και επισήμανση τμημάτων, χρησιμοποιώντας Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

@@ -54,6 +54,8 @@
 تعلّم كيفية تفجير شريحة في مخطط Word وتعديل مظهرها باستخدام Aspose.Words لجافا.
 ### [كيفية تنسيق الحواشي في Java باستخدام Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 تعلّم كيفية تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا مع أمثلة عملية.
+### [تغيير تباعد الحواشي السفلية في DOCX – دليل كامل](./change-footnote-spacing-in-docx-complete-guide/)
+تعلّم كيفية تعديل تباعد الحواشي السفلية في مستندات DOCX باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

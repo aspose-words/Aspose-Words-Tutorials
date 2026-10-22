@@ -121,6 +121,8 @@ Learn how to recover a corrupted DOCX file and save the recovered document using
 Learn how to enable recovery mode in Aspose.Words for Java to repair corrupted DOCX files and extract content safely.
 ### [Recover broken word document – Complete Java Guide](./recover-broken-word-document-complete-java-guide/)
 Learn how to repair corrupted Word files using Aspose.Words for Java with step‑by‑step guidance and code samples.
+### [How to Load Markdown in Java – Complete Guide](./how-to-load-markdown-in-java-complete-guide/)
+Learn how to load Markdown files in Java using Aspose.Words for Java. Step‑by‑step guide with code examples.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Warning callback tutorial – Load Word Document in Java]({{< relref "warning-callback-tutorial-load-word-document-in-java/_index.md" >}})

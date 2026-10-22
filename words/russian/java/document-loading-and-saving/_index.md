@@ -102,6 +102,8 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 
 ### [Учебник по обработке предупреждений – загрузка документа Word в Java](./warning-callback-tutorial-load-word-document-in-java/)
 Узнайте, как использовать callback‑функцию предупреждений при загрузке Word‑документов в Java с Aspose.Words.
+### [Как загрузить Markdown в Java – Полное руководство](./how-to-load-markdown-in-java-complete-guide/)
+Узнайте, как загружать файлы Markdown в Java с помощью Aspose.Words for Java. Пошаговое руководство с примерами кода.
 
 ### [Продвинутые параметры сохранения с Aspose.Words for Java](./advance-saving-options/)
 Изучите продвинутые возможности манипуляции документами с Aspose.Words for Java. Шифрование, работа с метафайлами и многое другое. Ваши Word‑документы — ваш способ.

@@ -127,6 +127,14 @@ Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
 Leer hoe u meerdere vormen in een Word‑document groepeert met Aspose.Words voor Java.
 ### [Schaduw toevoegen aan vorm in Java – Complete programmeergids](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Leer hoe u een vorm in een Word-document in Java een schaduweffect geeft met een stapsgewijze programmeergids.
+### [Leeg Word-document maken met gegroepeerde vorm – Java-gids](./create-blank-word-document-with-grouped-shape-java-guide/)
+Leer hoe u een leeg Word-document maakt en een gegroepeerde vorm toevoegt met Aspose.Words voor Java.
+
+### [Word-document maken in Java – Afbeeldingen invoegen en verbergen met Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt met Aspose.Words voor Java.
+
+### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

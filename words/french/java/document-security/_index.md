@@ -53,6 +53,8 @@ Apprenez à signer numériquement des fichiers DOCX en C# avec Aspose.Words, gr�
 Apprenez à signer un document Word en C# à l'aide d'un certificat X509 avec Aspose.Words. Guide pas à pas avec code source.
 ### [Comment ajouter une signature numérique à un document Word avec Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Apprenez à ajouter une signature numérique à un document Word en utilisant Aspose.Words pour Java, avec exemples de code détaillés.
+### [Fichier PFX de signature numérique en Java – Guide complet](./digital-signature-pfx-file-in-java-complete-guide/)
+Apprenez à créer et utiliser des fichiers PFX pour les signatures numériques avec Aspose.Words pour Java. Guide complet avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

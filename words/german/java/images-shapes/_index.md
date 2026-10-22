@@ -125,6 +125,14 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Bild in ein DOCX einfügen 
 Erfahren Sie, wie Sie mit Aspose.Words für Java mehrere Formen zu einer Gruppe zusammenfassen und deren Eigenschaften gemeinsam verwalten.
 ### [Schatten zu Form in Java hinzufügen – Vollständiger Programmierleitfaden](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Ein umfassendes Beispiel, das zeigt, wie Sie in Aspose.Words für Java Schatten zu Formen hinzufügen und anpassen.
+### [Leeres Word-Dokument mit gruppierter Form – Java-Anleitung](./create-blank-word-document-with-grouped-shape-java-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein leeres Dokument erstellt und eine gruppierte Form hinzufügt.
+
+### [Word-Dokument in Java erstellen – Bilder einfügen und ausblenden mit Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Ein Codebeispiel, das zeigt, wie man Bilder in ein Word-Dokument einfügt und sie bei Bedarf ausblendet.
+
+### [Kuchendiagramm in Java einfügen – Segmente aufteilen, drehen und hervorheben](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kuchendiagramm einfügen und einzelne Segmente hervorheben, drehen und explodieren.
 
 ## Weitere Ressourcen
 

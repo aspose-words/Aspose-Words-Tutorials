@@ -119,6 +119,10 @@ Apprenez à insérer un graphique en secteurs dans un document Word en utilisant
 Apprenez à créer un document docx contenant des contrôles ActiveX avec Java et Aspose.Words.
 ### [Créer un document Word vierge et ajouter un bouton ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX avec Aspose.Words pour Java.
+### [Comment insérer un diagramme circulaire dans Word – ajouter le pourcentage d'étiquette de données](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Apprenez à insérer un graphique circulaire dans Word et à afficher les pourcentages sur les étiquettes de données.
+### [Comment ajouter un bouton à un document Word – Guide étape par étape](./how-to-add-button-to-word-document-step-by-step-guide/)
+Apprenez à insérer un bouton interactif dans un document Word avec Aspose.Words pour Java, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

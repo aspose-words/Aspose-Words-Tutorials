@@ -126,6 +126,14 @@ Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Wor
 Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
 ### [Árnyék hozzáadása alakzathoz Java‑ban – Teljes programozási útmutató](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Java-ban az Aspose.Words segítségével.
+### [Üres Word dokumentum létrehozása csoportosított alakzattal – Java útmutató](./create-blank-word-document-with-grouped-shape-java-guide/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzattal Java-ban az Aspose.Words segítségével.
+
+### [Word dokumentum létrehozása Java – Képek beszúrása és elrejtése az Aspose.Words segítségével](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Tanulja meg, hogyan szúrhat be és rejthet el képeket egy Word dokumentumban Java-ban az Aspose.Words használatával.
+
+### [Kördiagram beszúrása Java-ban – szeletek szétrobbanása, forgatása és kiemelése](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Tanulja meg, hogyan hozhat létre és testreszabhat kördiagramot Java-ban, beleértve a szeletek szétrobbanását, forgatását és kiemelését.
 
 ## További források
 

@@ -58,6 +58,8 @@ Java के लिए Aspose.Words का उपयोग करके Word च�
 ### [जावा में Aspose.Words का उपयोग करके फुटनोट को स्टाइल करना](./how-to-style-footnotes-in-java-using-aspose-words/)
 जावा के लिए Aspose.Words के साथ फुटनोट को कस्टमाइज़ करने की प्रक्रिया सीखें।
 
+### [DOCX में फुटनोट स्पेसिंग बदलें – पूर्ण गाइड](./change-footnote-spacing-in-docx-complete-guide/)
+DOCX फ़ाइल में फुटनोट की दूरी को समायोजित करने के लिए चरण-दर-चरण मार्गदर्शिका। Aspose.Words for Java के साथ कोड उदाहरण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -122,6 +122,10 @@ Learn how to insert a command button into a Word document using Aspose.Words for
 Learn how to programmatically create a Word document and insert a button using Aspose.Words for Java.
 ### [How to create a blank Word document and add a radar chart in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Learn how to generate a blank Word file and insert a radar chart programmatically with Aspose.Words for C#.
+### [How to Add Button to Word Document – Step‑by‑Step Guide](./how-to-add-button-to-word-document-step-by-step-guide/)
+Learn how to add a button to a Word document using Aspose.Words for Java. Follow this step‑by‑step guide for developers.
+### [how to insert pie chart in Word – add data label percent](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Learn how to insert a pie chart in Word and add data label percentages using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

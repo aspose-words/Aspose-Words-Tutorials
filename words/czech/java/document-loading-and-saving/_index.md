@@ -94,6 +94,8 @@ Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java.
 
 ### [Načtení podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
 Naučte se načíst podtržený text v markdownu pomocí Aspose.Words for Java a zpracovat jej v aplikaci.
+### [Jak načíst Markdown v Javě – Kompletní průvodce](./how-to-load-markdown-in-java-complete-guide/)
+Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Kompletní průvodce s ukázkami kódu a tipy pro konverzi.
 
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)

@@ -53,6 +53,8 @@ Hướng dẫn ký tài liệu Word bằng C# sử dụng chứng chỉ X509, b�
 Hướng dẫn chi tiết cách chèn chữ ký số vào tài liệu Word bằng Aspose.Words, bảo vệ tính toàn vẹn và xác thực.
 ### [Ký số tài liệu Word bằng Java](./how-to-digitally-sign-word-document-using-java/)
 Hướng dẫn chi tiết cách ký số tài liệu Word bằng Java với Aspose.Words, bao gồm mã nguồn và các bước thực hiện.
+### [Tệp PFX Chữ ký số trong Java – Hướng dẫn toàn diện](./digital-signature-pfx-file-in-java-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng tệp PFX để ký số tài liệu trong Java bằng Aspose.Words, bao gồm mã nguồn và các bước cấu hình.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

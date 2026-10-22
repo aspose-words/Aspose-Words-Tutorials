@@ -66,6 +66,8 @@ Pelajari cara membuat dokumen Word secara otomatis menggunakan Aspose.Words untu
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [Buat Dokumen Word Baru – Panduan Langkah-demi-Langkah Menambahkan Tag Terstruktur](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Pelajari cara membuat dokumen Word baru dan menambahkan Structured Tag dengan contoh kode lengkap.
 ### [Menggunakan Opsi Pembersihan di Aspose.Words untuk Java](./using-cleanup-options/)
 Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)

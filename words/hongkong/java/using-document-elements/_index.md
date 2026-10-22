@@ -82,7 +82,8 @@
 
 ### [在 Aspose.Words for Java 中使用節點](./using-nodes/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
-
+### [在 Aspose.Words for Java 中添加按鈕 – 步驟指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+了解如何在 Aspose.Words for Java 中向 Word 文檔添加互動式按鈕的完整步驟。
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
 ### [在 Word 中插入 ActiveX 按鈕 – 設定按鈕說明文字](./how-to-insert-activex-button-in-word-set-button-caption/)
@@ -132,6 +133,8 @@
 了解如何使用 Aspose.Words for Java 程式化建立 Word 文件，並在文件中加入可點擊的按鈕。
 ### [如何使用 Java 在 Word 文件中插入餅圖](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 本教學說明如何使用 Aspose.Words for Java 在 Word 文件中插入餅圖並設定其屬性。
+### [在 Word 中插入餅圖 – 添加資料標籤百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+了解如何在 Word 文檔中插入餅圖並顯示資料標籤的百分比。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

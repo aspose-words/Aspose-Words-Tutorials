@@ -117,6 +117,10 @@ Aspose.Words for Java kullanarak boş bir Word belgesi oluşturun ve içine düz
 ### [C# ile boş bir Word belgesi oluşturma ve radar grafiği ekleme](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Java ile Word belgesine pasta grafiği ekleme](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Java ve Aspose.Words kullanarak Word belgesine pasta grafiği eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Pasta Grafik Ekleme – Veri Etiketi Yüzdesi](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word belgesine pasta grafik ekleyin ve veri etiketlerine yüzde değerlerini otomatik olarak ekleyin.
+### [Java için Aspose.Words'de Düğme Ekleme – Adım Adım Kılavuz](./how-to-add-button-to-word-document-step-by-step-guide/)
+Word belgesine bir düğme eklemeyi ve özelleştirmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -121,6 +121,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 示範如何使用 Aspose.Words 程式化建立 Word 文件，提供完整程式碼範例與操作說明。
 ### [在 Aspose.Words for Java 中使用純文字內容控制建立 Word 文件](./create-word-document-with-a-plain-text-content-control/)
 示範如何使用 Aspose.Words for Java 建立包含純文字內容控制的 Word 文件。
+### [建立新 Word 文件 – 添加結構化標籤的逐步指南](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+使用 Aspose.Words for Java 建立新 Word 文件並逐步添加結構化標籤的完整教學。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

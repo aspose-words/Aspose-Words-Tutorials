@@ -127,6 +127,14 @@ Dowiedz się, jak utworzyć pusty dokument i dodać do niego kształty przy uży
 Dowiedz się, jak wstawić obraz do dokumentu docx i ukryć go w Wordzie przy użyciu Aspose.Words dla Java.
 ### [Dodaj cień do kształtu w Javie – Kompletny przewodnik programistyczny](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Utwórz pusty dokument Word z grupowanym kształtem – przewodnik Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowany kształt przy użyciu Aspose.Words dla Java.
+
+### [Utwórz dokument Word w Javie – Wstaw i ukryj obrazy](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając z Aspose.Words dla Java.
+
+### [Wstaw wykres kołowy w Javie – rozdziel, obróć i podświetl fragmenty](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

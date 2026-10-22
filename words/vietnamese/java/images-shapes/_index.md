@@ -128,6 +128,14 @@ Hướng dẫn chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Thêm bóng cho hình dạng trong Java – Hướng dẫn lập trình đầy đủ](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word trống với hình dạng nhóm – Hướng dẫn Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình dạng nhóm bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word bằng Java – Chèn và ẩn hình ảnh với Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Hướng dẫn cách chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần thiết bằng Aspose.Words cho Java.
+
+### [Chèn biểu đồ tròn trong Java – Tách, Xoay & Làm nổi bật các lát cắt](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Hướng dẫn cách chèn biểu đồ tròn, tách, xoay và làm nổi bật các lát cắt trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

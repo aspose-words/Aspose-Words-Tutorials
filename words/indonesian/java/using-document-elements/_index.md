@@ -116,6 +116,10 @@ Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan
 ### [Cara Membuat Tombol Perintah ActiveX di Java](./how-to-create-activex-command-button-in-java/)
 Pelajari cara membuat tombol perintah ActiveX di Aspose.Words untuk Java. Tambahkan kontrol interaktif ke dokumen Word Anda.
 ### [Buat dokumen Word kosong dan tambahkan tombol ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+### [Cara Menyisipkan Diagram Pai di Word – Tambahkan Persentase Label Data](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Pelajari cara menyisipkan diagram pai di Word dengan menambahkan label data persentase menggunakan Aspose.Words untuk Java.
+### [Cara Menambahkan Tombol ke Dokumen Word – Panduan Langkah demi Langkah](./how-to-add-button-to-word-document-step-by-step-guide/)
+Pelajari cara menambahkan tombol ke dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

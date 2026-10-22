@@ -118,6 +118,10 @@
 Узнайте, как программно создать документ Word и добавить в него кнопку с помощью Aspose.Words для Java.
 ### [Как вставить круговую диаграмму в документ Word с помощью Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words для Java.
+### [Как вставить круговую диаграмму в Word – добавить процент в подписи данных](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Узнайте, как добавить круговую диаграмму в документ Word и отобразить процентные подписи данных с помощью Aspose.Words для Java.
+### [Как добавить кнопку в документ Word – пошаговое руководство](./how-to-add-button-to-word-document-step-by-step-guide/)
+Узнайте, как добавить интерактивную кнопку в документ Word с помощью Aspose.Words для Java. Пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

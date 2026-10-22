@@ -51,6 +51,8 @@ Tanuld meg, hogyan hozhatsz létre Word dokumentumot programból, és szúrj be 
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 
+### [Kördiagram beszúrása Wordben – adatcímke százalék hozzáadása](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Tanuld meg, hogyan szúrj be kördiagramot a Word dokumentumba, és add hozzá az adatcímkék százalékos értékét.
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
@@ -119,6 +121,8 @@ Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítség
 ### [ActiveX parancsgomb létrehozása Java-ban](./how-to-create-activex-command-button-in-java/)
 Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az Aspose.Words segítségével.
 ### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+### [Gomb hozzáadása Word dokumentumhoz – Lépésről‑lépésre útmutató](./how-to-add-button-to-word-document-step-by-step-guide/)
+Tanuld meg, hogyan adhatsz hozzá gombot egy Word dokumentumhoz lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

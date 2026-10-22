@@ -127,6 +127,14 @@ Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 
 ### [Přidat stín k tvaru v Javě – Kompletní programovací průvodce](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Vytvořit prázdný Word dokument se seskupeným tvarem – Java průvodce](./create-blank-word-document-with-grouped-shape-java-guide/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat do něj seskupený tvar pomocí Aspose.Words pro Javu.
+
+### [Vytvořit Word dokument v Javě – Vkládat a skrývat obrázky pomocí Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Naučte se, jak vložit obrázky do dokumentu Word a následně je skrýt pomocí Aspose.Words pro Javu.
+
+### [Vložit koláčový graf v Javě – Rozdělit, otočit a zvýraznit výseče](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit koláčový graf, rozdělit výseče, otáčet je a zvýraznit vybrané části.
 
 ## Další zdroje
 

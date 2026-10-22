@@ -53,6 +53,8 @@ Panduan langkah demi langkah menandatangani dokumen Word dengan C# menggunakan s
 Pelajari cara menambahkan tanda tangan digital ke dokumen Word menggunakan Aspose.Words dengan contoh kode lengkap.
 ### [Cara Menandatangani Dokumen Word secara Digital menggunakan Java](./how-to-digitally-sign-word-document-using-java/)
 Panduan langkah demi langkah untuk menandatangani dokumen Word secara digital dengan Java menggunakan Aspose.Words.
+### [Panduan Lengkap File PFX untuk Tanda Tangan Digital di Java](./digital-signature-pfx-file-in-java-complete-guide/)
+Pelajari cara menggunakan file PFX untuk menandatangani dokumen secara digital di Java dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

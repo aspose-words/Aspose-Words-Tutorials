@@ -126,6 +126,14 @@ Aspose.Words Java 代码教程
 学习如何在 Word 文档中使用 Aspose.Words for Java 对多个形状进行分组，以实现更复杂的布局和设计。
 ### [在 Java 中为形状添加阴影 – 完整编程指南](./add-shadow-to-shape-in-java-complete-programming-guide/)
 详细介绍如何使用 Aspose.Words for Java 为文档中的形状添加阴影效果的完整步骤。
+### [使用 Aspose.Words for Java 创建空白 Word 文档并添加组合形状](./create-blank-word-document-with-grouped-shape-java-guide/)
+演示如何使用 Aspose.Words for Java 创建空白文档并在其中插入组合形状，实现复杂布局。
+
+### [使用 Aspose.Words for Java 创建 Word 文档 – 插入并隐藏图像](./create-word-document-java-insert-and-hide-images-with-aspose/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 插入图像并将其隐藏，以实现更灵活的文档布局。
+
+### [在 Java 中插入饼图 – 爆炸、旋转和突出显示切片](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+演示如何使用 Aspose.Words for Java 在文档中插入饼图并对切片进行爆炸、旋转和高亮显示。
 
 ## 其他资源
 

@@ -85,7 +85,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การกำหนดค่า RTF Load Options ใน Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
-
+### [วิธีโหลด Markdown ใน Java – คู่มือฉบับสมบูรณ์](./how-to-load-markdown-in-java-complete-guide/)
 ### [ตัวเลือกการบันทึกขั้นสูงด้วย Aspose.Words for Java](./advance-saving-options/)
 
 ### [การบันทึกเอกสาร HTML ด้วย Fixed Layout ใน Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)

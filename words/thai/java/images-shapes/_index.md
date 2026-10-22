@@ -124,6 +124,14 @@
 
 ### [เพิ่มเงาให้รูปทรงใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./add-shadow-to-shape-in-java-complete-programming-guide/)
 เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+### [สร้างเอกสาร Word ว่างพร้อมรูปร่างกลุ่ม – คู่มือ Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปร่างกลุ่มโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word ด้วย Java – แทรกและซ่อนรูปภาพด้วย Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word และซ่อนรูปภาพเหล่านั้นโดยใช้ Aspose.Words สำหรับ Java
+
+### [แทรกแผนภูมิวงกลมใน Java – แยกส่วน, หมุนและไฮไลท์สไลซ์](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java พร้อมการแยกส่วน, หมุนและไฮไลท์สไลซ์โดยใช้ Aspose.Words
 
 ## แหล่งข้อมูลเพิ่มเติม
 

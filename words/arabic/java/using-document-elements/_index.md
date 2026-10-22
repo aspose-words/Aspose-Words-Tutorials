@@ -114,6 +114,9 @@
 تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
 ### [كيفية إنشاء زر أمر ActiveX في جافا](./how-to-create-activex-command-button-in-java/)
 تعلم كيفية إنشاء زر أمر ActiveX في مستندات Aspose.Words باستخدام جافا.
+### [كيفية إدراج مخطط دائري في Word – إضافة نسبة تسمية البيانات](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+تعلم كيفية إدراج مخطط دائري في مستند Word وإضافة نسبة تسمية البيانات باستخدام Aspose.Words لجافا.
+### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

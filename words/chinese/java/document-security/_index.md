@@ -53,6 +53,8 @@
 使用 X509 证书在 C# 中对 Word 文档进行数字签名，确保文档完整性和真实性。
 ### [如何使用 Java 对 Word 文档进行数字签名](./how-to-digitally-sign-word-document-using-java/)
 使用 Aspose.Words for Java 为 Word 文档添加数字签名，确保文件完整性和真实性。
+### [Java 中的数字签名 PFX 文件 – 完整指南](./digital-signature-pfx-file-in-java-complete-guide/)
+学习如何在 Java 中使用 PFX 文件进行数字签名，提供分步指导和示例代码，确保文档安全。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -120,6 +120,8 @@ Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belg
 ### [Java için Aspose.Words ile programlı olarak Word belgesi oluşturma](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [DocumentBuilder ile docx kaydetme ve bir kontrolün sonrasına metin ekleme](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 DocumentBuilder kullanarak docx dosyasını kaydedin ve bir kontrolün ardından metin eklemeyi öğrenin.
+### [Java için Aspose.Words'de Yeni Word Belgesi Oluşturma – Yapılandırılmış Etiket Eklemek İçin Adım‑Adım Kılavuz](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturun ve yapılandırılmış etiket eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

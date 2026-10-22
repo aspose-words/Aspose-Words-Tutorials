@@ -120,6 +120,11 @@ Java का उपयोग करके Word दस्तावेज़ मे
 C# में एक खाली Word दस्तावेज़ बनाना और उसमें रडार चार्ट जोड़ना सीखें।
 ### [Java के लिए Aspose.Words में पाई चार्ट डालना](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Java के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट जोड़ना सीखें। चरण-दर-चरण ट्यूटोरियल।
+### [Word दस्तावेज़ में बटन जोड़ने का तरीका – चरण‑दर‑चरण गाइड](./how-to-add-button-to-word-document-step-by-step-guide/)
+Word दस्तावेज़ में बटन कैसे डालें और उसकी कार्यक्षमता सेट करें, इस चरण‑दर‑चरण ट्यूटोरियल में सीखें।
+
+### [Word में पाई चार्ट कैसे डालें – डेटा लेबल प्रतिशत जोड़ें](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word दस्तावेज़ में पाई चार्ट डालें और डेटा लेबल में प्रतिशत दिखाएँ। चरण-दर-चरण ट्यूटोरियल।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

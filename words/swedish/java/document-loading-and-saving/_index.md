@@ -209,6 +209,9 @@ Lär dig att identifiera och ersätta saknade teckensnitt i Word‑dokument med 
 ### [Hur du laddar en fil från en katalog med Aspose.Words i C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
 
+### [Ladda Markdown i Java – Komplett guide](./how-to-load-markdown-in-java-complete-guide/)
+Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, inklusive kodexempel och avancerade alternativ.
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

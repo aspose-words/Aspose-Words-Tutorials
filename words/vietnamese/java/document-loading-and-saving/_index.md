@@ -115,6 +115,9 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài li�
 Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
 
 ### [Hướng Dẫn Thay Thế Phông Chữ Aspose – Xử Lý Phông Chữ Thiếu](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Cách tải Markdown trong Java – Hướng dẫn toàn diện](./how-to-load-markdown-in-java-complete-guide/)
+Học cách tải và xử lý tệp Markdown trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)

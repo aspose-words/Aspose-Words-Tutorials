@@ -119,6 +119,10 @@ Hướng dẫn tạo tài liệu Word và chèn nút tương tác bằng Aspose.
 Hướng dẫn tạo tài liệu Word trống và chèn biểu đồ radar bằng C# sử dụng Aspose.Words.
 ### [Cách tạo file docx chứa ActiveX với Java và Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Hướng dẫn tạo tài liệu docx có chứa ActiveX bằng Java và Aspose.Words.
+### [Cách thêm nút vào tài liệu Word – Hướng dẫn từng bước](./how-to-add-button-to-word-document-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn nút vào tài liệu Word và tùy chỉnh hành vi của nó.
+### [Cách chèn biểu đồ tròn trong Word – thêm nhãn dữ liệu phần trăm](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word và hiển thị nhãn phần trăm cho dữ liệu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

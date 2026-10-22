@@ -77,6 +77,9 @@ Aspose.Words for Javaでドキュメントの範囲操作をマスターしま�
 ### [Aspose.Words for Java で構造化ドキュメントタグ (SDT) を使用する](./using-structured-document-tags/)
 この包括的なガイドでは、Aspose.Words for Javaで構造化ドキュメントタグ（SDT）を使用する方法を学びます。SDTを作成、変更し、カスタムXMLデータにバインドする方法を学びます。
 ### [Aspose.Words for Java のスタイルとテーマの使用](./using-styles-and-themes/)
+### [新しい Word 文書の作成 – 構造化タグを追加するステップバイステップガイド](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java を使用して、新しい Word 文書を作成し、構造化タグを追加する方法をステップバイステップで学びます。
+
 Aspose.Words for Java を使ってドキュメントの書式設定を強化する方法を学びましょう。この包括的なガイドでは、ソースコード例とともに、スタイルやテーマなどについて詳しく解説します。
 ### [Aspose.Words for Java で目次を生成する](./generating-table-of-contents/)
 Aspose.Words for Java を使用して目次（TOC）を生成およびカスタマイズする方法を学びましょう。整理されたプロフェッショナルなドキュメントを簡単に作成できます。

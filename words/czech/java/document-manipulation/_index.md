@@ -141,6 +141,8 @@ Naučte se vytvořit dokument Word s jednoduchým textovým ovládacím prvkem p
 
 ### [Jak uložit docx pomocí DocumentBuilder a přidat text po ovládacím prvku](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Naučte se uložit soubor DOCX pomocí DocumentBuilder a vložit text za konkrétní kontrolní prvek.
+### [Vytvoření nového dokumentu Word – krok za krokem průvodce přidáním strukturovaného tagu](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Naučte se, jak vytvořit nový dokument Word a přidat do něj strukturovaný tag pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

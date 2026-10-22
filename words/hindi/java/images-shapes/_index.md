@@ -147,6 +147,14 @@ C# में Aspose.Words का उपयोग करके खाली द�
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑चरण निर्देश।
 ### [जावा में आकृति पर छाया जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-shadow-to-shape-in-java-complete-programming-guide/)
 जावा में Aspose.Words का उपयोग करके आकृति में छाया प्रभाव जोड़ने की पूरी प्रक्रिया सीखें।
+### [समूहित आकृति के साथ खाली Word दस्तावेज़ बनाना – जावा गाइड](./create-blank-word-document-with-grouped-shape-java-guide/)
+जावा में Aspose.Words का उपयोग करके समूहित आकृति के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
+### [जावा में Word दस्तावेज़ बनाएं – Aspose.Words के साथ छवियों को सम्मिलित और छिपाएँ](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवियों को कैसे जोड़ें और उन्हें छिपाएँ, इस ट्यूटोरियल में सीखें।
+
+### [जावा में पाई चार्ट सम्मिलित करें – स्लाइस को विस्फोटित, घुमाएँ और हाइलाइट करें](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java का उपयोग करके पाई चार्ट बनाना, स्लाइस को विस्फोटित, घुमाना और हाइलाइट करना सीखें।
 
 ## अतिरिक्त संसाधन
 

@@ -53,6 +53,8 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für C# signieren. Eine voll
 Erfahren Sie, wie Sie ein Word-Dokument in C# mit einem X509-Zertifikat signieren.
 ### [Wie man ein Word-Dokument mit Java digital signiert](./how-to-digitally-sign-word-document-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java digitale Signaturen in Word-Dokumenten hinzufügen, um deren Integrität zu gewährleisten.
+### [Digitale PFX‑Signaturdatei in Java – Vollständige Anleitung](./digital-signature-pfx-file-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java digitale PFX‑Signaturdateien erstellen und einsetzen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

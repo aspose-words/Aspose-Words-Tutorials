@@ -54,6 +54,8 @@ Pelajari cara menambahkan efek bayangan pada diagram Word menggunakan Aspose.Wor
 ### [Cara Meledakkan Irisan pada Diagram Word dan Menyesuaikan Tampilannya](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Pelajari cara meledakkan irisan pada diagram Word dan menyesuaikan tampilannya menggunakan Aspose.Words untuk Java.
 ### [Cara Menata Catatan Kaki di Java menggunakan Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+### [Ubah Jarak Catatan Kaki di DOCX – Panduan Lengkap](./change-footnote-spacing-in-docx-complete-guide/)
+Pelajari cara mengubah jarak catatan kaki dalam file DOCX menggunakan Aspose.Words untuk Java. Panduan lengkap dengan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

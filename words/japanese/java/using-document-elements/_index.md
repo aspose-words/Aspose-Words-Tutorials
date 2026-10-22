@@ -67,6 +67,8 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
 ### [Aspose.Words for Java のノードの使用](./using-nodes/)
+### [Aspose.Words for Java で円グラフを挿入し、データ ラベルにパーセンテージを追加](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Aspose.Words for Java を使用して、Word 文書に円グラフを挿入し、データ ラベルにパーセンテージを表示する手順を学びます。
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
 
 ### [Aspose.Words for Java で Word に円グラフを挿入する – 完全ガイド](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
@@ -116,6 +118,8 @@ Java と Aspose.Words を使用して、ActiveX コントロールを含む DOCX
 Aspose.Words for Java を使って、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
 ### [空白の Word 文書を作成し、ActiveX ボタンを追加する (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 空白の Word 文書を作成し、ActiveX ボタンを配置する方法をステップバイステップで学びます。
+### [Word 文書にボタンを追加する方法 – ステップバイステップガイド](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aspose.Words for Javaを使用して、Word 文書にボタンを挿入し、機能させる手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

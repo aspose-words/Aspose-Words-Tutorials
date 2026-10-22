@@ -128,6 +128,14 @@ Aprenda a crear un documento vacío y añadir formas usando Aspose.Words en C#.
 Aprenda a insertar y ocultar imágenes en documentos Word usando Aspose.Words para Java.
 ### [Agregar sombra a una forma en Java – Guía completa de programación](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Aprenda a agregar sombra a una forma en Java usando Aspose.Words con una guía paso a paso.
+### [Crear documento Word en blanco con forma agrupada – Guía Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a crear un documento Word vacío y añadir una forma agrupada usando Aspose.Words para Java.
+
+### [Crear documento Word en Java – Insertar y ocultar imágenes con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aprenda a insertar imágenes en un documento Word y ocultarlas según sea necesario usando Aspose.Words para Java.
+
+### [Insertar gráfico de pastel en Java – Explotar, rotar y resaltar porciones](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aprenda a crear un gráfico de pastel en Java, aplicar explosión, rotar y resaltar secciones usando Aspose.Words.
 
 ## Recursos adicionales
 

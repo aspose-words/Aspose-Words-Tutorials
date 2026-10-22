@@ -119,6 +119,11 @@
 学习如何在 Aspose.Words for Java 中创建 ActiveX 命令按钮，实现交互式文档功能。
 ### [在 Aspose.Words for Java 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-java/)
 学习如何在 Java 中创建空白 Word 文档并添加 ActiveX 按钮。
+### [在 Word 中插入饼图并添加数据标签百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+学习在 Aspose.Words for Java 中插入饼图并添加显示百分比的数据标签。
+
+### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,8 @@ Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente z
 Lernen Sie, beschädigte DOCX-Dateien zu laden und mit Wiederherstellungsoptionen zu reparieren.
 ### [Wie man DOCX mit Aspose.Words wiederherstellt – Wiederherstellungsmodus aktivieren](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words wiederherstellen, indem Sie den Wiederherstellungsmodus aktivieren.
+### [Markdown in Java laden – Vollständiger Leitfaden](./how-to-load-markdown-in-java-complete-guide/)
+Erfahren Sie, wie Sie Markdown‑Dateien in Java mit Aspose.Words laden und verarbeiten – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 ### [Speichern von HTML‑Dokumenten mit festem Layout in Aspose.Words für Java](./saving-html-documents-with-fixed-layout/)

@@ -151,6 +151,7 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلم كيفية تحميل ملف من مجلد باستخدام Aspose.Words في لغة C#.
 ### [استعادة ملف DOCX تالف – دليل شامل باستخدام Aspose.Words لـ Java](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها باستخدام Aspose.Words لجافا.
+### [كيفية تحميل Markdown في Java – دليل شامل](./how-to-load-markdown-in-java-complete-guide/)
 
 #### الحفظ بصيغ مختلفة
 

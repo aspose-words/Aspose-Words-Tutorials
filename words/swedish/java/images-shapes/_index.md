@@ -125,6 +125,14 @@ Lär dig hur du infogar en bild i ett DOCX-dokument och döljer den i Word med A
 Lär dig hur du grupperar former i Word-dokument med Aspose.Words för Java.
 ### [Lägg till skugga på form i Java – Komplett programmeringsguide](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Lär dig hur du lägger till skuggeffekt på former i ett Word-dokument med Aspose.Words för Java.
+### [Skapa tomt Word-dokument med grupperad form – Java-guide](./create-blank-word-document-with-grouped-shape-java-guide/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en grupperad form med Aspose.Words för Java.
+
+### [Skapa Word-dokument Java – Infoga och dölja bilder med Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Lär dig hur du infogar och döljer bilder i ett Word-dokument med Aspose.Words för Java.
+
+### [Infoga cirkeldiagram i Java – Explodera, rotera och markera segment](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Lär dig hur du skapar och anpassar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java, inklusive att explodera, rotera och markera segment.
 
 ## Ytterligare resurser
 

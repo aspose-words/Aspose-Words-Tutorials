@@ -219,6 +219,9 @@ Scopri come intercettare e gestire gli avvisi di sostituzione dei font mancanti 
 ### [Come caricare un file da una directory usando Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Scopri come caricare file da una cartella in C# con Aspose.Words, includendo esempi di codice e impostazioni di caricamento.
 
+### [Come caricare Markdown in Java – Guida completa](./how-to-load-markdown-in-java-complete-guide/)
+Scopri come caricare file Markdown in Java usando Aspose.Words, con esempi di codice e opzioni di configurazione.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

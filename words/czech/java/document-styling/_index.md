@@ -57,6 +57,8 @@ Naučte se, jak nastavit výchozí písmo pro všechny dokumenty pomocí Aspose.
 Naučte se, jak nastavit stín na grafu ve Wordu pomocí Aspose.Words pro Javu.
 ### [Jak stylovat poznámky pod čarou v Javě pomocí Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 Naučte se, jak pomocí Aspose.Words pro Javu stylovat poznámky pod čarou v dokumentech Word s ukázkovým kódem.
+### [Změna rozestupů poznámek pod čarou v DOCX – Kompletní průvodce](./change-footnote-spacing-in-docx-complete-guide/)
+Naučte se, jak změnit rozestupy poznámek pod čarou v dokumentech DOCX pomocí Aspose.Words pro Javu. Kompletní průvodce s ukázkami kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

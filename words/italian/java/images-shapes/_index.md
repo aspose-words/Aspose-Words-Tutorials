@@ -128,6 +128,14 @@ Scopri come aggiungere un'immagine a un documento DOCX e nasconderla in Word usa
 Scopri come raggruppare più forme in un documento Word usando Aspose.Words per Java.
 ### [Aggiungi ombra a una forma in Java – Guida completa di programmazione](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Scopri come aggiungere ombra a una forma nei documenti Word usando Aspose.Words per Java, con esempi di codice dettagliati.
+### [Crea documento Word vuoto con forma raggruppata – Guida Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Impara a creare un documento Word vuoto e aggiungere una forma raggruppata usando Aspose.Words per Java.
+
+### [Crea documento Word Java – Inserisci e nascondi immagini con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Impara a inserire immagini in un documento Word e nasconderle usando Aspose.Words per Java.
+
+### [Inserisci grafico a torta in Java – Esplodi, ruota e evidenzia le fette](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Impara a inserire un grafico a torta, esplodere, ruotare e evidenziare le fette in un documento Word usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

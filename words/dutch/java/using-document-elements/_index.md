@@ -117,6 +117,10 @@ Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Asp
 ### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Hoe een cirkeldiagram in een Word-document met Java in te voegen](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
+### [Cirkeldiagram invoegen in Word – gegevenslabelpercentage toevoegen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
+### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
+Leer hoe u een klikbare knop in een Word‑document kunt invoegen met Aspose.Words voor Java in deze stapsgewijze tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

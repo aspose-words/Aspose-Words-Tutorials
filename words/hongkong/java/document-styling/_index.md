@@ -57,6 +57,8 @@ Aspose.Words for Java 提供了強大的文件樣式工具，讓開發人員可�
 了解如何在 Aspose.Words for Java 中設定預設字體，以程式方式統一文件字型樣式。提供原始程式碼範例與步驟說明。
 ### [在 Word 圖表上設定陰影](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 了解如何使用 Aspose.Words for Java 為 Word 圖表添加陰影效果，帶有原始程式碼範例。
+### [在 DOCX 中變更註腳間距 – 完整指南](./change-footnote-spacing-in-docx-complete-guide/)
+了解如何使用 Aspose.Words for Java 在 DOCX 文件中調整註腳間距，提供完整的程式碼範例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,10 @@
 เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 ### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
+### [วิธีแทรกแผนภูมิวงกลมใน Word – เพิ่มป้ายข้อมูลเปอร์เซ็นต์](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมใน Aspose.Words สำหรับ Java พร้อมเพิ่มป้ายข้อมูลเปอร์เซ็นต์
+### [วิธีเพิ่มปุ่มในเอกสาร Word – คู่มือทีละขั้นตอน](./how-to-add-button-to-word-document-step-by-step-guide/)
+เรียนรู้วิธีแทรกปุ่มลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายและเป็นขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
