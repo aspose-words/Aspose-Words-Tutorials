@@ -21,9 +21,7 @@ title: DOCXからLaTeXをエクスポートする方法 – 完全なJavaガイ�
 url: /ja/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-quotes, tables, etc.
 
-Let's construct translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

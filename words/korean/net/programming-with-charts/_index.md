@@ -22,15 +22,51 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 이 튜토리얼을 통해 시각적으로 매력적이고 유익한 그래픽을 추가하여 Word 문서를 더욱 풍성하게 만들 수 있습니다. Aspose.Words for .NET의 고급 그래픽 기능을 활용하고 애플리케이션에 효과적으로 통합하는 방법을 배우게 됩니다. 이 튜토리얼을 통해 Aspose.Words에서 그래픽 활용 능력을 향상시켜 보세요.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET을 사용하여 열 차트에 균일한 데이터 레이블 설정" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET을 사용하여 Word에서 페이지 크기를 변경할 때 차트를 비례적으로 크기 조정하기" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 사용자 정의 열 차트 삽입" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET을 사용하여 컬럼 차트의 플롯 영역 테두리 숨기기" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 제거" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 샘플 열 차트를 삽입합니다." imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET을 사용하여 Word의 히스토그램 차트에 명명된 데이터 시리즈를 추가합니다." imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 및 데이터 포인트를 검증합니다." imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET을 사용하여 열 차트의 X 축 격자선을 사용자 지정합니다." imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다." imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET을 사용하여 Word에서 차트 제목을 업데이트하고 범례 표시 여부를 전환하기" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C#에서 폭발된 파이 차트 조각을 포함한 수정 문서 저장" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="C#와 사용자 지정 숫자 형식을 사용하여 Word에서 차트 서식 지정하는 방법" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C#를 사용하여 Word 차트에서 히스토그램 빈 개수를 설정하고 데이터 레이블 추가하는 방법" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C#를 사용하여 Word 문서에서 차트 레이블을 프로그래밍 방식으로 조정하기" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
+
 | 제목 | 설명 |
 | --- | --- |
 | [차트에서 데이터 레이블의 형식 번호](./format-number-of-data-label/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블 서식을 지정하는 방법을 단계별 가이드를 통해 알아보세요. Word 문서를 손쉽게 개선해 보세요. |
 | [모양을 사용하여 차트 만들기 및 사용자 지정](./create-chart-using-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 차트를 만들고 사용자 지정하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화에 적합합니다. |
 | [Word 문서에 간단한 막대형 차트 삽입](./insert-simple-column-chart/) Aspose.Words for .NET을 사용하여 Word에 간단한 세로 막대형 차트를 삽입하는 방법을 알아보세요. 역동적인 시각적 데이터 프레젠테이션으로 문서를 더욱 풍부하게 만들어 보세요. |
 | [Word 문서에 막대형 차트 삽입](./insert-column-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 세로 막대형 차트를 삽입하는 방법을 알아보세요. 보고서와 프레젠테이션의 데이터 시각화를 향상시켜 보세요. |
+| [C#를 사용하여 열 차트와 서식이 지정된 레이블이 포함된 Word 문서 만들기](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aspose.Words for .NET을 활용해 열 차트와 서식이 적용된 레이블을 포함한 Word 문서를 C#으로 만드는 방법을 단계별로 안내합니다. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |
 | [Word 문서에 거품형 차트 삽입](./insert-bubble-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 거품형 차트를 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 더욱 풍성하게 만들어 보세요. |
+| [Aspose.Words로 파이 차트가 포함된 Word 문서 만들기](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 분산형 차트 삽입](./insert-scatter-chart/) | Aspose.Words for .NET을 사용하여 Word에 분산형 차트를 삽입하는 방법을 알아보세요. 시각적 데이터 표현을 문서에 통합하는 간단한 단계입니다. |
+| [Aspose.Words를 사용하여 Word 문서에 파이 차트 만들기](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [C#에서 맞춤형 파이 차트가 포함된 Word 문서 만들기](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 맞춤형 파이 차트를 포함한 Word 문서를 만드는 방법을 단계별로 안내합니다. |
 | [차트에서 XY 축 속성 정의](./define-xyaxis-properties/) Aspose.Words for .NET을 사용하여 차트에서 XY 축 속성을 정의하는 방법을 단계별 가이드를 통해 알아보세요. .NET 개발자에게 안성맞춤입니다. |
 | [차트 축에 날짜 시간 값 추가](./date-time-values-to-axis/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 차트 축에 날짜 및 시간 값을 추가하는 방법을 알아보세요. |
 | [차트의 축에 대한 숫자 형식](./number-format-for-axis/) | Aspose.Words for .NET을 사용하여 차트 축 번호 서식을 지정하는 방법을 단계별 가이드를 통해 알아보세요. 문서의 가독성과 전문성을 손쉽게 높여 보세요. |
@@ -39,10 +75,20 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [Word 문서에서 차트 축 숨기기](./hide-chart-axis/) Aspose.Words for .NET을 사용하여 Word 문서에서 차트 축을 숨기는 방법을 자세하고 단계별 튜토리얼을 통해 알아보세요. |
 | [차트에서 다중 줄 레이블 정렬 체크](./tick-multi-line-label-alignment/) | Aspose.Words for .NET을 사용하여 차트에서 여러 줄 레이블 정렬에 체크 표시를 하는 방법을 단계별로 자세히 알아보세요. 모든 수준의 개발자에게 적합합니다. |
 | [차트 데이터 레이블 사용자 정의](./chart-data-label/) | Aspose.Words for .NET을 사용하여 차트 데이터 레이블을 사용자 지정하는 방법을 단계별 가이드로 알아보세요. .NET 개발자에게 안성맞춤입니다. |
+| [C#에서 차트 데이터 레이블 위치 지정 사용자 정의](./custom-data-label-placement-for-charts-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 차트 데이터 레이블의 위치를 사용자 정의하는 방법을 단계별로 안내합니다. |
+| [C#에서 Word 차트에 데이터 레이블 추가하기 – 단계별 가이드](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Aspose.Words for .NET을 사용하여 C#에서 Word 차트에 데이터 레이블을 추가하는 방법을 단계별로 안내합니다. |
 | [차트의 데이터 레이블에 대한 기본 옵션 설정](./default-options-for-data-labels/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블에 대한 기본 옵션을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 차트를 손쉽게 만들고 사용자 지정할 수 있습니다. |
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
-
+| [C#를 사용하여 Word에 차트 범례 표시 – 완전 단계별 가이드](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 이용해 C#로 Word 문서에 차트 범례를 표시하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용한 파이 차트 조각 분리 – 전체 가이드](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용하여 파이 차트의 조각을 분리하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용하여 파이 차트 레이블 추가 – 전체 가이드](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트 레이블을 추가하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words C#로 차트에 백분율 표시하는 방법](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET을 사용해 차트 데이터에 백분율을 표시하는 방법을 단계별로 안내합니다. |
+| [C#에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word 라인 차트에서 시리즈 서식 지정하는 방법](./how-to-format-series-in-a-word-line-chart-with-c/) | Aspose.Words for .NET을 활용해 Word 라인 차트의 데이터 시리즈를 C# 코드로 서식 지정하는 단계별 가이드입니다. |
+| [Aspose.Words를 사용하여 Word에서 히스토그램 만들기](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET을 사용해 Word 문서에 히스토그램을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
+| [Word 문서에 레이더 차트 만들기 – 완전 C# 가이드](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 레이더 차트를 삽입하고 사용자 지정하는 전체 단계별 C# 가이드입니다. |
+| [C#를 사용하여 레이더 차트를 만들고 Word에 차트 추가](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aspose.Words for .NET을 활용해 레이더 차트를 생성하고 Word 문서에 삽입하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

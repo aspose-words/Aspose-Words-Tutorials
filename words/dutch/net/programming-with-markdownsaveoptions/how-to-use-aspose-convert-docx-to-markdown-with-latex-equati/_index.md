@@ -23,15 +23,11 @@ title: Hoe Aspose te gebruiken – DOCX converteren naar Markdown met LaTeX‑ve
 url: /nl/net/programming-with-markdownsaveoptions/how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/
 ---
 
-SaveOptions` etc; keep unchanged.
 
-Check for any bold text inside paragraphs; we translated but kept **.
 
-Check for any bullet list items with code; we kept.
 
-Check for any special characters like – (en dash) keep.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

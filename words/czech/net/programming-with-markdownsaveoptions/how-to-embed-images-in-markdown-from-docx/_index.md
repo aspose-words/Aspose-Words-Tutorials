@@ -22,19 +22,13 @@ title: Jak vložit obrázky do Markdownu z DOCX
 url: /cs/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
--button >}}
 
-All preserved.
 
-Check for any other markdown links: none.
 
-Check for any code blocks: placeholders only.
 
-Check for any URLs: none.
 
-Make sure we didn't translate any code placeholders.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

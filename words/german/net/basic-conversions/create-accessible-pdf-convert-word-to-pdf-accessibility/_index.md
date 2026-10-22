@@ -25,9 +25,8 @@ title: Barrierefreies PDF erstellen – Word in PDF mit Barrierefreiheit konvert
 url: /de/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-etc. Keep them.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

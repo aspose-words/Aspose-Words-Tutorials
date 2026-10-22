@@ -1,0 +1,7 @@
+Title: How to create grouped shapes in a Word document using Java
+Slug: how-to-create-grouped-shapes-in-a-word-document-using-java
+Category: images-shapes
+ProcessedDate: 2026-10-14T00:37:04.598945
+SourceRepo: AI Search API
+Keywords: create grouped shapes, add line to group, group multiple shapes word, insert group shape
+PRNumber: 322

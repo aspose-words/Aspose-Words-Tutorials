@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 열 차트가 포함된 Word 문서를 만드는 방법, 특정 데이터 시리즈로 채우는 방법, 차트에 예상되는 시리즈 수와 데이터 포인트 수가 포함되어 있는지 검증하는 방법, 그리고 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 차트가 포함해야 하는 필수 시리즈 수와 데이터 포인트 수를 정의합니다.
+//ExStepSummary:1: 새 Word Document와 DocumentBuilder를 생성하여 내용을 추가합니다.
+//ExStepSummary:2: 문서에 400×300 크기의 열 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
+//ExStepSummary:3: Aspose.Words가 기본으로 추가하는 플레이스홀더 데이터 시리즈를 제거합니다.
+//ExStepSummary:4: X축 레이블을 정의하고 차트에 각각 세 개의 포인트를 가진 두 개의 데이터 시리즈(Alpha와 Beta)를 추가합니다.
+//ExStepSummary:5: 차트에 정확히 필요한 시리즈 수가 포함되어 있는지 확인하고, 그렇지 않으면 예외를 발생시킵니다.
+//ExStepSummary:6: 각 시리즈를 순회하면서 예상되는 데이터 포인트 수가 있는지 확인하고, 일치하지 않을 경우 예외를 발생시킵니다.
+//ExStepSummary:7: 검증된 문서를 .docx 파일로 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

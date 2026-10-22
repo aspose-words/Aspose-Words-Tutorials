@@ -25,9 +25,7 @@ title: एक्सेसिबल PDF बनाएं – वर्ड को P
 url: /hi/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-. So fine.
 
-Now produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

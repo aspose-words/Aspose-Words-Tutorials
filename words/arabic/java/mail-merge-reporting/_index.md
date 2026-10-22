@@ -41,6 +41,9 @@
 ### [إعادة تسمية حقول دمج الكلمات باستخدام Aspose.Words لـ Java](./rename-word-merge-fields-aspose-words-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
+### [إنشاء قالب دمج مراسلات وتحويل DOCX إلى PDF في C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+تعلم كيفية إنشاء قالب دمج مراسلات وتحويل ملفات DOCX إلى PDF باستخدام Aspose.Words في C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

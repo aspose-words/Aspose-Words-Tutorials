@@ -22,7 +22,7 @@ title: Hogyan ágyazzunk be képeket a Markdownba DOCX‑ből
 url: /hu/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

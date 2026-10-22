@@ -23,9 +23,7 @@ title: Como salvar Markdown – Guia completo de C#
 url: /pt/net/programming-with-markdownsaveoptions/how-to-save-markdown-complete-c-guide/
 ---
 
-Title also. So we will translate.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

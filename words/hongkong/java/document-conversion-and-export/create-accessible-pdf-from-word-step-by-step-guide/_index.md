@@ -23,15 +23,10 @@ title: 從 Word 建立可存取 PDF – 步驟指南
 url: /zh-hant/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-’t sure which settings to flip? You’re not alone. In many projects the PDF must pass PDF/UA (PDF/Universal Accessibility) checks, and a missing flag can turn a perfectly formatted report into a barrier for screen‑reader users."
 
-Translate accordingly.
 
-Proceed section by section.
 
-Will keep markdown headings.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

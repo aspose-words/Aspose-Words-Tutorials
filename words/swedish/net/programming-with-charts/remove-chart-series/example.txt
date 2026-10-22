@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Med Aspose.Words for .NET skapar den här handledningen ett Document, infogar ett stapeldiagram via DocumentBuilder, tar bort en specifik dataserie från diagrammet med ChartSeriesCollection.RemoveAt och sparar det modifierade dokumentet.
+//ExStepSummary:0: Skapa ett nytt Word Document och en DocumentBuilder som är kopplad till det.
+//ExStepSummary:1: Infoga ett stapeldiagram med storleken 432×252 punkter och hämta Chart‑objektet för vidare manipulation.
+//ExStepSummary:2: Definiera det nollbaserade indexet för den serie som ska tas bort (den andra serien).
+//ExStepSummary:3: Om indexet är giltigt, anropa RemoveAt på diagrammets Series‑samling för att ta bort den serien.
+//ExStepSummary:4: Spara det uppdaterade dokumentet till en .docx‑fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

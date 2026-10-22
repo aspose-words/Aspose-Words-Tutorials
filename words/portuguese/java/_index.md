@@ -34,8 +34,6 @@ Seja criando relatórios, gerando contratos ou construindo sistemas avançados d
 - **Integração Fácil** – Incorpore recursos avançados de documentos em suas aplicações Java com código mínimo.  
 - **Independência de Plataforma** – Execute em qualquer ambiente que suporte Java, incluindo desktop, web e aplicativos móveis.
 
-## Categorias de Tutoriais Disponíveis
-
 ### [Integração de IA & Machine Learning](./ai-machine-learning-integration/)
 Explore recursos avançados de documentos com tutoriais de integração de IA. Aprenda a implementar resumo de texto, tradução e outras funcionalidades inteligentes de processamento de documentos.
 

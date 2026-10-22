@@ -29,7 +29,7 @@ Niezależnie od tego, czy chcesz tworzyć dokumenty zgodne ze starszymi wersjami
 | [Aktualizuj ostatnio zapisaną właściwość czasu](./update-last-saved-time-property/) | Dowiedz się, jak zaktualizować właściwość ostatnio zapisanego czasu w dokumentach Worda przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku. |
 | [Zachowaj starsze znaki kontrolne](./keep-legacy-control-chars/) | Dowiedz się, jak zachować starsze znaki kontrolne w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku. |
 | [Ustaw poziom kompresji](./set-compression-level/) | Dowiedz się, jak ustawić poziom kompresji w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zoptymalizować przechowywanie i wydajność dokumentów. |
-
+| [Jak zmienić kodowanie dokumentu Word przy użyciu Aspose.Words w C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Dowiedz się, jak zmienić kodowanie dokumentu Word przy pomocy Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

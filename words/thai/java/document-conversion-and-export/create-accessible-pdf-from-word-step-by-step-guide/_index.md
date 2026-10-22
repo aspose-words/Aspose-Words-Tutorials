@@ -23,9 +23,7 @@ title: สร้าง PDF ที่เข้าถึงได้จาก Word
 url: /th/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-syntax.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -41,6 +41,22 @@ Aspose.Words for Javaを使ってドキュメントを暗号化・復号化す�
 Aspose.Words for Javaを使用して、ドキュメントに安全なデジタル署名を実装する方法を学びましょう。ステップバイステップのガイドとソースコードでドキュメントの整合性を確保します。
 ### [文書編集とデータ保護](./document-redaction-data-protection/)
 Aspose.Words for Javaを使用してドキュメントを保護し、機密データを編集する方法を学びましょう。ソースコード付きのステップバイステップガイドです。
+### [JavaでWord文書に署名する – Aspose.Words 完全ガイド](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Aspose.Words for Javaを使用して、Word文書にデジタル署名を追加する方法をステップバイステップで解説します。安全な署名で文書の真正性を確保しましょう。
+### [C#でDOCXファイルに署名する方法 – 完全ステップバイステップガイド](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Aspose.Words を使用して、C#でDOCXファイルにデジタル署名を追加する手順を詳しく解説します。安全な署名方法を学びましょう。
+### [PFX証明書でdocxファイルに署名する方法 – ステップバイステップガイド](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Aspose.Words for Javaを使用して、PFX証明書でdocxファイルにデジタル署名を追加する手順を詳しく解説します。
+### [C# で X509 証明書を使用して Word 文書に署名する方法](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+C# と X509 証明書を使い、Aspose.Words for .NET で Word 文書にデジタル署名を付与する手順をステップバイステップで紹介します。
+### [Word文書にデジタル署名を追加する方法（Aspose.Words）](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Aspose.Words を使用して Word 文書にデジタル署名を追加する手順を解説します。
+### [Java を使用して Word 文書にデジタル署名する方法](./how-to-digitally-sign-word-document-using-java/)
+Aspose.Words for Java を使用して、Word 文書に安全なデジタル署名を追加する方法を学びます。
+### [Javaでのデジタル署名PFXファイル 完全ガイド](./digital-signature-pfx-file-in-java-complete-guide/)
+Aspose.Words for Javaを使用して、PFXファイルを用いたデジタル署名の作成と適用方法をステップバイステップで解説します。
+### [Javaでdocxに署名する方法 – ステップバイステップガイド](./how-to-sign-docx-in-java-step-by-step-guide/)
+Aspose.Words for Javaを使用して、docxファイルに安全にデジタル署名を追加する手順を解説します。
 ### [Word文書にデジタル署名を追加する方法](./how-to-add-a-digital-signature-to-a-word-document/)
 Aspose.Words for Javaを使用して、Word文書に安全なデジタル署名を付与する手順を学びます。
 

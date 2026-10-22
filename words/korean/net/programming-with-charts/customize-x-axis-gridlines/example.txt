@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Word 문서를 생성하고, 열 차트를 삽입한 뒤 샘플 데이터를 교체하고, 기본 X 축의 주요 격자선을 활성화하고 스타일을 지정하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Word 문서를 만들고 이를 편집하기 위해 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 432×252 크기의 열 차트를 삽입하고 해당 차트의 Chart 객체를 가져옵니다.
+//ExStepSummary:2: 기본 시리즈를 제거하고 세 개의 그룹과 값을 가진 사용자 정의 시리즈를 추가합니다.
+//ExStepSummary:3: 차트의 기본 가로(X) 축에 대한 참조를 얻습니다.
+//ExStepSummary:4: 기본 X 축에 주요 격자선 표시를 활성화합니다.
+//ExStepSummary:5: 격자선 색상을 파란색으로, 두께를 2포인트로 설정합니다.
+//ExStepSummary:6: 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

@@ -43,6 +43,9 @@ Sammanfattningsvis är det en värdefull färdighet för alla Java-utvecklare so
 Kom ihåg att övning ger färdighet, och med Aspose.Words för Java kommer du att skapa, modifiera och förbättra dokument som ett proffs på nolltid. Lycka till med kodningen!
 
 ## Handledningar för att använda dokumentelement
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Använda kommentarer i Aspose.Words för Java](./using-comments/)
 Lär dig hur du använder kommentarer i Aspose.Words för Java. Steg-för-steg-handledning för att lägga till och anpassa kommentarer i dina dokument.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)
@@ -60,17 +63,69 @@ Lär dig steg för steg hur du använder sidhuvuden och sidfot i Aspose.Words f�
 ### [Använda bindestreck i Aspose.Words för Java](./using-hyphenation/)
 Lär dig hur du använder bindestreck effektivt i Aspose.Words för Java med den här omfattande handledningen. Förbättra dokumentläsbarheten idag!
 ### [Använda listor i Aspose.Words för Java](./using-lists/)
-Lär dig använda listor i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
+Lär dig använda lister i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
 ### [Använda Markdown i Aspose.Words för Java](./using-markdown/)
 Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-handledningen. Skapa, formatera och spara Markdown-dokument utan ansträngning.
 ### [Använda noder i Aspose.Words för Java](./using-nodes/)
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
+### [Infoga cirkeldiagram i Word med Aspose.Words – Komplett guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Lär dig steg för steg hur du infogar och anpassar cirkeldiagram i Word-dokument med Aspose.Words.
+### [Infoga cirkeldiagram i Word – lägg till procentsats för datamärket](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Lär dig hur du infogar ett cirkeldiagram i Word och visar procentsatser i datamärken med Aspose.Words för Java.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
+### [Hur man infogar en ActiveX‑knapp i Word – Ställ in knappens rubrik](./how-to-insert-activex-button-in-word-set-button-caption/)
+Lär dig hur du infogar en ActiveX‑knapp i Word och anger knappens rubrik i denna steg‑för‑steg‑handledning.
+### [Hur man skapar docx som innehåller ActiveX med Java och Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Lär dig skapa DOCX-filer som innehåller ActiveX-kontroller med Java och Aspose.Words.
+### [Skapa ActiveX-kommandoknapp i Java](./how-to-create-activex-command-button-in-java/)
+Lär dig hur du skapar en ActiveX-kommandoknapp i Java med Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Skapa cirkeldiagram med Aspose.Words Java – Fullständig steg‑för‑steg‑guide](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Lär dig att skapa ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+### [Ställ in knappstorlek i Word med Java – Komplett Aspose.Words-guide](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Lär dig hur du ändrar knappstorlek i Word-dokument med Java i denna kompletta Aspose.Words-guide.
+### [Lägg till Forms2OleControl i DOCX – Komplett Aspose.Words-guide](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspose.Words-guide.
+### [Skapa tomt Word-dokument med en kommandoknapp – steg‑för‑steg‑guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en kommandoknapp med denna steg‑för‑steg‑guide.
+### [Hur du får separator i Aspose.Words för Java](./how-to-get-separator-in-word-docs-with-java/)
+Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Java i denna steg-för-steg-handledning.
+### [Hur man lägger till SDT i C# – komplett guide för Word‑platshållare](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Lär dig hur du lägger till SDT i C# för att skapa dynamiska Word‑platshållare.
+### [Skapa pajdiagram i Word med Java – steg-för-steg-guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Lär dig skapa ett pajdiagram i Word med Java i denna steg-för-steg-guide.
+### [Hur du lägger till ledarlinjer i pajdiagram i Java med Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Lär dig steg för steg hur du lägger till ledarlinjer i ett pajdiagram med Aspose.Words för Java Chart API.
+### [Skapa Word-dokument med platshållare och listor](./how-to-create-word-document-with-placeholders-and-lists/)
+Lär dig att skapa Word-dokument med platshållare och listor med Aspose.Words för Java.
+### [Infoga kommandoknapp i ett Word-dokument med Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Lär dig hur du infogar en kommandoknapp i ett Word-dokument med Java. Steg-för-steg-guide för att lägga till interaktiv funktionalitet.
+### [Hur du skapar forms2olecontrol i kod med Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Lär dig hur du skapar forms2olecontrol-programmering med Aspose.Words i Java.
+### [Redigera diagram i ett Word-dokument med Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Lär dig steg-för-steg hur du redigerar diagram i Word-dokument med Aspose.Words för Java.
+### [Spara Word-dokument efter redigering av doughnut-diagram i Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Lär dig steg-för-steg hur du sparar ett Word-dokument efter att ha redigerat ett doughnut-diagram med Aspose.Words för Java.
+### [Skapa ett radardiagram i ett Word-dokument med Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Lär dig hur du skapar ett radardiagram i ett Word-dokument med Java. Steg-för-steg-guide för att visualisera data.
+### [Skapa ett tomt Word-dokument och infoga en vanlig textkontroll](./create-blank-word-document-and-insert-a-plain-text-control/)
+Lär dig skapa ett tomt Word-dokument och infoga en vanlig textkontroll med Aspose.Words för Java. Steg-för-steg-guide för enkla dokument.
+### [Skapa Word-dokument programatiskt och infoga en knapp](./create-word-document-programmatically-and-insert-a-button/)
+Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en knapp med Aspose.Words för Java.
+### [Skapa ett tomt Word-dokument och lägg till ett radardiagram i C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C#.
+### [Hur man infogar ett cirkeldiagram i ett Word-dokument med Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
+### [Skapa ett tomt Word-dokument och lägg till en ActiveX-knapp (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar en ActiveX-knapp med Aspose.Words för Java.
+### [Hur man lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
+Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
+### [Hur man exploderar en pajskiva i Java – Aspose.Words diagramhandledning](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Lär dig hur du får en pajskiva att explodera i ett diagram med Aspose.Words för Java. Steg-för-steg-guide.
 ### [Infoga pajdiagram i Word med Java – komplett guide](./insert-pie-chart-word-in-java-complete-guide/)
 Lär dig hur du skapar och infogar ett pajdiagram i ett Word-dokument med Java och Aspose.Words i denna kompletta guide.
 ### [Hur man skapar diagram i Word med Java och Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)

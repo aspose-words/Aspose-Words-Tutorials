@@ -43,10 +43,15 @@ Aspose.Words for Java के साथ, आप तुरंत गतिशी�
 याद रखें, अभ्यास से निपुणता आती है, और Aspose.Words for Java के साथ, आप कुछ ही समय में एक प्रो की तरह दस्तावेज़ बना, संशोधित और संवर्धित कर सकेंगे। हैप्पी कोडिंग!
 
 ## दस्तावेज़ तत्वों का उपयोग ट्यूटोरियल
+### [कमांड बटन के साथ खाली Word दस्तावेज़ बनाना – चरण‑दर‑चरण मार्गदर्शिका](./create-blank-word-document-with-a-command-button-step-by-ste/)
+कमांड बटन का उपयोग करके खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना](./using-comments/)
-Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना सीखें। अपने दस्तावेज़ों में टिप्पणियाँ जोड़ने और उन्हें अनुकूलित करने के लिए चरण-दर-चरण ट्यूटोरियल।
+Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना सीखें। अपने दस्तावेज़ों में टिप्पणियाँ जोड़ने और उन्हें अनुकूलित करने के लिए चरण-दर-स्टेप ट्यूटोरियल।
 ### [जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना](./using-fields/)
-इस चरण-दर-चरण ट्यूटोरियल में जावा फ़ील्ड के लिए Aspose.Words का प्रभावी ढंग से उपयोग करना सीखें। आसानी से गतिशील Word दस्तावेज़ बनाएँ।
+इस चरण-दर-स्टेप ट्यूटोरियल में जावा फ़ील्ड के लिए Aspose.Words का प्रभावी ढंग से उपयोग करना सीखें। आसानी से गतिशील Word दस्तावेज़ बनाएँ।
 ### [जावा के लिए Aspose.Words में फ़ॉन्ट्स का उपयोग करना](./using-fonts/)
 Aspose.Words for Java में फ़ॉन्ट फ़ॉर्मेटिंग का अन्वेषण करें: आकार, शैली, रंग, और बहुत कुछ। आसानी से सुंदर फ़ॉर्मेट किए गए दस्तावेज़ बनाएँ।
 ### [जावा के लिए Aspose.Words में फ़ुटनोट्स और एंडनोट्स का उपयोग करना](./using-footnotes-and-endnotes/)
@@ -54,23 +59,73 @@ Aspose.Words for Java में फ़ुटनोट्स और एंडन�
 ### [जावा के लिए Aspose.Words में फ़ॉर्म फ़ील्ड का उपयोग करना](./using-form-fields/)
 "फॉर्म फ़ील्ड के साथ इंटरैक्टिव वर्ड दस्तावेज़ बनाने के लिए Java के लिए Aspose.Words का उपयोग करना सीखें। अभी शुरू करें!"
 ### [Java के लिए Aspose.Words में HarfBuzz का उपयोग करना](./using-harfbuzz/)
-Aspose.Words for Java में उन्नत टेक्स्ट शेपिंग के लिए HarfBuzz का उपयोग करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ जटिल स्क्रिप्ट में टेक्स्ट रेंडरिंग को बेहतर बनाएँ।
+Aspose.Words for Java में उन्नत टेक्स्ट शेपिंग के लिए HarfBuzz का उपयोग करना सीखें। इस चरण-दर-स्टेप मार्गदर्शिका के साथ जटिल स्क्रिप्ट में टेक्स्ट रेंडरिंग को बेहतर बनाएँ।
 ### [जावा के लिए Aspose.Words में हेडर और फूटर का उपयोग करना](./using-headers-and-footers/)
-Aspose.Words for Java में हेडर और फ़ुटर का उपयोग कैसे करें, चरण-दर-चरण सीखें। बिना किसी परेशानी के पेशेवर दस्तावेज़ बनाएँ।
+Aspose.Words for Java में हेडर और फ़ुटर का उपयोग कैसे करें, चरण-दर-स्टेप सीखें। बिना किसी परेशानी के पेशेवर दस्तावेज़ बनाएँ।
 ### [जावा के लिए Aspose.Words में हाइफ़नेशन का उपयोग करना](./using-hyphenation/)
 इस व्यापक ट्यूटोरियल के साथ Aspose.Words for Java में हाइफ़नेशन का प्रभावी ढंग से उपयोग करना सीखें। आज ही दस्तावेज़ की पठनीयता बढ़ाएँ!
 ### [Java के लिए Aspose.Words में सूचियों का उपयोग करना](./using-lists/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में सूचियों का उपयोग करना सीखें। अपने दस्तावेज़ों को प्रभावी ढंग से व्यवस्थित और प्रारूपित करें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ Aspose.Words for Java में सूचियों का उपयोग करना सीखें। अपने दस्तावेज़ों को प्रभावी ढंग से व्यवस्थित और प्रारूपित करें।
 ### [जावा के लिए Aspose.Words में मार्कडाउन का उपयोग करना](./using-markdown/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Words में Markdown का उपयोग करना सीखें। Markdown दस्तावेज़ों को आसानी से बनाएँ, स्टाइल करें और सहेजें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ Java के लिए Aspose.Words में Markdown का उपयोग करना सीखें। Markdown दस्तावेज़ों को आसानी से बनाएँ, स्टाइल करें और सहेजें।
 ### [जावा के लिए Aspose.Words में नोड्स का उपयोग करना](./using-nodes/)
-इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में नोड्स में हेरफेर करना सीखें। दस्तावेज़ प्रसंस्करण शक्ति अनलॉक करें।
+इस चरण-दर-स्टेप ट्यूटोरियल के साथ Aspose.Words for Java में नोड्स में हेरफेर करना सीखें। दस्तावेज़ प्रसंस्करण शक्ति अनलॉक करें।
 ### [जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना](./using-ole-objects-and-activex/)
 Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!
+### [Word में ActiveX बटन डालना – बटन कैप्शन सेट करना](./how-to-insert-activex-button-in-word-set-button-caption/)
+Word दस्तावेज़ में ActiveX बटन जोड़ने और उसके कैप्शन को सेट करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [Aspose.Words के साथ कोड में forms2olecontrol बनाना](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words का उपयोग करके कोड में forms2olecontrol बनाने की प्रक्रिया सीखें।
+### [Java और Aspose.Words के साथ ActiveX युक्त docx कैसे बनाएं](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java और Aspose.Words का उपयोग करके ActiveX शामिल करने वाला DOCX फ़ाइल बनाने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.Words में ActiveX कमांड बटन बनाना](./how-to-create-activex-command-button-in-java/)
+Java में Aspose.Words का उपयोग करके ActiveX कमांड बटन कैसे बनाएं, सीखें।
+### [Java के लिए एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Java में Aspose.Words का उपयोग करके एक खाली Word फ़ाइल बनाएं और उसमें ActiveX बटन जोड़ें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
-जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
+जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
-जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+### [DOCX में Forms2OleControl जोड़ें – पूर्ण Aspose.Words गाइड](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+DOCX दस्तावेज़ में Forms2OleControl जोड़ने के लिए चरण-दर-चरण Aspose.Words गाइड।
+
+### [Java के साथ Word में बटन का आकार सेट करना – पूर्ण Aspose.Words गाइड](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Java के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में बटन का आकार कैसे सेट करें, सीखें।
+
+### [Aspose.Words Java के साथ पाई चार्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java का उपयोग करके पाई चार्ट बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
+### [Java के साथ Word दस्तावेज़ में विभाजक प्राप्त करना](./how-to-get-separator-in-word-docs-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में विभाजक कैसे प्राप्त करें, इस चरण-दर-चरण ट्यूटोरियल में सीखें।
+### [Java के साथ Word में पाई चार्ट बनाना – चरण-दर-चरण गाइड](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java के साथ Word दस्तावेज़ में पाई चार्ट बनाने की प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन।
+### [C# में SDT जोड़ना – Word प्लेसहोल्डर्स के लिए पूर्ण गाइड](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Java में Chart API के साथ पाई चार्ट में लीडर लाइन्स जोड़ना](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java में Chart API का उपयोग करके पाई चार्ट में लीडर लाइन्स जोड़ने के चरण-दर-स्टेप ट्यूटोरियल।
+
+### [Java का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे डालें](./how-to-insert-command-button-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में कमांड बटन डालने की प्रक्रिया सीखें।
+
+### [Java का उपयोग करके Word दस्तावेज़ में चार्ट को संपादित करना](./how-to-edit-chart-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में चार्ट को संपादित करने के चरण-दर-चरण ट्यूटोरियल।
+
+### [Java के लिए Aspose.Words में डोनट चार्ट संपादित करने के बाद Word दस्तावेज़ सहेजना](./save-word-document-after-editing-doughnut-chart-in-java/)
+Java में डोनट चार्ट को बदलने के बाद Word फ़ाइल को सुरक्षित करने की प्रक्रिया सीखें।
+### [खाली Word दस्तावेज़ बनाएं और एक साधारण‑पाठ नियंत्रण सम्मिलित करें](./create-blank-word-document-and-insert-a-plain-text-control/)
+खाली Word फ़ाइल बनाकर उसमें साधारण‑पाठ नियंत्रण जोड़ने की प्रक्रिया सीखें।
+### [Java के साथ Word दस्तावेज़ में रेडियल चार्ट बनाना](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में रेडियल चार्ट बनाने की प्रक्रिया सीखें।
+### [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन सम्मिलित करना](./create-word-document-programmatically-and-insert-a-button/)
+प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन जोड़ना सीखें।
+### [C# में एक खाली Word दस्तावेज़ बनाना और रडार चार्ट जोड़ना](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C# में एक खाली Word दस्तावेज़ बनाना और उसमें रडार चार्ट जोड़ना सीखें।
+### [Java के लिए Aspose.Words में पाई चार्ट डालना](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Java के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट जोड़ना सीखें। चरण-दर-चरण ट्यूटोरियल।
+### [Word दस्तावेज़ में बटन जोड़ने का तरीका – चरण‑दर‑चरण गाइड](./how-to-add-button-to-word-document-step-by-step-guide/)
+Word दस्तावेज़ में बटन कैसे डालें और उसकी कार्यक्षमता सेट करें, इस चरण‑दर‑चरण ट्यूटोरियल में सीखें।
+
+### [Word में पाई चार्ट कैसे डालें – डेटा लेबल प्रतिशत जोड़ें](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word दस्तावेज़ में पाई चार्ट डालें और डेटा लेबल में प्रतिशत दिखाएँ। चरण-दर-चरण ट्यूटोरियल।
+### [Java के लिए Aspose.Words में पाई स्लाइस को एक्सप्लोड करना](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Java में Aspose.Words चार्ट का उपयोग करके पाई स्लाइस को एक्सप्लोड करने की चरण-दर-चरण ट्यूटोरियल।
 ### [Java के साथ Word दस्तावेज़ में बटन की स्थिति सेट करना](./how-to-set-button-position-in-a-word-document-with-java/)
 ### [Java और Aspose.Words का उपयोग करके Word में चार्ट बनाना](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 ### [Java के लिए Aspose.Words में पाई चार्ट डालना – पूर्ण गाइड](./insert-pie-chart-word-in-java-complete-guide/)
@@ -78,10 +133,8 @@ Java में Aspose.Words का उपयोग करके पाई चा
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

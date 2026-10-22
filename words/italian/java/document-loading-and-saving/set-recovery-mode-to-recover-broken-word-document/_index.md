@@ -23,9 +23,8 @@ title: Imposta la modalità di recupero per ripristinare un documento Word danne
 url: /it/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

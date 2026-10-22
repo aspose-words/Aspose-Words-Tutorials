@@ -24,13 +24,10 @@ title: Zapisz docx jako markdown przy użyciu Aspose.Words – Kompletny przewod
 url: /pl/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-translated content.
 
-Check for any missed items: There's a blockquote after Step 2, we translated. There's a blockquote after Step 1, we translated. There's a blockquote after Step 2 (Why this step is essential). There's a blockquote after "What You’ll Need" (Pro tip). All good.
 
-Make sure to keep all code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

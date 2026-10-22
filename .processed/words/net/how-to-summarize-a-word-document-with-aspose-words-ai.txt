@@ -1,0 +1,7 @@
+Title: How to summarize a Word document with Aspose.Words AI
+Slug: how-to-summarize-a-word-document-with-aspose-words-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-07T14:57:24.747659
+SourceRepo: AI Search API
+Keywords: summarize word document, auto summarize word file
+PRNumber: 305

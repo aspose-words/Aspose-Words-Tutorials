@@ -23,9 +23,8 @@ title: Lägg till skugga på form i C# – Komplett guide för att tillämpa sku
 url: /sv/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/
 ---
 
-unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

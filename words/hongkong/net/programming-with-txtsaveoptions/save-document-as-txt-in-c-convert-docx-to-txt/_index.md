@@ -20,7 +20,7 @@ title: 在 C# 中將文件儲存為 TXT – 將 DOCX 轉換為 TXT
 url: /zh-hant/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

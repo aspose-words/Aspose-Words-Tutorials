@@ -25,7 +25,6 @@ title: bepaal bestandsextensie bij het converteren van DOCX naar Markdown – Co
 url: /nl/net/programming-with-markdownsaveoptions/determine-file-extension-while-converting-docx-to-markdown-c/
 ---
 
-with all translations and preserved formatting.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
