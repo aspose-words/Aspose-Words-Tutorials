@@ -102,6 +102,7 @@
 | [Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद करें](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में docx फ़ाइलों को फ्रेंच में अनुवाद करना सीखें। |
 | [एक खाली Word दस्तावेज़ बनाएं और इसे फ़्रेंच में अनुवादित करें](./create-a-blank-word-document-and-translate-it-to-french/) | एक खाली Word फ़ाइल बनाकर उसे फ़्रेंच में अनुवादित करने का तरीका सीखें। |
 | [C# में Aspose.Words AI के साथ स्ट्रिंग को स्पेनिश में अनुवाद करें](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में स्ट्रिंग को स्पेनिश में अनुवाद करने का तरीका सीखें। |
+| [पैराग्राफ को फ्रेंच में अनुवाद करें और Word में चार्ट लेबल बदलें](./translate-paragraph-to-french-and-change-chart-label-in-word/) | .NET के लिए Aspose.Words का उपयोग करके पैराग्राफ को फ्रेंच में अनुवाद करें और Word दस्तावेज़ में चार्ट लेबल बदलें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

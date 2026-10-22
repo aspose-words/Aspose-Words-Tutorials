@@ -103,6 +103,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
 | [Tạo tài liệu Word trống và dịch sang tiếng Pháp](./create-a-blank-word-document-and-translate-it-to-french/) | Tạo tài liệu Word mới và sử dụng Aspose.Words để dịch nội dung sang tiếng Pháp một cách nhanh chóng. |
 | [Dịch chuỗi sang tiếng Tây Ban Nha trong C# với Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Hướng dẫn dịch chuỗi sang tiếng Tây Ban Nha bằng AI trong Aspose.Words cho .NET. |
+| [Dịch đoạn văn sang tiếng Pháp và thay đổi nhãn biểu đồ trong Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Hướng dẫn dịch nội dung đoạn văn sang tiếng Pháp và chỉnh sửa nhãn biểu đồ trong tài liệu Word bằng Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

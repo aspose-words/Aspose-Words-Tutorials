@@ -102,6 +102,7 @@
 | [Μετάφραση docx στα γαλλικά με Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI σε .NET. |
 | [Δημιουργία κενής εγγράφου Word και μετάφραση στα γαλλικά](./create-a-blank-word-document-and-translate-it-to-french/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να το μεταφράσετε αυτόματα στα γαλλικά χρησιμοποιώντας Aspose.Words. |
 | [Μετάφραση συμβολοσειράς στα Ισπανικά σε C# με Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε κείμενο στα Ισπανικά σε C# χρησιμοποιώντας το Aspose.Words AI. |
+| [Μετάφραση παραγράφου στα γαλλικά και αλλαγή ετικέτας γραφήματος στο Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Μάθετε πώς να μεταφράσετε μια παράγραφο στα γαλλικά και να αλλάξετε την ετικέτα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

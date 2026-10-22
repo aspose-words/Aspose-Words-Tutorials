@@ -99,6 +99,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Překlad DOCX do francouzštiny s Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Naučte se, jak pomocí Aspose.Words a AI přeložit dokument DOCX do francouzštiny. |
 | [Vytvořte prázdný dokument Word a přeložte jej do francouzštiny](./create-a-blank-word-document-and-translate-it-to-french/) | Naučte se vytvořit prázdný dokument Word a pomocí Aspose.Words jej přeložit do francouzštiny. |
 | [Překlad řetězce do španělštiny v C# s Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Naučte se pomocí Aspose.Words AI v C# přeložit textové řetězce do španělštiny. |
+| [Přeložit odstavec do francouzštiny a změnit popisek grafu ve Wordu](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Naučte se, jak pomocí Aspose.Words přeložit odstavec do francouzštiny a upravit popisek grafu ve Word dokumentu. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

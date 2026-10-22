@@ -101,6 +101,7 @@
 | [使用 Aspose.Words AI 将 docx 翻译成法语](./translate-docx-to-french-with-aspose-words-ai/) 使用 Aspose.Words for .NET AI 功能，将 Word 文档快速翻译为法语的完整教程。|
 | [创建空白 Word 文档并翻译成法语](./create-a-blank-word-document-and-translate-it-to-french/) 使用 Aspose.Words for .NET 创建空白 Word 文档并将其内容翻译为法语的完整指南。|
 | [在 C# 中使用 Aspose.Words AI 将字符串翻译成西班牙语](./translate-string-to-spanish-in-c-with-aspose-words-ai/) 使用 Aspose.Words AI 在 C# 中将文本翻译为西班牙语，提供完整步骤和示例。|
+| [将段落翻译成法语并更改 Word 中的图表标签](./translate-paragraph-to-french-and-change-chart-label-in-word/) 使用 Aspose.Words for .NET 将段落翻译为法语并修改图表标签，实现多语言文档编辑。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

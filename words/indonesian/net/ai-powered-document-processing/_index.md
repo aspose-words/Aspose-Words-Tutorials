@@ -101,6 +101,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Ringkas Dokumen Word dalam C# – panduan lengkap Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Panduan lengkap untuk meringkas dokumen Word menggunakan Aspose.Words AI di C#. |
 | [Buat dokumen Word kosong dan terjemahkan ke bahasa Prancis](./create-a-blank-word-document-and-translate-it-to-french/) | Pelajari cara membuat dokumen Word kosong dan menerjemahkannya ke bahasa Prancis menggunakan Aspose.Words untuk .NET. |
 | [Menerjemahkan string ke bahasa Spanyol dalam C# dengan Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Pelajari cara menerjemahkan teks ke bahasa Spanyol menggunakan Aspose.Words AI dalam C# secara mudah. |
+| [Terjemahkan paragraf ke bahasa Prancis dan ubah label diagram di Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Pelajari cara menerjemahkan paragraf ke bahasa Prancis dan mengubah label diagram dalam dokumen Word menggunakan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

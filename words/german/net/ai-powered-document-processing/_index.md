@@ -103,6 +103,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [DOCX ins Französische übersetzen mit Aspose.Words KI](./translate-docx-to-french-with-aspose-words-ai/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words KI ins Französische übersetzen. |
 | [Erstellen Sie ein leeres Word-Dokument und übersetzen Sie es ins Französische](./create-a-blank-word-document-and-translate-it-to-french/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Dokument erstellen und automatisch ins Französische übersetzen. |
 | [String ins Spanische übersetzen in C# mit Aspose.Words KI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Erfahren Sie, wie Sie mit Aspose.Words KI einen Text in C# automatisch ins Spanische übersetzen. |
+| [Absatz ins Französische übersetzen und Diagrammbeschriftung in Word ändern](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Erfahren Sie, wie Sie einen Absatz ins Französische übersetzen und die Beschriftung eines Diagramms in Word anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

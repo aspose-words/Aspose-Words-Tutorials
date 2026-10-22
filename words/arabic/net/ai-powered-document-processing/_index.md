@@ -103,6 +103,7 @@
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | دليل شامل لترجمة مستندات docx إلى اللغة الفرنسية باستخدام تقنية Aspose.Words AI. |
 | [إنشاء مستند Word فارغ وترجمته إلى الفرنسية](./create-a-blank-word-document-and-translate-it-to-french/) | تعلم كيفية إنشاء مستند Word فارغ وترجمته إلى اللغة الفرنسية باستخدام Aspose.Words لـ .NET. |
 | [ترجمة نص إلى الإسبانية في C# باستخدام Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | دليل خطوة بخطوة لترجمة نصوص إلى اللغة الإسبانية باستخدام Aspose.Words AI في C#. |
+| [ترجمة فقرة إلى الفرنسية وتغيير تسمية المخطط في Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | تعلم كيفية ترجمة فقرة إلى الفرنسية وتعديل تسمية المخطط في مستند Word باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Traduzir docx para francês com Aspose.Words IA](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos Word para francês usando Aspose.Words para .NET com IA, passo a passo. |
 | [Criar um documento Word em branco e traduzi-lo para o francês](./create-a-blank-word-document-and-translate-it-to-french/) | Aprenda a criar um documento Word vazio e traduzi-lo para o francês usando Aspose.Words para .NET. |
 | [Traduzir string para espanhol em C# com Aspose.Words IA](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aprenda a traduzir strings para espanhol usando IA do Aspose.Words em C#. Guia passo a passo. |
+| [Traduzir parágrafo para francês e alterar rótulo de gráfico no Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aprenda a traduzir um parágrafo para francês e modificar o rótulo de um gráfico em documentos Word usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
