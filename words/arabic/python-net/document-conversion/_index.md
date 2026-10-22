@@ -193,6 +193,12 @@
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words لبايثون خطوة بخطوة.
 ### [إنشاء PDF ميسّر – دليل كامل مع Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 تعلم كيفية إنشاء ملفات PDF ميسّرة باستخدام Aspose.Words خطوة بخطوة.
+### [حفظ DOCX كـ TXT – تصدير معادلات Word إلى LaTeX باستخدام بايثون](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+تعلم كيفية حفظ مستندات DOCX كنص عادي وتصدير الصيغ الرياضية إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF قابل للوصول باستخدام بايثون – دليل شامل خطوة بخطوة](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+تعلم كيفية إنشاء ملفات PDF قابلة للوصول باستخدام بايثون مع Aspose.Words خطوة بخطوة.
+### [إنشاء PDF من مستند Word باستخدام بايثون – دليل خطوة بخطوة](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+تعلم كيفية تحويل مستندات Word إلى ملفات PDF باستخدام Aspose.Words لبايثون خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

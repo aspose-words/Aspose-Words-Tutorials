@@ -252,6 +252,14 @@ Dowiedz się, jak przy pomocy Aspose.Words dla Pythona zapisać plik DOCX jako P
 
 ### [Utwórz dostępny PDF – kompletny przewodnik z Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Dowiedz się, jak przy pomocy Aspose.Words dla Pythona tworzyć dostępne pliki PDF spełniające standardy WCAG.
+### [Zapisz docx jako txt – Eksportuj równania Word do LaTeX w Pythonie](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Dowiedz się, jak zapisać plik DOCX jako TXT i wyeksportować równania Word do LaTeX przy użyciu Aspose.Words for Python.
+
+### [Generowanie dostępnego PDF w Pythonie — Kompletny przewodnik krok po kroku](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python tworzyć dostępne pliki PDF, spełniające standardy WCAG.
+
+### [Tworzenie PDF z dokumentu Word w Pythonie – przewodnik krok po kroku](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować plik PDF z dokumentu Word w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

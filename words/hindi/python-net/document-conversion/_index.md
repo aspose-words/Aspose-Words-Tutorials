@@ -254,6 +254,14 @@ Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF
 
 ### [सुलभ PDF बनाएं – Aspose.Words के साथ पूर्ण गाइड](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Aspose.Words का उपयोग करके सुलभ PDF बनाने की पूरी प्रक्रिया सीखें, जिसमें टैगिंग, संरचना और पहुँच मानकों का पालन शामिल है।
+### [docx को txt के रूप में सहेजें – पायथन के साथ Word गणित को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+docx फ़ाइल को txt में बदलें और Word में मौजूद गणितीय समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करें।
+
+### [Python के साथ सुलभ PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Python के साथ सुलभ PDF बनाने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+
+### [पायथन में वर्ड दस्तावेज़ से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+पायथन का उपयोग करके वर्ड फ़ाइल को PDF में बदलने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

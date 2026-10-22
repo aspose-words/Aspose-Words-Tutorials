@@ -200,6 +200,12 @@ Apprenez à enregistrer un document Word en PDF en ajoutant une forme rectangula
 Apprenez à exporter des documents Word en PDF conforme PDF/UA avec Aspose.Words pour Python.
 ### [Enregistrer un DOCX en PDF avec Aspose.Words : guide étape par étape](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
 Apprenez à convertir un fichier DOCX en PDF avec Aspose.Words pour Python, étape par étape.
+### [Enregistrer docx en txt – Exporter les formules Word vers LaTeX avec Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Apprenez à enregistrer un fichier DOCX en texte brut et à convertir les équations Word en LaTeX à l'aide d'Aspose.Words pour Python.
+### [Générer un PDF accessible avec Python – Guide complet étape par étape](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Apprenez à créer des PDF accessibles avec Python en suivant un guide complet étape par étape, utilisant Aspose.Words.
+### [Créer un PDF à partir d'un document Word en Python – Guide étape par étape](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Apprenez à générer un PDF à partir d'un fichier Word en utilisant Aspose.Words pour Python, avec un guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

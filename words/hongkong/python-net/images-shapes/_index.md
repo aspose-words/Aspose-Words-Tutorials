@@ -85,6 +85,12 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何在 Word 形狀上套用陰影效果（使用 Aspose.Words）](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 了解如何使用 Aspose.Words 為 Word 文件中的形狀添加陰影效果，提升視覺呈現。
 
+    ### [建立空白 Word 文件並為形狀添加陰影 – 完整 Python 指南](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+了解如何使用 Python 在 Word 中建立空白文件，並為形狀添加陰影效果的完整步驟。
+
+    ### [建立空白 Word 文件並為形狀添加陰影 – 完整教學](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+了解如何使用 Aspose.Words for Python‑net 建立空白 Word 文件，並為形狀添加陰影的完整步驟。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

@@ -195,6 +195,12 @@
 Узнайте, как с помощью Aspose.Words для Python сохранять файлы DOCX в формате PDF, следуя полному пошаговому руководству.
 ### [Создание доступного PDF — Полное руководство с Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Узнайте, как с помощью Aspose.Words для Python создавать доступные PDF, соответствующие стандартам доступности.
+### [Сохранить DOCX как TXT – экспортировать математические формулы Word в LaTeX с помощью Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Узнайте, как сохранять DOCX в TXT и экспортировать формулы Word в LaTeX с помощью Aspose.Words для Python.
+### [Создание доступного PDF с Python — полное пошаговое руководство](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Узнайте, как с помощью Aspose.Words для Python генерировать PDF, соответствующие требованиям доступности, шаг за шагом.
+### [Создание PDF из документа Word в Python — пошаговое руководство](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать документ Word в PDF шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

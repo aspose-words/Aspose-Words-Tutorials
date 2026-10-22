@@ -260,6 +260,14 @@ Impara a convertire file DOCX in PDF usando Aspose.Words per Python con istruzio
 
 ### [Crea PDF accessibili – Guida completa con Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Impara a creare PDF accessibili usando Aspose.Words per Python. Guida passo passo per garantire l'accessibilità dei documenti.
+### [Salva DOCX come TXT – Esporta la matematica di Word in LaTeX con Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Salva DOCX come TXT ed esporta le equazioni Word in LaTeX usando Aspose.Words per Python.
+
+### [Genera PDF accessibile con Python – Guida completa passo‑passo](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Scopri come creare PDF accessibili con Aspose.Words per Python, passo dopo passo, per migliorare l'accessibilità dei tuoi documenti.
+
+### [Crea PDF da documento Word in Python – Guida passo‑passo](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Impara a generare PDF da file Word usando Aspose.Words per Python, con istruzioni passo passo per una conversione rapida.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

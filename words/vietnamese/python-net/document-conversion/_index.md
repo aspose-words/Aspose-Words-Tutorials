@@ -272,6 +272,15 @@ Hướng dẫn chi tiết cách lưu tệp DOCX dưới dạng PDF bằng Aspose
 ### [Tạo PDF có khả năng truy cập – Hướng dẫn đầy đủ với Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho Python, nâng cao tính bao gồm tài liệu.
 
+### [Lưu docx thành txt – Xuất công thức Word sang LaTeX bằng Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Hướng dẫn lưu tài liệu DOCX dưới dạng TXT và chuyển công thức Word sang LaTeX bằng Aspose.Words cho Python.
+
+### [Tạo PDF có khả năng truy cập với Python – Hướng dẫn đầy đủ từng bước](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho Python, bao gồm các bước cấu hình và tối ưu hoá.
+
+### [Tạo PDF từ tài liệu Word bằng Python – Hướng dẫn từng bước](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Hướng dẫn từng bước tạo PDF từ tài liệu Word bằng Aspose.Words cho Python, tối ưu chất lượng và bảo toàn định dạng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

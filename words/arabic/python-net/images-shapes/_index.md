@@ -70,6 +70,12 @@
 ### [كيفية إنشاء شكل مستطيل في مستند Word باستخدام Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 تعلم كيفية إنشاء شكل مستطيل داخل مستند Word باستخدام مكتبة Aspose.Words للغة Python.
 
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل بلغة Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words لبايثون خطوة بخطوة.
+
+### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+تعلم خطوة بخطوة كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

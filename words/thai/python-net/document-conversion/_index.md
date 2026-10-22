@@ -271,6 +271,15 @@
 ### [สร้าง PDF ที่เข้าถึงได้ – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐานด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
+### [บันทึกไฟล์ docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX ด้วย Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT และแปลงสมการ Word ไปเป็น LaTeX ด้วย Aspose.Words for Python
+
+### [สร้าง PDF ที่เข้าถึงได้ด้วย Python – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้สำหรับผู้ใช้ทุกคนด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
+### [สร้าง PDF จากเอกสาร Word ด้วย Python – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

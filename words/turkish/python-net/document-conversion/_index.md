@@ -257,6 +257,15 @@ Aspose.Words for Python kullanarak DOCX dosyalarını PDF'ye dönüştürmeyi ad
 ### [Erişilebilir PDF Oluşturma – Aspose.Words ile Tam Kılavuz](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Aspose.Words for Python kullanarak erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
+### [docx'i txt olarak kaydet – Word Matematiğini LaTeX'e Python ile Dışa Aktarın](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Aspose.Words for Python kullanarak docx dosyalarını txt'ye dönüştürün ve Word matematik ifadelerini LaTeX formatına aktarın.
+
+### [Python ile Erişilebilir PDF Oluşturma – Tam Adım‑Adım Kılavuz](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Aspose.Words for Python kullanarak erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
+
+### [Python'da Word Belgesinden PDF Oluşturma – Adım‑Adım Kılavuz](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Aspose.Words for Python kullanarak Word belgelerinden PDF dosyaları oluşturmayı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

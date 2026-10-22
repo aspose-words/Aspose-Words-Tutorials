@@ -256,6 +256,14 @@
 
 ### [创建可访问 PDF – 完整指南（使用 Aspose.Words）](./create-accessible-pdf-complete-guide-with-aspose-words/)
 学习使用 Aspose.Words for Python 创建符合可访问性标准的 PDF，确保文档对所有用户友好。
+### [将 docx 保存为 txt – 使用 Python 导出 Word 数学为 LaTeX](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+学习如何使用 Aspose.Words for Python 将 docx 文档导出为 txt，并将其中的数学公式转换为 LaTeX 代码。
+
+### [使用 Python 生成可访问 PDF – 完整分步指南](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+使用 Aspose.Words for Python 生成符合可访问性标准的 PDF，提供完整的分步指南。
+
+### [使用 Python 从 Word 文档创建 PDF – 完整分步指南](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+使用 Aspose.Words for Python 将 Word 文档转换为 PDF，提供完整的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

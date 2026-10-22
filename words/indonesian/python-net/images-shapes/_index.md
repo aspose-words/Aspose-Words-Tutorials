@@ -81,6 +81,12 @@ Pelajari cara menambahkan efek bayangan pada bentuk Word menggunakan Aspose.Word
 ### [Cara Membuat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Python.
 
+### [Buat Dokumen Word Kosong dan Tambahkan Bayangan pada Bentuk – Panduan Python Lengkap](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk Python-net.
+
+### [Buat Dokumen Word Kosong dan Tambahkan Bayangan pada Bentuk – Tutorial Lengkap](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Panduan lengkap untuk membuat dokumen Word kosong dan menambahkan bayangan pada bentuk menggunakan Aspose.Words untuk Python-net.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

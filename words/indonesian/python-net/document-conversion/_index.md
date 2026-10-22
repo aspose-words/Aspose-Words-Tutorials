@@ -199,6 +199,12 @@ Pelajari cara menyimpan file docx sebagai markdown dengan Aspose.Words untuk Pyt
 Pelajari cara menyimpan file DOCX sebagai PDF menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Buat PDF Aksesibel – Panduan Lengkap dengan Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Pelajari cara membuat PDF yang dapat diakses dengan Aspose.Words dalam panduan lengkap ini.
+### [Simpan DOCX sebagai TXT – Ekspor Matematika Word ke LaTeX dengan Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Pelajari cara mengekspor persamaan matematika dari dokumen Word ke format LaTeX dan menyimpan file DOCX sebagai TXT menggunakan Aspose.Words untuk Python.
+### [Buat PDF Aksesibel dengan Python – Panduan Lengkap Langkah demi Langkah](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Pelajari cara menghasilkan PDF yang ramah aksesibilitas menggunakan Aspose.Words untuk Python, termasuk tag, teks alternatif, dan struktur dokumen.
+### [Buat PDF dari Dokumen Word dengan Python – Panduan Langkah demi Langkah](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
