@@ -278,6 +278,8 @@ Aspose.Words for Python kullanarak docx dosyalarını erişilebilir PDF formatı
 
 ### [docx'i Python'da Aspose.Words ile txt'ye Dönüştürme](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Aspose.Words for Python kullanarak docx dosyalarını txt formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [DOCX'i Kurtarın ve Markdown ile PDF'ye Dönüştürme](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve aynı anda Markdown ve PDF formatlarına dönüştürün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

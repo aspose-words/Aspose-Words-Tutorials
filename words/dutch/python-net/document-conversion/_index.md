@@ -280,6 +280,8 @@ Leer hoe je docx-bestanden naar PDF converteert met behoud van toegankelijkheids
 
 ### [Hoe docx naar txt te converteren in Python met Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Leer hoe je docx-bestanden naar txt converteert met Aspose.Words voor Python.
+### [Herstel DOCX en converteer naar Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Leer hoe je beschadigde DOCX-bestanden kunt herstellen en ze naar Markdown en PDF kunt converteren met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

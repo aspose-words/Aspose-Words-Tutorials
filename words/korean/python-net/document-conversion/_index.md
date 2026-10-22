@@ -286,6 +286,9 @@ Python을 사용해 접근성 옵션을 포함하여 docx 파일을 PDF로 변�
 ### [Aspose.Words를 사용해 LaTeX 방정식이 포함된 docx를 txt로 저장하기](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Aspose.Words를 활용하여 LaTeX 방정식이 포함된 docx 파일을 텍스트 파일(txt)로 저장하는 방법을 단계별로 안내합니다.
 
+### [DOCX 복구 및 Markdown·PDF 변환 가이드](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+손상된 DOCX 파일을 복구하고, 이를 Markdown과 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

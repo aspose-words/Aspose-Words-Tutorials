@@ -276,6 +276,8 @@ Aspose.Words का उपयोग करके पायथन में docx 
 
 ### [Aspose.Words का उपयोग करके docx को txt में LaTeX समीकरणों के साथ कैसे सहेजें](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Aspose.Words के साथ docx फ़ाइल को txt में LaTeX समीकरणों सहित सहेजने की पूरी प्रक्रिया।
+### [DOCX को पुनर्प्राप्त करें और मार्कडाउन व PDF में बदलें](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+DOCX फ़ाइल को ठीक करें और उसे मार्कडाउन व PDF फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

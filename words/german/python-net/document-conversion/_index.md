@@ -217,6 +217,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python docx-Dateien in reine Textdat
 
 ### [Wie man DOCX als TXT mit LaTeX‑Formeln speichert – Vollständige Anleitung](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 Erfahren Sie, wie Sie mit Aspose.Words DOCX‑Dateien in Textdateien konvertieren und dabei LaTeX‑Formeln erhalten.
+### [Wie man DOCX wiederherstellt und in Markdown & PDF konvertiert](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen und anschließend mit Aspose.Words für Python in Markdown und PDF konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
