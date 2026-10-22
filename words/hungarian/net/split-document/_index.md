@@ -21,12 +21,14 @@ Split Document egy átfogó forrás, amely elmagyarázza, hogyan lehet egy dokum
 | Cím | Leírás |
 | --- | --- |
 | [Word dokumentum felosztása címsorok szerint HTML](./by-headings-html/) | Tanuld meg, hogyan bonthatsz fel egy Word-dokumentumot címsorok alapján HTML-re az Aspose.Words for .NET használatával. Kövesd részletes, lépésről lépésre szóló útmutatónkat. |
+| [Word-dokumentum felosztása szakaszokra címsorok szerint C#-ban](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Tanulja meg, hogyan bonthatsz fel egy Word-dokumentumot szakaszokra címsorok alapján C#-ban az Aspose.Words for .NET használatával. |
 | [Word dokumentum HTML-szekciók szerinti felosztása](./by-sections-html/) Tanuld meg, hogyan bonthatsz fel egy Word-dokumentumot HTML-re részekre az Aspose.Words for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. |
 | [Word dokumentum felosztása szakaszok szerint](./by-sections/) | Tanulja meg, hogyan oszthat fel egy Word-dokumentumot részekre az Aspose.Words for .NET segítségével. Kövesse ezt a részletes, lépésről lépésre szóló útmutatót a hatékony dokumentumkezeléshez. |
 | [Word-dokumentum felosztása oldalak szerint](./page-by-page/) | Tanulja meg, hogyan oszthat oldalakra egy Word-dokumentumot az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes a nagyméretű dokumentumok hatékony kezeléséhez. |
 | [Dokumentumok egyesítése](./merge-documents/) | Lépésről lépésre útmutató az Aspose.Words for .NET dokumentumegyesítési funkciójának C# forráskódjának magyarázatához |
 | [Word-dokumentum felosztása oldaltartomány szerint](./by-page-range/) | Tanulja meg, hogyan oszthat fel egy Word-dokumentumot oldaltartomány szerint az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes fejlesztők számára. |
-
+| [PDF létrehozása oldalakról – Külön oldalak kinyerése útmutató](./create-pdf-from-pages-extract-specific-pages-guide/) | Tanulja meg, hogyan hozhat létre PDF-et egy Word-dokumentumból, és nyerje ki a kívánt oldalakat az Aspose.Words for .NET segítségével. |
+| [Word-dokumentum felosztása különálló fájlokra C#-val](./how-to-split-word-document-into-separate-files-with-c/) | Tanulja meg, hogyan oszthat fel egy Word-dokumentumot különálló fájlokra C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

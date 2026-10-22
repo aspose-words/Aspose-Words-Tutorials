@@ -30,6 +30,9 @@ Aspose.Words for Python을 사용하여 미터링 라이선싱을 구현하고 �
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net에 대한 코드 튜토리얼
 
+### [CMake 프로젝트 빌드: 구성, 빌드 및 테스트](./build-cmake-project-configure-build-test/)
+CMake 프로젝트를 구성하고 빌드하며 테스트하는 방법을 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

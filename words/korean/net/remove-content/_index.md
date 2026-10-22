@@ -28,7 +28,7 @@ Word 문서를 조작, 생성, 변환 또는 생성해야 하는 경우, Aspose.
 | [Word 문서에서 구역 나누기 제거](./remove-section-breaks/) | Aspose.Words for .NET을 사용하여 Word 문서에서 구역 나누기를 제거하는 방법을 알아보세요. 이 자세하고 단계별 가이드를 통해 원활한 문서 관리 및 편집을 보장합니다.|
 | [Word 문서에서 바닥글 제거](./remove-footers/) 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에서 바닥글을 제거하는 방법을 알아보세요. |
 | [Word 문서에서 목차 제거](./remove-table-of-contents/) | Aspose.Words for .NET을 사용하여 Word 문서에서 목차를 제거하는 방법을 알아보세요. |
-
+| [C#에서 LLM 호출 방법 – 로컬 모델 완전 가이드](./how-to-call-llm-in-c-complete-guide-with-local-model/) | C#에서 로컬 LLM을 호출하고 활용하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

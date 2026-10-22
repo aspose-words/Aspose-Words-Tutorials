@@ -62,7 +62,6 @@ Voeg dit fragment toe aan je `pom.xml`‑bestand:
 
 ### Gradle
 Neem het volgende op in je `build.gradle`‑bestand:
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -76,6 +75,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Hier is een minimaal Java‑programma dat een leeg document maakt:
 
+De `Document`‑klasse is het kernobject dat een PDF, Word‑ of elk ondersteund bestand in het geheugen vertegenwoordigt. Na het toevoegen van de Maven‑dependency kun je deze als volgt instantiëren:
 ```java
 import com.aspose.words.Document;
 
@@ -93,7 +93,7 @@ Met de bibliotheek klaar, duiken we in de kernfuncties.
 
 ## Implementatie‑gids
 
-### Functie 1: Documentinitialisatie
+### Functie 1: documentinitialisatie
 
 #### Overzicht
 Het maken van een `GlossaryDocument` binnen een hoofd‑document stelt je in staat glossaria, stijlen en aangepaste onderdelen te beheren in een schone, geïsoleerde container.
@@ -272,6 +272,6 @@ A: Laad het document met `new Document("file.doc")`, roep `setPageColor` aan, en
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

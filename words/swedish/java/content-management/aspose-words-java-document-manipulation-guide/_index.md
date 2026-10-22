@@ -63,7 +63,6 @@ Lägg till detta kodavsnitt i din `pom.xml`‑fil:
 
 ### Gradle
 Inkludera följande i din `build.gradle`‑fil:
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -77,6 +76,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Här är ett minimalt Java‑program som skapar ett tomt dokument:
 
+`Document`‑klassen är kärnobjektet som representerar en PDF, Word eller någon annan stödd fil i minnet. Efter att ha lagt till Maven‑beroendet kan du instansiera den på följande sätt:
 ```java
 import com.aspose.words.Document;
 
@@ -117,7 +117,7 @@ public class DocumentInitialization {
 
 *Varför det är viktigt:* Detta mönster är grunden för **merging document sections** senare, eftersom varje sektion kan behålla sina egna stilar samtidigt som den fortfarande tillhör samma fil.
 
-### Funktion 2: Ställ in sidans bakgrundsfärg
+### Funktion 2: sätt sidbakgrundsfärg
 
 #### Översikt
 Du kan applicera en enhetlig nyans på varje sida med `Document.setPageColor`. Detta adresserar direkt huvudnyckelordet **set page background color**.
@@ -177,7 +177,7 @@ public class ImportNode {
 
 **Proffstips:** Efter import kan du anropa `dstDoc.updatePageLayout()` för att säkerställa att sidbrytningar samt sidhuvuden/sidfötter beräknas korrekt.
 
-### Funktion 4: Importera nod med anpassat formatläge
+### Funktion 4: importera nod med anpassat formatläge
 
 #### Översikt
 Ibland använder källan och destinationen olika stildefinitioner. `ImportFormatMode` låter dig bestämma om du ska behålla källstilarna eller tvinga destinationens stilar.
@@ -273,6 +273,6 @@ A: Ladda dokumentet med `new Document("file.doc")`, anropa `setPageColor` och sp
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

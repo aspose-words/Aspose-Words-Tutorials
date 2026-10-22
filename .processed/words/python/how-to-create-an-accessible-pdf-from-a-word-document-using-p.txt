@@ -1,0 +1,7 @@
+Title: How to create an accessible PDF from a Word document using Python
+Slug: how-to-create-an-accessible-pdf-from-a-word-document-using-p
+Category: document-conversion
+ProcessedDate: 2026-09-21T17:13:02.004368
+SourceRepo: AI Search API
+Keywords: create accessible pdf, convert docx to pdf, save word as pdf, accessible pdf from word, add accessibility to pdf
+PRNumber: 284

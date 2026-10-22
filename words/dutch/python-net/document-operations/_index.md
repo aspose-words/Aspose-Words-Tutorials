@@ -27,6 +27,13 @@ De categorie 'Documentbewerkingen' is speciaal ontwikkeld voor ontwikkelaars die
 ### [Geavanceerde PDF-manipulatie met Aspose.Words voor Python: een uitgebreide handleiding](./aspose-words-python-pdf-manipulation/)
 Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk en verwerk versleutelde documenten eenvoudig.
 
+### [Hoe docx te herstellen in Python met Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+
+### [Hoe een beschadigd Word-document te herstellen en het herstelde Word-bestand op te slaan met Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Leer hoe u beschadigde Word-documenten kunt herstellen en het herstelde bestand opslaan met Aspose.Words voor Python-net.
+
+    ### [Herstel beschadigd DOCX – stap‑voor‑stap gids](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python-net.
 ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
 Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp.
 

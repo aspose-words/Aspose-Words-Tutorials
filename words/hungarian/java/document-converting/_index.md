@@ -85,14 +85,27 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 
 ### [A dokumentumkonvertálási funkció használata](./using-document-converting/)
 ### [Dokumentumok exportálása PDF-be](./exporting-documents-to-pdf/)
-### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-formats/)
+### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-forms/)
 ### [HTML konvertálása dokumentumokká](./converting-html-documents/)
 ### [Dokumentumkonvertálás SaveOptions-szal](./document-conversion-saveoptions/)
 ### [Dokumentumé](./converting-documents-images/)
+### [DOCX mentése markdown formátumba az Aspose.Words segítségével – Teljes útmutató](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+### [DOCX konvertálása PDF-be Java‑ban – Lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+### [docx mentése pdf-be az Aspose.Words segítségével – Teljes Java útmutató](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+### [DOCX konvertálása TXT-re Java-ban – Teljes programozási útmutató](./convert-docx-to-txt-in-java-complete-programming-guide/)
+### [DOCX konvertálása Markdown formátumba az Aspose.Words Java‑val – Teljes útmutató](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+### [DOCX konvertálása PDF-re Java‑ban – Egyszerű alacsony kódkörű útmutató](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+### [Markdown mentése DOCX-be az Aspose.Words segítségével – Java útmutató](./save-markdown-as-docx-with-aspose-words-java-guide/)
+### [Java konvertálás Markdown-ból Word-be – Markdown to DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+### [DOCX konvertálása PDF-re Java‑ban – Hozzáférhető PDF útmutató](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+### [Word mentése Markdown formátumba – Teljes Java útmutató (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+### [Markdown konvertálása docx-be Java‑ban – lépésről‑lépésre útmutató](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+### [Markdown konvertálása docx formátumba Java és Aspose.Words segítségével](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+### [Markdown mentése DOCX-be Java-val – Teljes útmutató](./how-to-save-markdown-as-docx-using-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 
-**Q:** *Konvertálhatok jelszóval védett Word fájlokat PDF-re?*  
+**Q:** *Konvertálhatok jelszóvel védett Word fájlokat PDF-re?*  
 **A:** Igen. Töltse be a dokumentumot a jelszóval (`LoadOptions`), majd mentse PDF-ként.
 
 **Q:** *Mi a legjobb mód több DOCX fájl egyesítésére a PDF-re konvertálás előtt?*  

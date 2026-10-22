@@ -31,6 +31,9 @@
 ### [إتقان التعامل مع مشاريع VBA في Java باستخدام واجهة برمجة تطبيقات Aspose.Words](./master-vba-project-manipulation-aspose-java/)
 تعرف على كيفية أتمتة معالجة المستندات وتعزيز الإنتاجية من خلال معالجة مشاريع VBA داخل مستندات Word باستخدام Aspose.Words for Java.
 
+### [كيفية إنشاء عنصر تحكم ActiveX في مستند Word باستخدام C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+تعلم كيفية إنشاء عنصر تحكم ActiveX داخل مستند Word باستخدام لغة C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
