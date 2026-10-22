@@ -81,6 +81,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Schatten zu Word-Formen hinzufügen – Vollständige C#‑Anleitung](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lernen Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und visuelle Effekte erzeugen. |
 | [Wie man Schatten auf Formen in C# setzt – Vollständiger Aspose.Words Leitfaden](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Lernen Sie Schritt für Schritt, wie Sie mit Aspose.Words für .NET in C# Schatten zu Formen hinzufügen. |
 | [Wie man ein verstecktes Shape‑DOCX mit Aspose.Words in C# erstellt](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein verstecktes Shape in einem DOCX-Dokument in C# erzeugen. |
+| [Word-Dokument programmgesteuert erstellen und Formen gruppieren in C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word‑Dokument programmgesteuert erstellen und Formen gruppieren. |
+| [Rechteckform in Word mit C# einfügen – vollständige Anleitung](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word‑Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

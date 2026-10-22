@@ -39,6 +39,7 @@
 
 | [Πώς να εισαγάγετε κουμπί εντολής OLE σε έγγραφο Word χρησιμοποιώντας C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Μάθετε πώς να προσθέσετε κουμπί εντολής OLE σε έγγραφα Word με C# χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να προσθέσετε ένα κουμπί εντολής προγραμματιστικά σε έγγραφο Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε προγραμματιστικά ένα κουμπί εντολής σε έγγραφα Word με Aspose.Words για .NET. |
+| [Δημιουργία εγγράφου Word προγραμματιστικά και προσθήκη κουμπιού ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word προγραμματιστικά και να προσθέσετε κουμπί ActiveX χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

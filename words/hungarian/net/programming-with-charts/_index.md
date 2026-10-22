@@ -62,6 +62,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Hogyan hozzunk létre Word dokumentumot C#-ban oszlopdiagrammal és formázott címkékkel](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Tanulja meg, hogyan hozhat létre Word dokumentumot C#-ban oszlopdiagrammal és testre szabhatja a címkéket. |
 | [Területdiagram beszúrása Word dokumentumba](./insert-area-chart/) | Tanulja meg, hogyan szúrhat be területdiagramot egy Word-dokumentumba az Aspose.Words for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |
 | [Buborékdiagram beszúrása Word dokumentumba](./insert-bubble-chart/) | Tanulja meg, hogyan szúrhat be buborékdiagramot egy Word-dokumentumba az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tegye teljessé dokumentumait. |
+| [Radar diagram létrehozása Word dokumentumban – teljes C# útmutató](./create-radar-chart-in-a-word-document-complete-c-guide/) | Tanulja meg, hogyan hozhat létre radar diagramot Word dokumentumban az Aspose.Words for .NET segítségével, részletes C# útmutatóval. |
 | [Szórásdiagram beszúrása Word dokumentumba](./insert-scatter-chart/) | Ismerje meg, hogyan szúrhat be szóródási diagramot Wordben az Aspose.Words for .NET segítségével. Egyszerű lépések a vizuális adatábrázolások dokumentumokba integrálásához. |
 | [XY tengely tulajdonságainak definiálása egy diagramban](./define-xyaxis-properties/) Tanulja meg, hogyan definiálhatja az XY tengely tulajdonságait egy diagramban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes .NET fejlesztők számára. |
 | [Dátum/idő értékek hozzáadása egy diagram tengelyéhez](./date-time-values-to-axis/) | Tanulja meg, hogyan adhat hozzá dátum- és időértékeket egy diagram tengelyéhez az Aspose.Words for .NET használatával ebben az átfogó, lépésről lépésre szóló útmutatóban. |
@@ -86,6 +87,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Word dokumentum létrehozása testreszabott kördiagrammal C#-ban](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Tanulja meg, hogyan hozhat létre Word dokumentumot testreszabott kördiagrammal C#-ban az Aspose.Words for .NET használatával. |
 | [Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Tanulja meg, hogyan menthet egy módosított Word-dokumentumot, ahol a kördiagram szeletek széttörve vannak, C#-ban az Aspose.Words használatával. |
 | [Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Tanulja meg, hogyan állíthat be hisztogram bin-számot és adhat hozzá adatcímkéket egy Word-diagramban C#-ban az Aspose.Words for .NET segítségével. |
+| [Kördiagram létrehozása Word dokumentumban az Aspose.Words használatával](./create-pie-chart-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

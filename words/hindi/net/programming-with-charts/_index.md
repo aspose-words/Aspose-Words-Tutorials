@@ -62,6 +62,7 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में पाई चार्ट बनाएं – चरण-दर-चरण गाइड](./create-pie-chart-word-in-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में पाई चार्ट बनाना सीखें। अपने Word दस्तावेज़ में डेटा विज़ुअलाइज़ेशन जोड़ें। |
 | [C# के साथ कॉलम चार्ट और फ़ॉर्मेटेड लेबल के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# का उपयोग करके कॉलम चार्ट और फ़ॉर्मेटेड डेटा लेबल के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
 | [Aspose.Words के साथ Word दस्तावेज़ में पाई चार्ट बनाना](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट कैसे बनाएं, सीखें। |
+| [Word दस्तावेज़ में रडार चार्ट बनाना – पूर्ण C# गाइड](./create-radar-chart-in-a-word-document-complete-c-guide/) | C# का उपयोग करके Word दस्तावेज़ में रडार चार्ट बनाने की पूरी गाइड। |
 | [चार्ट में XY अक्ष गुण परिभाषित करें](./define-xyaxis-properties/) इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में XY अक्ष गुणधर्मों को परिभाषित करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही। |
 | [चार्ट के अक्ष में दिनांक समय मान जोड़ें](./date-time-values-to-axis/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट के अक्ष में दिनांक और समय मान जोड़ना सीखें। |
 | [चार्ट में अक्ष के लिए संख्या प्रारूप](./number-format-for-axis/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट अक्ष संख्याओं को प्रारूपित करना सीखें। अपने दस्तावेज़ की पठनीयता और व्यावसायिकता को सहजता से बढ़ाएँ। |
@@ -84,6 +85,7 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# में Aspose.Words का उपयोग करके अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
 | [Aspose.Words रेडियल चार्ट उदाहरण: C# में ग्रेजुएशन सक्षम करें](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words में रेडियल चार्ट पर ग्रेजुएशन सक्षम करने का चरण-दर-चरण उदाहरण। |
 | [C# में विस्फोटित पाई चार्ट स्लाइस के साथ संशोधित दस्तावेज़ सहेजें](./save-modified-document-with-exploded-pie-chart-slices-in-c/) |  |
+| [Aspose.Words के साथ पाई चार्ट वाला Word दस्तावेज़ बनाएं](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट बनाने की चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

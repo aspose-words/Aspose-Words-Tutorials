@@ -27,6 +27,7 @@
 | [Как изменить разделитель сносок и настроить его стиль в документе Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Узнайте, как изменить разделитель сносок и настроить его стиль в документах Word с помощью Aspose.Words для .NET. |
 
 | [Получить разделитель сноски в C# – полное руководство Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Узнайте, как получить разделитель сноски в документах Word с помощью Aspose.Words для .NET на C#. |
+| [Форматировать разделитель сноски в C# с помощью Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Узнайте, как форматировать разделитель сносок в документах Word с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

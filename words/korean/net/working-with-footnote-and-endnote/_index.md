@@ -27,6 +27,7 @@
 | [C#에서 각주 구분자 가져오기 – 완전한 Aspose.Words 가이드](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 각주 구분자를 가져오는 방법을 단계별로 안내합니다. |
 | [Word 문서에서 각주 구분자를 변경하고 스타일을 사용자 지정하는 방법](./how-to-change-footnote-separator-and-customize-its-style-in/) | Aspose.Words for .NET을 사용하여 Word 문서의 각주 구분자를 변경하고 스타일을 맞춤 설정하는 방법을 단계별로 안내합니다. |
 
+| [C#에서 Aspose.Words를 사용하여 각주 구분자 서식 지정](./format-footnote-separator-in-c-using-aspose-words/) | Aspose.Words for .NET을 사용해 C#에서 각주 구분자를 사용자 지정하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,8 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Cómo crear un documento Word en C# con un gráfico de columnas y etiquetas formateadas](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aprenda a generar un documento Word en C# con un gráfico de columnas y etiquetas de datos con formato personalizado usando Aspose.Words. |
 | [Cómo crear un documento Word con un gráfico circular personalizado en C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) Aprenda a crear un documento Word con un gráfico circular personalizado usando Aspose.Words para .NET en C#. |
 | [Cómo formatear un gráfico en Word con C# y formatos de número personalizados](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) Aprenda a aplicar formatos de número personalizados a los gráficos en documentos Word usando Aspose.Words para .NET y C#. 
+| [Crear un gráfico de radar en un documento de Word – guía completa en C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Guía completa paso a paso en C# para crear gráficos de radar en documentos de Word con Aspose.Words. |
+| [Crear gráfico de pastel en documento Word con Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Aprenda a crear un gráfico de pastel en un documento de Word usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

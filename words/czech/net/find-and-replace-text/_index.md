@@ -40,6 +40,7 @@ Ať už potřebujete nahradit konkrétní slova, aktualizovat textové šablony 
 | [Nahrazení textu v docx pomocí C# – Kompletní průvodce krok za krokem](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Podrobný návod, jak pomocí Aspose.Words pro .NET a C# nahradit text v souborech DOCX krok za krokem. |
 | [Jak přepsat odstavec pomocí AI v C# – Kompletní průvodce](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Naučte se, jak pomocí AI automaticky přepsat odstavec v C# s podrobným návodem a ukázkami kódu. |
 | [Jak vygenerovat šablonu dokumentu a naplnit ji daty v C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Naučte se vytvořit šablonu dokumentu a naplnit ji daty pomocí Aspose.Words pro .NET v C#. |
+| [Automatizace generování dokumentů Word pomocí Aspose.Words v C#](./automate-word-document-generation-with-aspose-words-in-c/) | Naučte se automatizovat tvorbu dokumentů Word v C# pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

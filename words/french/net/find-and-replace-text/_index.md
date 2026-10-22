@@ -37,6 +37,7 @@ Que vous ayez besoin de remplacer des mots spécifiques, de mettre à jour des m
 | [Remplacer le texte dans le tableau](./replace-text-in-table/) | Remplacez sans effort du texte dans un tableau Word à l'aide d'Aspose.Words pour .NET avec ce guide détaillé, étape par étape. |
 | [Remplacer du texte dans DOCX avec C# – Guide étape par étape](./replace-text-in-docx-with-c-step-by-step-guide/) | Apprenez à remplacer du texte dans un fichier DOCX en utilisant C# avec Aspose.Words pour .NET, guide complet étape par étape. |
 | [Remplacer du texte dans un docx avec C# – Guide complet étape par étape](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Apprenez à remplacer du texte dans des fichiers docx en C# avec Aspose.Words, étape par étape, pour automatiser vos documents. |
+| [Automatiser la génération de documents Word avec Aspose.Words en C#](./automate-word-document-generation-with-aspose-words-in-c/) | Apprenez à créer automatiquement des documents Word en C# avec Aspose.Words, grâce à un guide détaillé pas à pas. |
 
 | [Comment réécrire un paragraphe avec l'IA en C# – Guide complet](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Apprenez à réécrire automatiquement des paragraphes en C# en utilisant l'intelligence artificielle avec Aspose.Words pour .NET. |
 | [Comment générer un modèle de document et le remplir avec des données en C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Apprenez à créer un modèle de document Word et à le remplir avec des données en C# à l'aide d'Aspose.Words. |

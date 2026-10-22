@@ -41,6 +41,7 @@ Quer você precise substituir palavras específicas, atualizar modelos de texto 
 | [Substituir texto em docx com C# – Guia completo passo a passo](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Aprenda a substituir texto em arquivos docx usando C# com um guia detalhado passo a passo. |
 | [Como Reescrever Parágrafos com IA em C# – Guia Completo](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Aprenda a usar IA para reescrever parágrafos em C# com um guia completo passo a passo usando Aspose.Words. |
 | [Como gerar modelo de documento e preenchê-lo com dados em C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aprenda a criar um modelo de documento Word e preenchê-lo com dados usando C# e Aspose.Words para .NET. |
+| [Automatizar a geração de documentos Word com Aspose.Words em C#](./automate-word-document-generation-with-aspose-words-in-c/) | Aprenda a gerar documentos Word programaticamente usando Aspose.Words em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

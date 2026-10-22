@@ -31,6 +31,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Vorm invoegen](./insert-shape/) | Leer hoe u vormen in Word-documenten kunt invoegen en bewerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [Rechthoekvorm maken in Word met C# – Stapsgewijze handleiding](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Leer hoe u een rechthoekvorm toevoegt en configureert in een Word‑document met C#. |
 | [Rechthoekvorm maken en meerdere vormen groeperen in C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Leer hoe u een rechthoekvorm maakt en meerdere vormen groepeert in een Word‑document met C# en Aspose.Words voor .NET. |
+| [Rechthoekvorm invoegen in Word met C# – volledige gids](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Leer hoe u een rechthoekvorm invoegt in een Word‑document met C# via een volledige stap‑voor‑stap gids. |
 | [Beeldverhouding vergrendeld](./aspect-ratio-locked/) | Leer hoe u de beeldverhouding van vormen in Word-documenten kunt vergrendelen met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding om uw afbeeldingen en vormen proportioneel te houden. |
 | [Lay-out in cel](./layout-in-cell/) | Leer hoe u de lay-out van een cel instelt met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor ontwikkelaars die Word-documenten willen aanpassen. |
 | [Voeg afgeknipte hoeken toe](./add-corners-snipped/) | Leer hoe u een hoekige vorm toevoegt aan uw Word-documenten met Aspose.Words voor .NET. Met deze stapsgewijze handleiding kunt u uw documenten eenvoudig verbeteren. |
@@ -81,6 +82,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Hoe vormen groeperen in Word met Aspose.Words voor C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Leer hoe u meerdere vormen groepeert in een Word‑document met Aspose.Words voor .NET in C#. |
 | [Leeg Word‑document maken en groepsvormen toevoegen in C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Leer hoe u een leeg Word‑document maakt en groepsvormen toevoegt met Aspose.Words voor .NET in C#. |
 | [Groepsvormen in Word met C# – volledige programmeergids](./group-shapes-in-word-using-c-complete-programming-guide/) | Leer hoe u groepsvormen in Word maakt en beheert met C# in deze volledige gids. |
+| [Word-document programmatisch maken en vormen groeperen in C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Leer hoe u een Word‑document maakt en vormen groepeert met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

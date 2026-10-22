@@ -79,6 +79,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengelompokkan Bentuk di Word menggunakan C# dan Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Pelajari cara mengelompokkan bentuk di Word dengan C# dan Aspose.Words dalam panduan langkah demi langkah. |
 | [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word kosong dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Mengelompokkan Bentuk di Word menggunakan C# – panduan pemrograman lengkap](./group-shapes-in-word-using-c-complete-programming-guide/) | Pelajari cara mengelompokkan bentuk di Word menggunakan C# dengan panduan pemrograman lengkap. |
+| [Buat dokumen Word secara programatis dan grupkan bentuk di C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word secara programatis dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan C#. |
+| [Sisipkan bentuk persegi panjang di Word dengan C# – panduan lengkap](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Pelajari cara menyisipkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

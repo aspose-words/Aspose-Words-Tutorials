@@ -64,6 +64,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment créer un histogramme dans Word avec Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Apprenez à créer un histogramme dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 | [Insérer un graphique en aires dans un document Word](./insert-area-chart/) | Apprenez à insérer un graphique en aires dans un document Word à l'aide d'Aspose.Words pour .NET dans ce guide complet étape par étape. |
 | [Insérer un graphique à bulles dans un document Word](./insert-bubble-chart/) | Apprenez à insérer un graphique à bulles dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Améliorez vos documents. |
+| [Créer un graphique en secteurs dans un document Word avec Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Apprenez à créer un graphique en secteurs dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 | [Insérer un graphique en nuage de points dans un document Word](./insert-scatter-chart/) | Apprenez à insérer un graphique en nuage de points dans Word avec Aspose.Words pour .NET. Étapes simples pour intégrer des représentations visuelles de données à vos documents. |
 | [Insérer un graphique en secteurs dans un document Word](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Apprenez à créer un graphique en secteurs dans Word avec Aspose.Words grâce à ce guide étape par étape. |
 | [Définir les propriétés de l'axe XY dans un graphique](./define-xyaxis-properties/) Apprenez à définir les propriétés de l'axe XY dans un graphique avec Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs .NET. |
@@ -88,6 +89,8 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment créer un document Word avec un graphique circulaire personnalisé en C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Apprenez à générer un document Word contenant un diagramme circulaire personnalisé avec Aspose.Words pour .NET en C#. |
 | [Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Enregistrez un document Word contenant un graphique circulaire éclaté avec Aspose.Words pour .NET. |
 | [Comment formater un graphique dans Word avec C# et des formats numériques personnalisés](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Apprenez à appliquer des formats numériques personnalisés aux graphiques Word avec Aspose.Words pour .NET en C#. |
+| [Créer un graphique radar dans un document Word – guide complet C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Apprenez à créer un graphique radar dans Word avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

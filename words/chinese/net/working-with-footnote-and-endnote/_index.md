@@ -27,6 +27,7 @@
 | [在 C# 中检索脚注分隔符 – 完整 Aspose.Words 指南](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) 了解如何使用 Aspose.Words for .NET 在 C# 中获取脚注分隔符的完整步骤和示例代码。|
 | [如何更改脚注分隔符并自定义其样式](./how-to-change-footnote-separator-and-customize-its-style-in/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中更改脚注分隔符并自定义其样式。|
 
+| [在 C# 中使用 Aspose.Words 格式化脚注分隔符](./format-footnote-separator-in-c-using-aspose-words/) 了解如何使用 Aspose.Words for .NET 在 C# 中自定义脚注分隔符的样式和布局。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

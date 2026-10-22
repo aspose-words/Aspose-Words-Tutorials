@@ -99,6 +99,8 @@
 | [Резюмирование документа Word с ИИ‑резюмированием](./summarize-word-document-with-ai-document-summarization/) | Полное руководство по резюмированию документов Word с использованием ИИ‑технологий. |
 | [Как перевести docx на французский с помощью ИИ в C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу DOCX‑файлов на французский язык с использованием ИИ и Aspose.Words в C#. |
 | [Добавить резюме в документ Word с помощью Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Узнайте, как автоматически добавить резюме в документ Word, используя возможности AI Aspose.Words. |
+| [Резюмирование документа Word на C# – полное руководство по Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Полное пошаговое руководство по использованию Aspose.Words AI для резюмирования документов Word на C#. |
+| [Перевод DOCX на французский с помощью Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Узнайте, как использовать Aspose.Words AI для автоматического перевода файлов DOCX на французский язык. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

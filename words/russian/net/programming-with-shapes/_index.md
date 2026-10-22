@@ -80,6 +80,8 @@
 | [Как добавить тень к фигурам Word – Полное руководство C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Узнайте, как добавить тень к фигурам в Word с помощью Aspose.Words для .NET в полном руководстве на C#. |
 | [Как установить тень для фигур в C# – Полное руководство Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как создать скрытую форму docx с Aspose.Words на C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Узнайте, как создать скрытую форму в документе docx с помощью Aspose.Words на C#. |
+| [Создать документ Word программно и сгруппировать фигуры в C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Узнайте, как программно создать документ Word и объединить фигуры в одну группу с помощью Aspose.Words для .NET. |
+| [Вставить прямоугольную форму в Word с C# – полное руководство](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Узнайте, как вставить прямоугольную форму в документ Word с помощью C# в этом полном пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

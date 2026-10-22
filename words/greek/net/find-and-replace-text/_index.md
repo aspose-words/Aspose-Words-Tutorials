@@ -40,6 +40,7 @@
 | [Πώς να Ξαναγράψετε Παράγραφο με AI σε C# – Πλήρης Οδηγός](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Μάθετε πώς να χρησιμοποιήσετε AI για να ξαναγράψετε παραγράφους σε C# με πλήρη οδηγό βήμα-βήμα. |
 | [Πώς να δημιουργήσετε πρότυπο εγγράφου και να το συμπληρώσετε με δεδομένα σε C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Μάθετε πώς να δημιουργήσετε πρότυπο εγγράφου Word και να το γεμίσετε με δεδομένα χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να αντικαταστήσετε σύμβολα κράτησης θέσης σε αρχεία docx με το Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Μάθετε πώς να αντικαθιστάτε σύμβολα κράτησης θέσης σε αρχεία DOCX με το Aspose.Words για .NET. |
+| [Αυτοματοποιήστε τη δημιουργία εγγράφων Word με το Aspose.Words σε C#](./automate-word-document-generation-with-aspose-words-in-c/) | Μάθετε πώς να αυτοματοποιήσετε τη δημιουργία εγγράφων Word χρησιμοποιώντας το Aspose.Words με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

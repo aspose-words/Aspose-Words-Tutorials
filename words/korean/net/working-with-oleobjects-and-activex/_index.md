@@ -40,6 +40,7 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 | [Word에 OleControlType.CommandButton 예제 삽입](./insert-olecontroltype-commandbutton-example-in-word/) | Aspose.Words for .NET을 사용하여 Word 문서에 OleControlType.CommandButton을 삽입하는 방법을 단계별로 안내합니다. |
 | [C#를 사용하여 Word에 ActiveX 컨트롤을 추가하는 방법](./how-to-add-an-activex-control-word-in-word-with-c/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 ActiveX 컨트롤을 삽입하는 단계별 가이드 |
 
+| [프로그래밍으로 워드 문서를 만들고 ActiveX 버튼 추가](./create-word-document-programmatically-and-add-activex-button/) | Aspose.Words for .NET을 사용하여 프로그래밍으로 워드 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

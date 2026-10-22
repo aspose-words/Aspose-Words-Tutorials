@@ -99,6 +99,8 @@
 | [使用 AI 文件摘要匯總 Word 文件](./summarize-word-document-with-ai-document-summarization/) |使用 Aspose.Words for .NET 與 AI 進行 Word 文件的自動摘要與匯總。 |
 | [如何在 C# 中使用 AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中自動將 DOCX 文件翻譯為法語。 |
 | [使用 Aspose.Words AI 為 Word 文件添加摘要](./add-summary-to-word-document-with-aspose-words-ai/) |使用 Aspose.Words for .NET AI 功能，快速為 Word 文件生成摘要，提高工作效率。 |
+| [在 C# 中匯總 Word 文件 – 完整的 Aspose.Words AI 指南](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) |使用 Aspose.Words for .NET 及 AI 完整步驟，於 C# 中快速匯總 Word 文件，提升效率與洞察。 |
+| [使用 Aspose.Words AI 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-ai/) |使用 Aspose.Words for .NET 與 AI 將 docx 文件翻譯為法語，快速且精準的翻譯指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

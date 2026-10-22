@@ -82,6 +82,8 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Tạo tài liệu Word trống và thêm các hình dạng màu sắc với Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng màu sắc bằng Aspose.Words cho .NET. |
 | [Cách tạo tài liệu docx có hình dạng ẩn bằng Aspose.Words trong C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Hướng dẫn tạo tệp docx chứa hình dạng ẩn bằng Aspose.Words cho .NET sử dụng C#. |
 | [Cách tạo tài liệu Word trống và nhóm các hình dạng trong C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Hướng dẫn tạo tài liệu Word trống và thêm nhóm hình dạng bằng Aspose.Words cho .NET trong C#. |
+| [Tạo tài liệu Word bằng chương trình và nhóm các hình dạng trong C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Hướng dẫn tạo tài liệu Word và nhóm các hình dạng bằng C# sử dụng Aspose.Words. |
+| [Chèn hình chữ nhật trong Word bằng C# – hướng dẫn đầy đủ](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

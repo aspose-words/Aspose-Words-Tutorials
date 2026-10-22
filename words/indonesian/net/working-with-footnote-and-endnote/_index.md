@@ -27,6 +27,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengambil Pemisah Catatan Kaki di C# – Panduan Lengkap Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Pelajari cara mengambil pemisah catatan kaki dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap. |
 | [Cara mengubah pemisah catatan kaki dan menyesuaikan gayanya dalam dokumen Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Pelajari cara mengubah pemisah catatan kaki serta menyesuaikan gaya pemisahnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 
+| [Format pemisah catatan kaki dalam C# menggunakan Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Pelajari cara memformat pemisah catatan kaki dalam dokumen Word menggunakan C# dan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

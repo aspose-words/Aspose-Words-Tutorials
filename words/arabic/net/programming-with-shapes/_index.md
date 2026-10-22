@@ -40,6 +40,7 @@
 | [إضافة تأثير الظل إلى أشكال Word – دليل C# كامل](./add-shadow-effect-to-word-shapes-complete-c-guide/) | تعرّف على كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لـ .NET عبر دليل شامل خطوة بخطوة. |
 | [إنشاء مستند Word مع مستطيل بظل – دليل خطوة بخطوة](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | تعرف على كيفية إنشاء مستند Word يحتوي على مستطيل بظل باستخدام Aspose.Words for .NET من خلال دليل خطوة بخطوة. |
 | [إنشاء شكل مستطيل في Word باستخدام C# – دليل خطوة بخطوة](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) |تعلم كيفية إنشاء شكل مستطيل في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
+| [إدراج شكل مستطيل في Word باستخدام C# – دليل كامل](./insert-rectangle-shape-in-word-with-c-complete-guide/) |تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# خطوة بخطوة. |
 | [دروس Aspose.Words للظل على الشكل – إضافة ظل إلى شكل Word باستخدام C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) |تعرف على كيفية إضافة ظل إلى شكل Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
 | [إنشاء مستند Word فارغ مع شكل مستطيل مظلّل – دليل خطوة بخطوة](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | تعرّف على كيفية إنشاء مستند Word فارغ وإضافة شكل مستطيل مظلّل باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء مستند Word فارغ وإضافة أشكال ملونة باستخدام Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | تعرّف على كيفية إنشاء مستند Word فارغ وإضافة أشكال ملونة باستخدام Aspose.Words في دليل خطوة بخطوة. |
@@ -81,6 +82,7 @@
 | [كيفية تجميع الأشكال في Word باستخدام Aspose.Words لـ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية إنشاء مستند Word فارغ وتجمّع الأشكال في C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words وC#. |
+| [إنشاء مستند Word برمجيًا وتجمّع الأشكال في C#](./create-word-document-programmatically-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word برمجيًا وإضافة مجموعة من الأشكال باستخدام Aspose.Words for .NET وC#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,7 +29,7 @@ Med dessa handledningar kommer du att kunna bemästra de digitala signaturfunkti
 | [Ange signaturleverantörs-ID i Word-dokument](./set-signature-provider-id/) Ställ in ett signaturleverantörs-ID säkert i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade guide på 2000 ord för att signera dina dokument digitalt. |
 | [Skapa ny signaturrad och ange leverantörs-ID](./create-new-signature-line-and-set-provider-id/) | Lär dig hur du skapar en ny signaturrad och anger leverantörs-ID i Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide. |
 | [Åtkomst och verifiering av signatur i Word-dokument](./access-and-verify-signature/) | Få åtkomst till och verifiera digitala signaturer i Word-dokument med Aspose.Words för .NET med denna omfattande steg-för-steg-guide. Säkerställ dokumentäkthet utan ansträngning. |
-
+| [Lägg till digital signatur i PDF i C# med Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Lär dig hur du lägger till en digital signatur i PDF med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

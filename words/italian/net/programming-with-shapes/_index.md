@@ -41,6 +41,7 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Crea documento Word con un rettangolo ombreggiato – Guida passo‑passo](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Scopri come creare un documento Word con un rettangolo ombreggiato usando Aspose.Words per .NET in questa guida dettagliata. |
 | [Crea forma rettangolare in Word usando C# – Guida passo‑passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Scopri come creare una forma rettangolare in Word con C# tramite una guida dettagliata passo passo. |
 | [Crea forma rettangolare e raggruppa più forme in C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Scopri come creare una forma rettangolare e raggruppare più forme in un documento Word usando Aspose.Words per .NET con C#. |
+| [Inserisci forma rettangolare in Word con C# – guida completa](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Scopri come inserire una forma rettangolare in Word usando C# con questa guida completa. |
 | [Tutorial Ombra Forma Aspose.Words – Aggiungi un'ombra a una forma Word in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Scopri come aggiungere un'ombra alle forme nei documenti Word con Aspose.Words per .NET in C#. |
 | [Crea documento Word vuoto con forma rettangolare ombreggiata – Guida passo‑passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Scopri come creare un documento Word vuoto con una forma rettangolare ombreggiata usando Aspose.Words per .NET, passo dopo passo. |
 | [Crea un documento Word vuoto e aggiungi forme colorate con Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Scopri come creare un documento Word vuoto e inserire forme colorate usando Aspose.Words per .NET. |
@@ -79,6 +80,7 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Come creare un documento docx con forma nascosta usando Aspose.Words in C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Scopri come generare un file docx contenente una forma nascosta con Aspose.Words per .NET in C#. |
 | [Come creare un documento Word vuoto e raggruppare forme in C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Scopri come creare un documento Word vuoto e raggruppare forme usando Aspose.Words per .NET in C#. |
 | [Raggruppa forme in Word usando C# – guida completa di programmazione](./group-shapes-in-word-using-c-complete-programming-guide/) | Scopri come raggruppare forme in Word con C# usando Aspose.Words, passo dopo passo con esempi di codice. |
+| [Crea documento Word programmaticamente e raggruppa forme in C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Scopri come creare un documento Word e raggruppare le forme programmaticamente usando C# con Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

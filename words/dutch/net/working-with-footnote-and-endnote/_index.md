@@ -27,6 +27,7 @@ Tekstverwerking met voetnoten en eindnoten is een uitgebreide bron die u begelei
 | [Footnote-scheiding ophalen in C# – volledige Aspose.Words-gids](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Leer hoe u de footnote separator in C# kunt ophalen met Aspose.Words. |
 | [Hoe u de voetnootseparator wijzigt en de stijl ervan aanpast in een Word-document](./how-to-change-footnote-separator-and-customize-its-style-in/) | Leer hoe u de scheidingsteken van voetnoten wijzigt en de opmaak aanpast in Word met Aspose.Words voor .NET. |
 
+| [Opmaak van voetnootseparator in C# met Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Leer hoe u de scheidingsteken van voetnoten in C# kunt opmaken met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

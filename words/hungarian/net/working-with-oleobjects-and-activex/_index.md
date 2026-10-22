@@ -38,6 +38,7 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [ActiveX vezérlő hozzáadása Word dokumentumba C#-val](./how-to-add-an-activex-control-word-in-word-with-c/) | Tanulja meg, hogyan adhat hozzá ActiveX vezérlőt egy Word dokumentumhoz C# használatával az Aspose.Words for .NET segítségével. |
 | [Hogyan szúrjon be OLE parancsgombot egy Word dokumentumba C#-ban](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Tanulja meg, hogyan helyezhet el OLE parancsgombot egy Word dokumentumban C# nyelven az Aspose.Words for .NET segítségével. |
 | [Parancsgomb hozzáadása programozottan egy Word dokumentumba](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Tanulja meg, hogyan adhat hozzá parancsgombot programozottan egy Word dokumentumhoz az Aspose.Words for .NET segítségével. |
+| [Word dokumentum programozott létrehozása és ActiveX gomb hozzáadása](./create-word-document-programmatically-and-add-activex-button/) | Ismerje meg, hogyan hozhat létre Word dokumentumot kódból, és adhat hozzá ActiveX gombot az Aspose.Words for .NET segítségével. |
 
 | [ActiveX gomb hozzáadása Word dokumentumba az Aspose.Words segítségével](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Tanulja meg, hogyan adhat hozzá ActiveX gombot egy Word dokumentumhoz az Aspose.Words for .NET használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}

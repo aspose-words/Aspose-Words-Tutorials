@@ -87,6 +87,8 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Jak vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Naučte se vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky dat. |
 | [Jak vytvořit dokument Word s přizpůsobeným koláčovým grafem v C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Naučte se vytvořit dokument Word s vlastním koláčovým grafem pomocí Aspose.Words pro .NET v C#. |
 | [Příklad radiálního grafu Aspose.Words: povolení stupnice v C#](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Naučte se, jak povolit stupnice v radiálním grafu pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Vytvoření radarového grafu v dokumentu Word – kompletní průvodce C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Naučte se, jak vytvořit radarový graf v dokumentu Word pomocí Aspose.Words pro .NET v podrobném C# průvodci. |
+| [Vytvoření koláčového grafu v dokumentu Word pomocí Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Naučte se, jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

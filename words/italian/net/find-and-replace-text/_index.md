@@ -40,6 +40,7 @@ Che tu debba sostituire parole specifiche, aggiornare modelli di testo o persona
 | [Come riscrivere un paragrafo con IA in C# – Guida completa](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Scopri come riscrivere automaticamente i paragrafi con l'intelligenza artificiale in C# usando Aspose.Words, guida passo passo. |
 | [Come generare un modello di documento e riempirlo con dati in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Scopri come creare un modello di documento Word e popolarlo con dati usando Aspose.Words per .NET in C#. |
 | [Come sostituire i segnaposto nei file docx con Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Scopri come sostituire i segnaposto nei file DOCX con Aspose.Words per .NET. Guida passo passo. |
+| [Automatizza la generazione di documenti Word con Aspose.Words in C#](./automate-word-document-generation-with-aspose-words-in-c/) | Scopri come generare automaticamente documenti Word usando Aspose.Words in C#. Guida passo passo per automatizzare la creazione di documenti. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

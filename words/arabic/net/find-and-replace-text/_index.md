@@ -41,6 +41,7 @@ Aspose.Words لـ .NET مكتبة فعّالة تُقدّم مجموعة واس�
 | [استبدال النص في ملف docx باستخدام C# – دليل خطوة بخطوة كامل](./replace-text-in-docx-with-c-full-step-by-step-guide/) | تعلم كيفية استبدال النص في مستندات docx باستخدام C# مع Aspose.Words لل.NET خطوة بخطوة. |
 | [كيفية إعادة كتابة فقرة باستخدام الذكاء الاصطناعي في C# – دليل كامل](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | تعلم كيفية استخدام الذكاء الاصطناعي لإعادة كتابة الفقرات في C# باستخدام Aspose.Words، خطوة بخطوة. |
 | [كيفية إنشاء قالب مستند وتعبئته بالبيانات في C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | تعلم إنشاء قالب مستند Word وتعبئته بالبيانات باستخدام Aspose.Words لـ .NET في C#. |
+| [أتمتة إنشاء مستندات Word باستخدام Aspose.Words في C#](./automate-word-document-generation-with-aspose-words-in-c/) | تعلّم كيفية توليد مستندات Word تلقائيًا باستخدام Aspose.Words في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

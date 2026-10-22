@@ -81,6 +81,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara membuat histogram di Word dengan Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Pelajari cara membuat histogram dalam dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. Bahasa Indonesia: |
 | [Cara membuat dokumen Word C# dengan bagan kolom dan label terformat](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Pelajari cara membuat dokumen Word dengan bagan kolom dan label terformat menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Bahasa Indonesia: |
 | [Cara Membuat Dokumen Word dengan Diagram Pai yang Disesuaikan dalam C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Pelajari cara membuat dokumen Word berisi diagram pai yang disesuaikan menggunakan Aspose.Words untuk .NET dengan C#. Bahasa Indonesia: |
+| [Buat Bagan Radar dalam Dokumen Word – Panduan Lengkap C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Pelajari cara membuat bagan radar di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. Bahasa Indonesia:
+| [Buat Bagan Pai dalam Dokumen Word dengan Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. Bahasa Indonesia:
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
