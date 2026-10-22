@@ -49,6 +49,9 @@
 ### [Εφαρμογή αδειοδότησης στο Aspose.Words για Java](./applying-licensing/)
 Μάθετε πώς να εφαρμόζετε άδειες χρήσης στο Aspose.Words για Java βήμα προς βήμα. Αποκτήστε πρόσβαση τώρα και ξεκλειδώστε όλες τις δυνατότητές του.
 
+### [Δημιουργία DocumentConfig σε Java – Παρακολούθηση Ελλιπών Γραμματοσειρών με Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Μάθετε πώς να δημιουργήσετε DocumentConfig για την ανίχνευση ελλιπών γραμματοσειρών σε έγγραφα Java με το Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

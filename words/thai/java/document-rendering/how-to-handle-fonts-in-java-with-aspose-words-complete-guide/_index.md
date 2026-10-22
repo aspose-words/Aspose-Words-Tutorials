@@ -22,9 +22,8 @@ title: วิธีจัดการฟอนต์ใน Java ด้วย Asp
 url: /th/java/document-rendering/how-to-handle-fonts-in-java-with-aspose-words-complete-guide/
 ---
 
-Make sure we didn't translate code block placeholders. Keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,7 +20,11 @@ L'ajout de contenu avec DocumentBuilder est une ressource complète qui vous gui
 
  ## Tutoriels
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Créer un tableau à texte pivoté dans un document Word en utilisant Aspose.Words pour .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Insérer une forme de règle horizontale dans un document Word avec Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Insérer du HTML aligné dans un document Word avec Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Titre | Description |
 | --- | --- |

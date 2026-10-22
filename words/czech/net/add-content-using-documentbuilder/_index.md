@@ -20,7 +20,11 @@ Přidávání obsahu pomocí DocumentBuilderu je komplexní zdroj, který vás p
 
  ## Návody
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Vytvořte tabulku s otočeným textem v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Vložení tvaru vodorovné čáry do Word dokumentu pomocí Aspose.Words pro .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Vložení zarovnaného HTML do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Název | Popis |
 | --- | --- |

@@ -20,7 +20,11 @@ Thêm nội dung bằng DocumentBuilder là một nguồn tài nguyên toàn di�
 
  ## Hướng dẫn
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Tạo Bảng Văn Bản Với Văn Bản Xoay trong Word bằng Aspose.Words cho .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Chèn hình dạng đường kẻ ngang trong tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Chèn HTML căn chỉnh vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Tiêu đề | Mô tả |
 | --- | --- |

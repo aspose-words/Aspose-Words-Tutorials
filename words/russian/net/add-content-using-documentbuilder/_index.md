@@ -20,7 +20,11 @@
 
  ## Учебники
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Создайте таблицу с вращённым текстом в документе Word с помощью Aspose.Words for .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Вставка формы горизонтального правила в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Вставка выровненного HTML в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Название | Описание |
 | --- | --- |

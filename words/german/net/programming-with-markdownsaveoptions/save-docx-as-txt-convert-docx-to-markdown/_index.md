@@ -22,13 +22,10 @@ title: DOCX als TXT speichern – DOCX in Markdown konvertieren
 url: /de/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-The bullet list under "What you'll need" done. The code block placeholders remain.
 
-The table translation: need to keep markdown table formatting.
 
-Make sure to keep code fences for code blocks? The placeholders are just {{CODE_BLOCK_X}} not fenced. So fine.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

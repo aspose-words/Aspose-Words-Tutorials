@@ -20,7 +20,11 @@ A Tartalom hozzáadása a DocumentBuilder segítségével egy átfogó forrás, 
 
  ## Oktatóanyagok
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Forgatott szöveges táblázat létrehozása Word dokumentumban az Aspose.Words for .NET használatával" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Vízszintes vonal alakzat beszúrása Word-dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Igazított HTML beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Cím | Leírás |
 | --- | --- |

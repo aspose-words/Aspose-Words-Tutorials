@@ -23,9 +23,8 @@ title: Enregistrer Word en Markdown – extraire les images du DOCX
 url: /fr/net/programming-with-markdownsaveoptions/save-word-as-markdown-extract-images-from-docx/
 ---
 
-are fine.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,7 +20,11 @@
 
  ## دروس تعليمية
 
-{{< tutorial-card link="./create-rotated-text-table/" title="إنشاء جدول نص مائل في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="إدراج شكل خط أفقي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="إدراج HTML محاذى في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | العنوان | الوصف |
 | --- | --- |

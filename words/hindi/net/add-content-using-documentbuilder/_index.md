@@ -20,7 +20,11 @@
 
  ## ट्यूटोरियल
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में घुमाए हुए टेक्स्ट वाली तालिका बनाएं" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में Horizontal Rule Shape सम्मिलित करें।" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में संरेखित HTML सम्मिलित करें" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | शीर्षक | विवरण |
 | --- | --- |

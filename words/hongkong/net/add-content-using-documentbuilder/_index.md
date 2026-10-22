@@ -20,7 +20,11 @@
 
  ## 教學
 
-{{< tutorial-card link="./create-rotated-text-table/" title="使用 Aspose.Words for .NET 在 Word 文件中建立旋轉文字表格" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="使用 Aspose.Words for .NET 在 Word 文件中插入水平線形狀。" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="使用 Aspose.Words for .NET 在 Word 文件中插入對齊的 HTML" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 |標題 |描述 |
 | --- | --- |

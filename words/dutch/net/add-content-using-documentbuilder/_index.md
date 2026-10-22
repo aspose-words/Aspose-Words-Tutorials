@@ -20,7 +20,11 @@ Adding Content Using DocumentBuilder is een uitgebreide bron die u begeleidt bij
 
  ## Zelfstudies
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Maak een gedraaide‑tekst‑tabel in een Word‑document met Aspose.Words voor .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Invoegen van een horizontale regelvorm in een Word-document met Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Uitgelijnde HTML invoegen in Word-document met Aspose.Words voor .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Titel | Beschrijving |
 | --- | --- |

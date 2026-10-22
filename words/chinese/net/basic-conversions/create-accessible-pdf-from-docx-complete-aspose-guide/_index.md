@@ -23,11 +23,8 @@ title: 从 DOCX 创建可访问的 PDF——完整的 Aspose 指南
 url: /zh/net/basic-conversions/create-accessible-pdf-from-docx-complete-aspose-guide/
 ---
 
-.
 
-But there are sections where they mention code blocks: we keep placeholder.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

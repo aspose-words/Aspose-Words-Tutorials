@@ -20,7 +20,11 @@
 
  ## 튜토리얼
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Aspose.Words for .NET을 사용하여 Word 문서에 회전 텍스트 테이블 만들기" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Aspose.Words for .NET을 사용하여 Word 문서에 가로 구분선 형태 삽입" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET을 사용하여 Word 문서에 정렬된 HTML 삽입" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | 제목 | 설명 |
 | --- | --- |

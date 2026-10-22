@@ -22,7 +22,6 @@ title: Преобразовать DOCX в Markdown с экспортом фор�
 url: /ru/java/document-conversion-and-export/convert-docx-to-markdown-with-math-export-full-java-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

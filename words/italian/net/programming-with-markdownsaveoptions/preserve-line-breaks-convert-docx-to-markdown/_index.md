@@ -24,11 +24,9 @@ title: 'Preservare le interruzioni di riga: Converti DOCX in Markdown'
 url: /it/net/programming-with-markdownsaveoptions/preserve-line-breaks-convert-docx-to-markdown/
 ---
 
-Good.
 
-Now produce final output with all translated content.
 
-Let's construct final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

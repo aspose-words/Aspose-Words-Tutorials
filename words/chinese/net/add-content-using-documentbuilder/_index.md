@@ -21,7 +21,11 @@
  ## 教程
 标题 | 描述 |
 
-{{< tutorial-card link="./create-rotated-text-table/" title="使用 Aspose.Words for .NET 在 Word 文档中创建旋转文本表格" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="使用 Aspose.Words for .NET 在 Word 文档中插入水平线形状" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="使用 Aspose.Words for .NET 将对齐的 HTML 插入 Word 文档" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | --- | --- |
 | [创建新的 Word 文档](./create-new-document/) 学习如何使用 Aspose.Words for .NET 创建 Word 文档。本分步指南将引导您完成整个过程，轻松实现文档自动化。|

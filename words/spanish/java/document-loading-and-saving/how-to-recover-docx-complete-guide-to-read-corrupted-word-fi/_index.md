@@ -23,21 +23,13 @@ title: Cómo recuperar docx – Guía completa para leer archivos Word corruptos
 url: /es/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-all text content naturally to Spanish, keep technical terms in English. Alt text is descriptive, can translate. So translate alt text to Spanish. Keep image URL unchanged.
 
-Also need to translate table content.
 
-We must not translate URLs, file paths, variable names, function names. So in code blocks placeholders we keep as is.
 
-We need to translate everything else: sentences, bullet points, etc.
 
-Also note "proper RTL formatting if needed" but Spanish LTR, ignore.
 
-Let's produce final content.
 
-We must keep shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

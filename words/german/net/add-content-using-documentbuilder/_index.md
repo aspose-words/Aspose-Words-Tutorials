@@ -20,7 +20,11 @@
 
  ## Anleitungen
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Rotierte‑Text‑Tabelle in Word‑Dokument mit Aspose.Words für .NET erstellen" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Horizontale Regel‑Form in ein Word-Dokument einfügen mit Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="HTML mit Ausrichtung in ein Word-Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Titel | Beschreibung |
 | --- | --- |

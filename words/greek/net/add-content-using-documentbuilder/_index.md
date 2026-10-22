@@ -20,7 +20,11 @@
 
  ## Εκπαιδευτικά σεμινάρια
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Δημιουργία Πίνακα με Περιστρεφόμενο Κείμενο σε Έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Εισαγωγή σχήματος οριζόντιας γραμμής σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Εισαγωγή ευθυγραμμισμένου HTML σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Τίτλος | Περιγραφή |
 | --- | --- |

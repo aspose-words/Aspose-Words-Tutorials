@@ -20,7 +20,11 @@ DocumentBuilder Kullanarak İçerik Ekleme, .NET için Aspose.Words kütüphanes
 
  ## Eğitimler
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Aspose.Words for .NET kullanarak Word belgesinde Döndürülmüş Metin Tablosu oluşturun" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Aspose.Words for .NET kullanarak Word belgesine Yatay Çizgi Şekli ekleme" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET kullanarak Word Belgesine Hizalanmış HTML ekleyin" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Başlık | Açıklama |
 | --- | --- |

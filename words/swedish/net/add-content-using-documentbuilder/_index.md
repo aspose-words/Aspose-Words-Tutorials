@@ -20,7 +20,11 @@ Lägga till innehåll med DocumentBuilder är en omfattande resurs som guidar di
 
  ## Handledningar
 
-{{< tutorial-card link="./create-rotated-text-table/" title="Skapa roterad text‑tabell i Word‑dokument med Aspose.Words för .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Infoga horisontell linjeform i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Infoga justerad HTML i Word-dokument med Aspose.Words för .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 | Titel | Beskrivning |
 | --- | --- |

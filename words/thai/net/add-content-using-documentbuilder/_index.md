@@ -22,7 +22,11 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 
-{{< tutorial-card link="./create-rotated-text-table/" title="สร้างตารางข้อความหมุนในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="แทรกรูปร่างเส้นกั้นแนวนอนในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="แทรก HTML ที่จัดแนวลงในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
 
 - [สร้างเอกสาร Word ใหม่](./create-new-document/) เรียนรู้วิธีสร้างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การสร้างเอกสารอัตโนมัติเป็นเรื่องง่าย -
 | [เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word](./document-builder-insert-bookmark/) | เรียนรู้วิธีแทรกบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารอัตโนมัติ -

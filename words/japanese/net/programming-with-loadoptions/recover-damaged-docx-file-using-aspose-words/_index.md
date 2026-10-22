@@ -22,11 +22,8 @@ title: Aspose.Words を使用して破損した DOCX ファイルを復元する
 url: /ja/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-Now ensure we didn't miss any markdown formatting like blockquote, lists, etc. There's a list under Edge Cases: subheadings are list items? Actually they are subheadings with numbers. That's fine.
 
-We need to keep the code block placeholders unchanged.
 
-Now produce final output with all translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

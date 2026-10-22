@@ -22,9 +22,8 @@ title: กู้คืนไฟล์ Word ที่เสียหาย – �
 url: /th/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-with punctuation.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
