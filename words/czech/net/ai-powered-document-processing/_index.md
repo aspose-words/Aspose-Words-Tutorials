@@ -94,6 +94,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak použít překladač k automatizaci překladu dokumentů v C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Naučte se pomocí Aspose.Words a AI překladače automaticky překládat dokumenty v C#. |
 | [Shrnutí Word dokumentu pomocí AI sumarizace](./summarize-word-document-with-ai-document-summarization/) | Kompletní průvodce, jak pomocí AI shrnout Word dokumenty v C# s Aspose.Words. |
 | [Jak přeložit docx do francouzštiny pomocí AI v C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Naučte se pomocí Aspose.Words a AI přeložit soubory DOCX do francouzštiny v C#. |
+| [Přidání shrnutí do dokumentu Word pomocí Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Naučte se, jak pomocí Aspose.Words AI přidat shrnutí do dokumentu Word během několika kroků. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

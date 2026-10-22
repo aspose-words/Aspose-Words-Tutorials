@@ -98,6 +98,7 @@
 | [Как использовать переводчик для автоматизации перевода документов в C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Узнайте, как автоматизировать перевод документов с помощью Aspose.Words и Translator в C#. |
 | [Резюмирование документа Word с ИИ‑резюмированием](./summarize-word-document-with-ai-document-summarization/) | Полное руководство по резюмированию документов Word с использованием ИИ‑технологий. |
 | [Как перевести docx на французский с помощью ИИ в C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу DOCX‑файлов на французский язык с использованием ИИ и Aspose.Words в C#. |
+| [Добавить резюме в документ Word с помощью Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Узнайте, как автоматически добавить резюме в документ Word, используя возможности AI Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

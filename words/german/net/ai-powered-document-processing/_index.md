@@ -98,6 +98,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man den Übersetzer verwendet, um die Dokumentübersetzung in C# zu automatisieren](./how-to-use-translator-to-automate-document-translation-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und dem Translator Dokumente in C# automatisch übersetzen. |
 | [Word-Dokument mit KI‑Dokumentenzusammenfassung zusammenfassen](./summarize-word-document-with-ai-document-summarization/) | Erfahren Sie, wie Sie Word-Dokumente mithilfe von KI‑Dokumentenzusammenfassung effizient zusammenfassen. Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man docx mit KI ins Französische übersetzt – C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI docx-Dateien automatisch ins Französische übersetzen. |
+| [Zusammenfassung zu Word-Dokument mit Aspose.Words KI](./add-summary-to-word-document-with-aspose-words-ai/) | Erfahren Sie, wie Sie mit Aspose.Words KI automatisch Zusammenfassungen zu Word-Dokumenten hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Çevirmen Kullanarak Belge Çevirisini Otomatikleştirme](./how-to-use-translator-to-automate-document-translation-in-c/) | C# ve Aspose.Words kullanarak çevirmen API'siyle belge çevirisini otomatikleştirmeyi öğrenin. |
 | [AI Belge Özetleme ile Word Belgesini Özetleme](./summarize-word-document-with-ai-document-summarization/) | AI destekli belge özetleme kullanarak Word belgelerini etkili bir şekilde özetleyin. |
 | [AI ile C#'ta docx Dosyasını Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-ai-in-c/) | AI kullanarak C# ile docx dosyalarını Fransızcaya çevirmenin adım adım rehberi. |
+| [Aspose.Words AI ile Word Belgesine Özet Ekle](./add-summary-to-word-document-with-aspose-words-ai/) | Aspose.Words AI kullanarak bir Word belgesine otomatik özet eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

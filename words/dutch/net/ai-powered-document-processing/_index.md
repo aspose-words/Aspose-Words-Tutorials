@@ -98,6 +98,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe u vertaler gebruikt om documentvertaling in C# te automatiseren](./how-to-use-translator-to-automate-document-translation-in-c/) | Leer hoe u documentvertaling automatiseert met Aspose.Words voor .NET en een vertaler in C#. |
 | [Hoe docx naar Frans te vertalen met AI in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met AI in C#. |
 | [Samenvatten van Word-document met AI-documentensamenvatting](./summarize-word-document-with-ai-document-summarization/) | Leer hoe u Word-documenten automatisch samenvat met AI in Aspose.Words voor .NET. |
+| [Samenvatting toevoegen aan Word-document met Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI een samenvatting aan een Word-document kunt toevoegen voor snelle inzichten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

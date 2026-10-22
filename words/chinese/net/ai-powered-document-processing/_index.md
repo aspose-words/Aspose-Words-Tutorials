@@ -96,6 +96,7 @@
 | [如何在 C# 中使用翻译器自动化文档翻译](./how-to-use-translator-to-automate-document-translation-in-c/) 使用 Aspose.Words for .NET 与翻译器在 C# 实现文档自动翻译的完整指南。|
 | [使用 AI 文档摘要汇总 Word 文档](./summarize-word-document-with-ai-document-summarization/) 使用 Aspose.Words for .NET 与 AI 文档摘要功能，在 C# 中实现 Word 文档的自动汇总。|
 | [在 C# 中使用 AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-with-ai-in-c/) 使用 Aspose.Words for .NET 与 AI 在 C# 中实现 docx 文档的法语翻译，提供详细步骤和最佳实践。|
+| [使用 Aspose.Words AI 为 Word 文档添加摘要](./add-summary-to-word-document-with-aspose-words-ai/) 使用 Aspose.Words for .NET 与 AI 集成，为 Word 文档添加摘要，实现快速文档概览。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
