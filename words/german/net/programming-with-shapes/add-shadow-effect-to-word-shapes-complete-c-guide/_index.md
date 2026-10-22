@@ -24,15 +24,10 @@ title: Schatteneffekt zu Word‑Formen hinzufügen – Vollständiger C#‑Leitf
 url: /de/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-Sie Fragen oder stoßen Sie auf einen seltsamen Randfall? Hinterlassen Sie unten einen Kommentar, und wir lösen das Problem gemeinsam. Viel Spaß beim Coden, und mögen Ihre Dokumente stets diese zusätzliche Tiefenwirkung haben!"
 
-Then closing shortcodes unchanged.
 
-Now ensure we keep all placeholders and shortcodes exactly.
 
-Also note there is a line "⚠️ CRITICAL: Provide the COMPLETE translated content. Missing ANY elements will result in rejection and retry." Not part of content; we don't need to include.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

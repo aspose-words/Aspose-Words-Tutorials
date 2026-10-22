@@ -24,25 +24,15 @@ title: Thêm Hiệu Ứng Bóng Đổ cho Các Hình Dạng Word – Hướng D�
 url: /vi/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-, plus a handful of tips you’ll wish you’d known earlier."
 
-Translate.
 
-Continue.
 
-List of coverage.
 
-Translate table.
 
-Blockquote.
 
-All.
 
-Let's craft.
 
-Be careful to keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

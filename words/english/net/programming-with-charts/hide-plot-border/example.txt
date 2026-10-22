@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a Word document, insert a column chart, populate it with sample data, hide the chart's plot area border while keeping the axis lines visible, and finally save the document.
+//ExStepSummary:0: Create a new empty Word document and a DocumentBuilder to edit it.
+//ExStepSummary:1: Insert a 432×252 column chart into the document and obtain its Chart object.
+//ExStepSummary:2: Clear any existing series, define three category labels, and add a series with sample values to the chart.
+//ExStepSummary:3: Set the plot area's stroke weight to zero, removing its border while leaving axis lines visible.
+//ExStepSummary:4: Save the modified document to a .docx file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

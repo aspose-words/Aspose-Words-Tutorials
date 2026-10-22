@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách chèn ngắt trang vào tài liệu Word bằng cách sử dụng Aspose.Words Document và DocumentBuilder.
+//ExStepSummary:0: Tạo một đối tượng Document và một DocumentBuilder sẽ được sử dụng để thêm nội dung.
+//ExStepSummary:1: Viết nội dung trang đầu và chèn ngắt trang để nội dung tiếp theo bắt đầu trên một trang mới.
+//ExStepSummary:2: Viết nội dung trang thứ hai và chèn một ngắt trang khác để bắt đầu trang thứ ba.
+//ExStepSummary:3: Viết nội dung trang thứ ba, hoàn thiện tài liệu ba trang.
+//ExStepSummary:4: Lưu tài liệu đã ghép thành file .docx trong thư mục đã chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

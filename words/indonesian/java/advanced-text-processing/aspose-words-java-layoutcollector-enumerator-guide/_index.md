@@ -61,12 +61,12 @@ Pastikan Anda memiliki Aspose.Words for Java versi 25.3 (atau lebih baru) terp
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Persyaratan Penyiapan Lingkungan
 - Java Development Kit (JDK) terpasang.
@@ -91,6 +91,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+Dengan perpustakaan siap, Anda dapat mulai menggunakan fitur inti.
+
+## Cara menganalisis halaman menggunakan LayoutCollector?
+
+`LayoutCollector` adalah kelas yang memetakan setiap node dalam `Document` ke nomor halaman mulai dan akhir, memungkinkan analisis paginasi yang tepat. Muat dokumen Anda, lampirkan `LayoutCollector`, dan query informasi halaman – seluruh operasi hanya memerlukan beberapa baris kode dan memberikan hasil yang dapat diandalkan bahkan untuk file besar.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Dengan pustaka siap, kita dapat menyelami fitur inti.
@@ -109,7 +119,7 @@ Dengan memanfaatkan `LayoutCollector`, Anda dapat mengambil indeks halaman mulai
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Isi Document**
 Di sini, kami akan menambahkan konten yang melintasi beberapa halaman:
@@ -120,7 +130,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Perbarui Layout dan Dapatkan Metrik**
 ```java
@@ -128,6 +138,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Penjelasan:**  
+- `DocumentBuilder` menyisipkan konten.  
+- `updatePageLayout()` memaksa satu proses tata letak sehingga nomor halaman akurat.  
+- `getStartPage` / `getEndPage` mengembalikan indeks halaman pertama dan terakhir untuk setiap node.
+
+## Cara mengenumerasi elemen tata letak dengan LayoutEnumerator?
+
+`LayoutEnumerator` adalah kelas yang menelusuri pohon tata letak visual sebuah dokumen, menampilkan tipe, posisi, dan ukuran setiap elemen—sempurna untuk rendering khusus atau analitik. `LayoutEnumerator` berjalan melalui pohon tata letak visual, menampilkan tipe, posisi, dan ukuran setiap elemen—sempurna untuk rendering khusus atau analitik.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Penjelasan
@@ -146,7 +169,7 @@ Anda dapat menjelajahi halaman, paragraf, baris, dan entitas tata letak lainnya,
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Menelusuri Maju dan Mundur**
 ```java
@@ -157,6 +180,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Penjelasan:**  
+- `moveParent()` naik ke atas pohon.  
+- Traversal rekursif memberi Anda akses lengkap ke setiap node tata letak.
+
+## Cara mengimplementasikan callback tata letak halaman?
+
+`IPageLayoutCallback` adalah antarmuka untuk menerima peristiwa tata letak selama pemrosesan dokumen, memungkinkan Anda merespons perubahan tata letak seperti aliran ulang bagian atau penyelesaian rendering. Mengimplementasikan `IPageLayoutCallback` memungkinkan Anda merespons peristiwa tata letak seperti aliran ulang bagian atau penyelesaian rendering, memberi Anda kontrol dinamis atas pipeline pembuatan dokumen.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Penjelasan
@@ -175,7 +210,7 @@ Antarmuka `IPageLayoutCallback` memberi tahu Anda ketika bagian dokumen selesai 
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Implementasikan Metode Callback**
 ```java
@@ -197,6 +232,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Penjelasan:**  
+- `notify()` menerima pengenal peristiwa.  
+- `ImageSaveOptions` dapat disesuaikan di dalam callback untuk rendering gambar secara langsung.
+
+## Cara memulai ulang penomoran halaman pada bagian berkelanjutan?
+
+`ContinuousSectionRestart` adalah enumerasi yang menentukan apakah penomoran halaman dimulai ulang pada bagian berkelanjutan, memberi Anda kontrol detail atas skema penomoran di seluruh dokumen. Ketika sebuah dokumen berisi beberapa bagian yang mengalir secara berkelanjutan, Anda dapat mengontrol apakah nomor halaman dimulai ulang secara otomatis.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Penjelasan
@@ -214,13 +261,13 @@ Dengan mengatur opsi `ContinuousSectionRestart`, Anda dapat memutuskan apakah no
 **1. Muat Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Konfigurasikan Opsi Penomoran Halaman**
+### Langkah 2: konfigurasikan opsi penomoran halaman
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Penjelasan
 - **`setContinuousSectionPageNumberingRestart()`** memberi tahu Aspose.Words cara menangani penomoran dalam bagian berkelanjutan.

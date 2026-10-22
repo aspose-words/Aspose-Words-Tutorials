@@ -19,6 +19,12 @@ Words Processing with Watermarkは、Aspose.Words for .NETライブラリを用�
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./add-text-watermark/" title="Aspose.Words for .NET を使用して Word ドキュメントに赤い斜めテキスト透かしを追加する" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Aspose.Words for .NET を使用して、Word ドキュメントにカスタムフォントの斜めテキスト透かしを作成する" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | --- | --- |
 | [特定のオプションでテキスト透かしを追加する](./add-text-watermark-with-specific-options/) Aspose.Words for .NET を使用して、Word 文書に特定のオプションでテキスト透かしを追加する方法を学びます。フォント、サイズ、色、レイアウトを簡単にカスタマイズできます。 |
 

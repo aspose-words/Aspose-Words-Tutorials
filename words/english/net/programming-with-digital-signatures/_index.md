@@ -25,11 +25,13 @@ With these tutorials, you will be able to master the digital signature features 
 | --- | --- |
 | [Sign Word Document](./sign-document/) | Learn how to sign a Word document using Aspose.Words for .NET with this step-by-step guide. Secure your documents with ease. |
 | [Signing Encrypted Word Document](./signing-encrypted-document/) | Learn how to sign encrypted Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. Perfect for developers. |
+| [How to sign Word with certificate using Aspose.Words in C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Learn how to sign a Word document with a certificate using Aspose.Words for .NET in C# with this step-by-step guide. |
 | [Creating And Signing New Signature Line](./creating-and-signing-new-signature-line/) | Learn how to create and digitally sign a signature line in a Word document using Aspose.Words for .NET with this step-by-step tutorial. Perfect for document automation. |
 | [Signing Existing Signature Line In Word Document](./signing-existing-signature-line/) | Learn how to sign an existing signature line in a Word document using Aspose.Words for .NET with our detailed step-by-step guide. Perfect for developers. |
 | [Set Signature Provider Id In Word Document](./set-signature-provider-id/) | Securely set a Signature Provider ID in Word documents using Aspose.Words for .NET. Follow our detailed, 2000-word guide to digitally sign your documents. |
 | [Create New Signature Line And Set Provider Id](./create-new-signature-line-and-set-provider-id/) | Learn how to create a new signature line and set the provider ID in Word documents using Aspose.Words for .NET. Step-by-step guide. |
 | [Access And Verify Signature In Word Document](./access-and-verify-signature/) | Access and verify digital signatures in Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. Ensure document authenticity effortlessly. |
+| [Add digital signature to PDF in C# using Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Learn how to add a digital signature to a PDF using Aspose.Words for .NET in C# with this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

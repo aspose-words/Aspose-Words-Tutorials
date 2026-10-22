@@ -23,13 +23,10 @@ title: docxの復旧方法 – 破損したWordファイルを読む完全ガイ
 url: /ja/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-. We kept `Corrupt.docx`, `LoadOptions`, etc.
 
-Check for any markdown links: none.
 
-Check for any other bold text: we kept.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a new Word document, configure a custom text watermark with specific font settings, apply the watermark to the document, and save the result as a .docx file using the Document.Watermark.SetText API.
+//ExStepSummary:0: Create a new empty Word document instance named `document`.
+//ExStepSummary:1: Configure `watermarkSettings` with Arial 48‑pt gray font, diagonal layout, and opaque rendering.
+//ExStepSummary:2: Apply the text watermark "Private" to `document` using the previously defined settings.
+//ExStepSummary:3: Define the file path where the watermarked document will be saved.
+//ExStepSummary:4: Save the modified `document` to the specified path as a .docx file.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

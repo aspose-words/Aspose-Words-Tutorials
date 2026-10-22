@@ -50,6 +50,9 @@ Java के लिए Aspose.Words का उपयोग करके Word द�
 ### [Aspose.Words का उपयोग करके जावा में वर्ड शैलियों को अनुकूलित करें: अप्रयुक्त और डुप्लिकेट शैलियों को हटाएँ](./optimize-word-styles-aspose-java/)
 अप्रयुक्त और डुप्लिकेट शैलियों को हटाकर, प्रदर्शन और रखरखाव को बढ़ाकर, Aspose.Words for Java के साथ दस्तावेज़ शैलियों को कुशलतापूर्वक प्रबंधित करना सीखें।
 
+### [Java का उपयोग करके Word दस्तावेज़ में फुटनोट फ़ॉर्मेटिंग कैसे बदलें](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Java में Aspose.Words का उपयोग करके फुटनोट के स्वरूप को बदलने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

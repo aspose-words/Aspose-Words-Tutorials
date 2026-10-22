@@ -24,27 +24,16 @@ title: Добавьте эффект тени к фигурам Word – Пол
 url: /ru/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-**добавить эффект тени** к фигуре Word, но вы не знали, с чего начать?" etc.
 
-Proceed.
 
-List of bullet points.
 
-Translate each bullet.
 
-Then blockquote.
 
-Proceed step by step.
 
-Will produce final content.
 
-Be careful with table: translate cells but keep markdown table formatting.
 
-Also keep code block placeholders unchanged.
 
-Also keep the # headings.
 
-Now produce final answer.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

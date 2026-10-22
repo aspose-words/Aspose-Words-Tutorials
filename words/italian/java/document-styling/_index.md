@@ -43,6 +43,22 @@ Scopri come personalizzare i temi dei documenti utilizzando Aspose.Words per Jav
 Scopri come applicare filigrane e configurare le pagine con Aspose.Words per Java. Una guida completa con codice sorgente.
 ### [Stile dell'intestazione e del piè di pagina del documento](./document-header-footer-styling/)
 Scopri come formattare intestazioni e piè di pagina dei documenti utilizzando Aspose.Words per Java in questa guida dettagliata. Istruzioni dettagliate e codice sorgente inclusi.
+### [Come formattare le note a piè di pagina in Java con Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Scopri come formattare le note a piè di pagina nei documenti Word usando Aspose.Words per Java. Guida passo passo con esempi di codice.
+### [Come rilevare i font nei documenti Word Java – Guida completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Scopri come individuare i font nei documenti Word con Aspose.Words per Java. Esempi di codice e passaggi dettagliati. 
+### [Impostare le impostazioni predefinite del carattere in Aspose.Words per Java – Guida completa](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Scopri come impostare i font predefiniti nei documenti con Aspose.Words per Java, con esempi di codice passo passo.
+### [Come impostare l'ombra su un grafico Word](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Scopri come aggiungere ombra a un grafico Word con Aspose.Words per Java. Esempi di codice passo passo. 
+### [Come modificare il separatore delle note a piè di pagina in Java con Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Scopri come personalizzare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per Java.
+### [Come esplodere una fetta in un grafico Word e personalizzarne l'aspetto](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Scopri come far esplodere una sezione di un grafico Word e personalizzarne l'aspetto con Aspose.Words per Java. Esempi di codice inclusi.
+### [Modifica della spaziatura delle note a piè di pagina in DOCX – Guida completa](./change-footnote-spacing-in-docx-complete-guide/)
+Scopri come modificare la spaziatura delle note a piè di pagina nei documenti DOCX con Aspose.Words per Java. Esempi di codice inclusi.
+### [Come modificare la nota a piè di pagina in Java con Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Scopri come modificare le note a piè di pagina nei documenti usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

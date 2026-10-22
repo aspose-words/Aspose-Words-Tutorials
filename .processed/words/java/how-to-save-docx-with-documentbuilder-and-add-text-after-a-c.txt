@@ -1,0 +1,7 @@
+Title: How to save docx with DocumentBuilder and add text after a control
+Slug: how-to-save-docx-with-documentbuilder-and-add-text-after-a-c
+Category: document-manipulation
+ProcessedDate: 2026-10-07T15:28:11.609870
+SourceRepo: AI Search API
+Keywords: save docx with documentbuilder, add text after control, insert plain text control
+PRNumber: 306

@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett nytt Word-dokument, lägger till tre stycken, hittar ett specifikt stycke, bifogar en kommentar med författarinformation till det och sparar resultatet som en DOCX-fil med hjälp av Aspose.Words.
+//ExStepSummary:0: Instansiera ett nytt Document och en DocumentBuilder för att börja bygga Word-filen.
+//ExStepSummary:1: Använd DocumentBuilder.Writeln för att lägga till tre separata stycken text i dokumentet.
+//ExStepSummary:2: Hämta det andra stycket på ett säkert sätt, och falla tillbaka på det första om dokumentet har färre än två stycken.
+//ExStepSummary:3: Skapa en Comment med författardetaljer, ange dess text och bifoga den till det valda stycket.
+//ExStepSummary:4: Spara det modifierade dokumentet som en DOCX-fil med namnet 'sample.docx' i den aktuella mappen.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

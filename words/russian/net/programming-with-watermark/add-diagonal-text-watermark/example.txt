@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как создать новый документ Word, настроить пользовательский текстовый водяной знак с определёнными параметрами шрифта, применить водяной знак к документу и сохранить результат в виде файла .docx с использованием API Document.Watermark.SetText.
+//ExStepSummary:0: Создайте новый пустой экземпляр документа Word с именем `document`.
+//ExStepSummary:1: Настройте `watermarkSettings` с шрифтом Arial 48 пт серого цвета, диагональным расположением и непрозрачным отображением.
+//ExStepSummary:2: Примените текстовый водяной знак «Private» к `document`, используя ранее определённые настройки.
+//ExStepSummary:3: Укажите путь к файлу, в котором будет сохранён документ с водяным знаком.
+//ExStepSummary:4: Сохраните изменённый `document` по указанному пути в виде файла .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd
