@@ -78,6 +78,9 @@
 ### [إنشاء مستند Word فارغ وإضافة الظل إلى الشكل – دليل كامل](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 تعلم خطوة بخطوة كيفية إنشاء مستند Word فارغ وإضافة تأثير الظل إلى الأشكال باستخدام Aspose.Words.
 
+### [كيفية إنشاء مستند مع شكل مستطيل وظل في بايثون](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+تعلم كيفية إنشاء مستند Word يحتوي على شكل مستطيل مع تأثير الظل باستخدام Aspose.Words لبايثون.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

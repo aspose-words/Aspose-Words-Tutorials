@@ -276,6 +276,9 @@
 ### [如何在 Python 中使用 Aspose.Words 将 docx 转换为 txt](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 学习使用 Aspose.Words for Python 将 docx 文件转换为 txt 文本，实现简单高效的文本提取。
 
+### [如何使用 Aspose.Words 将 docx 保存为带 LaTeX 方程的 txt](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+学习使用 Aspose.Words 将包含 LaTeX 方程的 docx 文档转换并保存为 txt 文件。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

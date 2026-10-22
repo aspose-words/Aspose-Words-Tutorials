@@ -67,6 +67,8 @@
 تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون خطوة بخطوة مع مثال عملي.
 ### [معالج تحذير الخطوط في Aspose – اكتشاف الخطوط المفقودة وتخصيص تحميل المستند](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 تعلم كيفية التعامل مع تحذيرات الخطوط المفقودة وتخصيص عملية تحميل المستند باستخدام Aspose.Words في بايثون.
+### [تمكين وضع الاسترداد لاستعادة مستند Word تالف](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+تعلم كيفية تفعيل وضع الاسترداد لاستعادة مستندات Word التالفة باستخدام Aspose.Words للغة بايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

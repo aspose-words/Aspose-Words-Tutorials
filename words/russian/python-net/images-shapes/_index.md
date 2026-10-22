@@ -85,6 +85,9 @@
 ### [Создание пустого документа Word и добавление тени к фигуре – Полное руководство](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Узнайте, как создать пустой документ Word и добавить к фигуре теневой эффект с помощью Aspose.Words.
 
+### [Как создать документ с прямоугольной фигурой и тенью в Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Узнайте, как создать документ с прямоугольником и тенью, используя Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

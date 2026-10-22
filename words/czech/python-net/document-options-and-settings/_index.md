@@ -67,6 +67,8 @@ Naučte se, jak aktivovat režim obnovy a otevřít poškozený soubor Word pomo
 Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words v Pythonu. Praktický návod s ukázkovým kódem.
 ### [Aspose Font Warning Handler – Detekce chybějících fontů a přizpůsobení načítání dokumentu](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Naučte se, jak detekovat chybějící fonty a přizpůsobit načítání dokumentu pomocí Aspose Font Warning Handler.
+### [Povolit režim obnovy pro opravu poškozeného dokumentu Word](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Naučte se, jak povolit režim obnovy pro opravu poškozených dokumentů Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

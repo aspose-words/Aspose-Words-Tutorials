@@ -283,6 +283,9 @@ Aspose.Words를 활용해 Python에서 Word 문서를 PDF 파일로 변환하는
 ### [Python에서 접근성을 고려한 docx를 pdf로 변환하는 방법](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 Python을 사용해 접근성 옵션을 포함하여 docx 파일을 PDF로 변환하는 단계별 가이드.
 
+### [Aspose.Words를 사용해 LaTeX 방정식이 포함된 docx를 txt로 저장하기](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words를 활용하여 LaTeX 방정식이 포함된 docx 파일을 텍스트 파일(txt)로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

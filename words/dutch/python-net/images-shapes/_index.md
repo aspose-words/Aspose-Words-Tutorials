@@ -87,6 +87,9 @@ Leer hoe u een nieuw Word-document maakt en een vorm met schaduw toevoegt met As
 ### [Maak een leeg Word-document en voeg schaduw toe aan vorm – Volledige tutorial](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Volledige gids voor het aanmaken van een leeg Word-document en het toevoegen van schaduw aan een vorm met Aspose.Words voor Python.
 
+### [Hoe een document met een rechthoekvorm en schaduw te maken in Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Leer hoe u een document maakt met een rechthoek en schaduw in Python met Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

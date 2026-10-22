@@ -88,6 +88,9 @@ Python ile Aspose.Words kullanarak boş bir Word belgesi oluşturun ve şekiller
 ### [Boş Word Belgesi Oluşturma ve Şekle Gölge Ekleme – Tam Kılavuz](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Python ile Aspose.Words kullanarak boş bir Word belgesi oluşturun ve şekillere gölge eklemeyi adım adım öğrenin.
 
+### [Python'da Dikdörtgen Şekil ve Gölge ile Belge Oluşturma](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Python kullanarak Word belgesine dikdörtgen şekil ve gölge eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)

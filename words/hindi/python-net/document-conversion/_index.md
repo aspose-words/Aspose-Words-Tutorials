@@ -274,6 +274,9 @@ Aspose.Words के साथ एक्सेसिबिलिटी फीच�
 ### [Aspose.Words के साथ पायथन में docx को txt में कैसे बदलें](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Aspose.Words का उपयोग करके पायथन में docx फ़ाइल को txt में बदलने की चरण-दर-चरण गाइड।
 
+### [Aspose.Words का उपयोग करके docx को txt में LaTeX समीकरणों के साथ कैसे सहेजें](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words के साथ docx फ़ाइल को txt में LaTeX समीकरणों सहित सहेजने की पूरी प्रक्रिया।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

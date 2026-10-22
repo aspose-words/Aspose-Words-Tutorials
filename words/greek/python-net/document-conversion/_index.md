@@ -215,6 +215,7 @@
 Μάθετε πώς να μετατρέψετε αρχεία docx σε PDF με προσβασιμότητα χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να μετατρέψετε docx σε txt σε Python με το Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Μάθετε πώς να μετατρέψετε αρχεία docx σε txt χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να αποθηκεύσετε docx ως txt με εξισώσεις LaTeX χρησιμοποιώντας Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

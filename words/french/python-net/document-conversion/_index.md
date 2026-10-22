@@ -214,6 +214,8 @@ Apprenez à convertir un fichier Word en PDF en utilisant Aspose.Words pour Pyth
 Apprenez à convertir un fichier DOCX en PDF tout en conservant l'accessibilité avec Aspose.Words pour Python.
 ### [Comment convertir un docx en txt en Python avec Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Apprenez à convertir des fichiers DOCX en fichiers texte TXT en utilisant Aspose.Words pour Python.
+### [Comment enregistrer un docx en txt avec des équations LaTeX en utilisant Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Apprenez à convertir un fichier DOCX en texte tout en conservant les équations LaTeX avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

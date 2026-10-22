@@ -289,6 +289,9 @@
 ### [วิธีแปลง docx เป็น txt ใน Python ด้วย Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 เรียนรู้วิธีแปลงไฟล์ docx เป็น txt ด้วย Aspose.Words for Python อย่างละเอียด
 
+### [วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

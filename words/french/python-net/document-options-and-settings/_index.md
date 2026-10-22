@@ -67,6 +67,8 @@ Apprenez à activer le mode de récupération afin d’ouvrir des documents Word
 Apprenez à restaurer des fichiers DOCX endommagés à l'aide d'Aspose.Words pour Python. Guide pas à pas avec exemple de code.
 ### [Gestionnaire d'avertissement de police Aspose – Détecter les polices manquantes et personnaliser le chargement du document](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Apprenez à gérer les avertissements de police, détecter les polices manquantes et personnaliser le chargement de documents avec Aspose.Words pour Python.
+### [Activer le mode de récupération pour récupérer un document Word corrompu](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Apprenez à activer le mode de récupération afin de restaurer un document Word corrompu avec Aspose.Words pour Python. Guide pas à pas avec code source.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -207,6 +207,8 @@
 تعلم كيفية تحويل مستندات Word إلى PDF بسهولة باستخدام Aspose.Words في بايثون.
 ### [كيفية تحويل docx إلى pdf مع إمكانية الوصول في بايثون](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 تعلم كيفية تحويل ملفات docx إلى PDF مع الحفاظ على ميزات إمكانية الوصول باستخدام Aspose.Words في بايثون.
+### [كيفية حفظ ملف docx كـ txt مع معادلات LaTeX باستخدام Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+تعلم كيفية حفظ مستندات docx كملفات txt مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

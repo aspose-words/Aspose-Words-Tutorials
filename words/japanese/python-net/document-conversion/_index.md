@@ -53,6 +53,8 @@ Word 文書を LaTeX にエクスポートし、さらに DOCX を Markdown に�
 
 ### [Aspose.Words を使用して Word 文書から LaTeX をエクスポートする方法](./how-to-export-latex-from-word-documents-using-aspose-words/)
 Aspose.Words を使って Word 文書を LaTeX にエクスポートする手順を詳しく解説します。簡単に実装可能です。
+### [Aspose.Words を使用して LaTeX 方程式付き docx を txt に保存する方法](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words for Python を使い、LaTeX 方程式を保持したまま docx をテキストファイルに変換する手順を解説します。
 
 ### [Word から PDF を作成 – Aspose.Words 完全 Python ガイド](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python を使用して、Word 文書から PDF を生成する手順を詳しく解説します。簡単に実装可能です。

@@ -209,6 +209,8 @@ Tanulja meg, hogyan menthet docx fájlokat txt formátumba LaTeX matematikával 
 ### [Hogyan konvertálja a docx fájlt PDF-be hozzáférhetőséggel Pythonban](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 ### [Hogyan konvertálja a docx fájlt txt formátumba Pythonban az Aspose.Words segítségével](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Tanulja meg, hogyan konvertálhatja a docx fájlokat egyszerűen txt formátumba Python és Aspose.Words használatával.
+### [Hogyan mentse a docx fájlt txt formátumba LaTeX egyenletekkel az Aspose.Words használatával](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Ismerje meg, hogyan menthet docx fájlokat txt‑be LaTeX egyenletekkel az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

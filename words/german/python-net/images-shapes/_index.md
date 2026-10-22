@@ -82,6 +82,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python ein leeres Word-Dokument erst
 ### [Erstellen Sie ein leeres Word-Dokument und fügen Sie einer Form Schatten hinzu – Vollständiger Leitfaden](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Lernen Sie, wie Sie mit Aspose.Words für Python ein leeres Word-Dokument erzeugen und einer Form einen Schatten hinzufügen.
 
+### [Wie man ein Dokument mit einer Rechteckform und Schatten in Python erstellt](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Dokument mit Rechteckform und Schatten erstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

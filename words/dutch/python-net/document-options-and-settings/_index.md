@@ -71,6 +71,8 @@ Leer hoe u de herstelmodus activeert om beschadigde Word-documenten te openen me
 Leer hoe u beschadigde docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met voorbeeldcode.
 ### [Aspose Font-waarschuwingshandler – Ontdek ontbrekende lettertypen en pas documentladen aan](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Leer hoe u ontbrekende lettertypen detecteert en het laden van documenten aanpast met de Aspose Font Warning Handler.
+### [Herstelmodus inschakelen om een beschadigd Word-document te herstellen](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Leer hoe u herstelmodus inschakelt om een beschadigd Word-document te repareren met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

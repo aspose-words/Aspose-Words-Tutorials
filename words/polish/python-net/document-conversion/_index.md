@@ -272,6 +272,9 @@ Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać dokument Word w
 ### [Jak przekonwertować docx na pdf z dostępnością w Pythonie](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 Dowiedz się, jak przy użyciu Aspose.Words dla Pythona konwertować pliki docx na PDF zachowując dostępność.
 
+### [Jak zapisać docx jako txt z równaniami LaTeX przy użyciu Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument docx jako plik txt zachowując równania LaTeX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

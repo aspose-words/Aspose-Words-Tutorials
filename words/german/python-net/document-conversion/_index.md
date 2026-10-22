@@ -33,6 +33,7 @@ Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python kön
 ## Tutorials zur Python-Dokumentkonvertierung
 ### [Python-Dokumentkonvertierung – Die vollständige Anleitung](./python-document-conversion/)
 Lernen Sie die Python-Dokumentenkonvertierung mit Aspose.Words für Python. Konvertieren, bearbeiten und passen Sie Dokumente mühelos an. Steigern Sie jetzt Ihre Produktivität!
+
 ### [Wie man Markdown aus Word speichert – Vollständige Python-Anleitung](./how-to-save-markdown-from-word-complete-python-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und speichern.
 ### [Wie man Markdown aus einem Word-Dokument mit Aspose.Words exportiert](./how-to-export-markdown-from-a-word-document-with-aspose/)
@@ -52,6 +53,7 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python LaTeX aus Word exportieren un
 Erfahren Sie, wie Sie mit Aspose.Words für Python LaTeX aus Word‑Dokumenten exportieren.
 ### [PDF aus Word erstellen – Vollständige Python-Anleitung mit Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF konvertieren und speichern.
+
 ### [Barrierefreies PDF aus Word mit Python – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDFs aus Word-Dokumenten erstellen.
 ### [Wie man Word nach PDF exportiert und ein barrierefreies PDF/UA erstellt](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
@@ -212,6 +214,9 @@ Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in Python problemlos als P
 Erfahren Sie, wie Sie mit Aspose.Words für Python docx-Dateien in barrierefreie PDFs konvertieren.
 ### [Wie man docx in txt mit Aspose.Words in Python konvertiert](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python docx-Dateien in reine Textdateien (txt) konvertieren.
+
+### [Wie man DOCX als TXT mit LaTeX‑Formeln speichert – Vollständige Anleitung](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Erfahren Sie, wie Sie mit Aspose.Words DOCX‑Dateien in Textdateien konvertieren und dabei LaTeX‑Formeln erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

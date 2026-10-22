@@ -86,6 +86,9 @@ Lär dig hur du skapar ett tomt Word-dokument och lägger till skugga på en for
 ### [Skapa tomt Word-dokument och lägg till skugga på form – Fullständig handledning](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till skugga på en form med Aspose.Words.
 
+### [Hur man skapar dokument med en rektangelform och skugga i Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Lär dig att skapa ett Word-dokument med en rektangel och skuggeffekt med Aspose.Words för Python.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

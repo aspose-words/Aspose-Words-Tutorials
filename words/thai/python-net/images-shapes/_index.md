@@ -84,6 +84,9 @@
 ### [สร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรง – คำแนะนำเต็ม](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรงโดยใช้ Aspose.Words สำหรับ Python-net
 
+### [วิธีสร้างเอกสารพร้อมสี่เหลี่ยมผืนผ้าและเงาใน Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมผืนผ้าและเงาโดยใช้ Aspose.Words สำหรับ Python
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

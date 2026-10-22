@@ -86,6 +86,9 @@ Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomoc�
 ### [Vytvoření prázdného dokumentu Word a přidání stínu k tvaru – Kompletní průvodce](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomocí Aspose.Words.
 
+### [Jak vytvořit dokument s obdélníkovým tvarem a stínem v Pythonu](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Naučte se, jak v Pythonu pomocí Aspose.Words vytvořit dokument s obdélníkovým tvarem a stínem.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)

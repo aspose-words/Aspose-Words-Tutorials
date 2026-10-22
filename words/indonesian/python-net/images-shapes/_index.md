@@ -89,6 +89,9 @@ Pelajari cara membuat dokumen Word kosong dan menambahkan efek bayangan pada ben
 ### [Buat Dokumen Word Kosong dan Tambahkan Bayangan pada Bentuk – Tutorial Lengkap](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Panduan lengkap untuk membuat dokumen Word kosong dan menambahkan bayangan pada bentuk menggunakan Aspose.Words untuk Python-net.
 
+### [Cara Membuat Dokumen dengan Bentuk Persegi Panjang dan Bayangan di Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Pelajari cara menambahkan bentuk persegi panjang dengan bayangan ke dokumen Word menggunakan Aspose.Words untuk Python.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

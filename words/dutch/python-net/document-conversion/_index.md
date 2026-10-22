@@ -51,6 +51,8 @@ Leer hoe je met Aspose.Words voor Python LaTeX exporteert vanuit Word en DOCX-be
 
 ### [Hoe LaTeX te exporteren vanuit Word-documenten met Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
 Leer hoe je met Aspose.Words LaTeX kunt exporteren vanuit Word-documenten.
+### [Hoe docx op te slaan als txt met LaTeX‑vergelijkingen met Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Leer hoe je docx-bestanden opslaat als txt met LaTeX‑vergelijkingen via Aspose.Words.
 
 ### [PDF maken vanuit Word – Complete Python-gids met Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF converteert in een volledige gids.

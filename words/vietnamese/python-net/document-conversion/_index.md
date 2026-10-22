@@ -292,6 +292,9 @@ Hướng dẫn lưu tài liệu Word thành PDF bằng Aspose.Words trong Python
 ### [Cách chuyển đổi docx sang pdf với khả năng truy cập trong Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 Hướng dẫn chuyển đổi tệp docx sang PDF có hỗ trợ tính năng truy cập cho người dùng khuyết tật bằng Aspose.Words trong Python.
 
+### [Cách lưu docx thành txt với các phương trình LaTeX bằng Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại các công thức LaTeX bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

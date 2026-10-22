@@ -211,6 +211,8 @@ Naučte se uložit dokument Word jako PDF pomocí Aspose.Words pro Python.
 Naučte se převést soubory DOCX na PDF s podporou přístupnosti pomocí Aspose.Words pro Python.
 ### [Jak převést docx na txt v Pythonu pomocí Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Naučte se převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words v Pythonu.
+### [Jak uložit docx jako txt s LaTeX rovnicemi pomocí Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Naučte se uložit soubor DOCX jako TXT a zachovat LaTeX rovnice pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

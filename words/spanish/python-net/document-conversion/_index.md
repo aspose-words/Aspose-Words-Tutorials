@@ -284,6 +284,8 @@ Aprenda a guardar documentos de Word como PDF usando Aspose.Words para Python. G
 
 ### [Cómo convertir docx a PDF con accesibilidad en Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
 Aprenda a generar PDFs accesibles a partir de archivos DOCX usando Aspose.Words para Python, con soporte de etiquetas y estructura.
+### [Cómo guardar docx como txt con ecuaciones LaTeX usando Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aprenda a guardar archivos DOCX como TXT conservando ecuaciones LaTeX con Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

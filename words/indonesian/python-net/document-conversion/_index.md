@@ -213,6 +213,8 @@ Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words untuk 
 Pelajari cara mengonversi file docx menjadi PDF yang dapat diakses menggunakan Aspose.Words untuk Python.
 ### [Cara Mengonversi docx ke txt di Python dengan Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
 Pelajari cara mengonversi file docx menjadi teks (txt) menggunakan Aspose.Words untuk Python.
+### [Cara menyimpan docx sebagai txt dengan persamaan LaTeX menggunakan Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Pelajari cara menyimpan file docx sebagai txt dengan persamaan LaTeX menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

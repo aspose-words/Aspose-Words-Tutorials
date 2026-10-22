@@ -83,6 +83,9 @@ Learn how to create a blank Word document and apply shadow effects to shapes usi
 ### [Create Blank Word Document and Add Shadow to Shape – Full Tutorial](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Learn how to create a blank Word document and add shadow effects to shapes using Aspose.Words for Python-net with detailed code examples.
 
+### [How to create document with a rectangle shape and shadow in Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Learn how to create a Word document with a rectangle shape and shadow using Aspose.Words for Python.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)
