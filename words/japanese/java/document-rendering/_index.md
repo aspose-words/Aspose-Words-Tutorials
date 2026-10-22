@@ -47,6 +47,8 @@ Aspose.Words for Java でフォントを管理し、カスタムフォントや�
 Aspose.Words でフォントが見つからない場合の警告をキャプチャし、欠落フォントを検出する方法を解説します。
 ### [Aspose.Words で Java の欠落フォントを検出する完全ガイド](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Aspose.Words を使って Java アプリケーションで欠落しているフォントを検出し、置換やインストール方法を学べます。
+### [Javaで警告コールバックを登録する – 完全プログラミングガイド](./register-warning-callback-in-java-complete-programming-guide/)
+Aspose.Words for Javaで警告コールバックを登録し、ドキュメント処理中の警告をハンドリングする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

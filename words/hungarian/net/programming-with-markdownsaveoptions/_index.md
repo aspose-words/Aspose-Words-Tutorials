@@ -53,7 +53,6 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba teljes C# útmutató
 Ismerje meg, hogyan exportálhat LaTeX‑et DOCX fájlokból és konvertálhatja őket Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba LaTeX egyenletekkel – C# útmutató](./save-docx-as-markdown-with-latex-equations-c-guide/)
 ### [DOCX mentése Markdownba – Word matematikai képletek exportálása LaTeX-be az Aspose.Words segítségével](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
-### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [Hogyan ágyazzunk be képeket a Markdownba DOCX-ből](./how-to-embed-images-in-markdown-from-docx/)
 Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-complete-guide-with-image-extractio/)
@@ -63,6 +62,10 @@ Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown form�
 ### [Képek mentése – DOCX konvertálása Markdownba Aspose-szal](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 ### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words használatával](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 ### [DOCX mentése Markdownba – Teljes Aspose.Words lépésről‑lépésre útmutató](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
+
+### [DOCX mentése Markdownba – Teljes útmutató képek kinyerésével](./save-docx-as-markdown-complete-guide-with-image-extraction/)
+
 ### [Word konvertálása Markdownba C#‑ban – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 ### [DOCX mentése Markdownba – Képek kinyerése – C# útmutató](./save-docx-as-markdown-extract-images-c-guide/)
 ### [DOCX mentése Markdownba – Word egyenletek exportálása LaTeX-be C#-ban](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
@@ -188,6 +191,17 @@ Ismerje meg, hogyan menthet dokumentumokat Markdown formátumba C#‑ban egy tel
 ### [DOCX mentése Markdownba – Teljes C# útmutató](./export-docx-as-markdown-complete-c-guide/)
 Ismerje meg, hogyan exportálhat DOCX fájlokat Markdown formátumba egy teljes C# útmutatóval.
 ### [Képek feltöltése a felhőbe a Word Markdownba konvertálásakor](./upload-images-to-cloud-when-converting-word-to-markdown/)
+### [Word mentése Markdownba – Táblázatok exportálása HTML-be az Aspose.Words segítségével](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Ismerje meg, hogyan exportálhatja a Word táblázatokat HTML-be a Markdown mentés során az Aspose.Words használatával.
+### [Markdown mentése DOCX-be C#‑ban – lépésről‑lépésre útmutató](./save-markdown-as-docx-in-c-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat Markdown fájlokat DOCX formátumba C#‑ban az Aspose.Words for .NET segítségével.
+### [Markdown mentése Word-be – lépésről‑lépésre útmutató C# fejlesztőknek](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
+Ismerje meg, hogyan menthet Markdown fájlokat Word formátumba C# fejlesztőknek szóló részletes útmutatóval.
+### [Képek feltöltése CDN-re a DOCX‑ről Markdown konverzió során – Teljes útmutató](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Ismerje meg, hogyan tölthet fel képeket CDN-re a DOCX‑ről Markdown‑ba konvertálás során az Aspose.Words for .NET használatával.
+### [DOCX konvertálása Markdownba – Teljes útmutató alakzatárnyékkal és helyreállítással](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+Ismerje meg, hogyan konvertáljon DOCX fájlokat Markdownba, beleértve az alakzatok árnyékát és a helyreállítást.
+### [Aspose docx to markdown – Teljes útmutató a konvertáláshoz és a képek kinyeréséhez](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

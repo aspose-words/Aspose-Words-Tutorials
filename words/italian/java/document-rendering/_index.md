@@ -47,6 +47,8 @@ Scopri come gestire gli avvisi di font mancanti con Aspose.Words per Java, rilev
 Scopri come intercettare gli avvisi di font mancanti durante il rendering con Aspose.Words per Java.
 ### [Trova i font mancanti in Java con Aspose.Words – Guida completa](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Scopri come individuare e risolvere i font mancanti nei documenti Word usando Aspose.Words per Java, con esempi pratici passo passo.
+### [Registrazione della callback di avviso in Java – Guida completa alla programmazione](./register-warning-callback-in-java-complete-programming-guide/)
+Scopri come registrare una callback per gli avvisi in Aspose.Words per Java, con esempi di codice e best practice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

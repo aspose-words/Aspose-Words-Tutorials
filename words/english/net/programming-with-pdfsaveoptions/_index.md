@@ -54,10 +54,12 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Save docx as pdf with Aspose.Words – Complete C# Guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Step-by-step guide to convert DOCX to PDF using Aspose.Words in C#, covering all essential settings. |
 | [How to Export PDF from Word with Aspose – Full Step‑by‑Step Guide](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Learn how to export PDFs from Word using Aspose.Words with a comprehensive step‑by‑step guide. |
 | [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Learn how to create accessible PDFs from Word documents using Aspose.Words for .NET with C# in this step-by-step guide. |
+| [Save Document as PDF in C# – Export Inline Shapes](./save-document-as-pdf-in-c-export-inline-shapes/) | Learn how to export inline shapes when saving a document as PDF using Aspose.Words for .NET in C#. |
 | [Create Accessible PDF in C# – PDF Accessibility Tutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Learn how to generate accessible PDF files in C# using Aspose.Words, covering tags, alt text, and compliance with PDF/UA standards. |
 | [Create Accessible PDF from Word – Complete Guide](./create-accessible-pdf-from-word-complete-guide/) | Learn how to create accessible PDFs from Word documents using Aspose.Words for .NET in this comprehensive guide. |
 | [Create Accessible PDF from Word using Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Learn how to generate accessible PDF files from Word documents using Aspose.Words for .NET in a step‑by‑step guide. |
 
+| [Create Accessible PDF from Word – Complete Programming Guide](./create-accessible-pdf-from-word-complete-programming-guide/) | Learn how to create accessible PDFs from Word using Aspose.Words for .NET in this complete programming guide. |
 | [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Learn how to create PDF/UA compliant accessible PDFs using Aspose.Words for .NET in this step‑by‑step guide. |
 | [Create Accessible PDF from Word – Complete C# Guide](./create-accessible-pdf-from-word-complete-c-guide/) | Learn how to create accessible PDFs from Word using Aspose.Words for .NET with a complete C# guide. |
 | [Create Accessible PDF from Word in C# – Complete Guide](./create-accessible-pdf-from-word-in-c-complete-guide/) | Learn how to create accessible PDF files from Word documents using Aspose.Words for .NET in C# with this comprehensive guide. |
@@ -86,6 +88,9 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create Accessible PDF from DOCX – Complete Programming Guide](./create-accessible-pdf-from-docx-complete-programming-guide/) | Learn how to generate accessible PDFs from DOCX files using Aspose.Words for .NET in this complete programming guide. |
 | [Convert Word to Accessible PDF with Aspose.Words – Complete Guide](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Learn how to convert Word documents to accessible PDFs using Aspose.Words with a complete step‑by‑step guide. |
 | [Create Accessible PDF – Convert Word to PDF with C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Learn how to convert Word documents to accessible PDF using Aspose.Words for .NET with C# in this step‑by‑step guide. |
+| [Save Word as PDF – Complete Guide with Accessibility](./save-word-as-pdf-complete-guide-with-accessibility/) | Learn how to convert Word documents to accessible PDFs using Aspose.Words for .NET, covering tags, alt text, and PDF/UA compliance. |
+| [Create PDF/UA Compliant File from Word – Full Export Guide](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Learn how to create a PDF/UA compliant file from Word using Aspose.Words for .NET with a comprehensive export guide. |
+| [How to set RenderChoiceFormFieldBorder false when converting Word to PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Learn how to disable RenderChoiceFormFieldBorder during Word to PDF conversion using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

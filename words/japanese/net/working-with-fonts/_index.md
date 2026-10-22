@@ -32,6 +32,7 @@
 | [フォント強調マークの設定](./set-font-emphasis-mark/) Aspose.Words for .NET を使用して Word 文書にフォント強調記号を設定する方法を、詳細なステップバイステップガイドで学習します。.NET 開発者に最適です。 |
 | [フォントフォルダを設定する](./set-fonts-folders/) Aspose.Words for .NET でカスタムフォントフォルダーを設定する方法を、ステップバイステップで解説する包括的なガイドです。ドキュメントフォントの強化を目指す開発者に最適です。 |
 | [フォント置換を有効/無効にする](./enable-disable-font-substitution/) Aspose.Words for .NET を使用して、Word 文書のフォント置換を有効または無効にする方法を学びます。すべてのプラットフォームでドキュメントの外観の一貫性を確保します。 |
+| [C# で文書のフォント置換を実行する方法](./how-to-perform-font-substitution-in-document-with-c/) Aspose.Words for .NET を使用して、C# で文書内のフォント置換を行う手順をステップバイステップで解説します。 |
 | [Aspose.Words でフォント置換警告を有効にする – 完全ガイド](./enable-font-substitution-warnings-in-aspose-words-complete-g/) Aspose.Words for .NET を使用して、フォント置換警告を有効にする方法をステップバイステップで学びます。 |
 | [Aspose.Words でフォント置換を処理する – 完全プログラミングガイド](./handle-font-substitution-in-aspose-words-complete-programmin/) Aspose.Words for .NET を使用してフォント置換を管理する完全ガイドです。 |
 | [フォントフォールバック設定](./set-font-fallback-settings/) Aspose.Words for .NET でフォント置換設定を設定し、Word 文書でフォント置換をカスタマイズする方法を学習します。 |
@@ -45,6 +46,7 @@
 | [読み込みオプションによるフォント設定](./font-settings-with-load-options/) Aspose.Words for .NET の読み込みオプションを使用してフォント設定を管理する方法を学びます。Word 文書で一貫したフォント表示を実現するための開発者向けステップバイステップガイドです。|
 | [フォントフォルダの設定](./set-fonts-folder/) Aspose.Words for .NET でカスタム フォント フォルダーを設定し、フォントが失われることなく Word 文書が正しくレンダリングされるようにする方法を説明します。 |
 | [フォント設定のデフォルトインスタンス](./font-settings-default-instance/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書の既定のフォント設定を構成する方法を学習します。 |
+| [フォント設定の設定方法 – 欠落フォントを処理する](./how-to-set-fontsettings-handle-missing-fonts/) Aspose.Words for .NET を使用して、欠落フォントを検出し、適切に処理するための FontSettings の設定方法をステップバイステップで学びます。 |
 | [利用可能なフォントのリストを取得する](./get-list-of-available-fonts/) Aspose.Words for .NET を使用して利用可能なフォントのリストを取得する方法を、この詳細なステップバイステップのチュートリアルで学びましょう。フォント管理スキルを向上させましょう。 |
 | [フォントの通知を受け取る](./receive-notifications-of-fonts/) Aspose.Words for .NET の使用時に、不足フォントまたは代替フォントの通知を受け取る方法について説明します。 |
 | [欠落フォントを処理するための FontSettings の使用方法](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) Aspose.Words for .NET の FontSettings を使用して、欠落フォントを検出し代替フォントを設定する方法をステップバイステップで学びます。 |
@@ -74,11 +76,15 @@
 | [ .NET でフォントを扱う方法 – 欠落フォントの検出](./how-to-handle-fonts-in-net-detect-missing-fonts/) Aspose.Words for .NET を使用して、Word 文書で欠落しているフォントを検出する方法をステップバイステップで学びます。 |
 | [Aspose フォント置換 – C# でフォント設定を構成する方法](./aspose-font-substitution-how-to-configure-font-settings-in-c/) Aspose.Words for .NET を使用して、C# でフォント置換設定を構成する手順をステップバイステップで解説します。 |
 | [Aspose フォント置換 – Word 文書で欠落フォントを検出する](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) Aspose.Words for .NET を使用して、Word 文書内の欠落フォントを検出する方法をステップバイステップで学びます。 |
+| [IWarningCallback の使用方法 – Aspose.Words で欠落フォントを検出する](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) Aspose.Words for .NET の IWarningCallback を利用し、文書内の欠落フォントを検出する手順をステップバイステップで解説します。 |
+
 | [C# で FontSettings を作成 – 欠落フォントを検出しフォントメッセージを取得](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) C# で FontSettings を作成し、欠落フォントを検出し、フォントメッセージを取得する方法を学びます。 |
 | [C# でフォント警告を取得する – 完全ガイド](./capture-font-warnings-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント警告を取得し処理する方法をステップバイステップで解説します。 |
 | [C# のカスタムフォント設定 – Word の読み込みと不足フォントの処理](./custom-font-settings-in-c-load-word-handle-missing-fonts/) Aspose.Words for .NET を使用して、Word 文書を読み込み、不足フォントを処理する方法をステップバイステップで学びます。 |
 | [Word 文書の読み込み時に警告コールバックを作成する – 完全ガイド](./create-warning-callback-for-loading-word-documents-complete/) Aspose.Words for .NET を使用して、Word 文書の読み込み時に警告コールバックを設定し、問題を検出する方法をステップバイステップで学びます。 |
 | [C# でフォントを検出する方法 – 完全ガイド](./how-to-detect-fonts-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# でフォント検出を行う手順をステップバイステップで解説します。 |
+| [.NET でフォントをロードする方法 – フォント設定と警告の設定](./how-to-load-fonts-in-net-set-font-settings-warnings/) Aspose.Words for .NET を使用してフォントをロードし、フォント設定と警告を管理する方法をステップバイステップで学びます。 |
+| [Aspose.Words を使用して DOCX を PDF に保存し、欠落フォントを検出する](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) Aspose.Words for .NET を使用して、DOCX を PDF に変換し、欠落フォントを検出する手順をステップバイステップで学びます。 |
 
 | [Aspose フォント置換: Word 文書で欠落フォントを検出する](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) Aspose.Words for .NET を使用して、Word 文書で欠落フォントを検出する方法をステップバイステップで学びます。 |
 {{< /blocks/products/pf/tutorial-page-section >}}

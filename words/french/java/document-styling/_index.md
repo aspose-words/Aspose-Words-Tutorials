@@ -47,6 +47,14 @@ Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Word
 Apprenez à styliser les en-têtes et pieds de page de vos documents avec Aspose.Words pour Java dans ce guide détaillé. Instructions étape par étape et code source inclus.
 ### [Définir les paramètres de police par défaut dans Aspose.Words pour Java – Guide complet](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Apprenez à configurer la police par défaut pour vos documents avec Aspose.Words pour Java. Guide complet avec exemples de code.
+### [Comment appliquer une ombre à un graphique Word avec Aspose.Words pour Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Apprenez à ajouter une ombre à un graphique Word en utilisant Aspose.Words pour Java. Exemple de code détaillé.
+### [Comment modifier le séparateur de notes de bas de page en Java avec Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Apprenez à modifier le séparateur des notes de bas de page dans les documents Word avec Aspose.Words pour Java. Guide pratique avec exemples de code.
+### [Comment exploser une tranche dans un graphique Word et personnaliser son apparence](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Apprenez à détacher une tranche d'un graphique Word et à personnaliser son apparence avec Aspose.Words pour Java.
+### [Comment styliser les notes de bas de page en Java avec Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Apprenez à appliquer des styles aux notes de bas de page dans les documents Word avec Aspose.Words pour Java. Guide complet avec exemples de code.
 ### [Modifier l'espacement des notes de bas de page dans DOCX – Guide complet](./change-footnote-spacing-in-docx-complete-guide/)
 Apprenez à ajuster l'espacement des notes de bas de page dans les fichiers DOCX avec Aspose.Words pour Java. Guide complet avec exemples de code.
 

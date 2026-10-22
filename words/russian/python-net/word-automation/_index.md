@@ -40,6 +40,8 @@
 
 ### [Как использовать Aspose для автоматизации исправления грамматики в Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Узнайте, как автоматизировать проверку и исправление грамматики в документах с помощью Aspose.Words для Python.
+### [Создать пустой документ Word с теневой фигурой в Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Создайте пустой документ Word и добавьте в него форму с тенью, используя Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

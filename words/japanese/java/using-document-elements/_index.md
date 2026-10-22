@@ -43,6 +43,9 @@ Aspose.Words for Javaを使えば、動的なドキュメントを即座に作�
 練習を重ねれば完璧になります。Aspose.Words for Javaを使えば、あっという間にプロ並みのドキュメントを作成、修正、強化できるようになります。コーディングを楽しみましょう！
 
 ## ドキュメント要素チュートリアルの使用
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Aspose.Words for Java でのコメントの使用](./using-comments/)
 Aspose.Words for Javaでコメントを使用する方法を学びましょう。ドキュメントにコメントを追加およびカスタマイズするためのステップバイステップのチュートリアルです。
 ### [Aspose.Words for Java でのフィールドの使用](./using-fields/)
@@ -63,16 +66,58 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 このステップバイステップのチュートリアルで、Aspose.Words for Java のリストの使い方を学びましょう。ドキュメントを効果的に整理し、フォーマットしましょう。
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
+### [Aspose.Words for Java のノードの使用](./using-nodes/)
 ### [Aspose.Words for Java で円グラフを挿入し、データ ラベルにパーセンテージを追加](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Aspose.Words for Java を使用して、Word 文書に円グラフを挿入し、データ ラベルにパーセンテージを表示する手順を学びます。
-### [Aspose.Words for Java でのノードの使用](./using-nodes/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
-### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
+
+### [Aspose.Words for Java で Word に円グラフを挿入する – 完全ガイド](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
+
+### [Aspose.Words for Java で OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
+### [Word に ActiveX ボタンを挿入する – ボタンのキャプションを設定する](./how-to-insert-activex-button-in-word-set-button-caption/)
+Aspose.Words for JavaでWord文書にActiveXボタンを挿入し、ボタンのキャプションを設定する手順を学びます。
+
+### [Aspose.Words for Java でコードから forms2olecontrol を作成する方法](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words を使用したコードで forms2olecontrol を作成する手順を学びます。
+### [Aspose.Words for Java で ActiveX コマンドボタンを作成する方法](./how-to-create-activex-command-button-in-java/)
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
-### [Aspose.Words for Java でのセクションの使用](./using-sections/)
+### [Aspose.Words for Java のセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [JavaでWordのボタンサイズを設定する – 完全なAspose.Wordsガイド](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aspose.Words for Java を使用して、Word 文書内のボタンサイズをプログラムで設定する方法をステップバイステップで解説します。
+### [Aspose.Words for Java で円グラフを作成する – 完全ステップバイステップガイド](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+### [DOCX に Forms2OleControl を追加 – 完全 Aspose.Words ガイド](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、Forms2OleControl を DOCX に追加する方法をステップバイステップで解説します。
+### [コマンドボタンで空白の Word 文書を作成する – ステップバイステップ ガイド](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [Java で Word のセパレーターを取得する方法](./how-to-get-separator-in-word-docs-with-java/)
+Java を使用して Word 文書内のセパレーター（区切り文字）を取得する手順をステップバイステップで解説します。
+### [C# で SDT を追加する方法 – Word プレースホルダーの完全ガイド](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Word のプレースホルダー（SDT）を C# で追加・設定する手順をステップバイステップで解説します。
+### [Java で Word に円グラフを作成する – ステップバイステップ ガイド](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java と Aspose.Words を使用して、Word 文書内に円グラフを挿入する方法を段階的に学びます。
+### [Aspose.Words for Java でプレースホルダーとリストを使用した Word 文書の作成](./how-to-create-word-document-with-placeholders-and-lists/)
+
+### [Java の Chart API で円グラフにリーダーラインを追加する方法](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java の Chart API を使用して、円グラフにリーダーライン（データラベルの線）を追加する手順を学びます。
+### [Java で Word 文書にコマンド ボタンを挿入する方法](./how-to-insert-command-button-in-a-word-document-using-java/)
+### [Java で Word 文書のチャートを編集する方法](./how-to-edit-chart-in-a-word-document-using-java/)
+### [Java でドーナツチャートを編集した後に Word 文書を保存する方法](./save-word-document-after-editing-doughnut-chart-in-java/)
+### [空白のWord文書を作成し、プレーンテキストコントロールを挿入する](./create-blank-word-document-and-insert-a-plain-text-control/)
+空白のWord文書を作成し、プレーンテキストコントロールを挿入する手順を学びます。
+### [JavaでWord文書にラジアルチャートを作成する方法](./how-to-create-radial-chart-in-a-word-document-with-java/)
+JavaコードでWord文書にラジアルチャートを挿入し、カスタマイズする手順を学びます。
+### [C# で空白の Word 文書を作成し、レーダーチャートを追加する方法](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C# を使用して空の Word 文書を作成し、レーダーチャートを挿入する手順を学びます。
+### [Aspose.Words for Java で Word 文書をプログラム的に作成し、ボタンを挿入する](./create-word-document-programmatically-and-insert-a-button/)
+### [Aspose.Words for Java で ActiveX を含む DOCX の作成方法](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java と Aspose.Words を使用して、ActiveX コントロールを含む DOCX を作成する手順を解説します。
+### [Aspose.Words for Java で円グラフを挿入する方法](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Aspose.Words for Java を使って、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
+### [空白の Word 文書を作成し、ActiveX ボタンを追加する (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+空白の Word 文書を作成し、ActiveX ボタンを配置する方法をステップバイステップで学びます。
 ### [Word 文書にボタンを追加する方法 – ステップバイステップガイド](./how-to-add-button-to-word-document-step-by-step-guide/)
 Aspose.Words for Javaを使用して、Word 文書にボタンを挿入し、機能させる手順をステップバイステップで解説します。
 

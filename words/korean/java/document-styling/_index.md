@@ -31,6 +31,9 @@ Aspose.Words for Java는 강력한 문서 스타일링 도구를 제공하여 �
 이 튜토리얼에서는 시각적으로 매력적인 문서를 만드는 것뿐만 아니라 효율성을 위해 스타일 지정 프로세스를 최적화하는 데에도 중점을 둡니다. Aspose.Words for Java는 개발자가 문서 스타일 지정 작업을 자동화할 수 있도록 다양한 API를 제공합니다. 프로그래밍 방식으로 스타일을 적용하고, 데이터를 기반으로 문서 레이아웃을 동적으로 생성하고, 특정 콘텐츠를 강조하는 조건부 서식을 구현하는 방법을 배우게 됩니다. 이러한 효율적인 스타일 지정 기법을 활용하면 수동 작업을 크게 줄이고 특정 문서 처리 요구 사항에 맞는 동적이고 맞춤화된 문서를 만들 수 있습니다.
 
 ## 문서 스타일링 튜토리얼
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
 ### [Word 문서 스타일링](./word-document-styling/)
 Aspose.Words for Java를 사용하여 문서에 스타일을 적용하고 처리하는 방법을 알아보세요! 소스 코드 예제를 활용하여 시각적으로 멋진 결과물을 만들어 보세요. 
 ### [문서에 스타일 및 글꼴 적용](./applying-styles-fonts/)
@@ -47,6 +50,12 @@ Aspose.Words for Java를 사용하여 워터마크를 적용하고 페이지 구
 Aspose.Words for Java를 활용해 Java Word 문서에서 사용된 글꼴을 식별하고 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words for Java에서 기본 글꼴 설정 – 완전 가이드](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java를 사용해 문서의 기본 글꼴을 설정하고 적용하는 방법을 단계별 예제로 확인하세요.
+### [Aspose.Words for Java로 Word 차트에 그림자 설정하기](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java를 이용해 Word 차트에 그림자를 적용하고 시각적 효과를 강화하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.Words로 각주 구분자 편집하기](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용해 각주 구분자를 편집하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.Words를 사용하여 각주 스타일 지정하기](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java를 활용해 문서의 각주에 스타일을 적용하고 맞춤화하는 방법을 단계별로 안내합니다.
 ### [DOCX에서 각주 간격 변경 – 완전 가이드](./change-footnote-spacing-in-docx-complete-guide/)
 Aspose.Words for Java를 사용하여 DOCX 문서의 각주 간격을 조정하는 방법을 단계별로 안내합니다.
 

@@ -70,6 +70,10 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 
 ### [कस्टम AI मॉडल बनाएं – जावा में Word पैराग्राफ संपादित करें](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 जावा में Aspose.Words का उपयोग करके कस्टम AI मॉडल बनाकर Word पैराग्राफ को स्वचालित रूप से संपादित करने की प्रक्रिया सीखें।
+### [कस्टम LLM ग्रामर चेक के साथ जावा में वर्ड दस्तावेज़ बनाएं](./create-word-document-java-with-custom-llm-grammar-check/)
+कस्टम LLM का उपयोग करके जावा में दस्तावेज़ बनाते समय व्याकरण जांच को एकीकृत करने का तरीका सीखें।
+### [Java में व्याकरण जाँचकर्ता बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./build-grammar-checker-java-complete-step-by-step-guide/)
+Java में व्याकरण जाँचकर्ता बनाने के लिए चरण‑दर‑चरण मार्गदर्शन, Aspose.Words और AI का उपयोग करके।
 
 ## अतिरिक्त संसाधन
 

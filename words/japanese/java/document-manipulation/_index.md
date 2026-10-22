@@ -76,10 +76,10 @@ Aspose.Words for Java でドキュメント処理を最適化しましょう。�
 Aspose.Words for Javaでドキュメントの範囲操作をマスターしましょう。この包括的なガイドで、テキストの削除、抽出、書式設定の方法を学びましょう。
 ### [Aspose.Words for Java で構造化ドキュメントタグ (SDT) を使用する](./using-structured-document-tags/)
 この包括的なガイドでは、Aspose.Words for Javaで構造化ドキュメントタグ（SDT）を使用する方法を学びます。SDTを作成、変更し、カスタムXMLデータにバインドする方法を学びます。
+### [Aspose.Words for Java のスタイルとテーマの使用](./using-styles-and-themes/)
 ### [新しい Word 文書の作成 – 構造化タグを追加するステップバイステップガイド](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Aspose.Words for Java を使用して、新しい Word 文書を作成し、構造化タグを追加する方法をステップバイステップで学びます。
 
-### [Aspose.Words for Java でのスタイルとテーマの使用](./using-styles-and-themes/)
 Aspose.Words for Java を使ってドキュメントの書式設定を強化する方法を学びましょう。この包括的なガイドでは、ソースコード例とともに、スタイルやテーマなどについて詳しく解説します。
 ### [Aspose.Words for Java で目次を生成する](./generating-table-of-contents/)
 Aspose.Words for Java を使用して目次（TOC）を生成およびカスタマイズする方法を学びましょう。整理されたプロフェッショナルなドキュメントを簡単に作成できます。
@@ -93,6 +93,10 @@ Aspose.Words for Javaでドキュメントを効率的に分割する方法を�
 Aspose.Words for Javaを使ってドキュメントをHTMLページに分割する方法を学びましょう。ステップバイステップのガイドに従って、シームレスなドキュメント変換を実現しましょう。
 ### [Aspose.Words for Java の DocumentBuilder を使用してコンテンツを追加する](./adding-content-using-documentbuilder/)
 Aspose.Words for Javaでドキュメント作成をマスター。テキスト、表、画像などを追加するステップバイステップガイド。魅力的なWord文書を簡単に作成できます。
+### [Aspose.Words で Word 文書にコンテンツ コントロールを追加する](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words を使用して、Word 文書にコンテンツ コントロール（構造化ドキュメントタグ）を追加し、データ バインディングや編集を簡単に行う方法を学びます。
+### [DocumentBuilder を使用して docx を保存し、コントロールの後にテキストを追加する方法](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder を使って DOCX を保存し、コントロールの後にテキストを追加する手順を解説します。
 ### [Aspose.Words for Java でのドキュメントの複製と結合](./cloning-and-combining-documents/)
 Aspose.Words for Javaでドキュメントを複製および結合する方法を学びましょう。ソースコード例付きのステップバイステップガイドです。
 ### [Aspose.Words for Java でドキュメントを比較する](./comparing-documents/)
@@ -107,9 +111,19 @@ Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメン�
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
 ### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
 Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
-
 ### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
+### [JavaでdocxのActiveXボタンを作成する – 完全プログラミングガイド](./create-docx-activex-button-in-java-complete-programming-guid/)
+JavaでdocxにActiveXボタンを追加する完全ガイドです。ステップバイステップで実装方法を学びましょう。
+### [Aspose.Words を使用して Java で Word 文書を作成する方法](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java を使って新しい Word 文書を作成する手順を解説します。
+### [Javaでインタラクティブなコマンドボタン付きの空白文書をWordで作成する](./create-blank-document-with-an-interactive-command-button-in/)
+Java と Aspose.Words を使って、インタラクティブなコマンドボタンを含む空白の Word 文書を作成する方法を解説します。
+### [テキスト コントロールで空白の Word 文書を作成する方法](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Aspose.Words を使用したプログラムによる Word 文書の作成方法](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aspose.Words を使って Java で Word 文書をプログラム的に作成する手順をステップバイステップで解説します。
+### [プレーンテキスト コンテンツコントロールで Word 文書を作成する](./create-word-document-with-a-plain-text-content-control/)
+プレーンテキスト コンテンツコントロールを使用して、Word 文書を作成する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

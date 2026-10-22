@@ -40,6 +40,8 @@ Python का उपयोग करके docx फ़ाइलों में 
 
 ### [Python में व्याकरण सुधार को स्वचालित करने के लिए Aspose का उपयोग कैसे करें](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Python के साथ Aspose का उपयोग करके व्याकरण सुधार को स्वचालित करें, टेक्स्ट को सही बनाएं और उत्पादकता बढ़ाएँ।
+### [Python में शैडो वाले आकार के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python के लिए Aspose.Words का उपयोग करके शैडो वाले आकार के साथ एक खाली Word फ़ाइल बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
