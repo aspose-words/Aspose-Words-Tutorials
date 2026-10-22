@@ -31,11 +31,65 @@ Aspose.Words for Python을 사용하여 미디어 유형을 분석하고, 파일
 ### [C#에서 그림자 추가하기 – 완전한 프로그래밍 가이드](./how-to-add-shadow-in-c-complete-programming-guide/)
 C#를 사용해 문서에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
+### [Python에서 Aspose.Words로 도형에 그림자 추가 – 전체 가이드](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Python을 사용해 Aspose.Words로 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Python을 사용해 Word 도형에 그림자 추가하기](./how-to-add-shadow-to-a-word-shape-using-python/)
+Python을 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Python에서 도형에 그림자 추가하기 – 완전한 프로그래밍 가이드](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aspose.Words for Python을 사용하여 RTF 문서의 이미지 처리를 최적화하는 방법을 알아보세요. 이미지를 WMF 형식으로 저장하고 이전 리더와의 호환성을 확보하세요.
 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Python용 Aspose.Words를 사용하여 SVG 출력을 최적화하는 방법을 알아보세요. 이 가이드에서는 이미지 유사 속성, 텍스트 렌더링, 보안 강화와 같은 사용자 지정 기능을 다룹니다.
+
+### [Aspose.Words를 사용하여 PDF에 사각형 추가 – 단계별 가이드](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words를 사용해 PDF에 사각형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [Python에서 사각형 모양 만들기 – 그림자 추가 및 PDF 저장 전체 가이드](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Python을 사용해 사각형 모양을 만들고 그림자를 적용한 뒤 PDF로 저장하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 Word에 사각형을 삽입하고 그림자를 추가하는 방법](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words를 사용해 Word 문서에 사각형을 삽입하고 그림자를 적용하는 단계별 가이드를 확인하세요.
+### [Python으로 Word 문서 만들기 – 도형에 그림자 추가 가이드](./create-word-document-python-add-shadow-to-shape-guide/)
+Python과 Aspose.Words를 활용해 Word 문서에 도형을 삽입하고 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Python에서 도형에 그림자 추가 – 완전한 Aspose.Words 튜토리얼](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [그림자 사각형이 있는 문서 저장 방법 – 전체 Python 가이드](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Python을 사용해 그림자 효과가 적용된 사각형을 문서에 삽입하고 저장하는 방법을 단계별로 안내합니다.
+### [Python에서 사각형 모양 만들기 – Aspose.Words 튜토리얼](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Python을 사용해 Aspose.Words에서 사각형 모양을 삽입하고 속성을 설정하는 방법을 단계별로 배웁니다.
+### [Python에서 사각형 모양 만들기 – 완전한 Aspose.Words 가이드](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Python을 사용해 Word 문서에 사각형 모양을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [Python에서 사각형 모양 삽입하기 – 완전한 Aspose.Words 가이드](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Python용 Aspose.Words를 사용해 Word 문서에 사각형 모양을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [Python을 사용하여 Word에서 도형에 그림자 추가 – 완전 가이드](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words에서 그림자 설정하기 – Python 예제](./how-to-set-shadow-in-aspose-words-python-example/)
+Aspose.Words를 사용해 Python에서 문서에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words for Python을 사용하여 PDF에 사각형 그리기](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Aspose.Words for Python을 활용해 PDF 문서에 사각형을 삽입하고 스타일을 지정하는 방법을 단계별로 안내합니다.
+### [Python에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words로 PNG 저장 및 도형에 그림자 추가하기](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words를 사용하여 PNG 형식으로 저장하고 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Python과 Aspose.Words로 컬럼 차트 만들기](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words를 사용하여 Python에서 컬럼 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용하여 Word 도형에 그림자 효과 적용하기](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words를 활용해 Word 문서의 도형에 그림자 효과를 적용하는 방법을 단계별로 안내합니다.
+### [Python용 Aspose.Words에서 모양에 그림자 설정하기](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Aspose.Words for Python을 사용해 문서 내 모양에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Python을 사용하여 Word 문서에 사각형 모양 만들기](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python을 사용해 Word 문서에 사각형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [빈 Word 문서 만들기 및 도형에 그림자 추가 – 전체 Python 가이드](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Python을 사용해 빈 Word 문서를 생성하고 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [빈 Word 문서 만들기 및 도형에 그림자 추가 – 전체 튜토리얼](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Python을 사용해 빈 Word 문서를 만들고 도형에 그림자를 적용하는 전체 단계별 가이드를 제공합니다.
+
+### [Python에서 사각형 모양 및 그림자를 사용하여 문서 만들기](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Python을 사용해 사각형 모양과 그림자를 문서에 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -22,11 +22,8 @@ title: c# carregar documento Word – detectar e tratar fontes ausentes
 url: /pt/net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 ---
 
-keep as is. In Portuguese we could keep same phrase. We'll keep as is.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

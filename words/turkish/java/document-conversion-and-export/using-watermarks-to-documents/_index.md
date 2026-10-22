@@ -9,13 +9,10 @@ url: /tr/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-ords for Java 24.12 (latest)"
 
-**Author:** Aspose -> "**Yazar:** Aspose"
 
-Make sure markdown bold.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

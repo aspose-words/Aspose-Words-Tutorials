@@ -22,11 +22,8 @@ title: Uložte docx jako txt – Exportujte rovnice do LaTeXu s Aspose.Words
 url: /cs/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-step by step.
 
-Will keep code block placeholders unchanged.
 
-Let's write final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

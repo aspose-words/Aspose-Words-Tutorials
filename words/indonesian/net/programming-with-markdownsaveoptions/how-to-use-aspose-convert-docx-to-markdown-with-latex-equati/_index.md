@@ -24,7 +24,7 @@ title: Cara Menggunakan Aspose – Mengonversi DOCX ke Markdown dengan Persamaan
 url: /id/net/programming-with-markdownsaveoptions/how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

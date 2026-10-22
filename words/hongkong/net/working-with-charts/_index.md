@@ -32,6 +32,8 @@ Aspose.Words for .NET 提供了一套強大的工具來處理 Word 文件中的�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="使用 Aspose.Words for .NET 在 Word 中插入簡單長條圖" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="如何在 Word 中編輯圖表：更改標籤位置、字型及其他" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,8 @@ url: /es/java/document-converting/document-conversion-saveoptions/
 weight: 13
 ---
 
- we kept all placeholders and shortcodes.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

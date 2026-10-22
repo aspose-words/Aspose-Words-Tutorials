@@ -23,9 +23,8 @@ title: Buat PDF yang Aksesibel di C# – Panduan Langkah demi Langkah
 url: /id/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-table format.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

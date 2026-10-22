@@ -23,21 +23,13 @@ title: DOCX'ten LaTeX Nasıl Dışa Aktarılır – Word'ü TXT'ye Dönüştürm
 url: /tr/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-Dönüştürme Rehberi"
 
-Then paragraph.
 
-We'll translate.
 
-Be careful with **bold** keep same.
 
-Also keep code snippets like *.docx* etc.
 
-Let's craft.
 
-Also list items.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

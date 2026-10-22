@@ -23,9 +23,7 @@ title: حفظ المستند كملف PDF في C# – دليل شامل لتصد
 url: /ar/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-Now produce final content with Arabic translation, preserving formatting.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

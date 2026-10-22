@@ -25,17 +25,11 @@ title: Tạo PDF Truy cập được từ DOCX – Hướng dẫn đầy đủ c
 url: /vi/net/basic-conversions/create-accessible-pdf-from-docx-complete-aspose-guide/
 ---
 
-. Keep them.
 
-Also note the table.
 
-Translate table headers and cells.
 
-Also note blockquote >.
 
-Also note note about "Pro tip:" etc.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

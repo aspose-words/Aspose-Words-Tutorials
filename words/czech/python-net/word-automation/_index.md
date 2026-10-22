@@ -35,6 +35,14 @@ Zvládnutím automatizace textu pomocí Aspose.Words pro Python mohou vývojář
 ### [Automatizace slov snadno a rychle](./word-automation-made-easy/)
 Automatizujte zpracování textu snadno pomocí Aspose.Words pro Python. Vytvářejte, formátujte a manipulujte s dokumenty programově. Zvyšte produktivitu hned teď!
 
+### [Nahraďte text v docx pomocí Pythonu – Kompletní průvodce krok za krokem](./replace-text-docx-with-python-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Python nahradit text v souborech DOCX automaticky a efektivně.
+
+### [Jak použít Aspose k automatizaci opravy gramatiky v Pythonu](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Naučte se, jak pomocí Aspose.Words pro Python automatizovat kontrolu a opravu gramatických chyb ve vašich dokumentech.
+### [Vytvořte prázdný dokument Word s tvarem se stínem v Pythonu](./create-blank-word-document-with-shadowed-shape-in-python/)
+Vytvořte prázdný dokument Word a přidejte do něj tvar se stínem pomocí Aspose.Words pro Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

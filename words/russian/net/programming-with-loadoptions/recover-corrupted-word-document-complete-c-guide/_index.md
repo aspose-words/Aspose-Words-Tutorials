@@ -24,11 +24,8 @@ title: Восстановление повреждённого документ�
 url: /ru/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-:** ... translate.
 
-Also bullet lists.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

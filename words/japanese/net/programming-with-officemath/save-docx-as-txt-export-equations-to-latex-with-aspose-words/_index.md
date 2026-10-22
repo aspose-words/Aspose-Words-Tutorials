@@ -20,7 +20,7 @@ title: docx を txt に保存 – Aspose.Words で数式を LaTeX にエクス�
 url: /ja/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

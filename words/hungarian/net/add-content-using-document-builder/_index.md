@@ -32,6 +32,7 @@ Ez az útmutató részletesen bemutatja a DocumentBuilder osztály sokoldalúsá
 
 {{< tutorial-card link="./insert-table-contents/" title="Tartalomjegyzékkel ellátott Word-dokumentum létrehozása .NET-ben" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Több Word-dokumentum generálása az Aspose.Words segítségével" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

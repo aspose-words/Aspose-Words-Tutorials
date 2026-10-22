@@ -21,8 +21,12 @@ Words Processing with Footnotes and Endnotes là một nguồn tài nguyên toà
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Đặt Cột Chú thích](./set-foot-note-columns/) | Tìm hiểu cách thiết lập cột chú thích trong tài liệu Word bằng Aspose.Words cho .NET. Tùy chỉnh bố cục chú thích của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi. |
-| [Đặt vị trí chú thích cuối trang và chú thích cuối trang](./set-footnote-and-end-note-position/) Tìm hiểu cách đặt vị trí chú thích cuối trang và chú thích cuối văn bản trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. |
+| [Đặt vị trí chú thích cuối trang và chú thích cuối trang](./set-footnote-and-end-note-position/) | Tìm hiểu cách đặt vị trí chú thích cuối trang và chú thích cuối văn bản trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. |
 | [Đặt tùy chọn Endnote](./set-endnote-options/) | Tìm hiểu cách thiết lập tùy chọn chú thích cuối trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Thay đổi bộ phân tách chú thích cuối trang trong C# bằng Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Hướng dẫn cách thay đổi bộ phân tách chú thích cuối trang trong tài liệu Word bằng C# và Aspose.Words. |
+| [Truy xuất bộ tách chú thích trong C# – hướng dẫn đầy đủ Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách lấy bộ tách chú thích trong tài liệu Word bằng C# và Aspose.Words. |
+| [Cách thay đổi dấu phân cách chú thích cuối trang và tùy chỉnh kiểu dáng của nó trong tài liệu Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Hướng dẫn thay đổi dấu phân cách của chú thích cuối trang và tùy chỉnh kiểu dáng trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Định dạng dấu phân cách chú thích trong C# bằng Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Hướng dẫn cách định dạng bộ phân tách chú thích trong tài liệu Word bằng C# và Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

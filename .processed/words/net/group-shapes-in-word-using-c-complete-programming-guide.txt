@@ -1,0 +1,7 @@
+Title: Group shapes in Word using C# – complete programming guide
+Slug: group-shapes-in-word-using-c-complete-programming-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-10-14T00:08:19.060059
+SourceRepo: AI Search API
+Keywords: group shapes in word, how to group shapes, add shapes to group
+PRNumber: 321

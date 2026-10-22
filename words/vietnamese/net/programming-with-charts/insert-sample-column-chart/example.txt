@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo một tài liệu Word mới, chèn biểu đồ cột mặc định bằng DocumentBuilder.InsertChart, lấy đối tượng Chart được nhúng, và lưu tài liệu dưới dạng tệp .docx.
+//ExStepSummary:0: Tạo một tài liệu Word trống và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một biểu đồ cột có kích thước 432 × 252 điểm vào tài liệu.
+//ExStepSummary:2: Lấy đối tượng Chart từ shape đã chèn để tùy chỉnh thêm nếu cần.
+//ExStepSummary:3: Lưu tài liệu, hiện đã chứa biểu đồ cột đã chèn, dưới dạng tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

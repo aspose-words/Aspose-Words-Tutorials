@@ -25,15 +25,10 @@ title: Word'den Erişilebilir PDF Oluşturma – Adım Adım Rehber
 url: /tr/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-good habit to validate the result, especially for regulated industries." Translate.
 
-Now produce final markdown with Turkish translation.
 
-Let's craft translation.
 
-We'll keep shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

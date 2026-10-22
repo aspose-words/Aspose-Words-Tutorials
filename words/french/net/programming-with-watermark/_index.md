@@ -18,6 +18,12 @@
 Traitement de texte avec filigrane est une ressource complète qui vous guide tout au long du processus de traitement de texte avec filigrane dans vos documents Word à l'aide de la bibliothèque Aspose.Words pour .NET. Les tutoriels fournissent des explications étape par étape, un code source détaillé et des exemples pratiques pour ajouter, personnaliser et gérer des filigranes dans vos documents Word. Vous apprendrez à ajouter du texte, des images, des formes ou des graphiques en filigrane, à ajuster leur position et leur apparence, et à utiliser des options avancées comme l'ajout de filigranes personnalisés à l'aide de champs. Cette ressource est essentielle pour les développeurs souhaitant automatiser la gestion des filigranes dans leurs documents Word avec Aspose.Words pour .NET.
 
  ## Tutoriels
+
+{{< tutorial-card link="./add-text-watermark/" title="Ajouter un filigrane texte rouge diagonal aux documents Word avec Aspose.Words for .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Créer un filigrane texte diagonal avec police personnalisée dans un document Word à l'aide d'Aspose.Words pour .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Titre | Description |
 | --- | --- |
 | [Ajouter un filigrane de texte avec des options spécifiques](./add-text-watermark-with-specific-options/) | Apprenez à ajouter un filigrane textuel avec des options spécifiques à vos documents Word grâce à Aspose.Words pour .NET. Personnalisez facilement la police, la taille, la couleur et la mise en page. |

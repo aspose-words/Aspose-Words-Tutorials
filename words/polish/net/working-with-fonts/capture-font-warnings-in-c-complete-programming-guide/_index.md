@@ -23,9 +23,8 @@ title: Przechwytywanie ostrzeżeń czcionek w C# – Kompletny przewodnik progra
 url: /pl/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-. There are none besides image.png which we kept same.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

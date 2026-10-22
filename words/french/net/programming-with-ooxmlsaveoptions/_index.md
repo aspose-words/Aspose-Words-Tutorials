@@ -29,7 +29,7 @@ Que vous souhaitiez créer des documents compatibles avec les anciennes versions
 | [Mettre à jour la propriété de l'heure de la dernière sauvegarde](./update-last-saved-time-property/) | Apprenez à mettre à jour la propriété « Dernier enregistrement » dans vos documents Word avec Aspose.Words pour .NET. Suivez notre guide détaillé, étape par étape. |
 | [Conserver les caractères de contrôle hérités](./keep-legacy-control-chars/) | Apprenez à conserver les caractères de contrôle hérités dans les documents Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
 | [Définir le niveau de compression](./set-compression-level/) | Apprenez à définir le niveau de compression de vos documents Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour optimiser le stockage et les performances de vos documents. |
-
+| [Comment changer l'encodage d'un document Word avec Aspose.Words en C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Apprenez à modifier l'encodage d'un document Word en C# à l'aide d'Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

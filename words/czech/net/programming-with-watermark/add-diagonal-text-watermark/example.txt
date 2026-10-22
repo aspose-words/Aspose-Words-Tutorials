@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit nový dokument Word, nakonfigurovat vlastní textovou vodoznak s konkrétními nastaveními písma, aplikovat vodoznak na dokument a výsledek uložit jako soubor .docx pomocí API Document.Watermark.SetText.
+//ExStepSummary:0: Vytvořte novou prázdnou instanci dokumentu Word pojmenovanou `document`.
+//ExStepSummary:1: Nakonfigurujte `watermarkSettings` s písmem Arial 48 pt šedé barvy, diagonálním rozložením a neprůhledným vykreslením.
+//ExStepSummary:2: Aplikujte textový vodoznak „Private“ na `document` pomocí dříve definovaných nastavení.
+//ExStepSummary:3: Definujte cestu k souboru, kam bude vodoznakovaný dokument uložen.
+//ExStepSummary:4: Uložte upravený `document` na zadanou cestu jako soubor .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

@@ -25,19 +25,13 @@ title: Πώς να διαχειριστείτε τις γραμματοσειρ�
 url: /el/java/document-rendering/how-to-handle-fonts-in-java-with-aspose-words-complete-guide/
 ---
 
-αρχεία· κάθε μορφή μπορεί να προκαλέσει διαφορετικούς τύπους προειδοποιήσεων."
 
-Next "## Conclusion" translate.
 
-Paragraphs.
 
-Finally "Ready for the next challenge? ..." translate.
 
-Then shortcodes closing.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
