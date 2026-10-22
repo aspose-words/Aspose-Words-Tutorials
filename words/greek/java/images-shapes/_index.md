@@ -145,6 +145,8 @@
 
 ### [Aspose.Words ActiveX σεμινάριο – εισαγωγή CommandButton με Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 Μάθετε πώς να ενσωματώσετε ένα CommandButton ActiveX σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε κενό έγγραφο Word με ομαδοποιημένα σχήματα](./how-to-create-blank-word-document-with-grouped-shapes/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σε αυτό ομαδοποιημένα σχήματα χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

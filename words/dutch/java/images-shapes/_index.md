@@ -143,6 +143,8 @@ Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Asp
 Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
 
 ### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+### [Leeg Word-document maken met gegroepeerde vormen](./how-to-create-blank-word-document-with-grouped-shapes/)
+Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

@@ -142,6 +142,8 @@ Apprenez à insérer un bouton de commande ActiveX dans un document Word en util
 
 ### [Créer un document Word Java – masquer une forme et définir la couleur de remplissage](./create-word-document-java-hide-shape-and-set-fill-color/)
 Apprenez à masquer une forme et à définir sa couleur de remplissage dans un document Word en Java avec Aspose.Words.
+### [Comment créer un document Word vierge avec des formes groupées](./how-to-create-blank-word-document-with-grouped-shapes/)
+Apprenez à créer un document Word vierge contenant des formes groupées à l'aide d'Aspose.Words pour Java.
 
 ## Ressources supplémentaires
 

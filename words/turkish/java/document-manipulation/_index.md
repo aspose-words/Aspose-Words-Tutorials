@@ -126,6 +126,7 @@ DocumentBuilder kullanarak docx dosyasını kaydedin ve bir kontrolün ardından
 Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturun ve yapılandırılmış etiket eklemeyi adım adım öğrenin.
 ### [Aspose.Words for Java ile Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java kullanarak sıfırdan boş bir Word belgesi oluşturmayı adım adım öğrenin.
+### [C# ile bir Word belgesinde etiket adını ayarlama ve SDT ekleme](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

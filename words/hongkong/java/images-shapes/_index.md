@@ -143,6 +143,8 @@ Aspose.Words Java 程式碼教程
 
 ### [建立 Word 文件 Java – 隱藏形狀並設定填充顏色](./create-word-document-java-hide-shape-and-set-fill-color/)
 示範如何在 Java 中使用 Aspose.Words 隱藏形狀並設定其填充顏色。
+### [如何建立帶組合形狀的空白 Word 文件](./how-to-create-blank-word-document-with-grouped-shapes/)
+示範在 Java 中使用 Aspose.Words 建立空白文件並將多個形狀分組。
 
 ## 其他資源
 

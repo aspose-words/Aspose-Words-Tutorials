@@ -145,6 +145,9 @@ Dowiedz się, jak dodać przycisk CommandButton przy użyciu ActiveX w aplikacji
 ### [Utwórz dokument Word w Javie – ukryj kształt i ustaw kolor wypełnienia](./create-word-document-java-hide-shape-and-set-fill-color/)
 Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumencie Word przy użyciu Aspose.Words dla Java.
 
+### [Jak utworzyć pusty dokument Word z grupowanymi kształtami](./how-to-create-blank-word-document-with-grouped-shapes/)
+Dowiedz się, jak stworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

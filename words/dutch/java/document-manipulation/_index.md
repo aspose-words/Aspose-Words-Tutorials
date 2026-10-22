@@ -80,6 +80,8 @@ Beheers de manipulatie van documentbereiken in Aspose.Words voor Java. Leer teks
 Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide handleiding. Maak, wijzig en koppel SDT's aan aangepaste XML-gegevens.
 ### [Nieuw Word-document maken – Stapsgewijze handleiding voor het toevoegen van een gestructureerde tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Leer hoe u een nieuw Word-document maakt en een gestructureerde tag toevoegt met deze stapsgewijze tutorial.
+### [Hoe tagnaam instellen en SDT toevoegen in een Word-document met C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Leer hoe u een tagnaam instelt en een gestructureerde documenttag (SDT) toevoegt in een Word-document met C#.
 ### [Stijlen en thema's gebruiken in Aspose.Words voor Java](./using-styles-and-themes/)
 Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide handleiding met broncodevoorbeelden.
 ### [Inhoudsopgave genereren in Aspose.Words voor Java](./generating-table-of-contents/)

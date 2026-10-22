@@ -131,6 +131,9 @@ Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad t
 ### [Skapa tomt Word-dokument i Java med Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Lär dig hur du snabbt skapar ett tomt Word-dokument i Java med Aspose.Words.
 
+### [Hur man ställer in taggnamn och lägger till SDT i ett Word-dokument med C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Lär dig hur du sätter taggnamn och lägger till Structured Document Tags i ett Word-dokument med C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

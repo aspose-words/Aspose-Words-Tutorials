@@ -143,6 +143,9 @@ Lär dig hur du lägger till en CommandButton i ett Word-dokument via ActiveX me
 ### [Skapa Word-dokument java – dölj form och ange fyllningsfärg](./create-word-document-java-hide-shape-and-set-fill-color/)
 Lär dig hur du döljer en form och sätter fyllningsfärg i ett Word-dokument med Aspose.Words för Java.
 
+### [Hur man skapar ett tomt Word-dokument med grupperade former](./how-to-create-blank-word-document-with-grouped-shapes/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade former med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

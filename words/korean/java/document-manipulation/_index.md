@@ -127,6 +127,7 @@ Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화�
 Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 빈 워드 문서 만들기](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java를 사용해 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+### [C#용 Aspose.Words에서 태그 이름 설정 및 SDT 추가](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

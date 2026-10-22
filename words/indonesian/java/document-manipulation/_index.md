@@ -130,6 +130,8 @@ Pelajari cara menambahkan kontrol konten ke dokumen Word menggunakan Aspose.Word
 Pelajari cara menyimpan file docx menggunakan DocumentBuilder dan menambahkan teks setelah kontrol dalam dokumen.
 ### [Membuat Dokumen Word Kosong di Java dengan Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dalam beberapa langkah sederhana.
+### [Cara mengatur nama tag dan menambahkan SDT dalam dokumen Word dengan C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Pelajari cara menetapkan nama tag dan menambahkan Structured Document Tag (SDT) pada dokumen Word menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

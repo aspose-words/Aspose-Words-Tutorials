@@ -141,6 +141,9 @@
 ### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
 เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
+### [วิธีสร้างเอกสาร Word ว่างพร้อมรูปทรงที่จัดกลุ่ม](./how-to-create-blank-word-document-with-grouped-shapes/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปทรงหลายรูปที่จัดกลุ่มเป็นหนึ่ง
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

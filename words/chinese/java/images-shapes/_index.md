@@ -143,6 +143,11 @@ Aspose.Words Java 代码教程
 
 ### [创建 Word 文档 Java – 隐藏形状并设置填充颜色](./create-word-document-java-hide-shape-and-set-fill-color/)
 演示如何在 Word 文档中隐藏形状并更改填充颜色。
+### [使用 Java 在 Word 中创建矩形形状 – 完整指南](./create-rectangle-shape-in-word-full-guide/)
+本教程详细演示如何使用 Aspose.Words for Java 在 Word 文档中插入和自定义矩形形状，包括大小、位置和样式设置。
+
+### [使用 Aspose.Words for Java 创建带分组形状的空白 Word 文档](./how-to-create-blank-word-document-with-grouped-shapes/)
+演示如何在空白 Word 文档中创建并分组形状，以实现更复杂的布局。
 
 ## 其他资源
 

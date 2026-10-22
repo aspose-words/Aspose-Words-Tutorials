@@ -143,6 +143,7 @@
 
 ### [Учебник Aspose.Words ActiveX – вставка CommandButton с Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 Узнайте, как добавить кнопку CommandButton в документ Word через ActiveX с использованием Java.
+### [Как создать пустой документ Word с группированными фигурами](./how-to-create-blank-word-document-with-grouped-shapes/)
 
 ## Дополнительные ресурсы
 

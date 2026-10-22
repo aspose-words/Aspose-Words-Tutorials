@@ -145,6 +145,9 @@ Naučte se, jak pomocí ActiveX a Aspose.Words v Javě vložit ovládací prvek 
 ### [Vytvořit Word dokument v Javě – skrýt tvar a nastavit barvu výplně](./create-word-document-java-hide-shape-and-set-fill-color/)
 Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit prázdný dokument Word se seskupenými tvary](./how-to-create-blank-word-document-with-grouped-shapes/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -162,6 +162,7 @@ Learn how to insert a CommandButton into a Word document using Aspose.Words Acti
 
 ### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
 Learn how to hide a shape and set its fill color in a Word document using Aspose.Words for Java.
+### [How to create blank Word document with grouped shapes](./how-to-create-blank-word-document-with-grouped-shapes/)
 
 ## Additional Resources
 

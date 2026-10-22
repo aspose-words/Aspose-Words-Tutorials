@@ -145,6 +145,8 @@ Scopri come aggiungere un CommandButton tramite ActiveX in un'applicazione Java 
 
 ### [Crea documento Word Java – nascondi forma e imposta colore di riempimento](./create-word-document-java-hide-shape-and-set-fill-color/)
 Impara a nascondere una forma e a impostare il colore di riempimento in un documento Word usando Aspose.Words per Java.
+### [Come creare un documento Word vuoto con forme raggruppate](./how-to-create-blank-word-document-with-grouped-shapes/)
+Impara a creare un documento Word vuoto contenente forme raggruppate usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

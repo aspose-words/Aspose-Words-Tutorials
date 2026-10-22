@@ -145,6 +145,8 @@ Dowiedz się, jak programowo tworzyć dokumenty Word przy użyciu Aspose.Words w
 Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words.
 ### [Jak utworzyć pusty dokument Word przy użyciu Aspose.Words dla Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Dowiedz się, jak szybko utworzyć pusty dokument Word przy pomocy Aspose.Words for Java.
+### [Jak ustawić nazwę tagu i dodać SDT w dokumencie Word przy użyciu C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Ustaw nazwę tagu i dodaj strukturalny znacznik dokumentu (SDT) w Wordzie przy użyciu C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

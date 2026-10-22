@@ -145,6 +145,8 @@
 
 ### [إنشاء مستند Word في Java – إخفاء الشكل وتعيين لون التعبئة](./create-word-document-java-hide-shape-and-set-fill-color/)
 تعلم كيفية إخفاء شكل في مستند Word وتحديد لون التعبئة باستخدام Aspose.Words لجافا
+### [كيفية إنشاء مستند Word فارغ مع أشكال مجموعة](./how-to-create-blank-word-document-with-grouped-shapes/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

@@ -144,6 +144,8 @@ Javaで複数のシェイプをグループ化し、空白のWord文書に挿入
 
 ### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
+### [グループ化された図形を使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-grouped-shapes/)
+グループ化された図形を含む空の Word 文書を作成し、レイアウトを簡単に管理する手順を解説します。
 
 ## 追加リソース
 

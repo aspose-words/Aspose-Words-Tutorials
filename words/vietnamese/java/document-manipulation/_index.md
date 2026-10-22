@@ -125,6 +125,8 @@ Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống trong Aspose.Words cho Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java, bao gồm các bước khởi tạo Document và lưu file.
+### [Cách đặt tên thẻ và thêm SDT trong tài liệu Word bằng C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Hướng dẫn cách đặt tên thẻ và chèn Thẻ Tài liệu có Cấu trúc (SDT) vào tài liệu Word bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

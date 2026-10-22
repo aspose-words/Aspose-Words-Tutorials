@@ -142,6 +142,8 @@ Ein Beispiel, das zeigt, wie Sie mit Aspose.Words ActiveX in Java einen CommandB
 
 ### [Word-Dokument in Java erstellen – Form ausblenden und Füllfarbe setzen](./create-word-document-java-hide-shape-and-set-fill-color/)
 Ein Beispiel, das zeigt, wie man in Aspose.Words für Java eine Form ausblendet und die Füllfarbe festlegt.
+### [Leeres Word-Dokument mit gruppierten Formen erstellen](./how-to-create-blank-word-document-with-grouped-shapes/)
+Ein Codebeispiel, das zeigt, wie Sie in Aspose.Words für Java ein leeres Dokument erstellen und mehrere Formen zu einer Gruppe zusammenfassen.
 
 ## Weitere Ressourcen
 

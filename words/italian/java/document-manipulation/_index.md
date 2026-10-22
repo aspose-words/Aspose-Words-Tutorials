@@ -128,6 +128,8 @@ Impara a creare un documento Word vuoto e aggiungere un controllo di testo usand
 Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subito dopo un controllo specifico.
 ### [Come creare un documento Word vuoto con Aspose.Words per Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi passaggi di codice.
+### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Impara a impostare il nome del tag e aggiungere Structured Document Tag in un documento Word usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

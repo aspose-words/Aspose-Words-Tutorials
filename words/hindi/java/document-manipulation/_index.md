@@ -130,6 +130,8 @@ DocumentBuilder का उपयोग करके docx फ़ाइल सह�
 Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।
 ### [Java के लिए Aspose.Words में खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें। सरल कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+### [C# के लिए Aspose.Words में टैग नाम सेट करना और SDT जोड़ना](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में टैग नाम सेट करें और संरचित दस्तावेज़ टैग (SDT) जोड़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

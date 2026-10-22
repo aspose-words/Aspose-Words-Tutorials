@@ -128,6 +128,7 @@ Aspose.Words を使って Java で Word 文書をプログラム的に作成す�
 Aspose.Words for Java を使って、空の Word 文書を作成する基本的な手順を学びます。
 ### [Aspose.Words for Java で空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java を使用して、内容のない新しい Word 文書を作成する手順を学びます。
+### [C# でタグ名を設定し、SDT を追加する](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Как создать пустой документ Word с текстовым контролом](./how-to-create-a-blank-word-document-with-a-text-control/)
 Создайте пустой документ Word и добавьте в него текстовый контрол с помощью Aspose.Words для Java.
+### [Как установить имя тега и добавить SDT в документ Word с C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Узнайте, как задать имя тега и добавить структурированный документный тег (SDT) в Word с помощью C#.
 ### [Клонирование и объединение документов в Aspose.Words для Java](./cloning-and-combining-documents/)
 Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
 ### [Сравнение документов в Aspose.Words для Java](./comparing-documents/)
