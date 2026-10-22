@@ -25,6 +25,13 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 - [เพิ่มรูปร่างกลุ่ม](./add-group-shape/) | เรียนรู้วิธีการเพิ่มรูปร่างกลุ่มลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้ -
+- [รูปร่างกลุ่มใน Word ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีจัดการและสร้างรูปร่างกลุ่มในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือ C# ที่ครบถ้วน
+- [วิธีจัดกลุ่มรูปร่างใน Word และเพิ่มรูปร่างลงในเอกสาร Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | เรียนรู้วิธีจัดกลุ่มรูปร่างและเพิ่มรูปร่างใหม่ในเอกสาร Word ด้วย Aspose.Words for .NET -
+- [กลุ่มรูปร่างใน Word ด้วย C#](./how-to-group-shapes-in-a-word-document-with-c/) | เรียนรู้วิธีการจัดกลุ่มรูปร่างในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
+- [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Aspose.Words สำหรับ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | เรียนรู้วิธีจัดกลุ่มรูปร่างหลายๆ รูปในเอกสาร Word ด้วย Aspose.Words for .NET และ C#
+- [วิธีจัดกลุ่มรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านขั้นตอนที่ชัดเจน
+- [วิธีสร้างเอกสาร Word เปล่าและกลุ่มรูปร่างใน C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มกลุ่มรูปร่างด้วย Aspose.Words สำหรับ .NET ใน C# -
+- [สร้างเอกสาร Word อย่างเป็นโปรแกรมและจัดกลุ่มรูปร่างใน C#](./create-word-document-programmatically-and-group-shapes-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด C# และจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ .NET
 | [แทรกรูปร่าง](./insert-shape/) | เรียนรู้วิธีการแทรกและจัดการรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนของเรา
 - [อัตราส่วนภาพถูกล็อค](./aspect-ratio-locked/) | เรียนรู้วิธีล็อกอัตราส่วนภาพของรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อรักษาสัดส่วนของรูปภาพและรูปร่างของคุณ -
 | [เค้าโครงในเซลล์](./layout-in-cell/) | เรียนรู้วิธีการตั้งค่าเค้าโครงในเซลล์โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับแต่งเอกสาร Word -
@@ -38,10 +45,20 @@
 - [เพิ่มเอฟเฟกต์เงาให้กับรูปร่างใน Word – คู่มือ C# ฉบับสมบูรณ์](./add-shadow-effect-to-word-shapes-complete-c-guide/) | เรียนรู้วิธีเพิ่มเอฟเฟกต์เงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words for .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบใน C#
 - [สร้างเอกสาร Word พร้อมสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ |
-- [สร้างรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือทีละขั้นตอน](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่ายๆ
+| [สร้างเอกสาร Word – แทรกรูปสี่เหลี่ยมและเงาใน C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word และแทรกรูปสี่เหลี่ยมพร้อมเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [บทแนะนำเงารูปร่าง Aspose.Words – เพิ่มเงาให้รูปทรงใน Word ด้วย C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET และ C# ผ่านบทแนะนำขั้นตอนง่าย |
+| [วิธีย้ายเงาใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีย้ายเงาของรูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET ผ่านคู่มือ C# ฉบับเต็ม |
+- [เพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [สร้างเอกสาร Word ว่างพร้อมรูปสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปสี่เหลี่ยมที่มีเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนง่ายๆ
 - [เพิ่มเงาให้รูปทรงใน C# – คู่มือฉบับสมบูรณ์สำหรับการใช้เอฟเฟกต์เงา](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+- [เพิ่มเงาให้รูปทรงใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน
+- [วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# อย่างละเอียดผ่านขั้นตอนและโค้ดตัวอย่าง
+- [วิธีเพิ่มเงาใน Word – คู่มือฉบับสมบูรณ์สำหรับรูปทรง](./how-to-add-shadow-word-complete-guide-for-shapes/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words for .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+- [บันทึกไฟล์ docx พร้อมรูปกลุ่มใน Word ด้วย C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | เรียนรู้วิธีบันทึกไฟล์ docx ที่มีรูปกลุ่มใน Word ด้วย C#
+- [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
+- [สร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีสันด้วย Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีต่างๆ ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่ายๆ
+- [วิธีสร้างเอกสาร docx ที่มีรูปร่างซ่อนด้วย Aspose.Words ใน C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | เรียนรู้วิธีสร้างรูปร่างซ่อนในไฟล์ docx ด้วย Aspose.Words for .NET ผ่านขั้นตอนใน C#
+- [กลุ่มรูปร่างใน Word ด้วย C# – คู่มือการเขียนโปรแกรมครบถ้วน](./group-shapes-in-word-using-c-complete-programming-guide/) | เรียนรู้วิธีจัดกลุ่มรูปร่างใน Word ด้วย C# ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบ -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

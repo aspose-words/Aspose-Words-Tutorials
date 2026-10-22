@@ -32,6 +32,7 @@ Aspose.Words for .NET을 사용하면 개발자가 Word 문서를 프로그래�
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET에서 목차가 있는 Word 문서 만들기" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Aspose.Words를 사용하여 여러 Word 문서 생성" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

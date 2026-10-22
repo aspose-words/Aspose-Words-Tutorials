@@ -37,6 +37,16 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Lưu DOCX dưới dạng TXT – Xuất công thức Word sang LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Hướng dẫn lưu tài liệu DOCX thành tệp TXT và chuyển công thức Word sang định dạng LaTeX bằng Aspose.Words cho .NET. |
 | [Cách xuất LaTeX từ Word – Chuyển đổi Word sang TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Hướng dẫn xuất nội dung LaTeX từ tài liệu Word và chuyển đổi sang tệp TXT bằng Aspose.Words cho .NET. |
 | [Lưu tài liệu dưới dạng TXT – Xuất phương trình Word sang LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Hướng dẫn lưu tài liệu Word dưới dạng TXT và chuyển các phương trình sang định dạng LaTeX. |
+| [Lưu docx thành txt – Xuất phương trình sang LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Hướng dẫn lưu tài liệu docx dưới dạng tệp txt và xuất các phương trình dưới dạng LaTeX bằng Aspose.Words cho .NET. |
+| [Lưu docx thành txt – Hướng dẫn C# đầy đủ](./save-docx-as-txt-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp docx sang txt bằng C# với Aspose.Words, bao gồm các tùy chọn lưu và ví dụ mã. |
+| [Cách xuất LaTeX từ Word – Chuyển DOCX sang TXT có công thức](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Hướng dẫn chuyển đổi tài liệu Word sang tệp TXT chứa các công thức LaTeX, giúp xuất công thức một cách chính xác. |
+
+| [Lưu docx thành txt – Hướng dẫn C# đầy đủ với công thức LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Tìm hiểu cách lưu tài liệu docx thành tệp txt trong Aspose.Words cho .NET, bao gồm hướng dẫn chi tiết và hỗ trợ công thức LaTeX. |
+| [Tạo tệp txt từ tài liệu trong C# – Xuất phương trình sang LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Hướng dẫn tạo tệp txt từ tài liệu Word trong C# và xuất các phương trình dưới dạng LaTeX bằng Aspose.Words. |
+| [Cách xuất LaTeX từ Word – Hướng dẫn đầy đủ để xuất LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Hướng dẫn chi tiết cách xuất tài liệu Word sang định dạng LaTeX bằng Aspose.Words cho .NET. |
+| [Lưu docx thành txt – Hướng dẫn đầy đủ xuất công thức Word sang LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Tìm hiểu cách lưu tài liệu docx dưới dạng txt và xuất công thức Word sang LaTeX bằng Aspose.Words cho .NET. |
+| [Lưu docx thành txt – Xuất công thức toán sang LaTeX với Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Hướng dẫn lưu tài liệu docx dưới dạng txt và xuất các công thức toán sang định dạng LaTeX bằng Aspose.Words cho .NET. |
+| [Lưu docx dưới dạng txt – Xuất công thức Word sang LaTeX bằng C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Hướng dẫn xuất công thức Word sang định dạng LaTeX khi lưu tài liệu docx dưới dạng tệp txt bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,9 @@ weight: 14
 ### แปลง HTML เป็นเอกสาร Word
 ใช้ `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` แล้ว `doc.save("output.docx")`.
 
+### แปลง Markdown เป็น Word
+ใช้ `Document doc = new Document();` แล้ว `doc.getMailMerge().execute(new String[]{"Content"}, new Object[]{markdownText});` จากนั้นบันทึกเป็น DOCX.
+
 ## บทแนะนำการแปลงเอกสาร
 
 ### [การใช้คุณสมบัติการแปลงเอกสาร](./using-document-converting/)
@@ -105,6 +108,35 @@ weight: 14
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดและเคล็ดลับ
 ### [แปลง DOCX เป็น PDF ใน Java – คู่มือขั้นตอนโดยละเอียด](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.Words for Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด.
+### [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ Java ครบวงจร](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+### [แปลง docx เป็น txt ใน Java – คู่มือการเขียนโปรแกรมครบวงจร](./convert-docx-to-txt-in-java-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ข้อความ TXT ใน Java อย่างละเอียด ด้วยตัวอย่างโค้ดและเคล็ดลับการจัดการฟอร์แมต
+### [แปลง docx เป็น markdown ด้วย Aspose.Words Java – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Java
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือ Low‑Code ง่าย](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วยโค้ดเพียงไม่กี่บรรทัดโดยใช้ Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+### [บันทึก Markdown เป็น DOCX ด้วย Aspose.Words – คู่มือ Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร DOCX ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการใช้งาน
+### [Java แปลง Markdown เป็น Word – Markdown เป็น DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร Word (DOCX) ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือ PDF ที่เข้าถึงได้](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงใน Java ด้วย Aspose.Words พร้อมเคล็ดลับการทำให้ PDF ปฏิบัติตามมาตรฐานการเข้าถึง
+
+### [บันทึก Word เป็น Markdown – คู่มือ Java ฉบับสมบูรณ์ (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและคำแนะนำขั้นตอน
+### [แปลง markdown เป็น docx ใน Java – คู่มือขั้นตอนโดยละเอียด](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ markdown เป็นเอกสาร docx ด้วย Aspose.Words for Java อย่างละเอียดและง่ายดาย
+
+### [วิธีแปลง markdown เป็น docx ด้วย Java และ Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+เรียนรู้วิธีแปลงไฟล์ markdown ไปเป็นเอกสาร Word (docx) ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+
+### [วิธีบันทึก Markdown เป็น DOCX ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับ
+### [แปลง Markdown เป็น DOCX ด้วย Aspose.Words for Java – คู่มือขั้นตอนโดยละเอียด](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX อย่างง่ายด้วย Aspose.Words for Java.
 
 ## คำถามที่พบบ่อย
 

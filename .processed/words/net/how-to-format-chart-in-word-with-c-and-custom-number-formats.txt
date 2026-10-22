@@ -1,0 +1,7 @@
+Title: How to format chart in Word with C# and custom number formats
+Slug: how-to-format-chart-in-word-with-c-and-custom-number-formats
+Category: programming-with-charts
+ProcessedDate: 2026-10-14T00:08:40.031312
+SourceRepo: AI Search API
+Keywords: how to format chart, apply custom number format, custom number format word, how to set chart, change chart axis format
+PRNumber: 321

@@ -1,0 +1,7 @@
+Title: Save markdown as Word with Aspose.Words for Java
+Slug: save-markdown-as-word-with-aspose-words-for-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-10-14T00:37:13.062456
+SourceRepo: AI Search API
+Keywords: save markdown as word, convert markdown to docx, convert markdown to word, import markdown into word, preserve markdown formatting
+PRNumber: 322
