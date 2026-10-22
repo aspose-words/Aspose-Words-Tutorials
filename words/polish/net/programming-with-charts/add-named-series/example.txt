@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak używać Aspose.Words Document i DocumentBuilder do tworzenia dokumentu Word, osadzania wykresu histogramu oraz dodawania oznaczonej serii danych przy użyciu przeciążenia ChartSeriesCollection.Add, które przyjmuje nazwę i wartości.
+//ExStepSummary:0: Utwórz nowy pusty dokument Word oraz DocumentBuilder do jego edycji.
+//ExStepSummary:1: Wstaw kształt wykresu histogramu o rozmiarze 500×300 do dokumentu i uzyskaj jego obiekt Chart.
+//ExStepSummary:2: Usuń domyślną serię zastępczą, którą Aspose.Words dodaje do nowych wykresów.
+//ExStepSummary:3: Dodaj nazwaną serię o nazwie "Demo Series" z określonymi punktami danych do wykresu histogramu.
+//ExStepSummary:4: Zapisz dokument jako plik .docx zawierający oznaczoną serię wykresu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

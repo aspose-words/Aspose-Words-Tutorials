@@ -23,9 +23,8 @@ title: Cara Memulihkan Docx – Panduan Lengkap Membaca File Word yang Rusak
 url: /id/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-keep markdown formatting exactly.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

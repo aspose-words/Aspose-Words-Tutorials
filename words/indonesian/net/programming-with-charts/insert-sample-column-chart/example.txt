@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word baru, menyisipkan diagram kolom default dengan DocumentBuilder.InsertChart, memperoleh objek Chart yang tersemat, dan menyimpan dokumen ke file .docx.
+//ExStepSummary:0: Buat dokumen Word kosong dan DocumentBuilder untuk mengeditnya.
+//ExStepSummary:1: Sisipkan diagram kolom berukuran 432 × 252 poin ke dalam dokumen.
+//ExStepSummary:2: Dapatkan objek Chart dari shape yang disisipkan untuk penyesuaian lebih lanjut jika diperlukan.
+//ExStepSummary:3: Simpan dokumen, yang kini berisi diagram kolom yang disisipkan, ke file .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

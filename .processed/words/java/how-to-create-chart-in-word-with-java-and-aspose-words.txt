@@ -1,0 +1,7 @@
+Title: How to create chart in Word with Java and Aspose.Words
+Slug: how-to-create-chart-in-word-with-java-and-aspose-words
+Category: using-document-elements
+ProcessedDate: 2026-09-24T19:08:40.821371
+SourceRepo: AI Search API
+Keywords: create chart in word, save document as docx, add chart to word, create word document java, insert radial chart
+PRNumber: 287

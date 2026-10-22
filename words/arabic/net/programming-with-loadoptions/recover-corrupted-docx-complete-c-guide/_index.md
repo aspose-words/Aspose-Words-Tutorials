@@ -22,7 +22,6 @@ title: استعادة ملف docx تالف – دليل C# الكامل
 url: /ar/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/
 ---
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

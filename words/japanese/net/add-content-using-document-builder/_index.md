@@ -32,6 +32,7 @@ Aspose.Words for .NET は、開発者がWord文書をプログラムで簡単に
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET で目次付きの Word 文書を作成する" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Aspose.Words で複数の Word 文書を生成する" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,9 @@ title: 使用 Java 從 Word 匯出 Markdown – 完整指南
 url: /zh-hant/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-< blocks/products/products-backtop-button >}}
 
-All unchanged.
 
-Now produce final content. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,9 @@ title: إنشاء PDF قابل للوصول – تحويل Word إلى PDF مع 
 url: /ar/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-unchanged.
 
-Also ensure Arabic text direction: we can just write Arabic; markdown will handle.
 
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

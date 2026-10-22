@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word, แทรก column chart, ล้างข้อมูลเริ่มต้น, และเติมข้อมูลที่กำหนดเองจาก two‑dimensional array—โดยจับคู่แต่ละแถวกับ series และแต่ละคอลัมน์กับ category—จากนั้นเพิ่ม title และบันทึกไฟล์
+//ExStepSummary:0: สร้าง Document ใหม่และ DocumentBuilder ที่เชื่อมต่อกับมัน
+//ExStepSummary:1: แทรก column chart ขนาด 432x252 points ลงในเอกสารและรับอ็อบเจ็กต์ Chart ของมัน
+//ExStepSummary:2: ลบ series ตัวอย่างที่สร้างโดยอัตโนมัติออกจาก chart
+//ExStepSummary:3: กำหนดป้ายกำกับ category ของแกน X และรายการ legend สำหรับแต่ละ series
+//ExStepSummary:4: สร้าง two‑dimensional array ที่แต่ละแถวเก็บค่าของหนึ่ง series
+//ExStepSummary:5: วนซ้ำแต่ละ series, ดึงค่าจากแถวของ matrix, และเพิ่ม series ลงใน chart พร้อมกับ legend entry ที่สอดคล้องและป้ายกำกับแกน X
+//ExStepSummary:6: ตั้งค่าข้อความ title ของ chart เป็น 'Half‑Yearly Revenue' และทำให้แสดงผล
+//ExStepSummary:7: บันทึกเอกสารที่มี chart ที่กำหนดเองเป็นไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

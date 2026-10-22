@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come utilizzare Aspose.Words per creare un documento Word, costruire una tabella con larghezze di colonna fisse, applicare l'allineamento verticale e l'orientamento del testo, impostare altezze di riga esatte, popolare le celle con testo e infine salvare il documento.
+//ExStepSummary:0: Istanziare un nuovo Document e un DocumentBuilder che verranno utilizzati per costruire la tabella.
+//ExStepSummary:1: Avviare una nuova tabella, inserire la prima cella e fissare le larghezze delle colonne in modo che non si adattino automaticamente.
+//ExStepSummary:2: Allineare verticalmente al centro il contenuto nella cella corrente e scrivere il testo della prima cella della prima riga.
+//ExStepSummary:3: Inserire la seconda cella della prima riga e scrivere il suo testo.
+//ExStepSummary:4: Chiudere la prima riga, finalizzandone il layout.
+//ExStepSummary:5: Avviare la prima cella della seconda riga, impostare l'altezza della riga a esattamente 100 punti, ruotare il testo verso l'alto e scrivere il testo della cella.
+//ExStepSummary:6: Inserire la seconda cella della seconda riga, ruotare il suo testo verso il basso e scrivere il testo della cella.
+//ExStepSummary:7: Chiudere la seconda riga, completando la seconda linea della tabella.
+//ExStepSummary:8: Terminare la costruzione della tabella, sigillando la struttura della tabella.
+//ExStepSummary:9: Salvare il documento completato in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.Words لإنشاء مستند Word، وبناء جدول بأعمدة ذات عرض ثابت، وتطبيق محاذاة عمودية وتوجيه النص، وتحديد ارتفاعات صفوف دقيقة، وتعبئة الخلايا بالنص، وأخيرًا حفظ المستند.
+//ExStepSummary:0: إنشاء كائن Document جديد وDocumentBuilder سيُستخدمان لبناء الجدول.
+//ExStepSummary:1: ابدأ جدولًا جديدًا، أدخل الخلية الأولى، وثبت عرض الأعمدة بحيث لا يتم تعديلها تلقائيًا.
+//ExStepSummary:2: محاذاة المحتوى عموديًا في الخلية الحالية إلى الوسط، واكتب نص الخلية الأولى للصف الأول.
+//ExStepSummary:3: أدرج الخلية الثانية للصف الأول واكتب نصها.
+//ExStepSummary:4: أغلق الصف الأول، مُكملًا تخطيطه.
+//ExStepSummary:5: ابدأ الخلية الأولى للصف الثاني، عيّن ارتفاع الصف إلى 100 نقطة بالضبط، دوّر النص إلى الأعلى، واكتب نص الخلية.
+//ExStepSummary:6: أدرج الخلية الثانية للصف الثاني، دوّر نصها إلى الأسفل، واكتب نص الخلية.
+//ExStepSummary:7: أغلق الصف الثاني، مكملًا السطر الثاني للجدول.
+//ExStepSummary:8: أنهِ بناء الجدول، مُغلقًا هيكله.
+//ExStepSummary:9: احفظ المستند المكتمل كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

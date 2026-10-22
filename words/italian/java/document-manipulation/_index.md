@@ -56,6 +56,9 @@ La manipolazione di documenti con Aspose.Words per Java è una competenza prezio
 Inizia oggi stesso il tuo percorso di apprendimento e scopri le infinite possibilità di manipolazione dei documenti con Aspose.Words per Java.
 
 ## Tutorial sulla manipolazione dei documenti
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Utilizzo delle opzioni di pulizia in Aspose.Words per Java](./using-cleanup-options/)
 Migliora la chiarezza dei documenti con le opzioni di pulizia di Aspose.Words per Java. Scopri come rimuovere paragrafi vuoti, aree inutilizzate e altro ancora.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)
@@ -76,6 +79,8 @@ Ottimizza l'elaborazione dei tuoi documenti con Aspose.Words per Java. Impara a 
 Padroneggia la manipolazione degli intervalli di documenti in Aspose.Words per Java. Impara a eliminare, estrarre e formattare il testo con questa guida completa.
 ### [Utilizzo di Structured Document Tag (SDT) in Aspose.Words per Java](./using-structured-document-tags/)
 Scopri come utilizzare gli Structured Document Tag (SDT) in Aspose.Words per Java con questa guida completa. Crea, modifica e associa gli SDT a dati XML personalizzati.
+### [Creare un nuovo documento Word – Guida passo‑passo per aggiungere un tag strutturato](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Impara a creare un documento Word e inserire un Structured Tag con esempi di codice passo passo.
 ### [Utilizzo di stili e temi in Aspose.Words per Java](./using-styles-and-themes/)
 Scopri come migliorare la formattazione dei documenti con Aspose.Words per Java. Esplora stili, temi e altro ancora in questa guida completa con esempi di codice sorgente.
 ### [Generazione di un indice in Aspose.Words per Java](./generating-table-of-contents/)
@@ -90,8 +95,12 @@ Scopri come suddividere i documenti in modo efficiente in Aspose.Words per Java.
 Scopri come suddividere i documenti in pagine HTML con Aspose.Words per Java. Segui la nostra guida passo passo per una conversione impeccabile dei documenti.
 ### [Aggiunta di contenuto tramite DocumentBuilder in Aspose.Words per Java](./adding-content-using-documentbuilder/)
 Creazione di documenti di successo con Aspose.Words per Java. Una guida passo passo per aggiungere testo, tabelle, immagini e altro ancora. Crea documenti Word straordinari senza sforzo.
+### [Creare un documento Word vuoto in Java con Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Crea un documento Word vuoto in Java usando Aspose.Words.
 ### [Clonazione e combinazione di documenti in Aspose.Words per Java](./cloning-and-combining-documents/)
 Scopri come clonare e combinare documenti in Aspose.Words per Java. Guida passo passo con esempi di codice sorgente.
+### [Come creare un documento Word programmaticamente con Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Impara a generare un documento Word in modo programmatico usando Aspose.Words per Java.
 ### [Confronto di documenti in Aspose.Words per Java](./comparing-documents/)
 Scopri come confrontare documenti in Aspose.Words per Java, una potente libreria Java per un'analisi efficiente dei documenti. 
 ### [Formattazione dei documenti in Aspose.Words per Java](./formatting-documents/)
@@ -103,7 +112,22 @@ Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazio
 ### [Utilizzo delle proprietà del documento in Aspose.Words per Java](./using-document-properties/)
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
-Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web.
+### [Tagging di accessibilità PDF in Java – Genera PDF accessibili](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Impara a creare PDF accessibili aggiungendo tag di struttura con Aspose.Words per Java, garantendo conformità alle linee guida di accessibilità.
+### [Creare pulsante ActiveX in docx con Java – guida completa di programmazione](./create-docx-activex-button-in-java-complete-programming-guid/)
+Impara a inserire un pulsante ActiveX in un documento DOCX usando Aspose.Words per Java con esempi di codice passo passo.
+### [Come creare un documento Word in Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Crea documenti Word in Java usando Aspose.Words con esempi pratici.
+### [Aggiungere un controllo di contenuto in un documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Scopri come inserire controlli di contenuto nei documenti Word usando Aspose.Words per Java.
+### [Creare un documento vuoto con un pulsante di comando interattivo in Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
+Scopri come generare un documento Word vuoto e aggiungere un pulsante di comando interattivo tramite Aspose.Words per Java.
+### [Come creare un documento Word vuoto con un controllo di testo](./how-to-create-a-blank-word-document-with-a-text-control/)
+Impara a creare un documento Word vuoto e aggiungere un controllo di testo usando Aspose.Words per Java.
+### [Come salvare docx con DocumentBuilder e aggiungere testo dopo un controllo](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subito dopo un controllo specifico.
+### [Come creare un documento Word vuoto con Aspose.Words per Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi passaggi di codice.
 ### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 Impara a impostare il nome del tag e aggiungere Structured Document Tag in un documento Word usando C#.
 
