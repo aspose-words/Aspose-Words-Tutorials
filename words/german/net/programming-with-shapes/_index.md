@@ -85,6 +85,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Word-Dokument programmgesteuert erstellen und Formen gruppieren in C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word‑Dokument programmgesteuert erstellen und Formen gruppieren. |
 | [Rechteckform in Word mit C# einfügen – vollständige Anleitung](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word‑Dokument einfügen. |
 | [Leeres Word-Dokument erstellen und Rechteckform hinzufügen](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine Rechteckform hinzufügen. |
+| [Formen in C# gruppieren mit Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# mehrere Formen zu einer Gruppe zusammenfassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

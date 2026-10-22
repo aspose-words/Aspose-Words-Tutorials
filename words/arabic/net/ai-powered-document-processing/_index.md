@@ -102,6 +102,7 @@
 | [تلخيص مستند Word باستخدام C# – دليل Aspose.Words AI الكامل](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | دليل شامل لتلخيص مستند Word باستخدام C# و Aspose.Words AI. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | دليل شامل لترجمة مستندات docx إلى اللغة الفرنسية باستخدام تقنية Aspose.Words AI. |
 | [إنشاء مستند Word فارغ وترجمته إلى الفرنسية](./create-a-blank-word-document-and-translate-it-to-french/) | تعلم كيفية إنشاء مستند Word فارغ وترجمته إلى اللغة الفرنسية باستخدام Aspose.Words لـ .NET. |
+| [ترجمة نص إلى الإسبانية في C# باستخدام Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | دليل خطوة بخطوة لترجمة نصوص إلى اللغة الإسبانية باستخدام Aspose.Words AI في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

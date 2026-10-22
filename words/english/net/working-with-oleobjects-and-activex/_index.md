@@ -41,6 +41,7 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | [how to add activex control in Word with Aspose.Words – step‑by‑step guide](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Learn how to add an ActiveX control in Word using Aspose.Words for .NET with this step-by-step guide. |
 | [How to create ActiveX command button in Word using C#](./how-to-create-activex-command-button-in-word-using-c/) | Learn how to create an ActiveX command button in a Word document using C# and Aspose.Words for .NET with a step-by-step guide. |
 | [How to create Word document with an ActiveX command button in C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Learn how to create a Word document with an ActiveX command button in C# using Aspose.Words for .NET in a step-by-step guide. |
+| [How to create submit button in C# Word automation](./how-to-create-submit-button-in-c-word-automation/) | Learn how to create a submit button in Word documents using C# automation with Aspose.Words for .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

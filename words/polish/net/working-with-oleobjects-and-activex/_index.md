@@ -41,6 +41,7 @@ Te samouczki przedstawiają praktyczne, krok po kroku podejście do przetwarzani
 | [Jak dodać przycisk polecenia programowo w dokumencie Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Dowiedz się, jak programowo dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words dla .NET. |
 | [Utwórz dokument Word programowo i dodaj przycisk ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk ActiveX przy użyciu Aspose.Words dla .NET. |
 | [Jak utworzyć dokument Word z przyciskiem polecenia ActiveX w C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Dowiedz się, jak dodać przycisk polecenia ActiveX do dokumentu Word przy użyciu C# i Aspose.Words. |
+| [Jak utworzyć przycisk wyślij w automatyzacji Word w C#](./how-to-create-submit-button-in-c-word-automation/) | Dowiedz się, jak dodać przycisk wyślij w dokumencie Word przy użyciu automatyzacji C# i Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

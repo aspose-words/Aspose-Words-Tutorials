@@ -101,6 +101,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumuj dokument Word w C# – kompletny przewodnik Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do automatycznego podsumowywania dokumentów Word. |
 | [Tłumaczenie docx na francuski przy użyciu Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Dowiedz się, jak tłumaczyć dokumenty docx na język francuski przy użyciu AI w Aspose.Words dla .NET. |
 | [Utwórz pusty dokument Word i przetłumacz go na francuski](./create-a-blank-word-document-and-translate-it-to-french/) | Dowiedz się, jak utworzyć pusty dokument Word i przetłumaczyć go na język francuski przy użyciu Aspose.Words dla .NET. |
+| [Tłumaczenie ciągu na hiszpański w C# przy użyciu Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Dowiedz się, jak przetłumaczyć tekst na język hiszpański w C# wykorzystując AI Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

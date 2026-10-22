@@ -102,6 +102,7 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Resumir documento Word en C# – guía completa de Aspose.Words IA](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Aprenda a resumir documentos Word en C# usando Aspose.Words y IA con esta guía paso a paso. |
 | [Traducir docx a francés con Aspose.Words IA](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traducir documentos DOCX al francés usando Aspose.Words para .NET y IA en pocos pasos. |
 | [Crear un documento Word en blanco y traducirlo al francés](./create-a-blank-word-document-and-translate-it-to-french/) | Aprenda a crear un documento Word vacío y traducir su contenido al francés usando Aspose.Words para .NET. |
+| [Traducir cadena a español en C# con IA de Aspose.Words](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aprenda a traducir texto a español en C# usando la IA de Aspose.Words para .NET de forma sencilla. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

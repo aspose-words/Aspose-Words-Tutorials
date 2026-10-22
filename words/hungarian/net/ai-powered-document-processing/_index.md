@@ -97,6 +97,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Összegzés hozzáadása Word-dokumentumhoz az Aspose.Words AI segítségével](./add-summary-to-word-document-with-aspose-words-ai/) | Ismerje meg, hogyan adhat hozzá automatikus összegzést Word-dokumentumokhoz az Aspose.Words AI használatával. |
 | [Word dokumentum összefoglalása C#-ban – teljes Aspose.Words AI útmutató](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Lépésről lépésre bemutatja, hogyan használja az Aspose.Words AI-t Word dokumentumok C#-ban történő összefoglalásához. |
 | [docx fájl francia nyelvre fordítása Aspose.Words AI-val](./translate-docx-to-french-with-aspose-words-ai/) | Az Aspose.Words AI segítségével docx fájlok francia nyelvre fordítása. |
+| [Sztring lefordítása spanyolra C#-ban az Aspose.Words AI-val](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Ismerje meg, hogyan fordíthat le szövegeket spanyolra C#-ban az Aspose.Words AI segítségével. |
 
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |

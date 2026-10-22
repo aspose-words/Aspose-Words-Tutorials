@@ -102,6 +102,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatten van Word-document in C# – volledige Aspose.Words AI-gids](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Leer hoe u met Aspose.Words voor .NET en AI een Word-document in C# volledig kunt samenvatten. |
 | [Vertaal docx naar Frans met Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Leer hoe u met Aspose.Words voor .NET en AI een docx-bestand naar het Frans vertaalt. |
 | [Maak een leeg Word-document en vertaal het naar het Frans](./create-a-blank-word-document-and-translate-it-to-french/) | Leer hoe u een leeg Word-document maakt en automatisch naar het Frans vertaalt met Aspose.Words voor .NET. |
+| [Vertaal string naar Spaans in C# met Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI een string in C# naar het Spaans kunt vertalen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

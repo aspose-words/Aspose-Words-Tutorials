@@ -29,6 +29,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [C#를 사용하여 Word 문서에서 도형 그룹화하는 방법](./how-to-group-shapes-in-a-word-document-with-c/) | C# 코드로 Word 문서에서 여러 도형을 그룹으로 묶는 단계별 가이드. |
 | [Aspose.Words for C#를 사용하여 Word에서 도형 그룹화하는 방법](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C#를 사용해 Word 문서에서 도형을 그룹화하는 단계별 가이드. |
 | [C#를 사용한 Word 그룹 도형 – 완전 프로그래밍 가이드](./group-shapes-in-word-using-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#로 Word 문서에 그룹 도형을 추가하고 관리하는 전체 가이드를 단계별로 안내합니다. |
+| [C#에서 Aspose.Words를 사용해 도형 그룹화하는 방법](./how-to-group-shapes-in-c-with-aspose-words/) | Aspose.Words for .NET을 활용해 C# 코드로 Word 문서에서 도형을 그룹화하는 단계별 가이드입니다. |
 | [모양 삽입](./insert-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에 도형을 삽입하고 조작하는 방법을 단계별 가이드를 통해 알아보세요. |
 | [종횡비 잠금](./aspect-ratio-locked/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형의 가로 세로 비율을 고정하는 방법을 알아보세요. 이 단계별 가이드를 따라 이미지와 도형의 비율을 유지하세요. |
 | [셀 레이아웃](./layout-in-cell/) | Aspose.Words for .NET을 사용하여 셀 레이아웃을 설정하는 방법을 이 포괄적인 가이드를 통해 알아보세요. Word 문서를 사용자 지정하려는 개발자에게 적합합니다. |

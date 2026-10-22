@@ -99,6 +99,7 @@
 | [C# で Word 文書を要約する – 完全 Aspose.Words AI ガイド](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) Aspose.Words と AI を活用し、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
 | [Aspose.Words AI で docx をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-ai/) Aspose.Words の AI 機能で docx ファイルをフランス語に自動翻訳する方法を学びます。 |
 | [空白のWord文書を作成し、フランス語に翻訳する](./create-a-blank-word-document-and-translate-it-to-french/) Aspose.Words for .NET を使用して空のWord文書を作成し、フランス語へ自動翻訳する方法を学びます。 |
+| [Aspose.Words AI を使用した C# で文字列をスペイン語に翻訳する](./translate-string-to-spanish-in-c-with-aspose-words-ai/) Aspose.Words AI を活用し、C# で文字列を簡単にスペイン語へ翻訳する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

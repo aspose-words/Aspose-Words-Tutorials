@@ -102,6 +102,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Word-Dokument in C# zusammenfassen – vollständiger Aspose.Words KI-Leitfaden](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI ein Word-Dokument in C# vollständig zusammenfassen. |
 | [DOCX ins Französische übersetzen mit Aspose.Words KI](./translate-docx-to-french-with-aspose-words-ai/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words KI ins Französische übersetzen. |
 | [Erstellen Sie ein leeres Word-Dokument und übersetzen Sie es ins Französische](./create-a-blank-word-document-and-translate-it-to-french/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Dokument erstellen und automatisch ins Französische übersetzen. |
+| [String ins Spanische übersetzen in C# mit Aspose.Words KI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Erfahren Sie, wie Sie mit Aspose.Words KI einen Text in C# automatisch ins Spanische übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

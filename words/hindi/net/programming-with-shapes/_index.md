@@ -29,6 +29,7 @@
 | [C# के साथ Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-with-c/) | C# कोड का उपयोग करके Word फ़ाइल में कई आकृतियों को समूह बनाने की प्रक्रिया सीखें। |
 | [Aspose.Words for C# के साथ Word में आकृतियों को समूहित करना](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C# का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने की प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word में समूह आकृतियों – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-using-c-complete-programming-guide/) | C# के साथ Word में समूह आकृतियों को जोड़ने और प्रबंधित करने के लिए पूर्ण मार्गदर्शिका |
+| [C# में Aspose.Words के साथ आकृतियों को समूहित करना](./how-to-group-shapes-in-c-with-aspose-words/) | C# में Aspose.Words का उपयोग करके आकृतियों को समूहित करने की प्रक्रिया सीखें। |
 | [आकृति डालें](./insert-shape/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करना और उनमें हेरफेर करना सीखें। |
 | [Word दस्तावेज़ C# – शैडो के साथ आकृति जोड़ें](./create-word-document-c-add-shape-with-shadow/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में शैडो के साथ आकृति जोड़ने का चरण‑दर‑चरण मार्गदर्शन। |
 | [C# और Aspose.Words का उपयोग करके Word में आकृतियों को समूहित करें](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C# कोड के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को जोड़ने की चरण‑दर‑शरण मार्गदर्शिका। |

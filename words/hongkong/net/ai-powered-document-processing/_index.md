@@ -102,6 +102,7 @@
 | [在 C# 中匯總 Word 文件 – 完整的 Aspose.Words AI 指南](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) |使用 Aspose.Words for .NET 及 AI 完整步驟，於 C# 中快速匯總 Word 文件，提升效率與洞察。 |
 | [使用 Aspose.Words AI 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-ai/) |使用 Aspose.Words for .NET 與 AI 將 docx 文件翻譯為法語，快速且精準的翻譯指南。 |
 | [建立空白 Word 文件並翻譯成法文](./create-a-blank-word-document-and-translate-it-to-french/) |使用 Aspose.Words for .NET 建立空白 Word 檔案，並透過 AI 翻譯成法語。 |
+| [使用 Aspose.Words AI 在 C# 中將字串翻譯成西班牙語](./translate-string-to-spanish-in-c-with-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將文字字串快速翻譯為西班牙語，提升多語言文件處理效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

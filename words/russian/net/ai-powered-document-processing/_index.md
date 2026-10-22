@@ -102,6 +102,7 @@
 | [Резюмирование документа Word на C# – полное руководство по Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Полное пошаговое руководство по использованию Aspose.Words AI для резюмирования документов Word на C#. |
 | [Перевод DOCX на французский с помощью Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Узнайте, как использовать Aspose.Words AI для автоматического перевода файлов DOCX на французский язык. |
 | [Создайте пустой документ Word и переведите его на французский](./create-a-blank-word-document-and-translate-it-to-french/) | Узнайте, как создать пустой документ Word и автоматически перевести его на французский с помощью Aspose.Words. |
+| [Перевод строки на испанский в C# с Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Узнайте, как с помощью Aspose.Words AI переводить строки в документы Word на испанский язык в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,7 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Csoport alakzatok Word-ben C#-ban – teljes programozási útmutató](./group-shapes-in-word-using-c-complete-programming-guide/) | Tanulja meg, hogyan hozhat létre és kezelhet csoportos alakzatokat Word dokumentumokban C#-ban az Aspose.Words segítségével. |
 | [Téglalap alakzat beszúrása Wordben C#-ban – teljes útmutató](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Tanulja meg, hogyan szúrjon be téglalap alakzatot Word dokumentumba C#-ban lépésről lépésre útmutatóval. |
 | [Üres Word dokumentum létrehozása és téglalap alakzat hozzáadása](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Tanulja meg, hogyan hozhat létre üres Word dokumentumot és adjon hozzá téglalap alakzatot C#-ban az Aspose.Words segítségével. |
+| [Alakzatok csoportosítása C#-ban az Aspose.Words segítségével](./how-to-group-shapes-in-c-with-aspose-words/) | Tanulja meg, hogyan csoportosíthatja az alakzatokat C#-ban az Aspose.Words használatával lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

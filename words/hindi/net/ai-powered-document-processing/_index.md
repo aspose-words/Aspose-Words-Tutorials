@@ -101,6 +101,7 @@
 | [C# में Word दस्तावेज़ का सारांश – पूर्ण Aspose.Words AI गाइड](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ को AI के साथ प्रभावी रूप से सारांशित करना सीखें। |
 | [Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद करें](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में docx फ़ाइलों को फ्रेंच में अनुवाद करना सीखें। |
 | [एक खाली Word दस्तावेज़ बनाएं और इसे फ़्रेंच में अनुवादित करें](./create-a-blank-word-document-and-translate-it-to-french/) | एक खाली Word फ़ाइल बनाकर उसे फ़्रेंच में अनुवादित करने का तरीका सीखें। |
+| [C# में Aspose.Words AI के साथ स्ट्रिंग को स्पेनिश में अनुवाद करें](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में स्ट्रिंग को स्पेनिश में अनुवाद करने का तरीका सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
