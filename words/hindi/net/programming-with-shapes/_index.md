@@ -89,6 +89,7 @@
 | [C# में Aspose.Words के साथ छिपी आकृति वाला docx कैसे बनाएं](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | C# में Aspose.Words के साथ छिपी आकृति वाला docx फ़ाइल बनाने की प्रक्रिया सीखें। |
 | [C# में प्रोग्रामेटिकली Word दस्तावेज़ बनाएं और समूह आकृतियों को जोड़ें](./create-word-document-programmatically-and-group-shapes-in-c/) | C# में प्रोग्रामेटिकली Word दस्तावेज़ बनाकर समूह आकृतियों को जोड़ना सीखें। |
 | [एक खाली Word दस्तावेज़ बनाएं और आयत आकार जोड़ें](./create-a-blank-word-document-and-add-a-rectangle-shape/) | एक खाली Word दस्तावेज़ बनाकर उसमें आयत आकार जोड़ना सीखें। |
+| [प्रोग्रामेटिक रूप से समूह आकार के साथ Word दस्तावेज़ बनाएं](./programmatically-create-a-word-document-with-a-group-shape/) | Aspose.Words for .NET का उपयोग करके समूह आकार के साथ Word दस्तावेज़ को प्रोग्रामेटिक रूप से बनाने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

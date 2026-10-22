@@ -28,6 +28,7 @@
 | [Как сгруппировать фигуры в Word с помощью Aspose.Words для C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для C# в этом пошаговом руководстве. |
 | [Как группировать фигуры в Word с помощью C# и Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для .NET и C#. |
 | [Групповые фигуры в Word с использованием C# – полное руководство по программированию](./group-shapes-in-word-using-c-complete-programming-guide/) | Узнайте, как группировать фигуры в документах Word с помощью C# с полным пошаговым руководством. |
+| [Программно создать документ Word с групповой фигурой](./programmatically-create-a-word-document-with-a-group-shape/) | Программно создайте документ Word с групповой фигурой. |
 | [Добавить тень к фигуре в C# – Полное руководство по применению эффекта тени](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как группировать фигуры в документе Word с помощью C#](./how-to-group-shapes-in-a-word-document-with-c/) | Узнайте, как группировать фигуры в документе Word с помощью C# и Aspose.Words для .NET. |
 | [Как группировать фигуры в C# с Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |

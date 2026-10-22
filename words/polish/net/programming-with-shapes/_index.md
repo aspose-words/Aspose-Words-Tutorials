@@ -86,6 +86,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Kształty grupowe w Wordzie przy użyciu C# – kompletny przewodnik programistyczny](./group-shapes-in-word-using-c-complete-programming-guide/) | Kompletny przewodnik, jak tworzyć i zarządzać grupami kształtów w dokumentach Word przy użyciu Aspose.Words i C#. |
 | [Utwórz dokument Word programowo i grupuj kształty w C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Dowiedz się, jak programowo tworzyć dokument Word i grupować kształty przy użyciu Aspose.Words w C#. |
 | [Wstaw prostokątny kształt w Wordzie przy użyciu C# – kompletny przewodnik](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Dowiedz się, jak w C# wstawić prostokątny kształt w dokumencie Word, korzystając z Aspose.Words – kompletny przewodnik krok po kroku. |
+| [Programowo utwórz dokument Word z grupowym kształtem](./programmatically-create-a-word-document-with-a-group-shape/) | Dowiedz się, jak programowo utworzyć dokument Word zawierający grupowy kształt przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

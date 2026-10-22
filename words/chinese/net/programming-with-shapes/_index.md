@@ -32,6 +32,7 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | [使用 C# 在 Word 中进行组形状 – 完整编程指南](./group-shapes-in-word-using-c-complete-programming-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 中创建和管理组形状。|
 | [在 C# 中以编程方式创建 Word 文档并对形状进行分组](./create-word-document-programmatically-and-group-shapes-in-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 C# 中创建 Word 文档并将形状分组。|
 | [在 Word 中使用 Aspose.Words 创建矩形形状和组形状](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中创建矩形形状并将其组合。|
+| [使用代码创建带组形状的 Word 文档](./programmatically-create-a-word-document-with-a-group-shape/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中以编程方式添加组形状。|
 | [刀片形状](./insert-shape/) 通过我们的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中插入和操作形状。|
 | [长宽比已锁定](./aspect-ratio-locked/) 了解如何使用 Aspose.Words for .NET 锁定 Word 文档中形状的纵横比。按照本分步指南操作，即可保持图像和形状的比例。|
 | [单元格布局](./layout-in-cell/) 这份全面的指南将帮助您学习如何使用 Aspose.Words for .NET 设置单元格布局。非常适合希望自定义 Word 文档的开发人员。|
