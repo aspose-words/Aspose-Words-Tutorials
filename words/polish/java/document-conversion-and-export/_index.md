@@ -133,6 +133,11 @@ Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie, zachowuj�
 Dowiedz się, jak zapisać dokumenty Word jako Markdown i wyeksportować tabele do HTML przy użyciu Aspose.Words for Java.
 ### [Jak przekonwertować docx na markdown przy użyciu Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Dowiedz się, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words for Java.
+### [Konwertuj DOCX do Markdown – Kompletny przewodnik z eksportem równań](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne przy użyciu Aspose.Words for Java.
+
+### [Konwertuj docx do markdown – Kompletny przewodnik w Javie](./convert-docx-to-markdown-complete-java-guide/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown przy użyciu Aspose.Words for Java, krok po kroku z przykładami kodu.
 ### [Zapisz dokument Word jako Markdown w Javie – Kompletny przewodnik](./save-word-as-markdown-in-java-complete-guide/)
 Dowiedz się, jak konwertować pliki Word do formatu Markdown w Javie przy użyciu Aspose.Words, z pełnym przykładem kodu.
 
@@ -152,6 +157,8 @@ Dowiedz się, jak osadzać obrazy jako Base64 przy konwertowaniu DOCX do Markdow
 Dowiedz się, jak zapisać plik DOCX w formacie Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 ### [Jak zapisać Word jako markdown z tabelami HTML w Javie](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Dowiedz się, jak konwertować dokumenty Word do formatu markdown zachowując tabele HTML przy użyciu Aspose.Words for Java.
+### [Zapisz docx jako markdown – konwertuj docx do markdown przy użyciu Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Dowiedz się, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words. Praktyczny przewodnik z przykładami kodu.
 
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.
@@ -188,6 +195,8 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 Dowiedz się, jak zapisać dokument jako PDF w Javie przy użyciu Aspose.Words, krok po kroku.
 ### [Zapisz Word jako PDF przy użyciu Aspose.Words – Pełny przewodnik Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Kompletny przewodnik, jak zapisać plik Word jako PDF w Javie przy użyciu Aspose.Words, z przykładami kodu i opcjami konfiguracyjnymi.
+### [Konwertuj docx do pdf w Javie – Kompletny przewodnik krok po kroku](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak w pełni skonwertować pliki DOCX do PDF w Javie, krok po kroku, z przykładami kodu.
 ### [Zapisz dokument jako PDF – kompletny przewodnik Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
 Dowiedz się, jak zapisać dokument jako PDF przy użyciu Aspose.Words, z pełnym opisem i przykładami kodu.
 
@@ -210,6 +219,7 @@ Dowiedz się, jak konwertować dokumenty Word do formatu Markdown przy użyciu A
 
 ### [Generowanie dostępnego PDF z Worda przy użyciu Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word przy użyciu Aspose.Words for Java, spełniający standardy dostępności.
+
 ### [Konwertuj docx na txt – Eksportuj równania Word jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Dowiedz się, jak przekonwertować plik DOCX na TXT oraz wyeksportować równania Word jako kod LaTeX przy użyciu Aspose.Words for Java.
 
@@ -361,6 +371,16 @@ Kompletny przewodnik, jak zapisać dokument Word w formacie Markdown przy użyci
 ### [Jak wykonać konwersję markdown do docx w Javie](./how-to-perform-markdown-to-docx-conversion-in-java/)
 Dowiedz się, jak konwertować pliki Markdown do formatu DOCX w Javie przy użyciu Aspose.Words.
 
+### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik krok po kroku](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Dowiedz się, jak krok po kroku wygenerować dostępny PDF z pliku DOCX, spełniający standardy WCAG, w tym tagowanie i kontrast.
+
+### [Jak zapisać PNG z Worda – Kompletny przewodnik krok po kroku](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Dowiedz się, jak wyeksportować obrazy jako pliki PNG z dokumentów Word przy użyciu Aspose.Words for Java.
+### [Utwórz markdown z docx w Javie – pełny przewodnik Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Pełny przewodnik, jak wygenerować pliki markdown z dokumentów DOCX w Javie przy użyciu Aspose.Words.
+
+### [Jak zapisać Markdown jako DOCX przy użyciu Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Dowiedz się, jak konwertować pliki Markdown do formatu DOCX w Javie przy pomocy Aspose.Words, krok po kroku z przykładowym kodem.
 ### [Ustaw liczbę stron na arkusz przy konwersji Word do PNG – Kompletny przewodnik](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
 Dowiedz się, jak ustawić liczbę stron na arkusz podczas konwersji dokumentu Word do formatu PNG przy użyciu Aspose.Words.
 
