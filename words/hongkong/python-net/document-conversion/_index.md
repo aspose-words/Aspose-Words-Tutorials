@@ -310,12 +310,14 @@
 ### [使用 Aspose.Words 在 Python 中將 docx 轉換為 Markdown](./convert-docx-to-markdown-with-aspose-words-in-python/)
 學習使用 Aspose.Words for Python 將 docx 文件轉換為 Markdown 的完整步驟。
 
+### [如何將 Word 儲存為 PDF 並將 DOCX 轉換為 Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+學習使用 Aspose.Words for Python 將 Word 儲存為 PDF，並將 DOCX 轉換為 Markdown 的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
