@@ -76,6 +76,7 @@ weight: 22
 ## دروس تحويل المستندات وتصديرها
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
+### [كيفية حفظ المستند كملف docx من ملف Markdown في Java](./how-to-save-document-as-docx-from-a-markdown-file-in-java/)
 
 ### [إنشاء ملصقات باركود مخصصة في Aspose.Words for Java](./generating-custom-barcode-labels/)
 إنشاء ملصقات باركود مخصصة في Aspose.Words for Java. تعلم كيفية إنشاء حلول باركود مخصصة باستخدام Aspose.Words for Java في هذا الدليل خطوة بخطوة.
@@ -127,6 +128,7 @@ weight: 22
 
 ### [حفظ docx كـ markdown – دليل خطوة بخطوة للـ Java](./save-docx-as-markdown-step-by-step-java-guide/)
 تعلم كيفية حفظ ملفات DOCX كملفات Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ### [كيفية تصدير Markdown من Word – دليل شامل](./how-to-export-markdown-from-word-complete-guide/)
 دليل شامل لتصدير ملفات Markdown من مستندات Word باستخدام Aspose.Words للـ Java.
 
@@ -326,12 +328,12 @@ weight: 22
 تعلم كيفية تحويل مستندات Word إلى PDF مع تحسين إمكانية الوصول باستخدام Aspose.Words for Java.
 
 ### [حفظ صور Word – تحويل DOCX إلى Markdown باستخدام Java](./save-word-images-convert-docx-to-markdown-with-java/)
-تعلم كيفية استخراج صور من مستندات Word وتحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java.
+تعلم كيفية استخراج صور PNG من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ### [إنشاء PNG من Word – دليل خطوة بخطوة كامل](./create-png-from-word-complete-step-by-step-guide/)
 تعلم كيفية استخراج صور PNG من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
 
-### [كيفية تصدير LaTeX من DOCX – تحويل Word إلى Markdown باستخدام C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+### [كيفية تصدير LaTeX من DOCX – تحويل Word إلى TXT باستخدام C#](./how-to-export-latex-from-docx-convert-word-to-txt-with/)
 تعلم كيفية تحويل مستندات DOCX إلى LaTeX أو Markdown باستخدام Aspose.Words للـ .NET وC# خطوة بخطوة.
 
 ### [حفظ docx كملف txt – دليل كامل C#](./save-docx-as-txt-full-c-guide/)

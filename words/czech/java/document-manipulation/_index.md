@@ -59,6 +59,12 @@ Začněte svou cestu učení ještě dnes a odemkněte nekonečné možnosti man
 ### [Jak nastavit název značky a přidat SDT do dokumentu Word pomocí C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 Naučte se, jak nastavit název značky a vložit strukturovaný dokumentový tag (SDT) v dokumentu Word pomocí C# a Aspose.Words.
 
+### [Jak vytvořit prázdný dokument Word s prostým textovým ovládacím prvkem v C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Naučte se, jak vytvořit prázdný dokument Word s prostým textovým ovládacím prvkem pomocí C# a Aspose.Words.
+
+### [Vytvoření prázdného dokumentu Word a přidání ActiveX tlačítka v C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Naučte se, jak vytvořit prázdný dokument Word a vložit do něj ActiveX tlačítko pomocí C# a Aspose.Words.
+
 ### [Použití možností čištění v Aspose.Words pro Javu](./using-cleanup-options/)
 Vylepšete přehlednost dokumentů pomocí možností čištění v Aspose.Words pro Javu. Naučte se, jak odstranit prázdné odstavce, nepoužívané oblasti a další.
 
@@ -142,7 +148,9 @@ Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a
 Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspose.Words pro Javu.
 ### [Vytvoření prázdného dokumentu s interaktivním tlačítkem v aplikaci Word pomocí Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj interaktivní tlačítko příkazu.
-### [Jak vytvořit prázdný dokument Word s textovým ovládacím prvkem](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Jak vytvořit prázdný dokument Word s textovým ovládacím prvkem](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word.
+
 ### [Vytvoření dokumentu Word s prostým textovým ovládacím prvkem](./create-word-document-with-a-plain-text-content-control/)
 Naučte se vytvořit dokument Word s jednoduchým textovým ovládacím prvkem pomocí Aspose.Words pro Javu.
 

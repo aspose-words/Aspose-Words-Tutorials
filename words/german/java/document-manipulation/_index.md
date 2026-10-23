@@ -58,6 +58,9 @@ Beginnen Sie Ihre Lernreise noch heute und erschließen Sie sich die endlosen M�
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
  zur Dokumentbearbeitung
+### [Wie man ein leeres Word-Dokument mit einem einfachen Textsteuerelement in C# erstellt](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
+ zur Dokumentbearbeitung
 ### [Erstellen eines leeren Word-Dokuments mit Aspose.Words für Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und initialisieren.
 ### [Verwenden von Bereinigungsoptionen in Aspose.Words für Java](./using-cleanup-options/)
@@ -130,6 +133,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgeste
 ### [Wie man docx mit DocumentBuilder speichert und Text nach einem Steuerelement hinzufügt](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach einem Inhaltssteuerelement ein.
 ### [Festlegen des Tag-Namens und Hinzufügen von SDT in einem Word-Dokument mit C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+
+### [Erstellen eines leeren Word-Dokuments und Hinzufügen einer ActiveX-Schaltfläche in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+
+ zur Dokumentbearbeitung
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

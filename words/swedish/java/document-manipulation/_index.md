@@ -65,6 +65,7 @@ Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. 
 Lås upp dokumentautomation med Aspose.Words för Java. Lär dig hur du sammanfogar, formaterar och infogar bilder i Java-dokument. Omfattande guide och kodexempel för effektiv dokumenthantering.
 ### [Hur man skapar ett Word-dokument i Java med Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Lär dig att skapa ett Word-dokument i Java med Aspose.Words, steg-för-steg med kodexempel.
+### [Hur man skapar ett tomt Word-dokument med en vanlig textinnehållskontroll i C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 ### [Använda XML-data i Aspose.Words för Java](./using-xml-data/)
 Lås upp kraften i Aspose.Words för Java. Lär dig XML-datahantering, dokumentkoppling och mustaschsyntax med steg-för-steg-handledningar.
 ### [Extrahera innehåll från dokument i Aspose.Words för Java](./extracting-content-from-documents/)
@@ -101,7 +102,7 @@ Lär dig hur du delar upp dokument till HTML-sidor med Aspose.Words för Java. F
 Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning.
 ### [Lägg till innehållskontroll i Word-dokument med Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Lär dig hur du lägger till och hanterar innehållskontroller i Word-dokument med Aspose.Words för Java.
-### [Skapa ett tomt Word-dokument med en textkontroll i Aspose.Words för Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Skapa ett tomt Word-dokument med en textkontroll i Aspose.Words för Java](./how-to-create-blank-word-document-with-a-text-control/)
 Lär dig skapa ett tomt Word-dokument och lägga till en textkontroll med Aspose.Words för Java.
 ### [Hur man sparar docx med DocumentBuilder och lägger till text efter en kontroll](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Lär dig spara DOCX-filer med DocumentBuilder och infoga text efter en kontroll i Java.
@@ -120,18 +121,27 @@ Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dok
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
 ### [Skapa docx ActiveX-knapp i Java – komplett programmeringsguide](./create-docx-activex-button-in-java-complete-programming-guid/)
+
 Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-steg med kodexempel.
+
+### [Skapa ett tomt Word-dokument och lägg till en ActiveX-knapp i C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+
 ### [Skapa ett tomt dokument med en interaktiv kommandoknapp i Word med Java](./create-blank-document-with-an-interactive-command-button-in/)
+
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kommandoknapp med Aspose.Words för Java.
 ### [Skapa Word-dokument programatiskt med Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+
 Lär dig skapa ett Word-dokument programatiskt med Aspose.Words i Java.
 ### [Skapa nytt Word-dokument – Steg‑för‑steg‑guide för att lägga till en strukturerad tagg](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+
 Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad tagg med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
 ### [Skapa tomt Word-dokument i Java med Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+
 Lär dig hur du snabbt skapar ett tomt Word-dokument i Java med Aspose.Words.
 
 ### [Hur man ställer in taggnamn och lägger till SDT i ett Word-dokument med C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+
 Lär dig hur du sätter taggnamn och lägger till Structured Document Tags i ett Word-dokument med C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

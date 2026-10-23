@@ -38,6 +38,9 @@ doc.save("Output.docx");
 // Insert an image into a Word document using Aspose.Words for Java
 import com.aspose.words.*;
 
+### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -181,7 +184,7 @@ Learn how to programmatically create a Word document and group shapes using Aspo
 ### [How to create doughnut chart in a Word document with Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Learn how to generate a doughnut chart in a Word document using Aspose.Words for Java with step-by-step code examples.
 
-### [How to create blank Word document and add a hidden ellipse shape in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+### [How to create blank Word document with a hidden ellipse shape in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Learn how to generate a blank Word document and insert a hidden ellipse shape using Aspose.Words for C#.
 ### [How to create a blank Word document and group shapes in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
@@ -204,3 +207,5 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Create a blank Word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/)

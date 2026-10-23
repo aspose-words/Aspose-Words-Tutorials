@@ -58,6 +58,7 @@ Inizia oggi stesso il tuo percorso di apprendimento e scopri le infinite possibi
 ## Tutorial sulla manipolazione dei documenti
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Come creare un documento Word vuoto con un controllo di contenuto di testo semplice in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [Utilizzo delle opzioni di pulizia in Aspose.Words per Java](./using-cleanup-options/)
 Migliora la chiarezza dei documenti con le opzioni di pulizia di Aspose.Words per Java. Scopri come rimuovere paragrafi vuoti, aree inutilizzate e altro ancora.
@@ -116,6 +117,8 @@ Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire 
 Impara a creare PDF accessibili aggiungendo tag di struttura con Aspose.Words per Java, garantendo conformità alle linee guida di accessibilità.
 ### [Creare pulsante ActiveX in docx con Java – guida completa di programmazione](./create-docx-activex-button-in-java-complete-programming-guid/)
 Impara a inserire un pulsante ActiveX in un documento DOCX usando Aspose.Words per Java con esempi di codice passo passo.
+### [Creare un documento Word vuoto e aggiungere un pulsante ActiveX in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Impara a creare un documento Word vuoto e aggiungere un pulsante ActiveX usando C# con Aspose.Words.
 ### [Come creare un documento Word in Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Crea documenti Word in Java usando Aspose.Words con esempi pratici.
 ### [Aggiungere un controllo di contenuto in un documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
@@ -129,7 +132,6 @@ Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subit
 ### [Come creare un documento Word vuoto con Aspose.Words per Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi passaggi di codice.
 ### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
-Impara a impostare il nome del tag e aggiungere Structured Document Tag in un documento Word usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

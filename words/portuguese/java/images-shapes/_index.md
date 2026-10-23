@@ -146,6 +146,13 @@ Aprenda a ocultar uma forma e definir sua cor de preenchimento em documentos Wor
 ### [Como criar documento Word em branco com formas agrupadas](./how-to-create-blank-word-document-with-grouped-shapes/)
 Aprenda a criar um documento Word vazio e inserir formas agrupadas usando Aspose.Words para Java.
 
+### [Como inserir elipse e retângulo dentro de uma forma de grupo com Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+
+### [Criar documento Word com uma imagem oculta em Java usando Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+
+### [Criar um documento Word em branco e adicionar uma forma retangular](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+Aprenda a criar um documento Word vazio e inserir uma forma retangular usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ### [Criar um documento Word em branco com uma forma elipse oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -60,6 +60,9 @@ Start your learning journey today and unlock the endless possibilities of docume
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [How to create blank Word document with a plain text content control in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
+
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -125,6 +128,8 @@ Optimize document management with Aspose.Words for Java. Learn to work with docu
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
 ### [Create docx ActiveX button in Java – complete programming guide](./create-docx-activex-button-in-java-complete-programming-guid/)
 Learn how to add an ActiveX button to a DOCX file using Aspose.Words for Java with step-by-step code examples.
+### [Create a blank Word document and add an ActiveX button in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+
 ### [How to create a Word document in Java with Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Learn to generate a Word document in Java using Aspose.Words with clear examples and best practices.
 ### [How to create word document programmatically with Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)

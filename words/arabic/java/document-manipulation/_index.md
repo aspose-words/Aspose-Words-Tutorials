@@ -58,6 +58,7 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ## دروس معالجة المستندات
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [كيفية إنشاء مستند Word فارغ مع عنصر تحكم نص عادي في C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [استخدام خيارات التنظيف في Aspose.Words لـ Java](./using-cleanup-options/)
 حسّن وضوح مستنداتك باستخدام خيارات التنظيف في Aspose.Words لجافا. تعرّف على كيفية إزالة الفقرات الفارغة والمناطق غير المستخدمة والمزيد.
@@ -86,7 +87,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
 تعلّم كيفية إنشاء جدول المحتويات (TOC) وتخصيصه باستخدام Aspose.Words لجافا. أنشئ مستندات منظمة واحترافية بكل سهولة.
 ### [إنشاء زر ActiveX في مستند docx باستخدام Java – دليل برمجة كامل](./create-docx-activex-button-in-java-complete-programming-guid/)
-دليل شامل لإنشاء زر ActiveX في ملفات docx باستخدام Aspose.Words لجافا مع أمثلة برمجية خطوة بخطوة.
+
+### [إنشاء مستند Word فارغ وإضافة زر ActiveX في C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+
 ### [إنشاء مستند Word فارغ باستخدام Aspose.Words لـ Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 تعلم كيفية إنشاء مستند Word فارغ من الصفر باستخدام Aspose.Words لجافا وإعداد الخصائص الأساسية.
 ### [حماية المستندات في Aspose.Words لـ Java](./protecting-documents/)
@@ -109,7 +112,7 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ### [تنسيق المستندات في Aspose.Words لـ Java](./formatting-documents/)
 تعلّم فن تنسيق المستندات في Aspose.Words لجافا مع دليلنا الشامل. استكشف الميزات الفعّالة وحسّن مهاراتك في معالجة المستندات.
 ### [ربط المستندات وإضافتها في Aspose.Words لـ Java](./joining-and-appending-documents/)
-تعلّم كيفية ضمّ المستندات وإضافتها بسهولة باستخدام Aspose.Words لجافا. حافظ على التنسيق، وأدر رؤوس الصفحات وتذييلاتها، والمزيد.
+تعلّم كيفية ضمّ المستندات وإضافتها بسهولة باستخدام Aspose.Words لجافا. حافظ على التنسيق، وأدر رؤوس الصفحات تذييلاتها، والمزيد.
 ### [استخدام خيارات وإعدادات المستند في Aspose.Words لـ Java](./using-document-options-and-settings/)
 أطلق العنان لقوة Aspose.Words لجافا. أتقن خيارات وإعدادات المستندات لإدارة سلسة للمستندات. حسّن، خصّص، وأكثر.
 ### [استخدام خصائص المستند في Aspose.Words لـ Java](./using-document-properties/)
@@ -128,7 +131,6 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ### [إنشاء مستند Word فارغ في Java باستخدام Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 تعلم كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words لجافا بسهولة.
 ### [كيفية تعيين اسم العلامة وإضافة SDT في مستند Word باستخدام C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
-تعلم كيفية تعيين اسم العلامة وإضافة SDT في مستند Word باستخدام C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

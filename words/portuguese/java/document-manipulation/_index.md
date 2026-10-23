@@ -99,8 +99,11 @@ Aprenda a dividir documentos de forma eficiente no Aspose.Words para Java. Explo
 Aprenda a dividir documentos em páginas HTML com o Aspose.Words para Java. Siga nosso guia passo a passo para uma conversão de documentos perfeita.
 ### [Adicionando conteúdo usando DocumentBuilder no Aspose.Words para Java](./adding-content-using-documentbuilder/)
 Domine a criação de documentos com o Aspose.Words para Java. Um guia passo a passo para adicionar texto, tabelas, imagens e muito mais. Crie documentos Word impressionantes sem esforço.
-### [Como criar um documento Word em branco com um controle de texto no Aspose.Words para Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Como criar um documento Word em branco com um controle de texto no Aspose.Words](./how-to-create-a-blank-word-document-with-a-text-control/)
+
 Aprenda a gerar um documento Word vazio e inserir um controle de texto usando Aspose.Words para Java.
+### [Como criar documento Word em branco com um controle de texto simples em C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
 ### [Clonando e combinando documentos no Aspose.Words para Java](./cloning-and-combining-documents/)
 Aprenda a clonar e combinar documentos no Aspose.Words para Java. Guia passo a passo com exemplos de código-fonte.
 ### [Comparando documentos no Aspose.Words para Java](./comparing-documents/)
@@ -131,6 +134,8 @@ Aprenda a salvar documentos DOCX usando DocumentBuilder e inserir texto imediata
 Aprenda a criar um documento Word vazio usando Aspose.Words para Java.
 ### [Como criar um documento Word em branco com Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aprenda a gerar um documento Word vazio usando Aspose.Words para Java com código simples.
+### [Criar um documento Word em branco e adicionar um botão ActiveX em C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Aprenda a criar um documento Word em branco e inserir um botão ActiveX usando Aspose.Words para C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
