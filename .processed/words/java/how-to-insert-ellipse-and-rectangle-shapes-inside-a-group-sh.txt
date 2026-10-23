@@ -1,0 +1,7 @@
+Title: How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words
+Slug: how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh
+Category: images-shapes
+ProcessedDate: 2026-10-23T15:00:20.580910
+SourceRepo: AI Search API
+Keywords: how to insert ellipse, how to add rectangle, move cursor to shape, insert rectangle shape word, how to create group shape
+PRNumber: 336
