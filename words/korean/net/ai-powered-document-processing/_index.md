@@ -102,15 +102,13 @@
 | [빈 Word 문서를 만들고 프랑스어로 번역하기](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET을 사용해 빈 Word 문서를 만든 뒤 프랑스어로 번역하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words AI를 사용하여 문자열을 스페인어로 번역하기](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C#에서 문자열을 스페인어로 자동 번역하는 방법을 단계별로 안내합니다. |
 | [문단을 프랑스어로 번역하고 Word에서 차트 레이블 변경](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aspose.Words for .NET을 사용해 Word 문서의 문단을 프랑스어로 번역하고 차트 레이블을 수정하는 방법을 단계별로 안내합니다. |
-
 | [Aspose.Words.AI로 docx를 프랑스어로 번역하기 – 전체 가이드](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words for .NET을 활용해 docx 파일을 프랑스어로 번역하는 전체 가이드를 제공합니다. |
 | [C#로 문서 요약 만들기 – OpenAI 전체 가이드](./create-document-summary-in-c-complete-openai-guide/) | Aspose.Words for .NET과 OpenAI를 사용해 C#에서 문서 요약을 구현하는 전체 가이드입니다. |
+| [C#에서 docx를 프랑스어로 번역하는 방법 – 단계별 가이드](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aspose.Words for .NET과 C#를 활용해 docx 파일을 프랑스어로 번역하는 단계별 과정을 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

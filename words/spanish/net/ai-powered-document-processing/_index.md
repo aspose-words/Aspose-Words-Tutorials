@@ -104,13 +104,11 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Crear un documento Word en blanco y traducirlo al francés](./create-a-blank-word-document-and-translate-it-to-french/) | Aprenda a crear un documento Word vacío y traducir su contenido al francés usando Aspose.Words para .NET. |
 | [Traducir cadena a español en C# con IA de Aspose.Words](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aprenda a traducir texto a español en C# usando la IA de Aspose.Words para .NET de forma sencilla. |
 | [Traducir párrafo al francés y cambiar la etiqueta del gráfico en Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aprenda a traducir párrafos al francés y modificar etiquetas de gráficos en documentos Word usando Aspose.Words para .NET. |
-
+| [Cómo traducir docx a francés en C# – guía paso a paso](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda a traducir archivos DOCX al francés en C# paso a paso usando Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
