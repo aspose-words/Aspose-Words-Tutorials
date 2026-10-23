@@ -1,0 +1,7 @@
+Title: Create a blank Word document and add an ActiveX button in C#
+Slug: create-a-blank-word-document-and-add-an-activex-button-in-c
+Category: document-manipulation
+ProcessedDate: 2026-10-23T15:00:29.423165
+SourceRepo: AI Search API
+Keywords: create blank word document, how to insert activex, create activex control, word document activex button
+PRNumber: 336

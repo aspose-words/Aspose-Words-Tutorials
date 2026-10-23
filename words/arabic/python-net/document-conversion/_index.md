@@ -215,6 +215,8 @@
 تعلم كيفية حفظ ملفات PDF وتحويل مستندات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
 ### [تحويل docx إلى markdown باستخدام Aspose.Words في بايثون](./convert-docx-to-markdown-with-aspose-words-in-python/)
 تعلم كيفية تحويل ملفات docx إلى تنسيق markdown باستخدام Aspose.Words لبايثون بسهولة.
+### [كيفية حفظ Word كملف PDF وتحويل DOCX إلى Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+تعلم كيفية حفظ مستند Word بصيغة PDF ثم تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

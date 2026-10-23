@@ -188,7 +188,7 @@ docx 파일을 텍스트 파일로 변환하는 방법을 단계별로 안내합
 ### [Aspose.Words로 Word를 PDF로 저장하기 – Python 가이드](./save-word-as-pdf-with-aspose-words-python-guide/)
 Aspose.Words를 사용하여 Word 문서를 PDF로 저장하는 방법을 단계별로 안내합니다.
 
-### [Aspose.Words로 Word를 Markdown으로 저장하기 – 단계별 가이드](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+### [Aspose.Words로 Word를 Markdown으로 저장하기 – 단계별 가이드](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
 
 ### [docx를 png로 저장하기 – Python 개발자를 위한 단계별 가이드](./save-docx-as-png-step-by-step-guide-for-python-developers/)
 docx 파일을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
@@ -266,7 +266,7 @@ Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 전체 과정을 �
 
 ### [접근 가능한 PDF 만들기 – Aspose.Words 완전 가이드](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Aspose.Words를 사용해 접근성 PDF를 생성하는 방법을 단계별로 안내합니다.
-### [docx를 txt로 저장 – Python으로 Word 수학을 LaTeX로 내보내기](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+### [docx를 txt로 저장 – Python으로 Word 수학을 LaTeX로 내보내기](./save-docx-as-txt-export-word-math-to-latex-python/)
 docx 파일을 텍스트로 저장하고, Word 수식을 LaTeX 형식으로 변환하는 방법을 Python으로 안내합니다.
 
 ### [Python으로 접근성 PDF 생성 – 완전 단계별 가이드](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
@@ -291,6 +291,9 @@ Aspose.Words를 활용하여 LaTeX 방정식이 포함된 docx 파일을 텍스�
 ### [DOCX 복구 및 Markdown·PDF 변환 가이드](./how-to-recover-docx-and-convert-to-markdown-pdf/)
 손상된 DOCX 파일을 복구하고, 이를 Markdown과 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [PDF 저장 및 DOCX를 Markdown으로 변환하는 방법](./how-to-save-pdf-and-convert-docx-to-markdown/)
+
+### [Word를 PDF로 저장하고 DOCX를 Markdown으로 변환하는 방법](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+Word 문서를 PDF로 저장하고 DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
