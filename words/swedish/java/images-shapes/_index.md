@@ -87,9 +87,16 @@ Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en d
 ### [Infoga rektangel i Word med C# – komplett guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
 ### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
-Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
-### [Gruppera former i Word – komplett programmeringsguide](./group-shapes-in-word-complete-programming-guide/)
-Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words för Java.
+
+### [Skapa ett tomt Word-dokument och lägg till en rektangel](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en rektangel med Aspose.Words för Java.
+
+### [Skapa tomt Word-dokument med grupperade rektanglar – C#-guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade rektanglar med Aspose.Words för C#.
+
+### [Skapa tomt Word-dokument med grupperade former i Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade former med Aspose.Words för Java.
 
 ### [Dölj bild i Word – steg‑för‑steg Java‑guide med Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Lär dig hur du döljer bilder i ett Word-dokument med Aspose.Words för Java.
@@ -145,6 +152,8 @@ Lär dig hur du döljer en form och sätter fyllningsfärg i ett Word-dokument m
 
 ### [Hur man skapar ett tomt Word-dokument med grupperade former](./how-to-create-blank-word-document-with-grouped-shapes/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade former med Aspose.Words för Java.
+
+### [Hur man infogar ellips- och rektangelformer i en gruppform med Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ## Ytterligare resurser
 

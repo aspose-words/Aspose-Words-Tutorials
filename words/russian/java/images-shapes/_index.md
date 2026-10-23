@@ -78,18 +78,13 @@
 Узнайте, как добавить групповую фигуру в документ Word с помощью Aspose.Words для Java.
 
 ### [Создание пустого документа Word с группированными прямоугольниками – руководство C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
-Узнайте, как создать пустой документ Word и добавить в него сгруппированные прямоугольники с помощью Aspose.Words для C#.
 
-### [Вставка прямоугольной фигуры в Java – Группировка и позиционирование фигур](./insert-rectangle-shape-in-java-group-and-position-shapes/)
-Узнайте, как группировать и позиционировать прямоугольные фигуры в документах Word с помощью Aspose.Words для Java.
+### [Создание пустого документа Word с групповой фигурой – руководство Java](./create-blank-word-document-with-grouped-shape-java-guide/)
 
-### [Вставка изображения в Word – пошаговое руководство Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
-Узнайте, как вставлять изображения в документы Word с помощью Aspose.Words для Java.
-
-### [Вставка прямоугольной фигуры в Word с помощью C# – полное руководство](./insert-rectangle-shape-in-word-using-c-complete-guide/)
-Полное руководство по вставке прямоугольной фигуры в документ Word с использованием C# и Aspose.Words.
 ### [Создание пустого документа Word с теневым эффектом в Java – Полное руководство](./create-blank-word-with-shadow-in-java-full-guide/)
-Подробное руководство по созданию пустого документа Word с теневой фигурой в Java с использованием Aspose.Words.
+
+### [Создать пустой документ Word и добавить прямоугольную фигуру](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
 ### [Группировка фигур в Word – полное руководство по программированию](./group-shapes-in-word-complete-programming-guide/)
 
 ### [Скрыть изображение в Word – пошаговое руководство Java с Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
@@ -144,6 +139,8 @@
 ### [Учебник Aspose.Words ActiveX – вставка CommandButton с Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 Узнайте, как добавить кнопку CommandButton в документ Word через ActiveX с использованием Java.
 ### [Как создать пустой документ Word с группированными фигурами](./how-to-create-blank-word-document-with-grouped-shapes/)
+
+### [Как вставить эллипс и прямоугольник в групповую фигуру с Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ## Дополнительные ресурсы
 

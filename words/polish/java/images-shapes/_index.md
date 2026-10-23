@@ -133,11 +133,14 @@ Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowany kszt
 ### [Utwórz dokument Word w Javie – Wstaw i ukryj obrazy](./create-word-document-java-insert-and-hide-images-with-aspose/)
 Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając z Aspose.Words dla Java.
 
+### [Jak wstawić elipsę i prostokąt wewnątrz grupy kształtów przy użyciu Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+Instrukcja dodawania elipsy i prostokąta do grupy kształtów w dokumentach Word przy użyciu Aspose.Words dla Java.
+
 ### [Wstaw wykres kołowy w Javie – rozdziel, obróć i podświetl fragmenty](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ### [Utwórz pusty dokument Word z grupowanymi kształtami w Javie](./create-blank-word-document-with-grouped-shapes-in-java/)
-Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words.
 
 ### [Samouczek Aspose.Words ActiveX – wstaw przycisk CommandButton w Javie](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
 Dowiedz się, jak dodać przycisk CommandButton przy użyciu ActiveX w aplikacji Java z Aspose.Words.
@@ -147,6 +150,9 @@ Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumenci
 
 ### [Jak utworzyć pusty dokument Word z grupowanymi kształtami](./how-to-create-blank-word-document-with-grouped-shapes/)
 Dowiedz się, jak stworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+
+### [Utwórz pusty dokument Word i dodaj kształt prostokąta](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego prostokątny kształt przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

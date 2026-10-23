@@ -327,6 +327,7 @@ Learn how to generate PDF/A-1a accessible PDFs from DOCX using Aspose.Words for 
 
 ### [How to Export Markdown from Word – Step‑by‑Step Java Guide](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 Learn how to export Word documents to Markdown format using Aspose.Words for Java with a clear, step‑by‑step guide.
+
 ### [Save Word as Text – Export Equations to LaTeX with Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
 Learn how to save a Word document as plain text and export embedded equations to LaTeX using Aspose.Words for Java.
 
@@ -446,8 +447,6 @@ Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Jav
 ### [How to Save PNG from Word – Complete Step‑by‑Step Guide]({{< relref "how-to-save-png-from-word-complete-step-by-step-guide/_index.md" >}})
 Learn how to extract and save images as PNG files from Word documents using Aspose.Words for Java in a detailed step‑by‑step tutorial.
 
-## Frequently asked questions
-
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
 A: Load the document, use `DocumentBuilder.insertWatermarkText` or `insertWatermarkImage`, then save as PDF.
 
@@ -463,7 +462,7 @@ A: Apply a TableStyle via the `Table.setStyleIdentifier` method or use the built
 **Q: Is a license required for commercial use?**  
 A: Yes, a commercial license is required for production deployments; a free trial is available for evaluation.
 
----
+### [How to save document as docx from a Markdown file in Java](./how-to-save-document-as-docx-from-a-markdown-file-in-java/)
 
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.Words for Java 24.12  

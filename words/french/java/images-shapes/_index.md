@@ -145,6 +145,13 @@ Apprenez à masquer une forme et à définir sa couleur de remplissage dans un d
 ### [Comment créer un document Word vierge avec des formes groupées](./how-to-create-blank-word-document-with-grouped-shapes/)
 Apprenez à créer un document Word vierge contenant des formes groupées à l'aide d'Aspose.Words pour Java.
 
+### [Comment insérer une forme groupée en Java – Guide complet](./how-to-insert-group-shape-in-java-complete-guide/)
+Apprenez à insérer et gérer des formes groupées dans vos documents Word avec Aspose.Words pour Java.
+
+### [Comment insérer des formes ellipse et rectangle dans une forme groupée avec Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+
+### [Créer un document Word vierge et ajouter une forme rectangle](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
 ## Ressources supplémentaires
 
 ### [Créer un document Word vierge avec une forme ellipse cachée](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

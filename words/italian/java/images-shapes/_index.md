@@ -28,6 +28,9 @@ Nell'ambito dell'elaborazione dei documenti, l'integrazione di immagini e forme 
 
 ## Tutorial disponibili
 
+### [Create a blank Word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -147,6 +150,9 @@ Scopri come aggiungere un CommandButton tramite ActiveX in un'applicazione Java 
 Impara a nascondere una forma e a impostare il colore di riempimento in un documento Word usando Aspose.Words per Java.
 ### [Come creare un documento Word vuoto con forme raggruppate](./how-to-create-blank-word-document-with-grouped-shapes/)
 Impara a creare un documento Word vuoto contenente forme raggruppate usando Aspose.Words per Java.
+
+### [Come inserire forme ellittiche e rettangolari all'interno di una forma di gruppo con Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+Scopri come aggiungere forme ellittiche e rettangolari a una forma di gruppo usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

@@ -118,6 +118,8 @@ Optimice la gestión de documentos con Aspose.Words para Java. Aprenda a trabaja
 Aprenda a crear PDFs accesibles con etiquetas de accesibilidad usando Aspose.Words para Java.
 ### [Crear botón ActiveX docx en Java – guía completa de programación](./create-docx-activex-button-in-java-complete-programming-guid/)
 Aprenda a crear un botón ActiveX en documentos DOCX usando Java con esta guía completa.
+### [Crear un documento Word en blanco y agregar un botón ActiveX en C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Aprenda a crear un documento Word vacío y añadir un botón ActiveX usando C# y Aspose.Words.
 ### [Cómo crear un documento Word en Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con ejemplos de código paso a paso.
 ### [Crear documento en blanco con un botón de comando interactivo en Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
@@ -129,7 +131,7 @@ Aprenda a generar un documento Word vacío usando Aspose.Words para Java con eje
 ### [Cómo crear un documento Word en blanco con Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aprenda a crear un documento Word vacío usando Aspose.Words para Java.
 ### [Cómo establecer el nombre de etiqueta y agregar SDT en un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
-Aprenda a definir el nombre de etiqueta y añadir etiquetas de documento estructurado (SDT) en Word usando C# con Aspose.Words.
+### [Cómo crear un documento Word en blanco con un control de contenido de texto sin formato en C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
