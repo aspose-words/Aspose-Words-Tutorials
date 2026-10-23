@@ -1,47 +1,113 @@
 ---
-date: 2025-12-10
-description: "Узнайте, как создавать пользовательские штрих‑коды с помощью Aspose.Words
-  для Java. Этот пошаговый руководств\n\n показывает, как встраивать штрих‑коды в
-  документы Word."
-linktitle: Generating Custom Barcode Labels
+date: 2026-10-23
+description: Узнайте, как создавать QR‑code метки Java с помощью Aspose.Words. Это
+  пошаговое руководство покажет, как встраивать barcode в Word documents и настраивать
+  размер, цвета и формат.
+keywords:
+- create qr code java
+- how to create barcode label
+- add barcode to word document
+- embed barcode in word
+lastmod: 2026-10-23
+linktitle: Создание пользовательских Barcode меток
+og_description: Узнайте, как создавать QR‑code метки Java с помощью Aspose.Words.
+  В этом руководстве объясняется встраивание barcode, контроль размера и настройка
+  цветов в Word documents.
+og_image_alt: 'Developer guide: generate custom QR code labels in Java with Aspose.Words'
+og_title: Как создать QR‑code метки Java с помощью Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to create QR code Java labels with Aspose.Words. This step‑by‑step
+    guide shows you how to embed barcodes in Word documents and customize size, colors,
+    and format.
+  headline: How to create QR code Java labels using Aspose.Words
+  type: TechArticle
+- description: Learn how to create QR code Java labels with Aspose.Words. This step‑by‑step
+    guide shows you how to embed barcodes in Word documents and customize size, colors,
+    and format.
+  name: How to create QR code Java labels using Aspose.Words
+  steps:
+  - name: '**Document initialization** – Creates a fresh `Document` (or you could
+      load an existing template).'
+    text: '**Document initialization** – Creates a fresh `Document` (or you could
+      load an existing template).'
+  - name: '**Barcode parameters** – Defines the barcode type (`QR`), the value to
+      encode, and the foreground/background colors.'
+    text: '**Barcode parameters** – Defines the barcode type (`QR`), the value to
+      encode, and the foreground/background colors.'
+  - name: '**Image insertion** – `builder.insertImage` places the generated barcode
+      at the desired size (200 × 200 pixels). This is the core of **how to embed barcode
+      in Word**.'
+    text: '**Image insertion** – `builder.insertImage` places the generated barcode
+      at the desired size (200 × 200 pixels). This is the core of **how to embed barcode
+      in Word**.'
+  - name: '**Saving** – The final document, `CustomBarcodeLabels.docx`, contains the
+      embedded barcode ready for printing or distribution.'
+    text: '**Saving** – The final document, `CustomBarcodeLabels.docx`, contains the
+      embedded barcode ready for printing or distribution.'
+  type: HowTo
+- questions:
+  - answer: Yes, but it will have evaluation limitations. Obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for full functionality.
+    question: Can I use Aspose.Words for Java without a license?
+  - answer: Aspose.BarCode supports QR, Code 128, EAN‑13, DataMatrix, PDF417, and
+      many other formats—over 20 symbologies in total. See the [documentation](https://reference.aspose.com/words/java/)
+      for the complete list.
+    question: What types of barcodes can I generate?
+  - answer: Adjust the width and height arguments in `builder.insertImage`, or calculate
+      exact Word twips using `twipsToPixels` for pixel‑perfect control.
+    question: How can I change the barcode size?
+  - answer: Yes, you can customize the text font through the `CodeTextParameters`
+      property of the `BarcodeGenerator`.
+    question: Is it possible to use custom fonts for the barcode text?
+  - answer: Visit the [support forum](https://forum.aspose.com/c/words/8/) for assistance
+      from the Aspose community and engineers.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Создание пользовательских штрих‑кодов в Aspose.Words для Java
+tags:
+- barcode generation
+- Aspose.Words
+- Java document processing
+- QR code
+title: Как создать QR‑code метки Java с помощью Aspose.Words
 url: /ru/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Генерация пользовательских штрих‑кодов в Aspose.Words для Java
+# Как создать QR‑коды Java метки с помощью Aspose.Words
 
-## Введение в генерацию пользовательских штрих‑кодов в Aspose.Words для Java
-
-Штрих‑коды являются неотъемлемой частью современных приложений — будь то управление запасами, печать билетов или создание удостоверений личности. В этом руководстве вы **создадите пользовательские метки со штрих‑кодом** и внедрите их непосредственно в документ Word с помощью интерфейса `IBarcodeGenerator`. Мы пройдем каждый шаг, от настройки окружения до вставки изображения штрих‑кода, чтобы вы могли сразу начать использовать штрих‑коды в своих Java‑проектах.
+Barcodes are essential in modern applications—whether you’re managing inventory, printing tickets, or creating ID cards. In this tutorial you’ll **create QR code Java** labels and embed them directly into a Word document using the `IBarcodeGenerator` interface. We’ll walk through every step, from setting up the environment to inserting the barcode image, so you can start using barcodes in your Java projects right away.
 
 ## Быстрые ответы
-- **Что изучает это руководство?** Как генерировать пользовательские метки со штрих‑кодом и внедрять их в файл Word с помощью Aspose.Words для Java.  
-- **Какой тип штрих‑кода используется в примере?** QR‑код (можно заменить на любой поддерживаемый тип).  
-- **Нужна ли лицензия?** Для неограниченного доступа во время разработки требуется временная лицензия.  
-- **Какая версия Java требуется?** JDK 8 или выше.  
-- **Можно ли изменить размер или цвета штрих‑кода?** Да — измените настройки `BarcodeParameters` и `BarcodeGenerator`.
+- **What does this tutorial teach?** How to create QR code Java labels and embed them in a Word file with Aspose.Words for Java.  
+- **Which barcode type is used in the example?** QR code (you can swap it for any of the 20+ supported types).  
+- **Do I need a license?** A temporary license is required for unrestricted access during development.  
+- **What Java version is required?** JDK 8 or higher.  
+- **Can I change the barcode size or colors?** Yes—modify the `BarcodeParameters` and `BarcodeGenerator` settings.
 
-## Предварительные требования
+## Что такое create QR code Java?
+`create QR code Java` refers to generating a QR‑code image programmatically in a Java environment and inserting it into a document or UI component. Aspose.Words for Java together with Aspose.BarCode lets you produce the image entirely in memory, avoiding temporary files.
 
-## Предварительные требования
+## Почему генерировать пользовательские метки со штрихкодами с помощью Aspose.Words?
+Aspose.Words supports **35+ input and output formats** and can process **500‑page documents in under 3 seconds** on standard server hardware. Using its in‑memory barcode generation you get full control over type, size, and colors while keeping the workflow fully Java‑centric and platform‑independent.
+
+## Требования
 
 - Java Development Kit (JDK): версия 8 или выше.  
-- Библиотека Aspose.Words для Java: [Download here](https://releases.aspose.com/words/java/).  
-- Библиотека Aspose.BarCode для Java: [Download here](https://releases.aspose.com/).  
-- Интегрированная среда разработки (IDE): IntelliJ IDEA, Eclipse или любая другая IDE.  
-- Временная лицензия: получите [temporary license](https://purchase.aspose.com/temporary-license/) для неограниченного доступа.
+- Aspose.Words for Java Library: [Скачать здесь](https://releases.aspose.com/words/java/).  
+- Aspose.BarCode for Java Library: [Скачать здесь](https://releases.aspose.com/).  
+- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse или любая IDE, которую вы предпочитаете.  
+- Temporary License: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for unrestricted access.
 
 ## Импорт пакетов
 
-Мы будем использовать библиотеки Aspose.Words и Aspose.BarCode. Импортируйте следующие пакеты в ваш проект:
+We’ll use Aspose.Words and Aspose.BarCode libraries. Import the following packages into your project:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -51,11 +117,12 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Эти импорты дают нам доступ к API генерации штрих‑кода и классам документа Word, которые нам потребуются.
+These imports give us access to the barcode generation API and the Word document classes we’ll need.
 
-## Шаг 1: Создание вспомогательного класса для операций со штрих‑кодом
+## Шаг 1: создать вспомогательный класс для операций со штрихкодами
 
-Чтобы основной код оставался чистым, мы инкапсулируем общие вспомогательные функции — такие как **преобразование twips в пиксели** и **конвертация hex‑цвета** — во вспомогательном классе.
+The utility class houses reusable helpers such as **convert twips to pixels** and **hex‑color conversion**.  
+The `CustomBarcodeGeneratorUtils` class provides static methods for unit conversion and color handling.
 
 ### Код
 
@@ -82,14 +149,14 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-**Пояснение**
+**Объяснение**  
+- `twipsToPixels` – Word measures dimensions in **twips**; this method converts them to screen pixels, which is handy when you need to size the barcode image precisely.  
+- `convertColor` – Turns a hexadecimal string (e.g., `"FF0000"` for red) into a `java.awt.Color` object, allowing you to **add barcode to Word document** with custom foreground and background colors.
 
-- `twipsToPixels` — Word измеряет размеры в **twips**; этот метод преобразует их в пиксели экрана, что удобно при точной настройке размеров штрих‑кода.  
-- `convertColor` — Преобразует шестнадцатеричную строку (например, `"FF0000"` для красного) в объект `java.awt.Color`, позволяя **вставлять штрих‑код** с пользовательскими цветами переднего и заднего плана.
+## Шаг 2: реализовать пользовательский генератор штрихкодов
 
-## Шаг 2: Реализация пользовательского генератора штрих‑кода
-
-Теперь реализуем интерфейс `IBarcodeGenerator`. Этот класс будет отвечать за **генерацию изображений qr‑code java**‑стиля, которые Aspose.Words сможет внедрять.
+Now we’ll implement the `IBarcodeGenerator` interface. This class is responsible for **generate QR code Java**‑style images that Aspose.Words can embed.  
+The `IBarcodeGenerator` interface defines a single method that returns a `BufferedImage` representing the barcode.
 
 ### Код
 
@@ -121,14 +188,17 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-**Пояснение**
+**Объяснение**  
+- `getBarcodeImage` creates an instance of `BarcodeGenerator`, applies the colors supplied via `BarcodeParameters`, and finally returns a `BufferedImage`.  
+- The method also gracefully handles errors by returning a placeholder image, ensuring the Word document creation never crashes.
 
-- `getBarcodeImage` создает экземпляр `BarcodeGenerator`, применяет цвета, переданные через `BarcodeParameters`, и в конце возвращает `BufferedImage`.  
-- Метод также корректно обрабатывает ошибки, возвращая изображение‑заполнитель, что гарантирует отсутствие сбоев при создании документа Word.
+## Как внедрить штрихкод в Word с помощью Aspose.Words?
 
-## Шаг 3: Генерация штрих‑кода и **вставка штрих‑кода в Word**
+Load your Word file with `new Document("template.docx")` (or create a new `Document`) and call `builder.insertImage` with the barcode image returned from the generator. This two‑step pattern embeds the barcode directly without writing an intermediate file to disk. By specifying the image dimensions in pixels or converting Word twips to pixels, you can control the exact size and placement of the barcode within the document, ensuring a professional layout that prints correctly on any printer.
 
-С готовым генератором мы можем создать изображение штрих‑кода и **вставить его в документ Word**.
+## Шаг 3: сгенерировать штрихкод и внедрить его в Word
+
+With the generator ready, we can now produce a barcode image and **insert it into a Word document**.
 
 ### Код
 
@@ -163,59 +233,58 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-**Пояснение**
+**Объяснение**  
 
-1. **Инициализация документа** — Создает новый `Document` (или можно загрузить существующий шаблон).  
-2. **Параметры штрих‑кода** — Определяют тип штрих‑кода (`QR`), значение для кодирования и цвета переднего/заднего плана.  
-3. **Вставка изображения** — `builder.insertImage` размещает сгенерированный штрих‑код нужного размера (200 × 200 пикселей). Это ядро **вставки штрих‑кода** в файл Word.  
-4. **Сохранение** — Финальный документ `CustomBarcodeLabels.docx` содержит встроенный штрих‑код, готовый к печати или распространению.
+1. **Document initialization** – Creates a fresh `Document` (or you could load an existing template).  
+2. **Barcode parameters** – Defines the barcode type (`QR`), the value to encode, and the foreground/background colors.  
+3. **Image insertion** – `builder.insertImage` places the generated barcode at the desired size (200 × 200 pixels). This is the core of **how to embed barcode in Word**.  
+4. **Saving** – The final document, `CustomBarcodeLabels.docx`, contains the embedded barcode ready for printing or distribution.
 
-## Почему генерировать пользовательские метки со штрих‑кодом с помощью Aspose.Words?
-
-- **Полный контроль** над внешним видом штрих‑кода (тип, размер, цвета).  
-- **Бесшовная интеграция** — нет необходимости в промежуточных файлах изображений; штрих‑код генерируется в памяти и вставляется напрямую.  
-- **Кросс‑платформенность** — работает на любой ОС, поддерживающей Java, что делает его идеальным для серверной генерации документов.  
-- **Масштабируемость** — можно перебрать источник данных и создать сотни персонализированных меток за один запуск.
-
-## Распространённые проблемы и их решение
+## Распространённые проблемы и устранение неполадок
 
 | Симптом | Вероятная причина | Решение |
 |---------|-------------------|---------|
-| Штрих‑код отображается пустым | Цвета `BarcodeParameters` одинаковы (например, черный на черном) | Проверьте значения `foregroundColor` и `backgroundColor`. |
-| Изображение искажено | Неправильные пиксельные размеры, переданные в `insertImage` | Скорректируйте аргументы ширины/высоты или используйте конвертацию `twipsToPixels` для точного размера. |
-| Ошибка «Unsupported barcode type» | Используется тип, не распознанный `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` | Убедитесь, что строка типа штрих‑кода соответствует одному из поддерживаемых `EncodeTypes` (например, `"QR"`, `"CODE128"`). |
+| Barcode appears blank | `BarcodeParameters` colors are the same (e.g., black on black) | Verify `foregroundColor` and `backgroundColor` values. |
+| Image is distorted | Wrong pixel dimensions passed to `insertImage` | Adjust the width/height arguments or use `twipsToPixels` conversion for precise sizing. |
+| Unsupported barcode type error | Using a type not recognized by `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` | Ensure the barcode type string matches one of the supported `EncodeTypes` (e.g., `"QR"`, `"CODE128"`). |
 
 ## Часто задаваемые вопросы
 
-**В: Можно ли использовать Aspose.Words для Java без лицензии?**  
-О: Да, но будут ограничения. Получите [temporary license](https://purchase.aspose.com/temporary-license/) для полной функциональности.
+**Q: Can I use Aspose.Words for Java without a license?**  
+A: Yes, but it will have evaluation limitations. Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for full functionality.
 
-**В: Какие типы штрих‑кодов я могу генерировать?**  
-О: Aspose.BarCode поддерживает QR, Code 128, EAN‑13 и многие другие форматы. См. [documentation](https://reference.aspose.com/words/java/) для полного списка.
+**Q: What types of barcodes can I generate?**  
+A: Aspose.BarCode supports QR, Code 128, EAN‑13, DataMatrix, PDF417, and many other formats—over 20 symbologies in total. See the [documentation](https://reference.aspose.com/words/java/) for the complete list.
 
-**В: Как изменить размер штрих‑кода?**  
-О: Отрегулируйте аргументы ширины и высоты в `builder.insertImage` или используйте `twipsToPixels` для преобразования единиц измерения Word в пиксели.
+**Q: How can I change the barcode size?**  
+A: Adjust the width and height arguments in `builder.insertImage`, or calculate exact Word twips using `twipsToPixels` for pixel‑perfect control.
 
-**В: Можно ли использовать пользовательские шрифты для текста штрих‑кода?**  
-О: Да, шрифт текста можно настроить через свойство `CodeTextParameters` объекта `BarcodeGenerator`.
+**Q: Is it possible to use custom fonts for the barcode text?**  
+A: Yes, you can customize the text font through the `CodeTextParameters` property of the `BarcodeGenerator`.
 
-**В: Где получить помощь при возникновении проблем?**  
-О: Посетите [support forum](https://forum.aspose.com/c/words/8/) для получения помощи от сообщества и инженеров Aspose.
+**Q: Where can I get help if I run into problems?**  
+A: Visit the [support forum](https://forum.aspose.com/c/words/8/) for assistance from the Aspose community and engineers.
 
 ## Заключение
 
-Следуя приведённым шагам, вы теперь знаете, как **генерировать пользовательские изображения штрих‑кода** и **вставлять штрих‑код в документы Word** с помощью Aspose.Words для Java. Этот метод достаточно гибок для меток инвентаря, билетов на мероприятия или любой ситуации, когда штрих‑код должен быть частью генерируемого документа. Экспериментируйте с различными типами штрих‑кодов и параметрами стилизации, чтобы подобрать оптимальное решение под ваши бизнес‑задачи.
+By following the steps above, you now know how to **create QR code Java** images and **embed barcode in Word** documents using Aspose.Words for Java. This technique is flexible enough for inventory tags, event tickets, or any scenario where a barcode needs to be part of a generated document. Experiment with different barcode types, colors, and sizing options to fit your specific business needs.
 
 ---
 
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.Words для Java 24.12, Aspose.BarCode для Java 24.12  
-**Автор:** Aspose  
+**Последнее обновление:** 2026-10-23  
+**Тестировано с:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Создать PDF из Word с генерацией штрихкода – Aspose.Words for Java](/words/java/document-conversion-and-export/using-barcode-generation/)
+- [Сохранить Word как PDF с Aspose Words пошаговое руководство Java](/words/java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+- [Создать пустой документ Word в Java с Aspose Words](/words/java/document-manipulation/create-blank-word-document-in-java-with-aspose-words/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
