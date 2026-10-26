@@ -51,7 +51,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak naprawić gramatykę w plikach DOCX przy użyciu C# – Pełny przewodnik krok po kroku](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Dowiedz się, jak używać C# i Aspose.Words, aby automatycznie poprawiać błędy gramatyczne w dokumentach DOCX. |
 | [Podsumowanie dokumentu Word przy użyciu lokalnego LLM – przewodnik C#](./summarize-word-document-with-local-llm-c-guide/) | Dowiedz się, jak używać lokalnego modelu LLM w C# do podsumowywania dokumentów Word przy użyciu Aspose.Words. |
 | [Jak sprawdzić gramatykę w dokumentach Word – Kompletny przewodnik C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Szybko sprawdź i popraw gramatykę w dokumentach Word przy użyciu Aspose.Words for .NET i C#. |
-| [Jak sprawdzić gramatykę przy użyciu lokalnego LLM w C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do sprawdzania gramatyki dokumentów Word przy pomocy Aspose.Words. |
+| [Jak sprawdzić gramatykę w C# przy użyciu lokalnego LLM](./how-to-check-grammar-with-a-local-llm-in-c/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do sprawdzania gramatyki dokumentów Word przy pomocy Aspose.Words. |
 | [Jak sprawdzić gramatykę i podsumować dokument Word przy użyciu Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Dowiedz się, jak używać Aspose.Words AI do sprawdzania gramatyki i podsumowywania dokumentów Word w kilku prostych krokach. |
 | [Sprawdź gramatykę dokumentu Word w C# – Kompletny przewodnik programistyczny](./check-grammar-word-document-in-c-complete-programming-guide/) | Dowiedz się, jak używać Aspose.Words dla .NET do sprawdzania gramatyki w dokumentach Word przy użyciu C# w pełnym przewodniku. |
 | [Jak załadować dokument Word w C# i przepisać akapit przy użyciu AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Naucz się wczytywać dokumenty Word w C# i automatycznie przepisywać akapity przy pomocy AI w Aspose.Words. |
@@ -103,13 +103,11 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Utwórz pusty dokument Word i przetłumacz go na francuski](./create-a-blank-word-document-and-translate-it-to-french/) | Dowiedz się, jak utworzyć pusty dokument Word i przetłumaczyć go na język francuski przy użyciu Aspose.Words dla .NET. |
 | [Tłumaczenie ciągu na hiszpański w C# przy użyciu Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Dowiedz się, jak przetłumaczyć tekst na język hiszpański w C# wykorzystując AI Aspose.Words. |
 | [Przetłumacz akapit na francuski i zmień etykietę wykresu w Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Jak przetłumaczyć akapit na francuski i zmienić etykietę wykresu w dokumencie Word przy użyciu Aspose.Words. |
-
+| [Jak przetłumaczyć docx na francuski w C# – przewodnik krok po kroku](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Krok po kroku pokażemy, jak przetłumaczyć pliki DOCX na francuski w C# przy użyciu Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
