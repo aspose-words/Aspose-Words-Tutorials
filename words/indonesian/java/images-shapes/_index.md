@@ -129,7 +129,7 @@ Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word meng
 ### [Buat dokumen Word kosong dengan shape berkelompok – Panduan Java](./create-blank-word-document-with-grouped-shape-java-guide/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan shape yang dikelompokkan menggunakan Aspose.Words untuk Java.
 
-### [Buat Dokumen Word Java – Sisipkan dan Sembunyikan Gambar dengan Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+### [Buat Dokumen Word Java – sisipkan dan sembunyikan gambar dengan Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
 Pelajari cara menyisipkan gambar ke dalam dokumen Word dan menyembunyikannya menggunakan Aspose.Words untuk Java.
 
 ### [Sisipkan Diagram Pai di Java – Pecah, Putar & Sorot Irisan](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
@@ -145,6 +145,9 @@ Pelajari cara menambahkan CommandButton ke dokumen menggunakan Aspose.Words Acti
 Pelajari cara menyembunyikan bentuk dan mengatur warna isi dalam dokumen Word menggunakan Aspose.Words untuk Java.
 ### [Cara Membuat Dokumen Word Kosong dengan Bentuk yang Dikelompokkan](./how-to-create-blank-word-document-with-grouped-shapes/)
 Panduan membuat dokumen Word kosong dan menambahkan bentuk yang dikelompokkan menggunakan Aspose.Words untuk Java.
+
+### [Cara menyisipkan bentuk elips dan persegi panjang di dalam bentuk grup dengan Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+Panduan langkah demi langkah menambahkan bentuk elips dan persegi panjang ke dalam grup shape menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 
@@ -188,3 +191,5 @@ Pelajari cara menyisipkan gambar tersembunyi ke dalam dokumen Word menggunakan A
 
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Buat Dokumen Word kosong dan tambahkan Bentuk Persegi Panjang](./create-a-blank-word-document-and-add-a-rectangle-shape/)

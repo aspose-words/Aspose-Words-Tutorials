@@ -84,10 +84,8 @@ Ismerd meg, hogyan állíthatod be a címke nevét és adhatod hozzá az SDT-t W
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
 Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat.
-
 ### [PDF hozzáférhetőségi címkézés Java-ban – Hozzon létre hozzáférhető PDF-eket](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Ismerje meg, hogyan lehet PDF-eket hozzáférhetővé tenni Java-ban az Aspose.Words segítségével, címkézéssel és szabványos megoldásokkal.
-
 ### [Dokumentumok védelme az Aspose.Words for Java programban](./protecting-documents/)
 Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóval és egyebekkel.
 ### [Dokumentumok oldalakra osztása az Aspose.Words for Java programban](./splitting-documents-into-pages/)
@@ -118,7 +116,6 @@ Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programb
 ### [Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./how-to-create-a-word-document-in-java-with-aspose-words/)
 ### [Tartalomvezérlő hozzáadása Word dokumentumba az Aspose.Words segítségével](./add-content-control-in-word-document-with-aspose-words/)
 Tanulja meg, hogyan adhat hozzá tartalomvezérlőket Word dokumentumokhoz az Aspose.Words Java használatával.
-
 ### [Üres dokumentum létrehozása interaktív parancsgombbal Word-ben Java-val](./create-blank-document-with-an-interactive-command-button-in/)
 Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív parancsgombot tartalmaz Java-val.
 ### [Üres Word dokumentum létrehozása szövegvezérlővel](./how-to-create-a-blank-word-document-with-a-text-control/)
@@ -127,11 +124,15 @@ Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot szövegvezérlő hozz
 Tanuld meg, hogyan hozhatsz létre Word dokumentumot kóddal az Aspose.Words használatával.
 ### [Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel](./create-word-document-with-a-plain-text-content-control/)
 Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel.
-
 ### [Üres Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./create-blank-word-document-in-java-with-aspose-words/)
 Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot Java-ban az Aspose.Words könyvtár segítségével.
 ### [Üres Word dokumentum létrehozása az Aspose.Words for Java segítségével](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Tanulja meg, hogyan hozhat létre üres Word dokumentumot az Aspose.Words for Java használatával.
+### [Üres Word dokumentum létrehozása egyszerű szöveges tartalomvezérlővel C#-ban](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot egyszerű szöveges tartalomvezérlővel C#-ban az Aspose.Words segítségével.
+
+### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása C#-ban](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és adhat hozzá ActiveX gombot C#-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

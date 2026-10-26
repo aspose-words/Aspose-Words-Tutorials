@@ -71,7 +71,6 @@ További információkért tekintsd meg az [Aspose.Words for Java API Documentat
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words for Java‑val. Tanuld meg, hogyan manipulálj és jeleníts meg Office Math objektumokat könnyedén.
 
-
 ### [DOCX mentése TXT‑ként – Teljes útmutató](./how-to-save-docx-as-txt-complete-guide/)
 Tanulja meg, hogyan menthet DOCX fájlokat TXT formátumba, megőrizve a szöveget és a formázást, lépésről‑lépésre útmutatóval.
 
@@ -115,7 +114,7 @@ Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba Java‑val az
 Tanuld meg, hogyan hozhatsz létre markdownot a dokumentumból, és exportálhatod, mentheted a képeket az Aspose.Words for Java‑val.
 
 ### [Hogyan exportáljunk LaTeX-et DOCX‑ből – Word‑t TXT‑be konvertálási útmutató](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat LaTeX formátumba, majd exportáld őket TXT‑ként az Aspose.Words for Java‑val.
+Tanulja meg, hogyan konvertálj DOCX fájlokat LaTeX formátumba, majd exportáld őket TXT‑ként az Aspose.Words for Java‑val.
 
 ### [PDF UA létrehozása Java‑ban – Teljes útmutató](./create-pdf-ua-in-java-complete-guide/)
 Tanulja meg, hogyan hozhatsz létre PDF/UA (PDF Universal Accessibility) dokumentumokat Java‑ban az Aspose.Words segítségével, lépésről‑lépésre.
@@ -140,8 +139,8 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat markdown formátumba Java‑va
 ### [DOCX mentése markdownként Java‑val – Teljes lépésről‑lépésre útmutató](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan menthet DOCX fájlokat markdownként Java‑val, részletes, teljes körű útmutatóval az Aspose.Words használatával.
 ### [DOCX mentése markdownként – Teljes C# útmutató](./save-docx-as-markdown-complete-c-guide/)
-Tanuld meg, hogyan mentheted a DOCX fájlokat markdown formátumba C#‑ban az Aspose.Words segítségével.
-### [Word mentése markdownként – Matematikai egyenletek exportálása LaTeX-be Java-val](./save-word-as-markdown-export-math-to-latex-with-java/)
+Tanulja meg, hogyan mentheted a DOCX fájlokat markdown formátumba C#‑ban az Aspose.Words segítségével.
+### [Word mentése markdownként – Matematikai egyenletek exportálása LaTeX‑be Java-val](./save-word-as-markdown-export-math-to-latex-with-java/)
 Tanulja meg, hogyan menthet Word dokumentumot markdown formátumba, miközben a beágyazott matematikai egyenleteket LaTeX kóddá exportálja Java-val.
 ### [DOCX exportálása Markdownba – Teljes Java útmutató](./export-docx-as-markdown-complete-java-guide/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre.
@@ -162,7 +161,6 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑va
 ### [Hogyan konvertáljunk DOCX‑t markdownra az Aspose.Words segítségével](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba az Aspose.Words for Java segítségével.
 
-
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
 
@@ -171,7 +169,7 @@ Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként Java‑val az Aspose.W
 ### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként az Aspose.Words Java API‑val lépésről‑lépésre.
 
-### [PDF/UA kompatibilis fájl létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+### [PDF/UA kompatibilis fájl létrehozása Java‑ban – Teljes Aspose.Words útmutató](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 ### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Lépésről‑lépésre útmutató a Word dokumentumok PDF‑be konvertálásához az Aspose.Words for Java használatával.
 
@@ -184,13 +182,13 @@ Tanuld meg, hogyan ágyazz be képeket base64 kódolással a DOCX‑ből Markdow
 Tanuld meg, hogyan konvertálj DOCX fájlokat LaTeX formátumba Java‑val az Aspose.Words segítségével.
 
 ### [DOCX mentése PDF‑ként Aspose.Words for Java‑val – Teljes Java útmutató](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat PDF‑re az Aspose.Words for Java segítségével lépésről‑lépésre útmutatóban.
+Tanulja meg, hogyan konvertálj DOCX fájlokat PDF‑re az Aspose.Words for Java segítségével lépésről‑lépésre útmutatóban.
 
 ### [Hogyan exportáljunk Markdown-et Word‑ből – Teljes Java útmutató](./how-to-export-markdown-from-word-using-java-complete-guide/)
-Tanuld meg, hogyan konvertálj Word‑dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével lépésről‑lépésre.
+Tanulja meg, hogyan konvertálj Word‑dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével lépésről‑lépésre.
 
 ### [Hozzáférhető PDF generálása Word-ből az Aspose.Words for Java‑val](./generate-accessible-pdf-from-word-with-aspose-java/)
-Tanuld meg, hogyan hozhatsz létre hozzáférhető PDF-et Word dokumentumokból az Aspose.Words for Java használatával.
+Tanulja meg, hogyan hozhatsz létre hozzáférhető PDF-et Word dokumentumokból az Aspose.Words for Java használatával.
 ### [DOCX mentése PDF‑ként Java‑val – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF‑re Java‑val egy részletes, könnyen követhető útmutató segítségével.
 
@@ -200,7 +198,7 @@ Tanulja meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba J
 ### [Akadálymentes PDF létrehozása Word‑ből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre hozzáférhető PDF dokumentumot Word fájlból az Aspose.Words for Java segítségével.
 ### [DOCX mentése TXT‑ként – Gyors C# útmutató LaTeX matematikai exporttal](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
-Tanuld meg, hogyan mentheted a DOCX fájlokat egyszerű szövegként (TXT), miközben a LaTeX matematikai képleteket is exportálod C#‑ban.
+Tanulja meg, hogyan mentheted a DOCX fájlokat egyszerű szövegként (TXT), miközben a LaTeX matematikai képleteket is exportálod C#‑ban.
 
 ### [How to Embed Images When Converting Word to Markdown – Complete Guide](./how-to-embed-images-when-converting-word-to-markdown-complet/)
 Tanuld meg, hogyan ágyazz be képeket a Word dokumentumok Markdown‑ba konvertálása során, lépésről‑lépésre útmutatóval.
@@ -228,12 +226,12 @@ Tanuld meg, hogyan exportálj Word dokumentumot Markdown formátumba Java‑ban 
 Ismerje meg, hogyan hozhat létre PDF/UA dokumentumot Java‑ban a DOCX fájl PDF‑re konvertálásával.
 
 ### [DOCX konvertálása markdownra – Teljes Java útmutató az Aspose.Words segítségével](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba Java‑ban az Aspose.Words használatával, lépésről‑lépésre.
+Tanulja meg, hogyan konvertálj DOCX fájlokat markdown formátumba Java‑ban az Aspose.Words használatával, lépésről‑lépésre.
 
 ### [Save docx as markdown with Java – Full Guide](./save-docx-as-markdown-with-java-full-guide/)
 
 ### [DOCX mentése TXT‑ként – Teljes C# útmutató matematikai exporttal](./save-docx-as-txt-complete-c-guide-with-math-export/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat TXT formátumba C#-ban, beleértve a matematikai egyenletek exportálását.
+Tanulja meg, hogyan konvertálj DOCX fájlokat TXT formátumba C#-ban, beleértve a matematikai egyenletek exportálását.
 
 ### [PDF mentési beállítások: DOCX konvertálása PDF‑re alakzatcímkékkel](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
 Ismerje meg, hogyan használhatja a Shape Tags funkciót a DOCX PDF‑re konvertálásakor a mentési beállításokban.
@@ -296,10 +294,10 @@ Tanuld meg, hogyan konvertálj DOCX fájlokat LaTeX vagy Markdown formátumba C#
 Tanuld meg, hogyan exportálj DOCX fájlokat Markdown formátumba C#‑ban, lépésről‑lépésre útmutatóval.
 
 ### [DOCX mentése TXT‑ként – Teljes C# útmutató](./save-docx-as-txt-full-c-guide/)
-Tanuld meg, hogyan mentheted a DOCX fájlokat egyszerű szöveges TXT formátumba C#‑ban az Aspose.Words segítségével.
+Tanulja meg, hogyan mentheted a DOCX fájlokat egyszerű szöveges TXT formátumba C#‑ban az Aspose.Words segítségével.
 
 ### [Dokumentum mentése PDF‑ként Java‑val – Teljes Aspose útmutató](./save-document-as-pdf-with-java-complete-aspose-guide/)
-Tanuld meg, hogyan mentheted el a dokumentumot PDF formátumba Java‑ban az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
+Tanulja meg, hogyan mentheted el a dokumentumot PDF formátumba Java‑ban az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
 
 ### [Word képek mentése – DOCX konvertálása Markdown-be Java-val](./save-word-images-convert-docx-to-markdown-with-java/)
 Tanuld meg, hogyan mentheted el a Word dokumentum képeit, és konvertálhatod a DOCX-et Markdown formátumba Java használatával.
@@ -347,6 +345,10 @@ Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba Java‑val
 
 ### [Hogyan mentse a Markdown‑t DOCX‑ként az Aspose.Words for Java használatával](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
 Tanulja meg, hogyan konvertálja a Markdown fájlokat DOCX formátumba Java‑val az Aspose.Words segítségével.
+
+### [How to Export LaTeX from DOCX – Convert Word to Markdown with C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+
+### [Hogyan mentse a dokumentumot docx formátumban egy Markdown fájlból Java‑ban](./how-to-save-document-as-docx-from-a-markdown-file-in-java/)
 
 ## Gyakran Ismételt Kérdések
 

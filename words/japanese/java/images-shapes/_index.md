@@ -64,20 +64,17 @@ JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的
 ### [JavaでWordのグループ シェイプ – 完全ステップバイステップガイド](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Javaを使用してWord文書内で複数のシェイプをグループ化し、操作する方法をステップバイステップで解説します。
 
-### [JavaでWord文書を作成 – 影効果付きシェイプを追加](./create-word-document-java-add-shape-with-shadow-effect/)
+### [Aspose.Words を使用してグループ シェイプ内に楕円形と長方形シェイプを挿入する方法](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+Aspose.Words を使用して、グループ シェイプ内に楕円形と長方形シェイプを挿入する手順を解説します。
+
+### [JavaでWord文書を作成 – 影付き長方形シェイプを追加](./create-word-document-java-add-rectangle-shape-with-shadow-effect/)
 JavaでWord文書に影効果付きシェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
-### [JavaでAspose.Wordsを使用して長方形シェイプを作成する – 完全ガイド](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
-Aspose.Words for Java を活用し、長方形シェイプの作成とカスタマイズ手順を詳しく解説します。
+### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
+JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
 
-### [Javaでグループシェイプを挿入する方法 – 完全ガイド](./how-to-insert-group-shape-in-java-complete-guide/)
-Javaでグループシェイプを文書に挿入し、カスタマイズする手順を完全に解説します。
-
-### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
-C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
-
-### [Javaで長方形シェイプを挿入 – シェイプのグループ化と位置設定](./insert-rectangle-shape-in-java-group-and-position-shapes/)
-Javaで長方形シェイプを挿入し、複数のシェイプをグループ化して位置を調整する方法を学びます。
+### [Javaでグループ化シェイプを使用して空白のWord文書を作成](./create-blank-word-document-with-grouped-shapes-in-java/)
+Javaで複数のシェイプをグループ化し、空白のWord文書に挿入する方法を学びます。
 
 ### [Word に画像を挿入 – Aspose.Words ステップバイステップ ガイド](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aspose.Words for Java を使用して、Word 文書に画像を挿入する方法をステップバイステップで学びます。
@@ -146,6 +143,8 @@ Javaで複数のシェイプをグループ化し、空白のWord文書に挿入
 JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
 ### [グループ化された図形を使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-grouped-shapes/)
 グループ化された図形を含む空の Word 文書を作成し、レイアウトを簡単に管理する手順を解説します。
+
+### [空白のWord文書を作成し、矩形シェイプを追加する](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ## 追加リソース
 

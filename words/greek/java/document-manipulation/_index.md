@@ -86,6 +86,8 @@
 Μάθετε πώς να δημιουργείτε και να προσαρμόζετε Πίνακα Περιεχομένων (TOC) χρησιμοποιώντας το Aspose.Words για Java. Δημιουργήστε οργανωμένα και επαγγελματικά έγγραφα χωρίς κόπο.
 ### [Δημιουργία κουμπιού ActiveX σε docx με Java – πλήρης προγραμματιστικός οδηγός](./create-docx-activex-button-in-java-complete-programming-guid/)
 Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα docx χρησιμοποιώντας Java.
+### [Δημιουργία κενής Word εγγράφου και προσθήκη κουμπιού ActiveX σε C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Μάθετε πώς να δημιουργήσετε κενό έγγραφο Word και να ενσωματώσετε κουμπί ActiveX χρησιμοποιώντας C# και Aspose.Words.
 ### [Προσθήκη ελέγχου περιεχομένου σε έγγραφο Word με Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Δημιουργία κενής εγγράφου με διαδραστικό κουμπί εντολής στο Word με Java](./create-blank-document-with-an-interactive-command-button-in/)
@@ -131,6 +133,8 @@
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει έναν έλεγχο απλού κειμένου χρησιμοποιώντας το Aspose.Words για Java.
 ### [Πώς να δημιουργήσετε κενό έγγραφο Word με Aspose.Words για Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία κενής Word εγγράφου με έλεγχο απλού κειμένου σε C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με έλεγχο απλού κειμένου χρησιμοποιώντας C# και Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

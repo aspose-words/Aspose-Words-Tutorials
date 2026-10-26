@@ -102,6 +102,10 @@ Aspose.Words를 사용하여 Word 문서에서 도형을 그룹화하는 방법�
 Aspose.Words for C#에서 도형의 숨김 속성을 설정하는 방법을 알아보세요.
 ### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하기](./create-blank-word-document-and-group-shapes-in-java/)
 
+### [빈 Word 문서를 만들고 사각형 도형을 추가하기](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+빈 Word 문서에 사각형 도형을 삽입하고 설정하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 그룹 모양 docx를 만들고 인터랙티브 컨트롤을 추가하는 방법](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 C#와 Aspose.Words를 사용해 그룹 모양을 만들고 문서에 인터랙티브 컨트롤을 삽입하는 방법을 단계별로 안내합니다.
 ### [Java로 Word에 사각형 모양 만들기 – 전체 가이드](./create-rectangle-shape-in-word-with-java-full-guide/)
@@ -148,32 +152,23 @@ Java를 사용해 Word 문서에서 도형을 숨기고 채우기 색상을 설�
 ### [그룹화된 도형으로 빈 Word 문서 만들기](./how-to-create-blank-word-document-with-grouped-shapes/)
 Aspose.Words for Java를 사용해 그룹화된 도형이 포함된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
-## 추가 자료
-
-### [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
-숨겨진 타원형 모양이 포함된 빈 Word 문서를 만드는 방법을 안내합니다.
-
-### [빈 Word 문서를 만들고 도형을 추가하는 방법](./how-to-create-blank-document-and-add-shapes-to-word/)
-빈 Word 문서를 만들고 도형을 추가하는 방법을 단계별로 안내합니다.
-
-### [Java에서 파이 차트가 포함된 Word 문서 만들기](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
-Java와 Aspose.Words를 사용하여 파이 차트가 포함된 Word 문서를 생성하는 방법을 단계별로 안내합니다.
-
-### [Java에서 프로그래밍 방식으로 워드 문서를 생성하고 도형을 그룹화하기](./create-word-document-programmatically-group-shapes-in-java/)
-Java에서 프로그래밍 방식으로 워드 문서를 만들고 도형을 그룹화하는 방법을 안내합니다.
-
-### [C#에서 빈 Word 문서를 만들고 숨겨진 타원 도형을 추가하는 방법](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
-C#를 사용하여 빈 Word 문서를 생성하고 숨겨진 타원 도형을 삽입하는 단계별 가이드.
+### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
 ### [Java로 Word 문서에 도넛 차트 만들기](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
-Java를 사용해 Word 문서에 도넛 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+Java와 Aspose.Words를 사용해 Word 문서에 도넛 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
+
 ### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 도형을 그룹화하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words를 사용하여 그룹 도형 안에 타원 및 사각형 도형 삽입하는 방법](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+그룹 도형에 타원과 사각형을 추가하는 단계별 가이드
+
 ## 추가 자료
+
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java API 참조를 위한 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java용 Aspose.Words 다운로드](https://releases.aspose.com/words/java/)

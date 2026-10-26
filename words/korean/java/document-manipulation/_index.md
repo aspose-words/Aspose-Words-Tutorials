@@ -80,6 +80,7 @@ Aspose.Words for Java를 사용하여 문서 처리를 최적화하세요. 이 �
 Aspose.Words for Java에서 문서 범위 조작을 마스터하세요. 이 종합 가이드를 통해 텍스트를 삭제, 추출, 서식 지정하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 docx ActiveX 버튼 만들기 – 완전 프로그래밍 가이드](./create-docx-activex-button-in-java-complete-programming-guid/)
 Java와 Aspose.Words를 사용해 docx 파일에 ActiveX 버튼을 삽입하고 동작하도록 구현하는 전체 가이드입니다.
+### [C#용 빈 Word 문서를 만들고 ActiveX 버튼 추가](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 ### [Java용 Aspose.Words에서 구조화된 문서 태그(SDT) 사용](./using-structured-document-tags/)
 이 포괄적인 가이드를 통해 Aspose.Words for Java에서 구조화된 문서 태그(SDT)를 사용하는 방법을 알아보세요. SDT를 생성, 수정하고 사용자 지정 XML 데이터에 바인딩하는 방법을 알아보세요.
 ### [Aspose.Words for Java에서 스타일 및 테마 사용](./using-styles-and-themes/)
@@ -128,6 +129,7 @@ Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하�
 ### [Java용 Aspose.Words에서 빈 워드 문서 만들기](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java를 사용해 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
 ### [C#용 Aspose.Words에서 태그 이름 설정 및 SDT 추가](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+### [C#에서 일반 텍스트 콘텐츠 컨트롤이 있는 빈 Word 문서 만들기](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

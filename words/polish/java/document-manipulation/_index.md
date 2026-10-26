@@ -58,9 +58,10 @@ Rozpocznij swoją przygodę z nauką już dziś i odkryj nieograniczone możliwo
 ## Samouczki dotyczące manipulacji dokumentami
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Jak utworzyć pusty dokument Word z kontrolką zawartości tekstu zwykłego w C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [Korzystanie z opcji czyszczenia w Aspose.Words dla Java](./using-cleanup-options/)
-Zwiększ przejrzystość dokumentu dzięki opcjom czyszczenia Aspose.Words for Java. Dowiedz się, jak usuwać puste akapity, nieużywane obszary i inne.
+Zwiększ przejrzystość dokumentu dzięki opcjom czyszczenia Aspose.Words dla Java. Dowiedz się, jak usuwać puste akapity, nieużywane obszary i inne.
 
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
 Odblokuj automatyzację dokumentów dzięki Aspose.Words dla Java. Dowiedz się, jak scalać, formatować i wstawiać obrazy do dokumentów Java. Kompleksowy przewodnik i przykłady kodu do wydajnego przetwarzania dokumentów.
@@ -92,7 +93,7 @@ Dowiedz się, jak utworzyć nowy dokument Word i dodać do niego znacznik strukt
 Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words for Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
 
 ### [Generowanie spisu treści w Aspose.Words dla Java](./generating-table-of-contents/)
-Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words dla Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
+Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words for Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
 
 ### [Ochrona dokumentów w Aspose.Words dla Java](./protecting-documents/)
 Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for Java. Chroń swoje dane hasłem i nie tylko.
@@ -119,19 +120,20 @@ Dowiedz się, jak porównywać dokumenty w Aspose.Words for Java, potężnej bib
 Poznaj sztukę formatowania dokumentów w Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi. Poznaj potężne funkcje i popraw swoje umiejętności przetwarzania dokumentów.
 
 ### [Dołączanie i dołączanie dokumentów w Aspose.Words dla Java](./joining-and-appending-documents/)
-Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspose.Words for Java. Zachowaj formatowanie, zarządzaj nagłówkami, stopkami i nie tylko.
+Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspose.Words dla Java. Zachowaj formatowanie, zarządzaj nagłówkami, stopkami i nie tylko.
 
 ### [Korzystanie z opcji i ustawień dokumentu w Aspose.Words dla Java](./using-document-options-and-settings/)
 Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla bezproblemowego zarządzania dokumentami. Optymalizacja, dostosowywanie i więcej.
 
 ### [Korzystanie z właściwości dokumentu w Aspose.Words dla Java](./using-document-properties/)
-Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
+Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words for Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
 
 ### [Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java](./using-web-extensions/)
 ### [Tagowanie dostępności PDF w Javie – generowanie dostępnych PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
 ### [Utworzenie przycisku ActiveX w pliku docx w Javie – kompletny przewodnik programistyczny](./create-docx-activex-button-in-java-complete-programming-guid/)
 Krok po kroku pokażemy, jak dodać przycisk ActiveX do dokumentu DOCX w Javie, wraz z pełnym kodem i wyjaśnieniami.
+### [Utwórz pusty dokument Word i dodaj przycisk ActiveX w C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 ### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
 ### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
@@ -146,7 +148,6 @@ Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Word
 ### [Jak utworzyć pusty dokument Word przy użyciu Aspose.Words dla Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Dowiedz się, jak szybko utworzyć pusty dokument Word przy pomocy Aspose.Words for Java.
 ### [Jak ustawić nazwę tagu i dodać SDT w dokumencie Word przy użyciu C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
-Ustaw nazwę tagu i dodaj strukturalny znacznik dokumentu (SDT) w Wordzie przy użyciu C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

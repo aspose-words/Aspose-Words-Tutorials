@@ -62,6 +62,11 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 学习如何使用 Aspose.Words 在 Word 文档中添加和管理内容控件。
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [如何在 C# 中创建带纯文本内容控件的空白 Word 文档](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
+### [在 C# 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+展示如何在 C# 使用 Aspose.Words 创建空白 Word 文档并嵌入 ActiveX 按钮。
+
 ### [在 Aspose.Words for Java 中创建空白 Word 文档](./create-blank-word-document-in-java-with-aspose-words/)
 学习如何使用 Aspose.Words for Java 在 Java 中快速创建空白的 Word 文档。
 

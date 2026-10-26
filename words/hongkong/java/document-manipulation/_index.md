@@ -149,6 +149,11 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 了解如何使用 Aspose.Words for Java 快速建立空白的 Word 文件。
 ### [在 Aspose.Words for Java 中使用 C# 設定標籤名稱並新增 SDT](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 使用 C# 在 Word 文件中設定標籤名稱並新增結構化文件標籤 (SDT)。 
+### [在 C# 中使用純文字內容控制建立空白 Word 文件](./how-to-create-blank-word-document-with-a-plain-text-content/)
+示範如何在 C# 中使用純文字內容控制建立空白的 Word 文件。
+
+### [在 C# 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+示範如何在 C# 使用 Aspose.Words 建立空白 Word 文件，並添加可點擊的 ActiveX 按鈕。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
