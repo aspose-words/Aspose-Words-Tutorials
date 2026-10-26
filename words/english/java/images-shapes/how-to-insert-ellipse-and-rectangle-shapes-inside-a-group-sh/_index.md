@@ -31,7 +31,7 @@ tags:
 - Aspose.Words
 - C#
 - Word automation
-title: How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words
+title: How to create and insert ellipse and rectangle shapes inside a group shape with Aspose.Words
 url: /java/images-shapes/how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/
 ---
 
@@ -39,7 +39,7 @@ url: /java/images-shapes/how-to-insert-ellipse-and-rectangle-shapes-inside-a-gro
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words
+# How to create and insert ellipse and rectangle shapes inside a group shape with Aspose.Words
 
 If you need to know **how to insert ellipse** in a Word document programmatically, this guide shows the complete process. You will also see **how to add rectangle** shape, learn to **move cursor to shape**, and discover **how to create group shape** that holds multiple drawing objects.
 
@@ -166,17 +166,16 @@ You now understand **how to insert ellipse** and **how to add rectangle** shape 
 
 Ready to explore more? Try combining this technique with **how to create group shape** for complex diagrams, or experiment with **insert rectangle shape word** alongside text boxes for rich report generation. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to create rectangle shape and group shapes in Word with Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
-- [How to create blank Word document and add a hidden ellipse shape in C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
-- [How to create group shape docx and add interactive controls in C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
+- [How to create rectangle shape and group shapes in Word with Aspose.Words]({{< relref "words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/_index.md" >}})
+- [How to create blank Word document and add a hidden ellipse shape in C#]({{< relref "words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/_index.md" >}})
+- [How to create group shape docx and add interactive controls in C#]({{< relref "words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

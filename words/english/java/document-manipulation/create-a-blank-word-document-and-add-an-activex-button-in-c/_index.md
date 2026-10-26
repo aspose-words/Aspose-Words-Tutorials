@@ -45,7 +45,7 @@ tags:
 - Aspose.Words
 - C#
 - ActiveX
-title: Create a blank Word document and add an ActiveX button in C#
+title: Create a blank Word document and add an ActiveX button in C# using Aspose.Words
 url: /java/document-manipulation/create-a-blank-word-document-and-add-an-activex-button-in-c/
 ---
 
@@ -212,13 +212,11 @@ You now know how to **create blank Word document** programmatically and embed an
 4. Configure the control’s properties (**create activex control**).
 5. Save the file, yielding a **word document activex button** ready for VBA integration.
 
-From here you can explore adding other control types, wiring VBA macros, or converting the document to PDF while preserving the button (as a static image). Experiment with different sizes, captions, and names
+From here you can explore adding other control types, wiring VBA macros, or converting the document to PDF while preserving the button (as a static image). Experiment with different sizes, captions, and names.
 
+## What should you learn next?
 
-## What Should You Learn Next?
-
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to add ActiveX button in a Word document with Aspose.Words](/words/english/net/working-with-oleobjects-and-activex/how-to-add-activex-button-in-a-word-document-with-aspose-wor/)
 - [Create Word Document with ActiveX Button – C# Guide](/words/english/net/working-with-oleobjects-and-activex/create-word-document-with-activex-button-c-guide/)
@@ -227,3 +225,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

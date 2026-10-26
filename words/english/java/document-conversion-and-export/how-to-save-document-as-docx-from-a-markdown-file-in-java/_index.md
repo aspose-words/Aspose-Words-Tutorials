@@ -33,7 +33,7 @@ tags:
 - Java
 - Markdown
 - DOCX
-title: How to save document as docx from a Markdown file in Java
+title: How to save a document as DOCX from a Markdown file in Java using GroupDocs.Conversion
 url: /java/document-conversion-and-export/how-to-save-document-as-docx-from-a-markdown-file-in-java/
 ---
 
@@ -41,7 +41,7 @@ url: /java/document-conversion-and-export/how-to-save-document-as-docx-from-a-ma
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to save document as docx from a Markdown file in Java
+# How to save a document as DOCX from a Markdown file in Java using GroupDocs.Conversion
 
 If you need to **save document as docx** from a Markdown source, this guide shows you a reliable way to perform the conversion in Java. You’ll see how to convert markdown to docx, understand the required settings, and get a ready‑to‑run code sample.
 
@@ -204,15 +204,13 @@ Next, explore related topics such as **convert markdown to PDF**, **batch markdo
 
 Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to save Markdown as DOCX using Java – complete guide](/words/english/java/document-converting/how-to-save-markdown-as-docx-using-java-complete-guide/)
-- [How to save Markdown as DOCX using Aspose.Words for Java](/words/english/java/document-conversion-and-export/how-to-save-markdown-as-docx-using-aspose-words-for-java/)
-- [How to convert docx to markdown using Aspose.Words for Java](/words/english/java/document-converting/how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+- [How to save Markdown as DOCX using Java – complete guide](words/english/java/document-converting/how-to-save-markdown-as-docx-using-java-complete-guide/)
+- [How to save Markdown as DOCX using Aspose.Words for Java](words/english/java/document-conversion-and-export/how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+- [How to convert docx to markdown using Aspose.Words for Java](words/english/java/document-converting/how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

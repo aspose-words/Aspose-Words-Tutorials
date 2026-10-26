@@ -1,5 +1,5 @@
 ---
-title: Document Manipulation
+title: Manipulate Documents with Aspose.Words for Java
 linktitle: Document Manipulation
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
@@ -20,13 +20,13 @@ url: /java/document-manipulation/
 
 Are you looking to master the art of document manipulation in Java? Look no further! In this article, we will guide you through the world of Aspose.Words for Java tutorials, equipping you with the knowledge and skills needed to excel in document processing.
 
-## Why Choose Aspose.Words for Java?
+## Why choose Aspose.Words for java?
 
 Before we dive into the tutorials, let's understand why Aspose.Words for Java stands out as the go-to solution for document manipulation.
 
 Aspose.Words for Java is a powerful and versatile API that allows developers to create, edit, convert, and manipulate documents in various formats, including DOCX, PDF, HTML, and more. It's a game-changer for businesses and developers seeking to automate document-related tasks.
 
-## Getting Started with Aspose.Words Tutorials
+## Getting started with Aspose.Words tutorials
 
 ### Installation and Setup
 
@@ -36,15 +36,23 @@ The first step on your journey to becoming a document manipulation pro is settin
 
 Once you have Aspose.Words installed, it's time to start creating and modifying documents. Learn how to generate new documents, add content, format text, and manipulate document structure effortlessly.
 
+```java
+// Example: Create a new document and add a paragraph
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.writeln("Hello, Aspose.Words for Java!");
+doc.save("HelloWorld.docx");
+```
+
 ### Converting Documents
 
 Need to convert documents between different formats? Aspose.Words for Java has you covered. Discover how to convert DOCX to PDF, HTML to DOCX, and many more conversion tricks in this tutorial.
 
-## Enhancing Your Document Manipulation Skills
+## Enhancing your document manipulation skills
 
 At this point, you've mastered the basics of Aspose.Words for Java. But there's so much more to explore! 
 
-### Advanced Document Features
+### Advanced document features
 
 Delve into advanced topics like working with headers and footers, inserting tables, handling images, and managing document properties. These skills will elevate your document manipulation capabilities to the next level.
 
@@ -56,7 +64,7 @@ Document manipulation using Aspose.Words for Java is a valuable skill for develo
 
 Start your learning journey today and unlock the endless possibilities of document manipulation with Aspose.Words for Java.
 
-## Document Manipulation Tutorials
+## Document manipulation tutorials
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
@@ -115,7 +123,7 @@ Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step 
 Learn how to create a blank Word document with an interactive command button using Aspose.Words for Java.
 ### [Comparing Documents in Aspose.Words for Java](./comparing-documents/)
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
-### [Create New Word Document – Step‑by‑Step Guide to Adding a Structured Tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+### [Create new word document – step‑by‑Step guide to adding a structured tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Learn how to create a new Word document and add a Structured Document Tag (SDT) using Aspose.Words for Java with clear code examples.
 ### [Formatting Documents in Aspose.Words for Java](./formatting-documents/)
 Learn the art of formatting documents in Aspose.Words for Java with our comprehensive guide. Explore powerful features and enhance your document processing skills.
@@ -139,10 +147,8 @@ Create a blank Word document using Aspose.Words for Java. Simple step-by-step gu
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

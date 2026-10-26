@@ -28,7 +28,7 @@ tags:
 - Aspose.Words
 - .NET
 - Word automation
-title: Create a blank Word document and add a rectangle shape
+title: Create a blank Word document and add a rectangle shape with Aspose.Words
 url: /java/images-shapes/create-a-blank-word-document-and-add-a-rectangle-shape/
 ---
 
@@ -189,9 +189,7 @@ Next steps you might explore:
 
 Happy coding, and feel free to experiment with other shape types and visibility options to fit your document automation needs!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -201,5 +199,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
