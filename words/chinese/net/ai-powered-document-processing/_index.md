@@ -103,6 +103,8 @@
 | [在 C# 中使用 Aspose.Words AI 将字符串翻译成西班牙语](./translate-string-to-spanish-in-c-with-aspose-words-ai/) 使用 Aspose.Words AI 在 C# 中将文本翻译为西班牙语，提供完整步骤和示例。|
 | [将段落翻译成法语并更改 Word 中的图表标签](./translate-paragraph-to-french-and-change-chart-label-in-word/) 使用 Aspose.Words for .NET 将段落翻译为法语并修改图表标签，实现多语言文档编辑。|
 | [在 C# 中将 docx 翻译为法语 – 步骤指南](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) 使用 Aspose.Words for .NET 在 C# 中将 docx 文档翻译为法语的完整步骤指南。|
+| [如何在 C# 中保存使用 Google AI 翻译的 Word 文档](./how-to-save-translated-word-document-in-c-with-google-ai/) 使用 Aspose.Words for .NET 与 Google AI 在 C# 中保存已翻译的 Word 文档的完整步骤指南。|
+| [如何在 C# 中使用 OpenAI 汇总 Word 文档](./how-to-summarize-word-document-with-openai-in-c/) 使用 Aspose.Words for .NET 与 OpenAI 在 C# 中实现 Word 文档自动摘要的完整指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,7 +34,6 @@ Estes tutoriais oferecem uma abordagem prática e passo a passo para o processam
 | [Como inserir botão de comando OLE em um documento Word usando C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Aprenda a inserir um botão de comando OLE em documentos do Word usando o Aspose.Words para .NET com C#. |
 | [Como adicionar um botão de comando programaticamente em um documento Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Aprenda a inserir programaticamente um botão de comando em documentos Word usando Aspose.Words para .NET. |
 | [Criar documento Word programaticamente e adicionar botão ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Aprenda a criar um documento Word via código e inserir um botão ActiveX usando Aspose.Words para .NET. |
-
 | [Adicionar botão de comando a documento Word com Aspose.Words – Guia completo](./add-command-button-to-word-document-with-aspose-words-comple/) | Aprenda a inserir um botão de comando em documentos do Word usando o Aspose.Words para .NET neste guia completo passo a passo. |
 | [Como adicionar controle ActiveX no Word com Aspose.Words – guia passo a passo](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aprenda a inserir controles ActiveX em documentos do Word usando Aspose.Words para .NET com este guia detalhado passo a passo. |
 | [Como adicionar botão ActiveX em um documento Word com Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aprenda a inserir um botão ActiveX em documentos Word usando Aspose.Words para .NET. |
@@ -43,6 +42,7 @@ Estes tutoriais oferecem uma abordagem prática e passo a passo para o processam
 | [Como criar documento Word com um botão de comando ActiveX em C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Aprenda a criar um documento Word contendo um botão de comando ActiveX usando C# e Aspose.Words para .NET. |
 | [Como criar botão de envio em automação Word com C#](./how-to-create-submit-button-in-c-word-automation/) | Aprenda a criar um botão de envio em documentos Word usando automação C# com Aspose.Words. |
 | [Criar documento em branco, adicionar controle ActiveX com resumo de IA](./create-blank-document-add-activex-control-with-ai-summary/) | Aprenda a criar um documento em branco e inserir um controle ActiveX com resumo gerado por IA usando Aspose.Words para .NET. |
+| [Como criar documento Word C# com um botão de comando ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Aprenda a criar um documento Word contendo um botão de comando ActiveX usando C# e Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,10 +39,10 @@ Aspose.Words for .NET 教學中關於使用 OLE 和 ActiveX 物件進行文字�
 | [以程式方式建立 Word 文件並新增 ActiveX 按鈕](./create-word-document-programmatically-and-add-activex-button/) |透過本教學了解如何使用 Aspose.Words for .NET 程式化建立 Word 文件，並在其中加入 ActiveX 按鈕。 |
 | [如何在 C# 中建立含 ActiveX 命令按鈕的 Word 文件](./how-to-create-word-document-with-an-activex-command-button-i/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中建立包含 ActiveX 命令按鈕的 Word 文件。 |
 | [建立空白文件，新增帶 AI 摘要的 ActiveX 控制項](./create-blank-document-add-activex-control-with-ai-summary/) |使用 Aspose.Words for .NET 建立空白文件，並插入可透過 AI 產生摘要的 ActiveX 控制項。 |
-
 | [使用 Aspose.Words 建立 Word 文件按鈕 – 完整程式碼範例](./create-word-document-button-with-aspose-words-full-code-exam/) |透過完整範例了解如何使用 Aspose.Words 在 Word 文件中新增按鈕並設定其功能。 |
 | [在 Word 文件中使用 C# 插入 OLE 命令按鈕](./how-to-insert-ole-command-button-in-a-word-document-using-c/) |透過本指南學習如何使用 C# 在 Word 文件中插入 OLE 命令按鈕。 |
 | [在 C# Word 自動化中建立提交按鈕](./how-to-create-submit-button-in-c-word-automation/) |了解如何在 C# Word 自動化中建立提交按鈕。 |
+| [如何在 C# 中建立含 ActiveX 命令按鈕的 Word 文件](./how-to-create-word-document-c-with-an-activex-command-button/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中建立包含 ActiveX 命令按鈕的 Word 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

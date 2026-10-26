@@ -99,15 +99,8 @@
 | [كيفية استخدام المترجم لأتمتة ترجمة المستندات في C#](./how-to-use-translator-to-automate-document-translation-in-c/) | تعلم كيفية أتمتة ترجمة مستندات Word باستخدام Aspose.Words وC# ومترجم الذكاء الاصطناعي. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./how-to-translate-docx-to-french-with-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام الذكاء الاصطناعي وC# مع Aspose.Words. |
 | [إضافة ملخص إلى مستند Word باستخدام Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | تعلم كيفية إضافة ملخص إلى مستندات Word باستخدام Aspose.Words AI لتسريع إدارة المحتوى. |
-| [تلخيص مستند Word باستخدام C# – دليل Aspose.Words AI الكامل](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | دليل شامل لتلخيص مستند Word باستخدام C# و Aspose.Words AI. |
-| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | دليل شامل لترجمة مستندات docx إلى اللغة الفرنسية باستخدام تقنية Aspose.Words AI. |
-| [إنشاء مستند Word فارغ وترجمته إلى الفرنسية](./create-a-blank-word-document-and-translate-it-to-french/) | تعلم كيفية إنشاء مستند Word فارغ وترجمته إلى اللغة الفرنسية باستخدام Aspose.Words لـ .NET. |
-| [ترجمة نص إلى الإسبانية في C# باستخدام Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | دليل خطوة بخطوة لترجمة نصوص إلى اللغة الإسبانية باستخدام Aspose.Words AI في C#. |
-| [ترجمة فقرة إلى الفرنسية وتغيير تسمية المخطط في Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | تعلم كيفية ترجمة فقرة إلى الفرنسية وتعديل تسمية المخطط في مستند Word باستخدام Aspose.Words. |
-| [كيفية ترجمة ملف docx إلى الفرنسية في C# – دليل خطوة بخطوة](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | دليل خطوة بخطوة لترجمة ملفات docx إلى الفرنسية باستخدام C# و Aspose.Words. |
-
+| [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 

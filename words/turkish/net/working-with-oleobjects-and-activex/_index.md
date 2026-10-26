@@ -34,7 +34,7 @@ Bu eğitimler size Aspose.Words for .NET'te OLE ve ActiveX nesneleriyle Word İ�
 | [Aspose.Words ile Word'e ActiveX denetimi ekleme – adım adım kılavuz](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words kullanarak Word belgesine ActiveX denetimi eklemenin adım adım rehberi. |
 | [C# ile Word Belgesine OLE Komut Düğmesi Ekleme](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Aspose.Words for .NET kullanarak C# ile bir Word belgesine OLE komut düğmesi eklemeyi adım adım öğrenin. |
 | [C# ile ActiveX komut düğmesi içeren Word belgesi oluşturma](./how-to-create-word-document-with-an-activex-command-button-i/) | C# kullanarak ActiveX komut düğmesi içeren bir Word belgesi nasıl oluşturulur, adım adım öğrenin. |
-
+| [C# ile ActiveX komut düğmesi ekleyerek Word belgesi oluşturma](./how-to-create-word-document-c-with-an-activex-command-button/) | C# kullanarak bir Word belgesine ActiveX komut düğmesi eklemeyi adım adım öğrenin. |
 | [Aspose.Words ile Word belgesine ActiveX düğmesi ekleme](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words for .NET kullanarak Word belgesine ActiveX düğmesi eklemeyi adım adım öğrenin. |
 | [Word'e OleControlType.CommandButton Örneği Ekle](./insert-olecontroltype-commandbutton-example-in-word/) | Aspose.Words for .NET kullanarak Word belgesine OleControlType.CommandButton örneği eklemeyi adım adım öğrenin. |
 | [C# Kullanarak Word'de ActiveX Komut Düğmesi Oluşturma](./how-to-create-activex-command-button-in-word-using-c/) | Aspose.Words for .NET ile C# kullanarak Word belgesine ActiveX komut düğmesi eklemeyi adım adım öğrenin. |
