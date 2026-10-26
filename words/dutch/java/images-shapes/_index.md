@@ -28,6 +28,9 @@ In de wereld van documentverwerking is het integreren van afbeeldingen en vormen
 
 ## Beschikbare tutorials
 
+### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -107,13 +110,13 @@ Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.
 Leer hoe u een rechthoekvorm in een Word-document kunt maken en aanpassen met Aspose.Words voor Java.
 
 ### [Groep vormen in Word en een rechthoek toevoegen met Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Leer hoe u meerdere vormen groepeert en een rechthoek toevoegt in een Word-document met Aspose.Words voor Java.
+Leer hoe u meerdere vormen groept en een rechthoek toevoegt in een Word-document met Aspose.Words voor Java.
 
 ### [Hoe een vorm verbergen in Word met C# en Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Leer hoe u een vorm verbergt in een Word-document met C# en Aspose.Words.
 
 ### [Hoe een leeg Word-document te maken en vormen te groeperen in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voor Java.
+Leer hoe u een leeg Word-document maakt en vormen groept met Aspose.Words voor Java.
 
 ### [Nieuw Word-document maken met een verborgen afbeelding – stapsgewijze handleiding](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Leer hoe u een nieuw Word-document maakt en een verborgen afbeelding toevoegt met Aspose.Words voor Java.
@@ -142,9 +145,8 @@ Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Asp
 ### [Leeg Word-document maken met gegroepeerde vormen in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
 Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt met Aspose.Words voor Java.
 
-### [Aspose.Words ActiveX-tutorial – een CommandButton invoegen met Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-### [Leeg Word-document maken met gegroepeerde vormen](./how-to-create-blank-word-document-with-grouped-shapes/)
-Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.Words voor Java.
+### [Maak een leeg Word-document en voeg een rechthoekvorm toe](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+Leer hoe u een leeg Word-document maakt en een rechthoekvorm toevoegt met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 
@@ -158,7 +160,7 @@ Leer hoe u een Word-document maakt met een cirkeldiagram met behulp van Aspose.W
 Leer hoe u een leeg Word-document maakt en er vormen aan toevoegt met Aspose.Words voor Java.
 
 ### [Word-document programmatisch maken, vormen groeperen in Java](./create-word-document-programmatically-group-shapes-in-java/)
-Leer hoe u een Word-document maakt en vormen groepeert via code in Java.
+Leer hoe u een Word-document maakt en vormen groept via code in Java.
 
 ### [Hoe een leeg Word-document te maken en een verborgen ellipsvorm toe te voegen in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Leer hoe u een leeg Word-document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words in C#.
@@ -166,7 +168,7 @@ Leer hoe u een leeg Word-document maakt en een verborgen ellipsvorm toevoegt met
 ### [Hoe een donutgrafiek in een Word-document te maken met Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Leer hoe u een donutgrafiek toevoegt aan een Word-document met Java.
 ### [Hoe een leeg Word-document te maken en vormen te groeperen in Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voor Java.
+Leer hoe u een leeg Word-document maakt en vormen groept met Aspose.Words voor Java.
 
 ### [Maak een Word-document met een verborgen afbeelding in Java met Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Leer hoe u een verborgen afbeelding toevoegt aan een Word-document met Aspose.Words voor Java.

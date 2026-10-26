@@ -78,7 +78,7 @@
 | [Σύνοψη εγγράφου Word με Aspose.Words AI – Πλήρης Οδηγός](./summarize-word-document-with-aspose-words-ai-full-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI με πλήρη οδηγό βήμα προς βήμα. |
 | [Σύνοψη εγγράφων AI σε C# – πλήρης οδηγός](./ai-document-summarization-in-c-complete-guide/) | Οδηγός βήμα-βήμα για τη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
 | [Δημιουργία σύνοψης AI σε C# – οδηγός βήμα‑βήμα](./create-ai-summary-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αυτόματη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας το Aspose.Words. |
-| [Μετάφραση docx στα Γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε έγγραφα docx στα Γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
+| [Μετάφραση docx στα Γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα Γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
 | [Κλήση του OpenAI API από C# – Πλήρης Οδηγός για την Επανάληψη Παραγράφων Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Μάθετε πώς να καλέσετε το OpenAI API από C# για να επαναγράψετε παραγράφους σε έγγραφα Word. |
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word μέσω C#. |
 | [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με AI, βήμα‑βήμα. |
@@ -96,14 +96,14 @@
 | [Πώς να συνοψίσετε ένα έγγραφο Word με το Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word χρησιμοποιώντας το Aspose.Words AI σε C#. |
 | [Πώς να χρησιμοποιήσετε τον μεταφραστή για αυτοματοποίηση μετάφρασης εγγράφων σε C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Μάθετε πώς να αυτοματοποιήσετε τη μετάφραση εγγράφων Word σε C# χρησιμοποιώντας τον μεταφραστή του Aspose.Words. |
 | [Σύνοψη εγγράφου Word με AI σύνοψη εγγράφων](./summarize-word-document-with-ai-document-summarization/) | Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων Word χρησιμοποιώντας τεχνητή νοημοσύνη με το Aspose.Words. |
-| [Πώς να μεταφράσετε docx στα γαλλικά με AI σε C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας AI με C# και Aspose.Words. |
+| [Πώς να μεταφράσετε docx στα γαλλικά με AI σε C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας AI σε C# και Aspose.Words. |
 | [Προσθήκη περίληψης σε έγγραφο Word με Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | Μάθετε πώς να προσθέσετε αυτόματα περίληψη σε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI. |
 | [Σύνοψη εγγράφου Word σε C# – πλήρης οδηγός Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με το Aspose.Words AI σε πλήρη βήμα-βήμα οδηγό. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI σε .NET. |
 | [Δημιουργία κενής εγγράφου Word και μετάφραση στα γαλλικά](./create-a-blank-word-document-and-translate-it-to-french/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να το μεταφράσετε αυτόματα στα γαλλικά χρησιμοποιώντας Aspose.Words. |
 | [Μετάφραση συμβολοσειράς στα Ισπανικά σε C# με Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε κείμενο στα Ισπανικά σε C# χρησιμοποιώντας το Aspose.Words AI. |
 | [Μετάφραση παραγράφου στα γαλλικά και αλλαγή ετικέτας γραφήματος στο Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Μάθετε πώς να μεταφράσετε μια παράγραφο στα γαλλικά και να αλλάξετε την ετικέτα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
-
+| [Πώς να μεταφράσετε docx στα γαλλικά σε C# – βήμα‑βήμα οδηγός](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Μάθετε πώς να μεταφράσετε αρχεία docx στα γαλλικά σε C# με οδηγίες βήμα‑βήμα. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

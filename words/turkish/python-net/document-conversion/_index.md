@@ -31,6 +31,9 @@ Eğitimler, belge dönüştürme ile kelime belge işleme iş akışlarını gel
 Geliştiriciler, Python için Aspose.Words ile belge dönüştürme konusunda uzmanlaşarak belge yönetimi süreçlerini basitleştirebilirler. Eğitimler, geliştiricilerin Python uygulamalarında sağlam belge dönüştürme işlevselliğini uygulayabilmelerini sağlayan adım adım talimatlar, kod örnekleri ve pratik örnekler sunar. Kusursuz belge dönüştürme ve yönetimi için Aspose.Words'ün tüm potansiyelinden yararlanmak için bu eğitimleri benimseyin.
 
 ## Python Belge Dönüştürme Eğitimleri
+### [How to save Word as PDF and convert DOCX to Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+
+
 ### [Python Belge Dönüştürme - Tam Kılavuz](./python-document-conversion/)
 Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!
 

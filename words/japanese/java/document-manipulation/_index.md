@@ -88,7 +88,7 @@ Aspose.Words for Javaを使ってJava Word文書を保護する方法を学び�
 ### [Aspose.Words for Java でドキュメントをページに分割する](./splitting-documents-into-pages/)
 Aspose.Words for Javaを使用してドキュメントをページに分割する方法を学びましょう。効率的なドキュメント処理のためのソースコード付きのステップバイステップガイドです。
 ### [Aspose.Words for Java でドキュメントを分割する](./splitting-documents/)
-Aspose.Words for Javaでドキュメントを効率的に分割する方法を学びましょう。見出し、セクション、ページ範囲のテクニックを学びます。
+Aspose.Words for Javaでドキュメントを効率的に分割する方法を学びましょう。見出し、セクション、ページ範囲のテクニックを学ります。
 ### [Aspose.Words for Java でドキュメントを HTML ページに分割する](./splitting-documents-into-html-pages/)
 Aspose.Words for Javaを使ってドキュメントをHTMLページに分割する方法を学びましょう。ステップバイステップのガイドに従って、シームレスなドキュメント変換を実現しましょう。
 ### [Aspose.Words for Java の DocumentBuilder を使用してコンテンツを追加する](./adding-content-using-documentbuilder/)
@@ -129,13 +129,14 @@ Aspose.Words for Java を使って、空の Word 文書を作成する基本的�
 ### [Aspose.Words for Java で空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java を使用して、内容のない新しい Word 文書を作成する手順を学びます。
 ### [C# でタグ名を設定し、SDT を追加する](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+### [C# でプレーンテキスト コンテンツ コントロールを使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-a-plain-text-content/)
+### [C# で空白の Word 文書を作成し、ActiveX ボタンを追加する](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+C# と Aspose.Words を使用して、空の Word 文書を作成し、ActiveX ボタンを埋め込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

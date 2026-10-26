@@ -96,7 +96,8 @@ Kompletní návod, jak seskupovat tvary ve Word dokumentu pomocí Aspose.Words p
 ### [Skrýt obrázek ve Wordu – podrobný průvodce v Javě s Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Naučte se, jak pomocí Aspose.Words pro Javu skrýt obrázek v dokumentu Word.
 ### [Jak seskupit tvary v dokumentu Word pomocí Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
-Naučte se, jak seskupit tvary v dokumentu Word pomocí Aspose.Words.
+
+### [Jak vložit eliptické a obdélníkové tvary do skupinového tvaru pomocí Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ### [Jak nastavit skrytou vlastnost tvaru v Aspose.Words pro C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Naučte se, jak nastavit vlastnost Hidden pro tvary v dokumentech Word pomocí Aspose.Words pro C#.
@@ -148,6 +149,8 @@ Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí A
 ### [Jak vytvořit prázdný dokument Word se seskupenými tvary](./how-to-create-blank-word-document-with-grouped-shapes/)
 Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
 
+### [Vytvořit prázdný dokument Word a přidat obdélníkový tvar](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -184,6 +187,5 @@ Naučte se, jak vložit skrytý obrázek do dokumentu Word v Javě pomocí Aspos
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

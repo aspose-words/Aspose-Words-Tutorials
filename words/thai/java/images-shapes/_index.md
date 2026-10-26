@@ -135,14 +135,11 @@
 
 ### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
 
-### [บทแนะนำ Aspose.Words ActiveX – แทรก CommandButton ด้วย Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-เรียนรู้วิธีแทรกปุ่ม CommandButton ในเอกสาร Word ผ่าน ActiveX ด้วย Java
+### [วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+เรียนรู้วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words
 
-### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
-เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
-
-### [วิธีสร้างเอกสาร Word ว่างพร้อมรูปทรงที่จัดกลุ่ม](./how-to-create-blank-word-document-with-grouped-shapes/)
-เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปทรงหลายรูปที่จัดกลุ่มเป็นหนึ่ง
+### [สร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้า](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้าโดยใช้ Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -84,7 +84,8 @@ Aspose.Words for Java का उपयोग करके आयताकार 
 C# में Aspose.Words का उपयोग करके समूहित आयताकार के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
 ### [जावा में आयताकार आकार सम्मिलित करें – समूह बनाएं और आकारों को स्थित करें](./insert-rectangle-shape-in-java-group-and-position-shapes/)
-जावा में Aspose.Words का उपयोग करके आयताकार आकार को समूहित करके उसकी स्थिति निर्धारित करने का तरीका सीखें।
+
+### [Aspose.Words के साथ समूह आकृति में दीर्घवृत्त और आयताकार आकार कैसे सम्मिलित करें](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
@@ -97,8 +98,8 @@ C# के साथ Aspose.Words का उपयोग करके Word मे
 ### [Word में समूह आकृतियाँ – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-complete-programming-guide/)
 Word में समूह आकृतियों को बनाने और प्रबंधित करने के लिए पूर्ण कोड गाइड।
 
-### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑चरण गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
-Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑चरण मार्गदर्शन।
+### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑श्रेणी गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑श्रेणी मार्गदर्शन।
 
 ### [Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
 Aspose.Words Java के साथ Word दस्तावेज़ में कई आकृतियों को समूहित करने की प्रक्रिया सीखें।
@@ -135,18 +136,21 @@ C# के साथ Aspose.Words का उपयोग करके खाल�
 ### [जावा में खाली वर्ड दस्तावेज़ बनाना और आकृतियों को समूहित करना](./how-to-create-blank-word-document-and-group-shapes-in-java/)
 जावा में Aspose.Words का उपयोग करके खाली वर्ड फ़ाइल बनाना और कई आकृतियों को समूहित करने का तरीका सीखें।
 
-### [छिपी हुई छवि के साथ नया Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-छिपी हुई छवि के साथ Word दस्तावेज़ बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
+### [छिपी हुई छवि के साथ नया Word दस्तावेज़ बनाएं – चरण‑दर‑श्रेणी गाइड](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+छिपी हुई छवि के साथ Word दस्तावेज़ बनाने की प्रक्रिया को चरण‑दर‑श्रेणी समझें।
 
 ### [Aspose.Words के साथ C# में खाली दस्तावेज़ बनाएं और आकृतियाँ जोड़ें](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 C# में Aspose.Words का उपयोग करके खाली दस्तावेज़ बनाकर आकृतियाँ जोड़ने की प्रक्रिया सीखें।
 
 ### [जावा के साथ docx में छवि सम्मिलित करें और Word में छवि छुपाएँ](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
-जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑चरण प्रक्रिया।
+जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑श्रेणी प्रक्रिया।
+
 ### [जावा के साथ Word में आकृतियों को समूहित करने की पूरी गाइड](./how-to-group-shapes-in-word-with-java-complete-guide/)
-जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑चरण निर्देश।
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑श्रेणी निर्देश।
+
 ### [जावा में आकृति पर छाया जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-shadow-to-shape-in-java-complete-programming-guide/)
 जावा में Aspose.Words का उपयोग करके आकृति में छाया प्रभाव जोड़ने की पूरी प्रक्रिया सीखें।
+
 ### [समूहित आकृति के साथ खाली Word दस्तावेज़ बनाना – जावा गाइड](./create-blank-word-document-with-grouped-shape-java-guide/)
 जावा में Aspose.Words का उपयोग करके समूहित आकृति के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
@@ -170,7 +174,9 @@ Aspose.Words Java का उपयोग करके खाली Word फ़�
 ### [जावा में Aspose.Words का उपयोग करके छिपी हुई छवि के साथ Word दस्तावेज़ बनाएं](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Aspose.Words का उपयोग करके जावा में छिपी हुई छवि के साथ Word दस्तावेज़ बनाने का तरीका सीखें।
 ### [समूहित आकृतियों के साथ खाली Word दस्तावेज़ कैसे बनाएं](./how-to-create-blank-word-document-with-grouped-shapes/)
-समूहित आकृतियों के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+समूहित आकृतियों के साथ खाली Word दस्तावेज़ कैसे बनाएं
+
+### [एक खाली Word दस्तावेज़ बनाएं और आयताकार आकार जोड़ें](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ## अतिरिक्त संसाधन
 

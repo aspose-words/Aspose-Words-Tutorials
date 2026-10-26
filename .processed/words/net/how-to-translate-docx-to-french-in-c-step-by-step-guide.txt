@@ -1,0 +1,7 @@
+Title: How to translate docx to French in C# – step‑by‑step guide
+Slug: how-to-translate-docx-to-french-in-c-step-by-step-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-23T14:17:56.361360
+SourceRepo: AI Search API
+Keywords: translate docx to french, translate entire document, how to translate word document, save translated document, translate word file to french
+PRNumber: 335

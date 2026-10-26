@@ -83,6 +83,8 @@
 تعلم كيفية إضافة شكل مستطيل إلى مستند Word باستخدام C# مع شرح شامل لجميع الخصائص
 ### [إنشاء مستند Word فارغ بظل في Java – دليل كامل](./create-blank-word-with-shadow-in-java-full-guide/)
 دليل شامل لإنشاء مستند Word فارغ مع تأثير الظل باستخدام Aspose.Words لجافا
+### [إنشاء مستند Word فارغ وإضافة شكل مستطيل](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+دليل خطوة بخطوة لإنشاء مستند Word فارغ وإضافة شكل مستطيل باستخدام Aspose.Words لجافا
 ### [تجميع الأشكال في Word – دليل برمجة كامل](./group-shapes-in-word-complete-programming-guide/)
 دليل شامل يوضح كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
 
@@ -147,6 +149,9 @@
 تعلم كيفية إخفاء شكل في مستند Word وتحديد لون التعبئة باستخدام Aspose.Words لجافا
 ### [كيفية إنشاء مستند Word فارغ مع أشكال مجموعة](./how-to-create-blank-word-document-with-grouped-shapes/)
 تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words لجافا
+
+### [كيفية إدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+دليل خطوة بخطوة لإدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

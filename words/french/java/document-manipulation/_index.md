@@ -62,6 +62,7 @@ Créez un document Word vierge contenant un contrôle de texte avec Aspose.Words
 Apprenez à générer automatiquement des documents Word avec Aspose.Words en Java.
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Comment créer un document Word vierge avec un contrôle de texte brut en C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [Créer un document Word vierge en Java avec Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Apprenez à créer un document Word vierge en Java à l'aide d'Aspose.Words.
@@ -130,7 +131,9 @@ Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Appre
 ### [Créer un bouton ActiveX docx en Java – guide complet de programmation](./create-docx-activex-button-in-java-complete-programming-guid/)
 Apprenez à créer un bouton ActiveX dans un document DOCX avec Java, étape par étape, avec exemples de code.
 ### [Créer un document vierge avec un bouton de commande interactif dans Word en Java](./create-blank-document-with-an-interactive-command-button-in/)
-Créez un document vierge contenant un bouton de commande interactif dans Word à l'aide d'Aspose.Words pour Java.
+
+### [Créer un document Word vierge et ajouter un bouton ActiveX en C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX en C# avec Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

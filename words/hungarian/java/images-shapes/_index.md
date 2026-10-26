@@ -28,6 +28,9 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 
 ## Elérhető oktatóanyagok
 
+### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -126,8 +129,8 @@ Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Wor
 Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
 ### [Árnyék hozzáadása alakzathoz Java‑ban – Teljes programozási útmutató](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Java-ban az Aspose.Words segítségével.
-### [Üres Word dokumentum létrehozása csoportosított alakzattal – Java útmutató](./create-blank-word-document-with-grouped-shape-java-guide/)
-Ismerje meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzattal Java-ban az Aspose.Words segítségével.
+### [Üres Word dokumentum létrehozása csoportosított alakzatokkal – Java útmutató](./create-blank-word-document-with-grouped-shape-java-guide/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzatokkal Java-ban az Aspose.Words segítségével.
 
 ### [Word dokumentum létrehozása Java – Képek beszúrása és elrejtése az Aspose.Words segítségével](./create-word-document-java-insert-and-hide-images-with-aspose/)
 Tanulja meg, hogyan szúrhat be és rejthet el képeket egy Word dokumentumban Java-ban az Aspose.Words használatával.
@@ -145,6 +148,8 @@ Ismerje meg, hogyan szúrhat be CommandButton elemet ActiveX használatával Jav
 Ismerje meg, hogyan rejthet el alakzatot és állíthat be kitöltőszínt a Word dokumentumban Java-val az Aspose.Words segítségével.
 
 ### [Üres Word dokumentum létrehozása csoportosított alakzatokkal](./how-to-create-blank-word-document-with-grouped-shapes/)
+
+### [Üres Word dokumentum létrehozása és téglalap alakzat hozzáadása](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ## További források
 
@@ -166,7 +171,7 @@ Tanulja meg, hogyan hozhat létre üres Word dokumentumot, és rejtett ellipszis
 ### [Hogyan hozzunk létre fánkdiagramot Word dokumentumban Java-val](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Tanulja meg, hogyan generálhat fánkdiagramot Word dokumentumokban Java segítségével, részletes kódpéldákkal.
 ### [Hogyan hozzunk létre üres Word-dokumentumot és csoportosítsunk alakzatokat Java-ban](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Ismerje meg, hogyan hozhat létre üres Word-dokumentumot és csoportosíthat alakzatokat Java használatával.
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot és csoportosíthat alakzatokat Java használatával.
 
 ### [Word-dokumentum létrehozása rejtett képpel Java-ban az Aspose.Words használatával](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Tanulja meg, hogyan ágyazhat be rejtett képet egy Word-dokumentumba Java és Aspose.Words segítségével.

@@ -58,6 +58,9 @@ Java için Aspose.Words kullanarak belge düzenleme, geliştiriciler ve işletme
 ## Belge İşleme Eğitimleri
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [C# ile düz metin içerik denetimi ekleyerek boş Word belgesi oluşturma](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
+### [C# ile boş bir Word belgesi oluşturun ve bir ActiveX düğmesi ekleyin](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 
 ### [Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma](./using-cleanup-options/)
 Aspose.Words for Java Temizleme Seçenekleriyle Belge Netliğini Geliştirin. Boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını nasıl kaldıracağınızı öğrenin.

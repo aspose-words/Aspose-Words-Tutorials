@@ -221,13 +221,13 @@ Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format 
 Pelajari cara menyimpan dokumen sebagai PDF dan mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words untuk Python.
 ### [Mengonversi docx ke markdown dengan Aspose.Words di Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
 Pelajari cara mengonversi file docx menjadi markdown menggunakan Aspose.Words untuk Python.
+### [Cara menyimpan Word sebagai PDF dan mengonversi DOCX ke Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+Pelajari cara menyimpan dokumen Word sebagai PDF dan mengonversi file DOCX ke Markdown menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

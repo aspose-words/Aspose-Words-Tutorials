@@ -75,11 +75,16 @@ Ein umfassendes Tutorial, das zeigt, wie man in Aspose.Words für Java ein Recht
 ### [Wie man eine Gruppenform in Java einfügt – Komplettanleitung](./how-to-insert-group-shape-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Gruppenformen hinzufügen und anpassen, um komplexe Dokumentlayouts zu erstellen.
 
+### [Wie man Ellipsen‑ und Rechteckformen in eine Gruppenform mit Aspose.Words einfügt](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+Ein Beispiel, das zeigt, wie Sie Ellipsen‑ und Rechteckformen innerhalb einer Gruppenform einfügen.
+
 ### [Leeres Word-Dokument mit gruppierten Rechtecken – C#-Leitfaden](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für C# ein leeres Word-Dokument erstellt und gruppierte Rechtecke hinzufügt.
 
 ### [Rechteckform in Java einfügen – Formen gruppieren und positionieren](./insert-rectangle-shape-in-java-group-and-position-shapes/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck einfügt, mehrere Formen gruppiert und deren Position festlegt.
+
+### [Ein leeres Word-Dokument erstellen und eine Rechteckform hinzufügen](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ### [Bild in Word einfügen – Aspose.Words Schritt-für-Schritt-Anleitung](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Ein praktisches Beispiel, das zeigt, wie Sie mit Aspose.Words für Java Bilder in ein Word-Dokument einfügen.

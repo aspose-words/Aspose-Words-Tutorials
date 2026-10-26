@@ -102,10 +102,11 @@ Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word b
 Hướng dẫn cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
 ### [Tạo tài liệu Word trống và nhóm các hình dạng trong Java](./create-blank-word-document-and-group-shapes-in-java/)
 Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng Aspose.Words cho Java.
-### [Cách tạo nhóm hình dạng docx và thêm các điều khiển tương tác trong C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-Hướng dẫn tạo nhóm hình dạng trong tài liệu DOCX và thêm các điều khiển tương tác bằng C#.
-### [Tạo hình chữ nhật trong Word bằng Java – Hướng dẫn đầy đủ](./create-rectangle-shape-in-word-with-java-full-guide/)
-Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word trống và thêm hình chữ nhật](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [Tạo tài liệu Word bằng Java – Thêm hình dạng với hiệu ứng bóng](./create-word-document-java-add-shape-with-shadow-effect/)
+Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Nhóm các hình dạng trong Word và thêm một hình chữ nhật với Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
 Hướng dẫn cách nhóm các hình dạng và thêm hình chữ nhật trong tài liệu Word bằng Aspose.Words.
@@ -147,6 +148,8 @@ Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua Active
 Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống với các hình dạng được nhóm](./how-to-create-blank-word-document-with-grouped-shapes/)
 Hướng dẫn tạo tài liệu Word mới và chèn các hình dạng được nhóm lại bằng Aspose.Words cho Java.
+
+### [Cách chèn ellipse và hình chữ nhật vào trong một nhóm hình dạng với Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ## Tài nguyên bổ sung
 

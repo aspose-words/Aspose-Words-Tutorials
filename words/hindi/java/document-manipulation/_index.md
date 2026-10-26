@@ -122,16 +122,19 @@ Java के लिए Aspose.Words के साथ टेक्स्ट कं
 Aspose.Words for Java का उपयोग करके प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाने की विधि सीखें।
 
 ### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
-सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-स्टेप मार्गदर्शिका।
+### [C# के लिए Aspose.Words में साधारण टेक्स्ट कंटेंट कंट्रोल के साथ खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
 ### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
-DocumentBuilder का उपयोग करके docx फ़ाइल सहेजें और कंट्रोल के बाद टेक्स्ट डालें।
 
 ### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
 Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।
 ### [Java के लिए Aspose.Words में खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-aspose-words-for-java/)
-Aspose.Words for Java का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें। सरल कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+Aspose.Words for Java का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें। सरल कोड उदाहरण और चरण-दर-स्टेप मार्गदर्शिका।
 ### [C# के लिए Aspose.Words में टैग नाम सेट करना और SDT जोड़ना](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में टैग नाम सेट करें और संरचित दस्तावेज़ टैग (SDT) जोड़ें।
+### [C# में एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+C# में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

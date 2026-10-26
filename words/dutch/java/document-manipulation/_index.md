@@ -98,6 +98,8 @@ Leer hoe je documenten opsplitst in HTML-pagina's met Aspose.Words voor Java. Vo
 Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor het toevoegen van tekst, tabellen, afbeeldingen en meer. Maak moeiteloos verbluffende Word-documenten.
 ### [Docx ActiveX-knop maken in Java – volledige programmeergids](./create-docx-activex-button-in-java-complete-programming-guid/)
 Leer hoe u een ActiveX-knop in een DOCX-document toevoegt met Java, stap‑voor‑stap codevoorbeelden en volledige uitleg.
+### [Een leeg Word-document maken en een ActiveX-knop toevoegen in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Leer hoe u een leeg Word-document maakt en een ActiveX‑knop toevoegt in C#.
 ### [Leeg Word-document maken met een tekstbesturingselement in Aspose.Words voor Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 Leer hoe u een leeg Word-document maakt en een tekstbesturingselement toevoegt met Aspose.Words voor Java.
 ### [DOCX opslaan met DocumentBuilder en tekst toevoegen na een controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
@@ -127,6 +129,8 @@ Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoeg
 
 ### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
 Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken met een platte-tekst contentcontrol in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Leer hoe u een leeg Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words in C#.
 ### [Leeg Word-document maken in Java met Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
 ### [Leeg Word-document maken met Aspose.Words voor Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
