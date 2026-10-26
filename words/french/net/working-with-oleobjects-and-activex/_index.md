@@ -36,13 +36,13 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Comment ajouter un bouton ActiveX dans un document Word avec Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Apprenez à insérer un bouton ActiveX dans un document Word à l'aide d'Aspose.Words pour .NET. |
 | [Insérer un exemple OleControlType.CommandButton dans Word](./insert-olecontroltype-commandbutton-example-in-word/) | Apprenez à insérer un contrôle CommandButton Ole dans un document Word avec Aspose.Words pour .NET. |
 | [Créer un bouton de commande ActiveX dans Word avec C#](./how-to-create-activex-command-button-in-word-using-c/) | Apprenez à créer un bouton de commande ActiveX dans un document Word en C# avec Aspose.Words pour .NET. |
-
 | [Comment ajouter un contrôle ActiveX dans Word avec C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Apprenez à insérer un contrôle ActiveX dans un document Word à l'aide de C# et Aspose.Words pour .NET. |
 | [Comment ajouter un bouton de commande programmé dans un document Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Apprenez à ajouter un bouton de commande dans un document Word de façon programmatique avec Aspose.Words pour .NET. |
 | [Créer un document Word programmatique et ajouter un bouton ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Apprenez à créer un document Word par programmation et à y ajouter un bouton ActiveX avec Aspose.Words pour .NET. |
 | [Comment créer un document Word avec un bouton de commande ActiveX en C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Apprenez à créer un document Word contenant un bouton de commande ActiveX en C# avec Aspose.Words pour .NET. |
 | [Comment créer un bouton d’envoi en automatisation Word C#](./how-to-create-submit-button-in-c-word-automation/) | Apprenez à ajouter un bouton de soumission dans un document Word via l’automatisation C# avec Aspose.Words. |
 | [Créer un document vierge, ajouter un contrôle ActiveX avec résumé IA](./create-blank-document-add-activex-control-with-ai-summary/) | Apprenez à créer un document vierge et y ajouter un contrôle ActiveX générant un résumé à l'aide de l'IA avec Aspose.Words pour .NET. |
+| [Comment créer un document Word C# avec un bouton de commande ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Apprenez à créer un document Word avec un bouton de commande ActiveX en C# grâce à Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

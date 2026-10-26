@@ -46,6 +46,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan fordítsa le a docx-et franciára az Aspose.Words AI-val C#-ban](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a docx fájlok francia nyelvre történő fordításához C#-ban. |
 | [Hogyan foglaljunk össze Word dokumentumot AI szolgáltatókkal C#-ban](./how-to-summarize-word-document-with-ai-providers-in-c/) | Ismerje meg, hogyan használhat különböző AI szolgáltatókat a Word dokumentumok összefoglalásához C#-ban. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
+| [Hogyan mentse el a lefordított Word dokumentumot C#-ban a Google AI-val](./how-to-save-translated-word-document-in-c-with-google-ai/) | Ismerje meg, hogyan menthet lefordított Word dokumentumot C#-ban a Google AI használatával. |
 | [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használatával](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Tanulja meg, hogyan használhatja a gpt-4 turbo modellt az Aspose.Words-nel a DOCX fájlok nyelvtani ellenőrzésére. |
 | [Hogyan ellenőrizze a nyelvtant a Wordben az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani ellenőrzésére lépésről lépésre útmutatóval. |
 | [Hogyan ellenőrizze a nyelvtant C#-ban egy helyi LLM használatával](./how-to-check-grammar-in-c-using-a-local-llm/) | Tanulja meg, hogyan használjon helyi nagy nyelvi modellt a C# kódban a nyelvtani hibák automatikus ellenőrzésére. |
@@ -79,22 +80,9 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Dokumentum összefoglaló létrehozása C#-ban – Teljes OpenAI útmutató](./create-document-summary-in-c-complete-openai-guide/) | Tanulja meg, hogyan hozhat létre dokumentum-összefoglalókat C#-ban az OpenAI segítségével lépésről lépésre útmutatóval. |
 | [AI dokumentum összefoglalás C#-ban – teljes útmutató](./ai-document-summarization-in-c-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-alapú dokumentumösszefoglalásra C#-ban, lépésről lépésre útmutató. |
 | [AI összegzés létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-ai-summary-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre AI által generált összefoglalókat C#‑ban az Aspose.Words for .NET segítségével. |
+| [Hogyan összefoglalja a Word dokumentumot OpenAI-val C#-ban](./how-to-summarize-word-document-with-openai-in-c/) | Ismerje meg, hogyan használhatja az OpenAI-t a Word dokumentumok C#-ban történő összefoglalásához. |
 | [Docx fájl francia nyelvre fordítása AI-val C#-ban](./translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI segítségével a docx dokumentumok francia nyelvre történő fordításához C#-ban. |
-| [OpenAI API hívása C#-ból – Teljes útmutató a Word bekezdések átírásához](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Tanulja meg, hogyan használhatja az OpenAI API-t C#-ban Word bekezdések automatikus átírásához az Aspose.Words segítségével. |
-| [Hogyan ellenőrizze a nyelvtant C#-ban az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Tanulja meg, hogyan használhatja az Aspose.Words AI-t a C# nyelvtani ellenőrzéshez, részletes lépésekkel. |
-| [Word dokumentum összefoglalása C#‑ban – lépésről lépésre útmutató AI használatával](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Ismerje meg, hogyan használhatja az AI-t a Word dokumentumok C#‑os összefoglalásához lépésről lépésre. |
-| [Hogyan fordítsa le a DOCX-et franciára és automatizálja a dokumentumfordítást](./how-to-translate-docx-to-french-and-automate-document-transl/) | Az Aspose.Words for .NET segítségével automatikusan lefordíthatja a DOCX fájlokat franciára. |
-| [CheckGrammar meghívása C#-ban – Teljes útmutató](./how-to-call-checkgrammar-in-c-complete-guide/) | Ismerje meg, hogyan hívhatja meg a CheckGrammar funkciót C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutató. |
-| [Helyi LLM oktatóanyag – Hogyan hívj meg egy helyi LLM-et és futtass helyesírás-ellenőrzést](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Tanulja meg, hogyan használhat helyi LLM-et a szöveg helyesírás-ellenőrzésére az Aspose.Words for .NET segítségével. |
-| [Összegző jelentés létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-summary-report-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre összegző jelentést C#‑ban az Aspose.Words for .NET segítségével, részletes, lépésről‑lépésre útmutatóval. |
-| [Egyedi AI modell létrehozása – Teljes útmutató a nyelvtani ellenőrzéshez C#-ban](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Ismerje meg, hogyan hozhat létre egyedi AI modellt a nyelvtani ellenőrzéshez C#-ban az Aspose.Words segítségével. |
-| [Hogyan írjunk át bekezdést egy helyi LLM-mel C#-ban – Teljes útmutató](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Ismerje meg, hogyan használhat helyi nagy nyelvi modellt C#-ban bekezdések átfogalmazásához az Aspose.Words segítségével. |
-| [Hogyan használjunk AI dokumentum-összefoglalót C#-ban](./how-to-use-an-ai-document-summarizer-in-c/) |  |
-| [Hogyan fordítsuk le a docx-et franciára C#‑ban – lépésről‑lépésre útmutató](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Ismerje meg, hogyan fordíthatja le a docx fájlokat franciára C#‑ban részletes, lépésről‑lépésre útmutatóval. |
-| [Hogyan fordítsa le a docx-et franciára az Aspose.Words AI segítségével](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Tanulja meg, hogyan használhatja az Aspose.Words AI-t a docx fájlok franciára történő fordításához. |
-| [Hogyan használja a fordítót a dokumentumfordítás automatizálásához C#-ban](./how-to-use-translator-to-automate-document-translation-in-c/) | Ismerje meg, hogyan automatizálhatja a dokumentumok fordítását C#-ban az Aspose.Words fordítóval. |
-| [Word dokumentum összefoglalása AI dokumentum-összegzéssel](./summarize-word-document-with-ai-document-summarization/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-alapú dokumentum-összegzéshez Word fájlokban. |
-| [Hogyan fordítsuk le a docx-et franciára AI-val C#-ban](./how-to-translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-val a docx fájlok francia nyelvre történő fordításához C#-ban. |
+| [Hogyan fordítsa le a docx-et franciára AI-val C#-ban](./how-to-translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-val a docx fájlok francia nyelvre történő fordításához C#-ban. |
 | [Összegzés hozzáadása Word-dokumentumhoz az Aspose.Words AI segítségével](./add-summary-to-word-document-with-aspose-words-ai/) | Ismerje meg, hogyan adhat hozzá automatikus összegzést Word-dokumentumokhoz az Aspose.Words AI használatával. |
 | [Word dokumentum összefoglalása C#-ban – teljes Aspose.Words AI útmutató](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Lépésről lépésre bemutatja, hogyan használja az Aspose.Words AI-t Word dokumentumok C#-ban történő összefoglalásához. |
 | [docx fájl francia nyelvre fordítása Aspose.Words AI-val](./translate-docx-to-french-with-aspose-words-ai/) | Az Aspose.Words AI segítségével docx fájlok francia nyelvre fordítása. |
@@ -106,10 +94,8 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Üres Word dokumentum létrehozása és francia nyelvre fordítása](./create-a-blank-word-document-and-translate-it-to-french/) | Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és fordíthatja le francia nyelvre az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

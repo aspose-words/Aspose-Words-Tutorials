@@ -33,16 +33,16 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | [Aspose.Words के साथ वर्ड दस्तावेज़ बटन बनाएं – पूर्ण कोड उदाहरण](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words का उपयोग करके बटन के माध्यम से वर्ड दस्तावेज़ बनाने का पूर्ण कोड उदाहरण। |
 | [Aspose.Words के साथ Word दस्तावेज़ में कमांड बटन जोड़ें – पूर्ण गाइड](./add-command-button-to-word-document-with-aspose-words-comple/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे जोड़ें, सीखें। |
 | [Aspose.Words के साथ Word में ActiveX नियंत्रण कैसे जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words के साथ Word दस्तावेज़ में ActiveX नियंत्रण जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
-| [Aspose.Words के साथ Word दस्तावेज़ में ActiveX बटन कैसे जोड़ें](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में ActiveX बटन जोड़ने की चरण-दर-चरण मार्गदर्शिका। |
+| [Aspose.Words के साथ Word दस्तावेज़ में ActiveX बटन कैसे जोड़ें](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में ActiveX बटन जोड़ने की चरण‑दर‑चरण मार्गदर्शिका। |
 | [Word में OleControlType.CommandButton उदाहरण डालें](./insert-olecontroltype-commandbutton-example-in-word/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में OleControlType.CommandButton उदाहरण सम्मिलित करना सीखें। |
-| [C# का उपयोग करके Word में ActiveX कमांड बटन कैसे बनाएं](./how-to-create-activex-command-button-in-word-using-c/) | C# कोड के साथ Word दस्तावेज़ में ActiveX कमांड बटन जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |
-| [C# का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन कैसे डालें](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन सम्मिलित करने की चरण-दर-चरण मार्गदर्शिका। |
-
+| [C# का उपयोग करके Word में ActiveX कमांड बटन कैसे बनाएं](./how-to-create-activex-command-button-in-word-using-c/) | C# कोड के साथ Word दस्तावेज़ में ActiveX कमांड बटन जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
+| [C# का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन कैसे डालें](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन सम्मिलित करने की चरण‑दर‑चरण मार्गदर्शिका। |
 | [Word दस्तावेज़ में प्रोग्रामेटिक रूप से कमांड बटन कैसे जोड़ें](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में कमांड बटन प्रोग्रामेटिक रूप से जोड़ने की प्रक्रिया सीखें। |
 | [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-word-document-programmatically-and-add-activex-button/) | .NET के लिए Aspose.Words का उपयोग करके प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं और ActiveX बटन जोड़ें। |
 | [C# में ActiveX कमांड बटन के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-an-activex-command-button-i/) | .NET के लिए Aspose.Words का उपयोग करके C# में ActiveX कमांड बटन के साथ Word दस्तावेज़ बनाना सीखें। |
 | [C# Word ऑटोमेशन में सबमिट बटन कैसे बनाएं](./how-to-create-submit-button-in-c-word-automation/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में सबमिट बटन जोड़ने की प्रक्रिया सीखें। |
 | [खाली दस्तावेज़ बनाकर AI सारांश के साथ ActiveX नियंत्रण जोड़ें](./create-blank-document-add-activex-control-with-ai-summary/) | खाली दस्तावेज़ बनाकर AI सारांश के साथ ActiveX नियंत्रण जोड़ें। |
+| [C# के साथ ActiveX कमांड बटन वाला Word दस्तावेज़ कैसे बनाएं](./how-to-create-word-document-c-with-an-activex-command-button/) | C# में Aspose.Words का उपयोग करके ActiveX कमांड बटन के साथ Word दस्तावेज़ बनाने की चरण‑दर‑स्टेप गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

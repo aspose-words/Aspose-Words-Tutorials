@@ -37,12 +37,12 @@
 | [Создать документ Word программно и добавить кнопку ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Узнайте, как программно создать документ Word и добавить кнопку ActiveX с помощью Aspose.Words для .NET. |
 | [Создание документа Word с кнопкой ActiveX на C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Узнайте, как добавить кнопку управления ActiveX в документ Word с помощью Aspose.Words для .NET на C#. |
 | [Создать пустой документ, добавить элемент управления ActiveX с AI‑резюме](./create-blank-document-add-activex-control-with-ai-summary/) | Создайте пустой документ и добавьте элемент управления ActiveX с AI‑резюме, используя Aspose.Words для .NET. |
-
 | [Добавить кнопку Command в документ Word с Aspose.Words – Полное руководство](./add-command-button-to-word-document-with-aspose-words-comple/) | Узнайте, как добавить кнопку Command в документ Word с помощью Aspose.Words, используя пошаговое руководство. |
 | [Как добавить элемент управления ActiveX в Word с помощью Aspose.Words – пошаговое руководство](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Узнайте, как вставлять и настраивать элементы управления ActiveX в документах Word с помощью Aspose.Words в пошаговом руководстве. |
 | [Как добавить кнопку ActiveX в документ Word с помощью Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Узнайте, как добавить кнопку ActiveX в документ Word, используя Aspose.Words для .NET. |
 | [Как программно добавить кнопку команды в документ Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Узнайте, как программно добавить кнопку команды в документ Word с помощью Aspose.Words для .NET. |
 | [Как создать кнопку отправки в автоматизации Word на C#](./how-to-create-submit-button-in-c-word-automation/) | Узнайте, как добавить кнопку отправки в документ Word с помощью C# и Aspose.Words. |
+| [Как создать документ Word на C# с кнопкой ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Узнайте, как программно создать документ Word с кнопкой ActiveX, используя C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
