@@ -94,10 +94,10 @@ Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng, chuyển nội d
 Hướng dẫn chuyển đổi các phương trình trong tài liệu Word sang định dạng LaTeX và lưu dưới dạng tệp Markdown (.md) bằng Aspose.Words for Python.
 
 ### [Chuyển đổi docx sang txt và xuất phương trình từ Word dưới dạng LaTeX – Hướng dẫn đầy đủ](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT và xuất các phương trình Word dưới dạng LaTeX bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT và xuất các phương trình Word dưới dạng LaTeX bằng Aspose.Words cho Python.
 
 ### [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn chi tiết](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words cho Python.
 ### [Lưu docx thành markdown với công thức LaTeX – Hướng dẫn Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown, bảo toàn công thức LaTeX bằng Aspose.Words cho Python.
 
@@ -141,65 +141,13 @@ Hướng dẫn chi tiết cách lưu tài liệu Word (docx) thành tệp txt, b
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words for Python.
 
 ### [Cách lưu Word thành PDF – Hướng dẫn đầy đủ Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
-Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
 
-### [Chuyển đổi docx sang markdown – Hướng dẫn Python đầy đủ với trích xuất hình ảnh](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Python, đồng thời trích xuất và lưu hình ảnh từ tài liệu.
+### [Cách lưu Word thành PDF và chuyển DOCX sang Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+Hướng dẫn lưu tài liệu Word thành PDF và chuyển đổi DOCX sang Markdown bằng Aspose.Words cho Python.
 
-### [Chuyển đổi docx sang markdown – Hướng dẫn đầy đủ Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words, bao gồm các bước thực hiện và mẹo tối ưu.
-
-### [Chuyển đổi docx sang markdown – Hướng dẫn đầy đủ với công thức LaTeX](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown, bao gồm xử lý công thức LaTeX bằng Aspose.Words cho Python.
-
-### [Lưu docx dưới dạng pdf với Python – chuyển docx sang pdf và xuất các hình dạng](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF và xuất các hình dạng bằng Aspose.Words cho Python.
-
-### [Tạo PDF có khả năng truy cập – Chuyển Word sang PDF với Python](./create-accessible-pdf-convert-word-to-pdf-with-python/)
-Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập, chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Python.
-
-### [Cách đổi tên hình ảnh khi chuyển DOCX sang Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
-Hướng dẫn chi tiết cách đổi tên các hình ảnh trong quá trình chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words cho Python.
-
-### [Lưu dưới dạng PDF với Aspose.Words – Hướng dẫn lập trình đầy đủ](./save-as-pdf-with-aspose-words-complete-programming-guide/)
-Hướng dẫn chi tiết cách lưu tài liệu dưới dạng PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và kỹ thuật nâng cao.
-
-### [Chuyển đổi DOCX sang PDF với Aspose.Words – Hướng dẫn](./convert-docx-to-pdf-with-aspose-words-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF nhanh chóng và chính xác bằng Aspose.Words for Python.
-
-### [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển đổi DOCX sang Markdown bằng Aspose.Words for Python.
-
-### [Lưu Word dưới dạng Markdown, xuất công thức sang LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
-Hướng dẫn lưu tài liệu Word thành Markdown và chuyển công thức sang LaTeX bằng Aspose.Words for Python.
-
-### [Xuất công thức Word sang LaTeX với Aspose.Words – hướng dẫn từng bước](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
-Hướng dẫn chi tiết cách xuất công thức Word sang LaTeX bằng Aspose.Words.
-
-### [Xuất docx sang PDF – Tạo PDF có khả năng truy cập](./export-docx-to-pdf-generate-accessible-pdf/)
-Hướng dẫn chi tiết cách xuất tài liệu DOCX thành PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG bằng Aspose.Words for Python.
-### [Chuyển đổi docx sang txt trong Python – hướng dẫn đầy đủ](./convert-docx-to-txt-in-python-full-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT bằng Aspose.Words cho Python, bao gồm các bước thực hiện và ví dụ mã.
-
-### [Lưu Word dưới dạng PDF với Aspose.Words – Hướng dẫn Python](./save-word-as-pdf-with-aspose-words-python-guide/)
-Hướng dẫn lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
-
-### [Lưu Word dưới dạng Markdown với Aspose.Words cho Python – hướng dẫn từng bước](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
-Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng Aspose.Words cho Python.
-
-### [Lưu docx dưới dạng PNG – hướng dẫn từng bước cho nhà phát triển Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
-Hướng dẫn chi tiết cách lưu tệp DOCX thành hình ảnh PNG bằng Aspose.Words cho Python.
-
-### [Tải markdown bằng Python với Aspose.Words – hướng dẫn đầy đủ](./load-markdown-python-with-aspose-words-full-guide/)
-Hướng dẫn chi tiết cách tải và chuyển đổi tệp Markdown trong Python bằng Aspose.Words.
-
-### [Tạo PDF có khả năng truy cập từ DOCX với Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
-Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu DOCX bằng Aspose.Words cho Python.
-
-### [Cách lưu PDF từ DOCX bằng Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
-Hướng dẫn lưu tài liệu DOCX thành PDF bằng Aspose.Words cho Python.
-### [Xuất công thức sang LaTeX từ Word bằng Aspose.Words cho Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
-Hướng dẫn xuất các công thức trong tài liệu Word sang định dạng LaTeX bằng Aspose.Words cho Python.
+### [Cách lưu Word thành PDF – Hướng dẫn đầy đủ Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
 
 ### [Cách chuyển đổi docx sang pdf với Aspose.Words trong Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python.
@@ -226,7 +174,7 @@ Hướng dẫn chuyển đổi tệp docx thành txt và xuất các phương tr
 Hướng dẫn chi tiết cách lưu tài liệu Word thành markdown đồng thời giữ nguyên các công thức toán học bằng Aspose.Words cho Python.
 
 ### [Khôi phục DOCX và chuyển đổi sang markdown, PDF hoặc txt với Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
-Hướng dẫn chi tiết cách khôi phục tệp DOCX và chuyển đổi sang Markdown, PDF hoặc TXT bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách khôi phục tệp DOCX và chuyển đổi sang Markdown, PDF hoặc TXT bằng Aspose.Words cho Python.
 
 ### [Cách lưu docx thành markdown với LaTeX bằng Aspose.Words](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown có hỗ trợ LaTeX bằng Aspose.Words cho Python.
@@ -299,7 +247,7 @@ Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại 
 Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang định dạng Markdown và PDF bằng Aspose.Words for Python.
 
 ### [Cách lưu PDF và chuyển DOCX sang Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
-Hướng dẫn lưu PDF và chuyển đổi DOCX sang Markdown bằng Aspose.Words for Python.
+Hướng dẫn lưu PDF và chuyển đổi DOCX sang Markdown bằng Aspose.Words cho Python.
 
 ### [Chuyển đổi docx sang markdown với Aspose.Words trong Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang định dạng Markdown bằng Aspose.Words cho Python.

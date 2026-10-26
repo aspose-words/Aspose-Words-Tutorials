@@ -111,7 +111,7 @@
 ### [Αποθήκευση docx ως txt – Πλήρης οδηγός εξαγωγής εξισώσεων Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 Μάθετε πώς να αποθηκεύσετε αρχεία docx ως txt, εξάγοντας εξισώσεις Word με το Aspose.Words για Python.
 ### [Αποθήκευση Word ως PDF – Δημιουργία Προσβάσιμου PDF/A‑2U με Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
-Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF και να δημιουργήσετε προσβάσιμο PDF/A‑2U με το Aspose.Words για Python.
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF και να δημιουργήσετε προσάσιμο PDF/A‑2U με το Aspose.Words για Python.
 ### [Ανάκτηση Κατεστραμμένου DOCX και Μετατροπή σε PDF με Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε PDF χρησιμοποιώντας Aspose.Words για Python.
 ### [Μετατροπή docx σε markdown με Python – Πλήρης οδηγός βήμα‑βήμα](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
@@ -130,7 +130,7 @@
 Μάθετε πώς να μετονομάζετε εικόνες κατά τη μετατροπή DOCX σε Markdown με το Aspose.Words για Python.
 ### [Δημιουργία προσβάσιμου PDF – Μετατροπή Word σε PDF με Python](./create-accessible-pdf-convert-word-to-pdf-with-python/)
 ### [Αποθήκευση ως PDF με Aspose.Words – Πλήρης Προγραμματιστικός Οδηγός](./save-as-pdf-with-aspose-words-complete-programming-guide/)
-Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας Aspose.Words για Python με πλήρη βήμα-βήμα οδηγίες.
+Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας Aspose.Words για Python με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατροπή DOCX σε PDF με Aspose.Words – Οδηγός](./convert-docx-to-pdf-with-aspose-words-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για Python. Ο πλήρης οδηγός.
 ### [Αποθήκευση Word ως Markdown, εξαγωγή εξισώσεων σε LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
@@ -139,12 +139,12 @@
 Μάθετε πώς να εξάγετε εξισώσεις από έγγραφα Word σε LaTeX χρησιμοποιώντας Aspose.Words, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Εξαγωγή docx σε pdf – δημιουργία προσβάσιμου PDF](./export-docx-to-pdf-generate-accessible-pdf/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε προσβάσιμα PDF χρησιμοποιώντας Aspose.Words για Python.
-### [Αποθήκευση Word ως Markdown με Aspose.Words για Python – οδηγός βήμα‑βήμα](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+### [Αποθήκευση Word ως Markdown με Aspose.Words για Python – οδηγός βήμα‑βήμα](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown χρησιμοποιώντας Aspose.Words για Python, με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Μετατροπή docx σε txt σε Python – πλήρης οδηγός](./convert-docx-to-txt-in-python-full-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία docx σε txt χρησιμοποιώντας Aspose.Words για Python.
 ### [Αποθήκευση Word ως PDF με Aspose.Words – Οδηγός Python](./save-word-as-pdf-with-aspose-words-python-guide/)
-Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words για Python.
+Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας Aspose.Words για Python.
 ### [Αποθήκευση docx ως png – οδηγός βήμα‑βήμα για προγραμματιστές Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
 Μάθετε πώς να αποθηκεύετε αρχεία docx ως εικόνες PNG με το Aspose.Words για Python, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Φόρτωση markdown σε Python με Aspose.Words – πλήρης οδηγός](./load-markdown-python-with-aspose-words-full-guide/)
@@ -223,8 +223,10 @@
 ### [Μετατροπή docx σε markdown με Aspose.Words σε Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
 Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown χρησιμοποιώντας Aspose.Words για Python.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Πώς να αποθηκεύσετε το Word ως PDF και να μετατρέψετε DOCX σε Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF και να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας Aspose.Words για Python.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 

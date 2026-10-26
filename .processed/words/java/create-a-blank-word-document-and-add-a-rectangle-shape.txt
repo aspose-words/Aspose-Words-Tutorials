@@ -1,0 +1,7 @@
+Title: Create a blank Word document and add a rectangle shape
+Slug: create-a-blank-word-document-and-add-a-rectangle-shape
+Category: images-shapes
+ProcessedDate: 2026-10-23T15:00:32.357875
+SourceRepo: AI Search API
+Keywords: create blank word document, add rectangle shape, how to insert shape, hide shape word
+PRNumber: 336

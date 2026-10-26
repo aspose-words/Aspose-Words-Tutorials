@@ -62,6 +62,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 
 ### [Jak zapisać dokument jako PDF z niestandardowym kształtem prostokąta w Pythonie](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument jako PDF z własnym prostokątnym kształtem.
+
 ### [Zapisz docx jako pdf przy użyciu Aspose.Words – przewodnik krok po kroku](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako PDF krok po kroku.
 
@@ -244,6 +245,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako M
 
 ### [Jak wyeksportować równania Office do LaTeX w Pythonie](./how-to-export-office-math-to-latex-in-python/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować równania Office Math do formatu LaTeX.
+
 ### [Zapisz docx jako Markdown – kompletny przewodnik konwersji Word do Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
 Poznaj, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words for Python.
 
@@ -281,6 +283,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument PDF i p
 
 ### [Konwertuj docx do markdown przy użyciu Aspose.Words w Pythonie](./convert-docx-to-markdown-with-aspose-words-in-python/)
 
+### [Jak zapisać Word jako PDF i przekonwertować DOCX na Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

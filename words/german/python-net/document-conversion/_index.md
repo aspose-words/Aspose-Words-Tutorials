@@ -86,8 +86,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python mathematische Gleichungen aus
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in TXT umwandeln und Word‑Gleichungen als LaTeX‑Code exportieren.
 ### [DOCX wiederherstellen, in Markdown & PDF konvertieren – Anleitung mit Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Erfahren Sie, wie Sie beschädigte DOCX-Dateien reparieren und anschließend in Markdown und PDF mit Aspose.Words für Python konvertieren.
-### [DOCX als Markdown mit LaTeX-Gleichungen speichern – Python-Anleitung](./save-docx-as-markdown-with-latex-equations-python-guide/)
-Erfahren Sie, wie Sie DOCX-Dateien mit LaTeX-Gleichungen in Markdown konvertieren und speichern.
+### [DOCX als Markdown mit LaTeX‑Gleichungen speichern – Python-Anleitung](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit LaTeX‑Gleichungen in Markdown konvertieren und speichern.
 ### [Exportiere DOCX als Markdown – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-docx-as-markdown-full-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien vollständig in Markdown exportieren.
 ### [Word als PDF speichern mit Aspose.Words – Vollständige Python-Anleitung](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
@@ -97,7 +97,7 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDF‑Dateien a
 ### [PNG‑Raster aus Word‑Dokument erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein PNG‑Raster aus einem Word‑Dokument generieren und speichern.
 ### [Word als PDF speichern – Formen in Inline konvertieren mit Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Erfahren Sie, wie Sie Word-Dokumente als PDF speichern und dabei Formen in Inline-Objekte umwandeln.
+Erfahren Sie, wie Sie Word-Dokumente als PDF speichern und dabei Formen in Inline‑Objekte umwandeln.
 ### [DOCX nach PDF konvertieren mit Python – Vollständige Anleitung](./convert-docx-to-pdf-with-python-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren und dabei hochwertige Ergebnisse erzielen.
 ### [DOCX in PDF konvertieren mit Python – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
@@ -106,7 +106,7 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertie
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words vollständig in Markdown konvertieren und speichern.
 ### [DOCX als PDF speichern mit Aspose.Words – Schritt-für-Schritt-Anleitung](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words in PDF konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
-### [Word nach Markdown exportieren – Vollständige Anleitung mit Bildextraktion in Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+### [Word als Markdown exportieren – Vollständige Anleitung mit Bildextraktion in Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in Markdown konvertieren und dabei Bilder extrahieren.
 ### [docx als txt speichern – Vollständige Anleitung zum Export von Word-Gleichungen](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python docx-Dateien in txt konvertieren und dabei Word-Gleichungen exportieren.
@@ -223,6 +223,8 @@ Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen und anschließe
 Erfahren Sie, wie Sie PDFs speichern und DOCX-Dateien in Markdown umwandeln können.
 ### [DOCX in Markdown konvertieren – Anleitung mit Aspose.Words für Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in Markdown umwandeln und speichern.
+
+### [Wie man Word als PDF speichert und DOCX in Markdown konvertiert](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
