@@ -1,0 +1,7 @@
+Title: Create Word document programmatically and add a shape in Java
+Slug: create-word-document-programmatically-and-add-a-shape-in-jav
+Category: images-shapes
+ProcessedDate: 2026-10-26T19:48:13.903780
+SourceRepo: AI Search API
+Keywords: create word document programmatically, how to hide shape, how to add shape, hide object in word
+PRNumber: 340
