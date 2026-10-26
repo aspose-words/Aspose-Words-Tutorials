@@ -38,6 +38,8 @@ Learn Python document conversion with Aspose.Words for Python. Convert, manipula
 Learn how to convert Word documents to Markdown using Aspose.Words for Python in this step-by-step guide.
 ### [How to export markdown from a Word document with Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose/)
 Learn how to export Word documents to Markdown using Aspose.Words for Python in a step‑by‑step guide.
+### [How to export markdown from a DOCX using Aspose.Words for Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+Learn how to export a DOCX file to Markdown using Aspose.Words for Python.
 ### [How to save Word as PDF with Aspose.Words for Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
 Learn how to convert Word documents to PDF using Aspose.Words for Python in a step‑by‑step guide.
 ### [How to save Word as PDF and convert DOCX to Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
@@ -69,7 +71,7 @@ Learn how to save a Word document as TXT while exporting equations to LaTeX usin
 ### [Save docx as pdf with Aspose.Words – Complete Python Guide](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
 Learn how to save DOCX files as PDF using Aspose.Words for Python in this comprehensive guide.
 ### [How to embed images when converting DOCX to Markdown – Complete Guide](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
-Learn how to embed images while converting DOCX to Markdown using Aspose.Words for Python in this step-by-step guide.
+Learn how to embed images while converting DOCX to Markdown using Aspose.Words for Python in a step-by-step guide.
 ### [how to embed images in Markdown from DOCX – Full Guide](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Learn how to embed images when converting DOCX to Markdown using Aspose.Words for Python in this comprehensive guide.
 ### [Save Word as Markdown – Complete Python Guide](./save-word-as-markdown-complete-python-guide/)

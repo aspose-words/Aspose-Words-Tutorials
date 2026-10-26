@@ -37,6 +37,11 @@ Naucz się konwersji dokumentów Pythona z Aspose.Words for Python. Konwertuj, m
 ### [Jak zapisać Markdown z Worda – Kompletny przewodnik w Pythonie](./how-to-save-markdown-from-word-complete-python-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać dokument Word jako plik Markdown.
 
+### [Jak wyeksportować markdown z Worda – kompletny przewodnik w Pythonie](./how-to-save-markdown-from-word-complete-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać dokument Word jako plik Markdown.
+
+### [Jak wyeksportować markdown z DOCX przy użyciu Aspose.Words dla Pythona](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
@@ -61,7 +66,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć PDF z dokumentu
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako plik PDF.
 
 ### [Jak zapisać dokument jako PDF z niestandardowym kształtem prostokąta w Pythonie](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
-Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument jako PDF z własnym prostokątnym kształtem.
+Dowiedz się, jak przy użyciem Aspose.Words for Python zapisać dokument jako PDF z własnym prostokątnym kształtem.
 
 ### [Zapisz docx jako pdf przy użyciu Aspose.Words – przewodnik krok po kroku](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako PDF krok po kroku.
@@ -130,7 +135,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python przekonwertować plik doc
 ### [Konwertuj DOCX do PDF w Pythonie – kompletny przewodnik krok po kroku](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python przekonwertować plik DOCX na PDF krok po kroku.
 ### [Zapisz Word jako Markdown – kompletny przewodnik przy użyciu Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
-Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument Word jako plik Markdown w pełnym przewodniku.
+Dowiedz się, jak przy użyciem Aspose.Words zapisać dokument Word jako plik Markdown w pełnym przewodniku.
 
 ### [Zapisz docx jako PDF przy użyciu Aspose.Words – przewodnik krok po kroku](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words zapisać plik docx jako PDF w prostym przewodniku krok po kroku.

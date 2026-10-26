@@ -40,6 +40,9 @@
 ### [如何使用 Aspose.Words 從 Word 文件匯出 Markdown](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
 學習使用 Aspose.Words 將 Word 文件匯出為 Markdown 的完整步驟。
 
+### [如何使用 Aspose.Words for Python 從 DOCX 匯出 Markdown](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+學習使用 Aspose.Words for Python 從 DOCX 檔案匯出為 Markdown 的完整步驟。
+
 ### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 DOCX 轉換為 Markdown 的完整步驟。
 

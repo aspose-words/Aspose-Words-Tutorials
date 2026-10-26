@@ -37,6 +37,8 @@ Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, man
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
 ### [Cara mengekspor markdown dari dokumen Word dengan Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose/)
 Pelajari cara mengekspor konten markdown dari dokumen Word menggunakan Aspose.Words untuk Python.
+### [Cara mengekspor markdown dari DOCX menggunakan Aspose.Words untuk Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+Pelajari cara mengekspor konten markdown dari file DOCX menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Cara menyimpan Word sebagai markdown dengan dukungan tabel menggunakan Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
 Pelajari cara menyimpan dokumen Word menjadi file markdown dengan dukungan tabel menggunakan Aspose.Words untuk Python.
 ### [Pulihkan DOCX yang Rusak & Konversi Word ke Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
@@ -99,7 +101,7 @@ Pelajari cara mengonversi file docx menjadi PDF menggunakan Aspose.Words untuk P
 Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah yang lengkap.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap Menggunakan Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Panduan lengkap untuk menyimpan dokumen Word sebagai file Markdown menggunakan Aspose.Words untuk Python.
-### [Simpan docx sebagai PDF dengan Aspose.Words – Panduan Langkah-demi-Langkah](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+### [Simpan docx sebagai PDF dengan Aspose.Words – Panduan Langkah-demi‑Langkah](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
 Pelajari cara mengonversi file docx menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 ### [Ekspor Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar di Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Pelajari cara mengekspor Word ke Markdown lengkap dengan ekstraksi gambar menggunakan Aspose.Words untuk Python.
