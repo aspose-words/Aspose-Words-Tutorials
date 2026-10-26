@@ -70,6 +70,8 @@ Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words 
 ## Tutoriels de conversion et d'exportation de documents
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
+### [Comment convertir docx en markdown en Java avec prise en charge des tableaux](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+Convertissez des fichiers DOCX en Markdown en Java tout en conservant la mise en forme des tableaux.
 
 ### [Génération d'étiquettes de codes-barres personnalisées dans Aspose.Words pour Java](./generating-custom-barcode-labels/)
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
@@ -84,7 +86,7 @@ Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. 
 Apprenez à créer un diagramme circulaire dans Word avec Aspose.Words et à le sauvegarder au format PNG.
 
 ### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
-Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words pour Java. Apprenez à manipuler et afficher facilement des objets Office Math.
+Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words for Java. Apprenez à manipuler et afficher facilement des objets Office Math.
 
 ### [Utilisation des formes de document dans Aspose.Words pour Java](./using-document-shapes/)
 Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Apprenez à créer des documents visuellement attrayants grâce à des exemples détaillés.
@@ -257,10 +259,10 @@ Apprenez à convertir des documents DOCX en Markdown tout en exportant les équa
 ### [Créer un PDF accessible à partir de Word – Guide étape par étape](./create-accessible-pdf-from-word-step-by-step-guide/)
 Apprenez à générer des PDF accessibles depuis des documents Word en suivant un guide complet pas à pas.
 
-### [Options d’enregistrement PDF – Convertir DOCX en PDF en Java avec contrôle complet](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+### [Options d’enregistrement PDF – Convertir DOCX en PDF avec contrôle complet](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Découvrez comment utiliser les options d’enregistrement PDF d’Aspose.Words pour contrôler la conversion DOCX vers PDF en Java.
 
-### [Enregistrer un docx en markdown avec Java – Guide complet étape par étape](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+### [Enregistrer docx en markdown avec Java – Guide complet étape par étape](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Apprenez à convertir des fichiers DOCX en Markdown en Java grâce à un guide détaillé avec du code source.
 
 ### [Créer du markdown à partir d'un document – Exporter et enregistrer les images](./create-markdown-from-document-export-and-save-images/)

@@ -59,8 +59,7 @@ Comience su viaje de aprendizaje hoy y descubra las infinitas posibilidades de m
 ### [Cómo crear un documento Word en blanco con un control de texto](./how-to-create-a-blank-word-document-with-a-text-control/)
 Aprenda a crear un documento Word vacío y añadir un control de texto usando Aspose.Words para Java.
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
-
-
+### [Cómo insertar un control de contenido de texto sin formato en un documento Word con C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
 ### [Uso de opciones de limpieza en Aspose.Words para Java](./using-cleanup-options/)
 Mejore la claridad de sus documentos con las opciones de limpieza de Aspose.Words para Java. Aprenda a eliminar párrafos vacíos, regiones sin usar y más.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)

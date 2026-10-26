@@ -88,7 +88,7 @@ By the end of these tutorials, you'll be equipped with the knowledge and skills 
 So, dive into the tutorials listed below and unlock the full potential of Aspose.Words for Java in your document‑related projects. Happy coding!
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java]({{< relref "generating-custom-barcode-labels/_index.md" >}})
-Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
+Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in a step‑by‑step guide.
 
 ### [Using Barcode Generation in Aspose.Words for Java]({{< relref "using-barcode-generation/_index.md" >}})
 Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step‑by‑step guide with source code for barcode generation. Enhance document automation with Aspose.Words.
@@ -98,7 +98,7 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 
 ### [Using Office Math Objects in Aspose.Words for Java]({{< relref "using-office-math-objects/_index.md" >}})
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
-
+### [How to convert docx to markdown in Java with table support](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 
@@ -243,7 +243,7 @@ Learn how to convert Word documents to PDF using Aspose.Words for Java with a cl
 Learn how to generate PDF/A-1a accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance and accessibility.
 
 ### [How to Export Markdown from Word – Step‑by‑Step Java Guide](./how-to-export-markdown-from-word-step-by-step-java-guide/)
-Learn how to export Word documents to Markdown format using Aspose.Words for Java with a clear, step‑by‑step guide.
+Learn how to export Word documents to Markdown format using Aspose.Words for Java with a clear step‑by‑step guide.
 
 ### [Save Word as Text – Export Equations to LaTeX with Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
 Learn how to save a Word document as plain text and export embedded equations to LaTeX using Aspose.Words for Java.
@@ -352,7 +352,6 @@ Learn how to export Word documents to Markdown format using Aspose.Words for Jav
 
 ### [Save docx as txt – Export Word Equations to LaTeX]({{< relref "save-docx-as-txt-export-word-equations-to-latex/_index.md" >}})
 Save docx as txt – Export Word Equations to LaTeX. Learn how to export Word equations to LaTeX while saving DOCX as plain text using Aspose.Words for Java.
-
 
 ## Frequently asked questions
 ### [Save Word as Markdown – complete guide using Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)

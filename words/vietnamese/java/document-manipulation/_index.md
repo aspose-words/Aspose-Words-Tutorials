@@ -120,7 +120,7 @@ Hướng dẫn tạo tài liệu Word trống và chèn nút ActiveX bằng Aspo
 ### [Cách tạo tài liệu Word trong C#](./how-to-create-a-word-document-in-c/)
 Hướng dẫn tạo tài liệu Word trong C# bằng Aspose.Words.
 ### [Tạo nút ActiveX docx trong Java – hướng dẫn lập trình đầy đủ](./create-docx-activex-button-in-java-complete-programming-guid/)
-Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng Aspose.Words for Java.
+Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trong C#](./how-to-create-a-word-document-in-c/)
 Hướng dẫn tạo tài liệu Word trong C# bằng Aspose.Words.
 ### [Tạo tài liệu trống với nút lệnh tương tác trong Word bằng Java](./create-blank-document-with-an-interactive-command-button-in/)
@@ -135,7 +135,10 @@ Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java
 Hướng dẫn cách đặt tên thẻ và chèn Thẻ Tài liệu có Cấu trúc (SDT) vào tài liệu Word bằng C#.
 ### [Cách tạo tài liệu Word trống với điều khiển nội dung văn bản thuần trong C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 Hướng dẫn tạo tài liệu Word trống và chèn điều khiển nội dung văn bản thuần bằng C#.
+### [Cách chèn điều khiển nội dung văn bản thuần trong tài liệu Word bằng C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Hướng dẫn chèn điều khiển nội dung văn bản thuần vào tài liệu Word bằng C# sử dụng Aspose.Words.
 ### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Hướng dẫn tạo tài liệu Word bằng cách lập trình với Aspose.Words.
 ### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống trong Aspose.Words cho Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)

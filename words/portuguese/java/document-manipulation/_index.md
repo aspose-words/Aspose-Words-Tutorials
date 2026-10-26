@@ -60,6 +60,7 @@ Comece sua jornada de aprendizado hoje mesmo e descubra as infinitas possibilida
 Aprenda a criar PDFs acessíveis com marcações de acessibilidade usando Aspose.Words para Java.
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Como inserir controle de conteúdo de texto simples em um documento Word com C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
 ### [Usando opções de limpeza no Aspose.Words para Java](./using-cleanup-options/)
 Melhore a clareza do documento com as opções de limpeza do Aspose.Words para Java. Aprenda a remover parágrafos vazios, regiões não utilizadas e muito mais.

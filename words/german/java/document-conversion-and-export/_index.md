@@ -78,6 +78,9 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
  zur Dokumentkonvertierung und zum Export
+### [Wie man docx in Markdown in Java mit Tabellenunterstützung konvertiert](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+
+ Konvertieren Sie DOCX nach Markdown in Java, inklusive Tabellenunterstützung.
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words für Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 

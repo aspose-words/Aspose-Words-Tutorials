@@ -68,6 +68,9 @@ Aspose.Words for Java की मुख्य विशेषताओं मे�
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
 
+### [जावा में टेबल सपोर्ट के साथ docx को markdown में कैसे बदलें](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+
+
 ### [Aspose.Words for Java में बारकोड जेनरेशन का उपयोग करना](./using-barcode-generation/)
 Aspose.Words for Java का उपयोग करके जावा में कस्टम बारकोड कैसे जेनरेट करें, सीखें। स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ दस्तावेज़ ऑटोमेशन को बढ़ाएँ।
 
@@ -111,7 +114,7 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 ### [DOCX को मार्कडाउन के रूप में निर्यात – पूर्ण जावा गाइड](./export-docx-as-markdown-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलने की पूरी प्रक्रिया, कोड उदाहरण सहित।
 
-### [Word को Markdown के रूप में सहेजते समय रिज़ॉल्यूशन कैसे सेट करें](./how-to-set-resolution-when-saving-word-as-markdown/)
+### [Word को Markdown में सहेजते समय रिज़ॉल्यूशन कैसे सेट करें](./how-to-set-resolution-when-saving-word-as-markdown/)
 Word दस्तावेज़ को Markdown में बदलते समय इमेज रिज़ॉल्यूशन सेट करने की प्रक्रिया सीखें।
 
 ### [Aspose.Words के साथ docx को markdown में बदलना](./how-to-convert-docx-to-markdown-with-aspose-words/)
@@ -175,10 +178,10 @@ Word दस्तावेज़ को Markdown में बदलने क�
 ### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
 
-### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
 DOCX फ़ाइल से पूर्णतः सुलभ PDF बनाने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी सेटिंग्स सहित।
 
-### [Word को PNG कैसे सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [Word को PNG कैसे सहेजें – पूर्ण चरण‑दर‑स्टेप गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -203,67 +206,6 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [docx को txt के रूप में सहेजें – LaTeX गणित निर्यात के साथ तेज़ C# गाइड](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 C# में Aspose.Words का उपयोग करके DOCX को TXT में बदलें और LaTeX गणित को निर्यात करने का त्वरित गाइड।
-
-### [Word को Markdown में बदलते समय छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-when-converting-word-to-markdown-complet/)
-Word दस्तावेज़ को Markdown में बदलते समय छवियों को सही ढंग से एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
-
-### [PDF सहेजने के विकल्प – जावा में DOCX को PDF में पूर्ण नियंत्रण के साथ बदलें](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
-Aspose.Words for Java में PDF सहेजने के विकल्पों का उपयोग करके DOCX को PDF में बदलें और सभी सेटिंग्स को नियंत्रित करें।
-
-### [Word को Markdown कैसे सहेजें – पूर्ण गाइड](./how-to-save-markdown-from-word-complete-guide/)
-Word दस्तावेज़ को Markdown फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सेटिंग्स के साथ।
-
-### [Word से Markdown निर्यात कैसे करें – चरण‑दर‑स्टेप जावा गाइड](./how-to-export-markdown-from-word-step-by-step-java-guide/)
-Word दस्तावेज़ को Markdown फ़ॉर्मेट में निर्यात करने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ।
-
-### [Aspose.Words के साथ Word को PDF में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
-
-### [जावा में DOCX से सुलभ PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-in-java-full-guide/)
-Aspose.Words for Java का उपयोग करके DOCX फ़ाइल से एक्सेसिबल PDF बनाने की पूरी प्रक्रिया सीखें।
-
-### [DOCX को PDF में निर्यात – सुलभ PDF बनाने की पूर्ण गाइड](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
-DOCX फ़ाइलों को सुलभ PDF में बदलने के चरण‑दर‑स्टेप गाइड, एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ।
-
-### [Word को टेक्स्ट के रूप में सहेजें – Aspose.Words के साथ समीकरणों को LaTeX में निर्यात करें](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
-
-### [DOCX को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./embed-images-in-markdown-when-converting-docx/)
-DOCX को markdown में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
-
-### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
-Java में Aspose.Words का उपयोग करके DOCX को Markdown में परिवर्तित करते समय इमेजेज को Base64 एन्कोडेड रूप में एम्बेड करने का चरण‑दर‑स्टेप गाइड।
-
-### [जावा का उपयोग करके वर्ड से मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-word-using-java-complete-guide/)
-जावा में Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन में बदलने की पूरी प्रक्रिया सीखें।
-
-### [Word को Markdown के रूप में सहेजें – Java में टेबल्स को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-in-java/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में सहेजें और टेबल्स को HTML में निर्यात करें। चरण‑दर‑स्टेप कोड उदाहरण।
-
-### [दस्तावेज़ को DOCX के रूप में सहेजें – जावा के साथ मार्कडाउन को वर्ड में बदलें](./save-document-as-docx-convert-markdown-to-word-with-java/)
-Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
-
-### [Word को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./save-word-as-pdf-with-aspose-words-full-java-guide/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स।
-
-### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./how-to-save-markdown-from-word-complete-java-guide/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
-
-### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
-Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
-
-### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
-Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
-
-### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-docx-complete-programming-guide/)
-### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx/)
-### [Aspose Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाएं](./create-accessible-pdf-from-docx-using-aspose-words/)
-### [एक्सेसिबल PDF बनाएं – वर्ड को PDF में बदलने के लिए चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
-### [DOCX को मार्कडाउन में बदलते समय इमेज को CDN पर अपलोड करें – पूर्ण जावा गाइड](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
-### [docx को markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide/)
-
-### [दस्तावेज़ को TXT के रूप में सहेजें – DOCX को LaTeX के साथ टेक्स्ट में बदलें](./save-document-as-txt-convert-docx-to-text-with-latex/)
-
-### [Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण चरण‑दर‑स्टेप गाइड](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 
 ### [Word को Markdown में बदलते समय छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-when-converting-word-to-markdown-complet/)
 Word दस्तावेज़ को Markdown में बदलते समय छवियों को सही ढंग से एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
@@ -315,10 +257,168 @@ Word दस्तावेज़ को Markdown में बदलने क�
 ### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
 
-### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
 DOCX फ़ाइल से पूर्णतः सुलभ PDF बनाने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी सेटिंग्स सहित।
 
-### [Word से PNG कैसे सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
+### [Word से PNG कैसे सहेजें – पूर्ण चरण‑दर‑स्टेप गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+### [Aspose.Words for Java में DOCX से LaTeX निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-latex-from-docx-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को LaTeX फ़ॉर्मेट में निर्यात करने की चरण‑दर‑स्टेप गाइड।
+
+### [Aspose.Words के साथ DOCX को PDF में सहेजें – पूर्ण जावा गाइड](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+
+### [Aspose के साथ Word से एक्सेसिबल PDF बनाना – जावा](./generate-accessible-pdf-from-word-with-aspose-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से एक्सेसिबल PDF उत्पन्न करने की पूरी गाइड।
+
+### [DOCX को Markdown में बदलें – गणित निर्यात के साथ पूर्ण Java गाइड](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+
+### [DOCX को TXT में बदलें – Word समीकरणों को LaTeX के रूप में निर्यात करें](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aspose.Words for Java का उपयोग करके DOCX को TXT में बदलें और Word समीकरणों को LaTeX रूप में निर्यात करें।
+
+### [Aspose.Words for Java में Word को Markdown में निर्यात – पूर्ण Java गाइड](./export-word-to-markdown-full-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [Word से सुलभ PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया सीखें, जिसमें टैग, लेबल और नेविगेशन जोड़ना शामिल है।
+
+### [docx को txt के रूप में सहेजें – LaTeX गणित निर्यात के साथ तेज़ C# गाइड](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+C# में Aspose.Words का उपयोग करके DOCX को TXT में बदलें और LaTeX गणित को निर्यात करने का त्वरित गाइड।
+
+### [Word को Markdown में बदलते समय छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Word दस्तावेज़ को Markdown में बदलते समय छवियों को सही ढंग से एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
+
+### [PDF सहेजने के विकल्प – जावा में DOCX को PDF में पूर्ण नियंत्रण के साथ बदलें](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Aspose.Words for Java में PDF सहेजने के विकल्पों का उपयोग करके DOCX को PDF में बदलें और सभी सेटिंग्स को नियंत्रित करें।
+
+### [Word को Markdown कैसे सहेजें – पूर्ण गाइड](./how-to-save-markdown-from-word-complete-guide/)
+Word दस्तावेज़ को Markdown फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सेटिंग्स के साथ।
+
+### [Word को Markdown निर्यात कैसे करें – चरण‑दर‑स्टेप जावा गाइड](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Word दस्तावेज़ को Markdown फ़ॉर्मेट में निर्यात करने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ।
+
+### [Aspose.Words के साथ Word को PDF में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [जावा में DOCX से सुलभ PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल से एक्सेसिबल PDF बनाने की पूरी प्रक्रिया सीखें।
+
+### [DOCX को PDF में निर्यात – सुलभ PDF बनाने की पूर्ण गाइड](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+DOCX फ़ाइलों को सुलभ PDF में बदलने के चरण‑दर‑स्टेप गाइड, एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ।
+
+### [Word को टेक्स्ट के रूप में सहेजें – Aspose.Words के साथ समीकरणों को LaTeX में निर्यात करें](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+
+### [DOCX को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./embed-images-in-markdown-when-converting-docx/)
+DOCX को markdown में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Java में Aspose.Words का उपयोग करके DOCX को Markdown में परिवर्तित करते समय इमेजेज को Base64 एन्कोडेड रूप में एम्बेड करने का चरण‑दर‑स्टेप गाइड।
+
+### [जावा का उपयोग करके वर्ड से मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-word-using-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन में बदलने की पूरी प्रक्रिया सीखें।
+
+### [Word को Markdown के रूप में सहेजें – Java में टेबल्स को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में सहेजें और टेबल्स को HTML में निर्यात करें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [दस्तावेज़ को DOCX के रूप में सहेजें – जावा के साथ मार्कडाउन को वर्ड में बदलें](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [Word को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स।
+
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./how-to-save-markdown-from-word-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
+
+### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
+
+### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+DOCX फ़ाइल से पूर्णतः सुलभ PDF बनाने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी सेटिंग्स सहित।
+
+### [Word से PNG कैसे सहेजें – पूर्ण चरण‑दर‑स्टेप गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+### [Aspose.Words for Java में DOCX से LaTeX निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-latex-from-docx-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को LaTeX फ़ॉर्मेट में निर्यात करने की चरण‑दर‑स्टेप गाइड।
+
+### [Aspose.Words के साथ DOCX को PDF में सहेजें – पूर्ण जावा गाइड](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+
+### [Aspose के साथ Word से एक्सेसिबल PDF बनाना – जावा](./generate-accessible-pdf-from-word-with-aspose-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से एक्सेसिबल PDF उत्पन्न करने की पूरी गाइड।
+
+### [DOCX को Markdown में बदलें – गणित निर्यात के साथ पूर्ण Java गाइड](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+
+### [DOCX को TXT में बदलें – Word समीकरणों को LaTeX के रूप में निर्यात करें](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aspose.Words for Java का उपयोग करके DOCX को TXT में बदलें और Word समीकरणों को LaTeX रूप में निर्यात करें।
+
+### [Aspose.Words for Java में Word को Markdown में निर्यात – पूर्ण Java गाइड](./export-word-to-markdown-full-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [Word से सुलभ PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया सीखें, जिसमें टैग, लेबल और नेविगेशन जोड़ना शामिल है।
+
+### [docx को txt के रूप में सहेजें – LaTeX गणित निर्यात के साथ तेज़ C# गाइड](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+C# में Aspose.Words का उपयोग करके DOCX को TXT में बदलें और LaTeX गणित को निर्यात करने का त्वरित गाइड।
+
+### [Word को Markdown में बदलते समय छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Word दस्तावेज़ को Markdown में बदलते समय छवियों को सही ढंग से एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
+
+### [PDF सहेजने के विकल्प – जावा में DOCX को PDF में पूर्ण नियंत्रण के साथ बदलें](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Aspose.Words for Java में PDF सहेजने के विकल्पों का उपयोग करके DOCX को PDF में बदलें और सभी सेटिंग्स को नियंत्रित करें।
+
+### [Word को Markdown कैसे सहेजें – पूर्ण गाइड](./how-to-save-markdown-from-word-complete-guide/)
+Word दस्तावेज़ को Markdown फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सेटिंग्स के साथ।
+
+### [Word को Markdown निर्यात कैसे करें – चरण‑दर‑स्टेप जावा गाइड](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Word दस्तावेज़ को Markdown फ़ॉर्मेट में निर्यात करने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ।
+
+### [Aspose.Words के साथ Word को PDF में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [जावा में DOCX से सुलभ PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल से एक्सेसिबल PDF बनाने की पूरी प्रक्रिया सीखें।
+
+### [DOCX को PDF में निर्यात – सुलभ PDF बनाने की पूर्ण गाइड](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+DOCX फ़ाइलों को सुलभ PDF में बदलने के चरण‑दर‑स्टेप गाइड, एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ।
+
+### [Word को टेक्स्ट के रूप में सहेजें – Aspose.Words के साथ समीकरणों को LaTeX में निर्यात करें](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+
+### [DOCX को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./embed-images-in-markdown-when-converting-docx/)
+DOCX को markdown में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Java में Aspose.Words का उपयोग करके DOCX को Markdown में परिवर्तित करते समय इमेजेज को Base64 एन्कोडेड रूप में एम्बेड करने का चरण‑दर‑स्टेप गाइड।
+
+### [जावा का उपयोग करके वर्ड से मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-word-using-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन में बदलने की पूरी प्रक्रिया सीखें।
+
+### [Word को Markdown के रूप में सहेजें – Java में टेबल्स को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में सहेजें और टेबल्स को HTML में निर्यात करें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [दस्तावेज़ को DOCX के रूप में सहेजें – जावा के साथ मार्कडाउन को वर्ड में बदलें](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [Word को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स।
+
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./how-to-save-markdown-from-word-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
+
+### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
+
+### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+DOCX फ़ाइल से पूर्णतः सुलभ PDF बनाने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी सेटिंग्स सहित।
+
+### [Word से PNG कैसे सहेजें – पूर्ण चरण‑दर‑स्टेप गाइड](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -419,7 +519,7 @@ DOCX को markdown में परिवर्तित करते सम�
 ### [Aspose.Words for Java में एक्सेसिबल PDF बनाना – पूर्ण टैगिंग गाइड](./create-accessible-pdf-in-java-full-tagging-guide/)
 Aspose.Words for Java का उपयोग करके एक्सेसिबल PDF बनाने के लिए टैगिंग चरण‑दर‑स्टेप गाइड।
 
-### [Aspose.Words Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण एक्सेसिबिलिटी गाइड](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+### [Aspose.Words for Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण एक्सेसिबिलिटी गाइड](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
 
 ### [PDF/UA‑2 अनुरूप दस्तावेज़ बनाना – पूर्ण जावा गाइड](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके PDF/UA‑2 मानकों के अनुरूप दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
@@ -457,7 +557,7 @@ C# में Aspose.Words का उपयोग करके DOCX को मा
 
 ### [Word को PDF में बदलें – सुलभ PDF उत्पन्न करें](./convert-word-to-pdf-generate-accessible-pdf/)
 
-### [Word से PNG बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-from-word-complete-step-by-step-guide/)
+### [Word से PNG बनाएं – पूर्ण चरण‑दर‑स्टेप गाइड](./create-png-from-word-complete-step-by-step-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से PNG छवि बनाने का विस्तृत चरण‑दर‑स्टेप गाइड।
 
 ### [Java के साथ PDF/UA‑1 अनुपालन फ़ाइल बनाना – पूर्ण गाइड](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)

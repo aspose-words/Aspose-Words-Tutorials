@@ -71,6 +71,9 @@ Start your learning journey today and unlock the endless possibilities of docume
 ### [How to create blank Word document with a plain text content control in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 
+### [How to insert plain text content control in a Word document with C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
+
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

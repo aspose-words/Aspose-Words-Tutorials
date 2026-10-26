@@ -86,6 +86,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
 ### [วิธีโหลด Markdown ใน Java – คู่มือฉบับสมบูรณ์](./how-to-load-markdown-in-java-complete-guide/)
+### [วิธีอ่านไฟล์ Markdown ด้วย Java – Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 ### [ตัวเลือกการบันทึกขั้นสูงด้วย Aspose.Words for Java](./advance-saving-options/)
 
 ### [การบันทึกเอกสาร HTML ด้วย Fixed Layout ใน Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -96,9 +97,9 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 
 ### [การบันทึกเอกสารเป็น Markdown ใน Aspose.Words for Java](./saving-documents-as-markdown/)
 
-### [การบันทึกเอกสารเป็นรูปแบบ ODT ใน Aspose.Words for Java](./saving-documents-as-odt-format/)
+### [การบันทึกเอกสารเป็น ODT ใน Aspose.Words for Java](./saving-documents-as-odt-format/)
 
-### [การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+### [การบันทึกเอกสารเป็นรูปแบบ OOXM​L ใน Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 
 ### [การบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words for Java](./saving-documents-as-pcl-format/)
 
@@ -114,6 +115,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [วิธีกู้คืน DOCX – โหลดไฟล์เสียหายด้วยตัวเลือกการกู้คืน](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [กู้ไฟล์ Word – คู่มือฉบับสมบูรณ์ในการตั้งค่าโหมดการกู้คืนใน Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [เปิดไฟล์ Word ที่เสีย – ตั้งค่าโหมดการกู้คืนใน Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 ### [กู้ไฟล์ docx ที่เสียด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
@@ -147,6 +149,8 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การแทนที่ฟอนต์ Aspose – จัดการฟอนต์ที่หายไป](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [วิธีโหลดไฟล์จากไดเรกทอรีโดยใช้ Aspose.Words ใน C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [วิธีตั้งค่าตัวเลือกใน Aspose.Words for Java – คู่มือฉบับสมบูรณ์](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
+### [วิธีระบุการเข้ารหัสเมื่อโหลดเอกสารด้วย Aspose.Words for Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
 ## คำถามที่พบบ่อย
 

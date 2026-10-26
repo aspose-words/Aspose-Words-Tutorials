@@ -59,6 +59,9 @@ Začněte svou cestu učení ještě dnes a odemkněte nekonečné možnosti man
 ### [Jak nastavit název značky a přidat SDT do dokumentu Word pomocí C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 Naučte se, jak nastavit název značky a vložit strukturovaný dokumentový tag (SDT) v dokumentu Word pomocí C# a Aspose.Words.
 
+### [Jak vložit prostý textový ovládací prvek do dokumentu Word pomocí C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Naučte se, jak vložit prostý textový ovládací prvek do dokumentu Word pomocí C# a Aspose.Words.
+
 ### [Jak vytvořit prázdný dokument Word s prostým textovým ovládacím prvkem v C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 Naučte se, jak vytvořit prázdný dokument Word s prostým textovým ovládacím prvkem pomocí C# a Aspose.Words.
 

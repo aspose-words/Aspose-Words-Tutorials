@@ -136,6 +136,8 @@ Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java da
 Pelajari cara menetapkan nama tag dan menambahkan Structured Document Tag (SDT) pada dokumen Word menggunakan C#.
 ### [Membuat dokumen Word kosong dan menambahkan tombol ActiveX di C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan tombol ActiveX menggunakan C# dengan Aspose.Words.
+### [Cara menyisipkan kontrol konten teks biasa dalam dokumen Word dengan C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Pelajari cara menyisipkan kontrol konten teks biasa ke dalam dokumen Word menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

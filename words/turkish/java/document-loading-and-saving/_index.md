@@ -81,6 +81,9 @@ Aspose.Words for Java’ın çok yönlülüğünü keşfederken belgeleri çeşi
 Belge ayarları, tam gereksinimlerinize uygun çıktılar sunmanın anahtarıdır. Sayfa boyutu, kenar boşlukları ve yazı tipleri gibi ayarları nasıl ayarlayacağınızı öğrenerek istediğiniz sonucu elde edin.
 
 ## İlgili Eğitimler – Yükleme, Kaydetme ve Dönüştürme
+### [How to read markdown file java with Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+
+
 ### [Aspose.Words for Java ile HTML Belgelerini Yükleme ve Kaydetme](./loading-and-saving-html-documents/)
 Java’da Aspose.Words for Java kullanarak HTML belgelerini nasıl yükleyip kaydedeceğinizi öğrenin. Sorunsuz belge entegrasyonu için adım adım kılavuz ve kod örnekleri.
 
@@ -90,7 +93,10 @@ Aspose.Words for Java’da Yükleme Seçeneklerini ustalıkla kullanın. Belge y
 ### [Aspose.Words for Java’da RTF Yükleme Seçeneklerini Yapılandırma](./configuring-rtf-load-options/)
 Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belgelerinde UTF-8 metni tanıma yöntemlerini öğrenin. Adım adım kılavuz ve kod örnekleri.
 
-### [Aspose.Words for Java’nun Metin Dosyalarını Yükleme](./loading-text-files/)
+### [Aspose.Words for Java ile belge yüklerken kodlamayı nasıl belirtirsiniz](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
+Aspose.Words for Java ile bir belgeyi yüklerken doğru karakter kodlamasını belirleyerek metin doğruluğunu sağlayın.
+
+### [Aspose.Words for Java’nun Metin Dosalarını Yükleme](./loading-text-files/)
 Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
@@ -186,7 +192,7 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 Java’da Aspose.Words ile belge yüklerken uyarı geri çağrısını nasıl ele alacağınızı öğrenin.
 ### [Uyarılar İçin LoadOptions Yapılandırma – Tam Java Kılavuzu](./configure-loadoptions-for-warnings-complete-java-guide/)
 Java’da Aspose.Words ile uyarıların yakalanması için LoadOptions nasıl yapılandırılır, örnek kodlarla adım adım öğrenin.
-### [Aspose Yazı Tipi Değiştirme Eğitimi – Eksik Yazı Tiplerini Ele Alma](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Aspose.Words Yazı Tipi Değiştirme Eğitimi – Eksik Yazı Tiplerini Ele Alma](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Java’da eksik yazı tiplerini yakalayarak ve değiştirme uyarılarını yöneterek belge işleme sürecinizi iyileştirin.
 
 ### [Java’da markdown alt çizgisi yükleme – tam programlama rehberi](./load-markdown-underline-in-java-complete-programming-guide/)

@@ -132,6 +132,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีสร้างไฟล์ Word เปล่าใน Java ด้วย Aspose.Words อย่างง่ายดาย
 ### [วิธีสร้างเอกสาร Word ว่างพร้อมคอนเทนต์คอนโทรลข้อความธรรมดาใน C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 สร้างเอกสาร Word ว่างพร้อมคอนเทนต์คอนโทรลข้อความธรรมดาโดยใช้ C#
+### [วิธีแทรก Content Control ข้อความธรรมดาในเอกสาร Word ด้วย C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+เรียนรู้วิธีแทรก Content Control ข้อความธรรมดาในไฟล์ Word ด้วย C# โดยใช้ Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

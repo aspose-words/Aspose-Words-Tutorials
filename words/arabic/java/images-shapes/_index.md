@@ -139,11 +139,11 @@
 ### [إدراج مخطط دائري في Java – تفجير، تدوير وتحديد الشرائح](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 تعلم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words for Java مع تفجير وتدوير وتظليل الشرائح.
 
-### [إنشاء مستند Word فارغ مع أشكال مجمعة في Java](./create-blank-word-document-with-grouped-shapes-in-java/)
-تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال المجمعة باستخدام Aspose.Words لجافا
+### [كيفية إنشاء مخطط دونات وإدراج مخطط دائري](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+تعلم كيفية إنشاء مخطط دونات وإضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words لجافا
 
-### [دروس Aspose.Words ActiveX – إدراج زر CommandButton باستخدام Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-تعلم كيفية إضافة زر CommandButton إلى مستند Word باستخدام ActiveX و Java
+### [إنشاء مستند Word فارغ مع أشكال مجمعة في Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+تعلم كيفية إنشاء مستند Word فارغ يحتوي على مجموعة من الأشكال باستخدام Aspose.Words للغة C#.
 
 ### [إنشاء مستند Word في Java – إخفاء الشكل وتعيين لون التعبئة](./create-word-document-java-hide-shape-and-set-fill-color/)
 تعلم كيفية إخفاء شكل في مستند Word وتحديد لون التعبئة باستخدام Aspose.Words لجافا
@@ -152,6 +152,12 @@
 
 ### [كيفية إدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 دليل خطوة بخطوة لإدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words لجافا
+
+### [كيفية إنشاء مستند Word فارغ وتجميع أشكال متعددة](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+دليل خطوة بخطوة لإنشاء مستند Word فارغ وتجميع أشكال متعددة باستخدام Aspose.Words لجافا
+
+### [إنشاء مستند Word برمجيًا وإضافة شكل في Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+تعلم كيفية إنشاء مستند Word برمجيًا وإضافة شكل باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

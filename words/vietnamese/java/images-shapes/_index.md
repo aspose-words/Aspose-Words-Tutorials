@@ -151,6 +151,17 @@ Hướng dẫn tạo tài liệu Word mới và chèn các hình dạng được
 
 ### [Cách chèn ellipse và hình chữ nhật vào trong một nhóm hình dạng với Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
+### [Cách tạo tài liệu Word trống và nhóm nhiều hình dạng](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+### [Tạo tài liệu Word bằng lập trình và thêm hình dạng trong Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+Hướng dẫn tạo tài liệu Word và chèn hình dạng bằng Aspose.Words cho Java.
+
+### [Cách tạo biểu đồ donut trong tài liệu Word bằng Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách tạo biểu đồ donut và chèn biểu đồ tròn](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+Hướng dẫn tạo biểu đồ donut và chèn biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

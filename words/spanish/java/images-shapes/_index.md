@@ -28,6 +28,9 @@ En el ámbito del procesamiento de documentos, la integración de imágenes y fo
 
 ## Tutoriales disponibles
 
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -155,6 +158,14 @@ Aprenda a crear un documento Word vacío y agregar formas agrupadas usando Aspos
 
 ### [Crear un documento Word en blanco y añadir una forma rectangular](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 Aprenda a crear un documento Word vacío y añadir una forma rectangular usando Aspose.Words para Java.
+
+### [Crear documento Word programáticamente y agregar una forma en Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+Aprenda a crear un documento Word mediante código y añadir una forma usando Aspose.Words para Java.
+
+### [Cómo crear un documento Word con una imagen oculta en Java](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words para Java.
+
+### [Cómo crear un doughnut chart y insertar un pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## Recursos adicionales
 

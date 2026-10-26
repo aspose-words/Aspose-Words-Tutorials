@@ -207,6 +207,15 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 
+### [How to create a doughnut chart and insert a pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+
+### [Create Word document programmatically and add a shape in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [Create a blank Word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 {{< /blocks/products/pf/main-wrap-class >}}

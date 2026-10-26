@@ -54,7 +54,7 @@
 ### [Πώς να ορίσετε σκιά σε σχήμα σε C# – Προσθήκη σκιάς σχήματος εύκολα](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας το Aspose.Words για C#.
 
-### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word Java – Πλήρης οδηγός βήμα‑βήμα](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word Java – Πλήρης οδηγός βήμα‑βήμα](./create-rectangle-shape-in-java-word-document-full-step-st/)
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες.
 
 ### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
@@ -77,7 +77,7 @@
 ### [Πώς να εισάγετε σχήμα ομάδας σε Java – Πλήρης Οδηγός](./how-to-insert-group-shape-in-java-complete-guide/)
 Μάθετε πώς να προσθέσετε σχήμα ομάδας σε έγγραφα Word με το Aspose.Words για Java, με πλήρη παραδείγματα και οδηγίες.
 
-### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένα ορθογώνια – Οδηγός C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+### [Δημιουργία κενής εγγραφής Word με ομαδοποιημένα ορθογώνια – Οδηγός C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένα ορθογώνια σχήματα χρησιμοποιώντας C# και Aspose.Words.
 
 ### [Εισαγωγή σχήματος ορθογωνίου σε Java – Ομαδοποίηση και τοποθέτηση σχημάτων](./insert-rectangle-shape-in-java-group-and-position-shapes/)
@@ -99,7 +99,7 @@
 
 ### [Πώς να ορίσετε την ιδιότητα κρυφής μορφής σε σχήμα στο Aspose.Words για C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Μάθετε πώς να κάνετε το σχήμα αόρατο ορίζοντας την ιδιότητα Hidden με το Aspose.Words για C#.
-### [Δημιουργία κενής εγγράφου Word και ομαδοποίηση σχημάτων σε Java](./create-blank-word-document-and-group-shapes-in-java/)
+### [Δημιουργία κενής εγγραφής Word και ομαδοποίηση σχημάτων σε Java](./create-blank-word-document-and-group-shapes-in-java/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
 ### [Δημιουργία σχήματος ορθογωνίου στο Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
@@ -131,30 +131,16 @@
 ### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένο σχήμα – Java](./create-blank-word-document-with-grouped-shape-java-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένο σχήμα χρησιμοποιώντας το Aspose.Words για Java.
 
-### [Δημιουργία εγγράφου Word Java – Εισαγωγή και απόκρυψη εικόνων με Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
-Μάθετε πώς να εισάγετε εικόνες σε έγγραφο Word και να τις κρύψετε χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε πολλαπλά σχήματα](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+Μάθετε πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε πολλαπλά σχήματα χρησιμοποιώντας το Aspose.Words για Java.
 
-### [Εισαγωγή διαγράμματος πίτας σε Java – Έκρηξη, Περιστροφή & Επισήμανση Τμημάτων](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
-Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε ένα διάγραμμα πίτας, με εκρήξεις, περιστροφή και επισήμανση τμημάτων, χρησιμοποιώντας Aspose.Words για Java.
+### [Δημιουργία εγγράφου Word προγραμματιστικά και προσθήκη σχήματος σε Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
-### [Δημιουργία εγγράφου Word Java – απόκρυψη σχήματος και ορισμός χρώματος γεμίσματος](./create-word-document-java-hide-shape-and-set-fill-color/)
-Μάθετε πώς να κρύψετε σχήματα και να ορίσετε χρώμα γεμίσματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένα σχήματα σε Java](./create-blank-word-document-with-grouped-shapes-in-java/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένα σχήματα χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Aspose.Words ActiveX σεμινάριο – εισαγωγή CommandButton με Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-Μάθετε πώς να ενσωματώσετε ένα CommandButton ActiveX σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Πώς να δημιουργήσετε κενό έγγραφο Word με ομαδοποιημένα σχήματα](./how-to-create-blank-word-document-with-grouped-shapes/)
-
-### [Πώς να εισάγετε σχήματα έλλειψης και ορθογωνίου μέσα σε σχήμα ομάδας με το Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
-
-### [Δημιουργία κενής εγγράφου Word και προσθήκη σχήματος ορθογωνίου](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+### [Πώς να δημιουργήσετε διάγραμμα ντόνατ και να εισάγετε διάγραμμα πίτας](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## Πρόσθετοι Πόροι
 
-### [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+### [Δημιουργία κενής εγγραφής Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σχήμα έλλειψης κρυμμένο στο έγγραφο.
 
 ### [Πώς να δημιουργήσετε κενό έγγραφο και να προσθέσετε σχήματα στο Word](./how-to-create-blank-document-and-add-shapes-to-word/)
@@ -166,7 +152,7 @@
 ### [Δημιουργία εγγράφου Word προγραμματιστικά, ομαδοποίηση σχημάτων σε Java](./create-word-document-programmatically-group-shapes-in-java/)
 Μάθετε πώς να δημιουργήσετε έγγραφο Word και να ομαδοποιήσετε σχήματα προγραμματιστικά με το Aspose.Words για Java.
 
-### [Πώς να δημιουργήσετε κενό έγγραφο Word και να προσθέσετε ένα κρυφό σχήμα έλλειψης σε C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+### [Πώς να δημιουργήσετε κενό έγγραφο και να προσθέσετε ένα κρυφό σχήμα έλλειψης σε C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ενσωματώσετε ένα κρυφό έλλειψο σχήμα χρησιμοποιώντας C#.
 
 ### [Πώς να δημιουργήσετε διάγραμμα ντόνατ σε έγγραφο Word με Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)

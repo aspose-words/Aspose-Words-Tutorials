@@ -28,10 +28,15 @@ Dans le domaine du traitement de documents, l'intégration d'images et de formes
 
 ## Tutoriels disponibles
 
+### [How to create a doughnut chart and insert a pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 
 ### [Enregistrement de pages et d'images personnalisées en Java avec les rappels Aspose.Words](./aspose-words-java-callback-custom-savings/)
@@ -151,6 +156,8 @@ Apprenez à insérer et gérer des formes groupées dans vos documents Word avec
 ### [Comment insérer des formes ellipse et rectangle dans une forme groupée avec Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ### [Créer un document Word vierge et ajouter une forme rectangle](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [Créer un document Word programmatique et ajouter une forme en Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
 ## Ressources supplémentaires
 

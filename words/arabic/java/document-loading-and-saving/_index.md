@@ -82,7 +82,7 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 ### [تكوين خيارات تحميل RTF في Aspose.Words لـ Java](./configuring-rtf-load-options/)
 تكوين خيارات تحميل RTF في Aspose.Words لجافا. تعلّم كيفية تمييز نصوص UTF-8 في مستندات RTF. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [تحميل ملفات النصوص باستخدام Aspose.Words لـ Java](./loading-text-files/)
-اكتشف قوة Aspose.Words في جافا. تعلم كيفية تحميل المستندات النصية، وإدارة القوائم، والتعامل مع المسافات، والتحكم في اتجاه النص.
+اكتشف قوة Aspose.Words في جافا. تعلم كيفية تحميل المستندات النصية، إدارة القوائم، التعامل مع المسافات، والتحكم في اتجاه النص.
 ### [خيارات الحفظ المتقدمة مع Aspose.Words لـ Java](./advance-saving-options/)
 تعلم التعامل المتقدم مع المستندات باستخدام Aspose.Words لجافا. شفّر، عالج ملفات التعريف، وأكثر. مستندات Word، على طريقتك.
 ### [حفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java](./saving-html-documents-with-fixed-layout/)
@@ -96,15 +96,15 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 ### [حفظ المستندات بتنسيق ODT في Aspose.Words لـ Java](./saving-documents-as-odt-format/)
 تعرّف على كيفية حفظ المستندات بتنسيق ODT باستخدام Aspose.Words لجافا. تأكّد من توافقها مع برامج Office مفتوحة المصدر. 
 ### [حفظ المستندات بتنسيق OOXML في Aspose.Words لـ Java](./saving-documents-as-ooxml-format/)
-تعلّم كيفية حفظ المستندات بتنسيق OOXML باستخدام Aspose.Words لجافا. وفّر الحماية والتحسين والتخصيص لملفاتك بسهولة. 
+تعلّّم كيفية حفظ المستندات بتنسيق OOXML باستخدام Aspose.Words لجافا. وفّر الحماية والتحسين والتخصيص لملفاتك بسهولة. 
 ### [حفظ المستندات بتنسيق PCL في Aspose.Words لـ Java](./saving-documents-as-pcl-format/)
-تعلّم كيفية حفظ المستندات بتنسيق PCL باستخدام Aspose.Words لجافا. دليل خطوة بخطوة وأمثلة برمجية لتحويل المستندات بكفاءة.
+تعلّّم كيفية حفظ المستندات بتنسيق PCL باستخدام Aspose.Words لجافا. دليل خطوة بخطوة وأمثلة برمجية لتحويل المستندات بكفاءة.
 ### [حفظ المستندات بتنسيق PDF في Aspose.Words لـ Java](./saving-documents-as-pdf/)
 تعرّف على كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words لجافا. خصّص الخطوط والخصائص وجودة الصورة. دليل شامل لتحويل ملفات PDF.
 ### [حفظ المستندات بتنسيق RTF في Aspose.Words لـ Java](./saving-documents-as-rtf-format/)
-تعلّم كيفية حفظ المستندات بصيغة RTF باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لتحويل المستندات بكفاءة.
+تعلّّم كيفية حفظ المستندات بصيغة RTF باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لتحويل المستندات بكفاءة.
 ### [حفظ المستندات كملفات نصية في Aspose.Words لـ Java](./saving-documents-as-text-files/)
-تعلّم كيفية حفظ المستندات كملفات نصية في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة مع أمثلة أكواد جافا.
+تعلّّم كيفية حفظ المستندات كملفات نصية في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة مع أمثلة أكواد جافا.
 ### [تحديد تنسيق المستند في Aspose.Words لـ Java](./determining-document-format/)
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
 ### [كيفية استعادة DOCX – تحميل ملفات تالفة مع خيارات الاسترداد](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
@@ -155,6 +155,9 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها باستخدام Aspose.Words لجافا.
 ### [كيفية تحميل Markdown في Java – دليل شامل](./how-to-load-markdown-in-java-complete-guide/)
 
+### [كيفية قراءة ملف markdown في Java باستخدام Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+تعلم كيفية تحميل ملفات markdown ومعالجتها في Java باستخدام Aspose.Words خطوة بخطوة.
+
 #### الحفظ بصيغ مختلفة
 
 استكشف مرونة Aspose.Words for Java بينما نتعمق في حفظ المستندات بصيغ مختلفة. حوّل مستنداتك إلى PDF أو DOCX أو حتى HTML بسهولة. *(هنا ستجد أيضًا نمط “save pdf java” قيد التنفيذ.)*
@@ -166,12 +169,14 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 اكتشف كيفية تمكين وضع الاسترداد في Aspose.Words لقراءة التحذيرات واستعادة ملفات DOCX التالفة بسهولة.
 
 ### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+تعلم كيفية التقاط تحذيرات استبدال الخطوط واكتشاف الخطوط المفقودة عند تحميل المستندات باستخدام Aspose.Words for Java.
+
 ### [كيفية استعادة ملف DOCX – دليل كامل لقراءة ملفات Word التالفة](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة وقراءة محتواها باستخدام Aspose.Words for Java.
 ### [ضبط وضع الاستعادة لاستعادة مستند Word التالف](./set-recovery-mode-to-recover-broken-word-document/)
 ### [كيفية الحصول على الخطوط المفقودة في Java – دليل Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [كيفية استعادة ملفات DOCX باستخدام Aspose.Words لجافا – دليل خطوة بخطوة](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
-تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لجافا خطوة بخطوة مع أمثلة برمجية.
+تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لجافا خطوة بخطوة مع أمثلة عملية.
 ### [كيفية استعادة ملف docx – حفظ المستند المستعاد باستخدام Java](./how-to-recover-docx-save-recovered-document-using-java/)
 تعرّف على طريقة استعادة ملفات DOCX التالفة وحفظ النسخة المستعادة باستخدام Aspose.Words for Java.
 ### [كيفية استعادة DOCX – تعيين وضع الاسترداد وعرض التحذيرات](./how-to-recover-docx-set-recovery-mode-display-warnings/)
@@ -189,6 +194,9 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلم كيفية استعادة مستندات Word التالفة باستخدام Aspose.Words for Java عبر خطوات مفصلة وأمثلة عملية.
 ### [التقاط تحذيرات استبدال الخطوط – اكتشاف الخطوط المفقودة](./capture-font-substitution-warnings-detect-missing-fonts/)
 تعلم كيفية التقاط تحذيرات استبدال الخطوط واكتشاف الخطوط المفقودة عند تحميل المستندات باستخدام Aspose.Words for Java.
+
+### [كيفية تحديد الترميز عند تحميل مستند باستخدام Aspose.Words لـ Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
+تعلم كيفية تعيين الترميز الصحيح عند تحميل المستندات باستخدام Aspose.Words for Java لتجنب مشاكل الأحرف.
 
 ## الأسئلة المتكررة
 

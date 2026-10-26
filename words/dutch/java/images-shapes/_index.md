@@ -103,7 +103,7 @@ Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor 
 ### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
 ### [Leeg Word-document maken en vormen groeperen in Java](./create-blank-word-document-and-group-shapes-in-java/)
-Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.Words voor Java.
+Leer hoe u een leeg Word-document maakt en meerdere vormen groept met Aspose.Words voor Java.
 
 ### [Hoe maak je een groepsvorm docx en voeg interactieve besturingselementen toe in C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 ### [Rechthoekvorm maken in Word met Java – Volledige gids](./create-rectangle-shape-in-word-with-java-full-guide/)
@@ -139,6 +139,8 @@ Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt m
 ### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
 
+### [Hoe maak je een donutgrafiek en een taartdiagram invoegen](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
 ### [Word-document maken in Java – vorm verbergen en vulkleur instellen](./create-word-document-java-hide-shape-and-set-fill-color/)
 Leer hoe u een vorm verbergt en de vulkleur aanpast in een Word-document met Aspose.Words voor Java.
 
@@ -147,6 +149,11 @@ Leer hoe u een leeg Word-document maakt en daarin gegroepeerde vormen toevoegt m
 
 ### [Maak een leeg Word-document en voeg een rechthoekvorm toe](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 Leer hoe u een leeg Word-document maakt en een rechthoekvorm toevoegt met Aspose.Words voor Java.
+
+### [Hoe een leeg Word-document te maken en meerdere vormen te groeperen](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+Leer hoe u een leeg Word-document maakt en meerdere vormen groept met Aspose.Words voor Java.
+
+### [Word-document programmatisch maken en een vorm toevoegen in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
 ## Aanvullende bronnen
 

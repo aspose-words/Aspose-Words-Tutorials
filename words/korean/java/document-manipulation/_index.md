@@ -58,6 +58,7 @@ Aspose.Words for Java를 활용한 문서 관리는 개발자와 기업 모두�
 ## 문서 조작 튜토리얼
 ### [Aspose.Words를 사용하여 프로그래밍 방식으로 워드 문서 만들기](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+### [C#를 사용하여 Word 문서에 일반 텍스트 콘텐츠 컨트롤 삽입하기](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
 
 ### [Java용 Aspose.Words에서 정리 옵션 사용](./using-cleanup-options/)

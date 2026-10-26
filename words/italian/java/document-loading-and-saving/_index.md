@@ -117,14 +117,19 @@ Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l
 
 ### [Apri documento Word corrotto – Imposta la modalità di recupero in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Scopri come aprire file Word danneggiati impostando la modalità di recupero con Aspose.Words per Java, garantendo il ripristino dei contenuti.
+
 ### [Recupera docx corrotto usando Aspose.Words per Java](./recover-corrupted-docx-using-aspose-words-java/)
 Scopri come riparare file DOCX corrotti e recuperarne il contenuto con Aspose.Words per Java in pochi passaggi.
-### [Recupera docx corrotto con Aspose.Words – Guida Java completa](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
+### [Recupera docx corrotto con Aspose.Words – Guida Java completa](./recover-corrupted-docx-with-aspose-words-java/)
 Scopri come riparare file DOCX danneggiati e continuare l'elaborazione con Aspose.Words per Java.
+
 ### [Recupera DOCX corrotto in Java – Guida completa di programmazione](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Scopri come individuare e riparare DOCX danneggiati in Java usando Aspose.Words, con esempi di codice passo‑per‑step.
+
 ### [Aspose.Words LoadOptions – Recupera Documenti Word Corrotti in Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Scopri come utilizzare LoadOptions per recuperare documenti Word corrotti in Java con Aspose.Words.
+
 ### [Recuperare DOCX corrotto con Aspose.Words per Java – Guida completa](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Impara a riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
 
@@ -200,7 +205,7 @@ Scopri come impostare la modalità di recupero per riparare documenti Word danne
 ### [Registra callback di avviso in Java – Traccia i font mancanti](./register-warning-callback-in-java-track-missing-fonts/)
 Impara a registrare una callback per gli avvisi di sostituzione dei font in Java con Aspose.Words, per monitorare i font mancanti.
 
-### [Rileva la sostituzione di font mancanti in Java – Guida completa Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Rileva la sostituzione di font mancanti in Java – Guida completa Aspose.Wor](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Scopri come individuare le sostituzioni di font mancanti durante l'elaborazione dei documenti Word in Java con Aspose.Words.
 
 ### [Registra avvisi di sostituzione dei font in Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
@@ -214,6 +219,8 @@ Scopri come salvare un documento DOCX in Java aggiungendo Content Controls per g
 
 ### [Carica sottolineatura Markdown in Java – guida completa di programmazione](./load-markdown-underline-in-java-complete-programming-guide/)
 Scopri come caricare e gestire le sottolineature nei file Markdown usando Aspose.Words per Java, con esempi di codice dettagliati.
+### [Come leggere file markdown in Java con Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+Scopri come caricare e leggere file Markdown in Java con Aspose.Words, con esempi di codice passo‑per‑step.
 ### [Tutorial sulla sostituzione dei font Aspose – Gestire i font mancanti](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font mancanti durante l'elaborazione dei documenti con Aspose.Words per Java.
 ### [Come caricare un file da una directory usando Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
@@ -224,6 +231,9 @@ Scopri come caricare file Markdown in Java usando Aspose.Words, con esempi di co
 
 ### [Come impostare le opzioni in Aspose.Words per Java – guida completa](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Scopri come configurare tutte le opzioni disponibili in Aspose.Words per Java per personalizzare il caricamento e il salvataggio dei documenti.
+
+### [Come specificare la codifica durante il caricamento di un documento con Aspose.Words per Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
+Scopri come impostare l'encoding corretto quando carichi documenti in Java con Aspose.Words.
 
 ## Domande Frequenti
 

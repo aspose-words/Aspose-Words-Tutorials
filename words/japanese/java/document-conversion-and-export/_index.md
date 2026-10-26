@@ -67,6 +67,7 @@ Aspose.Words for Java の主要機能のひとつは、**convert docx to pdf** �
 ## ドキュメント変換とエクスポートのチュートリアル
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
+### [Java でテーブルサポート付き docx を markdown に変換する方法](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
 
 ### [Aspose.Words for Java でカスタムバーコードラベルを生成する](./generating-custom-barcode-labels/)
 ### [Aspose.Words for Java でバーコード生成を使用する](./using-barcode-generation/)
@@ -167,7 +168,7 @@ Aspose.Words for Java を使用して、Word 文書を PDF に変換する手順
 
 ### [Word からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-word-full-guide/)
 Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順とベストプラクティスを解説します。
-### [C# で DOCX から LaTeX をエクスポート – Word を Markdown に変換する方法](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+### [C# で DOCX から LaTeX をエクスポート – Word を Markdown に変換する方法](./how-to-export-latex-from-docx-convert-word-to-mark/)
 
 ### [C# で docx を txt に保存 – 完全ガイド](./save-docx-as-txt-full-c-guide/)
 
@@ -216,7 +217,7 @@ Aspose.Words for Java を使用して、PDF/UA 準拠の PDF を作成し、DOCX
 ### [DOCX を TXT に保存 – 数式エクスポート付き 完全 C# ガイド](./save-docx-as-txt-complete-c-guide-with-math-export/)
 Aspose.Words を使用して DOCX を TXT に変換し、数式をエクスポートする方法を C# で詳しく解説します。
 
-### [DOCX からアクセシブル PDF を作成する – 完全プログラミングガイド](./create-accessible-pdf-from-docx-complete-programming-guide/)
+### [DOCX をアクセシブル PDF を作成する – 完全プログラミングガイド](./create-accessible-pdf-from-docx-complete-programming-guide/)
 Aspose.Words for Java を使用して、DOCX ファイルからアクセシブルな PDF を生成する方法をステップバイステップで解説します。
 
 ### [DOCX を TXT として保存する方法 – 完全ガイド](./how-to-save-docx-as-txt-complete-guide/)
@@ -263,7 +264,7 @@ Aspose.Words for Java で Word 文書をプレーンテキストに保存し、�
 ### [Aspose.Words for Java で DOCX として文書を保存 – 完全ガイド](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Aspose.Words for Java を使用して、文書を DOCX 形式で保存する手順とオプション設定をステップバイステップで解説します。
 
-### [Aspose.Words で Word を PDF として保存 – 完全 Java ガイド](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+### [Aspose.Words for Java で Word を PDF として保存 – 完全 Java ガイド](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 Aspose.Words for Java を使用して Word 文書を PDF に変換し保存する手順をステップバイステップで解説します。
 
 ### [Aspose.Words for Java を使用して PDF/UA 準拠ファイルを作成 – 完全ガイド](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)

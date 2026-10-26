@@ -144,13 +144,17 @@ As configurações de documentos são a chave para entregar documentos adaptados
 
 ### [Como salvar arquivo DOCX com Java – Guia de Inserção de Controle de Conteúdo](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 
-### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words/)
 ### [Carregar sublinhado markdown em Java – guia completo de programação](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Como ler arquivo markdown em Java com Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+
 ### [Aspose.Words LoadOptions – Recuperar documentos Word corrompidos em Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [Tutorial de Substituição de Fontes Aspose – Lidar com Fontes Ausentes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Como carregar arquivo de diretório usando Aspose.Words em C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Recuperar DOCX corrompido com Aspose.Words para Java – Guia Completo](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Como definir opções no Aspose.Words para Java – guia completo](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
+### [Como especificar codificação ao carregar um documento com Aspose.Words para Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
 ## Perguntas Frequentes
 

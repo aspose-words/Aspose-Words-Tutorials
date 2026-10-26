@@ -59,6 +59,9 @@ Börja din inlärningsresa idag och lås upp de oändliga möjligheterna för do
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
 
+### [Hur man infogar en vanlig textinnehållskontroll i ett Word-dokument med C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
+
 ### [Använda rensningsalternativ i Aspose.Words för Java](./using-cleanup-options/)
 Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. Lär dig hur du tar bort tomma stycken, oanvända regioner och mer.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)

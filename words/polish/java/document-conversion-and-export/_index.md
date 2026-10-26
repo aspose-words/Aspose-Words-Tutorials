@@ -97,7 +97,10 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
 ### [Zapisz docx jako markdown w Javie – Kompletny przewodnik krok po kroku](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
-Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie przy użyciu Aspose.Words, krok po kroku z pełnym przykładem kodu.
+
+### [Jak przekonwertować docx na markdown w Javie z obsługą tabel](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie, zachowując tabele.
 
 ### [Utwórz markdown z dokumentu – Eksportuj i zapisz obrazy](./create-markdown-from-document-export-and-save-images/)
 Dowiedz się, jak konwertować dokument do formatu Markdown i wyodrębniać osadzone obrazy przy użyciu Aspose.Words for Java.
@@ -160,7 +163,7 @@ Dowiedz się, jak wyeksportować zawartość dokumentu Word do formatu Markdown,
 Dowiedz się, jak osadzać obrazy jako Base64 przy konwertowaniu DOCX do Markdown przy użyciu Aspose.Words for Java.
 
 ### [Zapisz DOCX jako Markdown – Kompletny przewodnik w Javie](./save-docx-as-markdown-complete-java-guide/)
-Dowiedz się, jak zapisać plik DOCX w formacie Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
+Dowiedz się, jak zapisać plik DOCX jako Markdown w Javie przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 
 ### [Jak zapisać Word jako markdown z tabelami HTML w Javie](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Dowiedz się, jak konwertować dokumenty Word do formatu markdown zachowując tabele HTML przy użyciu Aspose.Words for Java.
@@ -322,73 +325,7 @@ Kompletny przewodnik, jak w Javie wygenerować dokument PDF UA przy użyciu Aspo
 Pełny przewodnik, jak zapisać dokument jako PDF z pełną dostępnością przy użyciu Aspose.Words for Java.
 
 ### [Tworzenie dostępnego PDF w Javie – pełny przewodnik tagowania](./create-accessible-pdf-in-java-full-tagging-guide/)
-Dowiedz się, jak w pełni otagować dokument PDF w Javie, aby spełniał standardy dostępności i był przyjazny dla czytników ekranowych.
-
-### [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik w Javie](./create-pdf-ua-2-compliant-document-complete-java-guide/)
-Dowiedz się, jak generować dokumenty PDF/UA‑2 w Javie przy użyciu Aspose.Words, spełniające wymogi dostępności.
-
-### [Utwórz plik PDF/UA zgodny ze standardem w Javie – pełny przewodnik Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
-Dowiedz się, jak tworzyć pliki PDF/UA zgodne ze standardem w Javie przy użyciu Aspose.Words. Przewodnik krok po kroku z kodem źródłowym.
-
-### [Zapisz dokument jako DOCX przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
-Pełny przewodnik, jak zapisać dokument w formacie DOCX przy użyciu Aspose.Words w Javie.
-
-### [Zapisz dokument Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
-Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w Javie, krok po kroku.
-
-### [Zapisz obrazy Word – konwertuj DOCX do Markdown w Javie](./save-word-images-convert-docx-to-markdown-with-java/)
-Dowiedz się, jak wyodrębnić i zapisać obrazy z dokumentów Word oraz konwertować DOCX do Markdown przy użyciu Aspose.Words for Java.
-
-### [Jak wyeksportować LaTeX z DOCX – konwertuj Word na Markdown przy użyciu C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
-Dowiedz się, jak przekształcić dokument DOCX w LaTeX i Markdown przy użyciu C# oraz Aspose.Words.
-
-### [Eksportuj DOCX jako Markdown – Kompletny przewodnik C#](./export-docx-as-markdown-complete-c-guide/)
-Dowiedz się, jak wyeksportować pliki DOCX jako Markdown w C# przy użyciu Aspose.Words. Przewodnik krok po kroku z przykładami kodu.
-
-### [Zapisz docx jako txt – Pełny przewodnik C#](./save-docx-as-txt-full-c-guide/)
-Dowiedz się, jak konwertować pliki DOCX do formatu TXT w C# przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
-
-### [Zapisz dokument jako PDF w Javie – Kompletny przewodnik Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
-Dowiedz się, jak w prosty sposób zapisać dokument jako PDF w Javie przy użyciu Aspose.Words, z pełnym przykładem kodu.
-
-### [Konwertuj Word do PDF – Generuj dostępny PDF](./convert-word-to-pdf-generate-accessible-pdf/)
-Dowiedz się, jak konwertować dokumenty Word do PDF, zapewniając ich dostępność zgodnie z wymogami, przy użyciu Aspose.Words for Java.
-
-### [Tworzenie PNG z Worda – Kompletny przewodnik krok po kroku](./create-png-from-word-complete-step-by-step-guide/)
-Dowiedz się, jak wygenerować plik PNG z dokumentu Word przy użyciu Aspose.Words for Java – pełny przewodnik z przykładami kodu.
-
-### [Tworzenie pliku zgodnego z PDF/UA‑1 w Javie – kompletny przewodnik](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
-Dowiedz się, jak w Javie wygenerować plik PDF/UA‑1 spełniający wymogi dostępności, krok po kroku, z przykładami kodu.
-
-### [Utworzenie dokumentu zgodnego z PDF/UA – kompletny przewodnik Java](./create-pdf-ua-compliant-document-complete-java-guide/)
-Dowiedz się, jak w Javie wygenerować dokument PDF/UA spełniający wymogi dostępności, krok po kroku z przykładami kodu.
-
-### [Zapisz docx jako txt – Kompletny przewodnik C# z eksportem Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
-Dowiedz się, jak konwertować pliki DOCX na tekst w C#, wraz z eksportem obiektów Math.
-
-### [Zapisz docx jako markdown w Javie – pełny przewodnik](./save-docx-as-markdown-with-java-full-guide/)
-Dowiedz się, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
-
-### [Utwórz dostępny PDF z DOCX – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-docx-complete-programming-guide/)
-Dowiedz się, jak przy użyciu Aspose.Words for Java wygenerować PDF spełniający standardy dostępności z pliku DOCX.
-
-### [Tworzenie dostępnego PDF z DOCX przy użyciu Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
-Dowiedz się, jak wygenerować PDF spełniający standardy dostępności z dokumentu DOCX przy użyciu Aspose.Words for Java.
-
-### [Tworzenie dostępnego PDF – przewodnik krok po kroku konwersji Word do PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
-Learn how to generate PDF spełniający standardy dostępności z dokumentów Word przy użyciu Aspose.Words for Java.
-
-### [Tworzenie dostępnego PDF – przewodnik Java dla konwersji dokumentów Word](./create-accessible-pdf-java-guide-for-converting-word-documen/)
-Dowiedz się, jak przy użyciu Aspose.Words for Java wygenerować PDF spełniający standardy dostępności z dokumentów Word.
-
-### [Utwórz dokument PDF UA z Aspose.Words – Pełny przewodnik w Javie](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
-Kompletny przewodnik, jak w Javie wygenerować dokument PDF UA przy użyciu Aspose.Words, z przykładami kodu i konfiguracją.
-
-### [Zapisz dokument jako PDF przy użyciu Aspose.Words Java – kompletny przewodnik po dostępności](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
-Pełny przewodnik, jak zapisać dokument jako PDF z pełną dostępnością przy użyciu Aspose.Words for Java.
-
-### [Tworzenie dostępnego PDF w Javie – pełny przewodnik tagowania](./create-accessible-pdf-in-java-full-tagging-guide/)
-Dowiedz się, jak w pełni otagować dokument PDF w Javie, aby spełniał standardy dostępności i był przyjazny dla czytników ekranowych.
+Dowiedz się, jak w pełni otagować dokument PDF w Javie, aby spełniał standardy dostępności i był przyjazny dla czytników ekranu.
 
 ### [Utwórz dokument zgodny z PDF/UA‑2 – Kompletny przewodnik w Javie](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 Dowiedz się, jak generować dokumenty PDF/UA‑2 w Javie przy użyciu Aspose.Words, spełniające wymogi dostępności.
