@@ -1,0 +1,7 @@
+Title: How to create a doughnut chart and insert a pie chart
+Slug: how-to-create-a-doughnut-chart-and-insert-a-pie-chart
+Category: images-shapes
+ProcessedDate: 2026-10-26T19:48:20.251243
+SourceRepo: AI Search API
+Keywords: create doughnut chart, insert pie chart
+PRNumber: 340
