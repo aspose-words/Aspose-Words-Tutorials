@@ -32,7 +32,7 @@ tags:
 - C#
 - ContentControl
 - WordAutomation
-title: How to create a blank Word document with a plain text content control using Aspose.Words for C#
+title: Create a blank Word document and insert a plain text content control with Aspose.Words for .NET (C#)
 url: /java/document-manipulation/how-to-create-blank-word-document-with-a-plain-text-content/
 ---
 
@@ -189,9 +189,9 @@ This tutorial walked you through creating a **blank Word document**, inserting a
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create new Word document and insert content control in C#](/words/english/net/programming-with-sdt/create-new-word-document-and-insert-content-control-in-c/)
-- [Create word document programmatically – add content control and placeholder](/words/english/net/programming-with-sdt/create-word-document-programmatically-add-content-control-an/)
-- [How to Add Content Control and Create Word Document with Aspose – Complete](/words/english/net/programming-with-sdt/how-to-add-content-control-and-create-word-document-with-asp/)
+- [Create new Word document and insert content control in C#]({{< relref "/words/english/net/programming-with-sdt/create-new-word-document-and-insert-content-control-in-c/" >}})
+- [Create word document programmatically – add content control and placeholder]({{< relref "/words/english/net/programming-with-sdt/create-word-document-programmatically-add-content-control-an/" >}})
+- [How to Add Content Control and Create Word Document with Aspose – Complete]({{< relref "/words/english/net/programming-with-sdt/how-to-add-content-control-and-create-word-document-with-asp/" >}})
 
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}

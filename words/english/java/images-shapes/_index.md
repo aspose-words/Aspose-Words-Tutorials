@@ -1,5 +1,5 @@
 ---
-title: "Insert and Manipulate Images & Shapes in DOCX using Aspose.Words for Java API"
+title: "Insert and Manipulate Images & Shapes in DOCX with Aspose.Words for Java API"
 description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -205,6 +205,7 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 ### [Create a blank Word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 

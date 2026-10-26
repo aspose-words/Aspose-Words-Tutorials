@@ -1,6 +1,6 @@
 ---
-title: Insert Watermark into DOCX Documents using Aspose.Words for Java API – Convert and Export
-linktitle: How to Insert Watermark – Document Conversion and Export
+title: Add Watermark to DOCX Documents using Aspose.Words for Java API – Convert and Export
+linktitle: How to Add Watermark – Document Conversion and Export
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to add watermarks, convert DOCX to PDF, and generate barcode labels using Aspose.Words for Java – a comprehensive guide for document conversion and export.
 weight: 22
@@ -237,7 +237,7 @@ Learn how to use Aspose.Words PDF save options to convert DOCX to PDF in Java wi
 Learn how to convert Word documents to Markdown format using Aspose.Words for Java in this comprehensive step‑by‑step guide.
 
 ### [Save Word as PDF with Aspose.Words – Step‑by‑Step Java Guide](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
-Learn how to convert Word documents to PDF using Aspose.Words for Java with a clear, step‑by‑step example.
+Learn how to convert Word documents to PDF using Aspose.Words for Java with a clear step‑by‑step example.
 
 ### [Create Accessible PDF from DOCX in Java – Full Guide](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Learn how to generate PDF/A-1a accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance and accessibility.
@@ -340,4 +340,8 @@ Learn how to export LaTeX from DOCX and convert Word to Markdown using C# with A
 Save DOCX files as plain text using Aspose.Words for C#. Step‑by‑step guide with code examples.
 
 ### [Export DOCX as Markdown – Complete C# Guide]({{< relref "export-docx-as-markdown-complete-c-guide/_index.md" >}})
-Export DOCX files to Markdown with Aspose.Words for C#. Full step‑by‑
+Export DOCX files to Markdown with Aspose.Words for C#. Full step‑by‑step guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -45,7 +45,7 @@ tags:
 - Aspose.Words
 - C#
 - ActiveX
-title: Create a blank Word document and add an ActiveX button in C# using Aspose.Words
+title: Create a blank DOCX Word document and add an ActiveX button in C# using Aspose.Words
 url: /java/document-manipulation/create-a-blank-word-document-and-add-an-activex-button-in-c/
 ---
 
@@ -223,6 +223,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

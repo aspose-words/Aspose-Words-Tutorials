@@ -28,7 +28,7 @@ tags:
 - Aspose.Words
 - .NET
 - Word automation
-title: Create a blank Word document and add a rectangle shape with Aspose.Words
+title: Create a blank .docx Word document and add a hidden rectangle shape with Aspose.Words
 url: /java/images-shapes/create-a-blank-word-document-and-add-a-rectangle-shape/
 ---
 
@@ -193,11 +193,12 @@ Happy coding, and feel free to experiment with other shape types and visibility 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Word Document – How to Add Rectangle Shape and Shadow](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
-- [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
+- [Create Word Document – How to Add Rectangle Shape and Shadow]({{< relref "words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow.md" >}})
+- [Create Group Shape in Word Document Using Aspose.Words for .NET]({{< relref "words/english/net/working-with-shapes/add-group-shape.md" >}})
+- [Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide]({{< relref "words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
