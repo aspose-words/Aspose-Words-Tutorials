@@ -1,0 +1,7 @@
+Title: How to specify encoding when loading a document with Aspose.Words for Java
+Slug: how-to-specify-encoding-when-loading-a-document-with-aspose
+Category: document-loading-and-saving
+ProcessedDate: 2026-10-26T19:48:23.066993
+SourceRepo: AI Search API
+Keywords: how to specify encoding
+PRNumber: 340
