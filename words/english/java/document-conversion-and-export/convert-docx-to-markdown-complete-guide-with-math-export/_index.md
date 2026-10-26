@@ -246,15 +246,15 @@ From here you might:
 
 Give it a spin, tweak the options, and let your documentation workflow run smoother than ever. Got questions about **save word as markdown** or need help with a particularly gnarly equation? Drop a comment, and we’ll sort it out together. Happy coding!
 
-
 ## Related Tutorials
 
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
-- [How to Save Markdown from DOCX – Step‑by‑Step Guide]({{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/" >}})
-- [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations]({{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/" >}})
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
+- [How to Save Markdown from DOCX – Step‑by‑Step Guide]({{< relref "net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/" >}})
+- [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations]({{< relref "net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

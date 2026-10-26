@@ -45,15 +45,6 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./update-chart-title/" title="Aktualizuj tytuł wykresu i przełącz widoczność legendy w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
-
 | Tytuł | Opis |
 | --- | --- |
 | [Formatuj liczbę etykiet danych na wykresie](./format-number-of-data-label/) | Dowiedz się, jak formatować etykiety danych na wykresach za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty Word bez wysiłku. |
@@ -89,15 +80,13 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Jak utworzyć dokument Word w C# z wykresem kolumnowym i sformatowanymi etykietami](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Dowiedz się, jak w C# utworzyć dokument Word z wykresem kolumnowym i sformatowanymi etykietami danych. |
 | [Jak utworzyć histogram w programie Word przy użyciu Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Dowiedz się, jak w prosty sposób utworzyć histogram w dokumencie Word przy użyciu Aspose.Words dla .NET. |
 | [Jak utworzyć dokument Word z niestandardowym wykresem kołowym w C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Dowiedz się, jak utworzyć dokument Word z niestandardowym wykresem kołowym w C# przy użyciu Aspose.Words dla .NET. |
+| [Jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczb](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Dowiedz się, jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczbowych. |
+| [Jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Dowiedz się, jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
-| [Jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczb](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Dowiedz się, jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczbowych. |
-| [Jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Dowiedz się, jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#. |

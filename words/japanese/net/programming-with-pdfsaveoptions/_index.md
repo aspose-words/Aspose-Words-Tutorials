@@ -72,8 +72,6 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [Word から PDF/UA 準拠ファイルを作成 – 完全エクスポートガイド](./create-pdf-ua-compliant-file-from-word-full-export-guide/) Aspose.Words for .NET を使用して、Word 文書から PDF/UA 準拠のファイルを完全にエクスポートする方法をステップバイステップで解説します。 |
 | [C#でドキュメントをPDFとして保存 – インラインシェイプをエクスポート](./save-document-as-pdf-in-c-export-inline-shapes/) Aspose.Words for .NET を使用して、インラインシェイプを含む Word 文書を PDF にエクスポートする方法を学びます。 |
 | [Word を PDF に変換する際に RenderChoiceFormFieldBorder を false に設定する方法](./how-to-set-renderchoiceformfieldborder-false-when-converting/) Word を PDF に変換する際に、フォームフィールドの境界線描画を無効にする手順を解説します。 |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 | [C# で Word からアクセシブルな PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。 |
 | [Aspose を使用して Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) Aspose.Words for .NET を使い、Word 文書からアクセシブルな PDF を作成する手順を詳しく解説します。 |
 | [C#でWordからPDF UAを作成する – ステップバイステップ ガイド](./create-pdf-ua-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書から PDF UA を作成する方法をステップバイステップで学びます。 |

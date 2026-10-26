@@ -282,6 +282,6 @@ A: `new Document("file.doc")` で文書をロードし、`setPageColor` を呼�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

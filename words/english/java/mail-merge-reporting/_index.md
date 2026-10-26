@@ -71,9 +71,8 @@ Learn how to create a mail merge template in C# and convert the resulting DOCX f
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

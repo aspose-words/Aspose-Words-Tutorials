@@ -469,12 +469,10 @@ A: Yes, a commercial license is required for production deployments; a free tria
 **Tested With:** Aspose.Words for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button / >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button / >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -318,11 +318,13 @@ You should see the console output similar to the sample shown earlier.
 
 ## Related Tutorials
 
-- [How to Set Direction and Load Text Files with Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/loading-text-files/_index.md" >}})
-- [How to Load RTF Documents with UTF-8 Encoding in Java Using Aspose.Words]({{< relref "words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/_index.md" >}})
-- [Aspose.Words Java: Comprehensive Guide to Word Document Processing]({{< relref "words/english/java/document-operations/aspose-words-java-master-word-processing/_index.md" >}})
+- [How to Set Direction and Load Text Files with Aspose.Words for Java]({{< relref "java/document-loading-and-saving/loading-text-files/_index.md" >}})
+- [How to Load RTF Documents with UTF-8 Encoding in Java Using Aspose.Words]({{< relref "java/document-operations/load-rtf-with-utf8-java-asposewords/_index.md" >}})
+- [Aspose.Words Java: Comprehensive Guide to Word Document Processing]({{< relref "java/document-operations/aspose-words-java-master-word-processing/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

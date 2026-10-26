@@ -284,6 +284,6 @@ public class SetBackgroundShape {
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

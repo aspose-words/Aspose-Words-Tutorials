@@ -272,6 +272,6 @@ A: Загрузите документ с помощью `new Document("file.doc
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -272,6 +272,6 @@ A: Laad het document met `new Document("file.doc")`, roep `setPageColor` aan, en
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -201,15 +201,15 @@ Give it a spin, tweak the `PdfSaveOptions` to suit your needs, and soon you’ll
 
 ![Diagram showing the convert docx to pdf flow: load DOCX → set PDF options (export shapes) → save as PDF](convert-docx-to-pdf-flow.png "convert docx to pdf flowchart")
 
-
 ## Related Tutorials
 
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/" >}})
-- [Aspose.Words – Convert DOCX to PDF in Java]({{< relref "/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/" >}})
-- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "/words/english/java/document-converting/using-document-converting/" >}})
+- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/" >}})
+- [Aspose.Words – Convert DOCX to PDF in Java]({{< relref "java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/" >}})
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "java/document-converting/using-document-converting/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
