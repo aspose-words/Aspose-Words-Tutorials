@@ -255,11 +255,12 @@ class Program
 
 ## Related Tutorials
 
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/" >}})
-- [Convert Word to PDF in C# using Aspose.Words – Guide]({{< relref "words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/" >}})
-- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/" >}})
+- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide]({{< relref "net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/" >}})
+- [Convert Word to PDF in C# using Aspose.Words – Guide]({{< relref "net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/" >}})
+- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/" >}})
 
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

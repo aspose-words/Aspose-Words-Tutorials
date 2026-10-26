@@ -210,15 +210,15 @@ Ready to level up your document workflow? Try adding custom tags for tables, emb
 
 Got questions or want to share your own accessibility success story? Drop a comment below, and happy coding!
 
-
 ## Related Tutorials
 
-- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian.md" >}})
-- [How to Create PDF Documents with Aspose.Words for Java \| Document Processing API]({{< relref "words/english/java/_index.md" >}})
-- [How to Export LaTeX from Word: Convert DOCX to Markdown \& Save as PDF]({{< relref "words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save.md" >}})
+- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/_index.md" >}})
+- [How to Create PDF Documents with Aspose.Words for Java \| Document Processing API]({{< relref "java/_index.md" >}})
+- [How to Export LaTeX from Word: Convert DOCX to Markdown \& Save as PDF]({{< relref "java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

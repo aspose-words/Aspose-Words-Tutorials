@@ -274,6 +274,6 @@ R: Carga el documento con `new Document("file.doc")`, llama a `setPageColor` y g
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

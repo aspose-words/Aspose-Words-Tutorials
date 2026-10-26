@@ -239,7 +239,6 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 ![Add shadow to shape example in Java](add-shadow-to-shape-java.png)
 
-
 ## Related Tutorials
 
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
@@ -248,6 +247,7 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

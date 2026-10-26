@@ -282,6 +282,6 @@ A: Załaduj dokument przy użyciu `new Document("file.doc")`, wywołaj `setPageC
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

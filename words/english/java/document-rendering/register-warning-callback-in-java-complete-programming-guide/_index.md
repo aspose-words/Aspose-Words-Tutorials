@@ -235,12 +235,13 @@ Happy coding, and may your PDFs always render exactly as intended!
 
 ## Related Tutorials
 
-- [Capture Font Substitution Warnings in Aspose.Words for Java – Complete Guide]({{< relref "words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words" >}})
-- [Warning Callback In Word Document]({{< relref "words/english/net/programming-with-loadoptions/warning-callback" >}})
-- [How to Load DOCX and Detect Missing Fonts – Complete C# Guide]({{< relref "words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide" >}})
+- [Capture Font Substitution Warnings in Aspose.Words for Java – Complete Guide]({{< relref "java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/_index.md" >}})
+- [Warning Callback In Word Document]({{< relref "net/programming-with-loadoptions/warning-callback/_index.md" >}})
+- [How to Load DOCX and Detect Missing Fonts – Complete C# Guide]({{< relref "net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

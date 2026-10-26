@@ -117,7 +117,7 @@ Learn how to export documents to PDF using Aspose.Words for Java. This step-by-s
 ### [Convert DOCX to PDF in Java – Accessible PDF Guide]({{< relref "convert-docx-to-pdf-in-java-accessible-pdf-guide/_index.md" >}})
 Create accessible PDFs from DOCX in Java using Aspose.Words, covering tagging, compliance, and best practices.
 
-### [Converting documents to different formats]({{< relref "converting-documents-different-forms/_index.md" >}})
+### [Converting documents to different formats]({{< relref "converting-documents-different-formats/_index.md" >}})
 Learn how to convert documents to different formats using Aspose.Words for Java. Step-by-step guide for efficient document conversion.
 
 ### [Converting HTML to Documents]({{< relref "converting-html-documents/_index.md" >}})

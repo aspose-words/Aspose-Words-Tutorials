@@ -182,7 +182,8 @@ We started by **create blank word** using `new Document()`, then inserted a rect
 Feel free to tweak the blur radius, offsets, or colors until the shadow feels just right for your document’s design language. Happy coding, and may your generated Word files always look a little more polished!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

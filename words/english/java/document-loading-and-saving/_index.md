@@ -283,8 +283,6 @@ Learn how to repair corrupted DOCX files using Aspose.Words for Java with stepâ€
 **Tested With:** Aspose.Words for Java 24.12 (latest)  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

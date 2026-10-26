@@ -198,15 +198,15 @@ From here, experiment with different `MarkdownSaveOptions` settings, plug the ro
 
 Got questions about handling tables, footnotes, or custom fonts? Drop a comment below, and let’s keep the conversation going. Happy converting!
 
-
 ## Related Tutorials
 
-- [How to Export Markdown with Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/saving-documents-as-markdown/" >}})
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/" >}})
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
+- [How to Export Markdown with Aspose.Words for Java]({{< relref "java/document-loading-and-saving/saving-documents-as-markdown/" >}})
+- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/" >}})
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
