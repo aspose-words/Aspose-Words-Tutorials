@@ -201,14 +201,8 @@ Aspose.Words for Python kullanarak docx dosyalarını PDF formatına nasıl dön
 ### [Word'den Markdown Dışa Aktarma – Aspose.Words ile](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
 Aspose.Words for Python kullanarak Word belgelerinden markdown dosyalarına nasıl dışa aktarılacağını adım adım öğrenin.
 
-### [Belgeyi Görüntü Olarak Kaydet: Python'da DOCX'i PNG'ye Dönüştürme](./save-document-as-image-convert-docx-to-png-in-python/)
-Aspose.Words for Python ile DOCX dosyalarını PNG görüntülerine dönüştürmeyi adım adım öğrenin.
+### [Aspose.Words ile Python’da docx'i Markdown’a Dönüştürme](./convert-docx-to-markdown-with-aspose-words-in-python/)
 
-### [Aspose.Words ile Word'ü tablo desteğiyle markdown olarak kaydetme](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
-Aspose.Words kullanarak Word belgelerini tablo desteğiyle markdown dosyasına nasıl kaydedeceğinizi öğrenin.
-
-### [Markdown'ı docx'e Aspose.Words ile Python'da Dönüştürme](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
-Aspose.Words for Python kullanarak Markdown dosyalarını DOCX formatına nasıl dönüştüreceğinizi öğrenin.
 ### [Word'ü PDF Olarak Kaydetme – Aspose Words ile Adım Adım Kılavuz](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
 Aspose.Words for Python kullanarak Word belgelerini PDF olarak kaydetmeyi adım adım öğrenin.
 
@@ -285,6 +279,9 @@ Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve aynı and
 ### [PDF'yi Kaydetme ve DOCX'i Markdown'a Dönüştür – Tam Python Kılavuzu](./how-to-save-pdf-and-convert-docx-to-markdown/)
 Aspose.Words for Python kullanarak PDF kaydetmeyi ve DOCX dosyalarını Markdown formatına dönüştürmeyi adım adım öğrenin.
 ### [Aspose.Words ile Python’da docx’i Markdown’a Dönüştürme](./convert-docx-to-markdown-with-aspose-words-in-python/)
+
+### [Aspose.Words for Python ile bir DOCX'ten markdown dışa aktarma](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+Aspose.Words for Python kullanarak bir DOCX dosyasından markdown dosyası dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

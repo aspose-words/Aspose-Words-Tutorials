@@ -31,6 +31,9 @@ Az oktatóanyagok a Word-dokumentumfeldolgozási munkafolyamatok dokumentumkonve
 Az Aspose.Words for Python segítségével történő dokumentumkonvertálás elsajátításával a fejlesztők leegyszerűsíthetik dokumentumkezelési folyamataikat. Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, kódmintákat és gyakorlati példákat, lehetővé téve a fejlesztők számára, hogy robusztus dokumentumkonvertálási funkciókat valósítsanak meg Python alkalmazásaikban. Használja ki ezeket az oktatóanyagokat, hogy kihasználhassa az Aspose.Words teljes potenciálját a zökkenőmentes dokumentumkonvertálás és -kezelés érdekében.
 
 ## Python dokumentumkonverziós oktatóanyagok
+### [How to export markdown from a DOCX using Aspose.Words for Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+
+
 ### [Python dokumentumkonverzió - Teljes útmutató](./python-document-conversion/)
 Tanuld meg a Python dokumentumkonvertálást az Aspose.Words for Python segítségével. Konvertálj, szerkeszd és szabd testre a dokumentumokat könnyedén. Növeld a termelékenységedet most!
 ### [Hogyan mentse a Markdown-et a Word-ből – Teljes Python útmutató](./how-to-save-markdown-from-word-complete-python-guide/)

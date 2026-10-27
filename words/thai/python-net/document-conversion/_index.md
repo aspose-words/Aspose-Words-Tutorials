@@ -224,7 +224,7 @@
 
 ### [วิธีบันทึก Word เป็น PDF ด้วย Aspose Words – คู่มือขั้นตอนโดยละเอียด](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
 
-### [แปลง docx เป็น txt และส่งออกสมการ Word ไปยัง LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+### [แปลง docx เป็น txt และส่งออกสมการ Word ไปยัง LaTeX](./convert-docx-to-txt-and-export-word-math-to-latex/)
 
 ### [วิธีบันทึก Word เป็น markdown และรักษาสมการไว้ด้วย Aspose.Words for Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมคงสมการไว้โดยใช้ Aspose.Words for Python
@@ -302,12 +302,13 @@
 ### [แปลง docx เป็น markdown ด้วย Aspose.Words ใน Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
 เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [วิธีส่งออก markdown จาก DOCX ด้วย Aspose.Words สำหรับ Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+เรียนรู้วิธีส่งออกไฟล์ Markdown จากเอกสาร DOCX ด้วย Aspose.Words for Python
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

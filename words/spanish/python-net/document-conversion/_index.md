@@ -53,6 +53,9 @@ Aprenda a reparar archivos DOCX corruptos y convertirlos a Markdown, texto sin f
 ### [Cómo exportar LaTeX desde Word – Convertir DOCX a Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aprende a exportar contenido LaTeX desde Word y convertir archivos DOCX a Markdown con Aspose.Words para Python.
 
+### [Cómo exportar markdown desde un DOCX usando Aspose.Words para Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+Aprenda a exportar contenido Markdown desde un archivo DOCX con Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
 ### [Cómo convertir DOCX a PDF en Python usando Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
 Aprenda a convertir archivos DOCX a PDF en Python con Aspose.Words mediante un proceso sencillo y ejemplos de código.
 

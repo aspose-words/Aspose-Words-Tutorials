@@ -31,6 +31,9 @@
 Aspose.Words for Python を使ったドキュメント変換をマスターすることで、開発者はドキュメント管理プロセスを簡素化できます。チュートリアルでは、ステップバイステップの説明、コードサンプル、実用的な例が提供されており、開発者は Python アプリケーションに堅牢なドキュメント変換機能を実装できます。これらのチュートリアルを活用して、Aspose.Words のポテンシャルを最大限に活用し、シームレスなドキュメント変換と管理を実現しましょう。
 
 ## Python ドキュメント変換チュートリアル
+### [How to export markdown from a DOCX using Aspose.Words for Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
+
+
 ### [Python ドキュメント変換 - 完全ガイド](./python-document-conversion/)
 Aspose.Words for PythonでPythonドキュメント変換を学ぼう。ドキュメントの変換、操作、カスタマイズが簡単に。今すぐ生産性を向上しましょう！
 
