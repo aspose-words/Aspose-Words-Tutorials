@@ -87,8 +87,8 @@ C# में Aspose.Words का उपयोग करके समूहित
 
 ### [Aspose.Words के साथ समूह आकृति में दीर्घवृत्त और आयताकार आकार कैसे सम्मिलित करें](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
-### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
+### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-स्टेप गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-स्टेप मार्गदर्शिका में सीखें।
 
 ### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
@@ -107,76 +107,22 @@ Aspose.Words Java के साथ Word दस्तावेज़ में �
 ### [Aspose.Words for C# में आकृति की छिपी हुई प्रॉपर्टी कैसे सेट करें](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Aspose.Words C# में आकृति की छिपी हुई प्रॉपर्टी सेट करने की चरण-दर-चरण गाइड।
 
-### [खाली Word दस्तावेज़ बनाएं और जावा में आकार समूहित करें](./create-blank-word-document-and-group-shapes-in-java/)
-जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
-### [C# में समूह आकृति docx बनाएं और इंटरैक्टिव नियंत्रण जोड़ें](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-C# में Aspose.Words का उपयोग करके समूह आकृति बनाना और इंटरैक्टिव नियंत्रण जोड़ना सीखें।
-### [Word में समूह आकृतियों को जोड़ें और Aspose.Words के साथ आयताकार जोड़ें](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाएं और आयताकार जोड़ें।
+### [खाली Word दस्तावेज़ बनाएं और आयताकार आकार जोड़ें](./create-blank-word-document-and-add-rectangle-shape/)
 
-### [C# और Aspose.Words के साथ Word में आकृति को छिपाने का तरीका](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
-C# और Aspose.Words का उपयोग करके Word में आकृति को छिपाने का तरीका।
-### [छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाएं](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
-छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाने का तरीका
+### [जावा में खाली Word दस्तावेज़ बनाएं और आकृतियों को समूहित करें](./how-to-create-blank-word-document-and-group-shapes-in-java/)
 
-### [जावा में खाली दस्तावेज़ बनाकर Word में आकृतियाँ जोड़ें](./how-to-create-blank-document-and-add-shapes-to-word/)
-जावा में Aspose.Words का उपयोग करके खाली दस्तावेज़ बनाकर उसमें आकृतियों को जोड़ने का तरीका।
-
-### [Java में पाई चार्ट के साथ Word दस्तावेज़ बनाएं](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
-Java में Aspose.Words का उपयोग करके पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड।
-### [जावा में प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाएं, समूह आकृतियों को जोड़ें](./create-word-document-programmatically-group-shapes-in-java/)
-जावा में Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
-
-### [C# में खाली Word दस्तावेज़ बनाकर छिपा हुआ अंडाकार आकार जोड़ें](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
-C# के साथ Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाकर छिपा हुआ अंडाकार आकार जोड़ने का तरीका।
-
-### [जावा के साथ Word दस्तावेज़ में डोनट चार्ट कैसे बनाएं](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
-जावा का उपयोग करके Word दस्तावेज़ में डोनट चार्ट सम्मिलित करने की चरण-दर-चरण प्रक्रिया।
-
-### [जावा में खाली वर्ड दस्तावेज़ बनाना और आकृतियों को समूहित करना](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-जावा में Aspose.Words का उपयोग करके खाली वर्ड फ़ाइल बनाना और कई आकृतियों को समूहित करने का तरीका सीखें।
-
-### [छिपी हुई छवि के साथ नया Word दस्तावेज़ बनाएं – चरण‑दर‑श्रेणी गाइड](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-छिपी हुई छवि के साथ Word दस्तावेज़ बनाने की प्रक्रिया को चरण‑दर‑श्रेणी समझें।
-
-### [Aspose.Words के साथ C# में खाली दस्तावेज़ बनाएं और आकृतियाँ जोड़ें](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
-C# में Aspose.Words का उपयोग करके खाली दस्तावेज़ बनाकर आकृतियाँ जोड़ने की प्रक्रिया सीखें।
-
-### [जावा के साथ docx में छवि सम्मिलित करें और Word में छवि छुपाएँ](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
-जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑श्रेणी प्रक्रिया।
-
-### [जावा के साथ Word में आकृतियों को समूहित करने की पूरी गाइड](./how-to-group-shapes-in-word-with-java-complete-guide/)
-जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑श्रेणी निर्देश।
-
-### [जावा में आकृति पर छाया जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-shadow-to-shape-in-java-complete-programming-guide/)
-जावा में Aspose.Words का उपयोग करके आकृति में छाया प्रभाव जोड़ने की पूरी प्रक्रिया सीखें।
-
-### [समूहित आकृति के साथ खाली Word दस्तावेज़ बनाना – जावा गाइड](./create-blank-word-document-with-grouped-shape-java-guide/)
-जावा में Aspose.Words का उपयोग करके समूहित आकृति के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
-
-### [जावा में Word दस्तावेज़ बनाएं – Aspose.Words के साथ छवियों को सम्मिलित और छिपाएँ](./create-word-document-java-insert-and-hide-images-with-aspose/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवियों को कैसे जोड़ें और उन्हें छिपाएँ, इस ट्यूटोरियल में सीखें।
-
-### [जावा में पाई चार्ट सम्मिलित करें – स्लाइस को विस्फोटित, घुमाएँ और हाइलाइट करें](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
-Aspose.Words for Java का उपयोग करके पाई चार्ट बनाना, स्लाइस को विस्फोटित, घुमाना और हाइलाइट करना सीखें।
-
-### [जावा में समूहित आकृतियों के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-with-grouped-shapes-in-java/)
-जावा में Aspose.Words का उपयोग करके समूहित आकृतियों के साथ एक खाली Word दस्तावेज़ बनाने का चरण-दर-चरण मार्गदर्शन।
-
-### [Aspose.Words ActiveX ट्यूटोरियल – Java के साथ CommandButton सम्मिलित करें](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-Aspose.Words ActiveX ट्यूटोरियल में Java का उपयोग करके CommandButton कैसे जोड़ें, सीखें।
-
-### [जावा में Word दस्तावेज़ बनाएं – आकृति को छिपाएँ और भरने का रंग सेट करें](./create-word-document-java-hide-shape-and-set-fill-color/)
-जावा में Aspose.Words का उपयोग करके आकृति को छिपाने और भराव रंग सेट करने का तरीका सीखें।
-### [जावा में खाली Word दस्तावेज़ बनाएं और आकृतियों को समूहित करें](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Aspose.Words Java का उपयोग करके खाली Word फ़ाइल बनाना और कई आकृतियों को एक समूह में जोड़ना सीखें।
+### [खाली Word दस्तावेज़ बनाएं और कई आकृतियों को समूहित करें](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 ### [जावा में Aspose.Words का उपयोग करके छिपी हुई छवि के साथ Word दस्तावेज़ बनाएं](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
-Aspose.Words का उपयोग करके जावा में छिपी हुई छवि के साथ Word दस्तावेज़ बनाने का तरीका सीखें।
+
 ### [समूहित आकृतियों के साथ खाली Word दस्तावेज़ कैसे बनाएं](./how-to-create-blank-word-document-with-grouped-shapes/)
-समूहित आकृतियों के साथ खाली Word दस्तावेज़ कैसे बनाएं
 
 ### [एक खाली Word दस्तावेज़ बनाएं और आयताकार आकार जोड़ें](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [जावा में प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाएं और एक आकृति जोड़ें](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+जावा में Aspose.Words का उपयोग करके प्रोग्रामेटिकली वर्ड फ़ाइल बनाएं और आकृति सम्मिलित करें।
+
+### [डोनट चार्ट बनाना और पाई चार्ट सम्मिलित करना](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## अतिरिक्त संसाधन
 

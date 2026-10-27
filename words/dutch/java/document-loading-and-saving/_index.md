@@ -91,6 +91,7 @@ Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel enc
 
 ### [Load-opties maken in Java – Ontdek ontbrekende lettertypen en hoe DOCX te laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Leer hoe je LoadOptions configureert om ontbrekende lettertypen te detecteren en DOCX-bestanden correct te laden met Aspose.Words for Java.
+
 ### [Hoe docx te herstellen met Aspose.Words – Herstelmodus inschakelen](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Leer hoe je beschadigde DOCX-bestanden kunt herstellen met Aspose.Words door de herstelmodus te activeren.
 
@@ -99,10 +100,12 @@ Leer hoe je lettertype‑instellingen configureert en ontbrekende lettertypen be
 
 ### [Waarschuwingscallback registreren in Java – Ontbrekende lettertypen bijhouden](./register-warning-callback-in-java-track-missing-fonts/)
 Leer hoe je een waarschuwingscallback registreert om ontbrekende lettertypen te detecteren tijdens het laden van documenten.
+
 ### [Lettertypevervangingswaarschuwingen loggen in Java met Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Ontdek hoe je lettertypevervangingswaarschuwingen kunt loggen en analyseren bij het verwerken van documenten met Aspose.Words for Java.
+
 ### [Hoe opties instellen in Aspose.Words voor Java – volledige gids](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
-Leer hoe je alle laad‑ en opslaanopties configureert in Aspose.Words voor Java met uitgebreide voorbeelden.
+Leer hoe je alle laad‑ en opslaanopties configureert in Aspose.Words for Java met uitgebreide voorbeelden.
 
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.
@@ -112,12 +115,18 @@ Ontgrendel de kracht van Aspose.Words for Java. Leer tekstdocumenten te laden, l
 
 ### [Hoe een docx te herstellen – Herstelmodus inschakelen en waarschuwingen lezen](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Leer hoe je docx-bestanden kunt herstellen door herstelmodus in te schakelen en waarschuwingen te lezen met Aspose.Words for Java.
+
 ### [Vang waarschuwingen voor lettertype‑substitutie op – Detecteer ontbrekende lettertypen](./capture-font-substitution-warnings-detect-missing-fonts/)
 Leer hoe je waarschuwingen voor lettertype‑substitutie kunt vastleggen en ontbrekende lettertypen detecteert met Aspose.Words for Java.
+
 ### [Bestand uit map laden met Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Leer hoe je een bestand uit een map laadt met Aspose.Words in C#.
+
 ### [Hoe Markdown in Java te laden – Complete gids](./how-to-load-markdown-in-java-complete-guide/)
 Leer hoe je Markdown-bestanden kunt laden in Java met Aspose.Words, inclusief code‑voorbeelden en geavanceerde opties.
+
+### [Hoe markdown-bestand lezen met Java en Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+Leer hoe je markdown-bestanden kunt lezen in Java met Aspose.Words, met voorbeeldcode en handige tips.
 
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.
@@ -159,59 +168,22 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Hoe DOCX te herstellen – Corruptte bestanden laden met herstelopties](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
-Leer hoe je beschadigde DOCX‑bestanden kunt laden en herstellen met Aspose.Words for Java.
+Leer hoe je beschadigde DOCX‑bestanden kunt laden en herstellen met Aspose.Words voor Java.
 
 ### [Lettertypevervangingswaarschuwingen vastleggen in Java met Aspose.Words – Complete gids](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Leer hoe je lettertypevervangingswaarschuwingen kunt vastleggen en verwerken tijdens het laden van documenten met Aspose.Words voor Java.
 
 ### [Herstelmodus instellen om een beschadigd Word‑document te herstellen met Aspose.Words for Java](./set-recovery-mode-to-recover-broken-word-document/)
 Leer hoe je de herstelmodus configureert om beschadigde Word‑documenten automatisch te repareren met Aspose.Words for Java.
+
 ### [Aspose Words LoadOptions – Herstel corrupte Word‑documenten in Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Leer hoe je met LoadOptions corrupte Word‑documenten kunt herstellen in Java met Aspose.Words.
 
+### [Hoe de codering opgeven bij het laden van een document met Aspose.Words voor Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
+Specificeer de tekencodering bij het laden van documenten met Aspose.Words for Java.
+
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
-### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-Leer stap‑voor‑stap hoe je beschadigde .docx‑bestanden kunt openen en herstellen met Aspose.Words for Java.
-
-### [Hoe ontbrekende lettertypen in Java te verkrijgen – Aspose.Words-gids](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-Leer hoe je ontbrekende lettertypen kunt vinden en laden in Java met Aspose.Words. Stapsgewijze gids met code‑voorbeelden.
-### [Hoe DOCX‑bestanden te herstellen met Aspose.Words – Stapsgewijze gids](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
-Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words in een stapsgewijze Java‑handleiding.
-### [Docx herstellen – herstelde document opslaan met Java](./how-to-recover-docx-save-recovered-document-using-java/)
-### [Hoe DOCX te herstellen – Herstelmodus instellen & waarschuwingen weergeven](./how-to-recover-docx-set-recovery-mode-display-warnings/)
-Leer hoe je de herstelmodus inschakelt en waarschuwingen weergeeft bij het openen van beschadigde DOCX‑bestanden met Aspose.Words for Java.
-### [Herstel beschadigd Word‑document – Complete Java‑gids](./recover-broken-word-document-complete-java-guide/)
-
-### [Hoe DOCX‑bestanden te herstellen – Stapsgewijze Java‑gids](./how-to-recover-docx-files-step-by-step-java-guide/)
-Leer hoe je beschadigde DOCX‑bestanden kunt repareren met Aspose.Words for Java in een stapsgewijze handleiding.
-### [Herstel Word‑document – Complete gids voor het instellen van herstelmodus in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
-Leer hoe je een beschadigd Word‑document kunt herstellen en de herstelmodus in Java kunt configureren met Aspose.Words.
-### [Open beschadigd Word‑document – herstelmodus instellen in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
-Leer hoe je een beschadigd Word‑document opent en de herstelmodus configureert met Aspose.Words for Java.
-
-### [Beschadigde docx herstellen met Aspose.Words for Java](./recover-corrupted-docx-using-aspose-words-java/)
-Leer hoe je beschadigde DOCX-bestanden kunt repareren met Aspose.Words voor Java in een paar eenvoudige stappen.
-### [Detecteer ontbrekende lettertypevervanging in Java – Complete Aspose.Words-gids](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
-Leer hoe je ontbrekende lettertypevervangingen detecteert en verwerkt tijdens het laden van documenten met Aspose.Words for Java.
-
-### [Corrupt docx herstellen met Aspose.Words – Complete Java-gids](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
-Leer hoe je beschadigde docx‑bestanden kunt repareren en verwerken met Aspose.Words voor Java in een stapsgewijze gids.
-### [Herstel beschadigd Word-document met Aspose.Words – Gids](./recover-corrupted-word-document-using-aspose-words-guide/)
-
-### [Herstel beschadigde DOCX in Java – Complete programmeergids](./recover-corrupted-docx-in-java-complete-programming-guide/)
-Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words for Java via een volledige programmeergids met voorbeeldcode.
-
-### [LoadOptions configureren voor waarschuwingen – Complete Java-gids](./configure-loadoptions-for-warnings-complete-java-guide/)
-
-### [Leeg Word‑document maken met Java – Volledige Aspose.Words‑gids](./create-blank-word-document-with-java-full-aspose-words-guide/)
-Leer hoe je een leeg Word‑document maakt in Java met Aspose.Words, inclusief stap‑voor‑stap code‑voorbeelden.
-
-### [Markdown-onderstreping laden in Java – volledige programmeergids](./load-markdown-underline-in-java-complete-programming-guide/)
-Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words for Java.
-### [Aspose Lettertypevervanging Tutorial – Ontbrekende Lettertypen Afhandelen](./aspose-font-substitution-tutorial-handle-missing-fonts/)
-Leer hoe je ontbrekende lettertypen kunt afhandelen en vervangingswaarschuwingen vastlegt met Aspose.Words for Java.
-### [Herstel beschadigde DOCX met Aspose.Words voor Java – Complete gids](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+...
 
 ## Veelgestelde vragen
 

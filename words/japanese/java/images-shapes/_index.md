@@ -28,6 +28,9 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ## 利用可能なチュートリアル
 
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -133,6 +136,11 @@ Aspose.Words for Java を使用して、画像を文書に挿入し、必要に�
 ### [Javaで円グラフを挿入 – スライスを分割、回転、ハイライト](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 Aspose.Words for Java を使用して、円グラフを文書に挿入し、スライスの分離、回転、ハイライト設定を行う方法を学びます。
 
+### [ドーナツチャートを作成し、円グラフを挿入する方法](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
+JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
+
 ### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
 JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
 
@@ -145,6 +153,8 @@ JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
 グループ化された図形を含む空の Word 文書を作成し、レイアウトを簡単に管理する手順を解説します。
 
 ### [空白のWord文書を作成し、矩形シェイプを追加する](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [Javaでプログラム的にWord文書を作成し、シェイプを追加する](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
 ## 追加リソース
 

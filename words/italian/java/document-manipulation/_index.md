@@ -58,6 +58,8 @@ Inizia oggi stesso il tuo percorso di apprendimento e scopri le infinite possibi
 ## Tutorial sulla manipolazione dei documenti
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Come inserire un controllo di contenuto di testo semplice in un documento Word con C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
 ### [Come creare un documento Word vuoto con un controllo di contenuto di testo semplice in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [Utilizzo delle opzioni di pulizia in Aspose.Words per Java](./using-cleanup-options/)

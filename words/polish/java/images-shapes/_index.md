@@ -28,6 +28,12 @@ dziedzinie przetwarzania dokumentów integrowanie obrazów i kształtów jest kl
 
 ## Dostępne samouczki
 
+### [How to create a doughnut chart and insert a pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -152,7 +158,10 @@ Dowiedz się, jak ukryć kształt i ustawić jego kolor wypełnienia w dokumenci
 Dowiedz się, jak stworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
 
 ### [Utwórz pusty dokument Word i dodaj kształt prostokąta](./create-a-blank-word-document-and-add-a-rectangle-shape/)
-Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego prostokątny kształt przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego prostokątny kształt przy użyciem Aspose.Words dla Java.
+
+### [Utwórz dokument Word programowo i dodaj kształt w Javie](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+Dowiedz się, jak programowo utworzyć dokument Word i dodać do niego kształt przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 
@@ -160,7 +169,7 @@ Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego prostokątny k
 Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego ukryty kształt elipsy przy użyciu Aspose.Words dla Java.
 
 ### [Jak utworzyć dokument Word z wykresem kołowym w Javie](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
-Dowiedz się, jak wstawiać wykres kołowy do dokumentu Word przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak wstawiać wykres kołowy do dokumentu Word przy użyciem Aspose.Words dla Java.
 
 ### [Jak utworzyć pusty dokument i dodać kształty do Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego różne kształty przy użyciu Aspose.Words.

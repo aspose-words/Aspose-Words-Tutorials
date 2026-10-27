@@ -28,6 +28,9 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 ## Mevcut Eğitimler
 
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -64,7 +67,7 @@ C# kullanarak bir PDF belgesine dikdörtgen şekil ekleyip özelleştirmeyi adı
 Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
 
 ### [Java ile Word'de Şekilleri Gruplama – Tam Adım Adım Kılavuz](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-Java kullanarak Word belgelerinde şekilleri gruplamayı ve yönetmeyi öğrenin.
+Java kullanarak Word belgelerinde şekilleri gruplayıp yönetmeyi öğrenin.
 
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Şekil Ekle](./create-word-document-java-add-shape-with-shadow-effect/)
 Java kullanarak Word belgesine gölge efektiyle şekil eklemeyi öğrenin.
@@ -157,13 +160,16 @@ Java kullanarak grup halinde şekiller içeren boş bir Word belgesi oluşturmay
 ### [Java ile Word belgesinde halka grafik oluşturma](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Java ve Aspose.Words kullanarak bir Word belgesine halka grafik eklemeyi öğrenin.
 
+### [Döner grafik oluşturma ve pasta grafiği ekleme](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
 ### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri gruplamayı öğrenin.
+Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri gruplanmayı öğrenin.
 
 ### [Aspose.Words kullanarak Java'da gizli bir resimle Word belgesi oluşturma](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Aspose.Words for Java ile gizli bir resim ekleyerek Word belgesi oluşturmayı öğrenin.
 
-### [Aspose.Words ile grup şekli içinde elips ve dikdörtgen şekiller ekleme](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
+### [Java'da programlı olarak Word belgesi oluşturma ve şekil ekleme](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+Java kullanarak programlı bir şekilde Word belgesine şekil eklemeyi öğrenin.
 
 ## Ek Kaynaklar
 
@@ -185,7 +191,7 @@ C# kullanarak boş bir Word belgesi oluşturup gizli bir elips şekli eklemeyi �
 ### [Java ile Word belgesinde halka grafik oluşturma](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Java kullanarak Word belgesine halka grafik eklemeyi öğrenin.
 ### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri gruplamayı öğrenin.
+Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri gruplanmayı öğrenin.
 
 ### [Aspose.Words kullanarak Java'da gizli bir resimle Word belgesi oluşturma](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Aspose.Words for Java ile gizli bir resim ekleyerek Word belgesi oluşturmayı öğrenin.

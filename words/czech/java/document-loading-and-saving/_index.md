@@ -91,18 +91,17 @@ Nastavení dokumentu jsou klíčem k dodání dokumentů přizpůsobených vaši
 ### [Ukládání obrázků z dokumentů v Aspose.Words for Java](./saving-images-from-documents/)
 ### [Ukládání dokumentů jako Markdown v Aspose.Words for Java](./saving-documents-as-markdown/)
 Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java. Tento průvodce krok za krokem pokrývá zarovnání tabulek, zpracování obrázků a další.
-
 ### [Načtení podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
 Naučte se načíst podtržený text v markdownu pomocí Aspose.Words for Java a zpracovat jej v aplikaci.
 ### [Jak načíst Markdown v Javě – Kompletní průvodce](./how-to-load-markdown-in-java-complete-guide/)
 Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Kompletní průvodce s ukázkami kódu a tipy pro konverzi.
-
+### [Jak načíst soubor markdown v Javě pomocí Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+Naučte se načíst soubor Markdown v Javě pomocí Aspose.Words a zpracovat jeho obsah.
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 ### [Ukládání dokumentů ve formátu PCL v Aspose.Words for Java](./saving-documents-as-pcl-format/)
 ### [Ukládání dokumentů jako PDF v Aspose.Words for Java](./saving-documents-as-pdf/)
 Naučte se ukládat Word dokumenty jako PDF pomocí Aspose.Words for Java. Přizpůsobte písma, vlastnosti a kvalitu obrázků. Kompletní průvodce pro konverzi do PDF.
-
 ### [Jak uložit soubor DOCX v Javě – Průvodce vložením ovládacího prvku](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 
 ### [Ukládání dokumentů ve formátu RTF v Aspose.Words for Java](./saving-documents-as-rtf-format/)
@@ -120,12 +119,18 @@ Naučte se ukládat dokumenty jako textové soubory pomocí Aspose.Words for Jav
 ### [Vytvoření možností načítání v Javě – Detekce chybějících písem a načtení DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Naučte se nastavit LoadOptions v Aspose.Words for Java, detekovat chybějící písma a načíst DOCX soubory s makry.
 
+### [Jak specifikovat kódování při načítání dokumentu pomocí Aspose.Words pro Javu](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
+Naučte se nastavit kódování při načítání dokumentů v Aspose.Words for Java.
+
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Naučte se opravit poškozené soubory DOCX a pokračovat v jejich zpracování.
 
 ### [Jak obnovit soubory DOCX – krok‑za‑krokem průvodce v Javě](./how-to-recover-docx-files-step-by-step-java-guide/)
 Naučte se, jak pomocí Aspose.Words for Java opravit poškozené soubory DOCX a obnovit jejich obsah krok po kroku.
+
 ### [Otevření poškozeného dokumentu Word – nastavení režimu obnovy v Javě](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomocí Aspose.Words for Java.
+
 ### [Aspose.Words LoadOptions – Obnovení poškozených Word dokumentů v Javě](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
@@ -136,10 +141,9 @@ Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomoc
 ### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Jak obnovit soubory DOCX pomocí Aspose.Words – krok‑za‑krokem průvodce](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Jak obnovit DOCX – Nastavit režim obnovy a zobrazit varování](./how-to-recover-docx-set-recovery-mode-display-warnings/)
-Naučte se nastavit režim obnovy při načítání DOCX souborů a zobrazit varování pomocí Aspose.Words for Java.
-### [Jak obnovit docx pomocí Aspose.Words – Povolit režim obnovy](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 ### [Jak obnovit docx – Povolit režim obnovy a číst varování](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
-Naučte se povolit režim obnovy při načítání DOCX a interpretovat varování o poškození souboru.
+### [Jak obnovit docx – Povolit režim obnovy a číst varování](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Naučte se povolit režim obnovy při načítání DOCX souborů a interpretovat varování o poškození souboru.
 ### [Obnovení poškozeného dokumentu Word – Kompletní průvodce pro Javu](./recover-broken-word-document-complete-java-guide/)
 Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words for Java s podrobnými ukázkami kódu.
 

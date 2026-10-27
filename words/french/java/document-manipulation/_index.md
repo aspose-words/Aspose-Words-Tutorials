@@ -64,6 +64,9 @@ Apprenez à générer automatiquement des documents Word avec Aspose.Words en Ja
 
 ### [Comment créer un document Word vierge avec un contrôle de texte brut en C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
+### [Comment insérer un contrôle de texte brut dans un document Word avec C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Apprenez à insérer un contrôle de texte brut dans un document Word avec C# et Aspose.Words.
+
 ### [Créer un document Word vierge en Java avec Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Apprenez à créer un document Word vierge en Java à l'aide d'Aspose.Words.
 ### [Utilisation des options de nettoyage dans Aspose.Words pour Java](./using-cleanup-options/)

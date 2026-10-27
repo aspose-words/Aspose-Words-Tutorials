@@ -28,6 +28,9 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
 
@@ -139,7 +142,10 @@
 เรียนรู้วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words
 
 ### [สร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้า](./create-a-blank-word-document-and-add-a-rectangle-shape/)
-เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้าโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและเพิ่มรูปทรงใน Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [วิธีสร้างแผนภูมิโดนัทและแทรกแผนภูมิวงกลม](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

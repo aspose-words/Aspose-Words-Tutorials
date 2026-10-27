@@ -124,11 +124,12 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
 ### [Как программно создать документ Word с помощью Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words для Java.
-
 ### [Создание документа Word с простым текстовым элементом управления](./create-word-document-with-a-plain-text-content-control/)
 Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
 ### [Как создать пустой документ Word с простым текстовым элементом управления в C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 Создайте пустой документ Word и добавьте простой текстовый элемент управления с помощью Aspose.Words для C#.
+### [Как вставить простой текстовый элемент управления в документ Word с C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Узнайте, как вставить простой текстовый элемент управления в документ Word с помощью C# и Aspose.Words.
 ### [Создать пустой документ Word и добавить кнопку ActiveX в C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Создайте пустой документ Word и вставьте кнопку ActiveX с помощью Aspose.Words для C#.
 ### [Как сохранить DOCX с помощью DocumentBuilder и добавить текст после элемента управления](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)

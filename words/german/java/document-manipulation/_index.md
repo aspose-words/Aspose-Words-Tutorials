@@ -58,6 +58,9 @@ Beginnen Sie Ihre Lernreise noch heute und erschließen Sie sich die endlosen M�
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
  zur Dokumentbearbeitung
+### [Wie man ein einfaches Textsteuerelement in ein Word-Dokument mit C# einfügt](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
+Erfahren Sie, wie Sie ein einfaches Textsteuerelement in ein Word-Dokument mit C# einfügen.
 ### [Wie man ein leeres Word-Dokument mit einem einfachen Textsteuerelement in C# erstellt](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
  zur Dokumentbearbeitung

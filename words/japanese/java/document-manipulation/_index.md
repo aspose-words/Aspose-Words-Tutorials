@@ -131,7 +131,8 @@ Aspose.Words for Java を使用して、内容のない新しい Word 文書を�
 ### [C# でタグ名を設定し、SDT を追加する](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [C# でプレーンテキスト コンテンツ コントロールを使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-a-plain-text-content/)
 ### [C# で空白の Word 文書を作成し、ActiveX ボタンを追加する](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
-C# と Aspose.Words を使用して、空の Word 文書を作成し、ActiveX ボタンを埋め込む方法をステップバイステップで解説します。
+### [C# で Word 文書にプレーンテキスト コンテンツ コントロールを挿入する方法](./how-to-insert-plain-text-content-control-in-a-word-document/)
+C# を使用して Word 文書にプレーンテキスト コンテンツ コントロールを追加し、データ入力を簡素化する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

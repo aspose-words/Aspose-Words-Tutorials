@@ -68,6 +68,7 @@ Untuk informasi lebih lanjut, lihat [Dokumentasi API Aspose.Words for Java](http
 ## Tutorial Konversi Dokumen dan Ekspor
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
+### [Cara mengonversi docx ke markdown di Java dengan dukungan tabel](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
 
 ### [Membuat Label Barcode Kustom di Aspose.Words for Java](./generating-custom-barcode-labels/)
 Buat Label Barcode Kustom di Aspose.Words for Java. Pelajari cara membuat solusi barcode yang dipersonalisasi menggunakan Aspose.Words for Java dalam panduan langkah demi langkah ini.

@@ -167,6 +167,12 @@ Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서�
 ### [Aspose.Words를 사용하여 그룹 도형 안에 타원 및 사각형 도형 삽입하는 방법](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 그룹 도형에 타원과 사각형을 추가하는 단계별 가이드
 
+### [빈 Word 문서를 만들고 여러 도형을 그룹화하는 방법](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+### [Java로 프로그래밍 방식으로 Word 문서를 만들고 도형을 추가하기](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [도넛 차트를 만들고 파이 차트를 삽입하는 방법](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

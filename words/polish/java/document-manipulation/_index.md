@@ -58,6 +58,8 @@ Rozpocznij swoją przygodę z nauką już dziś i odkryj nieograniczone możliwo
 ## Samouczki dotyczące manipulacji dokumentami
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [Jak wstawić kontrolkę zawartości tekstu zwykłego w dokumencie Word przy użyciu C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
 ### [Jak utworzyć pusty dokument Word z kontrolką zawartości tekstu zwykłego w C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [Korzystanie z opcji czyszczenia w Aspose.Words dla Java](./using-cleanup-options/)

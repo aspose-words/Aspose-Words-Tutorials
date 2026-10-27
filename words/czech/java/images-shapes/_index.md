@@ -104,19 +104,10 @@ Naučte se, jak nastavit vlastnost Hidden pro tvary v dokumentech Word pomocí A
 ### [Vytvořit prázdný Word dokument a seskupit tvary v Javě](./create-blank-word-document-and-group-shapes-in-java/)
 Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
 
-### [Jak vytvořit skupinový tvar docx a přidat interaktivní ovládací prvky v C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-Naučte se, jak vytvořit skupinový tvar v dokumentu DOCX a přidat interaktivní ovládací prvky pomocí C#.
+### [Jak vytvořit prázdný dokument Word a seskupit více tvarů](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
-### [Skupinové tvary ve Wordu a přidání obdélníku pomocí Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu pomocí Aspose.Words pro Javu.
-
-### [Jak skrýt tvar ve Wordu pomocí C# a Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
-
-### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+### [Vytvořit prázdný Word dokument a seskupit tvary v Javě](./create-blank-word-document-and-group-shapes-in-java/)
 Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
-
-### [Vytvořte nový dokument Word se skrytým obrázkem – krok‑za‑krokem průvodce](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-Naučte se, jak vytvořit dokument Word s ukrytým obrázkem pomocí Aspose.Words pro Javu.
 
 ### [Jak vytvořit prázdný dokument a přidat tvary pomocí Aspose.Words v C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Naučte se, jak vytvořit prázdný dokument a přidat do něj tvary pomocí Aspose.Words v C#.
@@ -150,6 +141,10 @@ Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí A
 Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
 
 ### [Vytvořit prázdný dokument Word a přidat obdélníkový tvar](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [Vytvořit Word dokument programově a přidat tvar v Javě](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [Jak vytvořit prstencový graf a vložit koláčový graf](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## Další zdroje
 

@@ -79,6 +79,8 @@ Pro více informací si prohlédněte [Aspose.Words for Java API Documentation](
 ### [Generování vlastních štítků s čárovým kódem v Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generujte vlastní štítky s čárovým kódem v Aspose.Words for Java. Naučte se vytvářet personalizovaná řešení čárových kódů pomocí Aspose.Words for Java v tomto krok‑za‑krokem průvodci.
 
+### [Jak převést docx na markdown v Javě s podporou tabulek](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+
 ### [Použití generování čárových kódů v Aspose.Words for Java](./using-barcode-generation/)
 Naučte se generovat vlastní čárové kódy v Javě pomocí Aspose.Words for Java. Krok‑za‑krokem průvodce se zdrojovým kódem pro generování čárových kódů. Vylepšete automatizaci dokumentů s Aspose.Words.
 
@@ -205,7 +207,7 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 ### [Vkládání obrázků jako Base64 při konverzi DOCX do Markdownu](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Naučte se, jak při převodu DOCX na Markdown vložit obrázky jako Base64 kód, aby se zobrazily přímo v Markdown souboru.
 
-### [Uložit DOCX jako Markdown – Kompletní průvodce v Javě s extrakcí obrázků](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+### [Uložit DOCX jako markdown – Kompletní průvodce v Javě s extrakcí obrázků](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Naučte se, jak převést DOCX na Markdown v Javě pomocí Aspose.Words a extrahovat vložené obrázky do samostatných souborů.
 
 ### [Jak uložit Markdown z Wordu – kompletní průvodce v Javě](./how-to-save-markdown-from-word-complete-java-guide/)

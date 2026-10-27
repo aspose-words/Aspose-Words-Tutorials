@@ -28,6 +28,9 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 
 ## Elérhető oktatóanyagok
 
+### [Create Word document programmatically and add a shape in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+
 ### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 
@@ -103,53 +106,306 @@ Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az A
 Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban az Aspose.Words segítségével.
 ### [Üres Word dokumentum létrehozása és alakzatok csoportosítása Java-ban](./create-blank-word-document-and-group-shapes-in-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
-### [Téglalap alakzat létrehozása Word dokumentumban Java-val – Teljes útmutató](./create-rectangle-shape-in-word-with-java-full-guide/)
-Ismerje meg, hogyan hozhat létre és testreszabhat téglalap alakzatot Word dokumentumokban Java segítségével.
-### [Alakzatcsoportok csoportosítása Word-ben és téglalap hozzáadása az Aspose.Words-szal](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Ismerje meg, hogyan csoportosíthat alakzatokat és adhat hozzá téglalapot Word dokumentumokhoz Java-ban az Aspose.Words használatával.
+### [Üres Word dokumentum létrehozása és több alakzat csoportosítása](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Hogyan rejtsünk el alakzatot a Wordben C#-val és az Aspose.Words-szal](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
-Ismerje meg, hogyan rejthet el alakzatot a Word dokumentumban C# és az Aspose.Words segítségével.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Csoportos alakzat létrehozása DOCX-ben és interaktív vezérlők hozzáadása C#-ban](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-Ismerje meg, hogyan hozhat létre csoportos alakzatot DOCX fájlban, és adhat hozzá interaktív vezérlőket C#-ban az Aspose.Words segítségével.
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Üres Word dokumentum és alakzatcsoport létrehozása Java-ban](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és csoportosíthatja az alakzatokat Java-ban.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Új Word dokumentum létrehozása rejtett képpel – lépésről‑lépésre útmutató](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-Ismerje meg, hogyan hozhat létre új Word dokumentumot, amely rejtett képet tartalmaz, részletes lépésekkel.
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Üres dokumentum létrehozása és alakzatok hozzáadása Aspose.Words használatával C#-ban](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
-Tanulja meg, hogyan hozhat létre üres Word-dokumentumot, és adhat hozzá alakzatokat C#-ban az Aspose.Words segítségével.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Hogyan szúrjunk be képet docx-be, és rejtsük el a képet Word-ben Java-val](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
-Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Word dokumentumban Java használatával.
-### [Hogyan csoportosítsunk alakzatokat Word-ben Java-val – teljes útmutató](./how-to-group-shapes-in-word-with-java-complete-guide/)
-Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
-### [Árnyék hozzáadása alakzathoz Java‑ban – Teljes programozási útmutató](./add-shadow-to-shape-in-java-complete-programming-guide/)
-Ismerje meg, hogyan adhat árnyékot alakzatokhoz Java-ban az Aspose.Words segítségével.
-### [Üres Word dokumentum létrehozása csoportosított alakzatokkal – Java útmutató](./create-blank-word-document-with-grouped-shape-java-guide/)
-Ismerje meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzatokkal Java-ban az Aspose.Words segítségével.
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Word dokumentum létrehozása Java – Képek beszúrása és elrejtése az Aspose.Words segítségével](./create-word-document-java-insert-and-hide-images-with-aspose/)
-Tanulja meg, hogyan szúrhat be és rejthet el képeket egy Word dokumentumban Java-ban az Aspose.Words használatával.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Kördiagram beszúrása Java-ban – szeletek szétrobbanása, forgatása és kiemelése](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
-Tanulja meg, hogyan hozhat létre és testreszabhat kördiagramot Java-ban, beleértve a szeletek szétrobbanását, forgatását és kiemelését.
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Üres Word dokumentum létrehozása csoportosított alakzatokkal Java-ban](./create-blank-word-document-with-grouped-shapes-in-java/)
-Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzatokkal Java-ban az Aspose.Words segítségével.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Aspose.Words ActiveX oktatóanyag – CommandButton beszúrása Java-val](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-Ismerje meg, hogyan szúrhat be CommandButton elemet ActiveX használatával Java-ban az Aspose.Words segítségével.
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Word dokumentum létrehozása Java – alakzat elrejtése és kitöltőszín beállítása](./create-word-document-java-hide-shape-and-set-fill-color/)
-Ismerje meg, hogyan rejthet el alakzatot és állíthat be kitöltőszínt a Word dokumentumban Java-val az Aspose.Words segítségével.
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Üres Word dokumentum létrehozása csoportosított alakzatokkal](./how-to-create-blank-word-document-with-grouped-shapes/)
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
-### [Üres Word dokumentum létrehozása és téglalap alakzat hozzáadása](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Hogyan hozzunk létre fánkdiagramot és szúrjunk be kördiagramot](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ## További források
 
@@ -170,11 +426,10 @@ Tanulja meg, hogyan hozhat létre üres Word dokumentumot, és rejtett ellipszis
 
 ### [Hogyan hozzunk létre fánkdiagramot Word dokumentumban Java-val](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Tanulja meg, hogyan generálhat fánkdiagramot Word dokumentumokban Java segítségével, részletes kódpéldákkal.
-### [Hogyan hozzunk létre üres Word-dokumentumot és csoportosítsunk alakzatokat Java-ban](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
-Ismerje meg, hogyan hozhat létre üres Word dokumentumot és csoportosíthat alakzatokat Java használatával.
+### [Hogyan hozzunk létre üres Word-dokumentumot és csoportosítsunk alakzatokat Java-ban](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot és csoportosíthatja az alakzatokat Java-ban.
 
 ### [Word-dokumentum létrehozása rejtett képpel Java-ban az Aspose.Words használatával](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
-Tanulja meg, hogyan ágyazhat be rejtett képet egy Word-dokumentumba Java és Aspose.Words segítségével.
 
 ## További források
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

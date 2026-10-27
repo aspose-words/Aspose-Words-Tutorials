@@ -58,6 +58,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ## دروس معالجة المستندات
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
+### [كيفية إدراج عنصر تحكم نص عادي في مستند Word باستخدام C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
 ### [كيفية إنشاء مستند Word فارغ مع عنصر تحكم نص عادي في C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 ### [استخدام خيارات التنظيف في Aspose.Words لـ Java](./using-cleanup-options/)

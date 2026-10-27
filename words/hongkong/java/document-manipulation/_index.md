@@ -135,8 +135,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 在 Java 中使用 Aspose.Words 建立可在 Word 中執行的 ActiveX 按鈕的完整步驟與程式碼示例。
 ### [使用 Aspose.Words 在 Java 中建立 Word 文件](./how-to-create-a-word-document-in-java-with-aspose-words/)
 了解如何使用 Aspose.Words for Java 從頭建立 Word 文件的步驟與程式碼範例。
-### [在 Aspose.Words for Java 中使用文字控制項建立空白 Word 文件](./how-to-create-a-blank-word-document-with-a-text-control/)
-了解如何使用文字控制項在 Aspose.Words for Java 中建立空白的 Word 文件，並插入可編輯的文字區域。
+### [在 Aspose.Words for Java 中使用文字控制項建立空白 Word 文件](./how-to-create-a-blank-word-document-with-an-interactive-command-button-in/)
+示範如何使用 Aspose.Words for Java 建立空白文件，並在其中加入可點擊的指令按鈕。
 ### [使用 Aspose.Words 程式化建立 Word 文件](./how-to-create-word-document-programmatically-with-aspose-wor/)
 示範如何使用 Aspose.Words 程式化建立 Word 文件，提供完整程式碼範例與操作說明。
 ### [在 Aspose.Words for Java 中使用純文字內容控制建立 Word 文件](./create-word-document-with-a-plain-text-content-control/)
@@ -151,6 +151,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 使用 C# 在 Word 文件中設定標籤名稱並新增結構化文件標籤 (SDT)。 
 ### [在 C# 中使用純文字內容控制建立空白 Word 文件](./how-to-create-blank-word-document-with-a-plain-text-content/)
 示範如何在 C# 中使用純文字內容控制建立空白的 Word 文件。
+
+### [在 C# 中於 Word 文件插入純文字內容控制](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
 ### [在 C# 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 示範如何在 C# 使用 Aspose.Words 建立空白 Word 文件，並添加可點擊的 ActiveX 按鈕。

@@ -134,6 +134,9 @@ Ismerje meg, hogyan hozhat létre üres Word dokumentumot egyszerű szöveges ta
 ### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása C#-ban](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és adhat hozzá ActiveX gombot C#-ban az Aspose.Words segítségével.
 
+### [Hogyan szúrjunk be egyszerű szöveges tartalomvezérlőt egy Word dokumentumba C#-ban](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Egyszerű szöveges tartalomvezérlő hozzáadása Word dokumentumhoz C#-ban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -60,6 +60,8 @@ Java için Aspose.Words kullanarak belge düzenleme, geliştiriciler ve işletme
 
 ### [C# ile düz metin içerik denetimi ekleyerek boş Word belgesi oluşturma](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
+### [C# ile bir Word belgesine düz metin içerik denetimi ekleme](./how-to-insert-plain-text-content-control-in-a-word-document/)
+
 ### [C# ile boş bir Word belgesi oluşturun ve bir ActiveX düğmesi ekleyin](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 
 ### [Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma](./using-cleanup-options/)

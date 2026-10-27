@@ -76,6 +76,8 @@ weight: 22
 ## دروس تحويل المستندات وتصديرها
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
+### [كيفية تحويل docx إلى markdown في Java مع دعم الجداول](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
+
 ### [كيفية حفظ المستند كملف docx من ملف Markdown في Java](./how-to-save-document-as-docx-from-a-markdown-file-in-java/)
 
 ### [إنشاء ملصقات باركود مخصصة في Aspose.Words for Java](./generating-custom-barcode-labels/)

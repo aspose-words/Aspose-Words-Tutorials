@@ -113,7 +113,7 @@ Java के लिए Aspose.Words के साथ PDF में एक्स�
 ### [Java में docx ActiveX बटन बनाना – पूर्ण प्रोग्रामिंग गाइड](./create-docx-activex-button-in-java-complete-programming-guid/)
 Java में docx फ़ाइल में ActiveX बटन जोड़ने की पूरी मार्गदर्शिका।
 ### [Java में Aspose.Words के साथ Word दस्तावेज़ बनाना](./how-to-create-a-word-document-in-java-with-aspose-words/)
-Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-स्टेप मार्गदर्शक।
 ### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
 Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
 ### [Java के लिए Aspose.Words में टेक्स्ट कंट्रोल के साथ एक खाली Word दस्तावेज़ बनाना](./how-to-create-a-blank-word-document-with-a-text-control/)
@@ -124,7 +124,6 @@ Aspose.Words for Java का उपयोग करके प्रोग्र�
 ### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
 सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-स्टेप मार्गदर्शिका।
 ### [C# के लिए Aspose.Words में साधारण टेक्स्ट कंटेंट कंट्रोल के साथ खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-a-plain-text-content/)
-
 ### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 
 ### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
@@ -135,6 +134,8 @@ Aspose.Words for Java का उपयोग करके एक खाली Wo
 C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में टैग नाम सेट करें और संरचित दस्तावेज़ टैग (SDT) जोड़ें।
 ### [C# में एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 C# में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें।
+### [C# के साथ Word दस्तावेज़ में साधारण टेक्स्ट कंटेंट कंट्रोल डालना](./how-to-insert-plain-text-content-control-in-a-word-document/)
+C# का उपयोग करके Word दस्तावेज़ में साधारण टेक्स्ट कंटेंट कंट्रोल जोड़ने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

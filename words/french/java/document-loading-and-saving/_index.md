@@ -92,6 +92,9 @@ Apprenez à créer des LoadOptions pour détecter les polices manquantes et char
 ### [Comment définir les options dans Aspose.Words for Java – guide complet](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Apprenez à configurer toutes les options de chargement et d’enregistrement dans Aspose.Words for Java avec des exemples détaillés.
 
+### [Comment lire un fichier Markdown en Java avec Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
+Apprenez à lire des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
+
 ### [Configuration des options de chargement RTF dans Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez à reconnaître le texte UTF‑8 dans les documents RTF. Guide étape par étape avec des exemples de code.
 
@@ -118,6 +121,27 @@ Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus e
 
 ### [Récupérer un DOCX corrompu avec Aspose.Words for Java – Guide complet](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
+
+### [Aspose.Words LoadOptions – Récupérer les documents Word corrompus en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus et les convertir avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu avec Aspose.Words for Java – Guide complet](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
+
+### [Aspose.Words LoadOptions – Récupérer les documents Word corrompus en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus et les convertir avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu avec Aspose.Words for Java – Guide complet](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
+
+### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
 
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
@@ -164,7 +188,7 @@ Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 
-### [Comment récupérer un docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [Comment récupérer le docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words for Java.
 
 ### [Définir le mode de récupération pour récupérer un document Word endommagé](./set-recovery-mode-to-recover-broken-word-document/)
@@ -172,7 +196,7 @@ Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words
 ### [Comment récupérer les polices manquantes en Java – Guide Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Comment récupérer des fichiers DOCX avec Aspose.Words – Guide étape par étape](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Apprenez à restaurer des fichiers DOCX corrompus avec Aspose.Words en suivant un guide complet et des exemples de code Java.
-### [Comment récupérer un docx – enregistrer le document récupéré en Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Comment récupérer le docx – enregistrer le document récupéré en Java](./how-to-recover-docx-save-recovered-document-using-java/)
 Apprenez à récupérer un fichier DOCX corrompu et à enregistrer le document réparé en Java avec Aspose.Words.
 ### [Comment récupérer un DOCX – Configurer le mode de récupération et afficher les avertissements](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Apprenez à récupérer des fichiers DOCX corrompus en définissant le mode de récupération et en affichant les avertissements avec Aspose.Words for Java.
@@ -218,6 +242,8 @@ Apprenez à capturer et gérer les avertissements de substitution de polices lor
 ### [Comment charger un fichier depuis un répertoire avec Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Comment charger le Markdown en Java – Guide complet](./how-to-load-markdown-in-java-complete-guide/)
 Apprenez à charger des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
+
+### [Comment spécifier l'encodage lors du chargement d'un document avec Aspose.Words for Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
 ## Foire aux questions
 
