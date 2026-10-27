@@ -31,7 +31,7 @@ tags:
 - Aspose.Words
 - Markdown
 - Document conversion
-title: How to convert docx to markdown in Java with table support
+title: How to use Aspose.Words for Java to convert docx to markdown with table support
 url: /java/document-conversion-and-export/how-to-convert-docx-to-markdown-in-java-with-table-support/
 ---
 
@@ -39,7 +39,7 @@ url: /java/document-conversion-and-export/how-to-convert-docx-to-markdown-in-jav
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to convert docx to markdown in Java with table support
+# How to use Aspose.Words for Java to convert docx to markdown with table support
 
 If you need to **convert docx to markdown** quickly, this guide shows you a complete solution using Aspose.Words for Java. You’ll learn how to **save Word as markdown**, preserve tables by exporting them as HTML, and generate a clean `.md` file ready for static‑site generators or documentation pipelines.
 
@@ -227,14 +227,14 @@ You now have a reliable method to **convert docx to markdown** in Java, with ful
 Happy coding, and enjoy the seamless bridge from Word to markdown!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API](/words/english/java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/)
-- [Convert DOCX to Markdown with Aspose.Words for Java – Save DOCX as Markdown](/words/english/java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
-- [Save Word as Markdown – Export Tables to HTML with Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+- [Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API]({{< relref "/words/english/java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/" >}})
+- [Convert DOCX to Markdown with Aspose.Words for Java – Save DOCX as Markdown]({{< relref "/words/english/java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/" >}})
+- [Save Word as Markdown – Export Tables to HTML with Aspose.Words]({{< relref "/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-export-tables-to-html-with-aspose-word/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

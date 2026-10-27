@@ -49,7 +49,7 @@ tags:
 - Java
 - Encoding
 - Aspose.Words
-title: How to specify encoding when loading a document with Aspose.Words for Java
+title: Learn how to specify encoding when loading a document with Aspose.Words for Java
 url: /java/document-loading-and-saving/how-to-specify-encoding-when-loading-a-document-with-aspose/
 ---
 
@@ -122,7 +122,7 @@ loadOptions.setEncoding(Encoding.getEncoding("Big5"));
 
 *Why this matters*: If the file’s bytes are interpreted with the wrong code page, characters appear as question marks or gibberish. By explicitly calling `setEncoding`, you tell Aspose.Words to decode the byte stream using the Big5 mapping table.
 
-You can replace `"Big5"` with any charset name recognized by Java, such as `"UTF-8"`, `"ISO-8859-1"`, or `"Windows-1252`. The method throws `UnsupportedEncodingException` if the name is invalid, so you may want to catch that exception in production code.
+You can replace `"Big5"` with any charset name recognized by Java, such as `"UTF-8"`, `"ISO-8859-1"`, or `"Windows-1252".` The method throws `UnsupportedEncodingException` if the name is invalid, so you may want to catch that exception in production code.
 
 ## Step 4: Load the document with the configured options
 
@@ -263,14 +263,14 @@ Explore related topics such as **document loading options**, **saving with speci
 Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words](/words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/)
-- [How to set options in Aspose.Words for Java – complete guide](/words/english/java/document-loading-and-saving/how-to-set-options-in-aspose-words-for-java-complete-guide/)
-- [Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide](/words/english/java/document-loading-and-saving/recover-corrupted-word-document-using-aspose-words-guide/)
+- {{< relref "/words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/" >}}How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words{{< /relref >}}
+- {{< relref "/words/english/java/document-loading-and-saving/how-to-set-options-in-aspose-words-for-java-complete-guide/" >}}How to set options in Aspose.Words for Java – complete guide{{< /relref >}}
+- {{< relref "/words/english/java/document-loading-and-saving/recover-corrupted-word-document-using-aspose-words-guide/" >}}Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

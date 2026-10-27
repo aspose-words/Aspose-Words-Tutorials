@@ -1,5 +1,5 @@
 ---
-title: "Insert and Manipulate Images & Shapes in DOCX with Aspose.Words for Java API"
+title: "Learn to Insert and Manipulate Images & Shapes in Word Documents"
 description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -200,12 +200,12 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
+
+
+
 
 ### [How to create a doughnut chart and insert a pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
@@ -218,4 +218,9 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 
 ### [Create a blank Word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

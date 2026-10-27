@@ -31,7 +31,7 @@ tags:
 - Aspose.Words
 - C#
 - Word automation
-title: How to create blank Word document and group multiple shapes
+title: How to create a blank Word document and group multiple shapes using Aspose.Words
 url: /java/images-shapes/how-to-create-blank-word-document-and-group-multiple-shapes/
 ---
 
@@ -39,7 +39,7 @@ url: /java/images-shapes/how-to-create-blank-word-document-and-group-multiple-sh
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create blank Word document and group multiple shapes
+# How to create a blank Word document and group multiple shapes using Aspose.Words
 
 If you need to **create blank Word document** programmatically, this tutorial shows you exactly how. You’ll see how to insert a group shape, then **add rectangle** to that group, covering the full workflow from an empty document to a grouped drawing.
 
@@ -153,14 +153,14 @@ You now know how to **create blank Word document**, **insert group**, **add rect
 Feel free to adapt the code for your own reporting or diagram‑generation needs. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create blank Word document and group shapes in C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
-- [How to group shapes in Word and add shapes to Word document](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [How to create rectangle shape and group shapes in Word with Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
+- {{< relref "/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/" >}}
+- {{< relref "/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/" >}}
+- {{< relref "/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

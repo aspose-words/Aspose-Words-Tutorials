@@ -29,7 +29,7 @@ tags:
 - chart
 - Java
 - data‑visualization
-title: How to create a doughnut chart and insert a pie chart
+title: Create a doughnut chart and insert a pie chart using Aspose.Cells for Java
 url: /java/images-shapes/how-to-create-a-doughnut-chart-and-insert-a-pie-chart/
 ---
 
@@ -186,14 +186,14 @@ You now know how to **create doughnut chart** and **insert pie chart** in Java u
 Happy charting!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create doughnut chart in a Word document with Java](/words/english/java/images-shapes/how-to-create-doughnut-chart-in-a-word-document-with-java/)
-- [Save Word document after editing doughnut chart in Java](/words/english/java/using-document-elements/save-word-document-after-editing-doughnut-chart-in-java/)
-- [Insert Pie Chart in Java – Explode, Rotate & Highlight Slices](/words/english/java/images-shapes/insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+- {{< relref "words/english/java/images-shapes/how-to-create-doughnut-chart-in-a-word-document-with-java/" >}}Create doughnut chart in a Word document with Java{{< /relref >}}
+- {{< relref "words/english/java/using-document-elements/save-word-document-after-editing-doughnut-chart-in-java/" >}}Save Word document after editing doughnut chart in Java{{< /relref >}}
+- {{< relref "words/english/java/images-shapes/insert-pie-chart-in-java-explode-rotate-highlight-slices/" >}}Insert Pie Chart in Java – Explode, Rotate & Highlight Slices{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
