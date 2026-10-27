@@ -162,7 +162,7 @@ The following tutorials cover closely related topics that build on the technique
 - {{< relref "net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/" >}}
 - {{< relref "net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/" >}}
 
-{{< blocks/products/pf/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
