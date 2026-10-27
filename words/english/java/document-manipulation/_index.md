@@ -16,8 +16,6 @@ url: /java/document-manipulation/
 
 # Document Manipulation
 
-
-
 Are you looking to master the art of document manipulation in Java? Look no further! In this article, we will guide you through the world of Aspose.Words for Java tutorials, equipping you with the knowledge and skills needed to excel in document processing.
 
 ## Why choose Aspose.Words for java?
@@ -67,9 +65,7 @@ Start your learning journey today and unlock the endless possibilities of docume
 ## Document manipulation tutorials
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
-
 ### [How to create blank Word document with a plain text content control in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
-
 
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
@@ -149,6 +145,6 @@ Create a blank Word document using Aspose.Words for Java. Simple step-by-step gu
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

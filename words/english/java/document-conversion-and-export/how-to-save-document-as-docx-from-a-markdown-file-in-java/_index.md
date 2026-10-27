@@ -208,11 +208,13 @@ Happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to save Markdown as DOCX using Java – complete guide]({{< relref "words/english/java/document-converting/how-to-save-markdown-as-docx-using-java-complete-guide" >}})
-- [How to save Markdown as DOCX using Aspose.Words for Java]({{< relref "words/english/java/document-conversion-and-export/how-to-save-markdown-as-docx-using-aspose-words-for-java" >}})
-- [How to convert docx to markdown using Aspose.Words for Java]({{< relref "words/english/java/document-converting/how-to-convert-docx-to-markdown-using-aspose-words-for-java" >}})
+- [How to save Markdown as DOCX using Java – complete guide]({{< relref "java/document-converting/how-to-save-markdown-as-docx-using-java-complete-guide/_index.md" >}})
+- [How to save Markdown as DOCX using Aspose.Words for Java]({{< relref "java/document-conversion-and-export/how-to-save-markdown-as-docx-using-aspose-words-for-java/_index.md" >}})
+- [How to convert docx to markdown using Aspose.Words for Java]({{< relref "java/document-converting/how-to-convert-docx-to-markdown-using-aspose-words-for-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
