@@ -104,12 +104,12 @@
 | [Μετάφραση συμβολοσειράς στα Ισπανικά σε C# με Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε κείμενο στα Ισπανικά σε C# χρησιμοποιώντας το Aspose.Words AI. |
 | [Μετάφραση παραγράφου στα γαλλικά και αλλαγή ετικέτας γραφήματος στο Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Μάθετε πώς να μεταφράσετε μια παράγραφο στα γαλλικά και να αλλάξετε την ετικέτα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
 | [Πώς να μεταφράσετε docx στα γαλλικά σε C# – βήμα‑βήμα οδηγός](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Μάθετε πώς να μεταφράσετε αρχεία docx στα γαλλικά σε C# με οδηγίες βήμα‑βήμα. |
+| [Πώς να αποθηκεύσετε μεταφρασμένο έγγραφο Word σε C# με το Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Μάθετε πώς να αποθηκεύσετε ένα Word που μεταφράστηκε με το Google AI χρησιμοποιώντας C#. |
+| [Πώς να συνοψίσετε έγγραφο Word με OpenAI σε C#](./how-to-summarize-word-document-with-openai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το OpenAI για να δημιουργήσετε σύνοψη εγγράφων Word σε C# με Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

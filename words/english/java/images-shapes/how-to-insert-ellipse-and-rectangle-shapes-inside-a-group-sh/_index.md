@@ -170,12 +170,13 @@ Ready to explore more? Try combining this technique with **how to create group s
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create rectangle shape and group shapes in Word with Aspose.Words]({{< relref "words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/_index.md" >}})
-- [How to create blank Word document and add a hidden ellipse shape in C#]({{< relref "words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/_index.md" >}})
-- [How to create group shape docx and add interactive controls in C#]({{< relref "words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/_index.md" >}})
+- [How to create rectangle shape and group shapes in Word with Aspose.Words]({{< relref "net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/_index.md" >}})
+- [How to create blank Word document and add a hidden ellipse shape in C#]({{< relref "java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/_index.md" >}})
+- [How to create group shape docx and add interactive controls in C#]({{< relref "java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
