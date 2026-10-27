@@ -55,6 +55,9 @@ Lär dig hur du effektivt tar bort och anpassar styckekantlinjer med Aspose.Word
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Lär dig hur du effektivt hanterar tabbstopp i dina Python-dokument med hjälp av Aspose.Words. Den här guiden beskriver hur du lägger till, anpassar och tar bort tabbstopp med praktiska exempel.
 
+### [Hur man formaterar diagram i ett Word-dokument med Python](./how-to-style-chart-in-a-word-document-using-python/)
+Lär dig att anpassa diagramstilar i Word-dokument med Aspose.Words för Python för professionell presentation.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

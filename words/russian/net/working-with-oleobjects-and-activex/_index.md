@@ -27,8 +27,22 @@
 | [Вставить объект Ole в Word с помощью пакета Ole](./insert-ole-object-with-ole-package/) | Узнайте, как вставлять объекты OLE в документы Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы встраивать файлы без проблем. |
 | [Вставить объект Ole в документ Word как значок](./insert-ole-object-as-icon/) | Узнайте, как вставить объект OLE в качестве значка в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы улучшить свои документы. |
 | [Вставить Ole-объект как значок с помощью потока](./insert-ole-object-as-icon-using-stream/) | Узнайте, как вставить объект OLE в качестве значка, используя поток с Aspose.Words для .NET, в этом подробном пошаговом руководстве. |
+| [Как вставить кнопку команды OLE в документ Word с использованием C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Узнайте, как добавить кнопку команды OLE в документ Word с помощью Aspose.Words для .NET и C#. |
 | [Чтение свойств Active XControl из файла Word](./read-active-xcontrol-properties/) | Узнайте, как читать свойства элементов управления ActiveX из файлов Word с помощью Aspose.Words для .NET в пошаговом руководстве. Улучшите свои навыки автоматизации документов. |
-
+| [Создание документа Word с кнопкой ActiveX – руководство на C#](./create-word-document-with-activex-button-c-guide/) | Узнайте, как создать документ Word с кнопкой ActiveX, используя C# и Aspose.Words. |
+| [Создать кнопку документа Word с Aspose.Words – полный пример кода](./create-word-document-button-with-aspose-words-full-code-exam/) | Полный пример кода, показывающий, как создать кнопку в документе Word с помощью Aspose.Words для .NET. |
+| [Вставить пример OleControlType.CommandButton в документ Word](./insert-olecontroltype-commandbutton-example-in-word/) | Узнайте, как вставить объект OleControlType.CommandButton в документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Как создать кнопку команд ActiveX в Word с помощью C#](./how-to-create-activex-command-button-in-word-using-c/) | Узнайте, как добавить кнопку команд ActiveX в документ Word с помощью C# и Aspose.Words. |
+| [Как добавить элемент управления ActiveX в Word с помощью C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Узнайте, как добавить элемент управления ActiveX в документ Word с помощью C# и Aspose.Words для .NET. |
+| [Создать документ Word программно и добавить кнопку ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Узнайте, как программно создать документ Word и добавить кнопку ActiveX с помощью Aspose.Words для .NET. |
+| [Создание документа Word с кнопкой ActiveX на C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Узнайте, как добавить кнопку управления ActiveX в документ Word с помощью Aspose.Words для .NET на C#. |
+| [Создать пустой документ, добавить элемент управления ActiveX с AI‑резюме](./create-blank-document-add-activex-control-with-ai-summary/) | Создайте пустой документ и добавьте элемент управления ActiveX с AI‑резюме, используя Aspose.Words для .NET. |
+| [Добавить кнопку Command в документ Word с Aspose.Words – Полное руководство](./add-command-button-to-word-document-with-aspose-words-comple/) | Узнайте, как добавить кнопку Command в документ Word с помощью Aspose.Words, используя пошаговое руководство. |
+| [Как добавить элемент управления ActiveX в Word с помощью Aspose.Words – пошаговое руководство](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Узнайте, как вставлять и настраивать элементы управления ActiveX в документах Word с помощью Aspose.Words в пошаговом руководстве. |
+| [Как добавить кнопку ActiveX в документ Word с помощью Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Узнайте, как добавить кнопку ActiveX в документ Word, используя Aspose.Words для .NET. |
+| [Как программно добавить кнопку команды в документ Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Узнайте, как программно добавить кнопку команды в документ Word с помощью Aspose.Words для .NET. |
+| [Как создать кнопку отправки в автоматизации Word на C#](./how-to-create-submit-button-in-c-word-automation/) | Узнайте, как добавить кнопку отправки в документ Word с помощью C# и Aspose.Words. |
+| [Как создать документ Word на C# с кнопкой ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Узнайте, как программно создать документ Word с кнопкой ActiveX, используя C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

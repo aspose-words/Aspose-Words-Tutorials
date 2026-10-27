@@ -1,0 +1,7 @@
+Title: How to insert plain text content control in a Word document with C#
+Slug: how-to-insert-plain-text-content-control-in-a-word-document
+Category: document-manipulation
+ProcessedDate: 2026-10-26T19:48:05.472675
+SourceRepo: AI Search API
+Keywords: insert plain text content control
+PRNumber: 340

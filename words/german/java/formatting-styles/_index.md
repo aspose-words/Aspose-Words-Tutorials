@@ -50,6 +50,9 @@ Erfahren Sie, wie Sie Tabstopps in Word-Dokumenten mit Aspose.Words für Java ef
 ### [Optimieren Sie Wortstile in Java mit Aspose.Words: Entfernen Sie nicht verwendete und doppelte Stile](./optimize-word-styles-aspose-java/)
 Erfahren Sie, wie Sie Dokumentstile mit Aspose.Words für Java effizient verwalten, indem Sie nicht verwendete und doppelte Stile entfernen und so Leistung und Wartbarkeit verbessern.
 
+### [Wie Sie die Fußnotenformatierung in einem Word-Dokument mit Java ändern](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Erfahren Sie, wie Sie die Formatierung von Fußnoten in Word-Dokumenten programmgesteuert mit Aspose.Words für Java anpassen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

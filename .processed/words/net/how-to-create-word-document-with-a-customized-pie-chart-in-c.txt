@@ -1,0 +1,7 @@
+Title: How to create word document with a customized pie chart in C#
+Slug: how-to-create-word-document-with-a-customized-pie-chart-in-c
+Category: programming-with-charts
+ProcessedDate: 2026-10-07T14:57:43.573453
+SourceRepo: AI Search API
+Keywords: create word document, insert pie chart, generate word file, customize pie chart, how to add pie chart
+PRNumber: 305

@@ -49,6 +49,9 @@ Onthoud dat u voor gedetailleerde codevoorbeelden en verdere begeleiding de [Asp
 ### [Licentieverlening toepassen op Aspose.Words voor Java](./applying-licensing/)
 Leer stap voor stap hoe u licenties kunt toepassen op Aspose.Words voor Java. Krijg nu toegang en ontgrendel het volledige potentieel.
 
+### [DocumentConfig maken in Java – Ontbrekende lettertypen bijhouden met Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Leer hoe u DocumentConfig maakt en ontbrekende lettertypen detecteert in Aspose.Words voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

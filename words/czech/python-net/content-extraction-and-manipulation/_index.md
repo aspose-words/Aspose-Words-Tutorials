@@ -46,6 +46,8 @@ Efektivně extrahujte obsah z dokumentů Wordu pomocí Aspose.Words pro Python. 
 Naučte se pokročilé techniky hledání a nahrazování v dokumentech Wordu pomocí Aspose.Words pro Python. Nahrazujte text, používejte regulární výrazy, formátování a další.
 ### [Odebrání a upřesnění obsahu v dokumentech Wordu](./remove-content-documents/)
 Naučte se, jak efektivně odstraňovat a upravovat obsah v dokumentech Wordu pomocí Aspose.Words pro Python. Podrobný návod s příklady zdrojového kódu.
+### [Jak nastavit zpětné volání pro export obrázků z DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Naučte se nastavit callback pro export obrázků při převodu DOCX pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

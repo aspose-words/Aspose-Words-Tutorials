@@ -49,6 +49,9 @@ Ingat, untuk contoh kode terperinci dan panduan lebih lanjut, lihat [Dokumentasi
 ### [Menerapkan Lisensi ke Aspose.Words untuk Java](./applying-licensing/)
 Pelajari cara menerapkan lisensi ke Aspose.Words untuk Java langkah demi langkah. Dapatkan akses sekarang dan manfaatkan potensinya secara penuh.
 
+### [Buat DocumentConfig di Java – Lacak Font yang Hilang dengan Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Pelajari cara membuat DocumentConfig di Java untuk melacak font yang hilang menggunakan Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

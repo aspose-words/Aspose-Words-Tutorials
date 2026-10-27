@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Pomocí Aspose.Words tento tutoriál vytvoří dokument Word, vloží sloupcový graf, aktualizuje název grafu textem poskytnutým uživatelem a přepíná viditelnost a překrytí legendy podle uživatelských preferencí.
+//ExStepSummary:0: Definujte uživatelem dodaný název grafu a zda má být legenda zobrazena.
+//ExStepSummary:1: Vytvořte nový dokument Word a DocumentBuilder pro přidání obsahu.
+//ExStepSummary:2: Vložte do dokumentu sloupcový graf o rozměrech 432 × 252 pt a ověřte, že tvar skutečně obsahuje graf.
+//ExStepSummary:3: Získejte objekt grafu, nastavte jeho text názvu na hodnotu od uživatele a zajistěte, aby byl název zobrazen.
+//ExStepSummary:4: Nastavte legendu: pokud je požadována, zobrazte ji vpravo, jinak ji skryjte, a povolte překrytí oblasti grafu.
+//ExStepSummary:5: Uložte upravený dokument na disk jako CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

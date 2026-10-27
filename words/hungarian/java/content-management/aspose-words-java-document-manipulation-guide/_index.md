@@ -78,6 +78,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Here’s a minimal Java program that creates an empty document:
 
+A `Document` osztály a központi objektum, amely egy PDF, Word vagy bármely támogatott fájlt reprezentál memóriában. A Maven függőség hozzáadása után példányosíthatod a következőképpen:
 ```java
 import com.aspose.words.Document;
 
@@ -93,7 +94,7 @@ public class DocumentSetup {
 
 With the library ready, let’s dive into the core features.
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
 ### 1. funkció: Dokumentum inicializálás
 

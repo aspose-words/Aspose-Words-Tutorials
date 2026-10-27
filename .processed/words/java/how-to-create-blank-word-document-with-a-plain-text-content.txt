@@ -1,0 +1,7 @@
+Title: How to create blank Word document with a plain text content control in C#
+Slug: how-to-create-blank-word-document-with-a-plain-text-content
+Category: document-manipulation
+ProcessedDate: 2026-10-23T15:00:23.888070
+SourceRepo: AI Search API
+Keywords: create blank word document, how to insert control, plain text content control, how to add sdt, add placeholder to tag
+PRNumber: 336
