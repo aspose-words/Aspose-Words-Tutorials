@@ -1,5 +1,5 @@
 ---
-title: "Learn to Insert and Manipulate Images & Shapes in Word Documents"
+title: "Learn to Insert and Manipulate Images & Shapes in Word Documents with Aspose.Words for Java"
 description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -224,3 +224,4 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

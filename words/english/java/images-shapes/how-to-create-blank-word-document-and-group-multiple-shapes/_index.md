@@ -31,7 +31,7 @@ tags:
 - Aspose.Words
 - C#
 - Word automation
-title: How to create a blank Word document and group multiple shapes using Aspose.Words
+title: How to create a blank Word document and group multiple shapes in C# using Aspose.Words
 url: /java/images-shapes/how-to-create-blank-word-document-and-group-multiple-shapes/
 ---
 
@@ -158,11 +158,11 @@ Feel free to adapt the code for your own reporting or diagram‑generation needs
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/" >}}
-- {{< relref "/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/" >}}
-- {{< relref "/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/" >}}
+- {{< relref "net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/" >}}
+- {{< relref "net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/" >}}
+- {{< relref "net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/" >}}
 
+{{< blocks/products/pf/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

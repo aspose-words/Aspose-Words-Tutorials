@@ -29,7 +29,7 @@ tags:
 - Aspose.Words
 - Java
 - Word automation
-title: Create a Word document programmatically and add a shape in Java using Aspose.Words
+title: Create a Word document programmatically, add and hide a shape in Java using Aspose.Words
 url: /java/images-shapes/create-word-document-programmatically-and-add-a-shape-in-jav/
 ---
 
@@ -206,11 +206,12 @@ Happy coding, and enjoy automating your Word documents!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create blank word document with Aspose.Words for Java]({{< relref "words/english/java/document-manipulation/how-to-create-blank-word-document-with-aspose-words-for-java/_index.md" >}})
-- [How to hide shape in a Word document using Java]({{< relref "words/english/java/images-shapes/how-to-hide-shape-in-a-word-document-using-java/_index.md" >}})
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/_index.md" >}})
+- [How to create blank word document with Aspose.Words for Java]({{< relref "java/document-manipulation/how-to-create-blank-word-document-with-aspose-words-for-java/_index.md" >}})
+- [How to hide shape in a Word document using Java]({{< relref "java/images-shapes/how-to-hide-shape-in-a-word-document-using-java/_index.md" >}})
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

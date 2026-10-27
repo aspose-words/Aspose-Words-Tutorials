@@ -1,5 +1,5 @@
 ---
-title: Create, Edit, and Convert Documents Using Aspose.Words for Java API
+title: Create, Edit, and Convert DOCX and PDF Documents Using Aspose.Words for Java API
 linktitle: Document Manipulation
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
@@ -118,7 +118,9 @@ Create a blank Word document using Aspose.Words for Java with simple code exampl
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
 ### [Create blank document with an interactive command button in Word using Java]({{< relref "create-blank-document-with-an-interactive-command-button-in" >}})
 Learn how to create a blank Word document with an interactive command button using Aspose.Words for Java.
-### [Comparing Documents in Aspose.Words for Java]({{< relref "comparing-documents" >}})
+### [Comparing Documents in Aspose.Words for Java]({{< relref "compar
+
+ing-documents" >}})
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
 ### [Create new word document – step‑by‑Step guide to adding a structured tag]({{< relref "create-new-word-document-step-by-step-guide-to-adding-a-stru" >}})
 Learn how to create a new Word document and add a Structured Document Tag (SDT) using Aspose.Words for Java with clear code examples.
@@ -145,6 +147,7 @@ Create a blank Word document using Aspose.Words for Java. Simple step-by-step gu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

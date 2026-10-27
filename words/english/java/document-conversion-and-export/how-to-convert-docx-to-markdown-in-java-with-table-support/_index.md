@@ -31,7 +31,7 @@ tags:
 - Aspose.Words
 - Markdown
 - Document conversion
-title: How to use Aspose.Words for Java to convert docx to markdown with table support
+title: Convert DOCX to Markdown with Table Support using Aspose.Words for Java
 url: /java/document-conversion-and-export/how-to-convert-docx-to-markdown-in-java-with-table-support/
 ---
 
@@ -232,11 +232,12 @@ Happy coding, and enjoy the seamless bridge from Word to markdown!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API]({{< relref "/words/english/java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/" >}})
-- [Convert DOCX to Markdown with Aspose.Words for Java – Save DOCX as Markdown]({{< relref "/words/english/java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/" >}})
-- [Save Word as Markdown – Export Tables to HTML with Aspose.Words]({{< relref "/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-export-tables-to-html-with-aspose-word/" >}})
+- [Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API]({{< relref "java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/" >}})
+- [Convert DOCX to Markdown with Aspose.Words for Java – Save DOCX as Markdown]({{< relref "java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/" >}})
+- [Save Word as Markdown – Export Tables to HTML with Aspose.Words]({{< relref "net/programming-with-markdownsaveoptions/save-word-as-markdown-export-tables-to-html-with-aspose-word/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

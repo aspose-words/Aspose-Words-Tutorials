@@ -29,7 +29,7 @@ tags:
 - Java
 - Aspose.Words
 - Markdown
-title: How to read a Markdown file in Java using Aspose.Words
+title: How to read and load a Markdown file in Java with Aspose.Words
 url: /java/document-loading-and-saving/how-to-read-markdown-file-java-with-aspose-words/
 ---
 
@@ -230,16 +230,16 @@ From here you can explore further topics such as styling the output, embedding i
 
 *Ready to automate your documentation pipeline? Add the code above to your project, replace the sample Markdown, and start generating PDFs, DOCX files, or HTML pages with a single line of Java.*
 
-
 ## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Master Markdown Load Options with Aspose.Words for Java]({{< relref "words/english/java/document-operations/master-markdown-load-options-aspose-words-java/_index.md" >}})
-- [convert markdown to docx with Aspose.Words for Java – step‑by‑step guide]({{< relref "words/english/java/document-converting/convert-markdown-to-docx-with-aspose-words-for-java-step-by/_index.md" >}})
-- [Master Markdown Load Options Aspose Words Java]({{< relref "words/german/java/document-operations/master-markdown-load-options-aspose-words-java/_index.md" >}})
+- [Master Markdown Load Options with Aspose.Words for Java]({{< relref "java/document-operations/master-markdown-load-options-aspose-words-java/_index.md" >}})
+- [convert markdown to docx with Aspose.Words for Java – step‑by‑step guide]({{< relref "java/document-converting/convert-markdown-to-docx-with-aspose-words-for-java-step-by/_index.md" >}})
+- [Master Markdown Load Options Aspose Words Java]({{< relref "java/document-operations/master-markdown-load-options-aspose-words-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

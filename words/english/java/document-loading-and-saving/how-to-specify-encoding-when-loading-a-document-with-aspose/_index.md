@@ -49,7 +49,7 @@ tags:
 - Java
 - Encoding
 - Aspose.Words
-title: Learn how to specify encoding when loading a document with Aspose.Words for Java
+title: How to specify encoding with Aspose.Words for Java using LoadOptions
 url: /java/document-loading-and-saving/how-to-specify-encoding-when-loading-a-document-with-aspose/
 ---
 
@@ -268,11 +268,12 @@ Happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/" >}}How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words{{< /relref >}}
-- {{< relref "/words/english/java/document-loading-and-saving/how-to-set-options-in-aspose-words-for-java-complete-guide/" >}}How to set options in Aspose.Words for Java – complete guide{{< /relref >}}
-- {{< relref "/words/english/java/document-loading-and-saving/recover-corrupted-word-document-using-aspose-words-guide/" >}}Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide{{< /relref >}}
+- [How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words](/words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/)
+- [How to set options in Aspose.Words for Java – complete guide](/words/english/java/document-loading-and-saving/how-to-set-options-in-aspose-words-for-java-complete-guide/)
+- [Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide](/words/english/java/document-loading-and-saving/recover-corrupted-word-document-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

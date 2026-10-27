@@ -55,7 +55,7 @@ tags:
 - Aspose.Words
 - C#
 - Word automation
-title: How to insert plain text content control in a Word document with Aspose.Words for .NET (C#)
+title: How to insert a plain text content control in a Word document using the Aspose.Words API for .NET (C#)
 url: /java/document-manipulation/how-to-insert-plain-text-content-control-in-a-word-document/
 ---
 
@@ -251,11 +251,11 @@ Feel free to experiment with the variations shown earlier, and integrate the pat
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create content control in C# with Aspose.Words]({{< relref "/words/english/net/programming-with-sdt/how-to-create-content-control-in-c-with-aspose-words/" >}})
-- [Create new Word document and insert content control in C#]({{< relref "/words/english/net/programming-with-sdt/create-new-word-document-and-insert-content-control-in-c/" >}})
-- [Add Content Using Document Builder in Aspose.Words for .NET]({{< relref "/words/english/net/add-content-using-document-builder/" >}})
+- [How to create content control in C# with Aspose.Words]({{< relref "net/programming-with-sdt/how-to-create-content-control-in-c-with-aspose-words/" >}})
+- [Create new Word document and insert content control in C#]({{< relref "net/programming-with-sdt/create-new-word-document-and-insert-content-control-in-c/" >}})
+- [Add Content Using Document Builder in Aspose.Words for .NET]({{< relref "net/add-content-using-document-builder/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
