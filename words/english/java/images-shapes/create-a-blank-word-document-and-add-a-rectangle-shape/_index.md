@@ -193,12 +193,13 @@ Happy coding, and feel free to experiment with other shape types and visibility 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Word Document – How to Add Rectangle Shape and Shadow]({{< relref "words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow.md" >}})
-- [Create Group Shape in Word Document Using Aspose.Words for .NET]({{< relref "words/english/net/working-with-shapes/add-group-shape.md" >}})
-- [Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide]({{< relref "words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful.md" >}})
+- [Create Word Document – How to Add Rectangle Shape and Shadow]({{< relref "net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/_index.md" >}})
+- [Create Group Shape in Word Document Using Aspose.Words for .NET]({{< relref "net/working-with-shapes/add-group-shape/_index.md" >}})
+- [Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide]({{< relref "net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
