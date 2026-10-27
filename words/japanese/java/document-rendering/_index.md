@@ -27,7 +27,7 @@ Aspose.Words for Java は、ドキュメントレンダリングに関する豊�
 Aspose.Words for Java のドキュメントレンダリングに関するチュートリアルを使えば、ドキュメントを簡単にレンダリングできます。これらのガイドでは、レンダリングオプションを包括的に解説しており、Word 文書のレイアウトとデザインを維持しながら、さまざまな形式に変換できます。ドキュメントを一括レンダリングする方法、出力設定をカスタマイズする方法、レンダリングパフォーマンスを最適化する方法を学びましょう。Aspose.Words for Java を使えば、視覚的に美しい出力を作成し、ワープロやドキュメント処理のタスクを効率的に管理できます。Aspose.Words for Java でドキュメントレンダリングスキルを高め、新たな可能性を解き放ちましょう。
 
 ## ドキュメントレンダリングチュートリアル
-### [マスタードキュメントレンダリング ](./master-document-rendering/)
+### [マスタードキュメントレンダリング](./master-document-rendering/)
 Aspose.Words for Javaでドキュメントレンダリングを学ぼう！ステップバイステップのチュートリアルとソースコード付き。シームレスなドキュメント処理でアプリを強化できます。
 ### [ドキュメントページを画像としてレンダリングする](./rendering-document-pages-images/)
 Aspose.Words for Javaを使用してドキュメントページを画像としてレンダリングする方法を学びましょう。効率的なドキュメント変換のためのコード例を交えたステップバイステップガイドです。
@@ -45,6 +45,10 @@ Aspose.Words for Java でフォントを管理し、カスタムフォントや�
 欠落フォントを検出し、追跡するための警告コールバックの設定方法を学び、文書のレンダリング品質を向上させます。
 ### [警告を取得する方法 – Aspose.Words で欠落フォントを検出する](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Aspose.Words でフォントが見つからない場合の警告をキャプチャし、欠落フォントを検出する方法を解説します。
+### [Aspose.Words で Java の欠落フォントを検出する完全ガイド](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Aspose.Words を使って Java アプリケーションで欠落しているフォントを検出し、置換やインストール方法を学べます。
+### [Javaで警告コールバックを登録する – 完全プログラミングガイド](./register-warning-callback-in-java-complete-programming-guide/)
+Aspose.Words for Javaで警告コールバックを登録し、ドキュメント処理中の警告をハンドリングする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

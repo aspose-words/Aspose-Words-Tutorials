@@ -20,10 +20,13 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+- [เปลี่ยนตัวคั่นเชิงอรรถใน C# ด้วย Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | เรียนรู้วิธีเปลี่ยนตัวคั่นเชิงอรรถในเอกสาร Word ด้วย C# และ Aspose.Words -
 - [ตั้งค่าคอลัมน์เชิงอรรถ](./set-foot-note-columns/) | เรียนรู้วิธีตั้งค่าคอลัมน์เชิงอรรถในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับแต่งเค้าโครงเชิงอรรถของคุณได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนของเรา -
 | [ตั้งค่าตำแหน่งเชิงอรรถและเชิงอรรถท้ายเรื่อง](./set-footnote-and-end-note-position/) เรียนรู้วิธีการตั้งค่าตำแหน่งเชิงอรรถและเชิงท้ายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
 - [ตั้งค่าตัวเลือกท้ายบท](./set-endnote-options/) | เรียนรู้วิธีการตั้งค่าตัวเลือกท้ายเรื่องในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-
+- [ดึงตัวคั่นเชิงอรรถใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีดึงตัวคั่นเชิงอรรถในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด -
+- [วิธีเปลี่ยนตัวคั่นเชิงอรรถและปรับแต่งสไตล์ในเอกสาร Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | เรียนรู้วิธีเปลี่ยนตัวคั่นเชิงอรรถและปรับสไตล์ของมันในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
+- [จัดรูปแบบตัวคั่นเชิงอรรถใน C# ด้วย Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | เรียนรู้วิธีกำหนดรูปแบบตัวคั่นเชิงอรรถในเอกสาร Word ด้วย C# และ Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

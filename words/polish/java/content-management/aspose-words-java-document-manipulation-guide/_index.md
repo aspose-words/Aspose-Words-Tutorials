@@ -93,11 +93,13 @@ Po przygotowaniu biblioteki przejdźmy do głównych funkcji.
 
 ## Przewodnik implementacji
 
-### Funkcja 1: Inicjalizacja dokumentu
+### Funkcja 1: inicjalizacja dokumentu
 
 #### Przegląd
 Utworzenie `GlossaryDocument` wewnątrz głównego dokumentu pozwala zarządzać glosariuszami, stylami i niestandardowymi częściami w czystym, odizolowanym kontenerze.
 
+#### Jak zainicjalizować dokument słownika?
+Utwórz główną instancję `Document`, a następnie dołącz `GlossaryDocument`, aby zarządzać wpisami słownika w jednym spójnym pliku. GlossaryDocument reprezentuje część słownika dokumentu Word, przechowując wpisy takie jak pozycje słownika, przypisy końcowe i niestandardowe części.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -121,6 +123,8 @@ public class DocumentInitialization {
 #### Przegląd
 Możesz zastosować jednolity odcień do każdej strony używając `Document.setPageColor`. To bezpośrednio odnosi się do głównego słowa kluczowego **set page background color**.
 
+#### Jak ustawić kolor tła strony?
+Use the `setPageColor()` method on the `Document` object, passing a `java.awt.Color` value that represents the desired shade.
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -147,6 +151,8 @@ public class SetPageBackgroundColor {
 #### Przegląd
 Gdy potrzebujesz połączyć treść z wielu źródeł, możesz zaimportować całą sekcję (lub dowolny węzeł) z jednego dokumentu do drugiego. To jest sedno scenariuszy **merge document sections** i **import section from document**.
 
+#### Jak zaimportować sekcję z dokumentu źródłowego?
+Call `importNode()` on the destination `Document`, providing the node to import and an `ImportFormatMode` that dictates style handling.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -181,6 +187,8 @@ public class ImportNode {
 #### Przegląd
 Czasami źródło i cel używają różnych definicji stylów. `ImportFormatMode` pozwala zdecydować, czy zachować style źródła, czy wymusić style docelowe.
 
+#### Jak zastosować niestandardowy tryb importu formatowania?
+Specify the desired `ImportFormatMode` when calling `importNode()`. This lets you control whether source formatting is kept or overridden. ImportFormatMode is an enum that defines how formatting is handled during node import, such as keeping source styles or using destination styles.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -211,6 +219,8 @@ public class ImportNodeCustom {
 #### Przegląd
 Poza jednolitymi kolorami możesz osadzać kształty lub obrazy jako tło stron. Ten przykład dodaje czerwony kształt gwiazdy, ale możesz go zamienić na dowolny obraz, aby **create document background image**.
 
+#### Jak wstawić kształt tła?
+Create a `Shape` of type `ShapeType.IMAGE`, set its layout to `WRAP_NONE`, and add it to the document’s header or footer so it appears behind all text. Shape represents a drawing object such as an image, textbox, or geometric figure that can be placed anywhere in a document.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;

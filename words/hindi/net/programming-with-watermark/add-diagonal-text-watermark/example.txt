@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि कैसे एक नया Word दस्तावेज़ बनाया जाए, विशिष्ट फ़ॉन्ट सेटिंग्स के साथ एक कस्टम टेक्स्ट वॉटरमार्क कॉन्फ़िगर किया जाए, वॉटरमार्क को दस्तावेज़ पर लागू किया जाए, और Document.Watermark.SetText API का उपयोग करके परिणाम को .docx फ़ाइल के रूप में सहेजा जाए।
+//ExStepSummary:0: `document` नामक एक नया खाली Word दस्तावेज़ इंस्टेंस बनाएं।
+//ExStepSummary:1: `watermarkSettings` को Arial 48‑pt ग्रे फ़ॉन्ट, डायगोनल लेआउट, और अपारदर्शी रेंडरिंग के साथ कॉन्फ़िगर करें।
+//ExStepSummary:2: पहले परिभाषित सेटिंग्स का उपयोग करके टेक्स्ट वॉटरमार्क "Private" को `document` पर लागू करें।
+//ExStepSummary:3: वॉटरमार्क किया गया दस्तावेज़ जहाँ सहेजा जाएगा, उसका फ़ाइल पाथ निर्धारित करें।
+//ExStepSummary:4: संशोधित `document` को निर्दिष्ट पाथ पर .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

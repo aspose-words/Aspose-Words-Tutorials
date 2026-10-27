@@ -24,6 +24,7 @@ Aspose.Words for .NET을 사용하여 Word 문서에서 OpenType 기능을 활�
 | [Aspose.Words로 워드 문서 만들기 – 단계별 가이드](./create-word-document-with-aspose-words-step-by-step-guide/) | Aspose.Words를 사용하여 워드 문서를 단계별로 만드는 방법을 자세히 안내합니다. |
 
 | [가변 글꼴로 Word 문서 만들기 – 가이드](./create-word-document-with-variable-font-guide/) | 이 가이드를 통해 Aspose.Words for .NET을 사용하여 가변 글꼴이 적용된 Word 문서를 만드는 방법을 단계별로 배울 수 있습니다. |
+| [C#에서 가변 굵기 글꼴 사용 – 완전 프로그래밍 가이드](./use-variable-weight-font-in-c-complete-programming-guide/) | C#에서 가변 굵기 글꼴을 활용하는 방법을 단계별로 안내하는 완전 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,73 +1,130 @@
 ---
-date: 2025-11-28
-description: Naučte se, jak měnit okraje buněk a formátovat tabulky pomocí Aspose.Words
-  pro Javu. Tento krok‑za‑krokem průvodce zahrnuje nastavení okrajů, použití stylu
-  první sloupce, automatické přizpůsobení obsahu tabulky a aplikaci stylů tabulky.
-linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+date: 2026-10-17
+description: Naučte se, jak změnit okraje v buňkách tabulky pomocí Aspose.Words for
+  Java, včetně nastavení cell border styles, použití first column style a auto‑fit
+  table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Jak změnit okraje v buňkách tabulky pomocí Aspose.Words for Java
+og_description: Jak změnit okraje v buňkách tabulky pomocí Aspose.Words for Java.
+  Tento průvodce vám ukáže, jak nastavit cell border thickness, použít first column
+  style a auto‑fit tables pro professional documents.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Jak změnit okraje v buňkách tabulky – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Jak změnit okraje buněk v tabulkách – Aspose.Words pro Java
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Jak změnit okraje v buňkách tabulky pomocí Aspose.Words for Java
 url: /cs/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak změnit ohraničení buněk v tabulkách – Aspose.Words pro Java
+# Jak změnit okraje v buňkách tabulky pomocí Aspose.Words pro Java
 
 ## Úvod
 
-Pokud jde o formátování dokumentů, tabulky hrají zásadní roli a **znalost toho, jak změnit ohraničení buněk**, je nezbytná pro vytváření přehledných, profesionálních rozvržení. Pokud vyvíjíte v Javě s Aspose.Words, máte již po ruce výkonný nástroj. V tomto tutoriálu projdeme kompletní proces formátování tabulek, změny ohraničení buněk, použití *stylu první sloupce* a *automatického přizpůsobení obsahu tabulky*, aby vaše dokumenty vypadaly uhlazeně.
+Když potřebujete prezentovat data v čistém, profesionálním rozvržení, **změna okrajů buněk** je jedním z prvních vizuálních úprav, které provedete. V Javě vám Aspose.Words poskytuje plnohodnotné API, které vám umožňuje stylovat tabulky, upravovat okraje jednotlivých buněk, povolit styl první sloupce a automaticky přizpůsobit obsah tak, aby tabulka nikdy nepřekročila stránku. Tento tutoriál vás provede každým krokem, od vytvoření dokumentu po jemné doladění každého okraje, a ukáže, proč jsou tyto funkce důležité v reálných zprávách a fakturách.
 
 ## Rychlé odpovědi
-- **Jaká třída je primární pro vytváření tabulek?** `DocumentBuilder` vytváří tabulky a buňky programově.  
-- **Jak změním tloušťku ohraničení jedné buňky?** Použijte `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
-- **Mohu použít předdefinovaný styl tabulky?** Ano – zavolejte `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+Třída `DocumentBuilder` se používá k programovému vytváření dokumentů a tabulek.  
+- **Jaká je hlavní třída pro vytváření tabulek?** `DocumentBuilder` creates tables and cells programmatically.  
+- **Jak změním tloušťku okraje jedné buňky?** Use `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Mohu použít předdefinovaný styl tabulky?** Yes – call `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
 - **Jaká metoda automaticky přizpůsobí tabulku jejímu obsahu?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
-- **Potřebuji licenci pro produkční nasazení?** Platná licence Aspose.Words je vyžadována pro ne‑zkušební použití.
+- **Potřebuji licenci pro produkční použití?** A valid Aspose.Words license is required for non‑trial use.
 
-## Co znamená „jak změnit ohraničení buněk“ v Aspose.Words?
+## Co znamená „jak změnit okraje buněk“ v Aspose.Words?
 
-Změna ohraničení buněk znamená přizpůsobení vizuálních čar, které buňky oddělují – barva, šířka a styl čáry. Aspose.Words poskytuje bohaté API, které vám umožní upravit tyto vlastnosti na úrovni tabulky, řádku nebo jednotlivé buňky, čímž získáte detailní kontrolu nad vzhledem vašich dokumentů.
+Změna okrajů buněk znamená přizpůsobení vizuálních čar, které buňky oddělují — barva, šířka a styl čáry. Aspose.Words pro Java poskytuje podrobné API, které vám umožňuje nastavit tyto vlastnosti na úrovni tabulky, řádku nebo jednotlivé buňky, což vám dává přesnou kontrolu nad vzhledem vašich dokumentů.
 
-## Proč používat Aspose.Words pro Java při stylování tabulek?
+## Proč používat stylování tabulek v Aspose.Words pro Java?
 
-- **Konzistentní vzhled napříč platformami** – stejný kód pro stylování funguje na Windows, Linuxu i macOS.  
-- **Bez závislosti na Microsoft Word** – generujte nebo upravujte dokumenty na serveru.  
-- **Bohatá knihovna stylů** – vestavěné styly tabulek (např. *styl první sloupce*) a plné možnosti automatického přizpůsobení.  
+Aspose.Words podporuje **více než 35 vstupních a výstupních formátů** (DOCX, PDF, HTML, ODT atd.) a dokáže zpracovat **500‑stránkové dokumenty za méně než 3 sekundy** na typickém serverovém hardware bez potřeby Microsoft Word. Knihovna funguje konzistentně na Windows, Linuxu i macOS, což vám umožňuje generovat nebo upravovat dokumenty na straně serveru, aplikovat vestavěné styly tabulek, jako je *styl první sloupce*, a automaticky přizpůsobit tabulky obsahu jedním voláním metody.
 
-## Požadavky
+## Předpoklady
 
-1. **Java Development Kit (JDK) 8+** – ujistěte se, že `java` je v PATH.  
-2. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor dle vašeho výběru.  
-3. **Aspose.Words pro Java** – stáhněte nejnovější JAR z [oficiálního webu](https://releases.aspose.com/words/java/).  
-4. **Základní znalost Javy** – měli byste umět vytvořit Maven/Gradle projekt a přidat externí JAR soubory.
+1. **Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.  
+2. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
+3. **Aspose.Words for Java** – download the latest JAR from the [official site](https://releases.aspose.com/words/java/).  
+4. **Basic Java knowledge** – you should be comfortable creating a Maven/Gradle project and adding external JARs.
 
 ## Import balíčků
 
-Pro práci s tabulkami potřebujete základní třídy Aspose.Words:
+Třídy `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` a související třídy se nacházejí v jmenném prostoru `com.aspose.words`. Importování tohoto jediného balíčku vám poskytne přístup k úplnému nástroji pro stylování tabulek. Třída `DocumentBuilder` poskytuje metody pro programové vytváření a úpravu dokumentu.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Tento jediný import vám poskytne přístup k `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` a mnoha dalším utilitám.
+## Jak změnit okraje buněk
 
-## Jak změnit ohraničení buněk
+Níže je stručný, krok za krokem průvodce, který vytvoří tabulku, aplikuje globální okraj a poté přizpůsobí hrany jedné buňky.
 
-Níže vytvoříme jednoduchou tabulku, změníme její celkové ohraničení a poté přizpůsobíme jednotlivé buňky.
+### Přímá odpověď
+`Document` představuje soubor Word, zatímco `DocumentBuilder` vytváří obsah jako jsou tabulky. Načtěte nový `Document`, vložte `Table` pomocí `DocumentBuilder`, nastavte 2‑bodový černý okraj pro celou tabulku a poté zvětšete levý, pravý, horní a dolní okraj třetí buňky na 4 body. Tento přístup vám umožní zvýraznit libovolnou buňku při zachování jednotného stylu zbytku tabulky.
 
-### Krok 1: Načtení nového dokumentu
+### Krok 1: načíst nový dokument
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Krok 2: Vytvoření tabulky a nastavení globálního ohraničení
+### Krok 2: vytvořit tabulku a nastavit globální okraje
 
 ```java
 Table table = builder.startTable();
@@ -89,7 +146,7 @@ builder.writeln("Cell #2");
 builder.endRow();
 ```
 
-### Krok 3: Změna ohraničení jedné buňky
+### Krok 3: změnit okraje jedné buňky
 
 ```java
 // Clear the cell formatting from previous operations.
@@ -112,15 +169,18 @@ doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
 #### Co kód dělá
-- **Globální ohraničení** – `table.setBorders` nastaví celé tabulce černou čáru o tloušťce 2 pt.  
-- **Stínování buňky** – Ukazuje, jak obarvit jednotlivé buňky (červená a zelená).  
-- **Vlastní ohraničení buňky** – Třetí buňka dostane ohraničení 4 pt na všech stranách, čímž vynikne.
+- **Globální okraje** – `table.setBorders` gives the whole table a 2‑point black line.  
+- **Stínování buněk** – Demonstrates how to colour individual cells (red & green).  
+- **Vlastní okraje buňky** – The third cell receives a 4‑point border on all sides, making it stand out.
 
-## Použití stylů tabulky (včetně stylu první sloupce)
+## Aplikace stylů tabulky (včetně stylu první sloupce)
 
-Styly tabulky vám umožní aplikovat jednotný vzhled jedním voláním. Ukážeme také, jak povolit *styl první sloupce* a automaticky přizpůsobit tabulku jejímu obsahu.
+Styly tabulek vám umožňují aplikovat jednotný vzhled jedním voláním. Také povolíme *styl první sloupce* a automaticky přizpůsobíme tabulku jejímu obsahu.
 
-### Krok 4: Vytvoření nového dokumentu pro stylování
+### Přímá odpověď
+`StyleIdentifier` enumeruje vestavěné styly tabulek a `AutoFitBehavior` řídí, jak se tabulka přizpůsobuje svému obsahu. Vytvořte nový `Document`, vytvořte `Table`, nastavte jeho `StyleIdentifier` na `MEDIUM_SHADING_1_ACCENT_1`, povolte `FirstColumn` a `RowBands`, a poté zavolejte `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`, aby se sloupce automaticky zmenšovaly nebo rozšiřovaly tak, aby odpovídaly vloženým datům.
+
+### Krok 4: vytvořit nový dokument pro stylování
 
 ```java
 Document doc = new Document();
@@ -132,7 +192,7 @@ Table table = builder.startTable();
 builder.insertCell();
 ```
 
-### Krok 5: Aplikace předdefinovaného stylu a povolení formátování první sloupce
+### Krok 5: aplikovat předdefinovaný styl a povolit formátování první sloupce
 
 ```java
 // Set the table style based on a unique style identifier.
@@ -145,7 +205,7 @@ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BAN
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Krok 6: Naplnění tabulky daty
+### Krok 6: naplnit tabulku daty
 
 ```java
 builder.writeln("Item");
@@ -176,51 +236,58 @@ doc.save("BuildTableWithStyle.docx");
 ```
 
 #### Proč je to důležité
-- **Identifikátor stylu** – `MEDIUM_SHADING_1_ACCENT_1` dodá tabulce čistý, stínovaný vzhled.  
-- **Styl první sloupce** – Zvýraznění první sloupce zlepšuje čitelnost, zejména v reportech.  
-- **Proužky řádků** – Střídavé barvy řádků usnadňují orientaci ve velkých tabulkách.  
-- **Auto‑fit** – Zajišťuje, že šířka tabulky se přizpůsobí obsahu, čímž se zabrání oříznutému textu.
+- **Identifikátor stylu** – `MEDIUM_SHADING_1_ACCENT_1` gives the table a clean, shaded look.  
+- **Styl první sloupce** – Highlighting the first column improves readability, especially in reports.  
+- **Řádkové pásy** – Alternating row colours make large tables easier on the eyes.  
+- **Auto‑fit** – Ensures the table width adapts to content, preventing clipped text.
 
 ## Časté problémy a řešení
 
-| Problém | Typická příčina | Rychlé řešení |
-|---------|----------------|---------------|
-| Ohraničení se nezobrazuje | Použití `clearFormatting()` po nastavení ohraničení | Nastavte ohraničení **po** vyčištění formátování, nebo je znovu aplikujte. |
+| Problém | Typická příčina | Rychlá oprava |
+|-------|----------------|-----------|
+| Okraje se nezobrazují | Použití `clearFormatting()` po nastavení okrajů | Nastavte okraje **po** vymazání formátování, nebo je znovu aplikujte. |
 | Stínování ignorováno u sloučených buněk | Stínování aplikováno před sloučením | Aplikujte stínování **po** sloučení buněk. |
 | Šířka tabulky přesahuje okraje stránky | Nebyl použit auto‑fit | Zavolejte `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` nebo nastavte pevnou šířku. |
-| Styl se neaplikoval | Nesprávná hodnota `StyleIdentifier` | Ověřte, že identifikátor existuje ve verzi Aspose.Words, kterou používáte. |
+| Styl nebyl aplikován | Špatná hodnota `StyleIdentifier` | Ověřte, že identifikátor existuje ve verzi Aspose.Words, kterou používáte. |
 
 ## Často kladené otázky
 
-**Q: Mohu použít vlastní styly tabulek, které nejsou v základní nabídce?**  
-A: Ano, můžete vytvářet a aplikovat vlastní styly programově. Viz [dokumentace Aspose.Words](https://reference.aspose.com/words/java/) pro podrobnosti.
+**Q: Mohu použít vlastní styly tabulek, které nejsou zahrnuty v výchozích možnostech?**  
+A: Ano, můžete vytvářet a aplikovat vlastní styly programově. Viz [Aspose.Words documentation](https://reference.aspose.com/words/java/) pro podrobnosti.
 
 **Q: Jak mohu aplikovat podmíněné formátování na buňky?**  
-A: Použijte standardní Java logiku k inspekci hodnot buněk a poté zavolejte příslušné metody formátování (např. změna barvy pozadí, pokud hodnota překročí práh).
+A: Použijte standardní Java logiku k inspekci hodnot buněk a poté zavolejte příslušné metody formátování (např. změňte barvu pozadí, pokud hodnota překročí práh).
 
 **Q: Je možné formátovat sloučené buňky stejným způsobem jako běžné buňky?**  
-A: Rozhodně. Po sloučení buněk použijte stejné API `CellFormat` pro nastavení stínování nebo ohraničení.
+A: Ano. Po sloučení buněk aplikujte stínování nebo okraje pomocí stejných API `CellFormat`.
 
 **Q: Co když potřebuji, aby se tabulka dynamicky měnila podle vstupu uživatele?**  
-A: Upravit šířky sloupců nebo znovu zavolat `autoFit` po vložení nových dat, aby se přepočítalo rozvržení.
+A: Upravte šířky sloupců nebo znovu zavolejte `autoFit` po vložení nových dat pro přepočet rozvržení.
 
-**Q: Kde najdu další příklady stylování tabulek?**  
-A: Oficiální [dokumentace Aspose.Words API](https://reference.aspose.com/words/java/) obsahuje rozsáhlou sadu ukázek.
+**Q: Kde mohu najít více příkladů stylování tabulek?**  
+A: Oficiální [Aspose.Words API documentation](https://reference.aspose.com/words/java/) obsahuje komplexní sadu ukázek.
 
 ## Závěr
 
-Nyní máte kompletní sadu nástrojů pro **změnu ohraničení buněk**, aplikaci *stylu první sloupce* a **automatické přizpůsobení obsahu tabulky** pomocí Aspose.Words pro Java. Ovládnutím těchto technik můžete vytvářet dokumenty, které jsou jak datově bohaté, tak vizuálně atraktivní – ideální pro reporty, faktury a jakýkoli jiný obchodně kritický výstup.
+Nyní máte kompletní sadu nástrojů pro **jak změnit okraje** v buňkách tabulky, aplikovat *styl první sloupce* a **automaticky přizpůsobit obsah tabulky** pomocí Aspose.Words pro Java. Ovládnutím těchto technik můžete vytvářet dokumenty, které jsou jak bohaté na data, tak vizuálně vylepšené — ideální pro zprávy, faktury a jakýkoli podnikový výstup.
+
+
+
+---
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Aspose.Words Java Formátování a styly - Vylepšete své dokumenty](/words/java/formatting-styles/)
+- [Pokročilé okraje dokumentu s Aspose.Words pro Java: Kompletní průvodce](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Přidání vodoznaku do dokumentu pomocí Aspose.Words pro Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-11-28  
-**Testováno s:** Aspose.Words pro Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose

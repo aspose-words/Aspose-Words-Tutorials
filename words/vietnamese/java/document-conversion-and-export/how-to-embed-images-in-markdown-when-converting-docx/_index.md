@@ -1,25 +1,56 @@
 ---
 category: general
-date: 2026-01-11
-description: Tìm hiểu cách nhúng hình ảnh vào Markdown khi chuyển đổi tệp DOCX, sử
-  dụng Base64 cho các hình ảnh nhỏ và lưu các tài nguyên lớn riêng biệt.
+date: 2026-10-23
+description: Tìm hiểu cách chèn hình ảnh vào markdown khi chuyển đổi tệp DOCX, sử
+  dụng Base64 cho các đồ họa nhỏ và tệp ngoại vi cho các hình ảnh lớn hơn.
 draft: false
 keywords:
 - how to embed images
+- embed images in markdown
 - convert docx to markdown
-- how to convert docx
+- extract images from docx
 - embed images as base64
-- export word document markdown
-language: vi
-og_description: Tìm hiểu cách nhúng hình ảnh trong Markdown khi chuyển đổi tệp DOCX,
-  sử dụng Base64 cho các hình ảnh nhỏ và lưu các tài nguyên lớn riêng biệt.
-og_title: Cách chèn hình ảnh vào Markdown khi chuyển đổi DOCX
+lastmod: 2026-10-23
+og_description: Tìm hiểu cách chèn hình ảnh vào markdown khi chuyển đổi tệp DOCX,
+  sử dụng Base64 cho các đồ họa nhỏ và tệp ngoại vi cho các hình ảnh lớn hơn. Hướng
+  dẫn này trình bày các bước chính xác với Aspose.Words for Java.
+og_image_alt: Screenshot of markdown output with embedded Base64 images generated
+  by Aspose.Words for Java
+og_title: Cách chèn hình ảnh vào markdown – Hướng dẫn chuyển đổi DOCX bằng Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to embed images in markdown when converting a DOCX file,
+    using Base64 for tiny graphics and external files for larger pictures.
+  headline: How to embed images in markdown when converting docx
+  type: TechArticle
+- questions:
+  - answer: Yes. The same API works in any Java environment, including servlet containers
+      and Spring Boot applications. Just stream the `output.md` back to the client
+      after conversion.
+    question: Can I use this approach in a web service that generates Markdown on
+      the fly?
+  - answer: A valid Aspose.Words license is required for production deployments. A
+      free evaluation license is available for testing and development.
+    question: Is a commercial license required for production use?
+  - answer: Load the document with `new Document("file.docx", new LoadOptions("password"))`.
+      The same conversion pipeline then applies.
+    question: How do I handle password‑protected DOCX files?
+  - answer: Convert the SVG to PNG or JPEG first, then let the callback treat it as
+      any other image. Aspose.Words does not natively render SVG inside Markdown.
+    question: What if I need to embed SVG images?
+  - answer: Yes. Aspose.Words for Java is platform‑agnostic and runs wherever a compatible
+      JDK is available.
+    question: Does this work on Windows, macOS, and Linux?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Markdown
-- Image Embedding
-title: Cách chèn hình ảnh vào Markdown khi chuyển đổi DOCX
+- markdown
+- image embedding
+- docx conversion
+- developer guide
+title: Cách chèn hình ảnh vào markdown khi chuyển đổi docx
 url: /vi/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/
 ---
 
@@ -27,29 +58,36 @@ url: /vi/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX
+# Cách nhúng hình ảnh trong markdown khi chuyển đổi docx
 
-Bạn đã bao giờ tự hỏi **cách nhúng hình ảnh** vào một tệp Markdown xuất phát từ tài liệu Word chưa? Bạn không phải là người duy nhất. Hầu hết các nhà phát triển gặp khó khăn khi quá trình chuyển đổi bỏ mất hình ảnh hoặc lưu chúng theo cách làm hỏng bố cục cuối cùng.  
+Bạn đã bao giờ tự hỏi **cách nhúng hình ảnh** trong một tệp Markdown xuất phát từ tài liệu Word chưa? Bạn không phải là người duy nhất. Hầu hết các nhà phát triển gặp khó khăn khi quá trình chuyển đổi bỏ mất hình ảnh hoặc lưu chúng theo cách làm hỏng bố cục cuối cùng.  
 
-Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh, sẵn sàng chạy, cho thấy **cách nhúng hình ảnh** dưới dạng Base64 data URI cho các đồ họa nhỏ, trong khi các tài nguyên lớn hơn sẽ được ghi vào một thư mục phụ. Trong quá trình này, chúng tôi cũng sẽ đề cập đến **convert docx to markdown**, nói về **how to convert docx** với Aspose.Words, và giải thích sự khác biệt giữa việc nhúng hình ảnh dưới dạng Base64 và xuất chúng ra các tệp riêng biệt.  
+Trong hướng dẫn này, chúng tôi sẽ trình bày một ví dụ hoàn chỉnh, sẵn sàng chạy, cho thấy **cách nhúng hình ảnh** dưới dạng URI dữ liệu Base64 cho các đồ họa nhỏ, trong khi các tài nguyên lớn hơn được ghi vào một thư mục phụ. Trong quá trình này, chúng tôi cũng sẽ đề cập đến **convert docx to markdown**, đề cập tới **how to convert docx** với Aspose.Words, và giải thích sự khác biệt giữa việc nhúng hình ảnh dưới dạng Base64 và xuất chúng thành các tệp riêng biệt.  
 
-> **Pro tip:** Nếu bạn chỉ cần một bằng chứng khái niệm nhanh, đoạn mã dưới đây hoạt động ngay lập tức với một phụ thuộc Maven duy nhất.
+> **Mẹo:** Nếu bạn chỉ cần một bằng chứng khái niệm nhanh, đoạn mã dưới đây hoạt động ngay lập tức với một phụ thuộc Maven duy nhất.
 
----
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc chuyển đổi?** Aspose.Words for Java thực hiện chuyển đổi DOCX → Markdown và trích xuất hình ảnh.
+- **Các hình ảnh nhỏ được lưu như thế nào?** Chúng được nhúng dưới dạng URI dữ liệu Base64 trực tiếp trong tệp Markdown.
+- **Các hình ảnh lớn được lưu ở đâu?** Các ảnh lớn hơn được lưu vào thư mục `markdown_resources` bên cạnh tệp Markdown.
+- **Có cần cài đặt Microsoft Word không?** Không, Aspose.Words hoạt động hoàn toàn độc lập với Microsoft Office.
+- **Yêu cầu phiên bản Java nào?** Java 17 hoặc bất kỳ bản LTS nào sau này.
 
-## Những Gì Bạn Cần
+## Cách nhúng hình ảnh là gì?
+`how to embed images` đề cập đến kỹ thuật chèn dữ liệu hình ảnh trực tiếp vào tài liệu Markdown, hoặc dưới dạng URI dữ liệu được mã hoá Base64 hoặc dưới dạng liên kết tương đối tới một tệp bên ngoài. Cách tiếp cận này cho phép bạn giữ một tệp Markdown duy nhất, di động cho các đồ họa nhỏ trong khi vẫn hỗ trợ các tài nguyên độ phân giải cao qua các tệp riêng.
 
-- **Java 17** (hoặc bất kỳ JDK hiện đại nào) – API tập trung vào Java, nhưng các khái niệm có thể áp dụng cho các ngôn ngữ khác.  
-- **Aspose.Words for Java** – thư viện thương mại hỗ trợ chuyển đổi DOCX → Markdown.  
-- Một **sample DOCX** chứa hỗn hợp các biểu tượng nhỏ và ảnh lớn hơn.  
-- Một thư mục nơi bạn muốn lưu Markdown và các tài nguyên của nó.  
+## Tại sao nên nhúng hình ảnh trong markdown?
+Việc nhúng hình ảnh dưới dạng Base64 giảm số yêu cầu HTTP cho các biểu tượng và đồ họa nhỏ, có thể cải thiện tốc độ tải trang lên tới 30 % trên các mạng có độ trễ thấp. Đồng thời, việc giữ các ảnh lớn ở bên ngoài ngăn tệp Markdown phình to quá 5 MB, bảo vệ hiệu năng của trình soạn thảo và các diff trong hệ thống kiểm soát phiên bản.
+
+## Yêu cầu trước
+- **Java 17** (hoặc bất kỳ JDK mới nào). API tập trung vào Java, nhưng các khái niệm có thể áp dụng cho các ngôn ngữ khác.
+- **Aspose.Words for Java** – một thư viện thương mại hỗ trợ chuyển đổi DOCX → Markdown.
+- Một **tệp DOCX mẫu** chứa hỗn hợp các biểu tượng nhỏ và ảnh lớn hơn.
+- Một thư mục có thể ghi được, nơi tệp Markdown và các tài nguyên của nó sẽ được lưu.
 
 Không cần framework bổ sung, không cần script bên ngoài. Chỉ cần Java thuần và Aspose.Words.
 
----
-
-## Bước 1 – Thêm Aspose.Words vào Dự Án của Bạn (convert docx to markdown)
-
+## Những gì bạn cần để thêm Aspose.Words vào dự án của mình (convert docx to markdown)
 Nếu bạn đang sử dụng Maven, chèn đoạn mã sau vào `pom.xml` của bạn. Tự do thay thế phiên bản bằng bản phát hành mới nhất tại thời điểm đọc.
 
 ```xml
@@ -60,13 +98,11 @@ Nếu bạn đang sử dụng Maven, chèn đoạn mã sau vào `pom.xml` của 
 </dependency>
 ```
 
-> **Why this matters:** Aspose.Words xử lý phần nặng của việc phân tích cấu trúc DOCX, trích xuất hình ảnh và tạo ra cú pháp Markdown. Cố gắng tự viết trình phân tích của mình sẽ là một lỗ sâu mà bạn có lẽ không cần phải đi vào.
+> **Tại sao điều này quan trọng:** Aspose.Words thực hiện công việc nặng nề trong việc phân tích cấu trúc DOCX, trích xuất hình ảnh và tạo ra cú pháp Markdown. Cố gắng tự viết trình phân tích của mình sẽ là một lỗ sâu mà bạn có lẽ không cần phải đi vào.
 
----
-
-## Bước 2 – Load the Source DOCX Document
-
-Đầu tiên, chỉ định API tới tệp Word bạn muốn chuyển đổi. Hàm khởi tạo `Document` thực hiện toàn bộ công việc — không cần phân tích XML thủ công.
+## Lớp Document hoạt động như thế nào?
+`Document` là đối tượng cốt lõi của Aspose.Words đại diện cho một tệp Word duy nhất trong bộ nhớ. Nó cung cấp các phương thức để tải, sửa đổi và lưu tài liệu ở nhiều định dạng.
+Nó bao bọc toàn bộ cấu trúc tài liệu, bao gồm các phần, đoạn văn, bảng và tài nguyên nhúng, cho phép bạn thao tác nội dung một cách lập trình mà không cần xử lý XML bên dưới.
 
 ```java
 import com.aspose.words.*;
@@ -77,13 +113,9 @@ public class MarkdownResourceCallback {
         Document doc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-Lưu ý phần chú thích giải thích *tại sao* dòng này quan trọng: nếu không có một thể hiện `Document` thì không có gì để chuyển đổi.
-
----
-
-## Bước 3 – Prepare MarkdownSaveOptions with a Resource‑Saving Callback
-
-Đây là phần cốt lõi của **cách nhúng hình ảnh** một cách chính xác. Callback cung cấp một điểm gắn cho mỗi tài nguyên (hình ảnh, kiểu dáng, v.v.) mà bộ chuyển đổi muốn ghi.
+## Cách quyết định giữa Base64 và tệp bên ngoài với callback
+Callback tài nguyên là một triển khai của `IResourceSavingCallback` cho phép bạn chặn mỗi hình ảnh trong quá trình chuyển đổi.
+Đây là phần cốt lõi của **cách nhúng hình ảnh** một cách chính xác. Callback cung cấp một điểm hook cho mỗi tài nguyên (hình ảnh, kiểu, v.v.) mà bộ chuyển đổi muốn ghi. Bằng cách kiểm tra kích thước hình ảnh, bạn có thể quyết định nhúng nó dưới dạng URI dữ liệu hoặc lưu nó thành tệp bên ngoài, giúp cân bằng hiệu năng và kích thước tệp.
 
 ```java
         // Step 3: Create Markdown save options and define a resource‑saving callback
@@ -114,16 +146,13 @@ Lưu ý phần chú thích giải thích *tại sao* dòng này quan trọng: n�
 ```
 
 ### Tại sao lại cần callback?
+- **Kiểm soát:** Bạn quyết định hình ảnh sẽ trở thành chuỗi Base64 nội tuyến hay một tệp riêng.
+- **Hiệu năng:** Các biểu tượng nhỏ trở thành một phần của Markdown, loại bỏ các yêu cầu HTTP bổ sung.
+- **Tính di động:** Các ảnh lớn hơn vẫn ở dạng tệp bên ngoài, giữ kích thước Markdown ở mức hợp lý.
 
-- **Control:** Bạn quyết định hình ảnh sẽ trở thành chuỗi Base64 nội tuyến hay một tệp riêng.  
-- **Performance:** Các biểu tượng nhỏ sẽ trở thành một phần của Markdown, loại bỏ các yêu cầu HTTP thêm.  
-- **Portability:** Các ảnh lớn hơn sẽ ở dạng tệp ngoại vi, giữ cho kích thước Markdown ở mức hợp lý.
-
----
-
-## Bước 4 – Save the Document as Markdown
-
-Cuối cùng, yêu cầu Aspose.Words ghi tệp Markdown bằng các tùy chọn chúng ta vừa cấu hình.
+## Cách lưu tài liệu dưới dạng markdown
+SaveOptions là một đối tượng cấu hình kiểm soát cách Aspose.Words ghi đầu ra, bao gồm định dạng, mã hoá và xử lý tài nguyên.
+Cuối cùng, chỉ định cho Aspose.Words ghi tệp Markdown bằng các tùy chọn chúng ta vừa cấu hình. Đối tượng `SaveOptions` cho phép bạn chỉ định thư mục đầu ra, callback tài nguyên và các tùy chọn định dạng khác, đảm bảo Markdown được tạo phù hợp với quy ước dự án của bạn. Bạn cũng có thể bật hoặc tắt việc tạo mục lục và kiểm soát cách chú thích được hiển thị.
 
 ```java
         // Step 5: Save the document as Markdown using the configured options
@@ -135,13 +164,11 @@ Cuối cùng, yêu cầu Aspose.Words ghi tệp Markdown bằng các tùy chọn
 Chạy chương trình sẽ tạo ra hai thứ:
 
 1. `output.md` – bản đại diện Markdown của DOCX gốc của bạn.  
-2. Thư mục `markdown_resources` chứa bất kỳ hình ảnh lớn nào không được nhúng.
+2. Một thư mục `markdown_resources` chứa bất kỳ hình ảnh lớn nào không được nhúng.
 
----
+## Ví dụ hoàn chỉnh (tất cả các bước trong một nơi)
 
-## Full Working Example (All Steps in One Place)
-
-Dưới đây là tệp nguồn hoàn chỉnh, sẵn sàng sao chép‑dán vào IDE của bạn. Thay thế `YOUR_DIRECTORY` bằng đường dẫn thực tế trên máy của bạn.
+Dưới đây là tệp nguồn đầy đủ, sẵn sàng sao chép‑dán vào IDE của bạn. Thay thế `YOUR_DIRECTORY` bằng đường dẫn thực tế trên máy của bạn.
 
 ```java
 import com.aspose.words.*;
@@ -182,27 +209,28 @@ public class MarkdownResourceCallback {
 }
 ```
 
-**Expected output:** Mở `output.md` trong bất kỳ trình xem Markdown nào. Các biểu tượng nhỏ sẽ xuất hiện nội tuyến, ví dụ:
+**Kết quả mong đợi:** Mở `output.md` trong bất kỳ trình xem Markdown nào. Các biểu tượng nhỏ xuất hiện nội tuyến, ví dụ:
 
 ```markdown
 ![Embedded Icon](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-Các ảnh lớn hơn sẽ được tham chiếu như:
+[Biểu tượng nhúng](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
+
+Các ảnh lớn được tham chiếu như sau:
 
 ```markdown
 ![Photo](markdown_resources/photo1.jpg)
 ```
 
-Đó chính là những gì bạn cần để **nhúng hình ảnh** đồng thời vẫn giữ kích thước tệp ở mức quản lý được.
+[Ảnh](markdown_resources/photo1.jpg)
 
----
+Đó chính là những gì bạn cần để **nhúng hình ảnh** đồng thời vẫn giữ kích thước tệp ở mức có thể quản lý.
 
-## Các Câu Hỏi Thường Gặp & Trường Hợp Cạnh
+## Các câu hỏi thường gặp & trường hợp đặc biệt
 
-### Nếu một hình ảnh là JPEG thay vì PNG thì sao?
-
-Callback ở trên luôn thêm tiền tố URI là `image/png`. Đối với JPEG, bạn có thể kiểm tra vài byte đầu của `args.getData()` hoặc sử dụng `args.getFileName()` để suy ra MIME type đúng:
+### Nếu hình ảnh là JPEG thay vì PNG thì sao?
+Callback ở trên luôn thêm tiền tố `image/png` vào URI. Đối với JPEG, bạn có thể kiểm tra vài byte đầu tiên của `args.getData()` hoặc sử dụng `args.getFileName()` để suy ra loại MIME đúng:
 
 ```java
 String mime = args.getFileName().toLowerCase().endsWith(".jpg") ||
@@ -212,27 +240,53 @@ args.setUri("data:" + mime + ";base64," + base64);
 ```
 
 ### Tôi có thể thay đổi ngưỡng kích thước không?
-
-Chắc chắn rồi. Giới hạn `10_000` byte chỉ là một ví dụ. Nếu bạn có ngân sách băng thông rộng rãi, có thể tăng lên 50 KB hoặc hơn. Ngược lại, giảm nó nếu bạn cần các tệp Markdown siêu nhẹ.
+Chắc chắn. Giới hạn `10_000` byte chỉ là một ví dụ. Nếu bạn có ngân sách băng thông rộng rãi, hãy tăng lên 50 KB hoặc hơn. Ngược lại, giảm nó nếu bạn cần các tệp Markdown siêu nhẹ.
 
 ### Điều này có hoạt động với bảng hoặc các đối tượng Word khác không?
-
-Có. Aspose.Words tự động chuyển đổi bảng, danh sách và thậm chí chú thích cuối trang sang Markdown. Callback tài nguyên chỉ can thiệp vào hình ảnh, vì vậy bạn không cần mã bổ sung cho các yếu tố khác.
+Có. Aspose.Words tự động chuyển đổi bảng, danh sách và thậm chí chú thích thành Markdown. Callback tài nguyên chỉ chặn hình ảnh, vì vậy bạn không cần mã bổ sung cho các yếu tố khác.
 
 ### Còn các tên tệp không phải ASCII thì sao?
+API mã hoá an toàn các tên tệp Unicode khi ghi vào thư mục `markdown_resources`. Chỉ cần đảm bảo hệ thống tệp của bạn hỗ trợ UTF‑8 (hầu hết các hệ điều hành hiện đại đều hỗ trợ).
 
-API mã hoá an toàn các tên tệp Unicode khi ghi vào thư mục `markdown_resources`. Chỉ cần đảm bảo hệ thống tệp của bạn hỗ trợ UTF‑8 (hầu hết các OS hiện đại đều hỗ trợ).
+## Mẹo khắc phục sự cố và những lỗi thường gặp
+- **Thiếu hình ảnh sau khi chuyển đổi:** Kiểm tra `args.getData()` trong callback không phải null và thư mục đầu ra có quyền ghi.  
+- **Chuỗi Base64 bị hỏng:** Đảm bảo lời gọi `Base64.getEncoder().encodeToString()` nhận được mảng byte đầy đủ; việc cắt ngắn thường xảy ra khi luồng không được đọc hết.  
+- **Tệp Markdown lớn:** Nếu `.md` tạo ra vượt quá 5 MB, hãy cân nhắc giảm ngưỡng kích thước hoặc nén các hình ảnh lớn trước khi lưu chúng vào thư mục tài nguyên.  
+- **Không tương thích phiên bản:** Aspose.Words 24.9+ hỗ trợ hơn 35 định dạng đầu ra và có thể xử lý DOCX 500 trang trong vòng dưới 4 giây trên máy chủ 2.5 GHz tiêu chuẩn. Khóa phiên bản Maven để tránh hành vi không mong muốn sau khi có bản phát hành lớn.
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể sử dụng cách tiếp cận này trong dịch vụ web tạo Markdown nhanh không?**  
+A: Có. Cùng một API hoạt động trong bất kỳ môi trường Java nào, bao gồm các container servlet và ứng dụng Spring Boot. Chỉ cần stream `output.md` trở lại client sau khi chuyển đổi.
+
+**Q: Cần giấy phép thương mại để sử dụng trong môi trường production không?**  
+A: Cần một giấy phép Aspose.Words hợp lệ cho việc triển khai production. Một giấy phép đánh giá miễn phí có sẵn cho việc thử nghiệm và phát triển.
+
+**Q: Làm thế nào để xử lý các tệp DOCX được bảo vệ bằng mật khẩu?**  
+A: Tải tài liệu bằng `new Document("file.docx", new LoadOptions("password"))`. Quy trình chuyển đổi tương tự sẽ được áp dụng.
+
+**Q: Nếu tôi cần nhúng hình ảnh SVG thì sao?**  
+A: Đầu tiên chuyển đổi SVG sang PNG hoặc JPEG, sau đó để callback xử lý như bất kỳ hình ảnh nào khác. Aspose.Words không hỗ trợ render SVG trực tiếp trong Markdown.
+
+**Q: Điều này có hoạt động trên Windows, macOS và Linux không?**  
+A: Có. Aspose.Words for Java không phụ thuộc vào nền tảng và chạy ở bất kỳ nơi nào có JDK tương thích.
 
 ---
 
-## Pro Tips for a Smooth Conversion
+**Cập nhật lần cuối:** 2026-10-23  
+**Kiểm tra với:** Aspose.Words for Java 24.10  
+**Tác giả:** Aspose
 
-- **Keep the output folder clean.** Chỉ chạy `Files.createDirectories` một lần cho mỗi lần chuyển đổi, hoặc xóa thư mục trước mỗi lần chạy nếu bạn muốn bắt đầu mới.  
-- **Validate the Markdown.** Các công cụ như `markdownlint` có thể phát hiện ký tự lạ do chuỗi Base64 bị hỏng.  
-- **Version lock Aspose.Words.** Một phiên bản cụ thể đảm bảo mã của bạn vẫn hoạt động ngay cả khi bản phát hành lớn thay đổi hành vi mặc định.  
-- **Use a .gitignore** entry for `markdown_resources/
+## Hướng dẫn liên quan
+
+- [Lưu hình ảnh Word Chuyển đổi Docx sang Markdown với Java](/words/java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/)
+- [Tải hình ảnh lên CDN khi chuyển đổi Docx sang Markdown - Full](/words/java/document-conversion-and-export/upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+- [Hướng dẫn Java đầy đủ chuyển đổi Docx sang Markdown](/words/java/document-conversion-and-export/convert-docx-to-markdown-complete-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

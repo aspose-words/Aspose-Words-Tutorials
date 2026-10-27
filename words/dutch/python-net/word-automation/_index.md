@@ -35,6 +35,14 @@ Door tekstautomatisering onder de knie te krijgen met Aspose.Words voor Python, 
 ### [Woordautomatisering eenvoudig gemaakt](./word-automation-made-easy/)
 Automatiseer tekstverwerking eenvoudig met Aspose.Words voor Python. Creëer, formatteer en bewerk documenten programmatisch. Verhoog nu uw productiviteit!
 
+### [Vervang tekst in docx met Python – volledige stapsgewijze handleiding](./replace-text-docx-with-python-full-step-by-step-guide/)
+Leer hoe u tekst in een DOCX-bestand kunt vervangen met Python, stap voor stap, met codevoorbeelden en best practices.
+
+### [Hoe u Aspose gebruikt om grammatica-correctie te automatiseren in Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Leer hoe u met Aspose grammatica in documenten automatisch corrigeert via Python, met voorbeeldcode en stapsgewijze instructies.
+### [Maak een leeg Word-document met een schaduwvorm in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Maak een leeg Word-document en voeg een vorm met schaduw toe via Aspose.Words voor Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

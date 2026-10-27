@@ -61,7 +61,6 @@ Přidejte tento úryvek do souboru `pom.xml`:
 
 ### Gradle
 Zahrňte následující do souboru `build.gradle`:
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -92,7 +91,7 @@ S připravenou knihovnou se ponořme do hlavních funkcí.
 
 ## Průvodce implementací
 
-### Funkce 1: Inicializace dokumentu
+### Funkce 1: inicializace dokumentu
 
 #### Přehled
 Vytvoření `GlossaryDocument` uvnitř hlavního dokumentu vám umožní spravovat glosáře, styly a vlastní části v čistém, izolovaném kontejneru.
@@ -115,7 +114,7 @@ public class DocumentInitialization {
 
 *Proč je to důležité:* Tento vzor je základem pro **sloučení sekcí dokumentu** později, protože každá sekce může zachovat své vlastní styly a přesto patřit do stejného souboru.
 
-### Funkce 2: Nastavení barvy pozadí stránky
+### Funkce 2: nastavení barvy pozadí stránky
 
 #### Přehled
 Můžete použít jednotný odstín na každou stránku pomocí `Document.setPageColor`. To přímo řeší hlavní klíčové slovo **set page background color**.
@@ -175,7 +174,7 @@ public class ImportNode {
 
 **Pro tip:** Po importu můžete zavolat `dstDoc.updatePageLayout()`, aby se správně přepočítaly zalomení stránek a záhlaví/patky.
 
-### Funkce 4: Import uzlu s vlastním režimem formátování
+### Funkce 4: importovat uzel s vlastním režimem formátování
 
 #### Přehled
 Někdy zdroj a cíl používají odlišné definice stylů. `ImportFormatMode` vám umožní rozhodnout, zda zachovat styly zdroje nebo vynutit styly cíle.

@@ -20,6 +20,8 @@ Dieser Leitfaden beleuchtet die Vielseitigkeit der DocumentBuilder-Klasse und er
 
 {{< tutorial-card link="./build-table/" title="Erstellen Sie mit Aspose.Words ein Word-Dokument mit Tabelle" imgSrc="./build-table/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Mehrere Word-Dokumente mit Aspose.Words generieren" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-break/" title="Erstellen Sie ein mehrseitiges Word-Dokument mit Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-floating-image/" title="Erstellen Sie ein Word-Dokument mit schwebendem Bild in .NET" imgSrc="./insert-floating-image/images/thumb.png" >}}
@@ -31,7 +33,6 @@ Dieser Leitfaden beleuchtet die Vielseitigkeit der DocumentBuilder-Klasse und er
 {{< tutorial-card link="./insert-paragraph/" title="Erstellen Sie ein Word-Dokument mit Aspose.Words für .NET" imgSrc="./insert-paragraph/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-table-contents/" title="Erstellen Sie ein Word-Dokument mit Inhaltsverzeichnis in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

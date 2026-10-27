@@ -59,13 +59,13 @@ Ajoutez la dépendance Maven à votre `pom.xml` (c’est la **configuration Mave
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Si vous préférez Gradle, utilisez le fragment suivant :
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## License Acquisition
 Pour exploiter pleinement Aspose.Words, vous aurez besoin d’un fichier de licence :
@@ -77,7 +77,7 @@ Après avoir obtenu une licence, initialisez‑la dans votre application Java co
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Implementation Guide
 Nous allons décomposer notre implémentation en deux fonctionnalités principales : la gestion des retours chariot et l’insertion de caractères de contrôle.

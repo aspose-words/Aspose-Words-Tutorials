@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: このチュートリアルでは、新しい Word ドキュメントを作成し、特定のフォント設定でカスタムテキスト透かしを構成し、透かしをドキュメントに適用し、Document.Watermark.SetText API を使用して結果を .docx ファイルとして保存する方法を示します。
+//ExStepSummary:0: `document` という名前の新しい空の Word ドキュメント インスタンスを作成します。
+//ExStepSummary:1: `watermarkSettings` を Arial の 48pt グレー フォント、斜めレイアウト、不透明レンダリングで設定します。
+//ExStepSummary:2: 前述の設定を使用して、テキスト透かし「Private」を `document` に適用します。
+//ExStepSummary:3: 透かしが付いたドキュメントを保存するファイルパスを定義します。
+//ExStepSummary:4: 変更された `document` を指定されたパスに .docx ファイルとして保存します。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

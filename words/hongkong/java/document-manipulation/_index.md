@@ -58,52 +58,102 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 ## 文件操作教學課程
 ### [在 Aspose.Words for Java 中使用清理選項](./using-cleanup-options/)
 使用 Aspose.Words for Java 清理選項增強文件清晰度。了解如何刪除空白段落、未使用的區域等。
+
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
 使用 Aspose.Words for Java 解鎖文件自動化。了解如何在 Java 文件中合併、格式化和插入影像。高效文件處理的綜合指南和程式碼範例。
+
 ### [在 Aspose.Words for Java 中使用 XML 數據](./using-xml-data/)
 釋放 Aspose.Words for Java 的強大功能。透過逐步教學學習 XML 資料處理、郵件合併和 Mustache 語法。
+
 ### [使用 Aspose.Words for Java 從文件中擷取內容](./extracting-content-from-documents/)
 了解如何使用 Aspose.Words for Java 輕鬆地從文件中提取內容。我們的逐步指南和程式碼範例簡化了該過程。
+### [使用 Java 在 Word 中建立帶互動指令按鈕的空白文件](./create-blank-document-with-an-interactive-command-button-in/)
+示範如何使用 Aspose.Words for Java 建立空白文件，並在其中加入可點擊的指令按鈕。
 ### [Aspose.Words for Java 中擷取內容的輔助方法](./helper-methods-for-extracting-content/)
 了解如何使用 Aspose.Words for Java 從 Word 文件中有效地提取內容。在此綜合指南中探索輔助方法、自訂格式等。
+
 ### [在 Aspose.Words for Java 中尋找和取代文本](./finding-and-replacing-text/)
 了解如何使用 Aspose.Words for Java 在 Word 文件中尋找和取代文字。帶有程式碼範例的分步指南。增強您的 Java 文件操作技能。
+
 ### [從 Aspose.Words for Java 中的文件中刪除內容](./removing-content-from-documents/)
 了解如何使用 Aspose.Words for Java 從 Java 中的 Word 文件中刪除內容。刪除分頁符號、分節符等。優化您的文件處理。
+
 ### [在 Aspose.Words for Java 中使用書籤](./using-bookmarks/)
 使用 Aspose.Words for Java 優化您的文件處理。透過本逐步指南學習如何使用書籤進行有效的內容導航和操作。
+
 ### [在 Aspose.Words for Java 中使用文件範圍](./using-document-ranges/)
 掌握 Aspose.Words for Java 中的文件範圍操作。透過本綜合指南學習如何刪除、擷取和格式化文字。
+
 ### [在 Aspose.Words for Java 中使用結構化文件標籤（SDT）](./using-structured-document-tags/)
 透過本綜合指南了解如何在 Aspose.Words for Java 中使用結構化文件標籤 (SDT)。建立、修改並將 SDT 綁定到自訂 XML 資料。
+
 ### [在 Aspose.Words for Java 中使用樣式和主題](./using-styles-and-themes/)
 了解如何使用 Aspose.Words for Java 增強文件格式。在此包含原始程式碼範例的綜合指南中探索樣式、主題等。
+
 ### [在 Aspose.Words for Java 中產生目錄](./generating-table-of-contents/)
 了解如何使用 Aspose.Words for Java 產生和自訂目錄 (TOC)。輕鬆建立有條理且專業的文件。
+
 ### [在 Aspose.Words for Java 中保護文檔](./protecting-documents/)
 了解如何使用 Aspose.Words for Java 保護您的 Java Word 文件。使用密碼等保護您的資料。
+
 ### [在 Aspose.Words for Java 中將文件分割為頁面](./splitting-documents-into-pages/)
 了解如何使用 Aspose.Words for Java 將文件分割為頁面。帶有原始程式碼的分步指南，用於高效文件處理。
+
 ### [在 Aspose.Words for Java 中分割文檔](./splitting-documents/)
 了解如何在 Aspose.Words for Java 中有效地分割文件。探索標題、章節和頁面範圍的技術。
+
 ### [在 Aspose.Words for Java 中將文件分割為 HTML 頁面](./splitting-documents-into-html-pages/)
 了解如何使用 Aspose.Words for Java 將文件分割為 HTML 頁面。請按照我們的逐步指南實現無縫文件轉換。
+
 ### [使用 Aspose.Words for Java 中的 DocumentBuilder 新增內容](./adding-content-using-documentbuilder/)
 使用 Aspose.Words for Java 掌握文件建立。新增文字、表格、圖像等內容的逐步指南。輕鬆建立令人驚嘆的 Word 文件。
+### [在 Aspose.Words for Java 中使用內容控制](./add-content-control-in-word-document-with-aspose-words/)
+使用 Aspose.Words for Java 在 Word 文件中新增內容控制，實現結構化資料輸入與管理。
+### [使用 DocumentBuilder 儲存 docx 並在控制項之後新增文字](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+示範如何使用 DocumentBuilder 儲存 docx 檔案，並在內容控制項之後插入文字。
 ### [在 Aspose.Words for Java 中複製和合併文檔](./cloning-and-combining-documents/)
 了解如何在 Aspose.Words for Java 中複製和合併文件。帶有原始程式碼範例的分步指南。
+
 ### [在 Aspose.Words for Java 中比較文檔](./comparing-documents/)
-了解如何在 Aspose.Words for Java（一個用於高效能文件分析的強大 Java 函式庫）中比較文件。 
+了解在 Aspose.Words for Java（一個用於高效能文件分析的強大 Java 函式庫）中比較文件。 
 ### [在 Aspose.Words for Java 中格式化文檔](./formatting-documents/)
 透過我們全面的指南學習在 Aspose.Words for Java 中格式化文件的藝術。探索強大的功能並增強您的文件處理技能。
+
 ### [在 Aspose.Words for Java 中合併和附加文檔](./joining-and-appending-documents/)
 了解如何使用 Aspose.Words for Java 輕鬆連接和附加文件。保留格式、管理頁首頁尾等。
+
 ### [在 Aspose.Words for Java 中使用文件選項和設置](./using-document-options-and-settings/)
 釋放 Aspose.Words for Java 的強大功能。掌握文件選項和設置，實現無縫文件管理。優化、客製化等等。
+
 ### [在 Aspose.Words for Java 中使用文件屬性](./using-document-properties/)
 使用 Aspose.Words for Java 最佳化文件管理。在本綜合教學中學習如何使用文件屬性、新增自訂元資料等。
+
 ### [在 Aspose.Words for Java 中使用 Web 擴充](./using-web-extensions/)
-使用 Aspose.Words for Java 中的 Web 擴充功能增強文件。學習無縫整合網路為基礎的內容。 
+### [在 Java 中的 PDF 可及性標記 – 產生可存取的 PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+了解如何在 Java 中使用 Aspose.Words 為 PDF 添加可及性標記，生成符合 WCAG 標準的可存取 PDF 文件。
+### [在 Java 中建立 docx ActiveX 按鈕 – 完整程式設計指南](./create-docx-activex-button-in-java-complete-programming-guid/)
+在 Java 中使用 Aspose.Words 建立可在 Word 中執行的 ActiveX 按鈕的完整步驟與程式碼示例。
+### [使用 Aspose.Words 在 Java 中建立 Word 文件](./how-to-create-a-word-document-in-java-with-aspose-words/)
+了解如何使用 Aspose.Words for Java 從頭建立 Word 文件的步驟與程式碼範例。
+### [在 Aspose.Words for Java 中使用文字控制項建立空白 Word 文件](./how-to-create-a-blank-word-document-with-a-text-control/)
+了解如何使用文字控制項在 Aspose.Words for Java 中建立空白的 Word 文件，並插入可編輯的文字區域。
+### [使用 Aspose.Words 程式化建立 Word 文件](./how-to-create-word-document-programmatically-with-aspose-wor/)
+示範如何使用 Aspose.Words 程式化建立 Word 文件，提供完整程式碼範例與操作說明。
+### [在 Aspose.Words for Java 中使用純文字內容控制建立 Word 文件](./create-word-document-with-a-plain-text-content-control/)
+示範如何使用 Aspose.Words for Java 建立包含純文字內容控制的 Word 文件。
+### [建立新 Word 文件 – 添加結構化標籤的逐步指南](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+使用 Aspose.Words for Java 建立新 Word 文件並逐步添加結構化標籤的完整教學。
+### [在 Aspose.Words for Java 中建立空白 Word 文件](./create-blank-word-document-in-java-with-aspose-words/)
+了解如何使用 Aspose.Words for Java 在 Java 中快速建立空白的 Word 文件。
+### [在 Aspose.Words for Java 中建立空白 Word 文件](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+了解如何使用 Aspose.Words for Java 快速建立空白的 Word 文件。
+### [在 Aspose.Words for Java 中使用 C# 設定標籤名稱並新增 SDT](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+使用 C# 在 Word 文件中設定標籤名稱並新增結構化文件標籤 (SDT)。 
+### [在 C# 中使用純文字內容控制建立空白 Word 文件](./how-to-create-blank-word-document-with-a-plain-text-content/)
+示範如何在 C# 中使用純文字內容控制建立空白的 Word 文件。
+
+### [在 C# 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+示範如何在 C# 使用 Aspose.Words 建立空白 Word 文件，並添加可點擊的 ActiveX 按鈕。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

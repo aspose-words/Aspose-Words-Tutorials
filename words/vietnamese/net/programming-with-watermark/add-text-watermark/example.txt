@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tự động thêm một watermark văn bản màu đỏ chéo vào mỗi tài liệu Word mới được tạo trong quá trình báo cáo hàng loạt bằng cách sử dụng Aspose.Words Document và DocumentBuilder.
+//ExStepSummary:0: Tạo thư mục "GeneratedReports" nơi các tệp đầu ra sẽ được lưu.
+//ExStepSummary:1: Bắt đầu một vòng lặp sẽ tạo ba tài liệu riêng biệt.
+//ExStepSummary:2: Tạo một đối tượng tài liệu Word mới rỗng.
+//ExStepSummary:3: Sử dụng DocumentBuilder để ghi một dòng tiêu đề và mô tả vào tài liệu.
+//ExStepSummary:4: Xác định giao diện của watermark, bao gồm phông chữ, kích thước, màu sắc và bố cục chéo.
+//ExStepSummary:5: Áp dụng watermark chéo màu đỏ đã cấu hình với văn bản "PROTECTED" vào tài liệu.
+//ExStepSummary:6: Lưu tài liệu đã có watermark vào thư mục "GeneratedReports" với tên tệp duy nhất.
+//ExStepSummary:7: Đóng vòng lặp sau khi xử lý tài liệu hiện tại.
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

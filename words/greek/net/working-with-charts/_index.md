@@ -32,6 +32,8 @@
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Εισαγωγή ενός απλού γραφήματος στηλών στο Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Πώς να επεξεργαστείτε το γράφημα στο Word: Αλλαγή θέσης ετικέτας, γραμματοσειράς & περισσότερα" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

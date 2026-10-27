@@ -59,13 +59,13 @@ Voeg de Maven‑dependency toe aan je `pom.xml` (dit is de **aspose words maven 
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Als je Gradle verkiest, gebruik dan de volgende codefragment:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Licentie‑acquisitie
 Om Aspose.Words volledig te benutten, heb je een licentiebestand nodig:
@@ -77,7 +77,7 @@ Na het verkrijgen van een licentie, initialiseert je deze in je Java‑applicati
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Implementatie‑gids
 We splitsen onze implementatie op in twee hoofdfeatures: het afhandelen van carriage returns en het invoegen van controletekens.

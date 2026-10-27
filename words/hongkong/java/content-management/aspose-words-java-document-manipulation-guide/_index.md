@@ -36,7 +36,7 @@ weight: 1
 - 減少長篇報告的眼睛疲勞  
 - 在彩色紙張列印時突顯特定區段  
 
-## 先決條件
+## 前置條件
 
 在開始之前，請確保您已具備：
 
@@ -60,7 +60,6 @@ weight: 1
 
 ### Gradle
 在您的 `build.gradle` 檔案中加入以下內容：
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -74,6 +73,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 以下是一個最小的 Java 程式，建立空白文件：
 
+`Document` 類別是代表 PDF、Word 或任何支援檔案於記憶體中的核心物件。加入 Maven 依賴後，您可以如下建立實例：
 ```java
 import com.aspose.words.Document;
 
@@ -96,6 +96,8 @@ public class DocumentSetup {
 #### 概觀
 在主文件中建立 `GlossaryDocument` 可讓您在乾淨、獨立的容器中管理詞彙表、樣式與自訂部件。
 
+#### 如何初始化詞彙表文件？
+建立一個主 `Document` 實例，然後附加 `GlossaryDocument` 以在單一完整檔案中管理詞彙表項目。`GlossaryDocument` 代表 Word 文件的詞彙表部分，儲存詞彙項目、尾註與自訂部件等條目。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -119,6 +121,8 @@ public class DocumentInitialization {
 #### 概觀
 您可以使用 `Document.setPageColor` 為每一頁套用統一的色調。此方法直接對應主要關鍵字 **set page background color**。
 
+#### 如何設定頁面背景顏色？
+使用 `Document` 物件的 `setPageColor()` 方法，傳入代表所需色調的 `java.awt.Color` 值。
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -145,6 +149,8 @@ public class SetPageBackgroundColor {
 #### 概觀
 當需要結合多個來源的內容時，您可以將整個節（或任何節點）從一個文件匯入另一個文件。這是 **merge document sections** 與 **import section from document** 情境的核心。
 
+#### 如何從來源文件匯入節？
+在目標 `Document` 上呼叫 `importNode()`，提供要匯入的節點以及決定樣式處理方式的 `ImportFormatMode`。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -179,6 +185,8 @@ public class ImportNode {
 #### 概觀
 有時來源與目標使用不同的樣式定義。`ImportFormatMode` 讓您決定是保留來源樣式，還是強制使用目標的樣式。
 
+#### 如何套用自訂匯入格式模式？
+在呼叫 `importNode()` 時指定所需的 `ImportFormatMode`。這讓您能控制是否保留或覆寫來源格式。`ImportFormatMode` 為列舉型別，定義匯入期間的格式處理方式，例如保留來源樣式或使用目標樣式。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -209,6 +217,8 @@ public class ImportNodeCustom {
 #### 概觀
 除了純色之外，您還可以將形狀或圖像嵌入為頁面背景。此範例加入一個紅色星形，但您可以將其替換為任何圖片，以 **create document background image**。
 
+#### 如何插入背景形狀？
+建立類型為 `ShapeType.IMAGE` 的 `Shape`，將其版面配置設為 `WRAP_NONE`，並加入文件的頁首或頁尾，使其出現在所有文字之後。`Shape` 代表可放置於文件任意位置的繪圖物件，如圖像、文字方塊或幾何圖形。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
