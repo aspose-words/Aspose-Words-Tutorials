@@ -30,6 +30,12 @@ De Aspose.Words voor .NET-tutorials over tekstverwerking met OfficeMath begeleid
 | [Docx opslaan als txt – Complete C#-gids voor het exporteren van Word-wiskunde als LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar LaTeX met C# en Aspose.Words. |
 | [Word naar LaTeX converteren – Complete C#-gids voor het exporteren van Office Math als LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Leer hoe u Word-documenten met Office Math naar LaTeX exporteert met C# en Aspose.Words. |
 | [Docx opslaan als txt – Exporteer Word-wiskunde naar LaTeX in C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar LaTeX met C#. |
+| [Office Math opslaan als LaTeX – Exporteer Word‑vergelijkingen naar LaTeX in C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Leer hoe u Office Math opslaat als LaTeX en Word‑vergelijkingen exporteert naar LaTeX met C#. |
+| [DOCX converteren naar TXT – Exporteer Word-vergelijkingen naar LaTeX in C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Leer hoe u een DOCX-bestand converteert naar TXT en wiskundige vergelijkingen exporteert naar LaTeX met C#. |
+| [Hoe wiskunde vanuit Word naar LaTeX exporteren – Complete gids](./how-to-export-math-from-word-to-latex-complete-guide/) | Leer hoe u wiskundige vergelijkingen uit Word exporteert naar LaTeX met een volledige stapsgewijze gids. |
+| [Hoe LaTeX vanuit Word exporteren – Complete programmeergids](./how-to-export-latex-from-word-complete-programming-guide/) | Leer hoe u LaTeX-code uit een Word-document exporteert met Aspose.Words voor .NET. |
+| [Word-vergelijkingen converteren naar LaTeX – Complete C#-gids](./convert-word-equations-to-latex-complete-c-guide/) | Leer hoe u Word-vergelijkingen omzet naar LaTeX met een volledige C#‑stap‑voor‑stap gids. |
+| [Docx opslaan als txt – Exporteer Word-vergelijkingen naar MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar MathML. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

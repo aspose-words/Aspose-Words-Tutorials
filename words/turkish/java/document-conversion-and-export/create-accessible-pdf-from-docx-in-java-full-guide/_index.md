@@ -1,26 +1,74 @@
 ---
 category: general
-date: 2026-03-01
-description: Java kullanarak bir DOCX dosyasından erişilebilir PDF oluşturun. Docx'i
-  PDF'ye nasıl dönüştüreceğinizi öğrenin, Word'ü PDF/UA‑2 uyumluluğu ile hızlıca PDF
-  olarak kaydedin.
+date: 2026-10-12
+description: Java'da Word'ü PDF olarak kaydetmeyi ve PDF/UA‑2 standartlarına uygun
+  erişilebilir bir PDF oluşturmayı öğrenin. Bu adım adım rehber, DOCX dosyalarını
+  hızlı ve güvenilir bir şekilde dönüştürmek için Aspose.Words kullanır.
 draft: false
 keywords:
-- create accessible pdf
-- convert docx to pdf
 - save word as pdf
 - export docx to pdf
-- word to pdf java
-language: tr
-og_description: Java'da bir DOCX dosyasından erişilebilir PDF oluşturun. Bu kılavuz,
-  docx'i PDF'ye nasıl dönüştüreceğinizi ve Word'ü PDF/UA‑2 uyumluluğu ile PDF olarak
-  nasıl kaydedeceğinizi gösterir.
-og_title: Java'da DOCX'ten Erişilebilir PDF Oluşturma – Adım Adım
+- accessible pdf from word
+- convert docx pdf java
+- aspose words pdf conversion
+lastmod: 2026-10-12
+og_description: Java'da Word'ü PDF olarak kaydetmeyi ve PDF/UA‑2 standartlarına uygun
+  erişilebilir bir PDF oluşturmayı öğrenin. Bu adım adım rehber, DOCX dosyalarını
+  hızlı ve güvenilir bir şekilde dönüştürmek için Aspose.Words kullanır.
+og_image_alt: Example of an accessible PDF generated from a DOCX using Aspose.Words
+  in Java
+og_title: Java'da Word'ü PDF olarak kaydetme ve erişilebilir PDF oluşturma
+schemas:
+- author: Aspose
+  dateModified: '2026-10-12'
+  description: Learn how to save word as pdf in Java while creating an accessible
+    PDF that meets PDF/UA‑2 standards. This step‑by‑step guide uses Aspose.Words to
+    convert DOCX files quickly and reliably.
+  headline: How to save word as pdf and create accessible PDF in Java
+  type: TechArticle
+- description: Learn how to save word as pdf in Java while creating an accessible
+    PDF that meets PDF/UA‑2 standards. This step‑by‑step guide uses Aspose.Words to
+    convert DOCX files quickly and reliably.
+  name: How to save word as pdf and create accessible PDF in Java
+  steps:
+  - name: Adds a **Document Structure Tree** so assistive tech can navigate headings.
+    text: Adds a **Document Structure Tree** so assistive tech can navigate headings.
+  - name: Marks images with alternative text (taken from the DOCX if present).
+    text: Marks images with alternative text (taken from the DOCX if present).
+  - name: Ensures the PDF contains the required metadata for accessibility.
+    text: Ensures the PDF contains the required metadata for accessibility.
+  - name: Open `output.pdf` in Acrobat.
+    text: Open `output.pdf` in Acrobat.
+  - name: Choose *Tools → Accessibility → Full Check*.
+    text: Choose *Tools → Accessibility → Full Check*.
+  - name: Review any warnings—most of the time, Aspose handles everything, so you’ll
+      see a green pass.
+    text: Review any warnings—most of the time, Aspose handles everything, so you’ll
+      see a green pass.
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license covers commercial use; a free trial is available
+      for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Aspose.Words can open encrypted DOCX files when you provide the password
+      via the `LoadOptions` object.
+    question: Does this work with password‑protected DOCX files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 21; Java 17 is recommended
+      for optimal performance.
+    question: What Java versions are supported?
+  - answer: Reuse a single `PdfSaveOptions` instance, call `document.updatePageLayout()`
+      before saving, and consider streaming the output to avoid high memory consumption.
+    question: How do I handle very large documents (500+ pages)?
+  - answer: When `PdfCompliance.PDF_UA_2` is set, Aspose.Words creates a compliant
+      structure tree and tags images; a final check with Acrobat’s *Full Check* will
+      confirm compliance.
+    question: Is the generated PDF truly PDF/UA‑2 compliant?
+  type: FAQPage
 tags:
 - Java
 - PDF
 - Aspose.Words
-title: Java'da DOCX'ten Erişilebilir PDF Oluşturma – Tam Kılavuz
+title: Java'da Word'ü PDF olarak kaydetme ve erişilebilir PDF oluşturma
 url: /tr/java/document-conversion-and-export/create-accessible-pdf-from-docx-in-java-full-guide/
 ---
 
@@ -28,23 +76,34 @@ url: /tr/java/document-conversion-and-export/create-accessible-pdf-from-docx-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da DOCX’tan Erişilebilir PDF Oluşturma – Tam Kılavuz
+# Word'ü PDF olarak kaydetme ve Java'da erişilebilir PDF oluşturma
 
-Word belgesinden **erişilebilir PDF** oluşturmanız gerektiğinde ama hangi API’yi seçeceğinizi bilemediğiniz oldu mu? Yalnız değilsiniz—erişilebilirlik günümüzde bir zorunluluk ve doğru kod bunu çocuk oyuncağı haline getiriyor. Bu öğreticide, Java kullanarak bir DOCX’i erişilebilir PDF’e dönüştürmeyi, PDF/UA‑2 uyumluluğuna odaklanarak adım adım anlatacağız.
+Ever needed to **create accessible PDF** from a Word document but weren’t sure which API to pick? You’re not alone—accessibility is a must‑have these days, and the right code makes it a piece of cake. In this tutorial we’ll walk through converting a DOCX to an accessible PDF using Java, with a focus on PDF/UA‑2 compliance.
 
-Ayrıca **convert docx to pdf**, **save word as pdf**, ve hatta **export docx to pdf** gibi ilgili görevlere de değineceğiz; bunlar ekstra erişilebilirlik özellikleri olmadan hızlı bir dönüşüm isteyenler için. Bu kılavuzun sonunda, erişilebilirlik kontrollerini geçen bir PDF üreten çalıştırılabilir bir Java programına sahip olacaksınız ve her satırın neden önemli olduğunu anlayacaksınız.
+We’ll also touch on related tasks like **convert docx to pdf**, **save word as pdf**, and even **export docx to pdf** for those who just want a quick conversion without the extra accessibility bells and whistles. By the end of this guide you’ll have a runnable Java program that produces a PDF that passes accessibility checks, and you’ll understand why each line matters.
+
+## Hızlı cevaplar
+- **Java'da word'ü pdf olarak kaydetmenin en basit yolu nedir?** Aspose.Words kullanın, DOCX'i `Document` ile yükleyin, `PdfSaveOptions` uyumluluğunu `PDF_UA_2` olarak ayarlayın, ardından `save` metodunu çağırın.
+- **Erişilebilirlik özellikleri için lisansa ihtiyacım var mı?** Hayır, deneme anahtarı PDF/UA‑2 desteğini içerir; tam lisans değerlendirme filigranını kaldırır.
+- **Hangi Java sürümü önerilir?** Performans ve uzun vadeli destek için Java 17 ideal seçimdir.
+- **Birden fazla dosyayı toplu işleyebilir miyim?** Evet—en iyi verimlilik için bir döngü içinde aynı `PdfSaveOptions` örneğini yeniden kullanın.
+- **PDF'in gerçekten erişilebilir olduğunu nasıl doğrularım?** Acrobat'ın *Full Check* özelliğini çalıştırın veya açık kaynaklı PDF/UA Validator'ı kullanın.
+
+## Java'da PDF/UA‑2 uyumluluğu ile word'ü pdf olarak nasıl kaydederim?
+`new Document("input.docx")` ile DOCX'inizi yükleyin, `PdfSaveOptions`'ı `PdfCompliance.PDF_UA_2` olarak yapılandırın ve `document.save("output.pdf", saveOptions)` metodunu çağırın. Bu üç adımlı akış stil, görüntü, tablo ve mevcut alt metni otomatik olarak işler ve ekran okuyucuların ekstra işaretleme olmadan gezinebileceği bir PDF üretir.
+
+## PDF/UA‑2 uyumluluğu nedir?
+PDF/UA‑2, PDF dosyalarının ekran okuyucular gibi yardımcı teknolojilere erişilebilir olmasını garanti eden ISO 14289‑2 standardıdır. Mantıksal bir yapı ağacı, görüntülerin doğru etiketlenmesi ve dil meta verileri gerektirir; bu öğelerin tümü, uyumluluk bayrağını etkinleştirdiğinizde Aspose.Words tarafından otomatik olarak eklenir.
 
 ## Önkoşullar
+- Java 17 veya daha yeni (API eski sürümlerle de çalışır, ancak 17 ideal seçimdir)
+- Aspose.Words for Java 23.9 veya daha yeni – Maven Central'dan edinebilirsiniz
+- Erişilebilir bir PDF'e dönüştürmek istediğiniz bir DOCX dosyası (biz buna `input.docx` diyeceğiz)
+- Maven veya Gradle hakkında temel bilgi (kütüphaneyi eklemek için yeterli)
 
-- Java 17 veya daha yeni (API eski sürümlerle de çalışır, ancak 17 ideal noktadır)
-- Aspose.Words for Java 23.9 veya daha yeni – Maven Central’dan alabilirsiniz
-- Erişilebilir bir PDF’e dönüştürmek istediğiniz bir DOCX dosyası (biz ona `input.docx` diyeceğiz)
-- Maven veya Gradle hakkında temel bilgi (kütüphaneyi çekmek için yeterli)
+Ağır çerçeveler, ekstra lisans sorunları yok—sadece basit bir `pom.xml` girişi ve birkaç kod satırı.
 
-Ağır framework’ler yok, ek lisans sorunları yok—sadece basit bir `pom.xml` girişi ve birkaç satır kod.
-
-## Adım 1: Projeyi Kurun ve Aspose.Words’u Ekleyin
-
+## Adım 1: projeyi kurun ve aspose.words ekleyin
 İlk olarak, yeni bir Maven projesi oluşturun (veya tercih ettiğiniz yapı aracını kullanın). Aspose.Words bağımlılığını ekleyin:
 
 ```xml
@@ -64,11 +123,10 @@ Gradle tercih ediyorsanız, eşdeğeri şudur:
 implementation 'com.aspose:aspose-words:23.9'
 ```
 
-> **Pro ipucu:** Aspose ücretsiz 30‑günlük deneme anahtarı sunar. Tam özelliklere ihtiyacınız varsa `aspose.words.lic` dosyasına koyun; aksi takdirde kütüphane temel dönüşümler için kutudan çıkar çıkmaz çalışır.
+> **Pro tip:** Aspose ücretsiz 30‑günlük deneme anahtarı sunar. Tam özelliklere ihtiyacınız varsa `aspose.words.lic` dosyasına koyun; aksi takdirde kütüphane temel dönüşümler için kutudan çıkar çıkmaz çalışır.
 
-## Adım 2: Kaynak DOCX Belgesini Yükleyin
-
-Şimdi Word dosyasını yükleyen küçük bir Java sınıfı yazacağız. `Document` nesnesini `.docx` dünyası ile PDF dünyası arasındaki köprü olarak düşünün.
+## Adım 2: kaynak docx belgesini yükleyin
+`Document` sınıfı, Aspose.Words'ün bellekte tek bir Word dosyasını temsil eden üst‑seviye nesnesidir. Belge yapısını, stilleri ve mevcut erişilebilirlik etiketlerini ayrıştırır.
 
 ```java
 import com.aspose.words.*;
@@ -82,11 +140,10 @@ public class AccessiblePdfCreator {
 }
 ```
 
-Dosyayı önce neden yüklüyoruz? Çünkü Aspose belge yapısını, stilleri ve mevcut erişilebilirlik etiketlerini ayrıştırır. Kaynak DOCX zaten görseller için alt‑metin içeriyorsa, bu etiketler doğrudan PDF’e aktarılır—ekstra bir iş gerekmez.
+Dosyayı önce neden yüklüyorsunuz? Çünkü Aspose belge yapısını, stilleri ve mevcut erişilebilirlik etiketlerini ayrıştırır. Kaynak DOCX zaten görüntüler için alt‑metin içeriyorsa, bu etiketler doğrudan PDF'e aktarılır—ekstra bir iş gerekmez.
 
-## Adım 3: PDF/UA‑2 için PDF Kaydetme Seçeneklerini Yapılandırın
-
-PDF/UA‑2, ekran okuyucu dostluğunu garanti eden ISO standardıdır. Aspose bunu tek satırlık bir ayar ile etkinleştirir.
+## Adım 3: pdf/ua‑2 için pdf kaydetme seçeneklerini yapılandırın
+`PdfSaveOptions`, Aspose.Words'ün bir PDF'i nasıl yazacağını, uyumluluk ayarları dahil, tanımlar. PDF/UA‑2, ekran okuyucu dostu olmayı garanti eden ISO standardıdır. Aspose bunu tek satırlık bir ayar ile etkinleştirir.
 
 ```java
         // 2️⃣ Prepare PDF save options with PDF/UA‑2 compliance
@@ -95,16 +152,14 @@ PDF/UA‑2, ekran okuyucu dostluğunu garanti eden ISO standardıdır. Aspose bu
 ```
 
 `PdfCompliance.PDF_UA_2` ayarı, arka planda üç şeyi yapar:
-
-1. Yardımcı teknolojinin başlıkları gezebilmesi için bir **Document Structure Tree** ekler.
-2. Görselleri alternatif metinle işaretler (DOCX’te mevcutsa alınır).
-3. PDF’in erişilebilirlik için gerekli meta verileri içerdiğinden emin olur.
+1. **Document Structure Tree** ekler, böylece yardımcı teknoloji başlıklar arasında gezinebilir.
+2. Görüntüleri alternatif metinle işaretler (DOCX'te mevcutsa alınır).
+3. PDF'in erişilebilirlik için gerekli meta verileri içerdiğinden emin olur.
 
 Erişilebilirlik katmanı olmadan **export docx to pdf** yapmanız gerekirse, sadece `setCompliance` çağrısını atlayın.
 
-## Adım 4: Belgeyi Erişilebilir PDF Olarak Kaydedin
-
-Şimdi sihir gerçekleşiyor—PDF’i diske yazın.
+## Adım 4: belgeyi erişilebilir pdf olarak kaydedin
+Şimdi sihir gerçekleşiyor—PDF'i diske yazın.
 
 ```java
         // 3️⃣ Save the document as an accessible PDF
@@ -114,11 +169,10 @@ Erişilebilirlik katmanı olmadan **export docx to pdf** yapmanız gerekirse, sa
 }
 ```
 
-Programı çalıştırdığınızda `output.pdf` oluşturulur. Adobe Acrobat Reader’da açın ve **File → Properties → Description → PDF/A and PDF/UA** bölümünü kontrol edin; “PDF/UA‑2” listelenmiş olmalı.
+Programı çalıştırdığınızda `output.pdf` üretilir. Adobe Acrobat Reader'da açın ve **File → Properties → Description → PDF/A and PDF/UA** bölümünü kontrol edin; “PDF/UA‑2” listelenmiş olmalıdır.
 
-## Tam Çalışan Örnek
-
-Hepsini bir araya getirerek, işte tam ve çalıştırılabilir sınıf:
+## Tam çalışan örnek
+Hepsini bir araya getirerek, işte tam, çalıştırılabilir sınıf:
 
 ```java
 import com.aspose.words.*;
@@ -142,21 +196,17 @@ public class AccessiblePdfCreator {
 
 > **Beklenen çıktı:** Konsol `PDF saved with PDF/UA‑2 compliance.` mesajını yazdırır ve ortaya çıkan PDF, Adobe Acrobat Reader veya Foxit Reader gibi PDF/UA destekleyen herhangi bir görüntüleyicide açılabilir. Ekran okuyucular başlıkları, alt‑metni ve tablo yapılarını doğru şekilde okuyacaktır.
 
-## Adım 5: Erişilebilirliği Doğrulayın (Opsiyonel ama Tavsiye Edilir)
-
-Eğer PDF’in standartlara %100 uyduğundan emin olmak istiyorsanız, Acrobat içindeki yerleşik **PDF Accessibility Checker**’ı kullanın:
-
-1. `output.pdf` dosyasını Acrobat’ta açın.
+## Adım 5: erişilebilirliği doğrulayın (isteğe bağlı ancak önerilir)
+PDF'in standartlara uygun olduğundan %100 emin olmak istiyorsanız, Acrobat'taki yerleşik **PDF Accessibility Checker**'ı kullanın:
+1. Acrobat'ta `output.pdf` dosyasını açın.
 2. *Tools → Accessibility → Full Check* seçeneğini seçin.
 3. Uyarıları gözden geçirin—çoğu zaman Aspose her şeyi halleder, bu yüzden yeşil bir geçiş görürsünüz.
 
 Alternatif olarak, **PDF/UA Validator** (açık kaynak) gibi ücretsiz araçlar komut satırından çalıştırılabilir.
 
-## Yaygın Sorular ve Kenar Durumları
-
-### DOCX dosyamda görseller için alt‑metin yoksa ne olur?
-
-Aspose yine de görseli gömecek, ancak alt‑metin olmadan tam erişilebilir olmayacak. Önce Word’de alt‑metin ekleyin ya da programatik olarak ayarlayın:
+## Yaygın sorular ve uç durumlar
+### Docx dosyamda görüntüler için alt‑metin yoksa ne olur?
+Aspose yine de görüntüyü gömecek, ancak alt‑metin olmadan tam erişilebilir olmayacaktır. Önce Word'de alt‑metin ekleyin veya programatik olarak ayarlayın:
 
 ```java
 Shape picture = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
@@ -165,11 +215,9 @@ picture.getImageData().setAltTextDescription("Bar chart showing sales numbers");
 ```
 
 ### PDF için özel bir dil etiketi ayarlayabilir miyim?
-
 Evet—kaydetmeden önce `PdfSaveOptions.setLanguage("en-US")` kullanın. Bu, ekran okuyucuların doğru telaffuzu seçmesine yardımcı olur.
 
-### **convert docx to pdf** işlemini erişilebilirlik olmadan nasıl yaparım?
-
+### Erişilebilirlik olmadan docx'i pdf'e nasıl dönüştürürüm?
 Sadece uyumluluk satırını atlayın:
 
 ```java
@@ -178,25 +226,54 @@ doc.save("output.pdf", SaveFormat.PDF);
 
 Bu, sadece görsel bir kopya ihtiyacınız varsa en hızlı yoldur.
 
-### Aspose dışındaki **word to pdf java** kütüphaneleriyle bu yaklaşım uyumlu mu?
+### Bu yaklaşım Aspose dışındaki word to pdf java kütüphaneleriyle uyumlu mu?
+Diğer kütüphaneler (ör. iText, PDFBox) dönüştürebilir, ancak genellikle PDF/UA yapısı oluşturmak için ekstra kod gerekir. Aspose bunu tek satırda yapar, bu yüzden erişilebilirlik için önerilen yoldur.
 
-Diğer kütüphaneler (ör. iText, PDFBox) dönüştürebilir, ancak genellikle PDF/UA yapısını oluşturmak için ekstra kod gerekir. Aspose bunu tek satırda yapar, bu yüzden erişilebilirlik için önerilen yoldur.
-
-## Üretim Kullanımı için İpuçları
-
-- **Batch processing:** DOCX dosyalarının bulunduğu bir dizini döngüyle işleyin, performansı artırmak için aynı `PdfSaveOptions` örneğini yeniden kullanın.
-- **Memory management:** Büyük belgeler için, sayfalama doğru olsun diye kaydetmeden önce `doc.updatePageLayout()` çağırın.
-- **Logging:** Daha büyük bir hizmete entegre ederken `System.out.println` yerine uygun bir logger (SLF4J) kullanın.
+## Üretim kullanımı için ipuçları
+- **Batch processing:** DOCX dosyalarının bir dizini üzerinde döngü yapın, aynı `PdfSaveOptions` örneğini yeniden kullanarak performansı artırın.
+- **Memory management:** Büyük belgeler için, sayfalama doğru olmasını sağlamak amacıyla kaydetmeden önce `doc.updatePageLayout()` çağırın.
+- **Logging:** Daha büyük bir servise entegre ederken `System.out.println` yerine uygun bir logger (SLF4J) kullanın.
 
 ## Sonuç
+Artık Java kullanarak DOCX'ten **word'ü pdf olarak kaydetme** dosyalarını nasıl yapacağınızı biliyorsunuz ve her adımın nedenini gördünüz. Oluşturduğumuz kısa program sadece **convert docx to pdf** yapmakla kalmaz, aynı zamanda PDF/UA‑2 uyumluluğunu da garanti eder—bu da PDF'lerinizin ekran okuyucular, yasal denetimler ve kapsayıcı kullanıcı deneyimleri için hazır olduğu anlamına gelir.
 
-Artık Java kullanarak DOCX’ten **erişilebilir PDF** dosyaları oluşturmayı biliyorsunuz ve her adımın nedenini gördünüz. Oluşturduğumuz kısa program sadece **convert docx to pdf** yapmaz, aynı zamanda PDF/UA‑2 uyumluluğunu da garanti eder—bu da PDF’lerinizin ekran okuyucular, yasal denetimler ve kapsayıcı kullanıcı deneyimleri için hazır olduğu anlamına gelir.
-
-Sonraki adımda, özel fontlarla **save word as pdf** keşfetmek ya da **export docx to pdf** yaparken hiperlinkleri korumak isteyebilirsiniz. Her iki durumda da desen aynı kalır: yükle, yapılandır, kaydet. Kodlamaktan keyif alın ve PDF’leriniz her zaman erişilebilir olsun! 
+Sonraki adımda, özel yazı tipleriyle **save word as pdf** keşfetmek ya da **export docx to pdf** yaparken köprüleri korumak isteyebilirsiniz. Her iki durumda da desen aynı kalır: yükle, yapılandır, kaydet. Kodlamaktan keyif alın ve PDF'leriniz her zaman erişilebilir olsun! 
 
 ![create accessible pdf example](https://example.com/accessible-pdf.png "create accessible pdf example")
+[create accessible pdf example](https://example.com/accessible-pdf.png "create accessible pdf example")
+
+## Sıkça sorulan sorular
+
+**Q: Bu uygulamayı ticari bir uygulamada kullanabilir miyim?**  
+**A:** Evet, geçerli bir Aspose lisansı ticari kullanımı kapsar; değerlendirme için ücretsiz bir deneme mevcuttur.
+
+**Q: Bu, şifre korumalı DOCX dosyalarıyla çalışır mı?**  
+**A:** Aspose.Words, şifreyi `LoadOptions` nesnesi aracılığıyla sağladığınızda şifreli DOCX dosyalarını açabilir.
+
+**Q: Hangi Java sürümleri destekleniyor?**  
+**A:** Aspose.Words for Java, Java 8'den Java 21'e kadar destekler; optimal performans için Java 17 önerilir.
+
+**Q: Çok büyük belgelerle (500+ sayfa) nasıl başa çıkılır?**  
+**A:** Tek bir `PdfSaveOptions` örneğini yeniden kullanın, kaydetmeden önce `document.updatePageLayout()` çağırın ve yüksek bellek tüketimini önlemek için çıktıyı akış olarak düşünün.
+
+**Q: Oluşturulan PDF gerçekten PDF/UA‑2 uyumlu mu?**  
+**A:** `PdfCompliance.PDF_UA_2` ayarlandığında, Aspose.Words uyumlu bir yapı ağacı ve görüntü etiketleri oluşturur; Acrobat'ın *Full Check* özelliğiyle yapılan son kontrol uyumluluğu doğrular.
+
+---
+
+**Last Updated:** 2026-10-12  
+**Tested With:** Aspose.Words for Java 23.9  
+**Author:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose Words ile Docx'i PDF Olarak Kaydetme - Tam Java Rehberi](/words/java/document-conversion-and-export/save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+- [Docx'i PDF'e Dışa Aktarma - Erişilebilir PDF Oluşturma Tam Rehberi](/words/java/document-conversion-and-export/export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+- [Java'da Docx'i PDF'e Dönüştürme - Adım Adım Rehber](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

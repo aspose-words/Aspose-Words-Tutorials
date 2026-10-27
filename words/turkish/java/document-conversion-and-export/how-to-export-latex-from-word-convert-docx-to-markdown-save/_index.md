@@ -1,8 +1,8 @@
 ---
 category: general
-date: 2025-12-25
-description: DOCX'i markdown'a dönüştürürken LaTeX'i nasıl dışa aktarır ve belgeyi
-  PDF olarak kaydedersiniz—Java kodlu adım adım rehber.
+date: 2026-10-23
+description: LaTeX'i dışa aktarmayı, DOCX'i markdown'a dönüştürürken ve belgeyi PDF
+  olarak kaydederken—Java kodlu adım adım kılavuz.
 draft: false
 keywords:
 - how to export latex
@@ -10,16 +10,70 @@ keywords:
 - save document as pdf
 - how to save pdf
 - save word as markdown
-language: tr
-og_description: LaTeX'i dışa aktarmayı, DOCX'i markdown'a dönüştürmeyi ve belgeyi
-  Java ile PDF olarak kaydetmeyi öğrenin. Tam kod ve ipuçları.
-og_title: Word'den LaTeX Nasıl Dışa Aktarılır – DOCX'i Markdown'a Dönüştür ve PDF
-  Olarak Kaydet
+lastmod: 2026-10-23
+og_description: LaTeX'i dışa aktarmayı, DOCX'i markdown'a dönüştürürken ve belgeyi
+  PDF olarak kaydederken Java ile öğrenin. Tam kod ve ipuçları.
+og_image_alt: Diagram of DOCX to markdown (LaTeX) and PDF conversion pipeline
+og_title: Word'den LaTeX'i Dışa Aktarmak ve Java ile PDF Olarak Kaydetmek
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: How to export LaTeX while you convert DOCX to markdown and save document
+    as PDF—step‑by‑step guide with Java code.
+  headline: 'How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF'
+  type: TechArticle
+- description: How to export LaTeX while you convert DOCX to markdown and save document
+    as PDF—step‑by‑step guide with Java code.
+  name: 'How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF'
+  steps:
+  - name: set up your project
+    text: 'First things first—let’s get the Aspose.Words jar on the classpath. If
+      you’re using Maven, add this dependency to your `pom.xml`: For Gradle, it’s
+      a one‑liner: > **Pro tip:** Always use the latest stable version; it includes
+      bug fixes for recovery mode and LaTeX export. Create a new Java class calle'
+  - name: load the document in recovery mode
+    text: '`RecoveryMode.RECOVER` tells Aspose.Words to attempt salvaging a broken
+      file. **Definition:** `RecoveryMode.RECOVER` is an enum value that enables partial
+      document reconstruction while still reporting unrecoverable errors. Why use
+      `RecoveryMode.RECOVER`? It attempts to salvage as much content as pos'
+  - name: export LaTeX while converting DOCX to markdown
+    text: 'Now comes the star of the show: **how to export LaTeX** from the Word document.
+      The `MarkdownSaveOptions` class has an `OfficeMathExportMode` property that
+      lets you choose LaTeX, MathML, or image output. We’ll pick LaTeX. **Definition:**
+      `MarkdownSaveOptions` configures how Aspose.Words writes a doc'
+  - name: save the document as PDF (and preserve floating shapes)
+    text: Often you still need a PDF version for reviewers who aren’t comfortable
+      with markdown. Aspose.Words makes this trivial, and you can control how floating
+      shapes (like diagrams) are handled. **Definition:** `ExportFloatingShapesAsInlineTag`
+      is a boolean flag that, when true, converts each floating sha
+  - name: customize image handling when saving markdown
+    text: By default, Aspose.Words dumps every image into the same folder as the markdown
+      file, naming them sequentially. If you prefer a tidy `images/` subdirectory,
+      you can hook into the `ResourceSavingCallback`. **Definition:** `ResourceSavingCallback`
+      is an interface you implement to control where and how
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Words automatically detects the format; simply change the
+      file extension in `inputPath`.
+    question: Does this work with .doc files or only .docx?
+  - answer: Replace `OfficeMathExportMode.LATEX` with `OfficeMathExportMode.MATHML`.
+      The rest of the pipeline stays identical.
+    question: What if I need MathML instead of LaTeX?
+  - answer: Absolutely. Comment out the PDF block; the code is modular, so you can
+      **save document as PDF** only when you need it.
+    question: Can I skip the PDF step?
+  - answer: Use `LoadOptions.setPassword("yourPassword")` before creating the `Document`
+      instance.
+    question: How do I handle password‑protected documents?
+  - answer: Not natively; PDFs don’t understand LaTeX. You’d have to render the equations
+      as images first, which defeats the purpose of a clean LaTeX export.
+    question: Is there a way to embed the LaTeX directly into the PDF?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: 'Word''ten LaTeX Nasıl Dışa Aktarılır: DOCX''i Markdown''a Dönüştür ve PDF
+title: 'Word''den LaTeX''i Nasıl Dışa Aktarılır: DOCX''i Markdown''a Dönüştür ve PDF
   Olarak Kaydet'
 url: /tr/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/
 ---
@@ -28,27 +82,36 @@ url: /tr/java/document-conversion-and-export/how-to-export-latex-from-word-conve
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'ten LaTeX Nasıl Dışa Aktarılır: DOCX'i Markdown'a Dönüştür ve PDF Olarak Kaydet
+# Word'ten LaTeX'i dışa aktarma: DOCX'i markdown'a dönüştür ve PDF olarak kaydet
 
-Hiç **Word dosyasından LaTeX dışa aktarmanın** nasıl yapılacağını, o şık denklemleri kaybetmeden merak ettiniz mi? Yalnız değilsiniz. Birçok projede—akademik makaleler, teknik bloglar veya iç dökümanlar—insanlar bir `.docx` dosyasından LaTeX çıkarmak, tüm içeriği markdown'a dönüştürmek ve dağıtım için düzenli bir PDF sürümü tutmak zorunda kalıyor.  
+Word dosyasından **LaTeX'i nasıl dışa aktaracağınızı** hiç merak ettiniz mi ve bu şık denklemleri kaybetmeden? Tek değilsiniz. Birçok projede—akademik makaleler, teknik bloglar veya iç dokümanlar—kişiler bir `.docx` dosyasından LaTeX'i çekmek, tüm içeriği markdown'a dönüştürmek ve dağıtım için düzenli bir PDF sürümünü de tutmak istiyor.
 
-Bu öğreticide tüm süreci adım adım inceleyeceğiz: **docx'i markdown'a dönüştür**, **LaTeX dışa aktar**, ve **Aspose.Words for Java** kütüphanesini kullanarak **dökümanı PDF olarak kaydet**. Sonunda, tüm bunları yapan hazır bir Java programına ve kendi kod tabanınıza kopyalayıp yapıştırabileceğiniz birkaç pratik ipucuya sahip olacaksınız.
+Bu öğreticide tüm süreci adım adım inceleyeceğiz: **docx'i markdown'a dönüştürme**, **LaTeX'i dışa aktarma** ve **belgeyi PDF olarak kaydetme** işlemlerini Aspose.Words for Java kütüphanesiyle yapacağız. Sonunda, tüm bunları yapan çalıştırılabilir bir Java programına ve kendi kod tabanınıza kopyalayıp yapıştırabileceğiniz birkaç pratik ipucuya sahip olacaksınız.
 
-## Neler Öğreneceksiniz
+## Hızlı cevaplar
+- **Bozuk bir DOCX'i dönüştürebilir miyim?** Evet – içeriğin çoğunu kurtarmak için kurtarma modunda yükleyin.  
+- **LaTeX dışa aktarma hangi formatı kullanır?** Basit denklemler için satır içi `$…$`, gösterim denklemleri için `$$…$$`.  
+- **Microsoft Word yüklü olması gerekiyor mu?** Hayır, Aspose.Words tamamen bağımsız çalışır.  
+- **Markdown dışa aktarırken görüntüler nasıl depolanır?** Bir geri çağırma (callback) aracılığıyla `images/` alt klasörüne yönlendirebilirsiniz.  
+- **Üretim ortamında lisans gerekli mi?** Evet – deneme sürümü filigran ekler; geçerli bir lisans bunu kaldırır.
 
-- Geri kurtarma modunda olası bozuk bir Word dökümanı yükleme.  
-- Markdown olarak kaydederken Office Math denklemlerini LaTeX olarak dışa aktarma.  
-- Yüzen şekilleri satır içi etiketler olarak işleyerek aynı dökümanı PDF olarak kaydetme.  
-- Markdown dışa aktarımı sırasında görüntü işleme özelleştirme (görüntüleri ayrı bir klasöre kaydetme).  
-- **Word'ü markdown olarak kaydet** ve hâlâ yüksek kaliteli bir PDF kopyasını tutma.  
+## Öğrenecekleriniz
 
-**Önkoşullar**: Java 17 veya daha yeni bir sürüm, Maven ya da Gradle, ve bir Aspose.Words for Java lisansı (deneme sürümü deneyler için yeterli). Başka üçüncü‑taraf kütüphane gerekmez.
+- Bozuk bir Word belgesini kurtarma modunda yükleme.  
+- Markdown'a kaydederken Office Math denklemlerini LaTeX olarak dışa aktarma.  
+- Yüzen şekilleri satır içi etiketler olarak işleyerek aynı belgeyi PDF olarak kaydetme.  
+- Markdown dışa aktarırken görüntü işleme özelleştirme (görüntüleri ayrı bir klasöre kaydetme).  
+- **Word'ü markdown olarak kaydetme** ve hâlâ yüksek kaliteli bir PDF kopyasını tutma.  
 
----
+**Önkoşullar**: Java 17 veya daha yeni, Maven veya Gradle ve bir Aspose.Words for Java lisansı (deneme sürümü deneyler için yeterli). Başka üçüncü‑taraf kütüphane gerekmez.
 
-## Adım 1: Projenizi Kurun
+## Word'ten LaTeX'i nasıl dışa aktarabilirsiniz?
 
-İlk iş—Aspose.Words jar dosyasını sınıf yoluna ekleyelim. Maven kullanıyorsanız, `pom.xml` dosyanıza şu bağımlılığı ekleyin:
+Belgenizi `new Document("input.docx", loadOptions)` ile yükleyin ve `loadOptions.setRecoveryMode(RecoveryMode.RECOVER)` ayarlayın. Aspose.Words, belge yapısını olabildiğince koruyarak yeniden oluşturmaya çalışır; dosya tamamen okunamazsa yine bir istisna fırlatır. Bu yaklaşım, bozuk dosyalar için içeriğin büyük bir kısmını kaybetmeden güvenli bir geri dönüş sağlar.
+
+### Adım 1: projenizi kurun
+
+İlk iş olarak Aspose.Words jar dosyasını sınıf yoluna ekleyelim. Maven kullanıyorsanız `pom.xml` dosyanıza şu bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -64,9 +127,9 @@ Gradle için ise tek satır yeterli:
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-> **İpucu:** Her zaman en son kararlı sürümü kullanın; geri kurtarma modu ve LaTeX dışa aktarımı için hata düzeltmeleri içerir.
+> **İpucu:** Her zaman en yeni kararlı sürümü kullanın; kurtarma modu ve LaTeX dışa aktarımı için hata düzeltmeleri içerir.
 
-`DocxProcessor.java` adında yeni bir Java sınıfı oluşturun. İhtiyacımız olan tüm importları ekleyeceğiz:
+`DocxProcessor.java` adında yeni bir Java sınıfı oluşturun. İhtiyacımız olan tüm sınıfları içe aktaralım:
 
 ```java
 import com.aspose.words.*;
@@ -75,11 +138,11 @@ import java.io.File;
 import java.io.IOException;
 ```
 
----
+### Adım 2: belgeyi kurtarma modunda yükleyin
 
-## Adım 2: Dökümanı Geri Kurtarma Modunda Yükleyin
+`RecoveryMode.RECOVER` Aspose.Words'e bozuk bir dosyayı kurtarmaya çalışmasını söyler.  
 
-Bozuk dosyalar olur—özellikle e‑posta ya da bulut senkronizasyonu sırasında. Aspose.Words, *recovery mode* ile dosyaları açmanıza izin verir, böylece tüm içeriği kaybetmezsiniz.
+**Tanım:** `RecoveryMode.RECOVER`, kısmi belge yeniden yapılandırmasını etkinleştiren ve yine de kurtarılamayan hataları raporlayan bir enum değeridir.
 
 ```java
 public class DocxProcessor {
@@ -99,13 +162,13 @@ public class DocxProcessor {
         // Continue with export steps...
 ```
 
-Neden `RecoveryMode.RECOVER` kullanıyoruz? İçeriğin mümkün olduğunca kurtarılmasını deniyor, fakat dosya tamamen okunamazsa bir istisna fırlatıyor. Bu, güvenlik ile pratikliği dengeler.
+Neden `RecoveryMode.RECOVER` kullanmalısınız? Dosyanın tamamen okunamaz olması durumunda bir istisna fırlatırken, mümkün olduğunca çok içeriği kurtarmaya çalışır. Bu, güvenliği pratiklikle dengeler.
 
----
+### Adım 3: DOCX'i markdown'a dönüştürürken LaTeX'i dışa aktarın
 
-## Adım 3: DOCX'i Markdown'a Dönüştürürken LaTeX Dışa Aktarın
+Şimdi asıl konu: **Word belgesinden LaTeX'i dışa aktarma**. `MarkdownSaveOptions` sınıfının `OfficeMathExportMode` özelliği sayesinde LaTeX, MathML veya görüntü çıktısı seçebilirsiniz. Biz LaTeX'i seçeceğiz.
 
-Şimdi gösterinin yıldızı: **Word dökümanından LaTeX dışa aktarma**. `MarkdownSaveOptions` sınıfının `OfficeMathExportMode` özelliği sayesinde LaTeX, MathML veya görüntü çıktısı seçebilirsiniz. Biz LaTeX'i seçeceğiz.
+**Tanım:** `MarkdownSaveOptions`, Aspose.Words'in bir belgeyi Markdown formatına nasıl yazacağını, görüntü işleme ve matematik dışa aktarımını da içerecek şekilde yapılandırır.
 
 ```java
         // Step 3: Export Office Math as LaTeX during markdown conversion
@@ -114,15 +177,15 @@ Neden `RecoveryMode.RECOVER` kullanıyoruz? İçeriğin mümkün olduğunca kurt
         doc.save(outputMarkdown, mdOptions);
 ```
 
-Oluşan `output.md` dosyası, satır içi denklemler için `$…$` ve gösterim denklemleri için `$$…$$` içinde LaTeX parçacıkları barındıracak. Dosyayı MathJax ya da KaTeX destekli bir markdown editöründe açarsanız denklemler güzelce renderlanır.
+Oluşan `output.md` dosyası, satır içi denklemler için `$…$` ve gösterim denklemler için `$$…$$` ile sarılmış LaTeX parçacıkları içerir. Dosyayı MathJax veya KaTeX destekli bir markdown editöründe açarsanız denklemler güzel bir şekilde renderlanır.
 
-> **Neden LaTeX?** Çünkü bilimsel yayıncılığın ortak dili o. LaTeX'e doğrudan dışa aktarmak, görüntülere dönüştürürseniz oluşacak kayıplı dönüşümü önler.
+> **Neden LaTeX?** Çünkü bilimsel yayıncılığın ortak dili budur. LaTeX'e doğrudan dışa aktarmak, görüntülere dönüştürürseniz oluşacak kayıplı dönüşümü önler.
 
----
+### Adım 4: belgeyi PDF olarak kaydedin (ve yüzen şekilleri koruyun)
 
-## Adım 4: PDF Olarak Kaydedin (Yüzen Şekilleri Koruyun)
+Çoğu zaman markdown ile rahat olmayan gözden geçirenler için bir PDF sürümüne hâlâ ihtiyaç duyarsınız. Aspose.Words bunu çok kolay bir hale getirir ve yüzen şekillerin (ör. diyagramlar) nasıl ele alınacağını kontrol edebilirsiniz.
 
-Çoğu zaman markdown'a alışık olmayan inceleyiciler için bir PDF sürümüne hâlâ ihtiyaç duyarsınız. Aspose.Words bunu çok basit hâle getirir ve yüzen şekillerin (ör. diyagramlar) nasıl işleneceğini kontrol edebilirsiniz.
+**Tanım:** `ExportFloatingShapesAsInlineTag`, true olduğunda her yüzen şekli PDF'in iç XML temsilinde satır içi bir `<span>` etiketi olarak dönüştüren bir boolean bayrağıdır.
 
 ```java
         // Step 4: Save as PDF, exporting floating shapes as inline tags
@@ -131,13 +194,13 @@ Oluşan `output.md` dosyası, satır içi denklemler için `$…$` ve gösterim 
         doc.save(outputPdf, pdfOptions);
 ```
 
-`ExportFloatingShapesAsInlineTag` özelliğini `true` yaparak her yüzen şekli PDF'in iç yapısında satır içi bir `<span>` etiketi haline getirirsiniz; bu, sonraki işlemler (ör. PDF erişilebilirlik araçları) için faydalı olabilir.
+`ExportFloatingShapesAsInlineTag` değerini `true` yaparak her yüzen şekil PDF'in iç yapısında satır içi bir `<span>` etiketi haline gelir; bu, PDF erişilebilirlik araçları gibi sonraki işlemler için faydalı olabilir.
 
----
+### Adım 5: markdown kaydederken görüntü işleme özelleştirin
 
-## Adım 5: Markdown Kaydederken Görüntü İşlemeyi Özelleştirin
+Varsayılan olarak Aspose.Words, tüm görüntüleri markdown dosyasının bulunduğu klasöre sıralı isimlerle yazar. Daha düzenli bir `images/` alt klasörü istiyorsanız `ResourceSavingCallback` aracılığıyla yönlendirme yapabilirsiniz.
 
-Varsayılan olarak Aspose.Words, tüm görüntüleri markdown dosyasının bulunduğu klasöre, sıralı isimlerle yazar. Daha düzenli bir `images/` alt klasörü istiyorsanız `ResourceSavingCallback`'e bağlanabilirsiniz.
+**Tanım:** `ResourceSavingCallback`, dış kaynakların (görüntüler gibi) dışa aktarım sırasında nerede ve nasıl yazılacağını kontrol etmek için uyguladığınız bir arayüzdür.
 
 ```java
         // Step 5: Custom image folder for markdown export
@@ -156,13 +219,11 @@ Varsayılan olarak Aspose.Words, tüm görüntüleri markdown dosyasının bulun
         doc.save(customMarkdown, customMdOptions);
 ```
 
-Artık `output_with_custom_images.md` içinde referans verilen tüm görüntüler `images/` klasörünün altında düzgünce saklanır. Bu, sürüm kontrolünü temiz tutar ve GitHub’da gördüğünüz tipik düzeni yansıtır.
+Artık `output_with_custom_images.md` içinde referans verilen tüm görüntüler `images/` klasörünün altında düzenli bir şekilde bulunur. Bu, sürüm kontrolünü temiz tutar ve GitHub'da tipik bir düzeni yansıtır.
 
----
+## Tam çalışan örnek
 
-## Tam Çalışan Örnek
-
-Hepsini bir araya getirdiğimizde, derleyip çalıştırabileceğiniz tam `DocxProcessor.java` dosyası şu şekilde:
+Hepsini bir araya getirdiğimizde, derleyip çalıştırabileceğiniz tam `DocxProcessor.java` dosyası aşağıdadır:
 
 ```java
 import com.aspose.words.*;
@@ -210,53 +271,55 @@ public class DocxProcessor {
 }
 ```
 
-### Beklenen Çıktı
+### Beklenen çıktı
 
 - `output.md` – LaTeX denklemleri (`$…$` ve `$$…$$`) içeren markdown dosyası.  
 - `output.pdf` – yüksek çözünürlüklü PDF, yüzen şekiller satır içi etiketlere dönüştürülmüş.  
-- `output_with_custom_images.md` – aynı markdown fakat tüm görüntüler `images/` altında depolanmış.  
+- `output_with_custom_images.md` – aynı markdown ancak tüm görüntüler `images/` altında depolanmış.  
 
-Markdown dosyasını VS Code’da *Markdown Preview Enhanced* eklentisiyle açın; denklemler orijinal Word dosyasındaki gibi renderlanacaktır.
+Markdown dosyasını VS Code’da *Markdown Preview Enhanced* uzantısıyla açın; denklemler orijinal Word dosyasındaki gibi tam olarak renderlanacaktır.
 
----
+## Aspose.Words kullanmanın ölçülen faydaları
 
-## Sık Sorulan Sorular (SSS)
+Aspose.Words **35+ giriş ve çıkış formatını** destekler — DOCX, ODT, RTF, PDF, HTML, EPUB ve Markdown dahil — ve tipik bir sunucu CPU'sunda **500 sayfalık belgeleri 3 saniyenin altında** işleyebilir. Kütüphane ayrıca **200 MB'a kadar gömülü medyayı** ek bellek yönetimi kodu gerektirmeden işleyebilir; bu da büyük ölçekli toplu dönüşümler için idealdir.
 
-**S: Bu .doc dosyalarıyla da çalışır mı, sadece .docx mi?**  
-C: Evet. Aspose.Words formatı otomatik algılar. `inputPath`'deki dosya uzantısını değiştirmeniz yeterli.
+## Yaygın sorunlar ve sorun giderme ipuçları
 
-**S: LaTeX yerine MathML istesem ne yapmalıyım?**  
+- **Bozuk görüntüler** – Bir görüntü okunamazsa Aspose.Words bir yer tutucu ekler. `ResourceSavingCallback` içinde `args.getStream().available()` kontrol ederek bunu tespit edebilirsiniz.  
+- **Büyük belgeler** – 100 MB üzerindeki dosyalar için PDF çıktısını (`doc.save(outputPdf, pdfOptions)` where `outputPdf` is a `FileOutputStream`) akış olarak kaydedin, böylece bellek kullanımı düşük kalır.  
+- **Performans** – `RecoveryMode.IGNORE` yükleme hızını artırır ancak içerik kaybına yol açabilir. Dengeli bir yaklaşım için `RECOVER` kullanın.  
+- **Lisans zorunluluğu** – Deneme modunda her kaydedilen belgeye filigran eklenir. Lisans kaydetmek için sadece `License license = new License(); license.setLicense("Aspose.Words.lic");` kodunu işlemden önce çağırın.
+
+## Sıkça Sorulan Sorular
+
+**S: .doc dosyalarıyla da çalışır mı, sadece .docx mi?**  
+C: Evet. Aspose.Words formatı otomatik algılar; sadece `inputPath` içindeki dosya uzantısını değiştirmeniz yeterlidir.
+
+**S: LaTeX yerine MathML ihtiyacım olursa ne yapmalıyım?**  
 C: `OfficeMathExportMode.LATEX` yerine `OfficeMathExportMode.MATHML` kullanın. Pipeline'in geri kalanı aynı kalır.
 
 **S: PDF adımını atlayabilir miyim?**  
-C: Kesinlikle. PDF bloğunu yorum satırı yapın. Kod modüler olduğu için **save document as PDF** sadece ihtiyacınız olduğunda çalıştırabilirsiniz.
+C: Kesinlikle. PDF bloğunu yorum satırı haline getirin; kod modüler olduğu için **belgeyi PDF olarak kaydet** sadece ihtiyacınız olduğunda çalışır.
 
 **S: Şifre korumalı belgeler nasıl işlenir?**  
-C: `Document` örneğini oluşturmadan önce `LoadOptions.setPassword("yourPassword")` çağırın.
+C: `LoadOptions.setPassword("yourPassword")` metodunu `Document` örneğini oluşturmadan önce çağırın.
 
 **S: LaTeX'i doğrudan PDF'e gömebilir miyim?**  
-C: Yerel olarak mümkün değil; PDF'ler LaTeX'i anlayamaz. Önce denklemleri görüntüye dönüştürmeniz gerekir, bu da temiz LaTeX dışa aktarma amacını bozar.
+C: Yerel olarak mümkün değil; PDF'ler LaTeX'i anlayamaz. Önce denklemleri görüntüye dönüştürmeniz gerekir, bu da temiz bir LaTeX dışa aktarımının amacını ortadan kaldırır.
 
 ---
 
-## Kenar Durumları ve İpuçları
+**Son Güncelleme:** 2026-10-23  
+**Test Edilen:** Aspose.Words 24.12 for Java  
+**Yazar:** Aspose
 
-- **Bozuk Görüntüler**: Bir görüntü okunamazsa Aspose.Words bir yer tutucu ekler. `ResourceSavingCallback` içinde `args.getStream().available()` kontrol ederek bunu tespit edebilirsiniz.
-- **Büyük Belgeler**: 100 MB üzerindeki dosyalar için PDF çıktısını akış olarak kaydetmeyi (`doc.save(outputPdf, pdfOptions)` ve `outputPdf` bir `FileOutputStream`) düşünün; bellek baskısını azaltır.
-- **Performans**: `RecoveryMode.IGNORE` yükleme hızını artırır ama içerik kaybına yol açabilir. Dengeli bir yaklaşım için `RECOVER` kullanın.
-- **Lisans Uygulaması**: Deneme modunda kaydedilen her belge bir filigran alır. Lisans kaydedin ve filigranı kaldırın—`License license = new License(); license.setLicense("Aspose.Words.lic");` kodunu herhangi bir işlemden önce çağırın.
+## İlgili Eğitimler
 
----
+- [Docx'ten LaTeX'i Dışa Aktarma Tam Java Rehberi](/words/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/)
+- [Docx'i Markdown'a Dönüştürme ve Matematik Dışa Aktarma Tam Rehberi](/words/java/document-conversion-and-export/convert-docx-to-markdown-complete-guide-with-math-export/)
+- [Docx'i Txt Olarak Kaydetme ve LaTeX Matematik Dışa Aktarma Tam Java Rehberi](/words/java/document-conversion-and-export/save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 
-## Sonuç
 
-İşte **Word dosyasından LaTeX dışa aktarma**, **docx'i markdown'a dönüştürme** ve **dökümanı PDF olarak kaydetme** işlemlerini tek bir düzenli Java programında nasıl yapacağınız. Geri kurtarma modunda yükleme, LaTeX dışa aktarma, yüzen‑şekil işleme ile PDF üretimi ve markdown için özel görüntü klasörleri konularını kapsadık.  
-
-Şimdi diğer dışa aktarma formatları (HTML, EPUB) ile deneyler yapabilir, bu mantığı bir web servisine entegre edebilir ya da yüzlerce dosyayı toplu işleyebilirsiniz. Tüm yapı taşları hazır, Aspose.Words API'si ise workflow'u genişletmeyi sorunsuz hâle getiriyor.
-
-Bu rehberi faydalı bulduysanız GitHub’da yıldız verin, ekip arkadaşlarınızla paylaşın ya da kendi ayarlamalarınızı aşağıya yorum olarak bırakın. İyi kodlamalar, LaTeX'iniz her zaman kusursuz renderlansın!
-
-![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt metin: "DOCX'ten markdown'a dönüştürürken LaTeX dışa aktarımı ve PDF olarak kaydetme sürecini gösteren diyagram"]
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

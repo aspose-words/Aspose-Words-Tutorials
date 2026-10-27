@@ -63,7 +63,6 @@ Adicione este trecho ao seu arquivo `pom.xml`:
 
 ### Gradle
 Inclua o seguinte no seu arquivo `build.gradle`:
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -92,7 +91,7 @@ public class DocumentSetup {
 
 Com a biblioteca pronta, vamos mergulhar nas funcionalidades principais.
 
-## Guia de Implementação
+## Guia de implementação
 
 ### Recurso 1: Inicialização do Documento
 

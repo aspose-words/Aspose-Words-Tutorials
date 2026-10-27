@@ -38,9 +38,13 @@ Tekstverwerking met Markdown biedt een uitgebreide bron om te leren werken met h
 | [Geordende lijst](./ordered-list/) | Leer hoe u geordende lijsten in Word-documenten kunt maken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Perfect voor het automatiseren van documentcreatie. |
 | [Tafel](./table/) | Leer hoe u tabellen kunt maken en aanpassen in Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor het genereren van gestructureerde en visueel aantrekkelijke documenten. |
 | [Markdown-document lezen](./read-markdown-document/) Leer hoe u Markdown-documenten kunt lezen en bewerken met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze tutorial. Perfect voor ontwikkelaars van alle niveaus. |
+| [Word maken vanuit Markdown met Aspose.Words – Volledige gids](./create-word-from-markdown-with-aspose-words-full-guide/) | Leer hoe u met Aspose.Words voor .NET een Word-document genereert vanuit Markdown, stap voor stap met voorbeeldcode. |
 | [Nadruk](./emphases/) | Leer hoe je benadrukte tekst in Markdown maakt met Aspose.Words voor .NET. Deze handleiding behandelt de stijlen vet, cursief en gecombineerd, met stapsgewijze instructies. |
 | [Gebruik waarschuwingsbron](./use-warning-source/) | Leer Aspose.Words voor .NET met deze stapsgewijze handleiding over het gebruik van de klasse WarningSource voor het verwerken van Markdown-waarschuwingen. Perfect voor C#-ontwikkelaars. |
 | [Markdown-bestand laden in een document – Complete parseringshandleiding](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Leer hoe u een Markdown-bestand volledig kunt parseren en laden in een Word-document met Aspose.Words voor .NET. |
+| [Document opslaan als docx vanuit Markdown in C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Leer hoe u een Markdown-document opslaat als DOCX met Aspose.Words voor .NET in C#. |
+| [Markdown opslaan als docx met Aspose.Words in C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Leer hoe u een Markdown-bestand opslaat als DOCX met Aspose.Words voor .NET in C#. |
+| [Hoe een document opslaan als docx vanuit Markdown met C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Leer hoe u een Markdown-document kunt converteren en opslaan als DOCX-bestand met Aspose.Words voor .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

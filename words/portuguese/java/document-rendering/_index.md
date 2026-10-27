@@ -45,6 +45,10 @@ Aprenda a gerenciar fontes ao processar documentos Word em Java usando Aspose.Wo
 Aprenda a usar o callback de avisos do Aspose.Words para Java para detectar e rastrear fontes ausentes durante a renderização de documentos.
 ### [Como Capturar Avisos – Detectar Fontes Ausentes no Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Aprenda a capturar avisos e detectar fontes ausentes ao processar documentos com Aspose.Words para Java.
+### [Encontrar fontes ausentes em Java com Aspose.Words – Guia completo](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Aprenda a identificar e substituir fontes ausentes em documentos Word usando Aspose.Words para Java, garantindo renderização correta.
+### [Registrar Callback de Aviso em Java – Guia de Programação Completo](./register-warning-callback-in-java-complete-programming-guide/)
+Aprenda a registrar callbacks de aviso no Aspose.Words para Java, controlando mensagens de alerta durante o processamento de documentos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

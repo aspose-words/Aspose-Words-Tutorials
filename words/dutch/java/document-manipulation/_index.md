@@ -66,16 +66,22 @@ Ontdek de kracht van Aspose.Words voor Java. Leer XML-gegevensverwerking, samenv
 Leer hoe je eenvoudig inhoud uit documenten kunt halen met Aspose.Words voor Java. Onze stapsgewijze handleiding en codevoorbeelden vereenvoudigen het proces.
 ### [Hulpmethoden voor het extraheren van inhoud in Aspose.Words voor Java](./helper-methods-for-extracting-content/)
 Leer hoe je efficiënt inhoud uit Word-documenten haalt met Aspose.Words voor Java. Ontdek hulpmethoden, aangepaste opmaak en meer in deze uitgebreide handleiding.
+### [Hoe maak je een Word-document programmatisch met Aspose.Words voor Java](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Leer hoe u een Word-document programmatisch maakt met Aspose.Words in Java.
 ### [Tekst zoeken en vervangen in Aspose.Words voor Java](./finding-and-replacing-text/)
 Leer hoe je tekst in Word-documenten kunt zoeken en vervangen met Aspose.Words voor Java. Stapsgewijze handleiding met codevoorbeelden. Verbeter je vaardigheden in het werken met Java-documenten.
 ### [Inhoud uit documenten verwijderen in Aspose.Words voor Java](./removing-content-from-documents/)
-Leer hoe u inhoud uit Word-documenten in Java verwijdert met Aspose.Words voor Java. Verwijder pagina-einden, sectie-einden en meer. Optimaliseer uw documentverwerking.
+Leer u inhoud uit Word-documenten in Java verwijdert met Aspose.Words voor Java. Verwijder pagina-einden, sectie-einden en meer. Optimaliseer uw documentverwerking.
 ### [Bladwijzers gebruiken in Aspose.Words voor Java](./using-bookmarks/)
 Optimaliseer uw documentverwerking met Aspose.Words voor Java. Leer in deze stapsgewijze handleiding hoe u bladwijzers kunt gebruiken voor efficiënte navigatie en bewerking van inhoud.
 ### [Documentbereiken gebruiken in Aspose.Words voor Java](./using-document-ranges/)
 Beheers de manipulatie van documentbereiken in Aspose.Words voor Java. Leer tekst verwijderen, extraheren en opmaken met deze uitgebreide handleiding.
 ### [Het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java](./using-structured-document-tags/)
 Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide handleiding. Maak, wijzig en koppel SDT's aan aangepaste XML-gegevens.
+### [Nieuw Word-document maken – Stapsgewijze handleiding voor het toevoegen van een gestructureerde tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Leer hoe u een nieuw Word-document maakt en een gestructureerde tag toevoegt met deze stapsgewijze tutorial.
+### [Hoe tagnaam instellen en SDT toevoegen in een Word-document met C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Leer hoe u een tagnaam instelt en een gestructureerde documenttag (SDT) toevoegt in een Word-document met C#.
 ### [Stijlen en thema's gebruiken in Aspose.Words voor Java](./using-styles-and-themes/)
 Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide handleiding met broncodevoorbeelden.
 ### [Inhoudsopgave genereren in Aspose.Words voor Java](./generating-table-of-contents/)
@@ -90,6 +96,14 @@ Leer hoe je documenten efficiënt kunt splitsen in Aspose.Words voor Java. Ontde
 Leer hoe je documenten opsplitst in HTML-pagina's met Aspose.Words voor Java. Volg onze stapsgewijze handleiding voor naadloze documentconversie.
 ### [Inhoud toevoegen met DocumentBuilder in Aspose.Words voor Java](./adding-content-using-documentbuilder/)
 Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor het toevoegen van tekst, tabellen, afbeeldingen en meer. Maak moeiteloos verbluffende Word-documenten.
+### [Docx ActiveX-knop maken in Java – volledige programmeergids](./create-docx-activex-button-in-java-complete-programming-guid/)
+Leer hoe u een ActiveX-knop in een DOCX-document toevoegt met Java, stap‑voor‑stap codevoorbeelden en volledige uitleg.
+### [Een leeg Word-document maken en een ActiveX-knop toevoegen in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Leer hoe u een leeg Word-document maakt en een ActiveX‑knop toevoegt in C#.
+### [Leeg Word-document maken met een tekstbesturingselement in Aspose.Words voor Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Leer hoe u een leeg Word-document maakt en een tekstbesturingselement toevoegt met Aspose.Words voor Java.
+### [DOCX opslaan met DocumentBuilder en tekst toevoegen na een controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Leer hoe u een DOCX-bestand opslaat met DocumentBuilder en vervolgens tekst toevoegt direct na een besturingselement.
 ### [Documenten klonen en combineren in Aspose.Words voor Java](./cloning-and-combining-documents/)
 Leer hoe je documenten kunt klonen en combineren in Aspose.Words voor Java. Stapsgewijze handleiding met broncodevoorbeelden.
 ### [Documenten vergelijken in Aspose.Words voor Java](./comparing-documents/)
@@ -104,6 +118,23 @@ Ontdek de kracht van Aspose.Words voor Java. Beheer documentopties en -instellin
 Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met documenteigenschappen, aangepaste metadata toevoegen en meer in deze uitgebreide tutorial.
 ### [Webextensies gebruiken in Aspose.Words voor Java](./using-web-extensions/)
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
+### [PDF-toegankelijkheidsmarkering in Java – Toegankelijke PDF's genereren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Words voor Java.
+### [Hoe een Word-document maken in Java met Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Leer stap voor stap hoe u een Word-document maakt in Java met Aspose.Words.
+### [Inhoudsbesturingselement toevoegen in Word-document met Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Voeg een inhoudsbesturingselement toe aan een Word-document met Aspose.Words. Volg de stapsgewijze handleiding en voorbeeldcode.
+### [Maak een leeg document met een interactieve opdrachtknop in Word met Java](./create-blank-document-with-an-interactive-command-button-in/)
+Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoegt met Aspose.Words voor Java.
+
+### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
+Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken met een platte-tekst contentcontrol in C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Leer hoe u een leeg Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words in C#.
+### [Leeg Word-document maken in Java met Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
+### [Leeg Word-document maken met Aspose.Words voor Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Leer hoe u een leeg Word-document kunt maken met Aspose.Words voor Java, inclusief basisinstellingen en codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -20,6 +20,7 @@ O Aspose.Words para .NET suporta diversos tipos de campos de formulário, permit
 
 {{< tutorial-card link="./insert-form-fields/" title="Inserir campo de formulário de caixa de combinação em documento do Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Criar documento Word programaticamente – guia passo a passo" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

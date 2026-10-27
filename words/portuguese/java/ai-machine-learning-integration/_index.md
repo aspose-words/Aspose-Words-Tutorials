@@ -44,7 +44,7 @@ O processamento de documentos com IA combina a manipulação tradicional de docu
 
 ### Etapa 1: Configurar seu projeto
 Adicione a dependência Maven do Aspose.Words e o cliente HTTP que você usará para chamar o serviço de IA.  
-*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑o inalterado.)*
+*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑lo inalterado.)*
 
 ### Etapa 2: Chamar o serviço de IA
 Use seu cliente HTTP preferido para enviar o texto do documento ao modelo de IA e receber uma resposta—seja um resumo, tradução ou conteúdo gerado.
@@ -70,6 +70,12 @@ Aprenda como automatizar a sumarização e tradução de texto usando Aspose.Wor
 
 ### [Como Configurar LLM – Substituir Texto em DOCX com IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Aprenda a configurar um modelo de linguagem grande para substituir automaticamente texto em documentos DOCX usando Aspose.Words e IA.
+### [Criar Modelo de IA Personalizado – Editar Parágrafos do Word em Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Aprenda a criar um modelo de IA personalizado e usá‑lo para editar automaticamente parágrafos em documentos Word usando Aspose.Words para Java.
+### [Criar documento Word em Java com Verificação Gramatical LLM Personalizada](./create-word-document-java-with-custom-llm-grammar-check/)
+Aprenda a gerar documentos Word em Java e aplicar verificação gramatical usando um modelo de linguagem personalizado.
+### [Construir Verificador Gramatical Java – Guia Completo Passo a Passo](./build-grammar-checker-java-complete-step-by-step-guide/)
+Aprenda a criar um verificador gramatical em Java usando Aspose.Words e APIs de IA, com exemplos completos e código pronto para uso.
 
 ## Recursos Adicionais
 
@@ -83,7 +89,7 @@ Aprenda a configurar um modelo de linguagem grande para substituir automaticamen
 ## Perguntas Frequentes
 
 **Q: Posso usar IA para traduzir um documento PDF sem convertê‑lo primeiro?**  
-A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑o para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
+A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑lo para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
 
 **Q: Como a automação de documentos com IA afeta o desempenho?**  
 A: O processamento pesado é realizado pelo serviço externo de IA; Aspose.Words lida apenas com a manipulação do documento, que é altamente performática mesmo para arquivos grandes.
@@ -97,6 +103,14 @@ A: Valide a saída da IA antes de inseri‑la. Use os métodos `DocumentBuilder`
 **Q: Preciso re‑treinar modelos para linguagem específica de domínio?**  
 A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se precisar de maior precisão, considere ajustar finamente um modelo com seu próprio corpus e então chamá‑lo via a mesma API.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +118,3 @@ A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

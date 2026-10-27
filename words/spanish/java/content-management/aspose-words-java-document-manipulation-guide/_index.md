@@ -77,6 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Aquí tienes un programa Java mínimo que crea un documento vacío:
 
+La clase `Document` es el objeto central que representa un PDF, Word o cualquier archivo compatible en memoria. Después de agregar la dependencia Maven, puede instanciarla de la siguiente manera:
 ```java
 import com.aspose.words.Document;
 

@@ -1,0 +1,7 @@
+Title: How to create ActiveX command button in Java
+Slug: how-to-create-activex-command-button-in-java
+Category: using-document-elements
+ProcessedDate: 2026-10-07T15:28:20.257472
+SourceRepo: AI Search API
+Keywords: create activex command button, programmatically add command button, how to set button left top
+PRNumber: 306

@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách sử dụng Aspose.Words để tạo tài liệu Word, xây dựng bảng có độ rộng cột cố định, áp dụng căn dọc và hướng văn bản, đặt chiều cao hàng chính xác, điền nội dung văn bản vào các ô, và cuối cùng lưu tài liệu.
+//ExStepSummary:0: Khởi tạo một đối tượng Document mới và một DocumentBuilder sẽ được dùng để xây dựng bảng.
+//ExStepSummary:1: Bắt đầu một bảng mới, chèn ô đầu tiên và cố định độ rộng cột để chúng không tự điều chỉnh.
+//ExStepSummary:2: Căn giữa nội dung theo chiều dọc trong ô hiện tại và ghi văn bản cho ô đầu tiên của hàng đầu tiên.
+//ExStepSummary:3: Chèn ô thứ hai của hàng đầu tiên và ghi văn bản cho ô này.
+//ExStepSummary:4: Kết thúc hàng đầu tiên, hoàn thiện bố cục của nó.
+//ExStepSummary:5: Bắt đầu ô đầu tiên của hàng thứ hai, đặt chiều cao hàng chính xác 100 điểm, xoay văn bản lên trên và ghi nội dung cho ô.
+//ExStepSummary:6: Chèn ô thứ hai của hàng thứ hai, xoay văn bản xuống dưới và ghi nội dung cho ô.
+//ExStepSummary:7: Kết thúc hàng thứ hai, hoàn thành dòng thứ hai của bảng.
+//ExStepSummary:8: Kết thúc việc xây dựng bảng, khép lại cấu trúc bảng.
+//ExStepSummary:9: Lưu tài liệu đã hoàn thành thành tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

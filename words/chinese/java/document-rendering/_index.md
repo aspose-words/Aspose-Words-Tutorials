@@ -27,7 +27,7 @@ Aspose.Words for Java 提供了丰富的文档渲染教程，让您轻松创建�
 使用 Aspose.Words for Java 的文档渲染教程，轻松渲染文档。这些指南全面探索了渲染选项，使您可以将 Word 文档转换为不同的格式，同时保留其布局和设计。学习如何批量渲染文档、自定义输出设置以及优化渲染性能。Aspose.Words for Java 使您能够创建视觉效果惊艳的输出，并高效地管理文字处理和文档处理任务。提升您的文档渲染技能，并使用 Aspose.Words for Java 开启新的可能性。
 
 ## 文档渲染教程
-### [主文档渲染 ](./master-document-rendering/)
+### [主文档渲染](./master-document-rendering/)
 学习使用 Aspose.Words for Java 进行文档渲染！分步教程，包含源代码。通过无缝文档处理增强应用程序。
 ### [将文档页面渲染为图像](./rendering-document-pages-images/)
 学习如何使用 Aspose.Words for Java 将文档页面渲染为图像。本指南包含高效的文档转换代码示例，并附有分步指南。
@@ -45,6 +45,10 @@ Aspose.Words for Java 提供了丰富的文档渲染教程，让您轻松创建�
 学习如何使用 Aspose.Words for Java 的警告回调来检测缺失字体并进行跟踪，以确保文档渲染完整。
 ### [如何捕获警告 – 检测 Aspose.Words 中缺失的字体](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 学习如何捕获 Aspose.Words 的警告信息，并检测文档中缺失的字体，以确保渲染质量。
+### [在 Java 中使用 Aspose.Words 查找缺失字体 – 完整指南](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+学习如何使用 Aspose.Words for Java 检测并定位文档中缺失的字体，确保渲染效果完整。
+### [在 Java 中注册警告回调 – 完整编程指南](./register-warning-callback-in-java-complete-programming-guide/)
+学习如何在 Aspose.Words for Java 中注册警告回调，以捕获和处理文档处理过程中的警告信息。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

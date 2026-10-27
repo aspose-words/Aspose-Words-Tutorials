@@ -18,6 +18,12 @@
 „Wortverarbeitung mit Wasserzeichen“ ist eine umfassende Ressource, die Sie durch den Prozess der Wortverarbeitung mit Wasserzeichen in Word-Dokumenten mithilfe der Bibliothek Aspose.Words für .NET führt. Die Tutorials bieten Schritt-für-Schritt-Erklärungen, detaillierten Quellcode und praktische Beispiele zum Hinzufügen, Anpassen und Verwalten von Wasserzeichen in Ihren Word-Dokumenten. Sie lernen, wie Sie Text, Bilder, Formen oder Grafiken als Wasserzeichen hinzufügen, deren Position und Aussehen anpassen und erweiterte Optionen wie das Hinzufügen benutzerdefinierter Wasserzeichen mithilfe von Feldern nutzen. Diese Ressource ist unverzichtbar für Entwickler, die die Wasserzeichenverwaltung in ihren Word-Dokumenten mithilfe von Aspose.Words für .NET automatisieren möchten.
 
  ## Anleitungen
+
+{{< tutorial-card link="./add-text-watermark/" title="Rotes diagonales Textwasserzeichen zu Word-Dokumenten hinzufügen mit Aspose.Words für .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Erstelle ein diagonales Text‑Wasserzeichen mit benutzerdefinierter Schrift in einem Word‑Dokument mit Aspose.Words für .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Titel | Beschreibung |
 | --- | --- |
 | [Textwasserzeichen mit bestimmten Optionen hinzufügen](./add-text-watermark-with-specific-options/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Ihren Word-Dokumenten ein Textwasserzeichen mit bestimmten Optionen hinzufügen. Passen Sie Schriftart, Größe, Farbe und Layout ganz einfach an. |

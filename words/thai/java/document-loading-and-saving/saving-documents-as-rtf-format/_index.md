@@ -9,11 +9,11 @@ url: /th/java/document-loading-and-saving/saving-documents-as-rtf-format/
 weight: 23
 ---
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลง Word เป็น RTF ด้วย Aspose.Words for Java
 

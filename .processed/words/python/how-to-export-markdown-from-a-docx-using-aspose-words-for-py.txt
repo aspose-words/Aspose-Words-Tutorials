@@ -1,0 +1,7 @@
+Title: How to export markdown from a DOCX using Aspose.Words for Python
+Slug: how-to-export-markdown-from-a-docx-using-aspose-words-for-py
+Category: document-conversion
+ProcessedDate: 2026-10-26T20:04:15.775424
+SourceRepo: AI Search API
+Keywords: how to export markdown, convert docx to markdown, convert equations to latex, save document as txt, how to save pdf
+PRNumber: 341

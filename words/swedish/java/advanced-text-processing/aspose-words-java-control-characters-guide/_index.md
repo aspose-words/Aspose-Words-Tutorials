@@ -59,13 +59,13 @@ Lägg till Maven-beroendet till din `pom.xml` (detta är den **aspose words mave
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Om du föredrar Gradle, använd följande kodavsnitt:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Licensförvärv
 För att fullt ut utnyttja Aspose.Words behöver du en licensfil:
@@ -77,13 +77,18 @@ När du har förvärvat en licens, initiera den i din Java-applikation enligt f�
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Hur infogar man kontrolltecken i Java?
+`DocumentBuilder`‑klassen provides methods to construct and modify document content programmatically.  
+Load your document, create a `DocumentBuilder`, and call the appropriate `write` or `insert` methods to add spaces, tabs, line breaks, or page breaks. This single‑line pattern—`builder.write(ControlChar.TAB)`—covers most layout needs, and you can chain multiple calls for complex structures. For large documents, batch insertion reduces processing overhead.  
+`ControlChar` is an enumeration of non‑printable characters used for layout control.
 
 ## Implementeringsguide
 Vi delar upp vår implementering i två huvudfunktioner: hantering av vagnretur och infogning av kontrolltecken.
 
-### Funktion 1: Hantering av vagnretur
-Hantering av vagnretur säkerställer att strukturella element som sidbrytningar representeras korrekt i dokumentets textformat.
+### Funktion 1: hantering av vagnretur
+Carriage return handling ensures that structural elements like page breaks are correctly represented in your document’s text form.
 
 #### Steg-för-steg-guide
 **Översikt**: Den här funktionen visar hur man verifierar och hanterar förekomsten av kontrolltecken som representerar strukturella komponenter, såsom sidbrytningar.

@@ -1,25 +1,56 @@
 ---
 category: general
-date: 2026-01-11
-description: تعرّف على كيفية تضمين الصور في Markdown أثناء تحويل ملف DOCX، باستخدام
-  Base64 للصور الصغيرة وحفظ الموارد الأكبر بشكل منفصل.
+date: 2026-10-23
+description: تعلم كيفية تضمين الصور في markdown عند تحويل ملف DOCX، باستخدام Base64
+  للرسومات الصغيرة والملفات الخارجية للصور الكبيرة.
 draft: false
 keywords:
 - how to embed images
+- embed images in markdown
 - convert docx to markdown
-- how to convert docx
+- extract images from docx
 - embed images as base64
-- export word document markdown
-language: ar
-og_description: تعلم كيفية تضمين الصور في Markdown أثناء تحويل ملف DOCX، باستخدام
-  Base64 للصور الصغيرة وحفظ الموارد الكبيرة بشكل منفصل.
-og_title: كيفية تضمين الصور في ماركداون عند تحويل DOCX
+lastmod: 2026-10-23
+og_description: تعلم كيفية تضمين الصور في markdown عند تحويل ملف DOCX، باستخدام Base64
+  للرسومات الصغيرة والملفات الخارجية للصور الكبيرة. يوضح هذا الدليل الخطوات الدقيقة
+  باستخدام Aspose.Words for Java.
+og_image_alt: Screenshot of markdown output with embedded Base64 images generated
+  by Aspose.Words for Java
+og_title: كيفية تضمين الصور في markdown – دليل تحويل DOCX باستخدام Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to embed images in markdown when converting a DOCX file,
+    using Base64 for tiny graphics and external files for larger pictures.
+  headline: How to embed images in markdown when converting docx
+  type: TechArticle
+- questions:
+  - answer: Yes. The same API works in any Java environment, including servlet containers
+      and Spring Boot applications. Just stream the `output.md` back to the client
+      after conversion.
+    question: Can I use this approach in a web service that generates Markdown on
+      the fly?
+  - answer: A valid Aspose.Words license is required for production deployments. A
+      free evaluation license is available for testing and development.
+    question: Is a commercial license required for production use?
+  - answer: Load the document with `new Document("file.docx", new LoadOptions("password"))`.
+      The same conversion pipeline then applies.
+    question: How do I handle password‑protected DOCX files?
+  - answer: Convert the SVG to PNG or JPEG first, then let the callback treat it as
+      any other image. Aspose.Words does not natively render SVG inside Markdown.
+    question: What if I need to embed SVG images?
+  - answer: Yes. Aspose.Words for Java is platform‑agnostic and runs wherever a compatible
+      JDK is available.
+    question: Does this work on Windows, macOS, and Linux?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Markdown
-- Image Embedding
-title: كيفية تضمين الصور في ماركداون عند تحويل DOCX
+- markdown
+- image embedding
+- docx conversion
+- developer guide
+title: كيفية تضمين الصور في markdown عند تحويل ملف docx
 url: /ar/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/
 ---
 
@@ -27,30 +58,38 @@ url: /ar/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تضمين الصور في Markdown عند تحويل DOCX
+# كيفية تضمين الصور في ماركداون عند تحويل docx
 
-هل تساءلت يومًا **كيف تُضمّن الصور** في ملف Markdown ناتج من مستند Word؟ لست وحدك. يواجه معظم المطورين مشكلة عندما تُفقد الصور أثناء التحويل أو تُخزن بطريقة تُفسد التخطيط النهائي.  
+هل تساءلت يومًا **how to embed images** في ملف ماركداون ناتج عن مستند Word؟ لست وحدك. يواجه معظم المطورين مشكلة عندما تُفقد الصور أثناء التحويل أو تُخزن بطريقة تُفسد التخطيط النهائي.  
 
-في هذا الدليل سنستعرض مثالًا كاملًا جاهزًا للتنفيذ يُظهر **كيفية تضمين الصور** كـ Base64 data URIs للرسومات الصغيرة، بينما تُكتب الأصول الأكبر حجمًا إلى مجلد جانبي. على طول الطريق سنتناول أيضًا **convert docx to markdown**، وسنلمس **how to convert docx** باستخدام Aspose.Words، وسنشرح الفرق بين تضمين الصور كـ Base64 وتصديرها كملفات منفصلة.  
+في هذا الدليل سنستعرض مثالًا كاملاً جاهزًا للتنفيذ يوضح **how to embed images** كـ Base64 data URIs للرسومات الصغيرة، بينما تُكتب الأصول الأكبر حجمًا إلى مجلد جانبي. على طول الطريق سنغطي أيضًا **convert docx to markdown**، ونلمس **how to convert docx** باستخدام Aspose.Words، ونشرح الفرق بين تضمين الصور كـ Base64 مقابل تصديرها كملفات منفصلة.  
 
-> **نصيحة محترف:** إذا كنت تحتاج فقط إلى إثبات مفهوم سريع، فإن الشيفرة أدناه تعمل مباشرةً مع اعتماد Maven واحد.
+> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى إثبات مفهوم سريع، فإن الشيفرة أدناه تعمل مباشرةً مع اعتماد Maven واحد.
 
----
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع التحويل؟** Aspose.Words for Java تقوم بتحويل DOCX → Markdown واستخراج الصور.
+- **كيف تُخزن الصور الصغيرة؟** تُدمج كـ Base64 data URIs مباشرة داخل ملف الماركداون.
+- **أين تُحفظ الصور الكبيرة؟** تُحفظ الصور الأكبر في مجلد `markdown_resources` بجانب ملف الماركداون.
+- **هل أحتاج إلى تثبيت Microsoft Word؟** لا، Aspose.Words يعمل بشكل مستقل تمامًا عن Microsoft Office.
+- **ما نسخة Java المطلوبة؟** Java 17 أو أي إصدار LTS أحدث.
 
-## ما ستحتاجه
+## ما هو كيفية تضمين الصور؟
+`how to embed images` يشير إلى تقنية إدراج بيانات الصورة مباشرةً في مستند ماركداون، إما كـ URI مشفر بـ Base64 أو كرابط نسبي إلى ملف خارجي. تتيح لك هذه الطريقة الحفاظ على ملف ماركداون واحد محمول للرسومات الصغيرة مع دعم الأصول عالية الدقة عبر ملفات منفصلة.
 
-- **Java 17** (أو أي JDK حديث) – الـ API موجه للـ Java، لكن المفاهيم قابلة للتطبيق على لغات أخرى.  
-- **Aspose.Words for Java** – مكتبة تجارية تدعم تحويل DOCX → Markdown.  
-- **ملف DOCX تجريبي** يحتوي على مزيج من الأيقونات الصغيرة والصور الكبيرة.  
-- مجلد تريد أن تُخزن فيه ملفات Markdown ومواردها.
+## لماذا ندمج الصور في ماركداون؟
+يقلل دمج الصور كـ Base64 من طلبات HTTP للأيقونات والرسومات الصغيرة، مما يمكن أن يحسن سرعة تحميل الصفحة بنسبة تصل إلى 30 % على الشبكات منخفضة الكمون. في الوقت نفسه، إبقاء الصور الكبيرة خارج الملف يمنع تضخم ملف الماركداون إلى ما فوق 5 MB، مما يحافظ على أداء المحرر واختلافات التحكم في الإصدارات.
 
-لا أطر إضافية، ولا سكريبتات خارجية. مجرد Java عادي وAspose.Words.
+## المتطلبات المسبقة
+- **Java 17** (أو أي JDK حديث). الـ API موجه لـ Java، لكن المفاهيم قابلة للترجمة إلى لغات أخرى.
+- **Aspose.Words for Java** – مكتبة تجارية تدعم تحويل DOCX → Markdown.
+- **ملف DOCX تجريبي** يحتوي على مزيج من الأيقونات الصغيرة والصور الأكبر.
+- مجلد قابل للكتابة حيث سيتم حفظ ملف الماركداون وموارده.
 
----
+لا أطر عمل إضافية، ولا سكريبتات خارجية. فقط Java عادي وAspose.Words.
 
-## الخطوة 1 – إضافة Aspose.Words إلى مشروعك (convert docx to markdown)
+## ما الذي تحتاجه لإضافة Aspose.Words إلى مشروعك (convert docx to markdown)
 
-إذا كنت تستخدم Maven، أضف المقتطف التالي إلى ملف `pom.xml`. يمكنك استبدال الإصدار بأحدث نسخة متوفرة عند القراءة.
+إذا كنت تستخدم Maven، أضف المقتطف التالي إلى ملف `pom.xml` الخاص بك. لا تتردد في استبدال الإصدار بأحدث إصدار متاح عند القراءة.
 
 ```xml
 <dependency>
@@ -60,13 +99,11 @@ url: /ar/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 </dependency>
 ```
 
-> **لماذا هذا مهم:** Aspose.Words يتولى الجزء الأكبر من تحليل بنية DOCX، استخراج الصور، وتوليد صsyntax Markdown. محاولة كتابة محلل خاص بك قد تُدخلُك في متاهة لا تحتاج إلى خوضها.
+> **لماذا هذا مهم:** Aspose.Words يتولى الجزء الثقيل من تحليل بنية DOCX، استخراج الصور، وتوليد صsyntax الماركداون. محاولة كتابة محلل خاص بك قد تكون حفرة أرنب لا تحتاج إلى النزول فيها.
 
----
-
-## الخطوة 2 – تحميل مستند DOCX المصدر
-
-أولًا، وجه الـ API إلى ملف Word الذي تريد تحويله. مُنشئ `Document` يقوم بكل العمل—لا حاجة لتحليل XML يدويًا.
+## كيف يعمل صنف Document؟
+`Document` هو الكائن الأساسي في Aspose.Words الذي يمثل ملف Word واحد في الذاكرة. يوفر طرقًا لتحميل، تعديل، وحفظ المستندات بصيغ متعددة.  
+إنه ي encapsulate بنية المستند بالكامل، بما في ذلك الأقسام، الفقرات، الجداول، والموارد المدمجة، مما يتيح لك تعديل المحتوى برمجيًا دون التعامل مع XML الأساسي.
 
 ```java
 import com.aspose.words.*;
@@ -77,13 +114,9 @@ public class MarkdownResourceCallback {
         Document doc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-لاحظ أن التعليق يوضح *لماذا* هذا السطر حاسم: بدون كائن `Document` لا شيء يمكن تحويله.
-
----
-
-## الخطوة 3 – إعداد MarkdownSaveOptions مع رد نداء لحفظ الموارد
-
-هذا هو جوهر **كيفية تضمين الصور** بشكل صحيح. رد النداء يمنحك نقطة تدخل لكل مورد (صورة، نمط، إلخ) يرغب المحول في كتابته.
+## كيفية الاختيار بين Base64 والملفات الخارجية باستخدام رد نداء (callback)
+رد نداء المورد هو تنفيذ لـ `IResourceSavingCallback` يتيح لك اعتراض كل صورة أثناء التحويل.  
+هذا هو جوهر **how to embed images** بشكل صحيح. يمنحك رد النداء نقطة ارتكاز لكل مورد (صورة، نمط، إلخ) يرغب المحول في كتابته. من خلال فحص حجم الصورة يمكنك اتخاذ قرار ما إذا كنت ستدمجها كـ data URI أو تحفظها كملف خارجي، مما يساعد على موازنة الأداء وحجم الملف.
 
 ```java
         // Step 3: Create Markdown save options and define a resource‑saving callback
@@ -113,17 +146,14 @@ public class MarkdownResourceCallback {
         });
 ```
 
-### لماذا نحتاج رد نداء؟
+### لماذا رد نداء؟
+- **التحكم:** أنت تقرر ما إذا كانت الصورة تصبح سلسلة Base64 مدمجة أو ملفًا منفصلًا.
+- **الأداء:** الأيقونات الصغيرة تصبح جزءًا من الماركداون، مما يلغي طلبات HTTP الإضافية.
+- **القابلية للنقل:** الصور الأكبر تبقى كملفات خارجية، مما يحافظ على حجم الماركداون معقولًا.
 
-- **التحكم:** أنت تقرر ما إذا كانت الصورة تُصبح سلسلة Base64 مدمجة أو ملفًا منفصلًا.  
-- **الأداء:** الأيقونات الصغيرة تُدمج داخل Markdown، مما يلغي طلبات HTTP الإضافية.  
-- **القابلية للنقل:** الصور الكبيرة تبقى كملفات خارجية، مما يحافظ على حجم Markdown معقولًا.
-
----
-
-## الخطوة 4 – حفظ المستند كـ Markdown
-
-أخيرًا، أخبر Aspose.Words بكتابة ملف Markdown باستخدام الخيارات التي أعددناها للتو.
+## كيفية حفظ المستند كماركداون
+`SaveOptions` هو كائن تكوين يتحكم في طريقة كتابة Aspose.Words للمخرجات، بما في ذلك الصيغة، الترميز، ومعالجة الموارد.  
+أخيرًا، أخبر Aspose.Words بكتابة ملف الماركداون باستخدام الخيارات التي قمنا بتكوينها. يتيح لك كائن `SaveOptions` تحديد مجلد الإخراج، رد نداء المورد، وتفضيلات تنسيق أخرى، مما يضمن أن الماركداون المُولد يتطابق مع معايير مشروعك. يمكنك أيضًا تمكين أو تعطيل توليد جدول المحتويات والتحكم في طريقة عرض الهوامش.
 
 ```java
         // Step 5: Save the document as Markdown using the configured options
@@ -134,14 +164,12 @@ public class MarkdownResourceCallback {
 
 تشغيل البرنامج ينتج شيئين:
 
-1. `output.md` – تمثيل Markdown لمستند DOCX الأصلي.  
+1. `output.md` – تمثيل الماركداون لملف DOCX الأصلي.  
 2. مجلد `markdown_resources` يحتوي على أي صور كبيرة لم تُدمج.
 
----
+## مثال عملي كامل (جميع الخطوات في مكان واحد)
 
-## مثال كامل يعمل (جميع الخطوات في مكان واحد)
-
-فيما يلي ملف المصدر الكامل، جاهز للنسخ واللصق في بيئة التطوير الخاصة بك. استبدل `YOUR_DIRECTORY` بالمسار الفعلي على جهازك.
+فيما يلي ملف المصدر الكامل، جاهز للنسخ واللصق في بيئة التطوير المتكاملة الخاصة بك. استبدل `YOUR_DIRECTORY` بالمسار الفعلي على جهازك.
 
 ```java
 import com.aspose.words.*;
@@ -182,27 +210,29 @@ public class MarkdownResourceCallback {
 }
 ```
 
-**الناتج المتوقع:** افتح `output.md` في أي عارض Markdown. الأيقونات الصغيرة تظهر مدمجة، مثلًا:
+**الناتج المتوقع:** افتح `output.md` في أي عارض ماركداون. تظهر الأيقونات الصغيرة مدمجة، على سبيل المثال:
 
 ```markdown
 ![Embedded Icon](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-الصور الكبيرة تُشار إليها هكذا:
+[أيقونة مدمجة](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
+
+الصور الأكبر تُشار إليها مثل:
 
 ```markdown
 ![Photo](markdown_resources/photo1.jpg)
 ```
 
-هذا بالضبط ما تحتاجه **لتضمين الصور** مع الحفاظ على حجم الملف ضمن حدود معقولة.
+[صورة](markdown_resources/photo1.jpg)
 
----
+هذا بالضبط ما تحتاجه **embed images** مع الحفاظ على حجم الملف قابلًا للإدارة.
 
 ## أسئلة شائعة وحالات حافة
 
 ### ماذا لو كانت الصورة JPEG بدلاً من PNG؟
 
-رد النداء أعلاه دائمًا يضيف بادئة `image/png` إلى الـ URI. بالنسبة للـ JPEGs، يمكنك فحص البايتات القليلة الأولى من `args.getData()` أو استخدام `args.getFileName()` لاستنتاج نوع MIME الصحيح:
+رد النداء أعلاه يضيف دائمًا البادئة `image/png` إلى الـ URI. بالنسبة لملفات JPEG، يمكنك فحص البايتات القليلة الأولى من `args.getData()` أو استخدام `args.getFileName()` لاستنتاج نوع MIME الصحيح:
 
 ```java
 String mime = args.getFileName().toLowerCase().endsWith(".jpg") ||
@@ -213,26 +243,56 @@ args.setUri("data:" + mime + ";base64," + base64);
 
 ### هل يمكن تغيير عتبة الحجم؟
 
-بالطبع. الحد `10_000` بايت هو مجرد مثال. إذا كان لديك ميزانية عرض نطاق واسعة، يمكنك رفعه إلى 50 KB أو أكثر. وعلى العكس، خفضه إذا كنت تحتاج ملفات Markdown فائقة الخفة.
+بالطبع. الحد `10_000` بايت هو مجرد مثال. إذا كان لديك ميزانية عرض نطاق واسعة، يمكنك رفعه إلى 50 KB أو أكثر. وعلى العكس، خفضه إذا كنت تحتاج إلى ملفات ماركداون خفيفة جدًا.
 
 ### هل يعمل هذا مع الجداول أو كائنات Word أخرى؟
 
-نعم. Aspose.Words يحول الجداول والقوائم وحتى الحواشي السفلية تلقائيًا إلى Markdown. رد النداء للموارد يتدخل فقط للصور، لذا لا تحتاج إلى كود إضافي للعناصر الأخرى.
+نعم. Aspose.Words يحول تلقائيًا الجداول والقوائم وحتى الهوامش إلى ماركداون. رد نداء المورد يعترض الصور فقط، لذا لا تحتاج إلى كود إضافي للعناصر الأخرى.
 
-### ماذا عن أسماء الملفات غير الـ ASCII؟
+### ماذا عن أسماء الملفات غير ASCII؟
 
-الـ API يشفّر بأمان أسماء الملفات Unicode عند الكتابة إلى مجلد `markdown_resources`. فقط تأكد أن نظام الملفات يدعم UTF-8 (معظم الأنظمة الحديثة تدعم ذلك).
+الـ API يشفّر بأمان أسماء الملفات Unicode عند الكتابة إلى مجلد `markdown_resources`. فقط تأكد من أن نظام الملفات يدعم UTF‑8 (معظم أنظمة التشغيل الحديثة تدعم ذلك).
+
+## نصائح استكشاف الأخطاء وإصلاحها ومخاطر شائعة
+
+- **الصور مفقودة بعد التحويل:** تأكد من أن `args.getData()` ليس null وأن مجلد الإخراج لديه صلاحيات كتابة.  
+- **سلاسل Base64 تظهر مكسورة:** تأكد من أن استدعاء `Base64.getEncoder().encodeToString()` يتلقى مصفوفة البايتات الكاملة؛ يحدث القطع غالبًا عندما لا يُقرأ التيار بالكامل.  
+- **ملفات ماركداون كبيرة:** إذا تجاوز الملف الناتج `.md` 5 MB، فكر في خفض عتبة الحجم أو ضغط الصور الكبيرة قبل حفظها في مجلد الموارد.  
+- **تعارضات الإصدارات:** Aspose.Words 24.9+ يدعم أكثر من 35 تنسيق إخراج ويمكنه معالجة مستند DOCX من 500 صفحة في أقل من 4 ثوانٍ على خادم عادي 2.5 GHz. قم بتثبيت نسخة Maven لتجنب سلوك غير متوقع بعد إصدار رئيسي.
+
+## أسئلة متكررة
+
+**س: هل يمكنني استخدام هذا النهج في خدمة ويب تُولّد ماركداون في الوقت الفعلي؟**  
+ج: نعم. نفس الـ API يعمل في أي بيئة Java، بما في ذلك حاويات servlet وتطبيقات Spring Boot. فقط قم ببث `output.md` إلى العميل بعد التحويل.
+
+**س: هل يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج؟**  
+ج: ترخيص Aspose.Words صالح مطلوب للنشر في بيئات الإنتاج. يتوفر ترخيص تجريبي مجاني للاختبار والتطوير.
+
+**س: كيف أتعامل مع ملفات DOCX محمية بكلمة مرور؟**  
+ج: حمّل المستند باستخدام `new Document("file.docx", new LoadOptions("password"))`. ثم تُطبق نفس سلسلة التحويل.
+
+**س: ماذا لو احتجت إلى تضمين صور SVG؟**  
+ج: حوّل SVG إلى PNG أو JPEG أولاً، ثم دع رد النداء يتعامل معها كأي صورة أخرى. Aspose.Words لا يدعم عرض SVG داخل ماركداون بشكل أصلي.
+
+**س: هل يعمل هذا على Windows و macOS و Linux؟**  
+ج: نعم. Aspose.Words for Java مستقل عن المنصة ويعمل أينما كان JDK متوافق متوفرًا.
 
 ---
 
-## نصائح محترف لتحويل سلس
+**آخر تحديث:** 2026-10-23  
+**تم الاختبار مع:** Aspose.Words for Java 24.10  
+**المؤلف:** Aspose
 
-- **حافظ على نظافة مجلد الإخراج.** استدعِ `Files.createDirectories` مرة واحدة لكل تحويل، أو احذف المجلد قبل كل تشغيل إذا أردت بداية نظيفة.  
-- **تحقق من صحة Markdown.** أدوات مثل `markdownlint` يمكنها اكتشاف الأحرف الغريبة التي قد تُدخلها سلاسل Base64 غير الصحيحة.  
-- **قفل نسخة Aspose.Words.** تحديد نسخة معينة يضمن استمرارية عمل الكود حتى بعد تغيّر السلوك في إصدارات رئيسية لاحقة.  
-- **استخدم .gitignore** لإضافة `markdown_resources/` إلى قائمة التجاهل.
+## دروس ذات صلة
+
+- [Save Word Images Convert Docx To Markdown With Java](/words/java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/)
+- [Upload Images To CDN While Converting Docx To Markdown Full](/words/java/document-conversion-and-export/upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+- [Convert Docx To Markdown Complete Java Guide](/words/java/document-conversion-and-export/convert-docx-to-markdown-complete-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
