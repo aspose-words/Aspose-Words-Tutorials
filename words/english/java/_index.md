@@ -208,8 +208,6 @@ A: Absolutely—Aspose.Words embeds all required fonts automatically, guaranteei
 **Tested With:** Aspose.Words for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Aspose.Words Java&#58; Comprehensive Guide to Word Document Processing](/words/java/document-operations/aspose-words-java-master-word-processing/)
@@ -222,10 +220,10 @@ A: Absolutely—Aspose.Words embeds all required fonts automatically, guaranteei
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-26  
 **Tested With:** Aspose.Words for Java 24.11 (latest)  
 **Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}

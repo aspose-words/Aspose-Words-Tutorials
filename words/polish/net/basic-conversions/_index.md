@@ -80,6 +80,9 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik](./save-word-as-pdf-with-aspose-words-complete-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku. |
 | [Konwertuj Markdown do DOCX przy użyciu Aspose.Words – Kompletny przewodnik C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Dowiedz się, jak łatwo konwertować pliki Markdown do DOCX w C# przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku. |
 | [Konwertuj DOCX do PDF w C# – Kompletny przewodnik krok po kroku](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku z przykładami kodu. |
+| [Konwertuj docx do pdf w C# – Kompletny przewodnik krok po kroku](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Utwórz PDF z DOCX w C# – Przewodnik krok po kroku](./create-pdf-from-docx-in-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób utworzyć plik PDF z dokumentu DOCX w C# przy użyciu Aspose.Words. |
+| [Konwertuj docx na txt w C# – Kompletny przewodnik programistyczny](./convert-docx-to-txt-with-c-complete-programming-guide/) | Pełny przewodnik, jak konwertować pliki DOCX na TXT w C# przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Převod DOCX na PNG – Kompletní průvodce v C#](./convert-docx-to-png-complete-c-guide/) | Naučte se převést dokument DOCX na obrázek PNG pomocí Aspose.Words pro .NET v C#. |
 | [Jak nastavit DPI – Export Wordu do PNG mřížky v C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Naučte se exportovat dokument Word do PNG mřížky s nastavením DPI pomocí Aspose.Words pro .NET v C#. |
 | [Uložení Wordu jako PNG – Kompletní průvodce Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET s podrobným návodem. |
+| [Uložení dokumentu jako PNG v C# – Kompletní průvodce](./save-document-as-png-in-c-complete-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET v C# s podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

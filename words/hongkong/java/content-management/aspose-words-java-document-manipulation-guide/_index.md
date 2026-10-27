@@ -280,6 +280,6 @@ A: 使用 `new Document("file.doc")` 載入文件，呼叫 `setPageColor`，再�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

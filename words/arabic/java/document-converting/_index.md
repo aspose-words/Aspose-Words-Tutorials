@@ -120,6 +120,16 @@ weight: 14
 دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول عند تحويل مستندات DOCX إلى PDF باستخدام Aspose.Words for Java.
 
 ### [حفظ Word كـ Markdown – دليل Java كامل (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+### [تحويل markdown إلى docx في Java – دليل خطوة بخطوة](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+
+### [كيفية تحويل markdown إلى docx باستخدام Java و Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+
+### [كيفية حفظ Markdown كـ DOCX باستخدام Java – دليل كامل](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+### [تحويل markdown إلى docx باستخدام Aspose.Words للـ Java – دليل خطوة بخطوة](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
+تعلم كيفية تحويل ملفات markdown إلى مستندات Word (docx) باستخدام Aspose.Words للـ Java خطوة بخطوة.
+
+### [كيفية تحويل docx إلى markdown باستخدام Aspose.Words للـ Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words للـ Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

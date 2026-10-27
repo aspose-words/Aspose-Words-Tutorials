@@ -233,6 +233,7 @@ Give it a try, tweak the empty‑paragraph mode to suit your style guide, and th
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

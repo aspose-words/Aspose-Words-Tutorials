@@ -94,6 +94,8 @@ Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java.
 
 ### [Načtení podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
 Naučte se načíst podtržený text v markdownu pomocí Aspose.Words for Java a zpracovat jej v aplikaci.
+### [Jak načíst Markdown v Javě – Kompletní průvodce](./how-to-load-markdown-in-java-complete-guide/)
+Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Kompletní průvodce s ukázkami kódu a tipy pro konverzi.
 
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
@@ -128,6 +130,7 @@ Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomoc
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Nastavit režim obnovy pro opravu poškozeného dokumentu Word](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -163,9 +166,16 @@ Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Asp
 Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
 ### [Vytvoření prázdného dokumentu Word v Javě – Kompletní průvodce Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem průvodcem.
+### [Jak nastavit možnosti v Aspose.Words pro Javu – kompletní průvodce](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ### [Aspose – Průvodce nahrazením fontů – Řešení chybějících fontů](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Naučte se, jak detekovat a nahradit chybějící fonty při práci s dokumenty v Aspose.Words.
+
+### [Jak načíst soubor ze složky pomocí Aspose.Words v C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Naučte se načíst soubor z adresáře v C# pomocí knihovny Aspose.Words s praktickým příkladem kódu.
+### [Obnovení poškozeného DOCX s Aspose.Words pro Java – Kompletní průvodce](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Kompletní návod, jak opravit poškozené soubory DOCX pomocí Aspose.Words for Java, včetně kroků pro načtení, opravu a uložení dokumentu.
+
 
 ## Často kladené otázky
 

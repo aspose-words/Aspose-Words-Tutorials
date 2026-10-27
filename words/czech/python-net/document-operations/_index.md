@@ -81,6 +81,24 @@ Naučte se, jak obnovit poškozené soubory DOCX v Pythonu pomocí Aspose.Words 
 Kompletní návod, jak pomocí Aspose.Words pro Python načíst a opravit poškozené soubory DOCX.
 ### [Obnova poškozeného DOCX v Pythonu – Kompletní průvodce krok za krokem](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
 Kompletní průvodce obnovou poškozených souborů DOCX v Pythonu pomocí Aspose.Words.
+### [Jak obnovit docx v Pythonu pomocí Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+Naučte se, jak obnovit soubory DOCX v Pythonu pomocí Aspose.Words.
+### [Jak obnovit poškozený dokument Word a uložit obnovený soubor Word pomocí Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Naučte se, jak obnovit poškozený dokument Word a uložit opravený soubor pomocí Aspose.Words.
+### [Obnova poškozeného DOCX s Aspose.Words – krok za krokem](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.Words pro Python-net obnovit poškozené soubory DOCX krok po kroku.
+### [Jak obnovit soubory DOCX pomocí Aspose.Words pro Python – krok za krokem](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Podrobný návod, jak krok po kroku obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python.
+
+### [Jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python.
+
+### [Jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+Naučte se, jak načíst a opravit poškozené soubory DOCX pomocí Aspose.Words pro Python.
+### [Obnova poškozeného dokumentu Word pomocí Aspose.Words – Kompletní průvodce](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Naučte se, jak pomocí Aspose.Words obnovit a opravit poškozené soubory Word dokumentů.
+### [Obnova poškozeného DOCX – Kompletní průvodce v Pythonu](./recover-corrupted-docx-complete-python-guide/)
+Naučte se kompletně obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python‑net s podrobnými ukázkami a tipy.
 
 ## Další zdroje
 

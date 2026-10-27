@@ -1,0 +1,7 @@
+Title: Create a blank Word document, add an image group, hide shape
+Slug: create-a-blank-word-document-add-an-image-group-hide-shape
+Category: images-shapes
+ProcessedDate: 2026-10-10T19:05:25.163507
+SourceRepo: AI Search API
+Keywords: create blank word document, insert image into word, add image group, hide shape word document
+PRNumber: 311

@@ -26,8 +26,6 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 ### [Mastering Media Type Parsing στο Aspose.Words for Python: Ένας πλήρης οδηγός](./mastering-aspose-words-python-media-type-parsing/)
-Μάθετε πώς να αναλύετε τύπους πολυμέσων, να κρυπτογραφείτε αρχεία και να επικυρώνετε ψηφιακές υπογραφές με το Aspose.Words για Python. Βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας σήμερα.
-
 ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Μάθετε πώς να βελτιστοποιείτε τον χειρισμό εικόνων σε έγγραφα RTF με το Aspose.Words για Python. Αποθηκεύστε εικόνες σε μορφή WMF και διασφαλίστε τη συμβατότητα με παλαιότερους αναγνώστες.
 
@@ -35,7 +33,10 @@
 Μάθετε πώς να βελτιστοποιήσετε την έξοδο SVG χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει προσαρμοσμένες λειτουργίες όπως ιδιότητες εικόνας, απόδοση κειμένου και βελτιώσεις ασφαλείας.
 
 ### [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-add-shadow-in-c-complete-programming-guide/)
-Μάθετε πώς να εφαρμόσετε σκιές σε αντικείμενα C# χρησιμοποιώντας Aspose.Words για βελτιωμένη εμφάνιση εγγράφων.
+### [Δημιουργία Κενής Εγγράφου Word και Προσθήκη Σκιάς σε Σχήμα – Πλήρης Οδηγός Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας Aspose.Words για Python‑net.
+### [Δημιουργία Κενής Εγγράφου Word και Προσθήκη Σκιάς σε Σχήμα – Πλήρης Οδηγός](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας Aspose.Words για Python‑net.
 
 ### [Προσθήκη ορθογωνίου σε PDF με Aspose.Words – Οδηγός βήμα‑βήμα](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Μάθετε πώς να προσθέσετε ένα ορθογώνιο σχήμα σε PDF χρησιμοποιώντας το Aspose.Words για Python‑net, βήμα προς βήμα.
@@ -62,6 +63,27 @@
 ### [Πώς να ορίσετε σκιά στο Aspose.Words – Παράδειγμα Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Μάθετε πώς να προσθέσετε σκιά σε αντικείμενα χρησιμοποιώντας Aspose.Words με Python.
 ### [Σχεδίαση ορθογωνίου σε PDF με Aspose.Words για Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+### [Πώς να Προσθέσετε Σκιά σε Σχήμα σε Python – Πλήρης Οδηγός Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
+### [Πώς να προσθέσετε σκιά σε σχήμα Word χρησιμοποιώντας Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Μάθετε πώς να εφαρμόσετε σκιά σε σχήματα Word με χρήση Python και Aspose.Words.
+### [Πώς να αποθηκεύσετε PNG και να προσθέσετε σκιά σε σχήμα με το Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Μάθετε πώς να αποθηκεύσετε εικόνα PNG και να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας Aspose.Words για Python-net.
+
+### [Πώς να δημιουργήσετε γράφημα στήλης με Python και Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε γράφημα στήλης σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να εφαρμόσετε εφέ σκιά σε σχήμα Word με Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Μάθετε πώς να προσθέσετε εφέ σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για Python-net.
+### [Πώς να ορίσετε σκιά σε σχήμα στο Aspose.Words για Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας το Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
+
+### [Πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Python‑net, βήμα‑βήμα.
+### [Προσθήκη Σκιάς σε Σχήμα σε Python – Πλήρης Οδηγός Προγραμματισμού](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
+
+### [Πώς να δημιουργήσετε έγγραφο με σχήμα ορθογωνίου και σκιά σε Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Μάθετε πώς να δημιουργήσετε έγγραφο Word με σχήμα ορθογωνίου και εφέ σκιά χρησιμοποιώντας Aspose.Words για Python‑net.
 
 ## Πρόσθετοι Πόροι
 

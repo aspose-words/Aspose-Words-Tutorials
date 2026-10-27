@@ -169,7 +169,8 @@ Ready for the next step? Try converting a batch of files in a loop, or integrate
 
 Happy coding, and may your Markdown always render beautifully!
 
-{{< blocks/products/products-backtop-button />}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

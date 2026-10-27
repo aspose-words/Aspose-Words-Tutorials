@@ -64,6 +64,31 @@ Leer hoe u schaduweffecten aan vormen in Word-documenten kunt toevoegen met Aspo
 Leer hoe u schaduweffecten toevoegt aan afbeeldingen of vormen in Word-documenten met Aspose.Words voor Python.
 ### [Rechthoek tekenen in PDF met Aspose.Words voor Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Leer hoe u een rechthoek in een PDF-document tekent met Aspose.Words voor Python.
+### [Schaduw toevoegen aan vorm in Python – volledige Aspose.Words-gids](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Leer hoe u schaduweffecten aan vormen toevoegt met Aspose.Words voor Python.
+### [Hoe schaduw toe te voegen aan een Word-vorm met Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Leer hoe u schaduw toevoegt aan een Word-vorm met Python en Aspose.Words.
+### [Hoe PNG op te slaan en schaduw toe te voegen aan een vorm met Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Leer hoe u een PNG-afbeelding opslaat en een schaduw toevoegt aan een vorm met Aspose.Words voor Python-net.
+
+### [Hoe een kolomgrafiek te maken met Python en Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+### [Hoe schaduweffect toe te passen op een Word-vorm met Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Leer hoe u een schaduweffect op een Word-vorm toepast met Aspose.Words voor Python-net.
+### [Hoe schaduw op een vorm instellen in Aspose.Words voor Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+Leer hoe u een schaduweffect toevoegt aan een vorm in een Word-document met Aspose.Words voor Python.
+
+### [Hoe een rechthoekvorm te maken in een Word-document met Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Leer hoe u een rechthoekvorm toevoegt aan een Word-document met Python en Aspose.Words.
+### [Hoe schaduw toe te voegen aan vorm in Python – Complete programmeergids](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Leer hoe u schaduweffecten aan vormen toevoegt in Python met Aspose.Words.
+### [Maak een leeg Word-document en voeg schaduw toe aan vorm – Volledige Python-gids](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Leer hoe u een nieuw Word-document maakt en een vorm met schaduw toevoegt met Aspose.Words voor Python.
+
+### [Maak een leeg Word-document en voeg schaduw toe aan vorm – Volledige tutorial](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Volledige gids voor het aanmaken van een leeg Word-document en het toevoegen van schaduw aan een vorm met Aspose.Words voor Python.
+
+### [Hoe een document met een rechthoekvorm en schaduw te maken in Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Leer hoe u een document maakt met een rechthoek en schaduw in Python met Aspose.Words.
 
 ## Aanvullende bronnen
 

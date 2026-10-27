@@ -50,6 +50,10 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的程式庫，使 Jav
 ### [程式化建立 Word 文件 – 完整逐步指南](./create-word-document-programmatically-full-step-by-step-guid/)
 學習如何使用 Aspose.Words for Java 程式化建立 Word 文件，從零開始完整步驟說明，涵蓋文字、圖像與表格插入。
 
+### [在 Java 中建立徑向圖表並插入至 Word](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+學習如何使用 Aspose.Words for Java 產生徑向圖表，並將其嵌入 Word 文件，實現動態報表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

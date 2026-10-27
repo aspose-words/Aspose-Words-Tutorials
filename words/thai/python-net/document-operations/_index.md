@@ -83,6 +83,24 @@
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Python และ Aspose.Words อย่างละเอียดเพื่อกู้ข้อมูลสำคัญได้อย่างรวดเร็ว
 ### [กู้ไฟล์ DOCX ที่เสียหายใน Python – คู่มือเต็มขั้นตอน](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
 บทช่วยสอนขั้นตอนเต็มสำหรับการกู้ไฟล์ DOCX ที่เสียหายใน Python ด้วย Aspose.Words
+### [วิธีกู้คืน DOCX ใน Python ด้วย Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายใน Python โดยใช้ Aspose.Words
+### [วิธีกู้ไฟล์ Word ที่เสียหายและบันทึกไฟล์ Word ที่กู้คืนด้วย Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและบันทึกไฟล์ที่กู้คืนโดยใช้ Aspose.Words สำหรับ Python-net
+### [กู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words – คู่มือขั้นตอนโดยขั้นตอน](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [วิธีกู้ไฟล์ DOCX ด้วย Aspose.Words สำหรับ Python – คู่มือขั้นตอนโดยละเอียด](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python อย่างละเอียดและเป็นขั้นตอน
+
+### [วิธีกู้ไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ Python
+
+### [วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและเปิดโหลดด้วย Aspose.Words สำหรับ Python
+### [กู้ไฟล์ Word ที่เสียหายด้วย Aspose.Words – คู่มือครบถ้วน](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและกู้ข้อมูลสำคัญด้วย Aspose.Words อย่างละเอียด
+### [กู้ไฟล์ DOCX ที่เสียหาย – คู่มือ Python ฉบับสมบูรณ์](./recover-corrupted-docx-complete-python-guide/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

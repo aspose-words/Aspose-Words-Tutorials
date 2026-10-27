@@ -164,5 +164,7 @@ Give it a spin, tweak the fallback fonts, and let your documents stay beautiful 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -27,62 +27,51 @@ De categorie 'Documentbewerkingen' is speciaal ontwikkeld voor ontwikkelaars die
 ### [Geavanceerde PDF-manipulatie met Aspose.Words voor Python: een uitgebreide handleiding](./aspose-words-python-pdf-manipulation/)
 Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk en verwerk versleutelde documenten eenvoudig.
 
-    ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
-    Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp.
+### [Hoe docx te herstellen in Python met Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
 
-    ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
-    Leer hoe u RTF-documenten efficiënt laadt en UTF-8-codering detecteert met Aspose.Words voor Python. Verbeter de nauwkeurigheid van tekstverwerking in uw projecten.
+### [Hoe een beschadigd Word-document te herstellen en het herstelde Word-bestand op te slaan met Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Leer hoe u beschadigde Word-documenten kunt herstellen en het herstelde bestand opslaan met Aspose.Words voor Python-net.
 
-    ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-    Leer hoe u verbroken links in .chm-bestanden kunt herstellen met behulp van de krachtige Aspose.Words-bibliotheek. Verbeter de betrouwbaarheid van uw documenten en de gebruikerservaring met deze stapsgewijze handleiding.
+    ### [Herstel beschadigd DOCX – stap‑voor‑stap gids](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python-net.
+### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
+Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp.
 
-    ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
-    Leer hoe je Aspose.Words voor Python gebruikt om Word-documenten te converteren naar afzonderlijke HTML-pagina's met behulp van aangepaste callbacks. Perfect voor documentbeheer en webpublicatie.
+### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
+Leer hoe u RTF-documenten efficiënt laadt en UTF-8-codering detecteert met Aspose.Words voor Python. Verbeter de nauwkeurigheid van tekstverwerking in uw projecten.
 
-    ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-    Leer hoe u markdown-bestanden efficiënt kunt beheren en verwerken met de MarkdownLoadOptions-functie van Aspose.Words in Python. Verbeter uw documentworkflows met nauwkeurige controle over de opmaak.
+### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
+Leer hoe u verbroken links in .chm-bestanden kunt herstellen met behulp van de krachtige Aspose.Words-bibliotheek. Verbeter de betrouwbaarheid van uw documenten en de gebruikerservaring met deze stapsgewijze handleiding.
 
-    ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
-    Leer hoe u Microsoft Word-documenten kunt laden, beheren en automatiseren met Aspose.Words in Python. Stroomlijn uw documentverwerkingstaken moeiteloos.
+### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
+Leer hoe je Aspose.Words voor Python gebruikt om Word-documenten te converteren naar afzonderlijke HTML-pagina's met behulp van aangepaste callbacks. Perfect voor documentbeheer en webpublicatie.
 
-    ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
-    Een codetutorial voor Aspose.Words Python-net
+### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
+Leer hoe u markdown-bestanden efficiënt kunt beheren en verwerken met de MarkdownLoadOptions-functie van Aspose.Words in Python. Verbeter uw documentworkflows met nauwkeurige controle over de opmaak.
 
-    ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
-    Leer hoe u kopniveaus kunt beperken en digitale handtekeningen kunt toepassen in XPS-documenten met Aspose.Words voor Python, waarmee u de beveiliging en navigatie van documenten verbetert.
+### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
+Leer hoe u Microsoft Word-documenten kunt laden, beheren en automatiseren met Aspose.Words in Python. Stroomlijn uw documentverwerkingstaken moeiteloos.
 
-    ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
-    Een codetutorial voor Aspose.Words Python-net
+### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
+Een codetutorial voor Aspose.Words Python-net
 
-    ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
-    Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
+### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
+Leer hoe u kopniveaus kunt beperken en digitale handtekeningen kunt toepassen in XPS-documenten met Aspose.Words voor Python, waarmee u de beveiliging en navigatie van documenten verbetert.
 
-    ### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
-    Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
+Een codetutorial voor Aspose.Words Python-net
 
-    ### [Herstel een beschadigd Word-document met Python – Complete gids](./recover-corrupted-word-document-using-python-complete-guide/)
-    Leer hoe u beschadigde Word-bestanden kunt herstellen en openen met behulp van Aspose.Words voor Python.
+### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
+Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
 
-    ### [Herstel beschadigde DOCX – Complete gids om herstelmodus in te schakelen & paginatelling te krijgen](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-Leer hoe u beschadigde DOCX-bestanden kunt herstellen, herstelmodus inschakelt en het aantal pagina's bepaalt met Aspose.Words voor Python-net.
+### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
 
-    ### [Herstel beschadigd Word-document met Aspose.Words voor Python](./recover-corrupted-word-document-with-aspose-words-python/)
-Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words voor Python.
+### [Herstel beschadigde DOCX – Complete Python-gids](./recover-corrupted-docx-complete-python-guide/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python-net.
 
-    ### [Hoe DOCX te herstellen – Complete gids voor het herstellen van corrupte Word-documenten](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
-Leer hoe u corrupte DOCX-bestanden volledig kunt herstellen met Aspose.Words voor Python-net.
-
-    ### [Hoe DOCX-bestanden te herstellen – Complete gids met Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
-    Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze, volledige gids.
-
-    ### [Herstel beschadigde DOCX-bestanden in Python – Complete gids](./recover-corrupted-docx-files-in-python-complete-guide/)
-Ontdek hoe u corrupte DOCX-bestanden kunt repareren en weer bruikbaar maken met Aspose.Words voor Python.
-
-    ### [Hoe DOCX-bestanden te herstellen in Python – Complete gids](./how-to-recover-docx-files-in-python-complete-guide/)
-Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Python en Aspose.Words.
-
-    ### [Herstel beschadigd DOCX in Python – volledige stapsgewijze handleiding](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
-Leer hoe u een beschadigd DOCX-bestand volledig kunt herstellen met een stap‑voor‑stap‑gids in Python.
+### [Hoe docx‑bestanden te herstellen met Aspose.Words voor Python – stapsgewijze handleiding](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python in een stapsgewijze gids.
 
 ## Aanvullende bronnen
 

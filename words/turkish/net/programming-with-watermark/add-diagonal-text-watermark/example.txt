@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Bu öğretici, yeni bir Word belgesi oluşturmayı, belirli yazı tipi ayarlarıyla özel bir metin filigranı yapılandırmayı, filigranı belgeye uygulamayı ve sonucu .docx dosyası olarak Document.Watermark.SetText API'si kullanarak kaydetmeyi gösterir.
+//ExStepSummary:0: Yeni boş bir Word belge örneği `document` adıyla oluşturun.
+//ExStepSummary:1: `watermarkSettings`'i Arial 48 pt gri yazı tipi, diyagonal düzen ve opak render ile yapılandırın.
+//ExStepSummary:2: Önceden tanımlanan ayarları kullanarak "Private" metin filigranını `document`'e uygulayın.
+//ExStepSummary:3: Filigranlı belgenin kaydedileceği dosya yolunu tanımlayın.
+//ExStepSummary:4: Değiştirilen `document`'i belirtilen yola .docx dosyası olarak kaydedin.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

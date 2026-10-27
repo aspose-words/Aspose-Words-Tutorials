@@ -58,6 +58,9 @@ Comece sua jornada de aprendizado hoje mesmo e descubra as infinitas possibilida
 ## Tutoriais de Manipulação de Documentos
 ### [Marcação de acessibilidade PDF em Java – Gerar PDFs acessíveis](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aprenda a criar PDFs acessíveis com marcações de acessibilidade usando Aspose.Words para Java.
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Usando opções de limpeza no Aspose.Words para Java](./using-cleanup-options/)
 Melhore a clareza do documento com as opções de limpeza do Aspose.Words para Java. Aprenda a remover parágrafos vazios, regiões não utilizadas e muito mais.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)
@@ -78,6 +81,10 @@ Otimize o processamento de seus documentos com o Aspose.Words para Java. Aprenda
 Domine a manipulação de intervalos de documentos no Aspose.Words para Java. Aprenda a excluir, extrair e formatar texto com este guia completo.
 ### [Usando tags de documentos estruturados (SDT) no Aspose.Words para Java](./using-structured-document-tags/)
 Aprenda a usar Tags de Documento Estruturadas (SDT) no Aspose.Words para Java com este guia completo. Crie, modifique e vincule SDTs a dados XML personalizados.
+### [Criar Novo Documento Word – Guia Passo a Passo para Adicionar uma Tag Estruturada](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aprenda a criar um documento Word do zero e inserir tags estruturadas usando Aspose.Words para Java.
+### [Como definir o nome da tag e adicionar SDT em um documento Word com C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Aprenda a definir nomes de tags e inserir SDTs em documentos Word usando C# com Aspose.Words.
 ### [Usando estilos e temas no Aspose.Words para Java](./using-styles-and-themes/)
 Aprenda a aprimorar a formatação de documentos com o Aspose.Words para Java. Explore estilos, temas e muito mais neste guia completo com exemplos de código-fonte.
 ### [Gerando Índice em Aspose.Words para Java](./generating-table-of-contents/)
@@ -92,6 +99,11 @@ Aprenda a dividir documentos de forma eficiente no Aspose.Words para Java. Explo
 Aprenda a dividir documentos em páginas HTML com o Aspose.Words para Java. Siga nosso guia passo a passo para uma conversão de documentos perfeita.
 ### [Adicionando conteúdo usando DocumentBuilder no Aspose.Words para Java](./adding-content-using-documentbuilder/)
 Domine a criação de documentos com o Aspose.Words para Java. Um guia passo a passo para adicionar texto, tabelas, imagens e muito mais. Crie documentos Word impressionantes sem esforço.
+### [Como criar um documento Word em branco com um controle de texto no Aspose.Words](./how-to-create-a-blank-word-document-with-a-text-control/)
+
+Aprenda a gerar um documento Word vazio e inserir um controle de texto usando Aspose.Words para Java.
+### [Como criar documento Word em branco com um controle de texto simples em C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+
 ### [Clonando e combinando documentos no Aspose.Words para Java](./cloning-and-combining-documents/)
 Aprenda a clonar e combinar documentos no Aspose.Words para Java. Guia passo a passo com exemplos de código-fonte.
 ### [Comparando documentos no Aspose.Words para Java](./comparing-documents/)
@@ -105,7 +117,25 @@ Desbloqueie o poder do Aspose.Words para Java. Domine as opções e configuraç�
 ### [Usando propriedades de documento no Aspose.Words para Java](./using-document-properties/)
 Otimize o gerenciamento de documentos com o Aspose.Words para Java. Aprenda a trabalhar com propriedades de documentos, adicionar metadados personalizados e muito mais neste tutorial abrangente.
 ### [Usando extensões da Web no Aspose.Words para Java](./using-web-extensions/)
-Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente. 
+Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente.
+### [Criar botão ActiveX docx em Java – guia completo de programação](./create-docx-activex-button-in-java-complete-programming-guid/)
+Aprenda a inserir um botão ActiveX em documentos DOCX usando Aspose.Words para Java com exemplos passo a passo. 
+### [Como criar um documento Word em Java com Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aprenda a criar documentos Word em Java usando Aspose.Words de forma simples e rápida.
+### [Adicionando controle de conteúdo em documento Word com Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Aprenda a inserir e gerenciar controles de conteúdo em documentos Word usando Aspose.Words para Java.
+### [Criar documento em branco com um botão de comando interativo no Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
+Aprenda a criar um documento Word em branco com um botão de comando interativo usando Aspose.Words para Java.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
+### [Como salvar docx com DocumentBuilder e adicionar texto após um controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Aprenda a salvar documentos DOCX usando DocumentBuilder e inserir texto imediatamente após um controle no Aspose.Words para Java.
+### [Criando documento Word em branco em Java com Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Aprenda a criar um documento Word vazio usando Aspose.Words para Java.
+### [Como criar um documento Word em branco com Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aprenda a gerar um documento Word vazio usando Aspose.Words para Java com código simples.
+### [Criar um documento Word em branco e adicionar um botão ActiveX em C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+Aprenda a criar um documento Word em branco e inserir um botão ActiveX usando Aspose.Words para C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,19 @@ Pelajari cara membuat PDF yang dapat diakses menggunakan Aspose.Words dalam Pyth
 Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah lengkap.
 ### [Memulihkan Dokumen Word Rusak dengan Aspose.Words – Panduan Langkah demi Langkah Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dalam Python dengan panduan langkah demi langkah.
+### [Cara Memulihkan File docx di Python – Panduan Langkah demi Langkah](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
+### [Konfigurasi MarkdownSaveOptions untuk LaTeX di Python – Panduan Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Pelajari cara mengonfigurasi MarkdownSaveOptions agar dapat mengekspor dokumen ke format LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx dengan Aspose.Words untuk Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python.
+### [Aktifkan mode pemulihan untuk membuka dokumen Word yang rusak](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Pelajari cara mengaktifkan mode pemulihan agar dapat membuka dokumen Word yang rusak menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx Rusak dengan Aspose.Words di Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+### [Penangan Peringatan Font Aspose – Deteksi Font yang Hilang & Sesuaikan Pemuatan Dokumen](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Pelajari cara menangani peringatan font, mendeteksi font yang hilang, dan menyesuaikan proses pemuatan dokumen dengan Aspose.Words untuk Python.
+### [Aktifkan mode pemulihan untuk memulihkan dokumen Word yang rusak](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Pelajari cara mengaktifkan mode pemulihan di Aspose.Words untuk memperbaiki dokumen Word yang rusak secara otomatis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

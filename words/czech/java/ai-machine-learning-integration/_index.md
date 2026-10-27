@@ -73,6 +73,9 @@ Naučte se nastavit LLM pro automatické nahrazování textu v DOCX souborech po
 ### [Vytvořte vlastní AI model – úprava odstavců ve Wordu v Javě](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Naučte se, jak pomocí vlastního AI modelu automaticky upravovat a formátovat odstavce v dokumentech Word pomocí Aspose.Words pro Java.
 
+### [Vytvořte kontrolu gramatiky v Javě – kompletní průvodce krok za krokem](./build-grammar-checker-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words a AI vytvořit kontrolu gramatiky v Javě od začátku až po nasazení.
+
 ## Další zdroje
 
 - [Dokumentace Aspose.Words pro Java](https://reference.aspose.com/words/java/)

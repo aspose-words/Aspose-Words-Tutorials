@@ -1,0 +1,7 @@
+Title: How to insert image into docx and hide image in Word with Java
+Slug: how-to-insert-image-into-docx-and-hide-image-in-word-with-ja
+Category: images-shapes
+ProcessedDate: 2026-10-07T15:28:24.530849
+SourceRepo: AI Search API
+Keywords: insert image into docx, hide image in word, how to hide picture in word, create hidden shape
+PRNumber: 306

@@ -24,8 +24,10 @@
 | [تعيين موضع الحاشية السفلية والحاشية الختامية](./set-footnote-and-end-note-position/) |تعرف على كيفية تعيين مواضع الحواشي السفلية والختامية في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل خطوة بخطوة. |
 | [تعيين خيارات التعليقات الختامية](./set-endnote-options/) |تعرف على كيفية تعيين خيارات التعليقات الختامية في مستندات Word باستخدام Aspose.Words for .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [تغيير فاصل الحاشية السفلية في C# باستخدام Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | تعلم كيفية تعديل فاصل الحواشي السفلية في مستندات Word باستخدام Aspose.Words لـ .NET مع C#. |
+| [تنسيق فاصل الحاشية السفلية في C# باستخدام Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | تعلم كيفية تنسيق فاصل الحاشية السفلية في مستندات Word باستخدام Aspose.Words مع C#. |
 
 | [استرجاع فاصل الحاشية السفلية في C# – دليل كامل لـ Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | تعلم كيفية استرجاع فاصل الحاشية السفلية في مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [كيفية تغيير فاصل الحاشية السفلية وتخصيص نمطها في مستند Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | تعلم تعديل فاصل الحواشي السفلية وتخصيص مظهره في مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

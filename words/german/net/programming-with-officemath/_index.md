@@ -35,6 +35,7 @@ Die Aspose.Words für .NET-Tutorials zur Textverarbeitung mit OfficeMath führen
 | [Wie man LaTeX aus Word exportiert – Vollständiger Programmierleitfaden](./how-to-export-latex-from-word-complete-programming-guide/) | Erfahren Sie, wie Sie LaTeX aus Word-Dokumenten exportieren und die vollständige Programmieranleitung in C# nutzen. |
 | [Word-Gleichungen in LaTeX konvertieren – Vollständige C#‑Anleitung](./convert-word-equations-to-latex-complete-c-guide/) | Konvertieren Sie Word-Gleichungen in LaTeX mit einer vollständigen C#‑Anleitung. |
 
+| [DOCX als TXT speichern – Word-Formeln nach MathML exportieren](./save-docx-as-txt-export-word-equations-to-mathml/) | Erfahren Sie, wie Sie DOCX-Dateien in TXT konvertieren und mathematische Formeln nach MathML exportieren, mithilfe von C# und Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

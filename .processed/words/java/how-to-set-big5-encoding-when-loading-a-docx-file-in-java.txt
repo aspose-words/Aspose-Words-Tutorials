@@ -1,0 +1,7 @@
+Title: How to set Big5 encoding when loading a DOCX file in Java
+Slug: how-to-set-big5-encoding-when-loading-a-docx-file-in-java
+Category: document-loading-and-saving
+ProcessedDate: 2026-10-10T19:05:49.390608
+SourceRepo: AI Search API
+Keywords: set big5 encoding, change document encoding, convert docx encoding
+PRNumber: 311

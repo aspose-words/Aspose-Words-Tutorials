@@ -1,0 +1,7 @@
+Title: How to save translated Word document in C# with Google AI
+Slug: how-to-save-translated-word-document-in-c-with-google-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-26T18:26:06.691243
+SourceRepo: AI Search API
+Keywords: save translated word document
+PRNumber: 339

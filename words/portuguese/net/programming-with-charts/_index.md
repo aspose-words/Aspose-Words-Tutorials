@@ -46,26 +46,35 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 {{< tutorial-card link="./update-chart-title/" title="Atualizar o Título do Gráfico e Alternar a Visibilidade da Legenda no Word usando Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Salvar documento modificado com fatias de gráfico de pizza explodidas em C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Como formatar gráfico no Word com C# e formatos numéricos personalizados" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Como definir a contagem de bins de histograma e adicionar rótulos de dados em um gráfico do Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajustar programaticamente rótulos de gráfico em um documento Word com C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Título | Descrição |
 | --- | --- |
 | [Formato Número de Rótulo de Dados em um Gráfico](./format-number-of-data-label/) | Aprenda a formatar rótulos de dados em gráficos usando o Aspose.Words para .NET com este guia passo a passo. Aprimore seus documentos do Word sem esforço. |
 | [Crie e personalize gráficos usando formas](./create-chart-using-shape/) | Aprenda a criar e personalizar gráficos em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. Perfeito para visualização de dados. |
-| [Inserir gráfico de colunas simples em um documento do Word](./insert-simple-column-chart/) Aprenda a inserir um gráfico de colunas simples no Word usando o Aspose.Words para .NET. Aprimore seus documentos com apresentações visuais dinâmicas de dados. |
+| [Inserir gráfico de colunas simples em um documento do Word](./insert-simple-column-chart/) | Aprenda a inserir um gráfico de colunas simples no Word usando o Aspose.Words para .NET. Aprimore seus documentos com apresentações visuais dinâmicas de dados. |
 | [Inserir gráfico de colunas em um documento do Word](./insert-column-chart/) | Aprenda a inserir gráficos de colunas em documentos do Word usando o Aspose.Words para .NET. Aprimore a visualização de dados em seus relatórios e apresentações. |
 | [Inserir gráfico de área em um documento do Word](./insert-area-chart/) | Aprenda como inserir um gráfico de área em um documento do Word usando o Aspose.Words para .NET neste guia passo a passo abrangente. |
 | [Inserir gráfico de bolhas em documento do Word](./insert-bubble-chart/) | Aprenda a inserir um gráfico de bolhas em um documento do Word usando o Aspose.Words para .NET com este guia passo a passo. Aprimore seus documentos. |
 | [Inserir gráfico de dispersão em documento do Word](./insert-scatter-chart/) | Aprenda a inserir um gráfico de dispersão no Word com o Aspose.Words para .NET. Etapas simples para integrar representações visuais de dados aos seus documentos. |
 | [Criar gráfico de pizza no Word em C# – guia passo a passo](./create-pie-chart-word-in-c-step-by-step-guide/) | Aprenda a criar um gráfico de pizza em um documento do Word usando Aspose.Words para .NET com este guia passo a passo. |
+| [Como criar um gráfico de pizza em um documento Word com Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aprenda a criar um gráfico de pizza em um documento Word usando o Aspose.Words para .NET. |
+| [Como criar um histograma no Word com Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Aprenda a criar um histograma em documentos Word usando Aspose.Words para .NET com este guia passo a passo. |
+| [Como criar documento Word C# com gráfico de colunas e rótulos formatados](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aprenda a criar um documento Word em C# contendo um gráfico de colunas com rótulos formatados usando Aspose.Words. |
+| [Como formatar séries em um gráfico de linhas do Word com C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Aprenda a formatar séries em um gráfico de linhas no Word usando Aspose.Words para .NET com C#. |
+| [Como criar um gráfico de radar e adicionar ao Word com C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Aprenda a criar um gráfico de radar e inseri-lo em um documento Word usando Aspose.Words para .NET com C#. |
 | [Definir propriedades do eixo XY em um gráfico](./define-xyaxis-properties/) Aprenda a definir as propriedades do eixo XY em um gráfico usando o Aspose.Words para .NET com este guia passo a passo. Perfeito para desenvolvedores .NET. |
 | [Adicionar valores de data e hora ao eixo de um gráfico](./date-time-values-to-axis/) | Aprenda como adicionar valores de data e hora ao eixo de um gráfico usando o Aspose.Words para .NET neste guia passo a passo abrangente. |
-| [Formato numérico para eixo em um gráfico](./number-format-for-axis/) | Aprenda a formatar números de eixo de gráfico usando o Aspose.Words para .NET com este guia passo a passo. Melhore a legibilidade e o profissionalismo do seu documento sem esforço. |
+| [Formato numérico para eixo em um gráfico](./number-format-for-axis/) | Aprenda a formatar números de eixo de gráfico usando o Aspose.Words para .NET com um guia passo a passo. Melhore a legibilidade e o profissionalismo do seu documento sem esforço. |
 | [Limites do Eixo](./bounds-of-axis/) | Aprenda a definir os limites de um eixo em um gráfico usando o Aspose.Words para .NET controlando o intervalo de valores exibidos no eixo. |
 | [Unidade de intervalo entre rótulos no eixo de um gráfico](./interval-unit-between-labels-on-axis/) | Aprenda a definir a unidade de intervalo entre rótulos no eixo de um gráfico usando o Aspose.Words para .NET. |
-| [Ocultar eixo do gráfico em um documento do Word](./hide-chart-axis/) Aprenda como ocultar o eixo do gráfico em um documento do Word usando o Aspose.Words para .NET com nosso tutorial detalhado passo a passo. |
+| [Ocultar eixo do gráfico em um documento do Word](./hide-chart-axis/) | Aprenda como ocultar o eixo do gráfico em um documento do Word usando o Aspose.Words para .NET com nosso tutorial detalhado passo a passo. |
 | [Marque a opção Alinhamento de rótulos de várias linhas em um gráfico](./tick-multi-line-label-alignment/) | Aprenda a marcar o alinhamento de rótulos multilinhas em um gráfico usando o Aspose.Words para .NET com nosso guia passo a passo detalhado. Perfeito para desenvolvedores de todos os níveis. |
 | [Personalizar rótulo de dados do gráfico](./chart-data-label/) | Aprenda a personalizar rótulos de dados de gráficos usando o Aspose.Words para .NET em um guia passo a passo. Perfeito para desenvolvedores .NET. |
 | [Como adicionar rótulos de dados a um gráfico do Word em C# – guia passo a passo](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Aprenda a inserir rótulos de dados em gráficos do Word usando Aspose.Words para .NET com este tutorial passo a passo. |
@@ -77,6 +86,11 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Explodir fatia de gráfico de pizza em C# com Aspose.Words – Guia completo](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aprenda a explodir uma fatia de gráfico de pizza usando Aspose.Words para .NET em C#. Guia completo passo a passo. |
 | [Adicionar rótulos de gráfico de pizza em C# usando Aspose.Words – Guia completo](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aprenda a adicionar rótulos a gráficos de pizza no Word com Aspose.Words em C#. Guia passo a passo completo. |
 | [Como exibir porcentagens em um gráfico com Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a exibir porcentagens em gráficos usando Aspose.Words para .NET com este guia passo a passo. |
+| [Como criar documento Word com um gráfico de pizza personalizado em C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aprenda a criar um documento Word contendo um gráfico de pizza personalizado usando Aspose.Words para .NET em C#. |
+
+| [Como formatar gráfico no Word com C# e formatos numéricos personalizados](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Aprenda a aplicar formatos numéricos personalizados a gráficos no Word usando Aspose.Words para .NET e C#. |
+| [Criar gráfico de pizza em documento Word com Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Aprenda a criar um gráfico de pizza em documentos Word usando Aspose.Words para .NET com este guia passo a passo. |
+| [Criar gráfico de radar em um documento Word – guia completo em C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aprenda a criar um gráfico de radar em documentos Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,8 +45,8 @@ Toto je komplexní zdroj pro výuku práce s poli v dokumentech Word pomocí kni
 | [Převést pole v odstavci](./convert-fields-in-paragraph/) | Naučte se, jak převést pole IF na prostý text v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Převést pole v dokumentu](./convert-fields-in-document/) | Naučte se, jak převádět pole v dokumentech Word pomocí Aspose.Words pro .NET v tomto průvodci. Postupujte podle našeho tutoriálu a efektivně spravujte a transformujte pole ve svých dokumentech. |
 | [Převést pole v těle](./convert-fields-in-body/) | Naučte se, jak pomocí Aspose.Words pro .NET převést pole Stránky na text v těle dokumentu Word. |
-| [Změnit národní prostředí](./change-locale/) Naučte se v tomto průvodci, jak změnit národní prostředí v dokumentech Word pomocí Aspose.Words pro .NET. Ideální pro práci s mezinárodními klienty a projekty. |
-
+| [Změnit národní prostředí](./change-locale/) Naučte se v tomto průvodci, jak změnit národní prostředí v dokumentech Word pomocí Aspose.Words pro .NET. Ideální pro práci s mezinárodními klienty a projektech. |
+| [Vytvořit šablonu faktury a sloučit data pomocí Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Naučte se vytvořit šablonu faktury a sloučit data pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

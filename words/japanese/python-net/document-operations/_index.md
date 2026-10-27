@@ -83,6 +83,24 @@ Python と Aspose.Words を使用して、破損した DOCX ファイルを検�
 Python を使用して破損した DOCX ファイルを検出し、復元する手順をステップバイステップで解説します。
 ### [Python で破損した DOCX を復元 – 完全ステップバイステップガイド](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
 Python を使用して破損した DOCX ファイルを完全に復元する手順を詳しく解説します。
+### [PythonでAspose.Wordsを使用してDOCXを復元する方法](./how-to-recover-docx-in-python-using-aspose-words/)
+Aspose.Words for Python を使用して破損した DOCX ファイルを復元し、読み込む手順を解説します。
+### [Aspose.Words で破損した DOCX を復元 – ステップバイステップ ガイド](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Aspose.Words を使用して破損した DOCX ファイルを復元し、読み込む手順を詳しく解説します。
+
+## 破損した DOCX の復元 – Word 文書を開いて読み込む
+破損した DOCX ファイルを開き、復元して読み込む方法をステップバイステップで解説します。
+
+### [Aspose.Words for Python を使用して破損した DOCX ファイルを復元する方法](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+
+### [Aspose.Words for Python を使用した破損した DOCX ファイルの復元方法](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+Aspose.Words for Python で破損した DOCX ファイルを復元する手順を解説します。
+### [Aspose.Words で破損した Word ドキュメントを復元する完全ガイド](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Aspose.Words を活用して破損した Word ファイルを検出し、復元する手順とベストプラクティスを詳しく解説します。
+### [破損した DOCX の復元 – 完全 Python ガイド](./recover-corrupted-docx-complete-python-guide/)
+Python を使用して破損した DOCX ファイルを完全に復元し、読み込む方法をステップバイステップで解説します。
+### [Aspose.Words for Python で docx ファイルを復元する方法 – ステップバイステップ ガイド](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Aspose.Words for Python を使用して、破損した docx ファイルを復元する手順を詳しく解説します。
 
 ## 追加リソース
 

@@ -43,6 +43,7 @@
 | [로드 옵션이 있는 글꼴 설정](./font-settings-with-load-options/) Aspose.Words for .NET에서 글꼴 로드 옵션을 사용하여 글꼴 설정을 관리하는 방법을 알아보세요. 개발자가 Word 문서에서 일관된 글꼴 모양을 유지할 수 있도록 단계별 가이드를 제공합니다.|
 | [글꼴 폴더 설정](./set-fonts-folder/) | Aspose.Words for .NET에서 사용자 지정 글꼴 폴더를 설정하는 방법을 알아봅니다. 이렇게 하면 Word 문서에서 글꼴이 누락되지 않고 올바르게 렌더링됩니다. |
 | [글꼴 설정 기본 인스턴스](./font-settings-default-instance/) | 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 기본 글꼴 설정을 구성하는 방법을 알아봅니다. |
+| [FontSettings 설정 – 누락된 글꼴 처리](./how-to-set-fontsettings-handle-missing-fonts/) | Aspose.Words for .NET에서 FontSettings를 설정하여 누락된 글꼴을 처리하는 방법을 단계별로 안내합니다. |
 | [사용 가능한 글꼴 목록 가져오기](./get-list-of-available-fonts/) | Aspose.Words for .NET을 사용하여 사용 가능한 글꼴 목록을 가져오는 방법을 이 자세한 단계별 튜토리얼에서 알아보세요. 글꼴 관리 기술을 향상시키세요. |
 | [글꼴 알림 받기](./receive-notifications-of-fonts/) | Aspose.Words for .NET을 사용할 때 누락되거나 대체된 글꼴 알림을 받는 방법을 알아보세요. |
 | [경고 알림 수신](./receive-warning-notification/) Aspose.Words for .NET을 사용할 때 경고 알림을 받는 방법과 문서의 문제나 경고를 관리하는 방법을 알아보세요. |
@@ -70,6 +71,7 @@
 | [Aspose.Words에서 경고 캡처하는 방법 – 완전 가이드](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Aspose.Words 사용 시 발생하는 경고를 포착하고 처리하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 누락된 글꼴 처리 – 완전 C# 가이드](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET에서 누락된 글꼴을 감지하고 처리하는 방법을 C# 예제로 단계별 안내합니다. |
 | [Aspose.Words에서 누락된 글꼴을 처리하기 위해 FontSettings 사용 방법](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Aspose.Words for .NET에서 누락된 글꼴을 감지하고 대체하도록 FontSettings를 설정하는 단계별 가이드입니다. |
+| [C#를 사용한 문서에서 글꼴 대체 수행 방법](./how-to-perform-font-substitution-in-document-with-c/) | Aspose.Words for .NET을 사용하여 C#에서 문서 글꼴 대체를 수행하는 방법을 단계별로 안내합니다. |
 
 | [C#에서 글꼴 감지하기 – Aspose.Words와 콜백 사용](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aspose.Words for .NET을 사용하여 콜백을 통해 C#에서 문서의 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
 | [경고 캡처 방법 – 기본 글꼴 설정](./how-to-capture-warnings-set-default-font-settings/) | Aspose.Words for .NET을 사용하여 경고를 캡처하고 기본 글꼴 설정을 지정하는 방법을 단계별로 안내합니다. |
@@ -83,6 +85,9 @@
 | [C#에서 글꼴 감지하는 방법 – 완전 가이드](./how-to-detect-fonts-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 글꼴을 감지하는 방법을 단계별 가이드로 알아보세요. |
 | [Aspose 글꼴 대체 – Word 문서에서 누락된 글꼴 감지](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aspose.Words for .NET을 사용하여 Word 문서에서 누락된 글꼴을 감지하고 대체하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴을 감지하는 방법 – 완전 가이드](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 문서에서 사용된 글꼴을 감지하고 확인하는 방법을 단계별로 안내합니다. |
+| [IWarningCallback 사용 방법 – Aspose.Words로 누락된 글꼴 감지](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Aspose.Words for .NET에서 IWarningCallback을 구현하여 누락된 글꼴을 감지하고 알림을 받는 방법을 단계별로 안내합니다. |
+| [.NET에서 글꼴 로드 – 글꼴 설정 및 경고](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Aspose.Words for .NET을 사용하여 글꼴을 로드하고, 글꼴 설정과 경고를 관리하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 docx를 pdf로 저장하고 누락된 글꼴 감지](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Aspose.Words for .NET을 사용해 DOCX 파일을 PDF로 변환하고 누락된 글꼴을 감지하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Tanulja meg, hogyan manipulálhatja a dokumentumok tartalmát az Aspose.Words fo
 ### [Word-dokumentum létrehozása programozottan – Teljes lépésről‑lépésre útmutató](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Ismerd meg, hogyan hozhatsz létre Word-dokumentumot Java‑ban részletes, lépésről‑lépésre útmutatóval, kódmintákkal és tippekkel.
+### [Radiális diagram létrehozása és beillesztése Word dokumentumba Java-val](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Tanulja meg, hogyan hozhat létre radiális diagramot és illesztheti be Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

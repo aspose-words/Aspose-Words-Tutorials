@@ -66,6 +66,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแยกเนื้อหาจากเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดของเราจะทำให้กระบวนการนี้ง่ายขึ้น
 ### [วิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java](./helper-methods-for-extracting-content/)
 เรียนรู้วิธีแยกเนื้อหาจากเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java สำรวจวิธีการช่วยเหลือ การจัดรูปแบบแบบกำหนดเอง และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้
+### [วิธีสร้างเอกสาร Word ว่างด้วย Aspose.Words สำหรับ Java](./how-to-create-blank-word-document-with-aspose-words/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างโดยใช้ Aspose.Words สำหรับ Java อย่างง่ายดาย
 ### [การค้นหาและแทนที่ข้อความใน Aspose.Words สำหรับ Java](./finding-and-replacing-text/)
 เรียนรู้วิธีค้นหาและแทนที่ข้อความในเอกสาร Word ด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด พัฒนาทักษะการจัดการเอกสาร Java ของคุณ
 ### [การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java](./removing-content-from-documents/)
@@ -76,6 +78,7 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 จัดการช่วงเอกสารหลักใน Aspose.Words สำหรับ Java เรียนรู้การลบ การแยก และการจัดรูปแบบข้อความด้วยคู่มือที่ครอบคลุมนี้
 ### [การใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java](./using-structured-document-tags/)
 เรียนรู้วิธีใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้ สร้าง แก้ไข และเชื่อมโยง SDT กับข้อมูล XML ที่กำหนดเอง
+### [วิธีตั้งชื่อแท็กและเพิ่ม SDT ในเอกสาร Word ด้วย C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [การใช้สไตล์และธีมใน Aspose.Words สำหรับ Java](./using-styles-and-themes/)
 เรียนรู้วิธีการปรับปรุงการจัดรูปแบบเอกสารด้วย Aspose.Words สำหรับ Java สำรวจรูปแบบ ธีม และอื่นๆ ในคู่มือที่ครอบคลุมนี้พร้อมตัวอย่างโค้ดต้นฉบับ
 ### [การสร้างสารบัญใน Aspose.Words สำหรับ Java](./generating-table-of-contents/)
@@ -90,22 +93,45 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแบ่งเอกสารออกเป็นหน้า HTML ด้วย Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงเอกสารอย่างราบรื่น
 ### [การเพิ่มเนื้อหาโดยใช้ DocumentBuilder ใน Aspose.Words สำหรับ Java](./adding-content-using-documentbuilder/)
 สร้างเอกสารอย่างมืออาชีพด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนในการเพิ่มข้อความ ตาราง รูปภาพ และอื่นๆ สร้างเอกสาร Word ที่สวยงามได้อย่างง่ายดาย
+### [การบันทึก docx ด้วย DocumentBuilder และเพิ่มข้อความหลังคอนโทรลใน Aspose.Words สำหรับ Java](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+บันทึกไฟล์ docx ด้วย DocumentBuilder แล้วเพิ่มข้อความหลังคอนโทรล
 ### [การโคลนและการรวมเอกสารใน Aspose.Words สำหรับ Java](./cloning-and-combining-documents/)
 เรียนรู้วิธีโคลนและรวมเอกสารใน Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
+### [การสร้างเอกสาร Word ด้วยคอนเทนต์คอนโทรลข้อความธรรมดา](./create-word-document-with-a-plain-text-content-control/)
+เรียนรู้วิธีสร้างเอกสาร Word พร้อมคอนเทนต์คอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words สำหรับ Java
 ### [การเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java](./comparing-documents/)
 เรียนรู้วิธีเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java ซึ่งเป็นไลบรารี Java ที่ทรงพลังสำหรับการวิเคราะห์เอกสารอย่างมีประสิทธิภาพ 
 ### [การจัดรูปแบบเอกสารใน Aspose.Words สำหรับ Java](./formatting-documents/)
 เรียนรู้ศิลปะแห่งการจัดรูปแบบเอกสารใน Aspose.Words สำหรับ Java ด้วยคู่มือที่ครอบคลุมของเรา สำรวจฟีเจอร์อันทรงพลังและปรับปรุงทักษะการประมวลผลเอกสารของคุณ
-### [การเข้าร่วมและการผนวกเอกสารใน Aspose.Words สำหรับ Java](./joining-and-appending-documents/)
+### [การเข้าร่วมและการผนวกเอกสารใน Aspose.Wordsสำหรับ Java](./joining-and-appending-documents/)
 เรียนรู้วิธีรวมและผนวกเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java รักษาการจัดรูปแบบ จัดการส่วนหัว ส่วนท้าย และอื่นๆ
-### [การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Words สำหรับ Java](./using-document-options-and-settings/)
-ปลดล็อกพลังของ Aspose.Words สำหรับ Java เลือกและตั้งค่าเอกสารอย่างชาญฉลาดเพื่อการจัดการเอกสารที่ราบรื่น ปรับแต่ง และอื่นๆ อีกมากมาย
-### [การใช้คุณสมบัติเอกสารใน Aspose.Words สำหรับ Java](./using-document-properties/)
-เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
-### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
-ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Wordsสำหรับ Java](./using-document-options-and-settings/)
+ปลดล็อกพลังของ Aspose.Wordsสำหรับ Java เลือกและตั้งค่าเอกสารอย่างชาญฉลาดเพื่อการจัดการเอกสารที่ราบรื่น ปรับแต่ง และอื่นๆ อีกมากมาย
+### [การใช้คุณสมบัติเอกสารใน Aspose.Wordsสำหรับ Java](./using-document-properties/)
+เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Wordsสำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
+### [การใช้ส่วนขยายเว็บใน Aspose.Wordsสำหรับ Java](./using-web-extensions/)
+ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Wordsสำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
 ### [การทำแท็กการเข้าถึง PDF ใน Java – สร้าง PDF ที่เข้าถึงได้](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
-เรียนรู้วิธีเพิ่มแท็กการเข้าถึงให้กับ PDF ด้วย Aspose.Words สำหรับ Java เพื่อสร้างไฟล์ PDF ที่เป็นมิตรต่อผู้ใช้ที่ต้องการการช่วยเหลือ
+เรียนรู้วิธีเพิ่มแท็กการเข้าถึงให้กับ PDF ด้วย Aspose.Wordsสำหรับ Java เพื่อสร้างไฟล์ PDF ที่เป็นมิตรต่อผู้ใช้ที่ต้องการการช่วยเหลือ
+### [สร้างปุ่ม ActiveX ใน docx ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-docx-activex-button-in-java-complete-programming-guid/)
+เรียนรู้วิธีสร้างปุ่ม ActiveX ในไฟล์ docx ด้วย Java พร้อมตัวอย่างโค้ดเต็มขั้น
+### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX ด้วย C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX ด้วย C# โดยใช้ Aspose.Words
+### [วิธีสร้างเอกสาร Word ใน Java ด้วย Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+เรียนรู้ขั้นตอนการสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ Java อย่างง่ายดาย
+### [การเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+เรียนรู้วิธีเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java เพื่อจัดการข้อมูลอย่างยืดหยุ่น
+### [สร้างเอกสารเปล่าพร้อมปุ่มคำสั่งโต้ตอบใน Word ด้วย Java](./create-blank-document-with-an-interactive-command-button-in/)
+### [วิธีสร้างเอกสาร Word ว่างพร้อมตัวควบคุมข้อความใน Aspose.Wordsสำหรับ Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Wordsสำหรับ Java
+### [วิธีสร้างเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+เรียนรู้วิธีสร้างไฟล์ Word อย่างอัตโนมัติด้วย Aspose.Wordsสำหรับ Java
+### [สร้างเอกสาร Word ใหม่ – คู่มือขั้นตอนการเพิ่มแท็กโครงสร้าง](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+เรียนรู้วิธีสร้างเอกสาร Word ใหม่และเพิ่มแท็กโครงสร้างอย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [สร้างเอกสาร Word ว่างใน Java ด้วย Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ Word เปล่าใน Java ด้วย Aspose.Words อย่างง่ายดาย
+### [วิธีสร้างเอกสาร Word ว่างพร้อมคอนเทนต์คอนโทรลข้อความธรรมดาใน C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+สร้างเอกสาร Word ว่างพร้อมคอนเทนต์คอนโทรลข้อความธรรมดาโดยใช้ C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

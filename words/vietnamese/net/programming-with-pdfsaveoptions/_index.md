@@ -45,7 +45,6 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Cập nhật Thuộc tính được In Lần cuối trong Tài liệu PDF](./update-last-printed-property/) | Tìm hiểu cách cập nhật thuộc tính in cuối cùng trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Kết xuất 3D DML 3DEffects trong Tài liệu PDF](./dml-3deffects-rendering/) | Tìm hiểu cách tạo hiệu ứng DML 3D tuyệt đẹp trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Chèn hình ảnh vào tài liệu PDF](./interpolate-images/) | Tìm hiểu cách chèn hình ảnh vào tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện chất lượng hình ảnh PDF của bạn một cách dễ dàng. |
-| [Tạo PDF có thể truy cập trong C# – Hướng dẫn từng bước](./create-accessible-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết từng bước để tạo PDF có thể truy cập bằng C# với Aspose.Words, bao gồm các thiết lập khả năng tiếp cận. |
 | [Lưu Word thành PDF với Aspose Words – Hướng dẫn đầy đủ C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words trong C#. |
 | [Lưu docx thành pdf với Aspose.Words – Hướng dẫn C# đầy đủ](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu DOCX thành PDF bằng Aspose.Words trong C#. |
 | [Tạo PDF có thể truy cập từ Word bằng C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
@@ -85,6 +84,11 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ](./save-document-as-pdf-in-c-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# với Aspose.Words, bao gồm các tùy chọn và mã mẫu. |
 | [Tạo PDF có thể truy cập – Chuyển đổi Word sang PDF bằng C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF có khả năng truy cập bằng C# với Aspose.Words. |
 | [Lưu Word thành PDF – Hướng dẫn đầy đủ về khả năng truy cập](./save-word-as-pdf-complete-guide-with-accessibility/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF với tính năng truy cập, bao gồm thẻ, cấu trúc và nội dung cho người dùng khuyết tật. |
+| [Tạo PDF có thể truy cập từ Word – Hướng dẫn lập trình đầy đủ](./create-accessible-pdf-from-word-complete-programming-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
+| [Tạo tệp PDF/UA tuân thủ từ Word – Hướng dẫn xuất đầy đủ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Hướng dẫn đầy đủ cách tạo tệp PDF/UA tuân thủ tiêu chuẩn từ tài liệu Word. |
+| [Tạo PDF có thể truy cập trong C# – Hướng dẫn từng bước](./create-accessible-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có thể truy cập trong C# bằng Aspose.Words cho .NET, bao gồm các bước thiết lập và tối ưu hoá. |
+| [Lưu tài liệu dưới dạng PDF trong C# – Xuất hình dạng nội tuyến](./save-document-as-pdf-in-c-export-inline-shapes/) | Hướng dẫn chi tiết cách xuất các hình dạng nội tuyến khi lưu tài liệu Word thành PDF bằng Aspose.Words cho .NET trong C#. |
+| [Cách đặt RenderChoiceFormFieldBorder thành false khi chuyển đổi Word sang PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Hướng dẫn tắt RenderChoiceFormFieldBorder khi chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

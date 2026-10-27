@@ -209,7 +209,8 @@ If you hit a snag, drop a comment below or check Aspose’s official docs—they
 Happy coding, and enjoy the simplicity of turning rich Word files into lightweight, LaTeX‑ready text!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

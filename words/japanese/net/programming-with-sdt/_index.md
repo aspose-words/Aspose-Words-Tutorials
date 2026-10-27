@@ -31,6 +31,7 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 | [リッチテキストボックスコンテンツコントロール](./rich-text-box-content-control/) この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書にリッチ テキスト ボックス コンテンツ コントロールを追加およびカスタマイズする方法を説明します。 |
 | [コンテンツコントロールの色を設定する](./set-content-control-color/) Aspose.Words for .NET を使えば、Word の構造化ドキュメントタグの色を簡単に設定できます。この簡単なガイドに従って、構造化ドキュメントタグをカスタマイズし、ドキュメントの外観を向上させましょう。 |
 | [クリアコンテンツコントロール](./clear-contents-control/) ステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書内のコンテンツ コントロールをクリアする方法を学びます。 |
+| [C# で新しい Word 文書を作成しコンテンツ コントロールを挿入する](./create-new-word-document-and-insert-content-control-in-c/) C# を使用して新しい Word 文書を作成し、コンテンツ コントロールを挿入する方法を学びます。 |
 | [SDT をカスタム XML パーツにバインドする](./bind-sdt-to-custom-xml-part/) このステップバイステップのチュートリアルでは、Aspose.Words for .NET を使用して、構造化ドキュメント タグ (SDT) を Word 文書内のカスタム XML パーツにバインドする方法を学習します。 |
 | [コンテンツコントロールスタイルの設定](./set-content-control-style/) Aspose.Words for .NET を使用して Word 文書のコンテンツ コントロール スタイルを設定する方法を、この詳細なステップバイステップ ガイドで学習します。ドキュメントの美観を高めるのに最適です。 |
 | [カスタム XML パーツにマップされたテーブルの繰り返しセクションを作成する](./creating-table-repeating-section-mapped-to-custom-xml-part/) Aspose.Words for .NET を使用して、Word 文書内の CustomXmlPart にマップされた繰り返しセクションを含むテーブルを作成する方法について説明します。 |
@@ -41,6 +42,9 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 
 | [Word文書をプログラムで作成 – コンテンツコントロールとプレースホルダーを追加](./create-word-document-programmatically-add-content-control-an/) |
 | [Aspose.Words を使用した C# でのコンテンツ コントロールの作成方法](./how-to-create-content-control-in-c-with-aspose-words/) Aspose.Words for .NET を使って C# でコンテンツ コントロールを作成する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して SDT 付き Word 文書を C# で保存する方法](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) Aspose.Words for .NET を使い、構造化コンテンツコントロール (SDT) を含む Word 文書を C# で保存する手順を解説します。 |
+| [Aspose.Words を使用して Word 文書にコンテンツ コントロール ワードを追加する方法](./how-to-add-content-control-word-in-a-word-document-using-asp/) Aspose.Words を使用して Word 文書にコンテンツ コントロールを追加する手順を解説します。 |
+| [C# でコンテンツ コントロールを使用した Word 文書の作成方法](./how-to-create-word-document-with-content-controls-in-c/) Aspose.Words for .NET を使って、C# でコンテンツ コントロール付きの Word 文書を作成する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

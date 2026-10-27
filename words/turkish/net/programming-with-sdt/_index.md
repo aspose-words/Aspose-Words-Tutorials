@@ -25,6 +25,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | Başlık | Açıklama |
 | --- | --- |
 | [Onay Kutusu Türü İçerik Kontrolü](./check-box-type-content-control/) | Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin. |
+| [C# ile yeni Word belgesi oluşturma ve içerik kontrolü ekleme](./create-new-word-document-and-insert-content-control-in-c/) | C# kullanarak yeni bir Word belgesi oluşturun ve içerik kontrolü ekleyin. |
 | [Onay Kutusunun Mevcut Durumu](./current-state-of-check-box/) | Aspose.Words for .NET ile Word belgelerindeki onay kutularını nasıl yöneteceğinizi öğrenin. Bu kılavuz, onay kutularını programatik olarak ayarlamayı, güncellemeyi ve kaydetmeyi kapsar. |
 | [İçerik Denetimlerini Değiştir](./modify-content-controls/) | Aspose.Words for .NET kullanarak Word'de yapılandırılmış belge etiketlerini nasıl değiştireceğinizi öğrenin. Metni, açılır menüleri ve görselleri adım adım güncelleyin. |
 | [Combo Box İçerik Kontrolü](./combo-box-content-control/) | Ayrıntılı eğitimimizle Aspose.Words for .NET kullanarak Word belgelerinde birleşik kutu içerik denetimi oluşturun. Belgenizin etkileşimini artırmak için mükemmeldir. |
@@ -41,6 +42,9 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | [Aspose ile İçerik Kontrolü Ekleyin ve Word Belgesi Oluşturun – Tam Kılavuz](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words for .NET kullanarak içerik kontrolü ekleyip tam bir Word belgesi oluşturmayı adım adım öğrenin. |
 | [Programatik olarak Word belgesi oluştur – içerik kontrolü ve yer tutucu ekle](./create-word-document-programmatically-add-content-control-an/) | Aspose.Words for .NET kullanarak programlı bir şekilde Word belgesi oluşturup içerik kontrolü ve yer tutucu eklemeyi öğrenin. |
 | [C# ile Aspose.Words kullanarak içerik kontrolü oluşturma](./how-to-create-content-control-in-c-with-aspose-words/) |  |
+| [SDT kullanarak Word belgesini Aspose.Words ile C#'ta nasıl kaydedilir](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Aspose.Words ile SDT içeren bir Word belgesini C# kullanarak kaydetmeyi öğrenin. |
+| [Aspose.Words ile bir Word belgesine içerik kontrolü ekleme](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aspose.Words ile bir Word belgesine içerik kontrolü eklemenin adım adım rehberi. |
+| [C# ile içerik denetimlerine sahip Word belgesi oluşturma](./how-to-create-word-document-with-content-controls-in-c/) | Aspose.Words for .NET kullanarak C# ile içerik denetimlerine sahip bir Word belgesi oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

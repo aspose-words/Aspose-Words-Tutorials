@@ -45,6 +45,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du fixar grammatik i DOCX-filer med C# – Fullständig steg‑för‑steg‑guide](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Lär dig att rätta grammatikfel i DOCX-filer med C# i en detaljerad steg‑för‑steg‑guide. |
 | [Sammanfatta Word-dokument med lokal LLM – C#‑guide](./summarize-word-document-with-local-llm-c-guide/) | Lär dig att sammanfatta Word-dokument lokalt med en LLM i C# med vår steg‑för‑steg‑guide. |
 | [Sammanfatta Word-dokument i C# – Komplett AI‑driven guide](./summarize-word-document-in-c-complete-ai-powered-guide/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta Word-dokument i C# med Aspose.Words. |
+| [Sammanfatta docx-filer med Aspose.Words AI i C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta docx-filer i C# med Aspose.Words. |
 | [Hur du kontrollerar grammatik i DOCX med Aspose.Words – använd gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Lär dig att använda GPT‑4 Turbo för att automatiskt rätta grammatik i DOCX‑filer med Aspose.Words. |
 | [Hur du kontrollerar grammatik i Word med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i Word-dokument med vår kompletta guide. |
 | [Hur du kontrollerar grammatik i C# med en lokal LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Lär dig hur du använder en lokal LLM för att kontrollera grammatik i C#-applikationer med Aspose.Words. |
@@ -64,9 +65,9 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du kontrollerar grammatik i C# med Aspose.Words – Guide](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Lär dig hur du använder Aspose.Words för .NET i C# för att automatiskt kontrollera och rätta grammatik i dina dokument. |
 | [Hur du använder Summarize i Aspose.Words – Komplett guide](./how-to-use-summarize-in-aspose-words-complete-guide/) | Lär dig hur du använder Summarize-funktionen i Aspose.Words för .NET för att automatiskt sammanfatta dokument. |
 | [Skriv om stycke med AI i C# – Så konfigurerar du lokal LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Lär dig att använda AI för att omformulera stycken i C# och konfigurera en lokal LLM med Aspose.Words. |
-| [Hur man kontrollerar grammatik med Aspose.Words AI – Komplett guide](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Lär dig att automatiskt kontrollera grammatik i Word-dokument med Aspose.Words AI i en steg-för-steg-guide. |
+| [Hur du kontrollerar grammatik med Aspose.Words AI – Komplett guide](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Lär dig att automatiskt kontrollera grammatik i Word-dokument med Aspose.Words AI i en steg-för-steg-guide. |
 | [Skapa sammanfattning med AI – C# Aspose Words-handledning](./create-summary-with-ai-c-aspose-words-tutorial/) | Lär dig att skapa automatiska sammanfattningar av Word-dokument med AI i C# med Aspose.Words. |
-| [Hur man kontrollerar grammatik i Word med C# – Komplett guide](./how-to-check-grammar-in-word-with-c-complete-guide/) | Lär dig att använda Aspose.Words för .NET för att kontrollera grammatik i Word-dokument med C# i en komplett guide. |
+| [Hur du kontrollerar grammatik i Word med C# – Komplett guide](./how-to-check-grammar-in-word-with-c-complete-guide/) | Lär dig att använda Aspose.Words för .NET för att kontrollera grammatik i Word-dokument med C# i en komplett guide. |
 | [Hur du kontrollerar grammatik i C# med Aspose.Words – Steg‑för‑steg‑guide](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Lär dig att använda Aspose.Words för .NET för att automatiskt kontrollera grammatik i C#‑applikationer. |
 | [Sammanfatta Word-dokument med en lokal LLM – Steg‑för‑steg C#‑guide](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Lär dig hur du använder en lokal LLM för att sammanfatta Word-dokument med C# i en tydlig steg‑för‑steg‑guide. |
 | [Kontrollera Word-grammatik med Aspose.Words AI – Komplett guide](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Lär dig hur du använder Aspose.Words AI för att automatiskt rätta grammatiken i Word-dokument med en komplett steg‑för‑steg‑guide. |
@@ -74,6 +75,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Skapa dokumentsammanfattning med Aspose.Words och OpenAI](./create-document-summary-with-aspose-words-openai/) | Lär dig hur du använder Aspose.Words för .NET tillsammans med OpenAI för att automatiskt sammanfatta dokument. |
 | [Översätt docx till franska med Aspose.Words och Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Lär dig hur du använder Aspose.Words och Google API för att översätta DOCX-filer till franska. |
 | [Skapa dokumentsammanfattning i C# – Komplett OpenAI-guide](./create-document-summary-in-c-complete-openai-guide/) | Lär dig steg-för-steg hur du använder OpenAI för att skapa sammanfattningar av dokument i C# med Aspose.Words. |
+| [Hur du sammanfattar Word-dokument med OpenAI i C#](./how-to-summarize-word-document-with-openai-in-c/) | Lär dig att sammanfatta Word-dokument med OpenAI i C# med Aspose.Words. |
 | [Översätt DOCX till franska med Aspose.Words.AI – Fullständig guide](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med Aspose.Words.AI för snabba och korrekta resultat. |
 | [Sammanfatta Word-dokument med Aspose.Words AI – Fullständig guide](./summarize-word-document-with-aspose-words-ai-full-guide/) | Lär dig att använda Aspose.Words AI för att sammanfatta Word-dokument i en komplett guide. |
 | [AI-dokumentsammanfattning i C# – komplett guide](./ai-document-summarization-in-c-complete-guide/) | Lär dig att med Aspose.Words för .NET och AI skapa effektiva dokumentsammanfattningar i C# med vår kompletta guide. |
@@ -81,13 +83,17 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Översätt docx till franska med AI i C#](./translate-docx-to-french-with-ai-in-c/) | Lär dig att översätta DOCX-filer till franska med AI i C# med Aspose.Words. |
 | [Anropa OpenAI API från C# – Komplett guide för att skriva om Word-paragrafer](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Lär dig hur du använder OpenAI API i C# för att automatiskt omformulera Word-paragrafer med Aspose.Words. |
 | [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
-
+| [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
+| [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
+| **[Hur du sparar översatt Word-dokument i C# med Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/)** | Lär dig spara ett Word-dokument som har översatts med Google AI i C# med en steg‑för‑steg‑guide. |
+| [Anropa OpenAI API från C# – Komplett guide för att skriva om Word-paragrafer](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Lär dig hur du använder OpenAI API i C# för att automatiskt omformulera Word-paragrafer med Aspose.Words. |
+| [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
+| [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
+| [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

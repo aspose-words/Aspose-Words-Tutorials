@@ -35,6 +35,7 @@
 | [πώς να αποθηκεύσετε docx ως txt – μετατροπή docx, εξαγωγή LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως TXT και να εξάγετε LaTeX χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Αποθήκευση docx ως txt – Πλήρης Οδηγός για τη Μετατροπή Αρχείων Word σε Απλό Κείμενο](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε απλό κείμενο TXT με πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση docx ως txt και εξαγωγή εξισώσεων Word σε LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως txt και να εξάγετε εξισώσεις Word σε LaTeX χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Μετατροπή docx σε txt με C# – Πλήρης Οδηγός Προγραμματισμού](./convert-docx-to-txt-with-c-complete-programming-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt με C# χρησιμοποιώντας το Aspose.Words, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα. |
 | [Μετατροπή αρχείου κειμένου σε έγγραφο του Word](./txt-to-docx/) | Μάθετε πώς να μετατρέπετε αρχεία κειμένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Διαχειριστείτε αποτελεσματικά τις μετατροπές εγγράφων με τον ολοκληρωμένο οδηγό μας. | 
 | [Αποθήκευση PDF ως Jpeg](./pdf-to-jpeg/) | Μετατρέψτε εύκολα αρχεία PDF σε JPEG χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον λεπτομερή οδηγό μας με παραδείγματα και συχνές ερωτήσεις. Ιδανικό για προγραμματιστές και λάτρεις. |
 | [Αποθήκευση PDF σε μορφή Word (Docx)](./pdf-to-docx/) | Μάθετε πώς να μετατρέψετε ένα PDF σε έγγραφο Word (Docx) χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον λεπτομερ... |
@@ -81,6 +82,8 @@
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός](./save-word-as-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words με πλήρη οδηγίες βήμα‑βήμα. |
 | [Μετατροπή Markdown σε DOCX με Aspose.Words – Πλήρης Οδηγός C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Markdown σε DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
 | [Μετατροπή DOCX σε PDF C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
+| [Μετατροπή docx σε pdf σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε PDF σε C# χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
+| [Δημιουργία PDF από DOCX σε C# – Οδηγός βήμα‑βήμα](./create-pdf-from-docx-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF από DOCX σε C# με το Aspose.Words, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

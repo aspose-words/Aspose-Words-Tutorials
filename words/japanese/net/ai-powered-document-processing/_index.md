@@ -43,7 +43,7 @@
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
 | [C# で Word 文書を要約する – 完全 AI 搭載ガイド](./summarize-word-document-in-c-complete-ai-powered-guide/) Aspose.Words for .NET と AI を活用し、C# で Word 文書を自動要約する完全ガイドです。 |
-| [Aspose.Words AI を使用した Word の文法チェック方法 – 完全ガイド](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) Aspose.Words AI を活用して Word 文書の文法を自動的にチェックし、修正提案を得る手順を詳しく解説します。 |
+| [Aspose.Words AI を使用した Word の文法チェック方法 – 完全ガイド](./how-to-check-grammar-in-word-with-aspose-words-ai/) Aspose.Words AI を活用して Word 文書の文法を自動的にチェックし、修正提案を得る手順を詳しく解説します。 |
 | [ローカル LLM を使って C# の文法チェック方法](./how-to-check-grammar-in-c-using-a-local-llm/) ローカル LLM を活用して C# コードの文法エラーを検出し、修正する手順を学びます。 |
 | [Word 文書を要約する方法 – 完全 C# ガイド](./how-to-summarize-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書を効果的に要約する完全な手順をご紹介します。 |
 | [ローカルLLMでWord文書を要約 – C# ガイド](./summarize-word-document-with-local-llm-c-guide/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で Word 文書を要約する手順を解説します。 |
@@ -77,8 +77,33 @@
 | [C# における AI 文書要約 – 完全ガイド](./ai-document-summarization-in-c-complete-guide/) Aspose.Words for .NET と C# を使用して、AI を活用した文書要約を作成する完全ガイドです。ステップバイステップで解説します。 |
 | [C# で AI 要約を作成する – ステップバイステップ ガイド](./create-ai-summary-in-c-step-by-step-guide/) Aspose.Words for .NET と AI を組み合わせ、C# で文書要約を自動化する方法を段階的に解説します。 |
 | [C# で AI を使用して docx をフランス語に翻訳](./translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx 文書をフランス語に自動翻訳する方法を解説します。 |
+| [C# で docx をフランス語に翻訳する – ステップバイステップ ガイド](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) Aspose.Words for .NET と C# を使用し、docx をフランス語に翻訳する手順をステップバイステップで解説します。 |
 | [C# から OpenAI API を呼び出す – Word 段落を書き換える完全ガイド](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) C# で OpenAI API を利用し、Word の段落を書き換える方法を学びます。 |
 | [C# で文法チェック – Aspose.Words AI 完全ガイド](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) C# で Aspose.Words AI を活用し、文書の文法チェックを行う方法を詳しく解説します。 |
+| [C# で Word 文書を要約する – AI を活用したステップバイステップ ガイド](./summarize-word-document-in-c-step-by-step-guide-using-ai/) C# と AI を使用して Word 文書を要約する手順を段階的に学びます。 |
+| [DOCX をフランス語に翻訳し、文書翻訳を自動化する方法](./how-to-translate-docx-to-french-and-automate-document-transl/) Aspose.Words for .NET を使用して DOCX をフランス語に翻訳し、翻訳プロセスを自動化する方法を学びます。 |
+| [C# で CheckGrammar を呼び出す方法 - 完全ガイド](./how-to-call-checkgrammar-in-c-complete-guide/) Aspose.Words for .NET の CheckGrammar メソッドを C# で使用し、文法チェックを実装する手順を解説します。 |
+| [ローカル LLM チュートリアル – ローカル LLM を呼び出して文法チェックを実行する方法](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、文書の文法チェックを自動化する手順を学びます。 |
+| [C#で要約レポートを作成 – 完全ステップバイステップガイド](./create-summary-report-in-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、C#で文書要約レポートを作成する完全な手順を学びます。 |
+| [カスタム AI モデルの作成 – C# における文法チェックの完全ガイド](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) Aspose.Words for .NET とカスタム AI モデルを組み合わせ、C# で文法チェックを実装する手順を詳しく解説します。 |
+| [C# でローカル LLM を使用して段落を書き換える完全ガイド](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で段落を書き換える手順をステップバイステップで解説します。 |
+| [C# で AI ドキュメント要約ツールの使用方法](./how-to-use-an-ai-document-summarizer-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# でドキュメント要約機能を実装する手順を解説します。 |
+| [Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-using-aspose-words-ai/) Aspose.Words AI を活用し、docx ファイルをフランス語に自動翻訳する手順を解説します。 |
+| [C# で Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
+| [C# で Aspose.Words AI を使用して docx ファイルを要約する方法](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルを自動的に要約する手順を解説します。 |
+| [AI プロバイダーを使用した C# での Word 文書要約方法](./how-to-summarize-word-document-with-ai-providers-in-c/) Aspose.Words for .NET と AI プロバイダーを組み合わせて、C# で Word 文書を自動要約する方法を解説します。 |
+| [Aspose.Words AI を使用した Word 文書の要約方法](./how-to-summarize-a-word-document-with-aspose-words-ai/) Aspose.Words for .NET と AI を活用し、Word 文書を自動的に要約する手順を解説します。 |
+| [C# で翻訳ツールを使用して文書翻訳を自動化する方法](./how-to-use-translator-to-automate-document-translation-in-c/) Aspose.Words と翻訳ツールを組み合わせ、C# で文書翻訳を自動化する手順を解説します。 |
+| [AI ドキュメント要約で Word 文書を要約する](./summarize-word-document-with-ai-document-summarization/) Aspose.Words for .NET と AI を組み合わせて、Word 文書を自動的に要約する方法を解説します。 |
+| [C# で AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
+| [Aspose.Words AI で Word 文書に要約を追加](./add-summary-to-word-document-with-aspose-words-ai/) Aspose.Words の AI 機能を活用し、Word 文書に自動的に要約を挿入する手順を学びます。 |
+| [C# で Word 文書を要約する – 完全 Aspose.Words AI ガイド](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) Aspose.Words と AI を活用し、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
+| [Aspose.Words AI で docx をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-ai/) Aspose.Words の AI 機能で docx ファイルをフランス語に自動翻訳する方法を学びます。 |
+| [空白のWord文書を作成し、フランス語に翻訳する](./create-a-blank-word-document-and-translate-it-to-french/) Aspose.Words for .NET を使用して空のWord文書を作成し、フランス語へ自動翻訳する方法を学びます。 |
+| [Aspose.Words AI を使用した C# で文字列をスペイン語に翻訳する](./translate-string-to-spanish-in-c-with-aspose-words-ai/) Aspose.Words AI を活用し、C# で文字列を簡単にスペイン語へ翻訳する方法を学びます。 |
+| [段落をフランス語に翻訳し、Word のチャートラベルを変更する](./translate-paragraph-to-french-and-change-chart-label-in-word/) Aspose.Words for .NET を使用して、段落をフランス語に翻訳し、Word 文書内のチャートラベルを変更する方法を学びます。 |
+| [Google AI を使用して C# で翻訳された Word 文書を保存する方法](./how-to-save-translated-word-document-in-c-with-google-ai/) Google AI を活用し、C# で翻訳された Word 文書を保存する手順をステップバイステップで解説します。 |
+| [OpenAI を使用して C# で Word 文書を要約する方法](./how-to-summarize-word-document-with-openai-in-c/) Aspose.Words for .NET と OpenAI を組み合わせ、C# で Word 文書を自動要約する手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,6 +111,5 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

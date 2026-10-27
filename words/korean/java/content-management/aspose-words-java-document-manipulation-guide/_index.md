@@ -272,6 +272,6 @@ A: `new Document("file.doc")` 로 문서를 로드하고 `setPageColor` 를 호�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -68,6 +68,10 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les équations LaTeX avec Aspose.Words pour .NET.
 
 ### [Enregistrer docx en markdown avec Aspose.Words – Guide complet C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+### [Convertir docx en markdown – Guide complet avec exportation d'équations](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+
+Apprenez à convertir des fichiers DOCX en Markdown tout en exportant les équations grâce à Aspose.Words pour .NET.
+
 
 Apprenez à enregistrer des fichiers DOCX en Markdown en utilisant Aspose.Words avec un guide complet en C#.
 ### [Enregistrer docx en markdown – Exporter les équations Word en LaTeX en C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
@@ -267,6 +271,15 @@ Apprenez à exporter des fichiers DOCX au format Markdown avec un guide complet 
 ### [Enregistrer le markdown en docx en C# – guide étape par étape](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
 Apprenez à convertir un fichier Markdown en document Word (docx) en C# avec un guide détaillé étape par étape.
+### [Enregistrer docx en markdown – Guide complet avec extraction d'images](./save-docx-as-markdown-complete-guide-with-image-extraction/)
+### [Télécharger des images vers CDN dans la conversion DOCX en Markdown – Guide complet](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+### [Aspose docx en markdown – Guide complet pour convertir et extraire les images](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+
+Apprenez à convertir des fichiers DOCX en Markdown et à extraire les images avec Aspose.Words pour .NET.
+
+### [Convertir DOCX en Markdown – Guide complet avec ombre de forme et récupération](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+
+Apprenez à convertir des fichiers DOCX en Markdown tout en gérant les ombres de formes et en récupérant les documents corrompus grâce à Aspose.Words pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

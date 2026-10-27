@@ -44,6 +44,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Travailler avec les options de résumé](./working-with-summarize-options/) | Apprenez à résumer efficacement des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape sur l'intégration de modèles d'IA pour des informations rapides. |
 | [Résumer un document Word avec l'IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Comparez OpenAI et Gemini pour résumer vos documents Word avec Aspose.Words pour .NET. |
 | [Résumer un document Word en C# – Guide complet alimenté par l'IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Apprenez à résumer automatiquement des documents Word en C# avec Aspose.Words et l'IA, étape par étape. |
+| [Comment résumer des fichiers docx avec Aspose.Words IA en C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Apprenez à résumer automatiquement des fichiers docx en C# avec l'IA d'Aspose.Words. |
 | [Comment vérifier la grammaire d'un DOCX avec Aspose.Words – utiliser gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Vérifiez la grammaire de vos fichiers DOCX en utilisant Aspose.Words et le modèle gpt‑4 turbo pour des corrections précises. |
 | [Comment vérifier la grammaire dans Word avec Aspose.Words IA – Guide complet](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Apprenez à utiliser l'IA d'Aspose.Words pour détecter et corriger les fautes de grammaire dans vos documents Word. |
 | [Comment vérifier la grammaire en C# à l'aide d'un LLM local](./how-to-check-grammar-in-c-using-a-local-llm/) | Apprenez à vérifier la grammaire de vos fichiers C# en utilisant un modèle de langage local avec Aspose.Words. |
@@ -78,16 +79,40 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Résumer un document Word avec Aspose.Words AI – Guide complet](./summarize-word-document-with-aspose-words-ai-full-guide/) | Apprenez à résumer automatiquement des documents Word en utilisant l'IA d'Aspose.Words grâce à ce guide complet. |
 | [Synthèse de documents IA en C# – guide complet](./ai-document-summarization-in-c-complete-guide/) | Guide complet pour résumer des documents avec l'IA en C# en utilisant Aspose.Words. |
 | [Créer un résumé IA en C# – guide étape par étape](./create-ai-summary-in-c-step-by-step-guide/) | Apprenez à générer des résumés IA à partir de documents Word en C# avec Aspose.Words, étape par étape. |
-| [Traduire un docx en français avec l'IA en C#](./translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire des fichiers docx en français à l'aide de l'IA en C# avec Aspose.Words. |
+| [Traduire un docx en français avec l'IA en C#](./translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers docx en français à l'aide de l'IA en C# avec Aspose.Words. |
 | [Appeler l'API OpenAI depuis C# – Guide complet pour réécrire les paragraphes Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Utilisez l'API OpenAI avec C# pour réécrire automatiquement les paragraphes Word via Aspose.Words. |
 | [Comment vérifier la grammaire en C# avec Aspose.Words IA – Guide complet](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Apprenez à utiliser l'IA d'Aspose.Words pour vérifier la grammaire de vos documents C# et améliorer la qualité du texte. |
-
+| [Résumer un document Word en C# – guide étape par étape avec l'IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Apprenez à résumer un document Word en C# en utilisant l'IA avec Aspose.Words, étape par étape. |
+| [Comment appeler CheckGrammar en C# – Guide complet](./how-to-call-checkgrammar-in-c-complete-guide/) | Apprenez à utiliser la méthode CheckGrammar d'Aspose.Words en C# pour corriger la grammaire de vos documents Word. |
+| [Tutoriel LLM local – Comment appeler un LLM local et exécuter une vérification grammaticale](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Apprenez à appeler un modèle de langage local et à effectuer une vérification grammaticale avec Aspose.Words pour .NET. |
+| [Créer un rapport de synthèse en C# – Guide complet étape par étape](./create-summary-report-in-c-complete-step-by-step-guide/) | Apprenez à générer un rapport de synthèse en C# avec Aspose.Words, étape par étape, pour automatiser la création de résumés de documents. |
+| [Créer un modèle d'IA personnalisé – Guide complet de vérification grammaticale en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Apprenez à créer un modèle d'IA personnalisé pour vérifier la grammaire des documents C# avec Aspose.Words. |
+| [Comment réécrire un paragraphe avec un LLM local en C# – Guide complet](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Apprenez à réécrire des paragraphes en C# en utilisant un modèle de langage local, avec un guide complet pas à pas. |
+| [Comment utiliser un résumeur de documents IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Apprenez à résumer automatiquement des documents avec un modèle IA en C# en utilisant Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| **[Comment traduire un docx en français avec Aspose.Words IA – Guide étape par étape](./how-to-translate-docx-to-french-in-c-step-by-step-guide/)** | Apprenez à traduire automatiquement des fichiers DOCX en français avec Aspose.Words en C# grâce à ce guide étape par étape. |
+| [Comment enregistrer un document Word traduit en C# avec Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Apprenez à enregistrer automatiquement un document Word traduit en C# en utilisant l'IA de Google. |
+| [Comment résumer un document Word avec OpenAI en C#](./how-to-summarize-word-document-with-openai-in-c/) |  |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

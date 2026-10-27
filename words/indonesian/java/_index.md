@@ -143,8 +143,6 @@ A: Tentu—Aspose.Words secara otomatis menyematkan semua font yang diperlukan, 
 **Diuji Dengan:** Aspose.Words for Java 24.12  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Aspose.Words Java: Panduan Komprehensif untuk Pemrosesan Dokumen Word](/words/java/document-operations/aspose-words-java-master-word-processing/)
@@ -157,10 +155,10 @@ A: Tentu—Aspose.Words secara otomatis menyematkan semua font yang diperlukan, 
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-11-26  
 **Diuji Dengan:** Aspose.Words for Java 24.11 (latest)  
 **Penulis:** Aspose
+
+{{< blocks/products/products-backtop-button >}}

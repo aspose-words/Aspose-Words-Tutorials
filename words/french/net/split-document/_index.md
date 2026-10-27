@@ -21,6 +21,7 @@ Split Document est une ressource complète qui explique comment diviser un docum
 | Titre | Description |
 | --- | --- |
 | [Diviser un document Word par titres HTML](./by-headings-html/) | Apprenez à diviser un document Word par titres en HTML avec Aspose.Words pour .NET. Suivez notre guide détaillé, étape par étape. |
+| [Diviser un document Word en sections par titre en C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Apprenez à diviser un document Word en sections par titre avec Aspose.Words pour .NET en C#. |
 | [Diviser un document Word en sections HTML](./by-sections-html/) Apprenez à diviser un document Word en sections en HTML à l'aide d'Aspose.Words pour .NET avec ce guide détaillé, étape par étape. |
 | [Diviser un document Word en sections](./by-sections/) | Apprenez à diviser un document Word en sections avec Aspose.Words pour .NET. Suivez ce guide détaillé, étape par étape, pour une gestion efficace de vos documents. |
 | [Diviser un document Word par page](./page-by-page/) | Apprenez à diviser un document Word par page avec Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Idéal pour gérer efficacement des documents volumineux. |
@@ -28,6 +29,7 @@ Split Document est une ressource complète qui explique comment diviser un docum
 | [Diviser un document Word par plage de pages](./by-page-range/) | Découvrez comment diviser un document Word par plage de pages avec Aspose.Words pour .NET grâce à notre guide détaillé étape par étape. Idéal pour les développeurs. |
 | [Créer un PDF à partir de pages – Guide d'extraction de pages spécifiques](./create-pdf-from-pages-extract-specific-pages-guide/) | Apprenez à créer un PDF à partir de pages spécifiques avec Aspose.Words pour .NET. Suivez notre guide détaillé, étape par étape. |
 
+| [Comment diviser un document Word en fichiers séparés avec C#](./how-to-split-word-document-into-separate-files-with-c/) | Apprenez à diviser un document Word en fichiers distincts avec C# et Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

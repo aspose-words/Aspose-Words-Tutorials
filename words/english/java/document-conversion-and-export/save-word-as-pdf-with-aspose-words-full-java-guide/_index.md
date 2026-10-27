@@ -196,8 +196,8 @@ Give it a try, tweak the `ExportFloatingShapesAsInlineTag` setting, and see how 
 
 Happy coding, and enjoy turning Word documents into flawless PDFs!
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

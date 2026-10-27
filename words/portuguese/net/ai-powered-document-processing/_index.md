@@ -45,6 +45,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como corrigir gramática em arquivos DOCX com C# – Guia completo passo a passo](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Aprenda a identificar e corrigir erros gramaticais em documentos DOCX usando C# e Aspose.Words, com instruções detalhadas passo a passo. |
 | [Resumir documento Word com LLM local – Guia C#](./summarize-word-document-with-local-llm-c-guide/) | Aprenda a usar um modelo de linguagem local em C# para resumir documentos Word rapidamente com Aspose.Words. |
 | [Resumir documento Word em C# – Guia completo com IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aprenda a resumir documentos Word usando C# e IA com um guia passo a passo completo. |
+| [Como resumir arquivos docx com Aspose.Words AI em C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aprenda a resumir arquivos docx usando Aspose.Words AI em C# com um guia passo a passo. |
 | [Como verificar gramática em DOCX com Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a usar o Aspose.Words para .NET com o modelo gpt-4 turbo para corrigir gramática em arquivos DOCX de forma automática. |
 | [Como Verificar Gramática no Word com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aprenda a usar a IA do Aspose.Words para analisar e corrigir a gramática em documentos Word de forma automática. |
 | [Como Verificar Gramática em C# Usando um LLM Local](./how-to-check-grammar-in-c-using-a-local-llm/) | Aprenda a usar um LLM local em C# para corrigir gramática em documentos Word com Aspose.Words. |
@@ -74,21 +75,82 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Resumir Texto com IA em C# – Guia de Programação Completo](./summarize-text-with-ai-in-c-complete-programming-guide/) | Aprenda a usar IA para resumir texto em C# com um guia passo a passo completo usando Aspose.Words. |
 | [Criar resumo de documento com Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Aprenda a criar resumos de documentos usando Aspose.Words para .NET e os modelos da OpenAI. |
 | [Traduzir docx para francês com Aspose.Words e API do Google](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET e a API de tradução do Google. |
+| [Como salvar documento Word traduzido em C# com IA do Google](./how-to-save-translated-word-document-in-c-with-google-ai/) | Aprenda a salvar documentos Word traduzidos usando C# e a IA do Google com Aspose.Words. |
 | [Traduzir docx para francês com Aspose.Words.AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
 | [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
 | [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
 | [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
 | [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
-| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words, passo a passo. |
-| [Chamar API OpenAI a partir de C# – Guia Completo para Reescrever Parágrafos do Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Aprenda a usar a API OpenAI em C# para reescrever parágrafos do Word de forma automatizada. |
-| [Como Verificar Gramática em C# com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Aprenda a usar a IA do Aspose.Words para corrigir gramática em documentos Word via C#, passo a passo. |
+| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
+| [Como traduzir docx para francês em C# – guia passo a passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda passo a passo a traduzir arquivos DOCX para francês usando C# e Aspose.Words. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
+| [Resumir documento Word com sumarização de IA](./summarize-word-document-with-ai-document-summarization/) | Aprenda a resumir documentos Word usando IA com Aspose.Words em um guia passo a passo. |
+| [Como traduzir docx para francês com Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Traduzir docx para francês com Aspose.Words AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
+| [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
+| [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
+| [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
+| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
+| [Como traduzir docx para francês com IA em C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês em C# – guia passo a passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda passo a passo a traduzir arquivos DOCX para francês usando C# e Aspose.Words. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
+| [Resumir documento Word com sumarização de IA](./summarize-word-document-with-ai-document-summarization/) | Aprenda a resumir documentos Word usando IA com Aspose.Words em um guia passo a passo. |
+| [Como traduzir docx para francês com Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Traduzir docx para francês com Aspose.Words AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
+| [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
+| [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
+| [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
+| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
+| [Como traduzir docx para francês com IA em C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês em C# – guia passo a passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda passo a passo a traduzir arquivos DOCX para francês usando C# e Aspose.Words. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
+| [Resumir documento Word com sumarização de IA](./summarize-word-document-with-ai-document-summarization/) | Aprenda a resumir documentos Word usando IA com Aspose.Words em um guia passo a passo. |
+| [Como traduzir docx para francês com Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Traduzir docx para francês com Aspose.Words AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
+| [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
+| [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
+| [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
+| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
+| [Como traduzir docx para francês com IA em C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês em C# – guia passo a passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda passo a passo a traduzir arquivos DOCX para francês usando C# e Aspose.Words. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
+| [Resumir documento Word com sumarização de IA](./summarize-word-document-with-ai-document-summarization/) | Aprenda a resumir documentos Word usando IA com Aspose.Words em um guia passo a passo. |
+| [Como traduzir docx para francês com Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Traduzir docx para francês com Aspose.Words AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
+| [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
+| [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
+| [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
+| [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
+| [Como traduzir docx para francês com IA em C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words passo a passo. |
+| [Como traduzir docx para francês em C# – guia passo a passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda passo a passo a traduzir arquivos DOCX para francês usando C# e Aspose.Words. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
+| [Resumir documento Word com sumarização de IA](./summarize-word-document-with-ai-document-summarization/) | Aprenda a resumir documentos Word usando IA com Aspose.Words em um guia passo a passo. |
+| [Como traduzir docx para francês com Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET com IA, passo a passo. |
+| [Traduzir docx para francês com Aspose.Words AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
+| [Resumir documento Word com Aspose.Words AI – Guia completo](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aprenda a resumir documentos Word usando IA do Aspose.Words com um guia completo passo a passo. |
+| [Resumo de documentos com IA em C# – guia completo](./ai-document-summarization-in-c-complete-guide/) | Aprenda a resumir documentos usando IA em C# com um guia passo a passo completo. |
+| [Criar resumo de IA em C# – guia passo a passo](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a gerar resumos automáticos com IA em C# usando Aspose.Words, passo a passo. |
+| [Como resumir documento Word com OpenAI em C#](./how-to-summarize-word-document-with-openai-in-c/) | Aprenda a resumir documentos Word usando OpenAI em C# com um guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

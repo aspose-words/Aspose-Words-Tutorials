@@ -39,6 +39,9 @@
 ### [วิธีใช้ Aspose เพื่อทำการแก้ไขไวยากรณ์อัตโนมัติใน Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 เรียนรู้วิธีใช้ Aspose เพื่อทำการตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word ด้วย Python อย่างอัตโนมัติ
 
+### [สร้างเอกสาร Word ว่างพร้อมรูปร่างที่มีเงาใน Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+ใช้ Aspose.Words สำหรับ Python เพื่อสร้างเอกสาร Word ว่างและเพิ่มรูปร่างที่มีเงาอย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -43,6 +43,7 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
 | [Resumir documento Word con IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Compare cómo Aspose.Words para .NET usa OpenAI y Gemini para generar resúmenes precisos de documentos Word. |
+| [Cómo resumir un documento Word con OpenAI en C#](./how-to-summarize-word-document-with-openai-in-c/) | Aprenda a generar resúmenes automáticos de documentos Word usando OpenAI con Aspose.Words para .NET y C#. |
 | [Cómo comprobar la gramática en C# usando un LLM local](./how-to-check-grammar-in-c-using-a-local-llm/) | Aprenda a verificar la gramática de su código C# con un modelo de lenguaje local integrado en Aspose.Words. |
 | [Resumir documento Word en C# – Guía completa impulsada por IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aprenda a crear resúmenes automáticos de documentos Word en C# usando IA con Aspose.Words paso a paso. |
 | [Cómo comprobar la gramática en DOCX con Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a verificar la gramática de documentos DOCX usando Aspose.Words y el modelo gpt‑4 turbo para correcciones automáticas. |
@@ -82,13 +83,34 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Traducir docx a francés con IA en C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando IA en C# con Aspose.Words paso a paso. |
 | [Llamar a la API de OpenAI desde C# – Guía completa para reescribir párrafos de Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Aprenda a usar la API de OpenAI con C# y Aspose.Words para reescribir párrafos de documentos Word de forma automática. |
 | [Cómo comprobar la gramática en C# con Aspose.Words IA – Guía completa](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Aprenda a usar la IA de Aspose.Words para verificar la gramática en documentos Word con C#. Mejore la calidad de sus textos rápidamente. |
-
+| [Resumen de documento Word en C# – guía paso a paso usando IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Aprenda a resumir documentos Word en C# utilizando IA con una guía detallada paso a paso. |
+| [Cómo traducir DOCX al francés y automatizar la traducción de documentos](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aprenda a traducir archivos DOCX al francés y automatizar la traducción usando Aspose.Words para .NET. |
+| [Cómo llamar a CheckGrammar en C# – Guía completa](./how-to-call-checkgrammar-in-c-complete-guide/) | Aprenda a usar el método CheckGrammar en C# con Aspose.Words para .NET y mejore la corrección gramatical de sus documentos. |
+| [Tutorial LLM local – Cómo llamar a un LLM local y ejecutar una corrección gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar un LLM local con Aspose.Words para .NET y realizar correcciones gramaticales en sus documentos. |
+| [Crear informe de resumen en C# – Guía completa paso a paso](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a generar informes resumidos en C# con Aspose.Words, siguiendo una guía detallada paso a paso. |
+| [Crear modelo de IA personalizado – Guía completa para la corrección gramatical en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aprenda a crear y entrenar su propio modelo de IA para corregir gramática en documentos Word usando Aspose.Words y C#. |
+| [Cómo reescribir un párrafo con un LLM local en C# – Guía completa](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Aprenda a usar un modelo de lenguaje local en C# para reescribir párrafos automáticamente con Aspose.Words. |
+| [Cómo usar un resumidor de documentos IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Aprenda a integrar un resumidor de documentos impulsado por IA en C# usando Aspose.Words paso a paso. |
+| [Cómo traducir docx a francés usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traducir documentos DOCX al francés automáticamente con Aspose.Words y IA paso a paso. |
+| [Cómo traducir docx a francés con Aspose.Words AI en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando la IA de Aspose.Words en C# de forma sencilla y eficaz. |
+| [Cómo resumir archivos docx con Aspose.Words AI en C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aprenda a generar resúmenes automáticos de archivos DOCX usando IA de Aspose.Words en C# paso a paso. |
+| [Cómo resumir documentos Word con proveedores de IA en C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Aprenda a generar resúmenes de documentos Word en C# usando varios proveedores de IA con Aspose.Words paso a paso. |
+| [Cómo resumir un documento Word con Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Aprenda a generar resúmenes automáticos de documentos Word usando la IA de Aspose.Words en C# paso a paso. |
+| [Cómo usar el traductor para automatizar la traducción de documentos en C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a traducir automáticamente documentos con Aspose.Words y un traductor integrado en C#. |
+| [Resumir documento Word con IA – Resumen de documentos](./summarize-word-document-with-ai-document-summarization/) | Aprenda a generar resúmenes automáticos de documentos Word usando IA con Aspose.Words en C#. |
+| [Cómo traducir docx a francés con IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando IA con Aspose.Words para .NET y C# de forma automática. |
+| [Agregar resumen a documento Word con Aspose.Words IA](./add-summary-to-word-document-with-aspose-words-ai/) | Aprenda a añadir resúmenes automáticos a documentos Word usando la IA de Aspose.Words. |
+| [Resumir documento Word en C# – guía completa de Aspose.Words IA](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Aprenda a resumir documentos Word en C# usando Aspose.Words y IA con esta guía paso a paso. |
+| [Traducir docx a francés con Aspose.Words IA](./translate-docx-to-french-with-aspose-words-ai/) | Aprenda a traducir documentos DOCX al francés usando Aspose.Words para .NET y IA en pocos pasos. |
+| [Crear un documento Word en blanco y traducirlo al francés](./create-a-blank-word-document-and-translate-it-to-french/) | Aprenda a crear un documento Word vacío y traducir su contenido al francés usando Aspose.Words para .NET. |
+| [Traducir cadena a español en C# con IA de Aspose.Words](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aprenda a traducir texto a español en C# usando la IA de Aspose.Words para .NET de forma sencilla. |
+| [Traducir párrafo al francés y cambiar la etiqueta del gráfico en Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aprenda a traducir párrafos al francés y modificar etiquetas de gráficos en documentos Word usando Aspose.Words para .NET. |
+| [Cómo traducir docx a francés en C# – guía paso a paso](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda a traducir archivos DOCX al francés en C# paso a paso usando Aspose.Words. |
+| [Cómo guardar un documento Word traducido en C# con Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Aprenda a guardar documentos Word traducidos usando C# y la IA de Google con Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

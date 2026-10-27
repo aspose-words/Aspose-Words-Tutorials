@@ -56,6 +56,10 @@ Aspose.Words for Java를 활용한 문서 관리는 개발자와 기업 모두�
 오늘부터 학습 여정을 시작하고 Aspose.Words for Java로 문서 조작의 무한한 가능성을 열어보세요.
 
 ## 문서 조작 튜토리얼
+### [Aspose.Words를 사용하여 프로그래밍 방식으로 워드 문서 만들기](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Java용 Aspose.Words에서 정리 옵션 사용](./using-cleanup-options/)
 Aspose.Words for Java 정리 옵션을 사용하여 문서의 명확성을 향상하세요. 빈 단락, 사용하지 않는 영역 등을 제거하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)
@@ -74,6 +78,9 @@ Aspose.Words for Java를 사용하여 Java에서 Word 문서의 콘텐츠를 제
 Aspose.Words for Java를 사용하여 문서 처리를 최적화하세요. 이 단계별 가이드를 통해 북마크를 사용하여 효율적인 콘텐츠 탐색 및 조작 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 문서 범위 사용](./using-document-ranges/)
 Aspose.Words for Java에서 문서 범위 조작을 마스터하세요. 이 종합 가이드를 통해 텍스트를 삭제, 추출, 서식 지정하는 방법을 알아보세요.
+### [Java용 Aspose.Words에서 docx ActiveX 버튼 만들기 – 완전 프로그래밍 가이드](./create-docx-activex-button-in-java-complete-programming-guid/)
+Java와 Aspose.Words를 사용해 docx 파일에 ActiveX 버튼을 삽입하고 동작하도록 구현하는 전체 가이드입니다.
+### [C#용 빈 Word 문서를 만들고 ActiveX 버튼 추가](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 ### [Java용 Aspose.Words에서 구조화된 문서 태그(SDT) 사용](./using-structured-document-tags/)
 이 포괄적인 가이드를 통해 Aspose.Words for Java에서 구조화된 문서 태그(SDT)를 사용하는 방법을 알아보세요. SDT를 생성, 수정하고 사용자 지정 XML 데이터에 바인딩하는 방법을 알아보세요.
 ### [Aspose.Words for Java에서 스타일 및 테마 사용](./using-styles-and-themes/)
@@ -90,6 +97,8 @@ Aspose.Words for Java에서 문서를 효율적으로 분할하는 방법을 알
 Aspose.Words for Java를 사용하여 문서를 HTML 페이지로 분할하는 방법을 알아보세요. 원활한 문서 변환을 위한 단계별 가이드를 따라해 보세요.
 ### [Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가](./adding-content-using-documentbuilder/)
 Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요.
+### [Java용 Aspose.Words에서 DocumentBuilder로 docx 저장 및 컨트롤 뒤에 텍스트 추가](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder를 사용해 docx 파일을 저장하고, 특정 컨트롤 뒤에 텍스트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 문서 복제 및 결합](./cloning-and-combining-documents/)
 Aspose.Words for Java에서 문서를 복제하고 결합하는 방법을 알아보세요. 소스 코드 예제를 포함한 단계별 가이드입니다.
 ### [Java용 Aspose.Words에서 문서 비교](./comparing-documents/)
@@ -103,9 +112,24 @@ Aspose.Words for Java의 강력한 기능을 활용하세요. 원활한 문서 �
 ### [Java용 Aspose.Words에서 문서 속성 사용](./using-document-properties/)
 Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등의 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 웹 확장 기능 사용](./using-web-extensions/)
-Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요. 
 ### [Java에서 PDF 접근성 태깅 – 접근 가능한 PDF 생성](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java를 사용하여 PDF에 접근성 태그를 추가하고, 접근 가능한 PDF 문서를 생성하는 방법을 알아보세요.
+### [Java용 Aspose.Words에서 Word 문서 만들기](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용해 새 Word 문서를 생성하고 기본 콘텐츠를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 Word 문서에 콘텐츠 컨트롤 추가](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words for Java를 사용하여 Word 문서에 콘텐츠 컨트롤을 추가하는 방법을 알아보세요.
+### [Java용 Aspose.Words에서 대화형 명령 버튼이 있는 빈 문서 만들기](./create-blank-document-with-an-interactive-command-button-in/)
+Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포함한 빈 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 텍스트 컨트롤을 사용하여 빈 Word 문서 만들기](./how-to-create-a-blank-word-document-with-a-text-control/)
+텍스트 컨트롤을 활용해 빈 Word 문서를 생성하고 기본 설정을 적용하는 방법을 단계별로 안내합니다.
+### [새 Word 문서 만들기 – 구조화된 태그 추가 단계별 가이드](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화된 태그를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 Word 문서 만들기](./create-blank-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 워드 문서 만들기](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+### [C#용 Aspose.Words에서 태그 이름 설정 및 SDT 추가](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+### [C#에서 일반 텍스트 콘텐츠 컨트롤이 있는 빈 Word 문서 만들기](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
