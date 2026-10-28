@@ -1,70 +1,117 @@
 ---
-date: '2025-11-26'
-description: Lär dig hur du lägger till bokmärken i Word med Aspose.Words för Java.
-  Denna guide täcker hur du infogar bokmärken i Java, tar bort bokmärken i dokumentet
-  och konfigurerar Aspose.Words för Java för sömlös automatisering av Word‑dokument.
+date: '2026-10-28'
+description: Lär dig hur du använder Aspose.Words for Java-licensen för att lägga
+  till, uppdatera och ta bort Word-bokmärken programmässigt. Inkluderar infoga bokmärke
+  java och steg för att ta bort bokmärken i dokumentet.
 keywords:
-- Aspose.Words for Java
-- insert bookmarks
-- manage Word documents
-- add bookmarks word
-title: Lägg till bokmärken i Word med Aspose.Words för Java – Infoga, uppdatera, ta
-  bort
+- aspose words java license
+- how to add bookmark
+- insert bookmark java
+- delete bookmarks document
+lastmod: '2026-10-28'
+og_description: Lär dig hur du använder Aspose.Words for Java-licensen för att lägga
+  till, uppdatera och ta bort Word-bokmärken programmässigt. Inkluderar infoga bokmärke
+  java och steg för att ta bort bokmärken i dokumentet.
+og_image_alt: Guide showing how to manage Word bookmarks with Aspose.Words for Java
+  license
+og_title: 'Aspose.Words for Java-licens: lägg till och ta bort Word-bokmärken'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-28'
+  description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  headline: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  type: TechArticle
+- description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  name: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  steps:
+  - name: '**Free trial** – explore the API without cost.'
+    text: '**Free trial** – explore the API without cost.'
+  - name: '**Temporary license** – extend testing beyond the trial period.'
+    text: '**Temporary license** – extend testing beyond the trial period.'
+  - name: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+    text: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+  - name: '**Legal contracts** – Jump straight to clauses or definitions.'
+    text: '**Legal contracts** – Jump straight to clauses or definitions.'
+  - name: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+    text: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+  - name: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+    text: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+  - name: '**Academic papers** – Navigate between sections, figures, and citations.'
+    text: '**Academic papers** – Navigate between sections, figures, and citations.'
+  - name: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+    text: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the document, use `DocumentBuilder` to navigate to the desired
+      location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+    question: Can I add a bookmark to an existing document without rewriting the whole
+      file?
+  - answer: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving
+      the content untouched.
+    question: How do I delete a bookmark without removing its surrounding text?
+  - answer: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on
+      each `Bookmark` object.
+    question: Is there a way to list all bookmark names in a document?
+  - answer: 'Yes. Pass the password to the `Document` constructor: `new Document(path,
+      new LoadOptions() {{ setPassword("pwd"); }})`.'
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 17, including all LTS
+      releases.
+    question: Which Java versions are officially supported?
+  type: FAQPage
+tags:
+- aspose words java
+- bookmark management
+- java document processing
+- aspose license
+title: 'Aspose.Words for Java-licens: lägg till och ta bort Word-bokmärken'
 url: /sv/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till bokmärken i Word med Aspose.Words för Java: Infoga, uppdatera och ta bort
+# Lägg till bokmärken i Word med Aspose.Words för Java: infoga, uppdatera och ta bort
 
-## Introduction
-Att navigera i komplexa Word‑dokument kan vara en huvudvärk, särskilt när du snabbt måste hoppa till specifika avsnitt. **Adding bookmarks word** låter dig märka vilken del av ett dokument som helst – vare sig det är ett stycke, en tabellcell eller en bild – så att du kan hämta eller ändra det senare utan att behöva scrolla i oändlighet. Med **Aspose.Words for Java** kan du programatiskt infoga, uppdatera och ta bort dessa bokmärken, vilket förvandlar en statisk fil till en dynamisk, sökbar resurs.  
+## Introduktion
+**aspose words java license** möjliggör att du kan arbeta med Microsoft Word‑filer utan att behöva Microsoft Office installerat. Att lägga till bokmärken i Word låter dig märka vilken del av ett dokument som helst—paragrafer, tabellceller eller bilder—så att du kan hoppa direkt till det innehållet senare. Med Aspose.Words för Java kan du programatiskt infoga, uppdatera och ta bort dessa bokmärken, vilket förvandlar en statisk fil till en dynamisk, sökbar resurs som skalas över Windows-, Linux- och macOS-miljöer.
 
-I den här handledningen lär du dig hur du **add bookmarks word**, verifierar dem, uppdaterar deras innehåll, arbetar med bokmärken i tabellkolumner och slutligen rensar dem när de inte längre behövs.
+## Snabba svar
+- **Vad är den primära klassen för att bygga dokument?** `DocumentBuilder`  
+- **Vilken metod startar ett bokmärke?** `builder.startBookmark("BookmarkName")`  
+- **Kan jag ta bort ett bokmärke utan att radera dess innehåll?** Ja, använd `Bookmark.remove()`  
+- **Behöver jag en licens för produktionsanvändning?** Absolut—applicera din Aspose.Words för Java‑licens.  
+- **Är Aspose.Words kompatibel med Java 17?** Ja, den stödjer Java 8 till 17.
 
-### What You'll Learn
-- Hur du **insert bookmark java** i ett Word‑dokument  
-- Åtkomst till och verifiering av bokmärkesnamn  
-- Skapa, uppdatera och skriva ut bokmärkesdetaljer  
-- Arbeta med bokmärken i tabellkolumner  
-- **Delete bookmarks document** på ett säkert och effektivt sätt  
+## Vad är “add bookmarks word”?
+Att lägga till bokmärken i Word innebär att placera en namngiven markör i en Microsoft Word‑fil som kan refereras till senare av kod. Markören (bokmärket) kan omge vilken nod som helst—text, en tabellcell, en bild—vilket gör att du kan lokalisera, läsa eller ersätta det innehållet programatiskt.
 
-Låt oss dyka ner och se hur du kan strömlinjeforma din dokument‑bearbetningspipeline.
+## Varför installera Aspose.Words för Java?
+Att installera **aspose.words java** ger dig ett kraftfullt API för Word‑automatisering som är fritt från licens‑ och körtid‑beroenden. Det låter dig skapa, ändra och rendera Word‑dokument helt i Java utan att behöva Microsoft Office, och det stödjer avancerade funktioner som kopplad utskrift, dokumentkonvertering och komplex layout‑hantering. Du får:
+- Full kontroll över dokumentstrukturen utan att Microsoft Office är installerat.  
+- Högpresterande bearbetning av stora filer; Aspose.Words kan hantera 500‑sidiga dokument på under 3 sekunder på standard server‑hårdvara.  
+- Plattformoberoende kompatibilitet (Windows, Linux, macOS).  
 
-## Quick Answers
-- **What is the primary class for building documents?** `DocumentBuilder`  
-- **Which method starts a bookmark?** `builder.startBookmark("BookmarkName")`  
-- **Can I remove a bookmark without deleting its content?** Yes, using `Bookmark.remove()`  
-- **Do I need a license for production use?** Absolutely—use a purchased Aspose.Words license.  
-- **Is Aspose.Words compatible with Java 17?** Yes, it supports Java 8 through 17.
+Nu när du förstår “varför”, låt oss förbereda miljön.
 
-## What is “add bookmarks word”?
-Adding bookmarks word means placing a named marker inside a Microsoft Word file that can be referenced later by code. The marker (bookmark) can surround any node—text, a table cell, an image—allowing you to locate, read, or replace that content programmatically.
+## Förutsättningar
+- **Aspose.Words for Java** version 25.3 eller nyare.  
+- JDK 8 eller senare (Java 17 rekommenderas).  
+- En IDE som IntelliJ IDEA eller Eclipse.  
+- Grundläggande kunskaper i Java och erfarenhet av Maven eller Gradle.
 
-## Why set up Aspose.Words for Java?
-Setting up **aspose.words java** gives you a powerful, license‑free‑of‑runtime‑dependencies API for Word automation. You get:
+## Installera Aspose.Words
+Inkludera biblioteket i ditt projekt med antingen Maven eller Gradle:
 
-- Full control over document structure without Microsoft Office installed.  
-- High‑performance processing of large files.  
-- Cross‑platform compatibility (Windows, Linux, macOS).  
-
-Now that you understand the “why,” let’s get the environment ready.
-
-## Prerequisites
-- **Aspose.Words for Java** version 25.3 or newer.  
-- JDK 8 or later (Java 17 recommended).  
-- An IDE such as IntelliJ IDEA or Eclipse.  
-- Basic Java knowledge and familiarity with Maven or Gradle.
-
-## Setting Up Aspose.Words
-Include the library in your project with either Maven or Gradle:
-
-### Maven Dependency
+### Maven‑beroende
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -73,74 +120,80 @@ Include the library in your project with either Maven or Gradle:
 </dependency>
 ```
 
-### Gradle Implementation
+### Gradle‑implementation
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### License Acquisition Steps
-1. **Free Trial** – explore the API without cost.  
-2. **Temporary License** – extend testing beyond the trial period.  
-3. **Full License** – required for production deployments.
+#### Steg för att skaffa licens
+1. **Free trial** – utforska API:t utan kostnad.  
+2. **Temporary license** – förläng testning bortom provperioden.  
+3. **Full license** – krävs för produktionsdistributioner; här appliceras **aspose words java license**.
 
-Initialize the license in your Java code:
+Initiera licensen i din Java‑kod:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/aspose.words.lic");
 ```
 
-## Implementation Guide
-We’ll walk through each feature step‑by‑step, keeping the code unchanged so you can copy‑paste it directly.
+## Hur man använder Aspose.Words för Java‑licensen för att hantera bokmärken?
+Läs in din licens först, sedan kan du säkert lägga till, uppdatera eller ta bort bokmärken utan att stöta på utvärderingsgränser. Licensen tar bort begränsningarna på 20 sidor och vattenstämpel, vilket möjliggör obegränsad dokumentstorlek och full åtkomst till funktioner. Genom att applicera licensen vid körning aktiveras även alla premium‑API:er, såsom högkvalitativ konvertering, avancerad formatering och stöd för krypterade dokument, vilket säkerställer pålitlighet i produktionsklass.
 
-### Inserting a Bookmark
+### Infoga ett bokmärke
 
-#### Overview
-Inserting a bookmark lets you tag a piece of content for later retrieval.
+#### Översikt
+Att infoga ett bokmärke låter dig märka ett innehållsstycke för senare hämtning.
 
-#### Steps
-**1. Initialize Document and Builder:**
+#### Definition ankare
+`DocumentBuilder` är det markör‑baserade API:t som låter dig infoga text, tabeller, bilder och bokmärken i ett Word‑dokument programatiskt.
+
+#### Steg
+**1. Initiera Document och Builder:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
-```
+```  
 
-**2. Start and End the Bookmark:**
+**2. Starta och avsluta bokmärket:**  
 ```java
 builder.startBookmark("My Bookmark");
 builder.write("Contents of My Bookmark.");
 builder.endBookmark("My Bookmark");
 doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
-```
-*Why?* Marking specific text with a bookmark makes navigation and later updates trivial.
+```  
+*Varför?* Att markera specifik text med ett bokmärke gör navigering och senare uppdateringar triviala.
 
-### Accessing and Verifying a Bookmark
+### Åtkomst och verifiering av ett bokmärke
 
-#### Overview
-After you add a bookmark, you often need to confirm its presence before manipulating it.
+#### Översikt
+Efter att du har lagt till ett bokmärke behöver du ofta bekräfta dess närvaro innan du manipulerar det.
 
-#### Steps
-**1. Load Document:**
+#### Definition ankare
+`Bookmark` representerar en namngiven plats i dokumentträdet som du kan fråga, flytta eller ta bort.
+
+#### Steg
+**1. Läs in dokumentet:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 
-**2. Verify Bookmark Name:**
+**2. Verifiera bokmärkesnamnet:**  
 ```java
 String bookmarkName = doc.getRange().getBookmarks().get(0).getName();
 if (!"My Bookmark".equals(bookmarkName)) {
     throw new AssertionError("Bookmark name does not match expected value.");
 }
-```
-*Why?* Verification avoids accidental changes to the wrong section.
+```  
+*Varför?* Verifiering förhindrar oavsiktliga ändringar i fel sektion.
 
-### Creating, Updating, and Printing Bookmarks
+### Skapa, uppdatera och skriva ut bokmärken
 
-#### Overview
-Managing several bookmarks at once is common in reports and contracts.
+#### Översikt
+Att hantera flera bokmärken samtidigt är vanligt i rapporter och avtal.
 
-#### Steps
-**1. Create Multiple Bookmarks:**
+#### Steg
+**1. Skapa flera bokmärken:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -152,32 +205,32 @@ for (int i = 1; i <= 3; i++) {
     builder.endBookmark(bookmarkName);
     builder.writeln("Text after bookmark.");
 }
-```
+```  
 
-**2. Update Bookmarks:**
+**2. Uppdatera bokmärken:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
 bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
-```
+```  
 
-**3. Print Bookmark Information:**
+**3. Skriv ut bokmärkesinformation:**  
 ```java
 for (int i = 0; i < bookmarks.getCount(); i++) {
     Bookmark bookmark = bookmarks.get(i);
     System.out.println(bookmark.getName() + ": " + bookmark.getText().trim());
 }
 doc.save(YOUR_OUTPUT_DIRECTORY + "UpdatedBookmarks.docx");
-```
-*Why?* Updating bookmark names or text keeps the document aligned with evolving business rules.
+```  
+*Varför?* Att uppdatera bokmärkesnamn eller text håller dokumentet i linje med föränderliga affärsregler.
 
-### Working with Table Column Bookmarks
+### Arbeta med bokmärken i tabellkolumner
 
-#### Overview
-Bookmarks inside tables let you target precise cells, useful for data‑driven reports.
+#### Översikt
+Bokmärken i tabeller låter dig rikta in dig på specifika celler, användbart för datadrivna rapporter.
 
-#### Steps
-**1. Identify Column Bookmarks:**
+#### Steg
+**1. Identifiera kolumnbokmärken:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Table column bookmarks.doc");
 for (Bookmark bookmark : doc.getRange().getBookmarks()) {
@@ -189,16 +242,16 @@ for (Bookmark bookmark : doc.getRange().getBookmarks()) {
         }
     }
 }
-```
-*Why?* This logic extracts column‑specific data without parsing the whole table.
+```  
+*Varför?* Denna logik extraherar kolumnspecifik data utan att behöva parsra hela tabellen.
 
-### Removing Bookmarks from a Document
+### Ta bort bokmärken från ett dokument
 
-#### Overview
-When a bookmark is no longer needed, removing it keeps the document clean and improves performance.
+#### Översikt
+När ett bokmärke inte längre behövs, håller borttagning det dokumentet rent och förbättrar prestanda.
 
-#### Steps
-**1. Insert Multiple Bookmarks:**
+#### Steg
+**1. Infoga flera bokmärken:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -209,9 +262,9 @@ for (int i = 1; i <= 5; i++) {
     builder.endBookmark(bookmarkName);
     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
 }
-```
+```  
 
-**2. Remove Bookmarks:**
+**2. Ta bort bokmärken:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).remove();
@@ -219,58 +272,63 @@ bookmarks.remove(bookmarks.get("MyBookmark_2"));
 doc.getRange().getBookmarks().removeAt(1);
 doc.getRange().getBookmarks().clear();
 doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
-```
-*Why?* Efficient bookmark management prevents clutter and reduces file size.
+```  
+*Varför?* Effektiv bokmärkeshantering förhindrar rörighet och minskar filstorleken.
 
-## Practical Applications
-Here are some real‑world scenarios where **add bookmarks word** shines:
+## Praktiska tillämpningar
+Här är några verkliga scenarier där **add bookmarks word** briljerar:
+1. **Legal contracts** – Hoppa direkt till klausuler eller definitioner.  
+2. **Technical manuals** – Länka till kodsnuttar eller felsökningssteg.  
+3. **Data‑heavy reports** – Referera till specifika tabellceller för dynamiska instrumentpaneler.  
+4. **Academic papers** – Navigera mellan sektioner, figurer och referenser.  
+5. **Business proposals** – Markera nyckeltal för snabb granskning av intressenter.
 
-1. **Legal Contracts** – Jump straight to clauses or definitions.  
-2. **Technical Manuals** – Link to code snippets or troubleshooting steps.  
-3. **Data‑Heavy Reports** – Reference specific table cells for dynamic dashboards.  
-4. **Academic Papers** – Navigate between sections, figures, and citations.  
-5. **Business Proposals** – Highlight key metrics for quick stakeholder review.
+## Prestandaöverväganden
+- **Håll antalet bokmärken rimligt** i mycket stora dokument; varje bokmärke lägger till en liten overhead.  
+- Använd **koncisa, beskrivande namn** (t.ex. `Clause_5_Confidentiality`).  
+- Rensa periodiskt **oanvända bokmärken** med borttagningsstegen som visas ovan.
 
-## Performance Considerations
-- **Keep bookmark count reasonable** in very large documents; each bookmark adds a small overhead.  
-- Use **concise, descriptive names** (e.g., `Clause_5_Confidentiality`).  
-- Periodically **clean up unused bookmarks** with the removal steps shown above.
-
-## Common Issues and Solutions
-| Issue | Solution |
+## Vanliga problem och lösningar
+| Problem | Lösning |
 |-------|----------|
-| *Bookmark not found after save* | Verify you’re using the same bookmark name (`case‑sensitive`). |
-| *Bookmark text appears blank* | Ensure you call `builder.write()` **between** `startBookmark` and `endBookmark`. |
-| *Performance slowdown on massive files* | Limit bookmarks to essential sections and clear them when no longer needed. |
-| *License not applied* | Confirm the `.lic` file path is correct and the file is accessible at runtime. |
+| *Bokmärke hittades inte efter sparning* | Verifiera att du använder exakt bokmärkesnamn (skiftlägeskänsligt). |
+| *Bokmärkestext visas tom* | Se till att du anropar `builder.write()` **mellan** `startBookmark` och `endBookmark`. |
+| *Prestandaförsämring på enorma filer* | Begränsa bokmärken till väsentliga sektioner och rensa dem när de inte längre behövs. |
+| *Licens inte tillämpad* | Bekräfta att sökvägen till `.lic`‑filen är korrekt och att filen är åtkomlig vid körning. |
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q: Can I add a bookmark to an existing document without rewriting the whole file?**  
-A: Yes. Load the document, use `DocumentBuilder` to navigate to the desired location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+**Q: Kan jag lägga till ett bokmärke i ett befintligt dokument utan att skriva om hela filen?**  
+A: Ja. Läs in dokumentet, använd `DocumentBuilder` för att navigera till önskad plats, och anropa `startBookmark`/`endBookmark`. Spara dokumentet efteråt.
 
-**Q: How do I delete a bookmark without removing its surrounding text?**  
-A: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving the content untouched.
+**Q: Hur tar jag bort ett bokmärke utan att ta bort den omgivande texten?**  
+A: Använd `Bookmark.remove()`; detta tar bara bort bokmärkesmarkören och lämnar innehållet orört.
 
-**Q: Is there a way to list all bookmark names in a document?**  
-A: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on each `Bookmark` object.
+**Q: Finns det ett sätt att lista alla bokmärkesnamn i ett dokument?**  
+A: Iterera genom `doc.getRange().getBookmarks()` och anropa `getName()` på varje `Bookmark`‑objekt.
 
-**Q: Does Aspose.Words support password‑protected Word files?**  
-A: Yes. Pass the password to the `Document` constructor: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
+**Q: Stöder Aspose.Words lösenordsskyddade Word‑filer?**  
+A: Ja. Skicka lösenordet till `Document`‑konstruktorn: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
 
-**Q: Which Java versions are officially supported?**  
-A: Aspose.Words for Java supports Java 8 through Java 17 (including LTS releases).
+**Q: Vilka Java‑versioner stöds officiellt?**  
+A: Aspose.Words för Java stödjer Java 8 till Java 17, inklusive alla LTS‑utgåvor.
 
 ---
 
-**Last Updated:** 2025-11-26  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-10-28  
+**Testat med:** Aspose.Words for Java 25.3  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Lägg till innehållskontroll i Word‑dokument med Aspose Words](/words/java/document-manipulation/add-content-control-in-word-document-with-aspose-words/)
+- [extrahera hyperlänkar i Word java – Mästra hyperlänkhantering med Aspose.Words](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [Hur man skapar formulärfält och lägger till innehåll med DocumentBuilder i Aspose.Words för Java](/words/java/document-manipulation/adding-content-using-documentbuilder/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

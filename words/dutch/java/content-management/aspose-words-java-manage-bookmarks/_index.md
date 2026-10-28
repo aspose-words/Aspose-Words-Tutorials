@@ -1,62 +1,113 @@
 ---
-date: '2025-11-26'
-description: Leer hoe je bladwijzers toevoegt aan Word met Aspose.Words voor Java.
-  Deze gids behandelt het invoegen van bladwijzers in Java, het verwijderen van bladwijzers
-  uit een document en het configureren van Aspose.Words voor Java voor naadloze Word‑documentautomatisering.
+date: '2026-10-28'
+description: Leer hoe u de Aspose.Words for Java licentie gebruikt om Word-bladwijzers
+  toe te voegen, bij te werken en te verwijderen via code. Inclusief stappen voor
+  het invoegen van een bladwijzer in java en het verwijderen van bladwijzers uit een
+  document.
 keywords:
-- Aspose.Words for Java
-- insert bookmarks
-- manage Word documents
-- add bookmarks word
-title: Bladwijzers toevoegen aan Word met Aspose.Words voor Java – Invoegen, bijwerken,
-  verwijderen
+- aspose words java license
+- how to add bookmark
+- insert bookmark java
+- delete bookmarks document
+lastmod: '2026-10-28'
+og_description: Leer hoe u de Aspose.Words for Java licentie gebruikt om Word-bladwijzers
+  toe te voegen, bij te werken en te verwijderen via code. Inclusief stappen voor
+  het invoegen van een bladwijzer in java en het verwijderen van bladwijzers uit een
+  document.
+og_image_alt: Guide showing how to manage Word bookmarks with Aspose.Words for Java
+  license
+og_title: 'Aspose.Words for Java licentie: bladwijzers toevoegen en verwijderen in
+  Word'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-28'
+  description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  headline: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  type: TechArticle
+- description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  name: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  steps:
+  - name: '**Free trial** – explore the API without cost.'
+    text: '**Free trial** – explore the API without cost.'
+  - name: '**Temporary license** – extend testing beyond the trial period.'
+    text: '**Temporary license** – extend testing beyond the trial period.'
+  - name: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+    text: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+  - name: '**Legal contracts** – Jump straight to clauses or definitions.'
+    text: '**Legal contracts** – Jump straight to clauses or definitions.'
+  - name: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+    text: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+  - name: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+    text: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+  - name: '**Academic papers** – Navigate between sections, figures, and citations.'
+    text: '**Academic papers** – Navigate between sections, figures, and citations.'
+  - name: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+    text: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the document, use `DocumentBuilder` to navigate to the desired
+      location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+    question: Can I add a bookmark to an existing document without rewriting the whole
+      file?
+  - answer: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving
+      the content untouched.
+    question: How do I delete a bookmark without removing its surrounding text?
+  - answer: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on
+      each `Bookmark` object.
+    question: Is there a way to list all bookmark names in a document?
+  - answer: 'Yes. Pass the password to the `Document` constructor: `new Document(path,
+      new LoadOptions() {{ setPassword("pwd"); }})`.'
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 17, including all LTS
+      releases.
+    question: Which Java versions are officially supported?
+  type: FAQPage
+tags:
+- aspose words java
+- bookmark management
+- java document processing
+- aspose license
+title: 'Aspose.Words for Java licentie: bladwijzers toevoegen en verwijderen in Word'
 url: /nl/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bladwijzers toevoegen in Word met Aspose.Words for Java: Invoegen, bijwerken en verwijderen
+# Voeg bladwijzers toe in Word met Aspose.Words voor Java: invoegen, bijwerken en verwijderen
 
 ## Inleiding
-Het navigeren door complexe Word-documenten kan een hoofdpijn zijn, vooral wanneer je snel naar specifieke secties moet springen. **Adding bookmarks word** stelt je in staat elk deel van een document te markeren — of het nu een alinea, een tabelcel of een afbeelding is — zodat je het later kunt ophalen of wijzigen zonder eindeloos te scrollen. Met **Aspose.Words for Java** kun je deze bladwijzers programmatisch invoegen, bijwerken en verwijderen, waardoor een statisch bestand verandert in een dynamisch, doorzoekbaar onderdeel.  
-
-In deze tutorial leer je hoe je **add bookmarks word** kunt gebruiken, ze kunt verifiëren, hun inhoud kunt bijwerken, met bladwijzers in tabelkolommen kunt werken, en ze uiteindelijk kunt opruimen wanneer ze niet meer nodig zijn.
-
-### Wat je zult leren
-- Hoe je **insert bookmark java** in een Word-document kunt invoegen  
-- Toegang krijgen tot en verifiëren van bladwijzer‑namen  
-- Het maken, bijwerken en afdrukken van bladwijzer‑details  
-- Werken met bladwijzers in tabelkolommen  
-- **Delete bookmarks document** veilig en efficiënt verwijderen  
-
-Laten we erin duiken en zien hoe je je document‑verwerkingspipeline kunt stroomlijnen.
+De **aspose words java license** stelt je in staat om met Microsoft Word‑bestanden te werken zonder dat Microsoft Office geïnstalleerd hoeft te zijn. Bladwijzers toevoegen in Word laat je elk deel van een document – alinea's, tabelcellen of afbeeldingen – markeren, zodat je later direct naar die inhoud kunt springen. Met Aspose.Words voor Java kun je deze bladwijzers programmatisch invoegen, bijwerken en verwijderen, waardoor een statisch bestand wordt omgevormd tot een dynamisch, doorzoekbaar asset dat schaalt over Windows-, Linux- en macOS‑omgevingen.
 
 ## Snelle antwoorden
 - **Wat is de primaire klasse voor het bouwen van documenten?** `DocumentBuilder`  
 - **Welke methode start een bladwijzer?** `builder.startBookmark("BookmarkName")`  
-- **Kan ik een bladwijzer verwijderen zonder de inhoud te verwijderen?** Ja, met `Bookmark.remove()`  
-- **Heb ik een licentie nodig voor productiegebruik?** Absoluut — gebruik een aangeschafte Aspose.Words‑licentie.  
+- **Kan ik een bladwijzer verwijderen zonder de inhoud te verwijderen?** Ja, gebruik `Bookmark.remove()`  
+- **Heb ik een licentie nodig voor productiegebruik?** Absoluut—pas je Aspose.Words for Java-licentie toe.  
 - **Is Aspose.Words compatibel met Java 17?** Ja, het ondersteunt Java 8 tot 17.
 
 ## Wat is “add bookmarks word”?
-Adding bookmarks word betekent het plaatsen van een benoemde marker in een Microsoft Word‑bestand die later door code kan worden geraadpleegd. De marker (bladwijzer) kan elk knooppunt omringen — tekst, een tabelcel, een afbeelding — waardoor je die inhoud programmatisch kunt lokaliseren, lezen of vervangen.
+Bladwijzers toevoegen in Word betekent het plaatsen van een benoemde marker in een Microsoft Word‑bestand die later door code kan worden geraadpleegd. De marker (bladwijzer) kan elk knooppunt omgeven – tekst, een tabelcel, een afbeelding – waardoor je die inhoud programmatisch kunt lokaliseren, lezen of vervangen.
 
 ## Waarom Aspose.Words voor Java instellen?
-Het instellen van **aspose.words java** geeft je een krachtige API voor Word‑automatisering zonder licentie‑ of runtime‑afhankelijkheden. Je krijgt:
+Het instellen van **aspose.words java** geeft je een krachtige, licentie‑vrije‑van‑runtime‑afhankelijkheden API voor Word‑automatisering. Het stelt je in staat om Word‑documenten volledig in Java te maken, te wijzigen en te renderen zonder Microsoft Office, en het ondersteunt geavanceerde functies zoals mail‑merge, documentconversie en complexe lay‑outhantering. Je krijgt:
 - Volledige controle over de documentstructuur zonder dat Microsoft Office geïnstalleerd is.  
-- Hoge‑prestaties bij het verwerken van grote bestanden.  
-- Cross‑platform compatibiliteit (Windows, Linux, macOS).  
+- Hoge‑prestaties bij verwerking van grote bestanden; Aspose.Words kan documenten van 500 pagina's verwerken in minder dan 3 seconden op standaard serverhardware.  
+- Cross‑platform compatibiliteit (Windows, Linux, macOS).
 
 Nu je het “waarom” begrijpt, laten we de omgeving gereedmaken.
 
 ## Vereisten
-- **Aspose.Words for Java** versie 25.3 of nieuwer.  
-- JDK 8 of hoger (Java 17 aanbevolen).  
+- **Aspose.Words for Java** versie 25.3 of nieuwer.  
+- JDK 8 of later (Java 17 aanbevolen).  
 - Een IDE zoals IntelliJ IDEA of Eclipse.  
 - Basiskennis van Java en vertrouwdheid met Maven of Gradle.
 
@@ -77,10 +128,10 @@ Neem de bibliotheek op in je project met Maven of Gradle:
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Stappen voor licentie‑verwerving
-1. **Free Trial** – verken de API zonder kosten.  
-2. **Temporary License** – verleng de testfase voorbij de proefperiode.  
-3. **Full License** – vereist voor productie‑implementaties.
+#### Stappen voor het verkrijgen van een licentie
+1. **Free trial** – verken de API zonder kosten.  
+2. **Temporary license** – verleng het testen na de proefperiode.  
+3. **Full license** – vereist voor productie‑implementaties; hier wordt de **aspose words java license** toegepast.
 
 Initialiseer de licentie in je Java‑code:
 
@@ -89,40 +140,46 @@ License license = new License();
 license.setLicense("path/to/your/aspose.words.lic");
 ```
 
-## Implementatie‑gids
-We lopen elke functie stap‑voor‑stap door, waarbij we de code ongewijzigd laten zodat je deze direct kunt kopiëren‑en‑plakken.
+## Hoe gebruik je de Aspose.Words voor Java‑licentie om bladwijzers te beheren?
+Laad eerst je licentie, dan kun je veilig bladwijzers toevoegen, bijwerken of verwijderen zonder evaluatie‑limieten te raken. De licentie verwijdert de 20‑pagina‑ en watermerkbeperkingen, waardoor onbeperkte documentgrootte en volledige functionaliteit mogelijk zijn. Door de licentie tijdens runtime toe te passen, schakel je ook alle premium‑API’s in, zoals high‑fidelity conversie, geavanceerde opmaak en ondersteuning voor versleutelde documenten, wat zorgt voor betrouwbaarheid op productieniveau.
 
 ### Een bladwijzer invoegen
 
 #### Overzicht
-Het invoegen van een bladwijzer stelt je in staat een stuk inhoud te markeren voor later ophalen.
+Een bladwijzer invoegen stelt je in staat een stuk inhoud te markeren voor later ophalen.
+
+#### Definitie‑anker
+`DocumentBuilder` is de cursor‑gebaseerde API die je programmatisch tekst, tabellen, afbeeldingen en bladwijzers in een Word‑document laat invoegen.
 
 #### Stappen
-**1. Initialiseer Document en Builder:**  
+**1. Document en Builder initialiseren:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
-```
+```  
 
-**2. Start en eindig de bladwijzer:**  
+**2. De bladwijzer starten en beëindigen:**  
 ```java
 builder.startBookmark("My Bookmark");
 builder.write("Contents of My Bookmark.");
 builder.endBookmark("My Bookmark");
 doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 *Waarom?* Het markeren van specifieke tekst met een bladwijzer maakt navigatie en latere updates triviaal.
 
-### Toegang tot en verifiëren van een bladwijzer
+### Toegang tot en verificatie van een bladwijzer
 
 #### Overzicht
 Nadat je een bladwijzer hebt toegevoegd, moet je vaak de aanwezigheid ervan bevestigen voordat je deze bewerkt.
+
+#### Definitie‑anker
+`Bookmark` vertegenwoordigt een benoemde locatie in de documentboom die je kunt opvragen, verplaatsen of verwijderen.
 
 #### Stappen
 **1. Document laden:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 
 **2. Bladwijzernaam verifiëren:**  
 ```java
@@ -130,10 +187,10 @@ String bookmarkName = doc.getRange().getBookmarks().get(0).getName();
 if (!"My Bookmark".equals(bookmarkName)) {
     throw new AssertionError("Bookmark name does not match expected value.");
 }
-```
+```  
 *Waarom?* Verificatie voorkomt per ongeluk wijzigingen in de verkeerde sectie.
 
-### Maken, bijwerken en afdrukken van bladwijzers
+### Bladwijzers maken, bijwerken en afdrukken
 
 #### Overzicht
 Het beheren van meerdere bladwijzers tegelijk is gebruikelijk in rapporten en contracten.
@@ -151,14 +208,14 @@ for (int i = 1; i <= 3; i++) {
     builder.endBookmark(bookmarkName);
     builder.writeln("Text after bookmark.");
 }
-```
+```  
 
 **2. Bladwijzers bijwerken:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
 bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
-```
+```  
 
 **3. Bladwijzerinformatie afdrukken:**  
 ```java
@@ -167,16 +224,16 @@ for (int i = 0; i < bookmarks.getCount(); i++) {
     System.out.println(bookmark.getName() + ": " + bookmark.getText().trim());
 }
 doc.save(YOUR_OUTPUT_DIRECTORY + "UpdatedBookmarks.docx");
-```
-*Waarom?* Het bijwerken van bladwijzer‑namen of -tekst houdt het document in lijn met veranderende bedrijfsregels.
+```  
+*Waarom?* Het bijwerken van bladwijzernamen of -tekst houdt het document in lijn met evoluerende bedrijfsregels.
 
 ### Werken met bladwijzers in tabelkolommen
 
 #### Overzicht
-Bladwijzers in tabellen stellen je in staat precieze cellen te targeten, nuttig voor datagestuurde rapporten.
+Bladwijzers in tabellen laten je precieze cellen targeten, nuttig voor data‑gedreven rapporten.
 
 #### Stappen
-**1. Kolom‑bladwijzers identificeren:**  
+**1. Kolombladwijzers identificeren:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Table column bookmarks.doc");
 for (Bookmark bookmark : doc.getRange().getBookmarks()) {
@@ -188,8 +245,8 @@ for (Bookmark bookmark : doc.getRange().getBookmarks()) {
         }
     }
 }
-```
-*Waarom?* Deze logica haalt kolomspecifieke gegevens op zonder de hele tabel te parseren.
+```  
+*Waarom?* Deze logica haalt kolomspecifieke gegevens uit zonder de hele tabel te parseren.
 
 ### Bladwijzers uit een document verwijderen
 
@@ -208,7 +265,7 @@ for (int i = 1; i <= 5; i++) {
     builder.endBookmark(bookmarkName);
     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
 }
-```
+```  
 
 **2. Bladwijzers verwijderen:**  
 ```java
@@ -218,26 +275,26 @@ bookmarks.remove(bookmarks.get("MyBookmark_2"));
 doc.getRange().getBookmarks().removeAt(1);
 doc.getRange().getBookmarks().clear();
 doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
-```
+```  
 *Waarom?* Efficiënt beheer van bladwijzers voorkomt rommel en verkleint de bestandsgrootte.
 
 ## Praktische toepassingen
 Hier zijn enkele praktijkvoorbeelden waarin **add bookmarks word** uitblinkt:
-1. **Legal Contracts** – Spring direct naar clausules of definities.  
-2. **Technical Manuals** – Link naar code‑fragmenten of probleemoplossingsstappen.  
-3. **Data‑Heavy Reports** – Verwijs naar specifieke tabelcellen voor dynamische dashboards.  
-4. **Academic Papers** – Navigeer tussen secties, figuren en citaten.  
-5. **Business Proposals** – Markeer belangrijke statistieken voor snelle beoordeling door belanghebbenden.
+1. **Legal contracts** – Spring direct naar clausules of definities.  
+2. **Technical manuals** – Link naar code‑fragmenten of probleemoplossingsstappen.  
+3. **Data‑heavy reports** – Verwijs naar specifieke tabelcellen voor dynamische dashboards.  
+4. **Academic papers** – Navigeer tussen secties, figuren en citaten.  
+5. **Business proposals** – Markeer belangrijke statistieken voor snelle beoordeling door stakeholders.
 
-## Prestatie‑overwegingen
+## Prestatieoverwegingen
 - **Houd het aantal bladwijzers redelijk** in zeer grote documenten; elke bladwijzer voegt een kleine overhead toe.  
 - Gebruik **bondige, beschrijvende namen** (bijv. `Clause_5_Confidentiality`).  
 - Maak periodiek **ongebruikte bladwijzers schoon** met de hierboven getoonde verwijderstappen.
 
 ## Veelvoorkomende problemen en oplossingen
-| Issue | Solution |
-|-------|----------|
-| *Bladwijzer niet gevonden na opslaan* | Controleer of je dezelfde bladwijzernaam gebruikt (`hoofdlettergevoelig`). |
+| Probleem | Oplossing |
+|----------|-----------|
+| *Bladwijzer niet gevonden na opslaan* | Controleer of je de exacte bladwijzernaam gebruikt (hoofdlettergevoelig). |
 | *Bladwijzertekst verschijnt leeg* | Zorg ervoor dat je `builder.write()` **tussen** `startBookmark` en `endBookmark` aanroept. |
 | *Prestatie‑vertraging bij enorme bestanden* | Beperk bladwijzers tot essentiële secties en maak ze schoon wanneer ze niet meer nodig zijn. |
 | *Licentie niet toegepast* | Bevestig dat het pad naar het `.lic`‑bestand correct is en dat het bestand toegankelijk is tijdens runtime. |
@@ -257,18 +314,24 @@ A: Iterate door `doc.getRange().getBookmarks()` en roep `getName()` aan op elk `
 A: Ja. Geef het wachtwoord door aan de `Document`‑constructor: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
 
 **Q: Welke Java‑versies worden officieel ondersteund?**  
-A: Aspose.Words for Java ondersteunt Java 8 tot en met Java 17 (inclusief LTS‑releases).
+A: Aspose.Words for Java ondersteunt Java 8 tot en met Java 17, inclusief alle LTS‑releases.
 
 ---
 
-**Laatst bijgewerkt:** 2025-11-26  
+**Laatst bijgewerkt:** 2026-10-28  
 **Getest met:** Aspose.Words for Java 25.3  
-**Auteur:** Aspose  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Inhoudsbesturingselement toevoegen in Word‑document met Aspose Words](/words/java/document-manipulation/add-content-control-in-word-document-with-aspose-words/)
+- [hyperlinks extraheren word java – Hyperlinkbeheer beheersen met Aspose.Words](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [Formuliervelden maken en inhoud toevoegen met DocumentBuilder in Aspose.Words voor Java](/words/java/document-manipulation/adding-content-using-documentbuilder/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

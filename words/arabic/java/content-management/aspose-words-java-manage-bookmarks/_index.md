@@ -1,67 +1,114 @@
 ---
-date: '2025-11-26'
-description: تعلم كيفية إضافة إشارات مرجعية إلى مستند Word باستخدام Aspose.Words للغة
-  Java. يغطي هذا الدليل إدراج إشارة مرجعية في Java، حذف الإشارات المرجعية من المستند،
-  وإعداد Aspose.Words للغة Java لتوفير أتمتة سلسة لمستندات Word.
+date: '2026-10-28'
+description: تعرف على كيفية استخدام رخصة Aspose.Words for Java لإضافة وتحديث وحذف
+  إشارات Word برمجيًا. يتضمن خطوات إدراج إشارة java وحذف إشارات المستند.
 keywords:
-- Aspose.Words for Java
-- insert bookmarks
-- manage Word documents
-- add bookmarks word
-title: إضافة إشارات مرجعية في Word باستخدام Aspose.Words for Java – إدراج، تحديث،
-  حذف
+- aspose words java license
+- how to add bookmark
+- insert bookmark java
+- delete bookmarks document
+lastmod: '2026-10-28'
+og_description: تعرف على كيفية استخدام رخصة Aspose.Words for Java لإضافة وتحديث وحذف
+  إشارات Word برمجيًا. يتضمن خطوات إدراج إشارة java وحذف إشارات المستند.
+og_image_alt: Guide showing how to manage Word bookmarks with Aspose.Words for Java
+  license
+og_title: 'رخصة Aspose.Words for Java: إضافة وإزالة إشارات Word'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-28'
+  description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  headline: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  type: TechArticle
+- description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  name: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  steps:
+  - name: '**Free trial** – explore the API without cost.'
+    text: '**Free trial** – explore the API without cost.'
+  - name: '**Temporary license** – extend testing beyond the trial period.'
+    text: '**Temporary license** – extend testing beyond the trial period.'
+  - name: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+    text: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+  - name: '**Legal contracts** – Jump straight to clauses or definitions.'
+    text: '**Legal contracts** – Jump straight to clauses or definitions.'
+  - name: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+    text: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+  - name: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+    text: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+  - name: '**Academic papers** – Navigate between sections, figures, and citations.'
+    text: '**Academic papers** – Navigate between sections, figures, and citations.'
+  - name: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+    text: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the document, use `DocumentBuilder` to navigate to the desired
+      location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+    question: Can I add a bookmark to an existing document without rewriting the whole
+      file?
+  - answer: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving
+      the content untouched.
+    question: How do I delete a bookmark without removing its surrounding text?
+  - answer: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on
+      each `Bookmark` object.
+    question: Is there a way to list all bookmark names in a document?
+  - answer: 'Yes. Pass the password to the `Document` constructor: `new Document(path,
+      new LoadOptions() {{ setPassword("pwd"); }})`.'
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 17, including all LTS
+      releases.
+    question: Which Java versions are officially supported?
+  type: FAQPage
+tags:
+- aspose words java
+- bookmark management
+- java document processing
+- aspose license
+title: 'رخصة Aspose.Words for Java: إضافة وإزالة إشارات Word'
 url: /ar/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة إشارات مرجعية Word باستخدام Aspose.Words for Java: الإدراج، التحديث، والإزالة
+# إضافة إشارات مرجعية في Word باستخدام Aspose.Words for Java: الإدراج، التحديث، والإزالة
 
-## المقدمة
-التنقل في مستندات Word المعقدة يمكن أن يكون مرهقًا، خاصةً عندما تحتاج إلى القفز إلى أقسام محددة بسرعة. **Adding bookmarks word** يتيح لك وضع علامة على أي جزء من المستند—سواء كان فقرة أو خلية جدول أو صورة—حتى تتمكن من استرجاعه أو تعديلّه لاحقًا دون الحاجة إلى التمرير بلا نهاية. باستخدام **Aspose.Words for Java**، يمكنك إدراج هذه الإشارات المرجعية وتحديثها وحذفها برمجياً، مما يحول الملف الثابت إلى أصل ديناميكي قابل للبحث.  
-
-في هذا الدرس ستتعلم كيفية **add bookmarks word**، والتحقق منها، وتحديث محتواها، والعمل مع إشارات مرجعية لأعمدة الجداول، وأخيرًا تنظيفها عندما لا تكون بحاجة إليها بعد الآن.
-
-### ما ستتعلمه
-- كيفية **insert bookmark java** في مستند Word  
-- الوصول إلى أسماء الإشارات المرجعية والتحقق منها  
-- إنشاء، تحديث، وطباعة تفاصيل الإشارة المرجعية  
-- العمل مع إشارات مرجعية لأعمدة الجداول  
-- **Delete bookmarks document** بأمان وكفاءة  
-
-هيا نغوص في التفاصيل ونرى كيف يمكنك تبسيط خط أنابيب معالجة المستندات الخاص بك.
+## مقدمة
+تتيح لك **aspose words java license** العمل مع ملفات Microsoft Word دون الحاجة إلى تثبيت Microsoft Office. يتيح لك إضافة إشارات مرجعية في Word وضع علامة على أي جزء من المستند—فقرات، خلايا جدول، أو صور—حتى تتمكن من القفز مباشرة إلى ذلك المحتوى لاحقًا. باستخدام Aspose.Words for Java يمكنك إدراج، تحديث، وحذف هذه الإشارات برمجيًا، مما يحول ملفًا ثابتًا إلى أصل ديناميكي قابل للبحث ويتوسع عبر بيئات Windows وLinux وmacOS.
 
 ## إجابات سريعة
 - **ما هي الفئة الأساسية لإنشاء المستندات؟** `DocumentBuilder`  
-- **ما الطريقة التي تبدأ إشارة مرجعية؟** `builder.startBookmark("BookmarkName")`  
-- **هل يمكنني إزالة إشارة مرجعية دون حذف محتواها؟** نعم، باستخدام `Bookmark.remove()`  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** بالتأكيد—استخدم ترخيص Aspose.Words المشتراة.  
+- **ما هي الطريقة التي تبدأ إشارة مرجعية؟** `builder.startBookmark("BookmarkName")`  
+- **هل يمكنني إزالة إشارة مرجعية دون حذف محتواها؟** نعم، استخدم `Bookmark.remove()`  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** بالتأكيد—طبق ترخيص Aspose.Words for Java الخاص بك.  
 - **هل Aspose.Words متوافق مع Java 17؟** نعم، يدعم Java 8 إلى 17.
 
 ## ما هو “add bookmarks word”؟
-إضافة إشارات مرجعية word تعني وضع علامة مسماة داخل ملف Microsoft Word يمكن الإشارة إليها لاحقًا عبر الكود. يمكن للعلامة (الإشارة المرجعية) أن تحيط بأي عقدة—نص، خلية جدول، صورة—مما يتيح لك تحديد الموقع، قراءة أو استبدال ذلك المحتوى برمجيًا.
+إضافة إشارات مرجعية في Word تعني وضع علامة مسماة داخل ملف Microsoft Word يمكن الإشارة إليها لاحقًا عبر الكود. يمكن للعلامة (الإشارة المرجعية) أن تحيط بأي عقدة—نص، خلية جدول، صورة—مما يتيح لك تحديد، قراءة، أو استبدال ذلك المحتوى برمجيًا.
 
 ## لماذا إعداد Aspose.Words for Java؟
-إعداد **aspose.words java** يمنحك واجهة برمجة تطبيقات قوية خالية من الترخيص وبدون تبعيات تشغيلية لأتمتة Word. ستحصل على:
-- تحكم كامل في بنية المستند دون الحاجة إلى تثبيت Microsoft Office.  
-- معالجة عالية الأداء للملفات الكبيرة.  
+إعداد **aspose.words java** يمنحك واجهة برمجة تطبيقات قوية خالية من الاعتمادات وقت التشغيل لأتمتة Word. يتيح لك إنشاء، تعديل، وعرض مستندات Word بالكامل في Java دون الحاجة إلى Microsoft Office، ويدعم ميزات متقدمة مثل دمج البريد، تحويل المستندات، ومعالجة التخطيطات المعقدة. ستحصل على:
+
+- التحكم الكامل في بنية المستند دون الحاجة إلى تثبيت Microsoft Office.  
+- معالجة عالية الأداء للملفات الكبيرة؛ يمكن لـ Aspose.Words التعامل مع مستندات من 500 صفحة في أقل من 3 ثوانٍ على عتاد خادم قياسي.  
 - توافق عبر الأنظمة (Windows، Linux، macOS).  
 
 الآن بعد أن فهمت “السبب”، دعنا نجهز البيئة.
 
 ## المتطلبات المسبقة
-- نسخة **Aspose.Words for Java** 25.3 أو أحدث.  
-- JDK 8 أو أحدث (يفضل Java 17).  
+- **Aspose.Words for Java** الإصدار 25.3 أو أحدث.  
+- JDK 8 أو أحدث (يوصى بـ Java 17).  
 - بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.  
 - معرفة أساسية بـ Java وإلمام بـ Maven أو Gradle.
 
 ## إعداد Aspose.Words
-قم بإضافة المكتبة إلى مشروعك إما باستخدام Maven أو Gradle:
+قم بتضمين المكتبة في مشروعك إما عبر Maven أو Gradle:
 
 ### تبعية Maven
 ```xml
@@ -78,9 +125,9 @@ implementation 'com.aspose:aspose-words:25.3'
 ```
 
 #### خطوات الحصول على الترخيص
-1. **Free Trial** – استكشاف الواجهة البرمجية بدون تكلفة.  
-2. **Temporary License** – تمديد الاختبار بعد فترة التجربة.  
-3. **Full License** – مطلوب للنشر في بيئة الإنتاج.
+1. **تجربة مجانية** – استكشف الـ API بدون تكلفة.  
+2. **ترخيص مؤقت** – تمديد الاختبار بعد فترة التجربة.  
+3. **ترخيص كامل** – مطلوب للنشر في الإنتاج؛ هنا يتم تطبيق **aspose words java license**.
 
 تهيئة الترخيص في كود Java الخاص بك:
 
@@ -89,20 +136,23 @@ License license = new License();
 license.setLicense("path/to/your/aspose.words.lic");
 ```
 
-## دليل التنفيذ
-سنستعرض كل ميزة خطوة بخطوة، مع الحفاظ على الكود دون تغيير حتى يمكنك نسخه ولصقه مباشرة.
+## كيف تستخدم ترخيص Aspose.Words for Java لإدارة الإشارات المرجعية؟
+حمّل الترخيص أولاً، ثم يمكنك بأمان إضافة، تحديث، أو حذف الإشارات المرجعية دون مواجهة حدود التقييم. يزيل الترخيص قيود 20 صفحة والعلامة المائية، مما يسمح بحجم مستند غير محدود والوصول الكامل للميزات. من خلال تطبيق الترخيص أثناء التشغيل، يمكنك أيضًا تمكين جميع واجهات برمجة التطبيقات المتميزة، مثل التحويل عالي الدقة، التنسيق المتقدم، ودعم المستندات المشفرة، مما يضمن موثوقية على مستوى الإنتاج.
 
 ### إدراج إشارة مرجعية
 
 #### نظرة عامة
-إدراج إشارة مرجعية يتيح لك وضع علامة على جزء من المحتوى لاسترجاعه لاحقًا.
+إدراج إشارة مرجعية يتيح لك وضع علامة على قطعة محتوى لاسترجاعها لاحقًا.
+
+#### تعريف المرجع
+`DocumentBuilder` هو API قائم على المؤشر يتيح لك إدراج نصوص، جداول، صور، وإشارات مرجعية في مستند Word برمجيًا.
 
 #### الخطوات
 **1. تهيئة المستند والباني:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
-```
+```  
 
 **2. بدء وإنهاء الإشارة المرجعية:**  
 ```java
@@ -110,7 +160,7 @@ builder.startBookmark("My Bookmark");
 builder.write("Contents of My Bookmark.");
 builder.endBookmark("My Bookmark");
 doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 *لماذا؟* وضع علامة على نص معين بإشارة مرجعية يجعل التنقل والتحديثات اللاحقة أمرًا بسيطًا.
 
 ### الوصول إلى إشارة مرجعية والتحقق منها
@@ -118,11 +168,14 @@ doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
 #### نظرة عامة
 بعد إضافة إشارة مرجعية، غالبًا ما تحتاج إلى تأكيد وجودها قبل التلاعب بها.
 
+#### تعريف المرجع
+`Bookmark` يمثل موقعًا مسمىً في شجرة المستند يمكنك الاستعلام عنه، تحريكه، أو حذفه.
+
 #### الخطوات
 **1. تحميل المستند:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 
 **2. التحقق من اسم الإشارة المرجعية:**  
 ```java
@@ -130,16 +183,16 @@ String bookmarkName = doc.getRange().getBookmarks().get(0).getName();
 if (!"My Bookmark".equals(bookmarkName)) {
     throw new AssertionError("Bookmark name does not match expected value.");
 }
-```
-*لماذا؟* التحقق يمنع التغييرات غير المقصودة على القسم الخطأ.
+```  
+*لماذا؟* التحقق يمنع التغييرات العرضية على القسم الخطأ.
 
-### إنشاء، تحديث، وطباعة الإشارات المرجعية
+### إنشاء وتحديث وطباعة الإشارات المرجعية
 
 #### نظرة عامة
-إدارة عدة إشارات مرجعية في آن واحد شائع في التقارير والعقود.
+إدارة عدة إشارات مرجعية في آن واحد أمر شائع في التقارير والعقود.
 
 #### الخطوات
-**1. إنشاء إشارات مرجعية متعددة:**  
+**1. إنشاء عدة إشارات مرجعية:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -151,14 +204,14 @@ for (int i = 1; i <= 3; i++) {
     builder.endBookmark(bookmarkName);
     builder.writeln("Text after bookmark.");
 }
-```
+```  
 
 **2. تحديث الإشارات المرجعية:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
 bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
-```
+```  
 
 **3. طباعة معلومات الإشارة المرجعية:**  
 ```java
@@ -167,13 +220,13 @@ for (int i = 0; i < bookmarks.getCount(); i++) {
     System.out.println(bookmark.getName() + ": " + bookmark.getText().trim());
 }
 doc.save(YOUR_OUTPUT_DIRECTORY + "UpdatedBookmarks.docx");
-```
-*لماذا؟* تحديث أسماء الإشارات أو نصها يحافظ على توافق المستند مع قواعد الأعمال المتطورة.
+```  
+*لماذا؟* تحديث أسماء أو نصوص الإشارات المرجعية يحافظ على توافق المستند مع قواعد الأعمال المتغيرة.
 
 ### العمل مع إشارات مرجعية لأعمدة الجداول
 
 #### نظرة عامة
-الإشارات المرجعية داخل الجداول تتيح لك استهداف خلايا دقيقة، وهو مفيد للتقارير المعتمدة على البيانات.
+الإشارات داخل الجداول تتيح لك استهداف خلايا دقيقة، مفيد للتقارير المدفوعة بالبيانات.
 
 #### الخطوات
 **1. تحديد إشارات مرجعية للأعمدة:**  
@@ -188,16 +241,16 @@ for (Bookmark bookmark : doc.getRange().getBookmarks()) {
         }
     }
 }
-```
-*لماذا؟* هذه المنطق يستخرج بيانات خاصة بالعمود دون الحاجة إلى تحليل الجدول بالكامل.
+```  
+*لماذا؟* هذا المنطق يستخرج بيانات خاصة بالعمود دون الحاجة إلى تحليل الجدول بالكامل.
 
-### إزالة الإشارات المرجعية من المستند
+### إزالة الإشارات المرجعية من مستند
 
 #### نظرة عامة
-عندما لا تكون الإشارة المرجعية بحاجة بعد الآن، فإن إزالتها تحافظ على نظافة المستند وتحسن الأداء.
+عندما لا تكون الإشارة المرجعية ضرورية بعد الآن، فإن إزالتها تحافظ على نظافة المستند وتحسن الأداء.
 
 #### الخطوات
-**1. إدراج إشارات مرجعية متعددة:**  
+**1. إدراج عدة إشارات مرجعية:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -208,7 +261,7 @@ for (int i = 1; i <= 5; i++) {
     builder.endBookmark(bookmarkName);
     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
 }
-```
+```  
 
 **2. إزالة الإشارات المرجعية:**  
 ```java
@@ -218,29 +271,29 @@ bookmarks.remove(bookmarks.get("MyBookmark_2"));
 doc.getRange().getBookmarks().removeAt(1);
 doc.getRange().getBookmarks().clear();
 doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
-```
-*لماذا؟* إدارة الإشارات المرجعية بفعالية تمنع الفوضى وتقلل حجم الملف.
+```  
+*لماذا؟* إدارة الإشارات المرجعية بكفاءة تمنع الفوضى وتقلل حجم الملف.
 
 ## تطبيقات عملية
-إليك بعض السيناريوهات الواقعية حيث يبرز **add bookmarks word**:
-1. **Legal Contracts** – الانتقال مباشرة إلى البنود أو التعريفات.  
-2. **Technical Manuals** – ربط مقتطفات الشيفرة أو خطوات استكشاف الأخطاء.  
-3. **Data‑Heavy Reports** – الإشارة إلى خلايا جدول محددة للوحة معلومات ديناميكية.  
-4. **Academic Papers** – التنقل بين الأقسام، الرسوم التوضيحية، والمراجع.  
-5. **Business Proposals** – إبراز المقاييس الرئيسية لمراجعة سريعة من أصحاب المصلحة.
+1. **العقود القانونية** – الانتقال مباشرة إلى البنود أو التعريفات.  
+2. **الأدلة التقنية** – ربط بقطعات الشيفرة أو خطوات استكشاف الأخطاء.  
+3. **تقارير كثيفة البيانات** – الإشارة إلى خلايا جدول محددة للوحة معلومات ديناميكية.  
+4. **الأوراق الأكاديمية** – التنقل بين الأقسام، الرسوم، والاقتباسات.  
+5. **العروض التجارية** – إبراز المقاييس الرئيسية لمراجعة سريعة من أصحاب المصلحة.
 
 ## اعتبارات الأداء
-- **حافظ على عدد الإشارات المرجعية معقولًا** في المستندات الكبيرة جدًا؛ كل إشارة مرجعية تضيف عبئًا بسيطًا.  
+- **حافظ على عدد الإشارات المرجعية معقولًا** في المستندات الكبيرة جدًا؛ كل إشارة مرجعية تضيف عبئًا صغيرًا.  
 - استخدم **أسماء مختصرة ووصفية** (مثال: `Clause_5_Confidentiality`).  
-- قم **بإزالة الإشارات غير المستخدمة** دوريًا باستخدام خطوات الإزالة الموضحة أعلاه.
+- بانتظام **نظف الإشارات المرجعية غير المستخدمة** باستخدام خطوات الإزالة المذكورة أعلاه.
 
 ## المشكلات الشائعة والحلول
+
 | المشكلة | الحل |
 |-------|----------|
-| *Bookmark not found after save* | تأكد من أنك تستخدم نفس اسم الإشارة المرجعية (حساسية لحالة الأحرف). |
-| *Bookmark text appears blank* | تأكد من استدعاء `builder.write()` **بين** `startBookmark` و `endBookmark`. |
-| *Performance slowdown on massive files* | قلل عدد الإشارات إلى الأقسام الضرورية وامسحها عندما لا تحتاجها. |
-| *License not applied* | تحقق من صحة مسار ملف `.lic` وأن الملف قابل للوصول أثناء التشغيل. |
+| *لم يتم العثور على الإشارة المرجعية بعد الحفظ* | تحقق من أنك تستخدم الاسم الدقيق للإشارة المرجعية (حسّاس لحالة الأحرف). |
+| *نص الإشارة المرجعية يظهر فارغًا* | تأكد من استدعاء `builder.write()` **بين** `startBookmark` و `endBookmark`. |
+| *تباطؤ الأداء على الملفات الضخمة* | قصر الإشارات المرجعية على الأقسام الضرورية وتنظيفها عندما لا تكون مطلوبة. |
+| *الترخيص غير مطبق* | تأكد من أن مسار ملف `.lic` صحيح وأن الملف متاح أثناء التشغيل. |
 
 ## الأسئلة المتكررة
 
@@ -256,19 +309,24 @@ doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
 **س: هل يدعم Aspose.Words ملفات Word المحمية بكلمة مرور؟**  
 ج: نعم. مرّر كلمة المرور إلى مُنشئ `Document`: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
 
-**س: ما إصدارات Java المدعومة رسميًا؟**  
-ج: يدعم Aspose.Words for Java إصدارات Java 8 إلى Java 17 (بما في ذلك إصدارات LTS).
+**س: أي إصدارات Java مدعومة رسميًا؟**  
+ج: يدعم Aspose.Words for Java إصدارات Java 8 إلى Java 17، بما في ذلك جميع إصدارات LTS.
 
 ---
 
-**آخر تحديث:** 2025-11-26  
+**آخر تحديث:** 2026-10-28  
 **تم الاختبار مع:** Aspose.Words for Java 25.3  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس مرتبطة
+
+- [إضافة عنصر تحكم محتوى في مستند Word باستخدام Aspose Words](/words/java/document-manipulation/add-content-control-in-word-document-with-aspose-words/)
+- [استخراج الروابط التشعبية في Word Java – إتقان إدارة الروابط التشعبية مع Aspose.Words](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [كيفية إنشاء حقول نموذج وإضافة محتوى باستخدام DocumentBuilder في Aspose.Words for Java](/words/java/document-manipulation/adding-content-using-documentbuilder/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
