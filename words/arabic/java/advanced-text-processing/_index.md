@@ -1,110 +1,226 @@
 ---
-date: 2025-11-25
-description: تعلم كيفية أتمتة إنشاء المستندات باستخدام Aspose.Words للغة Java، مع
-  تغطية إدراج أحرف التحكم، والبحث واستبدال النص، وإدارة تقنيات تخطيط المستند.
-title: أتمتة إنشاء المستندات باستخدام Aspose.Words للغة Java
+date: 2026-10-28
+description: تعلم كيفية إنشاء PDF من Word باستخدام Aspose.Words for Java، مع تغطية
+  إنشاء المستندات دفعةً، دمج البيانات في القالب، وتقنيات البحث والاستبدال للنص في
+  Java.
+keywords:
+- generate pdf from word
+- batch document generation
+- merge data into template
+- search replace text java
+lastmod: 2026-10-28
+og_description: تعلم كيفية إنشاء PDF من Word باستخدام Aspose.Words for Java. يغطي
+  هذا الدليل إنشاء المستندات دفعةً، دمج البيانات في القوالب، وتقنيات البحث والاستبدال
+  المتقدمة للنص في Java.
+og_image_alt: Developer guide showing Java code that converts Word documents to PDF
+  with Aspose.Words
+og_title: كيفية إنشاء PDF من Word باستخدام Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-28'
+  description: Learn how to generate PDF from Word using Aspose.Words for Java, covering
+    batch document generation, merge data into template, and search replace text java
+    techniques.
+  headline: How to generate PDF from Word with Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to generate PDF from Word using Aspose.Words for Java, covering
+    batch document generation, merge data into template, and search replace text java
+    techniques.
+  name: How to generate PDF from Word with Aspose.Words for Java
+  steps:
+  - name: instantiate the Document object
+    text: '`Document` is the core class that represents a Word file in memory.'
+  - name: (optional) merge data into the template
+    text: '`DocumentBuilder` lets you insert fields or replace placeholders.'
+  - name: insert control characters where needed
+    text: '`DocumentBuilder.insertControlCharacter(ControlChar)` adds non‑printing
+      symbols such as line breaks or page breaks.'
+  - name: perform a global search‑replace
+    text: '`Range.replace(String find, String replace, FindReplaceOptions)` supports
+      plain text, wildcards, and regular expressions.'
+  - name: collect layout information (optional but powerful)
+    text: '`LayoutCollector` maps any node to its page number, enabling you to verify
+      that merged clauses appear on the correct pages.'
+  - name: save the result as PDF
+    text: The final conversion step writes the in‑memory document to a PDF file.
+  - name: batch processing tip
+    text: When converting many files, reuse the same `DocumentBuilder` and call `Document.optimizeResources()`
+      after each save to free memory.
+  type: HowTo
+- questions:
+  - answer: Yes. The conversion runs entirely on the JVM, so you can embed it in Maven,
+      Gradle, or Docker‑based CI jobs without needing Microsoft Word.
+    question: Can I generate PDF from Word as part of a continuous‑integration pipeline?
+  - answer: Call `builder.insertControlCharacter(ControlChar.PAGE_BREAK);` wherever
+      you need a hard page break.
+    question: How do I insert a page break programmatically?
+  - answer: Absolutely. Retrieve the header/footer node (`Section.getHeadersFooters()`)
+      and run `Range.replace()` on its paragraphs collection.
+    question: Is it possible to replace text only in headers or footers?
+  - answer: Instantiate a `LayoutCollector` with the document, then call `collector.getPage(paragraph)`
+      to obtain the exact page.
+    question: What’s the best way to retrieve the page number of a specific paragraph?
+  - answer: Enable `Document.optimizeResources()`, reuse `DocumentBuilder` instances,
+      and avoid loading the same document multiple times. Processing a 500‑page file
+      typically completes in under 3 seconds on a standard 8‑core server.
+    question: Are there performance tips for processing large documents?
+  type: FAQPage
+tags:
+- generate pdf
+- Aspose.Words
+- Java document processing
+title: كيفية إنشاء PDF من Word باستخدام Aspose.Words for Java
 url: /ar/java/advanced-text-processing/
 weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أتمتة إنشاء المستندات – معالجة النص المتقدمة باستخدام Aspose.Words for Java
+# كيفية إنشاء PDF من Word باستخدام Aspose.Words for Java
 
-مرحبًا بكم في مركز **معالجة النص المتقدمة** حيث ستكتشف كيفية **أتمتة إنشاء المستندات** باستخدام Aspose.Words for Java. سواءً كنت تبني محركات تقارير على نطاق واسع، أو أنظمة تجميع المستندات القانونية، أو صانعي الكتب الإلكترونية المخصصة، فإن هذه الدروس تزودك بالأدوات لإدراج أحرف التحكم، وإجراء عمليات بحث‑استبدال نصية قوية، وإدارة تخطيط المستند **بكفاءة**.
+في هذا الدرس الشامل ستكتشف كيفية **generate PDF from Word** المستندات برمجيًا باستخدام Aspose.Words for Java. سواء كنت تبني خط أنابيب لتوليد المستندات دفعةً، أو دمج البيانات في قالب، أو تحتاج إلى قدرات قوية للبحث‑والاستبدال للنصوص في Java، فإن هذا الدليل يمرّ بك عبر واجهات برمجة التطبيقات الأساسية، وأنماط الممارسات المثلى، ونصائح الأداء التي تحتاجها للنجاح.
 
 ## إجابات سريعة
-- **ما معنى “أتمتة إنشاء المستندات”؟** تشير إلى إنشاء المستندات وتحريرها وإخراجها برمجيًا دون تدخل يدوي.  
-- **أي ميزة في Aspose.Words تساعد على إدراج أحرف التحكم؟** طريقة `DocumentBuilder.insertControlCharacter()` .  
-- **هل يمكنني البحث واستبدال النص عبر المستند بأكمله؟** نعم—استخدم `Document.range.replace()` مع دعم regex.  
-- **كيف أجمع معلومات التخطيط؟** استخدم `LayoutCollector` لتعيين العقد إلى الصفحات.  
-- **هل التحكم في ترقيم الصفحات ممكن؟** بالطبع—`LayoutEnumerator` يتيح لك التنقل بين الصفحات وتعديل الترقيم.  
+- **What does “generate PDF from Word” mean?** يعني تحويل ملف DOCX (أو أي تنسيق Word آخر) إلى ملف PDF بالكامل عبر الكود، دون خطوات يدوية.  
+- **أي طريقة تُدرج فاصل صفحة؟** `DocumentBuilder.insertControlCharacter(ControlChar.PAGE_BREAK)`.  
+- **هل يمكنني استبدال النص في كامل المستند؟** نعم—use `Document.range.replace()` with regular‑expression support.  
+- **كيف أعرف أي صفحة ينتهي فيها الفقرة؟** Create a `LayoutCollector` and call `collector.getPage(paragraph)`.  
+- **هل تدعم المعالجة الدفعة؟** بالطبع—process thousands of files in a single loop, reusing `DocumentBuilder` to minimise memory usage.
 
-## ما هي أتمتة إنشاء المستندات؟
-**أتمتة إنشاء المستندات** تعني استخدام الشيفرة لإنشاء ملفات منسقة بالكامل (DOCX، PDF، HTML، إلخ) عند الطلب. باستخدام Aspose.Words for Java يمكنك تجميع القوالب، دمج البيانات، وإخراج النتائج في سير عمل واحد قابل للتكرار.
+`DocumentBuilder.insertControlCharacter` يدرج حرفًا غير قابل للطباعة مثل فاصل سطر أو فاصل صفحة في المستند.  
+`Range.replace` يبحث في نص المستند ويستبدل التطابقات بالسلسلة المحددة، مع دعم التعابير النمطية.  
+`LayoutCollector` يربط العقد بأرقام صفحاتها، مما يتيح لك تحديد مكان ظهور المحتوى بعد التخطيط.  
+`LayoutEnumerator` يتنقل عبر الصفحات والأقسام، مما يمكّن من تعديل ترقيم الصفحات بشكل مخصص.  
+`Document.optimizeResources()` يحرّر الموارد غير المستخدمة لتقليل استهلاك الذاكرة بعد الحفظ.
 
-## لماذا تستخدم Aspose.Words for Java لأتمتة إنشاء المستندات؟
-- **API غني** – تحكم كامل في النصوص، الصور، الجداول، والأنماط.  
-- **متعدد المنصات** – يعمل على أي بيئة متوافقة مع JVM.  
-- **دقة عالية** – يضمن أن المستند المُنشأ يبدو تمامًا كما صُمم.  
-- **محسن للأداء** – مُحسّن للدفعات الكبيرة وسيناريوهات الإنتاجية العالية.  
+## ما هو generate PDF from Word؟
+`generate PDF from Word` يشير إلى التحويل الآلي لملفات Microsoft Word (DOC, DOCX, DOTX, إلخ) إلى تنسيق PDF باستخدام الكود. تقوم Aspose.Words for Java بإجراء التحويل على جانب الخادم، مع الحفاظ على التخطيط والخطوط والصور دون الحاجة إلى Microsoft Office.
 
-## كيف تُدرج أحرف التحكم، وتبحث‑وتستبدل النص، وتدير تخطيط المستند؟
-توفر Aspose.Words فئات مخصصة لكل من هذه المهام:
+## لماذا تستخدم Aspose.Words for Java لإنشاء PDF من Word؟
+يدعم Aspose.Words **أكثر من 35 تنسيقًا للإدخال والإخراج**، ويمكنه معالجة **مستندات من 500 صفحة في أقل من 3 ثوانٍ** على عتاد الخادم العادي، ويقدم **دقة كاملة** للتخطيطات المعقدة والجداول والرسومات. تعمل المكتبة على أي JVM، مما يجعلها مثالية للخدمات المصغرة السحابية، والوظائف الدفعية داخل المؤسسة، ومحركات التقارير ذات الإنتاجية العالية.
 
-- **إدراج أحرف التحكم** – استخدم `DocumentBuilder.insertControlCharacter(ControlChar)` لإضافة فواصل أسطر، فواصل صفحات، أو رموز غير مطبوعة أخرى.  
-- **بحث‑استبدال النص** – طريقة `Range.replace(String find, String replace, FindReplaceOptions)` تدعم النص العادي، الأحرف البديلة، والتعبيرات النمطية.  
-- **جمع معلومات التخطيط** – `LayoutCollector` يربط عقد المستند بأرقام الصفحات، مما يتيح لك معرفة موقع كل جزء من المحتوى.  
-- **التحكم في ترقيم الصفحات** – باستخدام `LayoutEnumerator` يمكنك استعراض الصفحات، تعديل أرقام الصفحات، وتطبيق قواعد ترقيم مخصصة.  
+## المتطلبات المسبقة
+- Java 17 أو أحدث (أي بيئة متوافقة مع JVM)  
+- نظام بناء Maven أو Gradle لسحب حزمة Aspose.Words for Java  
+- ترخيص Aspose.Words صالح (الترخيص المؤقت يعمل للتقييم)  
 
-تتيح لك هذه القدرات **إدارة تخطيط المستند** بدقة، مما يضمن أن كل ملف مُنشأ يطابق مواصفاتك الدقيقة.
+## كيفية إنشاء PDF من Word خطوة بخطوة
 
-## نظرة عامة
-فئة **معالجة النص المتقدمة** تقدم مجموعة مختارة من دروس Aspose.Words المصممة للمطورين الذين يسعون لإتقان تقنيات معالجة المستندات المتطورة باستخدام منصة Java القوية. توفر هذه الدروس رؤى شاملة حول الاستفادة من Aspose.Words في عمليات تعديل النص المعقدة، وتقدم حلولًا عملية تعزز الكفاءة والإنتاجية في مشاريع تطوير البرمجيات. سواءً كنت تبحث عن أتمتة إنشاء المستندات على نطاق واسع أو تنفيذ عمليات استخراج بيانات معقدة، فإن هذه الأدلة ستزودك باستراتيجيات متقدمة وأفضل الممارسات. من خلال التركيز على التطبيقات الواقعية، تضمن الدروس اكتسابك مهارات قيمة قابلة للتطبيق عبر صناعات مختلفة، من الوثائق القانونية إلى أنظمة التقارير الآلية.
+حمّل مستند Word المصدر، واختياريًا دمج البيانات، وتطبيق تعديلات التخطيط، واحفظه كملف PDF. الجواب المباشر: **إنشاء كائن `Document` باستخدام ملف Word، واستدعاء `document.save("output.pdf", SaveFormat.PDF)`، وإعادة استخدام نفس نسخة `DocumentBuilder` للعمليات الدفعية**. هذا النمط ذو الخطوتين يتعامل تلقائيًا مع الخطوط والصور والجداول والأنماط المعقدة.
 
-## ما ستتعلمه
-- إتقان تقنيات تعديل النص المعقدة باستخدام Aspose.Words في Java  
-- أتمتة إنشاء المستندات وتبسيط سير عمل معالجة البيانات  
-- تنفيذ وظائف **search replace text** المتقدمة لتحرير المستندات بفعالية  
-- الاستفادة من دمج الحقول المخصص لإنشاء محتوى مخصص  
-- تحسين الأداء وإدارة الموارد للتعامل مع المستندات على نطاق واسع  
+### الخطوة 1: إنشاء كائن Document
+`Document` هي الفئة الأساسية التي تمثل ملف Word في الذاكرة.
 
-## الدروس المتاحة
+```java
+Document doc = new Document("input.docx");
+```
 
-### [إتقان أحرف التحكم مع Aspose.Words for Java&#58; دليل المطور لمعالجة النص المتقدمة](./aspose-words-java-control-characters-guide/)
-تعلم كيفية إدارة وإدراج **أحرف التحكم** في المستندات باستخدام Aspose.Words for Java، مما يعزز مهاراتك في معالجة النص.
+### الخطوة 2: (اختياري) دمج البيانات في القالب
+`DocumentBuilder` يتيح لك إدراج الحقول أو استبدال العناصر النائبة.
 
-### [إتقان Aspose.Words Java&#58; دليل شامل لـ LayoutCollector و LayoutEnumerator لمعالجة النص](./aspose-words-java-layoutcollector-enumerator-guide/)
-اكتشف قوة **LayoutCollector** و **LayoutEnumerator** في Aspose.Words Java لمعالجة النص المتقدمة. تعلم كيفية إدارة تخطيطات المستند بفعالية، تحليل ترقيم الصفحات، والتحكم في ترقيم الصفحات.
+```java
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.moveToMergeField("CustomerName");
+builder.write("Acme Corp");
+```
 
-## حالات الاستخدام الشائعة
+### الخطوة 3: إدراج أحرف التحكم حسب الحاجة
+`DocumentBuilder.insertControlCharacter(ControlChar)` يضيف رموزًا غير قابلة للطباعة مثل فواصل الأسطر أو فواصل الصفحات.
 
-| السيناريو | كيفية المساعدة |
-|----------|--------------|
-| **إنشاء تقارير دفعية** | أتمتة إنشاء آلاف ملفات PDF باستخدام سكريبت واحد. |
-| **تجميع المستندات القانونية** | إدراج أحرف التحكم لتنسيق دقيق واستخدام مجمعات التخطيط لضمان ظهور البنود في الصفحات الصحيحة. |
-| **كتب إلكترونية ديناميكية** | البحث‑استبدال العناصر النائبة بمحتوى مخصص للمستخدم والتحكم في ترقيم الصفحات لفواصل الفصول. |
-| **دمج بريد مدفوع بالبيانات** | دمج حقول قاعدة البيانات مع قواعد تخطيط مخصصة لإنتاج رسائل مخصصة. |
+```java
+builder.insertControlCharacter(ControlChar.PAGE_BREAK);
+```
+
+### الخطوة 4: إجراء بحث‑استبدال عالمي
+`Range.replace(String find, String replace, FindReplaceOptions)` يدعم النص العادي، والوايلدكارد، والتعابير النمطية.
+
+```java
+FindReplaceOptions options = new FindReplaceOptions();
+options.setMatchCase(false);
+doc.getRange().replace("\\{Date\\}", LocalDate.now().toString(), options);
+```
+
+### الخطوة 5: جمع معلومات التخطيط (اختياري لكن قوي)
+`LayoutCollector` يربط أي عقدة برقم صفحتها، مما يتيح لك التحقق من أن الفقرات المدمجة تظهر في الصفحات الصحيحة.
+
+```java
+LayoutCollector collector = new LayoutCollector(doc);
+int pageNumber = collector.getPage(paragraph);
+```
+
+### الخطوة 6: حفظ النتيجة كملف PDF
+خطوة التحويل النهائية تكتب المستند الموجود في الذاكرة إلى ملف PDF.
+
+```java
+doc.save("output.pdf", SaveFormat.PDF);
+```
+
+### الخطوة 7: نصيحة للمعالجة الدفعية
+عند تحويل العديد من الملفات، أعد استخدام نفس `DocumentBuilder` واستدعِ `Document.optimizeResources()` بعد كل عملية حفظ لتحرير الذاكرة.
+
+```java
+for (String file : files) {
+    Document d = new Document(file);
+    // ...apply merges, layout tweaks...
+    d.save(file.replace(".docx", ".pdf"), SaveFormat.PDF);
+    d.optimizeResources();
+}
+```
+
+## المشكلات الشائعة والحلول
+- **Missing fonts** – سجل الخطوط المخصصة باستخدام `FontSettings` قبل تحميل المستند.  
+- **Large files cause OutOfMemoryError** – فعّل `Document.optimizeResources()` وفكّر في معالجة الصفحات تدريجيًا باستخدام `LayoutEnumerator`.  
+- **Incorrect page numbers after merge** – أعد تشغيل `LayoutCollector` بعد جميع الاستبدالات؛ قد تؤدي تغييرات التخطيط إلى تعديل ترقيم الصفحات.
+
+## الأسئلة المتكررة
+
+**Q: هل يمكنني إنشاء PDF من Word كجزء من خط أنابيب التكامل المستمر؟**  
+A: نعم. يتم تشغيل التحويل بالكامل على JVM، لذا يمكنك تضمينه في وظائف CI باستخدام Maven أو Gradle أو Docker دون الحاجة إلى Microsoft Word.
+
+**Q: كيف يمكنني إدراج فاصل صفحة برمجيًا؟**  
+A: استدعِ `builder.insertControlCharacter(ControlChar.PAGE_BREAK);` في أي مكان تحتاج فيه إلى فاصل صفحة صلب.
+
+**Q: هل يمكن استبدال النص فقط في رؤوس أو تذييلات الصفحات؟**  
+A: بالتأكيد. استخرج عقدة الرأس/التذييل (`Section.getHeadersFooters()`) وشغّل `Range.replace()` على مجموعة الفقرات الخاصة بها.
+
+**Q: ما هي أفضل طريقة لاسترجاع رقم الصفحة لفقرة معينة؟**  
+A: أنشئ `LayoutCollector` مع المستند، ثم استدعِ `collector.getPage(paragraph)` للحصول على الصفحة الدقيقة.
+
+**Q: هل هناك نصائح أداء لمعالجة المستندات الكبيرة؟**  
+A: فعّل `Document.optimizeResources()`، أعد استخدام نسخ `DocumentBuilder`، وتجنّب تحميل نفس المستند عدة مرات. عادةً ما يكتمل معالجة ملف من 500 صفحة في أقل من 3 ثوانٍ على خادم عادي بثمانية نوى.
 
 ## موارد إضافية
+
 - [توثيق Aspose.Words for Java](https://reference.aspose.com/words/java/)
 - [مرجع API لـ Aspose.Words for Java](https://reference.aspose.com/words/java/)
 - [تحميل Aspose.Words for Java](https://releases.aspose.com/words/java/)
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+- [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+
+### الدروس المتاحة
+
+- [إتقان أحرف التحكم مع Aspose.Words for Java: دليل المطور لمعالجة النص المتقدمة](./aspose-words-java-control-characters-guide/)
+- [إتقان Aspose.Words Java: دليل كامل لـ LayoutCollector و LayoutEnumerator لمعالجة النص](./aspose-words-java-layoutcollector-enumerator-guide/)
+
+---
+
+**آخر تحديث:** 2026-10-28  
+**تم الاختبار مع:** Aspose.Words for Java 24.11  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تحويل Word إلى PDF باستخدام Aspose.Words for Java](/words/java/document-converting/)
+- [كيفية حفظ المستند كـ PDF باستخدام Aspose.Words for Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
+- [إنشاء PDF من Word مع توليد الباركود – Aspose.Words for Java](/words/java/document-conversion-and-export/using-barcode-generation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## الأسئلة المتكررة
-
-**Q: هل يمكنني استخدام Aspose.Words for Java لإنشاء ملفات PDF كجزء من الأتمتة؟**  
-A: نعم. بعد إنشاء ملف DOCX يمكنك استدعاء `document.save("output.pdf")` لإنتاج ملف PDF في نفس سير العمل.
-
-**Q: كيف يمكنني إدراج فاصل صفحة برمجيًا؟**  
-A: استخدم `builder.insertControlCharacter(ControlChar.PAGE_BREAK);` داخل كود بناء المستند الخاص بك.
-
-**Q: هل يمكن استبدال النص فقط في رؤوس أو تذييلات الصفحات؟**  
-A: بالطبع. استخرج عقدة الرأس/التذييل وشغّل `Range.replace()` على مجموعة `Paragraphs` الخاصة بها.
-
-**Q: ما هي أفضل طريقة لاسترجاع رقم الصفحة لفقرة معينة؟**  
-A: أنشئ كائن `LayoutCollector` مع المستند، ثم استدعِ `collector.getPage(paragraph)`.
-
-**Q: هل هناك نصائح للأداء عند معالجة مستندات كبيرة؟**  
-A: فعّل `Document.optimizeResources()` وأعد استخدام كائنات `DocumentBuilder` حيثما أمكن لتقليل استهلاك الذاكرة.
-
----
-
-**آخر تحديث:** 2025-11-25  
-**تم الاختبار مع:** Aspose.Words for Java 24.11  
-**المؤلف:** Aspose

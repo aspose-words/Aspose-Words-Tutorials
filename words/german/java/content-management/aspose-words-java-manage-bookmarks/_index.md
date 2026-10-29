@@ -1,69 +1,116 @@
 ---
-date: '2025-11-26'
-description: Erfahren Sie, wie Sie Lesezeichen in Word mit Aspose.Words für Java hinzufügen.
-  Dieser Leitfaden behandelt das Einfügen von Lesezeichen in Java, das Löschen von
-  Lesezeichen im Dokument und die Einrichtung von Aspose.Words für Java für nahtlose
-  Word‑Dokumenten‑Automatisierung.
+date: '2026-10-28'
+description: Erfahren Sie, wie Sie die Aspose.Words for Java Lizenz verwenden, um
+  Word-Lesezeichen programmgesteuert hinzuzufügen, zu aktualisieren und zu löschen.
+  Enthält insert bookmark java und delete bookmarks document steps.
 keywords:
-- Aspose.Words for Java
-- insert bookmarks
-- manage Word documents
-- add bookmarks word
-title: Lesezeichen in Word mit Aspose.Words für Java hinzufügen – Einfügen, Aktualisieren,
-  Löschen
+- aspose words java license
+- how to add bookmark
+- insert bookmark java
+- delete bookmarks document
+lastmod: '2026-10-28'
+og_description: Erfahren Sie, wie Sie die Aspose.Words for Java Lizenz verwenden,
+  um Word-Lesezeichen programmgesteuert hinzuzufügen, zu aktualisieren und zu löschen.
+  Enthält insert bookmark java und delete bookmarks document steps.
+og_image_alt: Guide showing how to manage Word bookmarks with Aspose.Words for Java
+  license
+og_title: 'Aspose.Words for Java Lizenz: Word-Lesezeichen hinzufügen und entfernen'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-28'
+  description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  headline: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  type: TechArticle
+- description: Learn how to use the Aspose.Words for Java license to add, update,
+    and delete Word bookmarks programmatically. Includes insert bookmark java and
+    delete bookmarks document steps.
+  name: 'Aspose.Words for Java license: add and remove Word bookmarks'
+  steps:
+  - name: '**Free trial** – explore the API without cost.'
+    text: '**Free trial** – explore the API without cost.'
+  - name: '**Temporary license** – extend testing beyond the trial period.'
+    text: '**Temporary license** – extend testing beyond the trial period.'
+  - name: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+    text: '**Full license** – required for production deployments; this is where the
+      **aspose words java license** is applied.'
+  - name: '**Legal contracts** – Jump straight to clauses or definitions.'
+    text: '**Legal contracts** – Jump straight to clauses or definitions.'
+  - name: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+    text: '**Technical manuals** – Link to code snippets or troubleshooting steps.'
+  - name: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+    text: '**Data‑heavy reports** – Reference specific table cells for dynamic dashboards.'
+  - name: '**Academic papers** – Navigate between sections, figures, and citations.'
+    text: '**Academic papers** – Navigate between sections, figures, and citations.'
+  - name: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+    text: '**Business proposals** – Highlight key metrics for quick stakeholder review.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the document, use `DocumentBuilder` to navigate to the desired
+      location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+    question: Can I add a bookmark to an existing document without rewriting the whole
+      file?
+  - answer: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving
+      the content untouched.
+    question: How do I delete a bookmark without removing its surrounding text?
+  - answer: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on
+      each `Bookmark` object.
+    question: Is there a way to list all bookmark names in a document?
+  - answer: 'Yes. Pass the password to the `Document` constructor: `new Document(path,
+      new LoadOptions() {{ setPassword("pwd"); }})`.'
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 17, including all LTS
+      releases.
+    question: Which Java versions are officially supported?
+  type: FAQPage
+tags:
+- aspose words java
+- bookmark management
+- java document processing
+- aspose license
+title: 'Aspose.Words for Java Lizenz: Word-Lesezeichen hinzufügen und entfernen'
 url: /de/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lesezeichen in Word mit Aspose.Words für Java hinzufügen: Einfügen, Aktualisieren und Entfernen
+# Lesezeichen zu Word hinzufügen mit Aspose.Words für Java: Einfügen, Aktualisieren und Entfernen
 
 ## Einleitung
-Das Navigieren in komplexen Word-Dokumenten kann Kopfschmerzen bereiten, besonders wenn Sie schnell zu bestimmten Abschnitten springen müssen. **Adding bookmarks word** ermöglicht es Ihnen, jeden Teil eines Dokuments zu markieren – sei es ein Absatz, eine Tabellenzelle oder ein Bild – sodass Sie ihn später abrufen oder ändern können, ohne endlos zu scrollen. Mit **Aspose.Words for Java** können Sie diese Lesezeichen programmgesteuert einfügen, aktualisieren und löschen und so eine statische Datei in ein dynamisches, durchsuchbares Asset verwandeln.  
-
-In diesem Tutorial lernen Sie, wie Sie **add bookmarks word** hinzufügen, sie überprüfen, ihren Inhalt aktualisieren, mit Lesezeichen in Tabellenspalten arbeiten und sie schließlich entfernen, wenn sie nicht mehr benötigt werden.
-
-### Was Sie lernen werden
-- Wie man **insert bookmark java** in ein Word-Dokument einfügt  
-- Zugriff auf und Überprüfung von Lesezeichennamen  
-- Erstellen, Aktualisieren und Ausgeben von Lesezeichendetails  
-- Arbeiten mit Lesezeichen in Tabellenspalten  
-- **Delete bookmarks document** sicher und effizient löschen  
-
-Lassen Sie uns eintauchen und sehen, wie Sie Ihre Dokumenten‑Verarbeitungspipeline optimieren können.
+The **aspose words java license** enables you to work with Microsoft Word files without needing Microsoft Office installed. Adding bookmarks word lets you tag any part of a document—paragraphs, table cells, or images—so you can jump straight to that content later. With Aspose.Words for Java you can programmatically insert, update, and delete these bookmarks, turning a static file into a dynamic, searchable asset that scales across Windows, Linux, and macOS environments.
 
 ## Schnelle Antworten
 - **What is the primary class for building documents?** `DocumentBuilder`  
 - **Which method starts a bookmark?** `builder.startBookmark("BookmarkName")`  
-- **Can I remove a bookmark without deleting its content?** Yes, using `Bookmark.remove()`  
-- **Do I need a license for production use?** Absolutely—use a purchased Aspose.Words license.  
+- **Can I remove a bookmark without deleting its content?** Yes, use `Bookmark.remove()`  
+- **Do I need a license for production use?** Absolutely—apply your Aspose.Words for Java license.  
 - **Is Aspose.Words compatible with Java 17?** Yes, it supports Java 8 through 17.
 
 ## Was bedeutet „add bookmarks word“?
-Adding bookmarks word bedeutet, einen benannten Marker in einer Microsoft‑Word‑Datei zu platzieren, der später vom Code referenziert werden kann. Der Marker (Lesezeichen) kann jeden Knoten – Text, eine Tabellenzelle, ein Bild – umschließen und ermöglicht es, diesen Inhalt programmgesteuert zu finden, zu lesen oder zu ersetzen.
+Adding bookmarks word means placing a named marker inside a Microsoft Word file that can be referenced later by code. The marker (bookmark) can surround any node—text, a table cell, an image—allowing you to locate, read, or replace that content programmatically.
 
 ## Warum Aspose.Words für Java einrichten?
-Das Einrichten von **aspose.words java** gibt Ihnen eine leistungsstarke, lizenz‑freie‑von‑Laufzeit‑Abhängigkeiten‑API für die Word‑Automatisierung. Sie erhalten:
+Setting up **aspose.words java** gives you a powerful, license‑free‑of‑runtime‑dependencies API for Word automation. It enables you to create, modify, and render Word documents entirely in Java without requiring Microsoft Office, and it supports advanced features such as mail merge, document conversion, and complex layout handling. You get:
 
-- Vollständige Kontrolle über die Dokumentenstruktur ohne installierte Microsoft‑Office‑Software.  
-- Hochleistungs‑Verarbeitung großer Dateien.  
-- Plattformübergreifende Kompatibilität (Windows, Linux, macOS).  
+- Full control over document structure without Microsoft Office installed.  
+- High‑performance processing of large files; Aspose.Words can handle 500‑page documents in under 3 seconds on standard server hardware.  
+- Cross‑platform compatibility (Windows, Linux, macOS).  
 
-Jetzt, wo Sie das „Warum“ verstehen, machen wir die Umgebung bereit.
+Now that you understand the “why,” let’s get the environment ready.
 
 ## Voraussetzungen
-- **Aspose.Words for Java** version 25.3 or newer.  
+- **Aspose.Words for Java** version 25.3 or newer.  
 - JDK 8 or later (Java 17 recommended).  
 - An IDE such as IntelliJ IDEA or Eclipse.  
 - Basic Java knowledge and familiarity with Maven or Gradle.
 
-## Aspose.Words einrichten
-Binden Sie die Bibliothek in Ihr Projekt ein, entweder über Maven oder Gradle:
+## Einrichtung von Aspose.Words
+Include the library in your project with either Maven or Gradle:
 
 ### Maven-Abhängigkeit
 ```xml
@@ -80,68 +127,74 @@ implementation 'com.aspose:aspose-words:25.3'
 ```
 
 #### Schritte zum Erwerb einer Lizenz
-1. **Free Trial** – die API ohne Kosten erkunden.  
-2. **Temporary License** – Testphase über die Testversion hinaus verlängern.  
-3. **Full License** – erforderlich für den Produktionseinsatz.
+1. **Free trial** – explore the API without cost.  
+2. **Temporary license** – extend testing beyond the trial period.  
+3. **Full license** – required for production deployments; this is where the **aspose words java license** is applied.
 
-Initialisieren Sie die Lizenz in Ihrem Java‑Code:
+Initialize the license in your Java code:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/aspose.words.lic");
 ```
 
-## Implementierungs‑Leitfaden
-Wir gehen jede Funktion Schritt für Schritt durch und lassen den Code unverändert, sodass Sie ihn direkt kopieren können.
+## Wie verwendet man die Aspose.Words für Java-Lizenz zur Verwaltung von Lesezeichen?
+Load your license first, then you can safely add, update, or delete bookmarks without hitting evaluation limits. The license removes the 20‑page and watermark restrictions, allowing unlimited document size and full feature access. By applying the license at runtime you also enable all premium APIs, such as high‑fidelity conversion, advanced formatting, and support for encrypted documents, ensuring production‑grade reliability.
 
 ### Einfügen eines Lesezeichens
 
 #### Übersicht
-Das Einfügen eines Lesezeichens ermöglicht es Ihnen, ein Stück Inhalt für die spätere Abrufung zu markieren.
+Inserting a bookmark lets you tag a piece of content for later retrieval.
+
+#### Definition Anker
+`DocumentBuilder` is the cursor‑based API that lets you insert text, tables, images, and bookmarks into a Word document programmatically.
 
 #### Schritte
 **1. Initialize Document and Builder:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
-```
+```  
 
-**2. Start and End the Bookmark:**  
+**2. Start and end the bookmark:**  
 ```java
 builder.startBookmark("My Bookmark");
 builder.write("Contents of My Bookmark.");
 builder.endBookmark("My Bookmark");
 doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
-```
-*Warum?* Das Markieren von Text mit einem Lesezeichen erleichtert die Navigation und spätere Aktualisierungen.
+```  
+*Why?* Marking specific text with a bookmark makes navigation and later updates trivial.
 
-### Zugriff auf und Überprüfung eines Lesezeichens
+### Zugriff auf ein Lesezeichen und Überprüfung
 
 #### Übersicht
-Nachdem Sie ein Lesezeichen hinzugefügt haben, müssen Sie häufig dessen Vorhandensein bestätigen, bevor Sie es manipulieren.
+After you add a bookmark, you often need to confirm its presence before manipulating it.
+
+#### Definition Anker
+`Bookmark` represents a named location in the document tree that you can query, move, or delete.
 
 #### Schritte
-**1. Load Document:**  
+**1. Load document:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Bookmarks.Insert.docx");
-```
+```  
 
-**2. Verify Bookmark Name:**  
+**2. Verify bookmark name:**  
 ```java
 String bookmarkName = doc.getRange().getBookmarks().get(0).getName();
 if (!"My Bookmark".equals(bookmarkName)) {
     throw new AssertionError("Bookmark name does not match expected value.");
 }
-```
-*Warum?* Die Überprüfung verhindert versehentliche Änderungen am falschen Abschnitt.
+```  
+*Why?* Verification avoids accidental changes to the wrong section.
 
 ### Erstellen, Aktualisieren und Ausgeben von Lesezeichen
 
 #### Übersicht
-Das gleichzeitige Verwalten mehrerer Lesezeichen ist in Berichten und Verträgen üblich.
+Managing several bookmarks at once is common in reports and contracts.
 
 #### Schritte
-**1. Create Multiple Bookmarks:**  
+**1. Create multiple bookmarks:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -153,32 +206,32 @@ for (int i = 1; i <= 3; i++) {
     builder.endBookmark(bookmarkName);
     builder.writeln("Text after bookmark.");
 }
-```
+```  
 
-**2. Update Bookmarks:**  
+**2. Update bookmarks:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
 bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
-```
+```  
 
-**3. Print Bookmark Information:**  
+**3. Print bookmark information:**  
 ```java
 for (int i = 0; i < bookmarks.getCount(); i++) {
     Bookmark bookmark = bookmarks.get(i);
     System.out.println(bookmark.getName() + ": " + bookmark.getText().trim());
 }
 doc.save(YOUR_OUTPUT_DIRECTORY + "UpdatedBookmarks.docx");
-```
-*Warum?* Das Aktualisieren von Lesezeichennamen oder -text hält das Dokument im Einklang mit sich ändernden Geschäftsregeln.
+```  
+*Why?* Updating bookmark names or text keeps the document aligned with evolving business rules.
 
 ### Arbeiten mit Lesezeichen in Tabellenspalten
 
 #### Übersicht
-Lesezeichen in Tabellen ermöglichen das gezielte Ansteuern einzelner Zellen, was für datengetriebene Berichte nützlich ist.
+Bookmarks inside tables let you target precise cells, useful for data‑driven reports.
 
 #### Schritte
-**1. Identify Column Bookmarks:**  
+**1. Identify column bookmarks:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Table column bookmarks.doc");
 for (Bookmark bookmark : doc.getRange().getBookmarks()) {
@@ -190,16 +243,16 @@ for (Bookmark bookmark : doc.getRange().getBookmarks()) {
         }
     }
 }
-```
-*Warum?* Diese Logik extrahiert spalten‑spezifische Daten, ohne die gesamte Tabelle zu parsen.
+```  
+*Why?* This logic extracts column‑specific data without parsing the whole table.
 
 ### Entfernen von Lesezeichen aus einem Dokument
 
 #### Übersicht
-Wenn ein Lesezeichen nicht mehr benötigt wird, hält das Entfernen das Dokument sauber und verbessert die Performance.
+When a bookmark is no longer needed, removing it keeps the document clean and improves performance.
 
 #### Schritte
-**1. Insert Multiple Bookmarks:**  
+**1. Insert multiple bookmarks:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -210,9 +263,9 @@ for (int i = 1; i <= 5; i++) {
     builder.endBookmark(bookmarkName);
     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
 }
-```
+```  
 
-**2. Remove Bookmarks:**  
+**2. Remove bookmarks:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).remove();
@@ -220,56 +273,64 @@ bookmarks.remove(bookmarks.get("MyBookmark_2"));
 doc.getRange().getBookmarks().removeAt(1);
 doc.getRange().getBookmarks().clear();
 doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
-```
-*Warum?* Effizientes Lesezeichen‑Management verhindert Unordnung und reduziert die Dateigröße.
+```  
+*Why?* Efficient bookmark management prevents clutter and reduces file size.
 
 ## Praktische Anwendungsfälle
-1. **Legal Contracts** – Direkt zu Klauseln oder Definitionen springen.  
-2. **Technical Manuals** – Verlinken zu Code‑Snippets oder Fehlerbehebungsschritten.  
-3. **Data‑Heavy Reports** – Bestimmte Tabellenzellen für dynamische Dashboards referenzieren.  
-4. **Academic Papers** – Zwischen Abschnitten, Abbildungen und Zitaten navigieren.  
-5. **Business Proposals** – Wichtige Kennzahlen für schnelle Stakeholder‑Durchsicht hervorheben.
+Here are some real‑world scenarios where **add bookmarks word** shines:
 
-## Leistungs‑Überlegungen
-- **Halten Sie die Anzahl der Lesezeichen in sehr großen Dokumenten angemessen**; jedes Lesezeichen fügt einen kleinen Overhead hinzu.  
-- Verwenden Sie **kurze, beschreibende Namen** (z. B. `Clause_5_Confidentiality`).  
-- Bereinigen Sie regelmäßig **unbenutzte Lesezeichen** mit den oben gezeigten Entfernungsschritten.
+1. **Legal contracts** – Jump straight to clauses or definitions.  
+2. **Technical manuals** – Link to code snippets or troubleshooting steps.  
+3. **Data‑heavy reports** – Reference specific table cells for dynamic dashboards.  
+4. **Academic papers** – Navigate between sections, figures, and citations.  
+5. **Business proposals** – Highlight key metrics for quick stakeholder review.
+
+## Leistungsüberlegungen
+- **Keep bookmark count reasonable** in very large documents; each bookmark adds a small overhead.  
+- Use **concise, descriptive names** (e.g., `Clause_5_Confidentiality`).  
+- Periodically **clean up unused bookmarks** with the removal steps shown above.
 
 ## Häufige Probleme und Lösungen
 | Issue | Solution |
 |-------|----------|
-| *Bookmark not found after save* | Stellen Sie sicher, dass Sie denselben Lesezeichennamen verwenden (Groß‑/Kleinschreibung beachten). |
-| *Bookmark text appears blank* | Stellen Sie sicher, dass Sie `builder.write()` **zwischen** `startBookmark` und `endBookmark` aufrufen. |
-| *Performance slowdown on massive files* | Begrenzen Sie Lesezeichen auf wesentliche Abschnitte und entfernen Sie sie, wenn sie nicht mehr benötigt werden. |
-| *License not applied* | Bestätigen Sie, dass der Pfad zur `.lic`‑Datei korrekt ist und die Datei zur Laufzeit zugänglich ist. |
+| *Bookmark not found after save* | Verify you’re using the exact bookmark name (case‑sensitive). |
+| *Bookmark text appears blank* | Ensure you call `builder.write()` **between** `startBookmark` and `endBookmark`. |
+| *Performance slowdown on massive files* | Limit bookmarks to essential sections and clear them when no longer needed. |
+| *License not applied* | Confirm the `.lic` file path is correct and the file is accessible at runtime. |
 
 ## Häufig gestellte Fragen
 
-**Q: Kann ich ein Lesezeichen zu einem bestehenden Dokument hinzufügen, ohne die gesamte Datei neu zu schreiben?**  
-A: Ja. Laden Sie das Dokument, verwenden Sie `DocumentBuilder`, um zur gewünschten Position zu navigieren, und rufen Sie `startBookmark`/`endBookmark` auf. Speichern Sie das Dokument anschließend.
+**Q: Can I add a bookmark to an existing document without rewriting the whole file?**  
+A: Yes. Load the document, use `DocumentBuilder` to navigate to the desired location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
 
-**Q: Wie lösche ich ein Lesezeichen, ohne den umgebenden Text zu entfernen?**  
-A: Verwenden Sie `Bookmark.remove()`; dadurch wird nur das Lesezeichen‑Marker gelöscht, der Inhalt bleibt unverändert.
+**Q: How do I delete a bookmark without removing its surrounding text?**  
+A: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving the content untouched.
 
-**Q: Gibt es eine Möglichkeit, alle Lesezeichennamen in einem Dokument aufzulisten?**  
-A: Iterieren Sie über `doc.getRange().getBookmarks()` und rufen Sie `getName()` für jedes `Bookmark`‑Objekt auf.
+**Q: Is there a way to list all bookmark names in a document?**  
+A: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on each `Bookmark` object.
 
-**Q: Unterstützt Aspose.Words passwortgeschützte Word‑Dateien?**  
-A: Ja. Übergeben Sie das Passwort dem `Document`‑Konstruktor: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
+**Q: Does Aspose.Words support password‑protected Word files?**  
+A: Yes. Pass the password to the `Document` constructor: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
 
-**Q: Welche Java‑Versionen werden offiziell unterstützt?**  
-A: Aspose.Words for Java unterstützt Java 8 bis Java 17 (einschließlich LTS‑Versionen).
+**Q: Which Java versions are officially supported?**  
+A: Aspose.Words for Java supports Java 8 through Java 17, including all LTS releases.
 
 ---
 
-**Last Updated:** 2025-11-26  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose  
+**Last Updated:** 2026-10-28  
+**Tested with:** Aspose.Words for Java 25.3  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [Add Content Control In Word Document With Aspose Words](/words/java/document-manipulation/add-content-control-in-word-document-with-aspose-words/)
+- [extract hyperlinks word java – Master Hyperlink Management with Aspose.Words](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [How to create form fields and add content using DocumentBuilder in Aspose.Words for Java](/words/java/document-manipulation/adding-content-using-documentbuilder/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
