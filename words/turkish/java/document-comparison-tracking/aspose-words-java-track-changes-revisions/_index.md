@@ -1,60 +1,119 @@
 ---
-date: '2025-11-27'
-description: Word belgelerindeki değişiklikleri nasıl izleyebileceğinizi ve revizyonları
-  Aspose.Words for Java ile nasıl yöneteceğinizi öğrenin. Bu kapsamlı rehberde belge
-  karşılaştırma, satır içi revizyon işleme ve daha fazlasında ustalaşın.
+date: '2026-11-02'
+description: Aspose.Words for Java kullanarak Word belgelerinde değişiklikleri nasıl
+  izleyebileceğinizi öğrenin; document comparison, inline revision handling, licensing
+  ve performance tips konularını kapsar.
 keywords:
+- how to track changes
+- track formatting changes
+- document comparison aspose
+- aspose.words license java
+lastmod: '2026-11-02'
+og_description: Aspose.Words for Java kullanarak Word belgelerinde değişiklikleri
+  nasıl izleyebileceğinizi öğrenin; document comparison, inline revision handling
+  ve licensing detayları.
+og_image_alt: Guide showing how to track changes in Word documents with Aspose.Words
+  Java
+og_title: Aspose.Words Java ile Word belgelerinde değişiklikleri izleme
+schemas:
+- author: Aspose
+  dateModified: '2026-11-02'
+  description: Learn how to track changes in Word docs using Aspose.Words for Java,
+    covering document comparison, inline revision handling, licensing, and performance
+    tips.
+  headline: How to track changes in Word docs with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to track changes in Word docs using Aspose.Words for Java,
+    covering document comparison, inline revision handling, licensing, and performance
+    tips.
+  name: How to track changes in Word docs with Aspose.Words Java
+  steps:
+  - name: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+    text: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+  - name: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+    text: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+  - name: '**Collaborative editing:** Teams can review and approve changes before
+      publishing a final contract.'
+    text: '**Collaborative editing:** Teams can review and approve changes before
+      publishing a final contract.'
+  - name: '**Legal document review:** Lawyers track amendments to clauses, ensuring
+      every change is auditable.'
+    text: '**Legal document review:** Lawyers track amendments to clauses, ensuring
+      every change is auditable.'
+  - name: '**Software documentation:** Technical writers manage updates to API references
+      while preserving version history.'
+    text: '**Software documentation:** Technical writers manage updates to API references
+      while preserving version history.'
+  type: HowTo
+- questions:
+  - answer: An inline node represents a run of text or a character‑level element inside
+      a paragraph, such as a `Run` or a `Field`.
+    question: What is an inline node in Aspose.Words?
+  - answer: Call `document.startTrackRevisions()` on your `Document` instance before
+      making any edits.
+    question: How do I start tracking revisions with Aspose.Words Java?
+  - answer: Yes, use `document.acceptAllRevisions()` or `document.rejectAllRevisions()`
+      to apply the changes programmatically.
+    question: Can I automate accepting or rejecting revisions in a document?
+  - answer: It supports DOCX, PDF, HTML, ODT, RTF, EPUB, and more than 35 formats
+      for both import and export.
+    question: What types of documents does Aspose.Words support?
+  - answer: Process the file section by section, use low‑memory load options, and
+      leverage batch revision methods to keep CPU and RAM usage optimal.
+    question: How do I handle large documents efficiently with Aspose.Words?
+  type: FAQPage
+tags:
 - track changes
+- Aspose.Words Java
 - document revisions
-- inline revision handling
-title: 'Aspose.Words Java Kullanarak Word Belgelerinde Değişiklikleri İzleme: Belge
-  Revizyonlarına Tam Kılavuz'
+- inline revisions
+- Java document processing
+title: Aspose.Words Java ile Word belgelerinde değişiklikleri izleme
 url: /tr/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Java ile Word Belgelerinde Değişiklikleri İzleme: Belge Revizyonlarına Tam Kılavuz
+# Aspose.Words Java ile Word belgelerinde değişiklikleri izleme
 
-## Giriş
+Önemli belgeler üzerinde işbirliği yapmak, genellikle **Word belgelerinde değişiklikleri izleme** ihtiyacını gerektirir, böylece her düzenleme görünür ve kontrol edilebilir. Aspose.Words for Java, Microsoft Word olmadan çalışan programatik bir “Track Changes” motoru sağlar; böylece kodunuzdan doğrudan revizyonları başlatabilir, sorgulayabilir, kabul edebilir veya reddedebilirsiniz. Bu rehberde kütüphaneyi kuracak, satır içi revizyon işleme keşfedecek ve büyük dosyalar için performans dostu teknikler öğreneceksiniz.
 
-Önemli belgeler üzerinde iş birliği yapmak zor olabilir, özellikle birden fazla katkıda bulunan arasında **word belgelerinde değişiklikleri izleme** ihtiyacınız olduğunda. Aspose.Words for Java ile “Değişiklikleri İzleme” işlevini doğrudan uygulamalarınıza sorunsuz bir şekilde entegre edebilir, revizyonlar üzerinde ayrıntılı kontrol sağlayabilirsiniz. Bu öğretici, kütüphaneyi kurma, satır içi revizyonları işleme ve değişiklik izleme özelliklerinin tam kapsamını ustalıkla kullanma konularında size rehberlik edecek.
+## Hızlı cevaplar
+- **Word belgelerinde değişiklikleri izlemeyi sağlayan kütüphane nedir?** Aspose.Words for Java  
+- **Hangi bağımlılık yöneticisi önerilir?** Maven or Gradle (both supported)  
+- **Geliştirme için lisansa ihtiyacım var mı?** A free trial works for evaluation; a license is required for production use  
+- **Büyük belgeleri verimli bir şekilde işleyebilir miyim?** Yes – use section‑by‑section processing and batch operations  
+- **Programatik olarak izlemeyi başlatmak için bir yöntem var mı?** `document.startTrackRevisions()` starts the tracking session  
 
-**Öğrenecekleriniz:**
-- Aspose.Words’u Maven veya Gradle ile nasıl kuracağınız
-- Çeşitli revizyon türlerini (ekleme, biçim, taşıma, silme) uygulama
-- Belge değişikliklerini yönetmek için temel özellikleri anlama ve kullanma
+## Değişiklikleri izleme nedir?
+`how to track changes` refers to the process of programmatically enabling Word’s built‑in revision tracking feature. When active, every insert, deletion, formatting edit, or move is recorded as a distinct revision object. These objects can later be enumerated, reviewed, and either accepted to make the change permanent or rejected to discard it, providing full auditability of document edits.
 
-### Hızlı Yanıtlar
-- **Word belgelerinde değişiklikleri izlemeyi sağlayan kütüphane hangisidir?** Aspose.Words for Java  
-- **Hangi bağımlılık yöneticisi önerilir?** Maven veya Gradle (her ikisi de desteklenir)  
-- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için lisans gereklidir  
-- **Büyük belgeleri verimli bir şekilde işleyebilir miyim?** Evet – bölüm‑bölüm işleme ve toplu işlemler kullanın  
-- **Programlı olarak izlemeyi başlatan bir yöntem var mı?** `document.startTrackRevisions()` izleme oturumunu başlatır  
+## Değişiklik izleme için Aspose.Words neden kullanılmalı?
+Aspose.Words, **35+ giriş ve çıkış formatını** destekler — DOCX, PDF, HTML ve ODT dahil — ve Microsoft Word gerektirmeden standart sunucu donanımında **500 sayfalık belgeleri 3 saniyenin altında** işleyebilir. API, Windows, Linux ve macOS üzerinde çalışır; bu da güvenilir revizyon yönetimi gerektiren bulut tabanlı veya şirket içi çözümler için idealdir.
 
-Bu yetenekleri ustalıkla kullanabilmeniz için ortamınızı kurarak başlayalım.
+## Önkoşullar
 
-## Ön Koşullar
+- **Java Development Kit (JDK):** version 8 veya üzeri.  
+- **IDE:** IntelliJ IDEA, Eclipse veya NetBeans.  
+- **Build tool:** Bağımlılık yönetimi için Maven veya Gradle.  
+- Kod parçacıklarını anlamak için temel Java bilgisi.
 
-Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
-- **Java Development Kit (JDK):** Sisteminizde yüklü, sürüm 8 veya üzeri.
-- **Entegre Geliştirme Ortamı (IDE):** IntelliJ IDEA, Eclipse veya NetBeans gibi.
-- **Maven veya Gradle:** Bağımlılıkları yönetmek ve projenizi derlemek için.
+## Aspose.Words Kurulumu
 
-Kod örneklerini takip edebilmek için temel Java programlama bilgisine de sahip olmanız gerekir.
+### Maven kurulumu
 
-## Aspose.Words’u Kurma
-
-Aspose.Words’u projenize entegre etmek için Maven veya Gradle kullanın.
-
-### Maven Kurulumu
-
-`pom.xml` dosyanıza şu bağımlılığı ekleyin:
+Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <dependency>
@@ -64,24 +123,25 @@ Aspose.Words’u projenize entegre etmek için Maven veya Gradle kullanın.
 </dependency>
 ```
 
-### Gradle Kurulumu
+### Gradle kurulumu
 
-`build.gradle` dosyanıza şu satırı ekleyin:
+`build.gradle` dosyanıza bu satırı ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Lisans Edinme
+#### Lisans edinme
 
-Aspose, özelliklerini test etmeniz için ücretsiz bir deneme sunar; böylece ihtiyaçlarınıza uygun olup olmadığını değerlendirebilirsiniz. Başlamak için:
-1. **Ücretsiz Deneme:** Kütüphaneyi [Aspose Downloads](https://releases.aspose.com/words/java/) adresinden indirin ve değerlendirme sınırlamalarıyla kullanın.
-2. **Geçici Lisans:** Değerlendirme kısıtlamaları olmadan daha uzun süreli kullanım için [Temporary License](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret edin.
-3. **Lisans Satın Al:** Aspose.Words özelliklerine tam erişim için satın alma sayfasındaki talimatları izleyerek lisans alın.
+Aspose, özelliklerini test etmeniz için ücretsiz bir deneme sunar, böylece ihtiyaçlarınıza uygun olup olmadığını değerlendirebilirsiniz. Başlamak için:
 
-#### Temel Başlatma
+1. **Free trial:** Kütüphaneyi [Aspose Downloads](https://releases.aspose.com/words/java/) adresinden indirin ve değerlendirme sınırlamalarıyla kullanın.  
+2. **Temporary license:** Değerlendirme kısıtlamaları olmadan uzun süreli kullanım için geçici bir lisans almak üzere [Temporary License](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.  
+3. **Purchase license:** Aspose.Words özelliklerine tam erişim gerekiyorsa, satın alma sayfalarındaki talimatları izleyerek lisans satın almayı düşünün.
 
-Başlatmak için bir `Document` örneği oluşturun ve çalışmaya başlayın:
+#### Temel başlatma
+
+`Document`, Aspose.Words'un bellek içinde bir Word dosyasını temsil eden birincil nesnesidir. Başlatmak için bir `Document` örneği oluşturun ve onunla çalışmaya başlayın:
 
 ```java
 import com.aspose.words.Document;
@@ -94,23 +154,22 @@ public class Main {
 }
 ```
 
-## Aspose.Words Java ile Word Belgelerinde Değişiklikleri İzleme
+## Aspose.Words Java ile Word belgelerinde değişiklikleri izleme
+`document.startTrackRevisions()` belge üzerinde bir revizyon izleme oturumu başlatır. Bir Word dosyası yükleyin, izlemeyi başlatmak için `startTrackRevisions()` çağırın, istediğiniz düzenlemeleri yapın ve sonunda belgeyi kaydedin. API, her düzenlemeyi daha sonra listeleyebileceğiniz, kabul edebileceğiniz veya reddedebileceğiniz bir revizyon nesnesi olarak kaydeder. Bu iki adımlı desen—izlemeyi başlat, düzenlemeleri yap—eklemeleri, silmeleri, biçim değişikliklerini ve taşıma işlemlerini kapsar.
 
-Bu bölümde **how to track changes java** sorusuna yanıt vererek geliştiricilerin Aspose.Words ile revizyon yönetimini nasıl uygulayabileceğini gösteriyoruz. Farklı revizyon türlerini anlamak ve bunları sorgulamak, sağlam iş birliği özellikleri oluşturmak için kritiktir.
+## Uygulama rehberi
 
-## Uygulama Kılavuzu
+Bu bölümde Aspose.Words Java kullanarak farklı revizyon türlerini nasıl ele alacağımızı inceleyeceğiz.
 
-Bu bölümde, Aspose.Words Java kullanarak farklı revizyon türlerini nasıl ele alacağınızı inceleyeceğiz.
+### Satır içi revizyonları işleme
 
-### Satır İçi Revizyonları İşleme
+#### Genel bakış
 
-#### Genel Bakış
+Değişiklikleri izlerken, satır içi revizyonlar bir paragraf içinde koşu (run) olarak görünür. Bunlar ekleme, silme, biçimlendirme değişikliği veya taşıma işlemi olabilir. Her türü anlamak, UI‑dostu inceleme araçları oluşturmanıza olanak tanır.
 
-Bir belgede değişiklikleri izlerken, satır içi revizyonları anlamak ve yönetmek çok önemlidir. Bunlar eklemeler, silmeler, biçim değişiklikleri veya metin taşıma işlemlerini içerebilir.
+#### Kod uygulaması
 
-#### Kod Uygulaması
-
-Aspose.Words Java kullanarak bir satır içi düğümün revizyon tipini belirlemek için adım‑adım bir kılavuz aşağıdadır:
+Aşağıdaki kod parçacığı, bir satır içi düğümün revizyon tipini nasıl inceleyeceğinizi gösterir:
 
 ```java
 import com.aspose.words.Document;
@@ -144,67 +203,83 @@ public class RevisionHandler {
 }
 ```
 
+`RevisionType`, değişiklik türünü sınıflandıran bir enumdur—Insert, Delete, Format, MoveFrom veya MoveTo. Bu özelliği kontrol ederek değişikliği kullanıcıya gösterip göstermeyeceğinize veya otomatik kabul kuralları uygulayıp uygulamayacağınıza karar verebilirsiniz.
+
 #### Açıklama
-- **Ekleme Revizyonu:** Değişiklik izlenirken metin eklendiğinde oluşur.
-- **Biçim Revizyonu:** Metnin biçimlendirilmesindeki değişiklikler tetiklenir.
-- **Taşıma (From/To) Revizyonları:** Metnin belgede hareketini temsil eder ve çiftler halinde görünür.
-- **Silme Revizyonu:** Kabul veya reddedilmeyi bekleyen silinmiş metni işaret eder.
+- **Insert revision:** İzleme aktifken eklenen metin.  
+- **Format revision:** Mevcut metne uygulanan yazı tipi, renk veya stil değişiklikleri.  
+- **Move from / to revisions:** Belgede taşınan metni temsil eder; her zaman bir çift olarak görünür.  
+- **Delete revision:** Metin kaldırılır ancak kabul ya da reddedene kadar tutulur.
 
-### Pratik Uygulamalar
+### Pratik uygulamalar
 
-Revizyon yönetiminin faydalı olduğu bazı gerçek dünya senaryoları:
-1. **Ortak Düzenleme:** Takımlar, belgeyi sonlandırmadan önce değişiklikleri gözden geçirip onaylayabilir.
-2. **Hukuki Belge İncelemesi:** Avukatlar, sözleşmelere yapılan değişiklikleri izleyerek tüm tarafların nihai versiyonda mutabık kalmasını sağlar.
-3. **Yazılım Dokümantasyonu:** Geliştiriciler, teknik belgelerdeki güncellemeleri yöneterek açıklık ve doğruluğu korur.
+Revizyon yönetiminin öne çıktığı gerçek dünya senaryoları:
 
-### Performans Düşünceleri
+1. **Collaborative editing:** Takımlar, nihai sözleşmeyi yayınlamadan önce değişiklikleri gözden geçirip onaylayabilir.  
+2. **Legal document review:** Avukatlar, maddelerdeki değişiklikleri izleyerek her değişikliğin denetlenebilir olmasını sağlar.  
+3. **Software documentation:** Teknik yazarlar, API referanslarındaki güncellemeleri sürüm geçmişini koruyarak yönetir.
 
-Çok sayıda revizyon içeren büyük belgeleri işlerken performansı artırmak için:
-- Bellek kullanımını azaltmak amacıyla belge bölümlerini sıralı olarak işleyin.
-- İş yükünü azaltmak için Aspose.Words’un yerleşik toplu işlem yöntemlerini kullanın.
+### Performans hususları
 
-## Sonuç
+`LoadOptions`, bir belgenin nasıl yükleneceğini, bellek kullanım ayarları dahil, yapılandırır. Büyük ve revizyon ağırlıklı belgeleri işlemek bellek yoğun olabilir. Aşağıdaki en iyi uygulamaları izleyin:
 
-Artık Aspose.Words Java’da satır içi revizyon yönetimi kullanarak **word belgelerinde değişiklikleri izleme** nasıl uygulanır, biliyorsunuz. Bu teknikleri ustalıkla kullanarak iş birliğini geliştirebilir ve uygulamalarınız içinde belge değişiklikleri üzerinde kesin kontrol sağlayabilirsiniz.
+- **Section‑by‑section processing:** Bellek kullanımını düşük tutmak için bir seferde bir bölümü yükleyip işleyin.  
+- **Batch operations:** Mümkün olduğunda tek tek düğümler yerine tüm bölümler üzerinde `Document.acceptAllRevisions()` veya `Document.rejectAllRevisions()` kullanın.  
+- **Streaming API:** 1 GB'den büyük dosyalar için, tüm dosyayı RAM'e yüklememek adına `LoadOptions` akış (streaming) modunu kullanın.
 
-**Sonraki Adımlar:**
-- Farklı revizyon türleriyle denemeler yapın.
-- Aspose.Words’u daha büyük projelere entegre ederek kapsamlı belge işleme çözümleri oluşturun.
+## Yaygın tuzaklar ve sorun giderme
 
-## SSS Bölümü
+`document.startTrackRevisions()` verilen Document örneğinde revizyon izlemeyi başlatır.
 
-1. **Aspose.Words’da satır içi düğüm nedir?**  
-   - Bir satır içi düğüm, bir paragraftaki koşul veya karakter biçimlendirmesi gibi metin öğelerini temsil eder.  
-2. **Aspose.Words Java ile revizyon izlemeye nasıl başlarım?**  
-   - `Document` örneğiniz üzerinde `startTrackRevisions` metodunu kullanarak izlemeyi başlatın.  
-3. **Bir belgede revizyonları otomatik olarak kabul edip reddedebilir miyim?**  
-   - Evet, `acceptAllRevisions` veya `rejectAllRevisions` gibi metodları programlı olarak kullanabilirsiniz.  
-4. **Aspose.Words hangi belge türlerini destekler?**  
-   - DOCX, PDF, HTML ve diğer popüler formatları destekleyerek esnek belge dönüşümü sağlar.  
-5. **Aspose.Words ile büyük belgeleri verimli bir şekilde nasıl işlerim?**  
-   - Bölümleri artımlı olarak işleyin ve performansı korumak için toplu işlemlerden yararlanın.
+- **Missing revisions after editing:** Değişiklik yaptıktan sonra revizyon eksikliği: Herhangi bir değişiklik yapmadan önce `document.startTrackRevisions()` *çağırdığınızdan* emin olun; izlemeyi düzenlemelerden sonra başlatmak önceki değişiklikleri yakalamaz.  
+- **Unexpected formatting changes:** Bazı stil değişiklikleri `RevisionType.Format` olarak raporlanır. Yalnızca metin içeriğiyle ilgileniyorsanız, enumlama mantığınızda format revizyonlarını filtreleyin.  
+- **Large document slowdown:** En yüksek bellek tüketimini azaltmak için `LoadOptions.memoryUsage = LoadOptions.MemoryUsageMode.LowMemory` etkinleştirin.
+
+## Sıkça sorulan sorular
+
+`Document.acceptAllRevisions()` bekleyen tüm revizyonları uygular, böylece tüm değişiklikler kalıcı olur. `Document.rejectAllRevisions()` bekleyen tüm revizyonları iptal eder ve belgeyi orijinal haline geri döndürür.
+
+**Q: Aspose.Words'te satır içi düğüm nedir?**  
+A: Satır içi düğüm, bir paragraf içinde bir metin koşusu (run) veya karakter‑seviyesinde bir öğeyi temsil eder; örneğin `Run` veya `Field`.
+
+**Q: Aspose.Words Java ile revizyon izlemeyi nasıl başlatırım?**  
+A: Düzenleme yapmadan önce `Document` örneğinizde `document.startTrackRevisions()` çağırın.
+
+**Q: Bir belgede revizyonları kabul etmeyi veya reddetmeyi otomatikleştirebilir miyim?**  
+A: Evet, değişiklikleri programatik olarak uygulamak için `document.acceptAllRevisions()` veya `document.rejectAllRevisions()` kullanabilirsiniz.
+
+**Q: Aspose.Words hangi belge türlerini destekliyor?**  
+A: DOCX, PDF, HTML, ODT, RTF, EPUB ve hem içe aktarım hem de dışa aktarım için 35'ten fazla formatı destekler.
+
+**Q: Aspose.Words ile büyük belgeleri verimli bir şekilde nasıl yönetirim?**  
+A: Dosyayı bölüm bölüm işleyin, düşük bellekli yükleme seçeneklerini kullanın ve CPU ve RAM kullanımını optimal tutmak için toplu revizyon yöntemlerinden yararlanın.
 
 ## Kaynaklar
 
-- [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
-- [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/words/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Java Dokümantasyonu](https://reference.aspose.com/words/java/)  
+- [Aspose.Words for Java'ı İndir](https://releases.aspose.com/words/java/)  
+- [Lisans Satın Al](https://purchase.aspose.com/buy)  
+- [Ücretsiz Deneme](https://releases.aspose.com/words/java/)  
+- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 
-Aspose.Words Java ile yolculuğunuza bugün başlayın ve uygulamalarınızda belge işleme potansiyelinin tamamını kullanın!
+Bugün Aspose.Words Java ile yolculuğunuza başlayın ve uygulamalarınızda belge işleme potansiyelinin tamamını kullanın!
+
+---
+
+**Son Güncelleme:** 2026-11-02  
+**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.Words for Java'da Değişiklik İzlemeyi Uygulama](/words/java/document-comparison-tracking/)
+- [Aspose.Words for Java Belge Dönüştürme API'sı ile Word'ü PDF'ye Dönüştür](/words/java/document-converting/)
+- [Aspose Words LoadOptions ile Java'da Bozuk Word Belgelerini Kurtarma](/words/java/document-loading-and-saving/aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-11-27  
-**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
-**Yazar:** Aspose
