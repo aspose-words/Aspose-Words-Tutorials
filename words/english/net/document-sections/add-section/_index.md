@@ -41,11 +41,7 @@ Aspose.Words for .NET makes working with Word documents effortless by providing 
    - Add the `Aspose.Words.dll` file to your project by right-clicking on References in Solution Explorer and selecting Add Reference.  
 
 4. Activate the License (Optional):  
-   If you have a license, apply it to unlock the full functionality:  
-   ```csharp
-   Aspose.Words.License license = new Aspose.Words.License();
-   license.SetLicense("path_to_your_license.lic");
-   ```  
+   If you have a license, apply it according to the Aspose.Words documentation.
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
