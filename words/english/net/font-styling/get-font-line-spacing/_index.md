@@ -41,7 +41,7 @@ To use this example, follow these steps:
    - Add the following code at the beginning of your application to apply the license:  
      ```csharp
      License license = new License();
-     license.SetLicense("Aspose.Words.lic");
+     // Apply your license file here if you have one
      ```
 	 
 ## Also See
