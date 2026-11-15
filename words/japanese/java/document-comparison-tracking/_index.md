@@ -1,67 +1,124 @@
 ---
-date: 2025-11-27
-description: Aspose.Words for Java を使用して変更履歴の実装と Word 文書の比較方法を学び、バージョン管理とリビジョン追跡をマスターしましょう。
-title: Aspose.Words for Javaで変更追跡を実装する
+date: 2026-11-15
+description: Aspose.Words for Java を使用して 2 つの Word ファイルを比較し、change tracking を有効にする方法を学びます。version
+  control と revision handling のステップバイステップガイドをご提供します。
+keywords:
+- compare two word files
+- aspose words change tracking
+- document comparison java
+lastmod: 2026-11-15
+og_description: Aspose.Words for Java を使用して 2 つの Word ファイルを比較し、change tracking を有効にする方法を学びます。このガイドでは
+  version control、revision handling、best practices について解説します。
+og_image_alt: 'Developer guide: compare two word files with Aspose.Words for Java'
+og_title: Aspose.Words for Java を使用して 2 つの Word ファイルを比較する方法
+schemas:
+- author: Aspose
+  dateModified: '2026-11-15'
+  description: Learn how to compare two word files and enable change tracking with
+    Aspose.Words for Java. Get step‑by‑step guidance for version control and revision
+    handling.
+  headline: How to compare two word files using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to compare two word files and enable change tracking with
+    Aspose.Words for Java. Get step‑by‑step guidance for version control and revision
+    handling.
+  name: How to compare two word files using Aspose.Words for Java
+  steps:
+  - name: '**Load documents** – use `new Document("Original.docx")` and `new Document("Revised.docx")`.'
+    text: '**Load documents** – use `new Document("Original.docx")` and `new Document("Revised.docx")`.'
+  - name: '**Start tracking** – call `original.startTrackChanges()` before making
+      any edits.'
+    text: '**Start tracking** – call `original.startTrackChanges()` before making
+      any edits.'
+  - name: '**Compare** – `original.compare(revised, "Reviewer", new Date())` produces
+      a document that highlights all differences.'
+    text: '**Compare** – `original.compare(revised, "Reviewer", new Date())` produces
+      a document that highlights all differences.'
+  - name: '**Process revisions** – loop through `original.getRevisions()`; call `accept()`
+      or `reject()` on each item based on your business rules.'
+    text: '**Process revisions** – loop through `original.getRevisions()`; call `accept()`
+      or `reject()` on each item based on your business rules.'
+  - name: '**Save** – `original.save("Result.docx")` or export to PDF, HTML, etc.'
+    text: '**Save** – `original.save("Result.docx")` or export to PDF, HTML, etc.'
+  type: HowTo
+- questions:
+  - answer: Call `document.acceptAllRevisions()` after performing the comparison or
+      after loading a document that already contains revisions.
+    question: How do I programmatically accept all tracked changes?
+  - answer: Yes—first convert the PDF to a Word format using Aspose.PDF or another
+      conversion tool, then invoke `compare()` on the two Word documents.
+    question: Can I compare documents in different formats, such as DOCX versus PDF?
+  - answer: Use `CompareOptions` and set `ignoreFormatting` to `true` when calling
+      `compare()` to focus only on textual differences.
+    question: Is it possible to ignore formatting changes during comparison?
+  - answer: The cloud SDK offers similar revision features, but this tutorial focuses
+      on the on‑premise Java library.
+    question: Does Aspose.Words provide cloud‑based change‑tracking APIs?
+  - answer: The current stable release (24.11) fully supports Java 8‑21 and introduces
+      performance optimizations for large‑scale document comparison.
+    question: Which Aspose.Words version includes the latest change‑tracking improvements?
+  type: FAQPage
+tags:
+- compare word files
+- aspose.words
+- java document processing
+title: Aspose.Words for Java を使用して 2 つの Word ファイルを比較する方法
 url: /ja/java/document-comparison-tracking/
 weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Javaで変更追跡を実装する
-
-最新の Java アプリケーションでは、**implement change tracking** は Word 文書の明確なバージョン管理を維持するために不可欠です。文書管理システム、共同編集ツール、または自動レポートパイプラインを構築する場合でも、Aspose.Words for Java を使用すれば、数行のコードで比較、マージ、リビジョンの追跡が可能です。このチュートリアルでは、Aspose.Words を使用して **implement change tracking** と文書比較を効率的に行うための基本概念、実用的なユースケース、ベストプラクティスを解説します。
+# Aspose.Words for Java を使用した 2 つの Word ファイルの比較方法
 
 ## クイック回答
-- **What is change tracking?** Word 文書内で挿入、削除、書式変更をリビジョンとして記録する機能です。  
-- **Why use Aspose.Words for Java?** Microsoft Office を必要とせずに、比較、マージ、リビジョンの追跡を行う堅牢な API を提供します。  
-- **Do I need a license?** テスト用には一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
-- **Which Java versions are supported?** Java 8 以降（Java 11、17、21 を含む）です。  
-- **Can I track revisions in protected documents?** はい。ファイルを開く際に `LoadOptions` でパスワードを指定します。  
+- **Change tracking とは何ですか？** 挿入、削除、書式設定の編集を Word 文書内のリビジョン オブジェクトとして記録します。  
+- **なぜ Aspose.Words for Java を選ぶのですか？** このライブラリは 35 以上の入力および出力フォーマットをサポートし、Java 8 から 21 をサポートする任意の OS 上で動作します。  
+- **ライセンスは必要ですか？** テストには一時ライセンスで十分です。本番環境ではフルライセンスが必要です。  
+- **保護されたファイルを比較できますか？** はい。ドキュメントを開く際に適切なパスワードを指定して `LoadOptions` を使用します。  
+- **大きなファイルでメモリ使用量が問題ですか？** `LoadOptions.setMemoryOptimization(true)` を有効にすると、ファイル全体を RAM に読み込まずに数百ページのファイルを処理できます。
 
-## Implement Change Tracking とは何か？
-変更追跡を実装するとは、文書がすべての編集をリビジョンとして記録できるようにし、後で変更をレビュー、承認、または却下できるようにすることです。Aspose.Words を使用すれば、この機能をプログラムでオン・オフでき、2 つの文書バージョンを比較し、複数のリビジョンを単一のクリーンな文書にマージすることも可能です。
+## 変更追跡の実装とは？
+変更追跡は、Word の機能で、各編集を **revision** オブジェクトとして捕捉し、後で変更をレビュー、受諾、または却下できるようにします。Aspose.Words はこの機能を API で提供しているため、プログラムから追跡のオン/オフを切り替え、ドキュメントの 2 つのバージョンを比較し、複数のリビジョン ストリームをクリーンな最終ファイルにマージできます。
 
-## なぜ Aspose.Words を変更追跡と比較に使用するのか？
-- **Accurate Version Control Word Docs** – すべての変更の完全な監査トレイルを保持します。  
-- **Automated Compare & Merge** – 2 つの Word ファイル間の差分を迅速に特定し、手作業なしでマージします。  
-- **Cross‑Platform Compatibility** – Java をサポートする任意の OS で動作し、Microsoft Word が不要になります。  
-- **Fine‑Grained Control** – 比較または無視する要素（テキスト、書式設定、コメント）を選択できます。  
+## なぜ Aspose.Words を変更追跡と比較に使用するのですか？
+Office をインストールせずに Word 文書の **精密なバージョン管理** が可能になり、テキスト、書式、コメントの差異をハイライトする **自動比較・マージ** が提供され、比較に含める要素を **細かく制御** できます。ライブラリは 500 MB までの文書を数秒以内に典型的なサーバー ハードウェア上で処理でき、高スループットなエンタープライズシナリオに適しています。
 
 ## 前提条件
-- Java Development Kit (JDK) 8 以上。  
+- Java Development Kit (JDK) 8 以上（Java 11、17、21 は完全にサポートされています）。  
 - Aspose.Words for Java ライブラリ（公式サイトからダウンロード）。  
-- 一時またはフルの Aspose ライセンス（評価用はオプション）。  
+- 一時またはフルの Aspose ライセンス（評価用はオプション）。
 
 ## 概要
-ソフトウェア開発、特に Java アプリケーションで文書を効率的に管理することは重要です。Aspose.Words for Java を使用した **Document Comparison & Tracking** カテゴリは、文書変更をシームレスに処理したい開発者に強力なソリューションを提供します。このチュートリアルでは、Aspose.Words を活用して文書間の差分を比較・追跡する方法を詳しく解説し、バージョン管理を容易にし、エラーを削減し、チーム内のコラボレーションを効率化する方法を示します。当チュートリアルは、Java 開発者が Aspose.Words の可能性を最大限に活用できるよう設計されています。比較タスクの自動化や高度な追跡機能の実装を目指す方に、成功に必要な知識とツールを提供します。
+文書の比較と追跡は、法務レビュー、契約管理、共同執筆、レポート自動生成など多くのビジネス ワークフローの中心です。Aspose.Words を統合することで手動での差分確認を排除し、エラーを減らし、すべての関係者が変更履歴を明確に把握できるようになります。このチュートリアルは、Java 開発者がこれらのタスクを信頼性高く自動化するための知識を提供します。
 
 ## Aspose.Words for Java で変更追跡を実装する方法
-以下は、**変更追跡** を実装し、文書比較を行うための高レベルな手順です。
+変更追跡を実装するには、`Document` クラスで元のファイルと改訂ファイルをロードし、編集前に `original.startTrackChanges()` を呼び出し、次に `original.compare(revised, "Reviewer", new Date())` を実行してリビジョン マークを作成します。その後、`RevisionCollection` を反復処理して各変更を受諾または却下し、結果を保存します。
 
-1. **元の文書と改訂版の文書をロード** – `Document` クラスを使用して各ファイルを開きます。  
-2. **変更追跡を有効化** – `TrackChanges` を `true` に設定して `DocumentBuilder.insertParagraph()` を呼び出すか、`Document.startTrackChanges()` を使用してリビジョン記録を開始します。  
-3. **文書を比較** – `Document.compare()` を呼び出して、挿入、削除、書式変更をハイライトしたリビジョン豊富な結果を生成します。  
-4. **リビジョンをレビューまたは承認/却下** – `RevisionCollection` を反復処理し、特定の変更をプログラムで承認または却下します。  
-5. **最終文書を保存** – DOCX、PDF、または他のサポート形式で文書をエクスポートします。
+`Document` はメモリにロードされた Word ファイルを表し、内容の読み取り、編集、保存のメソッドを提供します。  
+`startTrackChanges()` はドキュメント内のリビジョンの記録を開始します。  
+`compare()` は 2 つのドキュメントを比較し、リビジョン マークを生成します。  
+`RevisionCollection` は比較によって生成されたすべてのリビジョンを含みます。  
+`getRevisions()` はドキュメント内のリビジョン オブジェクトのコレクションを返します。
 
-> **Pro tip:** 複数の貢献者からの **compare merge word documents** が必要な場合、比較ステップを繰り返し実行し、マージされた内容に満足したら `Document.acceptAllRevisions()` を呼び出します。
+典型的なワークフロー手順：
+1. **ドキュメントのロード** – `new Document("Original.docx")` と `new Document("Revised.docx")` を使用します。  
+2. **追跡の開始** – 編集を行う前に `original.startTrackChanges()` を呼び出します。  
+3. **比較** – `original.compare(revised, "Reviewer", new Date())` はすべての差異をハイライトしたドキュメントを生成します。  
+4. **リビジョンの処理** – `original.getRevisions()` をループし、ビジネス ルールに基づいて各項目に `accept()` または `reject()` を呼び出します。  
+5. **保存** – `original.save("Result.docx")` または PDF、HTML などにエクスポートします。
+
+> **プロのコツ:** 複数の貢献者からの変更をマージする場合、比較ステップを繰り返し実行し、最後に `document.acceptAllRevisions()` を実行してクリーンで統合されたファイルを作成します。
 
 ## 学習内容
-- Aspose.Words for Java を使用した **compare documents** の方法を理解する。  
-- 効果的な **document change tracking**（リビジョンの追跡方法）のテクニックを学ぶ。  
-- Java アプリケーションで **version control word docs** 戦略を実装する。  
-- 自動文書比較の実用的な利点を探る。  
-- チームプロジェクトでのコラボレーションと正確性向上に関する洞察を得る。  
+プログラムで **2 つの Word ファイルを比較** する方法を理解し、**変更追跡 API** をマスターし、Word 文書の **バージョン管理戦略** を実装し、大容量やパスワード保護されたファイルの取り扱いベストプラクティスを学びます。
 
 ## 利用可能なチュートリアル
 
-### [Aspose.Words Java を使用した Word 文書の変更追跡：文書リビジョンの完全ガイド](./aspose-words-java-track-changes-revisions/)
-Aspose.Words for Java を使用して Word 文書の変更追跡とリビジョン管理を学びます。この包括的なガイドで文書比較、インラインリビジョン処理などをマスターしましょう。
+### [Aspose.Words Java を使用した Word 文書の変更追跡：ドキュメント リビジョンの完全ガイド](./aspose-words-java-track-changes-revisions/)
+Aspose.Words for Java を使用して Word 文書の変更追跡とリビジョン管理を学びます。この包括的なガイドで文書比較、インライン リビジョン処理などをマスターできます。
 
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
@@ -71,39 +128,45 @@ Aspose.Words for Java を使用して Word 文書の変更追跡とリビジョ�
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
-## よくある問題と解決策
-| Issue | Solution |
+## 一般的な問題と解決策
+| 問題 | 解決策 |
 |-------|----------|
-| **Revisions not appearing** | 編集を行う前に `trackChanges` が有効になっていることを確認し、変更後に文書を保存しているか確認してください。 |
-| **Comparison marks are missing** | 書式変更を含めるために、`compare()` のオーバーロードで `CompareOptions` を指定してください。 |
-| **Large documents cause memory errors** | `LoadOptions.setLoadFormat(LoadFormat.DOCX)` で文書をロードし、`LoadOptions.setMemoryOptimization(true)` を有効にしてください。 |
-| **Password‑protected files cannot be opened** | 文書をロードする際に `LoadOptions.setPassword("yourPassword")` でパスワードを提供してください。 |
+| **リビジョンが表示されない** | `startTrackChanges()` が編集前に呼び出され、変更後にドキュメントを保存していることを確認してください。 |
+| **比較マークが欠落している** | `compare()` のオーバーロードで `CompareOptions` オブジェクトを受け取り、`ignoreFormatting` を `false` に設定して書式変更を含めます。 |
+| **大きなドキュメントでメモリエラーが発生する** | `LoadOptions.setLoadFormat(LoadFormat.DOCX)` でロードし、`LoadOptions.setMemoryOptimization(true)` を有効にしてメモリ使用量を抑えます。 |
+| **パスワード保護されたファイルが開けない** | `Document` を作成する際に `LoadOptions.setPassword("yourPassword")` でパスワードを指定します。 |
 
 ## よくある質問
 
-**Q: すべての変更追跡をプログラムで承認するにはどうすればよいですか？**  
-A: 比較を実行した後、またはリビジョンを含む文書をロードした後に `document.acceptAllRevisions()` を呼び出します。
+**Q: 変更追跡をプログラムで全て受諾するには？**  
+A: 比較を実行した後、またはリビジョンを含むドキュメントをロードした後に `document.acceptAllRevisions()` を呼び出します。
 
-**Q: 異なる形式（例：DOCX と PDF）の文書を比較できますか？**  
-A: はい。比較前に PDF を Aspose.PDF などのライブラリで Word 形式に変換してください。
+**Q: DOCX と PDF など、異なる形式のドキュメントを比較できますか？**  
+A: はい。まず PDF を Aspose.PDF などで Word 形式に変換し、2 つの Word 文書に対して `compare()` を呼び出します。
 
-**Q: 比較時に書式変更を無視することは可能ですか？**  
-A: `compare()` 呼び出し時に `CompareOptions` を使用し、`ignoreFormatting` を `true` に設定してください。
+**Q: 比較時に書式変更を無視できますか？**  
+A: `compare()` 呼び出し時に `CompareOptions` を使用し、`ignoreFormatting` を `true` に設定するとテキスト差分のみにフォーカスできます。
 
-**Q: Aspose.Words はクラウドで **aspose words track changes** をサポートしていますか？**  
-A: クラウド SDK でも同様の機能が提供されていますが、本チュートリアルはオンプレミスの Java ライブラリに焦点を当てています。
+**Q: Aspose.Words はクラウドベースの変更追跡 API を提供していますか？**  
+A: クラウド SDK でも同様のリビジョン機能が提供されていますが、本チュートリアルはオンプレミスの Java ライブラリに焦点を当てています。
 
-**Q: 最新の Java 機能に必要な Aspose.Words のバージョンは？**  
-A: 最新の安定版リリース（24.x）は Java 8‑21 を完全にサポートし、すべての変更追跡 API を含んでいます。
+**Q: 最新の変更追跡機能が含まれる Aspose.Words のバージョンはどれですか？**  
+A: 現行の安定版リリース（24.11）は Java 8‑21 を完全にサポートし、大規模文書比較のパフォーマンス最適化が含まれています。
 
-**Last Updated:** 2025-11-27  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose  
+**最終更新日:** 2026-11-15  
+**テスト環境:** Aspose.Words for Java 24.11  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Words for Java で変更追跡を実装する](/words/java/document-comparison-tracking/)
+- [Aspose.Words for Java で複数の Word ファイルを結合する](/words/java/document-manipulation/cloning-and-combining-documents/)
+- [Aspose.Words for Java ドキュメント変換 API で Word を PDF に変換する](/words/java/document-converting/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
