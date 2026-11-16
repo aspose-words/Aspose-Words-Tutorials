@@ -53,6 +53,9 @@ Aprenda a administrar de manera eficiente los estilos de documentos con Aspose.W
 ### [Cómo cambiar el formato de notas al pie en un documento Word usando Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Aprenda a modificar el estilo y la presentación de notas al pie en documentos Word mediante Aspose.Words para Java.
 
+### [Establecer el interlineado de párrafos en un documento Word con Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Aprenda a configurar el espaciado entre líneas de los párrafos en documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

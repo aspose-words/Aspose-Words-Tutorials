@@ -55,7 +55,7 @@ Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. �
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)
 이 단계별 튜토리얼을 통해 Aspose.Words for Java 필드를 효과적으로 사용하는 방법을 알아보세요. 동적인 Word 문서를 손쉽게 만들어 보세요.
 ### [Java용 Aspose.Words에서 글꼴 사용](./using-fonts/)
-Aspose.Words for Java에서 글꼴 서식을 살펴보세요: 크기, 스타일, 색상 등 다양한 기능을 제공합니다. 아름다운 서식의 문서를 손쉽게 만들어 보세요.
+Aspose.Words for Java에서 글꼴 서식을 살펴보세요: 크기, 스타일, 색상 등 다양한 기능을 제공합니다. 아름다운 서식의 문서를 쉽고 빠르게 만들 수 있습니다.
 ### [Java용 Aspose.Words에서 각주와 미주 사용](./using-footnotes-and-endnotes/)
 Aspose.Words for Java에서 각주와 미주를 효과적으로 사용하는 방법을 배워보세요. 오늘 바로 문서 서식 작성 능력을 향상시켜 보세요!
 ### [Java용 Aspose.Words에서 폼 필드 사용](./using-form-fields/)
@@ -95,6 +95,9 @@ Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 �
 ### [Aspose.Words Java를 사용하여 파이 차트 만들기 – 전체 단계별 가이드](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Aspose.Words for Java를 활용해 파이 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
 
+### [Java를 사용해 Word 문서에 파이 차트 추가하기](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Java와 Aspose.Words를 활용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
+
 ### [Java를 사용하여 Word에서 버튼 크기 설정 – 완전한 Aspose.Words 가이드](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 Aspose.Words for Java를 활용해 Word 문서의 버튼 크기를 조정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
@@ -129,7 +132,6 @@ Java와 Aspose.Words를 활용해 Word 문서에 차트를 삽입하고 구성�
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-word-in-java-complete-guide/)
 Java용 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 Word 문서의 버튼 위치 설정](./how-to-set-button-position-in-a-word-document-with-java/)
-Aspose.Words for Java를 사용해 Word 문서에 버튼을 삽입하고 원하는 위치에 배치하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

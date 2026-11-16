@@ -132,6 +132,7 @@
 Узнайте, как создавать диаграммы в документах Word с помощью Java и Aspose.Words. Пошаговое руководство по добавлению графиков.
 ### [Вставка круговой диаграммы в Word с Java – полное руководство](./insert-pie-chart-word-in-java-complete-guide/)
 Подробное руководство по вставке круговой диаграммы в документ Word с использованием Aspose.Words для Java.
+### [Как добавить круговую диаграмму в документ Word с помощью Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -125,6 +125,10 @@ C# を使用して空の Word 文書を作成し、レーダーチャートを�
 Java と Aspose.Words を使用して、ActiveX コントロールを含む DOCX を作成する手順を解説します。
 ### [Aspose.Words for Java で円グラフを挿入する方法](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Aspose.Words for Java を使って、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
+
+### [Java を使用して Word 文書に円グラフを追加する方法](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Java で Aspose.Words を使用し、Word 文書に円グラフをプログラムで追加する手順をステップバイステップで解説します。
+
 ### [空白の Word 文書を作成し、ActiveX ボタンを追加する (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 空白の Word 文書を作成し、ActiveX ボタンを配置する方法をステップバイステップで学びます。
 ### [Word 文書にボタンを追加する方法 – ステップバイステップガイド](./how-to-add-button-to-word-document-step-by-step-guide/)

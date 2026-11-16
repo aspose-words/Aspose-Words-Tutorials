@@ -207,6 +207,12 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 
 
 
+### [How to use Aspose to insert image and hide it in a Word document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+
+### [Create rectangle shape in a Word document using Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+
 ### [How to create a doughnut chart and insert a pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 

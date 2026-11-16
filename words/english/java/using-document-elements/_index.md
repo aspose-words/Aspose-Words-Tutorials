@@ -47,7 +47,7 @@ Remember, practice makes perfect, and with Aspose.Words for Java, you'll be crea
 ### [Create blank word document with a command button – step‑by‑step guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Learn how to create a blank Word document and add a command button using Aspose.Words for Java in this step‑by‑step guide.
 ### [Create pie chart in Word with Java – step-by-step guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
-Learn how to generate a pie chart in a Word document using Aspose.Words for Java with this step-by-step tutorial.
+Learn how to generate a pie chart in a Word document using Aspose.Words for Java with this step‑by‑step tutorial.
 
 ### [How to create word document with placeholders and lists](./how-to-create-word-document-with-placeholders-and-lists/)
 Learn how to create Word documents with placeholders and lists using Aspose.Words for Java.
@@ -103,9 +103,11 @@ Learn how to insert an ActiveX button in Word and set its caption using Aspose.W
 ### [Insert Pie Chart in Word with Aspose.Words – Complete Guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Learn how to insert and customize pie charts in Word documents using Aspose.Words for Java in this comprehensive step-by-step guide.
 ### [How to create docx containing ActiveX with Java and Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
-Learn how to generate a DOCX with embedded ActiveX controls using Java and Aspose.Words in this step-by-step tutorial.
+Learn how to generate a DOCX with embedded ActiveX controls using Java and Aspose.Words in this step‑by‑step tutorial.
 ### [How to insert a pie chart into a Word document using Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
-Learn how to insert a pie chart into a Word document using Aspose.Words for Java in this step-by-step tutorial.
+Learn how to insert a pie chart into a Word document using Aspose.Words for Java in this step‑by‑step tutorial.
+### [How to add a pie chart to a Word document using Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Learn how to add a pie chart to a Word document using Aspose.Words for Java with this step‑by‑step guide.
 ### [Using Revisions in Aspose.Words for Java](./using-revisions/)
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)

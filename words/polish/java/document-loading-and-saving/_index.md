@@ -102,10 +102,15 @@ Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak r
 
 ### [Ładowanie podkreśleń Markdown w Javie – kompletny przewodnik programistyczny](./load-markdown-underline-in-java-complete-programming-guide/)
 Dowiedz się, jak wczytywać i obsługiwać podkreślenia w plikach Markdown przy użyciu Aspose.Words for Java.
+
 ### [Jak ładować Markdown w Javie – Kompletny przewodnik](./how-to-load-markdown-in-java-complete-guide/)
 Dowiedz się, jak załadować pliki Markdown w Javie przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
+
 ### [Jak odczytać plik Markdown w Javie przy użyciu Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 Dowiedz się, jak wczytać plik Markdown w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
+### [Jak załadować dokument Markdown w Javie z niestandardowymi opcjami importu](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+Dowiedz się, jak wczytać dokument Markdown w Javie, używając własnych opcji importu w Aspose.Words.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)

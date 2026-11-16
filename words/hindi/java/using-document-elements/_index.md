@@ -43,6 +43,9 @@ Aspose.Words for Java के साथ, आप तुरंत गतिशी�
 याद रखें, अभ्यास से निपुणता आती है, और Aspose.Words for Java के साथ, आप कुछ ही समय में एक प्रो की तरह दस्तावेज़ बना, संशोधित और संवर्धित कर सकेंगे। हैप्पी कोडिंग!
 
 ## दस्तावेज़ तत्वों का उपयोग ट्यूटोरियल
+### [How to add a pie chart to a Word document using Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+
+
 ### [कमांड बटन के साथ खाली Word दस्तावेज़ बनाना – चरण‑दर‑चरण मार्गदर्शिका](./create-blank-word-document-with-a-command-button-step-by-ste/)
 कमांड बटन का उपयोग करके खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)

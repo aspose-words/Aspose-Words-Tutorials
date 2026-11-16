@@ -74,69 +74,32 @@
 ### [Δημιουργία σχήματος ορθογωνίου σε Java με Aspose.Words – Πλήρης Οδηγός](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, βήμα-βήμα.
 
-### [Πώς να εισάγετε σχήμα ομάδας σε Java – Πλήρης Οδηγός](./how-to-insert-group-shape-in-java-complete-guide/)
-Μάθετε πώς να προσθέσετε σχήμα ομάδας σε έγγραφα Word με το Aspose.Words για Java, με πλήρη παραδείγματα και οδηγίες.
+### [Δημιουργία σχήματος ορθογωνίου σε Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
 
-### [Δημιουργία κενής εγγραφής Word με ομαδοποιημένα ορθογώνια – Οδηγός C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένα ορθογώνια σχήματα χρησιμοποιώντας C# και Aspose.Words.
+### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Java](./create-rectangle-shape-in-a-word-document-using-java/)
 
-### [Εισαγωγή σχήματος ορθογωνίου σε Java – Ομαδοποίηση και τοποθέτηση σχημάτων](./insert-rectangle-shape-in-java-group-and-position-shapes/)
-Μάθετε πώς να ομαδοποιήσετε και να τοποθετήσετε σχήματα ορθογωνίου σε έγγραφο Word με το Aspose.Words για Java.
+### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 
-### [Εισαγωγή εικόνας σε Word – Οδηγός βήμα προς βήμα Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
-Μάθετε πώς να εισάγετε εικόνες σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με παραδείγματα κώδικα και λεπτομερείς οδηγίες.
+### [Δημιουργία εγγράφου PDF με σχήμα ορθογωνίου – Πλήρης οδηγός C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF με σχήμα ορθογωνίου χρησιμοποιώντας το Aspose.Words για C#.
 
-### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
-### [Δημιουργία κενής εγγραφής Word με σκιά σε Java – Πλήρης οδηγός](./create-blank-word-with-shadow-in-java-full-guide/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με εφέ σκιά χρησιμοποιώντας το Aspose.Words για Java.
-### [Ομαδοποίηση σχημάτων στο Word – πλήρης προγραμματιστικός οδηγός](./group-shapes-in-word-complete-programming-guide/)
-Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σκιάς σε σχήμα](./create-word-document-java-add-shadow-to-shape-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
-### [Απόκρυψη εικόνας σε Word – βήμα‑βήμα οδηγός Java με Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
-Μάθετε πώς να κρύψετε εικόνα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
-### [Πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
-Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word με το Aspose.Words.
+### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
 
-### [Πώς να ορίσετε την ιδιότητα κρυφής μορφής σε σχήμα στο Aspose.Words για C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
-Μάθετε πώς να κάνετε το σχήμα αόρατο ορίζοντας την ιδιότητα Hidden με το Aspose.Words για C#.
-### [Δημιουργία κενής εγγραφής Word και ομαδοποίηση σχημάτων σε Java](./create-blank-word-document-and-group-shapes-in-java/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
-### [Δημιουργία σχήματος ορθογωνίου στο Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
-Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος με εφέ σκιάς](./create-word-document-java-add-shape-with-shadow-effect/)
+Μάθετε πώς να προσθέσετε σχήμα με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
-### [Πώς να δημιουργήσετε ομάδα σχήματος docx και να προσθέσετε διαδραστικούς ελέγχους σε C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-Μάθετε πώς να δημιουργήσετε ομάδα σχήματος σε αρχείο docx και να ενσωματώσετε διαδραστικούς ελέγχους με C#.
-### [Ομαδοποίηση σχημάτων στο Word και προσθήκη ορθογωνίου με το Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Μάθετε πώς να ομαδοποιήσετε σχήματα και να προσθέσετε ορθογώνιο σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία σχήματος ορθογωνίου σε Java με Aspose.Words – Πλήρης Οδηγός](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, βήμα-βήμα.
 
-### [Πώς να κρύψετε σχήμα σε Word με C# και Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
-Μάθετε πώς να κρύψετε σχήματα σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words.
+### [Δημιουργία σχήματος ορθογωνίου σε Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
 
-### [Πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε σχήματα σε Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 
-### [Δημιουργία νέου εγγράφου Word με κρυφή εικόνα – οδηγός βήμα‑βήμα](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει κρυφή εικόνα, βήμα‑βήμα, χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Πώς να δημιουργήσετε κενό έγγραφο και να προσθέσετε σχήματα με το Aspose.Words σε C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο και να προσθέσετε σχήματα χρησιμοποιώντας το Aspose.Words σε C#.
-
-### [Πώς να εισάγετε εικόνα σε docx και να κρύψετε την εικόνα στο Word με Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
-Μάθετε πώς να προσθέσετε εικόνα σε αρχείο docx και να την κρύψετε στο Word χρησιμοποιώντας Java.
-### [Πώς να ομαδοποιήσετε σχήματα στο Word με Java – πλήρης οδηγός](./how-to-group-shapes-in-word-with-java-complete-guide/)
-Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word με το Aspose.Words για Java, βήμα‑βήμα οδηγίες και παραδείγματα.
-
-### [Προσθήκη σκιάς σε σχήμα σε Java – Πλήρης Οδηγός Προγραμματισμού](./add-shadow-to-shape-in-java-complete-programming-guide/)
-Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
-### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένο σχήμα – Java](./create-blank-word-document-with-grouped-shape-java-guide/)
-Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένο σχήμα χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε πολλαπλά σχήματα](./how-to-create-blank-word-document-and-group-multiple-shapes/)
-Μάθετε πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε πολλαπλά σχήματα χρησιμοποιώντας το Aspose.Words για Java.
-
-### [Δημιουργία εγγράφου Word προγραμματιστικά και προσθήκη σχήματος σε Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Πώς να δημιουργήσετε διάγραμμα ντόνατ και να εισάγετε διάγραμμα πίτας](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+### [Πώς να χρησιμοποιήσετε το Aspose για να εισάγετε εικόνα και να την κρύψετε σε έγγραφο Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ## Πρόσθετοι Πόροι
 

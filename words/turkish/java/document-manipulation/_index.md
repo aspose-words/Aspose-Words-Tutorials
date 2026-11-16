@@ -121,12 +121,15 @@ Java'da Aspose.Words kullanarak docx dosyalarına ActiveX düğmesi eklemeyi ad�
 Java ve Aspose.Words ile sıfırdan Word belgesi oluşturmayı adım adım öğrenin.
 ### [Aspose.Words ile Word belgesine içerik denetimi ekleme](./add-content-control-in-word-document-with-aspose-words/)
 Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin.
+### [Java için Aspose.Words'de içerik denetimi ekleme ve yer tutucu metin ayarlama](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Java'da içerik denetimi ekleyip yer tutucu metni ayarlamayı adım adım öğrenin.
 ### [Java ile Word'de etkileşimli komut düğmesiyle boş belge oluşturma](./create-blank-document-with-an-interactive-command-button-in/)
-Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belge oluşturmayı öğrenin.
+
+### [Word belgesini programlı olarak düzenleyin ve bir komut düğmesi ekleyin](./edit-word-document-programmatically-and-add-a-command-button/)
+
 ### [Metin Kontrolü Kullanarak Boş Word Belgesi Oluşturma](./how-to-create-a-blank-word-document-with-a-text-control/)
 ### [Java için Aspose.Words ile programlı olarak Word belgesi oluşturma](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [DocumentBuilder ile docx kaydetme ve bir kontrolün sonrasına metin ekleme](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
-DocumentBuilder kullanarak docx dosyasını kaydedin ve bir kontrolün ardından metin eklemeyi öğrenin.
 ### [Java için Aspose.Words'de Yeni Word Belgesi Oluşturma – Yapılandırılmış Etiket Eklemek İçin Adım‑Adım Kılavuz](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturun ve yapılandırılmış etiket eklemeyi adım adım öğrenin.
 ### [Aspose.Words for Java ile Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-aspose-words-for-java/)

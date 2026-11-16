@@ -169,6 +169,8 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java rep
 ### [Wie man Optionen in Aspose.Words für Java festlegt – vollständiger Leitfaden](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Erfahren Sie, wie Sie alle Optionen von Aspose.Words für Java konfigurieren, um das Verhalten beim Laden und Speichern zu steuern.
 
+### [Wie man ein Markdown-Dokument in Java mit benutzerdefinierten Importoptionen lädt](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

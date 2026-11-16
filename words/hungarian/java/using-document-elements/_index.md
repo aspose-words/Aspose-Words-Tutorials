@@ -102,7 +102,7 @@ Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot parancsgombbal.
 Ismerd meg, hogyan lehet SDT (Struktúrált Dokumentum Típus) elemeket hozzáadni C#-ban a Word helyőrzők kezeléséhez.
 ### [Elválasztó lekérése Word dokumentumokban Java-val](./how-to-get-separator-in-word-docs-with-java/)
 Tanuld meg, hogyan szerezheted meg az elválasztó karaktert a Word dokumentumokban Java segítségével.
-### [Kördiagram létrehozása Word-ben Java-val – lépésről lépésre útmutató](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+### [Kördiagram létrehozása Word-ben Java-val – lépésről‑lépésre útmutató](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segítségével, lépésről lépésre útmutatóval.
 ### [Vezetővonalak hozzáadása kördiagramhoz Java-ban a Chart API-val](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
@@ -120,17 +120,8 @@ Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű s
 Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
 ### [Kördiagram használata az Aspose.Words Java-ban](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
-### [ActiveX parancsgomb létrehozása Java-ban](./how-to-create-activex-command-button-in-java/)
-Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az Aspose.Words segítségével.
-### [Üres Word dokumentum létrehozása és ActiveX gomb hozzáadása (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
-### [Gomb hozzáadása Word dokumentumhoz – Lépésről‑lépésre útmutató](./how-to-add-button-to-word-document-step-by-step-guide/)
-Tanuld meg, hogyan adhatsz hozzá gombot egy Word dokumentumhoz lépésről‑lépésre.
-### [Hogyan robbantsuk szét a kördiagram szeletet Java-ban – Aspose.Words diagram oktatóanyag](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
-Tanuld meg, hogyan lehet a kördiagram szeletet szétrobbanni Java-ban az Aspose.Words segítségével.
-### [Hogyan hozzunk létre diagramot Word-ben Java és Aspose.Words segítségével](./how-to-create-chart-in-word-with-java-and-aspose-words/)
-Tanuld meg, hogyan hozhatsz létre diagramokat Word dokumentumokban Java és Aspose.Words használatával.
-### [Gomb pozíciójának beállítása Word dokumentumban Java-val](./how-to-set-button-position-in-a-word-document-with-java/)
-Tanuld meg, hogyan állíthatod be a gomb pozícióját egy Word dokumentumban Java használatával.
+### [Kördiagram hozzáadása Word dokumentumhoz Java-val](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java használatával.
 ### [Kördiagram beszúrása Word-be Java-val – teljes útmutató](./insert-pie-chart-word-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

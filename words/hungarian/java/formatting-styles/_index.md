@@ -53,6 +53,9 @@ Tanulja meg, hogyan kezelheti hatékonyan a dokumentumstílusokat az Aspose.Word
 ### [Hogyan változtassuk meg a lábjegyzet formázását egy Word dokumentumban Java használatával](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Tanuld meg, hogyan módosíthatod a lábjegyzetek formázását a Word dokumentumokban Java-val.
 
+### [Bekezdés sortávolságának beállítása Word dokumentumban Java-val](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Tanuld meg, hogyan állíthatod be a bekezdés sortávolságát Word dokumentumokban Java segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

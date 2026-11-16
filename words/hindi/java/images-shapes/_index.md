@@ -77,6 +77,8 @@ C# में Aspose.PDF का उपयोग करके आयताका�
 ### [जावा में Aspose.Words के साथ आयताकार आकार बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Aspose.Words for Java का उपयोग करके आयताकार आकार जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
+### [जावा का उपयोग करके Word दस्तावेज़ में आयताकार आकार बनाएं](./create-rectangle-shape-in-a-word-document-using-java/)
+
 ### [जावा में समूह आकृति कैसे डालें – पूर्ण गाइड](./how-to-insert-group-shape-in-java-complete-guide/)
 जावा में Aspose.Words का उपयोग करके समूह आकृति सम्मिलित करने की पूरी प्रक्रिया सीखें।
 
@@ -100,6 +102,8 @@ Word में समूह आकृतियों को बनाने औ�
 
 ### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑श्रेणी गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑श्रेणी मार्गदर्शन।
+
+### [Aspose का उपयोग करके Word दस्तावेज़ में छवि सम्मिलित करें और उसे छिपाएँ](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
 Aspose.Words Java के साथ Word दस्तावेज़ में कई आकृतियों को समूहित करने की प्रक्रिया सीखें।

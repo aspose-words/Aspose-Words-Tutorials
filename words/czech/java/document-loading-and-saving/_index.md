@@ -91,12 +91,14 @@ Nastavení dokumentu jsou klíčem k dodání dokumentů přizpůsobených vaši
 ### [Ukládání obrázků z dokumentů v Aspose.Words for Java](./saving-images-from-documents/)
 ### [Ukládání dokumentů jako Markdown v Aspose.Words for Java](./saving-documents-as-markdown/)
 Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java. Tento průvodce krok za krokem pokrývá zarovnání tabulek, zpracování obrázků a další.
-### [Načtení podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Načíst podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
 Naučte se načíst podtržený text v markdownu pomocí Aspose.Words for Java a zpracovat jej v aplikaci.
 ### [Jak načíst Markdown v Javě – Kompletní průvodce](./how-to-load-markdown-in-java-complete-guide/)
 Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Kompletní průvodce s ukázkami kódu a tipy pro konverzi.
 ### [Jak načíst soubor markdown v Javě pomocí Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 Naučte se načíst soubor Markdown v Javě pomocí Aspose.Words a zpracovat jeho obsah.
+### [Jak načíst markdown dokument v Javě s vlastními možnostmi importu](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+Naučte se načíst markdown soubory v Javě s vlastními možnostmi importu pomocí Aspose.Words.
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 ### [Ukládání dokumentů ve formátu PCL v Aspose.Words for Java](./saving-documents-as-pcl-format/)

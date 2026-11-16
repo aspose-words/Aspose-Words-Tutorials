@@ -82,6 +82,9 @@ Pelajari cara membuat dan menyesuaikan chart di Aspose.Words for Java. Jelajahi 
 ### [Cara Membuat Diagram Pai di Word dan Menyimpannya sebagai PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words for Java dan menyimpannya sebagai file PNG.
 
+### [Cara membuat diagram pai di Word dan menyimpan docx sebagai PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Pelajari cara membuat diagram pai di dokumen Word dan mengekspornya menjadi PDF menggunakan Aspose.Words for Java.
+
 ### [Menggunakan Objek Office Math di Aspose.Words for Java](./using-office-math-objects/)
 Manfaatkan kekuatan persamaan matematika dalam dokumen dengan Aspose.Words for Java. Pelajari cara memanipulasi dan menampilkan objek Office Math dengan mudah.
 

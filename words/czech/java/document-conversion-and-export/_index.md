@@ -73,6 +73,9 @@ Takže se ponořte do níže uvedených tutoriálů a odemkněte plný potenciá
 Pro více informací si prohlédněte [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), a pro zahájení si jej stáhněte [zde](https://releases.aspose.com/words/java/). Pokud máte jakékoli otázky nebo potřebujete pomoc, neváhejte se obrátit na naše [support forum](https://forum.aspose.com/).
 
 ## Tutoriály pro konverzi a export dokumentů
+### [How to create pie chart in Word and save docx as PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+
+
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
 

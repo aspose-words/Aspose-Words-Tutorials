@@ -89,6 +89,7 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [使用 Java 创建空白 Word 文档 – 完整 Aspose.Words 指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [如何在 Java 中加载 Markdown – 完整指南](./how-to-load-markdown-in-java-complete-guide/)
 ### [如何在 Java 中使用 Aspose.Words 读取 Markdown 文件](./how-to-read-markdown-file-java-with-aspose-words/)
+### [如何在 Java 中使用自定义导入选项加载 Markdown 文档](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
@@ -142,7 +143,7 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 学习在 Java 环境下检测并加载缺失的字体，以确保文档渲染正确。
 ### [如何使用 Aspose.Words 恢复 DOCX 文件 – 步骤指南](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 学习使用 Aspose.Words 逐步恢复受损的 DOCX 文件，提供代码示例和实用技巧。
-### [如何恢复 docx – 使用 Java 保存恢复的文档](./how-to-recover-docx-save-recovered-document-using-java/)
+### [如何恢复 docx – 在 Java 中保存恢复的文档](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [如何恢复 docx – 启用恢复模式并读取警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 了解如何在 Aspose.Words for Java 中启用恢复模式并读取警告，以恢复受损的 docx 文件。
 

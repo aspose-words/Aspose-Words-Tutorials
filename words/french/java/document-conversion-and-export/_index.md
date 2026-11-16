@@ -85,6 +85,9 @@ Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. 
 ### [Comment créer un diagramme circulaire dans Word et l’enregistrer en PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Apprenez à créer un diagramme circulaire dans Word avec Aspose.Words et à le sauvegarder au format PNG.
 
+### [Comment créer un diagramme circulaire dans Word et enregistrer le docx en PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Créez un diagramme circulaire dans Word puis exportez le document au format PDF avec Aspose.Words.
+
 ### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
 Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words for Java. Apprenez à manipuler et afficher facilement des objets Office Math.
 
@@ -242,7 +245,7 @@ Apprenez à convertir des fichiers DOCX en PDF en une seule étape avec Aspose.W
 Apprenez à convertir des documents Word en Markdown avec Aspose.Words for Java grâce à un guide complet.
 
 ### [Générer un PDF accessible à partir de Word avec Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words for Java, conforme aux normes d'accessibilité.
+Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words for Java, conforme aux normes d’accessibilité.
 
 ### [Convertir docx en txt – Exporter les équations Word en LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Convertissez des fichiers DOCX en fichiers TXT et exportez les équations Word au format LaTeX avec Aspose.Words for Java.

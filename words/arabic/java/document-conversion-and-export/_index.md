@@ -74,6 +74,9 @@ weight: 22
 لمزيد من المعلومات، اطلع على [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/)، وللبدء، حمّله من [here](https://releases.aspose.com/words/java/). إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، لا تتردد في التواصل مع [support forum](https://forum.aspose.com/).
 
 ## دروس تحويل المستندات وتصديرها
+### [How to create pie chart in Word and save docx as PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+
+
 ### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
 
 ### [كيفية تحويل docx إلى markdown في Java مع دعم الجداول](./how-to-convert-docx-to-markdown-in-java-with-table-support/)

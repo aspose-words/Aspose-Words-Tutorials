@@ -84,6 +84,11 @@ Aspose.Words for Java की बहुमुखी प्रतिभा का 
 ### [How to read markdown file java with Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 
 
+### [Java में कस्टम इम्पोर्ट विकल्पों के साथ मार्कडाउन दस्तावेज़ कैसे लोड करें](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
+कस्टम इम्पोर्ट विकल्पों के साथ मार्कडाउन फ़ाइल लोड करने का चरण‑दर‑चरण गाइड।
+
+
 ### [Aspose.Words for Java के साथ HTML दस्तावेज़ लोडिंग और सेविंग](./loading-and-saving-html-documents/)
 Aspose.Words for Java के साथ HTML दस्तावेज़ लोडिंग और सेविंग सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 

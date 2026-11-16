@@ -17,7 +17,7 @@ Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für Bild- und Formope
 
 ## Überblick
 
-In der Dokumentenverarbeitung ist die Integration von Bildern und Formen entscheidend für die Erstellung optisch ansprechender und informativer Inhalte. Unsere kuratierte Kategorie der Aspose.Words-Tutorials konzentriert sich darauf, Java-Entwicklern die Beherrschung dieser wichtigen Funktionen zu ermöglichen. Mit nur zwei umfassenden Anleitungen lernen Sie, wie Sie Bilder und Formen effizient in Ihre Dokumente einfügen, bearbeiten und anpassen. Diese Tutorials helfen Ihnen, das volle Potenzial von Aspose.Words für Java auszuschöpfen und sicherzustellen, dass Ihre Anwendungen komplexe Dokumentlayouts problemlos verarbeiten können. Egal, ob Sie Berichte, Präsentationen oder andere dokumentenzentrierte Anwendungen optimieren möchten – diese Anleitungen bieten Schritt-für-Schritt-Anleitungen und praktische Beispiele. Mit unseren Tutorials erwerben Sie die notwendigen Fähigkeiten, um professionelle Dokumente zu erstellen, die sich von der Masse abheben.
+In der Dokumentenverarbeitung ist die Integration von Bildern und Formen entscheidend für die Erstellung optisch ansprechender und informativer Inhalte. Unsere kuratierte Kategorie der Aspose.Words-Tutorials konzentriert sich darauf, Java-Entwicklern die Beherrschung dieser wichtigen Funktionen zu ermöglichen. Mit nur zwei umfassenden Anleitungen lernen Sie, wie Sie Bilder und Formen effizient in Ihre Dokumente einfügen, bearbeiten und anpassen. Diese Tutorials helfen Ihnen, das volle Potenzial von Aspose.Words für Java auszuschöpfen und sicherzustellen, dass Ihre Anwendungen komplexe Dokumentlayouts problemlos verarbeiten können. Egal, ob Sie Berichte, Präsentationen oder andere dokumentenzentrierte Anwendungen optimieren möchten – diese Anleitungen bieten Schritt‑für‑Schritt‑Anleitungen und praktische Beispiele. Mit unseren Tutorials erwerben Sie die notwendigen Fähigkeiten, um professionelle Dokumente zu erstellen, die sich von der Masse abheben.
 
 ## Was Sie lernen werden
 
@@ -109,6 +109,10 @@ Ein Codebeispiel, das zeigt, wie man in Aspose.Words für C# Gruppierungsformen 
 ### [Rechteckform in Word mit Java erstellen – Vollständige Anleitung](./create-rectangle-shape-in-word-with-java-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Rechteck in ein Word-Dokument einfügen und anpassen.
 
+### [Rechteckform in einem Word-Dokument mit Java erstellen](./create-rectangle-shape-in-a-word-document-using-java/)
+
+Ein Codebeispiel, das zeigt, wie man mit Aspose.Words für Java ein Rechteck in ein Word-Dokument einfügt.
+
 ### [Gruppieren von Formen in Word und Hinzufügen eines Rechtecks mit Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
 Ein Codebeispiel, das zeigt, wie man Formen gruppiert und ein Rechteck in ein Word-Dokument einfügt.
 
@@ -151,13 +155,16 @@ Ein Beispiel, das zeigt, wie Sie mit Aspose.Words ActiveX in Java einen CommandB
 
 ### [Word-Dokument in Java erstellen – Form ausblenden und Füllfarbe setzen](./create-word-document-java-hide-shape-and-set-fill-color/)
 Ein Beispiel, das zeigt, wie man in Aspose.Words für Java eine Form ausblendet und die Füllfarbe festlegt.
-### [Leeres Word-Dokument mit gruppierten Formen erstellen](./how-to-create-blank-word-document-with-grouped-shapes/)
+### [Leeres Word-Dokument mit gruppierten Formen erstellen](./how-to-create-blank-word-document-with-grouped-forms/)
 Ein Codebeispiel, das zeigt, wie Sie in Aspose.Words für Java ein leeres Dokument erstellen und mehrere Formen zu einer Gruppe zusammenfassen.
 
 ### [Wie man ein leeres Word-Dokument erstellt und mehrere Formen gruppiert](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 ### [Word-Dokument programmgesteuert erstellen und eine Form in Java hinzufügen](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 Ein Beispiel, das zeigt, wie man mit Aspose.Words für Java ein Word-Dokument erstellt und programmgesteuert eine Form hinzufügt.
+
+### [Wie man Aspose verwendet, um ein Bild einzufügen und es in einem Word‑Dokument auszublenden](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+Erfahren Sie, wie Sie mit Aspose ein Bild in ein Word‑Dokument einfügen und anschließend ausblenden.
 
 ## Weitere Ressourcen
 

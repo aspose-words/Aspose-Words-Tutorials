@@ -84,6 +84,9 @@ Aprende a crear y personalizar gráficos en Aspose.Words for Java. Explora tipos
 ### [Cómo crear un gráfico circular en Word y guardarlo como PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Cree un gráfico circular en Word y expórtelo como PNG usando Aspose.Words para Java.
 
+### [Cómo crear un gráfico circular en Word y guardar docx como PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Cree un gráfico circular en Word y guárdelo como PDF usando Aspose.Words para Java.
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Desbloquea el poder de las ecuaciones matemáticas en documentos con Aspose.Words for Java. Aprende a manipular y mostrar objetos Office Math sin esfuerzo.
 
@@ -192,7 +195,7 @@ Aprenda a generar PDFs accesibles a partir de documentos DOCX con Aspose.Words p
 Aprenda a convertir documentos DOCX a Markdown usando Aspose.Words con esta guía paso a paso.
 
 ### [Cómo guardar DOCX como texto – Guía completa para convertir DOCX a TXT con exportación de ecuaciones](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
-Aprenda a extraer texto plano de documentos DOCX, incluyendo la exportación de ecuaciones matemáticas, usando Aspose.Words for Java.
+Aprenda a extraer texto plano de documentos DOCX, incluyendo la exportación de ecuaciones matemáticas, usando C# y Aspose.Words for Java.
 ### [Guardar documento como TXT – Convertir DOCX a texto con LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
 Aprenda a guardar documentos DOCX como archivos TXT y extraer ecuaciones en formato LaTeX.
 ### [Exportar docx a txt con Java – Guía completa de programación](./export-docx-to-txt-with-java-complete-programming-guide/)
@@ -288,7 +291,7 @@ Aprenda a exportar contenido Markdown desde Word usando Aspose.Words for Java co
 ### [Crear PDF/UA en Java – convertir DOCX a PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Aprenda a generar PDFs accesibles PDF/UA a partir de documentos DOCX usando Aspose.Words for Java.
 ### [Crear PDF accesible desde Word – Guía completa](./create-accessible-pdf-from-word-full-guide/)
-Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java.
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
 ### [Guardar docx como txt – Guía completa en C# con exportación de matemáticas](./save-docx-as-txt-complete-c-guide-with-math-export/)
 Aprende a guardar documentos DOCX como archivos TXT en C#, incluyendo la exportación de ecuaciones matemáticas.
 

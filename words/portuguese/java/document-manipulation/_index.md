@@ -127,16 +127,20 @@ Aprenda a criar documentos Word em Java usando Aspose.Words de forma simples e r
 Aprenda a inserir e gerenciar controles de conteúdo em documentos Word usando Aspose.Words para Java.
 ### [Criar documento em branco com um botão de comando interativo no Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
 Aprenda a criar um documento Word em branco com um botão de comando interativo usando Aspose.Words para Java.
+### [Editar documento Word programaticamente e adicionar um botão de comando](./edit-word-document-programmatically-and-add-a-command-button/)
+Aprenda a editar documentos Word programaticamente e inserir um botão de comando usando Aspose.Words para Java.
 ### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
-### [Como salvar docx com DocumentBuilder e adicionar texto após um controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
-Aprenda a salvar documentos DOCX usando DocumentBuilder e inserir texto imediatamente após um controle no Aspose.Words para Java.
-### [Criando documento Word em branco em Java com Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
-Aprenda a criar um documento Word vazio usando Aspose.Words para Java.
-### [Como criar um documento Word em branco com Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
-Aprenda a gerar um documento Word vazio usando Aspose.Words para Java com código simples.
-### [Criar um documento Word em branco e adicionar um botão ActiveX em C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
-Aprenda a criar um documento Word em branco e inserir um botão ActiveX usando Aspose.Words para C#.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
+### [Como criar documento Word programaticamente com Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a gerar documentos Word de forma programática usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

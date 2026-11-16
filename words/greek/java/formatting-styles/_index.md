@@ -53,6 +53,9 @@
 ### [Πώς να αλλάξετε τη μορφοποίηση υποσημειώσεων σε έγγραφο Word χρησιμοποιώντας Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Μάθετε πώς να τροποποιήσετε τη μορφοποίηση των υποσημειώσεων σε έγγραφα Word με το Aspose.Words για Java.
 
+### [Ορισμός διαστήματος γραμμής παραγράφου σε έγγραφο Word με Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Μάθετε πώς να ρυθμίζετε το διάστημα γραμμής παραγράφου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

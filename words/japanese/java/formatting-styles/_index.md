@@ -53,6 +53,9 @@ Aspose.Words for Java を使用して、Word 文書内のタブストップを�
 ### [Java を使用して Word 文書の脚注の書式設定を変更する方法](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 このガイドでは、Aspose.Words for Java を使って Word 文書内の脚注の書式をプログラムで変更する手順とコード例を紹介します。
 
+### [JavaでWord文書の段落行間を設定する](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Aspose.Words for Java を使用して、Word 文書内の段落の行間をプログラムで設定する方法を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

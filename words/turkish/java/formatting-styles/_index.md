@@ -52,6 +52,9 @@ Kullanılmayan ve yinelenen stilleri kaldırarak, performansı ve sürdürülebi
 
 ### [Java ile Word Belgesinde Dipnot Biçimlendirmesini Değiştirme](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 
+### [Java ile bir Word belgesinde paragraf satır aralığını ayarlama](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Java ile Aspose.Words kullanarak Word belgesinde paragraf satır aralığını nasıl ayarlayacağınızı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

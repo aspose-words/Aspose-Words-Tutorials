@@ -58,7 +58,7 @@ Apprenez à ajouter et personnaliser des ombres aux formes dans vos documents Wo
 ### [Comment appliquer une ombre à une forme en C# – Ajouter facilement une ombre à une forme](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Apprenez à appliquer une ombre à une forme dans un document Word en C# avec Aspose.Words.
 
-### [Créer une forme rectangle dans un document Word Java – Guide complet étape par étape](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+### [Créer une forme rectangle dans un document Word Java – Guide complet étape par étape](./create-rectangle-shape-in-java-word-document-full-step-st/)
 Apprenez à créer une forme rectangle dans un document Word en Java avec un guide complet étape par étape.
 
 ### [Créer une forme de zone de texte en Java – Guide complet pour ajouter des ombres](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
@@ -158,6 +158,10 @@ Apprenez à insérer et gérer des formes groupées dans vos documents Word avec
 ### [Créer un document Word vierge et ajouter une forme rectangle](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ### [Créer un document Word programmatique et ajouter une forme en Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [Créer une forme rectangle dans un document Word en Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+### [Comment utiliser Aspose pour insérer une image et la masquer dans un document Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ## Ressources supplémentaires
 

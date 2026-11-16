@@ -103,7 +103,7 @@ Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words untuk
 ### [Cara menambahkan garis pemimpin ke diagram pai di Java dengan Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Pelajari cara menambahkan garis pemimpin pada diagram pai menggunakan Chart API di Java dengan contoh langkah demi langkah.
 ### [Cara menyisipkan tombol perintah dalam dokumen Word menggunakan Java](./how-to-insert-command-button-in-a-word-document-using-java/)
-### [Cara Mengedit Diagram dalam Dokumen Word menggunakan Java](./how-to-edit-chart-in-a-word-document-using-java/)
+### [Cara mengedit Diagram dalam Dokumen Word menggunakan Java](./how-to-edit-chart-in-a-word-document-using-java/)
 Pelajari cara mengedit diagram dalam dokumen Word menggunakan Java dengan contoh kode langkah demi langkah.
 ### [Simpan dokumen Word setelah mengedit diagram donat di Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Pelajari cara menyimpan dokumen Word setelah memodifikasi diagram donat menggunakan Aspose.Words untuk Java.
@@ -131,6 +131,8 @@ Pelajari cara meledakkan irisan pai dalam diagram menggunakan Aspose.Words untuk
 Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Cara Membuat Diagram di Word dengan Java dan Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 Pelajari cara membuat diagram di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
+### [Cara menambahkan diagram pai ke dokumen Word menggunakan Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,9 @@ Scopri come gestire in modo efficiente gli stili dei documenti con Aspose.Words 
 ### [Come modificare la formattazione delle note a piè di pagina in un documento Word usando Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Scopri come modificare la formattazione delle note a piè di pagina nei documenti Word con Aspose.Words per Java, includendo esempi di codice e best practice.
 
+### [Imposta l'interlinea dei paragrafi in un documento Word con Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Scopri come impostare l'interlinea dei paragrafi nei documenti Word usando Aspose.Words per Java, con esempi di codice pratici.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

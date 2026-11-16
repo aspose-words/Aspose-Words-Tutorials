@@ -188,7 +188,8 @@ Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words 
 ### [Markdown aláhúzás betöltése Java‑ban – teljes programozási útmutató](./load-markdown-underline-in-java-complete-programming-guide/)
 
 ### [Hogyan olvassunk markdown fájlt Java-val az Aspose.Words segítségével](./how-to-read-markdown-file-java-with-aspose-words/)
-Tanulja meg, hogyan olvassuk be a markdown fájlokat Java-ban az Aspose.Words használatával.
+
+### [Hogyan töltsünk be markdown dokumentumot Java-ban egyéni import beállításokkal](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 
 ### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 

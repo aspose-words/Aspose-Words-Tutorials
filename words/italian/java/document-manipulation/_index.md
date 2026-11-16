@@ -111,7 +111,7 @@ Impara l'arte di formattare i documenti in Aspose.Words per Java con la nostra g
 ### [Unire e aggiungere documenti in Aspose.Words per Java](./joining-and-appending-documents/)
 Scopri come unire e aggiungere documenti senza sforzo utilizzando Aspose.Words per Java. Mantieni la formattazione, gestisci intestazioni, piè di pagina e altro ancora.
 ### [Utilizzo delle opzioni e delle impostazioni del documento in Aspose.Words per Java](./using-document-options-and-settings/)
-Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazioni dei documenti per una gestione fluida. Ottimizza, personalizza e altro ancora.
+Sfrutta il potere di Aspose.Words per Java. Gestisci le opzioni e le impostazioni dei documenti per una gestione fluida. Ottimizza, personalizza e altro ancora.
 ### [Utilizzo delle proprietà del documento in Aspose.Words per Java](./using-document-properties/)
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
@@ -125,6 +125,8 @@ Impara a creare un documento Word vuoto e aggiungere un pulsante ActiveX usando 
 Crea documenti Word in Java usando Aspose.Words con esempi pratici.
 ### [Aggiungere un controllo di contenuto in un documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Scopri come inserire controlli di contenuto nei documenti Word usando Aspose.Words per Java.
+### [Come inserire un controllo di contenuto e impostare il testo segnaposto in Word con Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+
 ### [Creare un documento vuoto con un pulsante di comando interattivo in Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
 Scopri come generare un documento Word vuoto e aggiungere un pulsante di comando interattivo tramite Aspose.Words per Java.
 ### [Come creare un documento Word vuoto con un controllo di testo](./how-to-create-a-blank-word-document-with-a-text-control/)
@@ -134,6 +136,9 @@ Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subit
 ### [Come creare un documento Word vuoto con Aspose.Words per Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi passaggi di codice.
 ### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+
+### [Modifica documento Word programmaticamente e aggiungi un pulsante di comando](./edit-word-document-programmatically-and-add-a-command-button/)
+Modifica un documento Word tramite codice Java e inserisci un pulsante di comando.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

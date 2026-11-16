@@ -84,6 +84,9 @@ weight: 22
 ### [Использование диаграмм в Aspose.Words для Java](./using-charts/)
 Узнайте, как создавать и настраивать диаграммы в Aspose.Words для Java. Изучите типы диаграмм, форматирование и свойства осей для визуализации данных.
 
+### [Как создать круговую диаграмму в Word и сохранить docx как PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Создайте круговую диаграмму в документе Word и сохраните его в PDF с помощью Aspose.Words for Java.
+
 ### [Использование объектов Office Math в Aspose.Words для Java](./using-office-math-objects/)
 Раскройте силу математических уравнений в документах с Aspose.Words for Java. Научитесь без труда манипулировать и отображать объекты Office Math.
 
@@ -104,7 +107,7 @@ weight: 22
 
 ### [Использование водяных знаков в документах в Aspose.Words для Java](./using-watermarks-to-documents/)
 ### [Сохранить документ как PDF с Java – Полное руководство Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
-Сохраните документ в PDF с помощью Java, используя Aspose.Words. Полное пошаговое руководство.
+Сохраните документ в PDF с помощью Java, используя Aspose.Words, Полное пошаговое руководство.
 
 ### [Создать PNG из Word – Полное пошаговое руководство](./create-png-from-word-complete-step-by-step-guide/)
 Узнайте, как преобразовать документ Word в изображение PNG с помощью Aspose.Words for Java, шаг за шагом.
@@ -309,7 +312,7 @@ weight: 22
 Пошаговое руководство по сохранению DOCX в TXT с экспортом формул в LaTeX с помощью Aspose.Words for Java.
 
 ### [Сохранить docx как txt – экспортировать уравнения Word в LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
-Сохраните документ DOCX в формате TXT и экспортируйте формулы Word в LaTeX с помощью Aspose.Words for Java.
+Сохраните документ DOCX в формате TXT и экспортируйте уравнения Word в LaTeX с помощью Aspose.Words for Java.
 
 ### [Как выполнить конвертацию markdown в docx в Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
 

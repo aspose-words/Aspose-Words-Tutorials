@@ -114,6 +114,8 @@ Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step�
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
+### [วิธีสร้างแผนภูมิวงกลมใน Word และบันทึก docx เป็น PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
@@ -309,7 +311,7 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ที่มี Inline Shapes อย่างครบถ้วนด้วย Aspose.Words for Java
 
 ### [บันทึกเอกสารเป็น DOCX ด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./save-document-as-docx-with-aspose-words-complete-java-guide/)
-เรียนรู้วิธีบันทึกไฟล์เอกสารเป็นรูปแบบ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียดและครบถ้วน
+เรียนรู้วิธีบันทึกไฟล์เอกสารเป็นรูปแบบ DOCX ด้วย Aspose.Words for Java อย่างละเอียดและครบถ้วน
 
 ### [สร้างไฟล์ PDF/UA ที่เป็นไปตามมาตรฐานด้วย Java – คู่มือเต็ม Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องกับมาตรฐานการเข้าถึงด้วย Aspose.Words for Java อย่างละเอียด

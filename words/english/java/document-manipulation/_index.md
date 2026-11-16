@@ -134,6 +134,8 @@ Optimize document management with Aspose.Words for Java. Learn to work with docu
 ### [Using Web Extensions in Aspose.Words for Java]
 ### [Create docx ActiveX button in Java – complete programming guide]({{< relref "create-docx-activex-button-in-java-complete-programming-guid" >}})
 Learn how to add an ActiveX button to a DOCX file using Aspose.Words for Java with step-by-step code examples.
+### [Edit Word document programmatically and add a command button](./edit-word-document-programmatically-and-add-a-command-button/)
+Learn how to edit a Word document programmatically and insert a command button using Aspose.Words for Java.
 ### [Create a blank Word document and add an ActiveX button in C#]({{< relref "create-a-blank-word-document-and-add-an-activex-button-in-c" >}})
 
 ### [How to create a Word document in Java with Aspose.Words]({{< relref "how-to-create-a-word-document-in-java-with-aspose-words" >}})
@@ -142,6 +144,8 @@ Learn to generate a Word document in Java using Aspose.Words with clear examples
 Learn to generate Word documents programmatically using Aspose.Words for Java.
 ### [Create blank word document in Java with Aspose.Words]({{< relref "create-blank-word-document-in-java-with-aspose-words" >}})
 Create a blank Word document using Aspose.Words for Java. Simple step-by-step guide with code examples.
+
+### [How to insert content control, set placeholder text word in Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

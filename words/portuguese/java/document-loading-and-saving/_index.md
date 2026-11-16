@@ -115,6 +115,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como Recuperar DOCX – Carregar Arquivos Corrompidos com Opções de Recuperação](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Como Recuperar Arquivos DOCX – Guia Java Passo a Passo](./how-to-recover-docx-files-step-by-step-java-guide/)
 
 ### [Abrir Documento Word Corrompido – Definir Modo de Recuperação em Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
@@ -148,7 +149,10 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Carregar sublinhado markdown em Java – guia completo de programação](./load-markdown-underline-in-java-complete-programming-guide/)
 ### [Como ler arquivo markdown em Java com Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 
+### [Como carregar documento markdown em Java com opções de importação personalizadas](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 ### [Aspose.Words LoadOptions – Recuperar documentos Word corrompidos em Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
 ### [Tutorial de Substituição de Fontes Aspose – Lidar com Fontes Ausentes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Como carregar arquivo de diretório usando Aspose.Words em C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 ### [Recuperar DOCX corrompido com Aspose.Words para Java – Guia Completo](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)

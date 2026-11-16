@@ -78,6 +78,8 @@ Aspose.Words for Java में दस्तावेज़ श्रेणी �
 इस व्यापक गाइड के साथ Aspose.Words for Java में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना सीखें। कस्टम XML डेटा के लिए SDTs बनाएँ, संशोधित करें और बाँधें।
 ### [Aspose.Words के साथ Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ना](./add-content-control-in-word-document-with-aspose-words/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.Words में कंटेंट कंट्रोल डालना, प्लेसहोल्डर टेक्स्ट सेट करना](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Java में Aspose.Words का उपयोग करके कंटेंट कंट्रोल डालें और प्लेसहोल्डर टेक्स्ट सेट करने का तरीका सीखें।
 ### [नया Word दस्तावेज़ बनाएं – संरचित टैग जोड़ने के लिए चरण-दर-चरण गाइड](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाएं और संरचित टैग जोड़ें। चरण-दर-चरण कोड उदाहरण।
 ### [Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना](./using-styles-and-themes/)
@@ -116,10 +118,11 @@ Java में docx फ़ाइल में ActiveX बटन जोड़न�
 Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-स्टेप मार्गदर्शक।
 ### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
 Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
+### [प्रोग्रामेटिक रूप से Word दस्तावेज़ संपादित करें और कमांड बटन जोड़ें](./edit-word-document-programmatically-and-add-a-command-button/)
+प्रोग्रामेटिक रूप से Word दस्तावेज़ में कमांड बटन जोड़ने और संपादित करने का तरीका सीखें।
 ### [Java के लिए Aspose.Words में टेक्स्ट कंट्रोल के साथ एक खाली Word दस्तावेज़ बनाना](./how-to-create-a-blank-word-document-with-a-text-control/)
 Java के लिए Aspose.Words के साथ टेक्स्ट कंट्रोल वाले खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 ### [Aspose.Words के साथ प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना](./how-to-create-word-document-programmatically-with-aspose-wor/)
-Aspose.Words for Java का उपयोग करके प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाने की विधि सीखें।
 
 ### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
 सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-स्टेप मार्गदर्शिका।
@@ -135,7 +138,6 @@ C# में Aspose.Words का उपयोग करके Word दस्त�
 ### [C# में एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 C# में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें।
 ### [C# के साथ Word दस्तावेज़ में साधारण टेक्स्ट कंटेंट कंट्रोल डालना](./how-to-insert-plain-text-content-control-in-a-word-document/)
-C# का उपयोग करके Word दस्तावेज़ में साधारण टेक्स्ट कंटेंट कंट्रोल जोड़ने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

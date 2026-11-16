@@ -53,6 +53,9 @@
 ### [วิธีเปลี่ยนรูปแบบเชิงอรรถในเอกสาร Word ด้วย Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 เรียนรู้วิธีปรับแต่งรูปแบบเชิงอรรถในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [ตั้งค่าระยะห่างบรรทัดของย่อหน้าในเอกสาร Word ด้วย Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+เรียนรู้วิธีตั้งค่าระยะห่างบรรทัดของย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

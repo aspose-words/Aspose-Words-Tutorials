@@ -134,6 +134,10 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلم كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words لجافا بسهولة.
 ### [كيفية تعيين اسم العلامة وإضافة SDT في مستند Word باستخدام C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
+### [كيفية إدراج عنصر تحكم محتوى وتعيين نص العنصر النائب في Word باستخدام Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+
+### [تحرير مستند Word برمجيًا وإضافة زر أمر](./edit-word-document-programmatically-and-add-a-command-button/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

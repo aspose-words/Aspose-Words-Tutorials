@@ -106,6 +106,8 @@ Naučte se, jak vložit a konfigurovat ovládací prvky obsahu v dokumentu Word 
 Naučte se, jak generovat a upravovat obsah (TOC) pomocí Aspose.Words pro Javu. Vytvářejte bez námahy organizované a profesionální dokumenty.
 ### [Jak vytvořit Word dokument programově pomocí Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Vytvořte Word dokument programově s Aspose.Words v Javě.
+### [Jak vložit ovládací prvek obsahu a nastavit zástupný text ve Wordu v Javě](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Naučte se, jak vložit ovládací prvek obsahu a nastavit zástupný text ve Wordu pomocí Aspose.Words pro Javu.
 ### [Ochrana dokumentů v Aspose.Words pro Javu](./protecting-documents/)
 Naučte se, jak zabezpečit dokumenty Java Word pomocí Aspose.Words pro Javu. Chraňte svá data heslem a dalšími funkcemi.
 
@@ -165,12 +167,13 @@ Naučte se, jak vytvořit nový dokument Word a přidat do něj strukturovaný t
 ### [Jak vytvořit prázdný dokument Word pomocí Aspose.Words pro Javu](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Upravit dokument Word programově a přidat příkazové tlačítko](./edit-word-document-programmatically-and-add-a-command-button/)
+Naučte se, jak pomocí Aspose.Words pro Javu programově upravit dokument Word a vložit do něj příkazové tlačítko.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

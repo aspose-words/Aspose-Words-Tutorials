@@ -143,6 +143,8 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 
 ### [Aspose.Words for Java로 문서를 로드할 때 인코딩 지정 방법](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
+### [Java에서 사용자 지정 가져오기 옵션으로 마크다운 문서 로드하는 방법](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 ## 자주 묻는 질문
 
 **Q:** 프로그램matically **save images from word** 문서를 어떻게 저장하나요?  

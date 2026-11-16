@@ -116,8 +116,14 @@ Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programb
 ### [Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./how-to-create-a-word-document-in-java-with-aspose-words/)
 ### [Tartalomvezérlő hozzáadása Word dokumentumba az Aspose.Words segítségével](./add-content-control-in-word-document-with-aspose-words/)
 Tanulja meg, hogyan adhat hozzá tartalomvezérlőket Word dokumentumokhoz az Aspose.Words Java használatával.
+### [Hogyan szúrjunk be tartalomvezérlőt, és állítsunk be helykitöltő szöveget Java-ban](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Tanulja meg, hogyan szúrhat be tartalomvezérlőt és állíthat be helykitöltő szöveget Word dokumentumban Java-val.
 ### [Üres dokumentum létrehozása interaktív parancsgombbal Word-ben Java-val](./create-blank-document-with-an-interactive-command-button-in/)
 Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív parancsgombot tartalmaz Java-val.
+### [Word dokumentum szerkesztése programozott módon és parancsgomb hozzáadása](./edit-word-document-programmatically-and-add-a-command-button/)
+Programozott módon szerkessze a Word dokumentumot, és adjon hozzá parancsgombot Java-ban.
+### [Üres Word dokumentum létrehozása szövegvezérlővel](./how-to-create-a-blank-word-document-with-a-text-control/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot szövegvezérlővel.
 ### [Üres Word dokumentum létrehozása szövegvezérlővel](./how-to-create-a-blank-word-document-with-a-text-control/)
 Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot szövegvezérlő hozzáadásával az Aspose.Words for Java segítségével.
 ### [Word dokumentum létrehozása programozott módon az Aspose.Words segítségével](./how-to-create-word-document-programmatically-with-aspose-wor/)

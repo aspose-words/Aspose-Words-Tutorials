@@ -96,6 +96,8 @@ Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words ch
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
 ### [Thêm Content Control trong tài liệu Word bằng Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Hướng dẫn cách chèn và quản lý Content Control trong tài liệu Word bằng Aspose.Words for Java.
+### [Cách chèn Content Control và đặt văn bản placeholder trong Word bằng Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Hướng dẫn chèn Content Control và thiết lập văn bản placeholder trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Cách lưu docx bằng DocumentBuilder và thêm văn bản sau một điều khiển](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Lưu tài liệu docx và chèn văn bản sau một điều khiển bằng DocumentBuilder.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
@@ -125,8 +127,14 @@ Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng
 Hướng dẫn tạo tài liệu Word trong C# bằng Aspose.Words.
 ### [Tạo tài liệu trống với nút lệnh tương tác trong Word bằng Java](./create-blank-document-with-an-interactive-command-button-in/)
 Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
-### [Cách tạo tài liệu Word trống với điều khiển văn bản](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Chỉnh sửa tài liệu Word bằng lập trình và thêm nút lệnh](./edit-word-document-programmatically-and-add-a-command-button/)
+Hướng dẫn chỉnh sửa tài liệu Word hiện có bằng mã Java và chèn nút lệnh tương tác bằng Aspose.Words.
+### [Cách tạo tài liệu Word trống với điều khiển nội dung văn bản thuần trong C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
+Hướng dẫn tạo tài liệu Word trống và chèn điều khiển nội dung văn bản thuần bằng C#.
+### [Cách chèn điều khiển nội dung văn bản thuần trong tài liệu Word bằng C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
+Hướng dẫn chèn điều khiển nội dung văn bản thuần vào tài liệu Word bằng C# sử dụng Aspose.Words.
 ### [Cách tạo tài liệu Word bằng cách lập trình với Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Hướng dẫn tạo tài liệu Word bằng cách lập trình với Aspose.Words.
 ### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 ### [Cách tạo tài liệu Word trống trong Aspose.Words cho Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)

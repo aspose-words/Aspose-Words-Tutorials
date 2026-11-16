@@ -80,48 +80,15 @@ Dowiedz się, jak dodać przycisk ActiveX do dokumentu Word i ustawić jego etyk
 Dowiedz się, jak generować dokumenty DOCX z osadzonymi kontrolkami ActiveX przy użyciu Java i Aspose.Words.
 ### [Jak wstawić wykres kołowy do dokumentu Word przy użyciu Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Dowiedz się, jak przy pomocy Aspose.Words for Java dodać wykres kołowy do dokumentu Word w kilku prostych krokach.
-### [Jak utworzyć przycisk polecenia ActiveX w Javie](./how-to-create-activex-command-button-in-java/)
-Dowiedz się, jak w Aspose.Words dla Java dodać przycisk polecenia ActiveX do dokumentu Word.
-### [Jak dodać ActiveX i wstawić wykres kołowy w dokumencie Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
-Naucz się dodawać kontrolki ActiveX i wstawiać wykresy kołowe w dokumentach Word przy użyciu Aspose.Words dla Java.
-### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
-Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
-### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
-Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
-### [Ustaw rozmiar przycisku w Wordzie za pomocą Java – Kompletny przewodnik Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
-Dowiedz się, jak ustawić rozmiar przycisku w dokumencie Word przy użyciu Aspose.Words for Java w tym kompletnym przewodniku.
-### [Tworzenie wykresu kołowego w Aspose.Words Java – Kompletny przewodnik krok po kroku](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
-Naucz się tworzyć wykresy kołowe w dokumentach Word przy użyciu Aspose.Words for Java w tym szczegółowym przewodniku krok po kroku.
-### [Dodaj Forms2OleControl do DOCX – Kompletny przewodnik Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
-Dowiedz się, jak dodać kontrolkę Forms2OleControl do dokumentu DOCX przy użyciu Aspose.Words for Java w pełnym przewodniku krok po kroku.
-### [Wstaw wykres kołowy w Word przy użyciu Aspose.Words – kompletny przewodnik](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
-Dowiedz się, jak wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words. Kompletny przewodnik krok po kroku.
-### [Utwórz pusty dokument Word z przyciskiem polecenia – przewodnik krok po kroku](./create-blank-word-document-with-a-command-button-step-by-ste/)
-Dowiedz się, jak stworzyć pusty dokument Word i dodać przycisk polecenia w kilku prostych krokach.
-### [Jak dodać SDT w C# – kompletny przewodnik po polach zastępczych Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
-Poznaj, jak wstawiać i konfigurować SDT w C# przy użyciu Aspose.Words, aby tworzyć dynamiczne pola zastępcze w dokumentach Word.
-
-### [Jak uzyskać separator w dokumentach Word przy użyciu Java](./how-to-get-separator-in-word-docs-with-java/)
-Dowiedz się, jak wstawiać i konfigurować separator w dokumentach Word przy pomocy Aspose.Words for Java.
-### [Tworzenie dokumentu Word z polami zastępczymi i listami](./how-to-create-word-document-with-placeholders-and-lists/)
-Dowiedz się, jak generować dokumenty Word z dynamicznymi polami zastępczymi i listami przy użyciu Aspose.Words dla Java.
-### [Jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
-Dowiedz się, jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API.
-### [Jak wstawić przycisk polecenia w dokumencie Word przy użyciu Java](./how-to-insert-command-button-in-a-word-document-using-java/)
-Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words dla Java.
-### [Jak edytować wykres w dokumencie Word przy użyciu Javy](./how-to-edit-chart-in-a-word-document-using-java/)
-Naucz się modyfikować wykresy w dokumentach Word za pomocą Aspose.Words dla Java.
-### [Jak utworzyć forms2olecontrol w kodzie przy użyciu Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
-Dowiedz się, jak programowo tworzyć kontrolki Forms2OLE w dokumentach przy pomocy Aspose.Words.
-### [Zapisz dokument Word po edycji wykresu pierścieniowego w Javie](./save-word-document-after-editing-doughnut-chart-in-java/)
-Dowiedz się, jak po edycji wykresu pierścieniowego zapisać dokument Word przy użyciu Aspose.Words dla Java.
+### [Jak dodać wykres kołowy do dokumentu Word przy użyciu Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Dowiedz się, jak dodać wykres kołowy do dokumentu Word przy użyciu Aspose.Words for Java.
 ### [Jak utworzyć wykres radialny w dokumencie Word przy użyciu Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Dowiedz się, jak w Aspose.Words for Java stworzyć wykres radialny w dokumencie Word krok po kroku.
 ### [Jak utworzyć pusty dokument Word i dodać wykres radarowy w C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Dowiedz się, jak w C# stworzyć pusty dokument Word i wstawić wykres radarowy krok po kroku.
 ### [Utwórz dokument Word programowo i wstaw przycisk](./create-word-document-programmatically-and-insert-a-button/)
 Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk przy użyciu Aspose.Words for Java.
-### [Utwórz pusty dokument Word i dodaj przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+### [Utwórz pusty dokument Word i dodać przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać przycisk ActiveX krok po kroku.
 ### [Jak wstawić wykres kołowy w Word – dodać procent w etykiecie danych](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Dowiedz się, jak wstawić wykres kołowy w dokumencie Word i dodać etykiety danych wyświetlające procenty.

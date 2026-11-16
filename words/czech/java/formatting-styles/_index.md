@@ -53,6 +53,9 @@ Naučte se, jak efektivně spravovat styly dokumentů pomocí Aspose.Words pro J
 ### [Jak změnit formátování poznámky pod čarou v dokumentu Word pomocí Javy](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Naučte se, jak pomocí Aspose.Words pro Javu upravit formátování poznámek pod čarou v dokumentech Word.
 
+### [Nastavte řádkování odstavce v dokumentu Word pomocí Javy](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu nastavit řádkování odstavců v dokumentu Word.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

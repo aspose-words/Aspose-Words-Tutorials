@@ -54,7 +54,7 @@ Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dok
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
 
-### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+### [Árnyék hozzáadása alakzathoz Word-ben – Teljes útmutató C#‑ban](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
 ### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segítségével, részletes példákkal és beállítási lehetőségekkel.
@@ -387,25 +387,11 @@ Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentu
 
 ### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
-
-### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
-
-### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
-
-### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+### [Hogyan használjuk az Aspose-t kép beszúrásához és elrejtéséhez egy Word dokumentumban](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [Hogyan hozzunk létre fánkdiagramot és szúrjunk be kördiagramot](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+### [Téglalap alakzat létrehozása Word dokumentumban Java használatával](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ## További források
 
@@ -421,7 +407,7 @@ Tanulja meg, hogyan hozhat létre üres Word dokumentumot és adhat hozzá alakz
 ### [Word dokumentum programozott létrehozása, alakzatok csoportosítása Java-ban](./create-word-document-programmatically-group-shapes-in-java/)
 Ismerje meg, hogyan hozhat létre Word dokumentumot programozottan, és csoportosíthatja az alakzatokat Java-ban az Aspose.Words segítségével.
 
-### [Hogyan hozzunk létre üres Word dokumentumot és adjunk hozzá rejtett ellipszis alakzatot C#-ban](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+### [Hogyan hozzunk létre üres Word dokumentumot és adjunk hozzá rejtett ellipszis alakzatot C#‑ban](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Tanulja meg, hogyan hozhat létre üres Word dokumentumot, és rejtett ellipszis alakzatot adhat hozzá C#-ban az Aspose.Words segítségével.
 
 ### [Hogyan hozzunk létre fánkdiagramot Word dokumentumban Java-val](./how-to-create-doughnut-chart-in-a-word-document-with-java/)

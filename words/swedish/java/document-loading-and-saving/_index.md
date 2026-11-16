@@ -166,7 +166,7 @@ Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en steg�
 Lär dig hur du öppnar skadade Word‑dokument och aktiverar återställningsläge med Aspose.Words för Java för att reparera filer.
 
 ### [Återställ korrupt docx med Aspose.Words för Java](./recover-corrupted-docx-using-aspose-words-java/)
-Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words för Java i en steg‑för‑steg‑guide.
+Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java med en steg‑för‑steg‑guide.
 
 ### [Återställ korrupt DOCX i Java – Komplett programmeringsguide](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Lär dig hur du reparerar skadade DOCX‑filer i Java med Aspose.Words, inklusive steg‑för‑steg‑kodexempel och bästa praxis.
@@ -183,7 +183,7 @@ Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikat
 ### [Återställ DOCX‑filer med Aspose.Words – Steg‑för‑steg‑guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words i Java. Steg‑för‑steg‑guide med kodexempel.
 
-### [Återställ docx – spara återställt dokument med Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Hur du återställer docx – spara återställt dokument med Java](./how-to-recover-docx-save-recovered-document-using-java/)
 Lär dig hur du återställer en skadad DOCX‑fil och sparar det återställda dokumentet med Java och Aspose.Words.
 
 ### [Hur du återställer DOCX – Ställ in återställningsläge och visa varningar](./how-to-recover-docx-set-recovery-mode-display-warnings/)
@@ -230,26 +230,8 @@ Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
 ### [Ladda Markdown i Java – Komplett guide](./how-to-load-markdown-in-java-complete-guide/)
 Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, inklusive kodexempel och avancerade alternativ.
 
-## Vanliga frågor
-
-**Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  
-**A:** Ladda dokumentet med `new Document("file.docx")`, iterera över `Shape`‑noder som innehåller bilder och anropa `shape.getImageData().save("image.png")` för varje.
-
-**Q:** Kan jag också **save pdf java** efter att ha extraherat bilder?  
-**A:** Ja. Efter bearbetning anropar du `document.save("output.pdf")` – biblioteket hanterar PDF‑konvertering automatiskt.
-
-**Q:** Vad är det bästa sättet att **convert word html java**?  
-**A:** Ladda Word‑filen och använd `document.save("output.html", SaveFormat.HTML)`; du kan också ange `HtmlSaveOptions` för finjusterade resultat.
-
-**Q:** Hur använder jag **load html document java** med anpassade alternativ?  
-**A:** Använd `LoadOptions` (t.ex. `new LoadOptions(LoadFormat.HTML)`) när du skapar `Document`‑objektet.
-
-**Q:** Finns det ett enkelt sätt att **load docx java**‑filer som innehåller makron?  
-**A:** Ja – sätt `LoadOptions.setLoadFormat(LoadFormat.DOCX)` och aktivera `LoadOptions.setPassword()` om filen är skyddad.
-
-**Senast uppdaterad:** 2025-12-19  
-**Testat med:** Aspose.Words for Java 24.12 (senaste)  
-**Författare:** Aspose
+### [Hur du laddar markdown-dokument i Java med anpassade importalternativ](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+Lär dig hur du importerar markdown-filer i Java med skräddarsydda importalternativ med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
