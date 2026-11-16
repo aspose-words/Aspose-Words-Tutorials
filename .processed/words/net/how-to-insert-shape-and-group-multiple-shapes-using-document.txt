@@ -1,0 +1,7 @@
+Title: How to insert shape and group multiple shapes using DocumentBuilder in C#
+Slug: how-to-insert-shape-and-group-multiple-shapes-using-document
+Category: add-content-using-document-builder
+ProcessedDate: 2026-11-16T02:32:06.361211
+SourceRepo: AI Search API
+Keywords: how to insert shape, group multiple shapes, insert multiple shapes, insert rectangle shape
+PRNumber: 348
