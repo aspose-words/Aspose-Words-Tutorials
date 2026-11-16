@@ -63,7 +63,9 @@
 ### [Ενεργοποίηση λειτουργίας ανάκτησης για το άνοιγμα ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Μάθετε πώς να ανοίγετε κατεστραμμένα έγγραφα Word ενεργοποιώντας τη λειτουργία ανάκτησης.
 ### [Πώς να ανακτήσετε κατεστραμμένα αρχεία docx με το Aspose.Words σε Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
-Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx χρησιμοποιώντας το Aspose.Words σε Python. Οδηγός βήμα προς βήμα με κώδικα.
+Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx χρησιμοποιώντας το Aspose.Words σε Python.
+### [Πώς να ανακτήσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Python](./how-to-recover-corrupted-docx-files-using-python/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία docx με χρήση Python και Aspose.Words.
 ### [Aspose Font Warning Handler – Εντοπισμός Ελλειπουσών Γραμματοσειρών & Προσαρμογή Φόρτωσης Εγγράφου](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Μάθετε πώς να εντοπίζετε ελλείπουσες γραμματοσειρές και να προσαρμόζετε τη φόρτωση εγγράφων με το Aspose Font Warning Handler.
 ### [Ενεργοποίηση λειτουργίας ανάκτησης για την αποκατάσταση ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-recover-a-corrupted-word-document/)

@@ -74,6 +74,9 @@ Leer hoe u ontbrekende lettertypen detecteert en het laden van documenten aanpas
 ### [Herstelmodus inschakelen om een beschadigd Word-document te herstellen](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 Leer hoe u herstelmodus inschakelt om een beschadigd Word-document te repareren met Aspose.Words voor Python.
 
+### [Hoe corrupte docx-bestanden te herstellen met Python](./how-to-recover-corrupted-docx-files-using-python/)
+Leer hoe u corrupte docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met voorbeeldcode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
