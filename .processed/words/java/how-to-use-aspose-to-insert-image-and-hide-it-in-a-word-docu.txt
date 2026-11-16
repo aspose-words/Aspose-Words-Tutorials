@@ -1,0 +1,7 @@
+Title: How to use Aspose to insert image and hide it in a Word document
+Slug: how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu
+Category: images-shapes
+ProcessedDate: 2026-11-16T03:41:53.538935
+SourceRepo: AI Search API
+Keywords: aspose insert image, how to hide image, how to insert image, add hidden picture, make image invisible
+PRNumber: 349
