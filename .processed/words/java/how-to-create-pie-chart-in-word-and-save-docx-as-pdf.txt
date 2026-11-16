@@ -1,0 +1,7 @@
+Title: How to create pie chart in Word and save docx as PDF
+Slug: how-to-create-pie-chart-in-word-and-save-docx-as-pdf
+Category: document-conversion-and-export
+ProcessedDate: 2026-11-16T03:41:46.315823
+SourceRepo: AI Search API
+Keywords: create pie chart, save docx as pdf, convert word to pdf, how to add chart, how to create chart
+PRNumber: 349
