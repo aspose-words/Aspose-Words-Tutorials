@@ -71,68 +71,10 @@
 ### [วิธีส่งออก Word เป็น PDF และสร้าง PDF/UA ที่เข้าถึงได้](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 เรียนรู้วิธีส่งออกไฟล์ Word เป็น PDF และสร้าง PDF/UA ที่เข้าถึงได้ด้วย Aspose.Words for Python
 
-### [บันทึก Word เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการส่งออก PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกเป็น PDF/A‑UA ด้วย Aspose.Words for Python อย่างละเอียด
-
-### [สร้าง PDF UA จาก Word – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-ua-from-word-step-by-step-guide/)
-เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-### [บันทึก DOCX เป็น Markdown – คู่มือ Python อย่างรวดเร็วสำหรับส่งออกสมการเป็น LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
-เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words for Python
-
-### [บันทึกเอกสารเป็น TXT – ส่งออกสมการ Word เป็น LaTeX ด้วย Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
-เรียนรู้วิธีบันทึกเอกสารเป็นไฟล์ TXT พร้อมส่งออกสมการ Word เป็น LaTeX ด้วย Aspose.Words for Python
-
-### [บันทึก DOCX เป็น PDF – คู่มือฉบับสมบูรณ์สำหรับ Python](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-
-### [วิธีฝังรูปภาพเมื่อแปลง DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
-เรียนรู้วิธีฝังรูปภาพเมื่อแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Python อย่างละเอียด
-
-### [วิธีฝังรูปภาพใน Markdown จาก DOCX – คู่มือฉบับสมบูรณ์](./how-to-embed-images-in-markdown-from-docx-full-guide/)
-เรียนรู้วิธีฝังรูปภาพใน Markdown จากไฟล์ DOCX อย่างละเอียดด้วย Aspose.Words for Python
-### [บันทึก Word เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Python](./save-word-as-markdown-complete-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-
-### [บันทึก docx เป็น txt – แปลง Word เป็น TXT ด้วย LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็นไฟล์ข้อความ (txt) โดยใช้ LaTeX กับ Aspose.Words for Python
-
-### [บันทึก Word เป็น PDF พร้อมการแท็ก Shape – คู่มือฉบับสมบูรณ์สำหรับ Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF พร้อมการแท็ก Shape ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-
-### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown และ PDF – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
-เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown และ PDF ด้วย Aspose.Words for Python อย่างละเอียด
-
-### [บันทึก docx เป็น markdown พร้อมสมการ LaTeX – คู่มือ Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown พร้อมสมการ LaTeX ด้วย Aspose.Words for Python อย่างละเอียดและง่ายต่อการใช้งาน
-
-### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์สำหรับ Python](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-
-### [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-programming-guide/)
+### [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose.Words สำหรับ Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
-### [ส่งออก docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับ Python](./export-docx-as-markdown-full-step-by-step-guide/)
-เรียนรู้วิธีส่งออกไฟล์ docx เป็น markdown อย่างละเอียดด้วย Aspose.Words for Python ในขั้นตอนที่ชัดเจนและครบถ้วน
-
-### [สร้างกริด PNG จากเอกสาร Word – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./create-png-grid-from-word-document-complete-step-by-step-gui/)
-เรียนรู้วิธีสร้างกริด PNG จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-### [บันทึก Word เป็น PDF – แปลงรูปร่างเป็น Inline ด้วย Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF และแปลงรูปทรงให้เป็นแบบ Inline ด้วย Aspose.Words for Python
-### [วิธีบันทึก Word เป็น PDF และแปลง DOCX เป็น Markdown](./how-to-save-word-as-pdf-and-convert-docx-to-markdown/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF แล้วแปลง DOCX เป็น Markdown ด้วย Aspose.Words for Python
-### [แปลง docx เป็น pdf ด้วย Python – คู่มือฉบับสมบูรณ์](./convert-docx-to-pdf-with-python-complete-guide/)
-เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Python อย่างละเอียดและครบถ้วน
-
-### [แปลง DOCX เป็น PDF ด้วย Python – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
-เรียนรู้วิธีแปลง DOCX เป็น PDF ด้วย Python อย่างละเอียดตามขั้นตอนเต็ม
-
-### [บันทึก Word เป็น Markdown – คู่มือฉบับสมบูรณ์โดยใช้ Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Python
-
-### [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็น pdf อย่างละเอียดด้วย Aspose.Words for Python
-
-### [ส่งออก Word เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการดึงภาพใน Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+### [บันทึก Word เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการดึงภาพใน Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 เรียนรู้วิธีส่งออกไฟล์ Word เป็น Markdown พร้อมดึงรูปภาพจากเอกสารโดยใช้ Aspose.Words for Python อย่างละเอียด
 
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น PDF ด้วย Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
@@ -141,8 +83,11 @@
 ### [บันทึก DOCX เป็น TXT – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นไฟล์ TXT พร้อมส่งออกสมการจาก Word อย่างละเอียดและครบถ้วน
 
-### [บันทึก Word เป็น PDF – สร้าง PDF/A‑2U ที่เข้าถึงได้ด้วย Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+### [บันทึก Word เป็น PDF/A‑2U ที่เข้าถึงได้ด้วย Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF/A‑2U ที่เข้าถึงได้ด้วย Aspose.Words for Python อย่างละเอียด
+
+### [บันทึก Word เป็น PDF – แท็ก Shape – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF พร้อมการแท็ก Shape ด้วย Aspose.Words for Python อย่างละเอียด
 
 ### [แปลง docx เป็น markdown ด้วย Python – คู่มือเต็มขั้นตอน](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
@@ -244,66 +189,126 @@
 ### [วิธีสร้าง PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 เรียนรู้วิธีสร้างไฟล์ PDF ที่เป็นมิตรกับผู้ใช้ที่ต้องการการเข้าถึงจากเอกสาร Word ด้วย Aspose.Words for Python
 
-### [แปลง docx เป็น markdown และส่งออกเป็น PDF ด้วย Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
-เรียนรู้วิธีแปลงไฟล์ docx ไปเป็น markdown แล้วส่งออกเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+### [แปลง DOCX เป็น PDF ด้วย Aspose.Words – คู่มือ](./convert-docx-to-pdf-with-aspose-words-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
 
-### [บันทึกไฟล์ docx เป็น markdown และส่งออกสมการเป็น LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words for Python
+### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ Word และแปลง DOCX เป็น Markdown ด้วย Aspose.Words for Python
 
-### [วิธีส่งออก Office Math ไปเป็น LaTeX ด้วย Python](./how-to-export-office-math-to-latex-in-python/)
+### [บันทึก Word เป็น Markdown, ส่งออกสมการเป็น LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words for Python
 
-### [วิธีบันทึก Word เป็น PDF ด้วย Aspose.Words สำหรับ Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+### [ส่งออกสมการ Word เป็น LaTeX ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+เรียนรู้วิธีส่งออกสมการจากไฟล์ Word เป็น LaTeX อย่างละเอียดด้วย Aspose.Words for Python
+
+### [ส่งออก DOCX เป็น PDF – สร้าง PDF ที่เข้าถึงได้](./export-docx-to-pdf-generate-accessible-pdf/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF พร้อมทำให้ PDF สามารถเข้าถึงได้ตามมาตรฐาน
+
+### [แปลง docx เป็น txt ใน Python – คู่มือฉบับสมบูรณ์](./convert-docx-to-txt-in-python-full-guide/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น txt ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ Python](./save-word-as-pdf-with-aspose-words-python-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
 
-### [วิธีบันทึกเอกสารเป็น PDF ด้วยรูปสี่เหลี่ยมกำหนดเองใน Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
-เรียนรู้วิธีบันทึกเอกสารเป็น PDF พร้อมรูปสี่เหลี่ยมกำหนดเองโดยใช้ Aspose.Words for Python
+### [บันทึก Word เป็น Markdown ด้วย Aspose.Words for Python – คู่มือขั้นตอนโดยละเอียด](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดและครบถ้วน
 
-### [บันทึก docx เป็น pdf ด้วย Aspose.Words: คู่มือขั้นตอนโดยละเอียด](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็น PDF อย่างละเอียดด้วย Aspose.Words for Python
+### [บันทึก docx เป็น png – คู่มือขั้นตอนโดยละเอียดสำหรับนักพัฒนา Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็นรูปภาพ PNG อย่างละเอียดด้วย Aspose.Words for Python
 
-### [วิธีส่งออก Word เป็น PDF พร้อมการปฏิบัติตาม PDF/UA ด้วย Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
-เรียนรู้วิธีส่งออกไฟล์ Word เป็น PDF ที่เป็นไปตามมาตรฐาน PDF/UA ด้วย Aspose.Words for Python
-### [บันทึกไฟล์ docx เป็น markdown – คู่มือฉบับสมบูรณ์ในการแปลง Word เป็น Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Python
+### [โหลด Markdown ด้วย Python และ Aspose.Words – คู่มือฉบับสมบูรณ์](./load-markdown-python-with-aspose-words-full-guide/)
+เรียนรู้วิธีโหลดไฟล์ Markdown ใน Python ด้วย Aspose.Words อย่างละเอียดและครบถ้วน
 
-### [บันทึก DOCX เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
-เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Python พร้อมขั้นตอนและตัวอย่างโค้ด
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ด้วย Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร DOCX ด้วย Aspose.Words for Python
 
-### [สร้าง PDF ที่เข้าถึงได้ – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐานด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+### [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จาก DOCX ด้วย Aspose.Words for Python อย่างละเอียด
 
-### [บันทึกไฟล์ docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX ด้วย Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
-เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT และแปลงสมการ Word ไปเป็น LaTeX ด้วย Aspose.Words for Python
+### [ส่งออกสมการเป็น LaTeX จาก Word ด้วย Aspose.Words สำหรับ Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+เรียนรู้วิธีส่งออกสมการจากเอกสาร Word ไปเป็น LaTeX ด้วย Aspose.Words for Python อย่างละเอียด
 
-### [สร้าง PDF ที่เข้าถึงได้ด้วย Python – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
-เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้สำหรับผู้ใช้ทุกคนด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+### [วิธีแปลง docx เป็น pdf ด้วย Aspose.Words ใน Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
 
-### [สร้าง PDF จากเอกสาร Word ด้วย Python – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-from-word-document-in-python-step-by-step-guide/)
-เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
-### [วิธีบันทึกไฟล์ docx เป็น txt LaTeX math ด้วย Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็นไฟล์ txt ที่มีสูตร LaTeX math ด้วย Aspose.Words for Python
+### [วิธีส่งออก Markdown จากเอกสาร Word ด้วย Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+เรียนรู้วิธีส่งออกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียด
 
-### [วิธีบันทึก Word เป็น PDF ด้วย Aspose.Words ใน Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+### [บันทึกเอกสารเป็นภาพ: แปลง DOCX เป็น PNG ใน Python](./save-document-as-image-convert-docx-to-png-in-python/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นภาพ PNG ด้วย Aspose.Words for Python อย่างง่ายดาย
 
-### [วิธีแปลง docx เป็น pdf พร้อมการเข้าถึงใน Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+### [วิธีบันทึก Word เป็น Markdown พร้อมการสนับสนุนตารางโดยใช้ Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการสนับสนุนตารางโดยใช้ Aspose.Words
 
-### [วิธีแปลง docx เป็น txt ใน Python ด้วย Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
-เรียนรู้วิธีแปลงไฟล์ docx เป็น txt ด้วย Aspose.Words for Python อย่างละเอียด
+### [วิธีแปลง Markdown เป็น DOCX ด้วย Aspose.Words ใน Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ Markdown ไปเป็น DOCX อย่างง่ายดายด้วย Aspose.Words for Python
 
-### [วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
-เรียนรู้วิธีบันทึกไฟล์ docx เป็นไฟล์ txt พร้อมสมการ LaTeX ด้วย Aspose.Words อย่างละเอียด
+### [วิธีบันทึก Word เป็น PDF ด้วย Aspose Words – คู่มือขั้นตอนโดยละเอียด](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
 
-### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
-เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown และ PDF ด้วย Aspose.Words for Python
+### [แปลง docx เป็น txt และส่งออกสมการ Word ไปยัง LaTeX](./convert-docx-to-txt-and-export-word-math-to-latex/)
 
-### [วิธีบันทึก PDF และแปลง DOCX เป็น Markdown](./how-to-save-pdf-and-convert-docx-to-markdown/)
-เรียนรู้วิธีบันทึกไฟล์ PDF และแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Python
+### [วิธีบันทึก Word เป็น markdown และรักษาสมการไว้ด้วย Aspose.Words for Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมคงสมการไว้โดยใช้ Aspose.Words for Python
 
-### [แปลง docx เป็น markdown ด้วย Aspose.Words ใน Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
-เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown, PDF หรือ TXT ด้วย Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+คำแนะนำการกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, PDF หรือ TXT ด้วย Aspose.Words for Python
 
-### [วิธีส่งออก markdown จาก DOCX ด้วย Aspose.Words สำหรับ Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
-เรียนรู้วิธีส่งออกไฟล์ Markdown จากเอกสาร DOCX ด้วย Aspose.Words for Python
+### [วิธีบันทึกไฟล์ docx เป็น markdown พร้อม LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown พร้อม LaTeX ด้วย Aspose.Words
+
+### [วิธีบันทึกไฟล์ docx เป็น pdf ด้วย Aspose.Words ใน Python](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีบันทึกไฟล์ docx เป็น txt ด้วย Aspose.Words สำหรับ Python](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็นไฟล์ txt อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีสร้าง PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เป็นมิตรกับผู้ใช้ที่ต้องการการเข้าถึงจากเอกสาร Word ด้วย Aspose.Words for Python
+
+### [แปลง DOCX เป็น PDF ด้วย Aspose.Words – คู่มือ](./convert-docx-to-pdf-with-aspose-words-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ Word และแปลง DOCX เป็น Markdown ด้วย Aspose.Words for Python
+
+### [บันทึก Word เป็น Markdown, ส่งออกสมการเป็น LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words for Python
+
+### [ส่งออกสมการ Word เป็น LaTeX ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+เรียนรู้วิธีส่งออกสมการจากไฟล์ Word เป็น LaTeX อย่างละเอียดด้วย Aspose.Words for Python
+
+### [ส่งออก DOCX เป็น PDF – สร้าง PDF ที่เข้าถึงได้](./export-docx-to-pdf-generate-accessible-pdf/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF พร้อมทำให้ PDF สามารถเข้าถึงได้ตามมาตรฐาน
+
+### [แปลง docx เป็น txt ใน Python – คู่มือฉบับสมบูรณ์](./convert-docx-to-txt-in-python-full-guide/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น txt ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ Python](./save-word-as-pdf-with-aspose-words-python-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [บันทึก Word เป็น Markdown ด้วย Aspose.Words for Python – คู่มือขั้นตอนโดยละเอียด](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดและครบถ้วน
+
+### [บันทึก docx เป็น png – คู่มือขั้นตอนโดยละเอียดสำหรับนักพัฒนา Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็นรูปภาพ PNG อย่างละเอียดด้วย Aspose.Words for Python
+
+### [โหลด Markdown ด้วย Python และ Aspose.Words – คู่มือฉบับสมบูรณ์](./load-markdown-python-with-aspose-words-full-guide/)
+เรียนรู้วิธีโหลดไฟล์ Markdown ใน Python ด้วย Aspose.Words อย่างละเอียดและครบถ้วน
+
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ด้วย Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร DOCX ด้วย Aspose.Words for Python
+
+### [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จาก DOCX ด้วย Aspose.Words for Python อย่างละเอียด
+
+### [ส่งออกสมการเป็น LaTeX จาก Word ด้วย Aspose.Words สำหรับ Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+เรียนรู้วิธีส่งออกสมการจากเอกสาร Word ไปเป็น LaTeX ด้วย Aspose.Words for Python อย่างละเอียด
+
+### [วิธีแปลง docx เป็น pdf ด้วย Aspose.Words ใน Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีส่งออก Markdown จากเอกสาร Word ด้วย Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+เรียนรู้วิธีส่งออกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

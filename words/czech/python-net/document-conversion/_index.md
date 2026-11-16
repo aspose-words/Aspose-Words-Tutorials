@@ -47,6 +47,8 @@ Naučte se exportovat obsah Wordu jako LaTeX pomocí Aspose.Words pro Python.
 Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podrobnými ukázkami kódu.
 ### [Vytvoření přístupného PDF z Wordu pomocí Pythonu – krok za krokem](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Naučte se pomocí Aspose.Words pro Python vytvořit přístupné PDF z dokumentu Word s podrobnými ukázkami.
+### [Vytvoření přístupného PDF z Wordu pomocí Aspose.Words pro Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
+Naučte se převést dokument Word do přístupného PDF pomocí Aspose.Words pro Python.
 ### [Uložení Wordu jako Markdown – kompletní průvodce s exportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Naučte se uložit dokument Word jako Markdown a exportovat jej do PDF/A‑UA pomocí Aspose.Words pro Python.
 ### [Vytvoření PDF UA z Wordu – průvodce krok za krokem](./create-pdf-ua-from-word-step-by-step-guide/)
@@ -132,7 +134,7 @@ Naučte se exportovat soubory DOCX do PDF s podporou přístupnosti pomocí Aspo
 ### [Převod docx na txt v Pythonu – kompletní průvodce](./convert-docx-to-txt-in-python-full-guide/)
 Naučte se převést soubory DOCX na prostý text pomocí Aspose.Words pro Python.
 ### [Uložení Wordu jako PDF s Aspose.Words – průvodce v Pythonu](./save-word-as-pdf-with-aspose-words-python-guide/)
-### [Uložení Wordu jako Markdown s Aspose.Words pro Python – krok za krokem](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+### [Uložení Wordu jako Markdown s Aspose.Words pro Python – krok za krokem](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
 Naučte se uložit dokument Word jako soubor Markdown pomocí Aspose.Words pro Python.
 ### [Uložení docx jako png – krok za krokem pro vývojáře Pythonu](./save-docx-as-png-step-by-step-guide-for-python-developers/)
 Naučte se převést soubory DOCX na obrázky PNG pomocí Aspose.Words pro Python.
@@ -223,6 +225,12 @@ Naučte se převést soubory DOCX na Markdown pomocí Aspose.Words pro Python.
 Naučte se uložit dokument Word jako PDF a převést soubory DOCX do formátu Markdown pomocí Aspose.Words pro Python.
 ### [Jak exportovat markdown z DOCX pomocí Aspose.Words pro Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
 Naučte se exportovat obsah DOCX jako soubory Markdown pomocí Aspose.Words pro Python.
+### [Jak převést docx na markdown pomocí Aspose.Words (Python)](./how-to-convert-docx-to-markdown-with-aspose-words-python/)
+Naučte se převést soubory DOCX do formátu Markdown pomocí Aspose.Words v Pythonu.
+### [Jak převést docx na txt a exportovat rovnice jako LaTeX](./how-to-convert-docx-to-txt-and-export-equations-as-latex/)
+Naučte se převést docx na txt a exportovat rovnice jako LaTeX pomocí Aspose.Words pro Python.
+### [Jak uložit Word jako PDF s označováním tvarů v Pythonu](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
+Naučte se pomocí Aspose.Words pro Python uložit dokument Word jako PDF a označit tvary pro další zpracování.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

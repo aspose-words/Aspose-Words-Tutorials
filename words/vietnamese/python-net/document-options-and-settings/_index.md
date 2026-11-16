@@ -69,6 +69,8 @@ Hướng dẫn khôi phục các tệp docx bị hỏng bằng Aspose.Words tron
 Tìm hiểu cách phát hiện phông chữ thiếu và tùy chỉnh quá trình tải tài liệu bằng trình xử lý cảnh báo phông chữ của Aspose.
 ### [Bật chế độ khôi phục để phục hồi tài liệu Word bị hỏng](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 Hướng dẫn cách bật chế độ khôi phục trong Aspose.Words để sửa chữa và mở lại tài liệu Word bị hỏng.
+### [Cách khôi phục tệp docx bị hỏng bằng Python](./how-to-recover-corrupted-docx-files-using-python/)
+Hướng dẫn chi tiết cách khôi phục các tệp docx bị hỏng bằng Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Aspose.Words kullanarak bozuk docx dosyalarını nasıl kurtaracağınızı öğ
 Python için Aspose.Words'ü kullanarak eksik yazı tiplerini tespit edin ve belge yükleme sürecini özelleştirin. Kaynak kodlu adım adım kılavuz.
 ### [Bozuk bir Word belgesini kurtarmak için kurtarma modunu etkinleştirme](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 Python için Aspose.Words kullanarak bozulmuş bir Word belgesini kurtarmak için kurtarma modunu nasıl etkinleştireceğinizi öğrenin.
+### [Python kullanarak bozuk docx dosyalarını kurtarma](./how-to-recover-corrupted-docx-files-using-python/)
+Python ve Aspose.Words ile bozuk docx dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

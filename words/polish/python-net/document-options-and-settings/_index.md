@@ -69,6 +69,8 @@ Dowiedz się, jak włączyć tryb odzyskiwania, aby otworzyć uszkodzony dokumen
 Dowiedz się, jak obsługiwać ostrzeżenia o brakujących czcionkach i dostosowywać ładowanie dokumentu przy użyciu Aspose.Words.
 ### [Włącz tryb odzyskiwania, aby przywrócić uszkodzony dokument Word](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words, aby naprawić uszkodzony plik Word. Praktyczny przewodnik z przykładami kodu.
+### [Jak odzyskać uszkodzone pliki docx przy użyciu Pythona](./how-to-recover-corrupted-docx-files-using-python/)
+Dowiedz się, jak naprawić uszkodzone pliki docx przy użyciu Pythona i Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

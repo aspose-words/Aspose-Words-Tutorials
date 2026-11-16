@@ -53,7 +53,7 @@ Scopri come estendere le funzionalità dei documenti con estensioni web utilizza
 Scopri come rendere i PDF accessibili aggiungendo tag e struttura con Aspose.Words. Guida dettagliata passo passo con esempi di codice.
 ### [Come recuperare DOCX – Guida completa con Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Scopri come recuperare file DOCX danneggiati con Aspose.Words. Guida completa passo passo con esempi di codice.
-### [Recupera documento Word corrotto con Aspose.Words – guida passo‑passo Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+### [Recupera documento Word corrotto con Aspose.Words – guida passo‑passo Python](./recover-corrupted-word-document-with-aspose-words-step-st/)
 Scopri come riparare documenti Word danneggiati usando Aspose.Words in Python, con esempi pratici passo‑passo.
 ### [Come recuperare file docx in Python – guida passo‑passo](./how-to-recover-docx-files-in-python-step-by-step-guide/)
 Scopri come recuperare file DOCX corrotti o danneggiati in Python usando Aspose.Words. Guida passo passo con esempi di codice.
@@ -68,6 +68,8 @@ Scopri come recuperare file docx corrotti utilizzando Aspose.Words per Python. G
 ### [Gestore Avvisi Font Aspose – Rileva Font Mancanti e Personalizza il Caricamento del Documento](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Scopri come gestire gli avvisi di font mancanti e personalizzare il caricamento dei documenti con Aspose.Words per Python.
 ### [Abilita la modalità di recupero per ripristinare un documento Word danneggiato](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+### [Come recuperare file docx corrotti usando Python](./how-to-recover-corrupted-docx-files-using-python/)
+Scopri come recuperare file DOCX corrotti utilizzando Aspose.Words per Python. Guida passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

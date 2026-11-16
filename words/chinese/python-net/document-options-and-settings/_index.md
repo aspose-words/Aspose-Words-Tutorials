@@ -69,6 +69,8 @@
 学习如何使用 Aspose.Words for Python 捕获字体缺失警告并自定义文档加载行为，确保文档渲染一致。
 ### [启用恢复模式以恢复损坏的 Word 文档](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
 学习如何在 Aspose.Words for Python 中启用恢复模式，以修复和恢复损坏的 Word 文档。提供示例代码。
+### [如何使用 Python 恢复损坏的 docx 文件](./how-to-recover-corrupted-docx-files-using-python/)
+学习使用 Aspose.Words for Python 逐步恢复损坏的 docx 文件，提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
