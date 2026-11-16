@@ -100,6 +100,8 @@
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./how-to-translate-docx-to-french-with-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام الذكاء الاصطناعي وC# مع Aspose.Words. |
 | [إضافة ملخص إلى مستند Word باستخدام Aspose.Words AI](./add-summary-to-word-document-with-aspose-words-ai/) | تعلم كيفية إضافة ملخص إلى مستندات Word باستخدام Aspose.Words AI لتسريع إدارة المحتوى. |
 | [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
+| [تلخيص مستند Word باستخدام واجهة OpenAI API عبر C#](./summarize-word-document-with-openai-api-using-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام واجهة OpenAI API مع C# للحصول على ملخصات دقيقة وسريعة. |
+| [كيفية ترجمة النص باستخدام واجهة برمجة تطبيقات Google Translate في C# – دليل خطوة بخطوة](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | دليل شامل يوضح كيفية استخدام Google Translate API في C# لترجمة النصوص خطوة بخطوة. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

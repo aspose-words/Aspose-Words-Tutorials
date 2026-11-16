@@ -28,6 +28,8 @@ Aspose.Words สำหรับ .NET ช่วยให้นักพัฒน�
 
 {{< tutorial-card link="./insert-inline-image/" title="แทรกภาพอินไลน์ในเอกสาร Word โดยใช้ Aspose.Words" imgSrc="./insert-inline-image/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="วิธีแทรกรูปร่างและจัดกลุ่มหลายรูปร่างโดยใช้ DocumentBuilder ใน C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-paragraph/" title="สร้างเอกสาร Word ด้วย Aspose.Words สำหรับ .NET" imgSrc="./insert-paragraph/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-table-contents/" title="สร้างเอกสาร Word ที่มีสารบัญใน .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}

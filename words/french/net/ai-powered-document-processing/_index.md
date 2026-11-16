@@ -100,15 +100,11 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
 | [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
 | [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
-| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
-| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
-| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
-| [Comment traduire un docx en français avec l'IA en C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA en C# avec Aspose.Words. |
-| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
-| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
 | **[Comment traduire un docx en français avec Aspose.Words IA – Guide étape par étape](./how-to-translate-docx-to-french-in-c-step-by-step-guide/)** | Apprenez à traduire automatiquement des fichiers DOCX en français avec Aspose.Words en C# grâce à ce guide étape par étape. |
 | [Comment enregistrer un document Word traduit en C# avec Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Apprenez à enregistrer automatiquement un document Word traduit en C# en utilisant l'IA de Google. |
 | [Comment résumer un document Word avec OpenAI en C#](./how-to-summarize-word-document-with-openai-in-c/) |  |
+| [Résumer un document Word avec l'API OpenAI en C#](./summarize-word-document-with-openai-api-using-c/) | Apprenez à résumer un document Word en C# en utilisant l'API OpenAI. |
+| [Comment traduire du texte avec l'API Google Translate en C# – guide étape par étape](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Apprenez à traduire du texte en C# en utilisant l'API Google Translate, étape par étape. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -34,6 +34,8 @@ Dieser Leitfaden beleuchtet die Vielseitigkeit der DocumentBuilder-Klasse und er
 
 {{< tutorial-card link="./insert-table-contents/" title="Erstellen Sie ein Word-Dokument mit Inhaltsverzeichnis in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Formen einfügen und mehrere Formen mit DocumentBuilder in C# gruppieren" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

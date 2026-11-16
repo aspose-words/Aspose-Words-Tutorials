@@ -83,6 +83,7 @@
 | [Как проверить грамматику в C# с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Узнайте, как использовать AI Aspose.Words в C# для автоматической проверки грамматики в документах Word. |
 | [Вызов API OpenAI из C# – Полное руководство по переписыванию абзацев Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Узнайте, как использовать API OpenAI в C# для автоматической перезаписи абзацев в документах Word. |
 | [Резюмирование документа Word на C# – пошаговое руководство с использованием ИИ](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Узнайте, как с помощью Aspose.Words и ИИ быстро резюмировать документы Word на C#. |
+| [Как переводить текст с помощью Google Translate API в C# – пошаговое руководство](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Узнайте, как использовать Google Translate API в C# для автоматического перевода текста шаг за шагом. |
 | [Как переводить DOCX на французский и автоматизировать перевод документов](./how-to-translate-docx-to-french-and-automate-document-transl/) | Узнайте, как с помощью Aspose.Words для .NET переводить DOCX на французский и автоматизировать процесс перевода. |
 | [Как вызвать CheckGrammar в C# – Полное руководство](./how-to-call-checkgrammar-in-c-complete-guide/) | Узнайте, как использовать метод CheckGrammar в Aspose.Words для .NET с C# для проверки грамматики в документах. |
 | [Учебник по локальному LLM – Как вызвать локальный LLM и выполнить проверку грамматики](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Узнайте, как интегрировать локальную модель LLM в Aspose.Words для .NET и выполнять проверку грамматики документов. |
@@ -107,6 +108,7 @@
 | [Перевести абзац на французский и изменить подпись диаграммы в Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Узнайте, как перевести абзац на французский и изменить подпись диаграммы в документе Word с помощью Aspose.Words. |
 | [Как сохранить переведённый документ Word в C# с помощью Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Узнайте, как с помощью Aspose.Words и Google AI сохранять переведённые документы Word в C#. |
 | [Как резюмировать документ Word с OpenAI в C#](./how-to-summarize-word-document-with-openai-in-c/) | Пошаговое руководство по использованию OpenAI для создания резюме Word‑документов в C# с Aspose.Words. |
+| [Резюмирование документа Word с OpenAI API на C#](./summarize-word-document-with-openai-api-using-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -106,6 +106,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come tradurre docx in francese in C# – guida passo‑a‑passo](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Scopri come tradurre file DOCX in francese usando Aspose.Words per .NET con una guida dettagliata passo‑a‑passo in C#. |
 | [Come salvare un documento Word tradotto in C# con Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Scopri come salvare un documento Word tradotto in C# utilizzando l'AI di Google con Aspose.Words. |
 | [Come riassumere un documento Word con OpenAI in C#](./how-to-summarize-word-document-with-openai-in-c/) | Scopri come utilizzare OpenAI in C# per riassumere automaticamente documenti Word con Aspose.Words. |
+| [Riassumere documento Word con l'API OpenAI usando C#](./summarize-word-document-with-openai-api-using-c/) | Scopri come riassumere documenti Word usando l'API OpenAI in C# con una guida dettagliata passo‑passo. |
+| [Come tradurre testo con l'API Google Translate in C# – guida passo‑a‑passo](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Scopri come tradurre testo in C# usando l'API Google Translate con una guida passo‑a‑passo dettagliata. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

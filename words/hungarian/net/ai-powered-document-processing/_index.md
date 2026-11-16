@@ -21,7 +21,7 @@ Ha dokumentumszerkesztésről van szó, az Aspose.Words for .NET egy erőmű, am
 
 ## Első lépések az AI-modellekkel
 
-Képzelje el, hogy néhány kattintással összefoglalhatja a dokumentumokat – nagyszerűen hangzik, ugye? Kezdjük is a… [AI-modell használata](./working-with-ai-model/) oktatóanyag, ahol megtanulhatod, hogyan integrálhatod a mesterséges intelligenciát a hatékony dokumentum-összefoglaláshoz az Aspose.Words segítségével. Olyan, mintha egy személyi asszisztens átfésülné a szöveghegyeket, meghatározná, mi igazán számít, és sűrítené neked. Ez az oktatóanyag egy egyszerű ütemtervet vázol fel a mesterséges intelligencia modelljeinek hatékony megvalósításához. 
+Képzelje el, hogy néhány kattintással összefoglalhatja a dokumentumokat – nagyszerűen hangzik, ugye? Kezdjük is a… [AI-modell használata](./working-with-ai-model/) oktatóanyag, ahol megtanulhatod, hogyan integrálhatod a mesterséges intelligenciát a hatékony dokumentum-összefoglaláshoz az Aspose.Words segítségével. Olyan, mintha egy személyi asszisztens átfésülné a szöveghegyeket, meghatározza, mi igazán számít, és sűrítené neked. Ez az oktatóanyag egy egyszerű ütemtervet vázol fel a mesterséges intelligencia modelljeinek hatékony megvalósításához. 
 
 ## Emeld magasabb szintre a játékodat a Google mesterséges intelligenciájával
 
@@ -81,17 +81,11 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [AI dokumentum összefoglalás C#-ban – teljes útmutató](./ai-document-summarization-in-c-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-alapú dokumentumösszefoglalásra C#-ban, lépésről lépésre útmutató. |
 | [AI összegzés létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-ai-summary-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre AI által generált összefoglalókat C#‑ban az Aspose.Words for .NET segítségével. |
 | [Hogyan összefoglalja a Word dokumentumot OpenAI-val C#-ban](./how-to-summarize-word-document-with-openai-in-c/) | Ismerje meg, hogyan használhatja az OpenAI-t a Word dokumentumok C#-ban történő összefoglalásához. |
-| [Docx fájl francia nyelvre fordítása AI-val C#-ban](./translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI segítségével a docx dokumentumok francia nyelvre történő fordításához C#-ban. |
-| [Hogyan fordítsa le a docx-et franciára AI-val C#-ban](./how-to-translate-docx-to-french-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-val a docx fájlok francia nyelvre történő fordításához C#-ban. |
-| [Összegzés hozzáadása Word-dokumentumhoz az Aspose.Words AI segítségével](./add-summary-to-word-document-with-aspose-words-ai/) | Ismerje meg, hogyan adhat hozzá automatikus összegzést Word-dokumentumokhoz az Aspose.Words AI használatával. |
-| [Word dokumentum összefoglalása C#-ban – teljes Aspose.Words AI útmutató](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Lépésről lépésre bemutatja, hogyan használja az Aspose.Words AI-t Word dokumentumok C#-ban történő összefoglalásához. |
-| [docx fájl francia nyelvre fordítása Aspose.Words AI-val](./translate-docx-to-french-with-aspose-words-ai/) | Az Aspose.Words AI segítségével docx fájlok francia nyelvre fordítása. |
-| [Sztring lefordítása spanyolra C#-ban az Aspose.Words AI-val](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Ismerje meg, hogyan fordíthat le szövegeket spanyolra C#-ban az Aspose.Words AI segítségével. |
-| [Bekezdés francia nyelvre fordítása és diagramcímke módosítása Wordben](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Tanulja meg, hogyan fordíthat bekezdéseket franciára és módosíthatja a diagramcímkéket Word dokumentumban Aspose.Words segítségével. |
-
+| [Word dokumentum összefoglalása OpenAI API-val C#-ban](./summarize-word-document-with-openai-api-using-c/) | Ismerje meg, hogyan használhatja az OpenAI API-t a Word dokumentumok C#-os összefoglalásához. |
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |
 | [Üres Word dokumentum létrehozása és francia nyelvre fordítása](./create-a-blank-word-document-and-translate-it-to-french/) | Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és fordíthatja le francia nyelvre az Aspose.Words for .NET segítségével. |
+| [Hogyan fordítsunk szöveget a Google Translate API-val C#‑ban – lépésről‑lépésre útmutató](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Ismerje meg, hogyan használhatja a Google Translate API-t C#‑ban szövegek fordításához lépésről‑lépésre útmutatóval. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

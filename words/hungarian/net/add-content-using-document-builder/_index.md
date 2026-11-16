@@ -34,6 +34,8 @@ Ez az útmutató részletesen bemutatja a DocumentBuilder osztály sokoldalúsá
 
 {{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Több Word-dokumentum generálása az Aspose.Words segítségével" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Alakzat beszúrása és több alakzat csoportosítása a DocumentBuilder használatával C#-ban" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

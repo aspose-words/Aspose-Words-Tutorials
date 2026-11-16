@@ -83,6 +83,8 @@
 | [C#로 문서 요약 만들기 – OpenAI 전체 가이드](./create-document-summary-in-c-complete-openai-guide/) | Aspose.Words for .NET과 OpenAI를 사용해 C#에서 문서 요약을 구현하는 전체 가이드입니다. |
 | [C#에서 docx를 프랑스어로 번역하는 방법 – 단계별 가이드](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aspose.Words for .NET과 C#를 활용해 docx 파일을 프랑스어로 번역하는 단계별 과정을 안내합니다. |
 | [OpenAI를 사용한 C# Word 문서 요약 방법](./how-to-summarize-word-document-with-openai-in-c/) | OpenAI와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
+| [OpenAI API를 사용하여 C#로 Word 문서 요약하기](./summarize-word-document-with-openai-api-using-c/) | OpenAI API와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 자동으로 요약하는 단계별 가이드입니다. |
+| [C#에서 Google 번역 API로 텍스트 번역하기 – 단계별 가이드](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Google 번역 API를 사용해 C#에서 텍스트를 번역하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
