@@ -1,0 +1,7 @@
+Title: How to convert docx to markdown with Aspose.Words (Python)
+Slug: how-to-convert-docx-to-markdown-with-aspose-words-python
+Category: document-conversion
+ProcessedDate: 2026-11-16T05:05:03.289127
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, save word document as markdown, how to export latex from word document
+PRNumber: 350
