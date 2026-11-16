@@ -1,0 +1,7 @@
+Title: Edit Word document programmatically and add a command button
+Slug: edit-word-document-programmatically-and-add-a-command-button
+Category: document-manipulation
+ProcessedDate: 2026-11-16T03:41:51.177446
+SourceRepo: AI Search API
+Keywords: edit word document programmatically, how to add button, insert command button word, create form button word, set command button name
+PRNumber: 349
