@@ -182,6 +182,8 @@ Aspose.Words for Java を使用して、Word 文書からアクセシブルな P
 
 ### [Word を PNG を作成 – 完全ステップバイステップガイド](./create-png-from-word-complete-step-by-step-guide/)
 
+### [Word で円グラフを作成し、docx を PDF として保存する方法](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+
 ## よくある質問
 **Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
 A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` または `insertWatermarkImage` を使用し、PDF として保存します。

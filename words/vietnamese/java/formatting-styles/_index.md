@@ -42,7 +42,7 @@ Tìm hiểu cách tùy chỉnh đường viền trong tài liệu Java bằng As
 Tìm hiểu cách quản lý từ điển ngắt dòng trong tài liệu bằng Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn với hướng dẫn toàn diện này.
 
 ### [Làm chủ việc tạo Smart Tag trong Aspose.Words Java: Hướng dẫn đầy đủ](./aspose-words-java-smart-tag-management/)
-Tìm hiểu cách tạo, quản lý và xóa thẻ thông minh bằng Aspose.Words for Java. Nâng cao khả năng tự động hóa tài liệu của bạn với các thành phần động như ngày tháng và mã chứng khoán.
+Tìm hiểu cách tạo, quản lý và xóa thẻ thông minh bằng Aspose.Words cho Java. Nâng cao khả năng tự động hóa tài liệu của bạn với các thành phần động như ngày tháng và mã chứng khoán.
 
 ### [Tab chính dừng trong tài liệu Word sử dụng Aspose.Words cho Java](./aspose-words-java-optimize-tab-stops/)
 Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài liệu Word bằng Aspose.Words cho Java. Cải thiện định dạng tài liệu bằng các ví dụ thực tế và mẹo về hiệu suất.
@@ -52,6 +52,9 @@ Tìm hiểu cách quản lý hiệu quả các kiểu tài liệu bằng Aspose.
 
 ### [Cách thay đổi định dạng chú thích trong tài liệu Word bằng Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Hướng dẫn chi tiết cách thay đổi định dạng chú thích trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Đặt khoảng cách dòng đoạn văn trong tài liệu Word bằng Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Hướng dẫn cách thiết lập khoảng cách dòng cho đoạn văn trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

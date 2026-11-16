@@ -91,6 +91,9 @@ Erfahren Sie, wie Sie Diagramme in Aspose.Words for Java erstellen und anpassen.
 ### [Wie man ein Kreisdiagramm in Word erstellt und als PNG speichert](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Erfahren Sie, wie Sie ein Kreisdiagramm in Word erzeugen und als PNG‑Bild speichern.
 
+### [Wie man ein Kreisdiagramm in Word erstellt und das DOCX als PDF speichert](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Erfahren Sie, wie Sie ein Kreisdiagramm in Word erzeugen und das Dokument als PDF speichern.
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -120,7 +123,7 @@ Erfahren Sie, wie Sie ein Word‑Dokument als Markdown‑Datei speichern und dab
 Erfahren Sie, wie Sie Markdown aus einem Word‑Dokument mit Aspose.Words für Java exportieren – Schritt‑für‑Schritt‑Leitfaden.
 
 ### [Barrierefreies PDF aus DOCX in Java erstellen – Vollständige Anleitung](./create-accessible-pdf-from-docx-in-java-full-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
 
 ### [DOCX als Markdown in Java speichern – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX‑Dateien in Markdown konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.

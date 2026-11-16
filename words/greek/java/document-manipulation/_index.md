@@ -90,8 +90,12 @@
 Μάθετε πώς να δημιουργήσετε κενό έγγραφο Word και να ενσωματώσετε κουμπί ActiveX χρησιμοποιώντας C# και Aspose.Words.
 ### [Προσθήκη ελέγχου περιεχομένου σε έγγραφο Word με Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να εισάγετε έλεγχο περιεχομένου, ορίσετε κείμενο placeholder σε Word με Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Μάθετε πώς να προσθέσετε έλεγχο περιεχομένου και να ορίσετε κείμενο placeholder σε έγγραφα Word χρησιμοποιώντας Java.
 ### [Δημιουργία κενής εγγράφου με διαδραστικό κουμπί εντολής στο Word με Java](./create-blank-document-with-an-interactive-command-button-in/)
 Δημιουργήστε ένα κενό έγγραφο Word με διαδραστικό κουμπί εντολής χρησιμοποιώντας το Aspose.Words για Java.
+### [Επεξεργασία εγγράφου Word προγραμματιστικά και προσθήκη κουμπιού εντολής](./edit-word-document-programmatically-and-add-a-command-button/)
+Επεξεργαστείτε ένα έγγραφο Word προγραμματιστικά και προσθέστε κουμπί εντολής με Aspose.Words για Java.
 ### [Δημιουργία κενής Word εγγράφου σε Java με Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Προστασία εγγράφων στο Aspose.Words για Java](./protecting-documents/)

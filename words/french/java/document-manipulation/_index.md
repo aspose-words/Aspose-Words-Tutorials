@@ -88,7 +88,7 @@ Optimisez le traitement de vos documents avec Aspose.Words pour Java. Apprenez �
 ### [Utilisation des plages de documents dans Aspose.Words pour Java](./using-document-ranges/)
 Maîtrisez la manipulation de plages de documents dans Aspose.Words pour Java. Apprenez à supprimer, extraire et formater du texte grâce à ce guide complet.
 ### [Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java](./using-structured-document-tags/)
-Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java grâce à ce guide complet. Créez, modifiez et liez des SDT à des données XML personnalisées.
+Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java grâce à un guide complet. Créez, modifiez et liez des SDT à des données XML personnalisées.
 ### [Créer un nouveau document Word – Guide étape par étape pour ajouter une balise structurée](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Apprenez à créer un document Word et à insérer une balise structurée grâce à un guide détaillé avec exemples de code.
 ### [Comment définir le nom de balise et ajouter un SDT dans un document Word avec C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
@@ -113,6 +113,9 @@ Maîtrisez la création de documents avec Aspose.Words pour Java. Guide étape p
 Apprenez à insérer et gérer les contrôles de contenu dans vos documents Word avec Aspose.Words pour Java.
 ### [Comment enregistrer un docx avec DocumentBuilder et ajouter du texte après un contrôle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Enregistrez un document DOCX avec DocumentBuilder et insérez du texte immédiatement après un contrôle.
+### [Comment insérer un contrôle de contenu, définir le texte d'espace réservé dans Word en Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Apprenez à insérer un contrôle de contenu et à définir le texte d'espace réservé dans un document Word avec Aspose.Words pour Java.
+
 ### [Clonage et combinaison de documents dans Aspose.Words pour Java](./cloning-and-combining-documents/)
 Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec exemples de code source.
 ### [Créer un document Word en Java avec Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
@@ -134,6 +137,9 @@ Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Appre
 ### [Créer un bouton ActiveX docx en Java – guide complet de programmation](./create-docx-activex-button-in-java-complete-programming-guid/)
 Apprenez à créer un bouton ActiveX dans un document DOCX avec Java, étape par étape, avec exemples de code.
 ### [Créer un document vierge avec un bouton de commande interactif dans Word en Java](./create-blank-document-with-an-interactive-command-button-in/)
+
+### [Modifier un document Word de façon programmatique et ajouter un bouton de commande](./edit-word-document-programmatically-and-add-a-command-button/)
+Apprenez à modifier un document Word via le code Java et à y insérer un bouton de commande avec Aspose.Words.
 
 ### [Créer un document Word vierge et ajouter un bouton ActiveX en C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX en C# avec Aspose.Words.

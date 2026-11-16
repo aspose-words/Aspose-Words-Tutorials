@@ -53,6 +53,9 @@
 ### [如何使用 Java 更改 Word 文档中的脚注格式](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 本指南展示如何在 Word 文档中使用 Aspose.Words for Java 修改脚注的样式和格式。
 
+### [使用 Aspose.Words for Java 在 Word 文档中设置段落行间距](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+本指南展示如何使用 Aspose.Words for Java 调整段落的行间距，以实现更好的文档排版。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

@@ -28,6 +28,9 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 ## Mevcut Eğitimler
 
+### [How to use Aspose to insert image and hide it in a Word document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 
@@ -170,6 +173,8 @@ Aspose.Words for Java ile gizli bir resim ekleyerek Word belgesi oluşturmayı �
 
 ### [Java'da programlı olarak Word belgesi oluşturma ve şekil ekleme](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 Java kullanarak programlı bir şekilde Word belgesine şekil eklemeyi öğrenin.
+
+### [Java ile Word belgesine dikdörtgen şekil ekleme](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ## Ek Kaynaklar
 

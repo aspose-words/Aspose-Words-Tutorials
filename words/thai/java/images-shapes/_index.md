@@ -55,6 +55,8 @@
 ### [สร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Java – คู่มือเต็มขั้นตอน](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียดขั้นตอนต่อขั้นตอน
 
+### [สร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
 ### [สร้างกล่องข้อความใน Java – คู่มือฉบับสมบูรณ์ในการเพิ่มเงา](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 เรียนรู้วิธีสร้างกล่องข้อความในเอกสาร Word ด้วย Java และเพิ่มเงาเพื่อทำให้เนื้อหาดูโดดเด่น
 ### [สร้างเอกสาร PDF ด้วยรูปสี่เหลี่ยม – คู่มือเต็ม C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
@@ -139,13 +141,14 @@
 ### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
 
 ### [วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
-เรียนรู้วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words
 
 ### [สร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้า](./create-a-blank-word-document-and-add-a-rectangle-shape/)
 
 ### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและเพิ่มรูปทรงใน Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
 ### [วิธีสร้างแผนภูมิโดนัทและแทรกแผนภูมิวงกลม](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+### [วิธีใช้ Aspose แทรกรูปภาพและซ่อนมันในเอกสาร Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

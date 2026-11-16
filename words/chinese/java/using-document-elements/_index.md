@@ -114,7 +114,9 @@
 ### [使用 Java 和 Aspose.Words 创建包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 学习如何使用 Java 和 Aspose.Words 创建包含 ActiveX 控件的 docx 文档。
 ### [在 Aspose.Words for Java 中使用饼图](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
-学习如何使用 Aspose.Words for Java 在 Word 文档中插入饼图并自定义其外观。
+
+### [在 Aspose.Words for Java 中使用 Java 向 Word 文档添加饼图](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+
 ### [在 Aspose.Words for Java 中创建 ActiveX 命令按钮](./how-to-create-activex-command-button-in-java/)
 学习如何在 Aspose.Words for Java 中创建 ActiveX 命令按钮，实现交互式文档功能。
 ### [在 Aspose.Words for Java 中创建空白 Word 文档并添加 ActiveX 按钮](./create-a-blank-word-document-and-add-an-activex-button-java/)

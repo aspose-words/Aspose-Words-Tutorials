@@ -84,7 +84,7 @@
 ### [วิธีแทรกปุ่ม ActiveX ใน Word – ตั้งค่าคำบรรยายของปุ่ม](./how-to-insert-activex-button-in-word-set-button-caption/)
 เรียนรู้วิธีแทรกปุ่ม ActiveX ลงในเอกสาร Word และตั้งค่าคำบรรยายของปุ่มอย่างละเอียด
 ### [แทรกแผนภูมิวงกลมใน Word ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
-เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 ### [วิธีรับตัวคั่นในเอกสาร Word ด้วย Java](./how-to-get-separator-in-word-docs-with-java/)
 เรียนรู้วิธีดึงตัวคั่นจากเอกสาร Word ด้วย Aspose.Words for Java
 ### [วิธีเพิ่ม SDT ใน C# – คู่มือฉบับสมบูรณ์สำหรับตัวแทน Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
@@ -130,6 +130,8 @@
 เรียนรู้วิธีกำหนดตำแหน่งของปุ่มในเอกสาร Word ด้วย Java อย่างละเอียดในบทช่วยสอนนี้
 ### [วิธีเพิ่ม ActiveX และแทรกแผนภูมิวงกลมในเอกสาร Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 เรียนรู้วิธีเพิ่ม ActiveX และสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java
+### [วิธีเพิ่มแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+เรียนรู้วิธีเพิ่มแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

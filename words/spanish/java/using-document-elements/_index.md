@@ -134,6 +134,8 @@ Aprenda a insertar gráficos de pastel en documentos Word usando Java y Aspose.W
 Aprenda a colocar y posicionar botones en documentos Word usando Aspose.Words para Java.
 ### [Cómo agregar ActiveX e insertar un gráfico circular en un documento Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 Aprenda a agregar controles ActiveX e insertar gráficos circulares en documentos Word usando Aspose.Words para Java.
+### [Cómo agregar un gráfico circular a un documento Word usando Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Aprenda a insertar un gráfico circular en un documento Word con Aspose.Words para Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

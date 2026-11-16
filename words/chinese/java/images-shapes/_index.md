@@ -30,6 +30,7 @@
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [如何使用 Aspose 在 Word 文档中插入图像并隐藏它](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -119,15 +120,6 @@ Aspose.Words Java 代码教程
 ### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
 演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
-### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
-演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
-
-### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
-演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
-
-### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
-演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
-
 ### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-injava/)
 演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
@@ -142,6 +134,8 @@ Aspose.Words Java 代码教程
 演示如何使用 Aspose.Words for Java 创建文档并对形状进行分组。
 
 ### [在 Java 中以编程方式创建 Word 文档并添加形状](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [使用 Java 在 Word 文档中创建矩形形状](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ## 其他资源
 

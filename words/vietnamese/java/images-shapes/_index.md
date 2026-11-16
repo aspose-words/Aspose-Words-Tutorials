@@ -28,6 +28,9 @@ Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình
 
 ## Hướng dẫn có sẵn
 
+### [Create rectangle shape in a Word document using Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -124,6 +127,9 @@ Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn hình ả
 
 ### [Cách chèn hình ảnh vào docx và ẩn hình ảnh trong Word bằng Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Hướng dẫn chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần, sử dụng Aspose.Words cho Java.
+
+### [Cách sử dụng Aspose để chèn hình ảnh và ẩn nó trong tài liệu Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+Hướng dẫn chi tiết cách chèn và ẩn hình ảnh trong tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Cách nhóm các hình dạng trong Word bằng Java – hướng dẫn đầy đủ](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.

@@ -62,6 +62,9 @@ Börja din inlärningsresa idag och lås upp de oändliga möjligheterna för do
 ### [Hur man infogar en vanlig textinnehållskontroll i ett Word-dokument med C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
 
+### [Hur man infogar en innehållskontroll och anger platshållartext i Word med Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+
+
 ### [Använda rensningsalternativ i Aspose.Words för Java](./using-cleanup-options/)
 Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. Lär dig hur du tar bort tomma stycken, oanvända regioner och mer.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)
@@ -135,6 +138,11 @@ Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kom
 ### [Skapa Word-dokument programatiskt med Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 
 Lär dig skapa ett Word-dokument programatiskt med Aspose.Words i Java.
+
+### [Redigera Word-dokument programatiskt och lägg till en kommandoknapp](./edit-word-document-programmatically-and-add-a-command-button/)
+
+Lär dig redigera ett Word-dokument programatiskt och lägga till en kommandoknapp med Aspose.Words för Java.
+
 ### [Skapa nytt Word-dokument – Steg‑för‑steg‑guide för att lägga till en strukturerad tagg](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 
 Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad tagg med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.

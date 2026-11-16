@@ -124,10 +124,10 @@ Naučte se, jak pomocí Aspose.Words pro Javu vytvořit radiální graf v dokume
 Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko pomocí Aspose.Words pro Javu.
 ### [Jak vytvořit prázdný dokument Word a přidat radarový graf v C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Naučte se vytvořit prázdný dokument Word a vložit do něj radarový graf pomocí C#.
-### [Jak vložit koláčový graf do dokumentu Word pomocí Javy](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+### [Jak vložit koláčový graf do dokumentu Word pomocí Javy](./how-to-insert-pie-chart-in-word-with-java/)
 Naučte se, jak vložit koláčový graf do dokumentu Word pomocí Aspose.Words pro Javu.
-### [Jak přidat tlačítko do dokumentu Word – krok za krokem](./how-to-add-button-to-word-document-step-by-step-guide/)
-Naučte se, jak pomocí Aspose.Words pro Javu vložit interaktivní tlačítko do dokumentu Word s podrobným návodem.
+### [Jak přidat koláčový graf do dokumentu Word pomocí Javy](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Naučte se, jak přidat koláčový graf do dokumentu Word pomocí Aspose.Words pro Javu.
 ### [Jak vložit koláčový graf do Wordu – přidat procentuální popisek dat](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Naučte se, jak vytvořit koláčový graf ve Wordu a přidat k němu procentuální popisky dat pomocí Aspose.Words pro Javu.
 ### [Jak roztrhnout výseč koláče v Javě – tutoriál Aspose.Words graf](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)

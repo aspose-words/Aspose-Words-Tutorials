@@ -96,6 +96,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [如何在 Java 中載入 Markdown – 完整指南](./how-to-load-markdown-in-java-complete-guide/)
 
+### [如何在 Java 中使用自訂匯入選項載入 Markdown 文件](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 ### [進階儲存選項與 Aspose.Words for Java](./advance-saving-options/)
 
 ### [使用 Aspose.Words for Java 以固定版面儲存 HTML 文件](./saving-html-documents-with-fixed-layout/)

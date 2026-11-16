@@ -95,6 +95,8 @@ Aspose.Words for Javaを使ってドキュメントをHTMLページに分割す�
 Aspose.Words for Javaでドキュメント作成をマスター。テキスト、表、画像などを追加するステップバイステップガイド。魅力的なWord文書を簡単に作成できます。
 ### [Aspose.Words で Word 文書にコンテンツ コントロールを追加する](./add-content-control-in-word-document-with-aspose-words/)
 Aspose.Words を使用して、Word 文書にコンテンツ コントロール（構造化ドキュメントタグ）を追加し、データ バインディングや編集を簡単に行う方法を学びます。
+### [Javaでコンテンツ コントロールを挿入し、プレースホルダー テキストを設定する方法](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Javaでコンテンツ コントロールを挿入し、プレースホルダー テキストを設定する手順とコード例を紹介します。
 ### [DocumentBuilder を使用して docx を保存し、コントロールの後にテキストを追加する方法](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 DocumentBuilder を使って DOCX を保存し、コントロールの後にテキストを追加する手順を解説します。
 ### [Aspose.Words for Java でのドキュメントの複製と結合](./cloning-and-combining-documents/)
@@ -130,9 +132,10 @@ Aspose.Words for Java を使って、空の Word 文書を作成する基本的�
 Aspose.Words for Java を使用して、内容のない新しい Word 文書を作成する手順を学びます。
 ### [C# でタグ名を設定し、SDT を追加する](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [C# でプレーンテキスト コンテンツ コントロールを使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-a-plain-text-content/)
-### [C# で空白の Word 文書を作成し、ActiveX ボタンを追加する](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+### [C# で空白の Word 文書を作成し、ActiveX ボタンを追加する](./create-a-blank-word-document-and-add-activex-button-in-c/)
 ### [C# で Word 文書にプレーンテキスト コンテンツ コントロールを挿入する方法](./how-to-insert-plain-text-content-control-in-a-word-document/)
 C# を使用して Word 文書にプレーンテキスト コンテンツ コントロールを追加し、データ入力を簡素化する手順を解説します。
+### [プログラムで Word 文書を編集し、コマンドボタンを追加する](./edit-word-document-programmatically-and-add-a-command-button/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

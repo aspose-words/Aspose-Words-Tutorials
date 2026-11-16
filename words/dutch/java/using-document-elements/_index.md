@@ -131,6 +131,9 @@ Leer hoe u diagrammen toevoegt aan Word-documenten met Java en Aspose.Words in d
 Leer stap voor stap hoe u een cirkeldiagram in een Word-document kunt invoegen met Java en Aspose.Words.
 ### [ActiveX toevoegen en een cirkeldiagram invoegen in een Word-document](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 Leer hoe u ActiveX kunt toevoegen en een cirkeldiagram in een Word‑document kunt invoegen met Aspose.Words voor Java.
+### [Hoe een cirkeldiagram aan een Word-document toevoegen met Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+
+Leer hoe u een cirkeldiagram in een Word-document kunt invoegen met Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

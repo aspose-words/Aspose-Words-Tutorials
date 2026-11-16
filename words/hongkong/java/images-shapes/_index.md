@@ -28,6 +28,9 @@
 
 ## 可用教程
 
+### [Create rectangle shape in a Word document using Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 
@@ -162,6 +165,10 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Aspose.Words 中於群組形狀內插入橢圓形和矩形形狀](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 ### [在 Java 中以程式方式建立 Word 文件並加入形狀](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [如何使用 Aspose 在 Word 文件中插入圖像並隱藏它](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+示範如何在 Word 文檔中插入圖像並將其隱藏，以實現靈活的內容呈現。
 
 ## 其他資源
 

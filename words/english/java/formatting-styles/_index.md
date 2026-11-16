@@ -54,6 +54,9 @@ Learn how to efficiently manage document styles with Aspose.Words for Java by re
 ### [How to change footnote formatting in a Word document using Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Learn how to modify footnote formatting in Word documents using Aspose.Words for Java with step-by-step code examples.
 
+### [Set paragraph line spacing in a Word document with Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Learn how to set paragraph line spacing in Word documents using Aspose.Words for Java with clear code examples.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

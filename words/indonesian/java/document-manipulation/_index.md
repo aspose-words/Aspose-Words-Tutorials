@@ -59,6 +59,9 @@ Mulailah perjalanan belajar Anda hari ini dan buka kemungkinan tak terbatas dala
 ### [Membuat dokumen kosong dengan tombol perintah interaktif di Word menggunakan Java](./create-blank-document-with-an-interactive-command-button-in/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan tombol perintah interaktif menggunakan Aspose.Words untuk Java.
 
+### [Edit dokumen Word secara programatis dan tambahkan tombol perintah](./edit-word-document-programmatically-and-add-a-command-button/)
+Pelajari cara mengedit dokumen Word secara programatis dan menambahkan tombol perintah menggunakan Aspose.Words untuk Java.
+
 ### [Cara membuat dokumen Word kosong dengan kontrol teks di Aspose.Words untuk Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 Pelajari cara membuat dokumen Word kosong dengan kontrol teks menggunakan Aspose.Words untuk Java.
 ### [Cara Membuat Dokumen Word Secara Programatis dengan Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
@@ -138,6 +141,8 @@ Pelajari cara menetapkan nama tag dan menambahkan Structured Document Tag (SDT) 
 Pelajari cara membuat dokumen Word kosong dan menambahkan tombol ActiveX menggunakan C# dengan Aspose.Words.
 ### [Cara menyisipkan kontrol konten teks biasa dalam dokumen Word dengan C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
 Pelajari cara menyisipkan kontrol konten teks biasa ke dalam dokumen Word menggunakan C#.
+### [Cara menyisipkan kontrol konten, mengatur teks placeholder di Word dengan Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Pelajari cara menyisipkan kontrol konten dan mengatur teks placeholder dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

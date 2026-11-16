@@ -53,6 +53,9 @@ Leer hoe u documentstijlen efficiënt kunt beheren met Aspose.Words voor Java do
 ### [Hoe u de notenvoettekstopmaak in een Word-document met Java wijzigt](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Leer hoe u de opmaak van voetnoten in Word-documenten kunt aanpassen met Aspose.Words voor Java.
 
+### [Instel regelafstand van alinea in een Word-document met Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Leer hoe u de regelafstand van alinea's kunt aanpassen in Word-documenten met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

@@ -135,6 +135,9 @@ Apprenez à insérer un diagramme circulaire dans un document Word en Java avec 
 ### [Comment ajouter ActiveX et insérer un diagramme circulaire dans un document Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 Apprenez à intégrer des contrôles ActiveX et à insérer un graphique en secteurs dans un document Word avec Aspose.Words pour Java.
 
+### [Comment ajouter un diagramme circulaire à un document Word en utilisant Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Apprenez à insérer un diagramme circulaire dans un document Word avec Aspose.Words pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

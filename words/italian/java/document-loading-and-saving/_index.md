@@ -205,7 +205,7 @@ Scopri come impostare la modalità di recupero per riparare documenti Word danne
 ### [Registra callback di avviso in Java – Traccia i font mancanti](./register-warning-callback-in-java-track-missing-fonts/)
 Impara a registrare una callback per gli avvisi di sostituzione dei font in Java con Aspose.Words, per monitorare i font mancanti.
 
-### [Rileva la sostituzione di font mancanti in Java – Guida completa Aspose.Wor](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Rileva la sostituzione di font mancanti in Java – Guida completa Aspose-Wor](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Scopri come individuare le sostituzioni di font mancanti durante l'elaborazione dei documenti Word in Java con Aspose.Words.
 
 ### [Registra avvisi di sostituzione dei font in Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
@@ -234,6 +234,9 @@ Scopri come configurare tutte le opzioni disponibili in Aspose.Words per Java pe
 
 ### [Come specificare la codifica durante il caricamento di un documento con Aspose.Words per Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 Scopri come impostare l'encoding corretto quando carichi documenti in Java con Aspose.Words.
+
+### [Come caricare un documento markdown in Java con opzioni di importazione personalizzate](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+Impara a caricare file Markdown in Java usando Aspose.Words con opzioni di importazione personalizzate.
 
 ## Domande Frequenti
 

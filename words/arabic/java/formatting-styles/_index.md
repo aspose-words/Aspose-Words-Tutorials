@@ -53,6 +53,9 @@
 ### [كيفية تغيير تنسيق الحواشي في مستند Word باستخدام Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 تعرف على طريقة تعديل تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا.
 
+### [ضبط تباعد أسطر الفقرة في مستند Word باستخدام Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+تعلم كيفية ضبط تباعد الأسطر للفقرة في مستند Word باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

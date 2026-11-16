@@ -81,6 +81,9 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 ### [Jak utworzyć wykres kołowy w Wordzie i zapisać go jako PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Dowiedz się, jak w Aspose.Words for Java utworzyć wykres kołowy i zapisać go jako plik PNG.
 
+### [Jak utworzyć wykres kołowy w Wordzie i zapisać docx jako PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Dowiedz się, jak w Aspose.Words for Java utworzyć wykres kołowy i zapisać dokument jako PDF.
+
 ### [Używanie obiektów Office Math w Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 

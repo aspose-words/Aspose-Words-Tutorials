@@ -28,6 +28,9 @@ Inom dokumentbehandling är integrering av bilder och former avgörande för att
 
 ## Tillgängliga handledningar
 
+### [Create rectangle shape in a Word document using Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 
@@ -37,7 +40,7 @@ Inom dokumentbehandling är integrering av bilder och former avgörande för att
 ### [Spara anpassade sidor och bilder i Java med Aspose.Words-återanrop](./aspose-words-java-callback-custom-savings/)
 En kodhandledning för Aspose.Words Java
 
-### [Hur man renderar dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
+### [Hur att rendera dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
 Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassad storlek av Word-dokument med Aspose.Words för Java. Förbättra dina dokumenthanteringsfunktioner idag.
 ### [Skapa Word-dokument Java – Lägg till rektangel med skuggeffekt](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
@@ -155,23 +158,8 @@ Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade former
 
 ### [Hur man infogar ellips- och rektangelformer i en gruppform med Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
-### [Hur man skapar ett tomt Word-dokument och grupperar flera former](./how-to-create-blank-word-document-and-group-multiple-shapes/)
-
-### [Skapa Word-dokument programatiskt och lägg till en form i Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-## Ytterligare resurser
-
-### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+### [Hur man skapar ett tomt Word-dokument och lägger till en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för Java.
-
-### [Hur man skapar ett tomt dokument och lägger till former i Word](./how-to-create-blank-document-and-add-shapes-to-word/)
-Lär dig hur du skapar ett tomt Word-dokument och lägger till former med Aspose.Words för Java.
-
-### [Hur man skapar ett Word-dokument med ett cirkeldiagram i Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
-Lär dig skapa ett Word-dokument med ett cirkeldiagram i Java.
-
-### [Skapa Word-dokument programatiskt, gruppera former i Java](./create-word-document-programmatically-group-shapes-in-java/)
-Lär dig hur du programatiskt skapar ett Word-dokument och grupperar former med Aspose.Words för Java.
 
 ### [Hur man skapar ett tomt Word-dokument och lägger till en dold ellipsform i C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 Lär dig hur du skapar ett tomt Word-dokument och infogar en dold ellipsform med Aspose.Words för C#.
@@ -1197,6 +1185,643 @@ Lär dig hur du skapar ett tomt Word-dokument och infogar en dold ellipsform med
 ### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 
 ### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [Hur du infogar bild och döljer den i ett Word-dokument med Aspose](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+Lär dig hur du infogar en bild och döljer den i ett Word-dokument med Aspose.Words för Java.
+
+## Ytterligare resurser
+
+### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för Java.
+
+### [Hur man skapar ett tomt Word-dokument och lägger till en dold ellipsform i C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar en dold ellipsform med Aspose.Words för C#.
+
+### [Hur man skapar ett doughnut-diagram i ett Word-dokument med Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+
+### [Hur man skapar ett doughnut-diagram och infogar ett cirkeldiagram](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
 ### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 

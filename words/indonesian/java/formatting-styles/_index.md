@@ -53,6 +53,9 @@ Pelajari cara mengelola gaya dokumen secara efisien dengan Aspose.Words untuk Ja
 ### [Cara Mengubah Format Catatan Kaki dalam Dokumen Word menggunakan Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Pelajari cara mengubah format catatan kaki di dokumen Word dengan Aspose.Words untuk Java secara programatis.
 
+### [Mengatur Jarak Baris Paragraf dalam Dokumen Word dengan Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Pelajari cara mengatur jarak baris paragraf secara programatis dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

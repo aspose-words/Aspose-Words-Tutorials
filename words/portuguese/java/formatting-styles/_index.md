@@ -53,6 +53,9 @@ Aprenda a gerenciar estilos de documentos com eficiência com o Aspose.Words par
 ### [Como alterar a formatação de notas de rodapé em um documento Word usando Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Aprenda a modificar a formatação de notas de rodapé em documentos Word com Aspose.Words para Java, passo a passo.
 
+### [Definir espaçamento entre linhas de parágrafo em um documento Word com Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Aprenda a definir o espaçamento entre linhas de parágrafos em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

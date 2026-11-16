@@ -79,6 +79,8 @@ Erfahren Sie, wie Sie ein Word-Dokument mit Platzhaltern und Listen in Aspose.Wo
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
 ### [Einfügen eines Kreisdiagramms in ein Word-Dokument mit Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren.
+### [Kreisdiagramm zu einem Word-Dokument mit Java hinzufügen](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm zu einem Word-Dokument hinzufügen.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
 ### [Erstellen eines Kreisdiagramms in Word mit Java – Schritt-für-Schritt-Anleitung](./create-pie-chart-in-word-with-java-step-by-step-guide/)
@@ -107,7 +109,7 @@ Erfahren Sie, wie Sie ein leeres Word-Dokument mithilfe einer Schaltfläche prog
 Erfahren Sie, wie Sie Inhaltssteuerelemente (SDT) in C# hinzufügen und Word-Platzhalter effektiv nutzen.
 ### [Trennzeichen in Word-Dokumenten mit Java abrufen](./how-to-get-separator-in-word-docs-with-java/)
 Erfahren Sie, wie Sie Trennzeichen in Word-Dokumenten mit Aspose.Words für Java extrahieren und verarbeiten.
-### [Wie man Führungs­linien zu einem Kreisdiagramm in Java mit der Chart‑API hinzufügt](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+### [Wie man Führungs­linien zu einem Kreisdiagramm in Java mit der Chart‑API hinzuzufügen](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Erfahren Sie, wie Sie mit der Chart‑API Führungs­linien zu Kreisdiagrammen in Java hinzufügen.
 ### [Einfügen einer Befehls‑Schaltfläche in ein Word‑Dokument mit Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java eine Befehls‑Schaltfläche in ein Word‑Dokument einfügen und konfigurieren.

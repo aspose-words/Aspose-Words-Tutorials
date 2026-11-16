@@ -53,6 +53,9 @@ Erfahren Sie, wie Sie Dokumentstile mit Aspose.Words für Java effizient verwalt
 ### [Wie Sie die Fußnotenformatierung in einem Word-Dokument mit Java ändern](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 Erfahren Sie, wie Sie die Formatierung von Fußnoten in Word-Dokumenten programmgesteuert mit Aspose.Words für Java anpassen.
 
+### [Zeilenabstand von Absätzen in einem Word-Dokument mit Java festlegen](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+Erfahren Sie, wie Sie den Zeilenabstand von Absätzen programmgesteuert mit Aspose.Words für Java einstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

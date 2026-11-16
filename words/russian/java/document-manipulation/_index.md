@@ -122,6 +122,8 @@ Aspose.Words для Java — это мощный и универсальный A
 
 ### [Добавление элемента управления содержимым в документ Word с Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
+### [Как вставить элемент управления содержимым и задать текст‑заполнитель в Word на Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Узнайте, как добавить элемент управления содержимым и установить текст‑заполнитель в документе Word с помощью Aspose.Words для Java.
 ### [Как программно создать документ Word с помощью Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words для Java.
 ### [Создание документа Word с простым текстовым элементом управления](./create-word-document-with-a-plain-text-content-control/)
@@ -137,12 +139,13 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Как создать пустой документ Word с помощью Aspose.Words для Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Создайте пустой документ Word с помощью Aspose.Words для Java. Пошаговое руководство по инициализации нового документа.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Редактировать документ Word программно и добавить кнопку команды](./edit-word-document-programmatically-and-add-a-command-button/)
+Узнайте, как программно редактировать документ Word и добавить кнопку команды с помощью Aspose.Words для Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

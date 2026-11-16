@@ -121,6 +121,8 @@ Aspose.Words for Java를 사용해 새 Word 문서를 생성하고 기본 콘텐
 Aspose.Words for Java를 사용하여 Word 문서에 콘텐츠 컨트롤을 추가하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 대화형 명령 버튼이 있는 빈 문서 만들기](./create-blank-document-with-an-interactive-command-button-in/)
 Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포함한 빈 문서를 생성하는 방법을 단계별로 안내합니다.
+### [프로그래밍으로 Word 문서를 편집하고 명령 버튼 추가](./edit-word-document-programmatically-and-add-a-command-button/)
+
 ### [Java용 Aspose.Words에서 텍스트 컨트롤을 사용하여 빈 Word 문서 만들기](./how-to-create-a-blank-word-document-with-a-text-control/)
 텍스트 컨트롤을 활용해 빈 Word 문서를 생성하고 기본 설정을 적용하는 방법을 단계별로 안내합니다.
 ### [새 Word 문서 만들기 – 구조화된 태그 추가 단계별 가이드](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
@@ -129,6 +131,7 @@ Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화�
 Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 빈 워드 문서 만들기](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aspose.Words for Java를 사용해 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Java에서 콘텐츠 컨트롤 삽입 및 자리 표시자 텍스트 설정 방법](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 ### [C#용 Aspose.Words에서 태그 이름 설정 및 SDT 추가](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [C#에서 일반 텍스트 콘텐츠 컨트롤이 있는 빈 Word 문서 만들기](./how-to-create-blank-word-document-with-a-plain-text-content/)
 

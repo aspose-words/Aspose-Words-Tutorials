@@ -57,13 +57,16 @@ Beginnen Sie Ihre Lernreise noch heute und erschließen Sie sich die endlosen M�
 
 ### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
 
- zur Dokumentbearbeitung
+zur Dokumentbearbeitung
+### [Wie man ein Inhaltssteuerelement einfügt und Platzhaltertext in Word in Java festlegt](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+
+Erfahren Sie, wie Sie ein Inhaltssteuerelement einfügen und Platzhaltertext in einem Word-Dokument mit Java setzen.
 ### [Wie man ein einfaches Textsteuerelement in ein Word-Dokument mit C# einfügt](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
 Erfahren Sie, wie Sie ein einfaches Textsteuerelement in ein Word-Dokument mit C# einfügen.
 ### [Wie man ein leeres Word-Dokument mit einem einfachen Textsteuerelement in C# erstellt](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
- zur Dokumentbearbeitung
+zur Dokumentbearbeitung
 ### [Erstellen eines leeren Word-Dokuments mit Aspose.Words für Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und initialisieren.
 ### [Verwenden von Bereinigungsoptionen in Aspose.Words für Java](./using-cleanup-options/)
@@ -71,68 +74,74 @@ Verbessern Sie die Übersichtlichkeit Ihrer Dokumente mit den Bereinigungsoption
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)
 Nutzen Sie die Dokumentenautomatisierung mit Aspose.Words für Java. Erfahren Sie, wie Sie Bilder in Java-Dokumenten zusammenführen, formatieren und einfügen. Umfassende Anleitung und Codebeispiele für effiziente Dokumentenverarbeitung.
 ### [Verwenden von XML-Daten in Aspose.Words für Java](./using-xml-data/)
-Nutzen Sie die Leistungsfähigkeit von Aspose.Words für Java. Lernen Sie XML-Datenverarbeitung, Seriendruck und Mustache-Syntax mit Schritt-für-Schritt-Tutorials.
+Nutzen Sie die Leistungsfähigkeit von Aspose.Words für Java. Lernen Sie XML-Datenverarbeitung, Seriendruck und Mustache-Syntax mit Schritt‑für‑Schritt‑Tutorials.
 ### [Extrahieren von Inhalten aus Dokumenten in Aspose.Words für Java](./extracting-content-from-documents/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Inhalte aus Dokumenten extrahieren. Unsere Schritt-für-Schritt-Anleitung und Codebeispiele vereinfachen den Vorgang.
+Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Inhalte aus Dokumenten extrahieren. Unsere Schritt‑für‑Schritt‑Anleitung und Codebeispiele vereinfachen den Vorgang.
 ### [Hilfsmethoden zum Extrahieren von Inhalten in Aspose.Words für Java](./helper-methods-for-extracting-content/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word-Dokumenten extrahieren. Entdecken Sie Hilfsmethoden, benutzerdefinierte Formatierungen und mehr in diesem umfassenden Handbuch.
+Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word‑Dokumenten extrahieren. Entdecken Sie Hilfsmethoden, benutzerdefinierte Formatierungen und mehr in diesem umfassenden Handbuch.
 ### [Suchen und Ersetzen von Text in Aspose.Words für Java](./finding-and-replacing-text/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Java-Dokumentbearbeitungsfähigkeiten.
+Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word‑Dokumenten suchen und ersetzen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. Verbessern Sie Ihre Java‑Dokumentbearbeitungsfähigkeiten.
 ### [Entfernen von Inhalten aus Dokumenten in Aspose.Words für Java](./removing-content-from-documents/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word-Dokumenten in Java entfernen. Entfernen Sie Seitenumbrüche, Abschnittsumbrüche und mehr. Optimieren Sie Ihre Dokumentverarbeitung.
+Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word‑Dokumenten in Java entfernen. Entfernen Sie Seitenumbrüche, Abschnittsumbrüche und mehr. Optimieren Sie Ihre Dokumentverarbeitung.
 ### [Erstellen einer docx ActiveX-Schaltfläche in Java – vollständiger Programmierleitfaden](./create-docx-activex-button-in-java-complete-programming-guid/)
-Erfahren Sie, wie Sie in Java eine docx-Datei mit einer ActiveX-Schaltfläche erstellen und programmieren.
+Erfahren Sie, wie Sie in Java eine docx‑Datei mit einer ActiveX‑Schaltfläche erstellen und programmieren.
 ### [Erstellen eines Word-Dokuments in Java mit Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
-Lernen Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument von Grund auf erstellen.
+Lernen Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument von Grund auf erstellen.
 ### [Verwenden von Lesezeichen in Aspose.Words für Java](./using-bookmarks/)
-Optimieren Sie Ihre Dokumentenverarbeitung mit Aspose.Words für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Lesezeichen für eine effiziente Inhaltsnavigation und -bearbeitung verwenden.
+Optimieren Sie Ihre Dokumentenverarbeitung mit Aspose.Words für Java. Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Lesezeichen für eine effiziente Inhaltsnavigation und -bearbeitung verwenden.
 ### [Verwenden von Dokumentbereichen in Aspose.Words für Java](./using-document-ranges/)
 Meistern Sie die Dokumentbereichsbearbeitung in Aspose.Words für Java. Lernen Sie mit dieser umfassenden Anleitung, Text zu löschen, zu extrahieren und zu formatieren.
 ### [Verwenden von Structured Document Tags (SDT) in Aspose.Words für Java](./using-structured-document-tags/)
-Erfahren Sie in diesem umfassenden Handbuch, wie Sie Structured Document Tags (SDT) in Aspose.Words für Java verwenden. Erstellen, ändern und binden Sie SDTs an benutzerdefinierte XML-Daten.
+Erfahren Sie in diesem umfassenden Handbuch, wie Sie Structured Document Tags (SDT) in Aspose.Words für Java verwenden. Erstellen, ändern und binden Sie SDTs an benutzerdefinierte XML‑Daten.
 ### [Neues Word-Dokument erstellen – Schritt‑für‑Schritt-Anleitung zum Hinzufügen eines strukturierten Tags](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java ein neues Word-Dokument erstellen und strukturierte Tags hinzufügen.
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein neues Word‑Dokument erstellen und strukturierte Tags hinzufügen.
 ### [Verwenden von Stilen und Designs in Aspose.Words für Java](./using-styles-and-themes/)
 Erfahren Sie, wie Sie die Dokumentformatierung mit Aspose.Words für Java verbessern. Entdecken Sie Stile, Designs und mehr in diesem umfassenden Handbuch mit Quellcodebeispielen.
 ### [Generieren eines Inhaltsverzeichnisses in Aspose.Words für Java](./generating-table-of-contents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Inhaltsverzeichnisse erstellen und anpassen. Erstellen Sie mühelos organisierte und professionelle Dokumente.
 ### [Schützen von Dokumenten in Aspose.Words für Java](./protecting-documents/)
-Erfahren Sie, wie Sie Ihre Java Word-Dokumente mit Aspose.Words für Java sichern. Schützen Sie Ihre Daten mit Passwörtern und mehr.
+Erfahren Sie, wie Sie Ihre Java Word‑Dokumente mit Aspose.Words für Java sichern. Schützen Sie Ihre Daten mit Passwörtern und mehr.
 ### [Aufteilen von Dokumenten in Seiten in Aspose.Words für Java](./splitting-documents-into-pages/)
-Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java in Seiten aufteilen. Schritt-für-Schritt-Anleitung mit Quellcode für effiziente Dokumentverarbeitung.
+Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java in Seiten aufteilen. Schritt‑für‑Schritt‑Anleitung mit Quellcode für effiziente Dokumentverarbeitung.
 ### [Aufteilen von Dokumenten in Aspose.Words für Java](./splitting-documents/)
 Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java effizient aufteilen. Entdecken Sie Techniken für Überschriften, Abschnitte und Seitenbereiche.
 ### [Aufteilen von Dokumenten in HTML-Seiten in Aspose.Words für Java](./splitting-documents-into-html-pages/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java Dokumente in HTML-Seiten aufteilen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Dokumentkonvertierung.
+Erfahren Sie, wie Sie mit Aspose.Words für Java Dokumente in HTML‑Seiten aufteilen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine nahtlose Dokumentkonvertierung.
 ### [Hinzufügen von Inhalten mit DocumentBuilder in Aspose.Words für Java](./adding-content-using-documentbuilder/)
-Meistern Sie die Dokumenterstellung mit Aspose.Words für Java. Eine Schritt-für-Schritt-Anleitung zum Hinzufügen von Text, Tabellen, Bildern und mehr. Erstellen Sie mühelos beeindruckende Word-Dokumente.
+Meistern Sie die Dokumenterstellung mit Aspose.Words für Java. Eine Schritt‑für‑Schritt‑Anleitung zum Hinzufügen von Text, Tabellen, Bildern und mehr. Erstellen Sie mühelos beeindruckende Word‑Dokumente.
 ### [Klonen und Kombinieren von Dokumenten in Aspose.Words für Java](./cloning-and-combining-documents/)
-Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
+Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt‑für‑Schritt‑Anleitung mit Quellcodebeispielen.
 ### [Leeres Dokument mit interaktivem Schaltflächenbefehl in Word mit Java erstellen](./create-blank-document-with-an-interactive-command-button-in/)
-Erstellen Sie ein leeres Word-Dokument mit einer interaktiven Schaltfläche per Java.
+
+Erstellen Sie ein leeres Word‑Dokument mit einer interaktiven Schaltfläche per Java.
+
+### [Word-Dokument programmgesteuert bearbeiten und einen Befehlsbutton hinzufügen](./edit-word-document-programmatically-and-add-a-command-button/)
+
+Erfahren Sie, wie Sie ein Word‑Dokument programmgesteuert bearbeiten und einen Befehlsbutton hinzufügen.
+
 ### [Vergleichen von Dokumenten in Aspose.Words für Java](./comparing-documents/)
-Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java vergleichen, einer leistungsstarken Java-Bibliothek für effiziente Dokumentanalyse. 
+Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java vergleichen, einer leistungsstarken Java‑Bibliothek für effiziente Dokumentanalyse. 
 ### [Formatieren von Dokumenten in Aspose.Words für Java](./formatting-documents/)
 Lernen Sie mit unserem umfassenden Leitfaden die Kunst der Dokumentformatierung in Aspose.Words für Java. Entdecken Sie leistungsstarke Funktionen und verbessern Sie Ihre Fähigkeiten zur Dokumentverarbeitung.
 ### [Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java](./joining-and-appending-documents/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente zusammenfügen und anhängen. Behalten Sie die Formatierung bei, verwalten Sie Kopf- und Fußzeilen und vieles mehr.
+Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente zusammenfügen und anhängen. Behalten Sie die Formatierung bei, verwalten Sie Kopf‑ und Fußzeilen und vieles mehr.
 ### [Verwenden von Dokumentoptionen und -einstellungen in Aspose.Words für Java](./using-document-options-and-settings/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie die Optionen und Einstellungen für nahtloses Dokumentenmanagement. Optimieren, anpassen und mehr.
 ### [Verwenden von Dokumenteigenschaften in Aspose.Words für Java](./using-document-properties/)
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
-Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+Optimieren Sie Dokumente mit Web‑Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
 ### [PDF-Zugänglichkeits-Tagging in Java – Barrierefreie PDFs generieren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs barrierefrei taggen und zugängliche Dokumente erstellen.
 ### [Erstellen eines leeren Word-Dokuments in Java mit Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
-Erstellen Sie ein leeres Word-Dokument in Java mithilfe von Aspose.Words. Schritt-für-Schritt-Anleitung mit Beispielcode.
+Erstellen Sie ein leeres Word‑Dokument in Java mithilfe von Aspose.Words. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
 ### [Hinzufügen von Inhaltssteuerelementen in Word-Dokumenten mit Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
-Erfahren Sie, wie Sie Inhaltssteuerelemente in Word-Dokumenten programmgesteuert hinzufügen und konfigurieren.
+Erfahren Sie, wie Sie Inhaltssteuerelemente in Word‑Dokumenten programmgesteuert hinzufügen und konfigurieren.
 ### [Erstellen eines leeren Word-Dokuments mit einem Textsteuerelement in Aspose.Words für Java](./how-to-create-a-blank-word-document-with-a-text-control/)
-Erfahren Sie, wie Sie ein leeres Word-Dokument mit einem Textsteuerelement programmgesteuert erstellen.
+Erfahren Sie, wie Sie ein leeres Word‑Dokument mit einem Textsteuerelement programmgesteuert erstellen.
 ### [Wie man ein Word-Dokument programmgesteuert mit Aspose.Words erstellt](./how-to-create-word-document-programmatically-with-aspose-wor/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen.
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument programmgesteuert erstellen.
 ### [Wie man docx mit DocumentBuilder speichert und Text nach einem Steuerelement hinzufügt](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach einem Inhaltssteuerelement ein.
 ### [Festlegen des Tag-Namens und Hinzufügen von SDT in einem Word-Dokument mit C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)

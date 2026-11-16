@@ -58,7 +58,7 @@ Aprenda a agrupar múltiples formas en documentos Word usando Aspose.Words para 
 ### [Cómo establecer sombra en una forma en C# – Añadir sombra a la forma fácilmente](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Aprenda a aplicar sombras a formas en C# usando Aspose.Words para mejorar la apariencia de sus documentos.
 
-### [Crear forma de rectángulo en documento Word Java – Guía completa paso a paso](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+### [Crear forma de rectángulo en documento Word Java – Guía completa paso a paso](./create-rectangle-shape-in-java-word-document-full-step-st/)
 Aprenda a crear y personalizar una forma rectangular en documentos Word usando Aspose.Words para Java, con instrucciones detalladas paso a paso.
 
 ### [Crear forma de cuadro de texto en Java – Guía completa para añadir sombras](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
@@ -131,7 +131,7 @@ Aprenda a crear un documento vacío y añadir formas usando Aspose.Words en C#.
 ### [Cómo insertar una imagen en docx y ocultar la imagen en Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Aprenda a insertar y ocultar imágenes en documentos Word usando Aspose.Words para Java.
 ### [Agregar sombra a una forma en Java – Guía completa de programación](./add-shadow-to-shape-in-java-complete-programming-guide/)
-Aprenda a agregar sombra a una forma en Java usando Aspose.Words con una guía paso a paso.
+Aprenda a agregar sombra a una forma en Java usando Aspose.Words para una guía paso a paso.
 ### [Crear documento Word en blanco con forma agrupada – Guía Java](./create-blank-word-document-with-grouped-shape-java-guide/)
 Aprenda a crear un documento Word vacío y añadir una forma agrupada usando Aspose.Words para Java.
 
@@ -166,6 +166,10 @@ Aprenda a crear un documento Word mediante código y añadir una forma usando As
 Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words para Java.
 
 ### [Cómo crear un doughnut chart y insertar un pie chart](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+
+### [Crear forma rectangular en un documento Word usando Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+### [Cómo usar Aspose para insertar una imagen y ocultarla en un documento Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ## Recursos adicionales
 
@@ -206,6 +210,5 @@ Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

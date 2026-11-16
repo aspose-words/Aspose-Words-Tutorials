@@ -98,6 +98,8 @@ Leer hoe je documenten opsplitst in HTML-pagina's met Aspose.Words voor Java. Vo
 Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor het toevoegen van tekst, tabellen, afbeeldingen en meer. Maak moeiteloos verbluffende Word-documenten.
 ### [Docx ActiveX-knop maken in Java – volledige programmeergids](./create-docx-activex-button-in-java-complete-programming-guid/)
 Leer hoe u een ActiveX-knop in een DOCX-document toevoegt met Java, stap‑voor‑stapt codevoorbeelden en volledige uitleg.
+### [Word-document programmatically bewerken en een opdrachtknop toevoegen](./edit-word-document-programmatically-and-add-a-command-button/)
+Leer hoe u een Word-document programmatically bewerkt en een opdrachtknop toevoegt met Aspose.Words voor Java.
 ### [Een leeg Word-document maken en een ActiveX-knop toevoegen in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Leer hoe u een leeg Word-document maakt en een ActiveX‑knop toevoegt in C#.
 ### [Leeg Word-document maken met een tekstbesturingselement in Aspose.Words voor Java](./how-to-create-a-blank-word-document-with-a-text-control/)
@@ -136,6 +138,8 @@ Leer hoe u een platte‑tekst contentcontrol toevoegt aan een Word‑document me
 Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
 ### [Leeg Word-document maken met Aspose.Words voor Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Leer hoe u een leeg Word-document kunt maken met Aspose.Words voor Java, inclusief basisinstellingen en codevoorbeelden.
+### [Hoe een contentcontrol invoegen en placeholder-tekst instellen in Word met Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+Leer hoe u een inhoudsbesturingselement toevoegt en een placeholder-tekst instelt in een Word-document met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

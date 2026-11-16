@@ -51,7 +51,8 @@ Java के लिए Aspose.Words का उपयोग करके Word द�
 अप्रयुक्त और डुप्लिकेट शैलियों को हटाकर, प्रदर्शन और रखरखाव को बढ़ाकर, Aspose.Words for Java के साथ दस्तावेज़ शैलियों को कुशलतापूर्वक प्रबंधित करना सीखें।
 
 ### [Java का उपयोग करके Word दस्तावेज़ में फुटनोट फ़ॉर्मेटिंग कैसे बदलें](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
-Java में Aspose.Words का उपयोग करके फुटनोट के स्वरूप को बदलने की प्रक्रिया सीखें।
+
+### [Java के साथ Word दस्तावेज़ में पैराग्राफ लाइन स्पेसिंग सेट करें](./set-paragraph-line-spacing-in-a-word-document-with-java/)
 
 ## अतिरिक्त संसाधन
 

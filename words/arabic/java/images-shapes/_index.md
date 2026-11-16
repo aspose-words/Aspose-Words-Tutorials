@@ -136,6 +136,12 @@
 ### [إنشاء مستند Word في Java – إدراج وإخفاء الصور باستخدام Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
 تعلم كيفية إدراج الصور في مستند Word وإخفائها باستخدام Aspose.Words for Java
 
+### [كيفية إدراج صورة في Word – دليل Aspose.Words خطوة بخطوة](./insert-image-into-word-aspose-words-step-by-step-guide/)
+دليل خطوة بخطوة لإدراج صورة في مستند Word باستخدام Aspose.Words.
+
+### [كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+دليل خطوة بخطوة لإدراج صورة وإخفائها في مستند Word باستخدام Aspose.
+
 ### [إدراج مخطط دائري في Java – تفجير، تدوير وتحديد الشرائح](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
 تعلم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words for Java مع تفجير وتدوير وتظليل الشرائح.
 
@@ -158,6 +164,9 @@
 
 ### [إنشاء مستند Word برمجيًا وإضافة شكل في Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 تعلم كيفية إنشاء مستند Word برمجيًا وإضافة شكل باستخدام Aspose.Words لجافا
+
+### [إنشاء شكل مستطيل في مستند Word باستخدام Java](./create-rectangle-shape-in-a-word-document-using-java/)
+دليل خطوة بخطوة لإنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

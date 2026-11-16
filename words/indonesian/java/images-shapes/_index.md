@@ -95,6 +95,8 @@ Panduan lengkap untuk mengelompokkan bentuk dalam dokumen Word menggunakan Aspos
 
 ### [Sembunyikan gambar di Word – panduan langkah‑demi‑langkah Java dengan Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Panduan lengkap untuk menyembunyikan gambar dalam dokumen Word menggunakan Aspose.Words untuk Java.
+### [Cara menggunakan Aspose untuk menyisipkan gambar dan menyembunyikannya dalam dokumen Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
 ### [Cara Mengelompokkan Bentuk dalam Dokumen Word menggunakan Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
 Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word dengan Aspose.Words untuk Java.
 
@@ -142,6 +144,9 @@ Panduan langkah demi langkah membuat diagram donat dan menambahkan diagram pai k
 ### [Buat Dokumen Word Kosong dengan Bentuk Berkelompok di Java](./create-blank-word-document-with-grouped-shapes-in-java/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk yang dikelompokkan menggunakan Aspose.Words untuk Java.
 
+### [Buat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Java](./create-rectangle-shape-in-a-word-document-using-java/)
+Pelajari cara membuat bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -177,11 +182,9 @@ Pelajari cara menyisipkan gambar tersembunyi ke dalam dokumen Word menggunakan A
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
 

@@ -166,6 +166,9 @@
 ### [Создать документ Word программно и добавить фигуру в Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 Узнайте, как программно создать документ Word и добавить в него фигуру с помощью Aspose.Words для Java.
 
+### [Создание прямоугольной фигуры в документе Word с помощью Java](./create-rectangle-shape-in-a-word-document-using-java/)
+Узнайте, как программно добавить прямоугольную фигуру в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -209,3 +212,7 @@
 
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Как использовать Aspose для вставки изображения и скрытия его в документе Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+Узнайте, как вставить изображение в документ Word и скрыть его с помощью Aspose.Words для Java.

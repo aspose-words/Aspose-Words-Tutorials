@@ -84,6 +84,11 @@ Belge ayarları, tam gereksinimlerinize uygun çıktılar sunmanın anahtarıdı
 ### [How to read markdown file java with Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 
 
+### [Java’da özel içe aktarma seçenekleriyle markdown belgesi yükleme](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
+Java’da özel içe aktarma seçenekleriyle markdown belgelerini nasıl yükleyeceğinizi adım adım öğrenin.
+
+
 ### [Aspose.Words for Java ile HTML Belgelerini Yükleme ve Kaydetme](./loading-and-saving-html-documents/)
 Java’da Aspose.Words for Java kullanarak HTML belgelerini nasıl yükleyip kaydedeceğinizi öğrenin. Sorunsuz belge entegrasyonu için adım adım kılavuz ve kod örnekleri.
 
@@ -97,7 +102,7 @@ Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belg
 Aspose.Words for Java ile bir belgeyi yüklerken doğru karakter kodlamasını belirleyerek metin doğruluğunu sağlayın.
 
 ### [Aspose.Words for Java’nun Metin Dosalarını Yükleme](./loading-text-files/)
-Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
+Aspose.Words for Java’un gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
 Aspose.Words for Java ile gelişmiş belge manipülasyonunu öğrenin. Şifreleme, metafile yönetimi ve daha fazlası. Word belgeleriniz, sizin istediğiniz gibi.
@@ -134,8 +139,8 @@ Java’da Aspose.Words kullanarak sıfırdan bir Word belgesi oluşturmayı ve k
 ### [Aspose.Words for Java’da Belgeleri RTF Formatında Kaydetme](./saving-documents-as-rtf-format/)
 Aspose.Words for Java ile belgeleri RTF formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için kaynak kodlu adım adım rehber.
 
-### [Aspose.Words for Java’da Belgeleri Metin Dosyaları Olarak Kaydetme](./saving-documents-as-text-files/)
-Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğinizi öğrenin. Java kod örnekleriyle adım adım rehberimizi izleyin.
+### [Aspose.Words for Java’da Belgeleri Metin Dosaları Olarak Kaydetme](./saving-documents-as-text-files/)
+Aspose.Words for Java ile belgeleri metin dosaları olarak nasıl kaydedeceğinizi öğrenin. Java kod örnekleriyle adım adım rehberimizi izleyin.
 
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
 Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin. 

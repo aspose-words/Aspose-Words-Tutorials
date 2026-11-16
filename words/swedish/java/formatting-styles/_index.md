@@ -52,6 +52,8 @@ Lär dig hur du effektivt hanterar dokumentformat med Aspose.Words för Java gen
 
 ### [Hur du ändrar fotnotformat i ett Word-dokument med Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
 
+### [Ställ in radavstånd för stycke i ett Word-dokument med Java](./set-paragraph-line-spacing-in-a-word-document-with-java/)
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

@@ -75,6 +75,9 @@ weight: 22
 Μάθετε πώς να δημιουργείτε προσαρμοσμένα barcode ...
 
 ### [Χρήση Γραφημάτων στο Aspose.Words for Java](./using-charts/)
+### [Πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να αποθηκεύσετε το docx ως PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word και να το εξάγετε σε PDF με Aspose.Words for Java.
+
 ### [Χρήση Αντικειμένων Office Math στο Aspose.Words for Java](./using-office-math-objects/)
 Αποκτήστε τη δύναμη ...
 
@@ -111,30 +114,6 @@ weight: 22
 
 ### [Πώς να μετατρέψετε docx σε markdown σε Java με υποστήριξη πινάκων](./how-to-convert-docx-to-markdown-in-java-with-table-support/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με πλήρη υποστήριξη πινάκων χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
-
-### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
-Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.
 
 ### [Πώς να αποθηκεύσετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-save-markdown-from-word-step-by-step-java-guide/)
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java.

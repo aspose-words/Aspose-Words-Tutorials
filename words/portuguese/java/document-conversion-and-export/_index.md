@@ -81,6 +81,9 @@ Aprenda a gerar códigos de barras personalizados em Java usando Aspose.Words pa
 ### [Usando Gráficos no Aspose.Words para Java](./using-charts/)
 Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipos de gráficos, formatação e propriedades de eixos para visualização de dados.
 
+### [Como criar um gráfico de pizza no Word e salvar docx como PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Aprenda a gerar um gráfico de pizza no Word e exportá‑lo como PDF usando Aspose.Words for Java.
+
 ### [Usando Objetos Office Math no Aspose.Words para Java](./using-office-math-objects/)
 Desbloqueie o poder de equações matemáticas em documentos com Aspose.Words para Java. Aprenda a manipular e exibir objetos Office Math sem esforço.
 
@@ -347,8 +350,11 @@ Aprenda a criar documentos PDF/UA compatíveis em Java usando Aspose.Words, com 
 ### [Salvar Word como Markdown – guia completo usando Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Aprenda a converter documentos Word para Markdown de forma completa usando Aspose.Words para Java.
 
-### [Como criar um gráfico de pizza no Word e salvar como PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
-Crie um gráfico de pizza no Word e exporte‑o como PNG usando Aspose.Words for Java.
+### [Como criar um gráfico de pizza no Word e salvar docx como PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Aprenda a gerar um gráfico de pizza no Word e exportá‑lo como PDF usando Aspose.Words for Java.
+
+### [Como criar um gráfico de pizza no Word e salvar docx como PDF](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
+Aprenda a gerar um gráfico de pizza no Word e exportá‑lo como PDF usando Aspose.Words for Java.
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo Passo a Passo](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.

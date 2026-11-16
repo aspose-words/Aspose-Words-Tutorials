@@ -108,9 +108,15 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 ### [使用 Aspose.Words for Java 中的 DocumentBuilder 新增內容](./adding-content-using-documentbuilder/)
 使用 Aspose.Words for Java 掌握文件建立。新增文字、表格、圖像等內容的逐步指南。輕鬆建立令人驚嘆的 Word 文件。
 ### [在 Aspose.Words for Java 中使用內容控制](./add-content-control-in-word-document-with-aspose-words/)
-使用 Aspose.Words for Java 在 Word 文件中新增內容控制，實現結構化資料輸入與管理。
+使用 Aspose.Words for Java 優化您的文件處理。透過本逐步指南學習如何使用書籤進行有效的內容導航和操作。
+
+### [在 Aspose.Words for Java 中插入內容控制並設定佔位文字](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+示範如何在 Java 中使用 Aspose.Words 插入內容控制並設定佔位文字，以便在文件中顯示預設提示。
+
 ### [使用 DocumentBuilder 儲存 docx 並在控制項之後新增文字](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 示範如何使用 DocumentBuilder 儲存 docx 檔案，並在內容控制項之後插入文字。
+### [以程式方式編輯 Word 文件並新增指令按鈕](./edit-word-document-programmatically-and-add-a-command-button/)
+
 ### [在 Aspose.Words for Java 中複製和合併文檔](./cloning-and-combining-documents/)
 了解如何在 Aspose.Words for Java 中複製和合併文件。帶有原始程式碼範例的分步指南。
 
@@ -150,7 +156,6 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 ### [在 Aspose.Words for Java 中使用 C# 設定標籤名稱並新增 SDT](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 使用 C# 在 Word 文件中設定標籤名稱並新增結構化文件標籤 (SDT)。 
 ### [在 C# 中使用純文字內容控制建立空白 Word 文件](./how-to-create-blank-word-document-with-a-plain-text-content/)
-示範如何在 C# 中使用純文字內容控制建立空白的 Word 文件。
 
 ### [在 C# 中於 Word 文件插入純文字內容控制](./how-to-insert-plain-text-content-control-in-a-word-document/)
 

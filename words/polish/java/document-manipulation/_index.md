@@ -104,7 +104,7 @@ Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for 
 Dowiedz się, jak dzielić dokumenty na strony za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do wydajnego przetwarzania dokumentów.
 
 ### [Dzielenie dokumentów w Aspose.Words dla Java](./splitting-documents/)
-Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words dla Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
+Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words for Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
 ### [Dzielenie dokumentów na strony HTML w Aspose.Words dla Java](./splitting-documents-into-html-pages/)
 Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
 
@@ -112,6 +112,8 @@ Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for 
 Tworzenie dokumentów głównych z Aspose.Words dla Java. Przewodnik krok po kroku po dodawaniu tekstu, tabel, obrazów i innych. Twórz oszałamiające dokumenty Word bez wysiłku.
 ### [Jak zapisać docx przy użyciu DocumentBuilder i dodać tekst po kontrolce](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 Dowiedz się, jak zapisać dokument DOCX przy użyciu DocumentBuilder i wstawić tekst po kontrolce w Aspose.Words dla Java.
+### [Jak wstawić kontrolkę zawartości i ustawić tekst zastępczy w dokumencie Word w Javie](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+
 ### [Klonowanie i łączenie dokumentów w Aspose.Words dla Java](./cloning-and-combining-documents/)
 Dowiedz się, jak klonować i łączyć dokumenty w Aspose.Words dla Java. Przewodnik krok po kroku z przykładami kodu źródłowego.
 
@@ -135,7 +137,10 @@ Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words for Java. Naucz si
 Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
 ### [Utworzenie przycisku ActiveX w pliku docx w Javie – kompletny przewodnik programistyczny](./create-docx-activex-button-in-java-complete-programming-guid/)
 Krok po kroku pokażemy, jak dodać przycisk ActiveX do dokumentu DOCX w Javie, wraz z pełnym kodem i wyjaśnieniami.
-### [Utwórz pusty dokument Word i dodaj przycisk ActiveX w C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
+### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
+Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
+### [Edytuj dokument Word programowo i dodaj przycisk polecenia](./edit-word-document-programmatically-and-add-a-command-button/)
+
 ### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
 ### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)

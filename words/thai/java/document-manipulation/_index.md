@@ -121,6 +121,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้ขั้นตอนการสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ Java อย่างง่ายดาย
 ### [การเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 เรียนรู้วิธีเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java เพื่อจัดการข้อมูลอย่างยืดหยุ่น
+### [วิธีแทรกคอนเทนต์คอนโทรลและตั้งข้อความตัวอย่างใน Word ด้วย Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
+เรียนรู้วิธีแทรก Content Control และกำหนดข้อความตัวอย่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 ### [สร้างเอกสารเปล่าพร้อมปุ่มคำสั่งโต้ตอบใน Word ด้วย Java](./create-blank-document-with-an-interactive-command-button-in/)
 ### [วิธีสร้างเอกสาร Word ว่างพร้อมตัวควบคุมข้อความใน Aspose.Wordsสำหรับ Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Wordsสำหรับ Java
@@ -134,6 +136,7 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 สร้างเอกสาร Word ว่างพร้อมคอนเทนต์คอนโทรลข้อความธรรมดาโดยใช้ C#
 ### [วิธีแทรก Content Control ข้อความธรรมดาในเอกสาร Word ด้วย C#](./how-to-insert-plain-text-content-control-in-a-word-document/)
 เรียนรู้วิธีแทรก Content Control ข้อความธรรมดาในไฟล์ Word ด้วย C# โดยใช้ Aspose.Words
+### [แก้ไขเอกสาร Word ด้วยโปรแกรมและเพิ่มปุ่มคำสั่ง](./edit-word-document-programmatically-and-add-a-command-button/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

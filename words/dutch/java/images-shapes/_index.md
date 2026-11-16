@@ -80,7 +80,7 @@ Leer stap voor stap hoe u een rechthoekige vorm toevoegt aan een Word-document m
 Leer hoe u een groepsvorm toevoegt en bewerkt in Word-documenten met Aspose.Words voor Java.
 
 ### [Leeg Word-document maken met gegroepeerde rechthoeken – C#-handleiding](./create-blank-word-document-with-grouped-rectangles-c-guide/)
-Leer hoe u een leeg Word-document maakt en meerdere rechthoeken groepeert met Aspose.Words voor C#.
+Leer hoe u een leeg Word-document maakt en meerdere rechthoeken groept met Aspose.Words voor C#.
 
 ### [Rechthoekvorm invoegen in Java – Groeperen en positioneren van vormen](./insert-rectangle-shape-in-java-group-and-position-shapes/)
 Leer hoe u een rechthoekige vorm groepeert en positioneert in een Word-document met Aspose.Words voor Java.
@@ -154,6 +154,10 @@ Leer hoe u een leeg Word-document maakt en een rechthoekvorm toevoegt met Aspose
 Leer hoe u een leeg Word-document maakt en meerdere vormen groept met Aspose.Words voor Java.
 
 ### [Word-document programmatisch maken en een vorm toevoegen in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+
+### [Rechthoekvorm maken in een Word-document met Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+### [Hoe Aspose te gebruiken om een afbeelding in te voegen en te verbergen in een Word-document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ## Aanvullende bronnen
 

@@ -186,6 +186,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java でエンコーディングを指定してドキュメントを読み込む方法](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
+### [Java でカスタムインポートオプションを使用して Markdown ドキュメントをロードする方法](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

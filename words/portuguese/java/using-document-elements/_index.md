@@ -97,7 +97,7 @@ Aprenda a definir o tamanho de botões em documentos Word usando Java e Aspose.W
 ### [Criar Gráfico de Pizza com Aspose.Words Java – Guia Completo Passo a Passo](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Aprenda a criar gráficos de pizza no Word usando Aspose.Words para Java com este guia passo a passo completo.
 ### [Criar gráfico de pizza no Word com Java – guia passo a passo](./create-pie-chart-in-word-with-java-step-by-step-guide/)
-Aprenda a criar um gráfico de pizza no Word usando Aspose.Words para Java com este tutorial passo a passo.
+Aprenda a criar um gráfico de pizza no Word usando Aspose.Words para Java neste tutorial passo a passo.
 ### [Como adicionar SDT em C# – guia completo para placeholders do Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Aprenda a inserir SDT (conteúdo de controle) em C# para criar placeholders no Word de forma completa.
 ### [Como obter separador em documentos Word com Java](./how-to-get-separator-in-word-docs-with-java/)
@@ -137,12 +137,13 @@ Aprenda a criar gráficos em documentos Word usando Java e Aspose.Words com este
 ### [Inserindo gráfico de pizza no Word com Java – guia completo](./insert-pie-chart-word-in-java-complete-guide/)
 Aprenda a inserir um gráfico de pizza em documentos Word usando Java e Aspose.Words com este guia passo a passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Como adicionar um gráfico de pizza a um documento Word usando Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+Aprenda a inserir um gráfico de pizza em documentos Word usando Aspose.Words para Java, passo a passo.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

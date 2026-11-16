@@ -121,7 +121,7 @@ Dowiedz się, jak grupować kształty i dodawać prostokąt w dokumencie Word pr
 Dowiedz się, jak ukryć kształt w dokumencie Word przy użyciu C# i Aspose.Words.
 
 ### [Jak utworzyć pusty dokument Word i grupować kształty w Javie](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Dowiedz się, jak utworzyć pusty dokument Word i grupować kształty przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak w Javie utworzyć pusty dokument Word oraz grupować kształty w jednym pliku.
 
 ### [Utwórz nowy dokument Word z ukrytym obrazem – przewodnik krok po kroku](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Dowiedz się, jak utworzyć dokument Word zawierający ukryty obraz, korzystając z Aspose.Words dla Java.
@@ -143,7 +143,7 @@ Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając
 Instrukcja dodawania elipsy i prostokąta do grupy kształtów w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ### [Wstaw wykres kołowy w Javie – rozdziel, obróć i podświetl fragmenty](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
-Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak wstawiać wykres kołowy, rozdzielać, obracać i podświetlać wycinki w dokumentach Word przy użyciem Aspose.Words dla Java.
 
 ### [Utwórz pusty dokument Word z grupowanymi kształtami w Javie](./create-blank-word-document-with-grouped-shapes-in-java/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words.
@@ -163,6 +163,11 @@ Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego prostokątny k
 ### [Utwórz dokument Word programowo i dodaj kształt w Javie](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 Dowiedz się, jak programowo utworzyć dokument Word i dodać do niego kształt przy użyciu Aspose.Words dla Java.
 
+### [Utwórz prostokątny kształt w dokumencie Word przy użyciu Java](./create-rectangle-shape-in-a-word-document-using-java/)
+
+### [Jak używać Aspose do wstawiania obrazu i ukrywania go w dokumencie Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+
 ## Dodatkowe zasoby
 
 ### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
@@ -181,7 +186,7 @@ Dowiedz się, jak programowo tworzyć dokumenty Word i grupować kształty przy 
 Dowiedz się, jak utworzyć pusty dokument Word i dodać ukryty kształt elipsy przy użyciu Aspose.Words w C#.
 
 ### [Jak utworzyć wykres pierścieniowy w dokumencie Word w Javie](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
-Dowiedz się, jak generować wykresy pierścieniowe w dokumentach Word przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak generować wykresy pierścieniowe w dokumentach Word przy użyciem Aspose.Words dla Java.
 ### [Jak utworzyć pusty dokument Word i grupować kształty w Javie](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word oraz grupować kształty w jednym pliku.
 
