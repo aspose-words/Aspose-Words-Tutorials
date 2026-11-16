@@ -1,0 +1,7 @@
+Title: How to translate text with Google Translate API in C# – step‑by‑step guide
+Slug: how-to-translate-text-with-google-translate-api-in-c-step-by
+Category: ai-powered-document-processing
+ProcessedDate: 2026-11-16T02:32:11.720334
+SourceRepo: AI Search API
+Keywords: how to translate text, translate text with google, google translate example, google translate tutorial, translate multiple languages
+PRNumber: 348
