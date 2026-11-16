@@ -1,0 +1,7 @@
+Title: How to recover corrupted docx files using Python
+Slug: how-to-recover-corrupted-docx-files-using-python
+Category: document-options-and-settings
+ProcessedDate: 2026-11-16T05:05:00.670580
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, enable recovery mode, open corrupted word file, check page count, verify document pages
+PRNumber: 350
