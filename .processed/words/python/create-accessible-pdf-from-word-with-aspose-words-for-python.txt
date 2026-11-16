@@ -1,0 +1,7 @@
+Title: Create accessible PDF from Word with Aspose.Words for Python
+Slug: create-accessible-pdf-from-word-with-aspose-words-for-python
+Category: document-conversion
+ProcessedDate: 2026-11-16T05:05:10.449433
+SourceRepo: AI Search API
+Keywords: create accessible pdf, make pdf accessible, how to create pdf/ua, add accessibility pdf
+PRNumber: 350
