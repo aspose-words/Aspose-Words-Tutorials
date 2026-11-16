@@ -1,75 +1,149 @@
 ---
-date: 2025-11-27
-description: Erfahren Sie, wie Sie die Änderungsverfolgung implementieren und Word‑Dokumente
-  mit Aspose.Words für Java vergleichen. Beherrschen Sie Versionskontrolle und Revisionsverfolgung.
-title: Implementieren Sie die Änderungsverfolgung in Aspose.Words für Java
+date: 2026-11-15
+description: Erfahren Sie, wie Sie zwei Word-Dateien vergleichen und die change tracking
+  mit Aspose.Words for Java aktivieren. Erhalten Sie eine step‑by‑step Anleitung für
+  version control und revision handling.
+keywords:
+- compare two word files
+- aspose words change tracking
+- document comparison java
+lastmod: 2026-11-15
+og_description: Erfahren Sie, wie Sie zwei Word-Dateien vergleichen und die change
+  tracking mit Aspose.Words for Java aktivieren. Dieser Leitfaden behandelt version
+  control, revision handling und best practices.
+og_image_alt: 'Developer guide: compare two word files with Aspose.Words for Java'
+og_title: Wie man zwei Word-Dateien mit Aspose.Words for Java vergleicht
+schemas:
+- author: Aspose
+  dateModified: '2026-11-15'
+  description: Learn how to compare two word files and enable change tracking with
+    Aspose.Words for Java. Get step‑by‑step guidance for version control and revision
+    handling.
+  headline: How to compare two word files using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to compare two word files and enable change tracking with
+    Aspose.Words for Java. Get step‑by‑step guidance for version control and revision
+    handling.
+  name: How to compare two word files using Aspose.Words for Java
+  steps:
+  - name: '**Load documents** – use `new Document("Original.docx")` and `new Document("Revised.docx")`.'
+    text: '**Load documents** – use `new Document("Original.docx")` and `new Document("Revised.docx")`.'
+  - name: '**Start tracking** – call `original.startTrackChanges()` before making
+      any edits.'
+    text: '**Start tracking** – call `original.startTrackChanges()` before making
+      any edits.'
+  - name: '**Compare** – `original.compare(revised, "Reviewer", new Date())` produces
+      a document that highlights all differences.'
+    text: '**Compare** – `original.compare(revised, "Reviewer", new Date())` produces
+      a document that highlights all differences.'
+  - name: '**Process revisions** – loop through `original.getRevisions()`; call `accept()`
+      or `reject()` on each item based on your business rules.'
+    text: '**Process revisions** – loop through `original.getRevisions()`; call `accept()`
+      or `reject()` on each item based on your business rules.'
+  - name: '**Save** – `original.save("Result.docx")` or export to PDF, HTML, etc.'
+    text: '**Save** – `original.save("Result.docx")` or export to PDF, HTML, etc.'
+  type: HowTo
+- questions:
+  - answer: Call `document.acceptAllRevisions()` after performing the comparison or
+      after loading a document that already contains revisions.
+    question: How do I programmatically accept all tracked changes?
+  - answer: Yes—first convert the PDF to a Word format using Aspose.PDF or another
+      conversion tool, then invoke `compare()` on the two Word documents.
+    question: Can I compare documents in different formats, such as DOCX versus PDF?
+  - answer: Use `CompareOptions` and set `ignoreFormatting` to `true` when calling
+      `compare()` to focus only on textual differences.
+    question: Is it possible to ignore formatting changes during comparison?
+  - answer: The cloud SDK offers similar revision features, but this tutorial focuses
+      on the on‑premise Java library.
+    question: Does Aspose.Words provide cloud‑based change‑tracking APIs?
+  - answer: The current stable release (24.11) fully supports Java 8‑21 and introduces
+      performance optimizations for large‑scale document comparison.
+    question: Which Aspose.Words version includes the latest change‑tracking improvements?
+  type: FAQPage
+tags:
+- compare word files
+- aspose.words
+- java document processing
+title: Wie man zwei Word-Dateien mit Aspose.Words for Java vergleicht
 url: /de/java/document-comparison-tracking/
 weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change Tracking mit Aspose.Words für Java implementieren
+# Wie man zwei Word-Dateien mit Aspose.Words für Java vergleicht
 
-In modernen Java‑Anwendungen ist **Change Tracking implementieren** unerlässlich, um eine klare Versionskontrolle von Word‑Dokumenten zu gewährleisten. Egal, ob Sie ein Dokument‑Management‑System, ein kollaboratives Bearbeitungstool oder eine automatisierte Reporting‑Pipeline erstellen, Aspose.Words für Java gibt Ihnen die Möglichkeit, Dokumente zu vergleichen, zusammenzuführen und Revisionen mit nur wenigen Code‑Zeilen zu verfolgen. Dieses Tutorial führt Sie durch die Kernkonzepte, praktische Anwendungsfälle und bewährte Methoden, um Aspose.Words effizient für **Change Tracking implementieren** und Dokumentvergleiche zu nutzen.
+In modernen Java‑Anwendungen **zwei Word-Dateien vergleichen** und dabei ein vollständiges Audit‑Protokoll jeder Bearbeitung führen. Egal, ob Sie ein Dokumenten‑Management‑System, eine kollaborative Bearbeitungsplattform oder eine automatisierte Reporting‑Pipeline bauen, Aspose.Words für Java bietet Ihnen eine zuverlässige serverseitige Möglichkeit zum Vergleichen, Zusammenführen und Verfolgen von Revisionen ohne Microsoft Word. Dieser Leitfaden führt Sie durch die Kernkonzepte, praxisnahe Anwendungsfälle und bewährte Muster für die effiziente Implementierung von Änderungsverfolgung und Dokumentvergleich.
 
 ## Schnelle Antworten
-- **Was ist Change Tracking?** Eine Funktion, die Einfügungen, Löschungen und Formatierungsänderungen als Revisionen in einem Word‑Dokument aufzeichnet.  
-- **Warum Aspose.Words für Java verwenden?** Es bietet eine robuste API zum Vergleichen, Zusammenführen und Verfolgen von Revisionen, ohne dass Microsoft Office erforderlich ist.  
-- **Benötige ich eine Lizenz?** Eine temporäre Lizenz reicht für Tests; für den Produktionseinsatz ist eine Voll‑Lizenz erforderlich.  
-- **Welche Java‑Versionen werden unterstützt?** Java 8 und neuer (einschließlich Java 11, 17 und 21).  
-- **Kann ich Revisionen in geschützten Dokumenten verfolgen?** Ja – verwenden Sie `LoadOptions`, um beim Öffnen des Dokuments Passwörter anzugeben.
+- **Was ist Änderungsverfolgung?** Sie zeichnet Einfügungen, Löschungen und Formatierungsänderungen als Revisionsobjekte in einem Word‑Dokument auf.  
+- **Warum Aspose.Words für Java wählen?** Die Bibliothek unterstützt mehr als 35 Eingabe‑ und Ausgabeformate und läuft auf jedem Betriebssystem, das Java 8 bis 21 unterstützt.  
+- **Benötige ich eine Lizenz?** Eine temporäre Lizenz reicht für Tests aus; für den Produktionseinsatz ist eine Voll‑Lizenz erforderlich.  
+- **Kann ich geschützte Dateien vergleichen?** Ja – verwenden Sie `LoadOptions` mit dem entsprechenden Passwort beim Öffnen der Dokumente.  
+- **Ist der Speicherverbrauch bei großen Dateien ein Problem?** Aktivieren Sie `LoadOptions.setMemoryOptimization(true)`, um mehrseitige Dateien zu verarbeiten, ohne die gesamte Datei in den RAM zu laden.
 
-## Was bedeutet die Implementierung von Change Tracking?
-Die Implementierung von Change Tracking bedeutet, das Dokument so zu aktivieren, dass jede Bearbeitung als Revision erfasst wird, sodass Sie Änderungen später überprüfen, akzeptieren oder ablehnen können. Mit Aspose.Words können Sie diese Funktion programmgesteuert ein- oder ausschalten, zwei Dokumentversionen vergleichen und sogar mehrere Revisionen zu einem einzigen, bereinigten Dokument zusammenführen.
+## Was ist die Implementierung von Änderungsverfolgung?
+Änderungsverfolgung ist eine Word‑Funktion, die jede Bearbeitung als **Revision**‑Objekt erfasst, sodass Sie Änderungen später überprüfen, akzeptieren oder ablehnen können. Aspose.Words stellt diese Möglichkeit über seine API bereit, sodass Sie die Verfolgung programmgesteuert ein- oder ausschalten, zwei Versionen eines Dokuments vergleichen und mehrere Revisionsströme zu einer sauberen Enddatei zusammenführen können.
 
-## Warum Aspose.Words für Change Tracking und Vergleich verwenden?
-- **Genaues Versionskontroll‑Word‑Dokument** – Behalten Sie einen vollständigen Prüfpfad jeder Änderung.  
-- **Automatischer Vergleich & Zusammenführung** – Identifizieren Sie schnell Unterschiede zwischen zwei Word‑Dateien und führen Sie sie ohne manuellen Aufwand zusammen.  
-- **Plattformübergreifende Kompatibilität** – Funktioniert auf jedem OS, das Java unterstützt, und eliminiert die Notwendigkeit von Microsoft Word.  
-- **Feinkörnige Steuerung** – Wählen Sie, welche Elemente (Text, Formatierung, Kommentare) Sie vergleichen oder ignorieren möchten.  
+## Warum Aspose.Words für Änderungsverfolgung und Vergleich verwenden?
+Sie erhalten **präzise Versionskontrolle** für Word‑Dokumente ohne Office‑Installation, **automatisches Vergleichen‑und‑Zusammenführen**, das Text‑, Formatierungs‑ und Kommentarunterschiede hervorhebt, sowie **feinkörnige Kontrolle** darüber, welche Elemente in den Vergleich einbezogen werden. Die Bibliothek verarbeitet Dokumente bis zu 500 MB in wenigen Sekunden auf üblicher Server‑Hardware, was sie für hochdurchsatz‑Enterprise‑Szenarien geeignet macht.
 
 ## Voraussetzungen
-- Java Development Kit (JDK) 8 oder neuer.  
+- Java Development Kit (JDK) 8 oder neuer (Java 11, 17 oder 21 werden vollständig unterstützt).  
 - Aspose.Words für Java‑Bibliothek (Download von der offiziellen Website).  
-- Eine temporäre oder vollständige Aspose‑Lizenz (optional für Evaluierung).  
+- Eine temporäre oder vollständige Aspose‑Lizenz (optional für die Evaluierung).  
 
 ## Überblick
+Der Dokumentenvergleich und die Änderungsverfolgung sind zentral für viele Geschäftsabläufe – Rechtsprüfung, Vertragsmanagement, kollaboratives Schreiben und automatisierte Berichtserstellung. Durch die Integration von Aspose.Words können Sie manuelles Diffing eliminieren, Fehler reduzieren und sicherstellen, dass alle Beteiligten eine klare Historie der Änderungen sehen. Dieses Tutorial vermittelt Java‑Entwicklern das Wissen, diese Aufgaben zuverlässig zu automatisieren.
 
-Im Bereich der Softwareentwicklung, insbesondere bei Java‑Anwendungen, ist ein effizientes Dokumentenmanagement entscheidend. Die Kategorie **Document Comparison & Tracking** mit Aspose.Words für Java bietet Entwicklern eine leistungsstarke Lösung, um Dokumentänderungen nahtlos zu handhaben. Dieses Tutorial liefert eine tiefgehende Anleitung zur Nutzung von Aspose.Words zum Vergleichen und Verfolgen von Unterschieden zwischen Dokumenten, sodass Sie die Versionskontrolle mühelos aufrechterhalten können. Durch die Integration dieser Fähigkeiten in Ihren Workflow können Sie die Genauigkeit von Dokumentenprozessen erheblich steigern, Fehler reduzieren und die Zusammenarbeit im Team optimieren. Unser fokussiertes Tutorial richtet sich an Java‑Entwickler, die das volle Potenzial von Aspose.Words in ihren Projekten ausschöpfen möchten. Ob Sie Vergleichsaufgaben automatisieren oder erweiterte Tracking‑Funktionen implementieren wollen – dieser Leitfaden vermittelt Ihnen das nötige Wissen und die Werkzeuge zum Erfolg.
+## Wie man Änderungsverfolgung in Aspose.Words für Java implementiert
+Um Änderungsverfolgung zu implementieren, laden Sie die Original‑ und überarbeitete Datei mit der Klasse `Document`, rufen `original.startTrackChanges()` auf, bevor Sie Änderungen vornehmen, und führen dann `original.compare(revised, "Reviewer", new Date())` aus, wodurch Revisionsmarkierungen erzeugt werden. Anschließend iterieren Sie über die `RevisionCollection`, um jede Änderung zu akzeptieren oder abzulehnen, und speichern das Ergebnis.
 
-## Wie man Change Tracking in Aspose.Words für Java implementiert
-Im Folgenden finden Sie einen Überblick über die Schritte, die Sie zum **Change Tracking implementieren** und zum Durchführen von Dokumentvergleichen ausführen:
+```java
+Document original = new Document("Original.docx");
+Document revised = new Document("Revised.docx");
 
-1. **Laden Sie die Original- und überarbeitete Dokumente** – Verwenden Sie die Klasse `Document`, um jede Datei zu öffnen.  
-2. **Change Tracking aktivieren** – Rufen Sie `DocumentBuilder.insertParagraph()` mit `TrackChanges` auf `true` auf oder verwenden Sie `Document.startTrackChanges()`, um die Aufzeichnung von Revisionen zu starten.  
-3. **Dokumente vergleichen** – Rufen Sie `Document.compare()` auf, um ein revisionsreiches Ergebnis zu erzeugen, das Einfügungen, Löschungen und Formatierungsänderungen hervorhebt.  
-4. **Revisionen überprüfen oder akzeptieren/ablehnen** – Durchlaufen Sie die `RevisionCollection`, um programmgesteuert bestimmte Änderungen zu akzeptieren oder abzulehnen.  
-5. **Das endgültige Dokument speichern** – Exportieren Sie das Dokument im DOCX-, PDF- oder einem anderen unterstützten Format.
+// Start tracking changes in the original document
+original.startTrackChanges();
 
-> **Pro Tipp:** Wenn Sie **Word‑Dokumente von mehreren Mitwirkenden vergleichen und zusammenführen** müssen, führen Sie den Vergleichsschritt wiederholt aus und rufen Sie anschließend `Document.acceptAllRevisions()` auf, sobald Sie mit dem zusammengeführten Inhalt zufrieden sind.
+// Compare the revised document against the original
+original.compare(revised, "Reviewer", new Date());
+
+// Accept or reject revisions as needed
+for (Revision rev : original.getRevisions()) {
+    if (/* your business logic */) {
+        rev.accept();
+    } else {
+        rev.reject();
+    }
+}
+
+// Save the final document
+original.save("Result.docx");
+```
+
+Typische Workflow‑Schritte:
+1. **Dokumente laden** – verwenden Sie `new Document("Original.docx")` und `new Document("Revised.docx")`.  
+2. **Verfolgung starten** – rufen Sie `original.startTrackChanges()` auf, bevor Sie Änderungen vornehmen.  
+3. **Vergleichen** – `original.compare(revised, "Reviewer", new Date())` erzeugt ein Dokument, das alle Unterschiede hervorhebt.  
+4. **Revisionen verarbeiten** – durchlaufen Sie `original.getRevisions()`; rufen Sie `accept()` oder `reject()` für jedes Element basierend auf Ihren Geschäftsregeln auf.  
+5. **Speichern** – `original.save("Result.docx")` oder exportieren Sie nach PDF, HTML usw.
+
+> **Pro Tipp:** Beim Zusammenführen von Änderungen mehrerer Mitwirkender führen Sie den Vergleichsschritt wiederholt aus und schließen mit `document.acceptAllRevisions()` ab, um eine saubere, konsolidierte Datei zu erzeugen.
 
 ## Was Sie lernen werden
-
-- Verstehen, wie man **Dokumente vergleicht** mit Aspose.Words für Java.  
-- Techniken für effektives **Document Change Tracking** (wie man Revisionen verfolgt) erlernen.  
-- **Version Control Word Docs**‑Strategien in Ihren Java‑Anwendungen implementieren.  
-- Praktische Vorteile des automatisierten Dokumentenvergleichs erkunden.  
-- Einblicke erhalten, wie Zusammenarbeit und Genauigkeit in Teamprojekten verbessert werden können.
+Sie werden verstehen, wie man **zwei Word-Dateien** programmgesteuert **vergleicht**, die **APIs zur Änderungsverfolgung** beherrscht, **Versionskontrollstrategien** für Word‑Dokumente implementiert und bewährte Verfahren für den Umgang mit großen oder passwortgeschützten Dateien in Java erlernt.
 
 ## Verfügbare Tutorials
 
-### [Änderungen in Word-Dokumenten mit Aspose.Words Java&#58; Ein vollständiger Leitfaden zu Dokumentenrevisionen](./aspose-words-java-track-changes-revisions/)
-Erfahren Sie, wie Sie Änderungen verfolgen und Revisionen in Word‑Dokumenten mit Aspose.Words für Java verwalten. Meistern Sie Dokumentenvergleich, Inline‑Revision‑Handling und mehr mit diesem umfassenden Leitfaden.
+### [Änderungen in Word-Dokumenten mit Aspose.Words Java nachverfolgen: Ein vollständiger Leitfaden zu Dokumentenrevisionen](./aspose-words-java-track-changes-revisions/)
+Erfahren Sie, wie Sie Änderungen nachverfolgen und Revisionen in Word-Dokumenten mit Aspose.Words für Java verwalten. Beherrschen Sie den Dokumentenvergleich, die Inline‑Revision‑Verarbeitung und mehr mit diesem umfassenden Leitfaden.
 
 ## Zusätzliche Ressourcen
-
 - [Aspose.Words für Java Dokumentation](https://reference.aspose.com/words/java/)
-- [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
+- [Aspose.Words für Java API‑Referenz](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java herunterladen](https://releases.aspose.com/words/java/)
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
@@ -78,36 +152,44 @@ Erfahren Sie, wie Sie Änderungen verfolgen und Revisionen in Word‑Dokumenten 
 ## Häufige Probleme und Lösungen
 | Problem | Lösung |
 |-------|----------|
-| **Revisionen werden nicht angezeigt** | Stellen Sie sicher, dass `trackChanges` aktiviert ist, bevor Sie Änderungen vornehmen, und prüfen Sie, dass Sie das Dokument nach den Änderungen speichern. |
-| **Vergleichsmarkierungen fehlen** | Verwenden Sie die Überladung von `compare()`, die `CompareOptions` angibt, um Formatierungsänderungen einzubeziehen. |
-| **Große Dokumente verursachen Speicherfehler** | Laden Sie Dokumente mit `LoadOptions.setLoadFormat(LoadFormat.DOCX)` und aktivieren Sie `LoadOptions.setMemoryOptimization(true)`. |
-| **Passwortgeschützte Dateien können nicht geöffnet werden** | Geben Sie das Passwort über `LoadOptions.setPassword("yourPassword")` beim Laden des Dokuments an. |
+| **Revisionen werden nicht angezeigt** | Stellen Sie sicher, dass `startTrackChanges()` vor allen Änderungen aufgerufen wird und dass Sie das Dokument nach den Änderungen speichern. |
+| **Vergleichsmarkierungen fehlen** | Verwenden Sie die Überladung von `compare()`, die ein `CompareOptions`‑Objekt akzeptiert, und setzen Sie `ignoreFormatting` auf `false`, um Formatierungsänderungen einzubeziehen. |
+| **Große Dokumente verursachen Speicherfehler** | Laden Sie mit `LoadOptions.setLoadFormat(LoadFormat.DOCX)` und aktivieren Sie `LoadOptions.setMemoryOptimization(true)`, um den Speicherverbrauch gering zu halten. |
+| **Passwortgeschützte Dateien können nicht geöffnet werden** | Geben Sie das Passwort über `LoadOptions.setPassword("yourPassword")` beim Erzeugen des `Document` an. |
 
 ## Häufig gestellte Fragen
 
-**Q: Wie kann ich programmgesteuert alle nachverfolgten Änderungen akzeptieren?**  
-**A:** Rufen Sie `document.acceptAllRevisions()` auf, nachdem Sie den Vergleich durchgeführt oder ein Dokument mit Revisionen geladen haben.
+**F: Wie akzeptiere ich programmgesteuert alle nachverfolgten Änderungen?**  
+A: Rufen Sie `document.acceptAllRevisions()` auf, nachdem Sie den Vergleich durchgeführt oder ein Dokument geladen haben, das bereits Revisionen enthält.
 
-**Q: Kann ich Dokumente vergleichen, die in unterschiedlichen Formaten vorliegen (z. B. DOCX vs. PDF)?**  
-**A:** Ja – konvertieren Sie das PDF mit Aspose.PDF oder einer ähnlichen Bibliothek in ein Word-Format, bevor Sie `compare()` aufrufen.
+**F: Kann ich Dokumente in unterschiedlichen Formaten vergleichen, z. B. DOCX vs. PDF?**  
+A: Ja – konvertieren Sie zunächst das PDF mit Aspose.PDF oder einem anderen Konvertierungstool in ein Word‑Format und rufen dann `compare()` für die beiden Word‑Dokumente auf.
 
-**Q: Ist es möglich, Formatierungsänderungen beim Vergleich zu ignorieren?**  
-**A:** Verwenden Sie `CompareOptions` und setzen Sie `ignoreFormatting` auf `true`, wenn Sie `compare()` aufrufen.
+**F: Ist es möglich, Formatierungsänderungen beim Vergleich zu ignorieren?**  
+A: Verwenden Sie `CompareOptions` und setzen Sie `ignoreFormatting` auf `true`, wenn Sie `compare()` aufrufen, um sich nur auf Textunterschiede zu konzentrieren.
 
-**Q: Unterstützt Aspose.Words **aspose words track changes** in der Cloud?**  
-**A:** Das Cloud‑SDK bietet ähnliche Funktionen; diese Anleitung konzentriert sich jedoch auf die lokale Java‑Bibliothek.
+**F: Bietet Aspose.Words cloudbasierte APIs zur Änderungsverfolgung?**  
+A: Das Cloud‑SDK bietet ähnliche Revisionsfunktionen, aber dieses Tutorial konzentriert sich auf die lokale Java‑Bibliothek.
 
-**Q: Welche Version von Aspose.Words ist für die neuesten Java‑Features erforderlich?**  
-**A:** Die neueste stabile Version (24.x) unterstützt Java 8‑21 vollständig und enthält alle Change‑Tracking‑APIs.
+**F: Welche Aspose.Words‑Version enthält die neuesten Verbesserungen der Änderungsverfolgung?**  
+A: Die aktuelle stabile Version (24.11) unterstützt Java 8‑21 vollständig und führt Leistungsoptimierungen für den großflächigen Dokumentenvergleich ein.
 
-**Zuletzt aktualisiert:** 2025-11-27  
+---
+
+**Zuletzt aktualisiert:** 2026-11-15  
 **Getestet mit:** Aspose.Words für Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Änderungsverfolgung in Aspose.Words für Java implementieren](/words/java/document-comparison-tracking/)
+- [Mehrere Word-Dateien mit Aspose.Words für Java kombinieren](/words/java/document-manipulation/cloning-and-combining-documents/)
+- [Word nach PDF konvertieren mit Aspose.Words für Java Dokumentkonvertierungs‑API](/words/java/document-converting/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
