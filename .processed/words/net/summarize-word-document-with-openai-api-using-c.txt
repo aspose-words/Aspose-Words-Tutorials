@@ -1,0 +1,7 @@
+Title: Summarize word document with OpenAI API using C#
+Slug: summarize-word-document-with-openai-api-using-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-11-16T02:32:09.179835
+SourceRepo: AI Search API
+Keywords: summarize word document, how to summarize word, openai api summarization, load word file c#
+PRNumber: 348
