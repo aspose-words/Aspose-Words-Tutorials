@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-15
-description: Learn how to translate text with Google in C#. This tutorial shows a
-  Google Translate example, handling multiple languages and best practices.
+description: Learn how to translate text with Google Translate API in C#. This tutorial shows a complete Google Translate example, handling multiple languages and best practices.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,20 +13,17 @@ keywords:
 - translate multiple languages
 language: en
 lastmod: 2026-11-15
-og_description: How to translate text with Google in C# using a complete Google Translate
-  example. Follow this tutorial to translate multiple languages safely.
+og_description: How to translate text with Google Translate API in C# using a complete example. Follow this tutorial to translate multiple languages safely.
 og_image_alt: Console output showing translated text from English to French using
   Google Translate API
 og_title: How to translate text with Google Translate API in C# – quick tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-11-15'
-  description: Learn how to translate text with Google in C#. This tutorial shows
-    a Google Translate example, handling multiple languages and best practices.
+  description: Learn how to translate text with Google Translate API in C#. This tutorial shows a Google Translate example, handling multiple languages and best practices.
   headline: How to translate text with Google Translate API in C# – step‑by‑step guide
   type: TechArticle
-- description: Learn how to translate text with Google in C#. This tutorial shows
-    a Google Translate example, handling multiple languages and best practices.
+- description: Learn how to translate text with Google Translate API in C#. This tutorial shows a Google Translate example, handling multiple languages and best practices.
   name: How to translate text with Google Translate API in C# – step‑by‑step guide
   steps:
   - name: Prerequisites
@@ -52,7 +48,7 @@ schemas:
   - answer: The API returns an error. Validate language codes against the list returned
       by `client.ListSupportedLanguages()` before making a request.
     question: What if a language isn’t supported?
-  - answer: 'Google bills per character translated. Estimate costs using the pricing
+  - answer: 'Google bills per character. Estimate costs using the pricing
       page and consider caching frequent translations. --- ## Conclusion You now know
       **how to translate text** in C# using the official Google Translate API. The
       tutorial covered a **Google translate example**, demonstrated **transla'
@@ -62,7 +58,7 @@ tags:
 - Google Cloud
 - C#
 - Translation API
-title: How to translate text with Google Translate API in C# – step‑by‑step guide
+title: Use Google Translate API to translate text in C# – step‑by‑step guide
 url: /net/ai-powered-document-processing/how-to-translate-text-with-google-translate-api-in-c-step-by/
 ---
 
@@ -163,6 +159,47 @@ namespace GoogleTranslateDemo
 ```
 
 > **Why we return a dictionary** – When you need to **translate multiple languages**, organizing results by language code makes downstream processing straightforward.
+
+Below is a corrected version of the helper that uses the exact method names provided by the V2 client library and includes the necessary namespaces:
+
+```csharp
+using Google.Cloud.Translation.V2;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace GoogleTranslateDemo
+{
+    public static class Translator
+    {
+        public static string Translate(string sourceText, string targetLanguage, string apiKey)
+        {
+            var client = TranslationClient.CreateFromApiKey(apiKey);
+            var response = client.TranslateText(sourceText, targetLanguage);
+            return response.TranslatedText;
+        }
+
+        public static Dictionary<string, string[]> TranslateMultiple(string[] sourceTexts,
+                                                                    string[] targetLanguages,
+                                                                    string apiKey)
+        {
+            var client = TranslationClient.CreateFromApiKey(apiKey);
+            var result = new Dictionary<string, string[]>();
+
+            foreach (var lang in targetLanguages)
+            {
+                // Correct method name for translating multiple texts
+                var translations = client.TranslateText(sourceTexts, lang);
+                result[lang] = translations.Select(t => t.TranslatedText).ToArray();
+            }
+
+            return result;
+        }
+    }
+}
+```
+
+> **Why the corrected version matters** – The V2 SDK provides `TranslateText(IEnumerable<string>, string)` for batch translation. Using the proper method name prevents runtime errors and aligns with the official API reference.
 
 ## Step 3: Build the console application that uses the helper
 
@@ -302,7 +339,7 @@ You now know **how to translate text** in C# using the official Google Translate
 Happy coding, and enjoy building globally accessible applications!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-11-15
-description: Learn how to insert shape in a Word document and group multiple shapes
-  with Aspose.Words DocumentBuilder. Includes insert rectangle shape and insert multiple
-  shapes examples.
+description: Learn how to programmatically insert a shape and group multiple shapes using the Aspose.Words DocumentBuilder for .NET, including examples for inserting rectangle shapes and multiple shapes.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -52,7 +50,7 @@ tags:
 - C#
 - DocumentBuilder
 - Shape handling
-title: How to insert shape and group multiple shapes using DocumentBuilder in C#
+title: How to insert shape and group multiple shapes using Aspose.Words DocumentBuilder in C#
 url: /net/add-content-using-document-builder/how-to-insert-shape-and-group-multiple-shapes-using-document/
 ---
 
@@ -60,7 +58,7 @@ url: /net/add-content-using-document-builder/how-to-insert-shape-and-group-multi
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to insert shape and group multiple shapes using DocumentBuilder in C#
+# How to insert shape and group multiple shapes using Aspose.Words DocumentBuilder in C#
 
 If you need to know **how to insert shape** into a Word document with Aspose.Words, this guide shows you the exact steps. You’ll also learn how to **group multiple shapes** so they behave as a single object, and how to **insert rectangle shape** alongside other graphics.
 
@@ -77,7 +75,7 @@ Before you start, make sure you have:
 
 You do **not** need any other third‑party libraries; everything needed is part of Aspose.Words.
 
-## Step 1: Install Aspose.Words via NuGet
+## Step 1: install Aspose.Words via nuGet
 
 Open your project in Visual Studio and run the following command in the Package Manager Console:
 
@@ -212,7 +210,7 @@ This tutorial demonstrated **how to insert shape** into a Word document with Asp
 Feel free to experiment with different shape types, colors, and group transformations. When you’re ready, integrate the pattern into larger reporting or templating solutions to automate complex document layouts. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

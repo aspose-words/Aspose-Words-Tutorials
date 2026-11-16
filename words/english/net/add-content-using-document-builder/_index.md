@@ -1,8 +1,8 @@
 ---
-title: Add Content Using Document Builder in Aspose.Words for .NET 
+title: Insert Content Using DocumentBuilder in Aspose.Words for .NET
 weight: 10
 limit:
-description: Learn how to add content using DocumentBuilder in Aspose.Words for .NET. Add text, images, tables, and shapes to Word documents seamlessly with step-by-step guidance.
+description: Learn how to insert content using the DocumentBuilder API in Aspose.Words for .NET. Insert text, images, tables, and shapes into Word documents with step‑by‑step guidance.
 keywords:
 url: /net/add-content-using-document-builder/
 ---
@@ -19,6 +19,13 @@ Aspose.Words for .NET empowers developers to effortlessly create and manipulate 
 
 This guide delves into the versatility of the DocumentBuilder class, covering its key functionalities step by step. Learn how to add rich content to your documents, apply custom styles, and even manage complex layouts. With practical examples and clear explanations, you’ll master how to use DocumentBuilder to streamline your document generation tasks in no time.
 
+```csharp
+// Create a new document and insert text using DocumentBuilder
+var doc = new Aspose.Words.Document();
+var builder = new Aspose.Words.DocumentBuilder(doc);
+builder.Writeln("Hello, Aspose.Words!");
+doc.Save("Sample.docx");
+```
 
 {{< tutorial-card link="./build-table/" title="Create a Word Document with Table Using Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
 
