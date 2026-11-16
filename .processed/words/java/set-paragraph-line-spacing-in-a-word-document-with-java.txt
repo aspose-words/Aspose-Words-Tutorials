@@ -1,0 +1,7 @@
+Title: Set paragraph line spacing in a Word document with Java
+Slug: set-paragraph-line-spacing-in-a-word-document-with-java
+Category: formatting-styles
+ProcessedDate: 2026-11-16T03:41:58.339586
+SourceRepo: AI Search API
+Keywords: set paragraph line spacing, how to set line spacing
+PRNumber: 349
