@@ -1,0 +1,7 @@
+Title: How to add a pie chart to a Word document using Java
+Slug: how-to-add-a-pie-chart-to-a-word-document-using-java
+Category: using-document-elements
+ProcessedDate: 2026-11-16T03:41:55.881768
+SourceRepo: AI Search API
+Keywords: add pie chart to word document
+PRNumber: 349
