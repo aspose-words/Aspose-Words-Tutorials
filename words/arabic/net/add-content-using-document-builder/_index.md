@@ -34,6 +34,8 @@
 
 {{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="إنشاء مستندات Word متعددة باستخدام Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="كيفية إدراج شكل وتجميع عدة أشكال باستخدام DocumentBuilder في C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

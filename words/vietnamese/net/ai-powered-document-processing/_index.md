@@ -130,6 +130,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Dịch đoạn văn sang tiếng Pháp và thay đổi nhãn biểu đồ trong Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Hướng dẫn dịch nội dung đoạn văn sang tiếng Pháp và chỉnh sửa nhãn biểu đồ trong tài liệu Word bằng Aspose.Words. |
 | [Cách dịch docx sang tiếng Pháp trong C# – hướng dẫn từng bước](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để dịch tài liệu DOCX sang tiếng Pháp trong C# một cách tự động. |
 | [Cách lưu tài liệu Word đã dịch trong C# với Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Hướng dẫn lưu tài liệu Word đã dịch bằng C# sử dụng Google AI. |
+| [Cách dịch văn bản bằng Google Translate API trong C# – hướng dẫn từng bước](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Hướng dẫn chi tiết cách sử dụng Google Translate API trong C# để dịch văn bản từng bước. |
+| [Tóm tắt tài liệu Word bằng API OpenAI sử dụng C#](./summarize-word-document-with-openai-api-using-c/) | Hướng dẫn sử dụng API OpenAI trong C# để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

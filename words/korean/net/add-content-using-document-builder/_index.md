@@ -28,6 +28,8 @@ Aspose.Words for .NET을 사용하면 개발자가 Word 문서를 프로그래�
 
 {{< tutorial-card link="./insert-inline-image/" title="Aspose.Words를 사용하여 Word 문서에 인라인 이미지 삽입" imgSrc="./insert-inline-image/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="C#에서 DocumentBuilder를 사용해 도형 삽입 및 여러 도형 그룹화" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-paragraph/" title="Aspose.Words for .NET을 사용하여 Word 문서 만들기" imgSrc="./insert-paragraph/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET에서 목차가 있는 Word 문서 만들기" imgSrc="./insert-table-contents/images/thumb.png" >}}

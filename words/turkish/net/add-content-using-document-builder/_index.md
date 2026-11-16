@@ -34,6 +34,8 @@ Bu kılavuz, DocumentBuilder sınıfının çok yönlülüğünü derinlemesine 
 
 {{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Aspose.Words ile Birden Çok Word Belgesi Oluşturma" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="DocumentBuilder ile Şekil Ekleme ve Birden Çok Şekli Gruplama (C#)" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

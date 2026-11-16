@@ -34,6 +34,8 @@ Ce guide explore la polyvalence de la classe DocumentBuilder et présente ses fo
 
 {{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Générer plusieurs documents Word avec Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Comment insérer une forme et regrouper plusieurs formes avec DocumentBuilder en C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

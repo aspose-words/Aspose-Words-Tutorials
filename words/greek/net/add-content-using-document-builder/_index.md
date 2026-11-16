@@ -32,6 +32,7 @@
 
 {{< tutorial-card link="./insert-table-contents/" title="Δημιουργήστε ένα έγγραφο του Word με πίνακα περιεχομένων σε .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Πώς να εισάγετε σχήμα και να ομαδοποιήσετε πολλαπλά σχήματα χρησιμοποιώντας το DocumentBuilder σε C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

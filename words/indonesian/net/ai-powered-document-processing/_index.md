@@ -105,9 +105,9 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Terjemahkan paragraf ke bahasa Prancis dan ubah label diagram di Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Pelajari cara menerjemahkan paragraf ke bahasa Prancis dan mengubah label diagram dalam dokumen Word menggunakan Aspose.Words. |
 | [Cara menyimpan dokumen Word yang diterjemahkan di C# dengan Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Pelajari cara menyimpan dokumen Word yang telah diterjemahkan menggunakan Google AI dalam C# dengan langkah praktis. |
 | [Cara Meringkas Dokumen Word dengan OpenAI di C#](./how-to-summarize-word-document-with-openai-in-c/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan OpenAI dengan C#. |
-
+| [Ringkas dokumen Word dengan API OpenAI menggunakan C#](./summarize-word-document-with-openai-api-using-c/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan API OpenAI dengan C#. |
+| [Cara menerjemahkan teks dengan Google Translate API di C# – panduan langkah demi langkah](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Pelajari cara menggunakan Google Translate API di C# untuk menerjemahkan teks secara otomatis dengan panduan langkah demi langkah. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 

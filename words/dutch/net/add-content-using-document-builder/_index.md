@@ -32,6 +32,8 @@ Deze handleiding verdiept zich in de veelzijdigheid van de DocumentBuilder-klass
 
 {{< tutorial-card link="./insert-table-contents/" title="Maak een Word-document met inhoudsopgave in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Hoe een vorm in te voegen en meerdere vormen te groeperen met DocumentBuilder in C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
+
 {{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Meerdere Word-documenten genereren met Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
