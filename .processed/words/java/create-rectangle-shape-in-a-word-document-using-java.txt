@@ -1,0 +1,7 @@
+Title: Create rectangle shape in a Word document using Java
+Slug: create-rectangle-shape-in-a-word-document-using-java
+Category: images-shapes
+ProcessedDate: 2026-11-16T03:41:40.962837
+SourceRepo: AI Search API
+Keywords: create rectangle shape, add shapes to word, save word document, set shape dimensions, define shape size
+PRNumber: 349
