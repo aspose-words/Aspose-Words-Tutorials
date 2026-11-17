@@ -108,8 +108,8 @@ After insertion you can move the button to any location on the page and give it 
 
 ```csharp
 // Position the button (coordinates are in points).
-cmdBtn.Left = 100;          // X‑coordinate
-cmdBtn.Top = 150;           // Y‑coordinate
+((Shape)cmdBtn).Left = 100;          // X‑coordinate
+((Shape)cmdBtn).Top = 150;           // Y‑coordinate
 
 // Set the button's programmatic name and displayed text.
 cmdBtn.Name = "btnSubmit";
@@ -152,8 +152,8 @@ class Program
             OleControlType.CommandButton, 200, 30);
 
         // 3. Position and configure the button.
-        cmdBtn.Left = 100;          // X‑coordinate (points)
-        cmdBtn.Top = 150;           // Y‑coordinate (points)
+        ((Shape)cmdBtn).Left = 100;          // X‑coordinate (points)
+        ((Shape)cmdBtn).Top = 150;           // Y‑coordinate (points)
         cmdBtn.Name = "btnSubmit";
         cmdBtn.Caption = "Submit";
 
@@ -188,8 +188,8 @@ static Forms2OleControl AddCommandButton(DocumentBuilder builder,
     var btn = builder.InsertForms2OleControl(OleControlType.CommandButton, 200, 30);
     btn.Name = name;
     btn.Caption = caption;
-    btn.Left = left;
-    btn.Top = top;
+    ((Shape)btn).Left = left;
+    ((Shape)btn).Top = top;
     return btn;
 }
 ```
