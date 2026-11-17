@@ -103,14 +103,14 @@ if (doc.GetChildNodes(NodeType.Paragraph, true).Count == 0)
 
 ## Step 2 – Generate Accessible PDF with PdfSaveOptions  
 
-Here’s where the magic happens. By setting `Compliance` to `PdfCompliance.PdfUAX`, we tell Aspose.Words to treat the output as a PDF/UA‑compliant file. Horizontal rules, for example, become *artifacts* automatically—no extra configuration required.
+Here’s where the magic happens. By setting `Compliance` to `PdfCompliance.PdfUa1`, we tell Aspose.Words to treat the output as a PDF/UA‑compliant file. Horizontal rules, for example, become *artifacts* automatically—no extra configuration required.
 
 ```csharp
 // Create PDF save options and enforce PDF/UA compliance.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // This flag ensures the exported PDF meets accessibility standards.
-    Compliance = PdfCompliance.PdfUAX,
+    Compliance = PdfCompliance.PdfUa1,
 
     // Optional: embed all fonts to avoid missing‑glyph issues on other machines.
     EmbedFullFonts = true,
@@ -121,7 +121,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 ```
 
 *Why we set these properties*:  
-- `Compliance = PdfUAX` is the core switch that **generate accessible pdf**. Without it, the PDF would be a visual dump with no logical reading order.  
+- `Compliance = PdfUa1` is the core switch that **generate accessible pdf**. Without it, the PDF would be a visual dump with no logical reading order.  
 - Embedding fonts (`EmbedFullFonts`) prevents the PDF from falling back to default system fonts, which can break accessibility for languages with special characters.  
 - `PreserveFormFields` keeps interactive elements (checkboxes, text boxes) usable by assistive technology.
 
@@ -165,7 +165,7 @@ If anything looks off, double‑check that your source DOCX contains proper head
 
 ## Conclusion  
 
-We’ve just covered how to **save Word as PDF**, **convert docx to PDF**, and **generate accessible PDF** in three concise steps using Aspose.Words for .NET. The key takeaway is the `PdfCompliance.PdfUAX` flag—without it, you’d end up with a visual‑only PDF that fails accessibility audits.  
+We’ve just covered how to **save Word as PDF**, **convert docx to PDF**, and **generate accessible PDF** in three concise steps using Aspose.Words for .NET. The key takeaway is the `PdfCompliance.PdfUa1` flag—without it, you’d end up with a visual‑only PDF that fails accessibility audits.  
 
 From here you might:
 
