@@ -64,11 +64,11 @@ Now comes the heart of the matter: telling the library to obey PDF/UA rules. Thi
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // Enforce PDF/UA (Universal Accessibility) compliance
-    Compliance = PdfCompliance.PdfUAX
+    Compliance = PdfCompliance.PdfUa1
 };
 ```
 
-> **Pro tip:** The `PdfCompliance.PdfUAX` flag automatically adds the required PDF/UA metadata, tags the document structure, and inserts language information. If you need a different compliance level (e.g., PDF/A‑2b), just swap the enum value.
+> **Pro tip:** The `PdfCompliance.PdfUa1` flag automatically adds the required PDF/UA metadata, tags the document structure, and inserts language information. If you need a different compliance level (e.g., PDF/A‑2b), just swap the enum value.
 
 ## Step 3: Save the Document as an Accessible PDF (Generate Accessible PDF)
 
@@ -143,7 +143,7 @@ namespace AccessiblePdfDemo
             // 2️⃣ Set PDF/UA compliance – this is how to set compliance
             PdfSaveOptions pdfOptions = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUAX // ✅ ensures PDF/UA
+                Compliance = PdfCompliance.PdfUa1 // ✅ ensures PDF/UA
             };
 
             // Optional: add encryption if needed
