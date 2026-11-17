@@ -70,7 +70,7 @@ class Program
         PdfSaveOptions saveOptions = new PdfSaveOptions
         {
             // Mark the PDF as PDF/UA‑2 compliant – this is what makes it an accessible PDF.
-            Compliance = PdfCompliance.PdfUAX,
+            Compliance = PdfCompliance.PdfUa2,
 
             // Optional: set the output intent for color‑managed PDFs.
             // ColorMode = ColorMode.Grayscale,
@@ -91,7 +91,7 @@ class Program
 ### Why This Works
 
 - **Loading the DOCX** (`new Document(inputPath)`) parses the Word file into Aspose’s in‑memory model, preserving styles, images, and structural tags.
-- **`PdfSaveOptions.Compliance = PdfCompliance.PdfUAX`** tells the library to embed the necessary tags (such as `/MarkInfo` and `/Lang`) that PDF/UA‑2 validators look for. Without this flag the PDF would be viewable but not considered accessible.
+- **`PdfSaveOptions.Compliance = PdfCompliance.PdfUa2`** tells the library to embed the necessary tags (such as `/MarkInfo` and `/Lang`) that PDF/UA‑2 validators look for. Without this flag the PDF would be viewable but not considered accessible.
 - **Artifacts for `<hr>`**: Aspose automatically treats horizontal rules as *artifacts*, meaning screen readers ignore them—exactly what you want when you **generate accessible pdf**.
 
 ---
@@ -147,7 +147,7 @@ using (FileStream input = File.OpenRead(@"C:\MyDocs\input.docx"))
 using (MemoryStream output = new MemoryStream())
 {
     Document doc = new Document(input);
-    PdfSaveOptions opts = new PdfSaveOptions { Compliance = PdfCompliance.PdfUAX };
+    PdfSaveOptions opts = new PdfSaveOptions { Compliance = PdfCompliance.PdfUa2 };
     doc.Save(output, opts);
     // Return output.ToArray() as a file download
 }
@@ -207,7 +207,7 @@ saveOptions.EncryptionDetails = new PdfEncryptionDetails("ownerPwd", "userPwd", 
 ```
 
 **Q: How do I verify the PDF/UA‑2 compliance automatically?**  
-Aspose provides `PdfValidator.Validate(outputPath, PdfCompliance.PdfUAX)`. It returns a `PdfValidationResult` with a list of errors.
+Aspose provides `PdfValidator.Validate(outputPath, PdfCompliance.PdfUa2)`. It returns a `PdfValidationResult` with a list of errors.
 
 ---
 

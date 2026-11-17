@@ -79,7 +79,7 @@ class Program
         PdfSaveOptions saveOptions = new PdfSaveOptions
         {
             // Enable PDF/UA‑2 compliance – the industry standard for accessibility
-            Compliance = PdfCompliance.PdfUAX,
+            Compliance = PdfCompliance.PdfUa2,
 
             // Optional: make sure all fonts are embedded (helps screen readers)
             EmbedStandardWindowsFonts = true,
@@ -135,7 +135,7 @@ You can also tweak a handful of optional properties:
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    Compliance = PdfCompliance.PdfUAX,
+    Compliance = PdfCompliance.PdfUa2,
     EmbedStandardWindowsFonts = true,
     ExportDocumentStructure = true
 };
@@ -206,7 +206,7 @@ class Program
 
             PdfSaveOptions saveOptions = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUAX,
+                Compliance = PdfCompliance.PdfUa2,
                 EmbedStandardWindowsFonts = true,
                 ExportDocumentStructure = true
             };
