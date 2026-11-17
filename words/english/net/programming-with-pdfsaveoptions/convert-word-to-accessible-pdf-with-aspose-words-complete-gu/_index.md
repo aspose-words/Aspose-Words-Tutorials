@@ -37,8 +37,8 @@ schemas:
   - name: Save the Document as an Accessible PDF
     text: '```csharp /// <summary> /// Saves the given Document as an accessible PDF
       file. /// </summary> /// <param name="doc">The loaded Word document.</param>
-      /// <param name="outputPath">Where the PDF should be written.</param> /// <param
-      name="options">PDF save options configured for accessibility.</param'
+      /// <param name="outputPath">Where the PDF should be written.</param>
+      /// <param name="options">PDF save options configured for accessibility.</param'
   - name: Full Working Example
     text: Putting it all together, here’s a tiny console app you can compile and run
       immediately.
@@ -64,7 +64,7 @@ We'll cover everything from the initial document load to configuring the right `
 ## What You’ll Learn
 
 - How to **convert Word to accessible PDF** with just three lines of C# code.  
-- Why the `PdfCompliance.PdfUAX` setting is the key to PDF/UA‑2 compliance.  
+- Why the `PdfCompliance.PdfUa2` setting is the key to PDF/UA‑2 compliance.  
 - Practical considerations for horizontal rules, images, and custom fonts.  
 - How to integrate this flow into a larger automation pipeline (e.g., batch processing).  
 
@@ -125,7 +125,7 @@ PdfSaveOptions GetAccessiblePdfOptions()
     {
         // Enforce PDF/UA‑2 compliance. Aspose.Words will automatically tag headings,
         // tables, and images, and it will treat horizontal rules as artifacts.
-        Compliance = PdfCompliance.PdfUAX,
+        Compliance = PdfCompliance.PdfUa2,
 
         // Optional: make the PDF output linearized for faster web viewing.
         // Linearized = true,
@@ -140,7 +140,7 @@ PdfSaveOptions GetAccessiblePdfOptions()
 }
 ```
 
-*Why this matters*: Setting `Compliance = PdfCompliance.PdfUAX` tells Aspose.Words to add the necessary logical structure tags, alt‑text placeholders, and artifact markings required by PDF/UA‑2. Skipping this step would produce a perfectly visual PDF but fail most accessibility scanners.
+*Why this matters*: Setting `Compliance = PdfCompliance.PdfUa2` tells Aspose.Words to add the necessary logical structure tags, alt‑text placeholders, and artifact markings required by PDF/UA‑2. Skipping this step would produce a perfectly visual PDF but fail most accessibility scanners.
 
 ### Step 3: Save the Document as an Accessible PDF
 
@@ -195,7 +195,7 @@ class Program
     {
         var options = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfUAX,
+            Compliance = PdfCompliance.PdfUa2,
             // Uncomment the next lines if you need these extra features:
             // Linearized = true,
             // EmbedFullFonts = true,
