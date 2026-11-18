@@ -406,36 +406,6 @@ Tanulja meg, hogyan ágyazz be képeket a Markdownba a DOCX konvertálásakor az
 
 ### [Hogyan mentse a dokumentumot docx formátumban egy Markdown fájlból Java‑ban](./how-to-save-document-as-docx-from-a-markdown-file-in-java/)
 
-## Gyakran Ismételt Kérdések
-
-**K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  
-**V:** Töltsd be a dokumentumot, használd a `DocumentBuilder.insertWatermarkText` vagy `insertWatermarkImage` metódust, majd mentsd PDF‑ként.
-
-**K:** Konvertálhatom a DOCX fájlt PDF‑re anélkül, hogy elveszíteném a komplex elrendezéseket?  
-**V:** Igen. Az Aspose.Words megőrzi az elrendezést, betűtípusokat és grafikákat a konverzió során.
-
-**K:** Hogyan generálhatok egyedi vonalkód címkéket Java‑ban?  
-**V:** Használd az Aspose.Words által biztosított vonalkód API‑t, add meg a vonalkód típusát, és illeszd be képként vagy alakzatként.
-
-**K:** Mi a legjobb módja a táblázatok következetes formázásának?  
-**V:** Alkalmazz TableStyle‑t a `Table.setStyleIdentifier` metódussal, vagy használd a beépített stílusgalériát.
-
-**K:** Szükséges licenc a kereskedelmi felhasználáshoz?  
-**V:** Igen, kereskedelmi licenc szükséges a termelési környezetben történő telepítéshez; ingyenes próba elérhető értékeléshez.
-
-**Legutóbb frissítve:** 2025-12-10  
-**Tesztelve:** Aspose.Words for Java 24.12  
-**Szerző:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-### [How to Export LaTeX from DOCX – Convert Word to Markdown with C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
 ### [Hogyan készítsünk kördiagramot Wordben, és mentsük a docx-et PDF‑ként](./how-to-create-pie-chart-in-word-and-save-docx-as-pdf/)
 
 ## Gyakran Ismételt Kérdések
