@@ -77,7 +77,7 @@ The first code block creates a blank document and a `DocumentBuilder` instance. 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
-using Aspose.Words.Drawing.Forms;
+using Aspose.Words.Drawing.Ole;
 
 // Create a new blank document.
 Document doc = new Document();
@@ -90,33 +90,40 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Step 3: Insert the ActiveX command button
 
-The **InsertForms2OleControl** method creates an ActiveX control of the requested type. Here we request a `CommandButton` and specify its size in points (200 × 30 pt).
+First describe the control: a `CommandButtonControl` carries the button's programmatic name, its visible caption, and its size in points (200 × 30 pt). Then pass it to the **InsertForms2OleControl** method.
 
 ```csharp
-// Insert an ActiveX CommandButton control (200 × 30 pt).
-Forms2OleControl cmdBtn = builder.InsertForms2OleControl(
-    OleControlType.CommandButton, 200, 30);
+// Describe the ActiveX CommandButton control (200 × 30 pt).
+CommandButtonControl button = new CommandButtonControl
+{
+    Name = "btnSubmit",
+    Caption = "Submit",
+    Width = 200,
+    Height = 30
+};
+
+// Insert it at the cursor; the builder returns the Shape that hosts it.
+Shape buttonShape = builder.InsertForms2OleControl(button);
 ```
 
-**Explanation:**  
-* `OleControlType.CommandButton` tells Aspose.Words to create a button rather than another control type.  
-* The method returns a `Forms2OleControl` object, which exposes positioning and property fields.
+**Explanation:**
+* `CommandButtonControl` is the `Forms2OleControl` subclass for a command button; `CheckBoxControl`, `OptionButtonControl`, and `TextBoxControl` work the same way.
+* `InsertForms2OleControl` returns a `Shape`. The control's own properties (name, caption, size) live on the control, while its position on the page lives on the shape.
 
-## Step 4: Position the button and set its properties
+## Step 4: Position the button
 
-After insertion you can move the button to any location on the page and give it a programmatic name and visible caption.
+The shape is inserted inline with the text. To move it to an exact location, make it floating and measure its position from the page.
 
 ```csharp
-// Position the button (coordinates are in points).
-((Shape)cmdBtn).Left = 100;          // X‑coordinate
-((Shape)cmdBtn).Top = 150;           // Y‑coordinate
-
-// Set the button's programmatic name and displayed text.
-cmdBtn.Name = "btnSubmit";
-cmdBtn.Caption = "Submit";
+// Float the shape and position it relative to the page (in points).
+buttonShape.WrapType = WrapType.None;
+buttonShape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+buttonShape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+buttonShape.Left = 100;          // X‑coordinate
+buttonShape.Top = 150;           // Y‑coordinate
 ```
 
-**Pro tip:** The coordinate system starts at the top‑left corner of the page. Adjust `Left` and `Top` to align the button with other form fields.
+**Pro tip:** With `RelativeHorizontalPosition.Page` and `RelativeVerticalPosition.Page`, the coordinates start at the top‑left corner of the page. Adjust `Left` and `Top` to align the button with other form fields.
 
 ## Step 5: Save the document
 
@@ -137,7 +144,7 @@ Putting all the pieces together yields a self‑contained program you can copy, 
 using System;
 using Aspose.Words;
 using Aspose.Words.Drawing;
-using Aspose.Words.Drawing.Forms;
+using Aspose.Words.Drawing.Ole;
 
 class Program
 {
@@ -147,17 +154,26 @@ class Program
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
 
-        // 2. Insert an ActiveX CommandButton (200 × 30 pt).
-        Forms2OleControl cmdBtn = builder.InsertForms2OleControl(
-            OleControlType.CommandButton, 200, 30);
+        // 2. Describe the ActiveX CommandButton (200 × 30 pt).
+        CommandButtonControl button = new CommandButtonControl
+        {
+            Name = "btnSubmit",
+            Caption = "Submit",
+            Width = 200,
+            Height = 30
+        };
 
-        // 3. Position and configure the button.
-        ((Shape)cmdBtn).Left = 100;          // X‑coordinate (points)
-        ((Shape)cmdBtn).Top = 150;           // Y‑coordinate (points)
-        cmdBtn.Name = "btnSubmit";
-        cmdBtn.Caption = "Submit";
+        // 3. Insert it; the builder returns the Shape that hosts the control.
+        Shape buttonShape = builder.InsertForms2OleControl(button);
 
-        // 4. Save the document.
+        // 4. Position the shape relative to the page (coordinates in points).
+        buttonShape.WrapType = WrapType.None;
+        buttonShape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+        buttonShape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+        buttonShape.Left = 100;          // X‑coordinate (points)
+        buttonShape.Top = 150;           // Y‑coordinate (points)
+
+        // 5. Save the document.
         doc.Save("ActiveXCommandButton.docx");
 
         Console.WriteLine("Document created successfully.");
@@ -165,7 +181,7 @@ class Program
 }
 ```
 
-**Expected output:** The console prints *“Document created successfully.”* and the folder now contains `ActiveXCommandButton.docx`. Opening the file in Microsoft Word shows a clickable **Submit** button positioned 100 pt from the left margin and 150 pt from the top of the page.
+**Expected output:** The console prints *“Document created successfully.”* and the folder now contains `ActiveXCommandButton.docx`. Opening the file in Microsoft Word shows a clickable **Submit** button positioned 100 pt from the left edge and 150 pt from the top of the page.
 
 ## Common pitfalls and how to avoid them
 
@@ -173,24 +189,33 @@ class Program
 |-------|----------------|-----|
 | The button appears off‑page | `Left`/`Top` values exceed page dimensions | Use `doc.FirstSection.PageSetup.PageWidth` and `PageHeight` to calculate safe coordinates |
 | Button is not visible in Word | The document was saved in a format that strips ActiveX controls (e.g., `.txt`) | Always save as `.docx` or `.doc` |
-| Runtime error `ArgumentOutOfRangeException` | Width or height is set to zero or negative | Ensure the size arguments passed to `InsertForms2OleControl` are positive numbers |
+| The button ignores `Left`/`Top` and stays in the text flow | The shape is still inline | Set `WrapType` to `WrapType.None` before positioning it |
 
 ## Extending the solution
 
-You can further customize the button by setting additional properties such as `Enabled`, `Visible`, or attaching a macro via VBA. The **Forms2OleControl** class also lets you insert other ActiveX controls like check boxes (`OleControlType.CheckBox`) or combo boxes (`OleControlType.ComboBox`).
+You can further customize the button by setting additional properties such as `BackColor` and `ForeColor`, or by attaching a macro via VBA. Other **Forms2OleControl** subclasses insert other ActiveX controls the same way, such as check boxes (`CheckBoxControl`), option buttons (`OptionButtonControl`), and text boxes (`TextBoxControl`).
 
 If you need to generate multiple buttons in a loop, encapsulate the insertion logic in a helper method:
 
 ```csharp
-static Forms2OleControl AddCommandButton(DocumentBuilder builder,
+static Shape AddCommandButton(DocumentBuilder builder,
     string name, string caption, double left, double top)
 {
-    var btn = builder.InsertForms2OleControl(OleControlType.CommandButton, 200, 30);
-    btn.Name = name;
-    btn.Caption = caption;
-    ((Shape)btn).Left = left;
-    ((Shape)btn).Top = top;
-    return btn;
+    CommandButtonControl button = new CommandButtonControl
+    {
+        Name = name,
+        Caption = caption,
+        Width = 200,
+        Height = 30
+    };
+
+    Shape shape = builder.InsertForms2OleControl(button);
+    shape.WrapType = WrapType.None;
+    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+    shape.Left = left;
+    shape.Top = top;
+    return shape;
 }
 ```
 
