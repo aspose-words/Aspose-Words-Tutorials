@@ -69,7 +69,7 @@ Now we tell Aspose how we want the PDF to be generated. The key property is `Pdf
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // This ensures the output meets PDF/UA‑2 (PDF/UA‑2) standards
-    PdfCompliance = PdfCompliance.PdfUAXmpa2,
+    Compliance = PdfCompliance.PdfUa2,
 
     // Optional: embed the source document's fonts for better rendering
     EmbedFullFonts = true,
@@ -84,7 +84,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 - **Embedding fonts** prevents layout shifts on devices that don’t have the original fonts installed.  
 - **Preserving form fields** keeps interactive elements usable for screen readers.
 
-If you need a plain, non‑accessible PDF, you could drop the `PdfCompliance` line—but then you’d lose the accessibility benefits we’re after.
+If you need a plain, non‑accessible PDF, you could drop the `Compliance` line—but then you’d lose the accessibility benefits we’re after.
 
 ## Step 3: Save the Document as an Accessible PDF
 
@@ -149,7 +149,7 @@ namespace AccessiblePdfDemo
             // 2️⃣ Configure PDF save options for PDF/UA‑2 compliance
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
             {
-                PdfCompliance = PdfCompliance.PdfUAXmpa2,
+                Compliance = PdfCompliance.PdfUa2,
                 EmbedFullFonts = true,
                 PreserveFormFields = true
             };
