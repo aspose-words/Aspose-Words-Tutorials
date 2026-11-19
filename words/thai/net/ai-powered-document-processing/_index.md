@@ -56,7 +56,6 @@
 | [วิธีโหลด Word ใน C# และเขียนย่อหน้าใหม่ด้วย AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | เรียนรู้วิธีโหลดไฟล์ Word ด้วย C# แล้วใช้ AI เพื่อเขียนทับย่อหน้าอย่างอัตโนมัติ เพิ่มประสิทธิภาพการแก้ไขเอกสาร - 
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างง่ายดาย |
 | [สรุปเอกสาร Word ด้วย C# โดยใช้โมเดล GPT แบบกำหนดเอง – คู่มือเต็ม](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# ผ่านโมเดล GPT ที่กำหนดเองโดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด -
-| [วิธีเขียนทับข้อความในเอกสาร Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อเขียนทับข้อความในไฟล์ Word อย่างมีประสิทธิภาพในขั้นตอนง่ายๆ - 
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words – คู่มือ](./how-to-check-grammar-in-c-with-aspose-words-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในไฟล์ C# อย่างง่ายและรวดเร็ว -
 | [วิธีใช้ Summarize ใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-use-summarize-in-aspose-words-complete-guide/) | เรียนรู้วิธีใช้ฟีเจอร์ Summarize ใน Aspose.Words สำหรับ .NET เพื่อสรุปเอกสารอย่างแม่นยำและรวดเร็ว -
 | [เขียนย่อหน้าซ้ำด้วย AI ใน C# – วิธีตั้งค่า Local LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อเขียนย่อหน้าซ้ำด้วย AI และกำหนดค่า Local LLM อย่างง่าย |
