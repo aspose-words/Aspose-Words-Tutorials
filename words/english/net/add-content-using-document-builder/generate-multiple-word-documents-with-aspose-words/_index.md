@@ -36,14 +36,10 @@ schemas:
   - name: Load the Word template that contains MERGEFIELD placeholders
     text: '```csharp // Step 2 – load template Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
       ```'
-  - name: Merge the data into the template – one‑line call creates a single document
-    text: '```csharp // Step 3 – perform the merge Document mergedDocument = MailMerger.Merge(template,
-      invoiceData); ```'
-  - name: Split the merged document into separate files and save each one
-    text: '```csharp // Step 4 – split and save each invoice int invoiceNumber = 1;
-      foreach (Document singleInvoice in mergedDocument.Split()) { string outputPath
-      = $"YOUR_DIRECTORY/Invoice_{invoiceNumber++}.docx"; singleInvoice.Save(outputPath);
-      } ```'
+  - name: Generate each invoice – call MailMerger.Execute for every data record
+    text: '```csharp // Step 3 – generate invoices foreach (var row in invoiceData) { string[] fieldNames = new[] { "Name", "Amount" }; object[] fieldValues = new object[] { row.Name, row.Amount }; string outputPath = $"YOUR_DIRECTORY/Invoice_{invoiceNumber++}.docx"; MailMerger.Execute("YOUR_DIRECTORY/InvoiceTemplate.docx", outputPath, fieldNames, fieldValues); } ```'
+  - name: (Optional) Parallelise the generation for large data sets
+    text: '```csharp // Parallel generation using Parallel.ForEach Parallel.ForEach(invoiceData, (row, state, index) => { string[] fieldNames = new[] { "Name", "Amount" }; object[] fieldValues = new object[] { row.Name, row.Amount }; string outputPath = $"YOUR_DIRECTORY/Invoice_{index + 1}.docx"; MailMerger.Execute("YOUR_DIRECTORY/InvoiceTemplate.docx", outputPath, fieldNames, fieldValues); }); ```'
   type: HowTo
 tags:
 - Aspose.Words
@@ -66,8 +62,8 @@ You will learn how to:
 
 * Prepare data for a mail‑merge operation.  
 * Load a Word template that contains `MERGEFIELD` placeholders.  
-* Merge the data into a single document and split it into individual files.  
-* Save each generated file with a unique name.
+* Generate each invoice by calling `MailMerger.Execute` for every record.  
+* (Optional) Parallelise the generation for large data sets.
 
 No external tooling is required beyond the Aspose.Words for .NET library, and the complete code example runs on .NET 6 or later.
 
@@ -78,7 +74,7 @@ Before you start, make sure you have:
 | Requirement | Reason |
 |-------------|--------|
 | .NET 6 SDK (or newer) | The code uses modern C# features such as target‑typed `new`. |
-| Aspose.Words for .NET NuGet package | Provides `Document`, `MailMerger`, and `Split` APIs. |
+| Aspose.Words for .NET NuGet package | Provides `Document` and `MailMerger` APIs. |
 | A Word template (`InvoiceTemplate.docx`) containing `MERGEFIELD` tags | Serves as the source for **create invoices from template**. |
 | An IDE (Visual Studio, Rider, or VS Code) | For building and debugging the project. |
 
@@ -92,7 +88,7 @@ Place `InvoiceTemplate.docx` in a folder you can reference from the code, for ex
 
 ## How to generate multiple word documents with a mail merge
 
-The core of the solution lives in four logical steps. Each step is wrapped in a clear method call, which makes the code easy to read and maintain.
+The core of the solution lives in three logical steps. Each step is wrapped in a clear code snippet, which makes the code easy to read and maintain.
 
 ### Step 1: Prepare the data that will populate the merge fields
 
@@ -120,32 +116,29 @@ Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 **Why this matters:**  
 The `Document` class represents the entire Word file in memory. Loading the template once and reusing it avoids unnecessary I/O when you later **generate multiple word documents**.
 
-### Step 3: Merge the data into the template – one‑line call creates a single document
+### Step 3: Generate each invoice – call `MailMerger.Execute` for every record
 
 ```csharp
-// Step 3 – perform the merge
-Document mergedDocument = MailMerger.Merge(template, invoiceData);
-```
-
-`MailMerger.Merge` iterates over the data collection, inserting a copy of the template for each row and filling the `MERGEFIELD` values. The result is a single `Document` that contains all invoices back‑to‑back.
-
-### Step 4: Split the merged document into separate files and save each one
-
-```csharp
-// Step 4 – split and save each invoice
+// Step 3 – generate invoices
 int invoiceNumber = 1;
-foreach (Document singleInvoice in mergedDocument.Split())
+foreach (var row in invoiceData)
 {
+    // Field names must match the MERGEFIELD tags in the template
+    string[] fieldNames = new[] { "Name", "Amount" };
+    object[] fieldValues = new object[] { row.Name, row.Amount };
+
     string outputPath = $"YOUR_DIRECTORY/Invoice_{invoiceNumber++}.docx";
-    singleInvoice.Save(outputPath);
+
+    // The static Execute method creates a new document for each record
+    MailMerger.Execute("YOUR_DIRECTORY/InvoiceTemplate.docx", outputPath, fieldNames, fieldValues);
 }
 ```
 
-The `Split()` extension walks through the merged document and returns a new `Document` instance for each data row. Saving each `singleInvoice` produces a distinct file, completing the **batch generate word files** workflow.
+`MailMerger.Execute` performs a mail‑merge operation for a single record, writing the result directly to the specified output file. By iterating over the data collection, you obtain one document per invoice without needing to merge everything into a single file first.
 
 #### Full runnable example
 
-Below is the complete program that ties the four steps together. Copy it into a new console project and run it after adjusting the paths.
+Below is the complete program that ties the three steps together. Copy it into a new console project and run it after adjusting the paths.
 
 ```csharp
 using Aspose.Words;
@@ -162,18 +155,19 @@ class Program
             new { Name = "Bob",   Amount = 678.90 }
         };
 
-        // Step 2 – load the template
+        // Step 2 – load the template (the Document instance is not used directly in the loop,
+        // but loading it once ensures the file exists and can be cached by the library)
         Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 
-        // Step 3 – merge data into a single document
-        Document mergedDocument = MailMerger.Merge(template, invoiceData);
-
-        // Step 4 – split and save each invoice
+        // Step 3 – generate each invoice
         int invoiceNumber = 1;
-        foreach (Document singleInvoice in mergedDocument.Split())
+        foreach (var row in invoiceData)
         {
+            string[] fieldNames = new[] { "Name", "Amount" };
+            object[] fieldValues = new object[] { row.Name, row.Amount };
             string outputPath = $"YOUR_DIRECTORY/Invoice_{invoiceNumber++}.docx";
-            singleInvoice.Save(outputPath);
+
+            MailMerger.Execute("YOUR_DIRECTORY/InvoiceTemplate.docx", outputPath, fieldNames, fieldValues);
         }
 
         System.Console.WriteLine("Invoices generated successfully.");
@@ -191,32 +185,34 @@ When you **create invoices from template**, you may encounter a few issues. Belo
 | Issue | Solution |
 |-------|----------|
 | Template field names do not match property names | Ensure the property names (`Name`, `Amount`) exactly match the `MERGEFIELD` tags in the Word file. |
-| Large data sets cause high memory usage | Process the data in chunks: merge a subset, split, save, then discard the intermediate document before the next batch. |
+| Large data sets cause high memory usage | Process the data in chunks: generate a subset, write the files, then continue with the next batch. |
 | Special characters (e.g., “&”, “<”) appear garbled | Aspose.Words automatically escapes XML‑unsafe characters, but verify the template’s encoding if you load it from a non‑UTF‑8 source. |
-| Need custom file names (e.g., include customer name) | Replace the `outputPath` string with `$"YOUR_DIRECTORY/Invoice_{singleInvoice.MailMergeData["Name"]}.docx"` after extracting the field value from the split document. |
+| Need custom file names (e.g., include customer name) | Build `outputPath` using the desired values, e.g. `$"YOUR_DIRECTORY/Invoice_{row.Name}.docx"`.|
 
 ## Batch generate word files – performance considerations
 
 If you plan to **batch generate word files** for thousands of records, keep these guidelines in mind:
 
-1. **Reuse the template object** – loading the template once (as shown in Step 2) prevents repeated disk reads.
-2. **Dispose of intermediate documents** – the `foreach` loop automatically releases memory after each `singleInvoice.Save`, but you can call `singleInvoice.Dispose()` explicitly for very large batches.
-3. **Parallelize the saving step** – the split operation yields independent `Document` objects, so you can use `Parallel.ForEach` to write files concurrently, provided the storage medium can handle parallel I/O.
+1. **Reuse the template file path** – the static `MailMerger.Execute` method reads the template each time, but the underlying library caches the file, so you only pay the I/O cost once.
+2. **Parallelise the generation** – because each call to `MailMerger.Execute` works on an independent output file, you can safely run them in parallel.
 
 ```csharp
 using System.Threading.Tasks;
 
 // ...
 
-Parallel.ForEach(mergedDocument.Split(), (singleInvoice, state, index) =>
+Parallel.ForEach(invoiceData, (row, state, index) =>
 {
+    string[] fieldNames = new[] { "Name", "Amount" };
+    object[] fieldValues = new object[] { row.Name, row.Amount };
     string outputPath = $"YOUR_DIRECTORY/Invoice_{index + 1}.docx";
-    singleInvoice.Save(outputPath);
+
+    MailMerger.Execute("YOUR_DIRECTORY/InvoiceTemplate.docx", outputPath, fieldNames, fieldValues);
 });
 ```
 
 **Why this works:**  
-`Split()` returns an `IEnumerable<Document>` that can be enumerated safely in parallel because each `Document` instance owns its own memory.
+Each iteration creates its own output document, so there are no race conditions. The parallel loop can dramatically reduce total processing time on multi‑core machines.
 
 ## Expected results and verification
 
@@ -230,7 +226,7 @@ If any field remains unfilled, double‑check the `MERGEFIELD` names in the temp
 
 ## Conclusion
 
-You now know how to **generate multiple word documents** using Aspose.Words, how to **create invoices from template**, and how to **batch generate word files** efficiently. The four‑step pattern—prepare data, load template, merge, split & save—covers the most common document‑automation scenarios.  
+You now know how to **generate multiple word documents** using Aspose.Words, how to **create invoices from template**, and how to **batch generate word files** efficiently. The three‑step pattern—prepare data, load template, generate each invoice—covers the most common document‑automation scenarios.
 
 From here you can extend the solution by adding images, tables, or conditional logic to the template, or by integrating the workflow into a web API that serves invoices on demand.
 
