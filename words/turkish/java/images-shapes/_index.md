@@ -58,7 +58,7 @@ Aspose.Words for Java'da şekillere gölge ekleyerek belge görünümünü nası
 ### [C#'ta Şekle Gölge Nasıl Eklenir – Şekil Gölgesini Kolayca Ekleyin](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 C# kullanarak Word belgelerinde şekillere gölge eklemeyi ve özelleştirmeyi öğrenin.
 
-### [Java Word Belgesine Dikdörtgen Şekil Ekle – Tam Adım‑Adım Rehber](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+### [Java Word Belgesine Dikdörtgen Şekil Ekle – Tam Adım‑Adım Rehber](./create-rectangle-shape-in-java-word-document-full-step-st/)
 Java kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin.
 
 ### [Java'da Metin Kutusu Şekli Oluştur – Gölge Eklemeye Tam Kılavuz](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
@@ -92,7 +92,6 @@ Aspose.Words for Java ile Word belgesine resim eklemeyi adım adım öğrenin.
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 ### [Java ile boş bir Word belgesi oluşturma ve dikdörtgen şekil ekleme](./create-a-blank-word-document-and-add-a-rectangle-shape/)
-Java kullanarak boş bir Word belgesi oluşturun ve içine dikdörtgen şekil ekleyin.
 
 ### [Java'da Gölge ile Boş Word Belgesi Oluşturma – Tam Kılavuz](./create-blank-word-with-shadow-in-java-full-guide/)
 Java kullanarak gölge efektiyle boş bir Word belgesi oluşturmayı adım adım öğrenin.
@@ -175,6 +174,8 @@ Aspose.Words for Java ile gizli bir resim ekleyerek Word belgesi oluşturmayı �
 Java kullanarak programlı bir şekilde Word belgesine şekil eklemeyi öğrenin.
 
 ### [Java ile Word belgesine dikdörtgen şekil ekleme](./create-rectangle-shape-in-a-word-document-using-java/)
+
+### [C# ile Word'de dikdörtgen şekil oluşturma ve şekilleri gruplama](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
 ## Ek Kaynaklar
 

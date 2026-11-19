@@ -33,6 +33,8 @@
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Πώς να δημιουργήσετε σχήμα ορθογωνίου και να ομαδοποιήσετε σχήματα σε Word χρησιμοποιώντας C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 
 ### [Προσαρμοσμένη αποθήκευση σελίδων και εικόνων σε Java με Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java

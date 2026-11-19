@@ -36,6 +36,9 @@ Dans le domaine du traitement de documents, l'intégration d'images et de formes
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Comment créer une forme rectangle et regrouper des formes dans Word avec C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+Apprenez à créer une forme rectangle et à regrouper des formes dans Word avec C#.
+
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 

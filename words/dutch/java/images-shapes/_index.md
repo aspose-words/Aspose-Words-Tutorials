@@ -28,6 +28,9 @@ In de wereld van documentverwerking is het integreren van afbeeldingen en vormen
 
 ## Beschikbare tutorials
 
+### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+
 ### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
 

@@ -39,6 +39,8 @@ dziedzinie przetwarzania dokumentów integrowanie obrazów i kształtów jest kl
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Jak utworzyć prostokątny kształt i grupować kształty w Wordzie przy użyciu C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 
 ### [Niestandardowe zapisywanie stron i obrazów w Javie z wywołaniami zwrotnymi Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Samouczek dotyczący kodu dla Aspose.Words Java

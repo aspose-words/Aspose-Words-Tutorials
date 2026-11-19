@@ -155,26 +155,6 @@ Scopri come raggruppare forme in un documento Word usando Aspose.Words per Java.
 ### [Nascondi immagine in Word – guida passo‑passo Java con Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Scopri come nascondere un'immagine in un documento Word usando Aspose.Words per Java.
 
-### [Come creare una forma di gruppo docx e aggiungere controlli interattivi in C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
-Scopri come creare una forma di gruppo in un documento DOCX e aggiungere controlli interattivi usando C# e Aspose.Words.
-### [Creare una forma rettangolare in Word con Java – Guida completa](./create-rectangle-shape-in-word-with-java-full-guide/)
-Scopri come creare e personalizzare una forma rettangolare nei documenti Word usando Aspose.Words per Java.
-
-### [Raggruppa forme in Word e aggiungi un rettangolo con Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
-Scopri come raggruppare forme e aggiungere un rettangolo in un documento Word usando Aspose.Words per Java.
-
-### [Come nascondere una forma in Word con C# e Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
-Scopri come nascondere una forma in un documento Word usando C# e Aspose.Words.
-
-### [Come creare un documento Word vuoto e raggruppare forme in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Scopri come creare un documento Word vuoto e raggruppare forme usando Aspose.Words per Java.
-
-### [Crea un nuovo documento Word con un'immagine nascosta – guida passo‑a‑passo](./create-new-word-document-with-a-hidden-picture-step-by-step/)
-Scopri come inserire un'immagine nascosta in un documento Word usando Aspose.Words per Java.
-
-### [Come creare un documento vuoto e aggiungere forme con Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
-Scopri come creare un documento vuoto e inserire forme usando Aspose.Words per C#.
-
 ### [Come inserire un'immagine in un file docx e nascondere l'immagine in Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Scopri come aggiungere un'immagine a un documento DOCX e nasconderla in Word usando Aspose.Words per Java.
 ### [Come raggruppare le forme in Word con Java – guida completa](./how-to-group-shapes-in-word-with-java-complete-guide/)
@@ -215,61 +195,9 @@ Impara a generare un documento Word vuoto e inserire forme personalizzate usando
 
 ### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+### [Come creare una forma rettangolare e raggruppare forme in Word usando C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+Guida passo‑passo per creare una forma rettangolare e raggruppare più forme in un documento Word con C#.
 
 ### [Crea documento Word programmaticamente e aggiungi una forma in Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 

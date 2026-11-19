@@ -150,6 +150,8 @@
 
 ### [วิธีใช้ Aspose แทรกรูปภาพและซ่อนมันในเอกสาร Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
+### [วิธีสร้างรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปร่างใน Word ด้วย C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
