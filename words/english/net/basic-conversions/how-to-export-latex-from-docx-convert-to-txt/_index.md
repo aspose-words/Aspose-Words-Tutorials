@@ -76,15 +76,15 @@ Aspose.Words lets you decide how OfficeMath should be rendered when saving to pl
 // Create TxtSaveOptions and tell Aspose how to handle equations
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    // Switch to MathML if you prefer that format:
-    // OfficeMathExportMode = OfficeMathExportMode.MathML
+    // Switch to plain text if you prefer that format:
+    // OfficeMathExportMode = TxtOfficeMathExportMode.Text
 
     // By default we export as LaTeX – the primary keyword in action
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 ```
 
-*Why this matters:* The `OfficeMathExportMode` flag is the key to **how to export latex** from a DOCX. Changing it to `MathML` would give you XML‑based markup instead.
+*Why this matters:* The `OfficeMathExportMode` flag is the key to **how to export latex** from a DOCX. Changing it to `Text` would give you plain‑text representation instead.
 
 ## Step 3: Save the Document as Plain Text
 
@@ -115,7 +115,7 @@ Here is an equation in LaTeX form:
 Another paragraph follows...
 ```
 
-All regular text appears unchanged, while each OfficeMath object is replaced by its LaTeX representation. If you switched to `MathML`, you’d see `<math>` tags instead.
+All regular text appears unchanged, while each OfficeMath object is replaced by its LaTeX representation. If you switched to `Text`, you’d see a plain‑text fallback instead.
 
 ## Step 4: Verify and Tweak (Optional)
 
@@ -161,7 +161,7 @@ class Program
         // 2️⃣ Configure TXT save options – export OfficeMath as LaTeX
         TxtSaveOptions txtOptions = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX   // change to MathML if needed
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex   // change to Text if needed
         };
 
         // 3️⃣ Save the document as a plain‑text file using the configured options
@@ -187,7 +187,7 @@ Run the program, and you’ll have a clean `.txt` file that **extracts text from
 
 We’ve just covered **how to export LaTeX** from a DOCX file, turned the document into plain text, and learned how to **convert docx to txt** while keeping equations intact. The three‑step flow—load, configure, save—gets the job done with minimal code and maximum flexibility.
 
-Ready for the next challenge? Try swapping `OfficeMathExportMode.MathML` to generate MathML, or combine this approach with a batch processor that walks through an entire folder of Word files. You could also pipe the resulting `.txt` into a static‑site generator for a searchable knowledge base.
+Ready for the next challenge? Try swapping `OfficeMathExportMode` to `TxtOfficeMathExportMode.Text` to generate plain‑text fallbacks, or combine this approach with a batch processor that walks through an entire folder of Word files. You could also pipe the resulting `.txt` into a static‑site generator for a searchable knowledge base.
 
 If you found this guide helpful, give it a star on GitHub, share it with a colleague, or drop a comment below with your own tips. Happy coding, and may your LaTeX exports always be flawless!
 

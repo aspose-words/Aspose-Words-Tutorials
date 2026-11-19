@@ -79,7 +79,7 @@ Aspose.Words lets you control how Office Math objects are rendered when you save
 TxtSaveOptions saveOptions = new TxtSaveOptions
 {
     // This flag converts every Office Math object to its LaTeX representation.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: keep line breaks similar to the original Word layout.
     PreserveTableLayout = true
@@ -161,7 +161,7 @@ foreach (string filePath in Directory.GetFiles(sourceFolder, "*.docx"))
     Document batchDoc = new Document(filePath);
     TxtSaveOptions batchOptions = new TxtSaveOptions
     {
-        OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+        OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
         PreserveTableLayout = true
     };
 

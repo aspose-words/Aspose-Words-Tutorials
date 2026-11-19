@@ -95,15 +95,15 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
     // Optional: embed all fonts to avoid missing‑font issues on other machines
     EmbedFullFonts = true,
 
-    // Optional: set a custom PDF title metadata (helps with SEO in PDF viewers)
-    Title = "Converted from input.docx"
+    // Optional: display the document title in PDF viewers
+    DisplayDocTitle = true,
 };
 ```
 
 **Why we set these flags:**  
 - `Compliance = PdfCompliance.PdfUa1` tells Aspose to add the necessary structure tags, alternative text for images, and logical reading order.  
 - `EmbedFullFonts` prevents the dreaded “font not found” warnings when the PDF is opened on a different OS.  
-- Setting `Title` is a tiny SEO boost for the PDF itself.
+- Setting `DisplayDocTitle` enables the title display in PDF viewers.
 
 ---
 
@@ -156,7 +156,7 @@ namespace WordToPdfDemo
                 {
                     Compliance = PdfCompliance.PdfUa1, // generate PDF/UA‑1
                     EmbedFullFonts = true,
-                    Title = "Converted from input.docx"
+                    DisplayDocTitle = true,
                 };
 
                 // -------------------------------------------------
