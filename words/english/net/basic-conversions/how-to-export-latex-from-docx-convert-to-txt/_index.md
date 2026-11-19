@@ -2,7 +2,7 @@
 category: general
 date: 2026-03-30
 description: How to export LaTeX from a DOCX file and convert DOCX to TXT, extracting
-  text and Word equations as MathML or LaTeX.
+  text and Word equations as LaTeX.
 draft: false
 keywords:
 - how to export latex
@@ -28,7 +28,7 @@ url: /net/basic-conversions/how-to-export-latex-from-docx-convert-to-txt/
 
 # How to Export LaTeX from DOCX – Convert to TXT
 
-Ever wondered **how to export LaTeX** from a Word *.docx* file without opening the document manually? You’re not alone. In many projects we need to **convert docx to txt**, pull out the raw text, and preserve those pesky OfficeMath equations as clean LaTeX or MathML.  
+Ever wondered **how to export LaTeX** from a Word *.docx* file without opening the document manually? You’re not alone. In many projects we need to **convert docx to txt**, pull out the raw text, and preserve those pesky OfficeMath equations as clean LaTeX.  
 
 In this tutorial we’ll walk through a complete, ready‑to‑run C# example that does exactly that. By the end you’ll be able to extract text from docx, convert word equations, and **save document as txt** with a single method call. No extra tools, just Aspose.Words for .NET.
 
@@ -39,7 +39,7 @@ In this tutorial we’ll walk through a complete, ready‑to‑run C# example th
 ## What You’ll Learn
 
 - Load a *.docx* file programmatically.  
-- Configure `TxtSaveOptions` so OfficeMath objects are exported as **LaTeX** (or MathML).  
+- Configure `TxtSaveOptions` so OfficeMath objects are exported as **LaTeX** (or plain text).  
 - Save the result as a plain‑text *.txt* file, preserving both ordinary text and equations.  
 - Verify the output and tweak the export mode for different needs.  
 
@@ -70,7 +70,7 @@ Document doc = new Document(inputPath);
 
 ## Step 2: Set Up TXT Save Options – Choose Export Mode
 
-Aspose.Words lets you decide how OfficeMath should be rendered when saving to plain text. You can pick **MathML** (useful for web) or **LaTeX** (perfect for scientific publishing). Here’s how to configure the exporter:
+Aspose.Words lets you decide how OfficeMath should be rendered when saving to plain text. You can pick **LaTeX** (perfect for scientific publishing) or **Text** (a plain‑text approximation). For MathML, save to HTML instead with `HtmlOfficeMathOutputMode.MathML`. Here’s how to configure the exporter:
 
 ```csharp
 // Create TxtSaveOptions and tell Aspose how to handle equations
@@ -134,7 +134,7 @@ If you notice missing equations, make sure the original DOCX actually contains `
 
 | Question | Answer |
 |---|---|
-| **Can I export both LaTeX **and** MathML in the same file?** | Not directly – you need to run the save twice with different `OfficeMathExportMode` values and merge the results manually. |
+| **Can I export both LaTeX **and** MathML in the same file?** | Not directly – plain text supports only LaTeX and Text. Save the TXT with `TxtOfficeMathExportMode.Latex`, save an HTML copy with `HtmlOfficeMathOutputMode.MathML`, and combine the results yourself. |
 | **What if the DOCX contains images?** | Images are ignored when saving to plain text; they won’t appear in `output.txt`. If you need image data, consider saving to HTML or PDF instead. |
 | **Is the conversion thread‑safe?** | Yes, as long as each thread works with its own `Document` instance. Sharing a single `Document` across threads can cause race conditions. |
 | **Do I need a license for Aspose.Words?** | The library works in evaluation mode, but the output will contain a watermark. For production use, acquire a license to remove the watermark and unlock full performance. |
