@@ -41,11 +41,10 @@ schemas:
       something like:'
   type: HowTo
 - questions:
-  - answer: Absolutely. Load a PDF with `new Document("file.pdf")` and the same `DocumentSummarizer`
+  - answer: Absolutely. Load a PDF with `new Document("file.pdf")` and the same `model.Summarize`
       works because Aspose.Words treats PDFs as documents internally.
     question: Can I summarize a PDF instead of a Word file?
-  - answer: Increase the `maxSentences` argument. Keep in mind that longer outputs
-      consume more tokens, which may affect cost if you’re using OpenAI.
+  - answer: Increase the `SummaryLength` property (e.g., set it to `SummaryLength.Long`). Keep in mind that longer outputs consume more tokens, which may affect cost if you’re using OpenAI.
     question: What if I need more than five sentences?
   type: FAQPage
 tags:
@@ -64,14 +63,14 @@ url: /net/ai-powered-document-processing/summarize-word-document-with-aspose-wor
 
 Ever needed to **summarize Word document** content without copying and pasting lines yourself? You’re not the only one. In this guide we’ll walk you through a clean, end‑to‑end way to **summarize Word document** files using Aspose.Words AI, and we’ll also show you how to **set API key environment** variables so the engine can talk to OpenAI or Google. By the end you’ll be able to **extract summary from report** files in just a few lines of C#.
 
-We’ll cover everything you need: the required NuGet package, configuring your API keys, the actual summarization call, and a quick sanity‑check of the output. No external scripts, no magic—just plain C# that you can drop into any .NET project today. If you’ve ever wondered why a “summary” feature feels missing in Word‑automation libraries, the answer is simple: the AI add‑on shipped in Aspose.Words 24.11 fills that gap. Let’s get started.
+We’ll cover everything you need: the required NuGet package, configuring your API keys, the actual summarization call, and a quick sanity‑check of the output. No external scripts, no magic—just plain C# that you can drop into any .NET project today. If you’ve ever wondered why a “summary” feature feels missing in Word‑automation libraries, the answer is simple: the AI add‑on shipped in Aspose.Words 26.11 fills that gap. Let’s get started.
 
 ---
 
 ## Prerequisites – What You’ll Need Before You Summarize Word Document
 
 - **.NET 6+** (or .NET Framework 4.7.2+). The library works on both, but the sample targets .NET 6 for modern tooling.
-- **Aspose.Words for .NET** version 24.11 or later. That’s the release that introduced the `Aspose.Words.AI` namespace.
+- **Aspose.Words for .NET** version 26.11 or later. That’s the release that introduced the `Aspose.Words.AI` namespace.
 - An **OpenAI** or **Google** API key. We’ll show you how to **set API key environment** variables so the SDK picks them up automatically.
 - A **sample .docx** file (e.g., `LongReport.docx`) that you want to **extract summary from report**.
 
@@ -84,12 +83,12 @@ If any of those sound unfamiliar, don’t worry—installing the NuGet package a
 First, add the latest Aspose.Words package to your project. Open a terminal in your solution folder and run:
 
 ```bash
-dotnet add package Aspose.Words --version 24.11
+dotnet add package Aspose.Words --version 26.11
 ```
 
 Why this matters: the `Aspose.Words.AI` namespace lives inside the same package, so you don’t need a separate download. After the restore finishes, you’ll have access to both classic document manipulation and the new AI‑driven summarization features.
 
-> **Pro tip:** If you’re using Visual Studio, the Package Manager UI will also let you pick version 24.11 directly from the dropdown.
+> **Pro tip:** If you’re using Visual Studio, the Package Manager UI will also let you pick version 26.11 directly from the dropdown.
 
 ---
 
@@ -113,7 +112,7 @@ export ASPOSE_WORDS_OPENAI_API_KEY="sk-YourOpenAIKeyHere"
 export ASPOSE_WORDS_GOOGLE_API_KEY="AIzaYourGoogleKeyHere"
 ```
 
-> **Why this step is crucial:** The `DocumentSummarizer` class looks for these environment variables at runtime. If they’re missing, you’ll get a clear `InvalidOperationException` telling you to set the key—much easier than hunting down a silent failure later.
+> **Why this step is crucial:** The AI model looks for these environment variables at runtime. If they’re missing, you’ll get a clear `InvalidOperationException` telling you to set the key—much easier than hunting down a silent failure later.
 
 Remember to **restart your IDE or terminal** after setting the variable, otherwise the running process won’t see the new value.
 
@@ -138,34 +137,37 @@ Document doc = new Document(filePath);
 
 ---
 
-## Step 4 – Choose a Summarization Engine and Generate the Summary
+## Step 4 – Create an AI Model and Generate the Summary
 
-Aspose.Words AI currently supports two back‑ends: **OpenAI** (GPT‑3.5/4) and **Google Gemini**. You pick one via the `SummarizationEngine` enum. Let’s ask the engine for a five‑sentence overview:
+Aspose.Words AI currently supports OpenAI and Google back‑ends. For this example we’ll use the default OpenAI model (the SDK picks the correct provider based on the environment variables you set).
 
 ```csharp
-// Choose the engine – OpenAI or Google
-SummarizationEngine engine = SummarizationEngine.OpenAI; // or SummarizationEngine.Google
+// Create an AI model – the SDK reads the appropriate API key from the environment
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini);
 
-// Request a concise summary (maxSentences defines length)
-DocumentSummary summary = DocumentSummarizer.Summarize(
-    doc,
-    engine,
-    maxSentences: 5);
+// Configure summarization options – use SummaryLength to control output size
+SummarizeOptions options = new SummarizeOptions
+{
+    SummaryLength = SummaryLength.Short   // Short ≈ 5 sentences; use Medium or Long for more
+};
+
+// Generate the summary; the method returns a new Document containing the abstract
+Document summaryDoc = model.Summarize(doc, options);
 ```
 
-**Why `maxSentences`?** It gives you deterministic control over the output length, which is handy when you need a fixed‑size abstract for UI cards or email previews.
+**Why `SummaryLength`?** It gives you deterministic control over the output length (Short, Medium, Long), which is handy when you need a fixed‑size abstract for UI cards or email previews.
 
-If you ever need a longer extract, simply raise the number—just remember that longer prompts cost more tokens on OpenAI’s side.
+If you ever need a longer extract, simply set `options.SummaryLength = SummaryLength.Long`; just remember that longer outputs consume more tokens on OpenAI’s side.
 
 ---
 
 ## Step 5 – Output the Generated Summary
 
-The `DocumentSummary` object contains the plain‑text result. For a quick test, print it to the console:
+The `summaryDoc` contains the plain‑text result. For a quick test, print it to the console:
 
 ```csharp
 Console.WriteLine("=== Summary of the document ===");
-Console.WriteLine(summary.Text);
+Console.WriteLine(summaryDoc.GetText());
 ```
 
 When you run the program, you should see something like:
@@ -186,8 +188,8 @@ Even the most robust code can trip over a missing key or an unsupported file for
 ```csharp
 try
 {
-    DocumentSummary summary = DocumentSummarizer.Summarize(doc, engine, maxSentences: 5);
-    Console.WriteLine(summary.Text);
+    Document summaryDoc = model.Summarize(doc, options);
+    Console.WriteLine(summaryDoc.GetText());
 }
 catch (InvalidOperationException ex) when (ex.Message.Contains("API key"))
 {
@@ -233,25 +235,30 @@ class Program
         Document doc = new Document(filePath);
 
         // -------------------------------------------------
-        // Step 2: Choose the AI engine (OpenAI or Google)
+        // Step 2: Create the AI model (OpenAI in this example)
         // -------------------------------------------------
-        SummarizationEngine engine = SummarizationEngine.OpenAI; // change if you prefer Google
+        AiModel model = AiModel.Create(AiModelType.Gpt4OMini);
 
         // -------------------------------------------------
-        // Step 3: Summarize – we ask for a 5‑sentence abstract
+        // Step 3: Configure summarization options
+        // -------------------------------------------------
+        SummarizeOptions options = new SummarizeOptions
+        {
+            SummaryLength = SummaryLength.Short   // Change to Medium or Long for a longer abstract
+        };
+
+        // -------------------------------------------------
+        // Step 4: Summarize – we ask for a short abstract
         // -------------------------------------------------
         try
         {
-            DocumentSummary summary = DocumentSummarizer.Summarize(
-                doc,
-                engine,
-                maxSentences: 5);
+            Document summaryDoc = model.Summarize(doc, options);
 
             // -------------------------------------------------
-            // Step 4: Output the result
+            // Step 5: Output the result
             // -------------------------------------------------
             Console.WriteLine("=== Summary of the document ===");
-            Console.WriteLine(summary.Text);
+            Console.WriteLine(summaryDoc.GetText());
         }
         catch (InvalidOperationException ex) when (ex.Message.Contains("API key"))
         {
@@ -281,16 +288,15 @@ That’s a clean, **extract summary from report** you can now display in dashboa
 ## Frequently Asked Questions (FAQ)
 
 **Q: Can I summarize a PDF instead of a Word file?**  
-A: Absolutely. Load a PDF with `new Document("file.pdf")` and the same `DocumentSummarizer` works because Aspose.Words treats PDFs as documents internally.
+A: Absolutely. Load a PDF with `new Document("file.pdf")` and the same `model.Summarize` works because Aspose.Words treats PDFs as documents internally.
 
 **Q: What if I need more than five sentences?**  
-A: Increase the `maxSentences` argument. Keep in mind that longer outputs consume more tokens, which may affect cost if you’re using OpenAI.
+A: Increase the `SummaryLength` property (e.g., set it to `SummaryLength.Long`). Keep in mind that longer outputs consume more tokens, which may affect cost if you’re using OpenAI.
 
-**Q: Is there a way to control the tone (formal vs. casual)?
-
+**Q: Is there a way to control the tone (formal vs. casual)?**  
+*Answer coming soon.*
 
 ## What Should You Learn Next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
