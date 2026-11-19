@@ -52,7 +52,6 @@
 | [如何在 Word 文档中检查语法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) 使用 Aspose.Words for .NET 和 C# 检查 Word 文档中的语法错误，提升文档质量的完整指南。|
 | [如何使用本地 LLM 检查 C# 语法](./how-to-check-grammar-with-a-local-llm-in-c/) 了解如何在 C# 项目中集成本地大语言模型进行语法检查，提升代码质量。|
 | [使用 Aspose.Words AI 检查语法并汇总 Word 文档](./how-to-check-grammar-and-summarize-word-document-with-aspose/) 使用 Aspose.Words for .NET 与 AI 结合，检查文档语法并生成摘要，提高文档质量与效率。|
-| [在 C# 中检查 Word 文档语法 – 完整编程指南](./check-grammar-word-document-in-c-complete-programming-guide/) 使用 Aspose.Words for .NET 在 C# 中检查 Word 文档的语法错误，提供完整的编程指南。|
 | [如何在 C# 中加载 Word 并使用 AI 重写段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) 了解如何使用 Aspose.Words for .NET 在 C# 中加载 Word 文档并利用 AI 重写段落，实现智能内容编辑。|
 | [如何在 C# 中使用 Aspose.Words AI 检查语法](./how-to-check-grammar-in-c-with-aspose-words-ai/) 使用 Aspose.Words AI 在 C# 中进行语法检查，帮助您快速发现并纠正文档中的错误，提高写作质量。|
 | [使用 LLM 与 Aspose.Words – 在 C# 中改写段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) 学习如何在 C# 中使用大型语言模型与 Aspose.Words 结合，实现段落改写，提高文档质量。|
@@ -68,7 +67,6 @@
 | [使用 AI 创建摘要 – C# Aspose Words 教程](./create-summary-with-ai-c-aspose-words-tutorial/) 使用 Aspose.Words for .NET 与 C# 实现 AI 文档摘要的完整指南。|
 | [如何在 C# 中使用 Aspose.Words 检查语法 – 步骤指南](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) 了解如何使用 Aspose.Words for .NET 在 C# 中进行语法检查，提升文档质量的分步指南。|
 | [使用本地 LLM 汇总 Word 文档 – 步骤详解 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) 使用 Aspose.Words for .NET 与本地大型语言模型结合，提供 C# 步骤指南，实现高效的 Word 文档摘要。|
-| [使用 Aspose.Words AI 检查 Word 语法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) 通过 Aspose.Words AI 检查 Word 文档的语法错误，提供完整的 C# 实现步骤和最佳实践。|
 | [使用 C# AI 文本摘要 – 完整编程指南](./summarize-text-with-ai-in-c-complete-programming-guide/) 通过 Aspose.Words for .NET 与 C# 集成 AI，实现高效文本摘要，提供完整代码示例和最佳实践。|
 | [使用 Aspose.Words 与 Google API 将 docx 翻译为法语](./translate-docx-to-french-with-aspose-words-and-google-api/) 使用 Aspose.Words for .NET 结合 Google 翻译 API，将 Word 文档快速翻译成法语，实现高效本地化。|
 | [使用 Aspose.Words.AI 将 docx 翻译为法语 – 完整指南](./translate-docx-to-french-with-aspose-words-ai-full-guide/) 使用 Aspose.Words for .NET 和 Aspose.Words.AI 将 docx 文档翻译为法语的完整指南，帮助您轻松实现多语言转换。|
@@ -78,7 +76,6 @@
 | [在 C# 中创建 AI 摘要 – 步骤指南](./create-ai-summary-in-c-step-by-step-guide/) 使用 Aspose.Words for .NET 在 C# 中实现 AI 文档摘要的完整分步指南。|
 | [在 C# 中使用 AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-with-ai-in-c/) 使用 Aspose.Words for .NET 与 AI 在 C# 中实现 docx 文档的法语翻译。提供详细步骤和最佳实践。|
 | [使用 Google 翻译 API 在 C# 中翻译文本 – 步骤指南](./how-to-translate-text-with-google-translate-api-in-c-step-by/) 使用 Aspose.Words for .NET 与 Google 翻译 API 在 C# 中实现文本翻译的完整分步指南。|
-| [从 C# 调用 OpenAI API – 重写 Word 段落的完整指南](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) 使用 Aspose.Words for .NET 与 OpenAI API 重写 Word 段落，实现智能内容改写。|
 | [使用 Aspose.Words AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-using-aspose-words-ai/) 使用 Aspose.Words AI 将 docx 文档翻译为法语，提供详细步骤和最佳实践。|
 | [在 C# 中使用 Aspose.Words AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) 了解如何利用 Aspose.Words AI 在 C# 环境下将 Word 文档自动翻译成法语，步骤详尽，提升多语言处理效率。|
 | [在 C# 中使用 Aspose.Words AI 汇总 docx 文件](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) 了解如何在 C# 环境下使用 Aspose.Words AI 对 docx 文件进行自动摘要，提升文档处理效率。|
@@ -86,7 +83,6 @@
 | [如何在 C# 中使用翻译器自动化文档翻译](./how-to-use-translator-to-automate-document-translation-in-c/) 使用 Aspose.Words for .NET 与翻译器在 C# 实现文档自动翻译的完整指南。|
 | [使用 AI 文档摘要汇总 Word 文档](./summarize-word-document-with-ai-document-summarization/) 使用 Aspose.Words for .NET 与 AI 文档摘要功能，在 C# 中实现 Word 文档的自动汇总。|
 | [在 C# 中使用 AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-with-ai-in-c/) 使用 Aspose.Words for .NET 与 AI 在 C# 中实现 docx 文档的法语翻译，提供详细步骤和最佳实践。|
-| [使用 Aspose.Words AI 为 Word 文档添加摘要](./add-summary-to-word-document-with-aspose-words-ai/) 使用 Aspose.Words for .NET 与 AI 集成，为 Word 文档添加摘要，实现快速文档概览。|
 | [在 C# 中汇总 Word 文档 – 完整的 Aspose.Words AI 指南](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) 使用 Aspose.Words for .NET 与 AI 完整指南，教您在 C# 中高效汇总 Word 文档。|
 | [使用 Aspose.Words AI 将 docx 翻译成法语](./translate-docx-to-french-with-aspose-words-ai/) 使用 Aspose.Words for .NET AI 功能，将 Word 文档快速翻译为法语的完整教程。|
 | [创建空白 Word 文档并翻译成法语](./create-a-blank-word-document-and-translate-it-to-french/) 使用 Aspose.Words for .NET 创建空白 Word 文档并将其内容翻译为法语的完整指南。|

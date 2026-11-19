@@ -245,7 +245,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [Word‑Dokument in C# zusammenfassen – Schritt‑für‑Schritt‑Anleitung mit KI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Word‑Dokument in C# mit einem benutzerdefinierten GPT‑Modell zusammenfassen – Vollständige Anleitung](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Zusammenfassung zu Word‑Dokument mit Aspose.Words KI hinzufügen](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

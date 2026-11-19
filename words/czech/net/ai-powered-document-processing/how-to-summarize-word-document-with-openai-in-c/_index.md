@@ -244,7 +244,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Shrnutí Word dokumentu v C# – krok za krokem průvodce s využitím AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Shrnutí Word dokumentu v C# pomocí vlastního GPT modelu – kompletní průvodce](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Přidání shrnutí do Word dokumentu s Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
