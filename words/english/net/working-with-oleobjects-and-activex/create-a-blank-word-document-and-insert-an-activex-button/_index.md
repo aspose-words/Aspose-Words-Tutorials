@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-18
-description: Create a blank Word document and insert an ActiveX button with C#. Learn
-  how to add control, set button caption, and save the file.
+description: Learn how to create a blank Word document and insert an ActiveX button using Aspose.Words for .NET with C#. Add control, set button caption, and save the file.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -48,7 +47,7 @@ tags:
 - Aspose.Words
 - C#
 - ActiveX
-title: Create a blank Word document and insert an ActiveX button
+title: Create a blank Word document and insert an ActiveX button using Aspose.Words for .NET
 url: /net/working-with-oleobjects-and-activex/create-a-blank-word-document-and-insert-an-activex-button/
 ---
 
@@ -246,7 +245,7 @@ Next, you might explore **how to insert ActiveX button** events with VBA, or **h
 Happy coding, and feel free to experiment with different sizes, positions, and captions to fit your application’s UI requirements!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

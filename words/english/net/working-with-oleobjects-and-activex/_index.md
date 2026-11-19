@@ -1,8 +1,8 @@
 ---
-title: Manipulating OLE Objects and ActiveX Controls with Aspose.Words for .NET
-linktitle: Manipulating OLE Objects and ActiveX Controls with Aspose.Words for .NET
+title: How to Manipulate OLE Objects and ActiveX Controls Using Aspose.Words for .NET
+linktitle: How to Manipulate OLE Objects and ActiveX Controls Using Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
-description: Learn how to work with OLE objects and ActiveX controls in Word documents using the Aspose.Words for .NET API. Detailed tutorials with code examples and step‑by‑step guidance.
+description: Explore how to create, insert, update, and manage OLE objects and ActiveX controls in Word documents with the Aspose.Words for .NET API. Detailed tutorials with code examples and step‑by‑step guidance.
 weight: 1080
 url: /net/working-with-oleobjects-and-activex/
 ---

@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-11-18
-description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate the entire document, and save the translated document in just three steps.
+description: Learn how to automate translating a DOCX to French using Google Cloud Translation, translate the entire document, and save the translated file in just three steps.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -13,16 +13,16 @@ keywords:
 - how to translate docx
 language: en
 lastmod: 2026-11-18
-og_description: translate docx to French instantly using Google Cloud Translation. Follow this guide to translate entire document and save translated document effortlessly.
+og_description: Automate translating a DOCX to French with Google Cloud Translation. Follow this guide to translate the entire document and save the translated file effortlessly.
 og_image_alt: Screenshot showing a DOCX file translated to French using Google Cloud Translation
-og_title: Translate docx to French with Google Cloud Translation – quick guide
+og_title: Automate translating docx to French with Google Cloud Translation – quick guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-18'
-  description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate entire document, and save the translated document in just three steps.
+  description: Learn how to automate translating a DOCX to French using Google Cloud Translation, translate entire document, and save the translated file in just three steps.
   headline: How to translate docx to French using Google Cloud Translation
   type: TechArticle
-- description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate entire document, and save the translated document in just three steps.
+- description: Learn how to automate translating a DOCX to French using Google Cloud Translation, translate entire document, and save the translated file in just three steps.
   name: How to translate docx to French using Google Cloud Translation
   steps:
   - name: 'Create a new console project:'
@@ -37,7 +37,7 @@ tags:
 - Google Cloud Translation
 - Document translation
 - Localization
-title: How to translate a DOCX to French using Google Cloud Translation API
+title: Automate translating a DOCX to French with Google Cloud Translation
 url: /net/ai-powered-document-processing/how-to-translate-docx-to-french-using-google-ai/
 ---
 
@@ -125,7 +125,7 @@ namespace DocxFrenchTranslator
 
 **Why this matters:** Loading the file once and keeping the text in memory lets you **translate entire document** content with a single API call per paragraph, avoiding repeated file I/O.
 
-## Perform Google Cloud Translation
+## Perform google cloud translation
 
 Now that you have the original paragraphs, call the Translation API to convert each string from English (or any source language) to French. The client automatically detects the source language if you pass `null`.
 
