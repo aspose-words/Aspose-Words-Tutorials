@@ -107,14 +107,14 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 Now we use `InsertForms2OleControl` to embed an ActiveX control. The method requires three arguments:
 
-1. The type of control (`OleControlType.CommandButton`).  
+1. The type of control (`Forms2OleControlType.CommandButton`).  
 2. An internal name for the control (used by VBA or macro code).  
 3. A `RectangleF` that defines the position and size on the page.
 
 ```csharp
 // Step 3: Insert a CommandButton ActiveX control at the current cursor position
 Forms2OleControl commandButton = builder.InsertForms2OleControl(
-    OleControlType.CommandButton,          // type of control
+    Forms2OleControlType.CommandButton,          // type of control
     "ClickMe",                             // internal name (identifier)
     new System.Drawing.RectangleF(0, 0, 100, 30)); // x, y, width, height
 ```
@@ -172,7 +172,7 @@ Sometimes you want the button inside a particular paragraph, for example after s
 builder.Writeln("Click the button below to continue:");
 builder.InsertParagraph(); // creates a new empty paragraph
 builder.InsertForms2OleControl(
-    OleControlType.CommandButton,
+    Forms2OleControlType.CommandButton,
     "ContinueBtn",
     new System.Drawing.RectangleF(0, 0, 120, 35));
 ```
@@ -217,7 +217,7 @@ class Program
 
         // 3️⃣ Insert the ActiveX CommandButton
         Forms2OleControl commandButton = builder.InsertForms2OleControl(
-            OleControlType.CommandButton,
+            Forms2OleControlType.CommandButton,
             "MyButton",
             new RectangleF(0, 0, 100, 30));
 
@@ -239,7 +239,7 @@ class Program
 
 ## Conclusion
 
-You now know how to **create a blank Word document**, **insert an ActiveX button**, **set button caption**, and **save** the result using Aspose.Words for .NET. The same pattern can be extended to other ActiveX controls (checkboxes, list boxes, etc.) by changing `OleControlType`.  
+You now know how to **create a blank Word document**, **insert an ActiveX button**, **set button caption**, and **save** the result using Aspose.Words for .NET. The same pattern can be extended to other ActiveX controls (checkboxes, list boxes, etc.) by changing `Forms2OleControlType`.  
 
 Next, you might explore **how to insert ActiveX button** events with VBA, or **how to add control** to existing documents that already contain content. Both topics build directly on the concepts covered here.
 
