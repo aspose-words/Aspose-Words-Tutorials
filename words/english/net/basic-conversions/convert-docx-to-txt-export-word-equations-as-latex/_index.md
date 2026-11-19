@@ -75,7 +75,7 @@ The default `TxtSaveOptions` will dump the visual representation of equations (o
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This tells Aspose.Words to render Office Math as LaTeX strings.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: preserve original line breaks for easier diffing.
     PreserveTableLayout = true,
@@ -85,7 +85,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 };
 ```
 
-*Why this matters:* `OfficeMathExportMode.LaTeX` converts each `OMath` node into a LaTeX fragment (e.g., `\frac{a}{b}`). Without it, you’d end up with “[Equation]” placeholders, defeating the purpose of **export equations from word**.
+*Why this matters:* `TxtOfficeMathExportMode.Latex` converts each `OMath` node into a LaTeX fragment (e.g., `\frac{a}{b}`). Without it, you’d end up with “[Equation]” placeholders, defeating the purpose of **export equations from word**.
 
 ## Step 3: Save the Document as Plain Text
 
@@ -116,10 +116,10 @@ That’s the **convert docx to txt** result you were after—plain text with LaT
 If the source file contains no Office Math, the same code works fine; the `OfficeMathExportMode` flag simply has no effect. However, you might want to skip the extra option to speed things up:
 
 ```csharp
-if (doc.GetChildNodes(NodeType.OMath, true).Count > 0)
+if (doc.GetChildNodes(NodeType.Any, true).Count > 0)
 {
     // Use LaTeX export only when equations exist.
-    txtOptions.OfficeMathExportMode = OfficeMathExportMode.LaTeX;
+    txtOptions.OfficeMathExportMode = TxtOfficeMathExportMode.Latex;
 }
 ```
 
@@ -128,8 +128,8 @@ if (doc.GetChildNodes(NodeType.OMath, true).Count > 0)
 For massive Word files, enable streaming to reduce memory pressure:
 
 ```csharp
-txtOptions.SaveFormat = SaveFormat.Txt;
-txtOptions.IsMemoryOptimization = true; // hypothetical flag for illustration
+txtOptions.SaveFormat = SaveFormat.Text;
+txtOptions.MemoryOptimization = true; // real property name
 ```
 
 *(Check the latest Aspose.Words docs for the exact property name.)*
@@ -173,15 +173,15 @@ class Program
         // 2️⃣ Configure TXT save options – export equations as LaTeX
         TxtSaveOptions txtOptions = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
             PreserveTableLayout = true,
             Encoding = Encoding.UTF8
         };
 
         // Optional: only enable LaTeX export if the doc actually has equations
-        if (doc.GetChildNodes(NodeType.OMath, true).Count == 0)
+        if (doc.GetChildNodes(NodeType.Any, true).Count == 0)
         {
-            txtOptions.OfficeMathExportMode = OfficeMathExportMode.Text;
+            txtOptions.OfficeMathExportMode = TxtOfficeMathExportMode.Text;
         }
 
         // 3️⃣ Save as plain‑text file
@@ -201,7 +201,7 @@ class Program
 A: Yes. Aspose.Words can load legacy `.doc` files, but the `OfficeMathExportMode` only applies to modern Office Math objects (available in Word 2007+). For legacy equation editors, you’ll need a different approach.
 
 **Q: What if I need to **save word as txt** without any LaTeX?**  
-A: Simply omit the `OfficeMathExportMode` line or set it to `OfficeMathExportMode.Text`. The equations will be replaced by the placeholder text “[Equation]”.
+A: Simply omit the `OfficeMathExportMode` line or set it to `TxtOfficeMathExportMode.Text`. The equations will be replaced by the placeholder text “[Equation]”.
 
 **Q: Can I batch‑process a folder of documents?**  
 A: Absolutely. Wrap the core logic in a `foreach (var file in Directory.GetFiles(folder, "*.docx"))` loop and reuse the same `TxtSaveOptions` instance.
