@@ -79,7 +79,7 @@ The magic happens in `TxtSaveOptions`. Setting `OfficeMathExportMode` to `LaTeX`
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions
 {
     // Export each OfficeMath object as LaTeX code
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = Aspose.Words.Saving.TxtOfficeMathExportMode.Latex,
     
     // Optional: preserve original line breaks for better readability
     PreserveTableLayout = true,
