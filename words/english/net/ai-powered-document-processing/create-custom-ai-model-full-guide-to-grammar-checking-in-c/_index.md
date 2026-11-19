@@ -77,12 +77,6 @@ No extra NuGet packages beyond the AI client and DOCX parser are required; the t
 
 ---
 
-![Diagram illustrating how to create custom AI model, load a DOCX file, run grammar check and view results](https://example.com/ai-grammar-workflow.png "Create custom AI model workflow diagram")
-
-*Alt text: Diagram showing how to create custom AI model and run grammar check on a Word document.*
-
----
-
 ## Step 1: Create Custom AI Model – Set Up Endpoint and Authentication
 
 The first thing you need is a thin wrapper around the LLM’s HTTP API. This wrapper is the heart of the **create custom AI model** process. By encapsulating the endpoint URL and optional API key we keep the rest of the code clean and testable.
@@ -140,7 +134,7 @@ public class CustomAiModel
     private string BuildGrammarPrompt(Document doc)
     {
         // Extract plain text from the DOCX (see next step for details)
-        string text = doc.GetPlainText();
+        string text = doc.GetText();
         return $"You are a grammar expert. Review the following text and return ONLY the corrected version, preserving line breaks:\n\n{text}";
     }
 }
@@ -173,7 +167,7 @@ public class Document
     }
 
     // Returns the raw text that will be sent to the LLM
-    public string GetPlainText() => _content;
+    public string GetText() => _content;
 
     // Simple extraction – you could enrich this to keep headings, tables, etc.
     private static string ExtractText(string filePath)
@@ -231,13 +225,13 @@ Finally, we need to **display** the corrected version to the user (or write it b
 
 ```csharp
 Console.WriteLine("=== Original Document ===");
-Console.WriteLine(doc.GetPlainText());
+Console.WriteLine(doc.GetText());
 
 Console.WriteLine("\n=== Grammar‑Corrected Output ===");
 Console.WriteLine(grammarResult);
 ```
 
-If you prefer to write the corrected text back into a new DOCX, the same *DocX* library can be used:
+If you prefer to write it back into a new DOCX, the same *DocX* library can be used:
 
 ```csharp
 using (var newDoc = DocX.Create("YOUR_DIRECTORY/output_corrected.docx"))
