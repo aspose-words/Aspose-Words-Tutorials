@@ -37,11 +37,11 @@ We'll walk through everything you need—prerequisites, code, explanations, and 
 
 - **.NET 6+** (or .NET Framework 4.7+ if you prefer the classic runtime)  
 - **Aspose.Words for .NET** NuGet package (`Aspose.Words`)  
-- **Aspose.Words.AI for .NET** NuGet package (`Aspose.Words.AI`) – this supplies the `AsposeLlmModel` class.  
+- **Aspose.LLM** NuGet package (`Aspose.LLM`) – a separate package with its own license; `AsposeLlmModel` (in the `Aspose.Words.AI` namespace of Aspose.Words) runs its local presets.  
 - A **local LLM preset** that is bundled with Aspose.LLM (e.g., the Qwen 2.5 preset).  
 - A sample Word file (`input.docx`) placed in a folder you can reference from your code.
 
-> **Pro tip:** If you don't have a local LLM preset yet, you can obtain the free Qwen 2.5 preset from the Aspose.LLM package. The preset runs entirely in‑process, so no external server is required.
+> **Pro tip:** The presets come with the Aspose.LLM package, which has its own license. The model runs entirely in‑process, so no external server is required.
 
 ## Overview of the Solution
 
@@ -70,7 +70,7 @@ Loading the document locally ensures you never expose raw content to an external
 
 ## Step 2 – Create a Connection to Your Local LLM Preset
 
-Next we need an object that knows how to run the LLM that’s bundled with Aspose.LLM. `AsposeLlmModel` loads the preset into the process and provides AI capabilities such as summarization and translation.
+Next we need an object that knows how to run the LLM that’s bundled with Aspose.LLM. `AsposeLlmModel` selects a local model preset from Aspose.LLM and provides AI capabilities such as summarization and translation.
 
 ```csharp
 using Aspose.Words.AI;
@@ -100,7 +100,7 @@ Document summaryDoc = model.Summarize(doc, summarizeOptions);
 ```
 
 **Why this matters:**  
-`AsposeLlmModel` handles chunking (splitting large documents into manageable pieces) and prompt engineering behind the scenes. You don’t have to worry about token limits or formatting—just call `Summarize` and get back a Word document containing the summary.
+`Summarize` returns a new Word document containing the summary; the source document is left unchanged.
 
 ### Customizing the Prompt (Optional)
 
@@ -188,7 +188,7 @@ class Program
 1. `dotnet new console -n Summarizer`  
 2. `cd Summarizer`  
 3. `dotnet add package Aspose.Words`  
-4. `dotnet add package Aspose.Words.AI`  
+4. `dotnet add package Aspose.LLM`  
 5. Replace `Program.cs` with the code above, adjusting `YOUR_DIRECTORY`.  
 6. `dotnet run`
 
@@ -202,7 +202,7 @@ You should see the summary printed in the terminal.
 
 ### My LLM preset fails to load or throws an exception?
 
-Make sure the Aspose.LLM package is referenced and that the preset name matches one of the shipped presets (e.g., `"Qwen25_3BPresetCpu"`). The constructor does not download anything; it only loads the native model files that are packaged with Aspose.LLM.
+Make sure the Aspose.LLM package is referenced and that the preset name matches one of the shipped presets (e.g., `"Qwen25_3BPresetCpu"`). Nothing is loaded or downloaded when the constructor runs.
 
 ### Can I embed the summary back into the original Word file?
 
