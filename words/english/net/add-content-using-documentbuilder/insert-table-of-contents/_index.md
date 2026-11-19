@@ -33,7 +33,7 @@ To get started, import the necessary namespaces in your C# project:
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Builder;
+using Aspose.Words;
 using Aspose.Words.Fields;
 using Aspose.Words.Tables;
 ```
