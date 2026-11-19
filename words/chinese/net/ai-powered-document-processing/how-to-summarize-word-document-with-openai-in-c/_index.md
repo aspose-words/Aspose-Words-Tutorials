@@ -241,7 +241,6 @@ class Program
 
 - [使用 AI 的 C# Word 文档摘要 – 步骤指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [使用自定义 GPT 模型在 C# 中摘要 Word 文档 – 完整指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [使用 Aspose.Words AI 为 Word 文档添加摘要](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

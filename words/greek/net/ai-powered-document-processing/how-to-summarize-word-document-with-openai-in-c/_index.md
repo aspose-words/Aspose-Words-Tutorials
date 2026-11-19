@@ -245,7 +245,6 @@ class Program
 
 - [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με χρήση AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Σύνοψη εγγράφου Word σε C# χρησιμοποιώντας προσαρμοσμένο μοντέλο GPT – Πλήρης Οδηγός](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Προσθήκη σύνοψης σε έγγραφο Word με Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

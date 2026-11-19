@@ -243,7 +243,6 @@ class Program
 
 - [تلخيص مستند Word في C# – دليل خطوة بخطوة باستخدام AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [تلخيص مستند Word في C# باستخدام نموذج GPT مخصص – دليل كامل](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [إضافة ملخص إلى مستند Word باستخدام Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

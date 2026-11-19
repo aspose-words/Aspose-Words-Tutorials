@@ -243,7 +243,6 @@ When you run the program (e.g., `dotnet run`), you should see something similar 
 
 - [C#에서 AI를 사용한 단계별 Word 문서 요약 가이드](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [C#에서 커스텀 GPT 모델을 이용한 Word 문서 요약 – 전체 가이드](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Aspose.Words AI를 활용한 Word 문서에 요약 추가하기](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

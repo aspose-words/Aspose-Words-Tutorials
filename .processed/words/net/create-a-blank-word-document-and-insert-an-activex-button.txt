@@ -1,0 +1,7 @@
+Title: Create a blank Word document and insert an ActiveX button
+Slug: create-a-blank-word-document-and-insert-an-activex-button
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-11-19T06:43:05.290343
+SourceRepo: AI Search API
+Keywords: create blank word document, how to insert activex, how to add control, insert activex button, set button caption
+PRNumber: 369

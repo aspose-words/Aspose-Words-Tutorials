@@ -131,30 +131,44 @@ This variation satisfies the **replace text with translation** keyword while kee
 
 ## Generate a summary with OpenAI
 
-After translation, you might want a quick overview of the document’s content. Aspose.Words.AI also ships a helper that talks to OpenAI’s summarization endpoint.
+After translation, you might want a quick overview of the document’s content. Use the Aspose.Words AI model to call OpenAI’s summarization endpoint.
 
 ```csharp
+using System;
 using System.IO;
-using Aspose.Words.AI;   // Contains Summarize and SummarizationEngine enums
+using Aspose.Words;
+using Aspose.Words.AI;
 
-// Step 1: Load the (now translated) document you just saved.
-Document translatedDoc = new Document("YOUR_DIRECTORY/translated.docx");
+class Summarizer
+{
+    static void Main()
+    {
+        // Load the (now translated) document you just saved.
+        Document translatedDoc = new Document("YOUR_DIRECTORY/translated.docx");
 
-// Step 2: Ask OpenAI to generate a concise summary.
-string reportSummary = Summarize(translatedDoc, SummarizationEngine.OpenAI);
+        // Initialise the OpenAI model (replace with your actual key).
+        string openAiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+        var model = AiModel.Create(AiModelType.Gpt35Turbo).WithApiKey(openAiKey);
 
-// Step 3: Write the summary to a plain‑text file.
-// This satisfies the write summary to file requirement.
-File.WriteAllText("YOUR_DIRECTORY/summary.txt", reportSummary);
+        // Generate a summary. The model returns a new Document containing the summary.
+        Document summaryDoc = model.Summarize(translatedDoc);
 
-Console.WriteLine("Summary written to summary.txt");
+        // Extract the summary text.
+        string reportSummary = summaryDoc.GetText();
+
+        // Write the summary to a plain‑text file.
+        File.WriteAllText("YOUR_DIRECTORY/summary.txt", reportSummary, System.Text.Encoding.UTF8);
+
+        Console.WriteLine("Summary written to summary.txt");
+    }
+}
 ```
 
 ### How the OpenAI engine works
 
-`Summarize()` serializes the document’s text, sends it to the OpenAI API, and returns the model’s response. The method automatically respects the token limit of the chosen engine, splitting large documents into manageable chunks. If you hit the token limit, the API returns an error; the wrapper retries with smaller sections and concatenates the partial summaries.
+`model.Summarize()` serializes the document’s text, sends it to the OpenAI API, and returns a new `Document` that holds the model’s response. The method automatically respects the token limit of the chosen engine, splitting large documents into manageable chunks. If you hit the token limit, the API returns an error; the wrapper retries with smaller sections and concatenates the partial summaries.
 
-> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. Without it, `Summarize()` throws an authentication exception. Set it once in your development environment:
+> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. Without it, the call throws an authentication exception. Set it once in your development environment:
 
 ```bash
 export OPENAI_API_KEY=sk-*********************
@@ -214,7 +228,10 @@ class TranslateAndSummarize
 
         // ------------------- Summarization -------------------
         Document translatedDoc = new Document(translatedPath);
-        string reportSummary = Summarize(translatedDoc, SummarizationEngine.OpenAI);
+        string openAiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+        var model = AiModel.Create(AiModelType.Gpt35Turbo).WithApiKey(openAiKey);
+        Document summaryDoc = model.Summarize(translatedDoc);
+        string reportSummary = summaryDoc.GetText();
 
         // ------------------- Write summary to file -------------------
         string timestamp = DateTime.UtcNow.ToString("yyyyMMdd_HHmmss");

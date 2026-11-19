@@ -1,0 +1,7 @@
+Title: How to convert docx to txt using Aspose.Words for Python
+Slug: how-to-convert-docx-to-txt-using-aspose-words-for-python
+Category: document-conversion
+ProcessedDate: 2026-11-19T07:50:12.688487
+SourceRepo: AI Search API
+Keywords: how to convert docx to txt, convert word document to plain text, export word equations as latex
+PRNumber: 374

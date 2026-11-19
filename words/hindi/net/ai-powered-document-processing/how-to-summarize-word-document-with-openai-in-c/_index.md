@@ -244,7 +244,6 @@ class Program
 
 - [C# में Word दस्तावेज़ का सारांश – AI का उपयोग करके चरण‑दर‑चरण गाइड](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [C# में कस्टम GPT मॉडल का उपयोग करके Word दस्तावेज़ का सारांश – पूर्ण गाइड](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Aspose.Words AI के साथ Word दस्तावेज़ में सारांश जोड़ें](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

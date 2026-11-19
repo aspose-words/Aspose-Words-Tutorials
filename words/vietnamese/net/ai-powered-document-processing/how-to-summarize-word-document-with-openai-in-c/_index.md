@@ -243,7 +243,6 @@ Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây
 
 - [Tóm tắt tài liệu Word trong C# – hướng dẫn từng bước sử dụng AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Tóm tắt tài liệu Word trong C# bằng mô hình GPT tùy chỉnh – Hướng dẫn đầy đủ](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Thêm tóm tắt vào tài liệu Word với Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

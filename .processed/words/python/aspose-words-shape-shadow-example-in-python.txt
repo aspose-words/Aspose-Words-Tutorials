@@ -1,0 +1,7 @@
+Title: Aspose.Words shape shadow example in Python
+Slug: aspose-words-shape-shadow-example-in-python
+Category: images-shapes
+ProcessedDate: 2026-11-19T07:50:15.148233
+SourceRepo: AI Search API
+Keywords: aspose.words shape shadow example
+PRNumber: 374

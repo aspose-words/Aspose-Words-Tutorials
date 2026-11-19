@@ -1,0 +1,7 @@
+Title: How to translate docx to French using Google AI
+Slug: how-to-translate-docx-to-french-using-google-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-11-19T06:42:59.516644
+SourceRepo: AI Search API
+Keywords: translate docx to french, google ai translation, translate entire document, save translated document, how to translate docx
+PRNumber: 369

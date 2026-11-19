@@ -23,23 +23,30 @@ When it comes to document processing, Aspose.Words for .NET is a powerhouse that
 
 Imagine being able to summarize documents with just a few clicks – sounds great, right? Let’s kick things off with the {{< relref "working-with-ai-model/_index.md" >}} tutorial, where you’ll learn to integrate AI for effective document summarization using Aspose.Words. It’s like having a personal assistant sifting through mountains of text, pinpointing what really matters, and condensing it for you. This tutorial lays a straightforward roadmap to implement AI models effectively. 
 
-Here’s a quick C# example that shows how to load a Word document and call a hypothetical AI summarizer:
+Here’s a quick C# example that shows how to load a Word document and call the built‑in Aspose LLM summarizer:
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.AI;
 using System.Threading.Tasks;
 
 // Load the source document
 Document doc = new Document("input.docx");
 
-// Summarize the document text using an AI service (pseudo‑code)
-string summary = await AiSummarizer.SummarizeAsync(doc.GetText());
+// Create an Aspose LLM model for summarization (specify a preset name, e.g., "summarize")
+var model = new AsposeLlmModel("summarize");
+
+// Summarize the document; the method returns a new Document containing the summary
+Document summaryDoc = model.Summarize(doc);
+
+// Extract the summary text
+string summary = summaryDoc.GetText();
 
 // Create a new document containing the summary
-Document summaryDoc = new Document();
-DocumentBuilder builder = new DocumentBuilder(summaryDoc);
+Document outputDoc = new Document();
+DocumentBuilder builder = new DocumentBuilder(outputDoc);
 builder.Writeln(summary);
-summaryDoc.Save("summary.docx");
+outputDoc.Save("summary.docx");
 ```
 
 ## Elevate your game with Google AI
