@@ -94,7 +94,7 @@ Our next step is to establish a connection with the AI model. This is where that
 
 ```csharp
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+var model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
 - Make sure to have your API key stored as an environment variable. It’s like keeping your secret sauce safe!

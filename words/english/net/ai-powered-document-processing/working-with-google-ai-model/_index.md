@@ -85,10 +85,10 @@ This line of code fetches the API key you've stored in your environment variable
 
 ## Step 4: Creating an AI Model Instance
 
-Now, it’s time to create an instance of the AI model. Here you can choose which model to use—in this example, we're opting for the GPT-4 Mini model.
+Now, it’s time to create an instance of the AI model. Here you can choose which model to use—in this example, we're opting for a Google Gemini model.
 
 ```csharp
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+var model = AiModel.Create(AiModelType.GeminiProLatest).WithApiKey(apiKey);
 ```
 
 This line sets up the AI model you'll be using for document summarization. Be sure to consult [the documentation](https://reference.aspose.com/words/net/) for details on different models and their capabilities.

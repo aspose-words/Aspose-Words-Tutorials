@@ -107,7 +107,7 @@ It’s essential to manage your API key securely to keep unauthorized users at b
 With your API key at the ready, you can now create an instance of the OpenAI model. For document summarization, we’ll use the Gpt4OMini model:
 
 ```csharp
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 This step essentially sets up the brainpower needed to summarize your documents, giving you access to AI-driven summarization.
 
