@@ -1,33 +1,29 @@
 ---
 category: general
 date: 2026-11-18
-description: Learn how to translate docx to French with Google AI translation, translate
-  entire document, and save translated document in just three steps.
+description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate the entire document, and save the translated document in just three steps.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
 - translate docx to french
-- google ai translation
+- google cloud translation
 - translate entire document
 - save translated document
 - how to translate docx
 language: en
 lastmod: 2026-11-18
-og_description: translate docx to French instantly using Google AI translation. Follow
-  this guide to translate entire document and save translated document effortlessly.
-og_image_alt: Screenshot showing a DOCX file translated to French using Google AI
-og_title: Translate docx to French with Google AI – quick guide
+og_description: translate docx to French instantly using Google Cloud Translation. Follow this guide to translate entire document and save translated document effortlessly.
+og_image_alt: Screenshot showing a DOCX file translated to French using Google Cloud Translation
+og_title: Translate docx to French with Google Cloud Translation – quick guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-18'
-  description: Learn how to translate docx to French with Google AI translation, translate
-    entire document, and save translated document in just three steps.
-  headline: How to translate docx to French using Google AI
+  description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate entire document, and save the translated document in just three steps.
+  headline: How to translate docx to French using Google Cloud Translation
   type: TechArticle
-- description: Learn how to translate docx to French with Google AI translation, translate
-    entire document, and save translated document in just three steps.
-  name: How to translate docx to French using Google AI
+- description: Learn how to translate a DOCX to French with the Google Cloud Translation API, translate entire document, and save the translated document in just three steps.
+  name: How to translate docx to French using Google Cloud Translation
   steps:
   - name: 'Create a new console project:'
     text: 'Create a new console project:'
@@ -38,10 +34,10 @@ schemas:
   type: HowTo
 tags:
 - C#
-- Google AI
+- Google Cloud Translation
 - Document translation
 - Localization
-title: How to translate docx to French using Google AI
+title: How to translate a DOCX to French using Google Cloud Translation API
 url: /net/ai-powered-document-processing/how-to-translate-docx-to-french-using-google-ai/
 ---
 
@@ -51,9 +47,7 @@ url: /net/ai-powered-document-processing/how-to-translate-docx-to-french-using-g
 
 # How to translate docx to French using Google AI
 
-If you need to **translate docx to French**, Google AI translation makes it possible to translate the entire document with just a few lines of C# code. This tutorial shows you exactly how to translate a DOCX file, translate entire document content, and save the translated document in a reliable way.
-
-You’ll learn how to set up the Google Cloud Translation client, load a Word file, call the API to translate every paragraph, and finally write the **save translated document** step. No external scripts or manual copy‑pasting are required—everything runs inside your .NET application.
+If you need to **translate docx to French**, Google Cloud Translation makes it possible to translate the entire document with just a few lines of C# code. This tutorial shows you exactly how to translate a DOCX file, translate entire document content, and save the **save translated document** step. No external scripts or manual copy‑pasting are required—everything runs inside your .NET application.
 
 ## What you’ll need
 
@@ -64,7 +58,7 @@ Before you start, make sure you have:
 * A service‑account JSON key file (downloaded from the Google Cloud console)  
 * Visual Studio 2022 (or any C# IDE you prefer)  
 
-These prerequisites ensure the **google ai translation** calls succeed and that you can read/write DOCX files with the Open XML SDK.
+These prerequisites ensure the **Google Cloud Translation** calls succeed and that you can read/write DOCX files with the Open XML SDK.
 
 ## Set up the project and install the required SDKs
 
@@ -82,7 +76,7 @@ These prerequisites ensure the **google ai translation** calls succeed and that 
    dotnet add package DocumentFormat.OpenXml
    ```
 
-   *`Google.Cloud.Translate.V3`* provides the **google ai translation** client, while *`DocumentFormat.OpenXml`* lets you work with DOCX files without needing Microsoft Office installed.
+   *`Google.Cloud.Translate.V3`* provides the **Google Cloud Translation** client, while *`DocumentFormat.OpenXml`* lets you work with DOCX files without needing Microsoft Office installed.
 
 3. (Optional) If you prefer a higher‑level wrapper, you can also install `GroupDocs.Translator`:
 
@@ -131,7 +125,7 @@ namespace DocxFrenchTranslator
 
 **Why this matters:** Loading the file once and keeping the text in memory lets you **translate entire document** content with a single API call per paragraph, avoiding repeated file I/O.
 
-## Perform Google AI translation
+## Perform Google Cloud Translation
 
 Now that you have the original paragraphs, call the Translation API to convert each string from English (or any source language) to French. The client automatically detects the source language if you pass `null`.
 
@@ -185,7 +179,7 @@ namespace DocxFrenchTranslator
 }
 ```
 
-**Why this matters:** Using **google ai translation** in a batch request reduces latency and cost compared with one‑call‑per‑paragraph loops. The method also demonstrates the **how to translate docx** programmatically.
+**Why this matters:** Using **Google Cloud Translation** in a batch request reduces latency and cost compared with one‑call‑per‑paragraph loops. The method also demonstrates the **how to translate docx** programmatically.
 
 ## Create a new DOCX with the translated text
 
@@ -229,7 +223,7 @@ namespace DocxFrenchTranslator
 
 ## Assemble everything – the full program
 
-Below is the complete, runnable console application that ties together the previous snippets. It demonstrates **translate docx to french**, performs **google ai translation**, and finally **save translated document**.
+Below is the complete, runnable console application that ties together the previous snippets. It demonstrates **translate docx to french**, performs **Google Cloud Translation**, and finally **save translated document**.
 
 ```csharp
 using System;
@@ -256,7 +250,7 @@ namespace DocxFrenchTranslator
             Console.WriteLine($"Loaded {originalParagraphs.Count} paragraphs from input.docx.");
 
             // ------------------------------------------------------------------
-            // 2️⃣ Translate the entire document to French using Google AI
+            // 2️⃣ Translate the entire document to French using Google Cloud Translation
             // ------------------------------------------------------------------
             var frenchParagraphs = await Translator.TranslateToFrenchAsync(originalParagraphs);
             Console.WriteLine("Translation completed – document is now in French.");
@@ -290,15 +284,13 @@ Open `output_fr.docx` with Word, LibreOffice, or any viewer, and you’ll see th
 
 * Place the service‑account JSON file somewhere safe, e
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to save translated Word document in C# with Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [How to translate DOCX to French and automate document translation](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [translate docx to french with Aspose.Words and Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
+- {{< relref "how-to-save-translated-word-document-in-c-with-google-ai/_index.md" >}}
+- {{< relref "how-to-translate-docx-to-french-and-automate-document-transl/_index.md" >}}
+- {{< relref "translate-docx-to-french-with-aspose-words-and-google-api/_index.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
