@@ -110,11 +110,12 @@ Having both `docVersion1` and `docVersion2` in memory allows the comparison engi
 
 ```csharp
 // Perform the comparison
-ComparisonResult comparison = Comparer.Compare(docVersion1, docVersion2);
+docVersion1.Compare(docVersion2, "Author", DateTime.Now);
+Document comparison = docVersion1;
 ```
 
 **Why this works:**  
-`Comparer.Compare` returns a `ComparisonResult` object that contains a new `Document` where insertions are marked in green and deletions in red (the default visual style). The method automatically **detects changes in Word** such as added text, removed paragraphs, and style alterations.
+`Document.Compare` modifies the source document (`docVersion1`) to contain revision marks that indicate insertions (green) and deletions (red). The resulting document is stored back in `docVersion1`, which we expose via the `comparison` variable for clarity.
 
 ### Customizing the comparison (optional)
 
@@ -128,7 +129,8 @@ var options = new CompareOptions
     IgnoreHeadersAndFooters = false
 };
 
-ComparisonResult comparison = Comparer.Compare(docVersion1, docVersion2, options);
+docVersion1.Compare(docVersion2, "Author", DateTime.Now, options);
+Document comparison = docVersion1;
 ```
 
 These options are handy when you **compare word document versions** that differ only in cosmetic formatting.
@@ -199,7 +201,8 @@ namespace WordComparisonDemo
             };
 
             // Perform the comparison
-            ComparisonResult comparison = Comparer.Compare(docVersion1, docVersion2, options);
+            docVersion1.Compare(docVersion2, "Author", DateTime.Now, options);
+            Document comparison = docVersion1;
 
             // Save the result
             comparison.Save(outputPath);
