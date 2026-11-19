@@ -58,7 +58,6 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 | [บันทึก docx เป็น txt และส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | เรียนรู้วิธีบันทึก docx เป็น txt และส่งออกสมการ Word เป็น LaTeX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด -
 | [แปลง docx เป็น txt ด้วย C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-docx-to-txt-with-c-complete-programming-guide/) แปลง DOCX เป็น TXT ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [แปลงไฟล์ข้อความเป็นเอกสาร Word](./txt-to-docx/) | เรียนรู้วิธีการแปลงไฟล์ข้อความเป็นเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET จัดการการแปลงเอกสารอย่างมีประสิทธิภาพด้วยคู่มือที่ครอบคลุมของเรา - 
-| [แปลง Docx เป็น PDF และ Markdown – คู่มือ C# ฉบับสมบูรณ์](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | เรียนรู้วิธีแปลง DOCX เป็น PDF และ Markdown ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [บันทึกไฟล์ PDF เป็น Jpeg](./pdf-to-jpeg/) แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ
 - [บันทึก PDF เป็นรูปแบบ Word (Docx)](./pdf-to-docx/) | เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา |
 - [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือ Aspose ฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-aspose-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดที่ละเอียด -

@@ -263,7 +263,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [DOCX에서 Markdown 저장 방법 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX를 Markdown으로 변환 – Aspose.Words를 사용한 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [docx를 pdf 및 markdown으로 변환 – 완전 C# 가이드](/words/english/net/basic-conversions/convert-docx-to-pdf-and-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
