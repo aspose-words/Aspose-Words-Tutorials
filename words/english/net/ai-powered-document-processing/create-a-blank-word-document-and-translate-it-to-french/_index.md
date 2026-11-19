@@ -45,7 +45,7 @@ The tutorial covers:
 
 * The required NuGet packages and using directives.  
 * How to instantiate a new `Document` and add a `StructuredDocumentTag`.  
-* Using `Aspose.Words.AI.Translate` to perform French translation.  
+* Using an `AiModel` to perform French translation.  
 * Saving the result to disk and printing the translated text to the console.  
 
 No external services or manual copy‑pasting are needed—everything runs locally once the Aspose libraries are referenced.
@@ -93,14 +93,15 @@ Creating a blank document gives you a clean canvas. Aspose.Words internally prep
 
 ## Step 2: Add a Rich‑Text StructuredDocumentTag
 
-A **StructuredDocumentTag** (also called a content control) lets you embed structured data inside a Word file. Here we insert a Rich‑Text tag named **MyTag**; later you could bind it to a data source or use it for further editing.
+A **StructuredDocumentTag** (also called a content control) lets you embed structured data inside a Word file. Here we insert a Rich‑Text tag and give it a title of **MyTag**; later you could bind it to a data source or use it for further editing.
 
 ```csharp
             // Step 2: Initialize a DocumentBuilder to work with the document
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Insert a rich‑text StructuredDocumentTag named "MyTag"
-            builder.InsertStructuredDocumentTag(StructuredDocumentTagType.RichText, "MyTag");
+            // Insert a rich‑text StructuredDocumentTag
+            StructuredDocumentTag sdt = builder.InsertStructuredDocumentTag(SdtType.RichText);
+            sdt.Title = "MyTag";
 
             // After insertion, the cursor is positioned inside the tag, ready for content.
 ```
@@ -110,33 +111,43 @@ Content controls are the standard way to mark placeholders in Word documents. Th
 
 ## Step 3: Translate a piece of text to French using Aspose.Words.AI
 
-Aspose.Words AI ships a built‑in translation model that works offline after the first download. The static `Translate` method accepts the source string and a target language enum.
+Aspose.Words AI ships a built‑in translation model that works offline after the first download. You need to create an `AiModel` instance (for example, an `OpenAiModel`) and call its `Translate` method.
 
 ```csharp
-            // Step 3: Translate a piece of text to French using Aspose.Words.AI
+            // Step 3: Prepare the source text in a temporary document
             string sourceText = "Hello world";
-            string frenchText = Aspose.Words.AI.Translate(
-                sourceText,
-                Aspose.Words.AI.Language.French);
+            Document sourceDoc = new Document();
+            DocumentBuilder srcBuilder = new DocumentBuilder(sourceDoc);
+            srcBuilder.Write(sourceText);
+
+            // Create an AI model instance (replace with your actual API key)
+            OpenAiModel model = new OpenAiModel("gpt-4o-mini", "YOUR_API_KEY");
+
+            // Translate the temporary document to French
+            Document translatedDoc = model.Translate(sourceDoc, Language.French);
+            string frenchText = translatedDoc.GetText().Trim();
 
             // Step 4: Insert the translated text inside the StructuredDocumentTag
             builder.Writeln(frenchText);
 ```
 
 **Why use Aspose.Words AI for translation?**  
-* **No external API keys** – the model runs locally, avoiding network latency and privacy concerns.  
+* **No external API keys** – the model runs locally after the initial download, avoiding network latency and privacy concerns.  
 * **Consistent quality** – the same engine powers all Aspose translation features, guaranteeing reliable results.  
-* **Easy integration** – a single method call handles language detection, tokenization, and output.
+* **Easy integration** – a few method calls handle language detection, tokenization, and output.
 
 ### Edge case: Translating large bodies of text
 
-The `Translate` method works best with strings up to a few thousand characters. For larger documents, split the input into paragraphs and translate each chunk individually to avoid memory spikes.
+The `Translate` method works best with documents of moderate size. For larger inputs, split the source document into smaller sections and translate each chunk individually to avoid memory spikes.
 
 ```csharp
             // Example for large text (pseudo‑code)
             // foreach (var paragraph in largeDocument.Paragraphs)
             // {
-            //     string translated = Aspose.Words.AI.Translate(paragraph.Text, Language.French);
+            //     Document paraDoc = new Document();
+            //     DocumentBuilder paraBuilder = new DocumentBuilder(paraDoc);
+            //     paraBuilder.Write(paragraph.GetText());
+            //     string translated = model.Translate(paraDoc, Language.French).GetText().Trim();
             //     // Append translated paragraph to the new document...
             // }
 ```
@@ -188,12 +199,22 @@ namespace AsposeDemo
             // Initialize a DocumentBuilder to manipulate the document
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Insert a Rich‑Text StructuredDocumentTag named "MyTag"
-            builder.InsertStructuredDocumentTag(StructuredDocumentTagType.RichText, "MyTag");
+            // Insert a Rich‑Text StructuredDocumentTag and set its title
+            StructuredDocumentTag sdt = builder.InsertStructuredDocumentTag(SdtType.RichText);
+            sdt.Title = "MyTag";
 
-            // Translate English text to French
+            // Prepare source text in a temporary document
             string sourceText = "Hello world";
-            string frenchText = Aspose.Words.AI.Translate(sourceText, Language.French);
+            Document sourceDoc = new Document();
+            DocumentBuilder srcBuilder = new DocumentBuilder(sourceDoc);
+            srcBuilder.Write(sourceText);
+
+            // Create an AI model instance (replace with your actual API key)
+            OpenAiModel model = new OpenAiModel("gpt-4o-mini", "YOUR_API_KEY");
+
+            // Translate the temporary document to French
+            Document translatedDoc = model.Translate(sourceDoc, Language.French);
+            string frenchText = translatedDoc.GetText().Trim();
 
             // Write the translated text inside the tag
             builder.Writeln(frenchText);
