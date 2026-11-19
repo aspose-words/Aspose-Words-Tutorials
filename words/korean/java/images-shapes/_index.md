@@ -175,6 +175,8 @@ Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서�
 
 ### [Java를 사용하여 Word 문서에 사각형 도형 만들기](./create-rectangle-shape-in-a-word-document-using-java/)
 
+### [C#를 사용하여 Word에서 사각형 도형을 만들고 도형을 그룹화하는 방법](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

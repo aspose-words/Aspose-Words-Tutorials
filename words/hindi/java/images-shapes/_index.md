@@ -128,6 +128,11 @@ Aspose.Words C# में आकृति की छिपी हुई प्�
 
 ### [डोनट चार्ट बनाना और पाई चार्ट सम्मिलित करना](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 
+### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑शैडो‑गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
+
+### [C# का उपयोग करके Word में आयताकार आकार बनाना और आकृतियों को समूहित करना](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)
