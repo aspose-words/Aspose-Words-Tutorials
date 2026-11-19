@@ -74,21 +74,21 @@ Document sourceDocument = new Document(inputPath);
 
 ## Step 2 – Configure TxtSaveOptions (how to save txt with LaTeX)
 
-Aspose.Words uses `TxtSaveOptions` to control the plain‑text output. The key property for us is `OfficeMathExportMode`. Setting it to `OfficeMathExportMode.LaTeX` tells the engine to replace each equation with its LaTeX source.
+Aspose.Words uses `TxtSaveOptions` to control the plain‑text output. The key property for us is `OfficeMathExportMode`. Setting it to `TxtOfficeMathExportMode.Latex` tells the engine to replace each equation with its LaTeX source.
 
 ```csharp
 // Create save options that tell Aspose to export Office Math as LaTeX
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions
 {
     // This option is what lets us **convert word equations latex**
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional but handy: preserve line breaks as they appear in Word
     PreserveTableLayout = true
 };
 ```
 
-> **Pro tip:** If you ever need the equations in MathML instead, just swap `LaTeX` for `MathML`. The same **how to save txt** pattern applies.
+> **Pro tip:** If you ever need the equations in MathML instead, just swap `Latex` for `Text`. The same **how to save txt** pattern applies.
 
 ---
 
@@ -153,7 +153,7 @@ class Program
         // ---------- 3. Set up TxtSaveOptions to export equations as LaTeX ----------
         TxtSaveOptions txtSaveOptions = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
             PreserveTableLayout = true   // keeps tables looking decent in txt
         };
 
