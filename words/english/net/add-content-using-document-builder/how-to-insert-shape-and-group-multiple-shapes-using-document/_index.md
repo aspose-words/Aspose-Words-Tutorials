@@ -191,14 +191,14 @@ You can test the grouping by selecting any shape inside the group; Word will hig
 | Unexpected size because of document DPI | Aspose.Words uses points; if you think in pixels you may get mismatched dimensions. | Convert pixels to points (`points = pixels * 72 / 96`) or work directly in points. |
 | Shapes overlap unintentionally | No explicit positioning was set; Word places them sequentially. | Set `Shape.Left` and `Shape.Top` after insertion to control exact placement. |
 
-**Pro tip:** After grouping, you can retrieve the group’s `Shapes` collection (`group.Shapes`) to iterate, rename, or apply bulk formatting.
+**Pro tip:** After grouping, you can retrieve the group's child shapes via `group.GetChildNodes(NodeType.Shape, true)` to iterate, rename, or apply bulk formatting.
 
 ## Step 7: Extending the example – what’s next?
 
 Now that you know **how to insert shape**, **insert rectangle shape**, and **group multiple shapes**, you can explore:
 
 * **Animating grouped shapes** – set rotation or flip properties on the group.  
-* **Applying styles** – use `Shape.FillColor`, `Shape.LineFormat`, or `Shape.TextBox` to add labels.  
+* **Applying styles** – use `Shape.FillColor`, `Shape.Stroke.Color`, or `Shape.TextBox` to add labels.  
 * **Exporting to PDF** – the same grouped layout renders correctly when you call `doc.Save("output.pdf")`.  
 
 All of these extensions reuse the same `DocumentBuilder` workflow, keeping your code clean and maintainable.
