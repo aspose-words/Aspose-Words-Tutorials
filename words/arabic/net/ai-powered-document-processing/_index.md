@@ -84,13 +84,11 @@
 | [دليل LLM المحلي – كيفية استدعاء نموذج LLM محلي وتشغيل فحص القواعد](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | تعلم كيفية استدعاء نموذج LLM محلي وإجراء فحص القواعد النحوية باستخدام Aspose.Words. |
 | [إنشاء تقرير ملخص في C# – دليل شامل خطوة بخطوة](./create-summary-report-in-c-complete-step-by-step-guide/) | تعلم كيفية إنشاء تقرير ملخص باستخدام Aspose.Words لـ .NET بلغة C# خطوة بخطوة. |
 | [إنشاء نموذج ذكاء اصطناعي مخصص – دليل كامل للتحقق من القواعد النحوية في C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | تعلم كيفية إنشاء نموذج ذكاء اصطناعي مخصص للتحقق من القواعد النحوية في C# باستخدام Aspose.Words. |
-| [كيفية إعادة كتابة فقرة باستخدام نموذج لغة محلي في C# – دليل كامل](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | تعرّف على كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words خطوة بخطوة. |
 | [كيفية استخدام ملخص المستندات الذكي في C#](./how-to-use-an-ai-document-summarizer-in-c/) | دليل خطوة بخطوة لاستخدام ملخص المستندات المدعوم بالذكاء الاصطناعي في C# مع Aspose.Words. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
 | [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
 | [كيف تلخص مستند Word باستخدام مزودي الذكاء الاصطناعي في C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام مزودي الذكاء الاصطناعي في C#. |
-| [كيفية تلخيص مستند Word باستخدام Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام Aspose.Words AI للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية استخدام المترجم لأتمتة ترجمة المستندات في C#](./how-to-use-translator-to-automate-document-translation-in-c/) | تعلم كيفية أتمتة ترجمة مستندات Word باستخدام Aspose.Words وC# ومترجم الذكاء الاصطناعي. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./how-to-translate-docx-to-french-with-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام الذكاء الاصطناعي وC# مع Aspose.Words. |
 | [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
