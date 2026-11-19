@@ -20,7 +20,6 @@ Dieser Leitfaden beleuchtet die Vielseitigkeit der DocumentBuilder-Klasse und er
 
 {{< tutorial-card link="./build-table/" title="Erstellen Sie mit Aspose.Words ein Word-Dokument mit Tabelle" imgSrc="./build-table/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Mehrere Word-Dokumente mit Aspose.Words generieren" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-break/" title="Erstellen Sie ein mehrseitiges Word-Dokument mit Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
 

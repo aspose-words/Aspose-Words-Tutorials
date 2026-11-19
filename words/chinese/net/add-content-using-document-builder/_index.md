@@ -32,7 +32,6 @@ Aspose.Words for .NET 使开发人员能够轻松地以编程方式创建和操�
 
 {{< tutorial-card link="./insert-table-contents/" title="在 .NET 中创建带有目录的 Word 文档" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="使用 Aspose.Words 生成多个 Word 文档" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="如何使用 DocumentBuilder 在 C# 中插入形状并对多个形状进行分组" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

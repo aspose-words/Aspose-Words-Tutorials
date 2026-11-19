@@ -32,7 +32,6 @@
 
 {{< tutorial-card link="./insert-table-contents/" title="إنشاء مستند Word مع جدول المحتويات في .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="إنشاء مستندات Word متعددة باستخدام Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="كيفية إدراج شكل وتجميع عدة أشكال باستخدام DocumentBuilder في C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

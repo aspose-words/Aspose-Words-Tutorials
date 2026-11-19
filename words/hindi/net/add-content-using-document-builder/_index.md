@@ -32,7 +32,6 @@ Aspose.Words for .NET डेवलपर्स को आसानी से Wor
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET में विषय-सूची के साथ एक वर्ड दस्तावेज़ बनाएँ" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Aspose.Words के साथ कई वर्ड दस्तावेज़ उत्पन्न करें" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="DocumentBuilder का उपयोग करके C# में आकार डालना और कई आकारों को समूहित करना" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

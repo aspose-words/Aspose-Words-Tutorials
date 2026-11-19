@@ -34,7 +34,6 @@ Deze handleiding verdiept zich in de veelzijdigheid van de DocumentBuilder-klass
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Hoe een vorm in te voegen en meerdere vormen te groeperen met DocumentBuilder in C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Meerdere Word-documenten genereren met Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

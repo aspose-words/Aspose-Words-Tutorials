@@ -32,7 +32,6 @@ Den här guiden fördjupar sig i DocumentBuilder-klassens mångsidighet och täc
 
 {{< tutorial-card link="./insert-table-contents/" title="Skapa ett Word-dokument med innehållsförteckning i .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Generera flera Word-dokument med Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Hur man infogar form och grupperar flera former med DocumentBuilder i C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

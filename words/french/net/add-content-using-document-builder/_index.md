@@ -32,7 +32,6 @@ Ce guide explore la polyvalence de la classe DocumentBuilder et présente ses fo
 
 {{< tutorial-card link="./insert-table-contents/" title="Créer un document Word avec table des matières en .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Générer plusieurs documents Word avec Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Comment insérer une forme et regrouper plusieurs formes avec DocumentBuilder en C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

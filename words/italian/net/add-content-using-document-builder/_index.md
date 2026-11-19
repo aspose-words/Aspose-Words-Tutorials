@@ -32,7 +32,6 @@ Questa guida approfondisce la versatilità della classe DocumentBuilder, illustr
 
 {{< tutorial-card link="./insert-table-contents/" title="Creare un documento Word con indice in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Genera più documenti Word con Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Come inserire forme e raggruppare più forme usando DocumentBuilder in C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 
