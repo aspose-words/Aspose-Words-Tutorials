@@ -76,7 +76,7 @@ Now it's time to work with our AI model that will help us summarize the document
 
 ```csharp
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
 In this example, we’re using OpenAI’s GPT-4 Mini. Make sure your API key is correctly set in your environment variables for this to work properly.
