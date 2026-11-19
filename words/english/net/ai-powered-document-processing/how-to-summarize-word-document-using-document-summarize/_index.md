@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-11-18
-description: Generate a concise three‑sentence summary of a Word document in C# with Aspose.Words – learn how to automatically summarize Word files.
+description: A concise three‑sentence summary of a document in C# – learn automatic summarization of files.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -13,17 +13,17 @@ keywords:
 - document summarization tutorial
 language: en
 lastmod: 2026-11-18
-og_description: Generate a concise three‑sentence summary of a Word document in C# with Aspose.Words – this tutorial shows how to automatically summarize Word files.
-og_image_alt: Console window displaying a three‑sentence summary generated from a Word document
-og_title: Generate a three‑sentence summary of a Word document using Aspose.Words
+og_description: A concise three‑sentence summary of a document in C# – this tutorial shows how to automatically summarize files.
+og_image_alt: Console window displaying a three‑sentence summary generated from a document
+og_title: Three‑sentence summary of a document using .NET
 schemas:
 - author: Aspose
   dateModified: '2026-11-18'
-  description: Generate a concise three‑sentence summary of a Word document in C# with Aspose.Words – learn how to automatically summarize Word files.
-  headline: How to generate a three‑sentence summary of a Word document using Aspose.Words
+  description: A concise three‑sentence summary of a document in C# – learn automatic summarization of files.
+  headline: How to generate a three‑sentence summary of a document using Aspose.Words
   type: TechArticle
-- description: Generate a concise three‑sentence summary of a Word document in C# with Aspose.Words – learn how to automatically summarize Word files.
-  name: How to generate a three‑sentence summary of a Word document using Aspose.Words
+- description: A concise three‑sentence summary of a document in C# – learn automatic summarization of files.
+  name: How to generate a three‑sentence summary of a document using Aspose.Words
   steps:
   - name: Expected console output
     text: 'Assuming `large.docx` contains a report about quarterly sales, the console
@@ -44,7 +44,7 @@ tags:
 - Word
 - C#
 - Document processing
-title: Generate a three‑sentence summary of a Word document using Aspose.Words
+title: Three‑sentence summary of a document using .NET
 url: /net/ai-powered-document-processing/how-to-summarize-word-document-using-document-summarize/
 ---
 
