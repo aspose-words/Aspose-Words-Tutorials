@@ -53,7 +53,6 @@
 | [วิธีใช้ Translator เพื่ออัตโนมัติการแปลเอกสารใน C#](./how-to-use-translator-to-automate-document-translation-in-c/) | เรียนรู้วิธีใช้ Aspose.Words กับ Translator เพื่อแปลเอกสารโดยอัตโนมัติใน C# -
 | 
 | [สรุปเอกสาร Word ด้วย AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | เปรียบเทียบการสรุปเอกสาร Word ด้วยโมเดล OpenAI และ Gemini โดยใช้ Aspose.Words สำหรับ .NET - 
-| [วิธีโหลด Word ใน C# และเขียนย่อหน้าใหม่ด้วย AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | เรียนรู้วิธีโหลดไฟล์ Word ด้วย C# แล้วใช้ AI เพื่อเขียนทับย่อหน้าอย่างอัตโนมัติ เพิ่มประสิทธิภาพการแก้ไขเอกสาร - 
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างง่ายดาย |
 | [สรุปเอกสาร Word ด้วย C# โดยใช้โมเดล GPT แบบกำหนดเอง – คู่มือเต็ม](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# ผ่านโมเดล GPT ที่กำหนดเองโดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด -
 | [วิธีเขียนทับข้อความในเอกสาร Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อเขียนทับข้อความในไฟล์ Word อย่างมีประสิทธิภาพในขั้นตอนง่ายๆ - 

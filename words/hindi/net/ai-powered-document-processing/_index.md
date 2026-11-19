@@ -55,7 +55,6 @@
 | [Word दस्तावेज़ों में व्याकरण कैसे जांचें – पूर्ण C# गाइड](./how-to-check-grammar-in-word-documents-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ों में व्याकरण जांचने की पूरी प्रक्रिया सीखें। |
 | [स्थानीय LLM के साथ C# में व्याकरण जांचना](./how-to-check-grammar-with-a-local-llm-in-c/) | स्थानीय LLM को एकीकृत करके C# में व्याकरण जांचने की प्रक्रिया सीखें। तेज़ और सटीक सुधार के लिए। |
 | [Aspose.Words AI के साथ व्याकरण जांचें और Word दस्तावेज़ का सारांश बनाएं](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words AI का उपयोग करके व्याकरण सुधारें और दस्तावेज़ का सारांश बनाना सीखें। |
-| [C# में Word लोड करें और AI के साथ पैराग्राफ पुनर्लेखन](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# में Aspose.Words से Word लोड करके AI के साथ पैराग्राफ को पुनः लिखना सीखें। |
 | [Aspose.Words AI के साथ C# में व्याकरण जांच कैसे करें](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके C# में दस्तावेज़ों का व्याकरण कैसे जांचें, सीखें। |
 | [C# में व्याकरण जांच कैसे करें – Word दस्तावेज़ों के लिए पूर्ण गाइड](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ों में व्याकरण जांच करने की पूरी प्रक्रिया सीखें। |
 | [LLM के साथ Aspose.Words का उपयोग कैसे करें – C# में पैराग्राफ पुनर्लेखन](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | C# में Aspose.Words के साथ LLM का उपयोग करके पैराग्राफ को पुनर्लेखित करने की प्रक्रिया सीखें। |
