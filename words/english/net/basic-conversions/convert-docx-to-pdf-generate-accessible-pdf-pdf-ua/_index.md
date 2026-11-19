@@ -96,7 +96,7 @@ namespace DocxToPdfDemo
 
 ## Step 2: Choose PDF Save Options to **Generate Accessible PDF**
 
-Aspose.Words lets you specify compliance levels through `PdfSaveOptions`. Setting `Compliance` to `PdfCompliance.PdfUADocument` tells the library to embed the necessary tags, structure elements, and metadata for PDF/UA.
+Aspose.Words lets you specify compliance levels through `PdfSaveOptions`. Setting `Compliance` to `PdfCompliance.PdfUa1` tells the library to embed the necessary tags, structure elements, and metadata for PDF/UA.
 
 ```csharp
 // Step 2: Configure PDF save options for PDF/UA compliance
@@ -128,7 +128,7 @@ Console.WriteLine($"Conversion complete! PDF saved to: {destinationPath}");
 
 **What’s happening under the hood?**  
 - Aspose.Words parses the Word XML, builds an internal document model, and then streams it to the PDF writer.  
-- Because we passed the `PdfSaveOptions` with `PdfUADocument`, the writer injects the required tags automatically.  
+- Because we passed the `PdfSaveOptions` with `PdfUa1`, the writer injects the required tags automatically.  
 - The method is synchronous, so the console will pause until the file is fully written—perfect for batch jobs.
 
 ---
