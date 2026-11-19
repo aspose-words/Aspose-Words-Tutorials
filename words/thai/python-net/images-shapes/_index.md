@@ -87,6 +87,9 @@
 ### [วิธีสร้างเอกสารพร้อมสี่เหลี่ยมผืนผ้าและเงาใน Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมผืนผ้าและเงาโดยใช้ Aspose.Words สำหรับ Python
 
+### [ตัวอย่างเงารูปร่าง Aspose.Words ใน Python](./aspose-words-shape-shadow-example-in-python/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

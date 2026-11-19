@@ -33,6 +33,7 @@ Aspose.Words for Python を使ったドキュメント変換をマスターす�
 ## Python ドキュメント変換チュートリアル
 ### [How to export markdown from a DOCX using Aspose.Words for Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
 
+### [Aspose.Words for Python を使用して DOCX ファイルから Markdown を保存する方法](./how-to-save-markdown-from-a-docx-file-using-aspose-words-for/)
 
 ### [Python ドキュメント変換 - 完全ガイド](./python-document-conversion/)
 Aspose.Words for PythonでPythonドキュメント変換を学ぼう。ドキュメントの変換、操作、カスタマイズが簡単に。今すぐ生産性を向上しましょう！
@@ -281,7 +282,7 @@ Aspose.Words を使用して DOCX を PDF に変換し保存する手順を詳�
 
 ### [アクセシブル PDF の作成 – Aspose.Words 完全ガイド](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Aspose.Words を使用してアクセシブルな PDF を作成する手順を詳しく解説します。PDF のタグ付けやアクセシビリティ基準への対応が可能です。
-### [docx を txt として保存 – Python で Word の数式を LaTeX にエクスポート](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+### [docx を txt として保存 – Python で Word の数式を LaTeX にエクスポート](./save-docx-as-txt-export-word-math-to-latex-with-aspose-w/)
 Python を使用して docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする方法を解説します。
 
 ### [Python でアクセシブル PDF を生成 – 完全ステップバイステップガイド](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
@@ -309,8 +310,13 @@ PDF を保存し、DOCX を Markdown に変換する手順を Python で解説�
 ### [docx を txt に変換し、数式を LaTeX にエクスポートする方法](./how-to-convert-docx-to-txt-and-export-equations-as-latex/)
 docx を txt に変換し、数式を LaTeX 形式でエクスポートする手順を詳しく解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Aspose.Words で docx を TXT に保存 – LaTeX で Word を TXT に変換](./save-docx-as-txt-convert-word-to-txt-with-latex/)
 
+### [Aspose.Words で docx を TXT に保存 – 完全 Python ガイド](./save-docx-as-txt-with-aspose-words-complete-python-guide/)
+
+### [Aspose.Words for Python を使用して docx を txt に変換する方法](./how-to-convert-docx-to-txt-using-aspose-words-for-python/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 

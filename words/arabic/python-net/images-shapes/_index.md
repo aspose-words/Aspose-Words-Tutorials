@@ -81,6 +81,8 @@
 ### [كيفية إنشاء مستند مع شكل مستطيل وظل في بايثون](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 تعلم كيفية إنشاء مستند Word يحتوي على شكل مستطيل مع تأثير الظل باستخدام Aspose.Words لبايثون.
 
+### [مثال ظل الشكل في Aspose.Words للبايثون](./aspose-words-shape-shadow-example-in-python/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

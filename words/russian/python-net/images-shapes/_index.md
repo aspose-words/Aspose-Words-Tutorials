@@ -88,6 +88,9 @@
 ### [Как создать документ с прямоугольной фигурой и тенью в Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Узнайте, как создать документ с прямоугольником и тенью, используя Aspose.Words для Python.
 
+### [Пример тени фигуры Aspose.Words в Python](./aspose-words-shape-shadow-example-in-python/)
+Узнайте, как добавить тень к фигурам в документе Word с помощью Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

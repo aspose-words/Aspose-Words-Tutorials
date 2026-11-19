@@ -88,6 +88,8 @@ Tanuld meg, hogyan hozz létre üres Word dokumentumot, és adj árnyékot az al
 ### [Üres Word dokumentum létrehozása és árnyék hozzáadása alakzathoz – Teljes útmutató](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
 Tanuld meg, hogyan hozz létre üres Word dokumentumot, és adj árnyékot az alakzatokhoz a Python‑net és az Aspose.Words segítségével.
 
+### [Aspose.Words alakzat árnyék példája Pythonban](./aspose-words-shape-shadow-example-in-python/)
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

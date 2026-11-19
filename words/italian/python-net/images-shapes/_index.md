@@ -89,6 +89,7 @@ Scopri come aggiungere ombre alle forme in Python usando Aspose.Words, con esemp
 
 ### [Come creare un documento con una forma rettangolare e ombra in Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Scopri come creare un documento Word con una forma rettangolare e un'ombra usando Aspose.Words per Python.
+### [Esempio di ombra su forma Aspose.Words in Python](./aspose-words-shape-shadow-example-in-python/)
 
 ## Risorse aggiuntive
 

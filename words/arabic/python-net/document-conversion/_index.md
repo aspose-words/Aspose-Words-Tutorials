@@ -35,6 +35,8 @@
 تعلّم تحويل مستندات بايثون مع Aspose.Words لبايثون. حوّل، عالج، وخصّص المستندات بكل سهولة. عزّز إنتاجيتك الآن!
 ### [كيفية حفظ Markdown من Word – دليل بايثون كامل](./how-to-save-markdown-from-word-complete-python-guide/)
 تعلم كيفية استخراج وحفظ محتوى Markdown من مستندات Word باستخدام Aspose.Words لبايثون.
+### [كيفية حفظ Markdown من ملف DOCX باستخدام Aspose.Words لبايثون](./how-to-save-markdown-from-a-docx-file-using-aspose-words-for/)
+تعلم كيفية استخراج وحفظ محتوى Markdown من ملفات DOCX باستخدام Aspose.Words لبايثون.
 ### [كيفية حفظ مستند Word كـ markdown مع دعم الجداول باستخدام Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
 تعلم كيفية حفظ مستندات Word كملفات markdown مع الحفاظ على تنسيق الجداول باستخدام Aspose.Words لبايثون.
 ### [استعادة DOCX التالف وتحويل Word إلى Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
@@ -149,112 +151,10 @@
 تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
 ### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
-### [حفظ Word كـ PDF مع وضع علامات الأشكال – دليل بايثون كامل](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
-تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثن
 ### [كيفية حفظ Word كملف PDF مع وضع علامات الأشكال في بايثون](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
 تعلم كيفية حفظ مستندات Word كملفات PDF مع إضافة علامات للأشكال باستخدام Aspose.Words لبايثون.
+### [كيفية تحويل docx إلى txt باستخدام Aspose.Words لبايثون](./how-to-convert-docx-to-txt-using-aspose-words-for-python/)
+تعلم كيفية تحويل ملفات docx إلى صيغة txt باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

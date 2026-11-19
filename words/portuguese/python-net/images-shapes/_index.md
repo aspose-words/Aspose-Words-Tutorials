@@ -87,6 +87,9 @@ Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para P
 ### [Como criar documento com forma de retângulo e sombra em Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Aprenda a gerar documentos Word contendo um retângulo com sombra usando Aspose.Words para Python.
 
+### [Exemplo de sombra de forma Aspose.Words em Python](./aspose-words-shape-shadow-example-in-python/)
+Aprenda a aplicar sombra a formas em documentos Word usando Aspose.Words para Python.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação do Python-net](https://docs.aspose.com/words/python-net/)

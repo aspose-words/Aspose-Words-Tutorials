@@ -88,6 +88,8 @@ Dowiedz się, jak utworzyć pusty dokument Word i dodać cień do kształtu przy
 ### [Jak utworzyć dokument z prostokątnym kształtem i cieniem w Pythonie](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Dowiedz się, jak w Pythonie utworzyć dokument z prostokątnym kształtem i dodać cień, korzystając z Aspose.Words.
 
+### [Przykład cienia kształtu Aspose.Words w Pythonie](./aspose-words-shape-shadow-example-in-python/)
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
