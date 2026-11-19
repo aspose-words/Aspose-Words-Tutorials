@@ -39,8 +39,9 @@ schemas:
     text: 'First we need to read the `.docx` file into memory. Aspose.Words makes
       this trivial:'
   - name: Summarize the Word Document Using OpenAI
-    text: 'Aspose.Words ships with a `Summarizer` class that can delegate to different
-      AI providers. Here’s how you call it with the **generate summary OpenAI** option:'
+    text: 'Aspose.Words provides AI integration via the `OpenAiModel` class that can
+      generate summaries. Here’s how you call it with the **generate summary OpenAI**
+      option:'
   - name: Convert DOCX to TXT After Summarization
     text: 'You might wonder why we need a separate **convert docx to txt** step when
       the summary is already a string. The answer is twofold:'
@@ -71,7 +72,7 @@ In this tutorial you’ll see exactly how to **summarize a Word document** using
 
 ## What You’ll Walk Away With
 
-- A clear understanding of the `Summarizer` API (or a comparable wrapper) and how it talks to OpenAI.
+- A clear understanding of the `OpenAiModel` API and how it talks to OpenAI.
 - Step‑by‑step code that loads a `.docx`, generates a summary, and writes the result to a `.txt`.
 - Tips for handling large files, customizing prompts, and avoiding common pitfalls.
 - A complete, copy‑paste‑ready program you can execute today.
@@ -80,7 +81,7 @@ In this tutorial you’ll see exactly how to **summarize a Word document** using
 
 - .NET 6.0 or later (the code compiles with .NET 5 as well, but .NET 6 is the current LTS).
 - Access to an OpenAI API key (you’ll need to set `OPENAI_API_KEY` as an environment variable or insert it directly—see the “Pro tip” below).
-- The **Aspose.Words for .NET** NuGet package (or any library that exposes a `Document` class and a `Summarizer` helper). We'll use Aspose because it ships with a built‑in summarizer that can delegate to OpenAI.
+- The **Aspose.Words for .NET** NuGet package (or any library that exposes a `Document` class and AI integration). We'll use Aspose because it ships with a built‑in AI model wrapper that can delegate to OpenAI.
 - A text editor or IDE (Visual Studio, VS Code, Rider—your pick).
 
 Now that we’ve covered the “why,” let’s dive into the “how.”
@@ -119,32 +120,33 @@ public static Document LoadWordDocument(string path)
 
 ### Step 2: Summarize the Word Document Using OpenAI
 
-Aspose.Words ships with a `Summarizer` class that can delegate to different AI providers. Here’s how you call it with the **generate summary OpenAI** option:
+Aspose.Words provides AI integration via the `OpenAiModel` class. Here’s how you call it with the **generate summary OpenAI** option:
 
 ```csharp
-using Aspose.Words.Summarizer;   // Namespace for summarizer utilities
+using Aspose.Words.AI;   // Namespace for OpenAiModel and related types
 
 public static string SummarizeDocument(Document doc)
 {
-    // Choose the OpenAI model (you can also use Azure OpenAI or a custom endpoint)
-    var model = SummarizerModel.OpenAI;
+    // Retrieve the API key from the environment (or set it directly here).
+    string apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+    if (string.IsNullOrEmpty(apiKey))
+        throw new InvalidOperationException("OpenAI API key not found. Set the OPENAI_API_KEY environment variable.");
 
-    // Optional: tweak the prompt or token limit
-    var options = new SummarizerOptions
-    {
-        MaxTokens = 500,               // Cap the summary length
-        Prompt = "Provide a concise executive summary." // Custom prompt
-    };
+    // Create an OpenAI model instance. You can change the model name as needed.
+    var model = new OpenAiModel("gpt-4o-mini", apiKey);
 
-    // The Summarizer does the heavy lifting: extracts text, calls OpenAI, returns a string.
-    string summary = Summarizer.Summarize(doc, model, options);
-    return summary;
+    // Configure summary length. Options: VeryShort, Short, Medium, Long, VeryLong.
+    var summarizeOptions = new SummarizeOptions { SummaryLength = SummaryLength.VeryShort };
+
+    // The Summarize method returns a new Document containing the summary.
+    Document summaryDoc = model.Summarize(doc, summarizeOptions);
+
+    // Extract the plain‑text summary from the returned Document.
+    return summaryDoc.GetText();
 }
 ```
 
 > **Pro tip:** Store your OpenAI key in an environment variable named `OPENAI_API_KEY`. Aspose automatically picks it up, keeping secrets out of source control.
-
-If you’re not using Aspose, you can manually extract the raw text with `doc.GetText()` and then call the OpenAI Completion API via `HttpClient`. The principle stays the same: send the document’s content, receive a shortened version, and move on.
 
 ### Step 3: Convert DOCX to TXT After Summarization
 
@@ -202,7 +204,7 @@ Putting everything together, the following console app implements the entire wor
 using System;
 using System.IO;
 using Aspose.Words;
-using Aspose.Words.Summarizer;
+using Aspose.Words.AI;
 
 class Program
 {
@@ -229,7 +231,7 @@ class Program
             Console.WriteLine("🧠 Summary generated (≈ {0} characters).", summary.Length);
 
             // ------------------------------------------------------------------
-            // 4️⃣  Save original text and summary (convert docx to txt & save summary text file)
+            // 4️⃣  Save original text and summary as .txt files
             // ------------------------------------------------------------------
             SaveTextFiles(doc, summary, outputFolder);
             Console.WriteLine($"💾 Files written to '{outputFolder}'.");
@@ -251,16 +253,18 @@ class Program
     }
 
     // ------------------------------------------------------------
-    // Helper: Summarize using OpenAI
+    // Helper: Summarize using OpenAI via OpenAiModel
     // ------------------------------------------------------------
     public static string SummarizeDocument(Document doc)
     {
-        var options = new SummarizerOptions
-        {
-            MaxTokens = 500,
-            Prompt = "Provide a concise executive summary."
-        };
-        return Summarizer.Summarize(doc, SummarizerModel.OpenAI, options);
+        string apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+        if (string.IsNullOrEmpty(apiKey))
+            throw new InvalidOperationException("OpenAI API key not found. Set the OPENAI_API_KEY environment variable.");
+
+        var model = new OpenAiModel("gpt-4o-mini", apiKey);
+        var options = new SummarizeOptions { SummaryLength = SummaryLength.VeryShort };
+        Document summaryDoc = model.Summarize(doc, options);
+        return summaryDoc.GetText();
     }
 
     // ------------------------------------------------------------
@@ -296,11 +300,9 @@ Inside `SummaryOutput` you’ll find:
 |-------|----------------|-----|
 | **OpenAI rate‑limit errors** | Too many requests in a short burst. | Add exponential back‑off (`Task.Delay`) or batch multiple pages before summarizing. |
 | **Memory blow‑up on huge docs** | Aspose loads the whole file into RAM. | Stream pages and summarize in chunks; concatenate partial summaries. |
-| **Missing API key** | Environment variable not set. | `Environment.SetEnvironmentVariable("OPENAI_API_KEY", "sk‑…")` **or** use a `appsettings.json`
-
+| **Missing API key** | Environment variable not set. | `Environment.SetEnvironmentVariable("OPENAI_API_KEY", "sk‑…")` **or** use a `appsettings.json` configuration file. |
 
 ## What Should You Learn Next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
