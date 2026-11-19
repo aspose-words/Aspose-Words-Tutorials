@@ -57,7 +57,6 @@
 | [تحقق من قواعد مستند Word في C# – دليل برمجة كامل](./check-grammar-word-document-in-c-complete-programming-guide/) | دليل شامل لفحص قواعد مستند Word باستخدام C# و Aspose.Words، مع خطوات عملية لتصحيح الأخطاء اللغوية. |
 | [كيفية تحميل مستند Word في C# وإعادة كتابة الفقرة باستخدام الذكاء الاصطناعي](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | تعلم كيفية تحميل مستند Word في C# وإعادة صياغة الفقرات باستخدام نماذج الذكاء الاصطناعي. |
 | [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية للمستندات وتحسين جودة النص. |
-| [الاتصال بنموذج لغة كبير محلي في C# – دليل برمجة كامل](./connect-to-local-llm-in-c-complete-programming-guide/) | تعلم كيفية ربط Aspose.Words بـ LLM محلي باستخدام C# في دليل برمجة شامل. |
 | [كيفية استخدام LLM مع Aspose.Words – إعادة كتابة الفقرات في C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | تعلم كيفية دمج نموذج اللغة الكبيرة مع Aspose.Words لإعادة كتابة فقرات مستندات Word باستخدام C#. |
 | [كيفية فحص القواعد النحوية في C# – دليل كامل لمستندات Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | تعلم كيفية فحص القواعد النحوية في مستندات Word باستخدام Aspose.Words لـ .NET وC#. |
 | [تلخيص مستند Word في C# – دليل كامل باستخدام Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words لـ .NET مع نموذج Anthropic Claude في دليل شامل خطوة بخطوة. |
@@ -73,7 +72,6 @@
 | [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل خطوة بخطوة C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | تعلم كيفية استخدام نموذج لغة محلي لتلخيص مستندات Word في C# خطوة بخطوة. |
 | [تحقق من قواعد Word باستخدام Aspose.Words AI – دليل شامل](./check-word-grammar-with-aspose-words-ai-complete-guide/) | تعلم كيفية فحص قواعد مستندات Word باستخدام تقنية الذكاء الاصطناعي من Aspose.Words خطوة بخطوة. |
 | [تلخيص النص باستخدام الذكاء الاصطناعي في C# – دليل برمجة كامل](./summarize-text-with-ai-in-c-complete-programming-guide/) | دليل شامل لتلخيص النصوص باستخدام الذكاء الاصطناعي في C# مع Aspose.Words، خطوات عملية لتطبيق النماذج بسهولة. |
-| [إنشاء ملخص مستند باستخدام Aspose.Words و OpenAI](./create-document-summary-with-aspose-words-openai/) | تعلم كيفية إنشاء ملخص مستند باستخدام Aspose.Words و OpenAI بفعالية وسهولة. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words و Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words وGoogle API بسهولة. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words.AI – دليل كامل](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | دليل شامل يوضح كيفية ترجمة مستندات DOCX إلى اللغة الفرنسية باستخدام Aspose.Words.AI خطوة بخطوة. |
 | [إنشاء ملخص مستند في C# – دليل OpenAI الكامل](./create-document-summary-in-c-complete-openai-guide/) | دليل شامل يوضح كيفية إنشاء ملخص مستند باستخدام OpenAI و Aspose.Words لـ .NET في C#. |

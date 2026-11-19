@@ -53,7 +53,6 @@
 | [C# で Word 文書の文法チェック – 完全プログラミングガイド](./check-grammar-word-document-in-c-complete-programming-guide/) Aspose.Words for .NET を使用して、C# で Word 文書の文法チェックを行う完全ガイドです。 |
 | [C# で Word をロードし、AI で段落を書き換える方法](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) Aspose.Words for .NET を使用して、C# で Word 文書を読み込み、AI を活用して特定の段落を自動的に書き換える手順を解説します。 |
 | [C# で Aspose.Words AI を使って文法をチェックする方法](./how-to-check-grammar-in-c-with-aspose-words-ai/) Aspose.Words の AI 機能を活用し、C# で文書の文法エラーを自動的に検出・修正する手順を学びます。 |
-| [C# でローカル LLM に接続 – 完全プログラミングガイド](./connect-to-local-llm-in-c-complete-programming-guide/) | Aspose.Words for .NET とローカル LLM を統合し、C# で高度なテキスト生成と要約を実装する方法をステップバイステップで解説します。 |
 | [LLM を使用した Aspose.Words – C# で段落を書き換える方法](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) Aspose.Words と LLM を組み合わせ、C# で段落を書き換える手順を学び、文書を自動的に改善します。 |
 | [C# で文法チェックする方法 – Word 文書の完全ガイド](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) Aspose.Words for .NET と C# を使用して、Word 文書の文法チェックを自動化する完全ガイドです。 |
 | [C# で Word 文書を要約する – Anthropic Claude を使用した完全ガイド](./summarize-word-document-in-c-complete-guide-using-anthropic/) Anthropic Claude を活用し、C# で Word 文書を自動要約する手順をステップバイステップで解説します。 |
@@ -69,7 +68,6 @@
 | [ローカル LLM を使用した Word 文書の要約 – ステップバイステップ C# ガイド](./summarize-word-document-with-local-llm-step-by-step-c-guid/) Aspose.Words for .NET とローカル LLM を組み合わせて、Word 文書を効率的に要約する方法を学びます。 |
 | [Aspose.Words AI を使用した Word 文法チェック – 完全ガイド](./check-word-grammar-with-aspose-words-ai-complete-guide/) Aspose.Words AI を活用して Word 文書の文法エラーを自動的に検出し、修正する方法をステップバイステップで解説します。 |
 | [C# で AI によるテキスト要約 – 完全プログラミングガイド](./summarize-text-with-ai-in-c-complete-programming-guide/) Aspose.Words for .NET と C# を使い、AIでテキストを自動要約する方法をステップバイステップで解説します。 |
-| [Aspose.Words と OpenAI を使用した文書要約の作成](./create-document-summary-with-aspose-words-openai/) Aspose.Words と OpenAI の組み合わせで、文書を自動的に要約する方法をステップバイステップで学びます。 |
 | [Aspose.Words と Google API を使用して DOCX をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-and-google-api/) Aspose.Words と Google API を組み合わせて、DOCX ファイルをフランス語に自動翻訳する方法をステップバイステップで解説します。 |
 | [Aspose.Words.AI を使用した DOCX のフランス語への翻訳 – 完全ガイド](./translate-docx-to-french-with-aspose-words-ai-full-guide/) Aspose.Words.AI を活用し、DOCX ファイルをフランス語に翻訳する手順を詳しく解説します。 |
 | [C# でドキュメント要約を作成 – 完全 OpenAI ガイド](./create-document-summary-in-c-complete-openai-guide/) Aspose.Words と OpenAI を組み合わせて、C# で高精度なドキュメント要約を作成する手順を詳しく解説します。 |
