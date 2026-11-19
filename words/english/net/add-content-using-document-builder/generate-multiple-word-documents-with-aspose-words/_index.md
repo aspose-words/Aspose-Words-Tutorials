@@ -114,7 +114,7 @@ Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 ```
 
 **Why this matters:**  
-The `Document` class represents the entire Word file in memory. Loading the template once and reusing it avoids unnecessary I/O when you later **generate multiple word documents**.
+The `Document` class represents the entire Word file in memory. Here the template is loaded once only to check that it opens before you **generate multiple word documents**; `MailMerger.Execute` reads the template file itself for every record.
 
 ### Step 3: Generate each invoice – call `MailMerger.Execute` for every record
 
@@ -155,8 +155,8 @@ class Program
             new { Name = "Bob",   Amount = 678.90 }
         };
 
-        // Step 2 – load the template (the Document instance is not used directly in the loop,
-        // but loading it once ensures the file exists and can be cached by the library)
+        // Step 2 – load the template once to check that it opens
+        // (MailMerger.Execute reads the template file itself for every record)
         Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 
         // Step 3 – generate each invoice
@@ -193,7 +193,7 @@ When you **create invoices from template**, you may encounter a few issues. Belo
 
 If you plan to **batch generate word files** for thousands of records, keep these guidelines in mind:
 
-1. **Reuse the template file path** – the static `MailMerger.Execute` method reads the template each time, but the underlying library caches the file, so you only pay the I/O cost once.
+1. **Keep the template small** – the static `MailMerger.Execute` method reads the template file for every record, so its size is paid once per generated document.
 2. **Parallelise the generation** – because each call to `MailMerger.Execute` works on an independent output file, you can safely run them in parallel.
 
 ```csharp
