@@ -56,7 +56,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Word Belgelerinde Dilbilgisi Kontrolü – Tam C# Rehberi](./how-to-check-grammar-in-word-documents-complete-c-guide/) | C# kullanarak Aspose.Words ile Word belgelerindeki dilbilgisi hatalarını nasıl tespit edip düzelteceğinizi öğrenin. |
 | [Yerel LLM ile C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-with-a-local-llm-in-c/) | Aspose.Words for .NET ve yerel LLM kullanarak C#'ta belge dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
 | [Aspose.Words AI ile Dilbilgisi Kontrolü ve Word Belgesini Özetleme](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını kontrol edin ve otomatik özet oluşturun. |
-| [C# ile Word Belgesinde Dilbilgisi Kontrolü – Tam Programlama Rehberi](./check-grammar-word-document-in-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerindeki dilbilgisi hatalarını otomatik olarak kontrol etmeyi öğrenin. |
 | [C#'ta Word Dosyası Yükleme ve Paragrafı AI ile Yeniden Yazma](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# ile Word belgesini yükleyip, AI kullanarak paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
 | [C#'ta Aspose.Words AI ile Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI kullanarak C# içinde metinlerin dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
 | [C#'ta Yerel LLM'ye Bağlan – Tam Programlama Kılavuzu](./connect-to-local-llm-in-c-complete-programming-guide/) | C# kullanarak yerel LLM'ye bağlanmayı ve tam programlama rehberiyle entegrasyonu öğrenin. |
@@ -73,7 +72,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [AI ile Özet Oluşturma – C# Aspose Words Eğitimi](./create-summary-with-ai-c-aspose-words-tutorial/) | AI kullanarak C# ile Aspose.Words ile belge özetleme adımlarını öğrenin. |
 | [C#'ta Dilbilgisi Kontrolü Nasıl Yapılır – Aspose.Words ile Adım Adım Rehber](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Aspose.Words for .NET kullanarak C# dilinde metinlerin dilbilgisini kontrol etmeyi adım adım öğrenin. |
 | [Yerel LLM ile Word Belgesini Özetleme – Adım Adım C# Rehberi](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Yerel bir LLM kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi adım adım öğrenin. |
-| [Aspose.Words AI ile Word Dilbilgisini Kontrol Et – Tam Kılavuz](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 | [C# ile AI Kullanarak Metin Özetleme – Tam Programlama Kılavuzu](./summarize-text-with-ai-in-c-complete-programming-guide/) | C# ve Aspose.Words kullanarak AI destekli metin özetleme adımlarını öğrenin ve verimli sonuçlar elde edin. |
 | [Aspose.Words & OpenAI ile belge özeti oluşturma](./create-document-summary-with-aspose-words-openai/) | Aspose.Words ve OpenAI kullanarak belgeleri otomatik özetleyin ve zaman kazanın. |
 | [Aspose.Words ve Google API ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words ve Google Çeviri API'sini kullanarak docx belgelerinizi Fransızcaya otomatik olarak çevirin. |
@@ -87,7 +85,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta AI belge özetleme – tam rehber](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET ve AI modelleriyle C# kullanarak belge özetlemenin tüm adımlarını öğrenin. |
 | [C# ile AI özeti oluşturma – adım adım kılavuz](./create-ai-summary-in-c-step-by-step-guide/) | C# kullanarak AI destekli belge özetleri oluşturmayı adım adım öğrenin. |
 | [C# ile AI kullanarak docx'i Fransızcaya çevir](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx belgelerini Fransızcaya otomatik çevirin. |
-| [C#'tan OpenAI API'sini Çağırma – Word Paragraflarını Yeniden Yazmak İçin Tam Kılavuz](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | C# ile OpenAI API'sini kullanarak Word belgelerindeki paragrafları otomatik olarak yeniden yazmayı öğrenin. |
 | [C# ile Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# ve Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit etmeyi öğrenin. |
 | [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
 | [DOCX'i Fransızcaya Çevirme ve Belge Çevirisini Otomatikleştirme](./how-to-translate-docx-to-french-and-automate-document-transl/) |  |
@@ -103,7 +100,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Çevirmen Kullanarak Belge Çevirisini Otomatikleştirme](./how-to-use-translator-to-automate-document-translation-in-c/) | C# ve Aspose.Words kullanarak çevirmen API'siyle belge çevirisini otomatikleştirmeyi öğrenin. |
 | [AI Belge Özetleme ile Word Belgesini Özetleme](./summarize-word-document-with-ai-document-summarization/) | AI destekli belge özetleme kullanarak Word belgelerini etkili bir şekilde özetleyin. |
 | [AI ile C#'ta docx Dosyasını Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-ai-in-c/) | AI kullanarak C# ile docx dosyalarını Fransızcaya çevirmenin adım adım rehberi. |
-| [Aspose.Words AI ile Word Belgesine Özet Ekle](./add-summary-to-word-document-with-aspose-words-ai/) | Aspose.Words AI kullanarak bir Word belgesine otomatik özet eklemeyi öğrenin. |
 | [C# ile Word belgesini özetleme – tam Aspose.Words AI rehberi](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | C# kullanarak Word belgelerini AI ile özetlemeyi adım adım öğrenin. |
 | [Aspose.Words AI ile docx'i Fransızcaya Çevir](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx dosyalarını Fransızcaya otomatik çevirin. |
 | [Boş bir Word belgesi oluşturun ve Fransızcaya çevirin](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturun ve içeriğini Fransızcaya çevirin. |

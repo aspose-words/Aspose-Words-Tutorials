@@ -55,7 +55,6 @@
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
-| [檢查 C# Word 文件語法 – 完整程式設計指南](./check-grammar-word-document-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中檢查 Word 文件的語法錯誤，提升文件品質與寫作效率。 |
 | [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
 | [使用 Aspose.Words AI 在 C# 中檢查文法](./how-to-check-grammar-in-c-with-aspose-words-ai/) |了解如何使用 Aspose.Words AI 在 C# 中檢查文法，提升文件品質與準確性。 |
 | [在 C# 中連接本地 LLM – 完整程式指南](./connect-to-local-llm-in-c-complete-programming-guide/) |學習如何在 C# 應用程式中連接本地大型語言模型，提供完整步驟與範例代碼，提升離線 AI 能力。 |
@@ -72,7 +71,6 @@
 | [使用 AI 建立摘要 – C# Aspose Words 教學](./create-summary-with-ai-c-aspose-words-tutorial/) |使用 Aspose.Words for .NET 及 C# 透過 AI 快速生成文件摘要的完整指南。 |
 | [如何在 C# 中使用 Aspose.Words 檢查文法 – 步驟指南](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) |使用 Aspose.Words for .NET 在 C# 中自動檢查文法，提升文件品質的完整步驟指南。 |
 | [使用本地大型語言模型匯總 Word 文件 – 步驟式 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) |使用本地 LLM 於 C# 中自動匯總 Word 文件，提供完整步驟與範例程式碼。 |
-| [使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) |使用 Aspose.Words AI 在 C# 中檢查 Word 文檔的語法錯誤，提供完整步驟與範例程式碼。 |
 | [使用 C# AI 文字摘要 – 完整程式設計指南](./summarize-text-with-ai-in-c-complete-programming-guide/) |使用 Aspose.Words for .NET 結合 C# AI 模型，快速生成文件摘要的完整步驟指南。 |
 | [使用 Aspose.Words 與 OpenAI 建立文件摘要](./create-document-summary-with-aspose-words-openai/) |使用 Aspose.Words for .NET 與 OpenAI 模型，快速生成高品質文件摘要，提升文件處理效率。 |
 | [如何在 C# 中使用 OpenAI 摘要 Word 文件](./how-to-summarize-word-document-with-openai-in-c/) |使用 Aspose.Words for .NET 結合 OpenAI，在 C# 中自動生成 Word 文件摘要，提高效率。 |
@@ -84,7 +82,6 @@
 | [C# AI 文件摘要完整指南](./ai-document-summarization-in-c-complete-guide/) |使用 Aspose.Words for .NET 與 AI 技術在 C# 中實現高效文件摘要的完整指南。 |
 | [在 C# 中建立 AI 摘要 – 步驟指南](./create-ai-summary-in-c-step-by-step-guide/) |在 C# 中使用 Aspose.Words for .NET 逐步建立 AI 摘要，提升文件處理效率。 |
 | [在 C# 中使用 AI 將 docx 翻譯成法文](./translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 與 AI 在 C# 中將 docx 文件翻譯為法語，提升多語言處理效率。 |
-| [從 C# 呼叫 OpenAI API – 完整指南：改寫 Word 段落](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) |使用 C# 呼叫 OpenAI API，示範如何自動改寫 Word 文件中的段落，提高編輯效率。 |
 | [如何在 C# 中使用 Aspose.Words AI 檢查文法 – 完整指南](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) |使用 Aspose.Words AI 在 C# 中自動檢查並校正文檔語法，提升寫作品質的完整步驟指南。 |
 | [使用 AI 的 C# Word 文件摘要 – 步驟指南](./summarize-word-document-in-c-step-by-step-guide-using-ai/) |透過 Aspose.Words for .NET 與 AI，使用 C# 逐步完成 Word 文件的自動摘要。 |
 | [如何將 DOCX 翻譯成法文並自動化文件翻譯](./how-to-translate-docx-to-french-and-automate-document-transl/) |使用 Aspose.Words for .NET 將 DOCX 文件自動翻譯為法文，實現批量翻譯流程。 |
@@ -100,7 +97,6 @@
 | [如何在 C# 中使用翻譯器自動化文件翻譯](./how-to-use-translator-to-automate-document-translation-in-c/) |使用 Aspose.Words for .NET 結合翻譯器，在 C# 中自動執行文件翻譯，提高效率。 |
 | [使用 AI 文件摘要匯總 Word 文件](./summarize-word-document-with-ai-document-summarization/) |使用 Aspose.Words for .NET 與 AI 進行 Word 文件的自動摘要與匯總。 |
 | [如何在 C# 中使用 AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中自動將 DOCX 文件翻譯為法語。 |
-| [使用 Aspose.Words AI 為 Word 文件添加摘要](./add-summary-to-word-document-with-aspose-words-ai/) |使用 Aspose.Words for .NET AI 功能，快速為 Word 文件生成摘要，提高工作效率。 |
 | [在 C# 中匯總 Word 文件 – 完整的 Aspose.Words AI 指南](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) |使用 Aspose.Words for .NET 及 AI 完整步驟，於 C# 中快速匯總 Word 文件，提升效率與洞察。 |
 | [使用 Aspose.Words AI 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將 docx 文件自動翻譯為法語，快速且精準的翻譯指南。 |
 | [建立空白 Word 文件並翻譯成法文](./create-a-blank-word-document-and-translate-it-to-french/) |使用 Aspose.Words for .NET 建立空白 Word 檔案，並透過 AI 翻譯成法語。 |

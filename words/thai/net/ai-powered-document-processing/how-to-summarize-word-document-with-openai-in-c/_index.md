@@ -243,7 +243,6 @@ class Program
 
 - [สรุปเอกสาร word ใน C# – คู่มือขั้นตอนโดยใช้ AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [สรุปเอกสาร Word ใน C# ด้วยโมเดล GPT ที่กำหนดเอง – คู่มือเต็ม](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [เพิ่มสรุปลงในเอกสาร Word ด้วย Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

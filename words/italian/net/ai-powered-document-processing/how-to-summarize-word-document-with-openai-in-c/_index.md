@@ -244,7 +244,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Riassumere documento Word in C# – guida passo‑passo usando AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Riassumere documento Word in C# usando un modello GPT personalizzato – Guida completa](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Aggiungere riepilogo a documento Word con Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -244,7 +244,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [C#'ta kelime belgesini özetleme – AI kullanarak adım adım kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [C#'ta Word Belgesini Özel GPT Modeli Kullanarak Özetleme – Tam Kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Aspose.Words AI ile Word Belgesine Özet Ekleme](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -246,7 +246,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Word dokumentum összefoglalása C#‑ban – lépésről‑lépésre útmutató AI használatával](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Word dokumentum összefoglalása C#‑ban egy egyedi GPT modell használatával – Teljes útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Összefoglaló hozzáadása Word dokumentumhoz Aspose.Words AI‑val](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
