@@ -27,13 +27,17 @@ Here’s a quick C# example that shows how to load a Word document and call a hy
 
 ```csharp
 using Aspose.Words;
-using System.Threading.Tasks;
+using Aspose.Words.AI;
 
 // Load the source document
 Document doc = new Document("input.docx");
 
-// Summarize the document text using an AI service (pseudo‑code)
-string summary = await AiSummarizer.SummarizeAsync(doc.GetText());
+// Initialize the LLM model (replace with your API key)
+var llm = new AsposeLlmModel()
+    .WithApiKey("YOUR_API_KEY");
+
+// Summarize the document text using the Aspose LLM model
+string summary = llm.Summarize(doc.GetText());
 
 // Create a new document containing the summary
 Document summaryDoc = new Document();
