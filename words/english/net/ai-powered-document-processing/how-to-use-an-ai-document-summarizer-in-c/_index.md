@@ -92,13 +92,13 @@ The first functional line reads the source `.docx` file. Using `DocX` we extract
 ```csharp
 using System;
 using System.IO;
-using Xceed.Words.NET;   // DocX namespace
+using Aspose.Words;   // Aspose.Words namespace
 
 // Load the source document you want to summarize
-Document document = Document.Load("input.docx");
+Document document = new Document("input.docx");
 
 // Extract raw text for the summarizer
-string rawText = document.Text;
+string rawText = document.GetText();
 ```
 
 > **Why this step matters:** AI models work best with clean, linear text. Stripping out formatting avoids token‑limit surprises and improves summary relevance.
@@ -243,7 +243,7 @@ The exact phrasing varies with the AI provider, but the structure (≤ 5 sente
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Xceed.Words.NET;               // DocX
+using Aspose.Words;               // Aspose.Words
 using OpenAI;                       // OpenAI SDK
 using OpenAI.Chat;                  // Chat classes
 using Google.Cloud.AIPlatform.V1;   // Google Vertex AI SDK
@@ -299,8 +299,8 @@ class Program
     static void Main()
     {
         // Step 1: Load the source document you want to summarize
-        var doc = Document.Load("input.docx");
-        string rawText = doc.Text;
+        var doc = new Document("input.docx");
+        string rawText = doc.GetText();
 
         // Step 2: Choose the AI provider for summarization (OpenAI or Google)
         SummarizerProvider provider = SummarizerProvider.OpenAI; // or SummarizerProvider.Google
