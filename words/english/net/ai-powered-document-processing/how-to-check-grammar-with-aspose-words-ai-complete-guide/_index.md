@@ -43,7 +43,7 @@ schemas:
       objects, each containing a position and a human‑readable message.'
     text: '**Result aggregation:** The LLM’s responses are parsed into `GrammarIssue`
       objects, each containing a position and a human‑readable message.'
-  type: HowTo
+    type: HowTo
 tags:
 - Aspose.Words
 - C#
@@ -60,7 +60,7 @@ url: /net/ai-powered-document-processing/how-to-check-grammar-with-aspose-words-
 
 # How to Check Grammar with Aspose.Words AI – Complete Guide
 
-How to check grammar in a Word document using Aspose.Words AI is easier than you think. If you’ve ever wondered whether a self‑hosted language model can power real‑time grammar validation, you’re in the right place. In this tutorial we’ll walk through loading a .docx file, configuring a local LLM endpoint, and finally running the built‑in `GrammarChecker`. By the end you’ll know exactly **how to use GrammarChecker** in a production‑grade C# app—no cloud keys required.
+How to check grammar in a Word document using Aspose.Words AI is easier than you think. If you’ve ever wondered whether a self‑hosted language model can power real‑time grammar validation, you’re in the right place. In this tutorial we’ll walk through loading a .docx file, configuring a local LLM endpoint, and finally running the built‑in grammar checking capabilities. By the end you’ll know exactly **how to use the AI grammar checking API** in a production‑grade C# app—no cloud keys required.
 
 > **What you’ll get:** a fully working code sample, step‑by‑step explanations, and a handful of practical tips that keep you from common pitfalls. No external documentation needed; everything is right here.
 
@@ -119,11 +119,17 @@ By **configuring a self‑hosted LLM**, you keep data on‑premises and avoid th
 
 ## Run Grammar Checker Using the Local LLM
 
-With the document and model ready, the next step is to invoke the grammar engine. The static `GrammarChecker.CheckGrammar` method does the heavy lifting.
+With the document and model ready, the next step is to invoke the grammar engine. The AI model provides the `CheckGrammar` method that returns a new `Document` containing the suggested corrections as tracked changes.
 
 ```csharp
 // Execute grammar checking – the call is synchronous for simplicity.
-var grammarResult = GrammarChecker.CheckGrammar(document, llmModel);
+// The returned document contains revisions that represent the suggested fixes.
+var revisedDocument = llmModel.CheckGrammar(document, new CheckGrammarOptions
+{
+    MakeRevisions = true,          // return a document with tracked changes
+    PreserveFormatting = true,     // keep original layout
+    ImproveStylistics = false      // higher quality checking
+});
 ```
 
 ### What happens under the hood?
@@ -131,13 +137,13 @@ var grammarResult = GrammarChecker.CheckGrammar(document, llmModel);
 1. **Sentence segmentation:** Aspose.Words splits the document into individual sentences.
 2. **Prompt construction:** Each sentence is wrapped in a prompt that asks the LLM to identify grammatical issues.
 3. **Batching:** To reduce round‑trip latency, sentences are sent in batches (default size = 10).
-4. **Result aggregation:** The LLM’s responses are parsed into `GrammarIssue` objects, each containing a position and a human‑readable message.
+4. **Result aggregation:** The LLM’s responses are parsed into tracked changes (revisions) that are applied to the returned document.
 
 Because we’re **running the grammar checker** against a local model, the entire pipeline stays within your network—no data ever touches the internet.
 
 ---
 
-## How to Use GrammarChecker in Your C# Project
+## How to Use the Grammar‑Checking API in Your C# Project
 
 You might be wondering, “Do I need to reference a special NuGet package?” The answer is yes, but only two packages:
 
@@ -146,20 +152,22 @@ dotnet add package Aspose.Words
 dotnet add package Aspose.Words.AI
 ```
 
-After adding them, the `GrammarChecker` class becomes available. Here’s a quick rundown of the most useful properties on the returned `GrammarResult`:
+After adding them, the `SelfHostedLlmModel` and `CheckGrammar` method become available. The most useful information you can retrieve from the result is the collection of revisions:
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `Issues` | `IReadOnlyList<GrammarIssue>` | Collection of all detected problems. |
-| `Score` | `float` | Overall confidence score (0‑1). |
-| `ProcessingTime` | `TimeSpan` | How long the check took. |
+| `Revisions` | `RevisionCollection` | All tracked changes that represent grammar suggestions. |
+| `PageCount` | `int` | Page count of the revised document (useful for UI updates). |
+| `UpdateFields` | `bool` | Whether field updates were applied during the check. |
 
-You can also filter issues by severity if your model returns that metadata:
+You can enumerate the revisions to see where the AI detected issues:
 
 ```csharp
-var highSeverity = grammarResult.Issues
-    .Where(i => i.Severity == Severity.High);
-Console.WriteLine($"High‑severity issues: {highSeverity.Count()}");
+foreach (var revision in revisedDocument.Revisions)
+{
+    Console.WriteLine($"Revision type: {revision.RevisionType}, " +
+                      $"Location: {revision.StartNode.GetText().Trim()}");
+}
 ```
 
 ---
@@ -183,8 +191,11 @@ public async Task CheckGrammarAsync(Document doc, SelfHostedLlmModel model)
     await _semaphore.WaitAsync();
     try
     {
-        var result = await Task.Run(() => GrammarChecker.CheckGrammar(doc, model));
-        // Update UI with result.Issues …
+        var revised = await Task.Run(() => model.CheckGrammar(doc, new CheckGrammarOptions
+        {
+            MakeRevisions = true
+        }));
+        // Update UI with revised.Revisions …
     }
     finally
     {
@@ -199,27 +210,28 @@ public async Task CheckGrammarAsync(Document doc, SelfHostedLlmModel model)
 
 ## Displaying and Acting on the Results
 
-Finally, let’s print the issues to the console—just like the original snippet—but with a bit more context:
+Finally, let’s print the revisions to the console—just like the original snippet—but using the real API:
 
 ```csharp
 // Show a summary line.
-Console.WriteLine($"Issues found: {grammarResult.Issues.Count} (processed in {grammarResult.ProcessingTime.TotalSeconds:F2}s)");
+Console.WriteLine($"Revisions found: {revisedDocument.Revisions.Count}");
 
-// Iterate through each issue.
-foreach (var issue in grammarResult.Issues)
+// Iterate through each revision.
+foreach (var rev in revisedDocument.Revisions)
 {
-    // Position is a zero‑based character offset.
-    Console.WriteLine($"{issue.Position:D6}: {issue.Message} (Severity: {issue.Severity})");
+    // The revision text is the content that will be inserted or deleted.
+    string affectedText = rev.StartNode.GetText().Trim();
+    Console.WriteLine($"{rev.RevisionType}: \"{affectedText}\"");
 }
 ```
 
 The output might look like:
 
 ```
-Issues found: 3 (processed in 1.42s)
-000015: Use of passive voice – consider active construction. (Severity: Medium)
-000087: Missing article before 'apple'. (Severity: Low)
-000212: Subject‑verb agreement error: 'they is' → 'they are'. (Severity: High)
+Revisions found: 3
+Insertion: "are"
+Deletion: "is"
+Insertion: "an"
 ```
 
 You can now feed these messages back into your UI, highlight the offending text, or even offer one‑click fixes.
@@ -242,7 +254,7 @@ You can now feed these messages back into your UI, highlight the offending text,
 
 You now have a **complete, end‑to‑end solution for how to check grammar** in a .docx file using Aspose.Words AI and a **self‑hosted LLM**. We covered loading the document, **configuring a self‑hosted LLM**, **running the grammar checker**, and even **integrating the check into a real‑time workflow**. The code is ready to paste into any .NET project, and the explanations should give you the confidence to adapt it to other scenarios—like spell‑checking, style enforcement, or custom linguistic rules.
 
-What’s next? Try swapping the endpoint for a larger model, experiment with batch sizes, or hook the `GrammarIssue` list into a Rich Text editor to underline mistakes as the user types. The sky’s the limit when you **integrate a local LLM** for on‑device language intelligence.
+What’s next? Try swapping the endpoint for a larger model, experiment with batch sizes, or hook the `RevisionCollection` into a Rich Text editor to underline mistakes as the user types. The sky’s the limit when you **integrate a local LLM** for on‑device language intelligence.
 
 Happy coding, and may your documents be forever error‑free!
 
