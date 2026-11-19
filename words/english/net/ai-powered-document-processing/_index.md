@@ -33,14 +33,17 @@ using System.Threading.Tasks;
 // Load the source document
 Document doc = new Document("input.docx");
 
-// Create an Aspose LLM model for summarization (specify a preset name, e.g., "summarize")
-var model = new AsposeLlmModel("summarize");
+// Create a local Aspose LLM model from an Aspose.LLM preset class. Aspose.LLM is a
+// separate package with its own license; disposing the model releases it.
+string summary;
+using (AsposeLlmModel model = new AsposeLlmModel("Qwen25_3BPresetCpu"))
+{
+    // Summarize the document; the method returns a new Document containing the summary
+    Document summaryDoc = model.Summarize(doc);
 
-// Summarize the document; the method returns a new Document containing the summary
-Document summaryDoc = model.Summarize(doc);
-
-// Extract the summary text
-string summary = summaryDoc.GetText();
+    // Extract the summary text
+    summary = summaryDoc.GetText();
+}
 
 // Create a new document containing the summary
 Document outputDoc = new Document();
