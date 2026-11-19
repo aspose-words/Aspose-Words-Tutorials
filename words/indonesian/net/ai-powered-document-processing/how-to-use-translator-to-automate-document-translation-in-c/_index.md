@@ -195,7 +195,6 @@ Silakan bereksperimen dengan bahasa lain, menambahkan penanganan error, atau men
 
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Cara Memeriksa Tata Bahasa di DOCX dengan Aspose.Words – gunakan gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Cara Menggunakan Callback di C# – Mengonversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Dokumen Word - Cara Menghapus Konten](/words/english/net/remove-content/)
 

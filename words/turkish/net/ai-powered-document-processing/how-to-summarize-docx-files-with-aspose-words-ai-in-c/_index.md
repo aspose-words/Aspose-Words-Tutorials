@@ -294,7 +294,6 @@ Artık Aspose.Words AI özetleyici ile **how to summarize docx**'i bildiğinize 
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [DOCX'te Dilbilgisi Kontrolü Nasıl Yapılır – Aspose.Words ile – gpt-4 turbo kullanarak](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [DOCX'i Markdown'a Dönüştür – Aspose.Words Kullanarak Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [DOCX'i PDF olarak kaydet – Aspose.Words – Tam C# rehberi](/words/swedish/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

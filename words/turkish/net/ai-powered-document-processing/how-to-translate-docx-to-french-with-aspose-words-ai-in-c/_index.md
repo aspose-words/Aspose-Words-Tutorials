@@ -244,7 +244,6 @@ Bu yaklaşım, kalın, italik veya köprü biçimlendirmelerinin orijinal yazar�
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım adım açıklamalar içeren eksiksiz çalışan kod örnekleri sunar.
 
 - [C# ile DOCX’te Metin Değiştirme – Adım Adım Kılavuz](/words/english/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/)
-- [Aspose.Words ile DOCX’te Dilbilgisi Kontrolü – gpt-4 turbo kullan](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Aspose.Words – docx’i txt olarak kaydet ve Word denklemlerini LaTeX olarak dışa aktar – Tam Kılavuz](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

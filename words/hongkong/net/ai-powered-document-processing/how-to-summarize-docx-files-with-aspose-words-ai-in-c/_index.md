@@ -293,7 +293,6 @@ class Program
 
 以下教學與本指南的技術緊密相關，能進一步擴展您的 API 應用與實作方式，每篇皆提供完整可執行的程式碼範例與逐步說明：
 
-- [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [將 DOCX 轉換為 Markdown – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Spara docx som pdf med Aspose.Words – Komplett C#‑guide](/words/swedish/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
