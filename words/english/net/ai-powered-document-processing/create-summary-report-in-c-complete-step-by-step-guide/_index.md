@@ -73,7 +73,7 @@ Before any AI can work its magic, the document must be in memory. We’ll use **
 ```csharp
 using System;
 using Aspose.Words;               // NuGet: Aspose.Words
-using Aspose.Words.Summarization; // Hypothetical namespace for summarization
+using Aspose.Words.AI;            // Real namespace for AI models
 
 // Path to the source Word file – adjust to your environment
 const string sourcePath = @"C:\Reports\LongReport.docx";
@@ -100,7 +100,7 @@ catch (Exception ex)
 
 ## Step 2 – How to summarize Word with OpenAI
 
-Now that the document lives in memory, we can ask an LLM to compress it. The `Summarize` extension method accepts an implementation of `ISummarizationModel`. Here’s a minimal OpenAI wrapper:
+Now that the document lives in memory, we can ask an LLM to compress it. The `Summarize` method on the OpenAI model accepts a `Document` instance.
 
 ```csharp
 // OpenAI model wrapper – replace "YOUR_API_KEY" with a real key
@@ -118,9 +118,9 @@ class OpenAiModel : ISummarizationModel
 
 // Generate the summary
 var openAiModel = new OpenAiModel();
-var openAiSummary = document.Summarize(openAiModel);
+var openAiSummary = openAiModel.Summarize(document);
 Console.WriteLine("\n--- OpenAI Summary ---");
-Console.WriteLine(openAiSummary.Text);
+Console.WriteLine(openAiSummary);
 ```
 
 **Why OpenAI?**  
@@ -147,9 +147,9 @@ class GoogleAiModel : ISummarizationModel
 
 // Generate the Google summary
 var googleModel = new GoogleAiModel();
-var googleSummary = document.Summarize(googleModel);
+var googleSummary = googleModel.Summarize(document);
 Console.WriteLine("\n--- Google AI Summary ---");
-Console.WriteLine(googleSummary.Text);
+Console.WriteLine(googleSummary);
 ```
 
 **Why this matters:**  
@@ -170,8 +170,8 @@ static void ShowSummary(string title, string content)
 }
 
 // Use the helper for both summaries
-ShowSummary("OpenAI Generated Summary", openAiSummary.Text);
-ShowSummary("Google AI Generated Summary", googleSummary.Text);
+ShowSummary("OpenAI Generated Summary", openAiSummary);
+ShowSummary("Google AI Generated Summary", googleSummary);
 ```
 
 **Extra tip:** If you later want to write the summaries back to a Word file or send them via email, just replace the `Console.WriteLine` with file‑IO or SMTP code.
@@ -186,7 +186,7 @@ Below is the complete console application. Copy‑paste it into a new `.csproj` 
 // Program.cs
 using System;
 using Aspose.Words;
-using Aspose.Words.Summarization;
+using Aspose.Words.AI;
 
 namespace SummaryReportDemo
 {
@@ -253,38 +253,16 @@ namespace SummaryReportDemo
 
             // Generate OpenAI summary
             var openAi = new OpenAiModel();
-            var openAiSummary = document.Summarize(openAi);
+            var openAiSummary = openAi.Summarize(document.GetText());
 
             // Generate Google summary
             var googleAi = new GoogleAiModel();
-            var googleSummary = document.Summarize(googleAi);
+            var googleSummary = googleAi.Summarize(document.GetText());
 
             // **display ai summary** for both providers
-            ConsoleHelper.ShowSummary("OpenAI Generated Summary", openAiSummary.Text);
-            ConsoleHelper.ShowSummary("Google AI Generated Summary", googleSummary.Text);
+            ConsoleHelper.ShowSummary("OpenAI Generated Summary", openAiSummary);
+            ConsoleHelper.ShowSummary("Google AI Generated Summary", googleSummary);
         }
-    }
-
-    // Extension method that bridges Aspose.Words with our model interface
-    public static class SummarizationExtensions
-    {
-        public static SummaryResult Summarize(this Document doc, ISummarizationModel model)
-        {
-            // Extract raw text from the Word document
-            string rawText = doc.GetText();
-
-            // Ask the model to summarize it
-            string summary = model.Summarize(rawText);
-
-            // Wrap into a simple result object
-            return new SummaryResult { Text = summary };
-        }
-    }
-
-    // Lightweight container for summary text
-    public class SummaryResult
-    {
-        public string Text { get; set; }
     }
 }
 ```
@@ -314,7 +292,7 @@ Replace the stubbed `Summarize` methods with real HTTP calls to the respective A
 | *What if the document contains tables or images?* | `Aspose.Words` extracts plain text from tables, but ignores images. If you need image captions, pre‑process the document to add alt‑text before summarization. |
 | *Can I control summary length?* | Most LLM APIs accept a `max_tokens` or `temperature` parameter. Extend `OpenAiModel`/`GoogleAiModel` to pass those values. |
 | *What happens when the API key is invalid?* | The `Summarize` call will throw an exception. Wrap the call in a `try/catch` and fallback to a simple heuristic (e.g., first N sentences). |
-| *Is there a limit
+| *Is there a limit |
 
 
 ## What Should You Learn Next?
