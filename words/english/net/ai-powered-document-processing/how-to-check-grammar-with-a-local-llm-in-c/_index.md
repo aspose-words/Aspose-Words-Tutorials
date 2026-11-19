@@ -51,15 +51,15 @@ The first thing we need is to tell Aspose.Words about our **local llm**. This is
 using Aspose.Words;
 using Aspose.Words.AI;
 
-// Register a custom LLM endpoint – no API key required for local servers
-AiEngine.RegisterModel(
-    modelName: "local-llm",                         // identifier we’ll reference later
-    endpoint: new Uri("http://localhost:11434/api/generate"),
-    apiKey: null,                                   // local server doesn’t need a key
-    provider: AiProvider.Custom);
+// Create an OpenAI‑compatible model instance that points to the local endpoint.
+// No API key is required for a local server, so we pass an empty string.
+OpenAiModel model = new OpenAiModel("local-llm", string.Empty);
+
+// Override the default URL to point at the locally hosted LLM.
+model.Url = "http://localhost:11434/api/generate";
 ```
 
-**Why this matters:** By registering the model you give Aspose.Words a named handle (`"local-llm"`). Later, when we call `CheckGrammar`, the library knows exactly which endpoint to hit. Skipping this step forces the library to fall back to its built‑in cloud service, which defeats the purpose of a private LLM.
+**Why this matters:** By creating the `OpenAiModel` and setting its `Url`, we give Aspose.Words a handle that knows exactly which endpoint to hit. Skipping this step forces the library to fall back to its built‑in cloud service, which defeats the purpose of a private LLM.
 
 ## Step 2 – Load the Word document you want to analyze
 
@@ -77,27 +77,21 @@ Console.WriteLine($"Loaded document with {sourceDocument.GetChildNodes(NodeType.
 
 ## Step 3 – Configure grammar‑check options (set up local llm)
 
-Here we tie the previously registered model to the grammar‑checking operation.
+No additional options are required for the `OpenAiModel.CheckGrammar` method.
 
 ```csharp
-AiGrammarCheckOptions grammarOptions = new AiGrammarCheckOptions
-{
-    Model = "local-llm",               // references the name we used in RegisterModel
-    // Optional: you can tweak temperature, maxTokens, etc. if your LLM supports them
-    // Temperature = 0.7,
-    // MaxTokens = 512
-};
+// No extra options are needed; the model knows which endpoint to use.
 ```
 
-**Why we expose these options:** Different LLMs have different behavior. By exposing `Model`, Aspose.Words lets you swap between a local model and a cloud‑based one without changing any other code. This flexibility is essential when **set up local llm** environments for compliance or offline scenarios.
+**Why we expose these options:** Different LLMs have different behavior. By exposing the model’s `Url`, Aspose.Words lets you swap between a local model and a cloud‑based one without changing any other code. This flexibility is essential when **set up local llm** environments for compliance or offline scenarios.
 
 ## Step 4 – Run the AI‑driven grammar check (check grammar in word)
 
 With everything wired up, the actual grammar check is a single line.
 
 ```csharp
-// This mutates sourceDocument in place, inserting suggestions and corrections
-sourceDocument.CheckGrammar(grammarOptions);
+// Perform the grammar check; this returns a new Document containing the corrections.
+Document correctedDocument = model.CheckGrammar(sourceDocument);
 Console.WriteLine("Grammar check completed.");
 ```
 
@@ -109,11 +103,11 @@ After the AI has done its magic, you’ll want to persist the changes.
 
 ```csharp
 // Save the corrected file – you can change the format to PDF, HTML, etc.
-sourceDocument.Save("YOUR_DIRECTORY/checked.docx");
+correctedDocument.Save("YOUR_DIRECTORY/checked.docx");
 Console.WriteLine("Corrected document saved as checked.docx");
 ```
 
-**What to expect:** Open `checked.docx` in Word and you’ll see the grammar issues highlighted (or automatically corrected, depending on your `AiGrammarCheckOptions`). If you enabled tracking, you’ll also see revision marks.
+**What to expect:** Open `checked.docx` in Word and you’ll see the grammar issues highlighted (or automatically corrected, depending on the model’s response). If you enabled tracking on the model side, you’ll also see revision marks.
 
 ## Full Working Example
 
@@ -130,30 +124,21 @@ class Program
     static void Main()
     {
         // 1️⃣ Register the local LLM
-        AiEngine.RegisterModel(
-            modelName: "local-llm",
-            endpoint: new Uri("http://localhost:11434/api/generate"),
-            apiKey: null,
-            provider: AiProvider.Custom);
+        OpenAiModel model = new OpenAiModel("local-llm", string.Empty);
+        model.Url = "http://localhost:11434/api/generate";
 
         // 2️⃣ Load the source document
         string inputPath = "YOUR_DIRECTORY/input.docx";
         Document sourceDocument = new Document(inputPath);
         Console.WriteLine($"Loaded: {inputPath}");
 
-        // 3️⃣ Set up grammar‑check options (using the local model)
-        AiGrammarCheckOptions grammarOptions = new AiGrammarCheckOptions
-        {
-            Model = "local-llm"
-        };
-
-        // 4️⃣ Perform the AI‑driven grammar check
-        sourceDocument.CheckGrammar(grammarOptions);
+        // 3️⃣ Perform the AI‑driven grammar check
+        Document correctedDocument = model.CheckGrammar(sourceDocument);
         Console.WriteLine("Grammar analysis finished.");
 
-        // 5️⃣ Save the corrected document
+        // 4️⃣ Save the corrected document
         string outputPath = "YOUR_DIRECTORY/checked.docx";
-        sourceDocument.Save(outputPath);
+        correctedDocument.Save(outputPath);
         Console.WriteLine($"Corrected file saved to: {outputPath}");
     }
 }
@@ -173,17 +158,17 @@ Open `checked.docx` and you should see the grammar improvements applied automati
 
 | Question | Answer |
 |----------|--------|
-| *What if my LLM requires an API key?* | Pass the key to `apiKey` in `RegisterModel`. The same code works for both keyed and key‑less services. |
+| *What if my LLM requires an API key?* | Pass the key to the `OpenAiModel` constructor (`new OpenAiModel("model-name", "your-key")`). The same code works for both keyed and key‑less services. |
 | *Can I use a different file format?* | Absolutely. `Document.Save` accepts `.pdf`, `.html`, `.txt`, etc. Just change the extension. |
-| *What if the LLM returns an error?* | Wrap `CheckGrammar` in a try/catch; inspect `AiException` for details. Often it’s a timeout—consider increasing `grammarOptions.Timeout`. |
-| *Is the operation thread‑safe?* | The registration step is global and should be done once at startup. Subsequent `CheckGrammar` calls are safe to run in parallel as long as each uses its own `Document` instance. |
+| *What if the LLM returns an error?* | Wrap `CheckGrammar` in a try/catch; inspect `AiException` for details. Often it’s a timeout—consider increasing the model’s `Timeout` property. |
+| *Is the operation thread‑safe?* | The model instance should be created once at startup. Subsequent `CheckGrammar` calls are safe to run in parallel as long as each uses its own `Document` instance. |
 
 ## Next Steps
 
 Now that you know **how to check grammar** using a **local llm**, you might explore:
 
 - **Batch processing**: Loop over a folder of documents and run the same pipeline.
-- **Custom prompts**: Adjust the request payload by setting `grammarOptions.PromptTemplate` for style‑specific checks.
+- **Custom prompts**: Adjust the request payload by setting model‑specific properties if needed.
 - **Integration with ASP.NET Core**: Expose an API endpoint that accepts uploaded `.docx` files, runs the grammar check, and returns the corrected file.
 
 These extensions let you build a full‑featured “grammar‑as‑a‑service” platform without ever leaving your premises.

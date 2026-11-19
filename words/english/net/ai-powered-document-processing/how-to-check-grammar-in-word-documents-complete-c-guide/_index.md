@@ -58,16 +58,16 @@ That’s it—no extra DLLs, no COM interop, pure managed code.
 
 ---
 
-## Step 1: Initialize the GrammarChecker (How to Check Grammar)
+## Step 1: Initialize the AI model (How to Check Grammar)
 
-The first thing we do is create a `GrammarChecker` instance and tell it which AI model to use. Aspose currently ships with **Gpt4Turbo**, a fast, cost‑effective model that balances speed and accuracy.
+The first thing we do is create an `AiModel` instance and tell it which AI model to use. Aspose currently ships with **Gpt4Turbo**, a fast, cost‑effective model that balances speed and accuracy.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.AI;
 
 // Choose the AI model – Gpt4Turbo is the default recommendation
-GrammarChecker grammarChecker = new GrammarChecker(AiModelType.Gpt4Turbo);
+AiModel aiModel = AiModel.Create(AiModelType.Gpt4Turbo);
 ```
 
 **Why this matters:** Selecting the right model influences latency and pricing. If you have a licensing agreement for a higher‑tier model (e.g., `ClaudeInstant`), just swap the enum value. The rest of the code stays identical.
@@ -94,7 +94,7 @@ Now the magic happens. The `CheckGrammar` method analyses the whole document, in
 
 ```csharp
 // The method adds suggestions as tracked revisions automatically
-grammarChecker.CheckGrammar(inputDoc);
+aiModel.CheckGrammar(inputDoc, new CheckGrammarOptions { MakeRevisions = true });
 ```
 
 **What you’ll see:** In Word, open the saved file with “Track Changes” turned on, and every suggestion appears in the margin—just like a human editor. Under the hood, Aspose creates a `Revision` object for each insertion, deletion, or replacement.
@@ -133,15 +133,15 @@ namespace GrammarCheckDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Initialize the GrammarChecker with the desired AI model
-            GrammarChecker grammarChecker = new GrammarChecker(AiModelType.Gpt4Turbo);
+            // 1️⃣ Initialize the AI model with the desired AI model
+            AiModel aiModel = AiModel.Create(AiModelType.Gpt4Turbo);
 
             // 2️⃣ Load the Word document you want to analyze
             string inputPath = @"YOUR_DIRECTORY\input.docx";
             Document inputDoc = new Document(inputPath);
 
             // 3️⃣ Run the grammar check – suggestions are added as tracked revisions
-            grammarChecker.CheckGrammar(inputDoc);
+            aiModel.CheckGrammar(inputDoc, new CheckGrammarOptions { MakeRevisions = true });
 
             // 4️⃣ Save the document with the suggested revisions applied
             string outputPath = @"YOUR_DIRECTORY\output.docx";
@@ -161,9 +161,9 @@ namespace GrammarCheckDemo
 
 | Scenario | What to Watch For | Suggested Fix |
 |----------|-------------------|---------------|
-| **Large documents (>50 MB)** | API may hit a timeout or memory pressure. | Process the file in sections using `Document.Split` or increase the HTTP timeout via `GrammarChecker.Options`. |
+| **Large documents (>50 MB)** | API may hit a timeout or memory pressure. | Process the file in sections using `Document.ExtractPages` or increase the HTTP timeout via `AiModel.CheckGrammar` options. |
 | **Read‑only files** | `Document.Save` throws an exception. | Open the file with `new LoadOptions { LoadFormat = LoadFormat.Docx, ReadOnly = false }`. |
-| **Custom terminology** | AI might flag domain‑specific terms as errors. | Use `grammarChecker.AddUserDictionary(new[] { "FinTech", "OAuth2" })` to whitelist them. |
+| **Custom terminology** | AI might flag domain‑specific terms as errors. | Use `aiModel.AddUserDictionary(new[] { "FinTech", "OAuth2" })` to whitelist them. |
 | **Multiple languages** | Default model focuses on English. | Switch to a multilingual model (`AiModelType.Gpt4TurboMultilingual`) or run separate checks per language. |
 
 ---
@@ -174,10 +174,15 @@ namespace GrammarCheckDemo
   Absolutely. Aspose.Words AI is cross‑platform; just target `net6.0` or later and the same NuGet packages apply.
 
 - **Can I get the raw suggestions without inserting revisions?**  
-  Yes. `grammarChecker.CheckGrammar(inputDoc, out var suggestions)` returns a `List<GrammarSuggestion>` you can iterate over.
+  Yes. `aiModel.CheckGrammar(inputDoc, out var suggestions, new CheckGrammarOptions())` returns a `List<GrammarSuggestion>` you can iterate over.
 
 - **What about licensing?**  
-  You need a valid Aspose.Words license file (`Aspose.Words.lic
+  You need a valid Aspose.Words license file (`Aspose.Words.lic`). Load it at application start:
+
+  ```csharp
+  var license = new Aspose.Words.License();
+  license.SetLicense("Aspose.Words.lic");
+  ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
