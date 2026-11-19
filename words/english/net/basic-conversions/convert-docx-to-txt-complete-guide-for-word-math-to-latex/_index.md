@@ -74,7 +74,7 @@ Now comes the magic. By default, `TxtSaveOptions` would dump the raw equation ma
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This line makes sure every equation becomes LaTeX code in the txt file
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: define the encoding (UTF‑8 works for most languages)
     Encoding = System.Text.Encoding.UTF8,
@@ -85,7 +85,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 ```
 
 **Explanation**:  
-- `OfficeMathExportMode.LaTeX` → converts equations like `x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}`.  
+- `TxtOfficeMathExportMode.Latex` → converts equations like `x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}`.  
 - `Encoding.UTF8` → avoids garbled characters when the source contains non‑ASCII text (important for *plain text from Word* in multilingual environments).  
 - `PreserveTableLayout` → keeps tables readable by aligning columns with spaces.
 
@@ -122,7 +122,7 @@ If you see the “LaTeX equations detected” message, you’ve successfully **c
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
-| **Missing equations** | `OfficeMathExportMode` left at default (`Text`) | Explicitly set `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
+| **Missing equations** | `OfficeMathExportMode` left at default (`Text`) | Explicitly set `OfficeMathExportMode = TxtOfficeMathExportMode.Latex` |
 | **Garbage characters** | Wrong file encoding (e.g., default ANSI) | Use `Encoding = Encoding.UTF8` in `TxtSaveOptions` |
 | **Tables look like a wall of text** | `PreserveTableLayout` disabled | Enable `PreserveTableLayout = true` |
 | **Large documents cause OutOfMemory** | Loading whole file into memory | Stream the document (`Document doc = new Document(new FileStream(...))`) and process in chunks if needed |
@@ -157,7 +157,7 @@ class DocxToTxtConverter
         // 2️⃣ Configure save options (convert word math to LaTeX)
         TxtSaveOptions txtOptions = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
             Encoding = System.Text.Encoding.UTF8,
             PreserveTableLayout = true
         };
