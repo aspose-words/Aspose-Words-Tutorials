@@ -74,14 +74,16 @@ catch (Exception e)
 
 ## Step 4: Verify the License
 
-Once you've set the license, it's a good idea to verify that it has been applied correctly. You can do this by checking the `IsLicensed` property of the `License` class.
+Once you've set the license, it's a good idea to verify that it has been applied correctly. Since the `License` class does not expose an `IsLicensed` property, you can attempt to create a `Document` instance. If the license is active, the operation will succeed without throwing an exception.
 
 ```csharp
-if (license.IsLicensed)
+try
 {
+    // Attempt to create a document to verify that the license is applied.
+    var doc = new Document();
     Console.WriteLine("License is active.");
 }
-else
+catch (Exception)
 {
     Console.WriteLine("License is not active.");
 }
