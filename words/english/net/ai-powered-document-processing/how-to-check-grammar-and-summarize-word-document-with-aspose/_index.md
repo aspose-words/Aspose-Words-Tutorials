@@ -59,9 +59,9 @@ using Aspose.Words.AI;
 // Configure the local AI endpoint (OpenAI‑compatible)
 AiModel aiModel = new AiModel
 {
-    Endpoint = "http://localhost:8000/v1",
-    ApiKey = "dummy"               // Most local servers don’t validate this
+    Url = "http://localhost:8000/v1"
 };
+aiModel = aiModel.WithApiKey("dummy");               // Most local servers don’t validate this
 ```
 
 **Why this matters:** Aspose.Words delegates the heavy‑lifting (grammar analysis and summarization) to the AI model you provide. By pointing to a local endpoint you keep data on‑premise, avoid latency, and stay within compliance boundaries.
@@ -150,9 +150,9 @@ namespace DocAiDemo
             // -------------------------------------------------
             AiModel aiModel = new AiModel
             {
-                Endpoint = "http://localhost:8000/v1",
-                ApiKey = "dummy"
+                Url = "http://localhost:8000/v1"
             };
+            aiModel = aiModel.WithApiKey("dummy");
 
             // -------------------------------------------------
             // 2️⃣ Load the DOCX file (load docx c#)
