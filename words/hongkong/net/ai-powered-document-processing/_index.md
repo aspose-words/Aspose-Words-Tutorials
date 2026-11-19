@@ -44,7 +44,6 @@
 | [使用匯總選項](./working-with-summarize-options/) |透過我們關於整合 AI 模型以獲得快速洞察的逐步指南，學習使用 Aspose.Words for .NET 有效地總結 Word 文件。 |
 | [使用 C# 匯總 Word 文件 – 完整 AI 驅動指南](./summarize-word-document-in-c-complete-ai-powered-guide/) |透過完整的 AI 驅動指南，學習在 C# 中使用 Aspose.Words 進行 Word 文件的自動匯總與摘要。 |
 | [使用 Aspose.Words AI 在 C# 中匯總 docx 文件](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) |透過 Aspose.Words AI 在 C# 中自動匯總 docx 文件，快速獲得關鍵摘要。 |
-| [使用 Aspose.Words AI 摘要 Word 文件](./how-to-summarize-a-word-document-with-aspose-words-ai/) |透過 Aspose.Words AI 在 C# 中快速摘要 Word 文件，提高工作效率。 |
 | [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) |使用 Aspose.Words 結合 gpt-4 turbo 為 DOCX 文件執行文法檢查，提升寫作品質。 |
 | [如何使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) |使用 Aspose.Words AI 在 Word 中自動檢查文法錯誤，提升寫作品質的完整步驟指南。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-in-c-using-a-local-llm/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文法錯誤。 |
@@ -55,13 +54,11 @@
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
-| [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
 | [使用 Aspose.Words AI 在 C# 中檢查文法](./how-to-check-grammar-in-c-with-aspose-words-ai/) |了解如何使用 Aspose.Words AI 在 C# 中檢查文法，提升文件品質與準確性。 |
 | [如何使用 LLM 與 Aspose.Words – 在 C# 中改寫段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) |使用 Aspose.Words for .NET 結合大型語言模型，在 C# 中自動改寫段落以提升文件品質。 |
 | [如何在 C# 中檢查文法 – Word 文件完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) |使用 Aspose.Words for .NET 結合 AI 檢查 C# 程式碼中的文法，提升 Word 文件品質。 |
 | [在 C# 中彙總 Word 文件 – 使用 Anthropic Claude 的完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) |使用 Aspose.Words for .NET 結合 Anthropic Claude，在 C# 中高效彙總 Word 文件，提升文件處理效率。 |
 | [使用自訂 GPT 模型在 C# 中彙總 Word 文件 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) |使用 Aspose.Words for .NET 結合自訂 GPT 模型，在 C# 中快速生成 Word 文件的精確摘要。 |
-| [如何使用 Aspose.Words AI 重寫 Word 文件中的文字 – 完整指南](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) |使用 Aspose.Words AI 在 Word 文件中重新撰寫文字，提升內容品質與效率的完整步驟指南。 |
 | [如何使用 Aspose.Words 在 C# 中檢查文法 – 指南](./how-to-check-grammar-in-c-with-aspose-words-guide/) |了解如何使用 Aspose.Words 在 C# 中檢查文法，提升文件品質。 |
 | [如何在 Aspose.Words 中使用匯總 – 完整指南](./how-to-use-summarize-in-aspose-words-complete-guide/) |深入了解如何在 Aspose.Words for .NET 中使用 Summarize 功能，快速生成文件摘要的完整步驟指南。 |
 | [使用 AI 重寫段落（C#）– 如何配置本地 LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) |了解如何在 C# 中使用 Aspose.Words 結合本地大型語言模型重寫段落，提高文件編輯效率。 |
@@ -87,7 +84,6 @@
 | [本機 LLM 教學 – 如何呼叫本機 LLM 並執行文法檢查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) |學習如何在 Aspose.Words for .NET 中呼叫本機大型語言模型，執行文法檢查以提升文件品質。 |
 | [在 C# 中建立摘要報告 – 完整步驟指南](./create-summary-report-in-c-complete-step-by-step-guide/) |透過 Aspose.Words for .NET 在 C# 中一步步建立文件摘要報告，提升效率與精準度。 |
 | [建立自訂 AI 模型 – C# 文法檢查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) |使用 Aspose.Words for .NET 與自訂 AI 模型在 C# 中實作文法檢查，提升文件品質的完整步驟指南。 |
-| [如何在 C# 中使用本地 LLM 重寫段落 – 完整指南](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中重寫段落，提升內容品質與效率。 |
 | [如何在 C# 中使用 AI 文件摘要器](./how-to-use-an-ai-document-summarizer-in-c/) |使用 Aspose.Words for .NET 與 AI 模型在 C# 中自動匯總文件，提升效率。 |
 | [如何使用 Aspose.Words AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-using-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將 DOCX 文件自動翻譯為法語，提升多語言工作流程。 |
 | [如何使用 Aspose.Words AI 在 C# 中將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中將 DOCX 文件自動翻譯為法語，提升跨語言文件處理效率。 |
