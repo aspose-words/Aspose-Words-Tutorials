@@ -32,7 +32,6 @@ Aspose.Words для .NET позволяет разработчикам без у
 
 {{< tutorial-card link="./insert-table-contents/" title="Создание документа Word с оглавлением в .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Создайте несколько документов Word с помощью Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Как вставить форму и сгруппировать несколько форм с помощью DocumentBuilder в C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

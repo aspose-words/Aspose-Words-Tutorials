@@ -41,7 +41,6 @@ doc.Save("Sample.docx");
 
 {{< tutorial-card link="./insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Generate multiple word documents with Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="How to insert shape and group multiple shapes using DocumentBuilder in C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

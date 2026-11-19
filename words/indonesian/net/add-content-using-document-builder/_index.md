@@ -32,7 +32,6 @@ Panduan ini membahas fleksibilitas kelas DocumentBuilder, yang mencakup fungsi u
 
 {{< tutorial-card link="./insert-table-contents/" title="Membuat Dokumen Word dengan Daftar Isi di .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Hasilkan beberapa dokumen Word dengan Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Cara menyisipkan bentuk dan mengelompokkan beberapa bentuk menggunakan DocumentBuilder di C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 

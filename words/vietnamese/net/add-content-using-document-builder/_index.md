@@ -32,7 +32,6 @@ Hướng dẫn này đi sâu vào tính linh hoạt của lớp DocumentBuilder,
 
 {{< tutorial-card link="./insert-table-contents/" title="Tạo một tài liệu Word có mục lục trong .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
-{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Tạo nhiều tài liệu Word bằng Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-insert-shape-and-group-multiple-shapes-using-document/" title="Cách chèn hình dạng và nhóm nhiều hình dạng bằng DocumentBuilder trong C#" imgSrc="./how-to-insert-shape-and-group-multiple-shapes-using-document/images/thumb.png" >}}
 
