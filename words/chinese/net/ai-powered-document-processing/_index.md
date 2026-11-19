@@ -54,7 +54,6 @@
 | [使用 Aspose.Words AI 检查语法并汇总 Word 文档](./how-to-check-grammar-and-summarize-word-document-with-aspose/) 使用 Aspose.Words for .NET 与 AI 结合，检查文档语法并生成摘要，提高文档质量与效率。|
 | [如何在 C# 中加载 Word 并使用 AI 重写段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) 了解如何使用 Aspose.Words for .NET 在 C# 中加载 Word 文档并利用 AI 重写段落，实现智能内容编辑。|
 | [如何在 C# 中使用 Aspose.Words AI 检查语法](./how-to-check-grammar-in-c-with-aspose-words-ai/) 使用 Aspose.Words AI 在 C# 中进行语法检查，帮助您快速发现并纠正文档中的错误，提高写作质量。|
-| [在 C# 中连接本地 LLM – 完整编程指南](./connect-to-local-llm-in-c-complete-programming-guide/) 学习如何在 C# 项目中集成本地大型语言模型，实现离线 AI 文档处理。|
 | [使用 LLM 与 Aspose.Words – 在 C# 中改写段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) 学习如何在 C# 中使用大型语言模型与 Aspose.Words 结合，实现段落改写，提高文档质量。|
 | [如何在 C# 中检查语法 – Word 文档完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) 学习如何在 C# 使用 Aspose.Words 检查 Word 文档的语法，提升文档质量。|
 | [使用 Anthropic Claude 汇总 Word 文档 – C# 完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) 学习如何在 C# 中使用 Anthropic Claude 与 Aspose.Words 集成，实现高效的 Word 文档摘要。|
@@ -69,7 +68,6 @@
 | [如何在 C# 中使用 Aspose.Words 检查语法 – 步骤指南](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) 了解如何使用 Aspose.Words for .NET 在 C# 中进行语法检查，提升文档质量的分步指南。|
 | [使用本地 LLM 汇总 Word 文档 – 步骤详解 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) 使用 Aspose.Words for .NET 与本地大型语言模型结合，提供 C# 步骤指南，实现高效的 Word 文档摘要。|
 | [使用 C# AI 文本摘要 – 完整编程指南](./summarize-text-with-ai-in-c-complete-programming-guide/) 通过 Aspose.Words for .NET 与 C# 集成 AI，实现高效文本摘要，提供完整代码示例和最佳实践。|
-| [使用 Aspose.Words 与 OpenAI 创建文档摘要](./create-document-summary-with-aspose-words-openai/) 使用 Aspose.Words for .NET 与 OpenAI 模型实现高效文档摘要，快速提取关键信息。|
 | [使用 Aspose.Words 与 Google API 将 docx 翻译为法语](./translate-docx-to-french-with-aspose-words-and-google-api/) 使用 Aspose.Words for .NET 结合 Google 翻译 API，将 Word 文档快速翻译成法语，实现高效本地化。|
 | [使用 Aspose.Words.AI 将 docx 翻译为法语 – 完整指南](./translate-docx-to-french-with-aspose-words-ai-full-guide/) 使用 Aspose.Words for .NET 和 Aspose.Words.AI 将 docx 文档翻译为法语的完整指南，帮助您轻松实现多语言转换。|
 | [在 C# 中创建文档摘要 – 完整 OpenAI 指南](./create-document-summary-in-c-complete-openai-guide/) 使用 Aspose.Words for .NET 与 OpenAI 完整指南，在 C# 中创建高效的文档摘要。|

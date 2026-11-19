@@ -20,7 +20,6 @@ og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
 
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -59,19 +58,19 @@ Document doc = new Document(@"C:\Docs\input.docx");
 
 ## Step 2 – Configure Markdown Save Options
 
-Aspose.Words gives you fine‑grained control over the Markdown output. The `MarkdownEmptyParagraphExportMode` enum lets you decide whether an empty paragraph becomes a blank line, a `&nbsp;`, or is simply omitted.
+Aspose.Words gives you fine‑grained control over the Markdown output. The `MarkdownEmptyParagraphExportMode` enum lets you decide whether an empty paragraph becomes a blank line, a hard line break, or is simply omitted.
 
 ```csharp
 // Set up Markdown export options
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    // Use a blank line for empty paragraphs.
-    // Alternatives: Preserve (outputs a non‑breaking space) or Ignore.
-    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.BlankLine
+    // Use an empty line for empty paragraphs.
+    // Alternatives: MarkdownHardLineBreak (outputs a hard line break) or None (omits the paragraph).
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
 };
 ```
 
-> **Pro tip:** If you need the markdown to render exactly like the original Word layout—especially for lists or tables—`BlankLine` is usually the safest choice because most markdown parsers treat a solitary line break as a paragraph separator.
+> **Pro tip:** If you need the markdown to render exactly like the original Word layout—especially for lists or tables—`EmptyLine` is usually the safest choice because most markdown parsers treat a solitary line break as a paragraph separator.
 
 ## Step 3 – Save the Document as Markdown
 
@@ -99,7 +98,7 @@ int blankLineCount = markdown.Split('\n')
 Console.WriteLine($"Generated markdown contains {blankLineCount} blank lines.");
 ```
 
-If the count looks reasonable (i.e., it matches the number of empty paragraphs you expect), you’re good to go. Otherwise, tweak `EmptyParagraphExportMode`—`Preserve` will insert a non‑breaking space, which some parsers treat as visible content.
+If the count looks reasonable (i.e., it matches the number of empty paragraphs you expect), you’re good to go. Otherwise, tweak `EmptyParagraphExportMode`—`MarkdownHardLineBreak` will insert a hard line break, while `None` will drop the paragraph entirely.
 
 ## Common Variations & Edge Cases
 
@@ -126,10 +125,10 @@ class Program
         // 1️⃣ Load the source DOCX
         Document doc = new Document(@"C:\Docs\input.docx");
 
-        // 2️⃣ Configure Markdown options – blank line for empty paragraphs
+        // 2️⃣ Configure Markdown options – empty line for empty paragraphs
         MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.BlankLine
+            EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
         };
 
         // 3️⃣ Save as Markdown
