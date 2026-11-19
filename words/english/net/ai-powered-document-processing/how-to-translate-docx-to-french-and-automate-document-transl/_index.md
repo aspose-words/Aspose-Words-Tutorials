@@ -168,7 +168,7 @@ class Summarizer
 
 `model.Summarize()` serializes the document’s text, sends it to the OpenAI API, and returns a new `Document` that holds the model’s response. For a very long document, consider summarizing it a few pages at a time (for example with `Document.ExtractPages`) and combining the results.
 
-> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. Without it, the call throws an authentication exception. Set it once in your development environment:
+> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. The model needs the key, passed through `WithApiKey`, to call OpenAI. Set it once in your development environment:
 
 ```bash
 export OPENAI_API_KEY=sk-*********************
