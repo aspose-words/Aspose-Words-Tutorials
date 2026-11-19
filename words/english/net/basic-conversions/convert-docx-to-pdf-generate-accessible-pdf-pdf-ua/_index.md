@@ -103,7 +103,7 @@ Aspose.Words lets you specify compliance levels through `PdfSaveOptions`. Settin
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     // This flag ensures the output meets PDF/UA (Universal Accessibility) standards.
-    Compliance = PdfCompliance.PdfUADocument,
+    Compliance = PdfCompliance.PdfUa1,
 
     // Optional: you can also set other properties like ImageCompression, FontEmbeddingMode, etc.
     // For most cases the default values work fine.
@@ -184,7 +184,7 @@ namespace DocxToPdfDemo
             // 2️⃣ Set PDF/UA compliance options
             PdfSaveOptions saveOptions = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUADocument
+                Compliance = PdfCompliance.PdfUa1
                 // Uncomment the line below if you need to force font embedding
                 // FontEmbeddingMode = FontEmbeddingMode.Always
             };
