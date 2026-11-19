@@ -34,6 +34,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Tạo tài liệu Word bằng chương trình và thêm nút ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Hướng dẫn tạo tài liệu Word bằng mã và chèn nút ActiveX vào tài liệu. |
 | [Cách tạo nút gửi trong tự động hoá Word bằng C#](./how-to-create-submit-button-in-c-word-automation/) | Hướng dẫn tạo nút submit trong tự động hoá Word bằng C#. |
 | [Tạo tài liệu trống, thêm điều khiển ActiveX với tóm tắt AI](./create-blank-document-add-activex-control-with-ai-summary/) | Hướng dẫn tạo tài liệu Word trống, chèn điều khiển ActiveX và sử dụng AI để tạo tóm tắt nội dung. |
+| [Tạo tài liệu Word trống và chèn nút ActiveX](./create-a-blank-word-document-and-insert-an-activex-button/) | Hướng dẫn tạo tài liệu Word trống và chèn nút ActiveX bằng Aspose.Words cho .NET. |
 | [Thêm Nút Lệnh vào Tài Liệu Word với Aspose.Words – Hướng Dẫn Đầy Đủ](./add-command-button-to-word-document-with-aspose-words-comple/) | Hướng dẫn chi tiết cách chèn và cấu hình nút lệnh trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách thêm nút ActiveX vào tài liệu Word bằng Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Hướng dẫn chi tiết cách chèn nút ActiveX vào tài liệu Word bằng Aspose.Words cho .NET. |
 | [Chèn ví dụ OleControlType.CommandButton vào Word](./insert-olecontroltype-commandbutton-example-in-word/) | Hướng dẫn cách chèn đối tượng OleControlType.CommandButton vào tài liệu Word bằng Aspose.Words cho .NET. |

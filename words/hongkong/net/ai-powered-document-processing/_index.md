@@ -79,6 +79,7 @@
 | [使用 OpenAI API 在 C# 中匯總 Word 文件](./summarize-word-document-with-openai-api-using-c/) |使用 Aspose.Words for .NET 結合 OpenAI API，在 C# 中自動匯總 Word 文件，快速生成摘要。 |
 | [使用 Aspose.Words AI 將 docx 轉譯成法文 – 完整指南](./translate-docx-to-french-with-aspose-words-ai-full-guide/) |了解如何使用 Aspose.Words.AI 將 DOCX 文件翻譯成法文，完整步驟指引。 |
 | [如何在 C# 中使用 Google AI 保存翻譯的 Word 文件](./how-to-save-translated-word-document-in-c-with-google-ai/) |示範如何在 C# 中使用 Google AI 保存已翻譯的 Word 文件，提升自動化工作流程。 |
+| [使用 Google AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-using-google-ai/) |示範如何使用 Aspose.Words for .NET 結合 Google AI 將 docx 文件翻譯成法文，提升多語言處理效率。 |
 | [使用 C# 建立文件摘要 – 完整 OpenAI 指南](./create-document-summary-in-c-complete-openai-guide/) |使用 Aspose.Words for .NET 與 OpenAI 在 C# 中快速生成文件摘要的完整指南。 |
 | [使用 Aspose.Words AI 摘要 Word 文件 – 完整指南](./summarize-word-document-with-aspose-words-ai-full-guide/) |透過 Aspose.Words AI 完整步驟，快速將 Word 文件摘要為關鍵要點，提高工作效率。 |
 | [C# AI 文件摘要完整指南](./ai-document-summarization-in-c-complete-guide/) |使用 Aspose.Words for .NET 與 AI 技術在 C# 中實現高效文件摘要的完整指南。 |
@@ -108,6 +109,7 @@
 | [將段落翻譯成法文並更改 Word 中的圖表標籤](./translate-paragraph-to-french-and-change-chart-label-in-word/) |使用 Aspose.Words for .NET 將段落翻譯成法文，同時修改圖表標籤。 |
 | [如何在 C# 中將 docx 翻譯成法文 – 步驟說明指南](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) |使用 Aspose.Words for .NET 在 C# 中逐步將 DOCX 文件翻譯成法文的完整指南。 |
 | [如何在 C# 中使用 Google 翻譯 API 進行文字翻譯 – 步驟指南](./how-to-translate-text-with-google-translate-api-in-c-step-by/) |使用 Aspose.Words for .NET 結合 Google 翻譯 API，在 C# 中逐步實作文字翻譯。 |
+| [使用 Document.Summarize 匯總 Word 文件](./how-to-summarize-word-document-using-document-summarize/) |示範如何使用 Aspose.Words 的 Document.Summarize 方法在 C# 中自動匯總 Word 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

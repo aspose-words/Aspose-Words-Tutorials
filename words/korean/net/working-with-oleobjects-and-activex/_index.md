@@ -43,6 +43,7 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 | [C# Word 자동화에서 제출 버튼 만들기](./how-to-create-submit-button-in-c-word-automation/) | Aspose.Words for .NET을 사용하여 C#에서 Word 자동화 시 제출 버튼을 생성하는 방법을 단계별로 안내합니다. |
 | [C#를 사용하여 ActiveX 명령 버튼이 포함된 Word 문서 만들기](./how-to-create-word-document-c-with-an-activex-command-button/) | Aspose.Words for .NET을 사용해 C#로 ActiveX 명령 버튼이 포함된 Word 문서를 만드는 단계별 가이드 |
 | [프로그래밍으로 워드 문서를 만들고 ActiveX 버튼 추가](./create-word-document-programmatically-and-add-activex-button/) | Aspose.Words for .NET을 사용하여 프로그래밍으로 워드 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다. |
+| [빈 Word 문서를 만들고 ActiveX 버튼 삽입](./create-a-blank-word-document-and-insert-an-activex-button/) | Aspose.Words for .NET을 사용해 빈 Word 문서를 만들고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

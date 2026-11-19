@@ -53,7 +53,7 @@
 | [Word 문서에서 문법 검사하는 방법 – 완전한 C# 가이드](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Aspose.Words for .NET과 C#를 사용해 Word 문서의 문법을 검사하는 방법을 단계별로 안내합니다. |
 | [C# 로컬 LLM으로 문법 검사하는 방법](./how-to-check-grammar-with-a-local-llm-in-c/) | Aspose.Words for .NET와 로컬 LLM을 사용하여 C#에서 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words AI로 문법 검사 및 Word 문서 요약하는 방법](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words for .NET을 사용하여 문법을 검사하고 문서를 요약하는 방법을 단계별로 안내합니다. |
-| [C#을 사용한 Word 문서 문법 검사 – 완전 프로그래밍 가이드](./check-grammar-word-document-in-c-complete-programming-guide/) | C#과 Aspose.Words를 활용하여 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
+| [C#를 사용한 Word 문서 문법 검사 – 완전 프로그래밍 가이드](./check-grammar-word-document-in-c-complete-programming-guide/) | C#와 Aspose.Words를 활용하여 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [C#에서 Word를 로드하고 AI로 단락을 재작성하는 방법](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서를 로드하고 AI로 단락을 자동 재작성하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words AI로 문법 검사하는 방법](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C# 코드에서 문법 오류를 자동으로 감지하고 교정하는 단계별 가이드. |
 | [C#에서 로컬 LLM에 연결 – 완전 프로그래밍 가이드](./connect-to-local-llm-in-c-complete-programming-guide/) | C#을 사용해 로컬 LLM에 연결하고 활용하는 방법을 단계별로 안내합니다. |
@@ -75,6 +75,7 @@
 | [Aspose.Words와 OpenAI로 문서 요약 만들기](./create-document-summary-with-aspose-words-openai/) | Aspose.Words for .NET과 OpenAI를 활용해 문서 요약을 구현하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words와 Google API로 DOCX를 프랑스어로 번역](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words와 Google 번역 API를 활용해 DOCX 파일을 프랑스어로 자동 변환하는 방법을 단계별로 안내합니다. |
 | [Google AI를 사용하여 C#에서 번역된 Word 문서를 저장하는 방법](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI를 활용해 C#에서 번역된 Word 문서를 저장하는 단계별 가이드입니다. |
+| [Google AI를 사용하여 docx를 프랑스어로 번역하는 방법](./how-to-translate-docx-to-french-using-google-ai/) | Google AI를 활용해 docx 파일을 프랑스어로 자동 번역하는 단계별 가이드입니다. |
 | [Aspose.Words AI로 DOCX를 프랑스어로 번역](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words와 AI를 활용해 DOCX 문서를 프랑스어로 자동 번역하는 단계별 가이드입니다. |
 | [빈 Word 문서를 만들고 프랑스어로 번역하기](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET을 사용해 빈 Word 문서를 만든 뒤 프랑스어로 번역하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words AI를 사용하여 문자열을 스페인어로 번역하기](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C#에서 문자열을 스페인어로 자동 번역하는 방법을 단계별로 안내합니다. |
@@ -85,6 +86,7 @@
 | [OpenAI를 사용한 C# Word 문서 요약 방법](./how-to-summarize-word-document-with-openai-in-c/) | OpenAI와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
 | [OpenAI API를 사용하여 C#로 Word 문서 요약하기](./summarize-word-document-with-openai-api-using-c/) | OpenAI API와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 자동으로 요약하는 단계별 가이드입니다. |
 | [C#에서 Google 번역 API로 텍스트 번역하기 – 단계별 가이드](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Google 번역 API를 사용해 C#에서 텍스트를 번역하는 방법을 단계별로 안내합니다. |
+| [Document.Summarize를 사용하여 Word 문서 요약하기](./how-to-summarize-word-document-using-document-summarize/) | Aspose.Words for .NET의 Document.Summarize 기능을 활용해 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

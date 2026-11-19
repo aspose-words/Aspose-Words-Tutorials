@@ -76,6 +76,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Tóm tắt văn bản bằng AI trong C# – Hướng dẫn lập trình đầy đủ](./summarize-text-with-ai-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt văn bản trong C# một cách hiệu quả. |
 | [Tạo tóm tắt tài liệu với Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Hướng dẫn tạo tóm tắt tài liệu Word bằng Aspose.Words và OpenAI, tích hợp AI để nhanh chóng nhận được nội dung cốt lõi. |
 | [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words và Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Hướng dẫn dịch file Word sang tiếng Pháp bằng Aspose.Words và Google API, tích hợp AI nhanh chóng. |
+| [Cách dịch docx sang tiếng Pháp bằng Google AI](./how-to-translate-docx-to-french-using-google-ai/) | Hướng dẫn sử dụng Google AI để dịch tài liệu DOCX sang tiếng Pháp nhanh chóng và chính xác. |
 | [Dịch docx sang tiếng Pháp với Aspose.Words.AI – Hướng dẫn đầy đủ](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words.AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
 | [Tạo bản tóm tắt tài liệu bằng C# – Hướng dẫn đầy đủ OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và OpenAI để tạo bản tóm tắt tài liệu bằng C#. |
 | [Tóm tắt tài liệu Word bằng Aspose.Words AI – Hướng dẫn đầy đủ](./summarize-word-document-with-aspose-words-ai-full-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words AI để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
@@ -132,7 +133,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách lưu tài liệu Word đã dịch trong C# với Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Hướng dẫn lưu tài liệu Word đã dịch bằng C# sử dụng Google AI. |
 | [Cách dịch văn bản bằng Google Translate API trong C# – hướng dẫn từng bước](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Hướng dẫn chi tiết cách sử dụng Google Translate API trong C# để dịch văn bản từng bước. |
 | [Tóm tắt tài liệu Word bằng API OpenAI sử dụng C#](./summarize-word-document-with-openai-api-using-c/) | Hướng dẫn sử dụng API OpenAI trong C# để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
-
+| [Cách tóm tắt tài liệu Word bằng Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Hướng dẫn sử dụng phương thức Document.Summarize trong Aspose.Words để tóm tắt tài liệu Word một cách nhanh chóng. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -72,6 +72,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Ringkas Teks dengan AI di C# – Panduan Pemrograman Lengkap](./summarize-text-with-ai-in-c-complete-programming-guide/) | Pelajari cara meringkas teks menggunakan AI di C# dengan Aspose.Words, panduan lengkap langkah demi langkah. |
 | [Buat Ringkasan Dokumen dengan Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan Aspose.Words untuk .NET dan model OpenAI. |
 | [Menerjemahkan docx ke Bahasa Prancis dengan Aspose.Words dan Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Pelajari cara menerjemahkan dokumen DOCX ke bahasa Prancis secara otomatis menggunakan Aspose.Words untuk .NET dan Google API. |
+| [Cara menerjemahkan docx ke bahasa Prancis menggunakan Google AI](./how-to-translate-docx-to-french-using-google-ai/) | Pelajari cara menerjemahkan file DOCX ke bahasa Prancis secara otomatis menggunakan Google AI dengan Aspose.Words. |
 | [Menerjemahkan docx ke bahasa Prancis dengan Aspose.Words.AI – Panduan Lengkap](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Pelajari cara menggunakan Aspose.Words.AI untuk menerjemahkan file docx ke bahasa Prancis secara otomatis dalam pandian lengkap. |
 | [Cara menerjemahkan docx ke bahasa Prancis dalam C# – panduan langkah demi langkah](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Pelajari cara menerjemahkan file DOCX ke bahasa Prancis menggunakan C# dengan panduan langkah demi langkah. |
 | [Buat Ringkasan Dokumen dalam C# – Panduan Lengkap OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan OpenAI dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
@@ -107,6 +108,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Meringkas Dokumen Word dengan OpenAI di C#](./how-to-summarize-word-document-with-openai-in-c/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan OpenAI dengan C#. |
 | [Ringkas dokumen Word dengan API OpenAI menggunakan C#](./summarize-word-document-with-openai-api-using-c/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan API OpenAI dengan C#. |
 | [Cara menerjemahkan teks dengan Google Translate API di C# – panduan langkah demi langkah](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Pelajari cara menggunakan Google Translate API di C# untuk menerjemahkan teks secara otomatis dengan panduan langkah demi langkah. |
+| [Cara Meringkas Dokumen Word menggunakan Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan Document.Summarize di Aspose.Words untuk .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

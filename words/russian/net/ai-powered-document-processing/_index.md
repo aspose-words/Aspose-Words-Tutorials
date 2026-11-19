@@ -75,6 +75,7 @@
 | [Создание резюме документа с Aspose.Words и OpenAI](./create-document-summary-with-aspose-words-openai/) | Узнайте, как использовать Aspose.Words для .NET совместно с OpenAI для автоматического создания резюме документов. |
 | [Перевод DOCX на французский с Aspose.Words и Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Узнайте, как использовать Aspose.Words для .NET совместно с Google API для автоматического перевода файлов DOCX на французский язык. |
 | [Перевод docx на французский с Aspose.Words.AI – Полное руководство](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Узнайте, как с помощью Aspose.Words.AI автоматически переводить файлы DOCX на французский язык. |
+| [Как перевести docx на французский с помощью Google AI](./how-to-translate-docx-to-french-using-google-ai/) | Узнайте, как с помощью Google AI автоматически переводить файлы DOCX на французский язык. |
 | [Создание резюме документа в C# – Полное руководство по OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Подробное руководство по использованию OpenAI в C# для создания резюме документов с Aspose.Words. |
 | [Резюмирование документа Word с помощью Aspose.Words AI – Полное руководство](./summarize-word-document-with-aspose-words-ai-full-guide/) | Полное руководство по использованию Aspose.Words AI для создания резюме Word‑документов. |
 | [AI‑резюмирование документов в C# – полное руководство](./ai-document-summarization-in-c-complete-guide/) | Полное руководство по использованию Aspose.Words для .NET и AI‑моделей для резюмирования документов в C#. |
@@ -109,6 +110,7 @@
 | [Как сохранить переведённый документ Word в C# с помощью Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Узнайте, как с помощью Aspose.Words и Google AI сохранять переведённые документы Word в C#. |
 | [Как резюмировать документ Word с OpenAI в C#](./how-to-summarize-word-document-with-openai-in-c/) | Пошаговое руководство по использованию OpenAI для создания резюме Word‑документов в C# с Aspose.Words. |
 | [Резюмирование документа Word с OpenAI API на C#](./summarize-word-document-with-openai-api-using-c/) |  |
+| [Как резюмировать документ Word с помощью Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Пошаговое руководство по использованию метода Document.Summarize для создания резюме Word‑документов. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

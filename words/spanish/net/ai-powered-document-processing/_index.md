@@ -108,7 +108,9 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Traducir párrafo al francés y cambiar la etiqueta del gráfico en Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aprenda a traducir párrafos al francés y modificar etiquetas de gráficos en documentos Word usando Aspose.Words para .NET. |
 | [Cómo traducir docx a francés en C# – guía paso a paso](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda a traducir archivos DOCX al francés en C# paso a paso usando Aspose.Words. |
 | [Cómo guardar un documento Word traducido en C# con Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Aprenda a guardar documentos Word traducidos usando C# y la IA de Google con Aspose.Words. |
+| [Cómo traducir docx a francés usando Google IA](./how-to-translate-docx-to-french-using-google-ai/) | Aprenda a traducir documentos DOCX al francés utilizando la IA de Google con Aspose.Words para .NET. |
 | [Cómo traducir texto con la API de Google Translate en C# – guía paso a paso](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Aprenda a traducir texto en C# usando la API de Google Translate con una guía paso a paso. |
+| [Cómo resumir un documento Word usando Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Aprenda a resumir documentos Word usando la función Document.Summarize de Aspose.Words para .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
