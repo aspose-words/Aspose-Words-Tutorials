@@ -85,7 +85,6 @@ class Program
 
 Následující návody se zabývají úzce souvisejícími tématy, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní přístupy ve vlastních projektech.
 
-- [Shrňte Word dokument v C# pomocí Aspose.Words API – Kompletní AI‑poháněný průvodce](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Vytvořte nový Word dokument](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Vytvořte Word dokument s tabulkou pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

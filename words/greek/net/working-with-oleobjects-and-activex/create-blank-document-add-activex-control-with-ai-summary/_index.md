@@ -84,7 +84,6 @@ class Program
 
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε επιπλέον δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Σύνοψη εγγράφου Word σε C# με το Aspose.Words API – Πλήρης Οδηγός με AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Δημιουργία Νέου Εγγράφου Word](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Δημιουργία Εγγράφου Word με Πίνακα Χρησιμοποιώντας Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

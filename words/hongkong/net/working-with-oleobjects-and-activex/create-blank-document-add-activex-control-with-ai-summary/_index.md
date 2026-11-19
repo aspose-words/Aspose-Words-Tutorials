@@ -80,7 +80,6 @@ class Program
 
 以下教學涵蓋與本指南示範技術密切相關的主題。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [使用 Aspose.Words API 的 C# Word 文件摘要 – 完整 AI 驅動指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [建立新 Word 文件](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [使用 Aspose.Words 建立含表格的 Word 文件](/words/english/net/add-content-using-document-builder/build-table/)
 

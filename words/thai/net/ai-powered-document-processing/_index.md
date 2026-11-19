@@ -45,7 +45,6 @@
 | [วิธีสรุปเอกสาร Word ด้วย OpenAI ใน C#](./how-to-summarize-word-document-with-openai-in-c/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย OpenAI ใน C# อย่างละเอียดและง่ายดาย -
 | [การทำงานกับตัวเลือกการสรุป](./working-with-summarize-options/) | เรียนรู้การสรุปเอกสาร Word ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนในการบูรณาการโมเดล AI เพื่อรับข้อมูลเชิงลึกอย่างรวดเร็ว -
 - [วิธีตรวจสอบไวยากรณ์ด้วย LLM ภายในเครื่องใน C#](./how-to-check-grammar-with-a-local-llm-in-c/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องกับ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างมีประสิทธิภาพ -
-| [สรุปเอกสาร Word ด้วย C# – คู่มือเต็มรูปแบบที่ขับเคลื่อนด้วย AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# โดยใช้ AI อย่างเต็มที่ในคู่มือขั้นตอนเดียว -
 | [วิธีตรวจสอบไวยากรณ์ใน Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ -
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย LLM ภายในเครื่อง](./how-to-check-grammar-in-c-using-a-local-llm/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องตรวจสอบไวยากรณ์โค้ด C# ของคุณอย่างแม่นยำด้วย Aspose.Words -
 - [วิธีตรวจสอบไวยากรณ์ในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-check-grammar-in-word-documents-complete-c-guide/) | เรียนรู้การใช้ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word ด้วย C# อย่างง่ายดาย -
@@ -55,7 +54,6 @@
 | [สรุปเอกสาร Word ด้วย AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | เปรียบเทียบการสรุปเอกสาร Word ด้วยโมเดล OpenAI และ Gemini โดยใช้ Aspose.Words สำหรับ .NET - 
 | [วิธีโหลด Word ใน C# และเขียนย่อหน้าใหม่ด้วย AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | เรียนรู้วิธีโหลดไฟล์ Word ด้วย C# แล้วใช้ AI เพื่อเขียนทับย่อหน้าอย่างอัตโนมัติ เพิ่มประสิทธิภาพการแก้ไขเอกสาร - 
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างง่ายดาย |
-| [สรุปเอกสาร Word ด้วย C# โดยใช้โมเดล GPT แบบกำหนดเอง – คู่มือเต็ม](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# ผ่านโมเดล GPT ที่กำหนดเองโดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด -
 | [วิธีเขียนทับข้อความในเอกสาร Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อเขียนทับข้อความในไฟล์ Word อย่างมีประสิทธิภาพในขั้นตอนง่ายๆ - 
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words – คู่มือ](./how-to-check-grammar-in-c-with-aspose-words-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในไฟล์ C# อย่างง่ายและรวดเร็ว -
 | [วิธีใช้ Summarize ใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-use-summarize-in-aspose-words-complete-guide/) | เรียนรู้วิธีใช้ฟีเจอร์ Summarize ใน Aspose.Words สำหรับ .NET เพื่อสรุปเอกสารอย่างแม่นยำและรวดเร็ว -
@@ -124,7 +122,6 @@
 | [วิธีสรุปเอกสาร Word ด้วยผู้ให้บริการ AI ใน C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับผู้ให้บริการ AI ต่างๆ เพื่อสรุปเอกสาร Word ด้วย C# - 
 | [สรุปเอกสาร Word ด้วยการสรุปโดย AI](./summarize-word-document-with-ai-document-summarization/) | เรียนรู้วิธีสรุปเอกสาร Word อย่างมีประสิทธิภาพด้วย AI - 
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย AI ใน C#](./how-to-translate-docx-to-french-with-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words กับ AI เพื่อแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# - 
-| [สรุปเอกสาร Word ด้วย C# – คู่มือ Aspose.Words AI ฉบับสมบูรณ์](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | เรียนรู้วิธีสรุปเอกสาร Word ด้วย C# โดยใช้ Aspose.Words และ AI อย่างละเอียด |
 | [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | เรียนรู้วิธีแปลเอกสาร Word เป็นภาษาฝรั่งเศสโดยใช้ Aspose.Words AI อย่างง่ายและรวดเร็ว |
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | เรียนรู้วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน -
 | [สรุปเอกสาร Word ด้วย OpenAI API โดยใช้ C#](./summarize-word-document-with-openai-api-using-c/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย OpenAI API ใน C# อย่างง่ายและรวดเร็ว -

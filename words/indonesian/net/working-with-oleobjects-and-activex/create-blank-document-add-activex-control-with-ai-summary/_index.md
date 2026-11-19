@@ -83,7 +83,6 @@ class Program
 
 Tutorial berikut mencakup topik yang sangat terkait dan membangun pada teknik yang ditunjukkan dalam panduan ini. Setiap sumber daya menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Ringkas Dokumen Word dalam C# dengan Aspose.Words API – Panduan AI‑Powered Lengkap](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Buat Dokumen Word Baru](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Buat Dokumen Word dengan Tabel Menggunakan Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
