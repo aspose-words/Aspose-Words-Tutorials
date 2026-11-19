@@ -64,27 +64,38 @@ string rawText = doc.GetText();
 
 ### Step 2: Connect to Your Self‑Hosted LLM  
 
-Aspose.Words.AI ships a thin wrapper (`SelfHostedLLM`) that talks to any OpenAI‑compatible service. Point it at your local server.
+Aspose.Words.AI uses the `AiModel` hierarchy to talk to OpenAI‑compatible services. Create a model instance and point it at your local endpoint.
 
 ```csharp
-// Replace the URL with your actual endpoint.
-var selfHostedLlm = new SelfHostedLLM("http://localhost:5000/v1");
+// Set up the AI model (e.g., OpenAI compatible). Replace with your API key if required.
+var model = AiModel.Create(AiModelType.Gpt4OMini)
+    .WithApiKey("YOUR_API_KEY"); // optional for self‑hosted services
 
-// Optional: tweak temperature or max tokens if your endpoint supports it.
-selfHostedLlm.Temperature = 0.6;
-selfHostedLlm.MaxTokens = 250;
+// If your self‑hosted server uses a custom URL, set it on the concrete OpenAiModel.
+// For example:
+// ((OpenAiModel)model).Url = "http://localhost:5000/v1";
+
+// Optional: configure temperature and max tokens if the model supports them.
+// These properties are available on OpenAiModel; uncomment and adjust as needed.
+// ((OpenAiModel)model).Temperature = 0.6;
+// ((OpenAiModel)model).MaxTokens = 250;
 ```
 
 > **Pro tip:** A temperature around 0.6 yields concise yet coherent summaries. If you need bullet‑point style, lower it to 0.3.
 
-### Step 3: Generate a Summary from the Document Text  
+### Step 3: Generate a Summary from the Document  
 
-Now we ask the model to condense the content. The `GenerateSummary` helper builds the prompt for you.
+Now we ask the model to condense the content. The `Summarize` method returns a new `Document` containing the summary.
 
 ```csharp
-// The method internally creates a prompt like:
-// "Summarize the following text in 3‑5 sentences..."
-string summary = selfHostedLlm.GenerateSummary(rawText);
+// Configure summary length (Short, Medium, or Long). Default is Medium.
+var options = new SummarizeOptions { SummaryLength = SummaryLength.Short };
+
+// Generate the summary document.
+Document summaryDoc = model.Summarize(doc, options);
+
+// Extract the summary text to insert later.
+string summary = summaryDoc.GetText();
 ```
 
 > **What if the LLM returns too much?** You can post‑process the result—split on newlines and keep only the first few sentences.
@@ -138,17 +149,19 @@ class Program
     {
         // 1️⃣ Load the source Word document.
         Document doc = new Document("YOUR_DIRECTORY/input.docx");
-        string rawText = doc.GetText();
 
-        // 2️⃣ Set up a self‑hosted LLM endpoint.
-        var selfHostedLlm = new SelfHostedLLM("http://localhost:5000/v1")
-        {
-            Temperature = 0.6,
-            MaxTokens = 250
-        };
+        // 2️⃣ Set up the AI model (e.g., OpenAI compatible). Replace with your API key if required.
+        var model = AiModel.Create(AiModelType.Gpt4OMini)
+            .WithApiKey("YOUR_API_KEY"); // optional for self‑hosted
 
-        // 3️⃣ Ask the model to summarize the document.
-        string summary = selfHostedLlm.GenerateSummary(rawText);
+        // Optional: configure temperature and max tokens if the model supports them.
+        // ((OpenAiModel)model).Temperature = 0.6;
+        // ((OpenAiModel)model).MaxTokens = 250;
+
+        // 3️⃣ Generate a summary of the document.
+        var options = new SummarizeOptions { SummaryLength = SummaryLength.Short };
+        Document summaryDoc = model.Summarize(doc, options);
+        string summary = summaryDoc.GetText();
 
         // 4️⃣ Append the summary at the end of the file.
         DocumentBuilder builder = new DocumentBuilder(doc);
@@ -171,9 +184,9 @@ Running this program will produce `output.docx` containing the original content 
 
 | Question | Answer |
 |----------|--------|
-| **What if the LLM times out?** | Wrap `GenerateSummary` in a `try/catch` and retry with a longer timeout, or fall back to a simple heuristic (e.g., first N sentences). |
-| **Can I summarize only a specific section?** | Yes—use `doc.GetText(startNode, endNode)` to extract a range before sending it to the LLM. |
-| **Do images affect the summary?** | `GetText()` ignores images, so the model only sees visible text. If you need alt‑text included, extract it manually and append to `rawText`. |
+| **What if the LLM times out?** | Wrap `model.Summarize` in a `try/catch` and retry with a longer timeout, or fall back to a simple heuristic (e.g., first N sentences). |
+| **Can I summarize only a specific section?** | Yes—use `doc.GetText(startNode, endNode)` to extract a range before sending it to the model. |
+| **Do images affect the summary?** | `GetText()` ignores images, so the model only sees visible text. If you need alt‑text included, extract it manually and append to the prompt text. |
 | **Is the summary language‑aware?** | The LLM inherits the language of the prompt. For multilingual docs, prepend “Summarize the following French text…” to guide it. |
 | **How to format the summary as a bullet list?** | Post‑process `summary` with `summary = "- " + summary.Replace("\n", "\n- ");` before writing it. |
 

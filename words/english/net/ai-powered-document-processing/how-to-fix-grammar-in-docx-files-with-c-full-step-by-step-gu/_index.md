@@ -92,14 +92,16 @@ if (document == null || document.PageCount == 0)
 ## Step 3: Run the Grammar Checker
 
 ### What happens under the hood  
-Calling `GrammarChecker.CheckGrammar` sends the document text to the selected AI model (e.g., **GPT‑3.5 Turbo**). The service returns a `GrammarResult` object containing a list of `Issue` objects.
+Calling `AiModel.CheckGrammar` sends the document text to the selected AI model (e.g., **GPT‑3.5 Turbo**). The service returns a new `Document` that contains the suggested changes as tracked revisions.
 
 ```csharp
 // Step 3: Run the grammar checker using a chosen AI model (e.g., GPT‑3.5 Turbo).
-var grammarResult = GrammarChecker.CheckGrammar(document, AiModelType.Gpt35Turbo);
+AiModel model = AiModel.Create(AiModelType.Gpt35Turbo);
+CheckGrammarOptions options = new CheckGrammarOptions(); // default options
+Document grammarResult = model.CheckGrammar(document, options);
 
-// Verify we actually got results.
-if (grammarResult == null || grammarResult.Issues.Count == 0)
+// Verify we actually got results (check for revisions).
+if (grammarResult == null || grammarResult.Revisions.Count == 0)
 {
     Console.WriteLine("No grammar issues were detected.");
 }
@@ -116,11 +118,12 @@ If you need higher accuracy, swap `AiModelType.Gpt35Turbo` for `AiModelType.Gpt4
 Understanding each issue lets you decide whether to accept the suggestion or keep the original phrasing—especially important for industry‑specific terminology.
 
 ```csharp
-// Step 4: Inspect the identified issues (showing start‑end positions and messages).
+// Step 4: Inspect the identified issues (showing revision details).
 Console.WriteLine("Detected grammar issues:");
-foreach (var issue in grammarResult.Issues)
+foreach (Revision revision in grammarResult.Revisions)
 {
-    Console.WriteLine($"{issue.Start}-{issue.End}: {issue.Message}");
+    // For simplicity, output the revised text.
+    Console.WriteLine($"{revision.RevisionType}: {revision.ParentNode.GetText().Trim()}");
 }
 ```
 
@@ -128,35 +131,39 @@ foreach (var issue in grammarResult.Issues)
 
 ```
 Detected grammar issues:
-15-22: Use 'its' instead of 'it's' for possession.
-57-64: Consider changing 'affect' to 'effect' (noun vs verb).
+Insertion: its
+Deletion: it's
 ```
 
-> **Inspect grammar issues** tip: The `Start` and `End` indices refer to the character positions within the document’s plain‑text representation. You can map them back to a specific paragraph if you need UI highlighting.
+> **Inspect grammar issues** tip: The revisions represent the AI‑suggested corrections. You can accept or reject them individually if you need finer control.
 
 ---
 
 ## Step 5: Apply the Suggested Corrections
 
 ### How it works  
-`GrammarChecker.ApplyCorrections` iterates over each `Issue` and replaces the offending text with the AI‑suggested correction. The method modifies the original `Document` instance in place.
+Accepting all revisions applies the AI‑suggested corrections directly to the document. If you prefer a semi‑automated workflow, you can accept or reject each revision manually.
 
 ```csharp
-// Step 5: Apply the suggested corrections directly to the document.
-GrammarChecker.ApplyCorrections(document, grammarResult);
+// Step 5: Apply the suggested corrections by accepting all revisions.
+grammarResult.AcceptAllRevisions();
 ```
 
-### Optional: Manual review loop  
+#### Optional: Manual review loop  
 If you prefer a semi‑automated workflow, replace the line above with a loop that asks the user to confirm each fix:
 
 ```csharp
-foreach (var issue in grammarResult.Issues)
+foreach (Revision revision in grammarResult.Revisions)
 {
-    Console.WriteLine($"{issue.Start}-{issue.End}: {issue.Message}");
+    Console.WriteLine($"{revision.RevisionType}: {revision.ParentNode.GetText().Trim()}");
     Console.Write("Apply this correction? (y/n): ");
     if (Console.ReadLine()?.Trim().ToLower() == "y")
     {
-        GrammarChecker.ApplyCorrection(document, issue);
+        revision.Accept();
+    }
+    else
+    {
+        revision.Reject();
     }
 }
 ```
@@ -172,7 +179,7 @@ Saving writes the updated content back to disk. You can overwrite the original f
 
 ```csharp
 // Step 6: Save the corrected document.
-document.Save("YOUR_DIRECTORY/output.docx");
+grammarResult.Save("YOUR_DIRECTORY/output.docx");
 Console.WriteLine("Grammar‑fixed document saved as output.docx");
 ```
 
@@ -202,19 +209,21 @@ class Program
         Document document = new Document(docPath);
 
         // 2️⃣ Run the grammar checker (you can switch the model if needed)
-        var grammarResult = GrammarChecker.CheckGrammar(document, AiModelType.Gpt35Turbo);
+        AiModel model = AiModel.Create(AiModelType.Gpt35Turbo);
+        CheckGrammarOptions options = new CheckGrammarOptions();
+        Document grammarResult = model.CheckGrammar(document, options);
 
-        // 3️⃣ Show detected issues
-        if (grammarResult?.Issues?.Count > 0)
+        // 3️⃣ Show detected issues (using revisions)
+        if (grammarResult?.Revisions?.Count > 0)
         {
             Console.WriteLine("Detected grammar issues:");
-            foreach (var issue in grammarResult.Issues)
+            foreach (Revision revision in grammarResult.Revisions)
             {
-                Console.WriteLine($"{issue.Start}-{issue.End}: {issue.Message}");
+                Console.WriteLine($"{revision.RevisionType}: {revision.ParentNode.GetText().Trim()}");
             }
 
-            // 4️⃣ Apply all corrections automatically
-            GrammarChecker.ApplyCorrections(document, grammarResult);
+            // 4️⃣ Apply all corrections automatically by accepting revisions
+            grammarResult.AcceptAllRevisions();
         }
         else
         {
@@ -223,7 +232,7 @@ class Program
 
         // 5️⃣ Save the corrected file
         var outPath = "YOUR_DIRECTORY/output.docx";
-        document.Save(outPath);
+        grammarResult.Save(outPath);
         Console.WriteLine($"Document saved to {outPath}");
     }
 }
@@ -239,7 +248,7 @@ Run the program (`dotnet run`) and watch the console list any issues before the 
 |----------|--------|
 | **Can I process multiple files in a batch?** | Wrap the above logic in a `foreach (var file in Directory.GetFiles(..., "*.docx"))` loop. Remember to dispose of each `Document` after saving to avoid memory pressure. |
 | **What if the AI model returns no suggestions but I still see errors?** | AI models may miss context‑specific mistakes. Consider adding a secondary pass with a different model or a custom language‑tool like LanguageTool for niche terminology. |
-| **Is the operation thread‑safe?** | `GrammarChecker.CheckGrammar` is stateless, so you can parallelize across documents, but avoid sharing the same `Document` instance across threads. |
+| **Is the operation thread‑safe?** | `AiModel.CheckGrammar` is stateless, so you can parallelize across documents, but avoid sharing the same `Document` instance across threads. |
 | **How do I handle very large documents (100 + pages)?** | Split the document into sections (`document.Sections`) and run the checker per section to keep memory usage predictable. |
 | **Do I need an internet connection?** | Yes, the AI model runs in the cloud unless you have an on‑premise deployment licensed separately. |
 
