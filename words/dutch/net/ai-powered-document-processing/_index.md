@@ -75,7 +75,6 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe docx naar Frans te vertalen met AI in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met AI in C#. |
 | [Samenvatten van Word-document met AI‑documentensamenvatting](./summarize-word-document-with-ai-document-summarization/) | Leer hoe u Word-documenten automatisch samenvat met AI in Aspose.Words voor .NET. |
 | [Maak een leeg Word-document en vertaal het naar het Frans](./create-a-blank-word-document-and-translate-it-to-french/) | Leer hoe u een leeg Word-document maakt en automatisch naar het Frans vertaalt met Aspose.Words voor .NET. |
-| [Vertaal string naar Spaans in C# met Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI een string in C# naar het Spaans kunt vertalen. |
 | [Paragraaf vertalen naar Frans en grafieklabel wijzigen in Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Leer hoe u een alinea naar het Frans vertaalt en een grafieklabel in een Word-document wijzigt met Aspose.Words. |
 | [Hoe docx naar Frans vertalen in C# – stapsgewijze handleiding](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt in C# met een stap‑voor‑stap gids. |
 | [Hoe een vertaald Word-document opslaan in C# met Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Leer hoe u een vertaald Word-document opslaat in C# met Google AI. |

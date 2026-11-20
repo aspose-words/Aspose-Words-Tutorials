@@ -308,7 +308,6 @@ Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang dit
 
 - [menerjemahkan docx ke bahasa Prancis dengan Aspose.Words dan Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Cara menyimpan dokumen Word yang diterjemahkan di C# dengan Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Menerjemahkan string ke bahasa Spanyol di C# dengan Aspose.Words AI](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

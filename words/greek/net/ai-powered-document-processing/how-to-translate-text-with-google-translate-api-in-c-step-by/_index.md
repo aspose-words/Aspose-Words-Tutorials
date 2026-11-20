@@ -309,7 +309,6 @@ A: Η Google χρεώνει ανά χαρακτήρα που μεταφράζε�
 
 - [μεταφράστε docx στα γαλλικά με Aspose.Words και Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Πώς να αποθηκεύσετε μεταφρασμένο έγγραφο Word σε C# με Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Μεταφράστε συμβολοσειρά στα Ισπανικά σε C# με Aspose.Words AI](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

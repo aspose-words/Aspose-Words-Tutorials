@@ -305,7 +305,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [přeložit docx do francouzštiny pomocí Aspose.Words a Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Jak uložit přeložený Word dokument v C# s Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Přeložit řetězec do španělštiny v C# s Aspose.Words AI](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
