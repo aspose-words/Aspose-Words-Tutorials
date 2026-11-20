@@ -231,7 +231,6 @@ Nyugodtan kísérletezzen különböző szolgáltatókkal, adjon hozzá hibakeze
 
 A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljesen működő kódpéldákat részletes magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használata](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Hogyan ellenőrizze a nyelvtant Word-ben az Aspose.Words AI segítségével – Teljes útmutató](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Hogyan töltse be a Word dokumentumokat az Aspose.Words LoadOptions használatával](/words/english/net/programming-with-loadoptions/)
 

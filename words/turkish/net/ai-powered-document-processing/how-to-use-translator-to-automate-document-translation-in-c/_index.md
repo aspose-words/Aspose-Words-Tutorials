@@ -196,7 +196,6 @@ Diğer dillerle denemeler yapmaktan, hata yönetimi eklemekten veya kodu daha b�
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
-- [Aspose.Words ile DOCX'te Dilbilgisi Kontrolü – gpt-4 turbo kullan](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [C#'ta Geri Çağırma Kullanımı – DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word Belgesi - İçeriği Nasıl Kaldırılır](/words/english/net/remove-content/)
 
