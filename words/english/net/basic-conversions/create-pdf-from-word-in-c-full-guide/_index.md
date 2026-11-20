@@ -157,7 +157,7 @@ foreach (var file in Directory.GetFiles(@"C:\MyDocs\", "*.docx"))
 Increase `JpegQuality` to 100 or switch to `PdfImageCompression.Auto` for lossless output. Keep in mind larger files will be generated.
 
 ### “Do I need to dispose of the Document object?”
-`Document` implements `IDisposable`, but the .NET garbage collector handles it gracefully. If you’re processing thousands of files, wrap it in a `using` block to free memory promptly.
+`Document` does **not** implement `IDisposable`; you do not need to call `Dispose`. The .NET garbage collector will reclaim the memory when the object is no longer referenced. For processing many files, you can simply let the variable go out of scope or set it to `null` between iterations.
 
 ## Pro Tips & Gotchas
 
@@ -169,7 +169,7 @@ Increase `JpegQuality` to 100 or switch to `PdfImageCompression.Auto` for lossle
 
 Now that you know how to **convert docx to pdf** and **save word as pdf** with proper shape handling, you might explore:
 
-- Adding watermarks to the PDF (`PdfSaveOptions.AddWatermark`).
+- Adding watermarks to the PDF (use `doc.Watermark.SetText("Confidential")` before saving).
 - Converting the same document to other formats (HTML, XPS) using similar `Save` overloads.
 - Automating the process in an ASP.NET Core API for on‑the‑fly conversion.
 
