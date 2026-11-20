@@ -206,7 +206,7 @@ namespace WordToPdfDemo
 | Pitfall | How to avoid it |
 |---------|-----------------|
 | **Missing fonts** cause garbled text. | Always set `EmbedFullFonts = true` or install the required fonts on the server. |
-| **Large documents** lead to high memory usage. | Use `Document.Close` after saving, or process the file in chunks with `Document.Split`. |
+| **Large documents** lead to high memory usage. | Process the file in chunks with `Document.ExtractPages(startIndex, pageCount)` and save each chunk separately if needed. |
 | **Accessibility tags not applied** because the source Word lacked alt text. | Add descriptive `Alt Text` to images in the original `.docx` before conversion. |
 | **Output path not writable** throws `UnauthorizedAccessException`. | Ensure the application runs under an account with write permissions, or use a temp folder (`Path.GetTempPath()`). |
 | **PDF/UA‑1 fails validation** due to unsupported features (e.g., custom embedded objects). | Remove or replace those objects, or downgrade compliance to `PdfA2b` if UA‑1 is not mandatory. |
@@ -216,7 +216,7 @@ namespace WordToPdfDemo
 ## Extending the Solution
 
 - **Batch conversion:** Wrap the `doc.Save` call in a `foreach` loop over a directory of `.docx` files.  
-- **Custom page size or margins:** Adjust `doc.PageSetup` before saving.  
+- **Custom page size or margins:** Adjust `doc.FirstSection.PageSetup` before saving.  
 - **Add watermarks:** Use `doc.Watermark.SetText("CONFIDENTIAL")` before the `Save` call.  
 - **Export Word to PDF in a web API:** Return the PDF as a `FileResult` in ASP.NET Core.
 
