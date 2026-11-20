@@ -308,7 +308,6 @@ A: Google अनुवादित प्रत्येक अक्षर क�
 
 निम्नलिखित ट्यूटोरियल्स निकट‑संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API सुविधाओं में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [Aspose.Words और Google API के साथ docx को फ्रेंच में अनुवाद करें](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Google AI के साथ C# में अनूदित Word दस्तावेज़ को कैसे सहेजें](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Aspose.Words AI के साथ C# में स्ट्रिंग को स्पेनिश में अनुवाद करें](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 

@@ -303,7 +303,6 @@ A: Google 按翻译的字符数计费。可使用定价页面估算费用，并�
 
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
-- [使用 Aspose.Words 和 Google API 将 docx 翻译成法语](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [如何在 C# 中使用 Google AI 保存已翻译的 Word 文档](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [使用 Aspose.Words AI 将字符串翻译成西班牙语（C#）](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 

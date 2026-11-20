@@ -58,7 +58,6 @@
 | [Aspose.Words AI के साथ व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI का उपयोग करके .NET में दस्तावेज़ों की व्याकरण जांच करने के चरण-दर-चरण मार्गदर्शन। |
 | [स्थानीय LLM के साथ Word दस्तावेज़ का सारांश – चरण‑दर‑चरण C# गाइड](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | स्थानीय LLM का उपयोग करके .NET के लिए Aspose.Words के साथ Word दस्तावेज़ को सारांशित करने की चरण‑दर‑चरण गाइड। |
 | [C# में AI के साथ टेक्स्ट का सारांश – पूर्ण प्रोग्रामिंग गाइड](./summarize-text-with-ai-in-c-complete-programming-guide/) | C# में AI का उपयोग करके टेक्स्ट को प्रभावी रूप से सारांशित करने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका। |
-| [Aspose.Words और Google API के साथ docx को फ्रेंच में अनुवाद करें](./translate-docx-to-french-with-aspose-words-and-google-api/) | .NET के लिए Aspose.Words और Google API का उपयोग करके docx फ़ाइल को फ्रेंच में अनुवाद करना सीखें। |
 | [C# में दस्तावेज़ सारांश बनाना – पूर्ण OpenAI गाइड](./create-document-summary-in-c-complete-openai-guide/) | .NET के लिए Aspose.Words और OpenAI का उपयोग करके C# में दस्तावेज़ सारांश बनाना सीखें। |
 | [Aspose.Words AI के साथ Word दस्तावेज़ को सारांशित करें – पूर्ण गाइड](./summarize-word-document-with-aspose-words-ai-full-guide/) | .NET के लिए Aspose.Words AI का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
 | [C# में AI दस्तावेज़ सारांश – पूर्ण गाइड](./ai-document-summarization-in-c-complete-guide/) | C# के लिए Aspose.Words के साथ AI मॉडल का उपयोग करके दस्तावेज़ सारांश बनाने की पूरी मार्गदर्शिका। |

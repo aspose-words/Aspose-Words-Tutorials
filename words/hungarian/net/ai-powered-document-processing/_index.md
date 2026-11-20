@@ -64,7 +64,6 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [AI összegzés létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-ai-summary-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre AI által generált összefoglalókat C#‑ban az Aspose.Words for .NET segítségével. |
 | [Hogyan összefoglalja a Word dokumentumot OpenAI-val C#-ban](./how-to-summarize-word-document-with-openai-in-c/) | Ismerje meg, hogyan használhatja az OpenAI-t a Word dokumentumok C#-ban történő összefoglalásához. |
 | [Word dokumentum összefoglalása OpenAI API-val C#-ban](./summarize-word-document-with-openai-api-using-c/) | Ismerje meg, hogyan használhatja az OpenAI API-t a Word dokumentumok C#-os összefoglalásához. |
-| [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |
 | [Üres Word dokumentum létrehozása és francia nyelvre fordítása](./create-a-blank-word-document-and-translate-it-to-french/) | Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és fordíthatja le francia nyelvre az Aspose.Words for .NET segítségével. |
 | [Hogyan fordítsunk szöveget a Google Translate API-val C#‑ban – lépésről‑lépésre útmutató](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Ismerje meg, hogyan használhatja a Google Translate API-t C#‑ban szövegek fordításához lépésről‑lépésre útmutatóval. |
 {{< /blocks/products/pf/tutorial-page-section >}}
