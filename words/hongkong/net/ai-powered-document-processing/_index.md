@@ -70,7 +70,6 @@
 | [C# AI 文件摘要完整指南](./ai-document-summarization-in-c-complete-guide/) |使用 Aspose.Words for .NET 與 AI 技術在 C# 中實現高效文件摘要的完整指南。 |
 | [在 C# 中建立 AI 摘要 – 步驟指南](./create-ai-summary-in-c-step-by-step-guide/) |在 C# 中使用 Aspose.Words for .NET 逐步建立 AI 摘要，提升文件處理效率。 |
 | [在 C# 中使用 AI 將 docx 翻譯成法文](./translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 與 AI 在 C# 中將 docx 文件翻譯為法語，提升多語言處理效率。 |
-| [如何在 C# 中使用 Aspose.Words AI 檢查文法 – 完整指南](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) |使用 Aspose.Words AI 在 C# 中自動檢查並校正文檔語法，提升寫作品質的完整步驟指南。 |
 | [使用 AI 的 C# Word 文件摘要 – 步驟指南](./summarize-word-document-in-c-step-by-step-guide-using-ai/) |透過 Aspose.Words for .NET 與 AI，使用 C# 逐步完成 Word 文件的自動摘要。 |
 | [如何將 DOCX 翻譯成法文並自動化文件翻譯](./how-to-translate-docx-to-french-and-automate-document-transl/) |使用 Aspose.Words for .NET 將 DOCX 文件自動翻譯為法文，實現批量翻譯流程。 |
 | [本機 LLM 教學 – 如何呼叫本機 LLM 並執行文法檢查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) |學習如何在 Aspose.Words for .NET 中呼叫本機大型語言模型，執行文法檢查以提升文件品質。 |
