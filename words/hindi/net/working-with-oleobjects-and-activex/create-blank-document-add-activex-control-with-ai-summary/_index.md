@@ -83,7 +83,6 @@ class Program
 
 निम्नलिखित ट्यूटोरियल्स उन संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण-दर-चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर करने में मदद करती हैं।
 
-- [C# में Aspose.Words API के साथ Word डॉक्यूमेंट को सारांशित करें – पूर्ण AI‑संचालित गाइड](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [नया Word डॉक्यूमेंट बनाएं](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Aspose.Words का उपयोग करके टेबल के साथ Word डॉक्यूमेंट बनाएं](/words/english/net/add-content-using-document-builder/build-table/)
 

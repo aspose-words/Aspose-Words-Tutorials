@@ -228,7 +228,6 @@ class Program
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの説明と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [C# と Aspose.Words API を使用した Word 文書の要約 – 完全 AI パワード ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [ローカル LLM を使用した Word 文書の要約 – C# ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Aspose.Words で空白の Word 文書を作成 – ステップバイステップ ガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

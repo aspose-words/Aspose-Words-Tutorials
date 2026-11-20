@@ -231,7 +231,6 @@ Happy coding, and enjoy the power of AI‑driven document summarization!
 
 以下のチュートリアルは、本ガイドで示した手法を基にした、密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [Aspose.Words API を使用した C# での Word ドキュメント要約 – 完全 AI 駆動ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [AI を使用した Word ドキュメント要約 – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Aspose.Words で空白の Word ドキュメントを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

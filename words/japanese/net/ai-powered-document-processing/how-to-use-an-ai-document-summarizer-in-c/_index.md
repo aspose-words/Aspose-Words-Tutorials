@@ -319,7 +319,6 @@ class Program
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
-- [C# と Aspose.Words API で Word 文書を要約 – 完全な AI 搭載ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [新しい Word 文書を作成](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Aspose.Words for .NET で Word 文書を作成およびスタイル設定](/words/english/net/document-styling/apply-paragraph-style/)
 

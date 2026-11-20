@@ -321,7 +321,6 @@ Uložte soubor jako `Program.cs`, place an `
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto návodu. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Shrňte Word dokument v C# pomocí Aspose.Words API – Kompletní AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Vytvořit nový Word dokument](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Vytvořit a stylovat Word dokument v Aspose.Words pro .NET](/words/english/net/document-styling/apply-paragraph-style/)
 

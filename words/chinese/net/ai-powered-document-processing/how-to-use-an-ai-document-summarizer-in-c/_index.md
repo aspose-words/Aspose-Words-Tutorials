@@ -318,7 +318,6 @@ class Program
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您进一步学习。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
-- [使用 Aspose.Words API 在 C# 中摘要 Word 文档 – 完整 AI 驱动指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [创建新 Word 文档](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [在 Aspose.Words for .NET 中创建并设置 Word 文档样式](/words/english/net/document-styling/apply-paragraph-style/)
 

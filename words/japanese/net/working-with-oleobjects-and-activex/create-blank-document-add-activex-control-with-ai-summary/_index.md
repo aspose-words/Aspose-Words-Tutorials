@@ -79,7 +79,6 @@ class Program
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [C# と Aspose.Words API を使用した Word ドキュメントの要約 – 完全な AI 搭載ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [新しい Word ドキュメントを作成](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Aspose.Words を使用してテーブル付き Word ドキュメントを作成](/words/english/net/add-content-using-document-builder/build-table/)
 

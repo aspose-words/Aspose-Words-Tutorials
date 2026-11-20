@@ -232,7 +232,6 @@ class Program
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Podsumuj dokument Word w C# przy użyciu Aspose.Words API – Kompletny przewodnik AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Podsumuj dokument Word przy użyciu lokalnego LLM – Przewodnik C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Utwórz pusty dokument Word przy użyciu Aspose.Words – Przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

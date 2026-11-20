@@ -80,7 +80,6 @@ class Program
 
 以下教程涵盖与本指南技术紧密相关的主题，构建在本教程展示的技巧之上。每个资源都包含完整的可运行代码示例以及逐步解释，帮助您掌握更多 API 功能，并在自己的项目中探索替代实现方案。
 
-- [Summarize Word Document in C# with Aspose.Words API – Complete AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Create New Word Document](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

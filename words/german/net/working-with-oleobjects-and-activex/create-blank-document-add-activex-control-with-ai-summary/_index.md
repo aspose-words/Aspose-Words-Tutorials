@@ -84,7 +84,6 @@ class Program
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, die Ihnen helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Word‑Dokument in C# mit Aspose.Words API zusammenfassen – Vollständige KI‑gestützte Anleitung](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Neues Word‑Dokument erstellen](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Ein Word‑Dokument mit Tabelle mit Aspose.Words erstellen](/words/english/net/add-content-using-document-builder/build-table/)
 

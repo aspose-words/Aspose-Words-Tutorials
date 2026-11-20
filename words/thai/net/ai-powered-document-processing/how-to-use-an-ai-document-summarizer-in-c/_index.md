@@ -320,7 +320,6 @@ Save the file as `Program.cs`, place an `
 
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานแบบอื่นในโปรเจกต์ของคุณ
 
-- [สรุปเอกสาร Word ใน C# ด้วย Aspose.Words API – คู่มือ AI‑Powered ฉบับเต็ม](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [สร้างเอกสาร Word ใหม่](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [สร้างและจัดรูปแบบเอกสาร Word ใน Aspose.Words สำหรับ .NET](/words/english/net/document-styling/apply-paragraph-style/)
 

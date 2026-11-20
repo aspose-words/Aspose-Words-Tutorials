@@ -82,7 +82,6 @@ class Program
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Резюмировать документ Word на C# с Aspose.Words API — Полное руководство с AI‑поддержкой](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Создать новый документ Word](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Создать документ Word с таблицей с использованием Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

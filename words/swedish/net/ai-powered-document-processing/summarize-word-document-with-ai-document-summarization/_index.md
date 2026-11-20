@@ -232,7 +232,6 @@ class Program
 
 De följande handledningarna täcker närliggande ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Sammanfatta Word-dokument i C# med Aspose.Words API – Komplett AI‑driven guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Sammanfatta Word-dokument med lokal LLM – C#‑guide](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Skapa tomt Word-dokument med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

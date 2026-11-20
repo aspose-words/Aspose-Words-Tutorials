@@ -321,7 +321,6 @@ Lưu tệp dưới tên `Program.cs`, đặt một `
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh, hoạt động được kèm theo giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tóm tắt tài liệu Word trong C# với Aspose.Words API – Hướng dẫn AI‑Powered đầy đủ](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Tạo tài liệu Word mới](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Tạo và định dạng tài liệu Word trong Aspose.Words cho .NET](/words/english/net/document-styling/apply-paragraph-style/)
 

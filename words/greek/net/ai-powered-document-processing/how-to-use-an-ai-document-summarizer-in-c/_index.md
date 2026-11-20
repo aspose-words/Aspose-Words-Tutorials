@@ -321,7 +321,6 @@ Save the file as `Program.cs`, place an `
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Σύνοψη Εγγράφου Word σε C# με Aspose.Words API – Πλήρης Οδηγός AI‑Powered](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Δημιουργία Νέου Εγγράφου Word](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Δημιουργία και Στυλιζάρισμα Εγγράφου Word σε Aspose.Words για .NET](/words/english/net/document-styling/apply-paragraph-style/)
 
