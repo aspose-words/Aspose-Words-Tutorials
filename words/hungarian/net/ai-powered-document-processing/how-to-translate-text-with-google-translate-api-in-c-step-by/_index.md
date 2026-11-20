@@ -308,7 +308,6 @@ Boldog kódolást, és élvezd a globálisan elérhető alkalmazások építés�
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [docx fordítása franciára Aspose.Words és Google API segítségével](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Hogyan mentsünk lefordított Word dokumentumot C#-ban Google AI-val](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

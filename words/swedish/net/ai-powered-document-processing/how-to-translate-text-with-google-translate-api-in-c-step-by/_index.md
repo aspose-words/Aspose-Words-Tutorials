@@ -305,7 +305,6 @@ Lycka till med kodandet, och njut av att bygga globalt tillgängliga applikation
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [översätt docx till franska med Aspose.Words och Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Hur man sparar översatt Word‑dokument i C# med Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

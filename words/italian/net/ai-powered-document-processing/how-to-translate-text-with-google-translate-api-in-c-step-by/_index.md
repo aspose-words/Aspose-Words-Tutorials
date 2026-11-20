@@ -305,7 +305,6 @@ Buon coding e divertiti a costruire applicazioni accessibili a livello globale!
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [tradurre docx in francese con Aspose.Words e Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Come salvare un documento Word tradotto in C# con Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
