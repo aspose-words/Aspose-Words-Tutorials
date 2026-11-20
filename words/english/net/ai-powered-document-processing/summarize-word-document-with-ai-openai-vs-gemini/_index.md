@@ -48,7 +48,7 @@ First, create a console app and add the necessary `using` directives. The code b
 // Program.cs
 using System;
 using Aspose.Words;
-using Aspose.Words.AI;          // Provides OpenAiModel and GoogleModel extensions
+using Aspose.Words.AI;          // Provides OpenAiModel and GoogleAiModel classes
 
 namespace WordSummarizer
 {
@@ -62,7 +62,7 @@ namespace WordSummarizer
 }
 ```
 
-*Why this matters*: Importing `Aspose.Words.AI` gives you the `Summarize` extension method that talks to OpenAI and Gemini under the hood. Without it you’d have to craft HTTP calls yourself—a lot more boilerplate.
+*Why this matters*: Importing `Aspose.Words.AI` gives you the `OpenAiModel` and `GoogleAiModel` classes that talk to OpenAI and Gemini under the hood. Without it you’d have to craft HTTP calls yourself—a lot more boilerplate.
 
 ## Step 2: Load the Source Document  
 
@@ -87,13 +87,14 @@ Console.WriteLine("✅ Document loaded successfully.");
 
 ## Step 3: Generate an OpenAI Summary  
 
-Now we ask OpenAI’s **gpt‑4o‑mini** model to condense the content. The `OpenAiModel` class accepts the model name and automatically pulls your `OPENAI_API_KEY` from the environment variables.
+Now we ask OpenAI’s **gpt‑4o‑mini** model to condense the content. The `OpenAiModel` class accepts the model name and your API key.
 
 ```csharp
 // Inside Main()
-string openAiSummary = document.Summarize(
-    new OpenAiModel("gpt-4o-mini")   // <-- generate openai summary
-);
+string openAiApiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+OpenAiModel openAiModel = new OpenAiModel("gpt-4o-mini", openAiApiKey);
+Document openAiSummaryDoc = openAiModel.Summarize(document);
+string openAiSummary = openAiSummaryDoc.GetText();
 
 Console.WriteLine("\n--- OpenAI Summary ---");
 Console.WriteLine(openAiSummary);
@@ -112,9 +113,10 @@ Google’s **Gemini‑1.5‑pro** model often produces shorter, more bullet‑po
 
 ```csharp
 // Inside Main()
-string geminiSummary = document.Summarize(
-    new GoogleModel("gemini-1.5-pro")   // <-- create gemini summary
-);
+string googleApiKey = Environment.GetEnvironmentVariable("GOOGLE_API_KEY");
+GoogleAiModel geminiModel = new GoogleAiModel("gemini-1.5-pro", googleApiKey);
+Document geminiSummaryDoc = geminiModel.Summarize(document);
+string geminiSummary = geminiSummaryDoc.GetText();
 
 Console.WriteLine("\n--- Gemini Summary ---");
 Console.WriteLine(geminiSummary);
@@ -188,16 +190,18 @@ namespace WordSummarizer
             Console.WriteLine("✅ Document loaded successfully.");
 
             // 2️⃣ Generate OpenAI summary
-            string openAiSummary = document.Summarize(
-                new OpenAiModel("gpt-4o-mini")   // generate openai summary
-            );
+            string openAiApiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+            OpenAiModel openAiModel = new OpenAiModel("gpt-4o-mini", openAiApiKey);
+            Document openAiSummaryDoc = openAiModel.Summarize(document);
+            string openAiSummary = openAiSummaryDoc.GetText();
             Console.WriteLine("\n--- OpenAI Summary ---");
             Console.WriteLine(openAiSummary);
 
             // 3️⃣ Generate Gemini summary
-            string geminiSummary = document.Summarize(
-                new GoogleModel("gemini-1.5-pro")   // create gemini summary
-            );
+            string googleApiKey = Environment.GetEnvironmentVariable("GOOGLE_API_KEY");
+            GoogleAiModel geminiModel = new GoogleAiModel("gemini-1.5-pro", googleApiKey);
+            Document geminiSummaryDoc = geminiModel.Summarize(document);
+            string geminiSummary = geminiSummaryDoc.GetText();
             Console.WriteLine("\n--- Gemini Summary ---");
             Console.WriteLine(geminiSummary);
 
