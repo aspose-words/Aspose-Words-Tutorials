@@ -98,7 +98,6 @@
 | [สร้างโมเดล AI กำหนดเอง – คู่มือเต็มสำหรับการตรวจสอบไวยากรณ์ใน C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | เรียนรู้วิธีสร้างโมเดล AI ของคุณเองใน C# เพื่อการตรวจสอบไวยากรณ์อัตโนมัติด้วย Aspose.Words |
 | [วิธีใช้ตัวสรุปเอกสาร AI ด้วย C#](./how-to-use-an-ai-document-summarizer-in-c/) | เรียนรู้วิธีใช้ตัวสรุปเอกสาร AI ด้วย C# เพื่อสรุปไฟล์ Word อย่างรวดเร็วและแม่นยำ -
 | [วิธีสรุปเอกสาร Word ด้วยผู้ให้บริการ AI ใน C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับผู้ให้บริการ AI ต่างๆ เพื่อสรุปเอกสาร Word ด้วย C# - 
-| [สรุปเอกสาร Word ด้วยการสรุปโดย AI](./summarize-word-document-with-ai-document-summarization/) | เรียนรู้วิธีสรุปเอกสาร Word อย่างมีประสิทธิภาพด้วย AI - 
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย AI ใน C#](./how-to-translate-docx-to-french-with-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words กับ AI เพื่อแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# - 
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | เรียนรู้วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสใน C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน -
 | [สรุปเอกสาร Word ด้วย OpenAI API โดยใช้ C#](./summarize-word-document-with-openai-api-using-c/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย OpenAI API ใน C# อย่างง่ายและรวดเร็ว -
