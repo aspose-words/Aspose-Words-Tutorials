@@ -75,7 +75,6 @@
 | [在 C# 中建立摘要報告 – 完整步驟指南](./create-summary-report-in-c-complete-step-by-step-guide/) |透過 Aspose.Words for .NET 在 C# 中一步步建立文件摘要報告，提升效率與精準度。 |
 | [建立自訂 AI 模型 – C# 文法檢查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) |使用 Aspose.Words for .NET 與自訂 AI 模型在 C# 中實作文法檢查，提升文件品質的完整步驟指南。 |
 | [如何在 C# 中使用 AI 文件摘要器](./how-to-use-an-ai-document-summarizer-in-c/) |使用 Aspose.Words for .NET 與 AI 模型在 C# 中自動匯總文件，提升效率。 |
-| [如何使用 Aspose.Words AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-using-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將 DOCX 文件自動翻譯為法語，提升多語言工作流程。 |
 | [如何使用 Aspose.Words AI 在 C# 中將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中將 DOCX 文件自動翻譯為法語，提升跨語言文件處理效率。 |
 | [如何在 C# 中使用 AI 供應商彙總 Word 文件](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 | [如何在 C# 中使用翻譯器自動化文件翻譯](./how-to-use-translator-to-automate-document-translation-in-c/) |使用 Aspose.Words for .NET 結合翻譯器，在 C# 中自動執行文件翻譯，提高效率。 |
