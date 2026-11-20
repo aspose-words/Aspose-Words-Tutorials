@@ -43,7 +43,6 @@
 | [오픈 AI 모델 작업](./working-with-open-ai-model/) | OpenAI의 강력한 모델을 기반으로 Aspose.Words for .NET을 사용하여 효율적인 문서 요약을 구현해 보세요. 지금 바로 이 종합 가이드를 살펴보세요. |
 | [요약 옵션 사용](./working-with-summarize-options/) | Aspose.Words for .NET을 사용하여 Word 문서를 효과적으로 요약하는 방법을 알아보고, AI 모델을 통합하여 빠른 통찰력을 얻는 방법에 대한 단계별 가이드를 살펴보세요. |
 | [C#에서 로컬 LLM을 사용해 문법 검사하기](./how-to-check-grammar-in-c-using-a-local-llm/) | 로컬 LLM을 활용해 C# 코드의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
-| [OpenAI와 Gemini를 활용한 Word 문서 요약](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI와 Gemini 모델을 비교하여 Aspose.Words for .NET으로 Word 문서를 효율적으로 요약하는 방법을 배웁니다. |
 | [Word 문서 요약 방법 – 완전 C# 가이드](./how-to-summarize-word-documents-complete-c-guide/) | C#와 Aspose.Words를 활용해 Word 문서를 효율적으로 요약하는 완전 가이드입니다. |
 | [C#로 DOCX 파일의 문법 오류 수정하기 – 전체 단계별 가이드](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | C#와 Aspose.Words를 사용해 DOCX 파일의 문법 오류를 자동으로 감지하고 수정하는 방법을 단계별로 안내합니다. |
 | [로컬 LLM으로 Word 문서 요약 – C# 가이드](./summarize-word-document-with-local-llm-c-guide/) | C#와 Aspose.Words를 사용해 로컬 LLM으로 Word 문서를 요약하는 방법을 단계별로 안내합니다. |
