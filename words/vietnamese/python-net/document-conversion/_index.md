@@ -276,6 +276,11 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng
 ### [Tạo PDF có khả năng truy cập từ Word với Aspose.Words cho Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words cho Python.
 
+### [Cách lưu Markdown từ tệp DOCX bằng Aspose.Words cho Python](./how-to-save-markdown-from-a-docx-file-using-aspose-words-for/)
+Hướng dẫn chi tiết cách xuất nội dung Markdown từ tệp DOCX bằng Aspose.Words cho Python.
+
+### [Cách chuyển đổi docx sang txt bằng Aspose.Words cho Python](./how-to-convert-docx-to-txt-using-aspose-words-for-python/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

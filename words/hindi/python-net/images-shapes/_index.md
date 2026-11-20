@@ -94,6 +94,8 @@ Python में Aspose.Words का उपयोग करके खाली W
 ### [Python में आयत आकार और शैडो के साथ दस्तावेज़ कैसे बनाएं](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Python के लिए Aspose.Words का उपयोग करके आयत आकार और शैडो के साथ दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
+### [Python में Aspose.Words shape shadow example in Python](./aspose-words-shape-shadow-example-in-python/)
+
 ## अतिरिक्त संसाधन
 
 {{< /blocks/products/pf/tutorial-page-section >}}

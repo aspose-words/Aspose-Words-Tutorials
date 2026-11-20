@@ -89,6 +89,8 @@ Python を使用して空白の Word 文書を作成し、図形に影効果を�
 ### [Python で矩形シェイプと影を持つドキュメントを作成する方法](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Python を使用して、矩形シェイプと影効果を持つ Word 文書を作成する手順を解説します。
 
+### [Python で Aspose.Words のシェイプ影効果サンプル](./aspose-words-shape-shadow-example-in-python/)
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

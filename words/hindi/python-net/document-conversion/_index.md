@@ -117,11 +117,18 @@ DOCX फ़ाइलों को TXT में बदलें और वर्
 
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और Aspose.Words (Python) के साथ PDF में परिवर्तित करें](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें Aspose.Words for Python का उपयोग करके PDF में बदलें। चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [वर्ड को सुलभ PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-word-complete-programming-guide/)
 Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को सुलभ PDF में बदलें। चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 
 ### [वर्ड को सुलभ PDF बनाएं – Aspose.Words for Python के साथ](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Aspose.Words का उपयोग करके पायथन में Word फ़ाइल को सुलभ PDF में बदलें। चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words for Python का उपयोग करके DOCX फ़ाइल से मार्कडाउन सहेजें](./how-to-save-markdown-from-a-docx-file-using-aspose-words-for/)
+DOCX फ़ाइल को मार्कडाउन में बदलने के लिए Aspose.Words for Python के साथ चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words for Python का उपयोग करके docx को txt में कैसे बदलें](./how-to-convert-docx-to-txt-using-aspose-words-for-python/)
+Aspose.Words के साथ docx फ़ाइल को txt फ़ॉर्मेट में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,4 +136,3 @@ Aspose.Words का उपयोग करके पायथन में Word 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

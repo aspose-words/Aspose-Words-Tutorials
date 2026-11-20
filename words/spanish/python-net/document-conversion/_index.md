@@ -37,6 +37,8 @@ Aprenda a convertir documentos en Python con Aspose.Words para Python. Convierta
 ### [Cómo guardar Markdown desde Word – Guía completa de Python](./how-to-save-markdown-from-word-complete-python-guide/)
 Aprenda a guardar documentos de Word como archivos Markdown usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
+### [Cómo guardar Markdown desde un archivo DOCX usando Aspose.Words para Python](./how-to-save-markdown-from-a-docx-file-using-aspose-words-for/)
+
 ### [Guardar Word como Markdown, exportar ecuaciones a LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
 Aprende a guardar documentos de Word como Markdown y exportar ecuaciones a LaTeX usando Aspose.Words para Python.
 
@@ -63,7 +65,7 @@ Aprenda a convertir archivos DOCX a PDF en Python con Aspose.Words mediante un p
 Aprenda a generar archivos PDF a partir de documentos Word usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
 ### [Crear PDF accesible desde Word – Guía completa de Python con Aspose.Words](./create-accessible-pdf-from-word-complete-python-guide-with-aspose-words/)
-Aprenda a generar PDFs accesibles desde documentos Word usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+Aprenda a generar PDFs accesibles desde documentos Word usando Aspose.Words para Python, cumpliendo normas de accesibilidad.
 
 ### [Crear PDF accesible desde Word con Aspose.Words para Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Aprenda a generar PDFs accesibles desde documentos Word usando Aspose.Words para Python, cumpliendo normas de accesibilidad.
@@ -404,6 +406,9 @@ Aprenda a convertir archivos DOCX a Markdown usando Aspose.Words para Python de 
 ### [Guardar DOCX como PDF con Python – convertir DOCX a PDF y exportar formas](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
 
 ### [Cómo convertir docx a txt y exportar ecuaciones como LaTeX](./how-to-convert-docx-to-txt-and-export-equations-as-latex/)
+
+### [Cómo convertir docx a txt usando Aspose.Words para Python](./how-to-convert-docx-to-txt-using-aspose-words-for-python/)
+Aprenda a convertir archivos DOCX a texto plano (TXT) con Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

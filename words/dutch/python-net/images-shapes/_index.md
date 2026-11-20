@@ -90,6 +90,9 @@ Volledige gids voor het aanmaken van een leeg Word-document en het toevoegen van
 ### [Hoe een document met een rechthoekvorm en schaduw te maken in Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Leer hoe u een document maakt met een rechthoek en schaduw in Python met Aspose.Words.
 
+### [Voorbeeld van vormschaduw met Aspose.Words in Python](./aspose-words-shape-shadow-example-in-python/)
+Leer hoe u een schaduweffect toevoegt aan een vorm in een Word-document met Aspose.Words voor Python.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

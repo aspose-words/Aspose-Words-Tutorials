@@ -86,7 +86,8 @@ Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hi
 Hướng dẫn chi tiết cách tạo tài liệu Word trống và áp dụng hiệu ứng bóng đổ cho hình dạng bằng Aspose.Words cho Python-net.
 
 ### [Cách tạo tài liệu với hình chữ nhật và bóng đổ trong Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
-Hướng dẫn chi tiết cách tạo tài liệu Word với hình chữ nhật và hiệu ứng bóng đổ bằng Aspose.Words cho Python-net.
+
+### [Ví dụ bóng đổ hình dạng Aspose.Words trong Python](./aspose-words-shape-shadow-example-in-python/)
 
 ## Tài nguyên bổ sung
 
