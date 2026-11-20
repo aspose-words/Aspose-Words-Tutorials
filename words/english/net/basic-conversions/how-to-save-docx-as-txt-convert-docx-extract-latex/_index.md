@@ -52,7 +52,7 @@ dotnet add package Aspose.Words
 
 > **Pro tip:** If you’re using Visual Studio, right‑click the project → *Manage NuGet Packages* → search for *Aspose.Words* and install the latest stable version.  
 
-This package ships with everything we need: a `Document` class to read `.docx`, a `TxtSaveOptions` class to control the export, and the `OfficeMathExportMode` enum for LaTeX conversion.
+This package ships with everything we need: a `Document` class to read `.docx`, a `TxtSaveOptions` class to control the export, and the `TxtOfficeMathExportMode` enum for LaTeX conversion.
 
 ## How to Save docx as txt with LaTeX Export
 
@@ -80,7 +80,7 @@ class Program
         TxtSaveOptions txtOptions = new TxtSaveOptions
         {
             // This tells Aspose.Words to export Office Math as LaTeX markup.
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex
         };
 
         // -----------------------------------------------------------------
@@ -97,7 +97,7 @@ class Program
 ### Why these three steps?
 
 1. **Loading the document** gives us an in‑memory representation of the Word file, so we can manipulate it without touching the file system again.  
-2. **Configuring `TxtSaveOptions`** is the key to controlling the output. By setting `OfficeMathExportMode` to `LaTeX`, every equation (`OfficeMath` object) is turned into its LaTeX equivalent, which is far more useful for scientific pipelines.  
+2. **Configuring `TxtSaveOptions`** is the key to controlling the output. By setting `OfficeMathExportMode` to `Latex`, every equation (`OfficeMath` object) is turned into its LaTeX equivalent, which is far more useful for scientific pipelines.  
 3. **Saving with the options** writes a plain‑text file that contains the regular text plus LaTeX snippets wherever an equation existed. The result is a clean `.txt` you can feed into scripts, version control, or search indexes.
 
 ### Expected output

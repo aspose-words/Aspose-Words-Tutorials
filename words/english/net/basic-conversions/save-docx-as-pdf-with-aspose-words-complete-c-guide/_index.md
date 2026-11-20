@@ -95,9 +95,12 @@ Accessibility isn’t an afterthought; it’s a requirement for many public‑se
                 // PDF/UA‑1 compliance ensures the PDF meets WCAG‑2.0 level AA
                 Compliance = PdfCompliance.PdfUa1,
 
-                // Optional: set a custom PDF title for screen‑readers
-                Title = "Converted Document – Accessible PDF"
+                // Show the document title in PDF viewers
+                DisplayDocTitle = true
             };
+
+            // Optional: set a custom PDF title for screen‑readers
+            doc.BuiltInDocumentProperties.Title = "Converted Document – Accessible PDF";
 ```
 
 If you’re targeting the newer PDF/UA‑2 spec, just swap `PdfUa1` for `PdfUa2`. Most compliance tests (e.g., PAC 2021) still accept UA‑1, so this setting works in the wild.
@@ -208,10 +211,13 @@ namespace DocxToPdfDemo
             PdfSaveOptions pdfOptions = new PdfSaveOptions
             {
                 Compliance = PdfCompliance.PdfUa1,
-                Title = "Accessible PDF generated from DOCX",
+                DisplayDocTitle = true,
                 // Uncomment to enable strict validation
                 // ValidateDocument = true
             };
+
+            // Optional: set a custom PDF title for screen‑readers
+            doc.BuiltInDocumentProperties.Title = "Accessible PDF generated from DOCX";
 
             // -----------------------------------------------------------------
             // 4️⃣ Save the result – this is the core **save docx as pdf** step
