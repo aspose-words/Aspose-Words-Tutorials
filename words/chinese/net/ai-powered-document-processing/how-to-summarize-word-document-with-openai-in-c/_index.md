@@ -240,7 +240,6 @@ class Program
 以下教程涵盖与本指南技术紧密相关的主题，帮助你在项目中进一步掌握 API 功能并探索替代实现方案，每篇资源均提供完整可运行的代码示例和逐步解释。
 
 - [使用 AI 的 C# Word 文档摘要 – 步骤指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [使用自定义 GPT 模型在 C# 中摘要 Word 文档 – 完整指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -243,7 +243,6 @@ When you run the program (e.g., `dotnet run`), you should see something similar 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [C#'ta kelime belgesini özetleme – AI kullanarak adım adım kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [C#'ta Word Belgesini Özel GPT Modeli Kullanarak Özetleme – Tam Kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

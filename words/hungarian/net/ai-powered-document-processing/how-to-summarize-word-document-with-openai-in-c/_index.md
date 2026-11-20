@@ -245,7 +245,6 @@ Amikor futtatod a programot (pl. `dotnet run`), valami hasonlót kell látnod:
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és felfedezni alternatív megvalósítási megközelítéseket saját projektjeidben.
 
 - [Word dokumentum összefoglalása C#‑ban – lépésről‑lépésre útmutató AI használatával](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Word dokumentum összefoglalása C#‑ban egy egyedi GPT modell használatával – Teljes útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
