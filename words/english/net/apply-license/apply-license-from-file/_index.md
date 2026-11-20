@@ -74,19 +74,22 @@ catch (Exception e)
 
 ## Step 4: Verify the License
 
-Once you've set the license, it's a good idea to verify that it has been applied correctly. Since the `License` class does not expose an `IsLicensed` property, you can attempt to create a `Document` instance. If the license is active, the operation will succeed without throwing an exception.
+Once you've set the license, it's a good idea to verify that it has been applied correctly. The `License` class has no property that reports whether a license is active, and creating a `Document` without a license doesn't fail: the library just runs in evaluation mode. The reliable signal is `SetLicense` itself, which throws an exception if the license file is missing or invalid, so record whether that call succeeded.
 
 ```csharp
+bool isLicensed;
 try
 {
-    // Attempt to create a document to verify that the license is applied.
-    var doc = new Document();
-    Console.WriteLine("License is active.");
+    // SetLicense throws if the license file is missing or invalid.
+    license.SetLicense("Aspose.Words.lic");
+    isLicensed = true;
 }
 catch (Exception)
 {
-    Console.WriteLine("License is not active.");
+    isLicensed = false;
 }
+
+Console.WriteLine(isLicensed ? "License is active." : "License is not active; running in evaluation mode.");
 ```
 
 ## Conclusion

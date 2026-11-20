@@ -62,7 +62,7 @@ Document doc = new Document(@"C:\MyFiles\input.docx");
 
 ## Step 2: Configure PDF Save Options to **Create Accessible PDF**
 
-Now we tell Aspose how we want the PDF to be generated. The key property is `PdfCompliance`, which we set to `PdfCompliance.PdfUAXmpa2`. This flag instructs the library to produce a PDF/UA‑2‑compliant file, automatically treating things like horizontal rules (`<hr>`) as *artifacts* rather than content—exactly what accessibility checkers look for.
+Now we tell Aspose how we want the PDF to be generated. The key property is `Compliance`, which we set to `PdfCompliance.PdfUa2`. This setting instructs the library to produce a PDF/UA‑2‑compliant file, automatically treating things like horizontal rules (`<hr>`) as *artifacts* rather than content—exactly what accessibility checkers look for.
 
 ```csharp
 // Configure PDF save options for PDF/UA‑2 compliance
