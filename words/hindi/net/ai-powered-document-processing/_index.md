@@ -80,7 +80,6 @@
 | [स्थानीय LLM ट्यूटोरियल – स्थानीय LLM को कॉल करना और व्याकरण जांच चलाना](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | स्थानीय LLM को कैसे कॉल करें और Aspose.Words के साथ व्याकरण जांच लागू करें। |
 | [C# में सारांश रिपोर्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-summary-report-in-c-complete-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके संपूर्ण सारांश रिपोर्ट बनाने की विस्तृत प्रक्रिया सीखें। |
 | [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |
-| [C# में स्थानीय LLM के साथ पैराग्राफ को पुनर्लेखन कैसे करें – पूर्ण गाइड](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | C# में स्थानीय बड़े भाषा मॉडल का उपयोग करके पैराग्राफ को पुनर्लेखित करने की पूरी प्रक्रिया सीखें। |
 | [C# में AI दस्तावेज़ सारांशकर्ता का उपयोग कैसे करें](./how-to-use-an-ai-document-summarizer-in-c/) | .NET के लिए Aspose.Words के साथ C# में AI दस्तावेज़ सारांशकर्ता को लागू करने की पूरी गाइड। |
 | [Aspose.Words AI का उपयोग करके docx को फ़्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-using-aspose-words-ai/) | .NET के लिए Aspose.Words AI के साथ docx फ़ाइल को फ़्रेंच में अनुवाद करने की पूरी गाइड। |
 | [C# में Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
