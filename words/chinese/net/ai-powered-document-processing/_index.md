@@ -57,7 +57,6 @@
 | [如何在 C# 中检查语法 – Word 文档完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) 学习如何在 C# 使用 Aspose.Words 检查 Word 文档的语法，提升文档质量。|
 | [使用 Anthropic Claude 汇总 Word 文档 – C# 完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) 学习如何在 C# 中使用 Anthropic Claude 与 Aspose.Words 集成，实现高效的 Word 文档摘要。|
 | [使用自定义 GPT 模型在 C# 中汇总 Word 文档 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) 使用 Aspose.Words for .NET 与自定义 GPT 模型在 C# 中实现文档摘要，提供完整的分步指南。|
-| [如何使用 Aspose.Words 在 C# 中检查语法 – 指南](./how-to-check-grammar-in-c-with-aspose-words-guide/) 使用 Aspose.Words for .NET 在 C# 中实现语法检查，提升文档质量的实用指南。|
 | [如何在 Aspose.Words 中使用 Summarize – 完整指南](./how-to-use-summarize-in-aspose-words-complete-guide/) 使用 Aspose.Words for .NET 的 Summarize 功能，实现高效文档摘要的完整指南。|
 | [使用 AI 重写段落（C#）– 如何配置本地 LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) 使用 Aspose.Words for .NET 与本地大语言模型结合，在 C# 中实现段落自动重写，提高文档编辑效率。|
 | [使用 Aspose.Words AI 检查语法 – 完整指南](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) 使用 Aspose.Words for .NET 的 AI 功能检查文档语法，提升写作质量的完整指南。|
