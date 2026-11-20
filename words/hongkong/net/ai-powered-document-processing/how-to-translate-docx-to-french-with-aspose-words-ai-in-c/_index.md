@@ -240,7 +240,6 @@ foreach (Run run in paragraph.Runs)
 以下教學涵蓋與本指南技術密切相關的主題。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
 - [使用 C# 取代 DOCX 文字 – 步驟指南](/words/english/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/)
-- [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Aspose.Words – 將 docx 另存為 txt 並匯出 Word 方程式為 LaTeX – 完整指南](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

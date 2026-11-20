@@ -243,7 +243,6 @@ Ez a megközelítés biztosítja, hogy a félkövér, dőlt vagy hiperhivatkozá
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Szöveg helyettesítése DOCX-ben C#‑val – Lépés‑ről‑lépésre útmutató](/words/english/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/)
-- [Hogyan ellenőrizd a nyelvtant DOCX-ben az Aspose.Words‑szal – gpt-4 turbo használata](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Aspose.Words – DOCX mentése TXT‑ként és Word egyenletek exportálása LaTeX‑be – Teljes útmutató](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
