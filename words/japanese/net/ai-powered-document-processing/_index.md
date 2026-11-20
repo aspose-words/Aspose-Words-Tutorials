@@ -54,7 +54,6 @@
 | [LLM を使用した Aspose.Words – C# で段落を書き換える方法](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) Aspose.Words と LLM を組み合わせ、C# で段落を書き換える手順を学び、文書を自動的に改善します。 |
 | [C# で Word 文書を要約する – Anthropic Claude を使用した完全ガイド](./summarize-word-document-in-c-complete-guide-using-anthropic/) Anthropic Claude を活用し、C# で Word 文書を自動要約する手順をステップバイステップで解説します。 |
 | [カスタム GPT モデルを使用した C# での Word 文書要約 – 完全ガイド](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) カスタム GPT モデルを活用し、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
-| [Aspose.Words で Summarize を使用する方法 – 完全ガイド](./how-to-use-summarize-in-aspose-words-complete-guide/) Aspose.Words の Summarize 機能を活用し、文書要約を簡単に実装する手順を詳しく解説します。 |
 | [C# で AI を使用して段落を書き換える – ローカル LLM の構成方法](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) C# でローカル LLM を設定し、AI を使って段落を書き換える手順を学びます。 |
 | [Aspose.Words AI で文法チェックを行う方法 – 完全ガイド](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) Aspose.Words AI を活用して文書の文法を自動的にチェックし、修正提案を得る手順をステップバイステップで解説します。 |
 | [ローカル LLM を使用した Word 文書の要約 – ステップバイステップ C# ガイド](./summarize-word-document-with-local-llm-step-by-step-c-guid/) Aspose.Words for .NET とローカル LLM を組み合わせて、Word 文書を効率的に要約する方法を学びます。 |
