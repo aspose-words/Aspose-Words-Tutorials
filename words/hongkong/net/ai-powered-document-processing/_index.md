@@ -52,7 +52,6 @@
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
 | [使用 Aspose.Words AI 在 C# 中檢查文法](./how-to-check-grammar-in-c-with-aspose-words-ai/) |了解如何使用 Aspose.Words AI 在 C# 中檢查文法，提升文件品質與準確性。 |
 | [如何使用 LLM 與 Aspose.Words – 在 C# 中改寫段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) |使用 Aspose.Words for .NET 結合大型語言模型，在 C# 中自動改寫段落以提升文件品質。 |
-| [在 C# 中彙總 Word 文件 – 使用 Anthropic Claude 的完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) |使用 Aspose.Words for .NET 結合 Anthropic Claude，在 C# 中高效彙總 Word 文件，提升文件處理效率。 |
 | [使用 AI 重寫段落（C#）– 如何配置本地 LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) |了解如何在 C# 中使用 Aspose.Words 結合本地大型語言模型重寫段落，提高文件編輯效率。 |
 | [使用 Aspose.Words AI 檢查文法 – 完整指南](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) |了解如何使用 Aspose.Words AI 檢查 Word 文件的文法錯誤，提升寫作品質。 |
 | [使用本地大型語言模型匯總 Word 文件 – 步驟式 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) |使用本地 LLM 於 C# 中自動匯總 Word 文件，提供完整步驟與範例程式碼。 |
