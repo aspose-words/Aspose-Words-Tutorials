@@ -67,7 +67,6 @@
 | [Σύνοψη εγγράφων AI σε C# – πλήρης οδηγός](./ai-document-summarization-in-c-complete-guide/) | Οδηγός βήμα-βήμα για τη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
 | [Δημιουργία σύνοψης AI σε C# – οδηγός βήμα‑βήμα](./create-ai-summary-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αυτόματη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας το Aspose.Words. |
 | [Μετάφραση docx στα Γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα Γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
-| [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word μέσω C#. |
 | [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με AI, βήμα‑βήμα. |
 | [Πώς να μεταφράσετε DOCX στα γαλλικά και να αυτοματοποιήσετε τη μετάφραση εγγράφων](./how-to-translate-docx-to-french-and-automate-document-transl/) | Μάθετε πώς να μεταφράζετε αρχεία DOCX στα γαλλικά και να αυτοματοποιήσετε τη διαδικασία με το Aspose.Words για .NET. |
 | [Τοπικό LLM Σεμινάριο – Πώς να Καλέσετε ένα Τοπικό LLM και να Εκτελέσετε Έλεγχο Γραμματικής](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο LLM στο Aspose.Words για .NET και να εκτελέσετε αυτόματο έλεγχο γραμματικής στα έγγραφά σας. |

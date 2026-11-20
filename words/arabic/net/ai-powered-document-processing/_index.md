@@ -69,7 +69,6 @@
 | [دليل شامل لتلخيص المستندات بالذكاء الاصطناعي في C#](./ai-document-summarization-in-c-complete-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام الذكاء الاصطناعي في C# خطوة بخطوة. |
 | [إنشاء ملخص AI باستخدام C# – دليل خطوة بخطوة](./create-ai-summary-in-c-step-by-step-guide/) | دليل خطوة بخطوة لإنشاء ملخصات مستندات باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./translate-docx-to-french-with-ai-in-c/) | تعلم كيفية ترجمة مستندات docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
-| [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
 | [تلخيص مستند Word باستخدام C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
 | [كيفية ترجمة ملف DOCX إلى الفرنسية وأتمتة ترجمة المستند](./how-to-translate-docx-to-french-and-automate-document-transl/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية تلقائيًا باستخدام Aspose.Words ودمج نماذج الذكاء الاصطناعي. |
 | [دليل LLM المحلي – كيفية استدعاء نموذج LLM محلي وتشغيل فحص القواعد](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | تعلم كيفية استدعاء نموذج LLM محلي وإجراء فحص القواعد النحوية باستخدام Aspose.Words. |

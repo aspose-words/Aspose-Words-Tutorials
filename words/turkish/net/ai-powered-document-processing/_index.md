@@ -74,7 +74,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta AI belge özetleme – tam rehber](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET ve AI modelleriyle C# kullanarak belge özetlemenin tüm adımlarını öğrenin. |
 | [C# ile AI özeti oluşturma – adım adım kılavuz](./create-ai-summary-in-c-step-by-step-guide/) | C# kullanarak AI destekli belge özetleri oluşturmayı adım adım öğrenin. |
 | [C# ile AI kullanarak docx'i Fransızcaya çevir](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx belgelerini Fransızcaya otomatik çevirin. |
-| [C# ile Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# ve Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit etmeyi öğrenin. |
 | [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
 | [DOCX'i Fransızcaya Çevirme ve Belge Çevirisini Otomatikleştirme](./how-to-translate-docx-to-french-and-automate-document-transl/) |  |
 | [Yerel LLM Eğitimi – Yerel LLM'yi Çağırma ve Dilbilgisi Kontrolü Çalıştırma](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Yerel LLM'yi nasıl çağıracağınızı ve belge üzerindeki dilbilgisi denetimini nasıl yapacağınızı öğrenin. |
