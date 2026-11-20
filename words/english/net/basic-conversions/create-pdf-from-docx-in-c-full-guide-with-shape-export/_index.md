@@ -188,7 +188,7 @@ foreach (Shape shape in document.GetChildNodes(NodeType.Shape, true))
 
 - **Always test with the same version of Word** that your users will use. Minor layout differences can appear between Word 2016 and Word 2021.
 - **Use `PdfCompliance.PdfA1b`** when you need archival‑grade PDFs; it embeds fonts and ensures long‑term readability.
-- **Dispose of large `Document` objects** promptly (e.g., `document.Dispose()`) if you’re processing many files in a long‑running service.
+- **Allow large `Document` objects to be reclaimed by the garbage collector** when you’re processing many files in a long‑running service.
 - **Log the conversion status** (success/failure) with enough context to debug later—especially important for batch jobs.
 - **Beware of licensing**: Aspose.Words is a commercial library. Ensure you have a valid license; otherwise, the output PDFs may contain evaluation watermarks.
 

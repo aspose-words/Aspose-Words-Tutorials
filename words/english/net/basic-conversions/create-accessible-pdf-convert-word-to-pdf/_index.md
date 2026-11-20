@@ -54,7 +54,7 @@ No other third‑party packages are required.
 
 ## Create Accessible PDF – Overview
 
-The core idea is simple: load the source `.docx`, tell Aspose.Words to use PDF/UA‑2 compliance, then save. The `PdfSaveOptions` class does the heavy lifting—setting the `Compliance` property to `PdfCompliance.PdfUAX` flags the PDF as accessible. Horizontal rules, for example, become “artifacts” that assistive tech will ignore, which is exactly what the PDF/UA spec recommends.
+The core idea is simple: load the source `.docx`, tell Aspose.Words to use PDF/UA‑2 compliance, then save. The `PdfSaveOptions` class does the heavy lifting—setting the `Compliance` property to `PdfCompliance.PdfUa2` flags the PDF as accessible. Horizontal rules, for example, become “artifacts” that assistive tech will ignore, which is exactly what the PDF/UA spec recommends.
 
 Below you’ll find the full, runnable program followed by a step‑by‑step breakdown.
 
@@ -82,7 +82,7 @@ class Program
             Compliance = PdfCompliance.PdfUa2,
 
             // Optional: make sure all fonts are embedded (helps screen readers)
-            EmbedStandardWindowsFonts = true,
+            FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll,
 
             // Optional: set the output to be tagged (required for PDF/UA)
             ExportDocumentStructure = true
@@ -118,25 +118,25 @@ Document wordDoc = new Document(inputPath);
 
 ## Step 2: Configure PDF/UA‑2 Compliance (export word to pdf)
 
-The heart of **creating accessible PDF** lies in the `PdfSaveOptions`. Setting `Compliance = PdfCompliance.PdfUAX` tells Aspose to:
+The heart of **creating accessible PDF** lies in the `PdfSaveOptions`. Setting `Compliance = PdfCompliance.PdfUa2` tells Aspose to:
 
 * Tag the PDF structure (necessary for screen readers).  
-* Mark visual elements like horizontal rules as *artifacts* so they’re ignored.  
+* Mark visual elements like horizontal rules as artifacts so they’re ignored.  
 * Embed required fonts, ensuring text is readable even when the viewer lacks the original fonts.
 
 You can also tweak a handful of optional properties:
 
 | Property | Effect | When to use |
 |----------|--------|-------------|
-| `EmbedStandardWindowsFonts` | Guarantees that common Windows fonts are embedded. | If your audience might open the PDF on non‑Windows platforms. |
+| `PreserveFormFields` | If set to `false`, form fields are flattened (no interactive fields). | When you need a static PDF without fillable fields. |
 | `ExportDocumentStructure` | Adds a logical reading order (tags). | Always for PDF/UA compliance. |
-| `SaveFormat` (default) | You can explicitly set `SaveFormat.Pdf` if you later switch to a different format. | Rarely needed, but clarifies intent. |
+| `FontEmbeddingMode` | Controls how fonts are embedded (`EmbedAll`, `EmbedNonstandard`, `EmbedNone`). | Use `EmbedAll` for maximum accessibility. |
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     Compliance = PdfCompliance.PdfUa2,
-    EmbedStandardWindowsFonts = true,
+    FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll,
     ExportDocumentStructure = true
 };
 ```
@@ -166,7 +166,7 @@ After the save completes, you can open the PDF in Adobe Acrobat and check **File
 
 * **Tags panel** shows a hierarchical structure (`<Document> → <Section> → <Paragraph>`).  
 * **Reading order** matches the visual order in the original Word file.  
-* **Artifacts** (e.g., decorative lines) are listed under *Artifacts* in the tags tree.  
+* **Artifacts** (e.g., decorative lines) are correctly marked as artifacts in the PDF tags.
 
 If any of these are missing, double‑check that `ExportDocumentStructure` is `true` and that you’re using the latest Aspose.Words version.
 
@@ -176,11 +176,11 @@ If any of these are missing, double‑check that `ExportDocumentStructure` is `t
 
 | Situation | What to Do |
 |-----------|------------|
-| **Large DOCX (>100 MB)** | Use `LoadOptions` with `LoadFormat.Docx` and enable `LoadOptions.LoadFormat` to stream the file, reducing memory pressure. |
+| **Large DOCX (>100 MB)** | Use `LoadOptions` with `LoadFormat.Docx` to reduce memory pressure, e.g., `new LoadOptions { LoadFormat = LoadFormat.Docx }`. |
 | **Password‑protected Word file** | Pass the password to the `Document` constructor: `new Document(path, new LoadOptions { Password = "secret" })`. |
-| **Missing fonts** | Set `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always` to force embedding of all used fonts. |
+| **Missing fonts** | Set `saveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` to force embedding of all used fonts. |
 | **Custom page size** | Adjust `saveOptions.PageSetup.PaperSize` before saving. |
-| **Need to flatten form fields** | Set `saveOptions.FlattenFormFields = true`. |
+| **Need to flatten form fields** | Set `saveOptions.PreserveFormFields = false`. |
 
 These variations let you **convert word to pdf** in a production‑grade service without surprises.
 
@@ -207,7 +207,7 @@ class Program
             PdfSaveOptions saveOptions = new PdfSaveOptions
             {
                 Compliance = PdfCompliance.PdfUa2,
-                EmbedStandardWindowsFonts = true,
+                FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll,
                 ExportDocumentStructure = true
             };
 
@@ -230,7 +230,7 @@ Run it, open the generated PDF, and you’ll see a fully tagged, accessible docu
 
 ## Conclusion
 
-We’ve just **created accessible PDF** from a Word source, covering everything from loading the `.docx` (i.e., **convert docx to pdf**) to configuring PDF/UA‑2 compliance, and finally **saving document as pdf**. The same pattern works for any .NET project that needs to **convert word to pdf
+We’ve just **created accessible PDF** from a Word source, covering everything from loading the `.docx` (i.e., **convert docx to pdf**) to configuring PDF/UA‑2 compliance, and finally **saving document as pdf**. The same pattern works for any .NET project that needs to **convert word to pdf**.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
