@@ -55,7 +55,6 @@
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
-| [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
 | [使用 Aspose.Words AI 在 C# 中檢查文法](./how-to-check-grammar-in-c-with-aspose-words-ai/) |了解如何使用 Aspose.Words AI 在 C# 中檢查文法，提升文件品質與準確性。 |
 | [如何使用 LLM 與 Aspose.Words – 在 C# 中改寫段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) |使用 Aspose.Words for .NET 結合大型語言模型，在 C# 中自動改寫段落以提升文件品質。 |
 | [如何在 C# 中檢查文法 – Word 文件完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) |使用 Aspose.Words for .NET 結合 AI 檢查 C# 程式碼中的文法，提升 Word 文件品質。 |

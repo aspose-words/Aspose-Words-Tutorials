@@ -50,7 +50,6 @@
 | [Word 文書の文法チェック方法 – 完全 C# ガイド](./how-to-check-grammar-in-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の文法を自動的にチェックし、修正提案を行う方法を学びます。 |
 | [C# でローカル LLM を使って文法チェックする方法](./how-to-check-grammar-with-a-local-llm-in-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で文書の文法チェックを自動化する手順を解説します。 |
 | [Aspose.Words AI を使用した文法チェックと Word 文書の要約方法](./how-to-check-grammar-and-summarize-word-document-with-aspose/) Aspose.Words for .NET の AI 機能で文法チェックと要約を実装する手順を学びます。 |
-| [C# で Word をロードし、AI で段落を書き換える方法](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) Aspose.Words for .NET を使用して、C# で Word 文書を読み込み、AI を活用して特定の段落を自動的に書き換える手順を解説します。 |
 | [C# で Aspose.Words AI を使って文法をチェックする方法](./how-to-check-grammar-in-c-with-aspose-words-ai/) Aspose.Words の AI 機能を活用し、C# で文書の文法エラーを自動的に検出・修正する手順を学びます。 |
 | [LLM を使用した Aspose.Words – C# で段落を書き換える方法](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) Aspose.Words と LLM を組み合わせ、C# で段落を書き換える手順を学び、文書を自動的に改善します。 |
 | [C# で文法チェックする方法 – Word 文書の完全ガイド](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) Aspose.Words for .NET と C# を使用して、Word 文書の文法チェックを自動化する完全ガイドです。 |
