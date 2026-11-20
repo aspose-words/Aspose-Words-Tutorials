@@ -221,7 +221,6 @@ Je weet nu hoe je **docx naar Frans kunt vertalen** met Aspose.Words AI, hoe je 
 
 Verken nu deze gerelateerde onderwerpen:
 
-- [Hoe grammatica te controleren in Word met Aspose.Words AI – Complete gids](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Hoe Word‑documenten te laden met Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -44,7 +44,6 @@
 | [使用匯總選項](./working-with-summarize-options/) |透過我們關於整合 AI 模型以獲得快速洞察的逐步指南，學習使用 Aspose.Words for .NET 有效地總結 Word 文件。 |
 | [使用 C# 匯總 Word 文件 – 完整 AI 驅動指南](./summarize-word-document-in-c-complete-ai-powered-guide/) |透過完整的 AI 驅動指南，學習在 C# 中使用 Aspose.Words 進行 Word 文件的自動匯總與摘要。 |
 | [使用 Aspose.Words AI 摘要 Word 文件](./how-to-summarize-a-word-document-with-aspose-words-ai/) |透過 Aspose.Words AI 在 C# 中快速摘要 Word 文件，提高工作效率。 |
-| [如何使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) |使用 Aspose.Words AI 在 Word 中自動檢查文法錯誤，提升寫作品質的完整步驟指南。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-in-c-using-a-local-llm/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文法錯誤。 |
 | [使用 AI 摘要 Word 文件 – OpenAI 與 Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) |比較 OpenAI 與 Gemini 在 Word 文件摘要中的效能與使用方式，幫助您選擇最佳 AI 解決方案。 |
 | [如何彙總 Word 文件 – 完整 C# 指南](./how-to-summarize-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 與 C# 完整指南，教您快速摘要 Word 文件，提升工作效率。 |
