@@ -76,7 +76,6 @@
 | [C# で AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 | [空白のWord文書を作成し、フランス語に翻訳する](./create-a-blank-word-document-and-translate-it-to-french/) Aspose.Words for .NET を使用して空のWord文書を作成し、フランス語へ自動翻訳する方法を学びます。 |
 | [Aspose.Words AI を使用した C# で文字列をスペイン語に翻訳する](./translate-string-to-spanish-in-c-with-aspose-words-ai/) Aspose.Words AI を活用し、C# で文字列を簡単にスペイン語へ翻訳する方法を学びます。 |
-| [段落をフランス語に翻訳し、Word のチャートラベルを変更する](./translate-paragraph-to-french-and-change-chart-label-in-word/) Aspose.Words for .NET を使用して、段落をフランス語に翻訳し、Word 文書内のチャートラベルを変更する方法を学びます。 |
 | [Google AI を使用して C# で翻訳された Word 文書を保存する方法](./how-to-save-translated-word-document-in-c-with-google-ai/) Google AI を活用し、C# で翻訳された Word 文書を保存する手順をステップバイステップで解説します。 |
 | [OpenAI を使用して C# で Word 文書を要約する方法](./how-to-summarize-word-document-with-openai-in-c/) Aspose.Words for .NET と OpenAI を組み合わせ、C# で Word 文書を自動要約する手順を学びます。 |
 | [OpenAI API を使用して C# で Word 文書を要約する](./summarize-word-document-with-openai-api-using-c/) Aspose.Words for .NET と OpenAI API を組み合わせ、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |

@@ -78,7 +78,6 @@
 | [如何在 C# 中使用 AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中自動將 DOCX 文件翻譯為法語。 |
 | [建立空白 Word 文件並翻譯成法文](./create-a-blank-word-document-and-translate-it-to-french/) |使用 Aspose.Words for .NET 建立空白 Word 檔案，並透過 AI 翻譯成法語。 |
 | [使用 Aspose.Words AI 在 C# 中將字串翻譯成西班牙語](./translate-string-to-spanish-in-c-with-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將文字字串快速翻譯為西班牙語，提升多語言文件處理效率。 |
-| [將段落翻譯成法文並更改 Word 中的圖表標籤](./translate-paragraph-to-french-and-change-chart-label-in-word/) |使用 Aspose.Words for .NET 將段落翻譯成法文，同時修改圖表標籤。 |
 | [如何在 C# 中將 docx 翻譯成法文 – 步驟說明指南](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) |使用 Aspose.Words for .NET 在 C# 中逐步將 DOCX 文件翻譯成法文的完整指南。 |
 | [如何在 C# 中使用 Google 翻譯 API 進行文字翻譯 – 步驟指南](./how-to-translate-text-with-google-translate-api-in-c-step-by/) |使用 Aspose.Words for .NET 結合 Google 翻譯 API，在 C# 中逐步實作文字翻譯。 |
 

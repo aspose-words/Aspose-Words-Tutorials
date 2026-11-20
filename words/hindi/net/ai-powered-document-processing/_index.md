@@ -76,7 +76,6 @@
 | [AI के साथ C# में docx को फ्रेंच में अनुवाद करने का तरीका](./how-to-translate-docx-to-french-with-ai-in-c/) | AI का उपयोग करके C# में docx फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 | [एक खाली Word दस्तावेज़ बनाएं और इसे फ़्रेंच में अनुवादित करें](./create-a-blank-word-document-and-translate-it-to-french/) | एक खाली Word फ़ाइल बनाकर उसे फ़्रेंच में अनुवादित करने का तरीका सीखें। |
 | [C# में Aspose.Words AI के साथ स्ट्रिंग को स्पेनिश में अनुवाद करें](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में स्ट्रिंग को स्पेनिश में अनुवाद करने का तरीका सीखें। |
-| [पैराग्राफ को फ्रेंच में अनुवाद करें और Word में चार्ट लेबल बदलें](./translate-paragraph-to-french-and-change-chart-label-in-word/) | .NET के लिए Aspose.Words का उपयोग करके पैराग्राफ को फ्रेंच में अनुवाद करें और Word दस्तावेज़ में चार्ट लेबल बदलें। |
 | [C# में docx को फ्रेंच में अनुवाद करने का चरण‑दर‑चरण गाइड](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में docx फ़ाइल को फ्रेंच में अनुवाद करने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [Google AI के साथ C# में अनुवादित Word दस्तावेज़ को सहेजना कैसे करें](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI का उपयोग करके C# में अनुवादित Word फ़ाइल को सहेजने की प्रक्रिया सीखें। |
 | [OpenAI API का उपयोग करके C# में Word दस्तावेज़ का सारांश बनाएं](./summarize-word-document-with-openai-api-using-c/) | C# में OpenAI API का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की गाइड। |
