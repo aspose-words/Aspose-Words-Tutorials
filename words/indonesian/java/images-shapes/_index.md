@@ -33,6 +33,8 @@ Dalam bidang pemrosesan dokumen, mengintegrasikan gambar dan bentuk sangat penti
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Cara membuat bentuk persegi panjang dan mengelompokkan bentuk di Word menggunakan C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 
 ### [Penyimpanan Halaman & Gambar Kustom di Java dengan Panggilan Balik Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Tutorial kode untuk Aspose.Words Java

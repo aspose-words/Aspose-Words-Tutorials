@@ -241,7 +241,6 @@ class Program
 
 - [C# で Word ドキュメントを要約する – AI を使用したステップバイステップガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [C# でカスタム GPT モデルを使用して Word ドキュメントを要約する – 完全ガイド](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Aspose.Words AI で Word ドキュメントに要約を追加する](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

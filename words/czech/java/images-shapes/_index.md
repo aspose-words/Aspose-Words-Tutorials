@@ -33,6 +33,8 @@ oblasti zpracování dokumentů je integrace obrázků a tvarů klíčová pro v
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Jak vytvořit obdélníkový tvar a seskupit tvary ve Wordu pomocí C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 
 ### [Ukládání vlastních stránek a obrázků v Javě pomocí zpětných volání Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Výukový program pro Aspose.Words v Javě

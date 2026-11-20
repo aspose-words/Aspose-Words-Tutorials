@@ -183,7 +183,7 @@ Run this program (`dotnet run` or from Visual Studio) and open `output.txt`. You
 
 - **How to convert docx** to other formats (PDF, HTML) – the same `Save` method with different `SaveOptions`.  
 - **Plain text from Word** for search indexing – combine this approach with a tokenizer to build a searchable corpus.  
-- **Exporting equations to MathML** – swap `OfficeMathExportMode` to `MathML` if you need XML‑based math for web pages.  
+- **Exporting equations to MathML** – plain text can't carry MathML. If you need XML‑based math for web pages, save to HTML instead with `new HtmlSaveOptions { OfficeMathOutputMode = HtmlOfficeMathOutputMode.MathML }`.  
 - **Batch processing** – wrap the code in a `foreach` loop to handle dozens of files automatically.
 
 ---

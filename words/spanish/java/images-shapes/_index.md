@@ -171,6 +171,8 @@ Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words 
 
 ### [Cómo usar Aspose para insertar una imagen y ocultarla en un documento Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
+### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 ## Recursos adicionales
 
 ### [Crear un documento Word en blanco con una forma elíptica oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

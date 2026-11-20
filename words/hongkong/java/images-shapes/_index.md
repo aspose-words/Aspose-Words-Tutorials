@@ -34,6 +34,9 @@
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 
+### [如何在 Word 中使用 C# 建立矩形形狀並分組形狀](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 

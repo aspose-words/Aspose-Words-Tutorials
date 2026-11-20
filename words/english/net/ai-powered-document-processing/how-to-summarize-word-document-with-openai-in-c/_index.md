@@ -247,7 +247,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Summarize word document in C# – step‑by‑step guide using AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
 - [Summarize Word Document in C# Using a Custom GPT Model – Full Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
-- [Add Summary to Word Document with Aspose.Words AI](/words/english/net/ai-powered-document-processing/add-summary-to-word-document-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

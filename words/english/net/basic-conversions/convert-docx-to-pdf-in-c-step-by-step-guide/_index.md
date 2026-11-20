@@ -31,7 +31,7 @@ url: /net/basic-conversions/convert-docx-to-pdf-in-c-step-by-step-guide/
 
 Ever needed to **convert DOCX to PDF** on the fly, but weren’t sure which library would let you do it without a heavyweight setup? You're not alone—many developers hit this wall when building document‑centric web services or desktop tools. The good news? With Aspose.Words Low‑Code you can turn a Word file into a PDF in just a few lines, and you’ll also learn how to **save PDF file**, **generate PDF from DOCX**, **export DOCX as PDF**, and even **convert Word to PDF** for batch jobs.
 
-In this tutorial we’ll walk through a real‑world scenario: reading a `.docx` from disk, configuring PDF/A‑2b compliance, converting it to a byte array, and finally writing the **PDF** back to storage. By the end you’ll have a self‑contained, production‑ready snippet you can drop into any .NET 6+ project. No external configuration files, no obscure magic—just clear code and explanations.
+In this tutorial we’ll walk through a real‑world scenario: reading a `.docx` from disk, configuring PDF/A‑2a compliance, converting it to a byte array, and finally writing the **PDF** back to storage. By the end you’ll have a self‑contained, production‑ready snippet you can drop into any .NET 6+ project. No external configuration files, no obscure magic—just clear code and explanations.
 
 ## What You’ll Need
 
@@ -68,13 +68,13 @@ Because many web APIs (ASP.NET Core controllers, Azure Functions, etc.) accept `
 
 ## Step 2: Define PDF Conversion Options
 
-Aspose.Words gives you granular control over the PDF output. In this example we’ll target **PDF/A‑2b** compliance, which is the go‑to choice for archival‑grade PDFs. If you don’t need that, just omit the `Compliance` property.
+Aspose.Words gives you granular control over the PDF output. In this example we’ll target **PDF/A‑2a** compliance, which is the go‑to choice for archival‑grade PDFs. If you don’t need that, just omit the `Compliance` property.
 
 ```csharp
-// Set up PDF save options – PDF/A‑2b is ideal for long‑term storage
+// Set up PDF save options – PDF/A‑2a is ideal for long‑term storage
 PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    Compliance = PdfCompliance.PdfA2b,
+    Compliance = PdfCompliance.PdfA2a,
     // Optional: you can embed fonts, set image quality, etc.
     EmbedFullFonts = true,
     OptimizeOutput = true
@@ -118,7 +118,7 @@ File.WriteAllBytes(outputPath, pdfBytes);
 Console.WriteLine($"PDF successfully saved to: {outputPath}");
 ```
 
-At this point you have successfully **exported DOCX as PDF** and can open `output.pdf` with any standard viewer. The file will be PDF/A‑2b compliant, fonts embedded, and optimized for size.
+At this point you have successfully **exported DOCX as PDF** and can open `output.pdf` with any standard viewer. The file will be PDF/A‑2a compliant, fonts embedded, and optimized for size.
 
 ## Full, Ready‑to‑Run Example
 
@@ -155,7 +155,7 @@ class Program
         // -------------------------------------------------
         PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfA2b,
+            Compliance = PdfCompliance.PdfA2a,
             EmbedFullFonts = true,
             OptimizeOutput = true
         };
@@ -185,14 +185,14 @@ class Program
 }
 ```
 
-**Expected result:** After running the program, `output.pdf` appears in the same folder. Open it— you’ll see the original Word content faithfully reproduced, with all fonts embedded and PDF/A‑2b metadata present.
+**Expected result:** After running the program, `output.pdf` appears in the same folder. Open it— you’ll see the original Word content faithfully reproduced, with all fonts embedded and PDF/A‑2a metadata present.
 
 ## Common Variations & Edge Cases
 
 | Scenario | What to Change | Why |
 |----------|----------------|-----|
 | **Convert many files in a batch** | Loop over a list of `.docx` paths, reusing the same `PdfSaveOptions` object. | Reduces allocation overhead. |
-| **Skip PDF/A compliance** | Omit `Compliance = PdfCompliance.PdfA2b` or set `Compliance = PdfCompliance.None`. | Faster conversion when archival standards aren’t required. |
+| **Skip PDF/A compliance** | Omit `Compliance = PdfCompliance.PdfA2a` or set `Compliance = PdfCompliance.Pdf17`. | Faster conversion when archival standards aren’t required. |
 | **Adjust image quality** | Set `pdfOptions.JpegQuality = 80;` | Smaller PDFs for web delivery at the cost of slight visual degradation. |
 | **Run in ASP.NET Core controller** | Return `File(pdfBytes, "application/pdf", "report.pdf");` instead of writing to disk. | Sends the PDF directly to the client without touching the file system. |
 | **Handle password‑protected DOCX** | Load the document with `LoadOptions { Password = "secret" }` before conversion. | Needed for secured corporate templates. |

@@ -67,7 +67,7 @@ The tutorial covers everything from project setup to handling edge cases, so you
 
 - .NET 6.0 or later (the code also works on .NET Core 3.1+)
 - An OpenAI API key **or** a Google Cloud Vertex AI key
-- The `DocX` NuGet package for reading Word files
+- The `Aspose.Words` NuGet package for reading Word files
 - The `OpenAI` or `Google.Cloud.AIPlatform.V1` NuGet package for the chosen provider
 - A development environment such as Visual Studio 2022 or VS Code
 
@@ -78,7 +78,7 @@ First, create a new console project and add the required packages:
 ```bash
 dotnet new console -n AiSummarizerDemo
 cd AiSummarizerDemo
-dotnet add package DocX --version 1.0.0
+dotnet add package Aspose.Words
 dotnet add package OpenAI --version 2.5.0   # for OpenAI
 dotnet add package Google.Cloud.AIPlatform.V1 --version 2.6.0   # for Google
 ```
@@ -87,7 +87,7 @@ dotnet add package Google.Cloud.AIPlatform.V1 --version 2.6.0   # for Google
 
 ## Step 2: Load a Word document to **create summary from word**
 
-The first functional line reads the source `.docx` file. Using `DocX` we extract plain text, which the AI model will later summarize.
+The first functional line reads the source `.docx` file. Using Aspose.Words we extract plain text with `Document.GetText()`, which the AI model will later summarize.
 
 ```csharp
 using System;

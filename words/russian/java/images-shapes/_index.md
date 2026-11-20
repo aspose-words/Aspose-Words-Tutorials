@@ -169,6 +169,9 @@
 ### [Создание прямоугольной фигуры в документе Word с помощью Java](./create-rectangle-shape-in-a-word-document-using-java/)
 Узнайте, как программно добавить прямоугольную фигуру в документ Word с помощью Aspose.Words для Java.
 
+### [Как создать прямоугольную фигуру и сгруппировать фигуры в Word с использованием C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+Полное руководство по созданию прямоугольной фигуры и группировке фигур в Word с помощью C#.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

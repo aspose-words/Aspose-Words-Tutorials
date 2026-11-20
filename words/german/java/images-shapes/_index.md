@@ -63,7 +63,7 @@ Erfahren Sie, wie Sie mit Aspose.Words für C# ein PDF-Dokument erstellen und ei
 ### [Word-Dokument in Java erstellen – Schatten zu Form hinzufügen](./create-word-document-java-add-shadow-to-shape-guide/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen Schatteneffekt hinzufügt.
 
-### [Gruppieren von Formen in Word mit Java – Vollständige Schritt-für-Schritt-Anleitung](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+### [Gruppieren von Formen in Word mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Ein umfassendes Tutorial, das zeigt, wie man mehrere Formen in einem Word-Dokument mit Aspose.Words für Java gruppiert und verwaltet.
 
 ### [Word-Dokument in Java erstellen – Form mit Schatteneffekt hinzufügen](./create-word-document-java-add-shape-with-shadow-effect/)
@@ -210,3 +210,5 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument erstellen, da
 {{< blocks/products/products-backtop-button >}}
 
 ### [Wie man ein leeres Word-Dokument erstellt und mehrere Formen gruppiert](./how-to-create-blank-word-document-and-group-multiple-shapes/)
+
+### [Wie man ein Rechteck in Word erstellt und Formen gruppiert – C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
