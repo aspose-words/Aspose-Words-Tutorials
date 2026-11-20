@@ -221,7 +221,6 @@ class Program
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [C# ile Aspose.Words API kullanarak Word Belgesini Özetleme – Tam AI‑Güçlü Kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Yerel LLM ile Word Belgesini Özetleme – C# Kılavuzu](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Aspose.Words ile boş Word belgesi oluşturma – Adım‑Adım Kılavuz](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

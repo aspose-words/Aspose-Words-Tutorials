@@ -229,7 +229,6 @@ class Program
 以下教學涵蓋與本指南緊密相關的主題，並在此基礎上延伸技術。每個資源皆提供完整可運作的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [使用 Aspose.Words API 於 C# 概括 Word 文件 – 完整 AI 驅動指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [使用本地 LLM 概括 Word 文件 – C# 教學](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [使用 Aspose.Words 建立空白 Word 文件 – 步驟教學](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

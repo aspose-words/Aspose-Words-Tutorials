@@ -215,7 +215,6 @@ Inject `SummarizationService` เข้าไปในคอนโทรลเ�
 
 - [สรุปเอกสาร Word ด้วย C# และ Aspose.Words API – คู่มือเต็มรูปแบบ AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [สรุปเอกสาร Word ด้วย AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [สรุปเอกสาร Word ด้วย Local LLM – คู่มือ C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

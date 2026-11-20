@@ -220,7 +220,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Word-document samenvatten in C# met Aspose.Words API – Complete AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Word-document samenvatten met AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [Word-document samenvatten met lokale LLM – C#‑gids](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

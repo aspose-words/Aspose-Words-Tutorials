@@ -220,7 +220,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur
 
 - [Résumer un document Word en C# avec l'API Aspose.Words – Guide complet IA‑Powered](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Résumer un document Word avec l'IA – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [Résumer un document Word avec LLM local – Guide C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

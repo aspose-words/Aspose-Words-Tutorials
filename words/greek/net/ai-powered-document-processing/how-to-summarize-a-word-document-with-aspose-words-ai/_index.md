@@ -220,7 +220,6 @@ public class SummarizationService
 
 - [Σύνοψη εγγράφου Word σε C# με το Aspose.Words API – Πλήρης Οδηγός με AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Σύνοψη εγγράφου Word με AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [Σύνοψη εγγράφου Word με Local LLM – Οδηγός C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

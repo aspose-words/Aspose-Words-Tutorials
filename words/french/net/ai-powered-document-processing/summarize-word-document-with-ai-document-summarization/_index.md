@@ -232,7 +232,6 @@ class Program
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
 - [Résumer un document Word en C# avec l'API Aspose.Words – Guide complet alimenté par l'IA](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Résumer un document Word avec un LLM local – Guide C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Créer un document Word vierge avec Aspose.Words – Guide étape par étape](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -217,7 +217,6 @@ public class SummarizationService
 
 - [使用 Aspose.Words API 在 C# 中摘要 Word 文档 – 完整 AI 驱动指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [使用 AI 摘要 Word 文档 – OpenAI 与 Gemini 对比](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [使用本地 LLM 摘要 Word 文档 – C# 指南](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -218,7 +218,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Word dokumentum összefoglalása C#‑ban az Aspose.Words API‑val – Teljes AI‑alapú útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Word dokumentum összefoglalása AI‑val – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [Word dokumentum összefoglalása helyi LLM‑mel – C# útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

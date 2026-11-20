@@ -219,7 +219,6 @@ public class SummarizationService
 
 - [تلخيص مستند Word في C# باستخدام Aspose.Words API – دليل كامل مدعوم بالذكاء الاصطناعي](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

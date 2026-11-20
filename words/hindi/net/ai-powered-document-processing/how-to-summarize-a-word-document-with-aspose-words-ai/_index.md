@@ -220,7 +220,6 @@ public class SummarizationService
 
 - [C# में Aspose.Words API के साथ Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [AI के साथ Word दस्तावेज़ का सारांश – OpenAI बनाम Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
-- [स्थानीय LLM के साथ Word दस्तावेज़ का सारांश – C# गाइड](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
