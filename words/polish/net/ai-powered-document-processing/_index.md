@@ -69,7 +69,6 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak używać podsumowywacza dokumentów AI w C#](./how-to-use-an-ai-document-summarizer-in-c/) | Jak wykorzystać Aspose.Words i AI do podsumowywania dokumentów w C# – krok po kroku. |
 | [Jak podsumować dokument Word przy użyciu dostawców AI w C#](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 | [Jak używać tłumacza do automatyzacji tłumaczenia dokumentów w C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Dowiedz się, jak automatycznie tłumaczyć dokumenty przy użyciu Aspose.Words i tłumacza w C#. |
-| [Podsumowanie dokumentu Word przy użyciu podsumowania AI](./summarize-word-document-with-ai-document-summarization/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word. |
 | [Jak przetłumaczyć docx na francuski przy użyciu AI w C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Dowiedz się, jak używać Aspose.Words i AI do tłumaczenia dokumentów DOCX na język francuski w C#. |
 | [Utwórz pusty dokument Word i przetłumacz go na francuski](./create-a-blank-word-document-and-translate-it-to-french/) | Dowiedz się, jak utworzyć pusty dokument Word i przetłumaczyć go na język francuski przy użyciu Aspose.Words dla .NET. |
 | [Przetłumacz akapit na francuski i zmień etykietę wykresu w Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Jak przetłumaczyć akapit na francuski i zmienić etykietę wykresu w dokumencie Word przy użyciu Aspose.Words. |

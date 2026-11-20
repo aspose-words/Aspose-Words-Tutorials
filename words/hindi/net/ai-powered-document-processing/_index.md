@@ -70,7 +70,6 @@
 | [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |
 | [C# में AI दस्तावेज़ सारांशकर्ता का उपयोग कैसे करें](./how-to-use-an-ai-document-summarizer-in-c/) | .NET के लिए Aspose.Words के साथ C# में AI दस्तावेज़ सारांशकर्ता को लागू करने की पूरी गाइड। |
 | [C# में अनुवादक का उपयोग करके दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-use-translator-to-automate-document-translation-in-c/) | .NET के लिए Aspose.Words और अनुवादक का उपयोग करके C# में दस्तावेज़ अनुवाद को स्वचालित करने का तरीका सीखें। |
-| [AI दस्तावेज़ सारांश के साथ Word दस्तावेज़ को सारांशित करना](./summarize-word-document-with-ai-document-summarization/) | .NET के लिए Aspose.Words का उपयोग करके AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
 | [AI के साथ C# में docx को फ्रेंच में अनुवाद करने का तरीका](./how-to-translate-docx-to-french-with-ai-in-c/) | AI का उपयोग करके C# में docx फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 | [एक खाली Word दस्तावेज़ बनाएं और इसे फ़्रेंच में अनुवादित करें](./create-a-blank-word-document-and-translate-it-to-french/) | एक खाली Word फ़ाइल बनाकर उसे फ़्रेंच में अनुवादित करने का तरीका सीखें। |
 | [पैराग्राफ को फ्रेंच में अनुवाद करें और Word में चार्ट लेबल बदलें](./translate-paragraph-to-french-and-change-chart-label-in-word/) | .NET के लिए Aspose.Words का उपयोग करके पैराग्राफ को फ्रेंच में अनुवाद करें और Word दस्तावेज़ में चार्ट लेबल बदलें। |
