@@ -69,12 +69,13 @@
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός βήμα‑βήμα C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό LLM για να συνοψίσετε έγγραφα Word με C# και Aspose.Words. |
 | [Σύνοψη κειμένου με AI σε C# – Πλήρης οδηγός προγραμματισμού](./summarize-text-with-ai-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργείτε αυτόματες περιλήψεις κειμένου σε C# χρησιμοποιώντας AI με το Aspose.Words. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
+| [Μετάφραση docx στα γαλλικά χρησιμοποιώντας το Google AI](./how-to-translate-docx-to-french-using-google-ai/) | Μάθετε πώς να μεταφράσετε αρχεία docx στα γαλλικά με το Google AI. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words.AI – Πλήρης Οδηγός](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words.AI με βήμα-βήμα οδηγίες. |
 | [Δημιουργία σύνοψης εγγράφου σε C# – Πλήρης οδηγός OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Μάθετε πώς να δημιουργήσετε πλήρη σύνοψη εγγράφου σε C# χρησιμοποιώντας το OpenAI με το Aspose.Words. |
 | [Σύνοψη εγγράφου Word με Aspose.Words AI – Πλήρης Οδηγός](./summarize-word-document-with-aspose-words-ai-full-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI με πλήρη οδηγό βήμα προς βήμα. |
 | [Σύνοψη εγγράφων AI σε C# – πλήρης οδηγός](./ai-document-summarization-in-c-complete-guide/) | Οδηγός βήμα-βήμα για τη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
 | [Δημιουργία σύνοψης AI σε C# – οδηγός βήμα‑βήμα](./create-ai-summary-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αυτόματη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας το Aspose.Words. |
-| [Μετάφραση docx στα Γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα Γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
+| [Μετάφραση docx στα γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word μέσω C#. |
 | [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με AI, βήμα‑βήμα. |
 | [Πώς να μεταφράσετε DOCX στα γαλλικά και να αυτοματοποιήσετε τη μετάφραση εγγράφων](./how-to-translate-docx-to-french-and-automate-document-transl/) | Μάθετε πώς να μεταφράζετε αρχεία DOCX στα γαλλικά και να αυτοματοποιήσετε τη διαδικασία με το Aspose.Words για .NET. |
@@ -93,15 +94,17 @@
 | [Σύνοψη εγγράφου Word με AI σύνοψη εγγράφων](./summarize-word-document-with-ai-document-summarization/) | Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων Word χρησιμοποιώντας τεχνητή νοημοσύνη με το Aspose.Words. |
 | [Πώς να μεταφράσετε docx στα γαλλικά με AI σε C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας AI σε C# και Aspose.Words. |
 | [Σύνοψη εγγράφου Word σε C# – πλήρης οδηγός Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με το Aspose.Words AI σε πλήρη βήμα-βήμα οδηγό. |
-| [Μετάφραση docx στα γαλλικά με Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI σε .NET. |
+| [Μετάφραση docx στα γαλλικά με Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά με τη βοήθεια του Aspose.Words AI σε απλά βήματα. |
+| [Μετάφραση docx στα γαλλικά με Aspose.Words AI σε C#](./translate-docx-to-french-with-aspose-words-ai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI σε C# για να μεταφράσετε αρχεία docx στα γαλλικά. |
 | [Δημιουργία κενής εγγράφου Word και μετάφραση στα γαλλικά](./create-a-blank-word-document-and-translate-it-to-french/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να το μεταφράσετε αυτόματα στα γαλλικά χρησιμοποιώντας Aspose.Words. |
 | [Μετάφραση συμβολοσειράς στα Ισπανικά σε C# με Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε κείμενο στα Ισπανικά σε C# χρησιμοποιώντας το Aspose.Words AI. |
 | [Μετάφραση παραγράφου στα γαλλικά και αλλαγή ετικέτας γραφήματος στο Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Μάθετε πώς να μεταφράσετε μια παράγραφο στα γαλλικά και να αλλάξετε την ετικέτα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
-| [Πώς να μεταφράσετε docx στα γαλλικά σε C# – βήμα‑βήμα οδηγός](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Μάθετε πώς να μεταφράσετε αρχεία docx στα γαλλικά σε C# με οδηγίες βήμα‑βήμα. |
+| [Πώς να μεταφράσετε DOCX στα γαλλικά σε C# – βήμα‑βήμα οδηγός](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Μάθετε πώς να μεταφράσετε αρχεία docx στα γαλλικά σε C# με οδηγίες βήμα‑βήμα. |
 | [Πώς να αποθηκεύσετε μεταφρασμένο έγγραφο Word σε C# με το Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Μάθετε πώς να αποθηκεύσετε ένα Word που μεταφράστηκε με το Google AI χρησιμοποιώντας C#. |
 | [Πώς να συνοψίσετε έγγραφο Word με OpenAI σε C#](./how-to-summarize-word-document-with-openai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το OpenAI για να δημιουργήσετε σύνοψη εγγράφων Word σε C# με Aspose.Words. |
 | [Σύνοψη εγγράφου Word με OpenAI API χρησιμοποιώντας C#](./summarize-word-document-with-openai-api-using-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας το OpenAI API. |
 | [Πώς να μεταφράσετε κείμενο με το Google Translate API σε C# – βήμα‑βήμα οδηγός](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Μάθετε πώς να χρησιμοποιήσετε το Google Translate API σε C# για αυτόματη μετάφραση κειμένου, βήμα‑βήμα. |
+| [Πώς να συνοψίσετε έγγραφο Word χρησιμοποιώντας Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο Document.Summarize του Aspose.Words για .NET για αυτόματες περιλήψεις εγγράφων Word. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -68,6 +68,7 @@
 | [C# で AI によるテキスト要約 – 完全プログラミングガイド](./summarize-text-with-ai-in-c-complete-programming-guide/) Aspose.Words for .NET と C# を使い、AIでテキストを自動要約する方法をステップバイステップで解説します。 |
 | [Aspose.Words と Google API を使用して DOCX をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-and-google-api/) Aspose.Words と Google API を組み合わせて、DOCX ファイルをフランス語に自動翻訳する方法をステップバイステップで解説します。 |
 | [Aspose.Words.AI を使用した DOCX のフランス語への翻訳 – 完全ガイド](./translate-docx-to-french-with-aspose-words-ai-full-guide/) Aspose.Words.AI を活用し、DOCX ファイルをフランス語に翻訳する手順を詳しく解説します。 |
+| [Google AI を使用して docx をフランス語に翻訳](./how-to-translate-docx-to-french-using-google-ai/) Google AI を活用し、docx ファイルをフランス語へ自動翻訳する手順をステップバイステップで解説します。 |
 | [C# でドキュメント要約を作成 – 完全 OpenAI ガイド](./create-document-summary-in-c-complete-openai-guide/) Aspose.Words と OpenAI を組み合わせて、C# で高精度なドキュメント要約を作成する手順を詳しく解説します。 |
 | [Aspose.Words AI を使用した Word 文書を要約する完全ガイド](./summarize-word-document-with-aspose-words-ai-full-guide/) Aspose.Words AI を活用し、Word 文書を自動的に要約する方法をステップバイステップで解説します。 |
 | [C# における AI 文書要約 – 完全ガイド](./ai-document-summarization-in-c-complete-guide/) Aspose.Words for .NET と C# を使用して、AI を活用した文書要約を作成する完全ガイドです。ステップバイステップで解説します。 |
@@ -100,6 +101,7 @@
 | [OpenAI を使用して C# で Word 文書を要約する方法](./how-to-summarize-word-document-with-openai-in-c/) Aspose.Words for .NET と OpenAI を組み合わせ、C# で Word 文書を自動要約する手順を学びます。 |
 | [OpenAI API を使用して C# で Word 文書を要約する](./summarize-word-document-with-openai-api-using-c/) Aspose.Words for .NET と OpenAI API を組み合わせ、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
 | [C# で Google Translate API を使用してテキストを翻訳する – ステップバイステップ ガイド](./how-to-translate-text-with-google-translate-api-in-c-step-by/) Google Translate API を C# で利用し、テキスト翻訳を自動化する手順をステップバイステップで解説します。 |
+| [Document.Summarize を使用して Word 文書を要約する方法](./how-to-summarize-word-document-using-document-summarize/) Document.Summarize 機能を使って Word 文書を自動的に要約する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
