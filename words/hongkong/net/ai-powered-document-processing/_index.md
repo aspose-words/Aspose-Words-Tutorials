@@ -45,7 +45,6 @@
 | [使用 C# 匯總 Word 文件 – 完整 AI 驅動指南](./summarize-word-document-in-c-complete-ai-powered-guide/) |透過完整的 AI 驅動指南，學習在 C# 中使用 Aspose.Words 進行 Word 文件的自動匯總與摘要。 |
 | [使用 Aspose.Words AI 在 C# 中匯總 docx 文件](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) |透過 Aspose.Words AI 在 C# 中自動匯總 docx 文件，快速獲得關鍵摘要。 |
 | [使用 Aspose.Words AI 摘要 Word 文件](./how-to-summarize-a-word-document-with-aspose-words-ai/) |透過 Aspose.Words AI 在 C# 中快速摘要 Word 文件，提高工作效率。 |
-| [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) |使用 Aspose.Words 結合 gpt-4 turbo 為 DOCX 文件執行文法檢查，提升寫作品質。 |
 | [如何使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) |使用 Aspose.Words AI 在 Word 中自動檢查文法錯誤，提升寫作品質的完整步驟指南。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-in-c-using-a-local-llm/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文法錯誤。 |
 | [使用 AI 摘要 Word 文件 – OpenAI 與 Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) |比較 OpenAI 與 Gemini 在 Word 文件摘要中的效能與使用方式，幫助您選擇最佳 AI 解決方案。 |
@@ -80,7 +79,6 @@
 | [如何在 C# 中使用 Aspose.Words AI 檢查文法 – 完整指南](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) |使用 Aspose.Words AI 在 C# 中自動檢查並校正文檔語法，提升寫作品質的完整步驟指南。 |
 | [使用 AI 的 C# Word 文件摘要 – 步驟指南](./summarize-word-document-in-c-step-by-step-guide-using-ai/) |透過 Aspose.Words for .NET 與 AI，使用 C# 逐步完成 Word 文件的自動摘要。 |
 | [如何將 DOCX 翻譯成法文並自動化文件翻譯](./how-to-translate-docx-to-french-and-automate-document-transl/) |使用 Aspose.Words for .NET 將 DOCX 文件自動翻譯為法文，實現批量翻譯流程。 |
-| [如何在 C# 中呼叫 CheckGrammar – 完整指南](./how-to-call-checkgrammar-in-c-complete-guide/) |了解如何在 C# 中使用 Aspose.Words 的 CheckGrammar 方法進行語法檢查，完整步驟說明。 |
 | [本機 LLM 教學 – 如何呼叫本機 LLM 並執行文法檢查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) |學習如何在 Aspose.Words for .NET 中呼叫本機大型語言模型，執行文法檢查以提升文件品質。 |
 | [在 C# 中建立摘要報告 – 完整步驟指南](./create-summary-report-in-c-complete-step-by-step-guide/) |透過 Aspose.Words for .NET 在 C# 中一步步建立文件摘要報告，提升效率與精準度。 |
 | [建立自訂 AI 模型 – C# 文法檢查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) |使用 Aspose.Words for .NET 與自訂 AI 模型在 C# 中實作文法檢查，提升文件品質的完整步驟指南。 |

@@ -74,7 +74,6 @@
 | [C# で文法チェック – Aspose.Words AI 完全ガイド](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) C# で Aspose.Words AI を活用し、文書の文法チェックを行う方法を詳しく解説します。 |
 | [C# で Word 文書を要約する – AI を活用したステップバイステップ ガイド](./summarize-word-document-in-c-step-by-step-guide-using-ai/) C# と AI を使用して Word 文書を要約する手順を段階的に学びます。 |
 | [DOCX をフランス語に翻訳し、文書翻訳を自動化する方法](./how-to-translate-docx-to-french-and-automate-document-transl/) Aspose.Words for .NET を使用して DOCX をフランス語に翻訳し、翻訳プロセスを自動化する方法を学びます。 |
-| [C# で CheckGrammar を呼び出す方法 - 完全ガイド](./how-to-call-checkgrammar-in-c-complete-guide/) Aspose.Words for .NET の CheckGrammar メソッドを C# で使用し、文法チェックを実装する手順を解説します。 |
 | [ローカル LLM チュートリアル – ローカル LLM を呼び出して文法チェックを実行する方法](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、文書の文法チェックを自動化する手順を学びます。 |
 | [C#で要約レポートを作成 – 完全ステップバイステップガイド](./create-summary-report-in-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、C#で文書要約レポートを作成する完全な手順を学びます。 |
 | [カスタム AI モデルの作成 – C# における文法チェックの完全ガイド](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) Aspose.Words for .NET とカスタム AI モデルを組み合わせ、C# で文法チェックを実装する手順を詳しく解説します。 |

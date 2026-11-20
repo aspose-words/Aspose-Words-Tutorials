@@ -229,7 +229,6 @@ Känn dig fri att experimentera med olika leverantörer, lägga till felhanterin
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig behärska ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man kontrollerar grammatik i DOCX med Aspose.Words – använd gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Hur man kontrollerar grammatik i Word med Aspose.Words AI – Komplett guide](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Hur man laddar Word‑dokument med Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 

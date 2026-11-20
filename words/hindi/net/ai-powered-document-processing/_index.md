@@ -47,7 +47,6 @@
 | [C# में Aspose.Words AI के साथ docx फ़ाइलों का सारांश कैसे करें](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में docx फ़ाइलों को सारांशित करने की पूरी गाइड। |
 | [C# में AI प्रदाताओं के साथ Word दस्तावेज़ का सारांश कैसे बनाएं](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 | [OpenAI के साथ C# में Word दस्तावेज़ का सारांश कैसे बनाएं](./how-to-summarize-word-document-with-openai-in-c/) | OpenAI मॉडल का उपयोग करके .NET के लिए Aspose.Words के साथ C# में Word दस्तावेज़ को प्रभावी रूप से सारांशित करें। |
-| [Aspose.Words के साथ DOCX में व्याकरण जांचें – gpt-4 टर्बो का उपयोग करें](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | gpt-4 टर्बो का उपयोग करके .NET में Aspose.Words के साथ DOCX फ़ाइलों की व्याकरण जाँच कैसे करें, सीखें। |
 | [Aspose.Words AI के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI का उपयोग करके Word दस्तावेज़ों में व्याकरण त्रुटियों को पहचानें और सुधारें। चरण-दर-चरण गाइड। |
 | [AI के साथ Word दस्तावेज़ का सारांश – OpenAI बनाम Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI और Gemini मॉडल का उपयोग करके Word दस्तावेज़ को AI से सारांशित करने की तुलना और मार्गदर्शन। |
 | [C# के साथ DOCX फ़ाइलों में व्याकरण सुधारने का पूर्ण चरण‑दर‑चरण मार्गदर्शक](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | C# का उपयोग करके DOCX फ़ाइलों में व्याकरण त्रुटियों को स्वचालित रूप से ठीक करने के चरणों को सीखें। |
@@ -78,7 +77,6 @@
 | [C# में Aspose.Words AI के साथ व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# में Aspose.Words AI का उपयोग करके व्याकरण जांच करने का पूर्ण मार्गदर्शन। |
 | [C# में Word दस्तावेज़ का सारांश – AI के साथ चरण‑बद्ध गाइड](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | C# में Aspose.Words और AI का उपयोग करके Word दस्तावेज़ को चरण‑बद्ध तरीके से सारांशित करना सीखें। |
 | [DOCX को फ्रेंच में अनुवाद करना और दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aspose.Words का उपयोग करके DOCX फ़ाइलों को फ्रेंच में अनुवादित करें और प्रक्रिया को स्वचालित करें। |
-| [C# में CheckGrammar को कॉल करने का तरीका – पूर्ण गाइड](./how-to-call-checkgrammar-in-c-complete-guide/) | C# में Aspose.Words के CheckGrammar फ़ंक्शन को उपयोग करने के चरण-दर-चरण मार्गदर्शन। |
 | [स्थानीय LLM ट्यूटोरियल – स्थानीय LLM को कॉल करना और व्याकरण जांच चलाना](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | स्थानीय LLM को कैसे कॉल करें और Aspose.Words के साथ व्याकरण जांच लागू करें। |
 | [C# में सारांश रिपोर्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-summary-report-in-c-complete-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके संपूर्ण सारांश रिपोर्ट बनाने की विस्तृत प्रक्रिया सीखें। |
 | [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |

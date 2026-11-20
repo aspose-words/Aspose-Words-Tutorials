@@ -229,7 +229,6 @@ Sinta-se à vontade para experimentar diferentes provedores, adicionar tratament
 
 Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá-lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Como verificar gramática em DOCX com Aspose.Words – usar gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Como verificar gramática no Word com Aspose.Words AI – Guia Completo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Como carregar documentos Word usando Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 

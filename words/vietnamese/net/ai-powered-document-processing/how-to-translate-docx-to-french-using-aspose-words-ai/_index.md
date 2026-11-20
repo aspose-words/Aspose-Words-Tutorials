@@ -228,7 +228,6 @@ Bạn có thể thoải mái thử nghiệm các nhà cung cấp khác nhau, th�
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách kiểm tra ngữ pháp trong DOCX với Aspose.Words – sử dụng gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Cách kiểm tra ngữ pháp trong Word với Aspose.Words AI – Hướng dẫn đầy đủ](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Cách tải tài liệu Word bằng Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 

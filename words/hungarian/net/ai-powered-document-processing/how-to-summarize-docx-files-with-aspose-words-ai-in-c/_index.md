@@ -296,7 +296,6 @@ Fedezd fel az **Aspose.Words AI summarizer** dokumentációját fejlett forgató
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan ellenőrizd a nyelvtant DOCX-ben az Aspose.Words‑szal – gpt-4 turbo használata](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [DOCX konvertálása Markdown‑ra – Teljes útmutató az Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [DOCX mentése PDF‑ként az Aspose.Words‑szal – Komplett C#‑útmutató](/words/swedish/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
