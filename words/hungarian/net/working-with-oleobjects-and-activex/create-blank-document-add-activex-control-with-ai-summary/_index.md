@@ -85,7 +85,6 @@ class Program
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek az ebben az útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat, és alternatív megvalósítási megközelítéseket felfedezni saját projektjeidben.
 
-- [Word dokumentum összefoglalása C#-ban az Aspose.Words API-val – Teljes AI‑alapú útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Új Word dokumentum létrehozása](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Word dokumentum létrehozása táblázattal az Aspose.Words használatával](/words/english/net/add-content-using-document-builder/build-table/)
 

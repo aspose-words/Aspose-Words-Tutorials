@@ -42,7 +42,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Google AI Modeli ile Çalışma](./working-with-google-ai-model/) | Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun. |
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
 | [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
-| [C# ile Word Belgesini Özetleme – Tam AI Destekli Kılavuz](./summarize-word-document-in-c-complete-ai-powered-guide/) | C# kullanarak AI ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [C# ile AI Belge Özetleyicisini Kullanma](./how-to-use-an-ai-document-summarizer-in-c/) | C# kullanarak AI destekli belge özetleyicisini nasıl entegre edip kullanacağınızı adım adım öğrenin. |
 | [Yerel LLM Kullanarak C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-using-a-local-llm/) | Yerel bir büyük dil modeliyle C# kodunuzda dilbilgisi hatalarını otomatik tespit edin ve düzeltin. |
 | [AI ile Word Belgesini Özetle – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI ve Gemini modellerini karşılaştırarak Word belgelerini AI ile nasıl özetleyeceğinizi öğrenin. |

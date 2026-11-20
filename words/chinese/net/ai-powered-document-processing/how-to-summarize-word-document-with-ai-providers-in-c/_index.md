@@ -231,7 +231,6 @@ Google 的 Gemini 模型在多语言内容和简洁表达方面表现出色。�
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并探索项目中的替代实现方式，每篇均提供完整可运行的代码示例和逐步说明。
 
-- [使用 Aspose.Words API 在 C# 中摘要 Word 文档 – 完整 AI 驱动指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [使用 AI 摘要 Word 文档 – OpenAI 与 Gemini 对比](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [使用 Aspose.Words 创建空白 Word 文档 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

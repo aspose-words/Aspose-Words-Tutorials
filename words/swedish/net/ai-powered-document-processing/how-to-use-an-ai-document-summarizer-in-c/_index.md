@@ -321,7 +321,6 @@ Spara filen som `Program.cs`, placera en `
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Sammanfatta Word-dokument i C# med Aspose.Words API – Komplett AI‑driven guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Skapa nytt Word-dokument](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Skapa och formatera ett Word-dokument i Aspose.Words för .NET](/words/english/net/document-styling/apply-paragraph-style/)
 

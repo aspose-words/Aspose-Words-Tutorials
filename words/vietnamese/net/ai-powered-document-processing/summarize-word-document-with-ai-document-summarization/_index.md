@@ -230,7 +230,6 @@ class Program
 
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên đều có các ví dụ mã đầy đủ, kèm giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tóm tắt tài liệu Word bằng C# với Aspose.Words API – Hướng dẫn AI‑Powered đầy đủ](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Tóm tắt tài liệu Word với LLM nội bộ – Hướng dẫn C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [Tạo tài liệu Word trống với Aspose.Words – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

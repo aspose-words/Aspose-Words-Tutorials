@@ -322,7 +322,6 @@ Sla het bestand op als `Program.cs`, plaats een `
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Samenvatten van Word‑document in C# met Aspose.Words API – Complete AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Nieuw Word‑document maken](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Een Word‑document maken en opmaken in Aspose.Words voor .NET](/words/english/net/document-styling/apply-paragraph-style/)
 
