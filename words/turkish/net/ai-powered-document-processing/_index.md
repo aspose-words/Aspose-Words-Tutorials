@@ -63,7 +63,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words.AI ile docx'i Fransızcaya Çevir – Tam Kılavuz](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words.AI kullanarak docx dosyalarını Fransızcaya nasıl çevireceğinizi adım adım öğrenin. |
 | [C# ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx dosyalarını Fransızcaya otomatik çevirin. |
 | [C# ile docx dosyasını Fransızcaya çevirme – adım adım kılavuz](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | C# ile docx dosyasını Fransızcaya çevirme adım adım rehber. |
-| [Aspose.Words AI ile docx'i Fransızcaya Çevir – Tam Kılavuz](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx dosyalarını Fransızcaya otomatik çevirin. |
 | [C# ile Aspose.Words AI ile docx'i Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aspose.Words AI ve C# kullanarak docx dosyalarını Fransızcaya otomatik çevirmenin adım adım kılavuzu. |
 | [C#'ta Belge Özeti Oluşturma – Tam OpenAI Kılavuzu](./create-document-summary-in-c-complete-openai-guide/) | OpenAI modelleriyle C# kullanarak belge özetleme sürecini adım adım öğrenin. |
 | [Aspose.Words AI ile Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aspose.Words AI kullanarak Word belgelerini etkili bir şekilde özetlemenin adım adım rehberi. |
@@ -80,7 +79,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Çevirmen Kullanarak Belge Çevirisini Otomatikleştirme](./how-to-use-translator-to-automate-document-translation-in-c/) | C# ve Aspose.Words kullanarak çevirmen API'siyle belge çevirisini otomatikleştirmeyi öğrenin. |
 | [AI Belge Özetleme ile Word Belgesini Özetleme](./summarize-word-document-with-ai-document-summarization/) | AI destekli belge özetleme kullanarak Word belgelerini etkili bir şekilde özetleyin. |
 | [AI ile C#'ta docx Dosyasını Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-ai-in-c/) | AI kullanarak C# ile docx dosyalarını Fransızcaya çevirmenin adım adım rehberi. |
-| [Aspose.Words AI ile docx'i Fransızcaya Çevir](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx dosyalarını Fransızcaya otomatik çevirin. |
 | [Boş bir Word belgesi oluşturun ve Fransızcaya çevirin](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturun ve içeriğini Fransızcaya çevirin. |
 | [C# ile Aspose.Words AI ile Dizeyi İspanyolcaya Çevir](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aspose.Words AI kullanarak C# içinde metinleri İspanyolcaya çevirmeyi öğrenin. Hızlı ve doğru çeviri için adım adım kılavuz. |
 | [Paragrafı Fransızcaya Çevir ve Word'de Grafik Etiketini Değiştir](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aspose.Words for .NET ile bir paragrafı Fransızcaya çevirin ve Word belgesindeki grafik etiketini güncelleyin. |

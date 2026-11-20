@@ -77,7 +77,6 @@
 | [如何在 C# 中使用翻譯器自動化文件翻譯](./how-to-use-translator-to-automate-document-translation-in-c/) |使用 Aspose.Words for .NET 結合翻譯器，在 C# 中自動執行文件翻譯，提高效率。 |
 | [使用 AI 文件摘要匯總 Word 文件](./summarize-word-document-with-ai-document-summarization/) |使用 Aspose.Words for .NET 與 AI 進行 Word 文件的自動摘要與匯總。 |
 | [如何在 C# 中使用 AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中自動將 DOCX 文件翻譯為法語。 |
-| [使用 Aspose.Words AI 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將 docx 文件自動翻譯為法語，快速且精準的翻譯指南。 |
 | [建立空白 Word 文件並翻譯成法文](./create-a-blank-word-document-and-translate-it-to-french/) |使用 Aspose.Words for .NET 建立空白 Word 檔案，並透過 AI 翻譯成法語。 |
 | [使用 Aspose.Words AI 在 C# 中將字串翻譯成西班牙語](./translate-string-to-spanish-in-c-with-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將文字字串快速翻譯為西班牙語，提升多語言文件處理效率。 |
 | [將段落翻譯成法文並更改 Word 中的圖表標籤](./translate-paragraph-to-french-and-change-chart-label-in-word/) |使用 Aspose.Words for .NET 將段落翻譯成法文，同時修改圖表標籤。 |
