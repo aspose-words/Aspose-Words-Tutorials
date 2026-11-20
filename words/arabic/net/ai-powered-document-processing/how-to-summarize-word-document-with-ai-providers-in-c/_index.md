@@ -233,7 +233,6 @@ options.Timeout = TimeSpan.FromMinutes(2);
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [تلخيص مستند Word بالذكاء الاصطناعي – OpenAI مقابل Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [إنشاء مستند Word فارغ باستخدام Aspose.Words – دليل خطوة بخطوة](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

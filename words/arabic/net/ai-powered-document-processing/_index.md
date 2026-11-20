@@ -43,7 +43,6 @@
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
 | [كيفية فحص القواعد النحوية في C# باستخدام نموذج لغة محلي](./how-to-check-grammar-in-c-using-a-local-llm/) | تعلم كيفية فحص القواعد النحوية في تطبيقات C# باستخدام نموذج لغة محلي لتصحيح النصوص بدقة. |
-| [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | قارن بين نماذج OpenAI و Gemini لتلخيص مستندات Word باستخدام الذكاء الاصطناعي مع Aspose.Words. دليل شامل لاختيار الأنسب. |
 | [كيفية تلخيص مستندات Word – دليل C# الكامل](./how-to-summarize-word-documents-complete-c-guide/) | دليل شامل خطوة بخطوة لتلخيص مستندات Word باستخدام C# و Aspose.Words، مع أمثلة عملية وتطبيقات الذكاء الاصطناعي. |
 | [كيفية إصلاح القواعد النحوية في ملفات DOCX باستخدام C# – دليل كامل خطوة بخطوة](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | تعلم كيفية تصحيح الأخطاء النحوية في مستندات DOCX باستخدام C# خطوة بخطوة مع Aspose.Words. |
 | [كيفية فحص القواعد النحوية في مستندات Word – دليل C# كامل](./how-to-check-grammar-in-word-documents-complete-c-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
