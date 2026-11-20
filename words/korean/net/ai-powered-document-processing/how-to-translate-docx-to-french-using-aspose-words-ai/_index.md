@@ -229,7 +229,6 @@ catch (UnsupportedLanguageException ex)
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명이 포함된 완전한 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [Aspose.Words를 사용하여 DOCX에서 문법 검사하기 – gpt-4 turbo 사용](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [Aspose.Words AI로 Word에서 문법 검사하기 – 완전 가이드](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Aspose.Words LoadOptions를 사용하여 Word 문서 로드하기](/words/english/net/programming-with-loadoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

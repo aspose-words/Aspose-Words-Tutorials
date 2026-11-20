@@ -231,7 +231,6 @@ Neváhejte experimentovat s různými poskytovateli, přidávat ošetření chyb
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vlastních projektech.
 
 - [Jak zkontrolovat gramatiku v DOCX pomocí Aspose.Words – použít gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [Jak zkontrolovat gramatiku ve Wordu pomocí Aspose.Words AI – Kompletní průvodce](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Jak načíst Word dokumenty pomocí Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

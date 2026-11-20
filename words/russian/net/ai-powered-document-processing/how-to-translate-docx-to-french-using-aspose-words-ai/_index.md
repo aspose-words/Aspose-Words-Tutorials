@@ -233,7 +233,6 @@ catch (UnsupportedLanguageException ex)
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы реализации в ваших проектах.
 
 - [How to Check Grammar in DOCX with Aspose.Words – use gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [How to Check Grammar in Word with Aspose.Words AI – Complete Guide](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [How to Load Word Documents Using Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
