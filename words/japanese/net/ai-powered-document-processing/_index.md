@@ -73,7 +73,6 @@
 | [C# で Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 | [AI プロバイダーを使用した C# での Word 文書要約方法](./how-to-summarize-word-document-with-ai-providers-in-c/) Aspose.Words for .NET と AI プロバイダーを組み合わせて、C# で Word 文書を自動要約する方法を解説します。 |
 | [C# で翻訳ツールを使用して文書翻訳を自動化する方法](./how-to-use-translator-to-automate-document-translation-in-c/) Aspose.Words と翻訳ツールを組み合わせ、C# で文書翻訳を自動化する手順を解説します。 |
-| [AI ドキュメント要約で Word 文書を要約する](./summarize-word-document-with-ai-document-summarization/) Aspose.Words for .NET と AI を組み合わせて、Word 文書を自動的に要約する方法を解説します。 |
 | [C# で AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 | [Aspose.Words AI で docx をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-ai/) Aspose.Words の AI 機能で docx ファイルをフランス語に自動翻訳する方法を学びます。 |
 | [空白のWord文書を作成し、フランス語に翻訳する](./create-a-blank-word-document-and-translate-it-to-french/) Aspose.Words for .NET を使用して空のWord文書を作成し、フランス語へ自動翻訳する方法を学びます。 |

@@ -74,7 +74,6 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe docx naar Frans te vertalen met Aspose.Words AI in C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |  |
 | [Hoe u vertaler gebruikt om documentvertaling in C# te automatiseren](./how-to-use-translator-to-automate-document-translation-in-c/) | Leer hoe u documentvertaling automatiseert met Aspose.Words voor .NET en een vertaler in C#. |
 | [Hoe docx naar Frans te vertalen met AI in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met AI in C#. |
-| [Samenvatten van Word-document met AI‑documentensamenvatting](./summarize-word-document-with-ai-document-summarization/) | Leer hoe u Word-documenten automatisch samenvat met AI in Aspose.Words voor .NET. |
 | [Vertaal docx naar Frans met Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Leer hoe u met Aspose.Words voor .NET en AI een docx-bestand naar het Frans vertaalt. |
 | [Maak een leeg Word-document en vertaal het naar het Frans](./create-a-blank-word-document-and-translate-it-to-french/) | Leer hoe u een leeg Word-document maakt en automatisch naar het Frans vertaalt met Aspose.Words voor .NET. |
 | [Vertaal string naar Spaans in C# met Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI een string in C# naar het Spaans kunt vertalen. |

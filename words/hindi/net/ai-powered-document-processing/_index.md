@@ -73,7 +73,6 @@
 | [C# में AI दस्तावेज़ सारांशकर्ता का उपयोग कैसे करें](./how-to-use-an-ai-document-summarizer-in-c/) | .NET के लिए Aspose.Words के साथ C# में AI दस्तावेज़ सारांशकर्ता को लागू करने की पूरी गाइड। |
 | [C# में Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 | [C# में अनुवादक का उपयोग करके दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-use-translator-to-automate-document-translation-in-c/) | .NET के लिए Aspose.Words और अनुवादक का उपयोग करके C# में दस्तावेज़ अनुवाद को स्वचालित करने का तरीका सीखें। |
-| [AI दस्तावेज़ सारांश के साथ Word दस्तावेज़ को सारांशित करना](./summarize-word-document-with-ai-document-summarization/) | .NET के लिए Aspose.Words का उपयोग करके AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
 | [AI के साथ C# में docx को फ्रेंच में अनुवाद करने का तरीका](./how-to-translate-docx-to-french-with-ai-in-c/) | AI का उपयोग करके C# में docx फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 | [Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद करें](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके .NET में docx फ़ाइलों को फ्रेंच में अनुवाद करना सीखें। |
 | [एक खाली Word दस्तावेज़ बनाएं और इसे फ़्रेंच में अनुवादित करें](./create-a-blank-word-document-and-translate-it-to-french/) | एक खाली Word फ़ाइल बनाकर उसे फ़्रेंच में अनुवादित करने का तरीका सीखें। |

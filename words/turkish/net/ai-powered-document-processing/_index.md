@@ -78,7 +78,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Aspose.Words AI ile docx'i Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aspose.Words AI ve C# kullanarak docx dosyalarını Fransızcaya otomatik çevirmenin adım adım kılavuzu. |
 | [AI sağlayıcılarıyla C#'ta Word belgesini özetleme](./how-to-summarize-word-document-with-ai-providers-in-c/) | AI sağlayıcılarıyla C# kullanarak Word belgelerini hızlı ve etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [C# ile Çevirmen Kullanarak Belge Çevirisini Otomatikleştirme](./how-to-use-translator-to-automate-document-translation-in-c/) | C# ve Aspose.Words kullanarak çevirmen API'siyle belge çevirisini otomatikleştirmeyi öğrenin. |
-| [AI Belge Özetleme ile Word Belgesini Özetleme](./summarize-word-document-with-ai-document-summarization/) | AI destekli belge özetleme kullanarak Word belgelerini etkili bir şekilde özetleyin. |
 | [AI ile C#'ta docx Dosyasını Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-ai-in-c/) | AI kullanarak C# ile docx dosyalarını Fransızcaya çevirmenin adım adım rehberi. |
 | [Aspose.Words AI ile docx'i Fransızcaya Çevir](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx dosyalarını Fransızcaya otomatik çevirin. |
 | [Boş bir Word belgesi oluşturun ve Fransızcaya çevirin](./create-a-blank-word-document-and-translate-it-to-french/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturun ve içeriğini Fransızcaya çevirin. |
