@@ -92,14 +92,14 @@ Document doc = new Document(@"C:\Docs\input.docx");
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This tells Aspose.Words to render equations as LaTeX strings
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 
 // Save the document as a plain‑text file with the configured options
 doc.Save(@"C:\Docs\DocWithMath.txt", txtOptions);
 ```
 
-> **Pro tip:** If you only need plain text without LaTeX, simply omit the `OfficeMathExportMode` line or set it to `OfficeMathExportMode.Text`.
+> **Pro tip:** If you only need plain text without LaTeX, simply omit the `OfficeMathExportMode` line or set it to `TxtOfficeMathExportMode.Text`.
 
 ### Prepare the environment – **save word plain text**
 
@@ -118,8 +118,8 @@ The magic for **export word equations latex** lives in the `TxtSaveOptions` obje
 ```csharp
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-    // Optional: control line breaks for better readability
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
+    // Optional: preserve table column alignment in the output
     PreserveTableLayout = true
 };
 ```
@@ -180,7 +180,7 @@ namespace DocxToTxtDemo
             // 2️⃣ Configure TXT options – export equations as LaTeX
             TxtSaveOptions txtOptions = new TxtSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
                 Encoding = Encoding.UTF8,
                 PreserveTableLayout = true
             };
