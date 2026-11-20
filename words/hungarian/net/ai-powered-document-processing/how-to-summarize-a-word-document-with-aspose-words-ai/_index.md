@@ -217,7 +217,6 @@ Boldog kódolást, és élvezze az időmegtakarítást, amit az AI a dokumentum�
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Word dokumentum összefoglalása C#‑ban az Aspose.Words API‑val – Teljes AI‑alapú útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Word dokumentum összefoglalása AI‑val – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Word dokumentum összefoglalása helyi LLM‑mel – C# útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

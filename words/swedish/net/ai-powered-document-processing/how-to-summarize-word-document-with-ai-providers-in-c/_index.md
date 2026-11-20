@@ -235,7 +235,6 @@ Lycka till med kodandet, och njut av kraften i AI‑driven dokument‑sammanfatt
 Följande handledningar täcker närbesläktade ämnen som bygger vidare på teknikerna i den här guiden. Varje resurs innehåller kompletta kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Sammanfatta Word-dokument i C# med Aspose.Words API – Komplett AI‑driven guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Sammanfatta Word-dokument med AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Skapa tomt Word-dokument med Aspose.Words – Steg‑för‑steg guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

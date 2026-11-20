@@ -217,7 +217,6 @@ public class SummarizationService
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 확장하는 관련 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 제공해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하도록 돕습니다.
 
 - [Summarize Word Document in C# with Aspose.Words API – Complete AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Summarize Word Document with AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Summarize Word Document with Local LLM – C# Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

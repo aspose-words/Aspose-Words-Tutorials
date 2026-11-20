@@ -235,7 +235,6 @@ Bon codage, et profitez de la puissance du résumé de documents piloté par l'I
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et à explorer des approches d'implémentation alternatives dans vos propres projets.
 
 - [Summarize Word Document in C# with Aspose.Words API – Complete AI‑Powered Guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Summarize Word Document with AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Create blank word document with Aspose.Words – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

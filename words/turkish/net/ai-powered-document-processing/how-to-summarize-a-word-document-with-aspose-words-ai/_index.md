@@ -219,7 +219,6 @@ Kodlamanın tadını çıkarın ve AI'nın belge özetleme işini üstlenmesiyle
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [C# ile Aspose.Words API Kullanarak Word Belgesini Özetleme – Tam AI‑Güçlü Kılavuz](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [AI ile Word Belgesini Özetleme – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Yerel LLM ile Word Belgesini Özetleme – C# Rehberi](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

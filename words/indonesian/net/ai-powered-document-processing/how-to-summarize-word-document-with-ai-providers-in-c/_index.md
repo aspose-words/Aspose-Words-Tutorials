@@ -235,7 +235,6 @@ Selamat coding, dan nikmati kekuatan summarization dokumen berbasis AI!
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Ringkas Dokumen Word di C# dengan Aspose.Words API – Panduan AI‑Powered Lengkap](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Ringkas Dokumen Word dengan AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Buat dokumen word kosong dengan Aspose.Words – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
