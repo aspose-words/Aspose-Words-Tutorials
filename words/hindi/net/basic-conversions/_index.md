@@ -64,7 +64,6 @@
 | [C# में Word को PDF के रूप में सहेजें – पूर्ण सुलभ रूपांतरण गाइड](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | C# में Aspose.Words का उपयोग करके Word को PDF में सहेजने की पूरी सुलभ रूपांतरण गाइड। |
 | [Word से PDF ट्यूटोरियल: Aspose.Words के साथ DOCX को PDF में बदलें](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Aspose.Words for .NET का उपयोग करके DOCX फ़ाइल को PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [Aspose.Words के साथ Word को PDF के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की चरण‑दर‑चरण गाइड। |
-| [एक्सेसिबल PDF बनाएं – Word को PDF में बदलें](./create-accessible-pdf-convert-word-to-pdf/) | Aspose.Words for .NET का उपयोग करके Word फ़ाइल को एक्सेसिबल PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [C# में DOCX को PDF में बदलें – चरण‑दर‑स्टेप गाइड](./convert-docx-to-pdf-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके DOCX को PDF में बदलने की विस्तृत चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [C# में Word से PDF बनाना – चरण‑दर‑चरण गाइड](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word से PDF बनाने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [C# में Word से PDF बनाएं – पूर्ण लोकोड गाइड](./create-pdf-from-word-in-c-complete-lowcode-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word को PDF में बदलने की लोकोड गाइड, चरण‑दर‑स्टेप विवरण। |
@@ -73,7 +72,6 @@
 | [DOCX को TXT में बदलें – LaTeX समीकरणों के लिए पूर्ण C# गाइड](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को TXT में बदलें, जिसमें LaTeX समीकरणों को सही ढंग से संभालने के लिए पूर्ण C# गाइड शामिल है। |
 | [DOCX को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण चरण‑दर‑स्टेप गाइड](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Aspose.Words का उपयोग करके .NET में DOCX को PDF में बदलने की पूरी चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [C# में मेल मर्ज और DOCX को PDF में बदलने का तरीका – पूर्ण Aspose गाइड](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | .NET के लिए Aspose.Words का उपयोग करके C# में मेल मर्ज करके DOCX को PDF में बदलना सीखें। विस्तृत चरण‑दर‑स्टेप गाइड। |
-| [Aspose.Words के साथ Word को PDF में बदलें – पूर्ण गाइड](./convert-word-to-pdf-with-aspose-words-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप विवरण। |
 | [C# में Word से PDF बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [DOCX से एक्सेसिबल PDF बनाएं – चरण‑दर‑चरण C# गाइड](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाने की पूरी प्रक्रिया सीखें। |
 | [Docx को txt के रूप में सहेजें और Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-and-export-word-equations-to-latex/) | Aspose.Words के साथ .NET में Docx को txt में बदलें और Word समीकरणों को LaTeX में निर्यात करने की प्रक्रिया सीखें। |
