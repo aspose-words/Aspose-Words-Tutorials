@@ -264,7 +264,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Wie man Word-Dokument mit KI-Anbietern in C# zusammenfasst](/words/english/net/ai-powered-document-processing/how-to-summarize-word-document-with-ai-providers-in-c/)
 - [Word-Dokument in C# zusammenfassen – Schritt‑für‑Schritt‑Anleitung mit KI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Word-Dokument in C# mit einem benutzerdefinierten GPT‑Modell zusammenfassen – Vollständige Anleitung](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

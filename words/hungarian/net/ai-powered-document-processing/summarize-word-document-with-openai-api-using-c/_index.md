@@ -264,7 +264,6 @@ Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Hogyan összefoglaljunk Word dokumentumot AI szolgáltatókkal C#-ban](/words/english/net/ai-powered-document-processing/how-to-summarize-word-document-with-ai-providers-in-c/)
 - [Word dokumentum összefoglalása C#‑ban – lépésről‑lépésre útmutató AI használatával](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Word dokumentum összefoglalása C#‑ban egy egyedi GPT modellel – Teljes útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

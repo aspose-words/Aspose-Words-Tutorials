@@ -244,7 +244,6 @@ Wenn Sie das Programm ausführen (z. B. `dotnet run`), sollten Sie etwas Ähnl
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Word‑Dokument in C# zusammenfassen – Schritt‑für‑Schritt‑Anleitung mit KI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Word‑Dokument in C# mit einem benutzerdefinierten GPT‑Modell zusammenfassen – Vollständige Anleitung](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

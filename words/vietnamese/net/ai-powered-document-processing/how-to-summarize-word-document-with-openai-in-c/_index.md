@@ -242,7 +242,6 @@ Khi bạn chạy chương trình (ví dụ, `dotnet run`), bạn sẽ thấy m�
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tóm tắt tài liệu Word trong C# – hướng dẫn từng bước sử dụng AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Tóm tắt tài liệu Word trong C# bằng mô hình GPT tùy chỉnh – Hướng dẫn đầy đủ](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
