@@ -69,7 +69,6 @@
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός βήμα‑βήμα C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό LLM για να συνοψίσετε έγγραφα Word με C# και Aspose.Words. |
 | [Σύνοψη κειμένου με AI σε C# – Πλήρης οδηγός προγραμματισμού](./summarize-text-with-ai-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργείτε αυτόματες περιλήψεις κειμένου σε C# χρησιμοποιώντας AI με το Aspose.Words. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
-| [Μετάφραση docx στα γαλλικά με Aspose.Words.AI – Πλήρης Οδηγός](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words.AI με βήμα-βήμα οδηγίες. |
 | [Δημιουργία σύνοψης εγγράφου σε C# – Πλήρης οδηγός OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Μάθετε πώς να δημιουργήσετε πλήρη σύνοψη εγγράφου σε C# χρησιμοποιώντας το OpenAI με το Aspose.Words. |
 | [Σύνοψη εγγράφου Word με Aspose.Words AI – Πλήρης Οδηγός](./summarize-word-document-with-aspose-words-ai-full-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI με πλήρη οδηγό βήμα προς βήμα. |
 | [Σύνοψη εγγράφων AI σε C# – πλήρης οδηγός](./ai-document-summarization-in-c-complete-guide/) | Οδηγός βήμα-βήμα για τη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |

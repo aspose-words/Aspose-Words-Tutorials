@@ -73,7 +73,6 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Yerel LLM ile Word Belgesini Özetleme – Adım Adım C# Rehberi](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Yerel bir LLM kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi adım adım öğrenin. |
 | [C# ile AI Kullanarak Metin Özetleme – Tam Programlama Kılavuzu](./summarize-text-with-ai-in-c-complete-programming-guide/) | C# ve Aspose.Words kullanarak AI destekli metin özetleme adımlarını öğrenin ve verimli sonuçlar elde edin. |
 | [Aspose.Words ve Google API ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words ve Google Çeviri API'sini kullanarak docx belgelerinizi Fransızcaya otomatik olarak çevirin. |
-| [Aspose.Words.AI ile docx'i Fransızcaya Çevir – Tam Kılavuz](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words.AI kullanarak docx dosyalarını Fransızcaya nasıl çevireceğinizi adım adım öğrenin. |
 | [C# ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx dosyalarını Fransızcaya otomatik çevirin. |
 | [C# ile docx dosyasını Fransızcaya çevirme – adım adım kılavuz](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | C# ile docx dosyasını Fransızcaya çevirme adım adım rehber. |
 | [Aspose.Words AI ile docx'i Fransızcaya Çevir – Tam Kılavuz](./translate-docx-to-french-with-aspose-words-ai/) | Aspose.Words AI kullanarak docx dosyalarını Fransızcaya otomatik çevirin. |
