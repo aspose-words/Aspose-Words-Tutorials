@@ -305,7 +305,6 @@ A: Google 依翻譯的字元數計費。可使用定價頁面估算成本，並�
 
 - [使用 Aspose.Words 與 Google API 將 docx 翻譯成法文](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [如何在 C# 中使用 Google AI 儲存已翻譯的 Word 文件](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [在 C# 中使用 Aspose.Words AI 將字串翻譯成西班牙文](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

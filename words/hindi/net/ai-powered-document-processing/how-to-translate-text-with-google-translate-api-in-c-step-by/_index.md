@@ -310,7 +310,6 @@ A: Google अनुवादित प्रत्येक अक्षर क�
 
 - [Aspose.Words और Google API के साथ docx को फ्रेंच में अनुवाद करें](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Google AI के साथ C# में अनूदित Word दस्तावेज़ को कैसे सहेजें](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Aspose.Words AI के साथ C# में स्ट्रिंग को स्पेनिश में अनुवाद करें](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

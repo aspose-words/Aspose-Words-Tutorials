@@ -308,7 +308,6 @@ Những hướng dẫn sau đây bao gồm các chủ đề liên quan chặt ch
 
 - [dịch docx sang tiếng Pháp với Aspose.Words và Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Cách lưu tài liệu Word đã dịch trong C# với Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Dịch chuỗi sang tiếng Tây Ban Nha trong C# với Aspose.Words AI](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

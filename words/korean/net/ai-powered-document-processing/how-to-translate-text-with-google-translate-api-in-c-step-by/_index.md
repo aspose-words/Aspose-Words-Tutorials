@@ -307,7 +307,6 @@ A: Google은 번역된 문자당 요금을 청구합니다. 가격 페이지를 
 
 - [Aspose.Words와 Google API를 사용해 docx를 프랑스어로 번역하기](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Google AI로 C#에서 번역된 Word 문서 저장하기](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Aspose.Words AI를 사용해 C#에서 문자열을 스페인어로 번역하기](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

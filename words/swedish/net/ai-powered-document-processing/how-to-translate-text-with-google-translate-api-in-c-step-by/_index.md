@@ -307,7 +307,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [översätt docx till franska med Aspose.Words och Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [Hur man sparar översatt Word‑dokument i C# med Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [Översätt sträng till spanska i C# med Aspose.Words AI](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
