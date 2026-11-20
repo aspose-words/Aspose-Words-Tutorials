@@ -72,7 +72,6 @@
 | [Как использовать переводчик для автоматизации перевода документов в C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Узнайте, как автоматизировать перевод документов с помощью Aspose.Words и Translator в C#. |
 | [Как перевести docx на французский с помощью ИИ в C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу DOCX‑файлов на французский язык с использованием ИИ и Aspose.Words в C#. |
 | [Создайте пустой документ Word и переведите его на французский](./create-a-blank-word-document-and-translate-it-to-french/) | Узнайте, как создать пустой документ Word и автоматически перевести его на французский с помощью Aspose.Words. |
-| [Перевести абзац на французский и изменить подпись диаграммы в Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Узнайте, как перевести абзац на французский и изменить подпись диаграммы в документе Word с помощью Aspose.Words. |
 | [Как сохранить переведённый документ Word в C# с помощью Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Узнайте, как с помощью Aspose.Words и Google AI сохранять переведённые документы Word в C#. |
 | [Как резюмировать документ Word с OpenAI в C#](./how-to-summarize-word-document-with-openai-in-c/) | Пошаговое руководство по использованию OpenAI для создания резюме Word‑документов в C# с Aspose.Words. |
 | [Резюмирование документа Word с OpenAI API на C#](./summarize-word-document-with-openai-api-using-c/) |  |
