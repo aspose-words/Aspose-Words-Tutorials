@@ -46,7 +46,6 @@
 | [كيفية فحص القواعد النحوية في C# باستخدام نموذج لغة محلي](./how-to-check-grammar-in-c-using-a-local-llm/) | تعلم كيفية فحص القواعد النحوية في تطبيقات C# باستخدام نموذج لغة محلي لتصحيح النصوص بدقة. |
 | [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | قارن بين نماذج OpenAI و Gemini لتلخيص مستندات Word باستخدام الذكاء الاصطناعي مع Aspose.Words. دليل شامل لاختيار الأنسب. |
 | [كيفية تلخيص مستندات Word – دليل C# الكامل](./how-to-summarize-word-documents-complete-c-guide/) | دليل شامل خطوة بخطوة لتلخيص مستندات Word باستخدام C# و Aspose.Words، مع أمثلة عملية وتطبيقات الذكاء الاصطناعي. |
-| [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل C#](./summarize-word-document-with-local-llm-c-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام نموذج لغة محلي في C# مع Aspose.Words. |
 | [كيفية إصلاح القواعد النحوية في ملفات DOCX باستخدام C# – دليل كامل خطوة بخطوة](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | تعلم كيفية تصحيح الأخطاء النحوية في مستندات DOCX باستخدام C# خطوة بخطوة مع Aspose.Words. |
 | [كيفية فحص القواعد النحوية في مستندات Word – دليل C# كامل](./how-to-check-grammar-in-word-documents-complete-c-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [كيفية التحقق من القواعد النحوية باستخدام نموذج لغة محلي في C#](./how-to-check-grammar-with-a-local-llm-in-c/) | تعلم كيفية استخدام نموذج لغة محلي في C# للتحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words. |

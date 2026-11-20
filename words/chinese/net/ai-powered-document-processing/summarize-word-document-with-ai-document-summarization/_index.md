@@ -229,7 +229,6 @@ class Program
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您在自己的项目中进一步掌握 API 功能并探索替代实现方式。每个资源都提供完整的可运行代码示例和逐步解释。
 
-- [使用本地 LLM 摘要 Word 文档 – C# 指南](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [使用 Aspose.Words 创建空白 Word 文档 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
