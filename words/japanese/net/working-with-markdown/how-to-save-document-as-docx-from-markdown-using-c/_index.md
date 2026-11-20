@@ -262,7 +262,6 @@ C# で Markdown ソースから **save document as docx** するための、完�
 
 - [DOCX から Markdown を保存する方法 – ステップバイステップ ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX を Markdown に変換 – Aspose.Words を使用した完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [docx を pdf と markdown に変換 – 完全 C# ガイド](/words/english/net/basic-conversions/convert-docx-to-pdf-and-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
