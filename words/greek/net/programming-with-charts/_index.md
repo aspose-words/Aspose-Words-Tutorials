@@ -85,7 +85,6 @@
 | [Πώς να μορφοποιήσετε σειρές σε γράφημα γραμμής Word με C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Μάθετε πώς να μορφοποιήσετε σειρές σε ένα γράφημα γραμμής στο Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 | [Πώς να δημιουργήσετε γράφημα πίτας σε ένα έγγραφο Word με το Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Μάθετε πώς να δημιουργήσετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Πώς να δημιουργήσετε ιστόγραμμα σε Word με το Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Μάθετε πώς να δημιουργήσετε ιστόγραμμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
-| [Πώς να δημιουργήσετε έγγραφο Word C# με γράφημα στήλης και μορφοποιημένες ετικέτες](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με γράφημα στήλης και μορφοποιημένες ετικέτες χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να δημιουργήσετε έγγραφο Word με προσαρμοσμένο γράφημα πίτας σε C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με προσαρμοσμένο γράφημα πίτας χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να δημιουργήσετε γράφημα ραντάρ και να προσθέσετε το γράφημα στο Word με C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Μάθετε πώς να δημιουργήσετε γράφημα ραντάρ και να το ενσωματώσετε σε έγγραφο Word χρησιμοποιώντας C# και Aspose.Words. |
 

@@ -60,7 +60,6 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [모양을 사용하여 차트 만들기 및 사용자 지정](./create-chart-using-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 차트를 만들고 사용자 지정하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화에 적합합니다. |
 | [Word 문서에 간단한 막대형 차트 삽입](./insert-simple-column-chart/) Aspose.Words for .NET을 사용하여 Word에 간단한 세로 막대형 차트를 삽입하는 방법을 알아보세요. 역동적인 시각적 데이터 프레젠테이션으로 문서를 더욱 풍부하게 만들어 보세요. |
 | [Word 문서에 막대형 차트 삽입](./insert-column-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 세로 막대형 차트를 삽입하는 방법을 알아보세요. 보고서와 프레젠테이션의 데이터 시각화를 향상시켜 보세요. |
-| [C#를 사용하여 열 차트와 서식이 지정된 레이블이 포함된 Word 문서 만들기](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aspose.Words for .NET을 활용해 열 차트와 서식이 적용된 레이블을 포함한 Word 문서를 C#으로 만드는 방법을 단계별로 안내합니다. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |
 | [Word 문서에 거품형 차트 삽입](./insert-bubble-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 거품형 차트를 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 더욱 풍성하게 만들어 보세요. |
 | [Aspose.Words로 파이 차트가 포함된 Word 문서 만들기](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
