@@ -35,7 +35,6 @@ First things first, let's get our namespaces in order. You'll need to import a f
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Cleaning;
 ```
 
 ## Step 1: Load Your Document
@@ -83,7 +82,7 @@ Console.WriteLine($"Count of lists after Cleanup: {doc.Lists.Count}");
 
 ## Step 6: Save the Cleaned Document
 
-Finally, let's save our cleaned-up document. This will ensure all changes are saved, and your document is as tidy as possible.
+ Finally, let's save our cleaned-up document. This will ensure all changes are saved, and your document is as tidy as possible.
 
 ```csharp
 doc.Save(dataDir + "CleanedDocument.docx");
