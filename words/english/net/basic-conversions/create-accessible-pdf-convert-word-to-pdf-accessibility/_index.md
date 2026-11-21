@@ -120,8 +120,8 @@ If the tool reports zero errors, you’re golden. If you see warnings about miss
 
 | Scenario | What to Adjust | Why |
 |----------|----------------|-----|
-| **Large documents (100+ pages)** | Set `MemoryUsage` to `MemoryUsageMode.LowMemory` in `PdfSaveOptions` | Prevents out‑of‑memory exceptions on 32‑bit processes |
-| **Custom PDF tags** | Use `doc.CustomDocumentProperties` or `doc.Markup` to add `StructureTreeRoot` entries | Gives you fine‑grained control over the accessibility tree |
+| **Large documents (100+ pages)** | Set `MemoryOptimization` to `MemoryOptimizationMode.LowMemory` in `PdfSaveOptions` | Prevents out‑of‑memory exceptions on 32‑bit processes |
+| **Custom PDF tags** | Use `doc.CustomDocumentProperties` to add custom metadata, though fine‑grained control over the PDF/UA structure tree is not currently exposed via the API | Allows you to store additional information, but detailed PDF tagging isn’t directly supported |
 | **Password‑protected PDFs** | Set `pdfSaveOptions.EncryptionDetails` with a user password | Keeps the PDF secure while still being accessible to authorized users |
 | **Images without alt‑text** | Pre‑process the Word file: `foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true)) { if (string.IsNullOrEmpty(shape.AlternativeText)) shape.AlternativeText = "Descriptive alt text"; }` | Ensures screen readers have something to read |
 
@@ -155,7 +155,7 @@ namespace AccessiblePdfDemo
             };
 
             // Optional: handle large files gracefully
-            // pdfSaveOptions.MemoryUsage = MemoryUsageMode.LowMemory;
+            // pdfSaveOptions.MemoryOptimization = MemoryOptimizationMode.LowMemory;
 
             // 3️⃣ Save the document as an accessible PDF
             string outputPath = @"C:\MyFiles\Accessible.pdf";

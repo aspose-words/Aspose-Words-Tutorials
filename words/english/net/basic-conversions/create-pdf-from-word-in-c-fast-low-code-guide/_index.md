@@ -28,7 +28,7 @@ url: /net/basic-conversions/create-pdf-from-word-in-c-fast-low-code-guide/
 
 # Create PDF from Word in C# – Fast Low‑Code Guide
 
-Ever needed to **create PDF from Word** without wrestling with heavy libraries? You're not alone. In many projects—invoice generators, report exporters, or simple document archiving—developers look for a way to **convert Word to PDF** with just a few lines of code. The good news? Aspose.Words.LowCode gives you exactly that: a single‑call converter that turns a `.docx` file into a polished PDF.
+Ever needed to **create PDF from Word** without wrestling with heavy libraries? You're not alone. In many projects—invoice generators, report exporters, or simple document archiving—developers look for a way to **convert Word to PDF** with just a few lines of code. The good news? Aspose.Words.LowCode gives you exactly that: a single‑call converter that turns a `.docx` file into a PDF.
 
 In this tutorial we’ll walk through everything you need to know: from setting up the environment, through the actual conversion, to handling common pitfalls. By the end you’ll be able to **export Word as PDF**, **convert docx to PDF**, and even **generate PDF from DOCX** with custom settings if you need them.
 
@@ -43,14 +43,14 @@ In this tutorial we’ll walk through everything you need to know: from setting 
 
 ## Create PDF from Word – Overview
 
-Before we dive into code, let’s clarify the **why** behind each step. The low‑code `Converter` class abstracts away the heavy lifting: it reads the source document, parses styles, images, and metadata, then streams a PDF that mirrors the original layout. This means you don’t have to manage page size, fonts, or image compression manually—Aspose does it for you.
+Before we dive into code, let’s clarify the **why** behind each step. The low‑code `Converter` class simplifies the conversion process: it loads the source document with Aspose.Words and writes a PDF using the library’s default conversion pipeline. This means you don’t have to manage page size, fonts, or image compression manually—Aspose handles those details with its built‑in defaults.
 
-### Step 1: Install the Aspose.Words.LowCode NuGet Package
+### Step 1: Install the Aspose.Words NuGet Package
 
 Open your project’s terminal and run:
 
 ```bash
-dotnet add package Aspose.Words.LowCode
+dotnet add package Aspose.Words
 ```
 
 > **Pro tip:** If you’re on a CI/CD pipeline, pin the version (`--version 23.12.0`) to avoid unexpected breaking changes.
@@ -78,15 +78,15 @@ using Aspose.Words.LowCode;
 Converter.Convert(sourcePath, outputPath);
 ```
 
-That’s it. The `Convert` method automatically:
-
-* Detects the source format (DOC, DOCX, RTF, etc.)  
-* Applies default PDF rendering options (A4 page size, embed fonts, lossless image compression)  
-* Writes the output file to `outputPath`
+That’s it. The `Convert` method loads the document, applies Aspose.Words’ default PDF conversion settings, and writes the output file to `outputPath`.
 
 #### Verifying the Result
 
-After the call finishes, you can open the PDF with any viewer to confirm the conversion succeeded. For automated testing, consider checking the file size or using Aspose’s `PdfDocument` class to inspect page count:
+After the call finishes, you can open the PDF with any viewer to confirm the conversion succeeded. For automated testing, you can use Aspose.Pdf to inspect the generated file. **Note:** you must add the `Aspose.Pdf` NuGet package to your project to use the code below.
+
+```bash
+dotnet add package Aspose.Pdf
+```
 
 ```csharp
 using Aspose.Pdf;
@@ -122,13 +122,13 @@ catch (FileNotFoundException ex)
 
 #### Large Documents & Memory Usage
 
-For massive Word files (hundreds of pages), you might hit memory pressure. Aspose offers a `LoadOptions` object you can pass to `Converter` to enable **streaming** mode. While the low‑code API doesn’t expose it directly, you can fall back to the full API when needed:
+For very large Word files you may want to use the full Aspose.Words API, which gives you more control over loading options. While the low‑code API does not expose a streaming mode, you can achieve lower memory consumption by loading the document with `LoadOptions` and then saving it as PDF:
 
 ```csharp
-var loadOptions = new Aspose.Words.LoadOptions
+var loadOptions = new Aspose.Words.Loading.LoadOptions
 {
-    LoadFormat = Aspose.Words.LoadFormat.Docx,
-    MemoryOptimization = true
+    LoadFormat = Aspose.Words.LoadFormat.Docx
+    // No explicit streaming flag exists; the library manages memory internally.
 };
 
 var doc = new Aspose.Words.Document(sourcePath, loadOptions);
@@ -137,13 +137,16 @@ doc.Save(outputPath, Aspose.Words.SaveFormat.Pdf);
 
 #### Custom PDF Settings (Optional)
 
-If you need to **export Word as PDF** with a specific page size or PDF version, use the full API’s `PdfSaveOptions`:
+If you need to control PDF compliance or page size, use the full API’s `PdfSaveOptions`. Page size is set on the document’s section, not on the save options object.
 
 ```csharp
+// Set a custom page size (e.g., A5) before saving
+doc.FirstSection.PageSetup.PaperSize = Aspose.Words.PaperSize.A5;
+
+// Configure PDF-specific options
 var pdfOptions = new Aspose.Words.Saving.PdfSaveOptions
 {
-    Compliance = Aspose.Words.Saving.PdfCompliance.PdfA2b,
-    PageSetup = { PaperSize = Aspose.Words.PageSetup.PaperSize.A5 }
+    Compliance = Aspose.Words.Saving.PdfCompliance.PdfA2u
 };
 
 doc.Save(outputPath, pdfOptions);
@@ -183,10 +186,10 @@ This pattern is perfect for nightly jobs that archive reports or for web service
 ## Common Questions & Gotchas
 
 **Q: Does this work with `.doc` (binary Word) files?**  
-A: Yes. The low‑code `Converter` autodetects the format, so you can **convert doc to PDF** without extra code.
+A: Yes. The low‑code `Converter` can load both the newer `.docx` format and the older binary `.doc` format.
 
 **Q: What about password‑protected documents?**  
-A: The low‑code API will throw a `PasswordProtectedException`. Use the full API to supply the password via `LoadOptions`.
+A: The low‑code API will throw a `PasswordProtectedException`. Use the full API and supply the password via `LoadOptions.Password`.
 
 **Q: Can I convert directly from a `Stream`?**  
 A: The low‑code version only accepts file paths. For stream‑based conversion (e.g., from an uploaded file), instantiate a `Document` from the stream and call `Save` with `PdfSaveOptions`.
