@@ -268,7 +268,6 @@ dotnet run
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [인증서 보관자를 사용하여 PDF에 디지털 서명 추가](/words/english/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/)
-- [Aspose.Words를 사용한 C#에서 Word를 PDF로 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Aspose.Words로 docx를 PDF로 저장 – 완전한 C# 가이드](/words/english/net/basic-conversions/save-docx-as-pdf-withaspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

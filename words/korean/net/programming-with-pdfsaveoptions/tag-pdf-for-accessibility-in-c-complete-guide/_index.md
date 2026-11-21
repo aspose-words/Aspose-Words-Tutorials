@@ -173,7 +173,6 @@ PDF를 생성하는 것만으로는 절반에 불과합니다. 파일이 진정�
 
 - [Aspose.Words를 사용한 Word를 PDF로 저장 – 완전 C# 가이드](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose.Words를 사용한 docx를 pdf로 저장 – 완전 C# 가이드](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words를 이용한 C# Word → PDF 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

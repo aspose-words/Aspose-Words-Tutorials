@@ -320,7 +320,6 @@ Boldog kódolást, és élvezze a Word fájlok PDF‑vé alakításának egyszer
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódpéldákat és lépésről‑lépésre magyarázatokat tartalmaz, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Hogyan mentse a dokumentumot pdf‑ként az Aspose.Words for Java használatával](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Word pdf‑re konvertálása C#‑ban az Aspose.Words segítségével – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word dokumentum szerkezetének exportálása PDF dokumentumba](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

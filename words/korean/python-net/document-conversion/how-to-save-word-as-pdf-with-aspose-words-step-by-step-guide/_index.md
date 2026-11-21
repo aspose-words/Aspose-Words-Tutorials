@@ -210,7 +210,6 @@ A: Aspose PDF(`aspose-pdf`)를 사용해 생성된 PDF들을 연결하거나, 
 
 - [Aspose.Words를 사용하여 Word를 PDF로 저장 – 완전한 C# 가이드](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose Words를 사용하여 Word를 PDF로 저장 – 완전한 C# 가이드](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words를 사용한 C#에서 Word를 PDF로 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

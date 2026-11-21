@@ -234,7 +234,6 @@ if __name__ == "__main__":
 
 - [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [μετατροπή word σε pdf σε C# χρησιμοποιώντας Aspose.Words – Οδηγός](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

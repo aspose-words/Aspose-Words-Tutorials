@@ -196,7 +196,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que se basan e
 
 - [Cómo cargar documentos Word usando Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 - [Agregar marca de agua de texto en documento Word usando Aspose.Words para .NET](/words/english/net/working-with-watermark/add-text-watermark/)
-- [Convertir Word a PDF en C# usando Aspose.Words – Guía](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

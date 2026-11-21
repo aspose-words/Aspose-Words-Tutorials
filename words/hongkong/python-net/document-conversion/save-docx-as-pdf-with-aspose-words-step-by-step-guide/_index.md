@@ -318,7 +318,6 @@ A: Use `options.save_mode = aw.saving.PdfSaveMode.PDF_A_2B`. Aspose.Words provid
 以下教學與本指南緊密相關，能幫助你進一步掌握 API 功能並探索其他實作方式：
 
 - [如何使用 Aspose.Words for Java 將文件儲存為 PDF](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 完整指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [將 Word 文件結構匯出為 PDF 文件](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

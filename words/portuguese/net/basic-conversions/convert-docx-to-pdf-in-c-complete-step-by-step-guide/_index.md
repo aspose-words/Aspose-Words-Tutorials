@@ -273,7 +273,6 @@ Tem um cenário que não foi abordado aqui? Deixe um comentário e vamos solucio
 ## O que Você Deve Aprender a Seguir?
 
 - [Converter Arquivo Word para PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [converter word para pdf em C# usando Aspose.Words – Guia](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Salvar Word como PDF e Recuperar Word Corrompido – Converter Word para Markdown em C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

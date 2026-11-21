@@ -231,7 +231,6 @@ Veel programmeerplezier!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Word naar PDF converteren in C# met Aspose.Words – Gids](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word opslaan als PDF met Aspose Words – volledige C#‑gids](/words/hindi/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word naar PDF converteren met Aspose.Words voor Java](/words/english/java/document-converting/)
 

@@ -244,7 +244,6 @@ Soms moet je een specifieke alinea markeren als een *note* voor assistieve techn
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stapsgewijze uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Word naar PDF converteren in C# met Aspose.Words – Gids](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Toegankelijke PDF maken en Word naar Markdown converteren – Volledige C#‑gids](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Word‑document naar PDF converteren 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 

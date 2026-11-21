@@ -253,7 +253,6 @@ public void ConvertDocxToPdf_ShouldCreateValidPdf()
 
 - [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ C# ฉบับเต็ม](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับเต็ม](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [แปลง word เป็น pdf ใน C# ด้วย Aspose.Words – คู่มือ](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

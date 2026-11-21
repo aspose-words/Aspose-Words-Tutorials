@@ -226,7 +226,6 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 ## 相關教學
 
 - [使用 C# 從 Word 建立可存取的 PDF – 步驟指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [使用 Aspose.Words 在 C# 中將 Word 轉換為 PDF – 教學](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [建立可存取的 PDF – PDF/UA 合規步驟指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

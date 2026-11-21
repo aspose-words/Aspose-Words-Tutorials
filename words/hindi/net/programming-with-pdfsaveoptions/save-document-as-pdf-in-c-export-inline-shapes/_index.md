@@ -225,7 +225,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [Aspose.Words के साथ docx को pdf के रूप में सहेजें – पूर्ण C# गाइड](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose.Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words का उपयोग करके C# में word को pdf में बदलें – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

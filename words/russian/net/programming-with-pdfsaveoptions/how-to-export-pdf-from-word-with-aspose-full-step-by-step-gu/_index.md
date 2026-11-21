@@ -200,7 +200,6 @@ foreach (string file in Directory.GetFiles(sourceFolder, "*.docx"))
 
 Следующие руководства охватывают тесно связанные темы, которые опираются на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные рабочие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [конвертировать word в pdf на C# с помощью Aspose.Words – Руководство](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Экспорт закладок заголовков и колонтитулов Word в PDF‑документ](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

@@ -302,7 +302,6 @@ Pokud vás zajímají další kroky, zvažte prozkoumání:
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Jak uložit dokument jako pdf pomocí Aspose.Words pro Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [convert word to pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Export struktury Word dokumentu do PDF dokumentu](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

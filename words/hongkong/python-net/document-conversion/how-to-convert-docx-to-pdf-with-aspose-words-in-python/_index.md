@@ -202,7 +202,6 @@ if __name__ == "__main__":
 以下教學涵蓋與本指南技術密切相關的主題，並以完整可運作的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在專案中探索其他實作方式。
 
 - [aspose word to pdf – 在 Java 中將 DOCX 轉換為 PDF](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [使用 Aspose.Words for Java 將 Word 轉換為 PDF](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -219,7 +219,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Erstelle barrierefreies PDF – Schritt‑für‑Schritt‑Anleitung für PDF/UA‑Konformität](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [Erstelle barrierefreies PDF in C# – PDF‑Barrierefreiheits‑Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [Word nach PDF in C# mit Aspose.Words konvertieren – Anleitung](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

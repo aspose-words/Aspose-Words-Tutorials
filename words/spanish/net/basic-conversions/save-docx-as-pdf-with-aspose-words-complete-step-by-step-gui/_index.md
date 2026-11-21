@@ -256,7 +256,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [guardar docx como pdf con Aspose.Words – Guía completa en C#](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Guardar Word como PDF con Aspose.Words – Guía completa en C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convertir word a pdf en C# usando Aspose.Words – Guía](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

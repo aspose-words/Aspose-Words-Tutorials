@@ -210,7 +210,6 @@ A: ใช้ Aspose PDF (`aspose-pdf`) เพื่อเชื่อมต่
 
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [บันทึก Word เป็น PDF ด้วย Aspose Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [แปลง Word เป็น PDF ใน C# ด้วย Aspose.Words – คู่มือ](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

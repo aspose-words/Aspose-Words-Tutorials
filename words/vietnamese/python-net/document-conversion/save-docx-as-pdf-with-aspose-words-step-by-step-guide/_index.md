@@ -301,7 +301,6 @@ Chúc lập trình vui vẻ, và tận hưởng sự đơn giản của việc c
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Cách lưu tài liệu thành pdf với Aspose.Words cho Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [chuyển đổi word sang pdf trong C# bằng Aspose.Words – Hướng dẫn](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Xuất cấu trúc tài liệu Word sang tài liệu PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

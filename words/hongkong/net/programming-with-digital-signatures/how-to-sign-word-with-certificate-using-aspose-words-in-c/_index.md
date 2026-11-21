@@ -196,7 +196,6 @@ class Program
 
 - [如何使用 Aspose.Words LoadOptions 載入 Word 文件](/words/english/net/programming-with-loadoptions/)
 - [使用 Aspose.Words for .NET 在 Word 文件中加入文字浮水印](/words/english/net/working-with-watermark/add-text-watermark/)
-- [使用 Aspose.Words 於 C# 中將 Word 轉換為 PDF – 完整指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

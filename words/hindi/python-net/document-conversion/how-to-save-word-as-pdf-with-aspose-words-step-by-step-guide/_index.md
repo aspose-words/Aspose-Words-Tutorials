@@ -212,7 +212,6 @@ A: उत्पन्न PDFs को जोड़ने के लिए Aspose�
 
 - [Aspose.Words के साथ Word को PDF में सहेजें – पूर्ण C# गाइड](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose Words के साथ Word को PDF में सहेजें – पूर्ण C# गाइड](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words का उपयोग करके C# में Word को PDF में बदलें – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

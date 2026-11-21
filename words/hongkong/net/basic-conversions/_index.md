@@ -28,7 +28,6 @@
 | [在 C# 中將 Word 轉換為 PDF 教學](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) |提供逐步指南與程式碼範例，教您在 C# 使用 Aspose.Words 將 DOCX 轉換為 PDF。 |
 | [將 DOCX 轉換為 PDF – 產生可存取的 PDF（PDF/UA）](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | 了解如何使用 Aspose.Words for .NET 將 DOCX 轉換為符合 PDF/UA 標準的可存取 PDF，提供程式碼範例與步驟說明。 |
 | [將 DOCX 轉換為 PDF C# – 完整步驟指南](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供完整的分步說明與程式碼範例。 |
-| [使用 C# 與 Aspose.Words 將 Word 轉換為 PDF – 教學](./convert-word-to-pdf-in-c-using-aspose-words-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 PDF。提供逐步指南與程式碼範例。 |
 | [在 C# 中將 DOCX 轉換為 PDF – 步驟說明指南](./convert-docx-to-pdf-in-c-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供逐步指南與程式碼範例。 |
 | [將 Docx 轉換為位元組](./docx-to-byte/) |了解如何使用 Aspose.Words 在 .NET 中將 Docx 轉換為位元組陣列以實現高效的文件處理。包含逐步指南。 |  
 | [將 Docx 轉換為 Epub](./docx-to-epub/) |使用 Aspose.Words for .NET 輕鬆將 DOCX 轉換為 EPUB。按照我們的教學無縫整合到您的 .NET 應用程式中。 |

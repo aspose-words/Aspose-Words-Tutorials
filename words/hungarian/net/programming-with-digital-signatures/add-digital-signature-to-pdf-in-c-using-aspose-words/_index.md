@@ -270,7 +270,6 @@ Nyugodtan kísérletezzen különböző XAdES profilokkal, ágyazzon be több al
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
 - [Digitális aláírás hozzáadása PDF-hez tanúsítványtulajdonos használatával](/words/english/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/)
-- [Word konvertálása PDF‑be C#‑ban az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [docx mentése PDF‑ként az Aspose.Words‑szal – Teljes C# útmutató](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -299,7 +299,6 @@ Cobalah di proyek Anda sendiri, sesuaikan `PdfSaveOptions` agar sesuai dengan ke
 ## Tutorial Terkait
 
 - [Konversi File Word ke PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [konversi word ke pdf di C# menggunakan Aspose.Words – Panduan](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Ekspor Penanda Buku Header Footer Dokumen Word ke Dokumen PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

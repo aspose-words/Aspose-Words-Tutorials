@@ -204,7 +204,6 @@ Bu varyasyonları deneyerek dönüşüm sürecini projenizin özel gereksinimler
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalarla tam çalışan kod örnekleri içerir.
 
 - [aspose word to pdf – Java'da DOCX'i PDF'e Dönüştür](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [Aspose.Words kullanarak C#'ta Word'ü PDF'e dönüştür – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Aspose.Words for Java ile Word'ü PDF'e Dönüştür](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
