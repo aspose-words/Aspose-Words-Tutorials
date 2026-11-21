@@ -212,7 +212,6 @@ Hãy thoải mái thử nghiệm các cài đặt và tích hợp script vào qu
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách xuất LaTeX từ Word – Hướng dẫn từng bước](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Lưu docx thành txt – Xuất Word Math sang LaTeX với C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 

@@ -240,7 +240,6 @@ Próbáld ki, finomítsd a beállításokat, és hagyd, hogy a kód végezze a n
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Dokumentum mentése Txt‑ként – Word Math exportálása LaTeX‑be C#‑ben](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Hogyan exportáljunk LaTeX‑et Word‑ből – Lépésről‑lépésre útmutató](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Hogyan exportáljunk LaTeX‑et Word‑ből: DOCX konvertálása Markdownra Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

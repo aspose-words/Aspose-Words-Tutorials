@@ -272,7 +272,6 @@ if __name__ == "__main__":
 
 - [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออก Word Math](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนโดยละเอียด](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

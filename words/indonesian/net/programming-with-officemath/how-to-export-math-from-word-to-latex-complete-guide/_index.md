@@ -256,7 +256,6 @@ Cobalah, sesuaikan opsi, dan biarkan kode melakukan pekerjaan berat. Selamat cod
 Tutorial berikut mencakup topik yang sangat terkait dan membangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
 - [Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX dalam C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑per‑Langkah](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

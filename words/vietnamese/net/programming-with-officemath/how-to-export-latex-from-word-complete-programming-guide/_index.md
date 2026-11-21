@@ -220,7 +220,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Lưu tài liệu dưới dạng Txt – Xuất Word Math sang LaTeX trong C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Cách xuất LaTeX từ Word – Hướng dẫn từng bước](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

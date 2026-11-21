@@ -220,7 +220,6 @@ dotnet run
 
 - [Word से LaTeX निर्यात करने की विधि: Aspose के साथ DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [दस्तावेज़ को Txt के रूप में सहेजें – C# में Word Math को LaTeX में निर्यात करें](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Word से LaTeX निर्यात करने की विधि – चरण‑दर‑चरण गाइड](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -244,7 +244,6 @@ if __name__ == "__main__":
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να εξοικειωθείτε με επιπλέον δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας projects.
 
 - [Αποθήκευση Εγγράφου ως TXT – Πλήρης Οδηγός C# για τη Μετατροπή DOCX σε Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Πώς να Εξάγετε LaTeX από το Word – Οδηγός Βήμα‑Βήμα](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξισώσεις LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

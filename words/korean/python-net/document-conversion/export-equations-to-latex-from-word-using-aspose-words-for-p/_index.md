@@ -191,7 +191,6 @@ for doc_file in source_dir.glob("*.docx"):
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 리소스에는 단계별 설명이 포함된 완전한 코드 예제가 제공되어 추가 API 기능을 마스터하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [Word에서 LaTeX 내보내기 – 단계별 가이드](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [docx를 markdown으로 변환 – Aspose.Words를 사용해 수학 방정식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

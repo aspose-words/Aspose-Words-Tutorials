@@ -220,7 +220,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak exportovat LaTeX z Wordu: převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Uložení dokumentu jako Txt – Export Word Math do LaTeXu v C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Jak exportovat LaTeX z Wordu – průvodce krok za krokem](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

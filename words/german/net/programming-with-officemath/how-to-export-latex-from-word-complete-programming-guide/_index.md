@@ -216,7 +216,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [Wie man LaTeX aus Word exportiert: DOCX nach Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Dokument als Txt speichern – Word‑Math nach LaTeX in C# exportieren](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Anleitung](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

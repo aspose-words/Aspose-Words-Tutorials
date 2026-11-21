@@ -218,7 +218,6 @@ dotnet run
 
 - [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [บันทึกเอกสารเป็น Txt – ส่งออก Word Math เป็น LaTeX ใน C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนโดยละเอียด](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
