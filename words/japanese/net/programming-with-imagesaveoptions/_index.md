@@ -30,7 +30,6 @@ Aspose.Words for .NET の ImageSaveOptions を使った Words Processing チュ�
 | [Word を PNG に変換する際の DPI 設定 – 完全 C# ガイド](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を PNG に変換する際に DPI を設定する完全な C# ガイドです。 |
 | [Word 文書から PNG グリッドを作成 – ステップバイステップ ガイド](./create-png-grid-from-word-document-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書内の画像をグリッド状に配置し、PNG に変換する方法を解説します。 |
 | [C# で Word を画像として保存 – ステップバイステップ ガイド](./save-word-as-images-with-c-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を画像として保存する方法をステップバイステップで解説します。 |
-| [Word を PNG に変換する際の DPI 設定 – 高解像度エクスポート ガイド](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) Aspose.Words for .NET を使用して、Word 文書を高解像度 PNG に変換する際の DPI 設定方法を詳しく解説します。 |
 | [Word を PNG に変換する際の解像度設定 – 完全ガイド](./how-to-set-resolution-when-converting-word-to-png-complete-g/) Aspose.Words for .NET を使用して、Word 文書を PNG に変換する際の解像度設定方法を詳しく解説する完全ガイドです。 |
 | [docx を PNG に変換 – 完全ステップバイステップガイド](./convert-docx-to-png-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、docx ファイルを PNG 画像に変換する完全なステップバイステップガイドです。 |
 | [DPI を設定 – C# で Word を PNG グリッドにエクスポート](./how-to-set-dpi-export-word-to-png-grid-in-c/) Aspose.Words for .NET を使用して、Word 文書を PNG グリッド形式でエクスポートする際の DPI 設定方法を解説します。 |
