@@ -33,7 +33,6 @@
 | [将 Docx 文件转换为 Markdown](./docx-to-markdown/) | 了解如何使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown。请遵循我们的详细指南，实现与您的 .NET 应用程序的无缝集成。|
 | [Docx 转 Txt](./docx-to-txt/) 使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并遵循我们的分步指南。学习如何高效轻松地转换文档。|
 | [如何将 docx 保存为 txt – 转换 docx，提取 LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | 学习使用 Aspose.Words for .NET 将 DOCX 转换为 TXT 并提取 LaTeX 内容，提供分步指南和代码示例。|
-| [将 Docx 保存为 Txt – 完整指南：将 Word 文件转换为纯文本](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | 学习如何使用 Aspose.Words for .NET 将 Docx 转换为纯文本 Txt，提供分步指南和代码示例，帮助实现高效文档处理。|
 | [Docx 转 Txt – 导出 Word 方程为 LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 TXT 并将 Word 方程导出为 LaTeX，提供分步指南和代码示例。|
 | [将 DOCX 转换为 TXT – 完整 C# 指南（适用于 LaTeX 方程式）](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并正确处理 LaTeX 方程式，提供完整的 C# 示例和分步指南。|
 | [将 docx 转换为 txt – Word 数学转 LaTeX 完整指南](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | 学习使用 Aspose.Words for .NET 将 DOCX 转为 TXT，并将 Word 中的数学公式导出为 LaTeX，提供分步指南和代码示例。|
