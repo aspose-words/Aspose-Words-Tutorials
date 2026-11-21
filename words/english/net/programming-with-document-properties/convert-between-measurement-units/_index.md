@@ -96,7 +96,12 @@ And there you have it! You've successfully converted and set margins and distanc
 ## FAQ's
 
 ### Can I convert other units like centimeters to points using Aspose.Words?
-Yes, Aspose.Words provides methods like `ConvertUtil.CmToPoint` for converting centimeters to points.
+Yes, you can convert centimeters to points by first converting centimeters to millimeters (1 cm = 10 mm) and then using `ConvertUtil.MillimeterToPoint`. For example:
+
+```csharp
+double centimeters = 2.5;
+double points = ConvertUtil.MillimeterToPoint(centimeters * 10);
+```
 
 ### Is a license necessary for using Aspose.Words for .NET?
 While you can use Aspose.Words without a license, some advanced features may be restricted. Obtaining a license ensures full functionality.
