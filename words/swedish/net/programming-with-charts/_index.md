@@ -50,7 +50,6 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hur man ställer in histogrambinsantal och lägger till dataetiketter i ett Word-diagram med C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programmera justering av diagrametiketter i ett Word-dokument med C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titel | Beskrivning |
 | --- | --- |

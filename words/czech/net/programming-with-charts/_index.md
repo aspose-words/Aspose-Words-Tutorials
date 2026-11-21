@@ -46,7 +46,6 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 {{< tutorial-card link="./update-chart-title/" title="Aktualizujte název grafu a přepněte viditelnost legendy ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programaticky upravit popisky grafu v dokumentu Word pomocí C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Uložení upraveného dokumentu s výbuchovými výsečemi koláčového grafu v C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 

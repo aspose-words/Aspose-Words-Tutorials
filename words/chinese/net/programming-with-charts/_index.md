@@ -55,7 +55,6 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./single-chart-series/" title="使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列" imgSrc="./single-chart-series/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="使用 C# 在 Word 文档中以编程方式调整图表标签" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|

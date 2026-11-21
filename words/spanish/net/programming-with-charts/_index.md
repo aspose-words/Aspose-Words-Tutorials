@@ -50,7 +50,6 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 
 {{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cómo formatear un gráfico en Word con C# y formatos de número personalizados" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajustar programáticamente las etiquetas del gráfico en un documento Word con C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Título | Descripción |
 | --- | --- |
