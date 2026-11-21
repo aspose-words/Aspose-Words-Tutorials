@@ -211,7 +211,6 @@ Aspose.Words for Python を使った **破損した docx ファイルの復元�
 
 以下のチュートリアルは、本ガイドで示した手法を基にした関連トピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、API の追加機能習得や代替実装アプローチの探求に役立ちます。
 
-- [破損した DOCX の完全ガイド – 修復、PDF & Markdown エクスポート](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Word から LaTeX をエクスポートする方法 – Aspose で DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx の復元 – 復元モード設定と破損 Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
