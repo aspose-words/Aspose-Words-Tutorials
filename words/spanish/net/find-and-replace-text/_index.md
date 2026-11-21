@@ -39,7 +39,6 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 | [Cómo generar una plantilla de documento y completarla con datos en C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aprenda a crear una plantilla de documento y rellenarla con datos usando Aspose.Words para .NET en C#. |
 | [Automatizar la generación de documentos Word con Aspose.Words en C#](./automate-word-document-generation-with-aspose-words-in-c/) Aprenda a generar documentos Word de forma automática usando Aspose.Words en C# con esta guía paso a paso. |
 
-| [Reemplazar texto en docx con C# – Guía completa paso a paso](./replace-text-in-docx-with-c-full-step-by-step-guide/) Aprenda a reemplazar texto en archivos docx usando C# con Aspose.Words para .NET mediante una guía detallada paso a paso. |
 | [Cómo reemplazar marcadores de posición en archivos docx con Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) Aprenda a sustituir marcadores de posición en archivos DOCX usando Aspose.Words para .NET. Guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

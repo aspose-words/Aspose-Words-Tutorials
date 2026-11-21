@@ -37,7 +37,6 @@ Belirli kelimeleri değiştirmeniz, metin şablonlarını güncellemeniz veya Wo
 | [Docx dosyalarındaki yer tutucuları Aspose.Words ile nasıl değiştirilir](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Aspose.Words for .NET kullanarak docx dosyalarındaki yer tutucuları adım adım nasıl değiştireceğinizi öğrenin. |
 | [Tablodaki Metni Değiştir](./replace-text-in-table/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word tablosundaki metni zahmetsizce değiştirin. |
 | [C# ile DOCX'te Metin Değiştirme – Adım Adım Kılavuz](./replace-text-in-docx-with-c-step-by-step-guide/) | C# kullanarak DOCX dosyalarında metni nasıl değiştireceğinizi adım adım öğrenin. |
-| [C# ile docx içinde metni değiştir – Tam Adım Adım Kılavuz](./replace-text-in-docx-with-c-full-step-by-step-guide/) | C# ve Aspose.Words for .NET kullanarak docx dosyalarında metni adım adım nasıl değiştireceğinizi öğrenin. |
 | [C# ile belge şablonu oluşturma ve verilerle doldurma](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aspose.Words for .NET kullanarak C# dilinde belge şablonu oluşturup, veri ile doldurmayı öğrenin. |
 | [Aspose.Words ile C#'ta Word Belgesi Oluşturmayı Otomatikleştirin](./automate-word-document-generation-with-aspose-words-in-c/) | Aspose.Words kullanarak C# ile Word belgelerini otomatik olarak oluşturmayı öğrenin. |
 
