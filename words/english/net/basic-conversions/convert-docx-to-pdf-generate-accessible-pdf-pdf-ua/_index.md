@@ -34,7 +34,7 @@ In this tutorial you’ll see how to **convert DOCX to PDF** **and** generate an
 
 ## What You’ll Learn
 
-- Set up a .NET project with the Aspose.Words.LowCode package.  
+- Set up a .NET project with the Aspose.Words package.  
 - Configure `PdfSaveOptions` to **generate accessible pdf** files (PDF/UA).  
 - Execute the conversion with `Converter.Convert`—the simplest way to **convert word to pdf**.  
 - Verify the result and troubleshoot common pitfalls.  
@@ -50,14 +50,14 @@ No external tools, no messy post‑processing. By the end you’ll have a ready�
 | Requirement | Why it matters |
 |-------------|----------------|
 | .NET 6.0 or later | Aspose.Words supports .NET Standard 2.0+, but .NET 6 gives you LTS and better performance. |
-| Aspose.Words for .NET (LowCode) NuGet package | Provides the `Converter` class and `PdfSaveOptions` we’ll use. |
+| Aspose.Words for .NET NuGet package | Provides the `Converter` class and `PdfSaveOptions` we’ll use. |
 | A sample `input.docx` file | The source document you want to transform. |
 | Visual Studio 2022 (or any IDE you prefer) | For easy debugging and project management. |
 
 If you haven’t installed the package yet, run:
 
 ```bash
-dotnet add package Aspose.Words.LowCode
+dotnet add package Aspose.Words
 ```
 
 That’s all the setup you need.
@@ -154,7 +154,7 @@ If the validator returns “No errors”, you’ve successfully **convert word t
 
 | Issue | Symptom | Fix |
 |-------|---------|-----|
-| Missing fonts | Text appears as boxes | Set `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;` |
+| Missing fonts | Text appears as boxes | Set `saveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;` |
 | Images without alt text | Accessibility report flags “Missing alternative text” | Add alt text in Word before conversion; Aspose.Words carries it over. |
 | Large DOCX files cause memory pressure | Out‑of‑memory exception | Use `Converter.Convert` overload that accepts a `Stream` to process chunks. |
 | PDF/UA validation fails on custom XML parts | Validator reports “Unrecognized element” | Ensure you’re using the latest Aspose.Words version (they regularly update compliance handling). |
@@ -186,7 +186,7 @@ namespace DocxToPdfDemo
             {
                 Compliance = PdfCompliance.PdfUa1
                 // Uncomment the line below if you need to force font embedding
-                // FontEmbeddingMode = FontEmbeddingMode.Always
+                // FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll
             };
 
             // 3️⃣ Execute the conversion
