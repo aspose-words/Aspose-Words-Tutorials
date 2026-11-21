@@ -138,7 +138,7 @@ You can now replace the placeholder data series with your own values by accessin
 | **Multiple charts** | Call `InsertChart` repeatedly; each call positions the new chart after the previous one. |
 | **Large data sets** | Use `radarChart.Series[0].DataPoints.AddDataPointForBarSeries(value)` to populate many points. |
 | **Saving as PDF** | Call `document.Save("RadialChart.pdf", SaveFormat.Pdf);` after the chart is added. |
-| **Running on .NET Core** | Ensure you reference `Aspose.Words.NETCore` package; API usage is identical. |
+| **Running on .NET Core** | Ensure you reference `Aspose.Words` package; API usage is identical. |
 
 ## Full, runnable example
 
