@@ -36,14 +36,13 @@ Before we can start writing the code, we need to import the necessary namespaces
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.Formatting;
 ```
 
 Now that we've got the basics out of the way, let's dive into the step-by-step guide. We'll break down the process into manageable steps to ensure you can follow along easily.
 
 ## Step 1: Load the Document
 
-First things first, we need to load the Word document that we want to format. Here's how you can do that:
+First things first, we need to load the Word document that we want to format. Here’s how you can do that:
 
 ```csharp
 // The path to the documents directory.
@@ -65,26 +64,26 @@ Here, we’re grabbing the `ParagraphFormat` object from the first paragraph in 
 
 ## Step 3: Set the Character Unit Indents
 
-Now, let’s set the left, right, and first line indents using character units. This is crucial for Asian typography as it ensures that the text aligns properly.
+Now, let’s set the left, right, and first‑line indents using character units. This is crucial for Asian typography as it ensures that the text aligns properly.
 
 ```csharp
-format.CharacterUnitLeftIndent = 10;  // ParagraphFormat.LeftIndent will be updated
-format.CharacterUnitRightIndent = 10; // ParagraphFormat.RightIndent will be updated
-format.CharacterUnitFirstLineIndent = 20;  // ParagraphFormat.FirstLineIndent will be updated
+format.CharacterUnitLeftIndent = 10;   // Sets the left indent in character units
+format.CharacterUnitRightIndent = 10;  // Sets the right indent in character units
+format.CharacterUnitFirstLineIndent = 20; // Positive value sets first‑line indent; negative value would set a hanging indent
 ```
 
-These lines of code set the left indent, right indent, and first line indent to 10, 10, and 20 character units, respectively. This makes the text look neat and structured.
+These lines of code set the left indent, right indent, and first‑line indent to 10, 10, and 20 character units, respectively. This makes the text look neat and structured.
 
 ## Step 4: Adjust Line Spacing Before and After
 
-Next, we’ll adjust the space before and after the paragraph. This helps in managing the vertical space and ensures the document doesn’t look cramped.
+Next, we’ll adjust the spacing before and after the paragraph. This helps in managing the vertical space and ensures the document doesn’t look cramped.
 
 ```csharp
-format.LineUnitBefore = 5;  // ParagraphFormat.SpaceBefore will be updated
-format.LineUnitAfter = 10;  // ParagraphFormat.SpaceAfter will be updated
+format.LineUnitBefore = 5; // Sets the amount of spacing (in gridlines) before the paragraph
+format.LineUnitAfter = 10; // Sets the amount of spacing (in gridlines) after the paragraph
 ```
 
-Setting the line unit before and after to 5 and 10 units, respectively, ensures there's adequate space between paragraphs, making the document more readable.
+Setting the line unit before and after to 5 and 10 gridlines, respectively, ensures there’s adequate space between paragraphs, making the document more readable.
 
 ## Step 5: Save the Document
 
@@ -98,11 +97,11 @@ This line saves the document with the new formatting. You can check the output t
 
 ## Conclusion
 
-And there you have it! You've just learned how to change Asian paragraph spacing and indents in a Word document using Aspose.Words for .NET. It wasn't that hard, was it? By following these steps, you can ensure your documents look professional and well-formatted, even when dealing with complex Asian typography. Keep experimenting with different values and see what works best for your documents. Happy coding!
+And there you have it! You've just learned how to change Asian paragraph spacing and indents in a Word document using Aspose.Words for .NET. It wasn't that hard, was it? By following these steps, you can ensure your documents look professional and well‑formatted, even when dealing with complex Asian typography. Keep experimenting with different values and see what works best for your documents. Happy coding!
 
 ## FAQ's
 
-### Can I use these settings for non-Asian typography?
+### Can I use these settings for non‑Asian typography?
 Yes, these settings can be applied to any text, but they are particularly useful for Asian typography due to the unique spacing and indentation requirements.
 
 ### Do I need a license to use Aspose.Words for .NET?
