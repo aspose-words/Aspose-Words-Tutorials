@@ -38,7 +38,6 @@ Whether you need to replace specific words, update text templates, or customize 
 | [Replace Text In Table](./replace-text-in-table/) | Effortlessly replace text in Word table using Aspose.Words for .NET with this detailed, step-by-step guide. |
 | [Replace Text in DOCX with C# – Step‑by‑Step Guide](./replace-text-in-docx-with-c-step-by-step-guide/) | Learn how to replace text in DOCX files using C# with Aspose.Words for .NET in this detailed step‑by‑step guide. |
 | [How to generate document template and fill it with data in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Learn how to generate a document template and populate it with data using Aspose.Words for .NET in C#. |
-| [Automate word document generation with Aspose.Words in C#](./automate-word-document-generation-with-aspose-words-in-c/) | Learn how to automate Word document generation using Aspose.Words for .NET in C#. Follow this step-by-step guide. |
 
 | [How to replace placeholders in docx files with Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Learn how to replace placeholders in DOCX files using Aspose.Words for .NET with a step-by-step guide. |
 

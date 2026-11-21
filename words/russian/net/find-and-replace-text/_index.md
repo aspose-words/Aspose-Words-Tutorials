@@ -38,7 +38,6 @@ Aspose.Words для .NET — это мощная библиотека, кото�
 | [Заменить текст в DOCX с C# – пошаговое руководство](./replace-text-in-docx-with-c-step-by-step-guide/) | Узнайте, как заменять текст в файлах DOCX с помощью C# и Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Как создать шаблон документа и заполнить его данными в C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Узнайте, как создать шаблон документа Word и заполнить его данными с помощью Aspose.Words для .NET на C#. |
 | [Как заменить заполнители в файлах docx с помощью Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Узнайте, как заменять заполнители в файлах DOCX с помощью Aspose.Words для .NET, используя простой пример кода. |
-| [Автоматизация создания документов Word с Aspose.Words на C#](./automate-word-document-generation-with-aspose-words-in-c/) | Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

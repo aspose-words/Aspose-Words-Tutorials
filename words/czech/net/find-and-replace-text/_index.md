@@ -38,7 +38,6 @@ Ať už potřebujete nahradit konkrétní slova, aktualizovat textové šablony 
 | [Nahradit text v tabulce](./replace-text-in-table/) | Snadno nahraďte text v tabulce Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Nahraďte text v DOCX pomocí C# – krok za krokem](./replace-text-in-docx-with-c-step-by-step-guide/) | Naučte se, jak pomocí C# a Aspose.Words nahradit text v souborech DOCX v podrobném krok‑za‑krokem průvodci. |
 | [Jak vygenerovat šablonu dokumentu a naplnit ji daty v C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Naučte se vytvořit šablonu dokumentu a naplnit ji daty pomocí Aspose.Words pro .NET v C#. |
-| [Automatizace generování dokumentů Word pomocí Aspose.Words v C#](./automate-word-document-generation-with-aspose-words-in-c/) | Naučte se automatizovat tvorbu dokumentů Word v C# pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
