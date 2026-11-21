@@ -24,7 +24,6 @@ Compare Documents is a comprehensive tutorial on comparing documents using Aspos
 | --- | --- |
 | [Compare For Equal In Word Document](./compare-for-equal/) | Learn how to compare two Word documents for equality using Aspose.Words for .NET. Follow this step-by-step guide to ensure your documents are identical. |
 | [Compare Options In Word Document](./compare-options/) | Learn how to compare Word documents using Aspose.Words for .NET with our step-by-step guide. Ensure document consistency effortlessly. |
-| [Comparison Target In Word Document](./comparison-target/) | Effortlessly compare Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. Save time and enhance accuracy in document comparison. |
 | [Comparison Granularity In Word Document](./comparison-granularity/) | Learn compare granularity in word document feature of Aspose.Words for .NET that allows documents to be compared character by character, reporting changes made. |
 | [Compare word documents in C# using Aspose.Words](./compare-word-documents-in-c-using-aspose-words/) | Learn how to compare Word documents using C# and Aspose.Words with a step-by-step guide. |
 | [How to compare two Word documents and detect changes](./how-to-compare-two-word-documents-and-detect-changes/) | Learn how to compare two Word documents and detect changes using Aspose.Words for .NET with step-by-step guidance. |
