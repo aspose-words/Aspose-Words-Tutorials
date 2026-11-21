@@ -22,7 +22,7 @@ Hey there, tech enthusiasts! Ever found yourself scratching your head, wondering
 
 ## Prerequisites
 
-Before we dive headfirst into the world of multi-line label alignment, let's ensure you've got all your ducks in a row. Here's what you'll need:
+Before we dive headfirst into the world of multi-line label alignment, let's ensure you've got all your ducks in a row. Here’s what you’ll need:
 
 1. Aspose.Words for .NET: Make sure you've got the latest version of Aspose.Words for .NET. If not, you can [download it here](https://releases.aspose.com/words/net/).
 2. .NET Environment: Ensure your development environment is set up with .NET.
@@ -81,9 +81,9 @@ Shape shape = builder.InsertChart(ChartType.Scatter, 450, 250);
 
 ## Step 5: Access the Chart Axis
 
-To modify the label alignment, we need to access the X-axis of our chart.
+To modify the label alignment, we need to access the X‑axis of our chart.
 
-We'll get the X-axis from our chart shape.
+We'll get the X‑axis from our chart shape.
 
 ```csharp
 ChartAxis axis = shape.Chart.AxisX;
@@ -91,12 +91,12 @@ ChartAxis axis = shape.Chart.AxisX;
 
 ## Step 6: Set Tick Label Alignment
 
-Now comes the magic! We'll set the tick label alignment for multi-line labels.
+Now comes the magic! We'll set the alignment for multi‑line tick labels.
 
-Set the `TickLabelAlignment` property of the axis to `ParagraphAlignment.Right`.
+Set the `Alignment` property of the axis tick labels to `ParagraphAlignment.Right`.
 
 ```csharp
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 ```
 
 ## Step 7: Save the Document
@@ -111,7 +111,7 @@ doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
 
 ## Conclusion
 
-And there you have it! You've successfully ticked multi-line label alignment in a chart using Aspose.Words for .NET. By following these steps, you can effortlessly customize your charts to meet your specific needs. Whether you're preparing a professional report or just experimenting, Aspose.Words for .NET provides the flexibility and power to get the job done. Happy coding!
+And there you have it! You've successfully ticked multi‑line label alignment in a chart using Aspose.Words for .NET. By following these steps, you can effortlessly customize your charts to meet your specific needs. Whether you're preparing a professional report or just experimenting, Aspose.Words for .NET provides the flexibility and power to get the job done. Happy coding!
 
 ## FAQ's
 
