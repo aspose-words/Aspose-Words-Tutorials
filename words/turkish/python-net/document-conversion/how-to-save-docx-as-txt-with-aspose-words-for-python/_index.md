@@ -171,7 +171,6 @@ Sonraki adımda, kaydetme seçenekleri sınıfını ayarlayarak HTML veya PDF gi
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım‑adım açıklamalarla birlikte tam çalışan kod örnekleri içerir.
 
-- [Aspose.Words – docx'i txt olarak kaydet ve Word denklemlerini LaTeX olarak dışa aktar – Tam Kılavuz](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [docx'i txt olarak kaydet – Aspose.Words ile denklemleri LaTeX'e dışa aktar](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [docx'i txt'ye dönüştür – Word denklemlerini LaTeX olarak dışa aktar](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

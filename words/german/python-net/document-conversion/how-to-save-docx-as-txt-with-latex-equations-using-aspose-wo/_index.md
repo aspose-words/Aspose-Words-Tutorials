@@ -251,7 +251,6 @@ Viel Spaß beim Coden!
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungs‑Ansätze in eigenen Projekten erkunden können.
 
-- [Aspose.Words – docx als txt speichern und Word‑Gleichungen als LaTeX exportieren – Komplett‑Leitfaden](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [docx in txt mit LaTeX‑Gleichungen konvertieren – Aspose.Words‑Leitfaden](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Wie man Gleichungen in Word nach LaTeX konvertiert – als txt speichern](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

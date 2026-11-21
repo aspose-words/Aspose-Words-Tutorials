@@ -233,7 +233,6 @@ Another paragraph follows.
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شاملة من الكود مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [Aspose.Words – حفظ docx كملف txt وتصدير معادلات Word كـ LaTeX – دليل كامل](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [تحويل docx إلى txt مع معادلات LaTeX – دليل Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [كيفية تحويل المعادلات في Word إلى LaTeX – حفظ كملف TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

@@ -48,7 +48,6 @@
 | [使用 Aspose.Words 將 docx 儲存為 PDF – 完整 C# 教學](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 docx 檔案儲存為 PDF，提供程式碼範例與最佳實踐。 |
 | [建立可存取的 PDF – 將 Word 轉換為 PDF 可存取性](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | 了解如何使用 Aspose.Words for .NET 將 Word 文件轉換為符合可存取性標準的 PDF。提供程式碼範例與步驟說明。 |
 | [如何從 Word 建立 PDF – 完整 C# 教學](./how-to-create-pdf-from-word-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 從 Word 文件建立 PDF，提供程式碼範例與最佳實踐。 |
-| [將 Docx 儲存為 Txt – 匯出 Word 方程式為 LaTeX 完整指南](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | 了解如何使用 Aspose.Words for .NET 將 Docx 轉為 Txt，並將 Word 方程式匯出為 LaTeX。提供完整步驟與程式碼範例。 |
 | [在 C# 中將 Word 轉換為 PDF – 完整 Aspose 指南](./convert-word-to-pdf-in-c-complete-aspose-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 文件轉換為 PDF，提供詳細步驟與程式碼範例。 |
 | [從 Word 建立可存取的 PDF – 步驟說明指南](./create-accessible-pdf-from-word-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 從 Word 文件建立可存取的 PDF，提供逐步指南與程式碼範例。 |
 | [從 Word 建立 PDF – 完整 C# 教學（含字體偵測）](./create-pdf-from-word-complete-c-guide-with-font-detection/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 PDF，並自動偵測字體。提供完整步驟與程式碼範例。 |

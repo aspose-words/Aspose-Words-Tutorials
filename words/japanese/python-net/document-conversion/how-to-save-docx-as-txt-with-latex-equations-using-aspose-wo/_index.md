@@ -246,7 +246,6 @@ A: プレーンテキスト形式はスタイリングを保持しません。�
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説とともに完全な動作コード例が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Aspose.Words – docx を txt に保存し、Word の方程式を LaTeX としてエクスポートする完全ガイド](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [LaTeX 方程式付きで docx を txt に変換 – Aspose.Words ガイド](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Word の方程式を LaTeX に変換する方法 – TXT として保存](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

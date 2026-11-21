@@ -235,7 +235,6 @@ A: Plain‑text फ़ॉर्मेट स्टाइलिंग को न�
 
 निम्नलिखित ट्यूटोरियल्स उन निकट संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API सुविधाओं में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [Aspose.Words – docx को txt के रूप में सहेजें और Word समीकरणों को LaTeX के रूप में निर्यात करें – पूर्ण गाइड](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [LaTeX समीकरणों के साथ docx को txt में बदलें – Aspose.Words गाइड](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Word में समीकरणों को LaTeX में कैसे बदलें – TXT के रूप में सहेजें](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

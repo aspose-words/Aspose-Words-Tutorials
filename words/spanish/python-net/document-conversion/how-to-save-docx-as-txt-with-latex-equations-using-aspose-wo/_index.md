@@ -232,7 +232,6 @@ Siéntete libre de experimentar con los otros modos de exportación (`MATHML`, `
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Aspose.Words – Guardar docx como txt y Exportar ecuaciones Word como LaTeX – Guía completa](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Convertir docx a txt con ecuaciones LaTeX – Guía Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Cómo convertir ecuaciones en Word a LaTeX – Guardar como TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

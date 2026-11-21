@@ -232,7 +232,6 @@ Neváhejte experimentovat s dalšími režimy exportu (`MATHML`, `TEXT`) a kombi
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto návodu. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Aspose.Words – Uložit docx jako txt a exportovat Word rovnice jako LaTeX – Kompletní průvodce](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Převést docx na txt s LaTeX rovnicemi – průvodce Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Jak převést rovnice ve Wordu do LaTeX – uložit jako TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

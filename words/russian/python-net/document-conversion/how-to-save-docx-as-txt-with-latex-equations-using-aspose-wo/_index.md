@@ -251,7 +251,6 @@ Happy coding!
 
 Следующие руководства охватывают тесно связанные темы, развивая техники, продемонстрированные в этом руководстве. Каждый ресурс содержит полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы в ваших проектах.
 
-- [Aspose.Words – Сохранить docx как txt и экспортировать уравнения Word в LaTeX – Полное руководство](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Конвертировать docx в txt с уравнениями LaTeX – руководство Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Как конвертировать уравнения в Word в LaTeX – сохранить как TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 
