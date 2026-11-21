@@ -219,7 +219,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [创建可访问 PDF – PDF/UA 合规的分步指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [C# 中创建可访问 PDF – PDF 可访问性教程](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [使用 Aspose.Words 将 Word 转换为 PDF – 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

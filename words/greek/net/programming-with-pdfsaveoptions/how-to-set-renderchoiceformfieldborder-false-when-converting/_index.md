@@ -231,7 +231,6 @@ PDF saved to C:\MyProjects\NoBorderChoice.pdf with borders disabled.
 
 Τα παρακάτω σεμινάρια καλύπτουν στενά σχετικότατα θέματα που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κυριαρχήσετε περαιτέρω λειτουργίες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [μετατροπή word σε pdf σε C# χρησιμοποιώντας Aspose.Words – Οδηγός](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Αποθήκευση Word ως PDF με Aspose Words – Πλήρης οδηγός C#](/words/hindi/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Μετατροπή Word σε PDF με Aspose.Words για Java](/words/english/java/document-converting/)
 

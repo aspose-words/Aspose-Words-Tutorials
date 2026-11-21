@@ -208,7 +208,6 @@ A: 使用 Aspose PDF（`aspose-pdf`）将生成的 PDF 合并，或通过将�
 
 - [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [使用 Aspose Words 将 Word 保存为 PDF – 完整 C# 指南](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [使用 Aspose.Words 将 Word 转换为 PDF（C#）– 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

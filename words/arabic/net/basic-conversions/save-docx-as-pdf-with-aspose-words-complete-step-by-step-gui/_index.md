@@ -255,7 +255,6 @@ public void ConvertDocxToPdf_ShouldCreateValidPdf()
 
 - [حفظ docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [حفظ Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [تحويل word إلى pdf في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

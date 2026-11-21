@@ -321,7 +321,6 @@ Kodlamanın tadını çıkarın ve sadece birkaç satır Python ile Word dosyala
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve ilgili konuları derinlemesine ele alan tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
 - [Aspose.Words for Java ile belgeyi pdf olarak kaydetme](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Aspose.Words ile C#'ta word'ü pdf'ye dönüştürme – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word Belge Yapısını PDF Belgesine Dışa Aktarma](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

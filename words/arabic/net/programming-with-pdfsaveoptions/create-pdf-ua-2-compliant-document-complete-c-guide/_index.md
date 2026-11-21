@@ -222,7 +222,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [إنشاء PDF قابل للوصول – دليل خطوة بخطوة للامتثال لـ PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [إنشاء PDF قابل للوصول في C# – درس إمكانية وصول PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [تحويل Word إلى PDF في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

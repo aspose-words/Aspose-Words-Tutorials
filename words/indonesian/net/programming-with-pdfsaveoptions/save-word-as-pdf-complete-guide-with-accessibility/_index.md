@@ -179,7 +179,6 @@ Cobalah, sesuaikan opsi, dan biarkan PDF Anda berbicara kepada semua orang—ter
 
 - [Buat PDF yang Dapat Diakses dari Word dengan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Simpan Word sebagai PDF dengan Aspose.Words – Panduan C# Lengkap](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convert word to pdf dalam C# menggunakan Aspose.Words – Panduan](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

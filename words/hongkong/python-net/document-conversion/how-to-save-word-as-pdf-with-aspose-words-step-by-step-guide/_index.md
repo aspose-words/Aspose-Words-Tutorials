@@ -210,7 +210,6 @@ A: 可使用 Aspose PDF（`aspose-pdf`）將產生的 PDF 合併，或讓 Aspo
 
 - [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 教學](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [使用 Aspose Words 將 Word 儲存為 PDF – 完整 C# 教學](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 教學](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

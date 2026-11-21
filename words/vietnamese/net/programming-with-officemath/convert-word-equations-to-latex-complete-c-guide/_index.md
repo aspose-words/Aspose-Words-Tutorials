@@ -177,7 +177,6 @@ Các hướng dẫn sau đây bao quát các chủ đề liên quan chặt chẽ
 
 - [Cách Xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Chuyển docx sang markdown – Xuất Phương Trình Toán sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [chuyển word sang pdf trong C# sử dụng Aspose.Words – Hướng Dẫn](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

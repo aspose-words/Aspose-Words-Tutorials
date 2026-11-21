@@ -320,7 +320,6 @@ A: Χρησιμοποιήστε `options.save_mode = aw.saving.PdfSaveMode.PDF_A
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να αποθηκεύσετε έγγραφο ως pdf με Aspose.Words για Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [convert word to pdf σε C# χρησιμοποιώντας Aspose.Words – Οδηγός](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Εξαγωγή Δομής Εγγράφου Word σε Έγγραφο PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

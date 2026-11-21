@@ -196,7 +196,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Hogyan töltsünk be Word dokumentumokat az Aspose.Words LoadOptions használatával](/words/english/net/programming-with-loadoptions/)
 - [Szöveges vízjel hozzáadása Word dokumentumhoz az Aspose.Words for .NET használatával](/words/english/net/working-with-watermark/add-text-watermark/)
-- [Word konvertálása PDF‑be C#‑ban az Aspose.Words segítségével – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

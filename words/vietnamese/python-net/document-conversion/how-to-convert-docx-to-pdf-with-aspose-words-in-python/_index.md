@@ -204,7 +204,6 @@ Hãy thử nghiệm các biến thể này để tùy chỉnh quá trình chuy�
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [aspose word to pdf – Chuyển đổi DOCX sang PDF trong Java](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [chuyển đổi word sang pdf trong C# bằng Aspose.Words – Hướng dẫn](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Chuyển đổi Word sang PDF với Aspose.Words cho Java](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

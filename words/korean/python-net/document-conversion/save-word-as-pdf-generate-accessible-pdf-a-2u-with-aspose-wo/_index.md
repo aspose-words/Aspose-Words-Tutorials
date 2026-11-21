@@ -232,7 +232,6 @@ if __name__ == "__main__":
 
 - [Aspose.Words로 Word를 PDF로 저장 – 완전한 C# 가이드](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word에서 접근성 있는 PDF 만들기 – 완전 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Aspose.Words를 사용한 C# Word → PDF 변환 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

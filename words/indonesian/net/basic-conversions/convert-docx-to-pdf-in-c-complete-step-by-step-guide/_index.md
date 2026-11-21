@@ -274,7 +274,6 @@ Punya skenario yang belum tercakup di sini? Tinggalkan komentar, dan mari kita s
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
 - [Konversi File Word ke PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [konversi word ke pdf di C# menggunakan Aspose.Words – Panduan](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown di C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

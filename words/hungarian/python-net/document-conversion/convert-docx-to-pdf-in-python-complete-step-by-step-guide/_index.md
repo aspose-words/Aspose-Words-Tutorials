@@ -203,7 +203,6 @@ Ha hasznosnak találtad ezt az útmutatót, nyomj egy lájkot, oszd meg a csapat
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Word konvertálása PDF-re Aspose.Words for Java segítségével](/words/english/java/document-converting/)
-- [Word konvertálása PDF-re C#‑ban Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Docx mentése PDF‑ként Aspose.Words‑szal – Teljes C# útmutató](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

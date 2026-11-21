@@ -318,7 +318,6 @@ A: Use `options.save_mode = aw.saving.PdfSaveMode.PDF_A_2B`. Aspose.Words provid
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่อธิบายในคู่มือนี้ แต่ละแหล่งข้อมูลมีโค้ดตัวอย่างทำงานครบถ้วนพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานทางเลือกในโปรเจกต์ของคุณ
 
 - [วิธีบันทึกเอกสารเป็น pdf ด้วย Aspose.Words สำหรับ Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [แปลง word เป็น pdf ใน C# ด้วย Aspose.Words – คู่มือ](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [ส่งออกโครงสร้างเอกสาร Word ไปยัง PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

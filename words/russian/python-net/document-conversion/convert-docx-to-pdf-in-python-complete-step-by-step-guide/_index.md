@@ -203,7 +203,6 @@ if __name__ == "__main__":
 Следующие руководства охватывают тесно связанные темы, которые опираются на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и изучить альтернативные подходы к реализации в ваших проектах.
 
 - [Конвертация Word в PDF с помощью Aspose.Words для Java](/words/english/java/document-converting/)
-- [конвертация word в pdf в C# с использованием Aspose.Words – Руководство](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Сохранить docx как pdf с Aspose.Words – Полное руководство по C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -232,7 +232,6 @@ Juntando todo, aquí tienes un `Program.cs` mínimo que demuestra todo el flujo 
 ## Tutoriales relacionados
 
 - [Crear PDF accesible desde Word con C# – Guía paso a paso](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [convertir word a pdf en C# usando Aspose.Words – Guía](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Crear PDF accesible – Guía paso a paso para cumplimiento PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -218,7 +218,6 @@ doc = aw.Document(source_path, load_opts)
 以下教程与本指南所示技术紧密相关，帮助你进一步掌握 API 功能并探索替代实现方式：
 
 - [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [使用 Aspose.Words 在 C# 中将 Word 转换为 PDF – 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [如何使用 Aspose.Words for Java 将 Word 转换为 PDF](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

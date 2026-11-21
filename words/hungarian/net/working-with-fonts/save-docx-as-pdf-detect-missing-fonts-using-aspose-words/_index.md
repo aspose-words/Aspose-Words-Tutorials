@@ -206,7 +206,6 @@ Boldog kódolást, és legyenek a PDF‑jei mindig a kívánt betűtípusokkal r
 ## Mit érdemes legközelebb megtanulni?
 
 - [Hogyan töltsünk be DOCX-et és észleljük a hiányzó betűtípusokat – Teljes C# útmutató](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
-- [Word konvertálása pdf-re C#-ban az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [PDF mentése Word formátumba (Docx)](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

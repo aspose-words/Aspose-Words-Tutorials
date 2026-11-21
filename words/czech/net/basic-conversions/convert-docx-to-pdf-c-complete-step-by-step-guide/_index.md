@@ -299,7 +299,6 @@ Vyzkoušejte to ve svém projektu, dolaďte `PdfSaveOptions` podle svých požad
 ## Související tutoriály
 
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Export Word Document Header Footer Bookmarks to PDF Document](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

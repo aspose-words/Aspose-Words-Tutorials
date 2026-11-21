@@ -210,7 +210,6 @@ python convert_to_pdf.py
 
 - [حفظ Word كملف PDF باستخدام Aspose.Words – دليل C# كامل](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [حفظ Word كملف PDF باستخدام Aspose Words – دليل C# كامل](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [تحويل Word إلى PDF في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

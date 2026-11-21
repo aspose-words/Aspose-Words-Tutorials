@@ -202,7 +202,6 @@ A continuación, podrías explorar características más avanzadas como **cumpli
 
 Los tutoriales siguientes cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [convertir word a pdf en C# usando Aspose.Words – Guía](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Guardar Word como PDF con Aspose.Words – Guía completa en C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Exportar marcadores de encabezado y pie de página del documento Word a PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

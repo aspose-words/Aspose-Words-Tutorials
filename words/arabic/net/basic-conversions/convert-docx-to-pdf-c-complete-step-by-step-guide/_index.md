@@ -297,7 +297,6 @@ namespace DocxToPdfDemo
 ## دروس ذات صلة
 
 - [تحويل ملف Word إلى PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [تحويل Word إلى PDF في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [تصدير علامات رأس وتذييل وثيقة Word إلى مستند PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -269,7 +269,6 @@ dotnet run
 以下のチュートリアルは、本ガイドで示した手法を応用した関連トピックをカバーしています。各リソースには、ステップバイステップの解説と完全な動作サンプルコードが含まれており、API の追加機能を習得したり、代替実装アプローチを探求したりするのに役立ちます。
 
 - [Add Digital Signature to PDF using Certificate Holder](/words/english/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [save docx as pdf with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -244,7 +244,6 @@ Někdy potřebujete označit konkrétní odstavec jako *poznámku* pro asistivn�
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětleními, které vám pomohou ovládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Vytvoření přístupného PDF a převod Wordu do Markdown – Kompletní C# průvodce](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Převod Word dokumentu do PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 

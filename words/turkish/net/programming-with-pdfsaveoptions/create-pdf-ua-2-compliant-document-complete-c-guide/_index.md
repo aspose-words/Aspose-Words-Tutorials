@@ -220,7 +220,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakınd
 
 - [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Öğreticisi](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [Aspose.Words Kullanarak C#'ta Word'ı PDF'ye Dönüştürme – Rehber](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

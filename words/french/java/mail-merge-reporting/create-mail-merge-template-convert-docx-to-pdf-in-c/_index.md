@@ -253,7 +253,6 @@ class Program
 ## Tutoriels associés
 
 - [Créer un PDF accessible à partir de Word avec C# – Guide étape par étape](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [convert word to pdf en C# avec Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Créer un PDF accessible – Guide étape par étape pour la conformité PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

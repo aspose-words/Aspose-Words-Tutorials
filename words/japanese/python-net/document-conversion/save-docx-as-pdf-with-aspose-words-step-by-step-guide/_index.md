@@ -299,7 +299,6 @@ python convert_to_pdf.py
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [Aspose.Words for Java でドキュメントを pdf として保存する方法](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Aspose.Words を使用した C# での word を pdf に変換 – ガイド](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word ドキュメント構造を PDF ドキュメントにエクスポート](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

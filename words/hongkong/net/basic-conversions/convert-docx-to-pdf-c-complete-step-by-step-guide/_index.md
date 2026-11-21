@@ -297,7 +297,6 @@ A: 有。使用 `Converter.Convert(Stream source, Stream destination, PdfSaveOpt
 ## 相關教學
 
 - [將 Word 檔案轉換為 PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [將 Word 文件的頁首、頁尾與書籤匯出為 PDF 文件](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -219,7 +219,6 @@ Happy coding, and may your PDFs always render exactly as you intended!
 以下のチュートリアルは、本ガイドで示したテクニックを踏まえてさらに応用できる関連トピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれているので、API の追加機能習得や代替実装アプローチの探求に役立ちます。
 
 - [Save Word as PDF with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

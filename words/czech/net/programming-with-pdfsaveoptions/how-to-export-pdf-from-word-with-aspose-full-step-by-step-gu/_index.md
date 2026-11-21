@@ -200,7 +200,6 @@ Máte otázky ohledně okrajových případů—například zpracování maker, 
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [převést word na pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Uložit Word jako PDF s Aspose.Words – Kompletní C# průvodce](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Exportovat záhlaví, zápatí a záložky Word dokumentu do PDF dokumentu](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

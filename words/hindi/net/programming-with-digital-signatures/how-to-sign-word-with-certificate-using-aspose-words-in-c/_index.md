@@ -197,7 +197,6 @@ class Program
 
 - [Aspose.Words LoadOptions का उपयोग करके Word दस्तावेज़ लोड करना](/words/english/net/programming-with-loadoptions/)
 - [Aspose.Words for .NET के साथ Word दस्तावेज़ में टेक्स्ट वॉटरमार्क जोड़ना](/words/english/net/working-with-watermark/add-text-watermark/)
-- [C# में Aspose.Words का उपयोग करके Word को PDF में बदलना – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -187,7 +187,6 @@ namespace WordToPdfWithFontTracking
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [如何載入 DOCX 並偵測缺少字型 – 完整 C# 指南](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
-- [使用 Aspose.Words 在 C# 中將 Word 轉為 PDF – 教學](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [將 PDF 另存為 Word 格式（Docx）](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

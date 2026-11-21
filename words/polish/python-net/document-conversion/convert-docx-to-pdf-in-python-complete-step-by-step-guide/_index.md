@@ -204,7 +204,6 @@ Jeśli ten przewodnik okazał się pomocny, daj łapkę w górę, udostępnij go
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Konwertuj Word na PDF przy użyciu Aspose.Words dla Java](/words/english/java/document-converting/)
-- [konwertuj word na pdf w C# przy użyciu Aspose.Words – Przewodnik](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

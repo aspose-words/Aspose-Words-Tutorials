@@ -209,7 +209,6 @@ A: Aspose PDF（`aspose-pdf`）を使用して生成された PDF を連結す
 
 - [Aspose.Words で Word を PDF に保存 – 完全 C# ガイド](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose Words で Word を PDF に保存 – 完全 C# ガイド](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words を使用した C# での Word から PDF への変換 – ガイド](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

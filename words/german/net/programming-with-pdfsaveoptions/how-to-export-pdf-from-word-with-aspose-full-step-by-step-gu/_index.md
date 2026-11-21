@@ -201,7 +201,6 @@ Haben Sie Fragen zu Randfällen – etwa dem Umgang mit Makros, verschlüsselten
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält komplette, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Word zu PDF in C# mit Aspose.Words konvertieren – Anleitung](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word‑Dokument‑Kopf‑Fuß‑Bookmarks nach PDF‑Dokument exportieren](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
