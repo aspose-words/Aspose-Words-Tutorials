@@ -89,7 +89,6 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [How to add data labels to a Word chart in C# – step‑by‑step guide](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Learn how to add data labels to Word charts using Aspose.Words for .NET with this step-by-step C# guide. |
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
-| [Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Learn how to display chart legends in Word documents using Aspose.Words for .NET with C#. Follow our step-by-step guide. |
 
 | [Explode Pie Chart Slice in C# with Aspose.Words – Full Guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Learn how to explode a pie chart slice in Word using Aspose.Words for .NET with this step-by-step guide. |
 | [Add pie chart labels in C# using Aspose.Words – Complete Guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Learn how to add labels to pie charts in Word using Aspose.Words for .NET with this comprehensive step-by-step guide. |
