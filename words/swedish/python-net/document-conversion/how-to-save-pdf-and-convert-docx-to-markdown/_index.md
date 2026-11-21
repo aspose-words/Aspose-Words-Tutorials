@@ -184,7 +184,6 @@ Nästa steg är att utforska relaterade ämnen såsom **batch‑bearbetning av f
 De följande tutorialerna täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Hur man konverterar Word till PDF med Aspose.Words för Java](/words/english/java/document-converting/using-document-converting/)
-- [Återställ korrupt DOCX – Fullständig guide för att fixa, PDF‑ och Markdown‑export](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -206,7 +206,6 @@ if shape is not None:
 以下教程涵盖与本指南紧密相关的主题，帮助您进一步掌握 API 功能并在项目中尝试替代实现方式。
 
 - [将 DOCX 转换为 Markdown – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [恢复损坏的 DOCX – 完整指南：修复、PDF 与 Markdown 导出](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [将 docx 转换为 markdown 并提取图像 – 使用 Aspose.Words 的完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

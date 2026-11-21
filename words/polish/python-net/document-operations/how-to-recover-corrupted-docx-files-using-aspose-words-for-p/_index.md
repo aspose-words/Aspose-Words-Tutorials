@@ -213,7 +213,6 @@ Miłego kodowania i niech Twoje dokumenty pozostają odzyskiwalne!
 
 Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Odzyskaj uszkodzony DOCX – Pełny przewodnik naprawy, eksportu PDF i Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Jak wyeksportować LaTeX z Word: konwersja DOCX do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 

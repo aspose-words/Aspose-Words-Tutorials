@@ -208,7 +208,6 @@ if shape is not None:
 निम्नलिखित ट्यूटोरियल्स उन निकट-संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन अप्रोच को खोजने में मदद करती हैं।
 
 - [DOCX को Markdown में बदलें – Aspose.Words का उपयोग करके पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [भ्रष्ट DOCX को पुनर्प्राप्त करें – सुधार, PDF और Markdown निर्यात के लिए पूर्ण गाइड](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [docx को markdown में बदलें और Aspose.Words के साथ इमेजेज़ निकालें – पूर्ण C# गाइड](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
