@@ -120,8 +120,8 @@ If the tool reports zero errors, you’re golden. If you see warnings about miss
 
 | Scenario | What to Adjust | Why |
 |----------|----------------|-----|
-| **Large documents (100+ pages)** | Set `MemoryUsage` to `MemoryUsageMode.LowMemory` in `PdfSaveOptions` | Prevents out‑of‑memory exceptions on 32‑bit processes |
-| **Custom PDF tags** | Use `doc.CustomDocumentProperties` or `doc.Markup` to add `StructureTreeRoot` entries | Gives you fine‑grained control over the accessibility tree |
+| **Large documents (100+ pages)** | Set `pdfSaveOptions.MemoryOptimization = true` | Reduces memory consumption while saving large PDFs at the cost of slower saving time |
+| **Custom PDF tags** | Use `doc.CustomDocumentProperties` to add custom metadata; Aspose.Words does not expose direct StructureTreeRoot manipulation | Allows you to store additional information, though fine‑grained PDF tag control isn’t available via the API |
 | **Password‑protected PDFs** | Set `pdfSaveOptions.EncryptionDetails` with a user password | Keeps the PDF secure while still being accessible to authorized users |
 | **Images without alt‑text** | Pre‑process the Word file: `foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true)) { if (string.IsNullOrEmpty(shape.AlternativeText)) shape.AlternativeText = "Descriptive alt text"; }` | Ensures screen readers have something to read |
 
@@ -155,7 +155,7 @@ namespace AccessiblePdfDemo
             };
 
             // Optional: handle large files gracefully
-            // pdfSaveOptions.MemoryUsage = MemoryUsageMode.LowMemory;
+            // pdfSaveOptions.MemoryOptimization = true;
 
             // 3️⃣ Save the document as an accessible PDF
             string outputPath = @"C:\MyFiles\Accessible.pdf";
