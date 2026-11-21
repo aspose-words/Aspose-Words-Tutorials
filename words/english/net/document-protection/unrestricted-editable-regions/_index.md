@@ -37,7 +37,6 @@ To start using Aspose.Words for .NET, you’ll need to import the necessary name
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Editing;
 ```
 
 ## Step 1: Setting Up Your Project
@@ -65,30 +64,30 @@ Now, let’s load the document you want to protect. Make sure you have a Word do
 
 ## Step 3: Protecting the Document
 
-Next, we’ll set the document to read-only. This will ensure that no changes can be made without the password.
+Next, we’ll set the document to read‑only. This will ensure that no changes can be made without the password.
 
 1. Initialize DocumentBuilder: Create an instance of `DocumentBuilder` to make changes to the document.
    ```csharp
    DocumentBuilder builder = new DocumentBuilder(doc);
    ```
-2. Set Protection Level: Protect the document using a password.
+2. Set Protection Level: Protect the document. The `Protect` method assigns a random password internally; you can still unprotect the document programmatically without providing a password.
    ```csharp
-   doc.Protect(ProtectionType.ReadOnly, "MyPassword");
+   doc.Protect(ProtectionType.ReadOnly);
    ```
-3. Add Read-Only Text: Insert text that will be read-only.
+3. Add Read‑Only Text: Insert text that will be read‑only.
    ```csharp
-   builder.Writeln("Hello world! Since we have set the document's protection level to read-only, we cannot edit this paragraph without the password.");
+   builder.Writeln("Hello world! Since we have set the document's protection level to read‑only, we cannot edit this paragraph without unprotecting the document.");
    ```
 
 ## Step 4: Creating Editable Ranges
 
-Here’s where the magic happens. We’ll create sections in the document that can be edited despite the overall read-only protection.
+Here’s where the magic happens. We’ll create sections in the document that can be edited despite the overall read‑only protection.
 
 1. Start Editable Range: Define the start of the editable range.
    ```csharp
    EditableRangeStart edRangeStart = builder.StartEditableRange();
    ```
-2. Create Editable Range Object: An `EditableRange` object will be created automatically.
+2. Create Editable Range Object: An `EditableRange` object is created automatically.
    ```csharp
    EditableRange editableRange = edRangeStart.EditableRange;
    ```
@@ -105,7 +104,7 @@ An editable range is not complete without an end. Let’s add that next.
    ```csharp
    EditableRangeEnd edRangeEnd = builder.EndEditableRange();
    ```
-2. Add Read-Only Text Outside the Range: Insert text outside the editable range to demonstrate the protection.
+2. Add Read‑Only Text Outside the Range: Insert text outside the editable range to demonstrate the protection.
    ```csharp
    builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
    ```
@@ -131,13 +130,13 @@ Experiment with more complex scenarios and different protection levels to get th
 Yes, you can create multiple editable regions by starting and ending editable ranges at different parts of the document.
 
 ### What other protection types are available in Aspose.Words?
-Aspose.Words supports various protection types like AllowOnlyComments, AllowOnlyFormFields, and NoProtection.
+Aspose.Words supports various protection types like `AllowOnlyComments`, `AllowOnlyFormFields`, and `NoProtection`.
 
 ### Is it possible to remove protection from a document?
-Yes, you can remove protection using the `Unprotect` method and providing the correct password.
+Yes, you can remove protection using the `Unprotect` method and providing the correct password (if one was set).
 
 ### Can I specify different passwords for different sections?
-No, the document-level protection applies a single password for the entire document.
+No, the document‑level protection applies a single password for the entire document.
 
 ### How do I apply a license for Aspose.Words?
 You can apply a license by loading it from a file or stream. Check the documentation for detailed steps.
@@ -146,10 +145,8 @@ You can apply a license by loading it from a file or stream. Check the documenta
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
