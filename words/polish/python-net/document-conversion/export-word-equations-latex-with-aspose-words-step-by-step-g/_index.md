@@ -213,7 +213,6 @@ Masz teraz kompletną, działającą rozwiązanie do **export word equations lat
 
 Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak wyeksportować LaTeX z Word – Przewodnik krok po kroku](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Jak wyeksportować LaTeX z Word: konwersja DOCX do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Zapisz docx jako txt – Eksportuj Word Math do LaTeX przy użyciu C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 

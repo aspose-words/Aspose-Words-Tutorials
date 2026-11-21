@@ -218,7 +218,6 @@ dotnet run
 
 - [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [將文件儲存為 Txt – 在 C# 中匯出 Word 數學為 LaTeX](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [如何從 Word 匯出 LaTeX – 步驟指南](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

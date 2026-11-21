@@ -256,7 +256,6 @@ Wypróbuj, dostosuj opcje i pozwól kodowi wykonać ciężką pracę. Powodzenia
 Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz szczegółowe wyjaśnienia, aby pomóc Ci opanować dodatkowe funkcje API i odkryć alternatywne podejścia w własnych projektach.
 
 - [Zapisz dokument jako Txt – Eksportuj równania Worda do LaTeX w C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Jak wyeksportować LaTeX z Worda – Przewodnik krok po kroku](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Jak wyeksportować LaTeX z Worda: Konwertuj DOCX do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

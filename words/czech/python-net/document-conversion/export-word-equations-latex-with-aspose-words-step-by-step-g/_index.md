@@ -212,7 +212,6 @@ Neváhejte experimentovat s nastavením a integrovat skript do vašeho pipeline 
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětleními, které vám pomohou ovládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Jak exportovat LaTeX z Wordu – krok za krokem průvodce](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Jak exportovat LaTeX z Wordu: převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Uložit docx jako txt – export Word Math do LaTeX s C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 

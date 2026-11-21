@@ -275,7 +275,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Document opslaan als TXT – Snelle gids voor het exporteren van Word Math](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [Docx converteren naar markdown – Math‑vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hoe LaTeX exporteren vanuit Word – Stapsgewijze gids](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

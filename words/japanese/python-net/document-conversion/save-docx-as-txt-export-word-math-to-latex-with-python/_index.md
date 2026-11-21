@@ -273,7 +273,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [ドキュメントを TXT として保存 – Word 数式エクスポートのクイックガイド](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word から LaTeX をエクスポートする方法 – ステップバイステップガイド](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

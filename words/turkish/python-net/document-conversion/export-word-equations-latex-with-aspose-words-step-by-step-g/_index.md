@@ -212,7 +212,6 @@ Ayarlarla denemeler yapmaktan ve betiği belge‑oluşturma hattınıza entegre 
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Word'den LaTeX Nasıl Dışa Aktarılır – Adım Adım Kılavuz](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Aspose ile Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx'i txt olarak kaydet – Word Math'i C# ile LaTeX'e Dışa Aktar](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 

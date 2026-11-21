@@ -243,7 +243,6 @@ Tem perguntas sobre casos extremos ou precisa de ajuda para integrar isso em um 
 Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
 - [Salvar Documento como TXT – Guia Completo em C# para Converter DOCX em Texto Simples](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Como Exportar LaTeX do Word – Guia Passo a Passo](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Salvar docx como markdown – Guia Completo em C# com Equações LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
