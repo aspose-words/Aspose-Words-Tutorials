@@ -48,7 +48,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# का उपयोग करके Word चार्ट में हिस्टोग्राम बिन काउंट सेट करें और डेटा लेबल जोड़ें" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# के साथ Word दस्तावेज़ में चार्ट लेबल को प्रोग्रामेटिक रूप से समायोजित करें" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | शीर्षक | विवरण |
 | --- | --- |

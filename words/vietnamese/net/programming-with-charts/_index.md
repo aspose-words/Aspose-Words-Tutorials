@@ -52,7 +52,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cách đặt số bin cho biểu đồ histogram và thêm nhãn dữ liệu trong biểu đồ Word bằng C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Điều chỉnh nhãn biểu đồ trong tài liệu Word bằng C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- |

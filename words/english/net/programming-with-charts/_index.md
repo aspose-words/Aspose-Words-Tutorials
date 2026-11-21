@@ -62,7 +62,6 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="How to set histogram bin count and add data labels in a Word chart using C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programmatically adjust chart labels in a Word document with C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Title | Description |
 | --- | --- |

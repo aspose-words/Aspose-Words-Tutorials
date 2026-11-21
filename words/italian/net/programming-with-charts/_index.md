@@ -50,7 +50,6 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Come impostare il conteggio dei bin dell'istogramma e aggiungere etichette dati in un grafico Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Regola programmaticamente le etichette del grafico in un documento Word con C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titolo | Descrizione |
 | --- | --- |

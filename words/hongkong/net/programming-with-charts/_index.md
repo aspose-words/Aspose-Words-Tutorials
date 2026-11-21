@@ -52,7 +52,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 
 {{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="在 Word 中使用 C# 以及自訂數字格式格式化圖表" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="使用 C# 程式化調整 Word 文件中的圖表標籤" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 |標題 |描述 |
 | --- | --- |
