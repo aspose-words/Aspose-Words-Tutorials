@@ -34,7 +34,7 @@ Before we start with the actual code, ensure that you have the necessary namespa
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Protection;
+using Aspose.Words.Settings;
 ```
 
 ## Step 1: Set Up Your Project
