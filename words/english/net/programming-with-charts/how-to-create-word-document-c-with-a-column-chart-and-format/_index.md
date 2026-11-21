@@ -191,7 +191,7 @@ The `DocumentBuilder` can insert as many charts as you need. Just call `InsertCh
 
 ## Pro tips
 
-* **Pro tip:** Set `chart.Title.Show = true` and assign `chart.Title.Text` to give the chart a descriptive heading. This improves accessibility for screen readers.
+* **Pro tip:** Set `chart.Title.Show = true` and assign `chart.Title.Text` to give the chart a descriptive heading.
 * **Watch out for:** When saving to a network share, ensure the application has write permissions; otherwise `doc.Save` will throw an `UnauthorizedAccessException`.
 * **Performance tip:** Reuse a single `DocumentBuilder` instance for multiple insertions; creating a new builder for each operation adds unnecessary overhead.
 
