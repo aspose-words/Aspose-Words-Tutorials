@@ -40,7 +40,6 @@ First things first, let's set up our project and import the necessary namespaces
 using System;
 using Aspose.Words;
 using Aspose.Words.Drawing;
-using Aspose.Words.ReportingServices;
 ```
 
 ## Step 1: Create a New Document
