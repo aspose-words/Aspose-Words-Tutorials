@@ -41,7 +41,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Contoh Bagan Radial Aspose.Words: Aktifkan Graduasi dalam C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Simpan Dokumen yang Dimodifikasi dengan Irisan Bagan Pai Meledak dalam C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 

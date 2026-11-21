@@ -43,7 +43,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./update-chart-title/" title="Diagramcím frissítése és a jelmagyarázat láthatóságának váltása Word-ben az Aspose.Words for .NET használatával" imgSrc="./update-chart-title/images/thumb.png" >}}
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words radiális diagram példa: fokozatok engedélyezése C#-ban" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
