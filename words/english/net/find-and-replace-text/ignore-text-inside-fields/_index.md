@@ -32,8 +32,8 @@ Before we begin, ensure you have the following set up:
 To get started, include the necessary namespaces in your C# project:
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Builder;
-using Aspose.Words.FindReplace;
+using Aspose.Words.Fields;
+using Aspose.Words.Replacing;
 using System;
 using System.Text.RegularExpressions;
 ```
@@ -48,9 +48,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Step 2: Insert a Field with Text
 
-Use the `InsertField` method of `DocumentBuilder` to add a field containing text:
+Use the `InsertField` method of `DocumentBuilder` to add a field. In this example we insert a simple MERGEFIELD:
 ```csharp
-builder.InsertField("INCLUDETEXT", "Text in field");
+// Insert a MERGEFIELD as an example field.
+builder.InsertField(FieldType.FieldMergeField, false);
 ```
 
 ## Step 3: Ignore Text Inside Fields
