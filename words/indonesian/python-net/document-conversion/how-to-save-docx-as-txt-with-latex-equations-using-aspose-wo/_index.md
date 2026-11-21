@@ -251,7 +251,6 @@ Selamat coding!
 
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Aspose.Words – Simpan docx sebagai txt dan Ekspor Persamaan Word sebagai LaTeX – Panduan Lengkap](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Konversi docx ke txt dengan persamaan LaTeX – Panduan Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Cara Mengonversi Persamaan di Word ke LaTeX – Simpan sebagai TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

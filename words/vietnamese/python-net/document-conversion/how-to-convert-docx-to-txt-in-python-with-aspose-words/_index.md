@@ -182,7 +182,6 @@ Bằng cách nắm vững các bước trên, bạn có thể **export word docu
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên đều có các ví dụ mã hoàn chỉnh cùng giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Chuyển đổi docx sang txt – Hướng dẫn đầy đủ để lưu Word dưới dạng Plain Text](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – Lưu docx dưới dạng txt và Xuất công thức Word dưới dạng LaTeX – Hướng dẫn đầy đủ](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Hướng dẫn Word sang PDF: Chuyển đổi DOCX sang PDF với Aspose.Words](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -249,7 +249,6 @@ Another paragraph follows.
 
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能并在项目中探索替代实现方法。
 
-- [Aspose.Words – 将 docx 保存为 txt 并导出 Word 公式为 LaTeX – 完整指南](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [将 docx 转换为带 LaTeX 公式的 txt – Aspose.Words 指南](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [如何将 Word 中的公式转换为 LaTeX – 保存为 TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

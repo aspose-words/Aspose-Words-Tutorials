@@ -251,7 +251,6 @@ Chúc bạn lập trình vui!
 
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Aspose.Words – Lưu docx thành txt và Xuất Phương Trình Word dưới dạng LaTeX – Hướng Dẫn Toàn Diện](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Chuyển đổi docx sang txt với các phương trình LaTeX – Hướng dẫn Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Cách Chuyển Đổi Phương Trình trong Word sang LaTeX – Lưu dưới dạng TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

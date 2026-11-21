@@ -52,7 +52,6 @@
 | [Salva Word come PDF con Aspose.Words – Guida completa C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare documenti Word in PDF usando Aspose.Words con una guida completa in C#. |
 | [Salva docx come PDF con Aspose.Words – Guida completa C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare file DOCX in PDF usando Aspose.Words per .NET con una guida completa in C#. |
 | [Come creare PDF da Word – Guida completa C#](./how-to-create-pdf-from-word-complete-c-guide/) | Scopri come creare PDF da documenti Word con Aspose.Words per .NET, guida completa passo passo in C#. |
-| [Salva docx come txt – Guida completa per esportare equazioni Word in LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Scopri come esportare le equazioni di Word in LaTeX salvando i file DOCX come TXT con Aspose.Words per .NET. |
 | [Convertire Word in PDF in C# – Guida completa Aspose.Words](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Impara a convertire documenti Word in PDF usando C# e Aspose.Words con una guida completa passo‑passo. |
 | [Crea PDF accessibile da DOCX – Guida completa Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Scopri come creare PDF accessibili da documenti DOCX usando Aspose.Words per .NET con esempi di codice passo passo. |
 | [Converti PNG in Base64 in C# – Guida completa](./convert-png-to-base64-in-c-complete-guide/) | Scopri come convertire immagini PNG in stringhe Base64 usando C# con Aspose.Words, passo passo con esempi di codice. |
