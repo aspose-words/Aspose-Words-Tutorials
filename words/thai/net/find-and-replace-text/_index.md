@@ -36,7 +36,6 @@ Aspose.Words สำหรับ .NET เป็นไลบรารีที่�
 | [แทนที่ด้วยสตริง](./replace-with-string/) | เรียนรู้วิธีการแทนที่สตริงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการทำให้การแก้ไขเอกสารเป็นแบบอัตโนมัติ -
 | [วิธีแทนที่ตัวแปรในไฟล์ docx ด้วย Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | เรียนรู้วิธีแทนที่ตัวแปรในไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 | [แทนที่ข้อความในตาราง](./replace-text-in-table/) | แทนที่ข้อความในตาราง Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดนี้
-- [แทนที่ข้อความใน DOCX ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./replace-text-in-docx-with-c-step-by-step-guide/) | เรียนรู้วิธีแทนที่ข้อความในไฟล์ DOCX ด้วย C# อย่างละเอียดตามขั้นตอนโดยใช้ Aspose.Words สำหรับ .NET
 - [วิธีสร้างเทมเพลตเอกสารและเติมข้อมูลใน C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | เรียนรู้วิธีสร้างเทมเพลตเอกสาร Word และเติมข้อมูลอัตโนมัติด้วย Aspose.Words สำหรับ .NET ใน C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
