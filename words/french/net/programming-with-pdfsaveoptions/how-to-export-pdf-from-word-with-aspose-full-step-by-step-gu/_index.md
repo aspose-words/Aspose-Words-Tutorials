@@ -201,7 +201,6 @@ Des questions sur des cas particuliers—comme la gestion des macros, des fichie
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [convertir word en pdf en C# avec Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Enregistrer Word en PDF avec Aspose.Words – Guide complet C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Exporter les signets d'en-tête et de pied de page d'un document Word vers un document PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

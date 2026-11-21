@@ -211,7 +211,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Uložit Word jako PDF s Aspose.Words – Kompletní průvodce pro C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Uložit Word jako PDF s Aspose Words – Kompletní průvodce pro C#](/words/english/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [převést word na pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

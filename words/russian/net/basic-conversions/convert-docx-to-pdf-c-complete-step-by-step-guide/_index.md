@@ -295,7 +295,6 @@ A: Да. Используйте `Converter.Convert(Stream source, Stream destina
 ## Похожие руководства
 
 - [Конвертировать Word‑файл в PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [конвертировать word в pdf в C# с использованием Aspose.Words – Руководство](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Экспорт закладок заголовков и нижних колонтитулов Word‑документа в PDF‑документ](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

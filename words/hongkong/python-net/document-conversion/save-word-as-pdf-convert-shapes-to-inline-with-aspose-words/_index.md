@@ -218,7 +218,6 @@ A: 全域旗標會套用於 *所有* 浮動形狀。若要選擇性轉換，需�
 以下教學與本指南緊密相關，能進一步深化您對 API 功能的掌握，並探索在實際專案中的其他實作方式。每篇資源皆提供完整可執行的程式碼範例與逐步說明。
 
 - [Save Word as PDF with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

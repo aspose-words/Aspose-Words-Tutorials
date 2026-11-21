@@ -302,7 +302,6 @@ Miłego kodowania i ciesz się prostotą zamiany plików Word na PDF za pomocą 
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Jak zapisać dokument jako pdf przy użyciu Aspose.Words dla Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [konwertować word na pdf w C# przy użyciu Aspose.Words – Przewodnik](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Eksport struktury dokumentu Word do dokumentu PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

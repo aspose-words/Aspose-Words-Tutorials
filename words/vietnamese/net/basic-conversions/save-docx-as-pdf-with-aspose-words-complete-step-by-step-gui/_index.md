@@ -256,7 +256,6 @@ Các hướng dẫn dưới đây đề cập đến các chủ đề liên quan
 
 - [lưu docx thành pdf với Aspose.Words – Hướng dẫn C# đầy đủ](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Lưu Word thành PDF với Aspose.Words – Hướng dẫn C# đầy đủ](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [chuyển đổi word sang pdf trong C# bằng Aspose.Words – Hướng dẫn](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -230,7 +230,6 @@ Spojením všech částí získáte minimální `Program.cs`, který demonstruje
 ## Další související tutoriály
 
 - [Vytvořte přístupný PDF z Wordu s C# – krok za krokem](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [convert word to pdf v C# pomocí Aspose.Words – průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Vytvořte přístupný PDF – krok za krokem pro shodu s PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

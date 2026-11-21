@@ -203,7 +203,6 @@ Jika Anda menemukan panduan ini berguna, beri jempol, bagikan dengan rekan tim, 
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah‑per‑langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Mengonversi Word ke PDF dengan Aspose.Words untuk Java](/words/english/java/document-converting/)
-- [mengonversi word ke pdf dalam C# menggunakan Aspose.Words – Panduan](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Simpan docx sebagai pdf dengan Aspose.Words – Panduan C# Lengkap](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

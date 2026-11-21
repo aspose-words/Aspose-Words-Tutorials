@@ -204,7 +204,6 @@ Experimentujte s těmito variantami, abyste přizpůsobili proces převodu konkr
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [aspose word to pdf – Převod DOCX na PDF v Javě](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [převod word na pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Převod Word na PDF s Aspose.Words pro Java](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

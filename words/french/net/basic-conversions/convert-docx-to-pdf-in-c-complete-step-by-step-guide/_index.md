@@ -274,7 +274,6 @@ Vous avez un scénario qui n’est pas couvert ici ? Laissez un commentaire, e
 ## Que devriez‑vous apprendre ensuite ?
 
 - [Convertir un fichier Word en PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [convertir word en pdf en C# avec Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown en C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

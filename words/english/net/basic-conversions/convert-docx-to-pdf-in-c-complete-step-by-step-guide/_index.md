@@ -274,7 +274,6 @@ Got a scenario that isn’t covered here? Drop a comment, and let’s troublesho
 ## What Should You Learn Next?
 
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

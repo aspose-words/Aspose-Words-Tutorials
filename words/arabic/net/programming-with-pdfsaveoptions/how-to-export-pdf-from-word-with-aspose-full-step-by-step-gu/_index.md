@@ -200,7 +200,6 @@ foreach (string file in Directory.GetFiles(sourceFolder, "*.docx"))
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شفرة كاملة تعمل مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [تحويل Word إلى PDF في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [حفظ Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [تصدير علامات مرجعية رأس وتذييل مستند Word إلى مستند PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

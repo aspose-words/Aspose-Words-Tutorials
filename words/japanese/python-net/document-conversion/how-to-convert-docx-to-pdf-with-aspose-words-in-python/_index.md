@@ -202,7 +202,6 @@ if __name__ == "__main__":
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [aspose word to pdf – Java で DOCX を PDF に変換](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [Aspose.Words を使用した C# での Word を PDF に変換 – ガイド](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Aspose.Words for Java を使用した Word の PDF 変換](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

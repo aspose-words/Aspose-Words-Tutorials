@@ -220,7 +220,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [एक्सेसिबल PDF बनाएं – PDF/UA अनुपालन के लिए चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [C# में एक्सेसिबल PDF बनाएं – PDF एक्सेसिबिलिटी ट्यूटोरियल](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [Aspose.Words का उपयोग करके C# में Word को PDF में बदलें – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

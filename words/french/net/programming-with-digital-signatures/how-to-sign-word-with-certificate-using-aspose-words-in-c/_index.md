@@ -197,7 +197,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Comment charger des documents Word en utilisant Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 - [Ajouter un filigrane texte dans un document Word en utilisant Aspose.Words pour .NET](/words/english/net/working-with-watermark/add-text-watermark/)
-- [convertir word en pdf en C# en utilisant Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

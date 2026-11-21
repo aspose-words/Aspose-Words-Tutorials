@@ -176,7 +176,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakınd
 
 - [Word'ten LaTeX Dışa Aktarma: DOCX'i Aspose ile Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx'i markdown'a dönüştür – Math Denklemlerini LaTeX'e Aspose.Words ile Dışa Aktarma](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [C# ile Aspose.Words kullanarak word'i pdf'e dönüştür – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -234,7 +234,6 @@ Most már tudja, hogyan **exportálja a Word-et PDF-be**, és hogyan állítson 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
 - [Hozzáférhető PDF létrehozása Word-ből – Teljes Aspose.Words útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
-- [Word konvertálása PDF-be C#-ban az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word dokumentum struktúrájának exportálása PDF-dokumentumba](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

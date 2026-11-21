@@ -201,7 +201,6 @@ Tem perguntas sobre casos extremos — como lidar com macros, arquivos Word crip
 
 Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [converter word para pdf em C# usando Aspose.Words – Guia](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Salvar Word como PDF com Aspose.Words – Guia Completo C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Exportar Marcadores de Cabeçalho e Rodapé de Documento Word para Documento PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

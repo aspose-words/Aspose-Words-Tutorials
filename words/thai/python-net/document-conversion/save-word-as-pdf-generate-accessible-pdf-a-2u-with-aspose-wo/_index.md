@@ -232,7 +232,6 @@ if __name__ == "__main__":
 
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [สร้าง Accessible PDF จาก Word – คู่มือฉบับสมบูรณ์](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [แปลง word เป็น pdf ใน C# ด้วย Aspose.Words – คู่มือ](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -201,7 +201,6 @@ Hai domande su casi particolari—come gestire macro, file Word criptati o font 
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell’API ed esplorare approcci alternativi nei tuoi progetti.
 
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Save Word as PDF with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Export Word Document Header Footer Bookmarks to PDF Document](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

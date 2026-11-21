@@ -246,7 +246,6 @@ Néha szükség van arra, hogy egy adott bekezdést *jegyzet*‑ként jelöljük
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek tovább építik a jelen útmutatóban bemutatott technikákat. Minden forrás komplett, működő kódrészleteket tartalmaz lépés‑ről‑lépésre magyarázatokkal, hogy mesteri szinten saját projektjeidben is alkalmazhasd az API funkciókat és alternatív megvalósítási megközelítéseket.
 
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Convert Word Document To PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 

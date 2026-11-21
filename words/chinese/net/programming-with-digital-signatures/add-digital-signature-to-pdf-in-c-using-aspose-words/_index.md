@@ -268,7 +268,6 @@ dotnet run
 以下教程涵盖与本指南技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能，并在自己的项目中探索替代实现方法。
 
 - [使用证书持有者为 PDF 添加数字签名](/words/english/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/)
-- [在 C# 中使用 Aspose.Words 将 Word 转换为 PDF – 指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [使用 Aspose.Words 将 docx 保存为 pdf – 完整 C# 指南](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

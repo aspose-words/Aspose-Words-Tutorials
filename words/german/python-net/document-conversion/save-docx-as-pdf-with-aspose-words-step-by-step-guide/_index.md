@@ -301,7 +301,6 @@ Viel Spaß beim Programmieren und genießen Sie die Einfachheit, Word‑Dateien 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Wie man ein Dokument mit Aspose.Words für Java als pdf speichert](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Word in pdf in C# mit Aspose.Words konvertieren – Leitfaden](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word‑Dokumentstruktur nach PDF‑Dokument exportieren](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

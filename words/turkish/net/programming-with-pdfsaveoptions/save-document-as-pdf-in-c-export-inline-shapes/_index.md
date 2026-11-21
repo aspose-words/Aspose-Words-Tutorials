@@ -248,7 +248,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakınd
 
 - [Aspose.Words ile docx'i pdf olarak kaydet – Tam C# Kılavuzu](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word'ü PDF Olarak Kaydet – Aspose.Words ile Tam C# Kılavuzu](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words kullanarak C#'ta word'ü pdf'e dönüştür – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

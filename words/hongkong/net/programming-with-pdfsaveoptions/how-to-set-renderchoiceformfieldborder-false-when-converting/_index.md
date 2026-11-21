@@ -231,7 +231,6 @@ PDF saved to C:\MyProjects\NoBorderChoice.pdf with borders disabled.
 
 以下教學與本指南的技巧密切相關，提供完整的程式碼範例與逐步說明，協助您熟悉更多 API 功能，並在專案中探索其他實作方式。
 
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 完整指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [使用 Aspose Words 將 Word 儲存為 PDF – 完整 C# 教學](/words/hindi/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [使用 Aspose.Words for Java 轉換 Word 為 PDF](/words/english/java/document-converting/)
 

@@ -202,7 +202,6 @@ if __name__ == "__main__":
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
 
 - [تحويل Word إلى PDF باستخدام Aspose.Words للـ Java](/words/english/java/document-converting/)
-- [تحويل word إلى pdf في C# باستخدام Aspose.Words – دليل](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [حفظ docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

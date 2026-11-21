@@ -320,7 +320,6 @@ Feliz codificação, e aproveite a simplicidade de transformar arquivos Word em 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas em seus próprios projetos.
 
 - [Como salvar documento como pdf com Aspose.Words para Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [converter word para pdf em C# usando Aspose.Words – Guia](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Exportar Estrutura de Documento Word para Documento PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

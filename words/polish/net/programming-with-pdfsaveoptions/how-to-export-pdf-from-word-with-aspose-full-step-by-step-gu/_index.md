@@ -202,7 +202,6 @@ Masz pytania dotyczące przypadków brzegowych — np. obsługi makr, zaszyfrowa
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [konwertować word do pdf w C# przy użyciu Aspose.Words – Przewodnik](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Eksportuj zakładki nagłówka i stopki dokumentu Word do dokumentu PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

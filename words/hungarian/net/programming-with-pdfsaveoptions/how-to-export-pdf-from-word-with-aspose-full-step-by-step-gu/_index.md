@@ -202,7 +202,6 @@ Van kérdésed a szélsőséges esetekkel kapcsolatban—például makrók, titk
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Word konvertálása PDF‑be C#‑ban az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word mentése PDF‑ként Aspose.Words‑szel – Teljes C# útmutató](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word dokumentum fejléc‑lábléc könyvjelzők exportálása PDF dokumentumba](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

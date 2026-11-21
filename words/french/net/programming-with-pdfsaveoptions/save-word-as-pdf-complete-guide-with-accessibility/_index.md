@@ -177,7 +177,6 @@ Essayez, ajustez les options, et laissez vos PDF parler à tout le monde—lecte
 
 - [Créer un PDF accessible à partir de Word avec C# – Guide étape par étape](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Enregistrer Word en PDF avec Aspose.Words – Guide complet C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convertir word en pdf en C# avec Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
