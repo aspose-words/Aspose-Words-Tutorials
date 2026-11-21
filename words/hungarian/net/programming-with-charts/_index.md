@@ -50,7 +50,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programozottan állítsa be a diagramcímkéket egy Word-dokumentumban C#-val" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Cím | Leírás |
 | --- | --- |

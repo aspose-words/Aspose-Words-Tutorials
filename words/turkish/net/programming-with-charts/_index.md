@@ -51,7 +51,6 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# kullanarak Word grafiğinde histogram kutu sayısını ayarlama ve veri etiketleri ekleme" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# ile bir Word belgesindeki grafik etiketlerini programlı olarak ayarlama" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Başlık | Açıklama |
 | --- | --- |

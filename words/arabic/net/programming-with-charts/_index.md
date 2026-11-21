@@ -54,7 +54,6 @@
 
 {{< tutorial-card link="./single-chart-series/" title="تخصيص سلسلة مخطط واحد في مخطط" imgSrc="./single-chart-series/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="تعديل تسميات المخطط برمجيًا في مستند Word باستخدام C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | العنوان | الوصف |
 | --- | --- |

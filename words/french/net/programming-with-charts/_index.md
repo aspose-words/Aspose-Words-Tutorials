@@ -52,7 +52,6 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Comment définir le nombre de classes d'un histogramme et ajouter des étiquettes de données dans un graphique Word avec C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajuster programmé les étiquettes de graphique dans un document Word avec C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titre | Description |
 | --- | --- |

@@ -54,7 +54,6 @@
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="วิธีตั้งค่าจำนวนบินของฮิสโตแกรมและเพิ่มป้ายข้อมูลในแผนภูมิ Word ด้วย C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="ปรับป้ายแผนภูมิในเอกสาร Word อย่างโปรแกรมเมติกด้วย C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -
 | [สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง](./create-chart-using-shape/) | เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูล -

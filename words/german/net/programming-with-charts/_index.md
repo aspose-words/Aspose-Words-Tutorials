@@ -46,7 +46,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 {{< tutorial-card link="./update-chart-title/" title="Diagrammtitel aktualisieren und Legenden‑Sichtbarkeit in Word mit Aspose.Words für .NET umschalten" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titel | Beschreibung |
 | --- | --- |
@@ -85,7 +84,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 
 | [Modifiziertes Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Erfahren Sie, wie Sie ein Word‑Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern. |
 | [Wie man die Bin-Anzahl eines Histogramms festlegt und Datenbeschriftungen zu einem Word-Diagramm in C# hinzufügt](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Erfahren Sie, wie Sie die Bin-Anzahl eines Histogramms festlegen und Datenbeschriftungen in einem Word-Diagramm mit C# hinzufügen. |
-| [Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Erfahren Sie, wie Sie Diagrammbeschriftungen in Word‑Dokumenten programmgesteuert mit C# anpassen. |
 | [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen. |
 | [Radar-Diagramm erstellen und in Word einfügen mit C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm erstellen und in ein Word-Dokument einfügen. |
 

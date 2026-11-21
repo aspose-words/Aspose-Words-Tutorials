@@ -52,7 +52,6 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Como definir a contagem de bins de histograma e adicionar rótulos de dados em um gráfico do Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajustar programaticamente rótulos de gráfico em um documento Word com C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Título | Descrição |
 | --- | --- |
