@@ -103,10 +103,10 @@ By default Aspose.Words creates a separate image per page. The **Grid** layout, 
 
 ```csharp
 // Step 3: Choose a page layout – Grid arranges all pages in a single image
-saveOptions.PageLayout = PageLayout.Grid;
+saveOptions.PageLayout = MultiPageLayout.Grid(columns: 1, horizontalGap: 0, verticalGap: 0);
 ```
 
-> **When to use Grid:** If you’re generating thumbnails for a document library, a single image is easier to display. For printable PDFs you’d keep the default `PageLayout.SinglePage`.
+> **When to use Grid:** If you’re generating thumbnails for a document library, a single image is easier to display. For printable PDFs you’d keep the default `MultiPageLayout.SinglePage()`.
 
 ---
 
@@ -152,11 +152,11 @@ Console.WriteLine($"Document successfully exported to {outputPath}");
 ## Variations & Common Pitfalls
 
 ### 1. Converting a single page instead of the whole document
-If you only need the first page as an image, switch the layout:
+If you only need the first page as an image, switch the layout and limit the pages to render:
 
 ```csharp
-saveOptions.PageLayout = PageLayout.SinglePage;
-saveOptions.PageIndex = 0; // zero‑based index
+saveOptions.PageLayout = MultiPageLayout.SinglePage();
+saveOptions.PageSet = new PageSet(0); // zero‑based index of the first page
 ```
 
 ### 2. Changing the image format on the fly
@@ -183,7 +183,7 @@ foreach (var file in files)
 When dealing with massive documents (hundreds of pages), the in‑memory bitmap can consume gigabytes. In such cases:
 
 - Lower the `Resolution` (e.g., 150 DPI).  
-- Export each page individually (`PageLayout.SinglePage`).  
+- Export each page individually (`MultiPageLayout.SinglePage()`).  
 - Use `MemoryStream` to stream the image directly to a response instead of writing to disk.
 
 ---
@@ -217,7 +217,7 @@ namespace WordToPngDemo
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
             {
                 // 3️⃣ Use Grid layout to combine pages
-                PageLayout = PageLayout.Grid,
+                PageLayout = MultiPageLayout.Grid(columns: 1, horizontalGap: 0, verticalGap: 0),
 
                 // 4️⃣ Set a high resolution for crisp output
                 Resolution = 300
@@ -245,7 +245,7 @@ You should see console output confirming the page count and the location of the 
 
 In this guide we answered **how to set resolution** for a PNG export, demonstrated a complete **convert word to png** workflow, and showed you **export word as image** using the **Grid** layout. Whether you’re building a document preview service, an automated reporting pipeline, or just need a quick screenshot of a Word file, the steps above give you full control over DPI, layout, and format.
 
-Ready for the next challenge? Try **convert docx to image** in parallel threads for massive batch jobs, or experiment with different `PageLayout` options like `SinglePage` and `Flow`. You could also integrate this into an ASP.NET Core API so users can upload a DOCX and instantly
+Ready for the next challenge? Try **convert docx to image** in parallel threads for massive batch jobs, or experiment with different `MultiPageLayout` options like `SinglePage` and `Grid`. You could also integrate this into an ASP.NET Core API so users can upload a DOCX and instantly
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
