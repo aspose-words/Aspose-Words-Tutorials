@@ -22,7 +22,6 @@ Découvrez comment activer les fonctionnalités OpenType dans vos documents Word
 | --- | --- |
 | [Fonctionnalités de type ouvert](./open-type-features/) | Apprenez à activer les fonctionnalités OpenType dans les documents Word à l'aide d'Aspose.Words pour .NET avec ce guide détaillé étape par étape. |
 | [Créer un document Word avec Aspose.Words – Guide étape par étape](./create-word-document-with-aspose-words-step-by-step-guide/) | Apprenez à créer un document Word avec Aspose.Words en suivant un guide détaillé étape par étape. |
-| [Utiliser la police à poids variable en C# – Guide complet de programmation](./use-variable-weight-font-in-c-complete-programming-guide/) | Apprenez à utiliser les polices à poids variable en C# avec Aspose.Words pour .NET grâce à ce guide complet. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

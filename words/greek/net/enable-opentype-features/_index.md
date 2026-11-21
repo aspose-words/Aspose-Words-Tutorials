@@ -23,7 +23,6 @@
 | [Χαρακτηριστικά ανοιχτού τύπου](./open-type-features/) | Μάθετε πώς να ενεργοποιείτε τις λειτουργίες OpenType σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. |
 | [Δημιουργία εγγράφου Word με το Aspose.Words – Οδηγός βήμα προς βήμα](./create-word-document-with-aspose-words-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες βήμα προς βήμα. |
 
-| [Χρήση γραμματοσειράς με μεταβλητό βάρος σε C# – Πλήρης προγραμματιστικός οδηγός](./use-variable-weight-font-in-c-complete-programming-guide/) | Μάθετε πώς να εφαρμόζετε γραμματοσειρές με μεταβλητό βάρος σε εφαρμογές C# χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
