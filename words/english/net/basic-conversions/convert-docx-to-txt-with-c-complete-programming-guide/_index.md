@@ -41,7 +41,7 @@ schemas:
     text: What if the DOCX contains **nested equations** or **inline symbols** that
       aren’t standard OfficeMath? Aspose.Words will still try to render them as LaTeX,
       but you might see raw XML if the element is unsupported. To guard against this,
-      wrap the save call in a try‑catch block and log any `UnsupportedO
+      wrap the save call in a try‑catch block and log any exception that occurs.
   - name: Full source code and expected output
     text: Below is the complete, ready‑to‑run program. Paste it into a console app,
       adjust the file paths, and hit **F5**.
@@ -138,14 +138,14 @@ Behind the scenes Aspose.Words walks the document tree, extracts text nodes, con
 
 ### Handling edge cases – **convert word math latex**
 
-What if the DOCX contains **nested equations** or **inline symbols** that aren’t standard OfficeMath? Aspose.Words will still try to render them as LaTeX, but you might see raw XML if the element is unsupported. To guard against this, wrap the save call in a try‑catch block and log any `UnsupportedOfficeMathException`.
+What if the DOCX contains **nested equations** or **inline symbols** that aren’t standard OfficeMath? Aspose.Words will still try to render them as LaTeX, but you might see raw XML if the element is unsupported. To guard against this, wrap the save call in a try‑catch block and log any exception that occurs.
 
 ```csharp
 try
 {
     doc.Save(@"C:\Docs\SafeOutput.txt", txtOptions);
 }
-catch (UnsupportedOfficeMathException ex)
+catch (Exception ex)
 {
     Console.WriteLine($"Warning: Some equations could not be converted – {ex.Message}");
 }
@@ -192,7 +192,7 @@ namespace DocxToTxtDemo
                 doc.Save(outputPath, txtOptions);
                 Console.WriteLine($"Success! Document saved to {outputPath}");
             }
-            catch (UnsupportedOfficeMathException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("Some equations could not be exported as LaTeX:");
                 Console.WriteLine(ex.Message);
@@ -226,9 +226,9 @@ Notice how the integral appears as a clean LaTeX string, while the surrounding p
 
 - **Batch conversion:** Loop over a directory of DOCX files and apply the same logic.
 - **Custom post‑processing:** Use regular expressions to replace LaTeX placeholders with image renders if you need PDFs later.
-- **Alternative formats:** Swap `TxtSaveOptions` for `PdfSaveOptions` to keep the equations visually intact.
+- **Alternative formats:** Swap `TxtSaveOptions` for `HtmlSaveOptions` and set `OfficeMathOutputMode` to `HtmlOfficeMathOutputMode.MathML` if your downstream system prefers MathML over LaTeX.
 
-Feel free to experiment—change the encoding, toggle `PreserveTableLayout`, or even plug in a different export mode like `OfficeMathExportMode.MathML` if your downstream system prefers MathML over LaTeX.
+Feel free to experiment—change the encoding, toggle `PreserveTableLayout`, or even plug in a different export mode like `HtmlSaveOptions.OfficeMathOutputMode = HtmlOfficeMathOutputMode.MathML` if your downstream system prefers MathML over LaTeX.
 
 ---
 

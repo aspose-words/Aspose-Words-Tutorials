@@ -189,7 +189,7 @@ Now that you know **how to save document as pdf**, you might explore:
 * **Convert word document to pdf** with additional image compression (use `PdfSaveOptions.ImageCompression`).  
 * **Save Word as pdf** in a web API—expose an endpoint that accepts uploaded DOCX files and streams back a PDF.  
 * **Batch processing** with `Parallel.ForEach` for high‑throughput scenarios.  
-* **Embedding fonts** to guarantee the PDF looks identical on any machine (`pdfOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll`).
+* **Embed fonts** using `pdfOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` to include font data in the PDF.
 
 Each of these extensions builds on the core pattern we covered: load → configure → save.
 
