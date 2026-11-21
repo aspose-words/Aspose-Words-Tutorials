@@ -53,7 +53,6 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [C#で破損したDOCXファイルを復元する – 完全ガイド](./recover-corrupted-docx-files-in-c-complete-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で復元する手順をステップバイステップで解説します。 |
 | [DOCX ファイルの復元方法 – 破損した Word 文書を復元する完全ガイド](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) Aspose.Words for .NET を使用して、破損した DOCX ファイルをステップバイステップで復元する方法を解説します。 |
 | [C# で Aspose Load Options を設定する – 完全ガイド](./configure-aspose-load-options-in-c-complete-guide/) Aspose.Words for .NET の LoadOptions を C# で設定し、カスタムフォントやパスワード保護などのオプションを活用する方法をステップバイステップで解説します。 |
-| [Aspose Load Options – DOCX を Markdown と PDF に変換](./aspose-load-options-convert-docx-to-markdown-pdf/) Aspose.Words for .NET の LoadOptions を使用して、DOCX を Markdown と PDF に変換する手順を詳しく解説します。 |
 | [C#でDOCXファイルを復元する手順 – ステップバイステップガイド](./how-to-recover-docx-files-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で破損した DOCX ファイルを復元する方法をステップバイステップで解説します。 |
 | [破損したWordファイルの復元 – C#開発者向けステップバイステップガイド](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) Aspose.Words for .NET を使用して、破損した Word ファイルを C# で復元する方法をステップバイステップで解説します。 |
 | [Aspose.Wordsで破損したDOCXを復元する – 完全C#ガイド](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で完全に復元する手順をステップバイステップで解説します。 |
