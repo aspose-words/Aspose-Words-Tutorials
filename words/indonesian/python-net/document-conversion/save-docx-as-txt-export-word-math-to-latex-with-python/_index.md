@@ -274,7 +274,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [Simpan Dokumen sebagai TXT – Panduan Cepat untuk Mengekspor Word Math](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑per‑Langkah](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

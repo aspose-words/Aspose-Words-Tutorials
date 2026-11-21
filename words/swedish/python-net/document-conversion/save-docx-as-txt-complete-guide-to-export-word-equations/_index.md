@@ -243,7 +243,6 @@ Har du frågor om kantfall eller behöver hjälp med att integrera detta i en st
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig behärska ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Spara dokument som TXT – Komplett C#‑guide för att konvertera DOCX till ren text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Hur man exporterar LaTeX från Word – Steg‑för‑steg‑guide](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Spara docx som markdown – Komplett C#‑guide med LaTeX‑ekvationer](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

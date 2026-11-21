@@ -243,7 +243,6 @@ Masz pytania dotyczące szczególnych przypadków lub potrzebujesz pomocy przy i
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne, działające przykłady kodu wraz z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
 - [Zapisz dokument jako TXT – Kompletny przewodnik C# do konwersji DOCX na czysty tekst](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Jak eksportować LaTeX z Word – Przewodnik krok po kroku](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

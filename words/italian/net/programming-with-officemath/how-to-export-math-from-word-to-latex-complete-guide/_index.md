@@ -257,7 +257,6 @@ Prova, modifica le opzioni e lascia che il codice faccia il lavoro pesante. Buon
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell'API e a esplorare approcci alternativi nei tuoi progetti.
 
 - [Salva documento come Txt – Esporta formule Word in LaTeX in C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Come esportare LaTeX da Word – Guida passo‑passo](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Come esportare LaTeX da Word: Converti DOCX in Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

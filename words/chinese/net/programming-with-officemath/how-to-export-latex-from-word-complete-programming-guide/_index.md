@@ -216,7 +216,6 @@ dotnet run
 
 - [如何从 Word 导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [将文档保存为 Txt – 在 C# 中导出 Word 公式为 LaTeX](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [如何从 Word 导出 LaTeX – 步骤指南](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

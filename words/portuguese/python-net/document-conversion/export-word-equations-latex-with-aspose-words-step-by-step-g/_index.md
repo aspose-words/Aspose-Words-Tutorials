@@ -211,7 +211,6 @@ Sinta-se à vontade para experimentar as configurações e integrar o script ao 
 
 Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá-lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Como Exportar LaTeX do Word – Guia Passo a Passo](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Como Exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Salvar docx como txt – Exportar Word Math para LaTeX com C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 

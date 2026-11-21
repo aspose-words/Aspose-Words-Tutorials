@@ -160,7 +160,6 @@ Happy building, and may your CMake builds always be reproducible!
 
 Poniższe samouczki obejmują tematy blisko powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu oraz wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Jak zapisać Markdown z DOCX – przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Jak wyświetlić wersję Aspose.Words w Pythonie i .NET&#58; przewodnik krok po kroku](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 

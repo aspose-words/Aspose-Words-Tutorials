@@ -240,7 +240,6 @@ Haben Sie Fragen zu Sonderfällen oder benötigen Hilfe bei der Integration in e
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Dokument als TXT speichern – Vollständiger C#‑Leitfaden zum Konvertieren von DOCX in Klartext](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Leitfaden](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [docx als Markdown speichern – Vollständiger C#‑Leitfaden mit LaTeX‑Gleichungen](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

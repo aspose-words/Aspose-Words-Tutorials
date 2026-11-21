@@ -221,7 +221,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Hogyan exportáljunk LaTeX-et Word-ből: DOCX konvertálása Markdown-ra Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Dokumentum mentése Txt‑ként – Word Math exportálása LaTeX‑be C#‑ban](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Hogyan exportáljunk LaTeX-et Word‑ből – Lépés‑ről‑lépésre útmutató](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
