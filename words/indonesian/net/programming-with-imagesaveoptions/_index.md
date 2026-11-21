@@ -32,7 +32,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Word sebagai Gambar dengan C# – Panduan Langkah demi Langkah](./save-word-as-images-with-c-step-by-step-guide/) | Pelajari cara menyimpan dokumen Word menjadi serangkaian gambar menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Cara Mengatur Resolusi Saat Mengonversi Word ke PNG – Panduan Lengkap](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Pelajari cara mengatur resolusi saat mengonversi dokumen Word ke PNG menggunakan Aspose.Words untuk .NET dengan panduan lengkap. |
 | [Mengonversi docx ke png – Panduan Lengkap Langkah‑per‑Langkah](./convert-docx-to-png-complete-step-by-step-guide/) | Pelajari cara mengonversi file DOCX menjadi gambar PNG dengan panduan langkah demi langkah lengkap menggunakan Aspose.Words untuk .NET. |
-| [Cara Mengatur DPI – Ekspor Word ke Grid PNG dalam C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Pelajari cara mengekspor dokumen Word ke grid PNG dengan mengatur DPI menggunakan Aspose.Words untuk .NET dalam C#. |
 | [Simpan Word sebagai PNG – Panduan Lengkap Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Pelajari cara menyimpan dokumen Word sebagai file PNG menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap. |
 | [Simpan Dokumen sebagai PNG dalam C# – Panduan Lengkap](./save-document-as-png-in-c-complete-guide/) | Pelajari cara menyimpan dokumen Word sebagai file PNG menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap dalam C#. |
 

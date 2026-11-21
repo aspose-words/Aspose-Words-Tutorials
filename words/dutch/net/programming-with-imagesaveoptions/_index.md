@@ -32,7 +32,6 @@ De tutorials behandelen ook de basisprincipes van beeldmanipulatie, waaronder he
 | [Word opslaan als afbeeldingen met C# – Stapsgewijze gids](./save-word-as-images-with-c-step-by-step-guide/) | Leer hoe u Word-documenten opslaat als afbeeldingen met C# via een gedetailleerde stapsgewijze handleiding. |
 | [Hoe resolutie in te stellen bij het converteren van Word naar PNG – Complete gids](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Leer hoe u de resolutie kunt aanpassen bij het omzetten van Word-documenten naar PNG met Aspose.Words voor .NET in C#. |
 | [Docx naar png converteren – Complete stapsgewijze gids](./convert-docx-to-png-complete-step-by-step-guide/) | Leer hoe u een DOCX-bestand naar PNG converteert met een volledige stap‑voor‑stap handleiding. |
-| [Hoe DPI in te stellen – Exporteer Word naar PNG‑grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Leer hoe u de DPI‑instelling kunt configureren bij het exporteren van een Word‑document naar een PNG‑grid met Aspose.Words voor .NET in C#. |
 | [Word opslaan als PNG – Complete Aspose.Words-gids](./save-word-as-png-complete-aspose-words-guide/) | Leer hoe u een Word-document naar PNG converteert met volledige instellingen en voorbeelden in Aspose.Words voor .NET. |
 | [Document opslaan als PNG in C# – Complete C#-gids](./save-document-as-png-in-c-complete-guide/) | Leer hoe u een Word-document als PNG-afbeelding opslaat met Aspose.Words voor .NET in C# met volledige stapsgewijze instructies. |
 
