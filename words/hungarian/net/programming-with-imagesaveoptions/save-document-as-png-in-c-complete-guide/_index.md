@@ -255,7 +255,6 @@ Mindezek a témák az általunk lefedett alapfogalmakra épülnek, így a vált�
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy további API‑funkciókat saját projektjeidben is könnyedén elsajátíthasd és alternatív megvalósítási módokat felfedezhess.
 
-- [Hogyan állítsuk be a DPI‑t Word‑ból PNG‑be konvertáláskor – Teljes C# útmutató](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Beágyazott kép beszúrása Word dokumentumba az Aspose.Words használatával](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Kép beszúrása Word dokumentum fejlécre | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

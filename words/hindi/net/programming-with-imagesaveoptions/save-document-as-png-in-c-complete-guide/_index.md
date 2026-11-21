@@ -253,7 +253,6 @@ A: PNG लॉसलेस है, इसलिए “क्वालिटी”
 
 निम्नलिखित ट्यूटोरियल्स निकट-संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच खोजने में मदद करेंगे।
 
-- [Word को PNG में कनवर्ट करते समय DPI सेट करने का तरीका – पूर्ण C# गाइड](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words का उपयोग करके Word दस्तावेज़ में इनलाइन इमेज डालें](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Word दस्तावेज़ हेडर में इमेज डालें | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

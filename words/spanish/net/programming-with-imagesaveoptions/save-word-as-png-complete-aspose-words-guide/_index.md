@@ -242,7 +242,6 @@ Acabamos de demostrar **cómo guardar Word como PNG** usando Aspose.Words, cubri
 ## Tutoriales relacionados
 
 - [Cómo convertir DOCX a PNG en Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Cómo establecer DPI al convertir Word a PNG – Guía completa en C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Domina la exportación RTF en Java usando Aspose.Words: Guía de control de imagen y formato](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

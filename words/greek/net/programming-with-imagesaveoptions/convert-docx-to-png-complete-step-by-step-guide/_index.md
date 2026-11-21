@@ -210,7 +210,6 @@ YOUR_DIRECTORY/Images/
 
 Τα παρακάτω σεμινάρια καλύπτουν στενά σχετιζόμενα θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικά παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε σε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Πώς να Ορίσετε DPI Κατά τη Μετατροπή Word σε PNG – Πλήρης Οδηγός C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Αποθήκευση Εικόνων Word – Μετατροπή Word σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Πώς να Μετατρέψετε DOCX σε PNG σε Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 

@@ -221,7 +221,6 @@ PNG 本身支援 alpha 通道，Word 中的透明圖形會在輸出時保持透�
 ## 相關教學
 
 - [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [How to Set DPI When Converting Word to PNG – Complete C# Guide](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

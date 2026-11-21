@@ -225,7 +225,6 @@ class Program
 ## 相關教學
 
 - [如何在 Java 中將 DOCX 轉換為 PNG – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [將 Word 轉換為 PNG 時如何設定 DPI – 完整 C# 指南](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [精通使用 Aspose.Words 在 Java 中匯出 RTF：圖像與格式控制指南](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

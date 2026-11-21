@@ -226,7 +226,6 @@ YOUR_DIRECTORY/Images/
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как установить DPI при конвертации Word в PNG – Полное руководство C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Сохранить изображения Word – Конвертация Word в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Как конвертировать DOCX в PNG на Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 

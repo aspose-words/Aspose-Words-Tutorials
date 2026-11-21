@@ -255,7 +255,6 @@ Bu konular, burada ele aldığımız temel kavramlar üzerine inşa edildiği i�
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir; böylece ek API özelliklerini ustalaşabilir ve projelerinizde alternatif uygulama yaklaşımlarını keşfedebilirsiniz.
 
-- [Word’ü PNG’ye Dönüştürürken DPI Ayarlama – Tam C# Kılavuzu](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words ile Word Belgesine Satır İçi Resim Ekleme](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Word Belgesi Başlığına Resim Ekleme | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

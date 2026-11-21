@@ -224,7 +224,6 @@ public class WordToPngConverter {
 ## Σχετικά Tutorials
 
 - [Πώς να Μετατρέψετε DOCX σε PNG με Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Πώς να Ορίσετε DPI Κατά τη Μετατροπή Word σε PNG – Πλήρης Οδηγός C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Πώς να Μετατρέψετε Word σε PDF Χρησιμοποιώντας Aspose.Words για Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

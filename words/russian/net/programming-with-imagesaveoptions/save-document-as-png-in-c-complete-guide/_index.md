@@ -257,7 +257,6 @@ A: PNG — это без потерь, поэтому «качество» �
 
 Следующие руководства охватывают тесно связанные темы, которые развивают техники, продемонстрированные в этом гиде. Каждый ресурс содержит полностью рабочие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы в собственных проектах.
 
-- [Как установить DPI при конвертации Word в PNG – Полное руководство на C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Вставка встроенного изображения в документ Word с помощью Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Вставка изображения в заголовок документа Word | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

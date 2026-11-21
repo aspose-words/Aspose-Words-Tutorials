@@ -221,7 +221,6 @@ PNG पहले से ही अल्फा चैनल सपोर्ट �
 ## संबंधित ट्यूटोरियल्स
 
 - [Java में DOCX को PNG में कैसे कन्वर्ट करें – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Word को PNG में कन्वर्ट करते समय DPI कैसे सेट करें – पूर्ण C# गाइड](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words for Java का उपयोग करके Word को PDF में कैसे कन्वर्ट करें](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

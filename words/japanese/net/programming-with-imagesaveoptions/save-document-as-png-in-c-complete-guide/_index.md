@@ -253,7 +253,6 @@ A: PNG はロスレス形式なので「品質」は DPI とカラーデプス�
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Word を PNG に変換するときの DPI 設定方法 – 完全 C# ガイド](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words を使用した Word ドキュメントへのインライン画像挿入](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Word ドキュメントヘッダーへの画像挿入 | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

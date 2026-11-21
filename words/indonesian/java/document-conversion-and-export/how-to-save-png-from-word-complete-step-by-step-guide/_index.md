@@ -221,7 +221,6 @@ Jika Anda menemui kendala, tinggalkan komentar di bawah atau periksa dokumentasi
 ## Tutorial Terkait
 
 - [Cara Mengonversi DOCX ke PNG dalam Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Cara Mengatur DPI Saat Mengonversi Word ke PNG – Panduan Lengkap C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Cara Mengonversi Word ke PDF Menggunakan Aspose.Words untuk Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

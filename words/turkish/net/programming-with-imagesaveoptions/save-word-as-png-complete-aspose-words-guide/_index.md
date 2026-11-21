@@ -227,7 +227,6 @@ Bir sonraki meydan okumaya hazır mısınız? Özel sayfa aralıklarıyla **conv
 ## İlgili Öğreticiler
 
 - [Java'da DOCX'i PNG'ye Dönüştürme – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Word'ü PNG'ye Dönüştürürken DPI Ayarlama – Tam C# Rehberi](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words Kullanarak Java'da RTF Dışa Aktarmayı Ustalaştırma: Görüntü ve Format Kontrol Rehberi](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

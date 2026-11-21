@@ -213,7 +213,6 @@ image_options.save(document, "YOUR_DIRECTORY/output.png")
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مصدر يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل C# كامل](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [كيفية تحويل DOCX إلى PNG في Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [كيفية تحويل DOCX إلى PNG في Java – Aspose.Words](/words/spanish/java/document-converting/converting-documents-images/)
 

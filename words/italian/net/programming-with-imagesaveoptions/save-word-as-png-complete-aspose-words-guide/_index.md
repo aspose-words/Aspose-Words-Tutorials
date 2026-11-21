@@ -229,7 +229,6 @@ Hai domande su **export word pages png** o hai bisogno di aiuto per integrare qu
 ## Tutorial correlati
 
 - [Come convertire DOCX in PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Come impostare DPI durante la conversione da Word a PNG – Guida completa C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Padroneggiare l'esportazione RTF in Java usando Aspose.Words: Guida al controllo di immagine e formato](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

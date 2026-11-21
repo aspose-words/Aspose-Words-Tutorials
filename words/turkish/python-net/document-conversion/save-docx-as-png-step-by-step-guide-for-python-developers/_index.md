@@ -217,7 +217,6 @@ Kodlamaktan keyif alın ve Aspose.Words'un **save docx as png** (docx'i png olar
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Word'ı PNG'ye Dönüştürürken DPI Ayarlama – Tam C# Kılavuzu](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Java'da DOCX'i PNG'ye Dönüştürme – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Java'da DOCX'i PNG'ye Dönüştürme – Aspose.Words](/words/spanish/java/document-converting/converting-documents-images/)
 

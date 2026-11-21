@@ -255,7 +255,6 @@ Każdy z tych tematów opiera się na tych samych podstawowych koncepcjach, któ
 
 Następujące samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak ustawić DPI przy konwertowaniu Word do PNG – Kompletny przewodnik C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Wstawianie obrazu w linii w dokumencie Word przy użyciu Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Wstawianie obrazu do nagłówka dokumentu Word | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

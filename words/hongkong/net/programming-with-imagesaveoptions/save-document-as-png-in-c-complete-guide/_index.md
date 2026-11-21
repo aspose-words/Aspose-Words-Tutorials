@@ -253,7 +253,6 @@ A: PNG 為無損格式，因此「品質」與 DPI 及色彩深度相關。若�
 
 以下教學涵蓋與本指南密切相關的主題，建立在本教學示範的技巧之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [如何在將 Word 轉換為 PNG 時設定 DPI – 完整 C# 教學](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [使用 Aspose.Words 在 Word 文件中插入行內圖像](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [在 Word 文件標頭插入圖像 | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

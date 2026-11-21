@@ -242,7 +242,6 @@ Có câu hỏi về **xuất các trang Word dưới dạng PNG** hoặc cần h
 ## Các tutorial liên quan
 
 - [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [How to Set DPI When Converting Word to PNG – Complete C# Guide](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Master RTF Export in Java Using Aspose.Words: Image and Format Control Guide](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

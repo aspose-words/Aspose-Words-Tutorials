@@ -256,7 +256,6 @@ class Program
 
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη κώδικα με βήμα‑βήμα εξηγήσεις για να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας έργα.
 
-- [Πώς να ορίσετε DPI κατά τη μετατροπή Word σε PNG – Πλήρης Οδηγός C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Εισαγωγή Ενσωματωμένης Εικόνας σε Έγγραφο Word χρησιμοποιώντας Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Εισαγωγή Εικόνας στην Κεφαλίδα Εγγράφου Word | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

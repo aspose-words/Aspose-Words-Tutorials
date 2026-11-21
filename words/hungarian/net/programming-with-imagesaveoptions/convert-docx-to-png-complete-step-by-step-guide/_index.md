@@ -212,7 +212,6 @@ Ha bármilyen problémába ütközöl vagy ötleteid vannak további fejlesztés
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan állítsd be a DPI-t Word PNG konvertálásakor – Teljes C# útmutató](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Word képek mentése – Word Markdown konvertálás Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Hogyan konvertálj DOCX-et PNG-re Java‑ban – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 

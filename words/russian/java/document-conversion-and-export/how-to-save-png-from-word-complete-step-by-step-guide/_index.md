@@ -223,7 +223,6 @@ PNG уже поддерживает альфа‑каналы, поэтому л
 ## Связанные руководства
 
 - [Как конвертировать DOCX в PNG на Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Как задать DPI при конвертации Word в PNG – Полное руководство для C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Как конвертировать Word в PDF с помощью Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

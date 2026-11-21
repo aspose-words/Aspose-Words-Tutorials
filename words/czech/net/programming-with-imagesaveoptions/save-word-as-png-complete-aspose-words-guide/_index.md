@@ -243,7 +243,6 @@ Máte otázky ohledně **exportu stránek Wordu jako PNG** nebo potřebujete pom
 ## Související tutoriály
 
 - [Jak převést DOCX na PNG v Javě – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Jak nastavit DPI při převodu Wordu na PNG – Kompletní C# průvodce](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Mistrovský export RTF v Javě pomocí Aspose.Words: Průvodce kontrolou obrázků a formátů](/words/english/java/document-operations/master-rtf-export-aspose-words-java-image-format-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -223,7 +223,6 @@ Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın veya Aspos
 ## İlgili Öğreticiler
 
 - [Java'da DOCX'i PNG'ye Dönüştürme – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Tam C# Kılavuzu](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words for Java ile Word'ü PDF'ye Dönüştürme](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

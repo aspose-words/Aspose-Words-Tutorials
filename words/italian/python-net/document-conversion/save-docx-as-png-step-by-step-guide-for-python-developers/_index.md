@@ -216,7 +216,6 @@ Buon coding, e goditi la flessibilità che Aspose.Words ti offre quando hai biso
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑a‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell'API ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come impostare DPI durante la conversione da Word a PNG – Guida completa C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Come convertire DOCX in PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Cómo convertir DOCX a PNG en Java – Aspose.Words](/words/spanish/java/document-converting/converting-documents-images/)
 

@@ -255,7 +255,6 @@ Setiap topik ini dibangun di atas konsep inti yang sama yang kami bahas, sehingg
 
 Tutorial berikut mencakup topik yang terkait erat yang dibangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber daya menyertakan contoh kode lengkap yang dapat dijalankan dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Cara Mengatur DPI Saat Mengonversi Word ke PNG – Panduan Lengkap C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Menyisipkan Gambar Inline dalam Dokumen Word menggunakan Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Menyisipkan Gambar ke Header Dokumen Word | Aspose.Words untuk .NET](/words/english/net/header-footer-formatting/insert-image/)
 

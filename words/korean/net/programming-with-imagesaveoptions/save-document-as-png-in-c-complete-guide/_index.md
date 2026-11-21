@@ -255,7 +255,6 @@ A: PNG는 무손실 포맷이므로 “품질”은 DPI와 색상 깊이에 연�
 
 다음 튜토리얼들은 이 가이드에서 소개한 기술을 기반으로 하여 관련 주제를 심도 있게 다룹니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함하고 있어 API 기능을 마스터하고 다양한 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [Word를 PNG로 변환할 때 DPI 설정 방법 – 완전 C# 가이드](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Aspose.Words를 사용해 Word 문서에 인라인 이미지 삽입](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Word 문서 헤더에 이미지 삽입 | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

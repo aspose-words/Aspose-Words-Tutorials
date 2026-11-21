@@ -216,7 +216,6 @@ Nyní víte, jak **save docx as png** pomocí Aspose.Words for Python. Průvodce
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětleními, aby vám pomohly zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Jak nastavit DPI při konverzi Word na PNG – Kompletní C# průvodce](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Jak převést DOCX na PNG v Javě – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Jak převést DOCX na PNG v Javě – Aspose.Words](/words/spanish/java/document-converting/converting-documents-images/)
 

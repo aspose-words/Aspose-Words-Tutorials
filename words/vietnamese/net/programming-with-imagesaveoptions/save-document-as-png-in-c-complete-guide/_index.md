@@ -255,7 +255,6 @@ Mỗi chủ đề này dựa trên các khái niệm cốt lõi mà chúng ta đ
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh, có hướng dẫn từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách Đặt DPI Khi Chuyển Đổi Word sang PNG – Hướng Dẫn C# Toàn Diện](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Chèn Hình Ảnh Inline vào Tài Liệu Word bằng Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Chèn Hình Ảnh vào Header Tài Liệu Word | Aspose.Words cho .NET](/words/english/net/header-footer-formatting/insert-image/)
 

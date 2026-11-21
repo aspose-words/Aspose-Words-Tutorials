@@ -222,7 +222,6 @@ If you run into any hiccups, drop a comment below or check Aspose’s official d
 ## Related Tutorials
 
 - [How to Convert DOCX to PNG in Java – Aspose.Words]({{< relref "java/document-converting/converting-documents-images" >}})
-- [How to Set DPI When Converting Word to PNG – Complete C# Guide]({{< relref "net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide" >}})
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "java/document-converting/using-document-converting" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}

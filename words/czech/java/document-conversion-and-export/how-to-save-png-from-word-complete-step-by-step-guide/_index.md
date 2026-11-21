@@ -221,7 +221,6 @@ Pokud narazíte na nějaké potíže, zanechte komentář níže nebo si prohlé
 ## Související tutoriály
 
 - [Jak převést DOCX na PNG v Javě – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [Jak nastavit DPI při převodu Word na PNG – Kompletní C# průvodce](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Jak převést Word na PDF pomocí Aspose.Words pro Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

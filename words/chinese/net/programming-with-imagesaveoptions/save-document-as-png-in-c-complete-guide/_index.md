@@ -253,7 +253,6 @@ class Program
 
 以下教程涵盖与本指南密切相关的主题，基于本教程展示的技术进行深入。每篇资源都提供完整的可运行代码示例和逐步说明，帮助你掌握更多 API 功能并在项目中探索替代实现方式。
 
-- [How to Set DPI When Converting Word to PNG – Complete C# Guide](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Insert Inline Image in Word Document using Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Insert an Image into Word Document Header | Aspose.Words for .NET](/words/english/net/header-footer-formatting/insert-image/)
 

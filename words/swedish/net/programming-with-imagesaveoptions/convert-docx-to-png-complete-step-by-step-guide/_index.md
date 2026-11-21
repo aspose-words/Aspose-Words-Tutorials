@@ -226,7 +226,6 @@ Om du stöter på problem eller har idéer för vidare förbättringar, lämna g
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man ställer in DPI vid konvertering av Word till PNG – Komplett C#‑guide](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Hur man konverterar DOCX till PNG i Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 

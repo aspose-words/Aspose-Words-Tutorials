@@ -255,7 +255,6 @@ Cada um desses tópicos se baseia nos mesmos conceitos centrais que abordamos, e
 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas em seus próprios projetos.
 
-- [Como Definir DPI ao Converter Word para PNG – Guia Completo em C#](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
 - [Inserir Imagem Inline em Documento Word usando Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 - [Inserir uma Imagem no Cabeçalho do Documento Word | Aspose.Words para .NET](/words/english/net/header-footer-formatting/insert-image/)
 
