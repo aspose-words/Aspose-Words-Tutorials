@@ -71,7 +71,6 @@
 | [如何在 C# 中使用郵件合併並將 DOCX 轉換為 PDF – 完整 Aspose 指南](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | 了解如何在 C# 中使用 Aspose.Words 進行郵件合併，並將 DOCX 轉換為 PDF，提供完整步驟與程式碼範例。 |
 | [使用 Aspose.Words 將 Word 轉換為 PDF – 完整指南](./convert-word-to-pdf-with-aspose-words-complete-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件完整轉換為 PDF，提供詳細步驟與程式碼範例。 |
 | [使用 C# 從 Word 建立 PDF – 步驟說明指南](./create-pdf-from-word-in-c-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 PDF，提供逐步說明與程式碼範例。 |
-| [從 DOCX 建立可存取 PDF – 步驟說明 C# 教學](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為符合可存取性標準的 PDF，提供完整步驟與程式碼範例。 |
 | [將 Docx 儲存為 Txt 並將 Word 方程式匯出為 LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | 了解如何使用 Aspose.Words for .NET 將 Docx 轉換為 Txt，並將 Word 方程式匯出為 LaTeX，提供完整範例。 |
 | [在 C# 中使用 Aspose.Words 完整 Word 轉 PDF 教學](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | 提供完整步驟與程式碼範例，說明如何在 C# 中使用 Aspose.Words 將 Word 文件轉換為 PDF。 |
 | [在 C# 中將 DOCX 轉換為 PDF – 完整程式設計指南](./convert-docx-to-pdf-in-c-complete-programming-guide/) | 提供完整的 C# 程式碼範例，說明如何使用 Aspose.Words for .NET 將 DOCX 檔案轉換為 PDF。 |
