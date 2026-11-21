@@ -183,7 +183,6 @@ A continuación, explora temas relacionados como **procesamiento por lotes de va
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Cómo convertir Word a PDF usando Aspose.Words para Java](/words/english/java/document-converting/using-document-converting/)
-- [Recuperar DOCX dañado – Guía completa para reparar, exportar a PDF y Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Cómo exportar LaTeX desde Word – Convertir DOCX a Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

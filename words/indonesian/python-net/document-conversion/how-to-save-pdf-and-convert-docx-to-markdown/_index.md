@@ -184,7 +184,6 @@ Selanjutnya, jelajahi topik terkait seperti **pemrosesan batch banyak file DOCX*
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
 - [Cara Mengonversi Word ke PDF Menggunakan Aspose.Words untuk Java](/words/english/java/document-converting/using-document-converting/)
-- [Memulihkan DOCX Rusak – Panduan Lengkap untuk Memperbaiki, Ekspor PDF & Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
