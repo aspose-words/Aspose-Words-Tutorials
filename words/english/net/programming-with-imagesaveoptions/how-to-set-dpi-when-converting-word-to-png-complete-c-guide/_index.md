@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2025-12-29
-description: Learn how to set DPI while converting Word to PNG with Aspose.Words.
-  This step‑by‑step tutorial also covers high resolution PNG export and image resolution
-  settings.
+description: Learn how to set DPI while converting Word to PNG with Aspose.Words. This step‑by‑step tutorial also covers high resolution PNG export and image resolution settings.
 draft: false
 keywords:
 - how to set dpi
@@ -12,8 +10,7 @@ keywords:
 - high resolution png export
 - set image resolution png
 language: en
-og_description: How to set DPI when converting Word to PNG using Aspose.Words. Follow
-  this guide for high‑resolution PNG export and image resolution control.
+og_description: How to set DPI when converting Word to PNG using Aspose.Words. Follow this guide for high‑resolution PNG export and image resolution control.
 og_title: How to Set DPI When Converting Word to PNG – Complete C# Guide
 tags:
 - Aspose.Words
@@ -37,7 +34,7 @@ We’ll also sprinkle in tips on **convert word to png**, **save word as png**, 
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (latest version, e.g., 24.9).  
+- **Aspose.Words for .NET**.  
 - .NET 6+ (or .NET Framework 4.7.2+) – any recent runtime works.  
 - A Word file (`MultiPage.docx`) you want to turn into PNGs.  
 - A development environment – Visual Studio, Rider, or VS Code will do.
@@ -64,24 +61,27 @@ Document multiPageDoc = new Document("YOUR_DIRECTORY/MultiPage.docx");
 
 ## Step 2: Configure ImageSaveOptions With DPI Settings
 
-Now we tell Aspose we want PNG output *and* we specify the DPI. The properties `ImageHorizontalResolution` and `ImageVerticalResolution` are where the magic happens.
+Now we tell Aspose we want PNG output *and* we specify the DPI. The properties `HorizontalResolution` and `VerticalResolution` are where the magic happens.
 
 ```csharp
 // Create PNG save options and set the DPI to 300
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 {
     // Export every page (0‑based index to PageCount‑1)
-    PageSet = new PageSet(0, multiPageDoc.PageCount - 1),
+    PageSet = PageSet.All,
 
     // Set image resolution – this is the “how to set dpi” part
-    ImageHorizontalResolution = 300, // 300 DPI horizontally
-    ImageVerticalResolution   = 300, // 300 DPI vertically
+    HorizontalResolution = 300, // 300 DPI horizontally
+    VerticalResolution   = 300, // 300 DPI vertically
 
-    // Give each page a friendly file name
+    // Optional: customize the file name when you save each page separately
     PageSavingCallback = (sender, args) =>
     {
         args.ImageFileName = $"Page_{args.PageIndex + 1}.png";
-    }
+    },
+
+    // Example of a high‑resolution PNG tweak: use a 32‑bit pixel format to retain alpha channel
+    PixelFormat = ImagePixelFormat.Format32BppArgb
 };
 ```
 
@@ -89,28 +89,42 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 
 ---
 
-## Step 3: Save All Pages as a Single Tiled PNG (or Separate Files)
+## Step 3: Save the Pages
 
-Aspose lets you either bundle every page into one massive tiled PNG **or** write each page to its own file. The example below shows the *single tiled* approach, but the `PageSavingCallback` we added already ensures separate files will be created if you switch the `ExportImagesAsSeparateFiles` flag.
+### 3‑a. Single Tiled PNG (all pages in one image)
 
-```csharp
-// Save the whole document as a tiled PNG file
-multiPageDoc.Save("YOUR_DIRECTORY/Pages.png", imageSaveOptions);
-```
-
-If you prefer one file per page, just set:
+If you want all pages combined into one large tiled PNG, set a multi‑page layout. The `PageLayout` property lets you define how pages are arranged.
 
 ```csharp
-imageSaveOptions.ExportImagesAsSeparateFiles = true;
+// Arrange pages in a vertical strip (one column, no gap)
+imageSaveOptions.PageLayout = Aspose.Words.Saving.MultiPageLayout.Vertical(0);
+
+// Save the whole document as a single tiled PNG file
+multiPageDoc.Save("YOUR_DIRECTORY/AllPages_Tiled.png", imageSaveOptions);
 ```
 
-and the callback will take care of naming each `Page_#.png`.
+### 3‑b. Separate PNG files (one file per page)
+
+Aspose does **not** automatically create separate files just because a callback is supplied. To generate individual PNGs you can loop over the pages and save each one with its own `PageSet`.
+
+```csharp
+for (int i = 0; i < multiPageDoc.PageCount; i++)
+{
+    // Create a PageSet that contains only the current page (zero‑based)
+    imageSaveOptions.PageSet = new PageSet(i);
+
+    // The callback will name the file "Page_1.png", "Page_2.png", etc.
+    multiPageDoc.Save($"YOUR_DIRECTORY/Page_{i + 1}.png", imageSaveOptions);
+}
+```
+
+Both approaches give you high‑resolution PNG output; choose the one that fits your workflow.
 
 ---
 
 ## Step 4: Verify the Output
 
-After running the code, open the `Pages.png` (or the generated `Page_#.png` files) in any image viewer. You should see crisp, high‑resolution images that match the layout of the original Word pages.
+After running the code, open the generated PNG(s) in any image viewer. You should see crisp, high‑resolution images that match the layout of the original Word pages.
 
 - **Resolution check:** Right‑click → Properties → Details → Horizontal DPI / Vertical DPI → should read **300**.  
 - **Size check:** At 300 dpi, a typical A4 page (8.27 in × 11.69 in) becomes roughly 2481 × 3508 pixels – perfect for printing.
@@ -121,30 +135,24 @@ After running the code, open the `Pages.png` (or the generated `Page_#.png` file
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
-| **Blurry output** | DPI left at default (96) | Explicitly set `ImageHorizontalResolution` **and** `ImageVerticalResolution`. |
-| **Missing pages** | `PageSet` only covers a subset | Use `new PageSet(0, multiPageDoc.PageCount - 1)` to include all pages. |
-| **File name collisions** | Callback not set | Provide a `PageSavingCallback` that generates unique names. |
+| **Blurry output** | DPI left at default (96) | Explicitly set `HorizontalResolution` **and** `VerticalResolution`. |
+| **Missing pages** | `PageSet` only covers a subset | Use `PageSet.All` for a single tiled image or loop with a per‑page `PageSet` for separate files. |
+| **File name collisions** | Callback not set or same name reused | Provide a `PageSavingCallback` that generates unique names (as shown above). |
 | **Large file size** | 600 dpi or higher without need | Choose the lowest DPI that still meets your quality requirement. |
-| **Out‑of‑memory errors** for huge docs | Exporting a massive tiled PNG | Switch to `ExportImagesAsSeparateFiles = true` to write each page individually. |
+| **Out‑of‑memory errors** for huge docs | Rendering all pages into one massive image | Use the per‑page loop (section 3‑b) to write each page to its own file. |
 
 ---
 
-## Advanced: Export to Different PNG Variants
+## Advanced: Fine‑Tune PNG Output
 
-Sometimes you need a **transparent background** or a **different color depth**. Aspose.Words supports those tweaks via `PngOptions` within `ImageSaveOptions`.
+Aspose.Words lets you adjust a few additional PNG‑specific settings through `ImageSaveOptions`.
 
 ```csharp
-imageSaveOptions.PngOptions = new PngOptions
-{
-    // Enable transparency
-    Transparency = true,
-
-    // 8‑bit color depth (smaller file) or 24‑bit for full color
-    BitDepth = 24
-};
+imageSaveOptions.PixelFormat = ImagePixelFormat.Format32BppArgb; // 32‑bit with alpha
+imageSaveOptions.ImageColorMode = ImageColorMode.None;          // Full colour (no grayscale conversion)
 ```
 
-You can also combine this with the DPI settings above to get a **high resolution png export** that’s ready for both web and print.
+You can also control the background colour with `PaperColor` if you need a non‑white canvas.
 
 ---
 
@@ -167,28 +175,29 @@ class Program
         // 2️⃣ Configure PNG export with 300 DPI
         ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
         {
-            PageSet = new PageSet(0, doc.PageCount - 1),
-            ImageHorizontalResolution = 300,
-            ImageVerticalResolution = 300,
-            // Optional: separate files per page
-            // ExportImagesAsSeparateFiles = true,
+            PageSet = PageSet.All,
+            HorizontalResolution = 300,
+            VerticalResolution = 300,
+            PixelFormat = ImagePixelFormat.Format32BppArgb,
+            ImageColorMode = ImageColorMode.None,
 
-            // 3️⃣ Friendly file names for each page
+            // Optional: customize file name when saving each page separately
             PageSavingCallback = (sender, args) =>
             {
                 args.ImageFileName = $"Page_{args.PageIndex + 1}.png";
-            },
-
-            // 4️⃣ High‑resolution PNG tweaks (transparent background, 24‑bit)
-            PngOptions = new PngOptions
-            {
-                Transparency = true,
-                BitDepth = 24
             }
         };
 
-        // 5️⃣ Save – either a tiled PNG or separate files
-        doc.Save("YOUR_DIRECTORY/Pages.png", options);
+        // 3️⃣ Save as a single tiled PNG (all pages in one image)
+        options.PageLayout = Aspose.Words.Saving.MultiPageLayout.Vertical(0);
+        doc.Save("YOUR_DIRECTORY/AllPages_Tiled.png", options);
+
+        // 4️⃣ Or save each page as a separate PNG file
+        for (int i = 0; i < doc.PageCount; i++)
+        {
+            options.PageSet = new PageSet(i);
+            doc.Save($"YOUR_DIRECTORY/Page_{i + 1}.png", options);
+        }
 
         Console.WriteLine("Conversion complete! Check YOUR_DIRECTORY for the PNG files.");
     }
@@ -205,19 +214,19 @@ Run the program, and you’ll have a **high resolution PNG export** of every pag
 A: Absolutely. Aspose.Words abstracts the format, so the same code handles `.doc`, `.docx`, `.rtf`, and even `.odt`.
 
 **Q: Can I export to JPEG instead of PNG?**  
-A: Yes – just change `SaveFormat.Png` to `SaveFormat.Jpeg` and adjust `JpegOptions` if needed.
+A: Yes – just change `SaveFormat.Png` to `SaveFormat.Jpeg` and adjust `JpegQuality` if needed.
 
 **Q: What if I need 600 dpi for a large poster?**  
-A: Set `ImageHorizontalResolution = 600` and `ImageVerticalResolution = 600`. Keep an eye on memory usage; large DPI values inflate pixel dimensions quickly.
+A: Set `HorizontalResolution = 600` and `VerticalResolution = 600`. Keep an eye on memory usage; large DPI values inflate pixel dimensions quickly.
 
 **Q: Is there a way to batch‑process many Word files?**  
-A: Wrap the above logic in a `foreach (var file in Directory.GetFiles(folder, "*.docx"))` loop. Remember to dispose of each `Document` instance or reuse a single `ImageSaveOptions` object for efficiency.
+A: Wrap the above logic in a `foreach (var file in Directory.GetFiles(folder, "*.docx"))` loop. Remember to reuse a single `ImageSaveOptions` instance for efficiency.
 
 ---
 
 ## Conclusion
 
-We’ve covered **how to set DPI** when you **convert Word to PNG** using Aspose.Words, tackled the nuances of **high resolution PNG export**, and gave you a ready‑to‑run code sample that **save word as png** with precise image resolution control. By tweaking `ImageHorizontalResolution`, `ImageVerticalResolution`, and optionally `PngOptions`, you can generate print‑ready graphics or lightweight web assets with confidence.
+We’ve covered **how to set DPI** when you **convert Word to PNG** using Aspose.Words, tackled the nuances of **high resolution PNG export**, and gave you a ready‑to‑run code sample that **save word as png** with precise image resolution control. By tweaking `HorizontalResolution`, `VerticalResolution`, and optionally `PixelFormat` and `ImageColorMode`, you can generate print‑ready graphics or lightweight web assets with confidence.
 
 Next steps? Try experimenting with different DPI values, switch to separate‑file export, or combine this workflow with a PDF‑to‑PNG pipeline for even broader document handling. The same principles apply when you **set image resolution png** for other formats, so you’re now equipped to handle a wide range of image‑export scenarios.
 
