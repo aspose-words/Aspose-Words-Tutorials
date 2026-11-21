@@ -31,7 +31,6 @@
 | [DocxをMHTMLに変換してメールを送信する](./docx-to-mhtml-and-sending-email/) このステップバイステップガイドでは、Aspose.Words for .NET を使用してDOCXをMHTMLに変換し、メールを送信する方法を学習します。簡単な自動化で生産性を向上させましょう。 |
 | [DocxファイルをMarkdownに変換する](./docx-to-markdown/) Aspose.Words for .NET を使用して DOCX ファイルを Markdown に変換する方法を学びましょう。.NET アプリケーションへのシームレスな統合については、詳細なガイドをご覧ください。 |
 | [DocxをTxtに変換する](./docx-to-txt/) Aspose.Words for .NET を使って、ステップバイステップガイドに沿って DOCX を TXT に変換しましょう。効率的かつ簡単にドキュメントを変換する方法を学びましょう。 |
-| [Docx を Txt に保存 – Word の数式を LaTeX にエクスポートする完全ガイド](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) Aspose.Words for .NET を使用して、Docx ファイルを Txt に保存し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [LaTeX 方程式を含む docx を txt に変換 – Aspose.Words ガイド](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) Aspose.Words for .NET を使用して、LaTeX 方程式を含む DOCX を TXT に変換する方法をステップバイステップで解説します。 |
 | [Docx を txt に保存 – Word ファイルをプレーンテキストに変換する完全ガイド](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) Aspose.Words for .NET を使用して、Docx ファイルをテキスト形式に変換し、保存する手順を詳しく解説します。コード例付き。 |
 | [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/) Aspose.Words for .NET を使用して、docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |

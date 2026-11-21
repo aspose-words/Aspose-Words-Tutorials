@@ -171,7 +171,6 @@ Veel programmeerplezier!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Aspose.Words – Docx opslaan als txt en Word‑vergelijkingen exporteren als LaTeX – Complete gids](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Docx opslaan als txt – Vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [Docx converteren naar txt – Word‑vergelijkingen exporteren als LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

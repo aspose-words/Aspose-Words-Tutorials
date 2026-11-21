@@ -170,7 +170,6 @@ Lycka till med kodandet!
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Aspose.Words – Spara docx som txt och exportera Word‑ekvationer som LaTeX – Komplett guide](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Spara docx som txt – Exportera ekvationer till LaTeX med Aspose.Words](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [Konvertera docx till txt – Exportera Word‑ekvationer som LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

@@ -247,7 +247,6 @@ Happy coding!
 
 ## สิ่งที่คุณควรเรียนต่อ
 
-- [Aspose.Words – บันทึก docx เป็น txt และส่งออกสมการ Word เป็น LaTeX – คู่มือฉบับสมบูรณ์](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [แปลง docx เป็น txt พร้อมสมการ LaTeX – คู่มือ Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [วิธีแปลงสมการใน Word เป็น LaTeX – บันทึกเป็น TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

@@ -181,7 +181,6 @@ if __name__ == "__main__":
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説付きの完全なコード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [Convert docx to txt – Word をプレーンテキストとして保存する完全ガイド](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – docx を txt として保存し、Word 方程式を LaTeX としてエクスポートする完全ガイド](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Word to PDF チュートリアル: Aspose.Words で DOCX を PDF に変換](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

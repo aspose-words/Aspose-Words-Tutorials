@@ -250,7 +250,6 @@ Happy coding!
 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas em seus próprios projetos.
 
-- [Aspose.Words – Salvar docx como txt e Exportar Equações Word como LaTeX – Guia Completo](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Converter docx para txt com equações LaTeX – Guia Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Como Converter Equações no Word para LaTeX – Salvar como TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

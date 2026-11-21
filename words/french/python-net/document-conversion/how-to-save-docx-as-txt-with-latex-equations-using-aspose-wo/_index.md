@@ -251,7 +251,6 @@ Bonne programmation !
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités de l’API et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Aspose.Words – Enregistrer docx en txt et exporter les équations Word en LaTeX – Guide complet](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Convertir docx en txt avec des équations LaTeX – Guide Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Comment convertir les équations Word en LaTeX – Enregistrer en TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

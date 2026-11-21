@@ -170,7 +170,6 @@ if __name__ == "__main__":
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [Aspose.Words – حفظ docx كـ txt وتصدير معادلات Word كـ LaTeX – دليل كامل](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [حفظ docx كـ txt – تصدير المعادلات إلى LaTeX باستخدام Aspose.Words](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [تحويل docx إلى txt – تصدير معادلات Word كـ LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

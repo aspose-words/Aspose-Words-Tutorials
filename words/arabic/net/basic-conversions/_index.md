@@ -61,7 +61,6 @@
 | [إنشاء PDF قابل للوصول من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/) | تعرّف على كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل docx إلى pdf باستخدام C# – دليل خطوة بخطوة كامل](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | دليل شامل يوضح كيفية تحويل ملفات docx إلى pdf باستخدام C# و Aspose.Words مع أمثلة عملية. |
 | [استعادة مستند DOCX تالف – دليل كامل للإصلاح وتصدير PDF وMarkdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | تعلم كيفية إصلاح ملفات DOCX التالفة وتصديرها إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET. |
-| [حفظ ملف docx كـ txt – دليل كامل لتصدير معادلات Word كـ LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | تعرّف على كيفية حفظ ملفات DOCX كـ TXT وتصدير معادلات Word إلى LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء PDF قابل للوصول من DOCX – دليل Aspose الكامل](./create-accessible-pdf-from-docx-complete-aspose-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل PNG إلى Base64 في C# – دليل كامل](./convert-png-to-base64-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات PNG إلى سلاسل Base64 باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام C# – دليل تحويل كامل مع إمكانية الوصول](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | دليل شامل لتحويل مستندات Word إلى PDF مع دعم إمكانية الوصول باستخدام C# و Aspose.Words. |

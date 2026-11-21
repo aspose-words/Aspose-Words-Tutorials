@@ -182,7 +182,6 @@ By mastering the steps above, you can **export word document txt** in any automa
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Convert docx to txt – Word를 평문으로 저장하는 완전 가이드](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – docx를 txt로 저장하고 Word 수식을 LaTeX로 내보내기 – 완전 가이드](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Word to PDF 튜토리얼: Aspose.Words로 DOCX를 PDF로 변환](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

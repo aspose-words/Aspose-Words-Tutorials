@@ -184,7 +184,6 @@ Durch das Beherrschen der obigen Schritte können Sie **export word document txt
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu beherrschen und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [docx in txt konvertieren – Komplettanleitung zum Speichern von Word als Nur‑Text](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – docx als txt speichern und Word‑Gleichungen als LaTeX exportieren – Komplettanleitung](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Word‑zu‑PDF‑Tutorial: DOCX mit Aspose.Words in PDF konvertieren](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

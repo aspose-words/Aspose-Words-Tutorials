@@ -171,7 +171,6 @@ if __name__ == "__main__":
 
 以下教程涵盖了与本指南技术紧密相关的主题，帮助您在本教程的基础上进一步深入。每个资源都提供了完整的可运行代码示例以及逐步解释，帮助您掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
-- [Aspose.Words – 保存 docx 为 txt 并将 Word 公式导出为 LaTeX – 完整指南](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [保存 docx 为 txt – 使用 Aspose.Words 将公式导出为 LaTeX](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [将 docx 转换为 txt – 将 Word 公式导出为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

@@ -231,7 +231,6 @@ A: 純文字格式不會保留樣式。若需輕量級的標記保留基本樣�
 
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆包含完整可運作的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [Aspose.Words – 將 docx 儲存為 txt 並匯出 Word 方程式為 LaTeX – 完整指南](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [將 docx 轉換為 txt 並附 LaTeX 方程式 – Aspose.Words 指南](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [如何將 Word 中的方程式轉換為 LaTeX – 儲存為 TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 
