@@ -217,7 +217,6 @@ Bạn có thể tự do thử nghiệm các góc khác nhau, cài đặt nổ, h
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách lưu tài liệu đã chỉnh sửa trong C# với Aspose.Words – Hướng dẫn từng bước](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Cập nhật dữ liệu series biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Chèn biểu đồ cột vào tài liệu Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

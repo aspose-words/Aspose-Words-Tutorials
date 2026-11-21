@@ -217,7 +217,6 @@ Sinta-se à vontade para experimentar diferentes ângulos, configurações de ex
 
 Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
-- [Como salvar documento editado em C# com Aspose.Words – Guia passo a passo](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Atualizar dados da série de gráfico em um documento Word usando Aspose.Words para .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Inserir gráfico de colunas em um documento Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

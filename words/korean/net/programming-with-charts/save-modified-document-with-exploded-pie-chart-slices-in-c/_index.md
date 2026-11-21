@@ -215,7 +215,6 @@ namespace PieChartCustomizer
 
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하여 밀접하게 관련된 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함하여 추가 API 기능을 마스터하고 프로젝트에 적용할 수 있는 대체 구현 방법을 탐색하도록 돕습니다.
 
-- [Aspose.Words를 사용한 C#에서 편집된 문서 저장 방법 – 단계별 가이드](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 데이터 업데이트](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Word 문서에 열 차트 삽입](/words/english/net/programming-with-charts/insert-column-chart/)
 

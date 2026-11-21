@@ -217,7 +217,6 @@ Voel je vrij om te experimenteren met verschillende hoeken, explosie‑instellin
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stapsgewijze uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe een bewerkt document opslaan in C# met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Grafiekreeksgegevens bijwerken in een Word‑document met Aspose.Words voor .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Kolomgrafiek invoegen in een Word‑document](/words/english/net/programming-with-charts/insert-column-chart/)
 

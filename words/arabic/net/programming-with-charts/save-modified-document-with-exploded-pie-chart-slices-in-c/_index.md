@@ -215,7 +215,6 @@ namespace PieChartCustomizer
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك الخاصة.
 
-- [كيفية حفظ المستند المعدل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [تحديث بيانات سلسلة المخطط في مستند Word باستخدام Aspose.Words for .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [إدراج مخطط عمودي في مستند Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

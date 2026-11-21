@@ -27,7 +27,6 @@ Ezeket az oktatóanyagokat követve elsajátíthatja a dokumentumok különböz�
 | [Dokumentum titkosítása jelszóval](./encrypt-document-with-password/) | Tanulja meg, hogyan titkosíthat jelszóval egy dokumentumot az Aspose.Words for .NET használatával ebben a részletes, lépésről lépésre szóló útmutatóban. Gondoskodjon bizalmas adatainak védelméről könnyedén. |
 | [Ne tömörítsen kis metafájlokat](./do-not-compress-small-metafiles/) | Ismerje meg, hogyan használható az Aspose.Words for .NET, hogy biztosítsa a Word dokumentumokban található kis metafájlok tömörítetlenségét, megőrizve azok minőségét és integritását. Lépésről lépésre útmutató mellékelve. |
 | [Ne mentse el a képjelet](./do-not-save-picture-bullet/) Tanuld meg, hogyan kell kezelni a képjeleket az Aspose.Words for .NET programban lépésről lépésre szóló útmutatónkkal. Egyszerűsítsd a dokumentumkezelést, és hozz létre professzionális Word-dokumentumokat könnyedén. |
-| [Hogyan mentse el a szerkesztett dokumentumot C#-ban az Aspose.Words segítségével – Lépésről‑lépésre útmutató](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Tanulja meg, hogyan menthet el egy módosított Word-dokumentumot C#-ban az Aspose.Words használatával, részletes lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
