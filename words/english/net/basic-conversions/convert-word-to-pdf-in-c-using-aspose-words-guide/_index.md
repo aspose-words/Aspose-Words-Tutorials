@@ -125,7 +125,7 @@ If you spot any mis‑aligned elements, double‑check the original Word file: s
 If your DOCX uses fonts that aren’t installed on the server, the PDF may fall back to a default font, breaking the layout. To avoid this, embed the fonts directly:
 
 ```csharp
-pdfOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+pdfOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
 ```
 
 ### Batch‑Processing Multiple Files
@@ -184,7 +184,7 @@ class Program
         {
             ExportFloatingShapesAsInlineTag = true,
             // Optional: embed all fonts for consistent rendering
-            FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+            FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll
         };
 
         // 4️⃣ Save as PDF
@@ -203,7 +203,7 @@ Run the program, open `output.pdf`, and you’ll see that any floating shapes fr
 
 We’ve just walked through a complete **convert word to pdf** workflow in C# using Aspose.Words. By loading the document, tweaking `PdfSaveOptions`, and saving with the right flags, you can **c# convert docx pdf** while preserving layout and boosting accessibility via **how to export inline pdf** tags.
 
-From installing the NuGet package to handling fonts and batch processing, this guide covered the most common scenarios you’ll encounter in real‑world projects. Feel free to experiment: try different `PdfSaveOptions` (like `Compliance = PdfCompliance.PdfA2b`) or integrate this code into
+From installing the NuGet package to handling fonts and batch processing, this guide covered the most common scenarios you’ll encounter in real‑world projects. Feel free to experiment: try different `PdfSaveOptions` (like `Compliance = PdfCompliance.PdfA2u`) or integrate this code into
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

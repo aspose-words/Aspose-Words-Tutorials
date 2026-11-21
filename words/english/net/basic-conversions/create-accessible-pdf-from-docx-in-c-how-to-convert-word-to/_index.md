@@ -72,15 +72,15 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 Aspose.Words lets you specify the PDF compliance level. PDF/UA‑1 is the original accessibility standard, while PDF/UA‑2 adds a few newer tags. Choose the one that matches your client’s requirements.
 
 ```csharp
-// Choose PDF/UA‑1 (PdfUax1) or PDF/UA‑2 (PdfUax2) compliance
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+// Choose PDF/UA‑1 (PdfUa1) or PDF/UA‑2 (PdfUa2) compliance
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions()
 {
     // This ensures the output PDF meets accessibility guidelines
-    Compliance = PdfCompliance.PdfUax1
+    Compliance = PdfCompliance.PdfUa1
 };
 ```
 
-> **What “Compliance” does:** Setting `PdfCompliance.PdfUax1` tells Aspose.Words to embed proper tags, logical reading order, and alternate text for images—exactly what screen‑reader software looks for.
+> **What “Compliance” does:** Setting `PdfCompliance.PdfUa1` tells Aspose.Words to embed proper tags, logical reading order, and alternate text for images—exactly what screen‑reader software looks for.
 
 ## Step 4: Save the Document as an Accessible PDF
 
@@ -124,7 +124,7 @@ foreach (var file in files)
 Just change the `Compliance` enum:
 
 ```csharp
-pdfSaveOptions.Compliance = PdfCompliance.PdfUax2;
+pdfSaveOptions.Compliance = PdfCompliance.PdfUa2;
 ```
 
 ### Handling Custom Fonts
@@ -132,7 +132,7 @@ pdfSaveOptions.Compliance = PdfCompliance.PdfUax2;
 If your DOCX uses fonts not installed on the server, embed them:
 
 ```csharp
-pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+pdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
 ```
 
 Embedding guarantees that the PDF looks the same on any machine—a crucial detail when you **export docx to pdf** for external stakeholders.
@@ -156,11 +156,11 @@ class Program
             Document document = new Document("YOUR_DIRECTORY/input.docx");
 
             // 2️⃣ Set up PDF options for accessibility (PDF/UA‑1)
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions()
             {
-                Compliance = PdfCompliance.PdfUax1,
+                Compliance = PdfCompliance.PdfUa1,
                 // Optional: embed all fonts to avoid missing‑font issues
-                FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+                FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll
             };
 
             // 3️⃣ Save as an accessible PDF
@@ -191,9 +191,6 @@ class Program
 - **What if my DOCX contains macros?**  
   Macros are ignored during conversion; only the visible content is rendered into the PDF.
 
-- **Can I add a custom PDF metadata title?**  
-  Yes—set `pdfSaveOptions.Metadata.Title = "Your Custom Title";` before saving.
-
 - **Is PDF/UA‑2 widely supported?**  
   Most modern PDF readers understand PDF/UA‑2, but if you’re targeting older tools, stick with PDF/UA‑1.
 
@@ -201,7 +198,7 @@ class Program
 
 We’ve just shown you how to **create accessible PDF** from a DOCX file using Aspose.Words, covering everything from installing the NuGet package to verifying PDF/UA compliance. By following these steps you can reliably **convert Word to PDF**, **save Word as PDF**, and **export docx to PDF** while meeting accessibility standards—a must‑have skill for any developer working on enterprise document pipelines.
 
-Ready for the next challenge? Try adding a custom header/footer, embedding a PDF/A‑2b tag, or automating the process in an ASP.NET Core web API. The possibilities are endless, and the foundation you’ve built here will let you tackle them with confidence.
+Ready for the next challenge? Try adding a custom header/footer, embedding a PDF/A‑2u tag, or automating the process in an ASP.NET Core web API. The possibilities are endless, and the foundation you’ve built here will let you tackle them with confidence.
 
 Happy coding, and may your PDFs always be readable!
 
