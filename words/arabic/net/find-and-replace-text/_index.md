@@ -39,7 +39,6 @@ Aspose.Words لـ .NET مكتبة فعّالة تُقدّم مجموعة واس�
 | [كيفية استبدال العناصر النائبة في ملفات docx باستخدام Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | تعلم كيفية استبدال العناصر النائبة في ملفات DOCX باستخدام Aspose.Words من خلال دليل شامل خطوة بخطوة. |
 
 | [كيفية إنشاء قالب مستند وتعبئته بالبيانات في C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | تعلم إنشاء قالب مستند Word وتعبئته بالبيانات باستخدام Aspose.Words لـ .NET في C#. |
-| [أتمتة إنشاء مستندات Word باستخدام Aspose.Words في C#](./automate-word-document-generation-with-aspose-words-in-c/) | تعلّم كيفية توليد مستندات Word تلقائيًا باستخدام Aspose.Words في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

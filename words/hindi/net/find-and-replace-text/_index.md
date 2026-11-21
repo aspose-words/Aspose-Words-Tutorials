@@ -38,7 +38,6 @@
 | [C# के साथ DOCX में टेक्स्ट बदलें – चरण‑दर‑चरण गाइड](./replace-text-in-docx-with-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX फ़ाइलों में टेक्स्ट को बदलने का चरण‑दर‑चरण मार्गदर्शन। |
 | [C# में दस्तावेज़ टेम्प्लेट बनाकर डेटा से भरें](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | C# में दस्तावेज़ टेम्प्लेट बनाकर डेटा से भरने का तरीका सीखें। |
 | [Aspose.Words के साथ docx फ़ाइलों में प्लेसहोल्डर बदलें](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Aspose.Words का उपयोग करके docx फ़ाइलों में प्लेसहोल्डर को बदलने की चरण‑दर‑चरण गाइड। |
-| [Aspose.Words के साथ C# में वर्ड दस्तावेज़ निर्माण को स्वचालित करें](./automate-word-document-generation-with-aspose-words-in-c/) | C# में Aspose.Words का उपयोग करके वर्ड दस्तावेज़ स्वचालित रूप से बनाना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
