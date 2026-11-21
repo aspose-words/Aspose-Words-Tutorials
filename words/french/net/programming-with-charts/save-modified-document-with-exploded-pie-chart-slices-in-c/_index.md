@@ -219,7 +219,6 @@ N'hésitez pas à expérimenter différents angles, paramètres d'éclatement ou
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Comment enregistrer un document modifié en C# avec Aspose.Words – Guide étape par étape](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Mettre à jour les données de série de graphique dans un document Word avec Aspose.Words pour .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Insérer un graphique en colonnes dans un document Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

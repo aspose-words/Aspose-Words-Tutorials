@@ -219,7 +219,6 @@ Następnie rozważ:
 
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak zapisać edytowany dokument w C# z Aspose.Words – przewodnik krok po kroku](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Aktualizuj dane serii wykresu w dokumencie Word przy użyciu Aspose.Words dla .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Wstaw wykres kolumnowy w dokumencie Word](/words/english/net/programming-with-charts/insert-column-chart/)
 
