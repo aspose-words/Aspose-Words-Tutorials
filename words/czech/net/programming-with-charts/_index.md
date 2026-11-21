@@ -57,7 +57,6 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | Název | Popis |
 | --- | --- |
 | [Formátování čísla popisku dat v grafu](./format-number-of-data-label/) | Naučte se, jak formátovat popisky dat v grafech pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty Word bez námahy. |
-| [Vlastní umístění popisků dat v grafech v C#](./custom-data-label-placement-for-charts-in-c/) | Naučte se, jak přizpůsobit umístění popisků dat v grafech pomocí Aspose.Words pro .NET v C#. |
 | [Vytvořte a upravte graf pomocí tvaru](./create-chart-using-shape/) | Naučte se, jak vytvářet a upravovat grafy v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro vizualizaci dat. |
 | [Vložení jednoduchého sloupcového grafu do dokumentu Word](./insert-simple-column-chart/) Naučte se, jak vložit jednoduchý sloupcový graf do Wordu pomocí Aspose.Words pro .NET. Vylepšete své dokumenty dynamickými vizuálními prezentacemi dat. |
 | [Vložení sloupcového grafu do dokumentu Word](./insert-column-chart/) | Naučte se, jak vkládat sloupcové grafy do dokumentů Wordu pomocí Aspose.Words pro .NET. Vylepšete vizualizaci dat ve svých sestavách a prezentacích. |

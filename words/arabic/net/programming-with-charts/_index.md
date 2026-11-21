@@ -84,7 +84,6 @@
 | [إضافة تسميات مخطط دائري في C# باستخدام Aspose.Words – دليل كامل](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | تعرّف على كيفية إضافة وتخصيص تسميات المخطط الدائري في C# باستخدام Aspose.Words خطوة بخطوة. |
 | [كيفية إظهار النسب المئوية في المخطط باستخدام Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | تعلم كيفية عرض القيم كنسب مئوية في المخططات باستخدام Aspose.Words لـ .NET مع C#. |
 | [كيفية إضافة تسميات البيانات إلى مخطط Word باستخدام C# – دليل خطوة بخطوة](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | تعلم كيفية إضافة وتخصيص تسميات البيانات في مخططات Word باستخدام Aspose.Words لـ .NET في دليل تفصيلي خطوة بخطوة. |
-| [تخصيص موضع تسمية البيانات للمخططات في C#](./custom-data-label-placement-for-charts-in-c/) | تعلم كيفية وضع تسميات البيانات في المخططات بشكل مخصص باستخدام Aspose.Words لـ .NET وC#. |
 | [إنشاء مخطط دائري في Word باستخدام C# – دليل خطوة بخطوة](./create-pie-chart-word-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words لـ .NET مع C# خطوة بخطوة. |
 | [كيفية تنسيق السلسلة في مخطط خطي في Word باستخدام C#](./how-to-format-series-in-a-word-line-chart-with-c/) | تعرّف على طريقة تنسيق سلاسل البيانات في مخطط خطي باستخدام Aspose.Words لـ .NET وC#. |
 | [كيفية إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | تعرّف على طريقة إنشاء مخطط هيستوجرام في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
