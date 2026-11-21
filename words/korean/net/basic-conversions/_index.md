@@ -32,7 +32,6 @@
 | [Docx 파일을 마크다운으로 변환](./docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 마크다운으로 변환하는 방법을 알아보세요. .NET 애플리케이션과의 원활한 통합을 위한 자세한 가이드를 참고하세요. |
 | [Docx를 Txt로 변환](./docx-to-txt/) | Aspose.Words for .NET을 사용하여 단계별 가이드를 통해 DOCX를 TXT로 변환하세요. 문서를 효율적이고 간편하게 변환하는 방법을 알아보세요. |
 | [LaTeX 방정식이 포함된 docx를 txt로 변환](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 DOCX 파일을 텍스트(txt) 형식으로 변환하는 단계별 가이드입니다. |
-| [Docx를 txt로 저장 – Word 파일을 일반 텍스트로 변환하는 완전 가이드](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Aspose.Words for .NET을 사용해 Docx 파일을 txt 형식으로 변환하는 전체 단계별 가이드입니다. 개발자를 위한 상세 예제 포함. |
 | [Docx를 Txt로 변환 – Word 수식 LaTeX 내보내기](./convert-docx-to-txt-export-word-equations-as-latex/) | Aspose.Words for .NET을 사용하여 DOCX를 TXT로 변환하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 | [Docx를 Txt로 변환 – Word 수학을 LaTeX로 변환하는 완전 가이드](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Aspose.Words for .NET을 사용하여 Docx 파일의 수학 수식을 LaTeX 형식으로 변환하고 Txt 파일로 저장하는 전체 가이드입니다. |
 | [C#에서 Docx를 Txt로 변환 – 완전 프로그래밍 가이드](./convert-docx-to-txt-with-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx 파일을 Txt 형식으로 변환하는 전체 단계별 가이드입니다. |
