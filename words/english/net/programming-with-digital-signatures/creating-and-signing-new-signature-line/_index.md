@@ -39,7 +39,7 @@ using System.IO;
 using Aspose.Words;
 using Aspose.Words.Drawing;
 using Aspose.Words.Saving;
-using Aspose.Words.Signing;
+using Aspose.Words.DigitalSignatures;
 ```
 
 ## Step 1: Setting Up the Document Directory
