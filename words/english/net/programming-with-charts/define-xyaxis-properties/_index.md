@@ -91,7 +91,7 @@ xAxis.CrossesAt = 3; // Measured in display units of the Y axis (hundreds).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
-xAxis.TickLabelOffset = 200;
+xAxis.TickLabels.Offset = 200;
 ```
 
 ## Step 5: Define the Y Axis Properties
@@ -100,7 +100,7 @@ Similarly, you will set the properties for the Y axis. This includes setting the
 
 ```csharp
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100;
 yAxis.MinorUnit = 50;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
