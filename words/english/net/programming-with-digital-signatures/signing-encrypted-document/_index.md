@@ -26,7 +26,7 @@ Before diving into the code, let's ensure you have everything you need:
 
 1. Aspose.Words for .NET: Download and install from [here](https://releases.aspose.com/words/net/).
 2. Visual Studio: Ensure you have it installed.
-3. A Valid Certificate: You'll need a .pfx certificate file.
+3. A Valid Certificate: You'll need a **PKCS#12 (.pfx)** certificate file.
 4. Basic C# Knowledge: Understanding the basics will make this tutorial smoother.
 
 ## Import Namespaces
@@ -35,8 +35,9 @@ First, let's import the necessary namespaces. These are crucial for accessing As
 
 ```csharp
 using System;
+using System.IO;
+using System.Security;
 using Aspose.Words;
-using Aspose.Words.Saving;
 using Aspose.Words.DigitalSignatures;
 ```
 
@@ -62,41 +63,40 @@ Install-Package Aspose.Words
 You'll need a directory to store your Word documents and certificates. Let's create one.
 
 1. Create a directory on your computer. For simplicity, let's call it "DocumentDirectory".
-2. Place your Word document (e.g., "Document.docx") and your .pfx certificate (e.g., "morzal.pfx") in this directory.
+2. Place your Word document (e.g., "Document.docx") and your **.pfx** certificate (e.g., "morzal.pfx") in this directory.
 
 ## Step 4: Writing the Code
 
-Now, let's dive into the code. Open your `Program.cs` file and start by setting up the path to your document directory and initializing the `SignOptions` with the decryption password.
+Now, let's dive into the code. Open your `Program.cs` file and start by setting up the path to your document directory, loading the certificate, configuring the signing options, and finally signing the encrypted document.
 
 ```csharp
 // The path to the documents directory.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
-SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPassword" };
+
+// Load the certificate from a .pfx file.
+byte[] certBytes = File.ReadAllBytes(Path.Combine(dataDir, "morzal.pfx"));
+SecureString certPassword = new SecureString();
+foreach (char c in "aw")
+    certPassword.AppendChar(c);
+CertificateHolder certHolder = CertificateHolder.Create(certBytes, certPassword);
+
+// Configure signing options, including the password to decrypt the encrypted document.
+SignOptions signOptions = new SignOptions
+{
+    DecryptionPassword = "decryptionPassword"
+};
+
+// Sign the document. The source and destination are streams.
+using (FileStream srcStream = File.OpenRead(Path.Combine(dataDir, "Document.docx")))
+using (FileStream dstStream = File.Create(Path.Combine(dataDir, "DigitallySignedDocument.docx")))
+{
+    DigitalSignatureUtil.Sign(srcStream, dstStream, certHolder, signOptions);
+}
 ```
 
-## Step 5: Loading the Certificate
+## Step 5: Running the Code
 
-Next, load your certificate using the `CertificateHolder` class. This will require the path to your .pfx file and the certificate's password.
-
-```csharp
-CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
-```
-
-## Step 6: Signing the Document
-
-Finally, use the `DigitalSignatureUtil.Sign` method to sign your encrypted Word document. This method requires the input file, output file, certificate holder, and sign options.
-
-```csharp
-DigitalSignatureUtil.Sign(
-    dataDir + "Document.docx",
-    dataDir + "DigitallySignedDocument.docx",
-    certHolder,
-    signOptions);
-```
-
-## Step 7: Running the Code
-
-Save your file and run the project. If everything is set up correctly, you should see your signed document in the specified directory.
+Save your file and run the project. If everything is set up correctly, you should see `DigitallySignedDocument.docx` in the specified directory, now signed with the provided certificate.
 
 ## Conclusion
 
@@ -105,20 +105,31 @@ And there you have it! You've successfully signed an encrypted Word document usi
 ## FAQ's
 
 ### Can I use a different type of certificate?
-Yes, Aspose.Words supports various certificate types, as long as they are in the correct format.
+Only **PKCS#12 (.pfx)** certificates are supported. Use `CertificateHolder.Create` with the certificate bytes and a `SecureString` password.
 
 ### Is it possible to sign multiple documents at once?
-Absolutely! You can loop through a collection of documents and sign each one programmatically.
+Absolutely! You can loop through a collection of documents and sign each one programmatically by reusing the same `CertificateHolder` and `SignOptions`.
 
 ### What if I forget the decryption password?
-Unfortunately, without the decryption password, you won't be able to sign the document.
+Unfortunately, without the decryption password you won't be able to sign the encrypted document. The password is required to decrypt the document before applying the signature.
 
 ### Can I add a visible signature to the document?
-Yes, Aspose.Words allows you to add visible digital signatures as well.
+Aspose.Words does not provide a built‑in feature for adding visible digital signatures. The library focuses on applying cryptographic signatures that are stored in the document package.
 
-### Is there a way to verify the signature?
-Yes, you can use the `DigitalSignatureUtil.Verify` method to verify signatures.
+### How can I verify that the document was signed?
+Use `DigitalSignatureUtil.LoadSignatures` to load the signatures from a document and inspect the `DigitalSignatureCollection`. For example:
 
+```csharp
+DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(
+    Path.Combine(dataDir, "DigitallySignedDocument.docx"));
+
+foreach (var signature in signatures)
+{
+    Console.WriteLine($"Signature valid: {signature.IsValid}");
+}
+```
+
+This will tell you whether a valid digital signature is present in the document.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
