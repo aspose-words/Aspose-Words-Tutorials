@@ -43,7 +43,7 @@ Before we dive in, make sure you have:
 |--------------|----------------|
 | .NET 6.0 or later (or .NET Framework 4.7+) | Aspose.Words supports both; newer runtimes give better performance. |
 | Visual Studio 2022 (or any C# IDE) | Helpful for IntelliSense, but any editor will do. |
-| Aspose.Words for .NET NuGet package | Provides `Document`, `TxtSaveOptions`, and the `OfficeMathExportMode` enum. |
+| Aspose.Words for .NET NuGet package | Provides `Document`, `TxtSaveOptions`, and the `TxtOfficeMathExportMode` enum. |
 | A Word document (`.docx`) that contains equations | The source file we’ll convert. |
 
 If you haven’t added Aspose.Words yet, run:
@@ -87,7 +87,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions
 ```
 
 *Why this matters:*  
-`OfficeMathExportMode.LaTeX` is the key to **convert Word to LaTeX**. Without it you’d end up with plain‑text placeholders like “[Equation]”, which defeats the purpose of a scientific workflow.
+`TxtOfficeMathExportMode.Latex` is the key to **convert Word to LaTeX**. Without it, the equations are exported as plain‑text representations (e.g., linearized text) rather than LaTeX code, which defeats the purpose of a scientific workflow.
 
 ## Step 3: Save the Document as a Plain‑Text File
 
@@ -195,7 +195,7 @@ A: Not directly. LaTeX and Word use different styling models. You can post‑pro
 
 ## Wrap‑Up
 
-You now know **how to export LaTeX** from a Word document using C#. By loading the file, configuring `TxtSaveOptions` with `OfficeMathExportMode.LaTeX`, and saving as plain text, you’ve effectively **converted Word to LaTeX**, learned **how to save TXT**, and discovered a quick way to **save DOCX as TXT** for batch operations.  
+You now know **how to export LaTeX** from a Word document using C#. By loading the file, configuring `TxtSaveOptions` with `TxtOfficeMathExportMode.Latex`, and saving as plain text, you’ve effectively **converted Word to LaTeX**, learned **how to save TXT**, and discovered a quick way to **save DOCX as TXT** for batch operations.  
 
 From here you might:
 
