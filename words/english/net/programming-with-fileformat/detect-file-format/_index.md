@@ -34,8 +34,6 @@ To get started, you'll need to import the necessary namespaces in your project:
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.FileFormats;
-using Aspose.Words.FileFormats.Util;
 using System;
 using System.Collections.Generic;
 using System.IO;
