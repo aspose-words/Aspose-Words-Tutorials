@@ -37,8 +37,8 @@ To get started, you need to import the necessary namespaces into your C# project
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using Aspose.Words.Drawing.Charts;
 using Aspose.Words.Saving;
-using Aspose.Words.Charts;
 ```
 
 ## Step 1: Initialize the Document and DocumentBuilder
@@ -103,7 +103,7 @@ labels.Separator = "/";
 
 - ChartDataLabelCollection labels: Accesses the data labels of the series.
 - labels.ShowLegendKey: Displays the legend key.
-- labels.ShowLeaderLines: Shows leader lines for data labels positioned far outside the data points.
+- labels.ShowLeaderLines: Shows leader lines for data labels.
 - labels.ShowCategoryName: Hides the category name.
 - labels.ShowPercentage: Hides the percentage value.
 - labels.ShowSeriesName: Displays the series name.
