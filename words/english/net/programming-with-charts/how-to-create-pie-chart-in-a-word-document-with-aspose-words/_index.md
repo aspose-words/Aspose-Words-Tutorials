@@ -39,10 +39,10 @@ schemas:
     text: '```csharp chart.Title.Text = "Sales Distribution Q1"; chart.Title.Show
       = true; ```'
   - name: Changing slice colors
-    text: '```csharp series.Points[0].Format.Fill.ForeColor = System.Drawing.Color.LightBlue;
-      series.Points[1].Format.Fill.ForeColor = System.Drawing.Color.LightGreen; ```'
+    text: '```csharp series.DataPoints[0].Format.Fill.ForeColor = System.Drawing.Color.LightBlue;
+      series.DataPoints[1].Format.Fill.ForeColor = System.Drawing.Color.LightGreen; ```'
   - name: Handling an empty series
-    text: 'If your data source might be empty, guard against `IndexOutOfRangeException`:'
+    text: 'If your data source might be empty, add a placeholder value so the chart still renders a slice:'
   - name: Exporting to PDF instead of Word
     text: '```csharp doc.Save("PieChart.pdf", SaveFormat.Pdf); ```'
   type: HowTo
@@ -92,6 +92,7 @@ The package includes the `Aspose.Words.Drawing.Charts` namespace, which contains
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 class Program
@@ -123,7 +124,8 @@ Now we **insert chart into Word**. The `InsertChart` method takes the chart type
 
 ```csharp
         // Insert a pie chart of size 400x300 points
-        Chart chart = builder.InsertChart(ChartType.Pie, 400, 300);
+        Shape shape = builder.InsertChart(ChartType.Pie, 400, 300);
+        Chart chart = shape.Chart;
 ```
 
 At this point the chart contains a default data series with placeholder values (25, 25, 25, 25). You can replace them later if needed.
@@ -151,13 +153,13 @@ If you want specific values, replace the default points:
 
 ```csharp
         // Clear existing points
-        series.Points.Clear();
+        series.ClearValues();
 
         // Add custom data points
-        series.Points.Add(new ChartPoint(40)); // 40%
-        series.Points.Add(new ChartPoint(30)); // 30%
-        series.Points.Add(new ChartPoint(20)); // 20%
-        series.Points.Add(new ChartPoint(10)); // 10%
+        series.Add(ChartXValue.FromString("A"), ChartYValue.FromDouble(40)); // 40%
+        series.Add(ChartXValue.FromString("B"), ChartYValue.FromDouble(30)); // 30%
+        series.Add(ChartXValue.FromString("C"), ChartYValue.FromDouble(20)); // 20%
+        series.Add(ChartXValue.FromString("D"), ChartYValue.FromDouble(10)); // 10%
 ```
 
 The percentages displayed will automatically adjust to reflect the new values.
@@ -197,19 +199,19 @@ chart.Title.Show = true;
 ### Changing slice colors
 
 ```csharp
-series.Points[0].Format.Fill.ForeColor = System.Drawing.Color.LightBlue;
-series.Points[1].Format.Fill.ForeColor = System.Drawing.Color.LightGreen;
+series.DataPoints[0].Format.Fill.ForeColor = System.Drawing.Color.LightBlue;
+series.DataPoints[1].Format.Fill.ForeColor = System.Drawing.Color.LightGreen;
 ```
 
 ### Handling an empty series
 
-If your data source might be empty, guard against `IndexOutOfRangeException`:
+If your data source might be empty, add a placeholder value so the chart still renders a slice:
 
 ```csharp
-if (series.Points.Count == 0)
+if (series.DataPoints.Count == 0)
 {
     // Provide a fallback to avoid runtime errors
-    series.Points.Add(new ChartPoint(100));
+    series.Add(ChartXValue.FromString("No data"), ChartYValue.FromDouble(100));
 }
 ```
 
@@ -227,6 +229,7 @@ Below is the complete, ready‑to‑run program. Copy it into `Program.cs` and e
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 class Program
@@ -244,7 +247,8 @@ class Program
         DocumentBuilder builder = new DocumentBuilder(doc);
 
         // 3. Insert a pie chart (400x300 points)
-        Chart chart = builder.InsertChart(ChartType.Pie, 400, 300);
+        Shape shape = builder.InsertChart(ChartType.Pie, 400, 300);
+        Chart chart = shape.Chart;
 
         // 4. Access the first series
         ChartSeries series = chart.Series[0];
@@ -256,11 +260,11 @@ class Program
         series.DataLabels.Position = ChartDataLabelPosition.OutsideEnd;
 
         // Optional: replace placeholder data with custom values
-        series.Points.Clear();
-        series.Points.Add(new ChartPoint(40));
-        series.Points.Add(new ChartPoint(30));
-        series.Points.Add(new ChartPoint(20));
-        series.Points.Add(new ChartPoint(10));
+        series.ClearValues();
+        series.Add(ChartXValue.FromString("A"), ChartYValue.FromDouble(40));
+        series.Add(ChartXValue.FromString("B"), ChartYValue.FromDouble(30));
+        series.Add(ChartXValue.FromString("C"), ChartYValue.FromDouble(20));
+        series.Add(ChartXValue.FromString("D"), ChartYValue.FromDouble(10));
 
         // Optional: add a title
         chart.Title.Text = "Quarterly Sales Breakdown";
