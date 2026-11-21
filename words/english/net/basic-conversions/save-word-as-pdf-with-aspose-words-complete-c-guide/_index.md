@@ -86,12 +86,15 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
     // Optional: embed fonts to avoid missing glyphs on other machines
     EmbedFullFonts = true,
 
-    // Optional: set a custom title for the PDF metadata
-    Title = "Converted Document – Accessible PDF"
+    // Optional: display the document title in PDF viewers
+    DisplayDocTitle = true
 };
+
+// Set the PDF title via the document's built‑in properties
+document.BuiltInDocumentProperties.Title = "Converted Document – Accessible PDF";
 ```
 
-**Why this matters:** Without the `PdfCompliance.PdfUa1` flag, the output PDF won’t contain the structural tags required for accessibility. Enabling `EmbedFullFonts` also prevents font substitution, which can break the reading order.
+**Why this matters:** Without the `PdfCompliance.PdfUa1` flag, the output PDF won’t contain the structural tags required for accessibility. Setting the title via the document’s built‑in properties and enabling `DisplayDocTitle` ensures the title appears in PDF viewers.
 
 ## Step 3: Save the Document as PDF
 
@@ -156,8 +159,9 @@ class Program
         {
             Compliance = PdfCompliance.PdfUa1,
             EmbedFullFonts = true,
-            Title = "Converted Document – Accessible PDF"
+            DisplayDocTitle = true
         };
+        document.BuiltInDocumentProperties.Title = "Converted Document – Accessible PDF";
 
         // -----------------------------------------------------------------
         // 3️⃣ Save as PDF
@@ -197,25 +201,29 @@ After loading, the rest of the steps stay identical.
 
 ### How do I handle **large files** (e.g., > 100 MB)?
 
-For massive documents, enable **memory‑saving mode**:
+For massive documents, enable **memory‑saving mode** on the save options:
 
 ```csharp
-var loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
-loadOptions.MemoryUsage = MemoryUsage.MemoryOptimized;
-Document largeDoc = new Document(inputPath, loadOptions);
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+{
+    MemoryOptimization = true,
+    Compliance = PdfCompliance.PdfUa1,
+    EmbedFullFonts = true,
+    DisplayDocTitle = true
+};
 ```
 
-Then proceed with the same `PdfSaveOptions`. This reduces RAM consumption at the cost of a slightly slower conversion.
+This reduces RAM consumption while converting the document.
 
 ### Is the output PDF **searchable**?
 
-Absolutely. Since we’re preserving the original text flow, the PDF remains fully searchable. If you need OCR for scanned images, you’d have to run an additional step with a tool like **Aspose.OCR**.
+Yes. Because the original text is preserved during conversion, the resulting PDF remains fully searchable.
 
 ## Tips & Gotchas
 
 - **Folder permissions:** The process must have write access to the output directory. Running under IIS may require granting the AppPool identity the proper rights.
 - **File naming:** Avoid spaces or special characters in `outputPath`. Use `Path.GetInvalidFileNameChars()` to sanitize user‑provided names.
-- **Version compatibility:** The `PdfCompliance.PdfUa1` enum was introduced in Aspose.Words 20.12. If you’re on an older version, upgrade via NuGet; otherwise you’ll get a compile‑time error.
+- **Version compatibility:** The `PdfCompliance.PdfUa1` enum is available in recent versions of Aspose.Words. If you’re on an older version, upgrade via NuGet; otherwise you’ll get a compile‑time error.
 - **Testing accessibility:** Use the free **PDF Accessibility Checker (PAC)** from the PDF Association to verify compliance beyond what Acrobat shows.
 
 ## Related Topics You Might Explore Next
