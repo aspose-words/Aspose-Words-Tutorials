@@ -36,7 +36,7 @@ First things first, let's import the necessary namespaces in your C# project:
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
-using Aspose.Words.Signing;
+using Aspose.Words.DigitalSignatures;
 using System;
 ```
 
