@@ -43,7 +43,6 @@ Tyto tutoriály k Aspose.Words pro .NET vám poskytnou cenné zdroje pro zvládn
 | [Chování v chytrém stylu](./smart-style-behavior/) | Naučte se, jak bezproblémově slučovat dokumenty Wordu pomocí Aspose.Words pro .NET, zachovat styly a zajistit profesionální výsledky. |
 | [Vložit dokument pomocí nástroje Builder](./insert-document-with-builder/) | Naučte se, jak sloučit dva dokumenty aplikace Word pomocí nástroje Aspose.Words pro .NET. Podrobný návod, jak vložit dokument pomocí nástroje DocumentBuilder a zachovat formátování. |
 | [Zachovat číslování zdrojů](./keep-source-numbering/) Naučte se, jak importovat dokumenty se zachováním formátování pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu. |
-| [Ignorovat textová pole](./ignore-text-boxes/) | Sloučení dokumentů Wordu pomocí Aspose.Words pro .NET a zajištění formátování textových polí. Postupujte podle tohoto podrobného návodu pro bezproblémové zpracování dokumentů. |
 | [Ignorovat záhlaví a zápatí](./ignore-header-footer/) | Naučte se, jak sloučit dokumenty Wordu s ignorováním záhlaví a zápatí pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 | [Záhlaví a zápatí odkazů](./link-headers-footers/) | Naučte se, jak propojit záhlaví a zápatí mezi dokumenty v Aspose.Words pro .NET. Zajistěte si konzistenci a integritu formátování bez námahy. |
 | [Odebrat záhlaví a zápatí zdroje](./remove-source-headers-footers/) | Naučte se, jak odstranit záhlaví a zápatí v dokumentech Wordu pomocí Aspose.Words pro .NET. Zjednodušte si správu dokumentů s naším podrobným návodem. |

@@ -43,7 +43,6 @@ Aspose.Words for .NET 教學將引導您了解應用程式中使用 Word 文件�
 | [智慧風格行為](./smart-style-behavior/) |了解如何使用 Aspose.Words for .NET 無縫合併 Word 文檔，保留樣式並確保專業效果。 |
 | [使用生成器插入文檔](./insert-document-with-builder/) |了解如何使用 Aspose.Words for .NET 合併兩個 Word 文件。使用 DocumentBuilder 插入文件並保留格式的逐步指南。 |
 | [保留源編號](./keep-source-numbering/) |了解如何使用 Aspose.Words for .NET 匯入文件並保留格式。帶有程式碼範例的分步指南。 |
-| [忽略文字框](./ignore-text-boxes/) |將 Word 文件與 Aspose.Words for .NET 合併，確保文字方塊格式得以保留。請按照本逐步指南進行操作，即可實現無縫文件處理。 |
 | [忽略頁首頁尾](./ignore-header-footer/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 合併 Word 文件並忽略頁首和頁尾。 |
 | [連結頁眉頁腳](./link-headers-footers/) |了解如何在 Aspose.Words for .NET 中連結文件之間的頁首和頁尾。輕鬆確保一致性和格式完整性。 |
 | [刪除來源頁首頁腳](./remove-source-headers-footers/) |了解如何使用 Aspose.Words for .NET 刪除 Word 文件中的頁首和頁尾。透過我們的逐步指南簡化您的文件管理。 |

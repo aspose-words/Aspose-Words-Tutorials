@@ -43,7 +43,6 @@ Dessa handledningar för Aspose.Words för .NET ger dig värdefulla resurser fö
 | [Smart stilbeteende](./smart-style-behavior/) | Lär dig hur du sömlöst sammanfogar Word-dokument med Aspose.Words för .NET, bevarar stilar och säkerställer professionella resultat. |
 | [Infoga dokument med Builder](./insert-document-with-builder/) | Lär dig hur du sammanfogar två Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide för att infoga ett dokument med DocumentBuilder och bevara formateringen. |
 | [Behåll källnumreringen](./keep-source-numbering/) Lär dig hur du importerar dokument samtidigt som du bevarar formateringen med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel. |
-| [Ignorera textrutor](./ignore-text-boxes/) | Sammanfoga Word-dokument med Aspose.Words för .NET, och se till att textrutornas formatering bevaras. Följ den här steg-för-steg-guiden för smidig dokumentbehandling. |
 | [Ignorera sidhuvudets sidfot](./ignore-header-footer/) | Lär dig hur du sammanfogar Word-dokument utan att använda sidhuvuden och sidfot med Aspose.Words för .NET med den här steg-för-steg-guiden. |
 | [Länkhuvuden Sidfot](./link-headers-footers/) | Lär dig hur du länkar sidhuvuden och sidfot mellan dokument i Aspose.Words för .NET. Säkerställ konsekvens och formateringsintegritet utan problem. |
 | [Ta bort källhuvuden/sidfot](./remove-source-headers-footers/) | Lär dig hur du tar bort sidhuvuden och sidfot i Word-dokument med Aspose.Words för .NET. Förenkla din dokumenthantering med vår steg-för-steg-guide. |

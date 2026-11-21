@@ -43,7 +43,6 @@ Aspose.Words for .NET 튜토리얼은 애플리케이션에서 Word 문서를 �
 | [스마트 스타일 동작](./smart-style-behavior/) | Aspose.Words for .NET을 사용하여 Word 문서를 원활하게 병합하고 스타일을 유지하면서 전문적인 결과를 보장하는 방법을 알아보세요. |
 | [빌더로 문서 삽입](./insert-document-with-builder/) | Aspose.Words for .NET을 사용하여 두 Word 문서를 병합하는 방법을 알아보세요. DocumentBuilder를 사용하여 문서를 삽입하고 서식을 유지하는 단계별 가이드입니다. |
 | [소스 번호 유지](./keep-source-numbering/) Aspose.Words for .NET을 사용하여 서식을 유지하면서 문서를 가져오는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다. |
-| [텍스트 상자 무시](./ignore-text-boxes/) | Aspose.Words for .NET을 사용하여 Word 문서를 병합하고 텍스트 상자 서식을 그대로 유지하세요. 원활한 문서 처리를 위한 단계별 가이드를 따르세요. |
 | [헤더 푸터 무시](./ignore-header-footer/) | 이 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 머리글과 바닥글을 무시하고 Word 문서를 병합하는 방법을 알아보세요. |
 | [링크 헤더 푸터](./link-headers-footers/) | Aspose.Words for .NET에서 문서 간의 머리글과 바닥글을 연결하는 방법을 알아보세요. 일관성과 서식 무결성을 손쉽게 확보하세요. |
 | [소스 헤더 및 푸터 제거](./remove-source-headers-footers/) | Aspose.Words for .NET을 사용하여 Word 문서에서 머리글과 바닥글을 제거하는 방법을 알아보세요. 단계별 가이드를 통해 문서 관리를 간소화하세요. |

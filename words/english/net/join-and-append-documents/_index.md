@@ -44,7 +44,6 @@ These Aspose.Words for .NET tutorials provide you with valuable resources to mas
 | [Smart Style Behavior](./smart-style-behavior/) | Learn how to merge Word documents seamlessly with Aspose.Words for .NET, preserving styles and ensuring professional results. |
 | [Insert Document With Builder](./insert-document-with-builder/) | Learn how to merge two Word documents using Aspose.Words for .NET. Step-by-step guide to insert a document with DocumentBuilder and preserve formatting. |
 | [Keep Source Numbering](./keep-source-numbering/) | Learn how to import documents while preserving formatting using Aspose.Words for .NET. Step-by-step guide with code examples. |
-| [Ignore Text Boxes](./ignore-text-boxes/) | Merge Word documents with Aspose.Words for .NET, ensuring text box formatting is preserved. Follow this step-by-step guide for seamless document processing. |
 | [Ignore Header Footer](./ignore-header-footer/) | Learn how to merge Word documents while ignoring headers and footers using Aspose.Words for .NET with this step-by-step guide. |
 | [Link Headers Footers](./link-headers-footers/) | Learn how to link headers and footers between documents in Aspose.Words for .NET. Ensure consistency and formatting integrity effortlessly. |
 | [Remove Source Headers Footers](./remove-source-headers-footers/) | Learn how to remove headers and footers in Word documents using Aspose.Words for .NET. Simplify your document management with our step-by-step guide. |

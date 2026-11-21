@@ -43,7 +43,6 @@ Các hướng dẫn Aspose.Words for .NET này cung cấp cho bạn các nguồn
 | [Hành vi phong cách thông minh](./smart-style-behavior/) | Tìm hiểu cách hợp nhất các tài liệu Word một cách liền mạch với Aspose.Words cho .NET, giữ nguyên kiểu dáng và đảm bảo kết quả chuyên nghiệp. |
 | [Chèn Tài Liệu Với Builder](./insert-document-with-builder/) | Tìm hiểu cách hợp nhất hai tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để chèn tài liệu bằng DocumentBuilder và giữ nguyên định dạng. |
 | [Giữ lại số nguồn](./keep-source-numbering/) Tìm hiểu cách nhập tài liệu trong khi vẫn giữ nguyên định dạng bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ về mã. |
-| [Bỏ qua hộp văn bản](./ignore-text-boxes/) | Hợp nhất các tài liệu Word với Aspose.Words cho .NET, đảm bảo định dạng hộp văn bản được bảo toàn. Làm theo hướng dẫn từng bước này để xử lý tài liệu liền mạch. |
 | [Bỏ qua Header Footer](./ignore-header-footer/) | Tìm hiểu cách hợp nhất các tài liệu Word trong khi bỏ qua phần đầu trang và chân trang bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
 | [Liên kết Đầu trang Chân trang](./link-headers-footers/) | Tìm hiểu cách liên kết tiêu đề và chân trang giữa các tài liệu trong Aspose.Words cho .NET. Đảm bảo tính nhất quán và toàn vẹn định dạng một cách dễ dàng. |
 | [Xóa Nguồn Đầu Trang Chân Trang](./remove-source-headers-footers/) | Tìm hiểu cách xóa tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Đơn giản hóa việc quản lý tài liệu của bạn với hướng dẫn từng bước của chúng tôi. |

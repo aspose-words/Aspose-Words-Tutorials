@@ -43,7 +43,6 @@ Aspose.Words for .NET のこれらのチュートリアルは、実践的な例�
 | [スマートスタイル行動](./smart-style-behavior/) Aspose.Words for .NET を使用して Word 文書をシームレスに結合し、スタイルを保持してプロフェッショナルな結果を得る方法を学習します。 |
 | [ビルダーでドキュメントを挿入](./insert-document-with-builder/) Aspose.Words for .NET を使用して 2 つの Word 文書を結合する方法を学びます。DocumentBuilder を使用して文書を挿入し、書式設定を保持する手順をステップバイステップで説明します。 |
 | [ソース番号を維持する](./keep-source-numbering/) Aspose.Words for .NET を使用して、書式設定を維持しながらドキュメントをインポートする方法を学びます。コード例を使ったステップバイステップのガイドです。 |
-| [テキストボックスを無視](./ignore-text-boxes/) Aspose.Words for .NET を使ってWord文書を結合し、テキストボックスの書式設定を維持します。このステップバイステップガイドに従って、シームレスなドキュメント処理を実現しましょう。 |
 | [ヘッダーフッターを無視](./ignore-header-footer/) このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して、ヘッダーとフッターを無視しながら Word 文書を結合する方法を学習します。 |
 | [リンクヘッダーフッター](./link-headers-footers/) Aspose.Words for .NET でドキュメント間のヘッダーとフッターをリンクする方法を学びましょう。一貫性と書式の整合性を簡単に確保できます。 |
 | [ソースヘッダーフッターを削除](./remove-source-headers-footers/) Aspose.Words for .NET を使用して Word 文書のヘッダーとフッターを削除する方法を学びましょう。ステップバイステップのガイドでドキュメント管理を簡素化しましょう。 |
