@@ -61,7 +61,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在Word文件中插入簡單長條圖](./insert-simple-column-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 中插入簡單長條圖。使用動態視覺資料簡報來增強您的文件。 |
 | [在Word文件中插入長條圖](./insert-column-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中插入長條圖。增強報告和簡報中的資料視覺化。 |
 | [將面積圖插入Word文檔](./insert-area-chart/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 將面積圖插入 Word 文件。 |
-| [在 Word 文件中使用 Aspose.Words 建立圓餅圖](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立圓餅圖，提升報告的視覺效果。 |
 | [在 Word 文件中插入氣泡圖](./insert-bubble-chart/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入氣泡圖。增強您的文件。 |
 | [在 Word 文件中插入散佈圖](./insert-scatter-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 中插入散佈圖。將可視化資料表示整合到文件中的簡單步驟。 |
 | [在 C# 中建立圓餅圖（Word） – 步驟指南](./create-pie-chart-word-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 中以 C# 建立圓餅圖。 |
