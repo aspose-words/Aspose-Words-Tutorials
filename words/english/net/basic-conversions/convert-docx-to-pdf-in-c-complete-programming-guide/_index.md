@@ -184,10 +184,8 @@ And a tidy `output.pdf` sits beside your source file.
 | Question | Answer |
 |----------|--------|
 | **Can I convert a DOCX stored in a `MemoryStream`?** | Absolutely. Use `new Document(stream)` instead of a file path. |
-| **What if the DOCX contains macros?** | Aspose.Words ignores VBA macros by default; they won’t appear in the PDF. |
-| **Do I need a license for production?** | The free trial adds a watermark after a certain page count. For commercial use, obtain a license to remove it. |
-| **How do I change the PDF page size?** | Set `pdfOptions.PageSetup.PaperSize = PaperSize.A4;` before saving. |
-| **Is there a way to embed a custom font?** | Yes—add `pdfOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;`. |
+| **How do I change the PDF page size?** | Set the page size on the document’s sections before saving, e.g., `document.FirstSection.PageSetup.PaperSize = PaperSize.A4;`. |
+| **Is there a way to embed a custom font?** | Yes—add `pdfOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;`. |
 
 ---
 
