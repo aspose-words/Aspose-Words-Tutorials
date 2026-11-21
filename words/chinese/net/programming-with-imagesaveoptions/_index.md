@@ -31,7 +31,6 @@ Aspose.Words for .NET 教程：使用 ImageSaveOptions 进行文字处理，将�
 | [从 Word 文档创建 PNG 网格 – 分步指南](./create-png-grid-from-word-document-step-by-step-guide/) 通过本分步指南了解如何使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 网格图像，实现批量页面导出。|
 | [使用 C# 将 Word 保存为图像 – 分步指南](./save-word-as-images-with-c-step-by-step-guide/) 通过本分步指南了解如何使用 Aspose.Words for .NET 将 Word 文档转换为图像并自定义设置。|
 | [在将 Word 转换为 PNG 时设置 DPI – 高分辨率导出指南](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) 通过本分步指南，了解如何在使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 时实现高分辨率导出并设置 DPI。|
-| [从 Word 文档创建 PNG 网格 – 完整指南](./create-png-grid-from-word-document-complete-guide/) 通过本完整指南学习如何使用 Aspose.Words for .NET 将 Word 文档的页面导出为 PNG 网格图像，实现批量转换和布局控制。|
 | [在将 Word 转换为 PNG 时设置分辨率 – 完整指南](./how-to-set-resolution-when-converting-word-to-png-complete-g/) 通过本详细的 C# 示例，学习如何在使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 时自定义分辨率设置。|
 | [导出 Word 为 PNG – 将 DOCX 转换为单张图像](./export-word-as-png-convert-docx-to-one-image/) 通过本分步指南了解如何使用 Aspose.Words for .NET 将整个 DOCX 文档转换为单个 PNG 图像。|
 | [将 docx 转换为 png – 完整分步指南](./convert-docx-to-png-complete-step-by-step-guide/) 通过本完整的分步指南，学习使用 Aspose.Words for .NET 将 docx 文档转换为 PNG 图像。|
