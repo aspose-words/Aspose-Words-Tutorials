@@ -32,7 +32,6 @@
 | [حفظ مستند Word كصور باستخدام C# – دليل خطوة بخطوة](./save-word-as-images-with-c-step-by-step-guide/) |تعلم كيفية حفظ مستندات Word كصور باستخدام C# مع خطوات مفصلة وإعدادات مخصصة. |
 | [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل التصدير عالي الدقة](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) |تعلم كيفية تعيين قيمة DPI عند تحويل مستندات Word إلى PNG بجودة عالية باستخدام Aspose.Words for .NET مع مثال كامل. |
 | [كيفية ضبط الدقة عند تحويل Word إلى PNG – دليل كامل](./how-to-set-resolution-when-converting-word-to-png-complete-g/) |تعلم كيفية تعيين الدقة عند تحويل مستندات Word إلى PNG باستخدام Aspose.Words for .NET مع دليل كامل. |
-| [تصدير Word كـ PNG – تحويل DOCX إلى صورة واحدة](./export-word-as-png-convert-docx-to-one-image/) |تعلم كيفية تصدير مستند Word إلى صورة PNG واحدة باستخدام Aspose.Words for .NET. |
 | [تحويل docx إلى png – دليل خطوة بخطوة كامل](./convert-docx-to-png-complete-step-by-step-guide/) |تعلم كيفية تحويل ملفات docx إلى صور PNG باستخدام Aspose.Words for .NET مع شرح شامل خطوة بخطوة. |
 | [كيفية ضبط DPI – تصدير Word إلى شبكة PNG في C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) |تعلم كيفية تعيين DPI عند تصدير مستند Word إلى شبكة من صور PNG باستخدام C# و Aspose.Words. |
 | [حفظ Word كـ PNG – دليل Aspose.Words الكامل](./save-word-as-png-complete-aspose-words-guide/) |تعلم كيفية حفظ مستندات Word كملفات PNG باستخدام Aspose.Words مع دليل شامل خطوة بخطوة. |
