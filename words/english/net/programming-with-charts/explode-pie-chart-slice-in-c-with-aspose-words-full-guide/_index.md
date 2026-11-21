@@ -109,30 +109,41 @@ We need a `Document` object that points at the `.docx` with the chart you want t
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 // Load the source document
 Document doc = new Document(@"C:\Charts\Chart.docx");
 
 // Verify that the document actually contains a chart
-if (doc.GetChildNodes(NodeType.Chart, true).Count == 0)
+Shape chartShape = null;
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+foreach (Shape shape in shapes)
+{
+    if (shape.HasChart)
+    {
+        chartShape = shape;
+        break;
+    }
+}
+if (chartShape == null)
 {
     throw new InvalidOperationException("No chart found in the specified document.");
 }
 ```
 
-> **Why this matters:** `Document` is the entry point for every operation in Aspose.Words. By checking for charts early, we avoid a null reference later when we try to explode a slice.
+> **Why this matters:** `Document` is the entry point for every operation in Aspose.Words. By locating a `Shape` that actually contains a chart we avoid null‑reference issues later when we try to explode a slice.
 
 ### Step 3: Retrieve the First Chart Node
 
 Most examples assume a single chart, so we’ll grab the first one. If you have multiple charts, adjust the index accordingly.
 
 ```csharp
-// Grab the first chart in the document (index 0)
-Chart chart = (Chart)doc.GetChild(NodeType.Chart, 0, true);
+// Grab the first chart in the document (the one we located above)
+Chart chart = chartShape.Chart;
 ```
 
-> **Note:** The cast to `Chart` is safe after we confirmed a chart exists. This object gives us access to series, data points, and chart‑type‑specific settings.
+> **Note:** The `Chart` object gives us access to series, data points, and chart‑type‑specific settings.
 
 ### Step 4: Explode the First Slice of a Pie Chart
 
@@ -226,7 +237,7 @@ Absolutely. Loop through `chart.PieChartData.Series[0].DataPoints` and set `Expl
 Aspose.Words stores numeric values as doubles, independent of locale, so you’re safe from commas vs periods issues.
 
 **What about charts embedded in headers/footers?**  
-Use `doc.GetChildNodes(NodeType.Chart, true)` to retrieve all charts, then inspect each node’s `ParentNode` to see where it lives. The same explode logic applies.
+Use `doc.GetChildNodes(NodeType.Shape, true)` to retrieve all shapes, then inspect each shape’s `HasChart` property to see where it lives. The same explode logic applies.
 
 ---
 
