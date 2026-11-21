@@ -23,7 +23,6 @@ Leer hoe u OpenType-functies in uw Word-documenten kunt inschakelen met Aspose.W
 | [Open Type-functies](./open-type-features/) | Leer hoe u OpenType-functies in Word-documenten kunt inschakelen met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
 | [Word-document maken met Aspose.Words – Stapsgewijze handleiding](./create-word-document-with-aspose-words-step-by-step-guide/) | Leer hoe u stap voor stap een Word‑document maakt met Aspose.Words voor .NET. |
 
-| [Variabel gewichtlettertype gebruiken in C# – Complete programmeergids](./use-variable-weight-font-in-c-complete-programming-guide/) | Leer hoe u variabele gewichtlettertypen in C# kunt gebruiken met Aspose.Words voor .NET in deze volledige programmeergids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
