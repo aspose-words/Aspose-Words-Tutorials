@@ -227,7 +227,7 @@ All chart modifications follow the same pattern: retrieve the chart, adjust its 
 |---|---|---|
 | The chart is inside a grouped shape. | `GetChild(NodeType.Shape, …)` returns the outer group, not the inner chart. | Search recursively for a shape with `shape.HasChart`. |
 | Data labels do not appear after saving. | `ShowValue` or `ShowPercentage` was not set to `true`. | Explicitly set both `ShowValue` and `ShowPercentage` as needed. |
-| Labels overlap on small slices. | Center positioning can cause crowding. | Use `ChartDataLabelPosition.OutsideEnd` for outside placement, or enable `LeaderLines`. |
+| Labels overlap on small slices. | Center positioning can cause crowding. | Use `ChartDataLabelPosition.OutsideEnd` for outside placement, or set `ShowLeaderLines = true`. |
 
 Applying these tips ensures reliable results across different chart types.
 
