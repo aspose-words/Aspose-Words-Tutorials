@@ -184,7 +184,7 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 Streaming reduces memory pressure and speeds up the write operation.
 
 ### Is PDF/UA‑2 the same as PDF/A‑2?  
-No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. If you also need PDF/A‑2 compliance, set `Compliance = PdfCompliance.PdfA2a` (or `PdfA2u` for Unicode) on the same `PdfSaveOptions` instance.
+No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. `Compliance` holds one value, so setting `PdfCompliance.PdfA2a` would replace `PdfUa2`, not add to it. If you need both, set `Compliance = PdfCompliance.PdfA4Ua2`, which meets PDF/A‑4 and PDF/UA‑2 together.
 
 ## Tips for a Smooth Conversion Experience  
 
