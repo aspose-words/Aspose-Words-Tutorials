@@ -184,7 +184,7 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 Streaming reduces memory pressure and speeds up the write operation.
 
 ### Is PDF/UA‑2 the same as PDF/A‑2?  
-No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. Aspose.Words can produce both simultaneously by setting `Compliance = PdfCompliance.PdfUa2` and `PdfACompliance = PdfACompliance.PdfA2b` if you need archival compliance as well.
+No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. If you also need PDF/A‑2 compliance, set `Compliance = PdfCompliance.PdfA2a` (or `PdfA2u` for Unicode) on the same `PdfSaveOptions` instance.
 
 ## Tips for a Smooth Conversion Experience  
 
