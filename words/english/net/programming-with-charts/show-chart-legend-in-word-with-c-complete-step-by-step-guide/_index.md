@@ -26,12 +26,11 @@ schemas:
   name: Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide
   steps:
   - name: How to add legend to a specific chart (not the first one)?
-    text: 'Replace the `0` index in `GetChild(NodeType.Chart, 0, true)` with the zero‑based
-      position of your target chart, or loop through all chart nodes:'
+    text: 'Loop through every shape that holds a chart:'
   - name: Can I place the legend at the bottom instead of the right?
     text: 'Absolutely. Just change the `LegendPosition` enum:'
   - name: What if the chart already has a legend but I want to hide it?
-    text: 'Set `HasLegend` to `false`:'
+    text: 'Set the legend position to `LegendPosition.None`:'
   - name: Does this work with Word 2010, 2016, and later?
     text: Yes. Aspose.Words abstracts the underlying Word version, so the same code
       works across all modern .docx files.
@@ -62,7 +61,7 @@ We'll walk through the entire workflow:
 1. Load an existing *.docx* that already contains a chart.  
 2. Retrieve the first chart (or any chart you target).  
 3. **Apply preset chart style** to give the visual a professional look.  
-4. **Show chart legend**, position it on the right, and handle special cases like Waterfall charts.  
+4. **Show chart legend**, and position it on the right.  
 5. Save the modified document.
 
 No external tools, no manual fiddling with the UI—just pure code. The only prerequisite is a reference to the Aspose.Words NuGet package (version 23.10 or later) and a basic understanding of C#.
@@ -85,6 +84,7 @@ First, create a console app (or integrate the code into an existing project). Ad
 ```csharp
 using System;
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 class Program
@@ -103,42 +103,45 @@ class Program
 
 ## Step 2: Retrieve the Target Chart
 
-Charts are stored as nodes inside the document tree. The `GetChild` method performs a deep search, letting us fetch the first chart regardless of where it sits (header, body, footer, etc.).
+Charts are stored as nodes inside the document tree. A chart lives in a `Shape`; `GetChildNodes(NodeType.Shape, true)` searches the whole document, and the first shape with `HasChart` holds the chart we want.
 
 ```csharp
         // Retrieve the first chart in the document (deep search)
-        Chart chart = (Chart)doc.GetChild(NodeType.Chart, 0, true);
-        if (chart == null)
+        Shape chartShape = null;
+        foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
+        {
+            if (shape.HasChart) { chartShape = shape; break; }
+        }
+        if (chartShape == null)
         {
             Console.WriteLine("No chart found in the document.");
             return;
         }
+        Chart chart = chartShape.Chart;
 ```
 
-> **Tip:** If you have multiple charts, change the index `0` to `1`, `2`, … or iterate through `doc.GetChildNodes(NodeType.Chart, true)`.
+> **Tip:** If you have multiple charts, keep looping instead of stopping at the first shape with `HasChart`.
 
 ---
 
 ## Step 3: Apply a Preset Visual Style
 
-A good-looking chart often starts with a style. Aspose.Words ships with dozens of built‑in styles; `ChartStyle.Style12` is a clean, modern option.
+A good-looking chart often starts with a style. `Chart.Style` takes a `ChartStyle` preset such as `Normal`, `Muted`, `Flat` or `Gradient`; `ChartStyle.Flat` draws flat data points without gradients.
 
 ```csharp
         // Apply a preset visual style to the chart
-        chart.Style = ChartStyle.Style12;
+        chart.Style = ChartStyle.Flat;
 ```
 
-> **How it works:** The `Style` property maps to the built‑in Word chart styles you see in the UI. Choosing a preset saves you from manually setting colors, fonts, and markers.
 
 ---
 
 ## Step 4: Enable the Legend and Position It
 
-Now for the star of the show—**show chart legend**. We turn the legend on, then dock it to the right side of the chart.
+Now for the star of the show—**show chart legend**. Setting the legend position shows the legend and docks it to the right side of the chart.
 
 ```csharp
-        // Enable the legend and place it on the right side
-        chart.HasLegend = true;
+        // Show the legend on the right side
         chart.Legend.Position = LegendPosition.Right;
 ```
 
@@ -146,23 +149,7 @@ Now for the star of the show—**show chart legend**. We turn the legend on, the
 
 ---
 
-## Step 5: Handle Waterfall Charts (Special Case)
-
-Waterfall charts behave a bit differently; the legend can be hidden by default. The following guard clause ensures the legend is visible when the chart type is Waterfall.
-
-```csharp
-        // For Waterfall charts, ensure the legend is visible
-        if (chart.Type == ChartType.Waterfall)
-        {
-            chart.Legend.Show = true;
-        }
-```
-
-> **Edge case note:** Some older Word versions ignore `HasLegend` for Waterfall charts, so explicitly setting `Legend.Show` guarantees visibility.
-
----
-
-## Step 6: Save the Modified Document
+## Step 5: Save the Modified Document
 
 Finally, write the changes back to disk. You can overwrite the original file or create a new one.
 
@@ -174,7 +161,7 @@ Finally, write the changes back to disk. You can overwrite the original file or 
 }
 ```
 
-Running the program will produce `output.docx` with a visible legend on the right, styled with `Style12`. Open the file in Word to verify the result.
+Running the program will produce `output.docx` with a visible legend on the right, styled with `ChartStyle.Flat`. Open the file in Word to verify the result.
 
 ---
 
@@ -185,6 +172,7 @@ Below is the complete, ready‑to‑run code. Copy‑paste it into `Program.cs` 
 ```csharp
 using System;
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 class Program
@@ -195,34 +183,33 @@ class Program
         Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
         // 2️⃣ Retrieve the first chart (deep search)
-        Chart chart = (Chart)doc.GetChild(NodeType.Chart, 0, true);
-        if (chart == null)
+        Shape chartShape = null;
+        foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
+        {
+            if (shape.HasChart) { chartShape = shape; break; }
+        }
+        if (chartShape == null)
         {
             Console.WriteLine("No chart found in the document.");
             return;
         }
+        Chart chart = chartShape.Chart;
 
         // 3️⃣ Apply a preset visual style (show chart legend with a nice look)
-        chart.Style = ChartStyle.Style12;
+        chart.Style = ChartStyle.Flat;
 
-        // 4️⃣ Enable the legend and dock it to the right
-        chart.HasLegend = true;
+        // 4️⃣ Show the legend, docked to the right
         chart.Legend.Position = LegendPosition.Right;
 
-        // 5️⃣ Special handling for Waterfall charts
-        if (chart.Type == ChartType.Waterfall)
-        {
-            chart.Legend.Show = true;
-        }
 
-        // 6️⃣ Save the updated document
+        // 5️⃣ Save the updated document
         doc.Save("YOUR_DIRECTORY/output.docx");
         Console.WriteLine("Chart legend added and style applied successfully.");
     }
 }
 ```
 
-**Expected output:** Opening `output.docx` shows the original chart with a right‑aligned legend, styled with the modern `Style12`. All data series are clearly labeled, making the chart instantly understandable.
+**Expected output:** Opening `output.docx` shows the original chart with a right‑aligned legend, styled with `ChartStyle.Flat`. All data series are clearly labeled, making the chart instantly understandable.
 
 ---
 
@@ -230,12 +217,13 @@ class Program
 
 ### How to add legend to a specific chart (not the first one)?
 
-Replace the `0` index in `GetChild(NodeType.Chart, 0, true)` with the zero‑based position of your target chart, or loop through all chart nodes:
+Loop through every shape that holds a chart:
 
 ```csharp
-NodeCollection charts = doc.GetChildNodes(NodeType.Chart, true);
-foreach (Chart c in charts)
+foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 {
+    if (!shape.HasChart) continue;
+    Chart c = shape.Chart;
     // Apply the same steps to each chart
 }
 ```
@@ -250,10 +238,10 @@ chart.Legend.Position = LegendPosition.Bottom;
 
 ### What if the chart already has a legend but I want to hide it?
 
-Set `HasLegend` to `false`:
+Set the legend position to `LegendPosition.None`:
 
 ```csharp
-chart.HasLegend = false;
+chart.Legend.Position = LegendPosition.None;
 ```
 
 ### Does this work with Word 2010, 2016, and later?
@@ -284,7 +272,7 @@ Each of these topics builds on the same object model, so you’ll find the learn
 
 ## Conclusion
 
-We’ve just demonstrated a clean, end‑to‑end solution for **show chart legend** in a Word document using C#. By loading the document, retrieving the chart, applying a preset style, enabling the legend, and handling Waterfall quirks, you get a polished chart ready for any business report.  
+We’ve just demonstrated a clean, end‑to‑end solution for **show chart legend** in a Word document using C#. By loading the document, retrieving the chart, applying a preset style, and positioning the legend, you get a polished chart ready for any business report.  
 
 Feel free to experiment with other `ChartStyle` values or legend positions—your data visualizations deserve the best presentation. If you hit any snags, drop a comment below; happy coding!
 
