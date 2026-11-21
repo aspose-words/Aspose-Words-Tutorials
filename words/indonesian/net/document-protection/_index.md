@@ -31,7 +31,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bagian Tidak Terbatas Dalam Dokumen Word](./unrestricted-section/) | Buka bagian tertentu dalam dokumen Word Anda menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk melindungi konten sensitif. Bahasa Indonesia:
 | [Dapatkan Jenis Perlindungan Dalam Dokumen Word](./get-protection-type/) | Pelajari cara memeriksa jenis perlindungan dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah, contoh kode, dan FAQ disertakan. Bahasa Indonesia:
 | [Perlindungan Hanya Baca Dalam Dokumen Word](./read-only-protection/) | Pelajari cara melindungi dokumen Word Anda dengan menerapkan perlindungan baca-saja menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami. Bahasa Indonesia:
-| [Hapus Batasan Hanya Baca](./remove-read-only-restriction/) Hapus batasan baca-saja dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurna untuk pengembang. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -31,7 +31,6 @@ Výukové programy Aspose.Words pro ochranu dokumentů v .NET vás provedou prak
 | [Neomezená sekce v dokumentu Word](./unrestricted-section/) | Odemkněte konkrétní sekce v dokumentu Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro ochranu citlivého obsahu. |
 | [Získejte typ ochrany v dokumentu Word](./get-protection-type/) | Naučte se, jak zkontrolovat typ ochrany dokumentů Wordu pomocí nástroje Aspose.Words pro .NET. Součástí je podrobný návod, příklady kódu a často kladené otázky. |
 | [Ochrana pouze pro čtení v dokumentu Word](./read-only-protection/) | Naučte se, jak chránit dokumenty Wordu nastavením ochrany pouze pro čtení pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu. |
-| [Odebrat omezení pouze pro čtení](./remove-read-only-restriction/) Snadno odstraňte omezení pouze pro čtení z dokumentů Word pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

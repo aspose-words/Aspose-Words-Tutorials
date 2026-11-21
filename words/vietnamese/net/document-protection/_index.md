@@ -31,7 +31,6 @@ Hướng dẫn bảo vệ tài liệu Aspose.Words for .NET hướng dẫn bạn
 | [Phần không giới hạn trong tài liệu Word](./unrestricted-section/) | Mở khóa các phần cụ thể trong tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để bảo vệ nội dung nhạy cảm. |
 | [Nhận Loại Bảo Vệ Trong Tài Liệu Word](./get-protection-type/) | Tìm hiểu cách kiểm tra loại bảo vệ của tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước, ví dụ mã và câu hỏi thường gặp kèm theo. |
 | [Bảo vệ chỉ đọc trong tài liệu Word](./read-only-protection/) | Tìm hiểu cách bảo vệ tài liệu Word của bạn bằng cách áp dụng bảo vệ chỉ đọc bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi. |
-| [Xóa bỏ giới hạn chỉ đọc](./remove-read-only-restriction/) Dễ dàng xóa các hạn chế chỉ đọc khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

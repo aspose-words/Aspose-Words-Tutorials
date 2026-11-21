@@ -31,7 +31,6 @@ Les tutoriels Aspose.Words pour la protection des documents .NET vous guident à
 | [Section non restreinte dans un document Word](./unrestricted-section/) | Déverrouillez des sections spécifiques de votre document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour protéger les contenus sensibles. |
 | [Obtenir le type de protection dans un document Word](./get-protection-type/) | Apprenez à vérifier le type de protection des documents Word avec Aspose.Words pour .NET. Guide étape par étape, exemples de code et FAQ inclus. |
 | [Protection en lecture seule dans un document Word](./read-only-protection/) | Découvrez comment protéger vos documents Word en appliquant une protection en lecture seule avec Aspose.Words pour .NET. Suivez notre guide étape par étape. |
-| [Supprimer la restriction de lecture seule](./remove-read-only-restriction/) Supprimez facilement les restrictions de lecture seule de vos documents Word grâce à Aspose.Words pour .NET grâce à notre guide détaillé étape par étape. Idéal pour les développeurs.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -31,7 +31,6 @@ De Aspose.Words-tutorials voor .NET-documentbeveiliging begeleiden u door prakti
 | [Onbeperkte sectie in Word-document](./unrestricted-section/) | Ontgrendel specifieke secties in uw Word-document met Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor het beschermen van gevoelige inhoud. |
 | [Bescherming verkrijgen Type in Word-document](./get-protection-type/) | Leer hoe u het beveiligingstype van Word-documenten kunt controleren met Aspose.Words voor .NET. Inclusief stapsgewijze handleiding, codevoorbeelden en veelgestelde vragen. |
 | [Alleen-lezenbeveiliging in Word-document](./read-only-protection/) | Leer hoe u uw Word-documenten kunt beveiligen met alleen-lezenbeveiliging met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding. |
-| [Verwijder de beperking Alleen-lezen](./remove-read-only-restriction/) Verwijder eenvoudig leesbeperkingen uit Word-documenten met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. Perfect voor ontwikkelaars. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

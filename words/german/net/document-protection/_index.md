@@ -31,7 +31,6 @@ Die Tutorials zum Dokumentenschutz von Aspose.Words für .NET führen Sie durch 
 | [Uneingeschränkter Abschnitt im Word-Dokument](./unrestricted-section/) | Entsperren Sie bestimmte Abschnitte in Ihrem Word-Dokument mit Aspose.Words für .NET mit dieser Schritt-für-Schritt-Anleitung. Perfekt zum Schutz vertraulicher Inhalte. |
 | [Schutztyp im Word-Dokument abrufen](./get-protection-type/) | Erfahren Sie, wie Sie den Schutztyp von Word-Dokumenten mit Aspose.Words für .NET überprüfen. Schritt-für-Schritt-Anleitung, Codebeispiele und FAQs inklusive. |
 | [Schreibschutz im Word-Dokument](./read-only-protection/) | Erfahren Sie, wie Sie Ihre Word-Dokumente schützen, indem Sie mit Aspose.Words für .NET einen schreibgeschützten Schutz anwenden. Folgen Sie unserer Schritt-für-Schritt-Anleitung. |
-| [Lesebeschränkung entfernen](./remove-read-only-restriction/) Entfernen Sie mit Aspose.Words für .NET ganz einfach Schreibschutzbeschränkungen aus Word-Dokumenten mit unserer detaillierten Schritt-für-Schritt-Anleitung. Perfekt für Entwickler. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

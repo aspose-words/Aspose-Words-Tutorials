@@ -31,7 +31,6 @@ Aspose.Words for .NET belge koruma eğitimleri, Word belgelerinize gelişmiş g�
 | [Word Belgesinde Sınırsız Bölüm](./unrestricted-section/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgenizdeki belirli bölümlerin kilidini açın. Hassas içerikleri korumak için mükemmeldir. |
 | [Word Belgesinde Koruma Türünü Alın](./get-protection-type/) | Aspose.Words for .NET kullanarak Word belgelerinin koruma türünün nasıl kontrol edileceğini öğrenin. Adım adım kılavuz, kod örnekleri ve SSS dahildir. |
 | [Word Belgesinde Salt Okunur Koruması](./read-only-protection/) | Aspose.Words for .NET kullanarak salt okunur korumasını uygulayarak Word belgelerinizi nasıl koruyacağınızı öğrenin. Adım adım kılavuzumuzu izleyin. |
-| [Salt Okunur Kısıtlamasını Kaldır](./remove-read-only-restriction/) Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerinden salt okunur kısıtlamalarını kolayca kaldırın. Geliştiriciler için mükemmel. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

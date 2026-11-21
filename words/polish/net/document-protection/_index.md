@@ -31,7 +31,6 @@ Aspose.Words for .NET document protection tutorials poprowadzi Cię przez prakty
 | [Nieograniczona sekcja w dokumencie Word](./unrestricted-section/) | Odblokuj określone sekcje w dokumencie Word za pomocą Aspose.Words dla .NET z tym przewodnikiem krok po kroku. Idealne do ochrony poufnych treści. |
 | [Uzyskaj typ ochrony w dokumencie Word](./get-protection-type/) | Dowiedz się, jak sprawdzić typ ochrony dokumentów Word za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku, przykłady kodu i często zadawane pytania. |
 | [Ochrona tylko do odczytu w dokumencie Word](./read-only-protection/) | Dowiedz się, jak chronić dokumenty Word, stosując ochronę tylko do odczytu za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku. |
-| [Usuń ograniczenie „tylko do odczytu”](./remove-read-only-restriction/) Łatwo usuń ograniczenia tylko do odczytu z dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
