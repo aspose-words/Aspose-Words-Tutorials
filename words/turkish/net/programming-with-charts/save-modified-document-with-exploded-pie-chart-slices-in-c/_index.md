@@ -217,7 +217,6 @@ Farklı açıları, patlatma ayarlarını veya etiket formatlarını deneyerek r
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
-- [C# ile Düzenlenmiş Belgeyi Kaydetme – Aspose.Words ile Adım Adım Kılavuz](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Aspose.Words for .NET Kullanarak Word Belgesinde Grafik Seri Verilerini Güncelleme](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Word Belgesine Sütun Grafiği Ekleme](/words/english/net/programming-with-charts/insert-column-chart/)
 

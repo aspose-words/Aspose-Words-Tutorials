@@ -219,7 +219,6 @@ Silakan bereksperimen dengan sudut yang berbeda, pengaturan ledakan, atau format
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [How to Save Edited Document in C# with Aspose.Words – Step‑by‑Step Guide](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Update Chart Series Data in a Word Document Using Aspose.Words for .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Insert Column Chart In A Word Document](/words/english/net/programming-with-charts/insert-column-chart/)
 

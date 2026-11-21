@@ -213,7 +213,6 @@ namespace PieChartCustomizer
 
 以下教學與本指南的技術緊密相關，能進一步深化您對 API 的掌握，並提供其他實作方式的範例。
 
-- [如何在 C# 中使用 Aspose.Words 儲存已編輯的文件 – 步驟說明](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [使用 Aspose.Words for .NET 在 Word 文件中更新圖表系列資料](/words/english/net/programming-with-charts/modify-chart-series/)
 - [在 Word 文件中插入直條圖](/words/english/net/programming-with-charts/insert-column-chart/)
 

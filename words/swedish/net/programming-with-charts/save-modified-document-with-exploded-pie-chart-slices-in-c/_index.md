@@ -216,7 +216,6 @@ Känn dig fri att experimentera med olika vinklar, spränginställningar eller e
 
 De följande handledningarna täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man sparar redigerat dokument i C# med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Uppdatera diagramseriedata i ett Word-dokument med Aspose.Words för .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Infoga stapeldiagram i ett Word-dokument](/words/english/net/programming-with-charts/insert-column-chart/)
 

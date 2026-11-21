@@ -217,7 +217,6 @@ Nyugodtan kísérletezzen különböző szögekkel, robbantási beállításokka
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészletet tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [Hogyan mentse a szerkesztett dokumentumot C#-ban az Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Diagram sorozat adatainak frissítése Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Oszlopdiagram beszúrása Word dokumentumba](/words/english/net/programming-with-charts/insert-column-chart/)
 
