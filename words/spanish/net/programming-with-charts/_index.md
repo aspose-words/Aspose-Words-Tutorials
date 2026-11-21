@@ -47,7 +47,6 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 
 
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Ejemplo de gráfico radial de Aspose.Words: habilitar graduaciones en C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cómo formatear un gráfico en Word con C# y formatos de número personalizados" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 

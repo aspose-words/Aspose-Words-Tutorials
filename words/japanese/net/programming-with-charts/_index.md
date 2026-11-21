@@ -47,7 +47,6 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET を使用して Word でチャートタイトルを更新し、凡例の表示を切り替える" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words ラジアルチャートの例: C# でグラデーションを有効にする" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C# でエクスプロードされた円グラフスライスを使用して変更されたドキュメントを保存する" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
