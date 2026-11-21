@@ -48,10 +48,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Step 2: Insert a Field with Text
 
-Use the `InsertField` method of `DocumentBuilder` to add a field. In this example we insert a simple MERGEFIELD:
+Use the `InsertField` method of `DocumentBuilder` to add a field containing text:
 ```csharp
-// Insert a MERGEFIELD as an example field.
-builder.InsertField(FieldType.FieldMergeField, false);
+builder.InsertField("INCLUDETEXT", "Text in field");
 ```
 
 ## Step 3: Ignore Text Inside Fields
