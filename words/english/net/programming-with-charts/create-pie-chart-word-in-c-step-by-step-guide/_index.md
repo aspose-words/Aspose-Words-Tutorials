@@ -73,8 +73,6 @@ Add the Aspose.Words NuGet package to your project:
 dotnet add package Aspose.Words
 ```
 
-> **Pro tip:** If you plan to generate many charts, enable the **Free‑Form Drawing** mode (`DocumentBuilder.UseFreeFormDrawing = true`) for better performance.
-
 ## Create pie chart word with Aspose.Words
 
 The first major step is to create a blank Word document and a `DocumentBuilder`. This object drives all subsequent insertions.
