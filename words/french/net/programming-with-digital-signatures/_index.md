@@ -30,7 +30,6 @@ Grâce à ces tutoriels, vous maîtriserez les fonctionnalités de signature num
 | [Créer une nouvelle ligne de signature et définir l'ID du fournisseur](./create-new-signature-line-and-set-provider-id/) | Apprenez à créer une ligne de signature et à définir l'ID du fournisseur dans des documents Word avec Aspose.Words pour .NET. Guide étape par étape. |
 | [Accéder et vérifier la signature dans un document Word](./access-and-verify-signature/) Accédez et vérifiez les signatures numériques de vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. Assurez l'authenticité de vos documents en toute simplicité. |
 
-| [Comment signer un document Word avec un certificat en utilisant Aspose.Words en C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Apprenez à signer un document Word avec un certificat en C# grâce à Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
