@@ -40,7 +40,8 @@ schemas:
       the conversion logic in a `foreach` loop and reuse a single `PdfSaveOptions`
       instance to improve performance.
   - name: 3️⃣ Handling Large Files (>100 MB)
-    text: 'Large Word files can consume significant memory. Enable **load on demand**:'
+    text: 'Large Word files can consume significant memory. Load them using standard
+      options:'
   - name: 4️⃣ Customizing Page Size or Orientation
     text: 'If the target PDF should be A4 landscape, adjust the `PageSetup` before
       saving:'
@@ -215,10 +216,10 @@ foreach (var file in Directory.GetFiles(inputFolder, "*.docx"))
 
 ### 3️⃣ Handling Large Files (>100 MB)
 
-Large Word files can consume significant memory. Enable **load on demand**:
+Large Word files can consume significant memory. Load them using standard options:
 
 ```csharp
-LoadOptions lo = new LoadOptions { LoadFormat = LoadFormat.Docx, LoadOptions = LoadOptions.LoadOnDemand };
+LoadOptions lo = new LoadOptions { LoadFormat = LoadFormat.Docx };
 Document largeDoc = new Document(sourcePath, lo);
 largeDoc.Save(outputPath, pdfOptions);
 ```
