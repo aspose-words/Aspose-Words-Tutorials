@@ -92,6 +92,7 @@ The first piece of code creates an empty document and a `DocumentBuilder` that l
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 
 class Program
@@ -111,7 +112,8 @@ Now we insert a **column chart**. The `InsertChart` method takes the chart type,
 
 ```csharp
         // Step 3: Insert a column chart with a width of 400 pt and height of 300 pt.
-        Chart chart = builder.InsertChart(ChartType.Column, 400, 300);
+        Shape shape = builder.InsertChart(ChartType.Column, 400, 300);
+        Chart chart = shape.Chart;
 ```
 
 At this point the chart contains a default data series with placeholder values. You can replace the series data if you need custom numbers, but for demonstrating **how to set label** and **how to display values**, the default data is sufficient.
@@ -121,14 +123,16 @@ At this point the chart contains a default data series with placeholder values. 
 Data labels are the text that appears on each column. To make the chart easier to read, we move the label inside the column and enable its numeric value.
 
 ```csharp
-        // Step 4: Access the first data label of the first series.
-        ChartDataLabel label = chart.DataLabels[0];
+        // Step 4: Turn on the data labels of the first series.
+        ChartSeries series = chart.Series[0];
+        series.HasDataLabels = true;
+        ChartDataLabelCollection labels = series.DataLabels;
 
-        // Position the label at the inside end of the column.
-        label.Position = ChartDataLabelPosition.InsideEnd;
+        // Position the labels at the inside end of each column.
+        labels.Position = ChartDataLabelPosition.InsideEnd;
 
         // Show the numeric value of each data point.
-        label.ShowValue = true;
+        labels.ShowValue = true;
 ```
 
 `ChartDataLabelPosition.InsideEnd` places the label at the top of the column but still inside the column’s shape, which is a common visual style for reports. Setting `ShowValue` to `true` satisfies the **how to display values** requirement.
@@ -166,11 +170,9 @@ If you need to replace the placeholder data, you can modify the chart’s `Serie
 ```csharp
 // Replace the default series with custom values.
 chart.Series.Clear();
-ChartSeries series = chart.Series.Add(ChartType.Column);
-series.Name = "Sales Q1";
-series.AddCategory("Jan", 120);
-series.AddCategory("Feb", 150);
-series.AddCategory("Mar", 180);
+ChartSeries sales = chart.Series.Add("Sales Q1",
+    new[] { "Jan", "Feb", "Mar" },
+    new[] { 120.0, 150.0, 180.0 });
 ```
 
 ### Changing label font and color
@@ -178,9 +180,9 @@ series.AddCategory("Mar", 180);
 You can further customize the label appearance:
 
 ```csharp
-label.Font.Name = "Arial";
-label.Font.Size = 10;
-label.Font.Color = System.Drawing.Color.DarkBlue;
+labels.Font.Name = "Arial";
+labels.Font.Size = 10;
+labels.Font.Color = System.Drawing.Color.DarkBlue;
 ```
 
 ### Inserting multiple charts
@@ -189,7 +191,7 @@ The `DocumentBuilder` can insert as many charts as you need. Just call `InsertCh
 
 ## Pro tips
 
-* **Pro tip:** Set `chart.HasTitle = true` and assign `chart.Title.Text` to give the chart a descriptive heading. This improves accessibility for screen readers.
+* **Pro tip:** Set `chart.Title.Show = true` and assign `chart.Title.Text` to give the chart a descriptive heading. This improves accessibility for screen readers.
 * **Watch out for:** When saving to a network share, ensure the application has write permissions; otherwise `doc.Save` will throw an `UnauthorizedAccessException`.
 * **Performance tip:** Reuse a single `DocumentBuilder` instance for multiple insertions; creating a new builder for each operation adds unnecessary overhead.
 
