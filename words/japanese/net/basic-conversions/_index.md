@@ -33,7 +33,6 @@
 | [DocxをTxtに変換する](./docx-to-txt/) Aspose.Words for .NET を使って、ステップバイステップガイドに沿って DOCX を TXT に変換しましょう。効率的かつ簡単にドキュメントを変換する方法を学びましょう。 |
 | [Docx を Txt に保存 – Word の数式を LaTeX にエクスポートする完全ガイド](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) Aspose.Words for .NET を使用して、Docx ファイルを Txt に保存し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [LaTeX 方程式を含む docx を txt に変換 – Aspose.Words ガイド](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) Aspose.Words for .NET を使用して、LaTeX 方程式を含む DOCX を TXT に変換する方法をステップバイステップで解説します。 |
-| [Docx を txt に保存 – Word ファイルをプレーンテキストに変換する完全ガイド](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) Aspose.Words for .NET を使用して、Docx ファイルをテキスト形式に変換し、保存する手順を詳しく解説します。コード例付き。 |
 | [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/) Aspose.Words for .NET を使用して、docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [DOCX を TXT に変換 – LaTeX 方程式の完全 C# ガイド](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) Aspose.Words for .NET を使用し、DOCX を TXT に変換し、LaTeX 方程式を保持する完全な C# ガイドです。コード例付きでステップバイステップ。 |
 | [C# で docx を txt に変換する – 完全プログラミングガイド](./convert-docx-to-txt-with-c-complete-programming-guide/) Aspose.Words for .NET を使用して C# で DOCX を TXT に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |

@@ -50,7 +50,6 @@
 | [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر. |
 | [تحويل docx إلى txt مع معادلات LaTeX – دليل Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى TXT مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words في .NET. |
 | [كيفية حفظ docx كـ txt – تحويل docx، استخراج LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | تعرّف على طريقة حفظ ملفات DOCX كـ TXT واستخراج LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
-| [حفظ ملف docx كـ txt – دليل كامل لتحويل ملفات Word إلى نص عادي](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | تعرّف على طريقة حفظ ملفات DOCX كملفات نصية TXT باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل docx إلى txt – تصدير معادلات Word إلى LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | تعرّف على تحويل DOCX إلى TXT مع تصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
 | [تحويل DOCX إلى TXT – دليل C# كامل للمعادلات LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | تعلّم كيفية تحويل ملفات DOCX إلى TXT مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words في دليل C# شامل. |
 | [تحويل docx إلى txt – دليل كامل لتحويل معادلات Word إلى LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | تعلم كيفية تحويل ملفات DOCX إلى TXT مع دعم تحويل معادلات Word إلى LaTeX خطوة بخطوة. |
