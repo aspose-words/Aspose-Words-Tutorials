@@ -168,7 +168,7 @@ A: Aspose.Words converts SVG to PNG by default when saving to Markdown. The call
 A: The callback sets `args.ResourceFileName` to a relative path (relative to the markdown file). If you moved the markdown after conversion, you’ll need to adjust the links or keep the `Resources` folder alongside it.
 
 **Q: Can I disable image extraction entirely?**  
-A: Yes. Set `markdownOptions.ExportResources = false;` before calling `Save`. This will strip out all `<img>` tags from the markdown.
+A: Aspose.Words does not provide a built‑in option to completely skip image extraction during Markdown conversion. To omit images you would need to post‑process the generated markdown and remove the image links manually.
 
 **Q: Do I need a license for Aspose.Words?**  
 A: The library works in evaluation mode with a watermark. For production use, obtain a commercial license to remove the limitation.
