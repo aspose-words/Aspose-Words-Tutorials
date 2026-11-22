@@ -213,7 +213,6 @@ Lernen Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Word‑Do
 ### [Wie man Gleichungen von Word zu Markdown konvertiert – Vollständige C#‑Anleitung](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 Erfahren Sie, wie Sie mathematische Gleichungen aus Word-Dokumenten in Markdown konvertieren – komplette Anleitung in C#.
 
-### [DOCX in Markdown konvertieren – Vollständige Anleitung mit Zeilenumbruch‑Erhaltung](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Zeilenumbrüche exakt erhalten – komplette Schritt‑für‑Schritt‑Anleitung.
 
 ### [Word als Markdown speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-markdown-with-aspose-words-full-c-guide/)
