@@ -63,7 +63,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word से LaTeX निर्यात कैसे करें – DOCX को Markdown और TXT में बदलें](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Word दस्तावेज़ से LaTeX निकालें और उसे Markdown तथा TXT फ़ॉर्मेट में बदलें। चरण‑दर‑चरण मार्गदर्शिका। |
 | [DOCX को Markdown में बदलते समय फ़ाइल एक्सटेंशन निर्धारित करें – पूर्ण गाइड](./determine-file-extension-while-converting-docx-to-markdown-c/) | DOCX को Markdown में परिवर्तित करते समय फ़ाइल एक्सटेंशन कैसे निर्धारित करें, इस पूर्ण गाइड में सीखें। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
-| [DOCX को C# में मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-markdown-in-c-step-by-step-guide/) | C# में DOCX फ़ाइल को चरण‑दर‑चरण मार्कडाउन में बदलने की विस्तृत गाइड |
 | [DOCX से मार्कडाउन निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में निर्यात करने की पूर्ण चरण‑दर‑चरण गाइड। |
 | [DOCX से इमेज के साथ मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-docx-with-images-complete-guide/) | DOCX फ़ाइलों को इमेज के साथ मार्कडाउन में निर्यात करने की पूरी चरण‑दर‑चरण गाइड। |
 | [Markdown को कैसे सहेजें – Aspose.Words के साथ Word को Markdown में बदलें और गणित निर्यात करें](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजें और गणित निर्यात करें। |

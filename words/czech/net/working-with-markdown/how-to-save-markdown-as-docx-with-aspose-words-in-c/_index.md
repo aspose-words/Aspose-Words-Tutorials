@@ -263,7 +263,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak uložit markdown z DOCX – krok za krokem průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Převést docx na markdown pomocí Aspose.Words – kompletní průvodce](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [Převést docx na markdown v C# – krok za krokem průvodce](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

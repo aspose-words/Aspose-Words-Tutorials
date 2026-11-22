@@ -263,7 +263,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 
 - [Πώς να Αποθηκεύσετε Markdown από DOCX – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Μετατροπή docx σε markdown με Aspose.Words – Πλήρης Οδηγός](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [Μετατροπή docx σε markdown σε C# – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
