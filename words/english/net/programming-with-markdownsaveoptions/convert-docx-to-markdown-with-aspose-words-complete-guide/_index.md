@@ -78,13 +78,13 @@ Aspose.Words doesn’t just dump the text; it lets you fine‑tune the markdown 
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
     // Export an empty line for each empty paragraph.
-    // Alternatives: NoLineBreak (skip entirely) or Preserve (keep as <br/>)
+    // Alternatives: None (skip entirely) or MarkdownHardLineBreak (keep as hard line break)
     EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
 };
 ```
 
 **Why you might choose `EmptyLine`:**  
-When converting technical documentation, a blank line often signals a new section or a visual break. Using `EmptyLine` preserves that intent in the resulting `.md` file. If you prefer a tighter layout, switch to `NoLineBreak`.
+When converting technical documentation, a blank line often signals a new section or a visual break. Using `EmptyLine` preserves that intent in the resulting `.md` file. If you prefer a tighter layout, switch to `None`.
 
 > *Watch out:* If your source Word file contains many consecutive empty paragraphs, the markdown may end up with a series of blank lines. You can post‑process the output with a simple regex if needed.
 
@@ -115,7 +115,7 @@ Open `output.md` in any markdown viewer (VS Code, Typora, GitHub preview) and 
 
 If something looks off, double‑check:
 
-1. **Style mapping:** Aspose.Words uses the built‑in style names (`Heading 1`, `Normal`). Custom styles may need manual mapping via `MarkdownSaveOptions.CustomStylesMap`.
+1. **Style mapping:** Aspose.Words uses the built‑in style names (`Heading 1`, `Normal`). Custom styles may need manual mapping after conversion if required.
 2. **Encoding:** The default is UTF‑8, which works for most languages. If you need a different code page, set `markdownOptions.Encoding`.
 
 ## Common Variations & Edge Cases
@@ -125,7 +125,7 @@ If something looks off, double‑check:
 If you decide that empty lines clutter your markdown, just flip the enum:
 
 ```csharp
-markdownOptions.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.NoLineBreak;
+markdownOptions.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None;
 ```
 
 ### 2. Controlling Image Extraction
@@ -151,11 +151,7 @@ This avoids loading the entire markdown into memory before writing to disk.
 
 ### 4. Custom Markdown Flavour
 
-If you need GitHub‑flavoured markdown (GFM) specific features like task lists, you can set:
-
-```csharp
-markdownOptions.UseGitHubFlavoredMarkdown = true;
-```
+If you need GitHub‑flavoured markdown (GFM) specific features like task lists, you can achieve most of them through standard markdown syntax; Aspose.Words does not expose a dedicated `UseGitHubFlavoredMarkdown` property.
 
 ## Full Working Example
 
@@ -202,9 +198,6 @@ class DocxToMarkdownDemo
 
             // Optional: embed images directly in the markdown (useful for single‑file output)
             // ExportImagesAsBase64 = true,
-
-            // Optional: use GitHub‑flavoured markdown features
-            // UseGitHubFlavoredMarkdown = true
         };
 
         // -----------------------------------------------------------------
