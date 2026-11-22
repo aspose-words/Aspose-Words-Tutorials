@@ -29,7 +29,6 @@ Aspose.Words for .NET 教學課程中使用 ImageSaveOptions 進行文字處理�
 | [頁面儲存回調](./page-saving-callback/) |透過我們詳細的逐步指南，學習使用 Aspose.Words for .NET 將 Word 文件的每一頁儲存為單獨的 PNG 圖像。 |
 | [將 Word 轉換為 PNG 時設定 DPI – 完整 C# 指南](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) |本完整 C# 教程說明如何在將 Word 文件轉換為 PNG 時設定 DPI，以控制圖像解析度與品質。 |
 | [從 Word 文件建立 PNG 網格 – 逐步指南](./create-png-grid-from-word-document-step-by-step-guide/) |本指南說明如何使用 Aspose.Words for .NET 將 Word 文件的內容匯出為 PNG 圖片網格，並自訂排列與尺寸。 |
-| [使用 C# 將 Word 另存為圖像 – 步驟指南](./save-word-as-images-with-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 以 C# 將 Word 文件另存為圖像，並自訂格式與品質。 |
 | [將 Word 轉換為 PNG 時設定解析度 – 完整指南](./how-to-set-resolution-when-converting-word-to-png-complete-g/) |本完整指南說明如何在將 Word 文件轉換為 PNG 時設定解析度，以控制圖像品質與大小。 |
 | [將 DOCX 轉換為 PNG – 完整步驟指南](./convert-docx-to-png-complete-step-by-step-guide/) |完整步驟說明如何將 DOCX 文件轉換為 PNG 圖像，涵蓋設定、品質與最佳化技巧。 |
 | [如何設定 DPI – 在 C# 中將 Word 匯出為 PNG 網格](./how-to-set-dpi-export-word-to-png-grid-in-c/) |本指南說明如何在 C# 中將 Word 文件匯出為 PNG 網格，同時設定 DPI 以控制解析度與品質。 |

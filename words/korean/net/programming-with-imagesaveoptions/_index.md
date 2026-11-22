@@ -29,7 +29,6 @@ Aspose.Words for .NET 튜토리얼에서는 ImageSaveOptions를 사용한 워드
 | [페이지 저장 콜백](./page-saving-callback/) | Aspose.Words for .NET을 사용하여 Word 문서의 각 페이지를 별도의 PNG 이미지로 저장하는 방법을 자세하고 단계별 가이드를 통해 알아보세요. |
 | [Word를 PNG로 변환할 때 DPI 설정 방법 – 완전한 C# 가이드](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 PNG로 변환할 때 DPI를 설정하고 이미지 품질을 제어하는 방법을 단계별로 안내합니다. |
 | [Word 문서에서 PNG 그리드 만들기 – 단계별 가이드](./create-png-grid-from-word-document-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 Word 문서의 페이지를 격자 형태의 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
-| [C#를 사용하여 Word를 이미지로 저장하기 – 단계별 가이드](./save-word-as-images-with-c-step-by-step-guide/) | C# 코드로 Word 문서를 이미지 파일로 변환하는 방법을 단계별로 안내합니다. |
 | [Word를 PNG로 변환할 때 해상도 설정 방법 – 완전 가이드](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Aspose.Words for .NET을 사용하여 Word 문서를 PNG로 변환할 때 해상도를 설정하고 이미지 품질을 제어하는 방법을 단계별로 안내합니다. |
 | [DPI 설정 – C#에서 Word를 PNG 그리드로 내보내기](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Aspose.Words for .NET을 사용하여 Word 문서를 PNG 그리드로 내보내면서 DPI를 설정하는 방법을 단계별로 안내합니다. |
 
