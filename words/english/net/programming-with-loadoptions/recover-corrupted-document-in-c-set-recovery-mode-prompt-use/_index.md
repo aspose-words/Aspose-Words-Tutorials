@@ -68,34 +68,37 @@ That’s all you need for the rest of the guide. The `Aspose.Words.Loading` name
 
 ### Recover Corrupted Document – Setting the Right Recovery Mode
 
-Aspose.Words offers three recovery behaviours:
+Aspose.Words offers two recovery behaviours defined by the `DocumentRecoveryMode` enumeration:
 
 | Mode | What Happens | When to Use |
 |------|--------------|------------|
-| **PromptUser** | Shows a dialog (or you can implement your own prompt) and tries to fix the file. | Ideal for interactive tools where the user can decide. |
-| **Silent** | Attempts to fix automatically, no UI. | Good for batch jobs or services. |
-| **ThrowException** | Stops processing and throws an exception. | Use when you want strict validation. |
+| **None** | No recovery is attempted. If the document is invalid, loading fails with an exception. | Use when you need strict validation and do not want any automatic fixing. |
+| **TryRecover** | Attempts to recover the document while preserving as much data as possible. This is the default behavior. | Ideal for most scenarios, especially when you want to continue processing a partially damaged file. |
 
-Below is how you **set recovery mode** to `PromptUser`. If you prefer silent handling, just swap the enum value.
+Below is how you **set recovery mode** to `TryRecover`. If you prefer strict validation, just swap the enum value to `DocumentRecoveryMode.None`.
 
 ```csharp
 // Step 2: Configure LoadOptions with the desired recovery mode
 LoadOptions loadOptions = new LoadOptions
 {
-    // Choose one of: RecoveryMode.PromptUser, RecoveryMode.Silent, RecoveryMode.ThrowException
-    RecoveryMode = RecoveryMode.PromptUser
+    // Choose one of: DocumentRecoveryMode.None, DocumentRecoveryMode.TryRecover
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
-> **Why this matters:** By explicitly **set recovery mode**, you tell Aspose.Words how aggressive it should be. The default is `PromptUser`, but being explicit makes your intent crystal clear—both for future maintainers and for search engines crawling the code.
+> **Why this matters:** By explicitly **set recovery mode**, you tell Aspose.Words how aggressive it should be. The default is `TryRecover`, but being explicit makes your intent crystal clear—both for future maintainers and for search engines crawling the code.
 
 ---
 
 ## Step 3 – Load the DOCX with Recovery
 
-Now we’ll **load docx with recovery** using the `LoadOptions` we just configured. If the file is damaged, Aspose.Words will either repair it or raise a warning, depending on the mode.
+Now we’ll **load docx with recovery** using the `LoadOptions` we just configured. If the file is damaged, Aspose.Words will either repair it or raise warnings, depending on the mode.
 
 ```csharp
+// Step 3: Prepare a collection to capture any warnings during loading
+var warnings = new WarningInfoCollection();
+loadOptions.WarningCallback = warnings;
+
 // Step 3: Load the potentially corrupted DOCX
 string filePath = @"C:\Temp\corrupt.docx"; // adjust to your environment
 Document document;
@@ -107,25 +110,25 @@ try
 catch (Exception ex)
 {
     Console.WriteLine($"Failed to load document: {ex.Message}");
-    // If you used ThrowException mode, you'll end up here.
+    // If you used DocumentRecoveryMode.None, you'll end up here.
     return;
 }
 ```
 
-The `Document` constructor does the heavy lifting. In **PromptUser** mode, you’ll see a console prompt (or a custom UI if you hook into the `LoadOptions` events) asking whether to continue. In **Silent** mode, the method just tries its best and moves on.
+The `Document` constructor does the heavy lifting. In **TryRecover** mode, Aspose.Words will attempt to fix the file and populate the `warnings` collection with any issues it encountered.
 
 ---
 
 ## Step 4 – Inspect Warnings and Prompt the User
 
-Aspose.Words records any issues it encounters in the `Warnings` collection. Let’s iterate over them and give the user a chance to decide what to do next.
+Aspose.Words records any issues it encounters in the `WarningInfoCollection` we attached to `LoadOptions`. Let’s iterate over them and give the user a chance to decide what to do next.
 
 ```csharp
 // Step 4: Examine any warnings generated during loading
-if (document.Warnings.Count > 0)
+if (warnings.Count > 0)
 {
     Console.WriteLine("The following warnings were detected while loading the document:");
-    foreach (WarningInfo warning in document.Warnings)
+    foreach (WarningInfo warning in warnings)
     {
         Console.WriteLine($"- {warning.Source}: {warning.Description}");
     }
@@ -194,8 +197,12 @@ class RecoverCorruptedDocument
         // 1️⃣ Configure recovery mode
         LoadOptions loadOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.PromptUser // alternatives: Silent, ThrowException
+            RecoveryMode = DocumentRecoveryMode.TryRecover // alternatives: None
         };
+
+        // 1️⃣️⃣ Attach a warning collector
+        var warnings = new WarningInfoCollection();
+        loadOptions.WarningCallback = warnings;
 
         // 2️⃣ Path to the possibly corrupted DOCX
         string filePath = @"C:\Temp\corrupt.docx";
@@ -213,10 +220,10 @@ class RecoverCorruptedDocument
         }
 
         // 4️⃣ Show warnings and ask the user what to do
-        if (document.Warnings.Count > 0)
+        if (warnings.Count > 0)
         {
             Console.WriteLine("The following warnings were detected while loading the document:");
-            foreach (WarningInfo warning in document.Warnings)
+            foreach (WarningInfo warning in warnings)
             {
                 Console.WriteLine($"- {warning.Source}: {warning.Description}");
             }
@@ -254,10 +261,10 @@ Run it, corrupt a test file, and watch the recovery in action. 🎉
 
 | Scenario | What to Change | Why |
 |----------|----------------|-----|
-| **Batch processing** (no user interaction) | Set `RecoveryMode = RecoveryMode.Silent` and remove the console prompt. | Keeps the pipeline moving automatically. |
-| **Strict validation** (fail fast) | Use `RecoveryMode.ThrowException`. Wrap the load call in a try/catch and log the exception. | Guarantees you never work with a partially repaired file. |
-| **Custom UI** (WinForms/WPF) | Subscribe to `LoadOptions.LoadingProgress` or use `Document.LoadOptions` events to show a dialog. | Provides a richer experience than the console. |
-| **Large documents** (memory constraints) | Load with `LoadOptions.LoadFormat = LoadFormat.Docx` and consider `Document.SaveOptions` to stream output. | Prevents OutOfMemory exceptions. |
+| **Batch processing** (no user interaction) | Set `RecoveryMode = DocumentRecoveryMode.TryRecover` (or `None` for strict) and remove the console prompt. | Keeps the pipeline moving automatically. |
+| **Strict validation** (fail fast) | Use `DocumentRecoveryMode.None`. Wrap the load call in a try/catch and log the exception. | Guarantees you never work with a partially repaired file. |
+| **Custom UI** (WinForms/WPF) | Use the same `warnings` collection but display the messages in a dialog instead of the console. | Provides a richer experience than the console. |
+| **Large documents** (memory constraints) | Load with `LoadOptions.LoadFormat = LoadFormat.Docx` and consider streaming the output with appropriate `SaveOptions`. | Prevents OutOfMemory exceptions. |
 
 ---
 
@@ -275,7 +282,7 @@ Run it, corrupt a test file, and watch the recovery in action. 🎉
 
 You now know how to **recover corrupted document** files in C# by **set recovery mode**, **load docx with recovery**, and **prompt user on error** when something goes wrong. The full example demonstrates a clean, end‑to‑end flow that works in console apps, services, or UI projects.
 
-Next steps? Try swapping the console prompt for a modal dialog in a WinForms app, experiment with the **Silent** mode for background jobs, or integrate the recovery logic into an ASP.NET file‑upload endpoint so users can upload broken DOCX files and receive a repaired version instantly.
+Next steps? Try swapping the console prompt for a modal dialog in a WinForms app, experiment with the **TryRecover** mode for background jobs, or integrate the recovery logic into an ASP.NET file‑upload endpoint so users can upload broken DOCX files and receive a repaired version instantly.
 
 Happy coding, and may your documents stay whole!  
 
