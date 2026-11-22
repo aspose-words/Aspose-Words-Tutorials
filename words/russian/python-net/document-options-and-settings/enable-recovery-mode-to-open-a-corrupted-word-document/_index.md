@@ -194,7 +194,6 @@ if __name__ == "__main__":
 
 - [как восстановить docx – установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [восстановить повреждённый docx с Aspose.Words – установить режим восстановления и параметры загрузки](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Восстановление повреждённого DOCX с помощью Aspose.Words LoadOptions – Полное руководство на C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
