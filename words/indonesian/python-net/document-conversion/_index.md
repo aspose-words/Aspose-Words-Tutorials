@@ -43,6 +43,12 @@ Pelajari cara mengekspor konten markdown dari file DOCX menggunakan Aspose.Words
 Pelajari cara menyimpan dokumen Word menjadi file markdown dengan dukungan tabel menggunakan Aspose.Words untuk Python.
 ### [Pulihkan DOCX yang Rusak & Konversi Word ke Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk Python.
+### [Cara mengekspor markdown dan memulihkan DOCX yang rusak dengan Aspose.Words](./how-to-export-markdown-and-recover-a-corrupted-docx-with-asp/)
+Pelajari cara mengekspor konten markdown dari dokumen Word dan memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan DOCX, Mengonversi ke Markdown & PDF dengan Aspose](./how-to-recover-docx-convert-to-markdown-pdf-compl/)
+Pelajari cara memulihkan file DOCX yang rusak, lalu mengonversinya menjadi Markdown dan PDF dengan Aspose.Words untuk Python.
+### [Pulihkan DOCX yang Rusak dan Konversi ke PDF dengan Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi PDF menggunakan Aspose.Words untuk Python.
 ### [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk Python.
 ### [Cara Memulihkan Word dan Mengonversi ke Markdown dengan LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
@@ -81,7 +87,7 @@ Pelajari cara memulihkan file DOCX yang rusak, lalu mengonversinya menjadi Markd
 Pelajari cara mengonversi persamaan dalam dokumen Word menjadi kode LaTeX dan menyimpannya sebagai file Markdown.
 ### [Konversi DOCX ke TXT dan Ekspor Persamaan dari Word ke LaTeX – Panduan Lengkap](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
 Pelajari cara mengonversi file DOCX menjadi TXT dan mengekspor persamaan Word ke LaTeX dengan Aspose.Words untuk Python.
-### [Cara Memulihkan DOCX, Mengonversi ke Markdown & PDF dengan Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+### [Cara Memulihkan DOCX, Mengonversi ke Markdown & PDF dengan Aspose](./how-to-recover-docx-convert-to-markdown-pdf-compl/)
 Pelajari cara memulihkan file DOCX, mengonversinya ke Markdown dan PDF menggunakan Aspose.Words untuk Python.
 ### [Simpan docx sebagai markdown dengan persamaan LaTeX – Panduan Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
 Pelajari cara menyimpan file DOCX menjadi Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk Python.
@@ -133,7 +139,7 @@ Pelajari cara mengekspor persamaan Word ke format LaTeX menggunakan Aspose.Words
 Pelajari cara mengekspor file DOCX ke PDF yang dapat diakses dengan Aspose.Words untuk Python.
 ### [Konversi docx ke txt di Python – panduan lengkap](./convert-docx-to-txt-in-python-full-guide/)
 Pelajari cara mengonversi file DOCX menjadi TXT menggunakan Aspose.Words untuk Python dengan langkah-langkah lengkap.
-### [Simpan Word sebagai Markdown dengan Aspose.Words untuk Python – Panduan Langkah demi Langkah](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+### [Simpan Word sebagai Markdown dengan Aspose.Words untuk Python – Panduan Langkah demi Langkah](./save-word-as-markdown-with-aspose-words-for-python-step-s/)
 Pelajari cara menyimpan dokumen Word menjadi file Markdown menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 ### [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Python](./save-word-as-pdf-with-aspose-words-python-guide/)
 Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python dengan langkah-langkah mudah.

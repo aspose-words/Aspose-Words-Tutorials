@@ -48,6 +48,12 @@ Apprenez à exporter du LaTeX depuis Word et à convertir des fichiers DOCX en M
 Apprenez à exporter du LaTeX depuis des documents Word en utilisant Aspose.Words pour Python.
 ### [Comment exporter du markdown depuis un DOCX avec Aspose.Words pour Python](./how-to-export-markdown-from-a-docx-using-aspose-words-for-py/)
 Apprenez à exporter du contenu Markdown depuis un fichier DOCX avec Aspose.Words pour Python.
+### [Comment exporter du markdown et récupérer un DOCX corrompu avec Aspose.Words](./how-to-export-markdown-and-recover-a-corrupted-docx-with-asp/)
+Apprenez à exporter du Markdown depuis Word et à récupérer un fichier DOCX corrompu avec Aspose.Words pour Python.
+### [Comment exporter du markdown depuis un DOCX avec Aspose.Words pour Python](./how-to-export-markdown-from-a-docx-and-convert-docx-to-markdown/)
+Apprenez à exporter du markdown depuis un DOCX avec Aspose.Words pour Python.
+### [Comment exporter du LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Apprenez à exporter du LaTeX depuis Word et à convertir des fichiers DOCX en Markdown avec Aspose.Words pour Python.
 ### [Créer un PDF à partir de Word – Guide complet Python avec Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Découvrez comment convertir vos documents Word en PDF de manière fiable avec Aspose.Words pour Python.
 ### [Créer un PDF accessible à partir de Word avec Python – Guide étape par étape](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -98,38 +104,6 @@ Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.W
 Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
 ### [Créer un PDF accessible à partir de Word avec Aspose.Words pour Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Apprenez à générer des PDF accessibles depuis des documents Word en utilisant Aspose.Words pour Python.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
-### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
-Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
-### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
-Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
 ### [Créer un PDF accessible – Guide complet avec Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
 Apprenez à créer des PDF accessibles avec Aspose.Words, en suivant un guide complet pas à pas.
 ### [Créer un PDF accessible – Guide complet de programmation](./create-accessible-pdf-from-word-complete-programming-guide/)
