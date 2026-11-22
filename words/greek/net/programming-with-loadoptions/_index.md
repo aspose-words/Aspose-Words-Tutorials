@@ -48,7 +48,6 @@
 | [Πώς να χρησιμοποιήσετε το LoadOptions για την ανίχνευση ελλιπών γραμματοσειρών](./how-to-use-loadoptions-to-detect-missing-fonts/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές που λείπουν κατά τη φόρτωση εγγράφων Word με το LoadOptions του Aspose.Words για .NET. |
 | [Επιδιόρθωση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να επιδιορθώσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
 | [Πώς να καταγράψετε προειδοποιήσεις – διαμορφώστε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Μάθετε πώς να εντοπίζετε προειδοποιήσεις κατά τη φόρτωση εγγράφων Word και να ρυθμίζετε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές. |
-| [Ορισμός προειδοποίησης callback στο Aspose – Πλήρης Οδηγός για Φόρτωση Εγγράφου Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | Μάθετε πώς να ορίσετε callback προειδοποίησης κατά τη φόρτωση εγγράφων Word με το Aspose.Words για .NET. |
 | [Ενεργοποίηση λειτουργίας ανάκτησης – Ανάκτηση κατεστραμμένου εγγράφου Word](./enable-recovery-mode-recover-corrupted-word-document/) | Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης για να ανοίξετε και να επαναφέρετε κατεστραμμένα έγγραφα Word με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -48,7 +48,6 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Aspose.Words で破損した docx を修復する – 完全 C# ガイド](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用し、C# で破損した docx ファイルを完全に修復する手順をステップバイステップで解説します。 |
 | [警告をキャプチャする方法 – 欠落フォント用に LoadOptions を設定する](./how-to-capture-warnings-configure-load-options-for-missing-f/) Aspose.Words for .NET を使用して、欠落フォントに対する警告をキャプチャし、LoadOptions を設定する手順をステップバイステップで解説します。 |
 | [破損したDOCXを復元する – 完全C#ガイド：修復と保存](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを修復し、正常に保存する手順をステップバイステップで解説します。 |
-| [Asposeで警告コールバックを設定する – Word文書読み込みの完全ガイド](./set-warning-callback-aspose-complete-guide-for-word-document/) Aspose.Words の LoadOptions で警告コールバックを設定し、Word 文書の読み込み時に発生する警告を捕捉・処理する完全ガイドです。 |
 | [復元モードを有効にする – 破損した Word 文書を復元](./enable-recovery-mode-recover-corrupted-word-document/) Aspose.Words for .NET の LoadOptions を使用して、復元モードを有効にし、破損した Word 文書を安全に復元する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
