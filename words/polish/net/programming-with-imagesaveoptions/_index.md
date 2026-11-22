@@ -32,7 +32,6 @@ Samouczki obejmują również podstawowe koncepcje manipulacji obrazami, w tym w
 | [Jak ustawić rozdzielczość przy konwertowaniu Word na PNG – Kompletny przewodnik](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Dowiedz się, jak ustawić rozdzielczość przy konwertowaniu dokumentu Word do obrazu PNG w C# przy użyciu Aspose.Words. |
 | [Konwertuj docx do png – Kompletny przewodnik krok po kroku](./convert-docx-to-png-complete-step-by-step-guide/) | Dowiedz się, jak przekonwertować plik docx na obraz PNG, korzystając z Aspose.Words dla .NET, w pełnym przewodniku krok po kroku. |
 | [Jak ustawić DPI – Eksportuj Word do siatki PNG w C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Dowiedz się, jak ustawić DPI podczas eksportowania dokumentu Word do siatki obrazów PNG w C# przy użyciu Aspose.Words. |
-| [Zapisz Word jako PNG – Kompletny przewodnik Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Dowiedz się, jak zapisać dokument Word jako obraz PNG przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

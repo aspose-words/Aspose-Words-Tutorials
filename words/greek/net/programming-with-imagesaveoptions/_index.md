@@ -32,7 +32,6 @@
 | [πώς να ορίσετε ανάλυση κατά τη μετατροπή Word σε PNG – Πλήρης οδηγός](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή εγγράφων Word σε PNG χρησιμοποιώντας Aspose.Words για .NET. |
 | [Μετατροπή docx σε png – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-png-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα docx σε εικόνες PNG χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Πώς να ορίσετε DPI – Εξαγωγή Word σε πλέγμα PNG σε C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Μάθετε πώς να εξάγετε έγγραφα Word σε πλέγμα PNG με ρύθμιση DPI χρησιμοποιώντας Aspose.Words για .NET σε C#. |
-| [Αποθήκευση Word ως PNG – Πλήρης Οδηγός Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PNG με πλήρη οδηγό και παραμετρικές ρυθμίσεις χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

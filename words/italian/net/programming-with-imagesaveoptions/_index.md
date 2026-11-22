@@ -32,7 +32,6 @@ tutorial trattano anche i concetti base della manipolazione delle immagini, tra 
 | [Come impostare la risoluzione durante la conversione da Word a PNG – Guida completa](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Scopri come impostare la risoluzione per la conversione di documenti Word in PNG usando Aspose.Words per .NET con esempi passo passo. |
 | [Converti docx in png – Guida completa passo‑per‑passo](./convert-docx-to-png-complete-step-by-step-guide/) | Scopri come convertire file DOCX in PNG con Aspose.Words per .NET, passo dopo passo, includendo impostazioni di qualità e DPI. |
 | [come impostare DPI – Esporta Word in PNG Grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Scopri come impostare il DPI durante l'esportazione di un documento Word in una griglia PNG usando C# con Aspose.Words per .NET. |
-| [Salva Word come PNG – Guida completa Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Scopri come salvare documenti Word come immagini PNG con una guida completa passo passo usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
