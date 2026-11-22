@@ -120,7 +120,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [मार्कडाउन को वर्ड के रूप में सहेजें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
 | [DOCX से Markdown रूपांतरण में CDN पर छवियों को अपलोड करें – पूर्ण गाइड](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | DOCX को Markdown में बदलते समय छवियों को CDN पर अपलोड करने की पूरी गाइड। |
 | [Aspose docx को markdown में बदलें – रूपांतरण और छवियों को निकालने की पूरी गाइड](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। चरण‑दर‑दर कोड उदाहरण और सर्वोत्तम अभ्यास। |
-| [DOCX को Markdown में बदलें – आकार छाया और पुनर्प्राप्ति के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | .NET के लिए Aspose.Words का उपयोग करके आकार छाया और पुनर्प्राप्ति के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [Word से समीकरणों को Markdown में बदलने का तरीका – पूर्ण C# गाइड](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Word दस्तावेज़ में समीकरणों को Markdown में बदलने के लिए पूर्ण C# गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण। |

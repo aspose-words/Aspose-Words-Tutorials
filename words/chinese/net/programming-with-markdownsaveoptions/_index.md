@@ -326,7 +326,6 @@
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，并导出其中的方程，提供完整示例和分步指南。
 
-### [Convert DOCX to Markdown – Complete Guide with Shape Shadow & Recovery](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 
 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown，展示形状阴影处理及文档恢复技巧。
 

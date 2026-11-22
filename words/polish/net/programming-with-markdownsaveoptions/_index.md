@@ -117,7 +117,6 @@ Dowiedz się, jak zapisać dokument Word jako Markdown i wyeksportować tabele d
 Dowiedz się, jak podczas konwersji DOCX do Markdown przesyłać obrazy do CDN, korzystając z Aspose.Words dla .NET.
 Kompletny przewodnik pokazujący, jak konwertować pliki DOCX do Markdown z eksportem równań LaTeX przy użyciu Aspose.Words dla .NET.
 
-### [Konwertuj DOCX do Markdown – Kompletny przewodnik z cieniami kształtów i odzyskiwaniem](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 Dowiedz się, jak konwertować DOCX do Markdown, zachowując cienie kształtów i odzyskując uszkodzone dokumenty przy użyciu Aspose.Words dla .NET.
 
 ### [Odzyskaj dokument Word przy użyciu Aspose.Words – Pełny przewodnik](./recover-word-document-with-aspose-words-full-guide/)

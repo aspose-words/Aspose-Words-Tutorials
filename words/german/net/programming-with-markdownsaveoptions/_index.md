@@ -126,7 +126,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Gleichun
 ### [Aspose docx zu Markdown – Vollständige Anleitung zum Konvertieren und Extrahieren von Bildern](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose in Markdown konvertieren und dabei alle Bilder extrahieren.
 
-### [DOCX zu Markdown konvertieren – Vollständige Anleitung mit Formschatten und Wiederherstellung](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren, Formschatten beibehalten und beschädigte Dokumente wiederherstellen.
 
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)

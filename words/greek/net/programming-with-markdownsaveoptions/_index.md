@@ -124,7 +124,6 @@
 | [Αποθήκευση markdown ως word – οδηγός βήμα‑βήμα για προγραμματιστές C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Μάθετε πώς να μετατρέψετε markdown σε έγγραφο Word με οδηγίες βήμα‑βήμα για C#. |
 | [Μεταφόρτωση εικόνων σε CDN στη μετατροπή DOCX σε Markdown – Πλήρης Οδηγός](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Μάθετε πώς να ανεβάζετε εικόνες σε CDN κατά τη μετατροπή αρχείων DOCX σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
 | [Aspose docx σε markdown – Πλήρης Οδηγός για τη Μετατροπή και Εξαγωγή Εικόνων](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown και να εξάγετε εικόνες με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
-| [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός με Σκιά Σχήματος & Ανάκτηση](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με πλήρη οδηγό, συμπεριλαμβανομένης της σκιάς σχήματος και της ανάκτησης. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

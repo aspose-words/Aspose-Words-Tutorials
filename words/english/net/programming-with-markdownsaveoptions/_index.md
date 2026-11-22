@@ -152,7 +152,6 @@ class Program
 | [Save markdown as word – step‑by‑step guide for C# developers](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
 | [Upload Images to CDN in DOCX to Markdown Conversion – Complete Guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Learn how to upload images to a CDN during DOCX to Markdown conversion using Aspose.Words for .NET. |
 | [Aspose docx to markdown – Complete Guide to Convert and Extract Images](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Learn how to convert DOCX to Markdown and extract images using Aspose.Words for .NET. |
-| [Convert DOCX to Markdown – Complete Guide with Shape Shadow & Recovery](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
