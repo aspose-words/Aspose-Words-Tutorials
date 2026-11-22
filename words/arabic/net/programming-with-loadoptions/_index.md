@@ -63,7 +63,6 @@
 | [كيفية التقاط التحذيرات – ضبط خيارات التحميل للخطوط المفقودة](./how-to-capture-warnings-configure-load-options-for-missing-f/) | تعلّم كيفية التقاط التحذيرات وضبط خيارات التحميل للتعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 | [استعادة ملف Word تالف وعرض وضع الاستعادة في C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | تعلّم كيفية استعادة ملفات Word التالفة وعرض وضع الاستروة باستخدام Aspose.Words لـ .NET مع مثال عملي بلغة C#. |
 | [استعادة ملف DOCX تالف – دليل C# كامل للإصلاح والحفظ](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET مع دليل خطوة بخطوة بلغة C#. |
-| [كيفية استخدام LoadOptions في Aspose.Words – دليل C# كامل](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | دليل كامل بلغة C# يوضح كيفية استخدام LoadOptions في Aspose.Words لتحميل مستندات Word مع إعدادات مخصصة. |
 | [استعادة ملف docx تالف – دليل كامل لتحميل ملفات Word التالفة في C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | تعلم خطوة بخطوة كيفية استعادة ملفات docx التالفة وتحميلها في C# باستخدام Aspose.Words. |
 | [استعادة DOCX تالف – دليل كامل لإصلاح وتحميل ملفات Word المكسورة](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | دليل شامل يوضح كيفية إصلاح ملفات DOCX التالفة وتحميلها بنجاح باستخدام Aspose.Words لـ .NET. |
 | [استعادة مستند Word تالف باستخدام Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | تعلم كيفية استعادة مستند Word تالف باستخدام Aspose.Words في C# خطوة بخطوة. |
