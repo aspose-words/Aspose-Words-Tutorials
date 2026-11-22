@@ -229,7 +229,6 @@ load_options.recovery_mode = aw.loading.RecoveryMode.REPAIR
 
 - [Восстановление повреждённого DOCX – открыть и загрузить документ Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Восстановление повреждённого DOCX и конвертация Word в Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Восстановление повреждённого файла Word – полное руководство по открытию повреждённого DOCX и получению количества страниц](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

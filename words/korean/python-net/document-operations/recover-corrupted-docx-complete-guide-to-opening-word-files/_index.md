@@ -246,7 +246,6 @@ Aspose.Words for Python을 사용해 **손상된 DOCX 파일을 복구**하는 �
 
 - [손상된 DOCX 복구 – Word 문서 열기 및 로드](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [손상된 DOCX 복구 및 Word를 Markdown으로 변환](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [손상된 Word 파일 복구 – 손상된 DOCX 열기 및 페이지 가져오기 완전 가이드](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

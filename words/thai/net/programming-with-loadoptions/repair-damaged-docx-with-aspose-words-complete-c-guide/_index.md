@@ -284,7 +284,6 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Incoming", "*.docx"))
 
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอน‑โดย‑ขั้นตอน เพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานทางเลือกในโปรเจกต์ของคุณ
 
-- [กู้ไฟล์ Word ที่เสีย – คู่มือเต็มสำหรับเปิด DOCX ที่เสียและรับจำนวนหน้า](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [วิธีกู้ไฟล์ docx – ตั้งค่า recovery mode & เปิดไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

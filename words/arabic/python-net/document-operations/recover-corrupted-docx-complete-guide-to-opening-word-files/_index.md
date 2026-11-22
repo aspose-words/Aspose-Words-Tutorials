@@ -226,7 +226,6 @@ load_options.recovery_mode = aw.loading.RecoveryMode.REPAIR
 
 - [استعادة DOCX تالف – فتح وتحميل مستند Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [استعادة DOCX تالف وتحويل Word إلى Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [استعادة ملف Word تالف – دليل كامل لفتح DOCX تالف والحصول على عدد الصفحات](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

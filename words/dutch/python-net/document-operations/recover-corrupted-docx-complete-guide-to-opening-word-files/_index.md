@@ -248,7 +248,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Corrupt DOCX Herstellen – Openen & Laden van Word‑document](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Corrupt DOCX Herstellen & Word naar Markdown Converteren](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Beschadigd Word‑bestand Herstellen – Complete Gids voor het Openen van Corrupt DOCX & Pagina's Ophalen](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

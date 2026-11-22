@@ -250,7 +250,6 @@ This is the first paragraph of the recovered document...
 以下教程涵盖与本指南紧密相关的主题，构建在本教程展示的技术之上。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能并在自己的项目中探索替代实现方法。
 
 - [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [恢复损坏的 Word 文件 – 完整指南：打开损坏的 DOCX 并获取页数](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [使用 Aspose.Words 在 C# 中恢复 Word 文档](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
