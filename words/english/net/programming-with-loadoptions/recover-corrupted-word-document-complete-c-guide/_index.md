@@ -69,18 +69,18 @@ These two `using` statements give you access to the `Document` class and the `Lo
 
 ## Step 2: Create LoadOptions and Choose a Recovery Strategy
 
-The heart of the solution lies in `LoadOptions`. By setting its `RecoveryMode` to `Recover`, you tell Aspose.Words to attempt fixing the file on the fly.
+The heart of the solution lies in `LoadOptions`. By setting its `RecoveryMode` to `DocumentRecoveryMode.TryRecover`, you tell Aspose.Words to attempt fixing the file on the fly.
 
 ```csharp
 // Step 2: Prepare load options with recovery enabled
 LoadOptions loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover tries to repair the document structure.
-    RecoveryMode = RecoveryMode.Recover
+    // DocumentRecoveryMode.TryRecover tries to repair the document structure.
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
-**Why this matters:** Without `RecoveryMode`, Aspose.Words would throw an exception the moment it spots corruption. The `Recover` flag instructs the parser to ignore minor glitches, rebuild missing parts, and give you a usable `Document` object instead.
+**Why this matters:** By default, `LoadOptions.RecoveryMode` is `DocumentRecoveryMode.TryRecover`, so Aspose.Words already attempts to recover corrupted documents. You can change it to `DocumentRecoveryMode.None` if you want the loading process to fail with an exception when corruption is detected.
 
 ## Step 3: Load the Potentially Corrupted Document
 
@@ -148,7 +148,7 @@ Document protectedDoc = new Document(corruptedPath, loadOptions);
 
 ### Partially‑Saved Files
 
-Sometimes a crash leaves a `.docx` with only half the XML parts. `RecoveryMode.Recover` will still try, but you might end up with missing images or tables. To detect missing resources, iterate through `doc.GetChildNodes(NodeType.Shape, true)` and check for `ImageData` that fails to load.
+Sometimes a crash leaves a `.docx` with only half the XML parts. `DocumentRecoveryMode.TryRecover` will still try, but you might end up with missing images or tables. To detect missing resources, iterate through `doc.GetChildNodes(NodeType.Shape, true)` and check for `ImageData` that fails to load.
 
 ### Large Files
 
@@ -181,7 +181,7 @@ class Program
         // 1️⃣ Configure LoadOptions with recovery enabled
         LoadOptions loadOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.Recover,
+            RecoveryMode = DocumentRecoveryMode.TryRecover,
             // Uncomment if you know the file is password‑protected
             // Password = "YourPassword"
         };
