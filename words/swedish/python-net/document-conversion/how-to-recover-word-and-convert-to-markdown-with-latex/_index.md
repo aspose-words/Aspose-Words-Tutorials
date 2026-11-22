@@ -182,7 +182,6 @@ Nästa steg är att utforska relaterade ämnen som **save document as markdown**
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man återställer DOCX‑filer – Komplett guide för att återställa korrupta Word‑dokument](/words/english/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/)
 - [Konvertera Word till Markdown i C# – Exportera ekvationer som LaTeX](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/)
 - [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 

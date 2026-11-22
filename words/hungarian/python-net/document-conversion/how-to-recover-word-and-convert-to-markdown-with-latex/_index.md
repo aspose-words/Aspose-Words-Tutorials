@@ -184,7 +184,6 @@ Ezután fedezze fel a kapcsolódó témákat, mint a **save document as markdown
 
 A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy elsajátíthassa a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [Hogyan állítsuk helyre a DOCX fájlokat – Teljes útmutató a sérült Word dokumentumok helyreállításához](/words/english/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/)
 - [Word konvertálása Markdownra C#‑ban – Egyenletek exportálása LaTeX‑ként](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/)
 - [Hogyan exportáljunk LaTeX‑et Word‑ből – DOCX konvertálása Markdownra](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
