@@ -28,10 +28,8 @@ schemas:
   - answer: No. The mode is a **read‑time** setting; altering `loadOptions.RecoveryMode`
       later won’t affect an already‑instantiated `Document`.
     question: Can I change the recovery mode after the document is loaded?
-  - answer: 'Use `RecoveryMode.Fast` combined with a post‑load filter that removes
-      nodes of type `NodeType.Shape`. ## Wrap‑Up We’ve just covered how to **recover
-      damaged word file** by explicitly **set recovery mode**, demonstrated **how
-      to load docx** safely, and showed you a practical way to **choose recovery '
+  - answer: Use `DocumentRecoveryMode.TryRecover` and, if you only need the text,
+      remove image nodes (e.g., `NodeType.Shape`) after loading.
     question: What if I need to recover only text and ignore images?
   type: FAQPage
 tags:
@@ -60,7 +58,7 @@ Before we dive in, make sure you have these prerequisites ready:
 |--------------|----------------|
 | .NET 6.0 (or later) | Modern runtime, better performance |
 | Visual Studio 2022 (or VS Code) | Handy IDE for quick testing |
-| **Aspose.Words for .NET** NuGet package | Provides `LoadOptions`, `RecoveryMode`, and `Document` classes |
+| **Aspose.Words for .NET** NuGet package | Provides `LoadOptions`, `DocumentRecoveryMode`, and `Document` classes |
 | A corrupted *input.docx* file (or a copy you can corrupt for testing) | To see the recovery in action |
 
 You can add Aspose.Words via the Package Manager Console:
@@ -73,17 +71,17 @@ Install-Package Aspose.Words
 
 ## Step 1 – Create Load Options and Choose a Recovery Mode
 
-The first thing you have to do is decide **which recovery mode** fits your scenario. Aspose.Words offers three choices:
+The first thing you have to do is decide **which recovery mode** fits your scenario. Aspose.Words offers two choices:
 
 | Mode | When to use it |
 |------|----------------|
-| **Fast** | You need speed more than perfection; good for large batches where occasional data loss is acceptable. |
-| **Normal** | Balanced approach – preserves most content while still being reasonably quick. |
-| **Strict** | You demand the highest fidelity; the library will throw an exception if it can’t guarantee a clean load. |
+| **None** | No recovery is attempted. If the document is invalid, loading will fail with an error. |
+| **TryRecover** | Attempts to recover the document while preserving as much data as possible. |
 
-Here’s how you create the options object and pick **Normal** recovery (the sweet spot for most cases):
+Here’s how you create the options object and pick **TryRecover** (the default and usually the best choice):
 
 ```csharp
+using Aspose.Words.Loading;
 using Aspose.Words;
 using System;
 
@@ -94,16 +92,16 @@ class Program
         // Step 1: Create load options and set the desired recovery mode
         LoadOptions loadOptions = new LoadOptions
         {
-            // Options: Fast, Normal, Strict – select the one that matches your needs
-            RecoveryMode = RecoveryMode.Normal
+            // Options: DocumentRecoveryMode.None or DocumentRecoveryMode.TryRecover
+            RecoveryMode = DocumentRecoveryMode.TryRecover
         };
 ```
 
-*Why this matters*: `LoadOptions` is the gatekeeper that tells the library how forgiving it should be. If you skip this step, the default is **Normal**, but being explicit makes your intent crystal‑clear to future readers (and to you when you revisit the code months later).
+*Why this matters*: `LoadOptions` configures how the library loads a document, including the recovery behavior. Being explicit makes your intent clear to future readers (and to you when you revisit the code months later).
 
 ## Step 2 – Load the Potentially Corrupted Document Using Those Options
 
-Now that we have our options, we can attempt to load the file. If the document is damaged, the chosen recovery mode dictates how aggressively Aspose.Words will try to salvage it.
+Now that we have our options, we can attempt to load the file. If the document is damaged, the chosen recovery mode dictates how the library will try to salvage it.
 
 ```csharp
         // Step 2: Load the potentially corrupted document using the specified options
@@ -113,8 +111,8 @@ Now that we have our options, we can attempt to load the file. If the document i
 A few notes to keep you from tripping:
 
 * **Path handling** – Use `Path.Combine` for cross‑platform safety.
-* **Exception safety** – Even with `RecoveryMode.Strict`, an unexpected corruption could still raise an exception. Wrap the load in a `try/catch` if you want graceful degradation.
-* **Performance** – Loading a 10 MB corrupted file with `Fast` can be noticeably quicker than `Strict`. Measure if you’re processing many files.
+* **Exception safety** – Even with `DocumentRecoveryMode.TryRecover`, an unexpected corruption could still raise an exception. Wrap the load in a `try/catch` if you want graceful degradation.
+* **Default behavior** – If you omit the `RecoveryMode` setting, the default is `DocumentRecoveryMode.TryRecover`.
 
 ## Step 3 – (Optional) Confirm Which Recovery Mode Was Applied
 
@@ -127,47 +125,44 @@ Sometimes you’ll want to log the mode for diagnostics, especially when you run
 }
 ```
 
-**Expected output** (assuming you kept `Normal`):
+**Expected output** (assuming you kept `TryRecover`):
 
 ```
-Loaded with Normal recovery.
+Loaded with TryRecover recovery.
 ```
 
-If you changed the mode to `Fast` or `Strict`, the console line would reflect that automatically—no extra code needed.
+If you changed the mode to `None`, the console line would reflect that automatically—no extra code needed.
 
-## Choosing the Right Recovery Mode – A Quick Decision Tree
+## Choosing the Right Recovery Mode – A Simple Helper
 
-Below is a compact decision tree you can embed in your own documentation or even automate with a helper method:
+Below is a compact helper method you can embed in your own code. It selects a recovery mode based on whether the document is mission‑critical.
 
 ```csharp
-RecoveryMode ChooseRecoveryMode(bool isCritical, long fileSizeInBytes)
+using Aspose.Words.Loading;
+static DocumentRecoveryMode ChooseRecoveryMode(bool isCritical)
 {
-    if (isCritical)
-        return RecoveryMode.Strict;          // Preserve every detail
-
-    if (fileSizeInBytes > 20_000_000)       // >20 MB
-        return RecoveryMode.Fast;           // Speed matters for large files
-
-    return RecoveryMode.Normal;             // Default balanced choice
+    // If the document must be loaded without any alteration, use None.
+    // Otherwise, use TryRecover to attempt salvaging the content.
+    return isCritical ? DocumentRecoveryMode.None : DocumentRecoveryMode.TryRecover;
 }
 ```
 
-*Why this helps*: It removes guesswork. You simply pass a flag indicating whether the document is mission‑critical and its size, and you get a sensible mode back.
+*Why this helps*: It removes guesswork. You simply pass a flag indicating whether the document is mission‑critical and get a sensible mode back.
 
 ## Handling Edge Cases and Common Pitfalls
 
 | Pitfall | How to avoid it |
 |---------|-----------------|
-| **Silent data loss** – `Fast` may drop images or complex tables. | After loading, inspect `doc.GetChildNodes(NodeType.Any, true).Count` to see if key elements survived. |
-| **Unexpected exception with `Strict`** – Some corruptions are unrecoverable. | Wrap the load in `try { … } catch (CorruptedFileException ex) { /* fallback to Normal */ }`. |
+| **Unexpected exception with `None`** – Some corruptions are unrecoverable. | Wrap the load in `try { … } catch (FileCorruptedException ex) { /* fallback to TryRecover */ }`. |
 | **Wrong file path** – Hard‑coded strings cause `FileNotFoundException`. | Use `Path.GetFullPath` and validate with `File.Exists`. |
 | **Mixing recovery modes** – Changing `loadOptions.RecoveryMode` after loading has no effect. | Set the mode **before** you instantiate `Document`. |
 
 ## Full Working Example – From Start to Finish
 
-Below is a self‑contained program that demonstrates **how to set recovery**, **how to load docx**, and **how to choose recovery mode** based on file size. Copy, paste, and run it; it will print the recovery mode used and the total number of paragraphs recovered.
+Below is a self‑contained program that demonstrates **how to set recovery**, **how to load docx**, and **how to choose recovery mode** based on whether the document is critical. Copy, paste, and run it; it will print the recovery mode used and the total number of paragraphs recovered.
 
 ```csharp
+using Aspose.Words.Loading;
 using Aspose.Words;
 using System;
 using System.IO;
@@ -185,7 +180,7 @@ class RecoverWordFileDemo
         }
 
         // Decide which recovery mode to use
-        RecoveryMode mode = ChooseRecoveryMode(isCritical: false, fileSizeInBytes: new FileInfo(filePath).Length);
+        DocumentRecoveryMode mode = ChooseRecoveryMode(isCritical: false);
 
         // Create load options with the chosen mode
         LoadOptions options = new LoadOptions { RecoveryMode = mode };
@@ -196,11 +191,11 @@ class RecoverWordFileDemo
             doc = new Document(filePath, options);
             Console.WriteLine($"Loaded with {options.RecoveryMode} recovery.");
         }
-        catch (CorruptedFileException ex)
+        catch (FileCorruptedException ex)
         {
-            Console.WriteLine($"Strict mode failed: {ex.Message}");
-            Console.WriteLine("Falling back to Normal recovery.");
-            options.RecoveryMode = RecoveryMode.Normal;
+            Console.WriteLine($"None mode failed: {ex.Message}");
+            Console.WriteLine("Falling back to TryRecover recovery.");
+            options.RecoveryMode = DocumentRecoveryMode.TryRecover;
             doc = new Document(filePath, options);
         }
 
@@ -209,15 +204,9 @@ class RecoverWordFileDemo
         Console.WriteLine($"Document contains {paragraphCount} paragraphs after recovery.");
     }
 
-    static RecoveryMode ChooseRecoveryMode(bool isCritical, long fileSizeInBytes)
+    static DocumentRecoveryMode ChooseRecoveryMode(bool isCritical)
     {
-        if (isCritical)
-            return RecoveryMode.Strict;
-
-        if (fileSizeInBytes > 20_000_000) // >20 MB
-            return RecoveryMode.Fast;
-
-        return RecoveryMode.Normal;
+        return isCritical ? DocumentRecoveryMode.None : DocumentRecoveryMode.TryRecover;
     }
 }
 ```
@@ -225,9 +214,9 @@ class RecoverWordFileDemo
 **What to expect**:
 
 1. If the file loads cleanly, you’ll see something like:  
-   `Loaded with Normal recovery.`  
+   `Loaded with TryRecover recovery.`  
    Followed by a paragraph count.
-2. If the file is severely broken and you started with `Strict`, the catch block will switch to `Normal` and print a fallback message.
+2. If the file is severely broken and you started with `None`, the catch block will switch to `TryRecover` and print a fallback message.
 
 ## Frequently Asked Questions
 
@@ -238,7 +227,7 @@ A: Absolutely. The same `LoadOptions` class applies to `.doc`, `.docx`, `.rtf`, 
 A: No. The mode is a **read‑time** setting; altering `loadOptions.RecoveryMode` later won’t affect an already‑instantiated `Document`.
 
 **Q: What if I need to recover only text and ignore images?**  
-A: Use `RecoveryMode.Fast` combined with a post‑load filter that removes nodes of type `NodeType.Shape`.
+A: Use `DocumentRecoveryMode.TryRecover` and, after loading, remove image nodes (for example, nodes of type `NodeType.Shape`) if you only need the textual content.
 
 ## Wrap‑Up
 
@@ -246,7 +235,7 @@ We’ve just covered how to **recover damaged word file** by explicitly **set re
 
 ### What’s Next?
 
-* Experiment with **Fast** vs **Strict** on real‑world corrupted files to see the trade‑offs.  
+* Experiment with **None** vs **TryRecover** on real‑world corrupted files to see the trade‑offs.  
 * Dive deeper into Aspose.Words’ **SaveOptions** to control how the recovered document is written back to disk.  
 * Combine recovery with **OCR** (Optical Character Recognition) for scanned PDFs that you convert to Word—another layer of resilience.
 
