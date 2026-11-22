@@ -44,8 +44,7 @@ The core of the solution is a class that implements `IWarningCallback`. Aspose.W
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warning;
+using Aspose.Words.Loading;
 
 /// <summary>
 /// Handles warning callbacks from Aspose.Words.
@@ -55,7 +54,7 @@ class FontWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // We're only interested in font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             // This line prints the warning to the console.
             Console.WriteLine($"Font substitution detected: {info.Description}");
@@ -100,7 +99,7 @@ class FileLoggingWarningHandler : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             string message = $"[{DateTime.Now}] Font substitution: {info.Description}";
             // Append the message to the log file.
@@ -129,14 +128,13 @@ Putting everything together, here’s a self‑contained console application you
 using System;
 using System.IO;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warning;
+using Aspose.Words.Loading;
 
 class FontWarningHandler : IWarningCallback
 {
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             Console.WriteLine($"Font substitution: {info.Description}");
         }
@@ -149,7 +147,7 @@ class FileLoggingWarningHandler : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             string message = $"[{DateTime.Now}] Font substitution: {info.Description}";
             File.AppendAllText(_logPath, message + Environment.NewLine);
@@ -212,7 +210,7 @@ If you switched to `FileLoggingWarningHandler`, the same lines will appear insid
 
 ### What if I need to capture *all* warnings, not just font substitution?
 
-Simply remove the `if (info.Type == WarningType.FontSubstitution)` check. The callback will receive every warning type (`WarningType.DegradedDocument`, `WarningType.UnexpectedContent`, etc.). You can then branch on `info.Type` to handle each case differently.
+Simply remove the `if (info.WarningType == WarningType.FontSubstitution)` check. The callback will receive every warning type (`WarningType.UnexpectedContent`, `WarningType.DataLoss`, etc.). You can then branch on `info.WarningType` to handle each case differently.
 
 ### Does this work with PDFs or only Word documents?
 
@@ -232,7 +230,7 @@ The callback instance is invoked on the same thread that loads the document, so 
 
 We’ve covered **how to capture warnings** from Aspose.Words, shown you how to **detect missing fonts**, and explained **how to log substitution** events for later analysis. By plugging a simple `IWarningCallback` implementation into `LoadOptions`, you gain full visibility into font‑related issues without cluttering your codebase.
 
-Next steps? Try extending the logger to send emails, integrate with Azure Monitor, or automatically install missing fonts on a build server. You might also explore other warning types—`WarningType.DegradedDocument` can alert you to features that didn’t survive the conversion process.
+Next steps? Try extending the logger to send emails, integrate with Azure Monitor, or automatically install missing fonts on a build server. You might also explore other warning types—`WarningType.UnexpectedContent` can alert you to features that didn’t survive the conversion process.
 
 Got more questions about font handling or Aspose.Words in general? Drop a comment or fire up a new issue on the Aspose forums. Happy coding, and may your documents always render with the right typeface!
 
