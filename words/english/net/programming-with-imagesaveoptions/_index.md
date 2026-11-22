@@ -32,7 +32,6 @@ The tutorials also cover the basic concepts of image manipulation, including ins
 | [Create PNG Grid from Word Document – Step‑by‑Step Guide](./create-png-grid-from-word-document-step-by-step-guide/) | Learn how to generate a grid of PNG images from a Word document using Aspose.Words for .NET in this step‑by‑step guide. |
 | [how to set resolution when converting Word to PNG – Complete Guide](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Learn how to set resolution when converting Word documents to PNG using Aspose.Words for .NET in this complete guide. |
 | [Convert docx to png – Complete Step‑by‑Step Guide](./convert-docx-to-png-complete-step-by-step-guide/) | Learn how to convert DOCX files to PNG images using Aspose.Words for .NET with this complete step‑by‑step guide. |
-| [how to set dpi – Export Word to PNG Grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Learn how to export Word pages to a PNG grid with custom DPI settings using Aspose.Words for .NET in C#. |
 | [Save Word as PNG – Complete Aspose.Words Guide](./save-word-as-png-complete-aspose-words-guide/) | Learn how to save Word documents as PNG images using Aspose.Words for .NET with a complete step-by-step guide. |
 
 
