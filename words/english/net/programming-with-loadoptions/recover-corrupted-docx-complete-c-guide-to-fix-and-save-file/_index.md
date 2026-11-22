@@ -45,7 +45,7 @@ If you already have those, great—let’s jump straight into the solution.
 
 ## Step 1: Set Up LoadOptions with the Right Recovery Strategy
 
-The heart of the fix is the `LoadOptions` object. It tells Aspose.Words how to behave when it encounters malformed XML or missing parts inside the DOCX package. The `RecoveryMode.RecoverAndContinue` flag is the most tolerant—it attempts to salvage whatever it can and skips over the rest.
+The heart of the fix is the `LoadOptions` object. It tells Aspose.Words how to behave when it encounters malformed XML or missing parts inside the DOCX package. The `DocumentRecoveryMode.TryRecover` flag is the most tolerant—it attempts to salvage whatever it can and skips over the rest.
 
 ```csharp
 using Aspose.Words;
@@ -57,11 +57,11 @@ using Aspose.Words.Loading;
 LoadOptions loadOptions = new LoadOptions
 {
     // This mode keeps parsing even if serious errors are found.
-    RecoveryMode = RecoveryMode.RecoverAndContinue
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
-**Why this matters:** If you omit `LoadOptions` or use the default mode (`RecoveryMode.NoRecovery`), the `Document` constructor will throw an exception the moment it spots a problem. With `RecoverAndContinue`, the API swallows non‑critical errors and builds a partial document object you can still work with.
+**Why this matters:** If you omit `LoadOptions`, the default `RecoveryMode` is `DocumentRecoveryMode.TryRecover`, so the library will still attempt recovery. If you explicitly set `RecoveryMode` to `DocumentRecoveryMode.None`, the `Document` constructor will throw an exception when it encounters an error that cannot be ignored. With `DocumentRecoveryMode.TryRecover`, the API swallows non‑critical errors and builds a partial document object you can still work with.
 
 > **Pro tip:** For huge batches of files, consider wrapping the load call in a `try/catch` block anyway—some errors are truly fatal (e.g., missing the `[Content_Types].xml` file) and cannot be recovered.
 
@@ -157,8 +157,8 @@ Now you can drop a whole directory of broken DOCX files into `C:\Docs\Batch` and
 | **Does this work with .doc files?** | The same `LoadOptions` class applies, but you must reference the older Word format (`doc`). Aspose.Words can still recover, though the error patterns differ. |
 | **What if the file is password‑protected?** | Recovery won’t bypass encryption. You need to provide the password via `LoadOptions.Password`. |
 | **Will images be lost?** | Only images that are part of a corrupted XML part may be omitted. The rest are preserved because they’re stored as separate binary streams. |
-| **Can I log the warnings Aspose generates?** | Yes—set `LoadOptions.LoadFormat` to `LoadFormat.Docx` and subscribe to `Document.WarningCallback` to capture detailed messages. |
-| **Is `RecoverAndContinue` safe for production?** | Generally yes, but test with your data. In mission‑critical pipelines you might want to flag documents that required recovery for later review. |
+| **Can I log the warnings Aspose generates?** | Yes—assign an `IWarningCallback` implementation to `LoadOptions.WarningCallback` (or to `Document.WarningCallback` after loading) to capture detailed warning messages. Setting `LoadFormat` is optional and only influences format detection. |
+| **Is `DocumentRecoveryMode.TryRecover` safe for production?** | Generally yes, but test with your data. In mission‑critical pipelines you might want to flag documents that required recovery for later review. |
 
 ## Full Working Example (Copy‑Paste Ready)
 
@@ -177,7 +177,7 @@ class Program
         // 1️⃣ Configure recovery options.
         LoadOptions loadOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.RecoverAndContinue
+            RecoveryMode = DocumentRecoveryMode.TryRecover
         };
 
         // 2️⃣ Path to a single corrupted DOCX.
@@ -235,7 +235,7 @@ class Program
 
 We’ve covered everything you need to **recover corrupted docx** files using Aspose.Words, from configuring `LoadOptions` to safely **save recovered document**. The key takeaways are:
 
-- Use `RecoveryMode.RecoverAndContinue` to let the library ignore non‑critical errors.
+- Use `DocumentRecoveryMode.TryRecover` to let the library ignore non‑critical errors.
 - Verify the loaded content before committing it, especially when dealing with critical business documents.
 - Saving the document generates a clean ZIP package, effectively stripping out the original corruption.
 - The same pattern scales to batch operations, enabling automated cleanup of large document repositories.
