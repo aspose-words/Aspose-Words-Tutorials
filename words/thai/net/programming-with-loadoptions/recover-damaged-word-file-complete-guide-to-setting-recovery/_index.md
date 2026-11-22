@@ -263,7 +263,6 @@ Feel free to tweak the sample, add logging, or wrap the logic into a reusable se
 
 - [วิธีกู้ docx – ตั้งค่า recovery mode & เปิดไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [กู้เอกสารเสียใน C# – ตั้งค่า Recovery Mode & แจ้งผู้ใช้](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [วิธีกู้ docx ด้วย Aspose.Words – ทีละขั้นตอน](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

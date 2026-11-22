@@ -266,7 +266,6 @@ Document could not be recovered – skipping corrupted file.
 
 - [docx 복구 방법 – set recovery mode 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [C#에서 손상된 문서 복구 – Set Recovery Mode 및 사용자 프롬프트](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [Aspose.Words를 사용한 docx 복구 – 단계별](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

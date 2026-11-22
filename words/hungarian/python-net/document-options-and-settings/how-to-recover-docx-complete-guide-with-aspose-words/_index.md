@@ -239,7 +239,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [hogyan állítsuk helyre a docx – helyreállítási mód beállítása & sérült Word fájlok megnyitása](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Sérült dokumentum helyreállítása C#‑ban – helyreállítási mód beállítása & felhasználó figyelmeztetése](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [hogyan állítsuk helyre a docx az Aspose.Words‑szal – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

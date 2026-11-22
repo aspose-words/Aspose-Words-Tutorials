@@ -293,7 +293,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [jak obnovit docx – nastavení režimu obnovy a otevření poškozených souborů Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [jak obnovit docx – C# průvodce pro poškozené soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [jak obnovit docx s Aspose.Words – krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

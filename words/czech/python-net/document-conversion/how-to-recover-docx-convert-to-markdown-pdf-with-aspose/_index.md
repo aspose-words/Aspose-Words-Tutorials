@@ -237,7 +237,6 @@ Nyní můžete Markdown nasadit do generátoru statických stránek nebo poslat 
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, abyste si osvojili další funkce API a prozkoumali alternativní implementační přístupy ve svých projektech.
 
-- [jak obnovit docx pomocí Aspose.Words — krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Převod docx na markdown — Export rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
