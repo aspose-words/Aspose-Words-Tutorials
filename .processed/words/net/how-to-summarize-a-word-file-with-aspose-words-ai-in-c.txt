@@ -1,0 +1,7 @@
+Title: How to summarize a Word file with Aspose.Words.AI in C#
+Slug: how-to-summarize-a-word-file-with-aspose-words-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-11-22T12:31:07.983276
+SourceRepo: AI Search API
+Keywords: summarize word file, summarize large document ai
+PRNumber: 668
