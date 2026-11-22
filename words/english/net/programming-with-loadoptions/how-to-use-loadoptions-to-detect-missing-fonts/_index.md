@@ -88,7 +88,6 @@ Aspose.Words uses the `IWarningCallback` interface to notify you about non‑cri
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.Warnings;
 
 // Step 1: Define a warning handler that will be notified of font substitutions.
 class FontWarningHandler : IWarningCallback
@@ -114,7 +113,7 @@ Without a callback, Aspose.Words silently swaps missing fonts with a default one
 Now we create a `LoadOptions` instance and tell it to use our `FontWarningHandler`. This is the point where **how to use LoadOptions** really shines.
 
 ```csharp
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 2: Create LoadOptions and attach the warning handler.
 var loadOptions = new LoadOptions
@@ -200,8 +199,7 @@ Putting it all together, here’s a complete program you can compile and run. Re
 using System;
 using System.IO;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warnings;
+using Aspose.Words.Loading;
 
 class FontWarningHandler : IWarningCallback
 {
