@@ -230,7 +230,6 @@ for filename in os.listdir(source_folder):
 
 - [復原損毀的 DOCX – 開啟與載入 Word 文件](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [在 Python 中使用 Aspose.Words 將 Word 文件儲存為 PostScript：完整指南](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [使用 Aspose.Words 在 C# 中復原 Word 文件](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

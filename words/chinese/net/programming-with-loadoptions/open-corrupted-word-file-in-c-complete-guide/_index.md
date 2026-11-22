@@ -253,7 +253,6 @@ namespace OpenCorruptedWordFileDemo
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能，并在自己的项目中探索替代实现方案。
 
 - [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [使用 Aspose.Words 在 C# 中恢复 Word 文档](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

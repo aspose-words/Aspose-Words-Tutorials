@@ -230,7 +230,6 @@ for filename in os.listdir(source_folder):
 
 - [กู้คืน DOCX ที่เสียหาย – เปิดและโหลดไฟล์ Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [บันทึกไฟล์ Word เป็น PostScript ใน Python ด้วย Aspose.Words: คู่มือฉบับสมบูรณ์](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [กู้คืนไฟล์ Word ด้วย Aspose.Words ใน C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

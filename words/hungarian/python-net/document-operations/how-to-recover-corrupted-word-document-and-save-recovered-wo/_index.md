@@ -250,7 +250,6 @@ A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [Sérült DOCX helyreállítása – Word-dokumentum megnyitása és betöltése](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Word-dokumentumok mentése PostScript formátumban Pythonban az Aspose.Words segítségével: Átfogó útmutató](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [Word-dokumentum helyreállítása Aspose.Words használatával C#-ban](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

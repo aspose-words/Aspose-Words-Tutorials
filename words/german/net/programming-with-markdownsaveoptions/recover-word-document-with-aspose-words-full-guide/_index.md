@@ -286,7 +286,6 @@ Wir haben gerade gezeigt, wie man ein **Word‑Dokument wiederherstellt**, **als
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden demonstrierten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Word-Dokument mit Aspose.Words in C# wiederherstellen](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 - [Wie man LaTeX aus Word exportiert: DOCX in Markdown mit Aspose konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
