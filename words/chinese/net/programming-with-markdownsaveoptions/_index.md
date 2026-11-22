@@ -285,7 +285,6 @@
 
 使用 Aspose.Words for .NET 在 C# 中删除文档中的空段落，并将 Word 转换为 Markdown，提供完整示例和步骤指南。
 
-### [将 docx 转换为 markdown – 完整 C# 指南](./convert-docx-to-markdown-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将 docx 文档完整转换为 Markdown，提供详细的 C# 示例和分步指南。
 ### [使用 Aspose.Words 将 Word 转换为 Markdown – 完整 C# 指南](./create-markdown-from-word-with-aspose-words-full-c-guide/)
