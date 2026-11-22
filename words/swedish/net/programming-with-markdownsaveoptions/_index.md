@@ -238,7 +238,6 @@ Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
 ### [Hur man sparar Markdown från Word – Komplett guide för att extrahera bilder och konvertera DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown och extraherar bilder med en komplett guide.
 
-### [Konvertera DOCX till Markdown – Komplett guide för att exportera Word till Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett guide för export av Word-dokument.
 ### [Markdown‑bild relativ sökväg – Konvertera Word till Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 Lär dig hur du använder relativa bildsökvägar när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.

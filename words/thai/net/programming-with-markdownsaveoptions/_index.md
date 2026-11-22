@@ -107,7 +107,6 @@
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
-### [แปลง DOCX เป็น Markdown – คู่มือเต็มเพื่อส่งออก Word เป็น Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วยคู่มือเต็มสำหรับการส่งออก Word ไปเป็น Markdown
 ### [เส้นทางรูปภาพแบบสัมพันธ์ใน Markdown – แปลง Word เป็น Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 เรียนรู้วิธีกำหนดเส้นทางรูปภาพแบบสัมพันธ์เมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
