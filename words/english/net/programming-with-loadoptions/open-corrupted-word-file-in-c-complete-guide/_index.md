@@ -27,16 +27,12 @@ schemas:
   steps:
   - name: '**Create `LoadOptions`** – decide how strict the loader should be.'
     text: '**Create `LoadOptions`** – decide how strict the loader should be.'
-  - name: '**Pick a `RecoveryMode`** – *Passthrough* for a raw load, *Recover* for
-      auto‑fix, or *Throw* to catch problems early.'
-    text: '**Pick a `RecoveryMode`** – *Passthrough* for a raw load, *Recover* for
-      auto‑fix, or *Throw* to catch problems early.'
+  - name: '**Pick a `DocumentRecoveryMode`** – *TryRecover* for automatic fixing, or *None* to throw an exception on any problem.'
+    text: '**Pick a `DocumentRecoveryMode`** – *TryRecover* for automatic fixing, or *None* to throw an exception on any problem.'
   - name: '**Load the document** – give the path and the options you just built.'
     text: '**Load the document** – give the path and the options you just built.'
-  - name: '**Validate** – check that the document tree isn’t empty, optionally save
-      a repaired copy.'
-    text: '**Validate** – check that the document tree isn’t empty, optionally save
-      a repaired copy.'
+  - name: '**Validate** – check that the document tree isn’t empty, optionally save a repaired copy.'
+    text: '**Validate** – check that the document tree isn’t empty, optionally save a repaired copy.'
   type: HowTo
 tags:
 - C#
@@ -58,7 +54,7 @@ The good news? With Aspose.Words you can **set recovery mode** to tell the libra
 
 > **What you’ll walk away with**  
 > • A working C# snippet that opens any .docx, even a broken one.  
-> • An understanding of the three `RecoveryMode` values and when to use each.  
+> • An understanding of the `DocumentRecoveryMode` values and when to use each.  
 > • Tips for handling exceptions, testing the result, and optionally saving a clean copy.
 
 ## How to Open Corrupted Word File with Aspose.Words
@@ -67,7 +63,7 @@ Below is a high‑level picture of the flow.
 ![Diagram illustrating open corrupted word file process](/images/open-corrupted-word-file-flow.png){: .center alt="open corrupted word file flow diagram"}
 
 1. **Create `LoadOptions`** – decide how strict the loader should be.  
-2. **Pick a `RecoveryMode`** – *Passthrough* for a raw load, *Recover* for auto‑fix, or *Throw* to catch problems early.  
+2. **Pick a `DocumentRecoveryMode`** – *TryRecover* for automatic fixing, or *None* to throw an exception on any problem.  
 3. **Load the document** – give the path and the options you just built.  
 4. **Validate** – check that the document tree isn’t empty, optionally save a repaired copy.
 
@@ -75,15 +71,14 @@ Let’s dive into each piece.
 
 ## Understanding Recovery Modes
 
-Aspose.Words defines three distinct behaviors:
+Aspose.Words defines two distinct behaviors:
 
 | Mode | What it does | When to use it |
 |------|--------------|----------------|
-| `RecoveryMode.Recover` | Tries to fix structural issues, missing parts, or malformed XML. This is the **default** and works for most minor corruptions. | You want a best‑effort repair without manual intervention. |
-| `RecoveryMode.Passthrough` | Loads the file **exactly** as it exists, even if it contains broken parts. No auto‑fixes are applied. | You need to inspect the raw content, or you plan to apply custom recovery logic later. |
-| `RecoveryMode.Throw` | Immediately throws an exception if any problem is detected. | You prefer a fail‑fast approach to reject damaged files outright. |
+| `DocumentRecoveryMode.TryRecover` | Tries to fix structural issues, missing parts, or malformed XML. This is the **default** and works for most minor corruptions. | You want a best‑effort repair without manual intervention. |
+| `DocumentRecoveryMode.None` | Immediately throws an exception if any problem is detected. | You prefer a fail‑fast approach to reject damaged files outright. |
 
-Choosing the right mode is the essence of **set recovery mode** correctly. Most developers start with `Recover`, but if you’re debugging a stubborn file, `Passthrough` can give you visibility into what went wrong.
+Choosing the right mode is the essence of **set recovery mode** correctly. Most developers start with `TryRecover`, but if you’re debugging a stubborn file, `None` can give you visibility into what went wrong by forcing an exception.
 
 ## Step‑by‑Step: Set Recovery Mode
 
@@ -91,22 +86,21 @@ Below is the first code block you’ll paste into a new console app or any C# pr
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 1: Create LoadOptions and choose a recovery behavior
 LoadOptions loadOptions = new LoadOptions
 {
     // Choose the desired recovery behavior:
-    //   RecoveryMode.Recover      – attempt to fix the file (default)
-    //   RecoveryMode.Passthrough – load the file exactly as it is
-    //   RecoveryMode.Throw       – throw an exception if the file is damaged
-    RecoveryMode = RecoveryMode.Passthrough   // <-- we are explicitly setting it
+    //   DocumentRecoveryMode.TryRecover – attempt to fix the file (default)
+    //   DocumentRecoveryMode.None       – throw an exception if the file is damaged
+    RecoveryMode = DocumentRecoveryMode.None   // <-- we are explicitly setting it
 };
 ```
 
-**Why this matters:** By explicitly assigning `RecoveryMode.Passthrough`, we’re telling Aspose.Words **set recovery mode** to a non‑default value. This eliminates any guesswork and makes the intent crystal clear for future maintainers.
+**Why this matters:** By explicitly assigning `DocumentRecoveryMode.None`, we’re telling Aspose.Words **set recovery mode** to a non‑default value. This eliminates any guesswork and makes the intent crystal clear for future maintainers.
 
-> **Pro tip:** If you ever need to switch back to the automatic repair path, just change the enum to `RecoveryMode.Recover` and re‑run—no other code changes required.
+> **Pro tip:** If you ever need to switch back to the automatic repair path, just change the enum to `DocumentRecoveryMode.TryRecover` and re‑run—no other code changes required.
 
 ## Loading the Document Safely
 
@@ -131,24 +125,24 @@ try
 }
 catch (Exception ex)
 {
-    // If you used RecoveryMode.Throw, you'll land here for any problem.
+    // If you used DocumentRecoveryMode.None, you'll land here for any problem.
     Console.WriteLine($"Failed to open the file: {ex.Message}");
 }
 ```
 
 **Explanation:**  
-* The `try/catch` block protects us against the `Throw` mode, but it’s also a safety net for unexpected I/O errors.  
+* The `try/catch` block protects us against the `None` mode, but it’s also a safety net for unexpected I/O errors.  
 * After loading, we inspect `doc.Sections.Count`. A count of zero is a strong indicator that the file didn’t recover any meaningful content—perfect for confirming whether **recover corrupted document** actually succeeded.
 
 ## Handling Exceptions and Verifying Recovery
 
-Even with `Passthrough`, the library may still raise an exception if the underlying ZIP package is unreadable. Here’s how to differentiate between a *recoverable* issue and a *fatal* one:
+Even with `DocumentRecoveryMode.None`, the library may still raise an exception if the underlying ZIP package is unreadable. Here’s how to differentiate between a *recoverable* issue and a *fatal* one:
 
 ```csharp
-catch (CorruptedFileException cfe)
+catch (FileCorruptedException cfe)
 {
     // This exception means the file's internal structure is broken.
-    Console.WriteLine("CorruptedFileException caught – the file cannot be read at all.");
+    Console.WriteLine("FileCorruptedException caught – the file cannot be read at all.");
 }
 catch (Exception ex)
 {
@@ -157,9 +151,9 @@ catch (Exception ex)
 }
 ```
 
-If you see a `CorruptedFileException`, you might want to fall back to a different recovery strategy, such as:
+If you see a `FileCorruptedException`, you might want to fall back to a different recovery strategy, such as:
 
-* Trying `RecoveryMode.Recover` instead of `Passthrough`.
+* Trying `DocumentRecoveryMode.TryRecover` instead of `None`.
 * Using a third‑party ZIP repair tool before feeding the file to Aspose.Words.
 * Prompting the user to upload a fresh copy.
 
@@ -181,10 +175,10 @@ Saving also serves as an implicit verification step—if `doc.Save` throws, some
 
 | Situation | Recommended Action |
 |-----------|--------------------|
-| Small XML typo (e.g., missing closing tag) | Keep `RecoveryMode.Recover`; Aspose.Words will auto‑fix. |
-| Completely broken ZIP archive | Use external ZIP repair, then load with `Passthrough`. |
-| Mixed‑mode (some parts fine, others broken) | Load with `Passthrough`, inspect problematic nodes, then manually remove or replace them. |
-| Frequent corruption from a specific source | Automate a pre‑check that runs `RecoveryMode.Recover` and logs any `CorruptedFileException`. |
+| Small XML typo (e.g., missing closing tag) | Keep `DocumentRecoveryMode.TryRecover`; Aspose.Words will auto‑fix. |
+| Completely broken ZIP archive | Use external ZIP repair, then load with `None`. |
+| Mixed‑mode (some parts fine, others broken) | Load with `None`, inspect problematic nodes, then manually remove or replace them. |
+| Frequent corruption from a specific source | Automate a pre‑check that runs `DocumentRecoveryMode.TryRecover` and logs any `FileCorruptedException`. |
 
 Remember, **set recovery mode** is not a magic wand—understanding the nature of the corruption helps you pick the right strategy.
 
@@ -195,7 +189,7 @@ Putting everything together, here’s a self‑contained console app that you ca
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 namespace OpenCorruptedWordFileDemo
 {
@@ -206,7 +200,7 @@ namespace OpenCorruptedWordFileDemo
             // 1️⃣ Configure load options – we explicitly set the recovery mode.
             LoadOptions loadOptions = new LoadOptions
             {
-                RecoveryMode = RecoveryMode.Passthrough // change to Recover if you prefer auto‑fix
+                RecoveryMode = DocumentRecoveryMode.None // change to TryRecover if you prefer auto‑fix
             };
 
             // 2️⃣ Attempt to load the possibly damaged DOCX.
@@ -218,9 +212,9 @@ namespace OpenCorruptedWordFileDemo
                 doc = new Document(sourcePath, loadOptions);
                 Console.WriteLine($"File loaded. Sections: {doc.Sections.Count}");
             }
-            catch (CorruptedFileException)
+            catch (FileCorruptedException)
             {
-                Console.WriteLine("The file is too damaged to be opened even in Passthrough mode.");
+                Console.WriteLine("The file is too damaged to be opened even in None mode.");
                 return;
             }
             catch (Exception ex)
@@ -252,10 +246,11 @@ namespace OpenCorruptedWordFileDemo
 
 ```
 File loaded. Sections: 3
-
+Paragraphs recovered – the document appears usable.
+Clean copy saved to: C:\Temp\Repaired.docx
+```
 
 ## What Should You Learn Next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
