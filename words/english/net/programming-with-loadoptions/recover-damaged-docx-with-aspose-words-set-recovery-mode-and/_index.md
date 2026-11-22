@@ -32,8 +32,6 @@ Ever stumbled upon a **recover damaged docx** file that refuses to open? You're 
 
 In this tutorial we’ll walk through the exact steps to **recover damaged docx** files, show you how to **set recovery mode**, explore the nuances of **aspose load options**, and even discuss what to do when you need to **recover corrupted word** documents that seem beyond repair. By the end, you’ll have a solid, production‑ready snippet you can drop into any .NET project.
 
-> **Pro tip:** Even if your file isn’t completely broken, enabling recovery mode can still improve load speed by skipping unnecessary validation.
-
 ---
 
 ## What You’ll Need
@@ -50,7 +48,7 @@ No extra libraries, no complicated configuration—just the basics.
 
 ## recover damaged docx – configuring LoadOptions
 
-The heart of the solution lies in **Aspose.LoadOptions**. This object tells Aspose.Words how to treat problematic parts of a file. By default, the library throws an exception when it encounters corruption. We’ll change that behavior.
+The heart of the solution lies in **`LoadOptions`** (namespace `Aspose.Words.Loading`). Its `RecoveryMode` property defines how the document is handled if errors occur during loading. The default is `DocumentRecoveryMode.TryRecover`; we’ll set it explicitly so the intent is clear.
 
 ```csharp
 using Aspose.Words;
@@ -84,7 +82,7 @@ Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
 When this line runs, Aspose.Words reads `input.docx`, applies the chosen recovery strategy, and returns a `Document` object that you can manipulate—save, edit, or export to PDF, HTML, etc.
 
 **Common question:** *What if the file path is wrong?*  
-Aspose will throw a `FileNotFoundException` before even touching the recovery logic, so double‑check your path or use `Path.Combine` for safety.
+Recovery can only work on a file that exists, so double‑check your path or build it with `Path.Combine`.
 
 ---
 
@@ -96,15 +94,13 @@ The `LoadOptions` class offers more than just `RecoveryMode`. Here are a few set
 |----------|-------------|---------|
 | `Password` | Open password‑protected files | `loadOptions.Password = "mySecret";` |
 | `Encoding` | Force a specific text encoding (rare for DOCX) | `loadOptions.Encoding = Encoding.UTF8;` |
-| `ValidateStructure` | Skip structural validation for speed | `loadOptions.ValidateStructure = false;` |
-
-A practical scenario: you receive a DOCX from a legacy system that sometimes adds invisible control characters. Setting `ValidateStructure = false` can prevent unnecessary failures during **recover corrupted word** attempts.
+| `WarningCallback` | Receive warnings issued during loading | `loadOptions.WarningCallback = new WarningInfoCollection();` |
 
 ---
 
 ## load word document recovery – saving the repaired file
 
-Once the document is loaded, you can save it in the same format or convert it to a fresh file. Saving essentially rewrites the internal XML, stripping out the corrupted bits that were skipped.
+Once the document is loaded, you can save it in the same format or convert it to a fresh file.
 
 ```csharp
 // Step 4: Save the recovered document to a new file
@@ -118,16 +114,14 @@ document.Save("output.pdf", SaveFormat.Pdf);
 ```
 
 **Why save?**  
-Even though the in‑memory `Document` is usable, persisting it cleans up the broken parts, giving you a clean file you can share with colleagues who don’t have Aspose installed.
+The recovered `Document` lives in memory; saving it gives you a file you can open and share with colleagues who don’t have Aspose installed.
 
 ---
 
 ## Practical Tips & Pitfalls
 
-- **Pro tip:** Always keep a backup of the original file. Skipping corrupted parts is irreversible once you overwrite the source.  
-- **Watch out for:** Large documents (>100 MB) may consume significant memory during recovery. Consider loading with `LoadOptions.LoadFormat = LoadFormat.Docx` explicitly to avoid auto‑detection overhead.  
+- **Pro tip:** Always keep a backup of the original file, and save the recovered document to a new path rather than over the source.  
 - **Edge case:** Some corrupted files contain broken images. With `TryRecover` set, Aspose.Words keeps as much as it can — inspect `document.GetChildNodes(NodeType.Shape, true)` afterward to check which shapes actually survived.  
-- **Performance tip:** Disable `ValidateStructure` when you’re confident the file’s core XML is intact; this can shave seconds off loading time.
 
 ---
 
@@ -155,9 +149,7 @@ class Program
         LoadOptions loadOptions = new LoadOptions
         {
             RecoveryMode = DocumentRecoveryMode.TryRecover, // change to None to fail fast instead
-            // Optional tweaks:
-            // Password = "secret", 
-            // ValidateStructure = false
+            // Optional: Password = "secret",
         };
 
         try
@@ -185,7 +177,7 @@ Document loaded successfully.
 Recovered file saved to: C:\Docs\output_recovered.docx
 ```
 
-If the original `input.docx` contained corrupted paragraphs, they will be omitted in `output_recovered.docx`, but the rest of the content (styles, tables, images) remains intact.
+With `TryRecover`, Aspose.Words attempts to recover the document while preserving as much data as possible, so open `output_recovered.docx` and check it for anything that couldn’t be recovered.
 
 ---
 
@@ -195,7 +187,7 @@ If the original `input.docx` contained corrupted paragraphs, they will be omitte
 A: Yes. `LoadOptions` works with any format Aspose.Words supports. Just change the file extension; the same recovery mode applies.
 
 **Q: Can I recover a password‑protected DOCX?**  
-A: Absolutely. Set `loadOptions.Password` before loading. The recovery mode will still apply after decryption.
+A: Set `loadOptions.Password` before loading, on the same `LoadOptions` object that carries `RecoveryMode`.
 
 **Q: What if I need the corrupted text for forensic analysis?**  
 A: `TryRecover` is already the mode you want — it keeps as much data as possible, though you may still need to inspect the resulting document manually for gaps.
