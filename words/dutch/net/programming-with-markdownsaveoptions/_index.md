@@ -236,7 +236,6 @@ Leer hoe u een DOCX-bestand stap voor stap omzet naar Markdown met C# en Aspose.
 
 Leer hoe u een assets-map maakt en DOCX-bestanden converteert naar Markdown met Aspose.Words voor .NET.
 
-### [Docx converteren naar markdown met Aspose.Words – Volledige C#-gids](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-handleiding en Aspose.Words.
 

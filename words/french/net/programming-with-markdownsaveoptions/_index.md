@@ -53,7 +53,6 @@ Apprenez à créer des PDF accessibles et à convertir des documents Word en Mar
 
 Apprenez à convertir des fichiers DOCX en Markdown en suivant un guide complet avec Aspose.Words pour .NET.
 
-### [Convertir docx en markdown avec Aspose.Words – Guide complet C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
 
 Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words grâce à un guide complet en C#.
 
