@@ -235,7 +235,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Hogyan mentse a Markdown-t Word‑ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Docx fájl konvertálása Markdownra](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Word konvertálása Markdownra – Képek beágyazása Base64‑ként](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

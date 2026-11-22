@@ -135,7 +135,6 @@ Leer hoe u Word-documenten opslaat als Markdown met een volledige C#-handleiding
 Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
 
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-### [Word naar Markdown – Afbeeldingen insluiten als Base64](./convert-word-to-markdown-embed-images-as-base64/)
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen embed als Base64‑strings met Aspose.Words voor .NET.
 
 ### [Hoe LaTeX te exporteren: DOCX naar Markdown & TXT converteren](./how-to-export-latex-convert-docx-to-markdown-txt/)

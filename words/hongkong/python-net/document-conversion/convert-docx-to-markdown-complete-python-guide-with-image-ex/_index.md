@@ -234,7 +234,6 @@ for doc_path in glob.glob("YOUR_DIRECTORY/*.docx"):
 
 - [如何從 Word 儲存 Markdown – 完整 Python 指南](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [將 Docx 檔案轉換為 Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
-- [將 Word 轉換為 Markdown – 以 Base64 嵌入圖片](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

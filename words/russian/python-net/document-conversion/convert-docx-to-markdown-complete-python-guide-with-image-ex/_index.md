@@ -236,7 +236,6 @@ for doc_path in glob.glob("YOUR_DIRECTORY/*.docx"):
 
 - [Как сохранить Markdown из Word – Полное руководство по Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Преобразовать файл Docx в Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Преобразовать Word в Markdown – Встраивание изображений как Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
