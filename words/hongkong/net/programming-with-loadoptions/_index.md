@@ -40,7 +40,6 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [使用 Aspose.Words 在 C# 中復原 Word 文件](./recover-word-document-with-aspose-words-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中復原受損的 Word 文件，確保資料完整性。 |
 | [復原損毀的 Word 文件 – 完整 C# 指南](./recover-corrupted-word-document-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 透過完整的 C# 範例，復原受損的 Word 文件，確保資料完整性。 |
 | [使用 Aspose.Words 復原受損的 DOCX 檔案](./recover-damaged-docx-file-using-aspose-words/) |了解如何使用 Aspose.Words for .NET 復原受損的 DOCX 檔案，確保文件完整性與可讀性。 |
-| [在 C# 中復原損壞的 DOCX 檔案 – 完整指南](./recover-corrupted-docx-files-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整復原受損的 DOCX 文件，確保資料完整性。 |
 | [復原損壞的 Word 檔案 – C# 開發人員逐步指南](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) |了解如何使用 Aspose.Words for .NET 復原受損的 Word 文件，提供給 C# 開發者的詳細步驟說明。 |
 | [使用 Aspose.Words 復原損壞的 DOCX – 完整 C# 指南](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) |本指南逐步說明如何使用 Aspose.Words for .NET 復原受損的 DOCX 檔案，提供完整的 C# 範例。 |
 
