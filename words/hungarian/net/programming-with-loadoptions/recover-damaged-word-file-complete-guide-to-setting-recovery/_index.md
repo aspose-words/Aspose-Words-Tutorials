@@ -267,7 +267,6 @@ Nyugodtan módosítsd a mintát, adj hozzá naplózást, vagy csomagold a logik�
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [hogyan állítsuk vissza a docx‑et – állítsuk be a helyreállítási módot és nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Sérült dokumentum helyreállítása C#‑ban – helyreállítási mód beállítása és felhasználó értesítése](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -284,7 +284,6 @@ Hâlâ mücadele ettiğiniz zor bir senaryonuz mu var? Aşağıya bir yorum bır
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalarla tam çalışan kod örnekleri içerir.
 
 - [docx'i kurtarma – kurtarma modunu ayarla ve bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [C#'ta Bozuk Belgeyi Kurtar – Kurtarma Modunu Ayarla ve Kullanıcıyı Uyar](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

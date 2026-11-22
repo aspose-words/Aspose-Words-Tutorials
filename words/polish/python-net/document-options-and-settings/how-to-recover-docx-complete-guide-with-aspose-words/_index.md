@@ -250,7 +250,6 @@ Szczęśliwego kodowania i niech Twoje pliki DOCX pozostaną zdrowe!
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [jak odzyskać docx – ustawić tryb odzyskiwania i otworzyć uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Odzyskaj uszkodzony dokument w C# – ustaw tryb odzyskiwania i zapytaj użytkownika](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

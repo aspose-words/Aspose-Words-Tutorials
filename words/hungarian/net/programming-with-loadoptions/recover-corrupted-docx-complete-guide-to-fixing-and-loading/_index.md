@@ -274,7 +274,6 @@ Van egy bonyolult helyzet, amivel még küzd? Hagyjon megjegyzést alább, és e
 A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [hogyan állítsuk helyre a docx – set recovery mode & nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Sérült dokumentum helyreállítása C#‑ban – Set Recovery Mode & felhasználó kérdezése](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

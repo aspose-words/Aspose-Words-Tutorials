@@ -262,7 +262,6 @@ Document could not be recovered – skipping corrupted file.
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連するトピックをカバーしています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれ、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [docx の復元方法 – リカバリモードの設定と破損した Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [C# で破損したドキュメントを復元 – リカバリモードの設定とユーザーへのプロンプト](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
