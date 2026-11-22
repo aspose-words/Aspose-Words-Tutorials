@@ -93,7 +93,6 @@ class Program
 | [Convert Word to Markdown – Full Guide with PDF/UA Export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Learn how to convert Word documents to Markdown and export PDF/UA using Aspose.Words for .NET in a comprehensive step‑by‑step guide. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Save Word as Markdown – Complete C# Guide](./how-to-save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a complete C# guide. |
-| [Convert docx to markdown with Aspose.Words – Full C# Guide](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Learn how to convert DOCX to Markdown using Aspose.Words with a comprehensive C# guide. |
 | [Save Word as Markdown – Complete C# Guide](./save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown with a comprehensive C# guide using Aspose.Words for .NET. |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Export LaTeX: Convert DOCX to Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Learn how to export LaTeX content by converting DOCX files to Markdown and TXT using Aspose.Words for .NET. |

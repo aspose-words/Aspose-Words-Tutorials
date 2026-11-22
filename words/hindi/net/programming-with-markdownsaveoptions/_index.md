@@ -80,7 +80,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Aspose.Words के साथ Word को Markdown में बदलें – पूर्ण C# गाइड](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words के साथ Word को Markdown में बदलने के लिए पूर्ण C# गाइड। |
 | [Word को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-markdown-complete-c-guide/) | C# में Word को Markdown में सहेजने की पूरी गाइड |
 | [Aspose.Words के साथ assets फ़ोल्डर बनाएं और DOCX को Markdown में बदलें](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) | Aspose.Words का उपयोग करके assets फ़ोल्डर बनाकर DOCX को Markdown में बदलना सीखें। |
-| [Aspose.Words के साथ DOCX को Markdown में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words का उपयोग करके DOCX को Markdown में बदलने की पूरी C# गाइड |
 | [Word को Markdown के रूप में सहेजें – Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की पूरी गाइड। |
 | [DOCX को Markdown में सहेजें – खाली पैराग्राफ़ों के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | खाली पैराग्राफ़ों को बनाए रखते हुए DOCX को Markdown में सहेजने की पूरी गाइड। |
