@@ -54,7 +54,6 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Opravit poškozený docx pomocí Aspose.Words – Kompletní průvodce v C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Kompletní průvodce opravou poškozených souborů DOCX pomocí Aspose.Words v C#. |
 | [Registrace varovného zpětného volání v Aspose.Words – Kompletní programovací průvodce](./register-warning-callback-in-aspose-words-complete-programmi/) | Naučte se, jak registrovat varování zpětného volání v Aspose.Words s podrobným krok za krokem průvodcem. |
 | [Jak zachytit varování – nakonfigurujte LoadOptions pro chybějící písma](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Naučte se zachytit varování při načítání dokumentů a nastavit LoadOptions pro chybějící písma v Aspose.Words pro .NET. |
-| [Obnovit poškozený soubor Word a zobrazit režim obnovy v C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Naučte se, jak obnovit poškozený soubor Word a zobrazit režim obnovy pomocí Aspose.Words pro .NET v C#. |
 | [Obnovit poškozený DOCX – Kompletní průvodce C# pro opravu a uložení souborů](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Naučte se, jak opravit poškozené soubory DOCX a uložit je pomocí Aspose.Words pro .NET v C#. |
 | [Povolit režim obnovy – Obnovit poškozený dokument Word](./enable-recovery-mode-recover-corrupted-word-document/) | Naučte se, jak povolit režim obnovy a obnovit poškozené dokumenty Word pomocí Aspose.Words pro .NET. |
 
