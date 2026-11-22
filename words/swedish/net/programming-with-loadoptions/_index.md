@@ -62,7 +62,6 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Återställ skadad Word-fil och visa återställningsläge i C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Lär dig hur du återställer en korrupt Word-fil och visar återställningsläget med Aspose.Words i C#. |
 | [Återställ korrupt DOCX – Komplett C#-guide för att reparera och spara filer](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Lär dig hur du reparerar skadade DOCX-filer och sparar dem igen med Aspose.Words för .NET i en komplett C#‑guide. |
 | [Återställ korrupt docx – Fullständig guide för att ladda skadade Word-filer i C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Lär dig hur du laddar och reparerar korrupta docx-filer i C# med Aspose.Words för .NET. |
-| [Återställ korrupt DOCX – Komplett guide för att reparera och ladda trasiga Word-filer](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Lär dig hur du reparerar och laddar korrupta DOCX-filer med Aspose.Words för .NET i en steg-för-steg-guide. |
 | [Återställ korrupt Word-dokument med Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Lär dig hur du återställer korrupta Word-dokument med Aspose.Words i C# i en steg-för-steg-guide. |
 | [Aktivera återställningsläge – Återställ korrupt Word-dokument](./enable-recovery-mode-recover-corrupted-word-document/) | Lär dig hur du aktiverar återställningsläge för att återställa korrupta Word-dokument med Aspose.Words för .NET. |
 
