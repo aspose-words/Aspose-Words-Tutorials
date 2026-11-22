@@ -47,8 +47,6 @@ No extra NuGet packages beyond `Aspose.Words` are needed.
 
 Think of `RecoveryMode` as the API’s built‑in “first‑aid kit.” When a DOCX is malformed—maybe a missing XML node or a broken relationship—Aspose.Words can attempt to rebuild the missing pieces. Without recovery, the `Document` constructor would throw an exception and you’d be forced to abandon the file. Enabling recovery gives you a **best‑effort** version of the original, preserving most paragraphs, images, and styles.
 
-> **Pro tip:** Recovery works best on files that are only partially corrupted. If the whole package is missing, you may still need to fall back to a manual XML fix.
-
 ## Step 1 – Create LoadOptions and Enable Recovery
 
 The first thing you need to do is tell Aspose.Words that you want to run in recovery mode. This is done via the `LoadOptions` class.
@@ -57,16 +55,16 @@ The first thing you need to do is tell Aspose.Words that you want to run in reco
 using Aspose.Words;
 using Aspose.Words.Loading;
 
-// Step 1: Configure LoadOptions with RecoveryMode set to Recover.
+// Step 1: Configure LoadOptions with RecoveryMode set to TryRecover.
 LoadOptions loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover instructs the library to attempt fixing corruption.
-    RecoveryMode = RecoveryMode.Recover
+    // DocumentRecoveryMode.TryRecover instructs the library to attempt fixing corruption.
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
 **What’s happening here?**  
-`LoadOptions` is a container for many import‑time settings. By setting `RecoveryMode` to `Recover`, you answer the “how to enable recovery” question directly. The library now knows it should not abort on errors, but rather keep what it can.
+`LoadOptions` is a container for many import‑time settings. By setting `RecoveryMode` to `TryRecover`, you answer the “how to enable recovery” question directly. The library now knows it should not abort on errors, but rather keep what it can.
 
 ## Step 2 – Load the Potentially Corrupt Document
 
@@ -123,12 +121,10 @@ Saving creates a fresh `.docx` package that other tools (Word, Google Docs) can 
 
 ### What if the document is password‑protected?
 
-Recovery works on encrypted files as long as you supply the password in `LoadOptions`.
-
 ```csharp
 LoadOptions opts = new LoadOptions
 {
-    RecoveryMode = RecoveryMode.Recover,
+    RecoveryMode = DocumentRecoveryMode.TryRecover,
     Password = "mySecret"
 };
 Document protectedDoc = new Document(filePath, opts);
@@ -147,14 +143,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
     }
 }
 ```
-
-### Does recovery affect performance?
-
-A tiny bit. Enabling `RecoveryMode.Recover` adds extra parsing logic, but for most files the overhead is negligible—usually under a second for a 5 MB DOCX.
-
-### Will styles be preserved?
-
-In most cases, yes. The library rebuilds the style tree from whatever XML fragments are still valid. If a style definition is missing, Aspose.Words will fall back to the default style, which might change the visual appearance slightly.
 
 ## Full Working Example
 
@@ -177,7 +165,7 @@ namespace DocxRecoveryDemo
             // 1️⃣ Create LoadOptions and enable recovery.
             LoadOptions loadOptions = new LoadOptions
             {
-                RecoveryMode = RecoveryMode.Recover // how to enable recovery
+                RecoveryMode = DocumentRecoveryMode.TryRecover // how to enable recovery
                 // Password = "optionalPassword" // uncomment if needed
             };
 
