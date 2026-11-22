@@ -237,7 +237,6 @@ Nyugodtan kísérletezzen a beállításokkal, és ossza meg eredményeit a megj
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Hogyan állítsuk helyre a DOCX-et – Teljes útmutató az Aspose.Words használatával](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 - [DOCX konvertálása Markdownra – Teljes útmutató az Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [docx mentése txt-ként – docx konvertálása markdownra](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 

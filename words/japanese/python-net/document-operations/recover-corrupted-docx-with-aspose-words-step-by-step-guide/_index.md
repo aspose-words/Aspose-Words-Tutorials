@@ -265,7 +265,6 @@ Missing images  : False
 
 - [docx を復元する – 復元モードを設定して壊れた Word ファイルを開く](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words で破損した docx を復元 – 復元モードとロードオプションの設定](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [DOCX 復元完全ガイド – Aspose.Words を使用](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

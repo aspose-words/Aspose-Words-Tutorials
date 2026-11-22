@@ -253,7 +253,6 @@ Missing images  : False
 
 - [πώς να ανακτήσετε docx – ορίστε τη λειτουργία ανάκτησης & ανοίξτε κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [αποκατάσταση κατεστραμμένου docx με Aspose.Words – ορίστε τη λειτουργία ανάκτησης και τις επιλογές φόρτωσης](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Πώς να ανακτήσετε DOCX – Πλήρης Οδηγός Χρήσης Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
