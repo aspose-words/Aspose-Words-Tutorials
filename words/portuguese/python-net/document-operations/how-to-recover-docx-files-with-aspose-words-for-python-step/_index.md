@@ -225,7 +225,6 @@ Sinta‑se à vontade para experimentar as opções avançadas, combiná‑las c
 Os tutoriais a seguir cobrem tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
 - [Recover Corrupted DOCX – Open & Load Word Document](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [how to recover docx – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [How to Recover DOCX – Load Corrupted Files with Recovery Options](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

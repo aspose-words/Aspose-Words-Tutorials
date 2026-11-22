@@ -192,7 +192,6 @@ Viel Spaß beim Programmieren und möge Ihre Dokumente gesund bleiben!
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu beherrschen und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [wie man docx wiederherstellt – Wiederherstellungsmodus setzen & beschädigte Word-Dateien öffnen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [beschädigtes docx mit Aspose.Words wiederherstellen – Wiederherstellungsmodus und Ladeoptionen setzen](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Beschädigtes DOCX mit Aspose.Words LoadOptions wiederherstellen – Vollständiger C#‑Leitfaden](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

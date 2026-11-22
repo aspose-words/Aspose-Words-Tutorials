@@ -218,7 +218,6 @@ Känn dig fri att experimentera med de avancerade alternativen, kombinera dem me
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Återställ korrupt DOCX – Öppna & läs Word-dokument](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [how to recover docx – ställ in återställningsläge & öppna korrupta Word-filer](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Hur man återställer DOCX – Ladda korrupta filer med återställningsalternativ](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

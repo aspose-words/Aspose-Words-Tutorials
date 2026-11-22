@@ -190,7 +190,6 @@ if __name__ == "__main__":
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้ทางเลือกในโครงการของคุณ
 
-- [วิธีกู้คืน docx – ตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหาย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [กู้คืน docx ที่เสียหายด้วย Aspose.Words – ตั้งค่าโหมดการกู้คืนและตัวเลือกการโหลด](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [กู้คืน DOCX ที่เสียหายด้วย Aspose.Words LoadOptions – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

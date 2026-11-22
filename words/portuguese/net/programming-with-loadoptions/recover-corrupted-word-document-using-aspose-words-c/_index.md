@@ -185,7 +185,6 @@ Tem uma variação desse cenário? Talvez você precise preservar as partes corr
 Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
 - [Recuperar Documento Word com Aspose.Words em C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [como recuperar docx – definir modo de recuperação e abrir arquivos Word corrompidos](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Recuperar Arquivo Word Danificado – Guia Completo para Abrir DOCX Corrompido e Obter Página](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

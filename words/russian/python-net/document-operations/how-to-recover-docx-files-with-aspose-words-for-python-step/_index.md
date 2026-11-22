@@ -223,7 +223,6 @@ test_recovery("samples/corrupted2.docx")
 Следующие учебники охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающие освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
 - [Восстановление повреждённого DOCX – открыть и загрузить документ Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [как восстановить docx – установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Как восстановить DOCX – загрузка повреждённых файлов с параметрами восстановления](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

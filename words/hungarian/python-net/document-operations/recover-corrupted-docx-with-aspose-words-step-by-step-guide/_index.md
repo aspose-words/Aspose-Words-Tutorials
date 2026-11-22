@@ -268,7 +268,6 @@ Nyugodtan kísérletezzen különböző helyreállítási beállításokkal, kom
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [hogyan állítsuk helyre a docx-et – állítsuk be a recovery módot & nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [sérült docx helyreállítása Aspose.Words segítségével – recovery mód és load options beállítása](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Hogyan állítsuk helyre a DOCX-et – teljes útmutató Aspose.Words használatával](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

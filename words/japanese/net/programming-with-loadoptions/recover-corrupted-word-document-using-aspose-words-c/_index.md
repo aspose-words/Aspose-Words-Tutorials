@@ -182,7 +182,6 @@ C:\Temp\Recovered.pdf
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得したり、プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
 - [C# で Aspose.Words を使用した Word ドキュメントの復元](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [docx を復元する方法 – リカバリーモードの設定と破損した Word ファイルの開き方](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [破損した Word ファイルの復元 – DOCX を開いてページを取得する完全ガイド](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

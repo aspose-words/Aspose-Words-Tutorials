@@ -238,7 +238,6 @@ try:
 
 - [손상된 DOCX 복구 – Word 문서 열기 및 로드](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [손상된 DOCX 복구 및 Word를 Markdown으로 변환](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

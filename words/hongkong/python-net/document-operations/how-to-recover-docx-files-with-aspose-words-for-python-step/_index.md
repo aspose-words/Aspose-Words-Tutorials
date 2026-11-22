@@ -217,7 +217,6 @@ test_recovery("samples/corrupted2.docx")
 以下教學涵蓋與本指南技術密切相關的主題，並在此基礎上延伸。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [恢復損壞的 DOCX – 開啟與載入 Word 文件](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [how to recover docx – 設定復原模式並開啟損壞的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [如何復原 DOCX – 使用復原選項載入損壞的檔案](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

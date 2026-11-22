@@ -262,7 +262,6 @@ A: `RecoveryMode.Fast`를 사용하고, 로드 후 `NodeType.Shape` 타입 노�
 
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하며, 단계별 코드 예제와 자세한 설명을 제공해 추가 API 기능을 마스터하고 다양한 구현 방식을 탐색할 수 있도록 도와줍니다.
 
-- [docx 복구 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [C#에서 손상된 문서 복구 – 복구 모드 설정 및 사용자 프롬프트](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 - [Aspose.Words로 docx 복구 – 단계별 가이드](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 

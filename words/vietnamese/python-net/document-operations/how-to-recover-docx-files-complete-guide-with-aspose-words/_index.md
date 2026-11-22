@@ -211,7 +211,6 @@ Các hướng dẫn sau đây đề cập đến các chủ đề liên quan ch�
 
 - [Khôi phục DOCX bị hỏng – Mở & Tải tài liệu Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Khôi phục DOCX bị hỏng & Chuyển đổi Word sang Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [cách khôi phục docx – đặt chế độ khôi phục & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

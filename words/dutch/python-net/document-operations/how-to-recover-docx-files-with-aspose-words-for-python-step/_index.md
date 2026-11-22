@@ -223,7 +223,6 @@ Voel je vrij om te experimenteren met de geavanceerde opties, ze te combineren m
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Beschadigde DOCX herstellen – Openen & Laden van Word-document](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [hoe docx te herstellen – herstelmodus instellen & beschadigde Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Hoe DOCX te herstellen – Beschadigde bestanden laden met herstelopties](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

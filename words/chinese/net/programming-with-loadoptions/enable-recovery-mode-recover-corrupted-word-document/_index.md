@@ -241,7 +241,6 @@ Recovered document saved to: C:\Temp\recovered.docx
 
 以下教程涵盖与本指南紧密相关的主题，基于所示技术进行扩展。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [使用 Aspose.Words 恢复 docx – 步骤指南](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [恢复损坏的 Word 文件 – 打开损坏的 DOCX 并获取页面的完整指南](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

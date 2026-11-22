@@ -207,7 +207,6 @@ Mỗi phần mở rộng này sử dụng cùng một đối tượng `Document`
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Khôi phục DOCX bị hỏng – Hướng dẫn đầy đủ để bật chế độ khôi phục & lấy số trang](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [cách khôi phục docx – thiết lập chế độ khôi phục & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Cách khôi phục docx – Bật chế độ khôi phục & Đọc cảnh báo](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

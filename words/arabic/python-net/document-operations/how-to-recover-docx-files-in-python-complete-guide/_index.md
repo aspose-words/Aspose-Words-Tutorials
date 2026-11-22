@@ -347,7 +347,6 @@ if __name__ == "__main__":
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [استعادة DOCX تالف – فتح وتحميل مستند Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [كيفية استعادة docx – تعيين وضع الاستعادة وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [استعادة docx التالف باستخدام Aspose.Words – تعيين وضع الاستعادة وخيارات التحميل](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

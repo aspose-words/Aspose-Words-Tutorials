@@ -234,7 +234,6 @@ A: いいえ。Aspose.Words はメモリ上のコピーで作業します。明�
 
 - [破損した DOCX の復元 – Word 文書のオープンとロード](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [破損した DOCX の復元と Word を Markdown に変換](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [how to recover docx – リカバリーモードの設定と破損した Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

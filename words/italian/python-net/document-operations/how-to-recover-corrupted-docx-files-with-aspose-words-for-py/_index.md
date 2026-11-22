@@ -211,7 +211,6 @@ Ognuna di queste estensioni utilizza lo stesso oggetto `Document` ottenuto dopo 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell'API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Recuperare DOCX corrotti – Guida completa per abilitare la modalità di recupero e ottenere il conteggio delle pagine](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [come recuperare docx – impostare la modalità di recupero e aprire file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Come recuperare docx – Abilitare la modalità di recupero e leggere gli avvisi](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

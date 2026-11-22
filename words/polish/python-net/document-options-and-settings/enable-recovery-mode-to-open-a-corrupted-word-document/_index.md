@@ -194,7 +194,6 @@ Miłego kodowania i oby Twoje dokumenty pozostawały w dobrym stanie!
 
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki zaprezentowane w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu oraz szczegółowe wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
-- [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [odzyskaj uszkodzony docx przy użyciu Aspose.Words – ustaw tryb odzyskiwania i opcje ładowania](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Odzyskaj uszkodzony DOCX przy użyciu Aspose.Words LoadOptions – kompletny przewodnik C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

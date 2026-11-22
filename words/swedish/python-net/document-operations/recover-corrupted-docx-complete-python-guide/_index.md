@@ -247,7 +247,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger vidare på tek
 
 - [Återställ korrupt DOCX – Öppna & ladda Word-dokument](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Återställ korrupt DOCX & konvertera Word till Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [hur man återställer docx – sätt återställningsläge & öppna korrupta Word-filer](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

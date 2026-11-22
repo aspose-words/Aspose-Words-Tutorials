@@ -217,7 +217,6 @@ Feel free to experiment with the advanced options, combine them with password ha
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [손상된 DOCX 복구 – Word 문서 열기 및 로드](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [DOCX 복구 방법 – 복구 옵션으로 손상된 파일 로드](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

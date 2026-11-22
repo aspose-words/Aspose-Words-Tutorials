@@ -349,7 +349,6 @@ We hebben het volledige proces van **how to recover docx** bestanden in Python d
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Corrupt DOCX herstellen – Openen & laden Word-document](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [hoe docx te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [beschadigd docx herstellen met Aspose.Words – herstelmodus en load‑options instellen](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

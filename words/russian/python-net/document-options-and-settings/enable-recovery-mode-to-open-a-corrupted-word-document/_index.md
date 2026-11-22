@@ -192,7 +192,6 @@ if __name__ == "__main__":
 
 Следующие учебники охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полные работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [как восстановить docx – установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [восстановить повреждённый docx с Aspose.Words – установить режим восстановления и параметры загрузки](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Восстановление повреждённого DOCX с помощью Aspose.Words LoadOptions – Полное руководство на C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

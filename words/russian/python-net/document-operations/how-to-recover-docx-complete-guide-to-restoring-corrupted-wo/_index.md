@@ -235,7 +235,6 @@ A: Нет. Aspose.Words работает с копией в памяти. Ори
 
 - [Восстановление повреждённого DOCX — открыть и загрузить Word‑документ](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Восстановление повреждённого DOCX и конвертация Word в Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [how to recover docx — установить режим восстановления и открыть повреждённые Word‑файлы](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

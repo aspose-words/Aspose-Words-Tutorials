@@ -269,7 +269,6 @@ A: もちろんです。復元後に `doc.save("output.pdf")` を呼び出して
 
 - [破損したDOCXを復元 – Word文書のオープンとロード](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [破損したDOCXを復元 & WordをMarkdownに変換](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [docxを復元する方法 – リカバリモード設定と破損したWordファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

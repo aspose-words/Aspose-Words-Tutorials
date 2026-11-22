@@ -184,7 +184,6 @@ C:\Temp\Recovered.pdf
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하여 관련 주제를 자세히 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 제공하므로, 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
 
 - [Aspose.Words C#로 Word 문서 복구](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [손상된 Word 파일 복구 – 손상된 DOCX 열기 및 페이지 가져오기 완전 가이드](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

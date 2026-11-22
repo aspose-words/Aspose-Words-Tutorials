@@ -251,7 +251,6 @@ if __name__ == "__main__":
 
 - [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [πώς να ανακτήσετε docx – ορισμός λειτουργίας αποκατάστασης & άνοιγμα κατεστραμμένων αρχείων Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

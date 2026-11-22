@@ -233,7 +233,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które budują na tech
 
 - [Odzyskaj uszkodzony DOCX – otwórz i wczytaj dokument Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Odzyskaj uszkodzony DOCX i konwertuj Word do Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [how to recover docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

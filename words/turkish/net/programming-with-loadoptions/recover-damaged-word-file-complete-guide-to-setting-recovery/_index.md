@@ -265,7 +265,6 @@ C: `RecoveryMode.Fast` kullanın ve ardından `NodeType.Shape` tipindeki düğü
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [docx nasıl kurtarılır – kurtarma modunu ayarla ve bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [C#’ta Bozuk Belgeyi Kurtar – Kurtarma Modunu Ayarla ve Kullanıcıyı Uyar](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 - [Aspose.Words ile docx nasıl kurtarılır – adım adım](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 

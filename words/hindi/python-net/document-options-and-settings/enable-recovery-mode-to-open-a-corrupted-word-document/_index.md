@@ -192,7 +192,6 @@ if __name__ == "__main__":
 
 निम्नलिखित ट्यूटोरियल्स निकट संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API सुविधाओं में निपुण बनने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [docx को कैसे रिकवर करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words के साथ क्षतिग्रस्त docx को रिकवर करें – रिकवरी मोड और लोड विकल्प सेट करें](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Aspose.Words LoadOptions के साथ भ्रष्ट DOCX को रिकवर करें – पूर्ण C# गाइड](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

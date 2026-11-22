@@ -289,7 +289,6 @@ if __name__ == "__main__":
 
 - [กู้ไฟล์ DOCX ที่เสียหาย – เปิดและโหลดเอกสาร Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [กู้ไฟล์ DOCX ที่เสียหาย & แปลง Word เป็น Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [วิธีกู้ docx – ตั้งค่า recovery mode & เปิดไฟล์ Word ที่เสียหาย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

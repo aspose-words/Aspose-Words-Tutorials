@@ -216,7 +216,6 @@ Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan d
 
 - [Pulihkan DOCX Rusak – Buka & Muat Dokumen Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Pulihkan DOCX Rusak & Konversi Word ke Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [cara memulihkan docx – atur mode pemulihan & buka file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

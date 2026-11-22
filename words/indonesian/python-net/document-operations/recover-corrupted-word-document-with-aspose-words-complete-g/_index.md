@@ -252,7 +252,6 @@ Jalankan skrip ini, sesuaikan dengan alur kerja Anda, dan beri tahu kami di kome
 
 Tutorial berikut mencakup topik yang sangat terkait yang dibangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [cara memulihkan docx – atur mode pemulihan & buka file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Pulihkan File Word Rusak – Panduan Lengkap Membuka DOCX Rusak & Mendapatkan Halaman](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [Pulihkan Dokumen Word dengan Aspose.Words di C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

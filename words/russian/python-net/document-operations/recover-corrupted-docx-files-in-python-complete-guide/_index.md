@@ -271,7 +271,6 @@ if __name__ == "__main__":
 
 - [Восстановление повреждённого DOCX — открытие и загрузка Word‑документа](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Восстановление повреждённого DOCX и конвертация Word в Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [как восстановить docx — установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

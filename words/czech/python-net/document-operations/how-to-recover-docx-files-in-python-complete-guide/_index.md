@@ -349,7 +349,6 @@ Prošli jsme celým procesem **how to recover docx** souborů v Pythonu, od inst
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Obnovit poškozený DOCX – Otevřít a načíst Word dokument](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [jak obnovit docx – nastavit režim obnovy a otevřít poškozené Word soubory](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [obnovit poškozený docx pomocí Aspose.Words – nastavit režim obnovy a možnosti načtení](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

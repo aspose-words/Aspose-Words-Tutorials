@@ -325,7 +325,6 @@ Python で **how to recover docx** ファイルを復元するための全プロ
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [破損した DOCX の復元 – Word ドキュメントのオープンとロード](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [docx の復元方法 – 復元モード設定と破損した Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words で損傷した docx を復元 – 復元モードとロードオプションの設定](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

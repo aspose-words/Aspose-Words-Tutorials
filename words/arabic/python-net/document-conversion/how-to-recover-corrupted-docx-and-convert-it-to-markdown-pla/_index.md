@@ -243,7 +243,6 @@ doc.save("YOUR_DIRECTORY/shadowed.docx")
 
 - [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [حفظ Word كـ Markdown باستخدام Aspose.Words – دليل كامل لتحويل DOCX واستخراج الصور](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [كيفية استعادة docx – ضبط وضع الاسترداد وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

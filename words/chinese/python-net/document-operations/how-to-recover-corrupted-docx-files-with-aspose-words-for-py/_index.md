@@ -206,7 +206,6 @@ Failed to recover 'YOUR_DIRECTORY/corrupted.docx': The file is corrupted and can
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并探索在项目中的替代实现方式，每篇资源均提供完整可运行的代码示例和逐步解释。
 
 - [Recover Corrupted DOCX – Complete Guide to Enable Recovery Mode & Get Page](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [how to recover docx – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [How to recover docx – Enable Recovery Mode & Read Warnings](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

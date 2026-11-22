@@ -243,7 +243,6 @@ Acabamos de mostrar cómo **activar el modo de recuperación** en Aspose.Words, 
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [cómo recuperar docx – establecer modo de recuperación y abrir archivos Word corruptos](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [cómo recuperar docx con Aspose.Words – paso a paso](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Recuperar archivo Word dañado – Guía completa para abrir DOCX corruptos y obtener la página](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

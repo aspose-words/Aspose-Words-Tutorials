@@ -209,7 +209,6 @@ Bu uzantıların her biri, **enabling recovery mode** sonrasında elde ettiğini
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Bozuk DOCX Kurtarma – Recovery Mode'u Etkinleştirme ve Sayfa Alma Tam Kılavuzu](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [docx nasıl kurtarılır – recovery mode ayarla ve bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [docx nasıl kurtarılır – Recovery Mode'u Etkinleştir ve Uyarıları Oku](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

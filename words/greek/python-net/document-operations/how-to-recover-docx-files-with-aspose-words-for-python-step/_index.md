@@ -223,7 +223,6 @@ test_recovery("samples/corrupted2.docx")
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικά παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [πώς να ανακτήσετε docx – ορισμός λειτουργίας ανάκτησης & άνοιγμα κατεστραμμένων αρχείων Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Πώς να Ανακτήσετε DOCX – Φόρτωση Κατεστραμμένων Αρχείων με Επιλογές Ανάκτησης](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

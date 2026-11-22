@@ -270,7 +270,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Obnova poškozených DOCX – Otevření a načtení Word dokumentu](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Obnova poškozených DOCX a převod Word do Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [jak obnovit docx – nastavit režim obnovy a otevřít poškozené Word soubory](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

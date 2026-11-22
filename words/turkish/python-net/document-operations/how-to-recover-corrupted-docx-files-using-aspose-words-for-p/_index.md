@@ -214,7 +214,6 @@ Kodlamaktan keyif alın ve belgeleriniz her zaman kurtarılabilir olsun!
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Word'den LaTeX Dışa Aktarma: DOCX'i Aspose ile Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [docx kurtarma – kurtarma modunu ayarlama ve bozuk Word dosyalarını açma](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

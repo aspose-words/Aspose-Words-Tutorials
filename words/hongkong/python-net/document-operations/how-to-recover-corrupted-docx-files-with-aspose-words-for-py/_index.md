@@ -204,7 +204,6 @@ Failed to recover 'YOUR_DIRECTORY/corrupted.docx': The file is corrupted and can
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在專案中探索替代實作方式。
 
 - [復原損壞的 DOCX – 完整指南：啟用復原模式與取得頁數](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [如何復原 docx – 設定復原模式並開啟損壞的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [如何復原 docx – 啟用復原模式與讀取警告](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -265,7 +265,6 @@ Missing images  : False
 
 다음 튜토리얼에서는 이 가이드에서 다룬 기술을 기반으로 한 관련 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함하여 추가 API 기능을 마스터하고 프로젝트에 적용할 수 있도록 돕습니다.
 
-- [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words로 손상된 docx 복구 – 복구 모드와 로드 옵션 설정](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [DOCX 복구 완전 가이드 – Aspose.Words 사용](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

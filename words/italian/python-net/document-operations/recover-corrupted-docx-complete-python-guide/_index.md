@@ -246,7 +246,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Recuperare DOCX Corrotti – Aprire e Caricare Documento Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Recuperare DOCX Corrotti & Convertire Word in Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [come recuperare docx – impostare modalità di recupero & aprire file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

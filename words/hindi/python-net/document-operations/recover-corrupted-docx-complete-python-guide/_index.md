@@ -224,7 +224,6 @@ if recovery_info:
 
 - [भ्रष्ट DOCX पुनर्प्राप्ति – Word दस्तावेज़ खोलें और लोड करें](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [भ्रष्ट DOCX पुनर्प्राप्ति एवं Word को Markdown में परिवर्तित करें](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [docx को कैसे पुनर्प्राप्त करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

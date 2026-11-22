@@ -245,7 +245,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Cómo exportar LaTeX desde Word – Convertir DOCX a Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Guardar Word como Markdown con Aspose.Words – Guía completa para convertir DOCX y extraer imágenes](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Cómo recuperar docx – establecer modo de recuperación y abrir archivos Word corruptos](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

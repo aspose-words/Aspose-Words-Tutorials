@@ -293,7 +293,6 @@ Van kérdése egy konkrét figyelmeztetéstípussal kapcsolatban, vagy segítsé
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [hogyan állítsuk be a helyreállítási módot és nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [hogyan helyreállítsuk a docx‑et – C# útmutató sérült Word fájlokhoz](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [hogyan helyreállítsuk a docx‑et az Aspose.Words‑szel – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 

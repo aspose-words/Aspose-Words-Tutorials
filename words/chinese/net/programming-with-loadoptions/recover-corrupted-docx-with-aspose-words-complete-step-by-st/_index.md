@@ -291,7 +291,6 @@ Recovered 42 paragraphs.
 
 以下教程与本指南紧密相关，帮助您进一步掌握示例中展示的技术。每篇资源都包含完整的可运行代码示例和逐步解释，帮助您在项目中灵活运用更多 API 功能或探索替代实现方案。
 
-- [how to recover docx – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [how to recover docx – C# guide for corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [how to recover docx with Aspose.Words – step by step](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 

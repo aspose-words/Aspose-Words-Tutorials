@@ -247,7 +247,6 @@ Missing images  : False
 
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [如何復原 docx – 設定復原模式並開啟損毀的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [使用 Aspose.Words 復原受損的 docx – 設定復原模式與載入選項](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [如何復原 DOCX – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

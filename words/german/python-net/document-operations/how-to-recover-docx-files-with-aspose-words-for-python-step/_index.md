@@ -222,7 +222,6 @@ Fühlen Sie sich frei, mit den erweiterten Optionen zu experimentieren, sie mit 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Beschädigtes DOCX wiederherstellen – Word‑Dokument öffnen & laden](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [docx wiederherstellen – Wiederherstellungsmodus setzen & beschädigte Word‑Dateien öffnen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Wie man DOCX wiederherstellt – Beschädigte Dateien mit Wiederherstellungsoptionen laden](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

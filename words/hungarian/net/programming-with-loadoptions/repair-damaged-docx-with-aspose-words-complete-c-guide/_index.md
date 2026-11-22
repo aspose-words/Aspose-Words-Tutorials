@@ -271,7 +271,6 @@ Van egy speciális szituáció, amivel küzdesz? Írj egy megjegyzést, és egy�
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy könnyedén elsajátíthasd a további API‑funkciókat és alternatív megvalósítási módokat a saját projektjeidben.
 
 - [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és oldal lekéréséhez](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [hogyan állítsuk helyre a docx‑et – recovery mode beállítása és sérült Word fájlok megnyitása](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [hogyan állítsuk helyre a docx‑et Aspose.Words‑szal – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

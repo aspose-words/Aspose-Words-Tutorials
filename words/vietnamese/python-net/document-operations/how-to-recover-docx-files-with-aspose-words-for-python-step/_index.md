@@ -223,7 +223,6 @@ Bạn có thể thoải mái thử nghiệm các tùy chọn nâng cao, kết h�
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Khôi phục DOCX bị hỏng – Mở & Tải tài liệu Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [cách khôi phục docx – đặt chế độ khôi phục & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Cách Khôi phục DOCX – Tải tệp bị hỏng với các tùy chọn khôi phục](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

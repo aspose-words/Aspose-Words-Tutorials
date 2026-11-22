@@ -236,7 +236,6 @@ try:
 
 - [استعادة DOCX التالف – فتح وتحميل مستند Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [استعادة DOCX التالف وتحويل Word إلى Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [كيفية استعادة docx – ضبط وضع الاستعادة وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

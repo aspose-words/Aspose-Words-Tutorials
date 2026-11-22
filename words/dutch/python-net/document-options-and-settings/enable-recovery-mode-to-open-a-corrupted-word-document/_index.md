@@ -194,7 +194,6 @@ Veel programmeerplezier, en moge je documenten gezond blijven!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [hoe docx te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [beschadigde docx herstellen met Aspose.Words – herstelmodus en laadopties instellen](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Corrupt DOCX herstellen met Aspose.Words LoadOptions – Complete C#‑gids](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

@@ -350,7 +350,6 @@ A: 修復是啟發式的。簡單的 XML 截斷或缺失部份通常能修復，
 以下教學涵蓋與本指南緊密相關的主題，並以示範的技術為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [恢復損壞的 DOCX – 開啟與載入 Word 文件](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [如何恢復 docx – 設定修復模式並開啟損壞的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [使用 Aspose.Words 恢復受損的 docx – 設定修復模式與載入選項](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

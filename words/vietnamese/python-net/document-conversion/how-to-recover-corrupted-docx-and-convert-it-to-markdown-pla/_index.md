@@ -247,7 +247,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Lưu Word dưới dạng Markdown với Aspose.Words – Hướng dẫn đầy đủ để chuyển DOCX và trích xuất hình ảnh](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [cách khôi phục docx – đặt chế độ khôi phục & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -263,7 +263,6 @@ Missing images  : False
 
 以下のチュートリアルは、本ガイドで示した手法に基づく関連トピックを扱っています。各リソースには、ステップバイステップの説明と完全なコード例が含まれており、API の追加機能を習得したり、別の実装アプローチを検討したりするのに役立ちます。
 
-- [docx を復元する – 復元モードを設定して壊れた Word ファイルを開く](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words で破損した docx を復元 – 復元モードとロードオプションの設定](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [DOCX 復元完全ガイド – Aspose.Words を使用](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

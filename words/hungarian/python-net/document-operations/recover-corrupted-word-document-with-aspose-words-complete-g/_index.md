@@ -255,7 +255,6 @@ Próbálja ki a szkriptet, igazítsa saját munkafolyamatához, és ossza meg a 
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépés‑ről‑lépésre magyarázatokkal, hogy segítsenek további API‑funkciók elsajátításában és alternatív megvalósítási megközelítések felfedezésében saját projektjeiben.
 
-- [hogyan állítsuk be a helyreállítási módot és nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és az oldalszám lekéréséhez](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [Word dokumentum helyreállítása Aspose.Words‑szal C#‑ban](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

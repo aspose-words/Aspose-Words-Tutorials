@@ -209,7 +209,6 @@ Failed to recover 'YOUR_DIRECTORY/corrupted.docx': The file is corrupted and can
 ## Τι Θα Μάθετε Στη Σειρά;
 
 - [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός για Ενεργοποίηση Λειτουργίας Ανάκτησης & Λήψη Αριθμού Σελίδων](/words/english/python-net/document-operations/recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
-- [πώς να ανακτήσετε docx – ορίστε λειτουργία ανάκτησης & ανοίξτε κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Πώς να ανακτήσετε docx – Ενεργοποίηση Λειτουργίας Ανάκτησης & Ανάγνωση Προειδοποιήσεων](/words/english/java/document-loading-and-saving/how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

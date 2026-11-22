@@ -261,7 +261,6 @@ Feel free to tweak the sample, add logging, or wrap the logic into a reusable se
 
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้. แต่ละแหล่งรวมตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานแบบทางเลือกในโปรเจกต์ของคุณ.
 
-- [วิธีกู้ docx – ตั้งค่า recovery mode & เปิดไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [กู้เอกสารเสียใน C# – ตั้งค่า Recovery Mode & แจ้งผู้ใช้](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 - [วิธีกู้ docx ด้วย Aspose.Words – ทีละขั้นตอน](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 

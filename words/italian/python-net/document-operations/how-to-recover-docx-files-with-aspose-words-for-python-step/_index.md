@@ -221,7 +221,6 @@ Sentiti libero di sperimentare le opzioni avanzate, combinarle con la gestione d
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Recuperare DOCX Corrotti – Aprire e Caricare Documento Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [come recuperare docx – impostare modalità di recupero e aprire file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Come Recuperare DOCX – Caricare File Corrotti con Opzioni di Recupero](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

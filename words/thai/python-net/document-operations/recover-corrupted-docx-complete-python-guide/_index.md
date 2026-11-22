@@ -245,7 +245,6 @@ try:
 
 - [กู้คืนไฟล์ DOCX ที่เสีย – เปิดและโหลดเอกสาร Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [กู้คืนไฟล์ DOCX ที่เสีย & แปลง Word เป็น Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [วิธีกู้คืน docx – ตั้งค่าโหมดการกู้คืน & เปิดไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -225,7 +225,6 @@ Kolejne kroki, które możesz rozważyć:
 Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Odzyskaj uszkodzony DOCX – otwórz i załaduj dokument Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Jak odzyskać DOCX – załaduj uszkodzone pliki z opcjami odzyskiwania](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

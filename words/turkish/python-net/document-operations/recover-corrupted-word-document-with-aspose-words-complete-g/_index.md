@@ -244,7 +244,6 @@ Betikle bir deneme yapın, kendi iş akışınıza göre ayarlayın ve yorumlard
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [bozuk docx nasıl kurtarılır – kurtarma modunu ayarla & bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Hasarlı Word Dosyasını Kurtar – Bozuk DOCX Açma ve Sayfa Alma Tam Kılavuzu](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [Aspose.Words ile C#'ta Word Belgesi Kurtarma](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

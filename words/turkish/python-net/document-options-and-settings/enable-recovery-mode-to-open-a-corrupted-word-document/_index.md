@@ -192,7 +192,6 @@ Kodlamaktan keyif alın ve belgeleriniz sağlıklı kalsın!
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [docx'i kurtarma – recovery mode'u ayarla ve bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words ile hasarlı docx'i kurtar – recovery mode ve load options ayarla](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Aspose.Words LoadOptions ile bozuk DOCX'i kurtar – Tam C# Kılavuzu](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

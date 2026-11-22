@@ -220,7 +220,6 @@ if recovery_info:
 
 - [恢复损坏的 DOCX – 打开并加载 Word 文档](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [恢复损坏的 DOCX 并将 Word 转换为 Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

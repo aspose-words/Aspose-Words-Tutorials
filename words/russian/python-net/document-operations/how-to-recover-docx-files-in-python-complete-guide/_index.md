@@ -351,7 +351,6 @@ A: Восстановление работает эвристически. Пр�
 Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом пособии. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы вы могли освоить дополнительные возможности API и исследовать альтернативные подходы в своих проектах.
 
 - [Восстановление повреждённого DOCX – открыть и загрузить Word‑документ](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [how to recover docx – установить режим восстановления и открыть повреждённые Word‑файлы](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Восстановление повреждённого docx с Aspose.Words – установить режим восстановления и параметры загрузки](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

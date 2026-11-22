@@ -291,7 +291,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [भ्रष्ट DOCX पुनर्प्राप्त करें – Word दस्तावेज़ खोलें और लोड करें](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [भ्रष्ट DOCX पुनर्प्राप्त करें और Word को Markdown में बदलें](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [docx को कैसे पुनर्प्राप्त करें – पुनर्प्राप्ति मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -185,7 +185,6 @@ Masz własny wariant tego scenariusza? Może potrzebujesz zachować uszkodzone c
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu wraz z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i eksplorować alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Odzyskaj dokument Word przy użyciu Aspose.Words w C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Odzyskaj uszkodzony plik Word – Kompletny przewodnik po otwieraniu uszkodzonego DOCX i pobieraniu stron](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

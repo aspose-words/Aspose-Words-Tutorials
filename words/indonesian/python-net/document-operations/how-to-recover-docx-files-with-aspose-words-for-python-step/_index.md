@@ -223,7 +223,6 @@ Silakan bereksperimen dengan opsi lanjutan, menggabungkannya dengan penanganan k
 Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Pulihkan DOCX Rusak – Buka & Muat Dokumen Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
-- [cara memulihkan docx – atur mode pemulihan & buka file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Cara Memulihkan DOCX – Muat File Rusak dengan Opsi Pemulihan](/words/english/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

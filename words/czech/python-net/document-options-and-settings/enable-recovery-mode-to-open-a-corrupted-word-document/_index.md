@@ -191,7 +191,6 @@ Dále zvažte prozkoumání souvisejících témat, jako je **převod obnovenéh
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [jak obnovit docx – nastavit režim obnovy a otevřít poškozené soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [obnovit poškozený docx pomocí Aspose.Words – nastavit režim obnovy a možnosti načtení](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Obnovit poškozený DOCX pomocí Aspose.Words LoadOptions – Kompletní průvodce pro C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 

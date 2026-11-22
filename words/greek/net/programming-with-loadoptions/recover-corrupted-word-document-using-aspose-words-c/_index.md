@@ -186,7 +186,6 @@ C:\Temp\Recovered.pdf
 Οι παρακάτω οδηγίες καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Ανάκτηση Εγγράφου Word με Aspose.Words σε C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [πώς να ανακτήσετε docx – ορίστε recovery mode & ανοίξτε κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Ανάκτηση Κατεστραμμένου Αρχείου Word – Πλήρης Οδηγός για Άνοιγμα Κατεστραμμένου DOCX & Λήψη Σελίδας](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

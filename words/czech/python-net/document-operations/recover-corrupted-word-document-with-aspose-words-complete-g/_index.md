@@ -252,7 +252,6 @@ Vyzkoušejte skript, upravte jej podle svého pracovního postupu a dejte nám v
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [jak obnovit docx – nastavit režim obnovy a otevřít poškozené soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Obnovit poškozený soubor Word – Kompletní průvodce otevřením poškozených DOCX a získáním stránky](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [Obnovit dokument Word pomocí Aspose.Words v C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

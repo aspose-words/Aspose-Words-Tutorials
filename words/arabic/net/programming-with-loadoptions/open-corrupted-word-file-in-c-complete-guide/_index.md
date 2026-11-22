@@ -252,7 +252,6 @@ namespace OpenCorruptedWordFileDemo
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شفرة كاملة تعمل مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك الخاصة.
 
-- [كيفية استعادة docx – تعيين وضع الاسترداد وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [استعادة ملف Word تالف – دليل كامل لفتح DOCX التالف والحصول على الصفحة](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [استعادة مستند Word باستخدام Aspose.Words في C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

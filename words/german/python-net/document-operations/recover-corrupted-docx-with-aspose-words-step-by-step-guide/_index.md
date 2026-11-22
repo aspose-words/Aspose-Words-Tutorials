@@ -267,7 +267,6 @@ Experimentieren Sie gern mit verschiedenen Wiederherstellungseinstellungen, komb
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [wie man docx wiederherstellt – Wiederherstellungsmodus setzen & beschädigte Word‑Dateien öffnen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [beschädigtes docx mit Aspose.Words wiederherstellen – Wiederherstellungsmodus und Ladeoptionen setzen](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Wie man DOCX wiederherstellt – Komplett‑Leitfaden mit Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

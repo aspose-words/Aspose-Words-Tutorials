@@ -254,7 +254,6 @@ Probieren Sie das Skript aus, passen Sie es an Ihren Workflow an und teilen Sie 
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren Projekten erkunden können.
 
-- [wie man docx wiederherstellt – Wiederherstellungsmodus festlegen & beschädigte Word‑Dateien öffnen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Beschädigte Word‑Datei wiederherstellen – Komplett‑Leitfaden zum Öffnen beschädigter DOCX & Seitenzahl erhalten](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [Word‑Dokument mit Aspose.Words in C# wiederherstellen](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 

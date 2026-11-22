@@ -187,7 +187,6 @@ Van egy saját változatod ebben a szituációban? Lehet, hogy meg kell őrizned
 Az alábbi oktatóanyagok szorosan kapcsolódnak a bemutatott technikákhoz, és további API‑funkciókat, valamint alternatív megvalósítási megközelítéseket mutatnak be a saját projektjeidhez.
 
 - [Word dokumentum helyreállítása Aspose.Words segítségével C#‑ban](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
-- [hogyan állítsuk be a helyreállítási módot és nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és oldalak lekéréséhez](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

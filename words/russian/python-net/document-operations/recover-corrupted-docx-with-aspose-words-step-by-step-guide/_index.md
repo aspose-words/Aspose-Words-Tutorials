@@ -267,7 +267,6 @@ Missing images  : False
 
 Следующие учебники охватывают тесно связанные темы, опирающиеся на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные рабочие примеры кода с пошаговыми объяснениями, помогающие освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [как восстановить docx – установить режим восстановления и открыть повреждённые Word‑файлы](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [восстановление повреждённого docx с помощью Aspose.Words – установить режим восстановления и параметры загрузки](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
 - [Как восстановить DOCX – полное руководство с использованием Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 

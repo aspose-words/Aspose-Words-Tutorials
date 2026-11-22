@@ -246,7 +246,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Hogyan exportáljunk LaTeX-et a Wordből – DOCX konvertálása markdownba](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Word mentése markdownként az Aspose.Words segítségével – Teljes útmutató a DOCX konvertálásához és képek kinyeréséhez](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [hogyan állítsuk helyre a docx‑et – helyreállítási mód beállítása és sérült Word fájlok megnyitása](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
