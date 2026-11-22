@@ -1,0 +1,7 @@
+Title: How to load markdown with formatting in Java
+Slug: how-to-load-markdown-with-formatting-in-java
+Category: document-loading-and-saving
+ProcessedDate: 2026-11-22T13:18:10.650049
+SourceRepo: AI Search API
+Keywords: how to load markdown, read markdown with formatting
+PRNumber: 673
