@@ -259,7 +259,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 
 - [DOCX에서 마크다운 저장 방법 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Aspose.Words를 사용한 docx를 마크다운으로 변환 – 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [C#에서 docx를 마크다운으로 변환 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
