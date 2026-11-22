@@ -1,0 +1,7 @@
+Title: How to create macro button in a Word document with Aspose.Words for Java
+Slug: how-to-create-macro-button-in-a-word-document-with-aspose-wo
+Category: using-document-elements
+ProcessedDate: 2026-11-22T13:18:13.100295
+SourceRepo: AI Search API
+Keywords: create macro button, insert command button, set button text, link macro to button, add interactive button
+PRNumber: 673
