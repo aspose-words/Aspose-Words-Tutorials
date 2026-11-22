@@ -153,7 +153,6 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML met Aspose.Words voor .NET.
 ### [Aspose docx naar markdown – Complete gids voor converteren en afbeeldingen extraheren](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 
-### [DOCX naar Markdown converteren – Complete gids met vormschaduw en herstel](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 Leer hoe u DOCX-bestanden naar Markdown converteert, vormschaduwen behoudt en beschadigde documenten herstelt met Aspose.Words voor .NET.
 
 ### [Export docx naar markdown in C# – Complete gids](./export-docx-to-markdown-in-c-complete-guide/)

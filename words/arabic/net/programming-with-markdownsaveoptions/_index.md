@@ -200,7 +200,6 @@
 
 ### [Aspose docx إلى markdown – دليل كامل للتحويل واستخراج الصور](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 
-### [تحويل DOCX إلى Markdown – دليل كامل مع ظل الشكل والاستعادة](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

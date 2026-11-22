@@ -302,7 +302,6 @@ Lär dig hur du laddar upp bilder till ett CDN under konvertering av DOCX till M
 ### [Aspose docx till markdown – Fullständig guide för konvertering och bildextraktion](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 Lär dig konvertera DOCX till Markdown och extrahera bilder med en komplett C#‑guide.
 
-### [Konvertera DOCX till Markdown – Fullständig guide med formskugga & återställning](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 Lär dig konvertera DOCX till Markdown med stöd för formskuggor och återställning av skadade dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
