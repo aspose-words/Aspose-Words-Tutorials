@@ -1,0 +1,7 @@
+Title: How to add shape to Word documents with Aspose.Words for Java
+Slug: how-to-add-shape-to-word-documents-with-aspose-words-for-jav
+Category: images-shapes
+ProcessedDate: 2026-11-22T13:18:15.471443
+SourceRepo: AI Search API
+Keywords: add shape to word, how to insert shape, how to hide shape, hide shape in word
+PRNumber: 673
