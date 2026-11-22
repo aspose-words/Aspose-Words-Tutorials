@@ -42,7 +42,6 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [C# で破損した文書を復元 – 復元モードを設定しユーザーに促す](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aspose.Words for .NET の LoadOptions を使用し、破損した文書を復元モードで読み込み、ユーザーに復元を促す手順を解説します。 |
 | [破損したWord文書を復元する – 完全C#ガイド](./recover-corrupted-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、破損した Word 文書を C# で完全に復元する手順をステップバイステップで解説します。 |
 | [破損した DOCX ファイルを Aspose.Words で復元する](./recover-damaged-docx-file-using-aspose-words/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
-| [C#で破損したDOCXファイルを復元する – 完全ガイド](./recover-corrupted-docx-files-in-c-complete-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で復元する手順をステップバイステップで解説します。 |
 | [破損したWordファイルの復元 – C#開発者向けステップバイステップガイド](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) Aspose.Words for .NET を使用して、破損した Word ファイルを C# で復元する方法をステップバイステップで解説します。 |
 | [Aspose.Wordsで破損したDOCXを復元する – 完全C#ガイド](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で完全に復元する手順をステップバイステップで解説します。 |
 | [破損したWord文書の読み込み – 問題検出とC#での破損docxの復元](./load-corrupted-word-document-detect-issues-recover-damaged-d/) Aspose.Words for .NET を使用して、破損した Word 文書を検出し、C# で損傷した docx を復元する手順を解説します。 |

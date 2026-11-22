@@ -44,7 +44,6 @@
 | [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-docx-complete-c-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด |
 | [กู้คืนเอกสาร Word ที่เสียหาย – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-word-document-complete-c-guide/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มสำหรับ C# |
 | [กู้ไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่าย ๆ และตัวอย่างโค้ดที่ชัดเจน |
-| [กู้ไฟล์ DOCX ที่เสียหายใน C# – คู่มือฉบับสมบูรณ์](./recover-corrupted-docx-files-in-c-complete-guide/) | เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดที่ชัดเจน |
 | [กู้คืนไฟล์ Word ที่เสียหาย – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนสำหรับนักพัฒนา C# |
 | [กู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียดและครบถ้วน |
 | [โหลดเอกสาร Word ที่เสียหาย – ตรวจจับปัญหาและกู้คืนไฟล์ docx ที่เสียใน C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | เรียนรู้วิธีตรวจจับและกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ใน C# |
