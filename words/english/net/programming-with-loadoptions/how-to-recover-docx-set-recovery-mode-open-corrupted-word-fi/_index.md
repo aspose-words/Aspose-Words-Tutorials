@@ -55,22 +55,22 @@ That’s it – no extra libraries required.
 
 ## Step 1: Set Recovery Mode – Tell Aspose.Words What to Do
 
-The heart of **how to recover docx** lies in the `LoadOptions` object. By default Aspose.Words will throw an exception when it meets a malformed file. Switching the `RecoveryMode` to `Recover` instructs the library to attempt a best‑effort fix.
+The heart of **how to recover docx** lies in the `LoadOptions` object. By default Aspose.Words attempts to recover a malformed file. If you set `RecoveryMode` to `DocumentRecoveryMode.None`, the library will throw an exception when it encounters unrecoverable content. Setting it to `DocumentRecoveryMode.TryRecover` (the default) explicitly enables the best‑effort recovery behavior.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 1 – configure LoadOptions for recovery
 LoadOptions loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover attempts to rebuild a broken document structure
-    RecoveryMode = RecoveryMode.Recover
+    // DocumentRecoveryMode.TryRecover attempts to rebuild a broken document structure
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
 **Why this matters:**  
-When a Word file is damaged, its internal XML parts might be missing or malformed. `RecoveryMode.Recover` parses what it can, discards unreadable chunks, and reassembles a usable `Document` object. Without this flag you’d only get a generic `FileCorruptedException`, leaving you stuck.
+`DocumentRecoveryMode.TryRecover` tells the library to try to load the document even if some parts are damaged. If you prefer the operation to fail fast, set `RecoveryMode` to `None`.
 
 ## Step 2: Open Corrupted Word Document Using the Configured Options
 
@@ -165,8 +165,8 @@ This snippet demonstrates how to **recover damaged word document** collections w
 
 ## Recap – What We Covered
 
-* **How to recover docx** by configuring `LoadOptions.RecoveryMode = Recover`.  
-* **Set recovery mode** to tell Aspose.Words to attempt fixes.  
+* **How to recover docx** by configuring `LoadOptions.RecoveryMode = DocumentRecoveryMode.TryRecover`.  
+* **Set recovery mode** to tell Aspose.Words to attempt fixes (or disable them with `None`).  
 * **Open corrupted word** files safely with the configured options.  
 * Validate the recovered content before **saving the recovered document**.  
 * Optional batch processing to **recover damaged word document** sets.
