@@ -256,7 +256,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [C#에서 Word를 Markdown으로 변환 – 이미지 추출 전체 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Word에서 Markdown 저장 방법 – 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Word를 Markdown으로 변환 – 이미지를 Base64로 삽입](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

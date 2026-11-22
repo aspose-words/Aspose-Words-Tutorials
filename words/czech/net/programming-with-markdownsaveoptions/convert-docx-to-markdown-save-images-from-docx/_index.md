@@ -215,7 +215,6 @@ Klidně upravte strukturu složek, přidejte kompresi obrázků nebo dokonce zm�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Uložit obrázky Word – Převod Word na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Převod Word na Markdown – Vložit obrázky jako Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Jak přejmenovat obrázky při převodu DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

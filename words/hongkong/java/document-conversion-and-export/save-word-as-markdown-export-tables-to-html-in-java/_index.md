@@ -235,7 +235,6 @@ public class WordToMarkdownDemo {
 
 - [在 C# 中將 Word 轉換為 Markdown – 完整指南與圖片擷取](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [如何從 Word 儲存 Markdown – 完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [將 Word 轉換為 Markdown – 嵌入圖片為 Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

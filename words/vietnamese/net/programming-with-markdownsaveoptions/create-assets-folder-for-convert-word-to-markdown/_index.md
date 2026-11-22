@@ -232,7 +232,6 @@ Nếu bạn gặp bất kỳ khó khăn nào hoặc có ý tưởng cải tiến
 ## Các Hướng Dẫn Liên Quan
 
 - [Lưu Hình Ảnh Word – Chuyển Đổi Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Chuyển Đổi Word sang Markdown – Nhúng Hình Ảnh dưới dạng Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Chuyển Đổi Word sang Markdown trong C# – Hướng Dẫn Đầy Đủ với Việc Trích Xuất Hình Ảnh](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

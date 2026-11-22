@@ -232,7 +232,6 @@ Jeśli napotkasz problemy lub masz pomysły na ulepszenia, zostaw komentarz poni
 ## Powiązane samouczki
 
 - [Zapisz obrazy Word – Konwertuj Word do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Konwertuj Word do Markdown – Osadź obrazy jako Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Konwertuj Word do Markdown w C# – Pełny przewodnik z wyodrębnianiem obrazów](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

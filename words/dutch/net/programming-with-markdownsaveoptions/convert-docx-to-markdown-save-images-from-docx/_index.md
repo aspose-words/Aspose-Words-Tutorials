@@ -216,7 +216,6 @@ Happy coding, and may your documentation always stay both beautiful **and** mach
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Afbeeldingen opslaan uit Word – Word naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word naar Markdown converteren – Afbeeldingen insluiten als Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Hoe afbeeldingen te hernoemen bij het converteren van DOCX naar Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

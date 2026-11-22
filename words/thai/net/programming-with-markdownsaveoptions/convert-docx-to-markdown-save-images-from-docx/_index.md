@@ -214,7 +214,6 @@ Happy coding, and may your documentation always stay both beautiful **and** mach
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโปรเจกต์ของคุณ
 
 - [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [แปลง Word เป็น Markdown – ฝังรูปภาพเป็น Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [วิธีเปลี่ยนชื่อรูปภาพเมื่อแปลง DOCX เป็น Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

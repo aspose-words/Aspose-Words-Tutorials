@@ -214,7 +214,6 @@ Happy coding, and may your documentation always stay both beautiful **and** mach
 다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하며, 밀접하게 관련된 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하도록 돕습니다.
 
 - [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word를 Markdown으로 변환 – 이미지를 Base64로 삽입](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [DOCX를 Markdown으로 변환할 때 이미지 이름 바꾸는 방법](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

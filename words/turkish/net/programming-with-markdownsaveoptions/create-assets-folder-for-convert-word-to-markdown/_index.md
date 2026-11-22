@@ -232,7 +232,6 @@ Herhangi bir sorunla karşılaşırsanız veya geliştirme öneriniz varsa, aşa
 ## İlgili Öğreticiler
 
 - [Word Resimlerini Kaydet – Aspose ile Word'ü Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word'ü Markdown'a Dönüştür – Resimleri Base64 Olarak Göm](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [C# ile Word'ü Markdown'a Dönüştür – Resim Çıkarma ile Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
