@@ -53,7 +53,6 @@
 | [วิธีกู้คืนไฟล์ DOCX – คู่มือขั้นตอนต่อขั้นตอนสำหรับไฟล์เสียหาย](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วยขั้นตอนทีละขั้นตอนโดยใช้ Aspose.Words สำหรับ .NET |
 | [โหลดไฟล์ DOCX ที่เสียหายใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX ที่เสียหายใน C# ด้วย Aspose.Words พร้อมขั้นตอนและเคล็ดลับการจัดการข้อผิดพลาด |
 | [กู้ไฟล์ Word ที่เสีย – เปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและเปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose.Words สำหรับ .NET |
-| [วิธีกู้คืนไฟล์ Word – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายหรือสูญหายด้วย Aspose.Words สำหรับ .NET อย่างละเอียด |
 | [กู้ไฟล์ Word ที่เสีย – คู่มือเต็มสำหรับตั้งค่าโหมดการกู้คืน](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและตั้งค่าโหมดการกู้คืนใน Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนที่ละเอียด |
 | [กำหนดค่าตัวเลือกการโหลดเอกสารใน C# – คู่มือฉบับสมบูรณ์](./configure-document-load-options-in-c-complete-guide/) | เรียนรู้วิธีกำหนดค่าตัวเลือกการโหลดเอกสาร Word ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
 | [เปิดไฟล์ Word ที่เสียใน C# – คู่มือฉบับสมบูรณ์](./open-corrupted-word-file-in-c-complete-guide/) | เรียนรู้วิธีเปิดไฟล์ Word ที่เสียใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET |
