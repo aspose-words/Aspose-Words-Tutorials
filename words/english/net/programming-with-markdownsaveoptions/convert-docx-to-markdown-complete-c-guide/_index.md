@@ -71,17 +71,17 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 Now we tell Aspose how we want the Markdown to look. This is where the secondary keywords shine:
 
-- **Export equations as LaTeX** (`OfficeMathExportMode.LaTeX`)  
+- **Export equations as LaTeX** (`MarkdownOfficeMathExportMode.Latex`)  
 - **Set markdown image resolution** (`ImageResolution = 150`) – 150 DPI is a good compromise between quality and file size.  
-- **ResourceSavingCallback** – lets you decide where images go (e.g., a sub‑folder, a cloud bucket, or an in‑memory stream).  
-- **EmptyParagraphExportMode** – keeping empty paragraphs prevents accidental list‑item merging.
+- **ResourceSavingCallback** – you can customize how resources are saved.  
+- **EmptyParagraphExportMode** – keeps empty paragraphs.
 
 ```csharp
 // Step 2: Configure Markdown save options
 MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
 {
-    // Export OfficeMath equations as LaTeX for better compatibility
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    // Export OfficeMath equations as LaTeX
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
 
     // Balance image quality and file size
     ImageResolution = 150,
@@ -99,8 +99,8 @@ MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
         args.ResourceFileName = $"resources/{args.FileName}";
     },
 
-    // Keep empty paragraphs instead of discarding them
-    EmptyParagraphExportMode = EmptyParagraphExportMode.Keep
+    // Keep empty paragraphs
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
 };
 ```
 
@@ -168,7 +168,7 @@ If your source document contains no equations, setting `OfficeMathExportMode` to
 
 ## Performance Tips
 
-- **Reuse `MarkdownSaveOptions`** – creating a new instance for each file adds negligible overhead, but reusing it can shave milliseconds in batch scenarios.  
+- **Reuse `MarkdownSaveOptions`** – when processing multiple files, reuse the same instance to avoid repeated allocation.  
 - **Stream instead of file** – `Document.Save(Stream, SaveOptions)` lets you write directly to a cloud storage service without touching the disk.  
 - **Parallel processing** – for large batches, consider `Parallel.ForEach` with careful handling of the callback’s file writes.
 
@@ -177,7 +177,7 @@ If your source document contains no equations, setting `OfficeMathExportMode` to
 We’ve covered everything you need to **convert docx to markdown** using Aspose.Words:
 
 1. Load the Word document.  
-2. Configure options to **export equations as latex**, **set markdown image resolution**, and manage resources.  
+2. Configure options to **export equations as LaTeX**, **set markdown image resolution**, and manage resources.  
 3. Save the result as a `.md` file.
 
 You now have a solid, production‑ready snippet that you can drop into any .NET project.
