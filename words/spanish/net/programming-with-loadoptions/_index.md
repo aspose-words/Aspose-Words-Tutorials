@@ -53,7 +53,6 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Cómo usar LoadOptions para detectar fuentes faltantes](./how-to-use-loadoptions-to-detect-missing-fonts/) Aprenda a detectar fuentes faltantes al cargar documentos Word usando LoadOptions en Aspose.Words para .NET. |
 | [Reparar docx dañado con Aspose.Words – Guía completa en C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aprenda a reparar archivos DOCX dañados usando Aspose.Words en C# con esta guía paso a paso. |
 | [cómo capturar advertencias – configurar opciones de carga para fuentes faltantes](./how-to-capture-warnings-configure-load-options-for-missing-f/) Aprenda a capturar advertencias y configurar LoadOptions para manejar fuentes faltantes al cargar documentos con Aspose.Words para .NET. |
-| [Recuperar archivo Word dañado y mostrar modo de recuperación en C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) Aprenda a recuperar archivos Word corruptos y activar el modo de recuperación usando Aspose.Words para .NET en C#. |
 | [Recuperar DOCX corrupto – Guía completa en C# para reparar y guardar archivos](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) Aprenda a reparar documentos DOCX dañados y guardarlos correctamente usando Aspose.Words para .NET con C#. |
 | [Habilitar modo de recuperación – Recuperar documento Word dañado](./enable-recovery-mode-recover-corrupted-word-document/) Aprenda a habilitar el modo de recuperación para abrir documentos Word corruptos usando Aspose.Words para .NET. |
 
