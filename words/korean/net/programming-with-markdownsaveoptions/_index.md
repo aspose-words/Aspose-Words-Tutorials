@@ -44,7 +44,6 @@
 | [Word를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 Word 문서를 markdown으로 변환하는 전체 C# 가이드 |
 | [docx를 markdown으로 저장 – 이미지 추출 포함 전체 C# 가이드](./save-docx-as-markdown-complete-c-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출을 포함한 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
 | [Word를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-word-to-markdown-full-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 Word 파일을 markdown으로 변환하는 전체 C# 가이드 |
-| [Word를 Markdown으로 변환하고 DOCX에서 이미지 추출 (C#)](./convert-word-to-markdown-extract-images-from-docx-c/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 이미지 추출하는 전체 C# 가이드 |
 | [docx를 markdown으로 저장 – Aspose.Words 전체 C# 가이드](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 변환하고 전체 C# 예제로 단계별 구현 방법을 안내합니다. |
 | [Markdown 저장 – 이미지 추출 포함 전체 가이드](./how-to-save-markdown-full-guide-with-image-extraction/) | Aspose.Words for .NET을 사용해 이미지 추출을 포함한 Markdown 저장 전체 과정을 안내합니다. |
 | [Word 이미지 저장하면서 Markdown으로 변환 – 전체 C# 가이드](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 Markdown으로 변환하면서 저장하는 전체 C# 가이드 |

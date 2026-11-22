@@ -64,7 +64,6 @@
 | [Come convertire le equazioni da Word a Markdown – Guida completa C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Scopri come convertire le equazioni da Word a Markdown mantenendo LaTeX con una guida completa in C#. |
 | [Converti Word in Markdown – Guida completa con estrazione immagini](./convert-word-to-markdown-full-guide-with-image-extraction/) | Scopri come convertire documenti Word in Markdown includendo l'estrazione delle immagini con una guida completa passo‑passo. |
 | [Salva Word come Markdown con Aspose.Words – Guida completa C#](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Scopri come convertire documenti Word in Markdown con Aspose.Words, seguendo una guida completa in C#. |
-| [Converti Word in Markdown ed estrai immagini da DOCX (C#)](./convert-word-to-markdown-extract-images-from-docx-c/) | Scopri come convertire documenti Word in Markdown ed estrarre le immagini da file DOCX usando Aspose.Words per .NET. |
 | [Converti Word in Markdown con Aspose.Words – Guida completa C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Scopri come convertire documenti Word in Markdown usando Aspose.Words con una guida completa in C#. |
 | [Salva docx come markdown – Guida passo‑passo C#](./save-docx-as-markdown-step-by-step-c-tutorial/) | Scopri come convertire file DOCX in Markdown con una guida passo‑passo in C#. |
 | [Salva Word come Markdown – Guida completa C#](./save-word-as-markdown-complete-c-guide/) | Scopri come salvare documenti Word in Markdown con una guida completa in C#. |

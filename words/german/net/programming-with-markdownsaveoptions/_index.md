@@ -214,7 +214,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Zeilenum
 ### [Word als Markdown speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
 
-### [Word in Markdown konvertieren & Bilder aus DOCX extrahieren (C#)](./convert-word-to-markdown-extract-images-from-docx-c/)
 
 ### [Word in Markdown konvertieren mit Aspose.Words – Vollständige C#‑Anleitung](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
