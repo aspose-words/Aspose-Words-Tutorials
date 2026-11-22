@@ -128,7 +128,6 @@
 
 ### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
-### [تحويل docx إلى markdown – دليل كامل مع الحفاظ على فواصل الأسطر](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
 ### [حفظ Word كـ Markdown مع Aspose.Words – دليل C# كامل](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 
