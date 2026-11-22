@@ -53,7 +53,6 @@
 | [กู้ไฟล์ Word ที่เสีย – เปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและเปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose.Words สำหรับ .NET |
 | [กู้ไฟล์ Word ที่เสีย – คู่มือเต็มสำหรับตั้งค่าโหมดการกู้คืน](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและตั้งค่าโหมดการกู้คืนใน Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนที่ละเอียด |
 | [กำหนดค่าตัวเลือกการโหลดเอกสารใน C# – คู่มือฉบับสมบูรณ์](./configure-document-load-options-in-c-complete-guide/) | เรียนรู้วิธีกำหนดค่าตัวเลือกการโหลดเอกสาร Word ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
-| [เปิดไฟล์ Word ที่เสียใน C# – คู่มือฉบับสมบูรณ์](./open-corrupted-word-file-in-c-complete-guide/) | เรียนรู้วิธีเปิดไฟล์ Word ที่เสียใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET |
 | [ซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์ |
 | [กู้ไฟล์ docx ที่เสียหายด้วย Aspose.Words – คู่มือขั้นตอนเต็ม](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายอย่างละเอียดด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด |
 | [วิธีจับคำเตือน – กำหนดค่า LoadOptions สำหรับแบบอักษรที่หายไป](./how-to-capture-warnings-configure-load-options-for-missing-f/) | เรียนรู้วิธีจับคำเตือนและกำหนดค่า LoadOptions เพื่อจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |

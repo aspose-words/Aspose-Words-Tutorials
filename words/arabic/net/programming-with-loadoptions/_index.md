@@ -53,7 +53,6 @@
 | [تحميل DOCX تالف في C# – دليل Aspose.Words الكامل](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | تعلّم كيفية تحميل ملفات DOCX التالفة في C# باستخدام Aspose.Words مع شرح مفصل خطوة بخطوة. |
 | [استعادة ملف Word التالف – دليل كامل لضبط وضع الاستعادة](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | تعلم خطوة بخطوة كيفية ضبط وضع الاستعادة لاسترجاع ملفات Word التالفة باستخدام Aspose.Words. |
 | [تكوين خيارات تحميل المستند في C# – دليل شامل](./configure-document-load-options-in-c-complete-guide/) | دليل شامل يشرح كيفية تكوين خيارات تحميل المستند في C# باستخدام Aspose.Words لتحسين عملية التحميل. |
-| [فتح ملف Word تالف في C# – دليل كامل](./open-corrupted-word-file-in-c-complete-guide/) | تعلم خطوة بخطوة كيفية فتح ملفات Word التالفة باستخدام Aspose.Words في C# مع إعدادات استعادة متقدمة. |
 | [إصلاح ملف docx التالف باستخدام Aspose.Words – دليل C# كامل](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | دليل شامل خطوة بخطوة لإصلاح ملفات docx التالفة باستخدام Aspose.Words في بيئة C#. |
 | [استعادة ملف docx تالف باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) |دليل شامل يوضح كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words خطوة بخطوة. |
 | [تسجيل استدعاء التحذير في Aspose.Words – دليل برمجة كامل](./register-warning-callback-in-aspose-words-complete-programmi/) | تعلم كيفية تسجيل استدعاء التحذير في Aspose.Words عبر دليل برمجي شامل خطوة بخطوة. |
