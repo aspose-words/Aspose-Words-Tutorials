@@ -227,7 +227,6 @@
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，详细演示提取图像并将 DOCX 转换为 Markdown 的完整步骤。
 
-### [将 DOCX 转换为 Markdown – 完整导出 Word 为 Markdown 的指南](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档完整导出为 Markdown，提供详细示例和分步操作指南。
 
