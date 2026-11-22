@@ -210,7 +210,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak načíst DOCX a detekovat chybějící fonty – kompletní C# průvodce](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Jak detekovat fonty v Aspose.Words – zpracování varování a nastavení](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Jak používat LoadOptions v Aspose.Words – kompletní průvodce](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

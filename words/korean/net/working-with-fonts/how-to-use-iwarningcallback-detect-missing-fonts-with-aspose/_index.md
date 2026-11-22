@@ -216,7 +216,6 @@ File.AppendAllText("font-warnings.log", $"{DateTime.Now}: {info.Description}{Env
 
 - [DOCX 로드 및 누락된 폰트 감지 – 완전한 C# 가이드](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Aspose.Words에서 폰트 감지 – 경고 및 설정 처리](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Aspose.Words에서 LoadOptions 사용 – 완전한 가이드](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -207,7 +207,6 @@ Times New Roman – Regular
 
 - [如何加载 DOCX 并检测缺失字体 – 完整 C# 指南](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [如何在 Aspose.Words 中检测字体 – 处理警告与设置](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [如何在 Aspose.Words 中使用 LoadOptions – 完整指南](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
