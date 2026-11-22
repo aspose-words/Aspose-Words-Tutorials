@@ -262,7 +262,6 @@ Teraz wiesz, jak **zapisać markdown jako docx** przy użyciu Aspose.Words w C#.
 Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz szczegółowe wyjaśnienia, pomagające opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
 - [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Convert docx to markdown with Aspose.Words – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 - [Convert docx to markdown in C# – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

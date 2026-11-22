@@ -262,7 +262,6 @@ Voel je vrij om de code aan te passen voor batch‑verwerking, cloud‑functies,
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe markdown op te slaan vanuit DOCX – Stapsgewijze gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Docx naar markdown converteren met Aspose.Words – Complete gids](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 - [Docx naar markdown converteren in C# – Stapsgewijze gids](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

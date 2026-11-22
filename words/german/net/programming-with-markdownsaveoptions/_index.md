@@ -38,7 +38,6 @@ Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word‑Dokumente in M
 ### [DOCX in Markdown konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-docx-to-markdown-step-by-step-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [DOCX in Markdown konvertieren mit Aspose.Words – Vollständige Anleitung](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)

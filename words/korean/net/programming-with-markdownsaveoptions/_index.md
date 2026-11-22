@@ -84,7 +84,6 @@
 | [Aspose를 사용하여 Word에서 Markdown 만들기 — 단계별 가이드](./create-markdown-from-word-with-aspose-step-by-step-guide/) | Aspose.Words for .NET을 활용해 Word 문서를 Markdown으로 변환하는 단계별 C# 가이드 |
 | [Word를 Markdown으로 저장 – Aspose.Words와 함께하는 전체 C# 가이드](./save-word-as-markdown-complete-c-guide-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하는 전체 C# 가이드 |
 | [사용자 정의 이미지 폴더 – Aspose.Words를 사용하여 Word를 Markdown으로 변환](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Aspose.Words를 사용해 사용자 정의 이미지 폴더를 설정하고 Word를 Markdown으로 변환하는 방법을 안내합니다. |
-| [Aspose.Words를 사용한 docx → markdown 변환 – 전체 가이드](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 전체 가이드를 제공합니다. |
 | [Word에서 수식 변환 – 전체 C# 가이드](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Aspose.Words for .NET을 사용하여 Word 문서의 수식을 Markdown으로 변환하는 전체 C# 가이드 |
 | [Aspose.Words를 사용하여 Word를 Markdown으로 저장 – 전체 C# 가이드](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 활용해 Word 문서를 Markdown으로 저장하는 전체 C# 가이드 |
 | [Aspose.Words를 사용한 Word를 Markdown으로 변환 – 전체 C# 가이드](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하는 전체 C# 가이드 |
