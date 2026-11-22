@@ -225,7 +225,6 @@ Aspose.Words 物件預設並非執行緒安全。如果需要平行處理大量�
 
 - [復原損毀的 DOCX – 開啟與載入 Word 文件](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [復原損毀的 DOCX 並將 Word 轉換為 Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [復原受損的 Word 檔案 – 完整指南：開啟損毀的 DOCX 與取得頁數](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

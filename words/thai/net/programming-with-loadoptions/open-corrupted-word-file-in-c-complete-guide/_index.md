@@ -255,7 +255,6 @@ namespace OpenCorruptedWordFileDemo
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้. แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบอื่นในโครงการของคุณ.
 
 - [วิธีกู้คืน docx – set recovery mode & เปิดไฟล์ Word ที่เสียหาย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [กู้คืนไฟล์ Word ที่เสียหาย – คู่มือฉบับสมบูรณ์เพื่อเปิด DOCX ที่เสียหาย & รับหน้า](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [กู้คืนเอกสาร Word ด้วย Aspose.Words ใน C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

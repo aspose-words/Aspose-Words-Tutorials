@@ -242,7 +242,6 @@ Recovered document saved to: C:\Temp\recovered.docx
 以下教學與本指南緊密相關，進一步闡述本章所示技巧的延伸應用。每篇資源皆提供完整可執行的程式碼範例與逐步說明，助你掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [如何復原 docx – 設定復原模式並開啟損毀的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [復原受損的 Word 檔案 – 完整指南：開啟損毀的 DOCX 並取得頁面](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
