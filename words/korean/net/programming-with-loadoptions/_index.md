@@ -37,7 +37,6 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Word 문서에 CHM 파일 로드](./load-chm/) | Aspose.Words for .NET을 사용하여 CHM 파일을 Word 문서에 쉽게 로드하는 단계별 튜토리얼을 소개합니다. 기술 문서를 통합하는 데 적합합니다. |
 | [Aspose.Words로 docx 복구하기 – 단계별 가이드](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aspose.Words를 활용해 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Aspose.Words for .NET을 사용하여 복구 모드를 설정하고 손상된 Word 파일을 열어 복구하는 방법을 단계별로 안내합니다. |
-| [Aspose.Words로 docx 복구하기 – 전체 가이드](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Aspose.Words를 사용하여 손상된 docx 파일을 완전하게 복구하는 방법을 단계별로 안내합니다. |
 | [DOCX 복구하기 – 손상된 파일을 위한 단계별 가이드](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하는 단계별 방법을 안내합니다. |
 | [Word 파일 복구하기 – Aspose.Words 완전 가이드](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Aspose.Words를 사용하여 손상된 Word 파일을 복구하는 단계별 완전 가이드를 제공합니다. |
 | [Aspose.Words로 DOCX 복구하기 – 단계별 가이드](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Aspose.Words를 활용해 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
