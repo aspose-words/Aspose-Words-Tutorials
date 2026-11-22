@@ -55,7 +55,6 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Hogyan rögzítsünk figyelmeztetéseket – konfigurálja a betöltési beállításokat hiányzó betűtípusokhoz](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Tanulja meg, hogyan lehet figyelmeztetéseket rögzíteni és a betöltési opciókat beállítani hiányzó betűtípusok esetén az Aspose.Words for .NET-ben. |
 | [Sérült Word fájl helyreállítása és helyreállítási mód megjelenítése C#-ban](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) Tanulja meg, hogyan állíthatja helyre a sérült Word fájlokat, és jelenítheti meg a helyreállítási módot C#-ban az Aspose.Words for .NET segítségével. |
 | [Sérült DOCX helyreállítása – Teljes C# útmutató a javításhoz és mentéshez](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Ismerje meg, hogyan javíthatja és mentheti a sérült DOCX fájlokat C#-ban, részletes lépésekkel. |
-| [Sérült Word dokumentum helyreállítása Aspose.Words C#-al](./recover-corrupted-word-document-using-aspose-words-c/) | Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words for .NET és C# segítségével, lépésről lépésre útmutatóval. |
 | [Helyreállítási mód engedélyezése – Sérült Word-dokumentum helyreállítása](./enable-recovery-mode-recover-corrupted-word-document/) | Ismerje meg, hogyan állíthatja be a helyreállítási módot és nyithat meg sérült Word-dokumentumokat az Aspose.Words for .NET-ben. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
