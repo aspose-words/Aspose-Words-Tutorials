@@ -256,7 +256,6 @@ namespace OpenCorruptedWordFileDemo
 
 - [วิธีกู้คืน docx – set recovery mode & เปิดไฟล์ Word ที่เสียหาย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [กู้คืนไฟล์ Word ที่เสียหาย – คู่มือฉบับสมบูรณ์เพื่อเปิด DOCX ที่เสียหาย & รับหน้า](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [กู้คืนเอกสาร Word ด้วย Aspose.Words ใน C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

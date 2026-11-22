@@ -37,7 +37,6 @@
 | [กู้คืนเอกสาร Word ที่เสีย – คู่มือ C# ฉบับสมบูรณ์](./recover-damaged-word-document-complete-c-guide/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET พร้อมคำแนะนำขั้นตอนเต็มใน C# |
 | [กู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words – ตั้งค่าโหมดการกู้คืนและ LoadOptions](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยตั้งค่าโหมดการกู้คืนและใช้ LoadOptions ใน Aspose.Words สำหรับ .NET |
 | [วิธีกู้คืนไฟล์ docx – คู่มือ C# สำหรับไฟล์ Word ที่เสียหาย](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหาย (.docx) ด้วย C# และ Aspose.Words อย่างละเอียด |
-| [กู้คืนเอกสาร Word ด้วย Aspose.Words ใน C#](./recover-word-document-with-aspose-words-in-c/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีกู้คืนไฟล์ DOCX – ตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหาย](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | เรียนรู้วิธีตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET |
 | [วิธีใช้ LoadOptions เพื่อตรวจจับแบบอักษรที่หายไป](./how-to-use-loadoptions-to-detect-missing-fonts/) | เรียนรู้วิธีใช้ LoadOptions เพื่อตรวจจับและจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [กู้คืนเอกสาร Word ที่เสียหาย – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-word-document-complete-c-guide/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มสำหรับ C# |

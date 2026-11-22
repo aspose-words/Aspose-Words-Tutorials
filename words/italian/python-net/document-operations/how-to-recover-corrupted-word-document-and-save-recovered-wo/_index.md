@@ -231,7 +231,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Recupera DOCX corrotto – Apri e carica documento Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Salva documenti Word come PostScript in Python usando Aspose.Words: Guida completa](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [Recupera documento Word con Aspose.Words in C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

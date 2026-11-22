@@ -252,7 +252,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [如何復原 docx – 設定復原模式並開啟損毀的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [修復受損的 Word 檔案 – 完整指南：開啟損毀的 DOCX 並取得頁面](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [使用 Aspose.Words 在 C# 中復原 Word 文件](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

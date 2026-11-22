@@ -258,7 +258,6 @@ Các hướng dẫn sau đây đề cập đến các chủ đề liên quan ch�
 
 - [cách phục hồi docx – đặt chế độ phục hồi & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Phục hồi tệp Word bị hỏng – Hướng dẫn đầy đủ để mở DOCX bị hỏng & Lấy trang](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Phục hồi tài liệu Word với Aspose.Words trong C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

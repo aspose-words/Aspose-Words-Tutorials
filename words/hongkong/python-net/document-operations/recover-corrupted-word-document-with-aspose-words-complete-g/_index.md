@@ -243,7 +243,6 @@ A：當然可以。Aspose.Words for Python via .NET 在 .NET Core 上執行�
 
 - [如何復原 docx – 設定復原模式並開啟損壞的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [復原受損的 Word 檔案 – 完整指南：開啟損壞的 DOCX 並取得頁數](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [使用 Aspose.Words 在 C# 中復原 Word 文件](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

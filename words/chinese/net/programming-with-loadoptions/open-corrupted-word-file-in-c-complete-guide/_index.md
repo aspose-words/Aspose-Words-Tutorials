@@ -254,7 +254,6 @@ namespace OpenCorruptedWordFileDemo
 
 - [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [恢复损坏的 Word 文件 – 打开损坏 DOCX 并获取页面的完整指南](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [使用 Aspose.Words 在 C# 中恢复 Word 文档](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -258,7 +258,6 @@ namespace OpenCorruptedWordFileDemo
 
 - [docx 복구 방법 – set recovery mode 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [손상된 Word 파일 복구 – 손상된 DOCX 열기 및 페이지 가져오기 완전 가이드](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words를 사용한 C#에서 Word 문서 복구](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

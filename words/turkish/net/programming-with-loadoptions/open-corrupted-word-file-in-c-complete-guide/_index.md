@@ -260,7 +260,6 @@ Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere yakın konular�
 
 - [docx dosyasını kurtarma – set recovery mode & bozuk Word dosyalarını açma](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Hasarlı Word Dosyasını Kurtarma – Bozuk DOCX'i Açma ve Sayfa Alma Tam Kılavuzu](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words ile C#'ta Word Belgesini Kurtarma](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -256,7 +256,6 @@ namespace OpenCorruptedWordFileDemo
 
 - [docx を復元する方法 – set recovery mode と破損した Word ファイルを開く](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [破損した Word ファイルの復元 – 破損した DOCX を開きページを取得する完全ガイド](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words for C# で Word 文書を復元](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -257,7 +257,6 @@ namespace OpenCorruptedWordFileDemo
 
 - [docx को कैसे रिकवर करें – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Damaged Word फ़ाइल को रिकवर करें – Open Corrupted DOCX & Get Page का पूर्ण गाइड](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words के साथ C# में Word दस्तावेज़ को रिकवर करें](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

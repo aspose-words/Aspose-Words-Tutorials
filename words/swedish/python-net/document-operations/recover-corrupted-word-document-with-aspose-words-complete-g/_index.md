@@ -254,7 +254,6 @@ De följande handledningarna täcker närbesläktade ämnen som bygger vidare p�
 
 - [hur man återställer docx – sätt återställningsläge & öppna korrupta Word‑filer](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Återställ skadat Word‑dokument – komplett guide för att öppna korrupt DOCX & hämta sidantal](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Återställ Word‑dokument med Aspose.Words i C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

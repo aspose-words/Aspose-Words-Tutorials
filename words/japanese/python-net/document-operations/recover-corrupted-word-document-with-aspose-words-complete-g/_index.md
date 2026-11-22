@@ -244,7 +244,6 @@ Aspose.Words の **自動文書復元** 機能を使って、**破損した Word
 
 - [docx の復元方法 – リカバリーモード設定と破損した Word ファイルの開き方](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [破損した Word ファイルの復元 – 完全ガイド (DOCX を開いてページ数取得) ](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words を使用した Word 文書の復元 (C#) ](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
