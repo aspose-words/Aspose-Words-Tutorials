@@ -238,7 +238,6 @@ Birkaç bozuk dosyada deneyin—çoğu zaman kullanılabilir bir belge ve neyin 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [docx nasıl kurtarılır – kurtarma modunu ayarla & bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [C#'ta Bozuk Belgeyi Kurtar – Kurtarma Modunu Ayarla & Kullanıcıyı Uyar](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
