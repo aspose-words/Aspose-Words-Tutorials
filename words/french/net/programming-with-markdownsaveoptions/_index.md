@@ -190,7 +190,6 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Convertir Word en Markdown – Guide complet avec extraction d'images](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
-### [Convertir docx en markdown – Guide complet avec préservation des sauts de ligne](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
 ### [Enregistrer Word en Markdown avec Aspose.Words – Guide complet C#](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 

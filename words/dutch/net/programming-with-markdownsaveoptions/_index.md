@@ -218,7 +218,6 @@ Leer hoe u Word-documenten opslaat als Markdown, DOCX converteert en afbeeldinge
 
 Leer hoe u wiskundige vergelijkingen uit Word-documenten converteert naar Markdown met een volledige C#‑handleiding.
 
-### [Docx naar markdown converteren – Complete gids met behoud van regeleinden](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
 Leer hoe u docx-bestanden naar markdown converteert met behoud van regeleinden in een volledige C#‑handleiding.
 

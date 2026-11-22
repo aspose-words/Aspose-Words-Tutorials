@@ -85,7 +85,6 @@ class Program
 | [Convert docx to markdown in C# – Step‑by‑Step Guide](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Learn how to convert DOCX to Markdown step‑by‑step in C# using Aspose.Words for .NET. |
 | [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Learn how to convert DOCX files to Markdown using Aspose.Words in a comprehensive step‑by‑step guide. |
 | [Convert Word to Markdown – Full Guide with Image Extraction](./convert-word-to-markdown-full-guide-with-image-extraction/) | Learn how to convert Word documents to Markdown with image extraction using Aspose.Words for .NET. |
-| [Convert docx to markdown – Complete Guide with Line‑Break Preservation](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Learn how to convert DOCX files to Markdown while preserving line breaks using Aspose.Words for .NET. |
 | [convert word to markdown with Aspose.Words – Full C# Guide](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Learn how to convert Word documents to Markdown using Aspose.Words in C# with a comprehensive guide. |
 | [Convert DOCX to Markdown in C# – Complete Guide](./convert-docx-to-markdown-in-c-complete-guide/) | Learn how to convert DOCX files to Markdown in C# with a comprehensive guide using Aspose.Words for .NET. |
 | [Convert docx to markdown with C# – Complete Guide](./convert-docx-to-markdown-with-c-complete-guide/) | Learn how to convert DOCX files to Markdown using C# with a comprehensive step‑by‑step guide. |
