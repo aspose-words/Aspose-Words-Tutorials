@@ -196,7 +196,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que se basan e
 
 - [cómo recuperar docx – establecer modo de recuperación y abrir archivos Word dañados](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [recuperar docx dañado con Aspose.Words – establecer modo de recuperación y opciones de carga](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Recuperar DOCX corrupto con Aspose.Words LoadOptions – Guía completa en C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
