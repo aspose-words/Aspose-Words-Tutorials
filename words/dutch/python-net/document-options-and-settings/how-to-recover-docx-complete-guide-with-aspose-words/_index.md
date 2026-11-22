@@ -238,7 +238,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [hoe docx te herstellen – recovery mode instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Corrupt Document herstellen in C# – Recovery Mode instellen & gebruiker prompten](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [hoe docx te herstellen met Aspose.Words – stap voor stap](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -34,7 +34,6 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Bỏ qua hình ảnh PDF](./skip-pdf-images/) | Tìm hiểu cách bỏ qua hình ảnh khi tải tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để trích xuất văn bản liền mạch. |
 | [Chuyển đổi Metafiles sang PNG](./convert-metafiles-to-png/) | Dễ dàng chuyển đổi tệp meta sang PNG trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý tài liệu của bạn. |
 | [Tải các tập tin Chm vào tài liệu Word](./load-chm/) | Dễ dàng tải các tệp CHM vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để hợp nhất tài liệu kỹ thuật của bạn. |
-| [Cách khôi phục docx với Aspose.Words – từng bước](./how-to-recover-docx-with-aspose-words-step-by-step/) | Hướng dẫn chi tiết cách khôi phục tệp docx bị hỏng bằng Aspose.Words trong .NET, từng bước một. |
 | [Cách khôi phục tệp DOCX trong C# – Hướng dẫn đầy đủ](./how-to-recover-docx-files-in-c-complete-guide/) | Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng trong C# bằng Aspose.Words, từng bước một. |
 | [Cách khôi phục docx với Aspose.Words – Hướng Dẫn Đầy Đủ](./how-to-recover-docx-with-aspose-words-full-guide/) | Hướng dẫn chi tiết cách khôi phục tệp docx bị hỏng bằng Aspose.Words, bao gồm các bước thiết lập và xử lý lỗi. |
 | [Khôi phục tài liệu Word bằng Aspose.Words trong C#](./recover-word-document-with-aspose-words-in-c/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#, từng bước một. |

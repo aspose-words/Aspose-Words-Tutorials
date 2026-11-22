@@ -289,7 +289,6 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Incoming", "*.docx"))
 
 - [Damaged Word फ़ाइल को पुनः प्राप्त करें – भ्रष्ट DOCX खोलने और पेज प्राप्त करने की पूर्ण गाइड](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [docx को पुनः प्राप्त करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words के साथ docx को पुनः प्राप्त करें – चरण‑दर‑चरण](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -248,7 +248,6 @@ namespace DocxRecoveryDemo
 
 निम्नलिखित ट्यूटोरियल्स उन निकट-संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API सुविधाओं में महारत हासिल करने और अपने प्रोजेक्ट में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [Aspose.Words के साथ docx को पुनर्प्राप्त करने का तरीका – चरण दर चरण](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [docx को पुनर्प्राप्त करने का तरीका – भ्रष्ट Word फ़ाइलों के लिए C# गाइड](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [क्षतिग्रस्त Word फ़ाइल को पुनर्प्राप्त करें – भ्रष्ट DOCX खोलने और पेज प्राप्त करने के लिए पूर्ण गाइड](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

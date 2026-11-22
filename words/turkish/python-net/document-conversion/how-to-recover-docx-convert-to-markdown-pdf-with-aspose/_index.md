@@ -238,7 +238,6 @@ Artık Markdown'ı bir statik site jeneratörüne besleyebilir veya PDF'yi eriş
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words ile docx'i kurtarma – adım adım](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [docx'i markdown'a dönüştür – LaTeX ile Matematik Denklemlerini Dışa Aktarma Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

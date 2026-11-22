@@ -295,7 +295,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [hogyan állítsuk be a helyreállítási módot és nyissuk meg a sérült Word fájlokat](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [hogyan helyreállítsuk a docx‑et – C# útmutató sérült Word fájlokhoz](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [hogyan helyreállítsuk a docx‑et az Aspose.Words‑szel – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

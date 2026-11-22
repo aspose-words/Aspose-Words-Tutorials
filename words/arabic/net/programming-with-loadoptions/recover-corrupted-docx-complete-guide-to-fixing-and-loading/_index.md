@@ -282,7 +282,6 @@ Document could not be recovered – skipping corrupted file.
 
 - [كيفية استعادة docx – تعيين وضع الاستعادة وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [استعادة مستند تالف في C# – تعيين وضع الاستعادة وإظهار مطالبة للمستخدم](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [كيفية استعادة docx باستخدام Aspose.Words – خطوة بخطوة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

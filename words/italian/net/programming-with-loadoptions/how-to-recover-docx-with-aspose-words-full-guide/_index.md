@@ -202,7 +202,6 @@ Di seguito trovi un **app console completa, pronta da eseguire** che dimostra l�
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑per‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [come recuperare docx con Aspose.Words – passo passo](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [come recuperare docx – guida C# per file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Recupera file Word danneggiato – Guida completa per aprire DOCX corrotti e ottenere la pagina](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

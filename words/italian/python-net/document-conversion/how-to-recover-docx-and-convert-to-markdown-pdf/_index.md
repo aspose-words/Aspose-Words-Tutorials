@@ -182,7 +182,6 @@ Di seguito trovi lo script completo, pronto per l'esecuzione, che incorpora tutt
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Recupera DOCX corrotto e converti Word in Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [come recuperare docx con Aspose.Words – passo dopo passo](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Come salvare Markdown da DOCX – Guida passo‑per‑passo](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

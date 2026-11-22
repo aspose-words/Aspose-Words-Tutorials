@@ -237,7 +237,6 @@ if __name__ == "__main__":
 
 以下教程涵盖与本指南密切相关的主题，基于本教程展示的技术。每个资源都包含完整的可运行代码示例和逐步说明，帮助你掌握更多 API 功能，并在自己的项目中探索替代实现方案。
 
-- [如何使用 Aspose.Words 恢复 docx – 步骤详解](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学方程为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

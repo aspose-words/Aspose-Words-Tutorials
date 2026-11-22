@@ -296,7 +296,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [hoe docx te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [hoe docx te herstellen – C#‑gids voor corrupte Word‑bestanden](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [hoe docx te herstellen met Aspose.Words – stap voor stap](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

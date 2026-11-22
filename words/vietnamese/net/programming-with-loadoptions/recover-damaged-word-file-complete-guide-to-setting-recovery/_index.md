@@ -268,7 +268,6 @@ Các tutorial sau đây liên quan chặt chẽ và mở rộng các kỹ thuậ
 
 - [cách khôi phục docx – cài đặt chế độ khôi phục & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Khôi phục Tài liệu Bị Hỏng trong C# – Đặt Chế độ Khôi phục & Yêu cầu Người Dùng](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [cách khôi phục docx với Aspose.Words – từng bước](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -33,7 +33,6 @@
 | [تخطي صور PDF](./skip-pdf-images/) | تعرّف على كيفية تخطي الصور عند تحميل مستندات PDF باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل خطوة بخطوة لاستخراج نص سلس. |
 | [تحويل ملفات التعريف إلى PNG](./convert-metafiles-to-png/) حوّل ملفات التعريف بسهولة إلى صيغة PNG في مستندات Word باستخدام Aspose.Words لـ .NET مع هذا البرنامج التعليمي خطوة بخطوة. بسّط إدارة مستنداتك. |
 | [تحميل ملفات Chm في مستند Word](./load-chm/) حمّل ملفات CHM بسهولة إلى مستندات Word باستخدام Aspose.Words for .NET مع هذا البرنامج التعليمي خطوة بخطوة. مثالي لتجميع وثائقك التقنية. |
-| [استعادة ملف DOCX باستخدام Aspose.Words – خطوة بخطوة](./how-to-recover-docx-with-aspose-words-step-by-step/) | تعلّم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET. |
 | [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | دليل شامل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET. |
 | [استعادة DOCX تالف باستخدام Aspose.Words – دليل C# كامل](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET مع دليل C# شامل. |
 | [كيفية استعادة ملف DOCX – دليل خطوة بخطوة للملفات التالفة](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | تعرّف على طريقة استعادة ملفات DOCX التالفة خطوة بخطوة باستخدام Aspose.Words لـ .NET. |

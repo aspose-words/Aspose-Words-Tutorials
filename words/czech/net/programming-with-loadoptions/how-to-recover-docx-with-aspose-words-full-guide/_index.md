@@ -203,7 +203,6 @@ Níže je **kompletní, připravená ke spuštění konzolová aplikace**, kter�
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [jak obnovit docx pomocí Aspose.Words – krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [jak obnovit docx – C# průvodce poškozenými soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Obnova poškozeného souboru Word – Kompletní průvodce otevřením poškozeného DOCX a získáním stránky](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

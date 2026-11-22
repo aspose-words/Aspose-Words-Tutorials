@@ -285,7 +285,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Herstel beschadigd Word‑bestand – Complete gids om corrupte DOCX te openen & pagina te krijgen](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [hoe herstel je docx – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [hoe herstel je docx met Aspose.Words – stap voor stap](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

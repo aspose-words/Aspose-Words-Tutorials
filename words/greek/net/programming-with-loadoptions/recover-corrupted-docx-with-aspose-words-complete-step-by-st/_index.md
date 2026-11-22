@@ -294,7 +294,6 @@ Recovered 42 paragraphs.
 
 - [πώς να ανακτήσετε docx – ορίστε τη λειτουργία ανάκτησης & ανοίξτε κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [πώς να ανακτήσετε docx – οδηγός C# για κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [πώς να ανακτήσετε docx με Aspose.Words – βήμα‑βήμα](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

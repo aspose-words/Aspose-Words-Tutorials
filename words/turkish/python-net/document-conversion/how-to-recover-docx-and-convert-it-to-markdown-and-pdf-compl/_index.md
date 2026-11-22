@@ -213,7 +213,6 @@ PDF hatasız açılır ve Markdown doğru şekilde renderlanırsa, **recovered t
 
 ## Sonra Ne Öğrenmelisiniz?
 
-- [Aspose.Words ile docx nasıl kurtarılır – adım adım](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [DOCX'ten Markdown Nasıl Kaydedilir – Adım Adım Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Aspose.Words ile docx'i pdf olarak kaydet – Tam C# Rehberi](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

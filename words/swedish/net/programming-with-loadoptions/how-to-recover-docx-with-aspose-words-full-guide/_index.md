@@ -202,7 +202,6 @@ Nedan är en **fullständig, klar‑för‑körning konsolapp** som demonstrerar
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [hur man återställer docx med Aspose.Words – steg för steg](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [hur man återställer docx – C#‑guide för korrupta Word‑filer](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Återställ skadad Word‑fil – komplett guide för att öppna korrupt DOCX & få sida](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

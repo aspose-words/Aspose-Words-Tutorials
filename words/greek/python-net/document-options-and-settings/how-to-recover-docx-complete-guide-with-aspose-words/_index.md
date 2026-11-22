@@ -239,7 +239,6 @@ if __name__ == "__main__":
 
 - [πώς να επαναφέρετε docx – ορισμός λειτουργίας ανάκτησης & άνοιγμα κατεστραμμένων αρχείων Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [πώς να επαναφέρετε docx με Aspose.Words – βήμα προς βήμα](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -214,7 +214,6 @@ Berikut adalah **aplikasi konsol lengkap, siap‑jalankan** yang mendemonstrasik
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun pada teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [cara memulihkan docx dengan Aspose.Words – langkah demi langkah](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [cara memulihkan docx – panduan C# untuk file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Memulihkan File Word Rusak – Panduan Lengkap Membuka DOCX Rusak & Mendapatkan Halaman](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 

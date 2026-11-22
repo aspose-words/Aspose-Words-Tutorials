@@ -237,7 +237,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [wie man docx wiederherstellt – Wiederherstellungsmodus festlegen & beschädigte Word‑Dateien öffnen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Beschädigtes Dokument in C# wiederherstellen – Wiederherstellungsmodus festlegen & Benutzer auffordern](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [wie man docx mit Aspose.Words wiederherstellt – Schritt für Schritt](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

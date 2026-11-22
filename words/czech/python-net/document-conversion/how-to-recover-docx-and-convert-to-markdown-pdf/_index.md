@@ -179,7 +179,6 @@ Níže je kompletní, připravený ke spuštění skript, který zahrnuje všech
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Obnovit poškozený DOCX & Převést Word na Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [jak obnovit docx s Aspose.Words – krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Jak uložit Markdown z DOCX – průvodce krok za krokem](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

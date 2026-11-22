@@ -177,7 +177,6 @@ Below is the complete, ready‑to‑run script that incorporates every step disc
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [破損した DOCX の復元と Word から Markdown への変換](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Aspose.Words で docx を復元する方法 – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [DOCX から Markdown を保存する方法 – ステップバイステップガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
