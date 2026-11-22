@@ -1,0 +1,7 @@
+Title: Programmatically create Word document with shapes in C#
+Slug: programmatically-create-word-document-with-shapes-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-11-22T12:31:02.437915
+SourceRepo: AI Search API
+Keywords: programmatically create word document, insert rectangle shape, insert multiple shapes, write shapes to word
+PRNumber: 668
