@@ -34,7 +34,6 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Word文書にCHMファイルを読み込む](./load-chm/) Aspose.Words for .NET を使って、CHM ファイルを Word 文書に簡単に読み込む方法をステップバイステップで解説するチュートリアルです。技術文書の統合に最適です。 |
 | [Aspose.Wordsでdocxを復元する手順 – ステップバイステップ](./how-to-recover-docx-with-aspose-words-step-by-step/) Aspose.Words for .NET を使用して、破損した docx ファイルを復元する手順をステップバイステップで解説します。 |
 | [docx を復元する方法 – 復元モードを設定して破損した Word ファイルを開く](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Aspose.Words for .NET を使用して、復元モードを設定し、破損した Word 文書を安全に開く手順をステップバイステップで解説します。 |
-| [Aspose.WordsでDOCXファイルを復元する手順 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを GUI で簡単に復元する手順をステップバイステップで解説します。 |
 | [Wordファイルの復元方法 – Aspose.Words 完全ガイド](./how-to-recover-word-files-complete-guide-with-aspose-words/) Aspose.Words for .NET を使用して、破損した Word ファイルを完全に復元する手順をステップバイステップで解説します。 |
 | [DOCX を復元する方法 – 破損した Word ファイルを修復するステップバイステップ ガイド](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) Aspose.Words for .NET を使用して、破損した DOCX ファイルをステップバイステップで修復する方法を解説します。 |
 | [Aspose Load Options – カスタムフォント設定でDOCXを読み込む](./aspose-load-options-load-docx-with-custom-font-settings/) Aspose.Words for .NET の LoadOptions を使用し、カスタムフォント設定で DOCX を読み込む方法をステップバイステップで解説します。 |
