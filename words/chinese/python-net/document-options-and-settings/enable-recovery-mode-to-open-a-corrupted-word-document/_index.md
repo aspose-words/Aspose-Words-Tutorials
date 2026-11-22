@@ -192,7 +192,6 @@ if __name__ == "__main__":
 
 - [如何恢复 docx – 设置恢复模式并打开损坏的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [使用 Aspose.Words 恢复受损的 docx – 设置恢复模式和加载选项](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [使用 Aspose.Words LoadOptions 恢复损坏的 DOCX – 完整 C# 指南](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

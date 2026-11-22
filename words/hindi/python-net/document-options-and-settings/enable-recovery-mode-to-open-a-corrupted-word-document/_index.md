@@ -194,7 +194,6 @@ if __name__ == "__main__":
 
 - [docx को कैसे रिकवर करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words के साथ क्षतिग्रस्त docx को रिकवर करें – रिकवरी मोड और लोड विकल्प सेट करें](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Aspose.Words LoadOptions के साथ भ्रष्ट DOCX को रिकवर करें – पूर्ण C# गाइड](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

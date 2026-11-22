@@ -196,7 +196,6 @@ Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [odzyskaj uszkodzony docx przy użyciu Aspose.Words – ustaw tryb odzyskiwania i opcje ładowania](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Odzyskaj uszkodzony DOCX przy użyciu Aspose.Words LoadOptions – kompletny przewodnik C#](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
