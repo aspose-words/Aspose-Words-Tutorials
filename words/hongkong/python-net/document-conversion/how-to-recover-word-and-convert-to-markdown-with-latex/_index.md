@@ -178,7 +178,6 @@ $$
 
 以下教學涵蓋與本指南密切相關的主題，建立在所示技術之上。每個資源皆提供完整可運作的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [如何恢復 DOCX 檔案 – 完整指南：修復損毀的 Word 文件](/words/english/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/)
 - [將 Word 轉換為 Markdown（C#） – 匯出公式為 LaTeX](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/)
 - [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
