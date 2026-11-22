@@ -55,7 +55,6 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [在 C# 中開啟受損的 Word 檔案 – 完整指南](./open-corrupted-word-file-in-c-complete-guide/) |了解如何在 C# 使用 Aspose.Words 完整開啟受損的 Word 檔案並進行復原。 |
 | [使用 Aspose.Words 修復受損的 docx – 完整 C# 指南](./repair-damaged-docx-with-aspose-words-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整修復受損的 docx 文件，提供步驟說明與範例程式碼。 |
 | [如何捕獲警告 – 為缺失字體配置載入選項](./how-to-capture-warnings-configure-load-options-for-missing-f/) |了解如何使用 Aspose.Words for .NET 捕獲警告，並透過載入選項處理缺失字體。 |
-| [在 C# 中復原損壞的 Word 檔案並顯示復原模式](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中復原受損的 Word 檔案，並顯示復原模式以檢視修復結果。 |
 | [復原受損 DOCX – 完整 C# 指南：修復與儲存檔案](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) |了解如何使用 Aspose.Words for .NET 逐步修復受損的 DOCX 檔案並安全儲存，確保文件完整性。 |
 | [啟用復原模式 – 復原受損的 Word 文件](./enable-recovery-mode-recover-corrupted-word-document/) |了解如何在 Aspose.Words for .NET 中啟用復原模式以恢復受損的 Word 文件，提供步驟說明與範例程式碼。 |
 

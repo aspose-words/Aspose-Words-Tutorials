@@ -55,7 +55,6 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cách Sử Dụng LoadOptions Để Phát Hiện Phông Chữ Thiếu](./how-to-use-loadoptions-to-detect-missing-fonts/) Hướng dẫn cách sử dụng LoadOptions để phát hiện các phông chữ thiếu khi tải tài liệu Word bằng Aspose.Words cho .NET. |
 | [Sửa tệp docx bị hỏng với Aspose.Words – Hướng dẫn C# đầy đủ](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Hướng dẫn chi tiết cách sửa các tệp docx bị hỏng bằng Aspose.Words trong C#, từ khôi phục đến đếm số trang. |
 | [Cách bắt cảnh báo – cấu hình LoadOptions cho phông chữ thiếu](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Hướng dẫn cách bắt các cảnh báo khi tải tài liệu Word và cấu hình LoadOptions để xử lý phông chữ thiếu. |
-| [Khôi phục tệp Word bị hỏng và hiển thị chế độ khôi phục trong C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Hướng dẫn cách khôi phục tệp Word bị hỏng và bật chế độ khôi phục bằng Aspose.Words cho .NET trong C#. |
 | [Khôi phục DOCX bị hỏng – Hướng dẫn C# đầy đủ để sửa và lưu tệp](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Hướng dẫn chi tiết cách khôi phục và sửa các tệp DOCX bị hỏng bằng Aspose.Words trong C#, bao gồm các bước sửa lỗi và lưu lại tài liệu. |
 | [Bật chế độ khôi phục – Khôi phục tài liệu Word bị hỏng](./enable-recovery-mode-recover-corrupted-word-document/) | Hướng dẫn bật chế độ khôi phục trong Aspose.Words để mở và sửa tài liệu Word bị hỏng. |
 
