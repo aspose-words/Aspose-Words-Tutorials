@@ -211,7 +211,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [Cách tải DOCX và phát hiện phông chữ thiếu – Hướng dẫn C# đầy đủ](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Cách phát hiện phông chữ trong Aspose.Words – Xử lý cảnh báo & cài đặt](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Cách sử dụng LoadOptions trong Aspose.Words – Hướng dẫn đầy đủ](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
