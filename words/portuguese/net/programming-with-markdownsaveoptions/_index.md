@@ -153,7 +153,6 @@ Aprenda a converter arquivos DOCX para Markdown exportando equações usando Asp
 
 ### [Aspose docx para markdown – Guia completo para converter e extrair imagens](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 
-### [Converter DOCX para Markdown – Guia Completo com Sombra de Forma e Recuperação](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 Aprenda a converter arquivos DOCX para Markdown, incluindo sombras de formas e técnicas de recuperação, usando Aspose.Words para .NET.
 
 ### [Converter Docx para Markdown com C# – Guia de Programação Completo](./convert-docx-to-markdown-with-c-complete-programming-guide/)

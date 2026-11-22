@@ -273,7 +273,6 @@ Apprenez à convertir un fichier Markdown en document Word (docx) en C# avec un 
 
 Apprenez à convertir des fichiers DOCX en Markdown et à extraire les images avec Aspose.Words pour .NET.
 
-### [Convertir DOCX en Markdown – Guide complet avec ombre de forme et récupération](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
 
 Apprenez à convertir des fichiers DOCX en Markdown tout en gérant les ombres de formes et en récupérant les documents corrompus grâce à Aspose.Words pour .NET.
 
