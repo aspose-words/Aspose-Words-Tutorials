@@ -235,7 +235,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Mengonversi File Docx ke Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Mengonversi Word ke Markdown – Menyematkan Gambar sebagai Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

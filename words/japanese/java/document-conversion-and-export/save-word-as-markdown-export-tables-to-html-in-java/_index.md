@@ -236,7 +236,6 @@ public class WordToMarkdownDemo {
 
 - [C# で Word を Markdown に変換 – 画像抽出を含む完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Word から Markdown を保存する方法 – 完全な C# ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Word を Markdown に変換 – 画像を Base64 で埋め込む](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

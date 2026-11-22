@@ -235,7 +235,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Hoe Markdown opslaan vanuit Word – Complete Python‑gids](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Docx‑bestand naar Markdown converteren](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Word naar Markdown – Afbeeldingen insluiten als Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

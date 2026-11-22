@@ -232,7 +232,6 @@ Om du stöter på problem eller har idéer för förbättringar, lämna en komme
 ## Relaterade handledningar
 
 - [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Konvertera Word till Markdown – Bädda in bilder som Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Konvertera Word till Markdown i C# – Full guide med bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

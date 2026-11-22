@@ -287,7 +287,6 @@ Artık C# ve Aspose.Words kullanarak **docx'i markdown'a dönüştürmek** için
 Aşağıdaki öğreticiler, bu rehberde gösterilen teknikler üzerine inşa edilen yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word Görsellerini Kaydet – Word'ü Aspose ile Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word'ü Markdown'a Dönüştür – Görselleri Base64 Olarak Göm](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [DOCX'ten Markdown Dışa Aktarma – Tam Rehber](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

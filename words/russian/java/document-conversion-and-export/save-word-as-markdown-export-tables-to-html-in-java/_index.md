@@ -237,7 +237,6 @@ public class WordToMarkdownDemo {
 
 - [Конвертировать Word в Markdown на C# — Полное руководство с извлечением изображений](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Как сохранить Markdown из Word — Полное руководство на C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Конвертировать Word в Markdown — Встраивание изображений в Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
