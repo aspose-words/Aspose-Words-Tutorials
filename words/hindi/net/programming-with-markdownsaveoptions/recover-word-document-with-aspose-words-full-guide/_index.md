@@ -283,7 +283,6 @@ class Program
 
 निम्नलिखित ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण कर सकें।
 
-- [Aspose.Words के साथ C# में Word दस्तावेज़ को पुनर्प्राप्त करें](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [Word को PDF में सहेजें और भ्रष्ट Word को पुनर्प्राप्त करें – C# में Word को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 - [Word से LaTeX निर्यात कैसे करें: Aspose के साथ DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 

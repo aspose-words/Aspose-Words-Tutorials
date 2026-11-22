@@ -283,7 +283,6 @@ class Program
 
 以下教學涵蓋與本指南緊密相關的主題，並在此基礎上延伸。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
-- [使用 Aspose.Words 復原 Word 文件（C#}](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [將 Word 儲存為 PDF 並復原損毀的 Word – 在 C# 中將 Word 轉為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 - [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 

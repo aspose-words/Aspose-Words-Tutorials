@@ -228,7 +228,6 @@ for filename in os.listdir(source_folder):
 
 - [恢复损坏的 DOCX – 打开并加载 Word 文档](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [使用 Aspose.Words 在 Python 中将 Word 文档保存为 PostScript：完整指南](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [使用 Aspose.Words 在 C# 中恢复 Word 文档](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

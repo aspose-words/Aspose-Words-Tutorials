@@ -250,7 +250,6 @@ for filename in os.listdir(source_folder):
 
 - [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Αποθήκευση Εγγράφων Word ως PostScript σε Python Χρησιμοποιώντας Aspose.Words: Ένας Πλήρης Οδηγός](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [Ανάκτηση Εγγράφου Word με Aspose.Words σε C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

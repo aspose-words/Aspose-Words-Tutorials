@@ -252,7 +252,6 @@ for filename in os.listdir(source_folder):
 
 - [Восстановление повреждённого DOCX – открытие и загрузка документа Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Сохранение документов Word как PostScript в Python с использованием Aspose.Words: подробное руководство](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [Восстановление документа Word с помощью Aspose.Words на C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

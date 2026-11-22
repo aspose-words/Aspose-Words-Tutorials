@@ -255,7 +255,6 @@ namespace OpenCorruptedWordFileDemo
 以下のチュートリアルは、本ガイドで示したテクニックに密接に関連するトピックを扱っています。各リソースには完全なコード例とステップバイステップの解説が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
 - [docx を復元する方法 – set recovery mode と破損した Word ファイルを開く](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words for C# で Word 文書を復元](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
