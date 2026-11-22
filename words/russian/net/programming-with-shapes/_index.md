@@ -86,6 +86,7 @@
 | [Вставить прямоугольную форму в Word с C# – полное руководство](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Узнайте, как вставить прямоугольную форму в документ Word с помощью C# в этом полном пошаговом руководстве. |
 | [Создать пустой документ Word с фигурой прямоугольника](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с помощью Aspose.Words для .NET. |
 | [Как создать прямоугольную форму и группировать фигуры в Word с Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Узнайте, как создавать прямоугольные формы и объединять их в группы в документах Word с помощью Aspose.Words. |
+| [Программно создать документ Word с фигурами в C#](./programmatically-create-word-document-with-shapes-in-c/) | Узнайте, как программно создать документ Word с фигурами, используя C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

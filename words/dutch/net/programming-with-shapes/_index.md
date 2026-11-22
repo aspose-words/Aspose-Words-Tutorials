@@ -87,13 +87,12 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Leeg Word‑document maken en een rechthoekvorm toevoegen](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Maak een leeg Word‑document en voeg een rechthoekvorm toe. |
 | [Hoe vormen groeperen in C# met Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | Leer hoe u vormen groepeert in een Word‑document met Aspose.Words voor .NET in C#. |
 | [Programmeer een Word-document met een groepsvorm](./programmatically-create-a-word-document-with-a-group-shape/) | Leer hoe u met Aspose.Words voor .NET een Word‑document maakt dat een groepsvorm bevat. |
+| [Programmeer een Word-document met vormen in C#](./programmatically-create-word-document-with-shapes-in-c/) | Leer hoe u met Aspose.Words voor .NET een Word-document maakt en vormen toevoegt via C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

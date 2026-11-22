@@ -59,7 +59,6 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumowanie dokumentów AI w C# – kompletny przewodnik](./ai-document-summarization-in-c-complete-guide/) | Kompletny przewodnik, jak używać Aspose.Words w C# do podsumowywania dokumentów przy pomocy AI. |
 | [Utwórz podsumowanie AI w C# – przewodnik krok po kroku](./create-ai-summary-in-c-step-by-step-guide/) | Dowiedz się, jak w C# stworzyć podsumowanie dokumentu przy użyciu AI w Aspose.Words. |
 | [Przetłumacz docx na francuski przy użyciu AI w C#](./translate-docx-to-french-with-ai-in-c/) | Szybko przetłumacz dokumenty Word na francuski dzięki AI i Aspose.Words w C#. |
-| [Podsumuj dokument Word w C# – przewodnik krok po kroku z użyciem AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Dowiedz się, jak w C# podsumować dokument Word przy pomocy AI, korzystając z Aspose.Words – prosty przewodnik krok po kroku. |
 | [Jak przetłumaczyć DOCX na francuski i zautomatyzować tłumaczenie dokumentu](./how-to-translate-docx-to-french-and-automate-document-transl/) | Dowiedz się, jak automatycznie tłumaczyć pliki DOCX na język francuski przy użyciu Aspose.Words. |
 | [Samouczek lokalnego LLM – Jak wywołać lokalny LLM i uruchomić sprawdzanie gramatyki](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Dowiedz się, jak używać lokalnego modelu językowego do sprawdzania gramatyki w dokumentach przy pomocy Aspose.Words. |
 | [Utwórz raport podsumowujący w C# – Kompletny przewodnik krok po kroku](./create-summary-report-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w C# stworzyć raport podsumowujący przy użyciu Aspose.Words, krok po kroku, od konfiguracji po generowanie wyników. |
@@ -70,10 +69,13 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak przetłumaczyć docx na francuski przy użyciu AI w C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Dowiedz się, jak używać Aspose.Words i AI do tłumaczenia dokumentów DOCX na język francuski w C#. |
 | [Utwórz pusty dokument Word i przetłumacz go na francuski](./create-a-blank-word-document-and-translate-it-to-french/) | Dowiedz się, jak utworzyć pusty dokument Word i przetłumaczyć go na język francuski przy użyciu Aspose.Words dla .NET. |
 | [Jak przetłumaczyć docx na francuski w C# – przewodnik krok po kroku](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Krok po kroku pokażemy, jak przetłumaczyć pliki DOCX na francuski w C# przy użyciu Aspose.Words. |
+| [Jak załadować plik docx i przetłumaczyć go na francuski w C#](./how-to-load-docx-and-translate-it-to-french-in-c/) | Dowiedz się, jak w C# wczytać dokument docx i przetłumaczyć go na francuski przy użyciu Aspose.Words i AI. |
 | [Jak zapisać przetłumaczony dokument Word w C# przy użyciu Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Dowiedz się, jak w C# zapisać dokument Word po przetłumaczeniu przy użyciu Google AI. |
 | [Jak podsumować dokument Word przy użyciu OpenAI w C#](./how-to-summarize-word-document-with-openai-in-c/) | Dowiedz się, jak używać OpenAI w C# do automatycznego podsumowywania dokumentów Word przy pomocy Aspose.Words. |
 | [Podsumowanie dokumentu Word przy użyciu API OpenAI w C#](./summarize-word-document-with-openai-api-using-c/) | Dowiedz się, jak używać API OpenAI w C# do podsumowywania dokumentów Word przy pomocy Aspose.Words. |
 | [Jak przetłumaczyć tekst przy użyciu Google Translate API w C# – przewodnik krok po kroku](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Dowiedz się, jak w C# wykorzystać Google Translate API do tłumaczenia tekstu krok po kroku. |
+| [Jak podsumować plik Word przy użyciu Aspose.Words.AI w C#](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Dowiedz się, jak używać Aspose.Words.AI w C# do podsumowywania plików Word. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

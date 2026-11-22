@@ -68,6 +68,8 @@
 | [如何在 C# 中保存使用 Google AI 翻译的 Word 文档](./how-to-save-translated-word-document-in-c-with-google-ai/) 使用 Aspose.Words for .NET 与 Google AI 在 C# 中保存已翻译的 Word 文档的完整步骤指南。|
 | [如何在 C# 中使用 OpenAI 汇总 Word 文档](./how-to-summarize-word-document-with-openai-in-c/) 使用 Aspose.Words for .NET 与 OpenAI 在 C# 中实现 Word 文档自动摘要的完整指南。|
 | [使用 OpenAI API 在 C# 中汇总 Word 文档](./summarize-word-document-with-openai-api-using-c/) 使用 Aspose.Words for .NET 与 OpenAI API 在 C# 实现 Word 文档自动汇总，提供完整步骤和示例。|
+| [如何使用 Aspose.Words.AI 在 C# 中汇总 Word 文件](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) 使用 Aspose.Words.AI 与 C# 实现 Word 文件的自动摘要，提供完整步骤和最佳实践。|
+| [如何在 C# 中加载 docx 并翻译成法语](./how-to-load-docx-and-translate-it-to-french-in-c/) 使用 Aspose.Words for .NET 在 C# 中加载 docx 文件并将其翻译为法语的完整步骤指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

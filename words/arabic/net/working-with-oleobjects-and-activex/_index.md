@@ -43,6 +43,7 @@
 | [إنشاء مستند فارغ، إضافة عنصر تحكم ActiveX مع ملخص AI](./create-blank-document-add-activex-control-with-ai-summary/) | تعرّف على كيفية إنشاء مستند فارغ وإضافة عنصر تحكم ActiveX مع ملخّص ذكي باستخدام Aspose.Words for .NET. |
 | [إضافة زر أمر برمجيًا في مستند Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | تعلّم كيفية إضافة زر أمر برمجيًا إلى مستند Word باستخدام Aspose.Words لـ .NET. |
 | [كيفية إنشاء مستند Word C# مع زر أمر ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | تعلّم كيفية إنشاء مستند Word باستخدام C# وإضافة زر أمر ActiveX باستخدام Aspose.Words. |
+| [كيفية إدراج عنصر تحكم Forms2Ole في Word باستخدام C# و Aspose.Words](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) | تعلم كيفية إدراج عنصر Forms2Ole في مستند Word باستخدام C# ومكتبة Aspose.Words خطوة بخطوة. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

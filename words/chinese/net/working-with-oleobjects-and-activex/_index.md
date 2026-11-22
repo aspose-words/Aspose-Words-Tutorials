@@ -45,6 +45,7 @@ Aspose.Words for .NET 教程“使用 OLE 和 ActiveX 对象进行文字处理�
 
 | [如何在 C# 中创建带有 ActiveX 命令按钮的 Word 文档](./how-to-create-word-document-with-an-activex-command-button-i/) 学习使用 Aspose.Words for .NET 在 C# 中创建包含 ActiveX 命令按钮的 Word 文档的步骤和代码示例。|
 | [如何使用 C# 创建带 ActiveX 命令按钮的 Word 文档](./how-to-create-word-document-c-with-an-activex-command-button/) 学习使用 Aspose.Words for .NET 在 C# 中创建包含 ActiveX 命令按钮的 Word 文档，步骤详尽。|
+| [在 Word 中使用 C# 和 Aspose.Words 插入 Forms2Ole 控件](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) 学习如何使用 Aspose.Words for .NET 在 C# 中向 Word 文档插入 Forms2Ole 控件的步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

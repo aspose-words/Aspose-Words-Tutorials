@@ -73,6 +73,8 @@
 | [Google AI के साथ C# में अनुवादित Word दस्तावेज़ को सहेजना कैसे करें](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI का उपयोग करके C# में अनुवादित Word फ़ाइल को सहेजने की प्रक्रिया सीखें। |
 | [OpenAI API का उपयोग करके C# में Word दस्तावेज़ का सारांश बनाएं](./summarize-word-document-with-openai-api-using-c/) | C# में OpenAI API का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की गाइड। |
 | [Google Translate API के साथ टेक्स्ट का अनुवाद कैसे करें – चरण‑दर‑चरण गाइड](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | C# में Google Translate API का उपयोग करके टेक्स्ट को आसानी से अनुवाद करने की चरण‑दर‑चरण गाइड। |
+| [Aspose.Words.AI के साथ C# में Word फ़ाइल का सारांश कैसे बनाएं](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Aspose.Words.AI का उपयोग करके C# में Word फ़ाइल को प्रभावी रूप से सारांशित करने की गाइड। |
+| [C# में docx लोड करके फ्रेंच में अनुवाद कैसे करें](./how-to-load-docx-and-translate-it-to-french-in-c/) | C# और Aspose.Words का उपयोग करके docx फ़ाइल को फ्रेंच में अनुवाद करने की प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

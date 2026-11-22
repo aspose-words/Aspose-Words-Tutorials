@@ -83,6 +83,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách lưu tài liệu Word đã dịch trong C# với Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Hướng dẫn lưu tài liệu Word đã dịch bằng C# sử dụng Google AI. |
 | [Cách dịch văn bản bằng Google Translate API trong C# – hướng dẫn từng bước](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Hướng dẫn chi tiết cách sử dụng Google Translate API trong C# để dịch văn bản từng bước. |
 | [Tóm tắt tài liệu Word bằng API OpenAI sử dụng C#](./summarize-word-document-with-openai-api-using-c/) | Hướng dẫn sử dụng API OpenAI trong C# để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
+| [Cách tóm tắt tệp Word bằng Aspose.Words.AI trong C#](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words.AI trong C# để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
+| [Cách tải docx và dịch sang tiếng Pháp trong C#](./how-to-load-docx-and-translate-it-to-french-in-c/) | Hướng dẫn tải tệp DOCX và dịch nội dung sang tiếng Pháp bằng C# sử dụng Aspose.Words và AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

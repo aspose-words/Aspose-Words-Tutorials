@@ -32,6 +32,7 @@
 - [วิธีจัดกลุ่มรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านขั้นตอนที่ชัดเจน
 - [วิธีสร้างเอกสาร Word เปล่าและกลุ่มรูปร่างใน C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มกลุ่มรูปร่างด้วย Aspose.Words สำหรับ .NET ใน C# -
 - [สร้างเอกสาร Word อย่างเป็นโปรแกรมและจัดกลุ่มรูปร่างใน C#](./create-word-document-programmatically-and-group-shapes-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด C# และจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ .NET
+- [สร้างเอกสาร Word อย่างเป็นโปรแกรมพร้อมรูปร่างใน C#](./programmatically-create-word-document-with-shapes-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมรูปร่างโดยใช้ C# และ Aspose.Words อย่างเป็นโปรแกรม
 - [วิธีการจัดกลุ่มรูปร่างใน C# ด้วย Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | เรียนรู้วิธีจัดกลุ่มรูปร่างใน C# ด้วย Aspose.Words
 - [สร้างเอกสาร Word ด้วยรูปร่างกลุ่มแบบโปรแกรมมิ่ง](./programmatically-create-a-word-document-with-a-group-shape/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมรูปร่างกลุ่มโดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนโปรแกรมมิ่งที่ชัดเจน -
 | [แทรกรูปร่าง](./insert-shape/) | เรียนรู้วิธีการแทรกและจัดการรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนของเรา

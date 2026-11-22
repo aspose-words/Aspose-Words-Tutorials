@@ -65,7 +65,7 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo traducir DOCX al francés y automatizar la traducción de documentos](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aprenda a traducir archivos DOCX al francés y automatizar la traducción usando Aspose.Words para .NET. |
 | [Tutorial LLM local – Cómo llamar a un LLM local y ejecutar una corrección gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar un LLM local con Aspose.Words para .NET y realizar correcciones gramaticales en sus documentos. |
 | [Crear informe de resumen en C# – Guía completa paso a paso](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a generar informes resumidos en C# con Aspose.Words, siguiendo una guía detallada paso a paso. |
-| [Crear modelo de IA personalizado – Guía completa para la corrección gramatical en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aprenda a crear y entrenar su propio modelo de IA para corregir gramática en documentos Word usando Aspose.Words y C#. |
+| [Crear modelo de IA personalizado – Guía completa para la corrección gramática en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aprenda a crear y entrenar su propio modelo de IA para corregir gramática en documentos Word usando Aspose.Words y C#. |
 | [Cómo usar un resumidor de documentos IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Aprenda a integrar un resumidor de documentos impulsado por IA en C# usando Aspose.Words paso a paso. |
 | [Cómo resumir documentos Word con proveedores de IA en C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Aprenda a generar resúmenes de documentos Word en C# usando varios proveedores de IA con Aspose.Words paso a paso. |
 | [Cómo usar el traductor para automatizar la traducción de documentos en C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a traducir automáticamente documentos con Aspose.Words y un traductor integrado en C#. |
@@ -74,6 +74,9 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo traducir docx a francés en C# – guía paso a paso](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda a traducir archivos DOCX al francés en C# paso a paso usando Aspose.Words. |
 | [Cómo guardar un documento Word traducido en C# con Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Aprenda a guardar documentos Word traducidos usando C# y la IA de Google con Aspose.Words. |
 | [Cómo traducir texto con la API de Google Translate en C# – guía paso a paso](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Aprenda a traducir texto en C# usando la API de Google Translate con una guía paso a paso. |
+| [Cómo resumir un archivo Word con Aspose.Words.AI en C#](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Aprenda a generar resúmenes automáticos de archivos Word usando Aspose.Words.AI con C# paso a paso. |
+| [Cómo cargar un docx y traducirlo al francés en C#](./how-to-load-docx-and-translate-it-to-french-in-c/) | Aprenda a cargar un archivo docx y traducirlo al francés usando C# y Aspose.Words. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
