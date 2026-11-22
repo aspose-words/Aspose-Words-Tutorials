@@ -262,7 +262,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 
 - [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนต่อขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [แปลง docx เป็น markdown ใน C# – คู่มือขั้นตอนต่อขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

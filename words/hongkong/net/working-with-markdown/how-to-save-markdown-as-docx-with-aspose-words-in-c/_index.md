@@ -260,7 +260,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 
 - [如何從 DOCX 儲存 Markdown – 步驟指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [使用 Aspose.Words 將 docx 轉換為 markdown – 完整指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [在 C# 中將 docx 轉換為 markdown – 步驟指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

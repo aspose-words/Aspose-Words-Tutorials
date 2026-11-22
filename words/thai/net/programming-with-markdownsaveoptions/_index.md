@@ -41,7 +41,6 @@
 
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
-### [แปลง docx เป็น markdown ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 ### [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 ### [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words ใน C# พร้อมตัวอย่างโค้ดครบถ้วน

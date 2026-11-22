@@ -34,7 +34,6 @@ Ismerje meg, hogyan hozhat létre akadálymentes PDF-et, és konvertálhat Word 
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.
 ### [DOCX konvertálása markdownba C#-ban – Teljes útmutató](./export-docx-to-markdown-in-c-complete-guide/)
 Ismerje meg, hogyan konvertálhatja a DOCX fájlokat markdown formátumba C#-ban egy teljes útmutató segítségével.
-### [DOCX konvertálása Markdownba C#‑ban – Lépésről‑lépésre útmutató](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba C#‑ban lépésről‑lépésre az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba – Lépésről‑lépésre C# útmutató](./save-docx-as-markdown-step-by-step-c-tutorial/)
 Ismerje meg, hogyan mentheti el a DOCX fájlokat Markdown formátumba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.

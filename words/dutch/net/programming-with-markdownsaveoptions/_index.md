@@ -201,7 +201,6 @@ Leer hoe u de juiste bestandsextensie bepaalt bij het omzetten van DOCX naar Mar
 
 ### [Opslaan van Word-afbeeldingen tijdens het converteren van Word naar Markdown – Complete C#-gids](./save-word-images-while-converting-word-to-markdown-complete/)
 
-### [Docx naar markdown converteren in C# – Stapsgewijze gids](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑voor‑stap C#‑handleiding.
 

@@ -29,7 +29,6 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 ### [Zapisz Word jako Markdown – Kompletny przewodnik konwersji DOCX i wyodrębniania obrazów](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown, konwertować DOCX i wyodrębniać obrazy przy użyciu Aspose.Words.
 
-| [Konwertuj docx do markdown w C# – Przewodnik krok po kroku](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Dowiedz się, jak w C# krok po kroku konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words. |
 
 ### [Zapisz dokument Word jako PDF i odzyskaj uszkodzony Word – konwertuj Word na Markdown w C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
