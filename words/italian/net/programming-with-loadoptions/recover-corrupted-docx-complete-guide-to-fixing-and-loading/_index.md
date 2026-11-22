@@ -287,7 +287,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [come recuperare docx – impostare la modalità di recupero & aprire file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Recuperare Documento Corrotto in C# – Impostare Modalità di Recupero & Richiedere all'Utente](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [come recuperare docx con Aspose.Words – passo dopo passo](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

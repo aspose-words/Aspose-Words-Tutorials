@@ -292,7 +292,6 @@ Recovered 42 paragraphs.
 
 - [วิธีกู้ docx – ตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [วิธีกู้ docx – คู่มือ C# สำหรับไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [วิธีกู้ docx ด้วย Aspose.Words – ขั้นตอนโดยละเอียด](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

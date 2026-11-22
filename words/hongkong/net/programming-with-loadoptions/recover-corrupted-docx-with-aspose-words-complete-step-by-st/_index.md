@@ -290,7 +290,6 @@ Recovered 42 paragraphs.
 
 - [如何恢復 docx – 設定恢復模式並開啟損毀的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [如何恢復 docx – C# 損毀 Word 檔案指南](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [如何使用 Aspose.Words 恢復 docx – 步驟說明](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

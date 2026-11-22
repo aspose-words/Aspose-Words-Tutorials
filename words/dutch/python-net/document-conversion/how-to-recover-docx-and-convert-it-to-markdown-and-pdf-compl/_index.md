@@ -225,7 +225,6 @@ Als de PDF zonder fouten opent en de Markdown correct wordt gerenderd, heb je me
 
 ## Wat kun je hierna leren?
 
-- [hoe je docx herstelt met Aspose.Words – stap voor stap](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Hoe je Markdown opslaat vanuit DOCX – stap‑voor‑stap gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX opslaan als PDF met Aspose.Words – Complete C#‑gids](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

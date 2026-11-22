@@ -60,7 +60,6 @@ class Program
 | [Skip Pdf Images](./skip-pdf-images/) | Learn how to skip images when loading PDF documents using Aspose.Words for .NET. Follow this step-by-step guide for seamless text extraction. |
 | [Convert Metafiles To Png](./convert-metafiles-to-png/) | Easily convert metafiles to PNG in Word documents using Aspose.Words for .NET with this step-by-step tutorial. Simplify your document management. |
 | [Load Chm Files In Word Document](./load-chm/) | Easily load CHM files into Word documents using Aspose.Words for .NET with this step-by-step tutorial. Perfect for consolidating your technical documentation. |
-| [how to recover docx with Aspose.Words – step by step](./how-to-recover-docx-with-aspose-words-step-by-step/) | Learn how to recover corrupted DOCX files using Aspose.Words for .NET with this detailed step-by-step guide. |
 | [recover damaged docx with Aspose.Words – set recovery mode and load options](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Learn how to recover damaged DOCX files using Aspose.Words by setting recovery mode and configuring LoadOptions. Step-by-step guide. |
 | [Recover Corrupted Document in C# – Set Recovery Mode & Prompt User](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Learn how to recover corrupted Word documents in C# by setting recovery mode and prompting the user. |
 | [recover corrupted docx – Complete C# Guide](./recover-corrupted-docx-complete-c-guide/) | Step-by-step guide to recover corrupted DOCX files using C# and Aspose.Words. |

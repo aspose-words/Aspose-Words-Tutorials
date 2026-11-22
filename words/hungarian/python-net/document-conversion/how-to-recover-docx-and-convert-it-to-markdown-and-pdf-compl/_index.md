@@ -213,7 +213,6 @@ Ha a PDF hibamentesen megnyílik, és a Markdown helyesen renderelődik, sikeres
 
 ## What Should You Learn Next?
 
-- [hogyan állítsuk helyre a docx‑et az Aspose.Words‑szal – lépésről lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Hogyan mentsünk Markdown‑t DOCX‑ből – Lépésről lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX mentése pdf‑ként az Aspose.Words‑szal – Teljes C# útmutató](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

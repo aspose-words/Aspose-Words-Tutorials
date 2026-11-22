@@ -249,7 +249,6 @@ Happy coding, and may your DOCX files stay healthy!
 
 - [DOCX の復元方法 – 復元モードの設定と破損した Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [C# で破損ドキュメントを復元 – 復元モードの設定とユーザーへのプロンプト](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [Aspose.Words を使用した DOCX の復元方法 – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

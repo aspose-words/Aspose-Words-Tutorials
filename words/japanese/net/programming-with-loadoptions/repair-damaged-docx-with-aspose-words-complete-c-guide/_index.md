@@ -286,7 +286,6 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Incoming", "*.docx"))
 
 - [破損した Word ファイルの復元 – 壊れた DOCX を開いてページ取得までの完全ガイド](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [docx の復元方法 – リカバリモード設定と破損 Word ファイルのオープン](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words で docx を復元する方法 – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

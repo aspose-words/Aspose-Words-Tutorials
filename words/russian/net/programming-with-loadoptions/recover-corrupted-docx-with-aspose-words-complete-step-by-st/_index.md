@@ -299,7 +299,6 @@ Recovered 42 paragraphs.
 
 - [как восстановить docx – установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [как восстановить docx – руководство C# для повреждённых файлов Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [как восстановить docx с Aspose.Words – пошагово](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

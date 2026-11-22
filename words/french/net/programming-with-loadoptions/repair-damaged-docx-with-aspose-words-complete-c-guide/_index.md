@@ -286,7 +286,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Récupérer un fichier Word endommagé – Guide complet pour ouvrir un DOCX corrompu & obtenir la page](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [comment récupérer docx – définir le mode de récupération & ouvrir des fichiers Word corrompus](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [comment récupérer docx avec Aspose.Words – étape par étape](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

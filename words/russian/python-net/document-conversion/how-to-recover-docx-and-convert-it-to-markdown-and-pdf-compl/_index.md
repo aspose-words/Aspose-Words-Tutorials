@@ -223,7 +223,6 @@ if __name__ == "__main__":
 
 ## Что стоит изучить дальше?
 
-- [как восстановить docx с Aspose.Words – пошагово](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Как сохранить Markdown из DOCX – пошаговое руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Сохранить docx как pdf с Aspose.Words – полное руководство C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
