@@ -245,7 +245,6 @@ Aspose.Words for Python を使って **破損した DOCX** を復元するため
 
 - [破損した DOCX の復元 – Word ドキュメントのオープンとロード](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [破損した DOCX の復元と Word から Markdown への変換](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [破損した Word ファイルの復元 – 完全ガイド: 破損 DOCX のオープンとページ取得](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

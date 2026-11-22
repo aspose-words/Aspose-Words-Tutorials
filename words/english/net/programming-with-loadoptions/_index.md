@@ -71,7 +71,6 @@ class Program
 | [how to capture warnings – configure load options for missing fonts](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Learn how to capture warnings for missing fonts by configuring LoadOptions in Aspose.Words for .NET. Step-by-step guide. |
 | [Recover Corrupted DOCX – Complete C# Guide to Fix and Save Files](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Learn how to recover and fix corrupted DOCX files using Aspose.Words for .NET with a comprehensive C# guide. |
 
-| [Recover Damaged Word File – Complete Guide to Open Corrupted DOCX & Get Page Count](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Learn how to recover and open corrupted DOCX files and retrieve page count using Aspose.Words for .NET in this comprehensive guide. |
 | [Recover Damaged Word File – Complete Guide to Setting Recovery Mode](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Learn how to set recovery mode and recover damaged Word files using Aspose.Words for .NET in this complete step-by-step guide. |
 | [how to recover docx – C# guide for corrupted Word files](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Learn how to recover corrupted DOCX files using C# with Aspose.Words for .NET in this step-by-step guide. |
 | [Recover Word Document with Aspose.Words in C#](./recover-word-document-with-aspose-words-in-c/) | Learn how to recover corrupted Word documents using Aspose.Words for .NET in C# with a step-by-step guide. |
