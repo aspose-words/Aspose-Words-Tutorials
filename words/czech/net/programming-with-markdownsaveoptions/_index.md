@@ -121,7 +121,6 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Uložení markdownu jako Word – krok za krokem průvodce pro vývojáře C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
 | [Uložení docx jako markdown – Kompletní průvodce s extrakcí obrázků](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Naučte se převádět soubory DOCX do Markdownu a extrahovat obrázky pomocí Aspose.Words pro .NET. |
 | [Nahrání obrázků do CDN při konverzi DOCX na Markdown – Kompletní průvodce](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Naučte se, jak při konverzi DOCX do Markdownu nahrávat obrázky přímo do CDN pomocí Aspose.Words pro .NET. |
-| [Převod docx do markdown – Kompletní průvodce s exportem rovnic](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Naučte se převádět soubory DOCX do Markdownu a exportovat rovnice pomocí Aspose.Words pro .NET. |
 | [Aspose docx do markdown – Kompletní průvodce konverzí a extrakci obrázků](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Naučte se převádět soubory DOCX do Markdownu a extrahovat obrázky pomocí Aspose.Words pro .NET. |
 | [Převod DOCX do Markdownu – Kompletní průvodce s vrstvou stínu tvaru a obnovou](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Naučte se převádět soubory DOCX do Markdownu a zachovat stíny tvarů a obnovit poškozené dokumenty pomocí Aspose.Words pro .NET. |
 

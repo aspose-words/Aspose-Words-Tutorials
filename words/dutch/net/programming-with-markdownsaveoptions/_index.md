@@ -68,7 +68,6 @@ Leer hoe u docx-bestanden exporteert naar markdown met een volledige C#‑handle
 
 
 ### [Docx opslaan als markdown – Gids voor afbeeldingsextractie in C#](./save-docx-as-markdown-extract-images-c-guide/)
-### [Docx opslaan als markdown – Complete gids met vergelijkingsexport](./convert-docx-to-markdown-complete-guide-with-equation-export/)
 
 ### [Docx opslaan als markdown – Complete gids met afbeeldingsextractie](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
