@@ -42,7 +42,6 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cách khôi phục docx – Hướng dẫn C# cho tệp Word bị hỏng](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Hướng dẫn chi tiết cách khôi phục các tệp Word bị hỏng (.docx) bằng C# và Aspose.Words. |
 | [Cách khôi phục docx – thiết lập chế độ khôi phục & mở tệp Word bị hỏng](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Hướng dẫn từng bước để thiết lập chế độ khôi phục và mở các tệp Word bị hỏng bằng Aspose.Words cho .NET. |
 | [Aspose Load Options – Tải DOCX với Cài Đặt Phông Chữ Tùy Chỉnh](./aspose-load-options-load-docx-with-custom-font-settings/) |
-| [Khôi phục tệp docx bị hỏng với Aspose.Words – Hướng dẫn chi tiết từng bước](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) Hướng dẫn toàn diện cách khôi phục tài liệu docx bị hỏng bằng Aspose.Words trong .NET, từng bước một. |
 | [Khôi phục tài liệu Word bị hỏng – Hướng dẫn C# đầy đủ](./recover-corrupted-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#. |
 | [Khôi phục tệp DOCX bị hỏng bằng Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Hướng dẫn từng bước khôi phục tệp DOCX hỏng bằng Aspose.Words cho .NET. |
 | [Khôi phục tệp Word bị hỏng – Hướng dẫn từng bước cho nhà phát triển C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Hướng dẫn chi tiết cách khôi phục các tệp Word bị hỏng bằng Aspose.Words cho .NET, dành cho lập trình viên C#. |
