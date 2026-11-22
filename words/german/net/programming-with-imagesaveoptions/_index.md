@@ -31,7 +31,6 @@ Die Tutorials behandeln außerdem die Grundlagen der Bildbearbeitung, darunter d
 | [PNG-Gitter aus Word-Dokument erstellen – Schritt‑für‑Schritt‑Anleitung](./create-png-grid-from-word-document-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PNG‑Gitter aus einem Word‑Dokument erstellen. |
 | [Wie man die Auflösung beim Konvertieren von Word zu PNG festlegt – Vollständige Anleitung](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Auflösung beim Konvertieren von Word-Dokumenten nach PNG festlegen. |
 | [DOCX in PNG konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-png-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX‑Dateien in hochwertige PNG‑Bilder konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
-| [Word als PNG speichern – Vollständige Aspose.Words-Anleitung](./save-word-as-png-complete-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument vollständig in PNG konvertieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

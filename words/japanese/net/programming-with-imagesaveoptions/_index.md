@@ -31,7 +31,6 @@ Aspose.Words for .NET の ImageSaveOptions を使った Words Processing チュ�
 | [Word 文書から PNG グリッドを作成 – ステップバイステップ ガイド](./create-png-grid-from-word-document-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書内の画像をグリッド状に配置し、PNG に変換する方法を解説します。 |
 | [Word を PNG に変換する際の解像度設定 – 完全ガイド](./how-to-set-resolution-when-converting-word-to-png-complete-g/) Aspose.Words for .NET を使用して、Word 文書を PNG に変換する際の解像度設定方法を詳しく解説する完全ガイドです。 |
 | [docx を PNG に変換 – 完全ステップバイステップガイド](./convert-docx-to-png-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、docx ファイルを PNG 画像に変換する完全なステップバイステップガイドです。 |
-| [Word を PNG に保存 – 完全 Aspose.Words ガイド](./save-word-as-png-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、Word 文書を PNG 画像に変換し、DPI や画質を設定する完全ガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

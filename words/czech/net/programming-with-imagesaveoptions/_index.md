@@ -31,7 +31,6 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Vytvoření PNG mřížky z dokumentu Word – krok za krokem průvodce](./create-png-grid-from-word-document-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit mřížku PNG obrázků z dokumentu Word v několika krocích. |
 | [Jak nastavit rozlišení při převodu Wordu na PNG – Kompletní průvodce](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Naučte se nastavit rozlišení při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
 | [Převod docx na png – Kompletní průvodce krok za krokem](./convert-docx-to-png-complete-step-by-step-guide/) | Naučte se převést soubory DOCX na PNG pomocí Aspose.Words pro .NET s podrobným krok za krokem návodem. |
-| [Uložení Wordu jako PNG – Kompletní průvodce Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET s podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
