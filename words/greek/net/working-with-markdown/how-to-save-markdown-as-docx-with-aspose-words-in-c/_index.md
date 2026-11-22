@@ -262,7 +262,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε σε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να Αποθηκεύσετε Markdown από DOCX – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Μετατροπή docx σε markdown με Aspose.Words – Πλήρης Οδηγός](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

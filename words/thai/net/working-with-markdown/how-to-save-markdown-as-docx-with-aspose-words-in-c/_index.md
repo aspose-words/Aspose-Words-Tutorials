@@ -261,7 +261,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการนำไปใช้แบบอื่นในโครงการของคุณ
 
 - [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนต่อขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

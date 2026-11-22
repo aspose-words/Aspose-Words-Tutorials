@@ -263,7 +263,6 @@ Feel free to adapt the code for batch processing, cloud functions, or CI/CD pipe
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Convert docx to markdown with Aspose.Words – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

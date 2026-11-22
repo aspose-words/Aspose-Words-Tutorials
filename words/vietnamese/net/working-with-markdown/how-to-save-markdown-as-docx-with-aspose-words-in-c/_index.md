@@ -262,7 +262,6 @@ Bạn có thể tự do điều chỉnh mã cho xử lý hàng loạt, các hàm
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Convert docx to markdown with Aspose.Words – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
