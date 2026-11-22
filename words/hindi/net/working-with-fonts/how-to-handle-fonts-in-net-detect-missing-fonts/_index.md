@@ -211,7 +211,6 @@ Times New Roman – Regular
 
 - [DOCX लोड करें और लापता फ़ॉन्ट्स का पता लगाएँ – पूर्ण C# गाइड](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)  
 - [Aspose.Words में फ़ॉन्ट्स का पता लगाएँ – चेतावनियों और सेटिंग्स को संभालें](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)  
-- [Aspose.Words में LoadOptions का उपयोग करें – पूर्ण गाइड](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
