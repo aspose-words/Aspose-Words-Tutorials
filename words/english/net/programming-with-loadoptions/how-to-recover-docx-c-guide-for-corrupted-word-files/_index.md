@@ -73,7 +73,7 @@ LoadOptions loadOptions = new LoadOptions
 };
 ```
 
-*Pro tip:* If you only need to ignore encryption errors, `IgnoreOleData` is another flag you can combine here. But for most broken files, `TryRecover` is the go‑to.
+*Pro tip:* For most broken files, `TryRecover` is the go‑to setting.
 
 ### Step 2 – Load the document with recovery
 
