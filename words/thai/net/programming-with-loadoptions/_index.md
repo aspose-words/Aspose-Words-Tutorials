@@ -57,7 +57,6 @@
 | [กู้ไฟล์ Word ที่เสียหายและแสดงโหมดการกู้คืนใน C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหมดการกู้คืนโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์เพื่อแก้ไขและบันทึกไฟล์](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มที่ช่วยแก้ไขและบันทึกไฟล์ |
 | [ตั้งค่า Warning Callback ใน Aspose – คู่มือฉบับสมบูรณ์สำหรับการโหลดเอกสาร Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | เรียนรู้วิธีตั้งค่า Warning Callback ใน Aspose.Words เพื่อจัดการคำเตือนขณะโหลดเอกสาร Word อย่างละเอียด |
-| [กู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [เปิดใช้งานโหมดการกู้คืน – กู้ไฟล์ Word ที่เสียหาย](./enable-recovery-mode-recover-corrupted-word-document/) | เรียนรู้วิธีเปิดโหมดการกู้คืนและกู้ไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
