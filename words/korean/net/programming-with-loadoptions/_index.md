@@ -62,7 +62,6 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [C#에서 손상된 DOCX 파일 복구 – 완전 가이드](./recover-corrupted-docx-files-in-c-complete-guide/) | 손상된 DOCX 파일을 C#과 Aspose.Words로 복구하는 단계별 가이드를 제공합니다. |
 | [손상된 Word 파일 복구 – C# 개발자를 위한 단계별 가이드](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 복구하는 방법을 C# 개발자를 위해 단계별로 안내합니다. |
 | [Aspose.Words로 손상된 DOCX 복구 – 완전한 C# 가이드](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Aspose.Words를 활용해 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
-| [Aspose.Words로 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [손상된 워드 문서 로드 – 문제 감지 및 C#에서 손상된 docx 복구](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Aspose.Words for .NET을 사용하여 손상된 Word 문서를 로드하고, 문제를 감지하며, C#에서 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [C#에서 손상된 DOCX 로드 – 완전한 Aspose.Words 가이드](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 손상된 DOCX 파일을 로드하고 복구하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 파일 복구 – 복구 모드 설정 완전 가이드](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 복구하고 복구 모드를 설정하는 방법을 단계별로 안내합니다. |
