@@ -37,7 +37,6 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [메타파일을 PNG로 변환](./convert-metafiles-to-png/) | Aspose.Words for .NET을 사용하여 Word 문서의 메타파일을 PNG로 쉽게 변환하는 단계별 튜토리얼을 소개합니다. 문서 관리를 간소화하세요. |
 | [Word 문서에 CHM 파일 로드](./load-chm/) | Aspose.Words for .NET을 사용하여 CHM 파일을 Word 문서에 쉽게 로드하는 단계별 튜토리얼을 소개합니다. 기술 문서를 통합하는 데 적합합니다. |
 | [Aspose.Words로 docx 복구하기 – 단계별 가이드](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aspose.Words를 활용해 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다. |
-| [C#에서 DOCX 파일 복구하기 – 완전 가이드](./how-to-recover-docx-files-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 C#에서 복구하는 단계별 가이드를 제공합니다. |
 | [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Aspose.Words for .NET을 사용하여 복구 모드를 설정하고 손상된 Word 파일을 열어 복구하는 방법을 단계별로 안내합니다. |
 | [DOCX 파일 복구 방법 – 손상된 Word 문서 복원을 위한 완전 가이드](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하고 원본 문서를 복원하는 단계별 가이드를 제공합니다. |
 | [Aspose.Words로 docx 복구하기 – 전체 가이드](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Aspose.Words를 사용하여 손상된 docx 파일을 완전하게 복구하는 방법을 단계별로 안내합니다. |

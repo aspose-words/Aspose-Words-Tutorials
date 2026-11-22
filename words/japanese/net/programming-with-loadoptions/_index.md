@@ -33,7 +33,6 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [メタファイルをPNGに変換する](./convert-metafiles-to-png/) Aspose.Words for .NET を使って、Word 文書内のメタファイルを PNG に簡単に変換する方法を、ステップバイステップのチュートリアルでご紹介します。ドキュメント管理が簡単になります。 |
 | [Word文書にCHMファイルを読み込む](./load-chm/) Aspose.Words for .NET を使って、CHM ファイルを Word 文書に簡単に読み込む方法をステップバイステップで解説するチュートリアルです。技術文書の統合に最適です。 |
 | [Aspose.Wordsでdocxを復元する手順 – ステップバイステップ](./how-to-recover-docx-with-aspose-words-step-by-step/) Aspose.Words for .NET を使用して、破損した docx ファイルを復元する手順をステップバイステップで解説します。 |
-| [C#でDOCXファイルを復元する方法 – 完全ガイド](./how-to-recover-docx-files-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
 | [docx を復元する方法 – 復元モードを設定して破損した Word ファイルを開く](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Aspose.Words for .NET を使用して、復元モードを設定し、破損した Word 文書を安全に開く手順をステップバイステップで解説します。 |
 | [Aspose.WordsでDOCXファイルを復元する手順 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを GUI で簡単に復元する手順をステップバイステップで解説します。 |
 | [DOCX ファイルの復元方法 – Aspose でリカバリーモードを設定する](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) Aspose.Words for .NET を使用して、リカバリーモードを設定し、破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
