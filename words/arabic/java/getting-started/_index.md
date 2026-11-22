@@ -34,6 +34,9 @@
 ### [كيفية عرض معلومات إصدار Aspose.Words في Java: دليل شامل](./aspose-words-java-version-info/)
 تعرّف على كيفية استرداد وعرض معلومات إصدار Aspose.Words لجافا. تأكد من التوافق والتسجيل والصيانة باستخدام هذا الدليل المفصل.
 
+### [إنشاء مخطط دائري بحجم مخصص، تسميات بيانات، وتدوير في Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+تعلم كيفية إنشاء مخطط دائري بحجم مخصص، إضافة تسميات البيانات وتطبيق التدوير باستخدام Aspose.Words في Java.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

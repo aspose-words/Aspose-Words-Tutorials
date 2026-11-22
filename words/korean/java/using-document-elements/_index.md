@@ -123,7 +123,7 @@ Aspose.Words for Java를 사용해 도넛 차트를 수정하고 편집된 문�
 Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 생성하고, 문서에 버튼을 삽입하는 방법을 단계별로 안내합니다.
 ### [C#로 빈 Word 문서를 만들고 레이더 차트를 추가하는 방법](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
-### [Java용 Aspose.Words에서 파이 차트 삽입하기](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+### [Java용 Aspose.Words에서 파이 차트 삽입하기](./how-to-insert-a-pie-chart-into-a-word-document-with-java/)
 Java와 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 데이터 레이블 백분율 추가](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Word 문서에 파이 차트를 삽입하고 데이터 레이블에 백분율을 표시하는 방법을 단계별로 안내합니다.
@@ -132,6 +132,11 @@ Java와 Aspose.Words를 활용해 Word 문서에 차트를 삽입하고 구성�
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-word-in-java-complete-guide/)
 Java용 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 Word 문서의 버튼 위치 설정](./how-to-set-button-position-in-a-word-document-with-java/)
+
+### [Aspose.Words for Java를 사용하여 Word 문서에 매크로 버튼 만들기](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+
+### [C#로 Word 콘텐츠 컨트롤에 자리 표시자 텍스트 설정](./set-placeholder-text-in-a-word-content-control-with-c/)
+C#를 사용하여 Word 문서의 자리표시자를 관리하기 위해 SDT(구조화된 문서 태그)를 추가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,9 @@ Aprenda a configurar a licença Java do Aspose.Words usando os métodos de arqui
 ### [Como exibir informações de versão do Aspose.Words em Java: um guia completo](./aspose-words-java-version-info/)
 Aprenda a recuperar e exibir as informações de versão do Aspose.Words para Java. Garanta compatibilidade, registro e manutenção com este guia passo a passo.
 
+### [Criar gráfico de pizza com tamanho personalizado, rótulos de dados e rotação em Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Aprenda a gerar um gráfico de pizza personalizado, definir tamanho, rótulos de dados e aplicar rotação usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

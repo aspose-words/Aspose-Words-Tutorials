@@ -132,6 +132,9 @@
 เรียนรู้วิธีเพิ่ม ActiveX และสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java
 ### [วิธีเพิ่มแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 เรียนรู้วิธีเพิ่มแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียด
+### [วิธีสร้างปุ่มแมโครในเอกสาร Word ด้วย Aspose.Words สำหรับ Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+เรียนรู้วิธีเพิ่มปุ่มแมโครในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [ตั้งค่าข้อความตัวแทนในคอนเทนต์คอนโทรลของ Word ด้วย C#](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

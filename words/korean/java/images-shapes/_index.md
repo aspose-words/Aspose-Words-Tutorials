@@ -161,7 +161,7 @@ Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서�
 
 ### [Java로 Word 문서에 도넛 차트 만들기](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 
-### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+### [Java에서 그룹화된 도형이 포함된 빈 Word 문서 만들기](./create-blank-word-document-with-grouped-shapes-in-java/)
 
 ### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 
@@ -175,7 +175,13 @@ Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서�
 
 ### [Java를 사용하여 Word 문서에 사각형 도형 만들기](./create-rectangle-shape-in-a-word-document-using-java/)
 
+### [Java에서 사각형 도형 추가 및 도형 그룹화](./add-rectangle-shape-and-group-shapes-in-java/)
+
+Java를 사용해 사각형 도형을 삽입하고 그룹화하는 방법을 단계별로 안내합니다.
+
 ### [C#를 사용하여 Word에서 사각형 도형을 만들고 도형을 그룹화하는 방법](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [Aspose.Words for Java를 사용하여 Word 문서에 도형 추가하는 방법](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## 추가 자료
 

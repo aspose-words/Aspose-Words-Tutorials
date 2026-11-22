@@ -34,6 +34,9 @@ Naučte se, jak nastavit licenci Aspose.Words pro Java pomocí metod souborů a 
 ### [Jak zobrazit informace o verzi Aspose.Words v Javě: Komplexní průvodce](./aspose-words-java-version-info/)
 Naučte se, jak načíst a zobrazit informace o verzi Aspose.Words pro Javu. Zajistěte kompatibilitu, protokolování a údržbu pomocí tohoto podrobného návodu.
 
+### [Vytvoření koláčového grafu s vlastní velikostí, popisky dat a rotací v Javě](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Naučte se, jak v Javě vytvořit koláčový graf s vlastní velikostí, popisky dat a nastavením rotace.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

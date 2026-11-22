@@ -30,6 +30,7 @@ In de wereld van documentverwerking is het integreren van afbeeldingen en vormen
 
 ### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
+### [Rechthoekvorm toevoegen en vormen groeperen in Java](./add-rectangle-shape-and-group-shapes-in-java/)
 
 ### [How to insert ellipse and rectangle shapes inside a group shape with Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
@@ -101,7 +102,7 @@ Leer hoe u vormen groepeert in Word-documenten met Aspose.Words voor Java.
 ### [Afbeelding verbergen in Word – stap‑voor‑stap Java‑handleiding met Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Leer hoe u een afbeelding in een Word‑document kunt verbergen met Aspose.Words voor Java.
 ### [Hoe vormen groeperen in een Word-document met Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
-Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor Java.
+Leer hoe u meerdere vormen in een Word-document groept met Aspose.Words voor Java.
 
 ### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
@@ -161,6 +162,8 @@ Leer hoe u een leeg Word-document maakt en meerdere vormen groept met Aspose.Wor
 ### [Rechthoekvorm maken in een Word-document met Java](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [Hoe Aspose te gebruiken om een afbeelding in te voegen en te verbergen in een Word-document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+### [Hoe een vorm toe te voegen aan Word-documenten met Aspose.Words voor Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## Aanvullende bronnen
 

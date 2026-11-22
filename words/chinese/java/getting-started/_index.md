@@ -34,6 +34,9 @@
 ### [如何在 Java 中显示 Aspose.Words 版本信息：综合指南](./aspose-words-java-version-info/)
 了解如何检索和显示 Aspose.Words for Java 的版本信息。通过本分步指南确保兼容性、日志记录和维护。
 
+### [在 Java 中创建自定义大小、数据标签和旋转的饼图](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+了解如何在 Java 使用 Aspose.Words 创建具有自定义尺寸、数据标签和旋转角度的饼图。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

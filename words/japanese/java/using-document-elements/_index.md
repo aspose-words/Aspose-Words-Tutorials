@@ -144,12 +144,16 @@ Aspose.Words for Java を使用して、Word 文書にチャートを挿入し�
 ### [Word 文書に ActiveX を追加し、円グラフを挿入する方法](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 Aspose.Words for JavaでActiveXを追加し、円グラフを文書に挿入する手順を学びましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [C# で Word コンテンツ コントロールのプレースホルダー テキストを設定する](./set-placeholder-text-in-a-word-content-control-with-c/)
+C# を使用して Word のコンテンツ コントロールにプレースホルダー テキストを設定する方法を学びます。
 
+### [Aspose.Words for Java を使用して Word 文書にマクロ ボタンを作成する方法](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Aspose.Words for Java でマクロ ボタンを文書に追加し、機能させる手順をステップバイステップで解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

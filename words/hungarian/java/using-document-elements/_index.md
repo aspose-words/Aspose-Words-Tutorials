@@ -124,12 +124,15 @@ Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítség
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java használatával.
 ### [Kördiagram beszúrása Word-be Java-val – teljes útmutató](./insert-pie-chart-word-in-java-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Makró gomb létrehozása Word dokumentumban az Aspose.Words for Java segítségével](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Tanuld meg, hogyan hozhatsz létre makró gombot egy Word dokumentumban az Aspose.Words for Java használatával.
 
+### [Helyőrző szöveg beállítása Word tartalomvezérlőben C#-val](./set-placeholder-text-in-a-word-content-control-with-c/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

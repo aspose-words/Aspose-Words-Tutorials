@@ -45,6 +45,7 @@ Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a cre
 ## Tutorial sull'utilizzo degli elementi del documento
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
+### [Come creare un pulsante macro in un documento Word con Aspose.Words per Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
 
 ### [Creare un documento Word vuoto e aggiungere un pulsante ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Impara a creare un documento Word vuoto e inserire un pulsante ActiveX usando Aspose.Words per Java.
@@ -137,7 +138,8 @@ Impara a inserire un grafico a torta in un documento Word usando Java con Aspose
 ### [Come inserire un grafico a torta in Word – aggiungere la percentuale dell'etichetta dati](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Scopri come inserire un grafico a torta in Word e aggiungere le percentuali alle etichette dei dati con Aspose.Words per Java.
 ### [Come far esplodere una fetta di torta in Java – tutorial su grafici Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
-Scopri come far esplodere una fetta di grafico a torta in Aspose.Words per Java con questo tutorial passo passo.
+
+### [Impostare il testo segnaposto in un controllo contenuto Word con C#](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

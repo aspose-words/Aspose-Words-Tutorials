@@ -173,6 +173,10 @@ Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words 
 
 ### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
+### [Agregar forma rectangular y agrupar formas en Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Cómo agregar una forma a documentos Word con Aspose.Words para Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
 ## Recursos adicionales
 
 ### [Crear un documento Word en blanco con una forma elíptica oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -108,6 +108,9 @@ Pelajari cara memuat file Markdown di Java menggunakan Aspose.Words untuk Java. 
 ### [Cara Membaca File Markdown di Java dengan Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 Panduan langkah demi langkah untuk memuat dan memproses file Markdown di Java menggunakan Aspose.Words.
 
+### [Cara memuat markdown dengan pemformatan di Java](./how-to-load-markdown-with-formatting-in-java/)
+Panduan langkah demi langkah memuat file markdown dengan mempertahankan formatnya menggunakan Aspose.Words untuk Java.
+
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
 Pelajari manipulasi dokumen lanjutan dengan Aspose.Words untuk Java. Enkripsi, menangani metafile, dan lainnya. Dokumen Word Anda, cara Anda.
 

@@ -219,6 +219,7 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en ko
 ### [Logga varningar om teckensnittssubstitution i Java med Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Konfigurera LoadOptions för varningar – Komplett Java‑guide](./configure-loadoptions-for-warnings-complete-java-guide/)
+
 ### [Skapa tomt Word-dokument med Java – Fullständig Aspose.Words‑guide](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ### [Aspose Font Substitution‑handledning – Hantera saknade teckensnitt](./aspose-font-substitution-tutorial-handle-missing-fonts/)
@@ -232,6 +233,9 @@ Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, ink
 
 ### [Hur du laddar markdown-dokument i Java med anpassade importalternativ](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 Lär dig hur du importerar markdown-filer i Java med skräddarsydda importalternativ med Aspose.Words.
+
+### [Hur du laddar markdown med formatering i Java](./how-to-load-markdown-with-formatting-in-java/)
+Lär dig hur du laddar markdown-filer med formatering i Java med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

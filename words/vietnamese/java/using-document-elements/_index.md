@@ -98,7 +98,7 @@ Học cách đặt kích thước nút trong tài liệu Word bằng Java sử d
 ### [Tạo biểu đồ tròn với Aspose.Words Java – Hướng dẫn chi tiết từng bước](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Học cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước.
 ### [Chèn biểu đồ tròn trong Word bằng Aspose.Words – Hướng dẫn đầy đủ](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
-Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words cho Java, bao gồm tạo dữ liệu và định dạng biểu đồ.
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java, bao gồm tạo dữ liệu và định dạng biểu đồ.
 ### [Cách chèn nút ActiveX trong Word – Đặt chú thích nút](./how-to-insert-activex-button-in-word-set-button-caption/)
 Học cách chèn nút ActiveX vào tài liệu Word và thiết lập chú thích cho nút bằng Aspose.Words cho Java.
 ### [Cách lấy dấu phân cách trong tài liệu Word bằng Java](./how-to-get-separator-in-word-docs-with-java/)
@@ -137,13 +137,15 @@ Hướng dẫn cách đặt vị trí nút trong tài liệu Word bằng Java.
 Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java.
 ### [Cách thêm biểu đồ tròn vào tài liệu Word bằng Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Hướng dẫn chi tiết cách thêm biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java.
+### [Đặt văn bản placeholder trong điều khiển nội dung Word bằng C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+Hướng dẫn cách đặt văn bản placeholder trong điều khiển nội dung Word bằng C#.
+### [Cách tạo nút macro trong tài liệu Word bằng Aspose.Words cho Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Hướng dẫn chi tiết cách tạo nút macro trong tài liệu Word bằng Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

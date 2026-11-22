@@ -166,6 +166,12 @@ Apprenez à insérer et gérer des formes groupées dans vos documents Word avec
 
 ### [Comment utiliser Aspose pour insérer une image et la masquer dans un document Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
+### [Ajouter une forme rectangle et regrouper des formes en Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Comment ajouter une forme aux documents Word avec Aspose.Words pour Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
+Apprenez à insérer et configurer une forme dans un document Word à l'aide d'Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 ### [Créer un document Word vierge avec une forme ellipse cachée](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

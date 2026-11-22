@@ -34,6 +34,9 @@ Aspose.Words for Java を使い始めるための包括的なステップバイ�
 ### [Aspose.Words のバージョン情報を Java で表示する方法: 包括的なガイド](./aspose-words-java-version-info/)
 Aspose.Words for Javaのバージョン情報を取得して表示する方法を学びましょう。このステップバイステップガイドで、互換性、ログ記録、メンテナンスを確保しましょう。
 
+### [Javaでカスタムサイズ、データラベル、回転を設定した円グラフを作成する](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Javaを使用して、カスタムサイズ、データラベル、回転角度を指定した円グラフを作成する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

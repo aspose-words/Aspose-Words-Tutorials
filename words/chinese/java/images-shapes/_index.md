@@ -114,9 +114,6 @@ Aspose.Words Java 代码教程
 ### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
 演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
-### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
-演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
-
 ### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-injava/)
 演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
@@ -134,6 +131,12 @@ Aspose.Words Java 代码教程
 ### [使用 Java 在 Word 文档中创建矩形形状](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [如何在 Word 中使用 C# 创建矩形形状并对形状进行分组](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [在 Java 中添加矩形形状并对形状进行分组](./add-rectangle-shape-and-group-shapes-in-java/)
+
+演示如何在 Java 中使用 Aspose.Words 添加矩形形状并将多个形状进行分组。
+
+### [如何使用 Aspose.Words for Java 向 Word 文档添加形状](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## 其他资源
 

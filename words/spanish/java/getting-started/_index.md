@@ -34,6 +34,9 @@ Aprenda a configurar la licencia Java de Aspose.Words mediante métodos de archi
 ### [Cómo mostrar la información de la versión de Aspose.Words en Java: una guía completa](./aspose-words-java-version-info/)
 Aprenda a recuperar y mostrar la información de la versión de Aspose.Words para Java. Garantice la compatibilidad, el registro y el mantenimiento con esta guía paso a paso.
 
+### [Crear gráfico circular con tamaño personalizado, etiquetas de datos y rotación en Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Aprenda a crear un gráfico circular con tamaño personalizado, etiquetas de datos y rotación en Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

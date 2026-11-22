@@ -38,7 +38,7 @@ Bu eğitimleri takip ederek, yalnızca belge öğesi düzenlemesinin temellerini
 
 Başlamaya hazır mısınız? Şuraya gidin: [Java API Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/) kapsamlı belgelere erişmek için. Belge öğesi manipülasyonunun her aşamasında size rehberlik edecek ayrıntılı açıklamalar, kod örnekleri ve API referansları bulacaksınız.
 
-Sonuç olarak, Aspose.Words for Java kullanarak belge öğesi manipülasyonunda ustalaşmak, belgelerle çalışan herhangi bir Java geliştiricisi için değerli bir beceridir. Bu eğitimler, bu alanda uzmanlaşmanıza yardımcı olmak için net ve yapılandırılmış bir yol sunar. Bu yüzden, kolları sıvayın, eğitimlere dalın ve belge işleme projelerinizde Aspose.Words for Java'nın tüm potansiyelini ortaya çıkarın.
+Sonuç olarak, Aspose.Words for Java kullanarak belge öğesi manipülasyonunda ustalaşmak, belgelerle çalışan herhangi bir Java geliştiricisi için değerli bir beceridir. Bu eğitimler, bu alanda uzmanlaşmanıza yardımcı olmak için net ve yapılandırılmış bir yol sunur. Bu yüzden, kolları sıvayın, eğitimlere dalın ve belge işleme projelerinizde Aspose.Words for Java'nın tüm potansiyelini ortaya çıkarın.
 
 Unutmayın, pratik mükemmelleştirir ve Aspose.Words for Java ile kısa sürede bir profesyonel gibi belgeler oluşturacak, düzenleyecek ve geliştireceksiniz. İyi kodlamalar!
 
@@ -133,6 +133,9 @@ Java ve Aspose.Words kullanarak Word belgesine pasta grafik eklemeyi adım adım
 
 ### [Java kullanarak bir Word belgesine pasta grafiği ekleme](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
+### [C# ile bir Word içerik denetiminde yer tutucu metni ayarlama](./set-placeholder-text-in-a-word-content-control-with-c/)
+
+### [Aspose.Words for Java ile bir Word belgesine makro düğmesi oluşturma](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@
 
 ### [Как создать кнопку команды ActiveX в Java](./how-to-create-activex-command-button-in-java/)
 
+### [Как создать кнопку макроса в документе Word с Aspose.Words для Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+
 ### [Использование комментариев в Aspose.Words для Java](./using-comments/)
 Узнайте, как использовать комментарии в Aspose.Words для Java. Пошаговое руководство по добавлению и настройке комментариев в ваших документах.
 ### [Использование полей в Aspose.Words для Java](./using-fields/)
@@ -133,6 +135,8 @@
 ### [Вставка круговой диаграммы в Word с Java – полное руководство](./insert-pie-chart-word-in-java-complete-guide/)
 Подробное руководство по вставке круговой диаграммы в документ Word с использованием Aspose.Words для Java.
 ### [Как добавить круговую диаграмму в документ Word с помощью Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+
+### [Установить текст‑заполнитель в элемент управления содержимым Word с C#](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

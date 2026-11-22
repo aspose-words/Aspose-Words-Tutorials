@@ -128,6 +128,10 @@ Leer hoe je Markdown-bestanden kunt laden in Java met Aspose.Words, inclusief co
 ### [Hoe markdown-bestand lezen met Java en Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 Leer hoe je markdown-bestanden kunt lezen in Java met Aspose.Words, met voorbeeldcode en handige tips.
 
+### [Hoe markdown met opmaak te laden in Java](./how-to-load-markdown-with-formatting-in-java/)
+
+Leer hoe je markdown-bestanden met opmaak laadt in Java met Aspose.Words.
+
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.
 
@@ -183,9 +187,11 @@ Leer hoe je met LoadOptions corrupte Word‑documenten kunt herstellen in Java m
 Specificeer de tekencodering bij het laden van documenten met Aspose.Words for Java.
 
 ### [Hoe markdown-document te laden in Java met aangepaste importopties](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
 Leer hoe je een markdown-document laadt in Java met aangepaste importopties.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ...
 
 ## Veelgestelde vragen

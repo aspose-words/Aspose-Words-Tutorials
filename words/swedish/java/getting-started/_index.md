@@ -34,6 +34,9 @@ Lär dig hur du konfigurerar Aspose.Words Java-licensen med hjälp av fil- och s
 ### [Hur man visar Aspose.Words versionsinformation i Java: En omfattande guide](./aspose-words-java-version-info/)
 Lär dig hur du hämtar och visar versionsinformationen för Aspose.Words för Java. Säkerställ kompatibilitet, loggning och underhåll med den här steg-för-steg-guiden.
 
+### [Skapa pajdiagram med anpassad storlek, datamärkning och rotation i Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Lär dig hur du skapar ett pajdiagram med anpassad storlek, etiketter och rotation i Java.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

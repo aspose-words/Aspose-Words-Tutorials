@@ -83,11 +83,11 @@
 ### [在 Aspose.Words for Java 中设置按钮大小 – 完整指南](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 学习如何在 Word 文档中使用 Aspose.Words for Java 设置按钮大小的完整步骤。
 ### [在 Aspose.Words for Java 中使用 Forms2OleControl 添加到 DOCX – 完整指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
-学习如何在 Java 中使用 Aspose.Words 将 Forms2OleControl 嵌入 DOCX 文档，提供完整步骤与示例代码。
+学习在 Java 中使用 Aspose.Words 将 Forms2OleControl 嵌入 DOCX 文档，提供完整步骤与示例代码。
 ### [在 Word 中插入 ActiveX 按钮 – 设置按钮标题](./how-to-insert-activex-button-in-word-set-button-caption/)
 学习在 Aspose.Words for Java 中插入 ActiveX 按钮并设置其标题，实现交互式文档功能。
 ### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
-学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
+学习如何使用 Aspose.Words 在 Word 文档中插入饼图并自定义，涵盖数据绑定、样式设置和导出。
 ### [使用命令按钮创建空白 Word 文档 – 步骤指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
 ### [在 Aspose.Words for Java 中获取分隔符](./how-to-get-separator-in-word-docs-with-java/)
 学习如何在 Aspose.Words for Java 中获取分隔符，以便在文档中插入或识别分隔线。
@@ -97,6 +97,9 @@
 学习如何使用 Aspose.Words for Java 在 Word 文档中创建饼图，完整的分步示例。
 ### [在 Aspose.Words for Java 中使用占位符和列表创建 Word 文档](./how-to-create-word-document-with-placeholders-and-lists/)
 学习如何在 Aspose.Words for Java 中创建包含占位符和列表的 Word 文档，实现动态内容生成。
+
+### [在 C# 中设置 Word 内容控件的占位符文本](./set-placeholder-text-in-a-word-content-control-with-c/)
+
 ### [在 Java 中使用 Chart API 为饼图添加引导线](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
 ### [在 Aspose.Words for Java 中使用命令按钮](./how-to-insert-command-button-in-a-word-document-using-java/)
@@ -106,7 +109,7 @@
 ### [在 Aspose.Words for Java 中编辑 Word 文档中的图表](./how-to-edit-chart-in-a-word-document-using-java/)
 本教程演示如何使用 Aspose.Words for Java 在 Word 文档中编辑图表，包括修改数据、样式并保存。
 ### [在 Java 中编辑环形图后保存 Word 文档](./save-word-document-after-editing-doughnut-chart-in-java/)
-本教程演示如何使用 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
+本教程演示如何在 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
 ### [在 C# 中创建空白 Word 文档并添加雷达图](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
 ### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
@@ -136,6 +139,8 @@
 学习如何使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图，完整步骤指南。
 ### [在 Word 文档中添加 ActiveX 并插入饼图](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 学习如何在 Aspose.Words for Java 中使用 ActiveX 并在 Word 文档中插入饼图。
+
+### [使用 Aspose.Words for Java 在 Word 文档中创建宏按钮](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

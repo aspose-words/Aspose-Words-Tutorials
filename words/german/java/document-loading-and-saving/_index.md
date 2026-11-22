@@ -170,6 +170,7 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java rep
 Erfahren Sie, wie Sie alle Optionen von Aspose.Words für Java konfigurieren, um das Verhalten beim Laden und Speichern zu steuern.
 
 ### [Wie man ein Markdown-Dokument in Java mit benutzerdefinierten Importoptionen lädt](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+### [Wie man Markdown mit Formatierung in Java lädt](./how-to-load-markdown-with-formatting-in-java/)
 
 ## Häufig gestellte Fragen
 

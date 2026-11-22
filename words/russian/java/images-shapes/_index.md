@@ -192,7 +192,7 @@
 ### [Как создать кольцевую диаграмму в документе Word с помощью Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Узнайте, как программно добавить кольцевую диаграмму в документ Word с использованием Aspose.Words для Java.
 
-### [Как создать пустой документ Word и сгруппировать фигуры в Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+### [Как создать пустой документ и сгруппировать фигуры в Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
 Узнайте, как создать пустой документ Word и сгруппировать фигуры с помощью Aspose.Words для Java.
 
 ### [Создать документ Word с скрытым изображением в Java с использованием Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
@@ -219,3 +219,11 @@
 ### [Как использовать Aspose для вставки изображения и скрытия его в документе Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 Узнайте, как вставить изображение в документ Word и скрыть его с помощью Aspose.Words для Java.
+
+### [Добавление прямоугольной фигуры и группировка фигур в Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Как добавить фигуру в документы Word с помощью Aspose.Words для Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
+Узнайте, как добавить фигуру в документы Word с помощью Aspose.Words для Java.
+
+{{< /blocks/products/products-backtop-button >}}

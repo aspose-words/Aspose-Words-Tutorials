@@ -34,6 +34,9 @@ Scopri come configurare la licenza Java di Aspose.Words utilizzando i metodi fil
 ### [Come visualizzare le informazioni sulla versione di Aspose.Words in Java: una guida completa](./aspose-words-java-version-info/)
 Scopri come recuperare e visualizzare le informazioni sulla versione di Aspose.Words per Java. Garantisci compatibilità, registrazione e manutenzione con questa guida passo passo.
 
+### [Creare un grafico a torta con dimensioni personalizzate, etichette dati e rotazione in Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Impara a generare un grafico a torta personalizzato, impostando dimensioni, etichette e rotazione con Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

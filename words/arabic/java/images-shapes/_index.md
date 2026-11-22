@@ -156,20 +156,10 @@
 ### [كيفية إنشاء مستند Word فارغ مع أشكال مجموعة](./how-to-create-blank-word-document-with-grouped-shapes/)
 تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words لجافا
 
-### [كيفية إدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
-دليل خطوة بخطوة لإدراج أشكال إهليلجية ومستطيلة داخل مجموعة أشكال باستخدام Aspose.Words لجافا
+### [إضافة شكل مستطيل وتجميع الأشكال في جافا](./add-rectangle-shape-and-group-shapes-in-java/)
+تعلم كيفية إضافة شكل مستطيل وتجمعه مع أشكال أخرى في مستند Word باستخدام Aspose.Words لجافا
 
-### [كيفية إنشاء مستند Word فارغ وتجميع أشكال متعددة](./how-to-create-blank-word-document-and-group-multiple-shapes/)
-دليل خطوة بخطوة لإنشاء مستند Word فارغ وتجميع أشكال متعددة باستخدام Aspose.Words لجافا
-
-### [إنشاء مستند Word برمجيًا وإضافة شكل في Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-تعلم كيفية إنشاء مستند Word برمجيًا وإضافة شكل باستخدام Aspose.Words لجافا
-
-### [إنشاء شكل مستطيل في مستند Word باستخدام Java](./create-rectangle-shape-in-a-word-document-using-java/)
-دليل خطوة بخطوة لإنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words لجافا
-
-### [كيفية إنشاء شكل مستطيل وتجميع الأشكال في Word باستخدام C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
-دليل خطوة بخطوة لإنشاء شكل مستطيل وتجميع الأشكال في مستند Word باستخدام C#
+### [كيفية إضافة شكل إلى مستندات Word باستخدام Aspose.Words للجافا](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## موارد إضافية
 

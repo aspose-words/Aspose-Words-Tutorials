@@ -62,6 +62,10 @@
 學習使用 Aspose.Words for Java 建立帶有表單欄位的互動式 Word 文件。立即開始！
 ### [在 Aspose.Words for Java 中插入命令按鈕](./how-to-insert-command-button-in-a-word-document-using-java/)
 了解如何在 Word 文件中使用 Java 程式碼插入可執行的命令按鈕，提升文件互動性。
+
+### [在 Aspose.Words for Java 中建立巨集按鈕於 Word 文件](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+了解如何在 Word 文件中使用 Aspose.Words for Java 建立可執行的巨集按鈕，提升文件互動性。
+
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 學習使用 HarfBuzz 在 Aspose.Words for Java 中進行進階文字整形。請按照本逐步指南增強複雜腳本中的文字渲染。
 
@@ -143,6 +147,8 @@
 ### [使用 Java 與 Aspose.Words 在 Word 中建立圖表](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 了解如何使用 Aspose.Words for Java 在 Word 文件中建立和自訂圖表的步驟。
 ### [在 Java 中插入餅圖至 Word – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
+
+### [在 Word 內容控制項中使用 C# 設定佔位文字](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

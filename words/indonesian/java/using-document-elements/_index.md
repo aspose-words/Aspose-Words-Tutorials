@@ -115,7 +115,7 @@ Pelajari cara membuat diagram radial di dokumen Word menggunakan Aspose.Words un
 Pelajari cara membuat dokumen Word secara programatis dan menambahkan tombol interaktif menggunakan Aspose.Words untuk Java.
 ### [Cara membuat dokumen Word kosong dan menambahkan diagram radar di C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Cara Menyisipkan Diagram Pai ke Dokumen Word menggunakan Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
-Pelajari cara menambahkan diagram pai ke dokumen Word dengan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
+Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Cara Membuat DOCX Berisi ActiveX dengan Java dan Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan Aspose.Words.
 ### [Cara Membuat Tombol Perintah ActiveX di Java](./how-to-create-activex-command-button-in-java/)
@@ -133,6 +133,10 @@ Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words u
 Pelajari cara membuat diagram di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Cara menambahkan diagram pai ke dokumen Word menggunakan Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
+### [Mengatur teks placeholder dalam kontrol konten Word dengan C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+
+### [Cara membuat tombol makro dalam dokumen Word dengan Aspose.Words untuk Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Pelajari cara menambahkan tombol makro ke dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

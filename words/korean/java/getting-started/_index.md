@@ -34,6 +34,9 @@ Aspose.Words for Java를 사용하여 작업을 시작하기 위한 포괄적인
 ### [Java에서 Aspose.Words 버전 정보를 표시하는 방법: 포괄적인 가이드](./aspose-words-java-version-info/)
 Aspose.Words for Java의 버전 정보를 검색하고 표시하는 방법을 알아보세요. 이 단계별 가이드를 통해 호환성, 로깅 및 유지 관리를 보장하세요.
 
+### [Java에서 사용자 지정 크기, 데이터 레이블 및 회전이 적용된 파이 차트 만들기](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Java를 사용해 사용자 정의 크기와 데이터 레이블, 회전 옵션이 포함된 파이 차트를 생성하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

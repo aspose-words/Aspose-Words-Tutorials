@@ -123,6 +123,8 @@ Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met 
 Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
 ### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
 Leer hoe u een klikbare knop in een Word‑document kunt invoegen met Aspose.Words voor Java in deze stapsgewijze tutorial.
+### [Hoe een macroknop te maken in een Word-document met Aspose.Words voor Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Leer hoe u een macroknop toevoegt aan een Word-document met Aspose.Words voor Java.
 ### [Hoe een taartpunt te exploderen in Java – Aspose.Words diagramtutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Leer hoe u een taartpunt kunt laten exploderen in een diagram met Aspose.Words voor Java.
 ### [Grafiek maken in Word met Java en Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
@@ -134,6 +136,9 @@ Leer hoe u ActiveX kunt toevoegen en een cirkeldiagram in een Word‑document ku
 ### [Hoe een cirkeldiagram aan een Word-document toevoegen met Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
 Leer hoe u een cirkeldiagram in een Word-document kunt invoegen met Java.
+
+### [Placeholder-tekst instellen in een Word-inhoudsbesturingselement met C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+Leer hoe u placeholder-tekst instelt in een Word-inhoudsbesturingselement met C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

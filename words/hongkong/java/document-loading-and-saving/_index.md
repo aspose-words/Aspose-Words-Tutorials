@@ -187,6 +187,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [如何使用 Aspose.Words 在 Java 中讀取 Markdown 檔案](./how-to-read-markdown-file-java-with-aspose-words/)
 
+### [如何在 Java 中載入帶格式的 Markdown](./how-to-load-markdown-with-formatting-in-java/)
+
 ## 常見問題
 
 **Q:** 如何以程式方式 **從 Word 儲存圖像** 文件？  

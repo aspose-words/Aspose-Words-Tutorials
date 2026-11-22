@@ -53,7 +53,7 @@ Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
 Naucz się efektywnie używać Aspose.Words for pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
 ### [Korzystanie z czcionek w Aspose.Words dla Java](./using-fonts/)
-Poznaj formatowanie czcionek w Aspose.Words dla Java: rozmiar, styl, kolor i więcej. Twórz pięknie sformatowane dokumenty z łatwością.
+Poznaj formatowanie czcionek w Aspose.Words for Java: rozmiar, styl, kolor i więcej. Twórz pięknie sformatowane dokumenty z łatwością.
 ### [Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java](./using-footnotes-and-endnotes/)
 Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words dla Java. Popraw swoje umiejętności formatowania dokumentów już dziś!
 ### [Korzystanie z pól formularza w Aspose.Words dla Java](./using-form-fields/)
@@ -71,9 +71,9 @@ Naucz się używać list w Aspose.Words for Java dzięki temu samouczkowi krok p
 ### [Używanie Markdown w Aspose.Words dla Java](./using-markdown/)
 Naucz się używać Markdown w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
 ### [Korzystanie z węzłów w Aspose.Words dla Java](./using-nodes/)
-Naucz się manipulować węzłami w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
+Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
-Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
+Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words for Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
 ### [Jak wstawić przycisk ActiveX w Word – Ustaw podpis przycisku](./how-to-insert-activex-button-in-word-set-button-caption/)
 Dowiedz się, jak dodać przycisk ActiveX do dokumentu Word i ustawić jego etykietę przy pomocy Aspose.Words for Java.
 ### [Jak utworzyć plik docx zawierający ActiveX przy użyciu Java i Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
@@ -102,6 +102,10 @@ Dowiedz się, jak ustawić pozycję przycisku w dokumencie Word przy użyciu Asp
 Dowiedz się, jak tworzyć wykresy w dokumentach Word przy użyciu Java i Aspose.Words w kilku prostych krokach.
 ### [Wstaw wykres kołowy w Wordzie przy użyciu Java – kompletny przewodnik](./insert-pie-chart-word-in-java-complete-guide/)
 Dowiedz się, jak w prosty sposób wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words for Java.
+### [Ustaw tekst zastępczy w kontrolce zawartości Word przy użyciu C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+
+### [Jak utworzyć przycisk makra w dokumencie Word przy użyciu Aspose.Words dla Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Dowiedz się, jak dodać przycisk makra do dokumentu Word przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,10 @@ oblasti zpracování dokumentů je integrace obrázků a tvarů klíčová pro v
 
 ## Dostupné tutoriály
 
+### [Add rectangle shape and group shapes in Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Jak přidat tvar do dokumentů Word pomocí Aspose.Words pro Javu](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
 

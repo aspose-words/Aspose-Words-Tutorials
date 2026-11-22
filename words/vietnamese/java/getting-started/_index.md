@@ -34,6 +34,9 @@ Tìm hiểu cách thiết lập giấy phép Java Aspose.Words bằng phương p
 ### [Cách hiển thị thông tin phiên bản Aspose.Words trong Java: Hướng dẫn toàn diện](./aspose-words-java-version-info/)
 Tìm hiểu cách lấy và hiển thị thông tin phiên bản của Aspose.Words cho Java. Đảm bảo khả năng tương thích, ghi nhật ký và bảo trì với hướng dẫn từng bước này.
 
+### [Tạo biểu đồ tròn với kích thước tùy chỉnh, nhãn dữ liệu và xoay trong Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Hướng dẫn tạo biểu đồ tròn tùy chỉnh kích thước, hiển thị nhãn dữ liệu và áp dụng góc xoay bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
