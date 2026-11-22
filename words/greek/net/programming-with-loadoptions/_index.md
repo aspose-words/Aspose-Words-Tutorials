@@ -56,7 +56,6 @@
 | [Πώς να καταγράψετε προειδοποιήσεις – διαμορφώστε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Μάθετε πώς να εντοπίζετε προειδοποιήσεις κατά τη φόρτωση εγγράφων Word και να ρυθμίζετε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές. |
 | [Ανάκτηση κατεστραμμένου αρχείου Word και εμφάνιση λειτουργίας ανάκτησης σε C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία Word και να εμφανίσετε τη λειτουργία ανάκτησης χρησιμοποιώντας C# και Aspose.Words. |
 | [Ορισμός προειδοποίησης callback στο Aspose – Πλήρης Οδηγός για Φόρτωση Εγγράφου Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | Μάθετε πώς να ορίσετε callback προειδοποίησης κατά τη φόρτωση εγγράφων Word με το Aspose.Words για .NET. |
-| [Ανάκτηση Κατεστραμμένου Εγγράφου Word χρησιμοποιώντας Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# με το Aspose.Words, βήμα προς βήμα οδηγός. |
 | [Ενεργοποίηση λειτουργίας ανάκτησης – Ανάκτηση κατεστραμμένου εγγράφου Word](./enable-recovery-mode-recover-corrupted-word-document/) | Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης για να ανοίξετε και να επαναφέρετε κατεστραμμένα έγγραφα Word με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
