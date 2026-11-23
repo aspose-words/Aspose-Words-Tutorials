@@ -220,7 +220,6 @@ public class DocxToTxtConverter
 
 - [docx को txt के रूप में सहेजें – Word Math को LaTeX में निर्यात करें C# के साथ](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Document को TXT के रूप में सहेजें – DOCX को प्लेन टेक्स्ट में बदलने के लिए पूर्ण C# गाइड](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [LaTeX निर्यात कैसे करें: DOCX को Markdown और TXT में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -52,7 +52,6 @@ Ismerje meg, hogyan exportálhat LaTeX‑et DOCX fájlokból és konvertálhatja
 ### [Hogyan ágyazzunk be képeket a Markdownba DOCX-ből](./how-to-embed-images-in-markdown-from-docx/)
 Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-complete-guide-with-image-extractio/)
-### [Hogyan exportáljunk LaTeX-et: DOCX konvertálása Markdownba és TXT-be](./how-to-export-latex-convert-docx-to-markdown-txt/)
 ### [DOCX konvertálása Markdownba C#‑vel – Teljes útmutató](./convert-docx-to-markdown-with-c-complete-guide/)
 ### [Word képek mentése – Word konvertálása Markdownba Aspose-szal](./save-word-images-convert-word-to-markdown-with-aspose/)
 ### [Képek mentése – DOCX konvertálása Markdownba Aspose-szal](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)

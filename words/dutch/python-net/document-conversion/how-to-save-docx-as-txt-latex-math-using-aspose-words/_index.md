@@ -180,7 +180,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Docx opslaan als txt – Word‑wiskunde exporteren naar LaTeX met C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Docx opslaan als txt met Aspose.Words TxtSaveOptions – Regels en spaties behouden in C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [Hoe LaTeX exporteren: DOCX converteren naar Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -181,7 +181,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [DOCX mentése txt‑ként – Word Math exportálása LaTeX‑be C#‑val](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [DOCX mentése txt‑ként Aspose.Words TxtSaveOptions használatával – sortörések és szóközök megőrzése C#‑ban](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [Hogyan exportáljunk LaTeX‑et: DOCX konvertálása Markdown‑ra és TXT‑re](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

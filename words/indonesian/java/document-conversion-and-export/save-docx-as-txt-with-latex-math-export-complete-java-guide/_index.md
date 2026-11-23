@@ -232,7 +232,6 @@ Ada pertanyaan lebih lanjut tentang mengonversi persamaan Word ke LaTeX atau men
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cara Mengekspor LaTeX: Konversi DOCX ke Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Simpan Dokumen sebagai TXT – Panduan C# Lengkap untuk Mengonversi DOCX ke Teks Biasa](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

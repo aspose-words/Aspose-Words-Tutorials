@@ -178,7 +178,6 @@ A = \pi r^2
 
 - [docx को txt के रूप में सहेजें – C# के साथ Word गणित को LaTeX में निर्यात करें](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Aspose.Words TxtSaveOptions के साथ docx को txt के रूप में सहेजें – C# में लाइन ब्रेक और स्पेस को संरक्षित रखें](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [LaTeX निर्यात कैसे करें: DOCX को Markdown और TXT में परिवर्तित करें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -235,7 +235,6 @@ Siéntete libre de experimentar: cambia `LATEX` por `MathML`, ajusta la codifica
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cómo exportar LaTeX: Convertir DOCX a Markdown y TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Guardar documento como TXT – Guía completa de C# para convertir DOCX a texto plano](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

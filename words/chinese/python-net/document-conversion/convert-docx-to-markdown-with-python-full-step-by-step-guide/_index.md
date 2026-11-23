@@ -259,7 +259,6 @@ preview(txt_path)
 
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学公式为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [如何从 Word 导出 LaTeX：将 DOCX 转换为 Markdown 并保存为 PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [如何导出 LaTeX：将 DOCX 转换为 Markdown 与 TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

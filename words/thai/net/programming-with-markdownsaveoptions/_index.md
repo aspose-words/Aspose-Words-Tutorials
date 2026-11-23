@@ -84,7 +84,6 @@
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็มสำหรับการสกัดรูปภาพและแปลง DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการสกัดรูปภาพและแปลงเป็น DOCX อย่างละเอียด
 
-### [วิธีส่งออก LaTeX: แปลง DOCX เป็น Markdown และ TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
 ### [วิธีเปลี่ยนชื่อรูปภาพเมื่อแปลง DOCX เป็น Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 เรียนรู้วิธีตั้งชื่อรูปภาพใหม่ระหว่างการแปลงไฟล์ DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET

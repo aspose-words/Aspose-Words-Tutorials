@@ -220,7 +220,6 @@ Các hướng dẫn sau đây liên quan chặt chẽ và mở rộng các kỹ 
 
 - [Lưu docx dưới dạng txt – Xuất Word Math sang LaTeX với C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Lưu Document dưới dạng TXT – Hướng dẫn C# đầy đủ để Chuyển DOCX sang Văn bản Thuần](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Cách Xuất LaTeX: Chuyển DOCX sang Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

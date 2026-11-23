@@ -238,7 +238,6 @@ print(f"Document contains {paragraphs} paragraphs.")
 
 - [Μετατροπή αρχείου Docx σε Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Κατάκτηση Aspose.Words for Python: Μορφοποίηση Πινάκων και Λιστών Markdown](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [Πώς να εξάγετε LaTeX: Μετατροπή DOCX σε Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

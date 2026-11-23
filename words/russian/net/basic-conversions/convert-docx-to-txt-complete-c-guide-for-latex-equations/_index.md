@@ -219,7 +219,6 @@ public class DocxToTxtConverter
 
 - [Сохранить docx как txt — экспортировать Word Math в LaTeX с C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Сохранить документ как TXT — полное руководство C# по конвертации DOCX в обычный текст](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Как экспортировать LaTeX: конвертировать DOCX в Markdown и TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -220,7 +220,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [DOCX'yi TXT olarak kaydet – Word Matematiğini C# ile LaTeX'e Dışa Aktar](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Belgeyi TXT Olarak Kaydet – DOCX'yi Düz Metne Dönüştürmek için Tam C# Rehberi](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [LaTeX'i Nasıl Dışa Aktarırsınız: DOCX'yi Markdown ve TXT'ye Dönüştürün](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

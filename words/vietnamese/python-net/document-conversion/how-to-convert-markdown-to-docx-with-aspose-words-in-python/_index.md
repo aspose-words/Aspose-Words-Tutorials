@@ -237,7 +237,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [Chuyển đổi tệp Docx sang Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Làm chủ Aspose.Words cho Python: Định dạng bảng và danh sách Markdown](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [Cách xuất LaTeX: Chuyển DOCX sang Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

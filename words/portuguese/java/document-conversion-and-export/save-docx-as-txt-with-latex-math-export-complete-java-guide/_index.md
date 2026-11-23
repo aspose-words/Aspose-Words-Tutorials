@@ -233,7 +233,6 @@ Tem mais perguntas sobre converter equações Word para LaTeX ou lidar com outro
 Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
 - [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Como Exportar LaTeX: Converter DOCX para Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Salvar Documento como TXT – Guia Completo em C# para Converter DOCX em Texto Simples](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

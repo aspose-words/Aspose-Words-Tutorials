@@ -90,7 +90,6 @@ Kompletny przewodnik krok po kroku, jak konwertować dokumenty Word do formatu M
 ### [Jak zapisać Markdown z Worda – Kompletny przewodnik](./how-to-save-markdown-from-word-complete-guide/)
 Kompletny przewodnik pokazujący, jak zapisać dokument Word w formacie Markdown.
 
-### [Jak wyeksportować LaTeX: konwertuj DOCX do Markdown i TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 Dowiedz się, jak wyeksportować równania LaTeX, konwertując pliki DOCX na formaty Markdown oraz TXT przy użyciu Aspose.Words dla .NET.
 
 ### [Jak zmienić nazwy obrazów podczas konwertowania DOCX do Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)

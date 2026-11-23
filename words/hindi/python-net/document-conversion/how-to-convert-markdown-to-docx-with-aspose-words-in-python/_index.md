@@ -237,7 +237,6 @@ print(f"Document contains {paragraphs} paragraphs.")
 
 - [Docx फ़ाइल को Markdown में बदलें](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Aspose.Words for Python में महारत: Markdown टेबल्स और लिस्ट्स का फॉर्मेटिंग](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [LaTeX को एक्सपोर्ट कैसे करें: DOCX को Markdown और TXT में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
