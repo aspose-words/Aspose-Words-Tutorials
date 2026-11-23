@@ -184,7 +184,7 @@ Very high‑resolution pictures can bloat the `Resources` folder. You can downsc
 
 ### Preserving Table Formatting
 
-Aspose.Words automatically converts Word tables into Markdown tables. If you need a more “GitHub‑flavored” layout, tweak `markdownOptions.TableStyle` (available in newer Aspose releases).
+Aspose.Words converts Word tables to Markdown tables by default. If you need the tables to be exported as raw HTML instead, set `markdownOptions.ExportAsHtml = MarkdownExportAsHtml.Tables`. You can also adjust the alignment of table content using `markdownOptions.TableContentAlignment`.
 
 ## Pro Tips & Pitfalls
 
