@@ -36,7 +36,7 @@ In this tutorial we’ll also touch on **convert docx to markdown**, **export wo
 
 ## What you’ll need
 
-- **Aspose.Words for .NET** (v23.9 or newer). It’s a commercial library, but you can grab a free 30‑day trial from the Aspose website.  
+- **Aspose.Words for .NET** (latest version). It’s a commercial library, but you can grab a free 30‑day trial from the Aspose website.  
 - A .NET development environment (Visual Studio, Rider, or VS Code with the C# extension).  
 - An input Word document (`input.docx`) that contains at least one picture and a couple of equations.  
 
@@ -76,14 +76,14 @@ MarkdownSaveOptions mdSave = new MarkdownSaveOptions
     ImageResolution = 300,
 
     // Export equations as LaTeX so they render nicely on GitHub, GitLab, or static site generators
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
 
     // Uncomment the line below if you prefer Base64‑embedded images (makes the .md file self‑contained)
     // ExportImagesAsBase64 = true,
 };
 ```
 
-*Why this matters*: `ImageResolution` determines how rasterised pictures are saved. The default (96 DPI) often looks blurry on retina displays. Setting it to **300 DPI** preserves details without blowing up the file size too much. `OfficeMathExportMode.LaTeX` ensures that any Word equation is turned into clean LaTeX code, which most Markdown renderers understand.
+*Why this matters*: `ImageResolution` determines how rasterised pictures are saved. The default (96 DPI) often looks blurry on retina displays. Setting it to **300 DPI** preserves details without blowing up the file size too much. `MarkdownOfficeMathExportMode.Latex` ensures that any Word equation is turned into clean LaTeX code, which most Markdown renderers understand.
 
 ### ## Export word to markdown and verify the output
 
@@ -112,10 +112,10 @@ Equations are often the trickiest part of a Word‑to‑Markdown workflow. Aspos
 
 | Mode | Result | When to use |
 |------|--------|-------------|
-| **LaTeX** (`OfficeMathExportMode.LaTeX`) | Pure LaTeX syntax (`\frac{a}{b}`) | You render Markdown on platforms that support MathJax or KaTeX. |
-| **Image** (`OfficeMathExportMode.Image`) | PNG image embedded like any other picture | The target renderer has no math support (e.g., plain GitHub README). |
+| **LaTeX** (`MarkdownOfficeMathExportMode.Latex`) | Pure LaTeX syntax (`\frac{a}{b}`) | You render Markdown on platforms that support MathJax or KaTeX. |
+| **Text** (`MarkdownOfficeMathExportMode.Text`) | Plain text representation of the equation | The target renderer has no math support (e.g., plain GitHub README). |
 
-If you need **both**—LaTeX for modern viewers *and* a fallback image for older tools—you can run the conversion twice, each time with a different `OfficeMathExportMode`, and then merge the results manually. It’s a bit of extra work, but it guarantees maximum compatibility.
+If you need **both**—LaTeX for modern viewers *and* a fallback plain‑text representation for older tools—you can run the conversion twice, each time with a different `OfficeMathExportMode`, and then merge the results manually. It’s a bit of extra work, but it guarantees maximum compatibility.
 
 ---
 
@@ -174,7 +174,7 @@ class DocxToMarkdown
         MarkdownSaveOptions mdSave = new MarkdownSaveOptions
         {
             ImageResolution = 300,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
             // ExportImagesAsBase64 = true, // uncomment for a single‑file .md
         };
 
