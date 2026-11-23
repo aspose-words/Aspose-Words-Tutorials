@@ -66,7 +66,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien Schritt‑für‑Schritt in Markdown konver
 ### [Wie man Markdown speichert – Vollständige Anleitung mit Bildextraktion](./how-to-save-markdown-full-guide-with-image-extraction/)
 Erfahren Sie, wie Sie Markdown-Dateien speichern und dabei Bilder extrahieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 
-### [DOCX als Markdown exportieren – Vollständige C#‑Anleitung](./export-docx-as-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – komplette C#‑Anleitung.
 
 ### [Wie man Markdown aus Word exportiert – Vollständige C#‑Anleitung](./how-to-export-markdown-from-word-complete-c-guide/)
