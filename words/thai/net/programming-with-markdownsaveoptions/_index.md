@@ -142,7 +142,6 @@
 ### [บันทึก docx เป็น txt – แปลง docx เป็น markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 แปลงไฟล์ docx เป็น txt แล้วแปลงเป็น markdown อย่างง่ายด้วย Aspose.Words สำหรับ .NET
 
-### [วิธีฝังรูปภาพใน Markdown จาก DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
 ### [วิธีตั้งค่าความละเอียดเมื่อแปลง DOCX เป็น Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 เรียนรู้วิธีกำหนดความละเอียดของภาพขณะแปลง DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET

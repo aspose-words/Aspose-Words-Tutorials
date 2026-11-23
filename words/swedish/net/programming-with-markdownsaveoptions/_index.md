@@ -143,7 +143,6 @@ Lär dig hur du använder callback-funktioner i C# för att konvertera DOCX-file
 ### [Spara docx som txt – konvertera docx till markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 Lär dig spara DOCX-filer som TXT och konvertera dem till Markdown med en enkel C#‑guide.
 
-### [Hur man bäddar in bilder i Markdown från DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Lär dig hur du extraherar och bäddar in bilder från DOCX-filer när du konverterar till Markdown med Aspose.Words för .NET.
 
 ### [Hur man ställer in upplösning vid konvertering av DOCX till Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)

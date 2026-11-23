@@ -58,7 +58,6 @@ Pelajari cara mengonversi dokumen Word ke Markdown sambil mengekstrak gambar men
 Pelajari cara mengonversi file DOCX menjadi file TXT dan Markdown secara efisien menggunakan Aspose.Words untuk .NET.
 ### [Cara Menyimpan Word sebagai Markdown – Panduan Lengkap C#](./how-to-save-word-as-markdown-complete-c-guide/)
 Pelajari cara menyimpan dokumen Word langsung ke format Markdown dengan panduan lengkap menggunakan C#.
-### [Cara menyematkan gambar dalam Markdown dari DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Pelajari cara menyematkan gambar dari file DOCX ke dalam dokumen Markdown menggunakan Aspose.Words untuk .NET.
 ### [Cara Mengatur Resolusi Saat Mengonversi DOCX ke Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 ### [Ekspor docx ke markdown dalam C# – Panduan Lengkap](./export-docx-to-markdown-in-c-complete-guide/)

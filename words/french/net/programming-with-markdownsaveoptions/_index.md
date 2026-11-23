@@ -141,7 +141,6 @@ Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet utilis
 
 ### [Enregistrer docx en txt – convertir docx en markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 
-### [Comment intégrer des images dans Markdown depuis DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
 ### [Enregistrer Word en markdown avec images – Guide étape par étape C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 

@@ -171,7 +171,6 @@ Leer hoe u een callback implementeert in C# om DOCX-bestanden naar Markdown te c
 
 Leer hoe u een DOCX-bestand opslaat als TXT en vervolgens converteert naar Markdown met Aspose.Words voor .NET.
 
-### [Hoe afbeeldingen in Markdown in te sluiten vanuit DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
 Leer hoe u afbeeldingen uit een DOCX-document in Markdown kunt embedden met Aspose.Words voor .NET.
 

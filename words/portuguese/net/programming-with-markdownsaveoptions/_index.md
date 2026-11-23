@@ -178,7 +178,6 @@ Aprenda a usar callbacks em C# para converter arquivos DOCX em Markdown com Aspo
 ### [Salvar docx como txt – converter docx para markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 Aprenda a converter arquivos DOCX em arquivos TXT e Markdown usando Aspose.Words para .NET.
 
-### [Como incorporar imagens em Markdown a partir de DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words para .NET.
 
 ### [Como definir resolução ao converter DOCX para Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
