@@ -252,7 +252,6 @@ Erfahren Sie, wie Sie Word-Dokumente mit Formschatten in Markdown exportieren un
 ### [Markdown aus Word erstellen – Vollständige C#‑Anleitung](./create-markdown-from-word-full-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown aus Word‑Dokumenten generieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 

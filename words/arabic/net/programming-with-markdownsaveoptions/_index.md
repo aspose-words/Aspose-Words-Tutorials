@@ -139,7 +139,6 @@
 
 ### [حفظ docx كـ markdown – دليل كامل مع فقرات فارغة](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 
-### [كيفية تصدير الروابط: تحويل DOCX إلى Markdown في C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 
 ### [تحويل DOCX إلى Markdown في C# – دليل كامل](./convert-docx-to-markdown-in-c-complete-guide/)
 ### [كيفية حفظ Markdown من Word – دليل كامل لاستخراج الصور وتحويل DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
