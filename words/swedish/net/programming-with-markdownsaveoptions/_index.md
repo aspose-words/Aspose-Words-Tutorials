@@ -236,7 +236,6 @@ Lär dig spara bilder när du konverterar DOCX till Markdown med Aspose.Words f�
 ### [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Lär dig exportera LaTeX från Word och konvertera DOCX-filer till Markdown med en komplett guide i C#.
 
-### [Hur man exporterar LaTeX från DOCX – Konvertera till Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
 Lär dig exportera LaTeX från DOCX och konvertera till Markdown med en komplett C#‑guide.
 
 ### [Skapa markdown från Word – Fullständig C#‑guide](./create-markdown-from-word-full-c-guide/)
