@@ -181,7 +181,6 @@ LaTeX 블록이 올바르게 렌더링되면 **convert word equations latex** �
 다음 튜토리얼은 이 가이드에서 보여준 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [C#에서 Word를 Markdown으로 변환 – 수식을 LaTeX로 내보내기](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/)
-- [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

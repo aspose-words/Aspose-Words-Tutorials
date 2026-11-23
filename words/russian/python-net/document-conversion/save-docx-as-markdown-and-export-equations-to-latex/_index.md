@@ -244,7 +244,6 @@ if __name__ == "__main__":
 
 - [Сохранить docx как markdown – Полное руководство C# с уравнениями LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Сохранить Word как Markdown с Aspose.Words – Полное руководство по конвертации DOCX и извлечению изображений](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Как экспортировать LaTeX из Word – Конвертировать DOCX в Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

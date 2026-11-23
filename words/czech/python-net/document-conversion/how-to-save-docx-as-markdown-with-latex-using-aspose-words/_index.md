@@ -235,7 +235,6 @@ Neváhejte experimentovat s různými hodnotami `OfficeMathExportMode`, upravova
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, která vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy ve vašich projektech.
 
 - [Jak uložit Markdown z Wordu – kompletní průvodce v Pythonu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Jak exportovat LaTeX z Wordu – převod DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Převod DOCX na Markdown – kompletní průvodce s použitím Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

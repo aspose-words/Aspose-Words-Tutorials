@@ -106,7 +106,6 @@ Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und beim Konvertieren nach Mar
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als Markdown mit LaTeX‑Syntax speichern.
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit Bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.

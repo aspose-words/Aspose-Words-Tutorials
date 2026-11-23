@@ -236,7 +236,6 @@ Silakan bereksperimen dengan nilai `OfficeMathExportMode` yang berbeda, sesuaika
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode kerja lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
 - [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Konversi DOCX ke Markdown – Panduan Lengkap Menggunakan Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

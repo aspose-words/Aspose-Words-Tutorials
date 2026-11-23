@@ -44,7 +44,6 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba teljes C# útmutató
 ### [Hogyan használjuk az Aspose – DOCX konvertálása Markdownba LaTeX egyenletekkel](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 ### [Word konvertálása Markdownba – Képek kinyerése C#-ban](./convert-word-to-markdown-extract-images-in-c/)
 ### [LaTeX exportálása Word‑ből – DOCX konvertálása Markdownba és TXT‑be](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
-### [Hogyan exportáljunk LaTeX‑et Word‑ből – DOCX konvertálása Markdownba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 ### [Hogyan exportáljunk LaTeX‑et DOCX‑ből – Konvertálás Markdownba](./how-to-export-latex-from-docx-convert-to-markdown/)
 Ismerje meg, hogyan exportálhat LaTeX‑et DOCX fájlokból és konvertálhatja őket Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba LaTeX egyenletekkel – C# útmutató](./save-docx-as-markdown-with-latex-equations-c-guide/)

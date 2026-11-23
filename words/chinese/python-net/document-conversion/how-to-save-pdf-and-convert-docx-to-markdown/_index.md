@@ -183,7 +183,6 @@ print(f"PDF size: {os.path.getsize(pdf_path)} bytes")
 以下教程涵盖与本指南技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方法。
 
 - [如何使用 Aspose.Words for Java 将 Word 转换为 PDF](/words/english/java/document-converting/using-document-converting/)
-- [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

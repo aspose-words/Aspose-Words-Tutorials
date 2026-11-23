@@ -185,7 +185,6 @@ Ensuite, explorez des sujets connexes tels que **batch processing multiple DOCX 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
 - [Comment convertir Word en PDF avec Aspose.Words pour Java](/words/english/java/document-converting/using-document-converting/)
-- [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

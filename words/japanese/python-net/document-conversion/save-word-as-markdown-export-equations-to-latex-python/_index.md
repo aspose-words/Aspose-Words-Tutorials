@@ -173,7 +173,6 @@ for filename in os.listdir(source_dir):
 
 - [Word から Markdown を保存する方法 – 完全な Python ガイド](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [docx を markdown として保存 – LaTeX 数式付き 完全な C# ガイド](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Word から LaTeX をエクスポートする方法 – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

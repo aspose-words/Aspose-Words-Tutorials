@@ -177,7 +177,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Hur man sparar Markdown från Word – Komplett Python‑guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Spara docx som markdown – Komplett C#‑guide med LaTeX‑ekvationer](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

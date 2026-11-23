@@ -249,7 +249,6 @@ public class BatchMarkdownConverter {
 
 - [將 Docx 檔案轉換為 Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [如何從 Word 匯出 LaTeX – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

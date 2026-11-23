@@ -177,7 +177,6 @@ I tutorial seguenti coprono argomenti strettamente correlati che si basano sulle
 
 - [Come salvare Markdown da Word – Guida completa Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Salva docx come markdown – Guida completa C# con equazioni LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Come esportare LaTeX da Word – Converti DOCX in Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

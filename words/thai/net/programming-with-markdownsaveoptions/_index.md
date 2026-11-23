@@ -216,7 +216,6 @@
 
 ### [วิธีบันทึกรูปภาพ – แปลง DOCX เป็น Markdown ด้วย Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ DOCX และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
-### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 เรียนรู้วิธีส่งออกสูตร LaTeX จากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 ### [วิธีส่งออก LaTeX จาก DOCX – แปลงเป็น Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)

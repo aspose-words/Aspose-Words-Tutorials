@@ -158,7 +158,6 @@
 ### [تحويل docx إلى markdown وحفظ الصور من docx](./convert-docx-to-markdown-save-images-from-docx/)
 
 ### [استعادة مستند Word باستخدام Aspose.Words – دليل كامل](./recover-word-document-with-aspose-words-full-guide/)
-### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 ### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-full-c-guide/)
 

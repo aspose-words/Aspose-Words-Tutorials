@@ -174,7 +174,6 @@ for filename in os.listdir(source_dir):
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ Python ฉบับสมบูรณ์](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [บันทึก docx เป็น markdown – คู่มือ C# ฉบับสมบูรณ์พร้อมสมการ LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

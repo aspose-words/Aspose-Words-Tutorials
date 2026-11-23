@@ -236,7 +236,6 @@ Teraz wiesz, jak **zapisać docx jako markdown** z równaniami LaTeX przy użyci
 Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu oraz wyczerpujące wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i poznać alternatywne podejścia w własnych projektach.
 
 - [How to Save Markdown from Word – Complete Python Guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [How to Export LaTeX from Word – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

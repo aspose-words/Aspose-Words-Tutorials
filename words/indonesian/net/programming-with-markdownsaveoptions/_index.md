@@ -63,7 +63,6 @@ Pelajari cara menyematkan gambar dari file DOCX ke dalam dokumen Markdown menggu
 ### [Cara Mengatur Resolusi Saat Mengonversi DOCX ke Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 ### [Ekspor docx ke markdown dalam C# – Panduan Lengkap](./export-docx-to-markdown-in-c-complete-guide/)
 Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan lengkap menggunakan C# dan Aspose.Words.
-### [Cara Mengekspor LaTeX dari Word – Konversi DOCX ke Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke format Markdown menggunakan Aspose.Words untuk .NET.
 ### [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke Markdown menggunakan Aspose.Words untuk .NET.

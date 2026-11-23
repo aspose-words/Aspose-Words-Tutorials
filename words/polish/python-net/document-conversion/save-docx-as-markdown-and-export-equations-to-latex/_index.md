@@ -244,7 +244,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Zapisz Word jako Markdown z Aspose.Words – Kompletny przewodnik konwersji DOCX i wyodrębniania obrazów](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Jak wyeksportować LaTeX z Word – Konwersja DOCX do Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

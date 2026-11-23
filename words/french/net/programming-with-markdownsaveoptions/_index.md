@@ -230,7 +230,6 @@ Apprenez à convertir des fichiers DOCX en Markdown en C# grâce à un guide com
 ### [Récupérer un document Word avec Aspose.Words – Guide complet](./recover-word-document-with-aspose-words-full-guide/)
 
 Apprenez à récupérer un document Word corrompu et à le restaurer en utilisant Aspose.Words avec un guide complet en C#.
-### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 ### [Comment exporter LaTeX depuis DOCX – Convertir en Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
 
