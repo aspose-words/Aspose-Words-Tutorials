@@ -236,7 +236,6 @@ Apprenez à récupérer un document Word corrompu et à le restaurer en utilisan
 ### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 ### [Comment exporter LaTeX depuis DOCX – Convertir en Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
-### [Exporter Word en Markdown avec ombres de formes et PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 Apprenez à exporter des documents Word en Markdown tout en conservant les ombres de formes et à générer des PDF/UA conformes.
 ### [Supprimer les paragraphes vides – Convertir Word en Markdown en C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
