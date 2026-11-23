@@ -153,16 +153,7 @@ ResourceType.Unknown   => ".bin"
 
 ### 5.3 Large Documents
 
-For DOCX files with dozens of high‑resolution pictures, you might want to **downscale** before writing to disk. Insert a pre‑save step:
-
-```csharp
-if (args.ResourceType == ResourceType.Image)
-{
-    using var img = Image.Load(args.ResourceData);
-    img.Resize(800, 0, ResizeMode.Max); // keep aspect ratio
-    args.ResourceData = img.SaveToBytes(ImageSaveFormat.Png);
-}
-```
+For DOCX files with dozens of high‑resolution pictures, you might want to **downscale** before writing to disk. Since Aspose.Words does not provide direct image manipulation, you can handle resizing with a separate imaging library if needed.
 
 ### 5.4 Exporting Images as PNG vs. Original Format
 
