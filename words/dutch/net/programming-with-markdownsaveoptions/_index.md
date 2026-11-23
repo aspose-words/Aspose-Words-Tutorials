@@ -209,7 +209,6 @@ Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑vo
 ### [Word opslaan als Markdown – Complete gids om DOCX te converteren en afbeeldingen te extraheren](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Leer hoe u Word-documenten opslaat als Markdown, DOCX converteert en afbeeldingen extraheert met een volledige C#‑handleiding.
 
-### [Hoe vergelijkingen van Word naar Markdown converteren – Complete C#-gids](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 
 Leer hoe u wiskundige vergelijkingen uit Word-documenten converteert naar Markdown met een volledige C#‑handleiding.
 

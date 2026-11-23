@@ -171,7 +171,6 @@
 ### [将 Word 保存为 Markdown – 完整 C# 指南（使用 Aspose.Words）](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。
-### [如何将 Word 中的公式转换为 Markdown – 完整 C# 指南](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 
 使用 Aspose.Words for .NET 将 Word 中的公式转换为 Markdown，提供完整的 C# 示例和分步指南。
 

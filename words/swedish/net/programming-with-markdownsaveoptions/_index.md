@@ -190,7 +190,6 @@ Lär dig spara Word-dokument som Markdown med en komplett C#-guide som använder
 ### [Spara Word som Markdown – Fullständig guide för att konvertera DOCX och extrahera bilder](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Lär dig spara DOCX som Markdown och extrahera bilder med en komplett C#‑guide.
 
-### [Hur man konverterar ekvationer från Word till Markdown – Fullständig C#-guide](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 Lär dig konvertera ekvationer från Word-dokument till Markdown med en komplett C#‑guide.
 
 Lär dig konvertera DOCX till Markdown och bevara radbrytningar för exakt textformat.
