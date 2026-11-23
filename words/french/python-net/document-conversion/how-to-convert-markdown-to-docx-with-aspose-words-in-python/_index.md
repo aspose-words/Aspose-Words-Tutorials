@@ -238,7 +238,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Convertir un fichier Docx en Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Maîtriser Aspose.Words pour Python : formatage des tableaux et listes Markdown](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [Comment exporter LaTeX : convertir DOCX en Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

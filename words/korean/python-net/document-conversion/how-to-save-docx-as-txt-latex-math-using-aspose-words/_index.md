@@ -177,7 +177,6 @@ LaTeX 블록이 예시와 정확히 일치하면 변환이 성공한 것입니�
 
 - [Save docx as txt – C#로 Word 수식을 LaTeX로 내보내기](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Aspose.Words TxtSaveOptions로 docx를 txt로 저장 – C#에서 줄 바꿈 및 공백 보존](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [LaTeX 내보내기 방법: DOCX를 Markdown 및 TXT로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -103,7 +103,6 @@ Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en ko
 ### [Hur man sparar Markdown från Word – Komplett guide](./how-to-save-markdown-from-word-complete-guide/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett guide.
 
-### [Hur man exporterar LaTeX från Word: Konvertera DOCX till Markdown och TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 Lär dig exportera LaTeX från DOCX och spara som både Markdown och TXT med Aspose.Words för .NET.
 
 ### [Hur man byter namn på bilder när man konverterar DOCX till Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)

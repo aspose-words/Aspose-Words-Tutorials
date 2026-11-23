@@ -209,7 +209,6 @@ Máte složitý dokument nebo otázku ohledně licencování? Zanechte komentá�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další API funkce a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Uložit docx jako txt – Exportovat Word Math do LaTeXu s C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Jak exportovat LaTeX: Převést DOCX na Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Uložit docx jako markdown – Kompletní C# průvodce s LaTeX rovnicemi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -235,7 +235,6 @@ print(f"Document contains {paragraphs} paragraphs.")
 
 - [将 Docx 文件转换为 Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [精通 Aspose.Words for Python：格式化 Markdown 表格和列表](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [如何导出 LaTeX：将 DOCX 转换为 Markdown 与 TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

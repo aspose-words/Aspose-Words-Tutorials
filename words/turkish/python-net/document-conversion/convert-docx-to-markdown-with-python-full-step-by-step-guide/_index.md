@@ -261,7 +261,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından
 
 - [Convert docx to markdown – Math Denklemlerini LaTeX Olarak Dışa Aktar Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Markdown'a Dönüştür & PDF Olarak Kaydet](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [LaTeX Nasıl Dışa Aktarılır: DOCX'i Markdown & TXT'ye Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
