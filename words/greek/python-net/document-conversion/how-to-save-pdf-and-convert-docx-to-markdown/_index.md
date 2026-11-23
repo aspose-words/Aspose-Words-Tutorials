@@ -186,7 +186,6 @@ print(f"PDF size: {os.path.getsize(pdf_path)} bytes")
 Τα παρακάτω σεμινάρια καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κυριαρχήσετε σε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να μετατρέψετε Word σε PDF χρησιμοποιώντας Aspose.Words για Java](/words/english/java/document-converting/using-document-converting/)
-- [Πώς να εξάγετε LaTeX από Word – Μετατροπή DOCX σε Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -245,7 +245,6 @@ Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yak�
 
 - [docx dosyasını markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Aspose.Words ile Word'ü Markdown olarak kaydet – DOCX'i Dönüştürme ve Görselleri Çıkarma Tam Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır – DOCX'i Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

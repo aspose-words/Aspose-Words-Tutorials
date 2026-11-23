@@ -234,7 +234,6 @@ python convert_to_markdown.py
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอน‑ขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโปรเจกต์ของคุณเอง
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ Python ฉบับสมบูรณ์](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [วิธี Export LaTeX จาก Word – แปลง DOCX เป็น Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [แปลง DOCX เป็น Markdown – คู่มือเต็มด้วย Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

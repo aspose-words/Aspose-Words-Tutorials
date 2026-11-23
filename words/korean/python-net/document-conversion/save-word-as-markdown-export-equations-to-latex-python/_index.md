@@ -174,7 +174,6 @@ for filename in os.listdir(source_dir):
 
 - [Word에서 Markdown 저장하기 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -185,7 +185,6 @@ Vervolgens kun je gerelateerde onderwerpen verkennen zoals **batch‑verwerking 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe Word naar PDF te converteren met Aspose.Words voor Java](/words/english/java/document-converting/using-document-converting/)
-- [Hoe LaTeX uit Word te exporteren – DOCX naar Markdown converteren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

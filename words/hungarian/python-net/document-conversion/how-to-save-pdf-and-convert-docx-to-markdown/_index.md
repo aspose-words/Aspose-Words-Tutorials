@@ -186,7 +186,6 @@ Ezután fedezze fel a kapcsolódó témákat, például a **tömeges DOCX fájlo
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Hogyan konvertáljunk Word-et PDF-re Aspose.Words for Java használatával](/words/english/java/document-converting/using-document-converting/)
-- [Hogyan exportáljunk LaTeX-et Word-ből – DOCX konvertálása Markdownra](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

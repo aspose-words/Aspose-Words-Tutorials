@@ -245,7 +245,6 @@ A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek 
 
 - [Mentse a docx-et markdown formátumba – Teljes C# útmutató LaTeX egyenletekkel](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Word mentése markdown formátumba az Aspose.Words segítségével – Teljes útmutató a DOCX konvertálásához és képek kinyeréséhez](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Hogyan exportáljunk LaTeX-et Word‑ből – DOCX konvertálása markdownba](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

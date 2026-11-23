@@ -244,7 +244,6 @@ if __name__ == "__main__":
 
 - [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Aspose.Words를 사용한 Word를 Markdown으로 저장 – DOCX 변환 및 이미지 추출 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환하는 방법](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
