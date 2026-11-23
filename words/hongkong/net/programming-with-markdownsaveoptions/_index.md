@@ -86,7 +86,6 @@
 | [將 docx 儲存為 markdown – 完整指南（含空段落）](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，並保留空段落的處理方式。 |
 | [如何匯出連結：在 C# 中將 DOCX 轉換為 Markdown](./how-to-export-links-convert-docx-to-markdown-in-c/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 文件匯出為 Markdown，並處理文件內的連結。 |
 | [將 DOCX 轉換為 Markdown – 完整 C# 指南](./convert-docx-to-markdown-in-c-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 文件完整轉換為 Markdown，提供詳細步驟與範例程式碼。 |
-| [如何在 C# 中將 Word 轉換為 Markdown – 完整指南](./how-to-convert-word-to-markdown-in-c-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件完整轉換為 Markdown，提供詳細步驟與範例程式碼。 |
 | [如何從 Word 儲存 Markdown – 完整指南：提取圖像並轉換 DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) |示範如何使用 Aspose.Words for .NET 從 Word 儲存為 Markdown，同時提取圖像並轉換 DOCX。 |
 | [Markdown 圖像相對路徑 – 將 Word 轉換為 Markdown](./markdown-image-relative-path-convert-word-to-markdown/) |示範如何在將 Word 轉換為 Markdown 時，使用相對路徑引用圖像。 |
 | [如何儲存圖像 – 使用 Aspose.Words 將 DOCX 轉換為 Markdown](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) |示範如何使用 Aspose.Words for .NET 從 DOCX 文件中提取圖像並將其儲存於 Markdown 中。 |
