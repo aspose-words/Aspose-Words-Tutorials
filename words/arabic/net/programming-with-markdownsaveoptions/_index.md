@@ -182,7 +182,6 @@
 ### [حفظ Word كـ Markdown – دليل C# كامل لتصدير صور Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 ### [حفظ صور Word أثناء التحويل إلى Markdown – دليل C# كامل](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
-### [تحويل Word إلى Markdown – دليل كامل مع تصدير PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 
 ### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 ### [حفظ المستند كـ markdown باستخدام C# – دليل كامل](./save-document-as-markdown-with-c-full-guide/)
