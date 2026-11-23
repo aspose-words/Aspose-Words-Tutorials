@@ -274,7 +274,6 @@ Lär dig spara bilder från Word när du konverterar till Markdown med en komple
 ### [Konvertera DOCX till Markdown – Extrahera bilder från DOCX med Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 Lär dig hur du extraherar bilder från DOCX när du konverterar till Markdown med Aspose.Words för .NET.
 
-### [Konvertera Word till Markdown – Fullständig guide med PDF/UA-export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 
 ### [Spara Word som Markdown med anpassad bildmapp – Fullständig guide](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 Lär dig spara Word som Markdown med en anpassad bildmapp i en komplett guide.

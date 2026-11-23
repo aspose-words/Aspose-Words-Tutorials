@@ -282,7 +282,6 @@ Leer hoe u lege alinea's uit Word-documenten verwijdert tijdens de conversie naa
 
 Leer hoe u afbeeldingen uit een DOCX haalt en het document naar Markdown converteert met Aspose.Words.
 
-### [Word naar Markdown converteren – Volledige gids met PDF/UA-export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 
 Leer hoe u Word-documenten naar Markdown converteert en tegelijkertijd PDF/UA exporteert met een uitgebreide C#‑handleiding.
 

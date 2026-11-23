@@ -245,7 +245,6 @@
 
 ### [แปลง DOCX เป็น Markdown – สกัดรูปภาพจาก DOCX ด้วย Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 
-### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการส่งออก PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 แปลงไฟล์ Word เป็น Markdown พร้อมการส่งออก PDF/UA อย่างละเอียด
 
 ### [บันทึก Word เป็น Markdown พร้อมโฟลเดอร์รูปภาพแบบกำหนดเอง – คู่มือเต็ม](./save-word-as-markdown-with-custom-image-folder-full-guide/)
