@@ -199,7 +199,6 @@ Pelajari cara mengekspor gambar dari dokumen Word ke format Markdown dengan pand
 Pelajari cara menyimpan semua gambar dari dokumen Word saat mengonversinya ke format Markdown menggunakan Aspose.Words untuk .NET dalam panduan lengkap C#.
 ### [Konversi DOCX ke Markdown – Ekstrak Gambar dari DOCX dengan Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 Pelajari cara mengonversi file DOCX ke Markdown sambil mengekstrak semua gambar menggunakan Aspose.Words.
-### [Konversi Word ke Markdown – Panduan Lengkap dengan Ekspor PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 Pelajari cara mengonversi dokumen Word ke Markdown lengkap dengan mengekspor PDF/UA menggunakan Aspose.Words untuk .NET.
 ### [Simpan Word sebagai Markdown dengan Folder Gambar Kustom – Panduan Lengkap](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 Pelajari cara menyimpan dokumen Word sebagai Markdown dengan mengatur folder gambar khusus menggunakan Aspose.Words untuk .NET.

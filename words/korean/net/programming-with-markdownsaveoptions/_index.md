@@ -110,7 +110,6 @@
 | [Aspose를 사용하여 DOCX를 수학 내보내기와 함께 Markdown으로 변환하는 방법](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Aspose.Words for .NET을 활용해 DOCX 파일의 수학 수식까지 포함하여 Markdown으로 변환하는 단계별 가이드 |
 | [Word를 Markdown으로 저장 – 이미지 내보내기를 위한 전체 C# 가이드](./save-word-as-markdown-complete-c-guide-to-export-word-images/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하면서 이미지 내보내는 방법을 단계별로 안내합니다. |
 | [docx를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 변환하면서 이미지 추출하는 방법을 단계별로 안내합니다. |
-| [Word를 Markdown으로 변환 – PDF/UA 내보내기 전체 가이드](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 PDF/UA 형식으로 내보내는 전체 단계별 가이드 |
 | [C#를 사용한 문서 Markdown 저장 – 전체 가이드](./save-document-as-markdown-with-c-full-guide/) | Aspose.Words for .NET을 사용하여 C#에서 문서를 Markdown 형식으로 저장하는 전체 단계별 가이드 |
 | [docx를 markdown으로 내보내기 – 전체 C# 가이드](./export-docx-as-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown 형식으로 내보내는 전체 C# 단계별 가이드 |
 | [docx를 markdown으로 저장 – Aspose.Words로 Word 수학을 LaTeX로 내보내기](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Aspose.Words for .NET을 사용해 docx를 markdown으로 저장하면서 Word 수학을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
