@@ -267,7 +267,6 @@
 
 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，提供完整的 C# 示例和详细的步骤指南。
 
-### [导出 Word 为 Markdown（含形状阴影和 PDF/UA）](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，保留形状阴影并生成符合 PDF/UA 标准的 PDF。
 ### [从 Word 创建 Markdown 文件 – 导出公式完整指南](./create-markdown-file-from-word-full-guide-to-export-equation/)
