@@ -239,7 +239,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Převést soubor Docx na Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Mistrovství v Aspose.Words pro Python: Formátování tabulek a seznamů v Markdownu](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [Jak exportovat LaTeX: Převést DOCX na Markdown a TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

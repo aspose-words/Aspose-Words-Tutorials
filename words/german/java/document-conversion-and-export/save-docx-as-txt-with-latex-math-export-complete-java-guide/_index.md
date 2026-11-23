@@ -233,7 +233,6 @@ Haben Sie weitere Fragen zum Konvertieren von Word‑Gleichungen in LaTeX oder z
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [DOCX zu Markdown konvertieren – Math‑Gleichungen mit Aspose.Words nach LaTeX exportieren](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Wie man LaTeX exportiert: DOCX zu Markdown & TXT konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Dokument als TXT speichern – Vollständiger C#‑Leitfaden zum Konvertieren von DOCX in Klartext](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

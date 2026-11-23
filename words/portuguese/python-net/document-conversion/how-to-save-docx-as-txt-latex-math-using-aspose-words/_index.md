@@ -180,7 +180,6 @@ Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam na
 
 - [Salvar docx como txt – Exportar matemática do Word para LaTeX com C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Salvar docx como txt com Aspose.Words TxtSaveOptions – Preservar quebras de linha e espaços em C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [Como Exportar LaTeX: Converter DOCX para Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

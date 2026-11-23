@@ -261,7 +261,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [DOCX in Markdown konvertieren – Mathe‑Gleichungen nach LaTeX exportieren mit Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Wie man LaTeX aus Word exportiert: DOCX in Markdown konvertieren & als PDF speichern](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [Wie man LaTeX exportiert: DOCX in Markdown & TXT konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

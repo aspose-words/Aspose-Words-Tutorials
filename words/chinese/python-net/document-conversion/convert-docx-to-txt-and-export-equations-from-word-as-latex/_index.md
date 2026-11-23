@@ -222,7 +222,6 @@ for filename in os.listdir(input_dir):
 以下教程涵盖与本指南技术紧密相关的主题，构建在本教程演示的技巧之上。每个资源都包含完整可运行的代码示例和逐步解释，帮助你掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
 - [将文档保存为 Txt – 在 C# 中导出 Word Math 为 LaTeX](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [如何导出 LaTeX：将 DOCX 转换为 Markdown 与 TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [如何从 Word 导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -178,7 +178,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Lưu docx thành txt – Xuất công thức Word sang LaTeX với C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Lưu docx thành txt với Aspose.Words TxtSaveOptions – Bảo tồn ngắt dòng & khoảng trắng trong C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
-- [Cách xuất LaTeX: Chuyển đổi DOCX sang Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

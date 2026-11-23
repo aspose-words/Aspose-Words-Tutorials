@@ -228,7 +228,6 @@ Aspose.Words 会对输出进行流式处理，内存消耗保持在合理范围�
 以下教程涵盖与本指南技术密切相关的主题，帮助你在此基础上进一步学习。每个资源都包含完整的可运行代码示例和逐步说明，帮助你掌握更多 API 功能并在项目中探索替代实现方式。
 
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学公式为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [如何导出 LaTeX：将 DOCX 转换为 Markdown 与 TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [将文档保存为 TXT – 完整 C# 指南：将 DOCX 转换为纯文本](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

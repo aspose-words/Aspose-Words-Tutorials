@@ -135,7 +135,6 @@ Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanu
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen embed als Base64‑strings met Aspose.Words voor .NET.
 
-### [Hoe LaTeX te exporteren: DOCX naar Markdown & TXT converteren](./how-to-export-latex-convert-docx-to-markdown-txt/)
 Leer hoe u LaTeX exporteert door DOCX-bestanden om te zetten naar Markdown en TXT met Aspose.Words voor .NET.
 
 ### [Hoe afbeeldingen hernoemen bij het converteren van DOCX naar Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)

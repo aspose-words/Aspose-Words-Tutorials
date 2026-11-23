@@ -55,7 +55,6 @@
 
 ### [حفظ Word كـ Markdown – دليل كامل لتحويل DOCX واستخراج الصور](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
-### [كيفية تصدير LaTeX: تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
 ### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 
