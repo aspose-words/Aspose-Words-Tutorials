@@ -112,6 +112,8 @@ Dowiedz się, jak wczytać plik Markdown w Javie przy użyciu Aspose.Words, krok
 ### [Jak załadować dokument Markdown w Javie z niestandardowymi opcjami importu](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 Dowiedz się, jak wczytać dokument Markdown w Javie, używając własnych opcji importu w Aspose.Words.
 
+### [Jak wczytać markdown z formatowaniem w Javie](./how-to-load-markdown-with-formatting-in-java/)
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)

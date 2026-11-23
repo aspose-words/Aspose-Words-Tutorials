@@ -136,6 +136,7 @@ Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù h
 ### [Cách đọc tệp markdown bằng Java với Aspose.Words](./how-to-read-markdown-file-java-with-aspose-words/)
 ### [Cách chỉ định mã hoá khi tải tài liệu bằng Aspose.Words cho Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 ### [Cách tải tài liệu markdown trong Java với các tùy chọn nhập tùy chỉnh](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+### [Cách tải markdown với định dạng trong Java](./how-to-load-markdown-with-formatting-in-java/)
 
 ## Câu Hỏi Thường Gặp
 

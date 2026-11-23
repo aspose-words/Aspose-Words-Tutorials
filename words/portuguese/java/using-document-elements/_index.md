@@ -140,6 +140,12 @@ Aprenda a inserir um gráfico de pizza em documentos Word usando Java e Aspose.W
 ### [Como adicionar um gráfico de pizza a um documento Word usando Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Aprenda a inserir um gráfico de pizza em documentos Word usando Aspose.Words para Java, passo a passo.
 
+### [Definir texto de placeholder em um controle de conteúdo Word com C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+Definir texto de placeholder em um controle de conteúdo Word usando C# com Aspose.Words.
+
+### [Como criar botão macro em um documento Word com Aspose.Words para Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Aprenda a criar um botão macro em documentos Word usando Aspose.Words para Java, passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

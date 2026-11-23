@@ -188,6 +188,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Java でカスタムインポートオプションを使用して Markdown ドキュメントをロードする方法](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 
+### [Java で書式付き Markdown をロードする方法](./how-to-load-markdown-with-formatting-in-java/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

@@ -138,7 +138,11 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Diagramme in Word-Dokumenten er
 ### [Einfügen von Kreisdiagrammen in Word mit Java – vollständige Anleitung](./insert-pie-chart-word-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen.
 ### [Festlegen der Schaltflächenposition in Aspose.Words für Java](./how-to-set-button-position-in-a-word-document-with-java/)
-Erfahren Sie, wie Sie die Position einer Schaltfläche in einem Word-Dokument mit Aspose.Words für Java festlegen.
+
+### [Wie man eine Makro-Schaltfläche in einem Word-Dokument mit Aspose.Words für Java erstellt](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java eine Makro‑Schaltfläche in ein Word‑Dokument einfügen und konfigurieren.
+
+### [Platzhaltertext in einem Word-Inhaltssteuerelement mit C# festlegen](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

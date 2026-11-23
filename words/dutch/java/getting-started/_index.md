@@ -34,6 +34,9 @@ Leer hoe u de Java-licentie voor Aspose.Words instelt met behulp van bestands- e
 ### [Hoe u Aspose.Words-versie-informatie in Java kunt weergeven: een uitgebreide handleiding](./aspose-words-java-version-info/)
 Leer hoe u de versiegegevens van Aspose.Words voor Java kunt ophalen en weergeven. Zorg voor compatibiliteit, logging en onderhoud met deze stapsgewijze handleiding.
 
+### [Maak een cirkeldiagram met aangepaste grootte, gegevenslabels en rotatie in Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt met aangepaste afmetingen, labels en rotatie.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

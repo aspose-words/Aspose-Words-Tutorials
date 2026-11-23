@@ -60,6 +60,8 @@ Learn how to create a radial chart in a Word document using Aspose.Words for Jav
 
 ### [How to create ActiveX command button in Java](./how-to-create-activex-command-button-in-java/)
 Learn how to add an ActiveX command button in Aspose.Words for Java documents with step-by-step guidance.
+### [How to create macro button in a Word document with Aspose.Words for Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Learn how to add a macro button to a Word document using Aspose.Words for Java in this step‑by‑step tutorial.
 ### [Create a blank Word document and add an ActiveX button (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
 Learn how to create a blank Word document and insert an ActiveX button using Aspose.Words for Java.
 ### [How to add ActiveX and insert a pie chart in a Word doc](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
@@ -120,6 +122,8 @@ Learn how to generate pie charts in Word documents using Aspose.Words for Java i
 Learn how to get a separator in Word documents using Aspose.Words for Java. Follow the step-by-step tutorial.
 ### [How to add SDT in C# – complete guide for Word placeholders](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Learn how to add Structured Document Tags (SDT) in C# for Word placeholders with a complete step-by-step guide.
+### [Set placeholder text in a Word content control with C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+Learn how to set placeholder text in a Word content control using Aspose.Words for C# in this step‑by‑step guide.
 ### [How to add leader lines to pie chart in Java with the Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Learn how to add leader lines to pie charts using Aspose.Words for Java Chart API.
 ### [How to insert command button in a Word document using Java](./how-to-insert-command-button-in-a-word-document-using-java/)

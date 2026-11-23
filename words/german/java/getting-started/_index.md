@@ -34,6 +34,9 @@ Erfahren Sie, wie Sie die Aspose.Words Java-Lizenz mit Datei- und Stream-Methode
 ### [So zeigen Sie Aspose.Words-Versionsinformationen in Java an: Eine umfassende Anleitung](./aspose-words-java-version-info/)
 Erfahren Sie, wie Sie die Versionsinformationen von Aspose.Words für Java abrufen und anzeigen. Diese Schritt-für-Schritt-Anleitung stellt Kompatibilität, Protokollierung und Wartung sicher.
 
+### [Erstellen Sie ein Kreisdiagramm mit benutzerdefinierter Größe, Datenbeschriftungen und Drehung in Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Erfahren Sie, wie Sie ein Kreisdiagramm mit benutzerdefinierter Größe, Datenbeschriftungen und Drehung in Java erstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

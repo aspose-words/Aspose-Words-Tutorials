@@ -191,3 +191,7 @@ Pelajari cara menyisipkan gambar tersembunyi ke dalam dokumen Word menggunakan A
 {{< blocks/products/products-backtop-button >}}
 
 ### [Buat Dokumen Word kosong dan tambahkan Bentuk Persegi Panjang](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+
+### [Tambahkan bentuk persegi panjang dan kelompokkan bentuk di Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Cara menambahkan bentuk ke dokumen Word dengan Aspose.Words untuk Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)

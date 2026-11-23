@@ -99,6 +99,7 @@ Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Komp
 Naučte se načíst soubor Markdown v Javě pomocí Aspose.Words a zpracovat jeho obsah.
 ### [Jak načíst markdown dokument v Javě s vlastními možnostmi importu](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 Naučte se načíst markdown soubory v Javě s vlastními možnostmi importu pomocí Aspose.Words.
+### [Jak načíst markdown s formátováním v Javě](./how-to-load-markdown-with-formatting-in-java/)
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 ### [Ukládání dokumentů ve formátu PCL v Aspose.Words for Java](./saving-documents-as-pcl-format/)

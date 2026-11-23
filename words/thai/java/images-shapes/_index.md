@@ -83,6 +83,9 @@
 ### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Java – จัดกลุ่มและกำหนดตำแหน่งรูปร่าง](./insert-rectangle-shape-in-java-group-and-position-shapes/)
 เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java พร้อมการจัดกลุ่มและกำหนดตำแหน่งของรูปร่าง
 
+### [เพิ่มรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปร่างใน Java](./add-rectangle-shape-and-group-shapes-in-java/)
+เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ### [แทรกรูปภาพลงใน Word – คู่มือขั้นตอนโดย Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
@@ -142,15 +145,32 @@
 
 ### [วิธีแทรกรูปวงรีและสี่เหลี่ยมผืนผ้าในกลุ่มรูปร่างด้วย Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 
-### [สร้างเอกสาร Word เปล่าและเพิ่มรูปสี่เหลี่ยมผืนผ้า](./create-a-blank-word-document-and-add-a-rectangle-shape/)
+### [สร้างเอกสาร Word เปล่าพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่
 
-### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและเพิ่มรูปทรงใน Java](./create-word-document-programmatically-and-add-a-shape-in-jav/)
+### [วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมใน Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
-### [วิธีสร้างแผนภูมิโดนัทและแทรกแผนภูมิวงกลม](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
+### [วิธีสร้างเอกสารว่างและเพิ่มรูปร่างใน Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและแทรกรูปร่างต่างๆ ด้วย Aspose.Words สำหรับ Java
 
-### [วิธีใช้ Aspose แทรกรูปภาพและซ่อนมันในเอกสาร Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติก, จัดกลุ่มรูปร่างใน Java](./create-word-document-programmatically-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word และจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ Java
 
-### [วิธีสร้างรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปร่างใน Word ด้วย C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+### [วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปร่างวงรีซ่อนใน C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มวงรีซ่อนใน C#
+
+### [วิธีสร้างแผนภูมิโดนัทในเอกสาร Word ด้วย Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+เรียนรู้วิธีสร้างแผนภูมิแบบโดนัทในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
+### [วิธีสร้างเอกสาร Word เปล่าและจัดกลุ่มรูปร่างใน Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างไฟล์ Word ว่างและจัดกลุ่มรูปร่างด้วย Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word พร้อมรูปภาพที่ซ่อนอยู่ใน Java ด้วย Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+เรียนรู้วิธีแทรกรูปภาพที่ซ่อนอยู่ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [วิธีเพิ่มรูปทรงลงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+เรียนรู้วิธีแทรกรูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

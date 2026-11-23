@@ -34,6 +34,9 @@ Dosya ve akış yöntemlerini kullanarak Aspose.Words Java lisansını nasıl ku
 ### [Java'da Aspose.Words Sürüm Bilgisi Nasıl Görüntülenir: Kapsamlı Bir Kılavuz](./aspose-words-java-version-info/)
 Aspose.Words for Java'nın sürüm bilgilerini nasıl alacağınızı ve görüntüleyeceğinizi öğrenin. Bu adım adım kılavuzla uyumluluğu, günlük kaydını ve bakımı sağlayın.
 
+### [Java'da Özel Boyut, Veri Etiketleri ve Döndürme ile Pasta Grafiği Oluşturma](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Java kullanarak özel boyutta, veri etiketli ve döndürülmüş pasta grafiği oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

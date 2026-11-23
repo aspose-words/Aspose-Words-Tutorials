@@ -34,6 +34,9 @@ Ismerd meg az Aspose.Words Java licenc beállítását file és stream metóduso
 ### [Az Aspose.Words verzióinformációinak megjelenítése Java-ban: Átfogó útmutató](./aspose-words-java-version-info/)
 Ismerd meg, hogyan kérheted le és jelenítheted meg az Aspose.Words verzióinformációit Java-ban. Ezzel a lépésről lépésre útmutatóval biztosíthatod a kompatibilitást, a naplózást és a karbantartást.
 
+### [Kördiagram létrehozása egyedi mérettel, adatcímkékkel és forgatással Java-ban](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Lépésről lépésre útmutató a kördiagram testreszabott mérettel, adatcímkékkel és forgatással Java-ban történő létrehozásához.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

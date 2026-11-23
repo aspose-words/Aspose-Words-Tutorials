@@ -28,6 +28,9 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ## 利用可能なチュートリアル
 
+### [Add rectangle shape and group shapes in Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
 
@@ -159,7 +162,8 @@ JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
 
 ### [Javaでプログラム的にWord文書を作成し、シェイプを追加する](./create-word-document-programmatically-and-add-a-shape-in-jav/)
 
-### [Aspose を使用して画像を挿入し、Word 文書で非表示にする方法](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+### [Aspose.Words for Java を使用して Word 文書にシェイプを追加する方法](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
 
 ## 追加リソース
 

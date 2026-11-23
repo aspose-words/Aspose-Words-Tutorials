@@ -123,6 +123,9 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Как указать кодировку при загрузке документа с Aspose.Words для Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 Узнайте, как задать кодировку при загрузке документов в Aspose.Words for Java.
 
+### [Как загрузить markdown с форматированием в Java](./how-to-load-markdown-with-formatting-in-java/)
+Узнайте, как загружать markdown‑файлы с сохранением форматирования в Java.
+
 ## Часто задаваемые вопросы
 
 **Q:** Как программно **save images from word** документы?  

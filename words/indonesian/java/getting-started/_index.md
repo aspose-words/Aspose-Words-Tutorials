@@ -34,6 +34,9 @@ Pelajari cara menyiapkan lisensi Java Aspose.Words menggunakan metode file dan s
 ### [Cara Menampilkan Info Versi Aspose.Words di Java: Panduan Lengkap](./aspose-words-java-version-info/)
 Pelajari cara mengambil dan menampilkan info versi Aspose.Words untuk Java. Pastikan kompatibilitas, pencatatan, dan pemeliharaan dengan panduan langkah demi langkah ini.
 
+### [Buat diagram lingkaran dengan ukuran khusus, label data, dan rotasi di Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Pelajari cara membuat diagram lingkaran dengan ukuran khusus, menambahkan label data, dan mengatur rotasi menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

@@ -34,6 +34,9 @@ Aspose.Words for Java का उपयोग करके संचालन आ
 ### [जावा में Aspose.Words संस्करण जानकारी कैसे प्रदर्शित करें: एक व्यापक गाइड](./aspose-words-java-version-info/)
 Aspose.Words for Java की संस्करण जानकारी प्राप्त करना और प्रदर्शित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ संगतता, लॉगिंग और रखरखाव सुनिश्चित करें।
 
+### [Java में कस्टम आकार, डेटा लेबल और घूर्णन के साथ पाई चार्ट बनाएं](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Java में कस्टम आकार, डेटा लेबल और घूर्णन के साथ पाई चार्ट बनाने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

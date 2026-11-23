@@ -36,7 +36,7 @@ Díky těmto tutoriálům se nejen naučíte základy manipulace s prvky dokumen
 
 ## Začněte ještě dnes
 
-Jste připraveni začít? Přejděte na [Dokumentace k Aspose.Words pro Java API](https://reference.aspose.com/words/java/) pro přístup k komplexní dokumentaci. Najdete zde podrobná vysvětlení, ukázky kódu a reference API, které vás provedou všemi aspekty manipulace s prvky dokumentu.
+Jste připraveni začít? Přejděte na [Dokumentace k Aspose.Words pro Java API](https://reference.aspose.com/words/java/) pro přístup k komplexní dokumentaci. Najdete zde podrobné vysvětlení, ukázky kódu a reference API, které vás provedou všemi aspekty manipulace s prvky dokumentu.
 
 Závěrem lze říci, že zvládnutí manipulace s prvky dokumentů pomocí Aspose.Words pro Javu je cennou dovedností pro každého vývojáře v Javě, který pracuje s dokumenty. Tyto tutoriály poskytují jasnou a strukturovanou cestu, která vám pomůže stát se v této oblasti zdatným. Vyhrňte si tedy rukávy, pusťte se do tutoriálů a odemkněte plný potenciál Aspose.Words pro Javu ve vašich projektech zpracování dokumentů.
 
@@ -112,6 +112,8 @@ Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word 
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit koláčový graf ve Word dokumentu krok za krokem.
 ### [Jak vložit tlačítko příkazu do dokumentu Word pomocí Javy](./how-to-insert-command-button-in-a-word-document-using-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu vložit tlačítko příkazu do dokumentu Word a přidat interaktivitu.
+### [Jak vytvořit makro tlačítko ve Word dokumentu pomocí Aspose.Words pro Javu](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit makro tlačítko v dokumentu Word.
 ### [Jak upravit graf v dokumentu Word pomocí Javy](./how-to-edit-chart-in-a-word-document-using-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu upravovat grafy v dokumentech Word.
 ### [Uložení dokumentu Word po úpravě prstencového grafu v Javě](./save-word-document-after-editing-doughnut-chart-in-java/)
@@ -134,6 +136,7 @@ Naučte se, jak vytvořit koláčový graf ve Wordu a přidat k němu procentuá
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a roztrhnout výseč koláčového grafu v dokumentu.
 ### [Jak nastavit pozici tlačítka ve Word dokumentu pomocí Javy](./how-to-set-button-position-in-a-word-document-with-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu nastavit pozici tlačítka v dokumentu Word.
+### [Jak nastavit zástupný text v ovládacím prvku Wordu pomocí C#](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

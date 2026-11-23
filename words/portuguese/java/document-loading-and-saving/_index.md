@@ -160,6 +160,8 @@ As configurações de documentos são a chave para entregar documentos adaptados
 
 ### [Como especificar codificação ao carregar um documento com Aspose.Words para Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
 
+### [Como carregar markdown com formatação em Java](./how-to-load-markdown-with-formatting-in-java/)
+
 ## Perguntas Frequentes
 
 **Q:** Como eu programaticamente **save images from word** documentos?  

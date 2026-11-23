@@ -207,6 +207,12 @@ Learn how to embed a hidden image in a Word document using Aspose.Words for Java
 
 
 
+### [How to add shape to Word documents with Aspose.Words for Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
+
+### [Add rectangle shape and group shapes in Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
+
 ### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
 

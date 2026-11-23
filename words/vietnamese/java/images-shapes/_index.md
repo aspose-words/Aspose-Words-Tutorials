@@ -38,6 +38,8 @@ Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình
 
 ### [Cách tạo hình chữ nhật và nhóm các hình dạng trong Word bằng C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
+### [Thêm hình chữ nhật và nhóm các hình dạng trong Java](./add-rectangle-shape-and-group-shapes-in-java/)
+Hướng dẫn chi tiết cách thêm hình chữ nhật và nhóm các hình dạng trong tài liệu Word bằng Java.
 
 ### [Lưu trang và hình ảnh tùy chỉnh trong Java với Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Hướng dẫn mã cho Aspose.Words Java
@@ -68,7 +70,7 @@ Hướng dẫn chi tiết cách chèn và tùy chỉnh hộp văn bản có hi�
 Hướng dẫn chi tiết cách tạo tài liệu PDF và chèn hình chữ nhật bằng Aspose.Words trong C#.
 
 ### [Tạo tài liệu Word bằng Java – Thêm bóng vào hình dạng](./create-word-document-java-add-shadow-to-shape-guide/)
-Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Nhóm các hình dạng trong Word với Java – Hướng dẫn chi tiết từng bước](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Java.
@@ -170,9 +172,7 @@ Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Wor
 ### [Cách tạo biểu đồ donut và chèn biểu đồ tròn](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
 Hướng dẫn tạo biểu đồ donut và chèn biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java.
 
-## Tài nguyên bổ sung
-
-### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+### [Cách tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
 Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn.
 
 ### [Cách tạo tài liệu Word với biểu đồ tròn trong Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
@@ -195,8 +195,31 @@ Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng trong 
 ### [Tạo tài liệu Word với hình ảnh ẩn trong Java bằng Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
 Hướng dẫn tạo tài liệu Word và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
 
+### [Cách thêm hình dạng vào tài liệu Word bằng Aspose.Words cho Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
+
 ## Tài nguyên bổ sung
-- [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
+
+### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn.
+
+### [Cách tạo tài liệu Word với biểu đồ tròn trong Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Hướng dẫn tạo tài liệu Word có biểu đồ tròn bằng Aspose.Words cho Java.
+
+### [Cách tạo tài liệu trống và thêm hình dạng vào Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng như ellipse, hình chữ nhật, v.v.
+
+### [Tạo tài liệu Word bằng cách lập trình, nhóm các hình dạng trong Java](./create-word-document-programmatically-group-shapes-in-java/)
+Hướng dẫn chi tiết về cách tạo tài liệu Word và nhóm các hình dạng bằng Aspose.Words cho Java.
+
+### [Cách tạo tài liệu Word trống và thêm hình ellipse ẩn trong C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn bằng C# với Aspose.Words.
+
+### [Cách tạo biểu đồ donut trong tài liệu Word bằng Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng trong Java bằng Aspose.Words.
+
+### [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)

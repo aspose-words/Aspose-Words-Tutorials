@@ -189,15 +189,13 @@ Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words 
 
 ### [Hogyan olvassunk markdown fájlt Java-val az Aspose.Words segítségével](./how-to-read-markdown-file-java-with-aspose-words/)
 
-### [Hogyan töltsünk be markdown dokumentumot Java-ban egyéni import beállításokkal](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+### [Hogyan töltsünk be markdown dokumentumot Java‑ban egyéni import beállításokkal](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
+
+### [Markdown betöltése formázással Java-ban](./how-to-load-markdown-with-formatting-in-java/)
 
 ### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
-### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
-
-### [Hogyan töltsünk be fájlt könyvtárból az Aspose.Words segítségével C#‑ban](./how-to-load-file-from-directory-using-aspose-words-in-c/)
-
-### [Hogyan állítsuk be a beállításokat az Aspose.Words for Java‑ban – teljes útmutató](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ## Gyakran Ismételt Kérdések
 

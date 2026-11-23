@@ -18,7 +18,7 @@ weight: 20
 
 # Word’den Görüntüleri Kaydet – Belge Yükleme ve Kaydetme
 
-Aspose.Words for Java, **Word belgelerinden görüntüleri kaydetmeyi** basitleştirirken aynı zamanda güçlü yükleme ve kaydetme yetenekleri sunar. Bu rehberde görüntüleri nasıl çıkaracağınızı, çeşitli belge türlerini nasıl yükleyeceğinizi ve çalışmanızı PDF, HTML ve daha fazlası gibi formatlarda nasıl kaydedeceğinizi adım adım açıklamalarla keşfedeceksiniz.
+Aspose.Words for Java, **Word belgelerinden görüntüleri kaydetmeyi** basitleştirirken aynı zamanda güçlü yükleme ve kaydetme yetenekleri sunar. Bu rehberde görüntüleri nasıl çıkaracağınızı, çeşitli belge türlerini nasıl yükleyeceğinizi ve çalışmanızı PDF, HTML ve daha fazlası gibi formatlarda nasıl kaydedebileceğinizi adım adım açıklamalarla keşfedeceksiniz.
 
 ## Hızlı Yanıtlar
 - **Bir DOCX dosyasından görüntüleri çıkarabilir miyim?** Evet, Aspose.Words programlı olarak her görüntüyü sayabilir ve kaydedebilir.  
@@ -211,6 +211,10 @@ C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işley
 Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
 
 ### [Java’da Markdown Yükleme – Tam Kılavuz](./how-to-load-markdown-in-java-complete-guide/)
+
+### [Java’da biçimlendirmeli Markdown Yükleme](./how-to-load-markdown-with-formatting-in-java/)
+
+Java’da biçimlendirilmiş markdown dosyalarını nasıl yükleyeceğinizi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

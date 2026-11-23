@@ -196,6 +196,8 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 
 ### [Πώς να φορτώσετε έγγραφο markdown σε Java με προσαρμοσμένες επιλογές εισαγωγής](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 
+### [Πώς να φορτώσετε markdown με μορφοποίηση σε Java](./how-to-load-markdown-with-formatting-in-java/)
+
 ## Συχνές Ερωτήσεις
 
 **Q:** Πώς μπορώ προγραμματιστικά **save images from word** έγγραφα;  

@@ -191,6 +191,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Cómo cargar un documento markdown en Java con opciones de importación personalizadas](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
 
+### [Cómo cargar markdown con formato en Java](./how-to-load-markdown-with-formatting-in-java/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

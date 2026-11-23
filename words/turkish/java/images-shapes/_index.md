@@ -162,8 +162,6 @@ Java kullanarak grup halinde şekiller içeren boş bir Word belgesi oluşturmay
 ### [Java ile Word belgesinde halka grafik oluşturma](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 Java ve Aspose.Words kullanarak bir Word belgesine halka grafik eklemeyi öğrenin.
 
-### [Döner grafik oluşturma ve pasta grafiği ekleme](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
-
 ### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
 Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri gruplanmayı öğrenin.
 
@@ -176,6 +174,10 @@ Java kullanarak programlı bir şekilde Word belgesine şekil eklemeyi öğrenin
 ### [Java ile Word belgesine dikdörtgen şekil ekleme](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [C# ile Word'de dikdörtgen şekil oluşturma ve şekilleri gruplama](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [Java'da Dikdörtgen Şekil Ekle ve Şekilleri Grupla](./add-rectangle-shape-and-group-shapes-in-java/)
+
+### [Aspose.Words for Java ile Word belgelerine şekil ekleme](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## Ek Kaynaklar
 

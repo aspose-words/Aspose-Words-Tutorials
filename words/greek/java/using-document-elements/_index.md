@@ -89,10 +89,10 @@
 ### [Δημιουργία διαγράμματος πίτας με Aspose.Words για Java – Πλήρης οδηγός βήμα‑βήμα](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Μάθετε πώς να δημιουργήσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Εισαγωγή διαγράμματος πίτας στο Word με Aspose.Words – Πλήρης οδηγός](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
-Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Δημιουργία διαγράμματος πίτας στο Word με Java – βήμα προς βήμα οδηγός](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Java.
-### [Πώς να προσθέσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+### [Πώς να προσθέσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-add-pie-chart-to-a-word-document-using-java/)
 Μάθετε πώς να προσθέσετε διάγραμμα πίτας σε έγγραφο Word με Aspose.Words για Java.
 ### [Πώς να λάβετε διαχωριστικό σε έγγραφα Word με Java](./how-to-get-separator-in-word-docs-with-java/)
 Μάθετε πώς να αποκτήσετε διαχωριστικό σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
@@ -134,6 +134,11 @@
 ### [Εισαγωγή διαγράμματος πίτας στο Word με Java – πλήρης οδηγός](./insert-pie-chart-word-in-java-complete-guide/)
 Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Πώς να προσθέσετε ActiveX και να εισαγάγετε διάγραμμα πίτας σε έγγραφο Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+
+### [Ορισμός κειμένου κράτησης θέσης σε έλεγχο περιεχομένου Word με C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+
+### [Πώς να δημιουργήσετε κουμπί macro σε έγγραφο Word με το Aspose.Words για Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Μάθετε πώς να δημιουργήσετε κουμπί macro σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

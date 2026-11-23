@@ -34,6 +34,9 @@ Dowiedz się, jak skonfigurować licencję Aspose.Words Java przy użyciu metod 
 ### [Jak wyświetlić informacje o wersji Aspose.Words w Javie: kompleksowy przewodnik](./aspose-words-java-version-info/)
 Dowiedz się, jak pobrać i wyświetlić informacje o wersji Aspose.Words dla Java. Zapewnij zgodność, rejestrowanie i konserwację dzięki temu przewodnikowi krok po kroku.
 
+### [Tworzenie wykresu kołowego o niestandardowym rozmiarze, etykietach danych i obrocie w Javie](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Dowiedz się, jak w Javie utworzyć wykres kołowy o własnym rozmiarze, dodać etykiety danych i ustawić obrót.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

@@ -70,6 +70,8 @@
 ### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
 
+### [Προσθήκη σχήματος ορθογωνίου και ομαδοποίηση σχημάτων σε Java](./add-rectangle-shape-and-group-shapes-in-java/)
+
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος με εφέ σκιάς](./create-word-document-java-add-shape-with-shadow-effect/)
 Μάθετε πώς να προσθέσετε σχήμα με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
@@ -102,6 +104,8 @@
 ### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 
 ### [Πώς να χρησιμοποιήσετε το Aspose για να εισάγετε εικόνα και να την κρύψετε σε έγγραφο Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+### [Πώς να προσθέσετε σχήμα σε έγγραφα Word με το Aspose.Words για Java](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 ## Πρόσθετοι Πόροι
 

@@ -35,6 +35,9 @@ Learn how to set up Aspose.Words Java license using file and stream methods. Exp
 ### [How to Display Aspose.Words Version Info in Java&#58; A Comprehensive Guide](./aspose-words-java-version-info/)
 Learn how to retrieve and display the version info of Aspose.Words for Java. Ensure compatibility, logging, and maintenance with this step-by-step guide.
 
+### [Create pie chart with custom size, data labels, and rotation in Java](./create-pie-chart-with-custom-size-data-labels-and-rotation-i/)
+Learn to create a pie chart with custom size, data labels, and rotation using Aspose.Words for Java.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

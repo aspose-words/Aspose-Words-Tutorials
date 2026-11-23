@@ -133,14 +133,9 @@ C# में Aspose.Words का उपयोग करके आकृति �
 
 ### [C# का उपयोग करके Word में आयताकार आकार बनाना और आकृतियों को समूहित करना](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 
-## अतिरिक्त संसाधन
+### [जावा में आयताकार आकार जोड़ें और आकृतियों को समूहित करें](./add-rectangle-shape-and-group-shapes-in-java/)
 
-- [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)
-- [Aspose.Words for Java API संदर्भ](https://reference.aspose.com/words/java/)
-- [Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
-- [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
-- [निःशुल्क सहायता](https://forum.aspose.com/)
-- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+### [Aspose.Words for Java के साथ Word दस्तावेज़ में आकृति कैसे जोड़ें](./how-to-add-shape-to-word-documents-with-aspose-words-for-jav/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

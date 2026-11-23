@@ -84,6 +84,8 @@ Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pou
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
 ### [Définir la taille du bouton dans Word avec Java – Guide complet Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 Apprenez à définir la taille des boutons dans Word avec Aspose.Words pour Java grâce à ce guide complet.
+### [Comment créer un bouton macro dans un document Word avec Aspose.Words pour Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+
 ### [Créer un diagramme circulaire avec Aspose.Words Java – Guide complet étape par étape](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Apprenez à créer un diagramme circulaire dans Aspose.Words pour Java grâce à ce guide complet étape par étape.
 ### [Insérer un diagramme circulaire dans Word avec Aspose.Words – Guide complet](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
@@ -137,6 +139,8 @@ Apprenez à intégrer des contrôles ActiveX et à insérer un graphique en sect
 
 ### [Comment ajouter un diagramme circulaire à un document Word en utilisant Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Apprenez à insérer un diagramme circulaire dans un document Word avec Aspose.Words pour Java.
+
+### [Définir le texte de l'espace réservé dans un contrôle de contenu Word avec C#](./set-placeholder-text-in-a-word-content-control-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

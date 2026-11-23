@@ -120,7 +120,7 @@ Aprenda a generar gráficos radiales en documentos Word usando Aspose.Words para
 Aprenda a crear documentos Word mediante código Java y añadir botones interactivos paso a paso.
 ### [Cómo crear un documento Word en blanco y agregar un gráfico de radar en C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Aprenda a crear un documento Word vacío y añadir un gráfico de radar en C# con Aspose.Words.
-### [Cómo insertar un gráfico circular en un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+### [Cómo insertar un gráfico circular en un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-with-java/)
 Aprenda a agregar un gráfico circular a un documento Word con Aspose.Words para Java paso a paso.
 ### [Cómo agregar un botón a un documento de Word – Guía paso a paso](./how-to-add-button-to-word-document-step-by-step-guide/)
 Aprenda a insertar un botón interactivo en un documento Word con Aspose.Words para Java paso a paso.
@@ -136,6 +136,10 @@ Aprenda a colocar y posicionar botones en documentos Word usando Aspose.Words pa
 Aprenda a agregar controles ActiveX e insertar gráficos circulares en documentos Word usando Aspose.Words para Java.
 ### [Cómo agregar un gráfico circular a un documento Word usando Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Aprenda a insertar un gráfico circular en un documento Word con Aspose.Words para Java paso a paso.
+### [Establecer texto de marcador de posición en un control de contenido de Word con C#](./set-placeholder-text-in-a-word-content-control-with-c/)
+Aprenda a establecer texto de marcador de posición en un control de contenido de Word usando C# con Aspose.Words.
+### [Cómo crear un botón macro en un documento Word con Aspose.Words para Java](./how-to-create-macro-button-in-a-word-document-with-aspose-wo/)
+Aprenda a crear un botón macro en un documento Word usando Aspose.Words para Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

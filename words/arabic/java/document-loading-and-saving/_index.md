@@ -149,6 +149,7 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 
 ### [تحميل تسطير markdown في Java – دليل برمجة كامل](./load-markdown-underline-in-java-complete-programming-guide/)
 تعلم كيفية تحميل ملفات markdown مع تسطيرها في Java باستخدام Aspose.Words. دليل شامل خطوة بخطوة.
+
 ### [كيفية تحميل Markdown في Java – دليل شامل](./how-to-load-markdown-in-java-complete-guide/)
 تعلم كيفية تحميل ملفات markdown ومعالجتها في Java باستخدام Aspose.Words خطوة بخطوة.
 ### [كيفية تحميل مستند markdown في Java مع خيارات استيراد مخصصة](./how-to-load-markdown-document-in-java-with-custom-import-opt/)
@@ -194,7 +195,9 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلم كيفية التقاط تحذيرات استبدال الخطوط واكتشاف الخطوط المفقودة عند تحميل المستندات باستخدام Aspose.Words for Java.
 
 ### [كيفية تحديد الترميز عند تحميل مستند باستخدام Aspose.Words لـ Java](./how-to-specify-encoding-when-loading-a-document-with-aspose/)
-تعلم كيفية تعيين الترميز الصحيح عند تحميل المستندات باستخدام Aspose.Words for Java لتجنب مشاكل الأحرف.
+
+### [كيفية تحميل markdown مع التنسيق في Java](./how-to-load-markdown-with-formatting-in-java/)
+تعلم كيفية تحميل مستندات markdown مع الحفاظ على التنسيق باستخدام Aspose.Words لـ Java.
 
 ## الأسئلة المتكررة
 
