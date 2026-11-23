@@ -118,7 +118,6 @@
 
 ### [บันทึก markdown เป็น docx ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
-### [ส่งออก docx เป็น markdown – คู่มือเต็ม C#](./export-docx-as-markdown-complete-c-guide/)
 ### [Aspose docx เป็น markdown – คู่มือเต็มสำหรับการแปลงและสกัดรูปภาพ](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown พร้อมสกัดรูปภาพด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
