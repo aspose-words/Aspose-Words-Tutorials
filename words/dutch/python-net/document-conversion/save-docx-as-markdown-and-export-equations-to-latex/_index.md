@@ -247,7 +247,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Docx opslaan als markdown – Complete C#‑gids met LaTeX‑vergelijkingen](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Word opslaan als Markdown met Aspose.Words – Complete gids om DOCX te converteren en afbeeldingen te extraheren](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

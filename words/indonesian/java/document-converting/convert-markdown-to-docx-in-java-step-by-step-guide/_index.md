@@ -249,7 +249,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [Konversi File Docx ke Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cara Mengekspor LaTeX dari Word – Konversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

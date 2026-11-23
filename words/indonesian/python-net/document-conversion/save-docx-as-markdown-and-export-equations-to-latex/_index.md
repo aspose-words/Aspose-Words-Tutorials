@@ -244,7 +244,6 @@ Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang dit
 
 - [Simpan docx sebagai markdown – Panduan C# Lengkap dengan Persamaan LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Simpan Word sebagai Markdown dengan Aspose.Words – Panduan Lengkap untuk Mengonversi DOCX dan Mengekstrak Gambar](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -222,7 +222,6 @@ Nyugodtan kísérletezz további Aspose.Words funkciókkal – például egyedi 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészletet tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és felfedezni alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Docx konvertálása markdown-re – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hogyan exportáljunk LaTeX-et Word-ből – DOCX konvertálása markdown-re](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Hogyan exportáljunk Markdown-t DOCX-ből – Teljes útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

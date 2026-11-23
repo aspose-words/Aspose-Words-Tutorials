@@ -90,7 +90,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [छवियों के साथ मार्कडाउन निर्यात के लिए कस्टम इमेज फ़ोल्डर – पूर्ण गाइड](./custom-image-folder-for-export-markdown-with-images-complete/) | Aspose.Words का उपयोग करके मार्कडाउन निर्यात में छवियों के लिए कस्टम फ़ोल्डर सेट करने की विस्तृत गाइड। |
 | [docx को markdown में बदलें और docx से छवियों को सहेजें](./convert-docx-to-markdown-save-images-from-docx/) | docx फ़ाइल को markdown में बदलें और छवियों को अलग से सहेजने की प्रक्रिया सीखें। |
 | [Word से मार्कडाउन बनाएं – पूर्ण C# गाइड](./create-markdown-from-word-full-c-guide/) | Word दस्तावेज़ को मार्कडाउन में बदलने की पूरी C# गाइड |
-| [Word से LaTeX निर्यात कैसे करें – DOCX को Markdown में बदलें](./how-to-export-latex-from-word-convert-docx-to-markdown/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से LaTeX निर्यात करके DOCX को Markdown में बदलना सीखें। |
 | [DOCX को मार्कडाउन के रूप में सहेजें – Aspose.Words के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Aspose.Words का उपयोग करके C# में DOCX को मार्कडाउन में बदलने की विस्तृत गाइड। |
 | [Word से markdown फ़ाइल बनाएं – समीकरण निर्यात के लिए पूर्ण गाइड](./create-markdown-file-from-word-full-guide-to-export-equation/) | Word दस्तावेज़ को markdown फ़ाइल में बदलें और समीकरणों को निर्यात करने के लिए पूर्ण चरण‑दर‑स्टेप गाइड। |
 | [मार्कडाउन सहेजने का तरीका – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./how-to-save-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ मार्कडाउन सहेजने की पूरी गाइड। चरण‑दर‑स्टेप प्रक्रिया। |

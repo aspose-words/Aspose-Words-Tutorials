@@ -178,7 +178,6 @@ Các hướng dẫn sau đây bao quát các chủ đề liên quan chặt chẽ
 
 - [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với các phương trình LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

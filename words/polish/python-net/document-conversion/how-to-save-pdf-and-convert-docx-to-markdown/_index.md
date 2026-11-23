@@ -184,7 +184,6 @@ Następnie, zapoznaj się z powiązanymi tematami, takimi jak **przetwarzanie ws
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i zbadać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Jak konwertować Word do PDF przy użyciu Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [Jak wyeksportować LaTeX z Word – Konwertuj DOCX do Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

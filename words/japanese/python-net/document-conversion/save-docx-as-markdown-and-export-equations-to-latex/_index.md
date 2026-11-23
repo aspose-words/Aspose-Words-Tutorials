@@ -242,7 +242,6 @@ if __name__ == "__main__":
 
 - [docx を markdown として保存 – LaTeX 数式付き完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Aspose.Words で Word を Markdown に保存 – DOCX の変換と画像抽出の完全ガイド](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [Word から LaTeX をエクスポートする方法 – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

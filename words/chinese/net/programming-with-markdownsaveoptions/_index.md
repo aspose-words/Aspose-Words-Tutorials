@@ -94,7 +94,6 @@
 ### [如何从 DOCX 导出 Markdown – 完整分步指南](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
-### [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 导出为 Markdown，提供完整示例和分步指南。
 

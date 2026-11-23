@@ -249,7 +249,6 @@ public class BatchMarkdownConverter {
 
 - [Docx 파일을 Markdown으로 변환](/words/english/net/basic-conversions/docx-to-markdown/)
 - [docx를 markdown으로 변환 – Aspose.Words를 사용한 수식 LaTeX 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word에서 LaTeX 내보내는 방법 – DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

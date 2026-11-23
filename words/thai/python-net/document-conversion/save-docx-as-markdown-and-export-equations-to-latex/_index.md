@@ -245,7 +245,6 @@ if __name__ == "__main__":
 
 - [บันทึก docx เป็น markdown – คู่มือ C# ฉบับสมบูรณ์พร้อมสมการ LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [บันทึก Word เป็น Markdown ด้วย Aspose.Words – คู่มือเต็มสำหรับแปลง DOCX และดึงรูปภาพ](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

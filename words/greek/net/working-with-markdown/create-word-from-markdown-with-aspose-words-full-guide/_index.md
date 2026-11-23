@@ -198,7 +198,6 @@ foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 
 ## Τι πρέπει να μάθετε στη συνέχεια;
 
-- [Πώς να εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Αποθήκευση εικόνων Word – Μετατροπή Word σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

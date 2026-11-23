@@ -177,7 +177,6 @@ for filename in os.listdir(source_dir):
 
 - [Word से Markdown सहेजने का तरीका – पूर्ण Python गाइड](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [docx को markdown के रूप में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Word से LaTeX निर्यात करने का तरीका – DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

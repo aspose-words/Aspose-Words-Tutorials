@@ -175,7 +175,6 @@ for filename in os.listdir(source_dir):
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教學](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [將 docx 儲存為 markdown – 完整 C# 教學（含 LaTeX 方程式）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
