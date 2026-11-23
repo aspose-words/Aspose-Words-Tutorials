@@ -232,7 +232,6 @@ Apprenez à convertir des fichiers DOCX en Markdown en C# grâce à un guide com
 Apprenez à récupérer un document Word corrompu et à le restaurer en utilisant Aspose.Words avec un guide complet en C#.
 ### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
-### [Comment exporter LaTeX depuis DOCX – Convertir en Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
 
 Apprenez à exporter des documents Word en Markdown tout en conservant les ombres de formes et à générer des PDF/UA conformes.
 ### [Supprimer les paragraphes vides – Convertir Word en Markdown en C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)

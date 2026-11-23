@@ -226,7 +226,6 @@ Kompletny przewodnik pokazujący, jak konwertować pliki DOCX do formatu Markdow
 Dowiedz się, jak ustawić względne ścieżki obrazów przy konwersji dokumentu Word do formatu Markdown przy użyciu Aspose.Words.
 ### [Jak zapisać obrazy – konwertuj DOCX do Markdown przy użyciu Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 Dowiedz się, jak wyodrębnić i zapisać obrazy z plików DOCX podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
-### [Jak wyeksportować LaTeX z DOCX – konwertuj do Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
 Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z pliku DOCX do formatu Markdown.
 
 ### [Utwórz markdown z Worda – Pełny przewodnik C#](./create-markdown-from-word-full-c-guide/)
