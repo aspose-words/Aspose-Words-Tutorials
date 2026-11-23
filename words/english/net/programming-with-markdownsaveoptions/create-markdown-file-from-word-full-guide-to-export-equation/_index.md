@@ -35,7 +35,7 @@ In this tutorial we’ll walk through a practical solution that not only **save 
 ## What You’ll Need
 
 - .NET 6+ (or .NET Framework 4.7.2+) – the code works on any recent runtime.
-- **Aspose.Words for .NET** (free trial or licensed copy). This library provides `MarkdownSaveOptions` and `OfficeMathExportMode`.
+- **Aspose.Words for .NET** (free trial or licensed copy). This library provides `MarkdownSaveOptions` and `MarkdownOfficeMathExportMode`.
 - A Word file (`.docx`) that contains at least one Office Math object.
 - An IDE you’re comfortable with – Visual Studio, Rider, or even VS Code.
 
@@ -56,14 +56,14 @@ These `using` statements give you access to the `Document` class and the `Markdo
 
 ## Step 2: Configure MarkdownSaveOptions – Choose LaTeX or MathML
 
-The heart of the conversion lives in `MarkdownSaveOptions`. You can tell Aspose.Words whether you want equations rendered as LaTeX (the default) or as MathML. This is the part that handles **convert equations latex** and **export mathml word**.
+The heart of the conversion lives in `MarkdownSaveOptions`. You can tell Aspose.Words whether you want equations rendered as LaTeX or as MathML. Note: the default value of `MarkdownOfficeMathExportMode` is `Text`, but we explicitly set the desired mode below.
 
 ```csharp
 // Step 2: Create a MarkdownSaveOptions object and set the math export mode
 var markdownSaveOptions = new MarkdownSaveOptions
 {
-    // Pick LaTeX (default) or MathML. Change to MathML if you need MathML output.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX   // or OfficeMathExportMode.MathML
+    // Pick LaTeX or MathML. Change to MathML if you need MathML output.
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex   // or MarkdownOfficeMathExportMode.MathML
 };
 ```
 
@@ -94,11 +94,11 @@ Console.WriteLine($"✅ Markdown file created at: {outputPath}");
 
 When you run the program, you’ll see a console message confirming that the **create markdown file** operation succeeded.
 
-## Step 5: Verify the Output – What Does the Markdown Look Like?
+## Step 5: Verify the Output – What Does the Markdown Look
 
 Open `output.md` in any text editor. You should see regular Markdown headings, paragraphs, and—most importantly—equations rendered in the chosen syntax.
 
-**LaTeX example (default):**
+**LaTeX example (when `Latex` is selected):**
 
 ```markdown
 Here is an inline equation $E = mc^2$ inside a sentence.
@@ -108,7 +108,7 @@ $$
 $$
 ```
 
-**MathML example (if you switched the mode):**
+**MathML example (when `MathML` is selected):**
 
 ```markdown
 Here is an inline equation <math><mi>E</mi>=<mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></math> inside a sentence.
@@ -125,7 +125,7 @@ Here is an inline equation <math><mi>E</mi>=<mi>m</mi><msup><mi>c</mi><mn>2</mn>
 </math>
 ```
 
-If you need **convert equations latex** for a static site generator like Jekyll or Hugo, stick with the default LaTeX mode. If your downstream consumer is a web component that parses MathML, flip the `OfficeMathExportMode` to `MathML`.
+If you need **convert equations latex** for a static site generator like Jekyll or Hugo, stick with the LaTeX mode. If your downstream consumer is a web component that parses MathML, flip the `OfficeMathExportMode` to `MathML`.
 
 ## Edge Cases & Common Pitfalls
 
@@ -142,9 +142,9 @@ You might want to let end‑users decide which format they prefer. A quick way i
 
 ```csharp
 // Bonus: Choose export mode from args
-OfficeMathExportMode mode = args.Length > 0 && args[0].Equals("mathml", StringComparison.OrdinalIgnoreCase)
-    ? OfficeMathExportMode.MathML
-    : OfficeMathExportMode.LaTeX;
+MarkdownOfficeMathExportMode mode = args.Length > 0 && args[0].Equals("mathml", StringComparison.OrdinalIgnoreCase)
+    ? MarkdownOfficeMathExportMode.MathML
+    : MarkdownOfficeMathExportMode.Latex;
 
 markdownSaveOptions.OfficeMathExportMode = mode;
 ```
@@ -166,10 +166,10 @@ namespace WordToMarkdown
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Determine the export mode (LaTeX is default)
-            OfficeMathExportMode exportMode = args.Length > 0 && args[0].Equals("mathml", StringComparison.OrdinalIgnoreCase)
-                ? OfficeMathExportMode.MathML
-                : OfficeMathExportMode.LaTeX;
+            // 1️⃣ Determine the export mode (Text is the default, but we set it explicitly)
+            MarkdownOfficeMathExportMode exportMode = args.Length > 0 && args[0].Equals("mathml", StringComparison.OrdinalIgnoreCase)
+                ? MarkdownOfficeMathExportMode.MathML
+                : MarkdownOfficeMathExportMode.Latex;
 
             // 2️⃣ Configure MarkdownSaveOptions
             var markdownOptions = new MarkdownSaveOptions
