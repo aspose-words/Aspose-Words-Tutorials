@@ -160,7 +160,6 @@ Ismerje meg, hogyan állíthat be egyéni képmappát a Markdownba exportálás 
 Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words teljes útmutatója alapján.
 ### [Markdown létrehozása Word‑ből – Teljes C# útmutató](./create-markdown-from-word-full-c-guide/)
 Lépésről‑lépésre bemutatjuk, hogyan hozhat létre Markdown fájlokat Word dokumentumokból C#‑ban.
-### [Word exportálása Markdownba alakzatárnyékokkal és PDF/UA-val](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Ismerje meg, hogyan exportálhat Word dokumentumokat Markdownba, miközben megőrzi az alakzatok árnyékait, és PDF/UA kompatibilitást biztosít.
 ### [Markdown fájl létrehozása Wordből – Teljes útmutató az egyenletek exportálásához](./create-markdown-file-from-word-full-guide-to-export-equation/)
 Ismerje meg, hogyan exportálhat egyenleteket Word dokumentumból Markdown fájlba egy teljes C# útmutató segítségével.

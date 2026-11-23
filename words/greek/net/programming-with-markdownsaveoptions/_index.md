@@ -96,7 +96,6 @@
 | [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή σε Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Μάθετε πώς να εξάγετε εξισώσεις LaTeX από αρχεία DOCX και να τις μετατρέψετε σε Markdown με Aspose.Words για .NET. |
 | [Δημιουργία markdown από Word – Πλήρης οδηγός C#](./create-markdown-from-word-full-c-guide/) | Μάθετε πώς να δημιουργήσετε markdown από έγγραφα Word με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
-| [Εξαγωγή Word σε Markdown με Σκιές Σχημάτων και PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) |  |
 | [Δημιουργία αρχείου markdown από Word – Πλήρης Οδηγός για Εξαγωγή Εξισώσεων](./create-markdown-file-from-word-full-guide-to-export-equation/) | Μάθετε πώς να εξάγετε εξισώσεις από έγγραφα Word σε αρχείο markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Αφαίρεση Κενών Παραγράφων – Μετατροπή Word σε Markdown σε C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Μάθετε πώς να αφαιρέσετε κενές παραγράφους κατά τη μετατροπή εγγράφων Word σε Markdown με C# και Aspose.Words. |
 | [Πώς να εξάγετε Markdown από DOCX – Πλήρης Οδηγός](./how-to-export-markdown-from-docx-complete-guide/) | Μάθετε πώς να εξάγετε έγγραφα DOCX σε μορφή Markdown με οδηγό βήμα‑βήμα C# χρησιμοποιώντας Aspose.Words. |

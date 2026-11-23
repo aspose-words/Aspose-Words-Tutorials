@@ -263,7 +263,6 @@ Aprenda a exportar equações LaTeX de arquivos DOCX ao convertê-los para Markd
 
 ### [Criar markdown a partir do Word – Guia completo em C#](./create-markdown-from-word-full-c-guide/)
 Aprenda a gerar arquivos markdown a partir de documentos Word usando C# e Aspose.Words.
-### [Exportar Word para Markdown com Sombras de Formas e PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Aprenda a exportar documentos Word para Markdown preservando sombras de formas e gerando PDF/UA usando Aspose.Words para .NET.
 ### [Criar arquivo markdown a partir do Word – Guia completo para exportar equações](./create-markdown-file-from-word-full-guide-to-export-equation/)
 Aprenda a criar arquivos Markdown a partir de documentos Word, exportando equações corretamente com Aspose.Words para .NET.
