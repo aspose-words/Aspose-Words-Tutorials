@@ -218,7 +218,6 @@ Tem perguntas sobre casos extremos, como lidar com equações aninhadas ou macro
 
 Os tutoriais a seguir cobrem tópicos estreitamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Como Exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Salvar Documento como Txt – Exportar Word Math para LaTeX em C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

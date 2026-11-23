@@ -203,7 +203,6 @@ Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam na
 
 - [Converter docx para txt – Guia completo para salvar Word como texto simples](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [Salvar docx como txt – Exportar matemática do Word para LaTeX com C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Como exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -185,7 +185,6 @@ A: แน่นอน. Aspose.Words for Python เป็นแบบ platform‑
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในไกด์นี้. แต่ละแหล่งข้อมูลรวมตัวอย่างโค้ดที่ทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้ทางเลือกในโครงการของคุณ.
 
 - [แปลง docx เป็น txt – คู่มือฉบับสมบูรณ์สำหรับบันทึก Word เป็น Plain Text](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

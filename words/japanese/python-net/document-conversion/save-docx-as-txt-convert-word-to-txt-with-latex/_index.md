@@ -203,7 +203,6 @@ CSV へのエクスポートや検索インデックスへの投入など、独�
 ## 次に学ぶべきこと
 
 - [docx を txt として保存 – C# で Word の数式を LaTeX にエクスポート](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Word から LaTeX をエクスポートする方法: Aspose で DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Word から LaTeX をエクスポートする方法: DOCX を Markdown に変換し PDF として保存](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

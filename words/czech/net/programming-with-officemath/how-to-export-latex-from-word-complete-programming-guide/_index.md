@@ -218,7 +218,6 @@ Máte otázky ohledně okrajových případů, jako je zpracování vnořených 
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobným vysvětlením, aby vám pomohly zvládnout další funkce API a prozkoumat alternativní přístupy ve vašich projektech.
 
-- [Jak exportovat LaTeX z Wordu: převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Uložení dokumentu jako Txt – Export Word Math do LaTeXu v C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

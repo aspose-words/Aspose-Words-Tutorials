@@ -205,7 +205,6 @@ Tem alguma variação que gostaria de compartilhar — talvez exportar para CSV 
 ## O que Você Deve Aprender a Seguir?
 
 - [Salvar docx como txt – Exportar Word Math para LaTeX com C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Como Exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Como Exportar LaTeX do Word: Converter DOCX para Markdown e Salvar como PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

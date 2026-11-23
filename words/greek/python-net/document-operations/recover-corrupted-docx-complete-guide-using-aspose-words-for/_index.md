@@ -236,7 +236,6 @@ print("All operations completed successfully.")
 
 - [πώς να ανακτήσετε docx – οδηγός C# για κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Μετατροπή docx σε markdown – Οδηγός βήμα‑βήμα C#](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Πώς να εξάγετε LaTeX από το Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

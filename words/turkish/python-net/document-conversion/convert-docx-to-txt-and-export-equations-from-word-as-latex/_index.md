@@ -224,7 +224,6 @@ Kodlamaktan keyif alın, ve LaTeX'inizin her zaman ilk denemede derlenmesi dile�
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Belgeyi Txt Olarak Kaydet – Word Matematiklerini LaTeX'e Aktar (C#)](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Aspose ile Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -173,7 +173,6 @@ using (MemoryStream ms = new MemoryStream())
 
 以下のチュートリアルは、本ガイドで示したテクニックを応用した、密接に関連するテーマを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれているので、API の追加機能をマスターしたり、別の実装アプローチを自分のプロジェクトに取り入れたりするのに役立ちます。
 
-- [Word から LaTeX をエクスポートする方法：Aspose で DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

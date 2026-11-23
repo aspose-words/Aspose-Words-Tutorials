@@ -205,7 +205,6 @@ Heb je een variant die je wilt delen—misschien exporteren naar CSV of de outpu
 ## Wat moet je hierna leren?
 
 - [Docx opslaan als txt – Export Word Math naar LaTeX met C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Hoe LaTeX uit Word te exporteren: DOCX naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Hoe LaTeX uit Word te exporteren: DOCX naar Markdown & opslaan als PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -302,7 +302,6 @@ Van egy saját megoldásod, amit megosztanál? Írj egy megjegyzést alább, és
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan exportáljunk LaTeX‑et Word‑ből: DOCX konvertálása Markdown‑ba Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx konvertálása markdown‑ba – Matematikai egyenletek exportálása LaTeX‑be Aspose.Words‑szal](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Dokumentum mentése Txt‑ként – Word Math exportálása LaTeX‑be C#‑ban](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 

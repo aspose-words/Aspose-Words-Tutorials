@@ -213,7 +213,6 @@ for filename in os.listdir(source_dir):
 
 निम्नलिखित ट्यूटोरियल्स उन निकट संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API फीचर्स में निपुण बनने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [Word से LaTeX निर्यात करने का तरीका: Aspose के साथ DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx को txt के रूप में सहेजें – C# के साथ Word Math को LaTeX में निर्यात करें](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

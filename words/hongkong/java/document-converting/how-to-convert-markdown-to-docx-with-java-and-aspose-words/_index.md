@@ -222,7 +222,6 @@ Conversion complete. DOCX saved to: YOUR_DIRECTORY/ConvertedFromMarkdown.docx
 以下教學與本指南緊密相關，能進一步深化您所學的技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能或探索其他實作方式。
 
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Export LaTeX from Word – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Convert Docx File To Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

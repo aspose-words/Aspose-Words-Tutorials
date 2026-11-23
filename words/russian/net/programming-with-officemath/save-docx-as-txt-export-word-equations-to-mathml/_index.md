@@ -295,7 +295,6 @@ Post‑processed file created.
 
 Следующие руководства охватывают тесно связанные темы, основанные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полные работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в своих проектах.
 
-- [Как экспортировать LaTeX из Word: преобразовать DOCX в Markdown с помощью Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Преобразовать docx в markdown — экспортировать математические уравнения в LaTeX с помощью Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Сохранить docx как markdown — Полное руководство C# с уравнениями LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 

@@ -186,7 +186,6 @@ Ao dominar **converter docx para txt** e a exportação associada para LaTeX, vo
 Os tutoriais a seguir abordam tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
 - [Converter docx para txt – Guia completo para salvar Word como texto simples](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Como exportar LaTeX do Word: converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Converter docx para markdown – Exportar equações matemáticas para LaTeX com Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

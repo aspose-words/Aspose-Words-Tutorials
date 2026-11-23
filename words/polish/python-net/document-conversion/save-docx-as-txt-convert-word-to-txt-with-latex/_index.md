@@ -205,7 +205,6 @@ Masz własny pomysł, którym chciałbyś się podzielić — może eksport do C
 ## Co powinieneś się nauczyć dalej?
 
 - [Zapisz docx jako txt – eksportuj Word Math do LaTeX w C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Jak eksportować LaTeX z Word: konwertuj DOCX do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Jak eksportować LaTeX z Word: konwertuj DOCX do Markdown i zapisz jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

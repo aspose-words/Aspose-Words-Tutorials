@@ -224,7 +224,6 @@ Bon codage, et n’hésitez pas à expérimenter avec les nombreuses options d�
 Les tutoriels suivants abordent des sujets étroitement liés qui s’appuient sur les techniques présentées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et à explorer des approches d’implémentation alternatives dans vos propres projets.
 
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Export LaTeX from Word – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Convert Docx File To Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

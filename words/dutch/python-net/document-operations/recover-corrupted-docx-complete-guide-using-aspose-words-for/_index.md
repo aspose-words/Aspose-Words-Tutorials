@@ -236,7 +236,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [hoe herstel je docx – C# gids voor beschadigde Word‑bestanden](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Docx naar markdown converteren – Stapsgewijze C#‑gids](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

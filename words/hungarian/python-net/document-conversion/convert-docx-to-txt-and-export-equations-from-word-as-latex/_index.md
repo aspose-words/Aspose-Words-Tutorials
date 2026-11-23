@@ -225,7 +225,6 @@ Boldog kódolást, és legyen a LaTeX‑ed mindig az első próbálkozásra ford
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Dokumentum mentése txt‑ként – Word Math exportálása LaTeX‑be C#‑ban](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Hogyan exportáljunk LaTeX‑et Word‑ből: DOCX konvertálása Markdown‑ra az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

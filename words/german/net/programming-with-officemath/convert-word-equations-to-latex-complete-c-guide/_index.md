@@ -175,7 +175,6 @@ Haben Sie Fragen zu kniffligen Gleichungen, Lizenzierung oder Performance‑Opti
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
-- [Wie man LaTeX aus Word exportiert: DOCX nach Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX nach Markdown konvertieren – Math‑Gleichungen nach LaTeX exportieren mit Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

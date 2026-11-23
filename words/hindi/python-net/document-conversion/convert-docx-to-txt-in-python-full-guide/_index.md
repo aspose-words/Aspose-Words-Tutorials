@@ -204,7 +204,6 @@ A: Aspose.Words `SaveFormat.MARKDOWN` को सपोर्ट करता ह
 
 - [Convert docx to txt – Word को साधारण टेक्स्ट के रूप में सहेजने का पूर्ण गाइड](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [Save docx as txt – C# के साथ Word Math को LaTeX में निर्यात](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Word से LaTeX निर्यात कैसे करें: Aspose के साथ DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

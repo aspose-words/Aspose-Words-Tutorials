@@ -174,7 +174,6 @@ Heb je vragen over lastige vergelijkingen, licenties, of prestatie‑afstemming?
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx naar markdown converteren – Math‑vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

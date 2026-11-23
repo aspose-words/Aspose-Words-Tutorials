@@ -244,7 +244,6 @@ Próbáld ki, finomítsd a beállításokat, és hagyd, hogy a könyvtár végez
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket és lépésről‑lépésre magyarázatokat tartalmaz, hogy további API‑funkciókat saját projektjeidben is könnyedén felfedezhess és alternatív megvalósítási módokat próbálhass ki.
 
 - [Convert docx to markdown – Step‑by‑Step C# Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

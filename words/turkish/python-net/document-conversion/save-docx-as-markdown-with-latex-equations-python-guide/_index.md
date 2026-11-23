@@ -244,7 +244,6 @@ Geri bildiriminiz, kenar durumlarıyla ilgili hikayeleriniz veya farklı bir iş
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word'den Markdown Kaydetme – Tam Python Rehberi](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Word'den LaTeX Dışa Aktarma: Aspose ile DOCX'i Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX'den Markdown Kaydetme – Adım‑Adım Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

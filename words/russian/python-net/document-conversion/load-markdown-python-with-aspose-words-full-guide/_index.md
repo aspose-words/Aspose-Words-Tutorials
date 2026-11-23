@@ -208,7 +208,6 @@ if __name__ == "__main__":
 Следующие учебники охватывают тесно связанные темы, которые опираются на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные рабочие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
 - [Освойте параметры загрузки Markdown в Aspose.Words для Python для улучшенной обработки документов](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Как экспортировать LaTeX из Word: конвертировать DOCX в Markdown с помощью Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Как экспортировать LaTeX из Word: конвертировать DOCX в Markdown и сохранить как PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

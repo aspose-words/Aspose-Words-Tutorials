@@ -301,7 +301,6 @@ Tem alguma variação que gostaria de compartilhar? Deixe um comentário abaixo 
 
 Os tutoriais a seguir cobrem tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
-- [Como exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Converter docx para markdown – Exportar equações matemáticas para LaTeX com Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Salvar documento como Txt – Exportar Word Math para LaTeX em C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 

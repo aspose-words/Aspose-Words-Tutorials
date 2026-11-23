@@ -209,7 +209,6 @@ Innen tovább felfedezheted a témákat, mint például a **convert markdown to 
 A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat, és alternatív megvalósítási megközelítéseket fedezhess fel saját projektjeidben.
 
 - [Az Aspose.Words Markdown betöltési beállításainak mesterfokon való használata Pythonban a fejlett dokumentumfeldolgozáshoz](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Hogyan exportáljunk LaTeX-et a Wordből: DOCX konvertálása Markdown-re az Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Hogyan exportáljunk LaTeX-et a Wordből: DOCX konvertálása Markdown-re és mentése PDF‑ként](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

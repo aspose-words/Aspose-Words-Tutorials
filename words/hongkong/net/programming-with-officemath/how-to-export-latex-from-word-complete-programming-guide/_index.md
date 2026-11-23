@@ -216,7 +216,6 @@ dotnet run
 
 以下教學涵蓋與本指南密切相關的主題，建立在本篇示範的技巧之上。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [將文件儲存為 Txt – 在 C# 中匯出 Word 數學為 LaTeX](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

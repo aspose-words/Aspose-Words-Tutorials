@@ -225,7 +225,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [jak odzyskać docx – przewodnik C# dla uszkodzonych plików Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Konwertuj docx do markdown – przewodnik krok po kroku C#](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Jak wyeksportować LaTeX z Word: konwertuj DOCX do Markdown z Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -321,7 +321,6 @@ The following tutorials cover closely related topics that build on the technique
 
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Word から LaTeX をエクスポートする方法：Aspose を使用した DOCX から Markdown への変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [docx を markdown として保存 – LaTeX 数式付き完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 

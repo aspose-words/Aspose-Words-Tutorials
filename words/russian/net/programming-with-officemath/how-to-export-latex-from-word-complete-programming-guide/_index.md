@@ -218,7 +218,6 @@ dotnet run
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы в собственных проектах.
 
-- [Как экспортировать LaTeX из Word: Конвертировать DOCX в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Сохранить документ как Txt – Экспортировать Word Math в LaTeX на C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

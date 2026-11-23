@@ -203,7 +203,6 @@ if __name__ == "__main__":
 ## 接下来您应该学习什么？
 
 - [将 docx 保存为 txt – 使用 C# 导出 Word Math 为 LaTeX](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [如何从 Word 导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [如何从 Word 导出 LaTeX：将 DOCX 转换为 Markdown 并保存为 PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

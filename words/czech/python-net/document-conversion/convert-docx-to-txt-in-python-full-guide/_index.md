@@ -201,7 +201,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Převod docx na txt – Kompletní průvodce ukládáním Wordu jako prostý text](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [Uložení docx jako txt – Export rovnic Wordu do LaTeXu pomocí C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Jak exportovat LaTeX z Wordu: Převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

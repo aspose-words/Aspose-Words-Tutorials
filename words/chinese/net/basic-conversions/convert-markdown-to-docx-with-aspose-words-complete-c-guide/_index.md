@@ -242,7 +242,6 @@ Aspose.Words 开箱即支持 GitHub 风格的 markdown 表格。只需确保你�
 以下教程涵盖与本指南技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助你掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
 - [将 docx 转换为 markdown – 步骤详解 C# 指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [如何从 Word 导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

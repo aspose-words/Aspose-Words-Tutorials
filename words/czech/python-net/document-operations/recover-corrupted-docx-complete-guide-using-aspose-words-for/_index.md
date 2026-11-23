@@ -222,7 +222,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [jak obnovit docx – C# průvodce pro poškozené Word soubory](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Převod docx do markdown – krok za krokem C# průvodce](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Jak exportovat LaTeX z Wordu: Převod DOCX do Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -190,7 +190,6 @@ for doc_file in source_dir.glob("*.docx"):
 
 以下教學與本指南緊密相關，能進一步深化您對 API 功能的掌握，並探索在專案中實作的其他方式。
 
-- [How to Export LaTeX from Word – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -207,7 +207,6 @@ Từ đây bạn có thể khám phá các chủ đề tiếp theo như **conver
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Thành thạo tùy chọn tải Markdown của Aspose.Words trong Python để nâng cao xử lý tài liệu](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown & Lưu dưới dạng PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

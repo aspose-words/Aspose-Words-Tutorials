@@ -175,7 +175,6 @@ Van kérdésed nehéz egyenletekkel, licenceléssel vagy teljesítményoptimaliz
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket és lépésről‑lépésre magyarázatokat tartalmaz, hogy további API‑funkciókat saját projektjeidben is elsajátíthasd.
 
-- [Hogyan exportáljunk LaTeX‑et Word‑ből: DOCX konvertálása Markdown‑ra Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX konvertálása Markdown‑ra – Matematikai egyenletek exportálása LaTeX‑be Aspose.Words‑szal](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

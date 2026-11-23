@@ -202,7 +202,6 @@ for filename in os.listdir(input_folder):
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε επιπλέον δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [How to Save Markdown – Convert Word to Markdown & Export Math with Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [How to Export LaTeX from Word – Convert Word to TXT](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 

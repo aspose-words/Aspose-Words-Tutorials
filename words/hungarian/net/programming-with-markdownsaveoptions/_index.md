@@ -86,7 +86,6 @@ Ismerje meg, hogyan exportálhatja a DOCX fájlokat Markdown formátumba egy tel
 Ismerje meg, hogyan menthet DOCX fájlokat TXT formátumba, majd konvertálhatja őket Markdownba az Aspose.Words for .NET segítségével.
 ### [Hogyan állítsuk be a felbontást a DOCX Markdownba konvertálásakor](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Ismerje meg, hogyan állíthatja be a felbontást a DOCX fájlok Markdown formátumba konvertálásakor az Aspose.Words for .NET segítségével.
-### [Hogyan exportáljon LaTeX-et a Wordből: DOCX konvertálása Markdownba az Aspose segítségével](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból Markdown formátumba az Aspose.Words for .NET segítségével.
 Ismerje meg, hogyan ágyazhat be képeket Base64 formátumban a Word dokumentumok Markdownba konvertálásakor az Aspose.Words for .NET segítségével.
 ### [Hogyan mentse a Markdownot a Wordből – Teljes C# útmutató](./how-to-save-markdown-from-word-complete-c-guide/)

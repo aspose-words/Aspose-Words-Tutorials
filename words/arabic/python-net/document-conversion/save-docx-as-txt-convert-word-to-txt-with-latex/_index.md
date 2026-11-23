@@ -204,7 +204,6 @@ if __name__ == "__main__":
 ## ماذا يجب أن تتعلمه بعد ذلك؟
 
 - [حفظ docx كـ txt – تصدير Word Math إلى LaTeX باستخدام C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown وحفظه كـ PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

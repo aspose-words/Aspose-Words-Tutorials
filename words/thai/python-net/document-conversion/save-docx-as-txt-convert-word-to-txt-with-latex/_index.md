@@ -204,7 +204,6 @@ if __name__ == "__main__":
 ## คุณควรเรียนรู้อะไรต่อไป?
 
 - [บันทึก docx เป็น txt – ส่งออก Word Math เป็น LaTeX ด้วย C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown และบันทึกเป็น PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

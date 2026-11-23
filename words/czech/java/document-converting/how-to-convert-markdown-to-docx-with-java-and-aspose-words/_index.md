@@ -221,7 +221,6 @@ Odtud můžete prozkoumat související témata, jako je **convert markdown to w
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Převod docx na markdown – Export matematických rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Jak exportovat LaTeX z Wordu – Převod DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Převod souboru Docx na Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

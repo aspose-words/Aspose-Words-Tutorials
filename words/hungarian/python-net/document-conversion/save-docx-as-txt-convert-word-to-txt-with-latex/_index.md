@@ -205,7 +205,6 @@ Van egy saját megoldásod, amit meg szeretnél osztani – például exportál�
 ## Mit érdemes legközelebb megtanulni?
 
 - [docx mentése txt‑ként – Word Math exportálása LaTeX‑be C#-val](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Hogyan exportáljunk LaTeX-et Wordből: DOCX konvertálása Markdownra Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Hogyan exportáljunk LaTeX-et Wordből: DOCX konvertálása Markdownra és mentése PDF‑ként](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
