@@ -153,7 +153,6 @@ Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML
 
 Leer hoe u DOCX-bestanden naar Markdown converteert, vormschaduwen behoudt en beschadigde documenten herstelt met Aspose.Words voor .NET.
 
-### [Export docx naar markdown in C# – Complete gids](./export-docx-to-markdown-in-c-complete-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappenplan.
 

@@ -31,7 +31,6 @@ Ismerje meg, hogyan használhatja a relatív képutakat a Word dokumentumok Mark
 Ismerje meg, hogyan hozhat létre akadálymentes PDF-et, és konvertálhat Word dokumentumokat Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 ### [DOCX konvertálása Markdownba – Lépésről‑lépésre C# útmutató](./convert-docx-to-markdown-step-by-step-c-guide/)
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.
-### [DOCX konvertálása markdownba C#-ban – Teljes útmutató](./export-docx-to-markdown-in-c-complete-guide/)
 Ismerje meg, hogyan konvertálhatja a DOCX fájlokat markdown formátumba C#-ban egy teljes útmutató segítségével.
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba C#‑ban lépésről‑lépésre az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba – Lépésről‑lépésre C# útmutató](./save-docx-as-markdown-step-by-step-c-tutorial/)

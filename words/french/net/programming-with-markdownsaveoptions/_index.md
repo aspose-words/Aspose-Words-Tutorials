@@ -126,7 +126,6 @@ Apprenez à enregistrer le Markdown depuis Word, extraire les images et converti
 
 Apprenez à convertir des documents Word en Markdown tout en extrayant les images grâce à Aspose.Words pour .NET.
 
-### [Exporter docx en markdown en C# – Guide complet](./export-docx-to-markdown-in-c-complete-guide/)
 
 Apprenez à exporter des fichiers DOCX en Markdown avec un guide complet en C#.
 

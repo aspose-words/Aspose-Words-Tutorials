@@ -122,7 +122,6 @@ Kompletny przewodnik C# pokazujący, jak odzyskać uszkodzony dokument Word przy
 ### [Konwertuj Word do Markdown – Kompletny przewodnik z wyodrębnianiem obrazów](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
 
-### [Eksportuj docx do markdown w C# – Kompletny przewodnik](./export-docx-to-markdown-in-c-complete-guide/)
 Kompletny przewodnik C# konwertujący pliki DOCX na Markdown przy użyciu Aspose.Words.
 
 ### [Jak zapisać Markdown – Kompletny przewodnik C#](./how-to-save-markdown-complete-c-guide/)

@@ -116,7 +116,6 @@
 ### [将 DOCX 转换为 Markdown 时如何设置分辨率](./how-to-set-resolution-when-converting-docx-to-markdown/)
 
 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，设置导出分辨率的步骤和示例。
-### [将 docx 导出为 markdown – 完整 C# 指南](./export-docx-to-markdown-in-c-complete-guide/)
 
 使用 Aspose.Words for .NET 将 docx 文档导出为 Markdown，提供完整示例和分步指南。
 ### [如何导出 LaTeX：将 DOCX 转换为 Markdown 与 TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)

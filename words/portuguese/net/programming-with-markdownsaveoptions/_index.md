@@ -164,7 +164,6 @@ Aprenda a converter arquivos DOCX para Markdown e extrair imagens, mantendo a fo
 ### [Carregar Imagens para CDN na Conversão de DOCX para Markdown – Guia Completo](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
 Aprenda a fazer upload de imagens para CDN durante a conversão de DOCX para Markdown usando Aspose.Words para .NET.
 
-### [Exportar docx para markdown em C# – Guia completo](./export-docx-to-markdown-in-c-complete-guide/)
 Aprenda a converter arquivos DOCX para Markdown em C# com um guia passo a passo usando Aspose.Words.
 
 ### [Como salvar Markdown – Guia completo em C#](./how-to-save-markdown-complete-c-guide/)

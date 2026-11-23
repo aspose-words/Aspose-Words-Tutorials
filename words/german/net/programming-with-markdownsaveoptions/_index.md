@@ -128,7 +128,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren, Formschatten beib
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [DOCX nach Markdown exportieren in C# – Vollständige Anleitung](./export-docx-to-markdown-in-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Wie man Markdown speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-complete-c-guide/)

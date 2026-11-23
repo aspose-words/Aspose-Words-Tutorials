@@ -67,7 +67,6 @@
 
 ### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
-### [تصدير docx إلى markdown في C# – دليل كامل](./export-docx-to-markdown-in-c-complete-guide/)
 
 ### [حفظ docx كـ markdown واستخراج الصور – دليل C#](./save-docx-as-markdown-extract-images-c-guide/)
 
