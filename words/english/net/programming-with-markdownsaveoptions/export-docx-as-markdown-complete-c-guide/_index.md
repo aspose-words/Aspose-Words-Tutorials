@@ -97,7 +97,7 @@ using Aspose.Words.Saving;
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
     // Keep empty paragraphs so the output mirrors the Word layout
-    EmptyParagraphExportMode = EmptyParagraphExportMode.Keep
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
     // You could also use .Discard if you prefer a tighter file
 };
 ```
@@ -135,9 +135,8 @@ If something looks off, you can adjust the `MarkdownSaveOptions` further—e.g.,
 
 | Goal | Setting to Adjust | Example |
 |------|-------------------|---------|
-| Remove all empty lines | `EmptyParagraphExportMode = EmptyParagraphExportMode.Discard` | `mdOptions.EmptyParagraphExportMode = EmptyParagraphExportMode.Discard;` |
+| Remove all empty lines | `EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None` | `mdOptions.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None;` |
 | Embed images as Base64 | `ExportImagesAsBase64 = true` | `mdOptions.ExportImagesAsBase64 = true;` |
-| Preserve Word field codes | `ExportFieldCodes = true` | `mdOptions.ExportFieldCodes = true;` |
 
 ## Full Working Example
 
@@ -160,11 +159,10 @@ class Program
         MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
         {
             // Keep empty paragraphs – change to Discard if you prefer
-            EmptyParagraphExportMode = EmptyParagraphExportMode.Keep,
+            EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine,
 
             // Optional tweaks (uncomment if needed)
             // ExportImagesAsBase64 = true,
-            // ExportFieldCodes = true
         };
 
         // 3️⃣ Save as .md
@@ -198,7 +196,7 @@ This is a paragraph from the original Word file.
 ## Troubleshooting & FAQs
 
 **Q: My tables look weird in the markdown output.**  
-A: Aspose.Words renders tables using the pipe (`|`) syntax, which most parsers support. If the alignment looks off, make sure your viewer respects markdown tables, or enable `TableExportMode = TableExportMode.Markdown` (the default).
+A: Aspose.Words renders tables using the pipe (`|`) syntax, which most parsers support. If the alignment looks off, make sure your viewer respects markdown tables; the library already exports tables in this format by default.
 
 **Q: Images are missing after conversion.**  
 A: By default Aspose.Words extracts images to the same folder as the `.md` file and references them with relative paths. If you need inline images, set `ExportImagesAsBase64 = true` in the `MarkdownSaveOptions`.
