@@ -128,7 +128,6 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba egy teljes 
 Ismerje meg, hogyan állíthat be egyéni képmappát a Word dokumentumok Markdownba konvertálásához az Aspose.Words használatával.
 ### [Word mentése Markdownba – Teljes útmutató a DOCX konvertálásához és képek kinyerésével](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, miközben a DOCX fájlból képeket is kinyer.
-### [Hogyan konvertáljon egyenleteket Wordből Markdownba – Teljes C# útmutató](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 Ismerje meg, hogyan konvertálhat egyenleteket Word dokumentumokból Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba úgy, hogy a sortöréseket megőrizze, lépésről‑lépéses útmutatóval.
 ### [Word mentése Markdownba az Aspose.Words segítségével – Teljes C# útmutató](./save-word-as-markdown-with-aspose-words-full-c-guide/)
