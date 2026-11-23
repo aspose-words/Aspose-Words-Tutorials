@@ -77,20 +77,17 @@ Console.WriteLine($"Loaded document with {document.Sections.Count} section(s).")
 
 ## Step 2: Configure Markdown Save Options  
 
-Aspose.Words gives you fine‑grained control over the Markdown output through `MarkdownSaveOptions`. The most common stumbling block is **empty paragraphs**—by default they might be dropped, leading to lost line breaks in the final `.md` file. Below we set the export mode to **Preserve**, but you can also choose `Remove` if you prefer a tighter layout.
+Aspose.Words gives you fine‑grained control over the Markdown output through `MarkdownSaveOptions`. The most common stumbling block is **empty paragraphs**—by default they are exported as empty lines, but you can change the behavior if you prefer a tighter layout.
 
 ```csharp
 // Step 2 – Set up Markdown export preferences
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Preserve empty paragraphs (alternatively, use Remove to omit them)
-    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.Preserve,
+    // Export empty paragraphs as empty lines (set to None to omit them)
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine,
 
     // Optional: Export images as Base64 strings (good for single‑file markdown)
-    ExportImagesAsBase64 = true,
-
-    // Optional: Use GitHub‑flavored markdown tables
-    TableExportMode = MarkdownTableExportMode.GitHub
+    ExportImagesAsBase64 = true
 };
 
 // Show the chosen settings for debugging
@@ -98,7 +95,7 @@ Console.WriteLine($"EmptyParagraphExportMode: {markdownOptions.EmptyParagraphExp
 Console.WriteLine($"ExportImagesAsBase64: {markdownOptions.ExportImagesAsBase64}");
 ```
 
-*Why this matters:* By explicitly stating how empty paragraphs should be treated, you avoid the dreaded “collapsed whitespace” problem that often trips up *convert word to markdown* scripts. The extra flags (`ExportImagesAsBase64`, `TableExportMode`) are not required for a basic export, but they illustrate how you can tailor the output to match the needs of static site generators or documentation pipelines.
+*Why this matters:* By explicitly stating how empty paragraphs should be treated, you avoid the dreaded “collapsed whitespace” problem that often trips up *convert word to markdown* scripts. The `ExportImagesAsBase64` flag is optional; when set to `false` images are saved as separate files alongside the Markdown document.
 
 ---
 
@@ -128,7 +125,7 @@ Second paragraph after an empty line.
 ![Image1](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-Notice the **blank line** between the two paragraphs—thanks to `EmptyParagraphExportMode.Preserve`. If you had chosen `Remove`, those extra line breaks would disappear, and the Markdown would look more compact.
+Notice the **blank line** between the two paragraphs—thanks to `MarkdownEmptyParagraphExportMode.EmptyLine`. If you had chosen `None`, those extra line breaks would disappear, and the Markdown would look more compact.
 
 ---
 
@@ -139,17 +136,17 @@ Notice the **blank line** between the two paragraphs—thanks to `EmptyParagraph
 Open the generated file in a Markdown previewer (VS Code, GitHub, or a static‑site generator). Check that:
 
 1. Headings match the Word document’s heading styles.
-2. Tables render correctly (GitHub‑flavored if you set the flag).
+2. Tables render correctly (standard pipe‑separated tables are used by default).
 3. Images appear inline (Base64 embedding works in most viewers).
 
 ### Common Issues and How to Fix Them
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
-| Images missing or broken | `ExportImagesAsBase64` set to `false` and images stored externally | Set `ExportImagesAsBase64 = true` or provide a custom image folder via `ImageFolder` |
-| Empty lines collapsed | `EmptyParagraphExportMode` left at default (`Remove`) | Change to `Preserve` as shown in Step 2 |
-| Tables appear as plain text | `TableExportMode` not set to `GitHub` | Use `MarkdownTableExportMode.GitHub` for proper pipe‑separated tables |
-| Unexpected characters (e.g., �) | Source document encoded with a non‑UTF‑8 charset | Ensure the source .docx is saved with Unicode characters; Aspose.Words handles UTF‑8 by default |
+| Images missing or broken | `ExportImagesAsBase64` set to `false` and images saved as separate files that are not in the expected location | Ensure the image files are copied alongside the Markdown file, or set `ExportImagesAsBase64 = true` to embed them |
+| Empty lines collapsed | `EmptyParagraphExportMode` set to `None` (or left at a non‑default value that omits empty paragraphs) | Change to `MarkdownEmptyParagraphExportMode.EmptyLine` to preserve blank lines |
+| Tables appear as plain text | No specific table export mode is required; ensure the Markdown preview supports pipe‑separated tables | Use standard Markdown tables; they are rendered correctly by most viewers |
+| Unexpected characters (e.g., �) | Source document encoded with a non‑UTF‑8 charset | Aspose.Words handles Unicode by default; ensure the source .docx contains proper Unicode characters |
 
 ---
 
@@ -176,9 +173,8 @@ namespace DocxToMarkdownDemo
             // 2️⃣ Configure Markdown export options
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.Preserve,
-                ExportImagesAsBase64 = true,
-                TableExportMode = MarkdownTableExportMode.GitHub
+                EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine,
+                ExportImagesAsBase64 = true
             };
             Console.WriteLine($"Export mode set to {mdOptions.EmptyParagraphExportMode}.");
 
@@ -216,7 +212,7 @@ That tiny addition turns a single‑file script into a batch processor—handy f
 
 ## Conclusion  
 
-In a nutshell, **export docx to markdown** with Aspose.Words in C# is straightforward: load the document, configure `MarkdownSaveOptions` (especially the `EmptyParagraphExportMode`), and call `Save`. You now have a reliable way to **convert Word to markdown**, preserve empty paragraphs, embed images, and even generate GitHub‑flavored tables—all from a few lines of code.
+In a nutshell, **export docx to markdown** with Aspose.Words in C# is straightforward: load the document, configure `MarkdownSaveOptions` (especially the `EmptyParagraphExportMode`), and call `Save`. You now have a reliable way to **convert Word to markdown**, preserve empty paragraphs, embed images, and even generate standard pipe‑separated tables—all from a few lines of code.
 
 Feel free to experiment: try different `EmptyParagraphExportMode` values, switch off Base64 image embedding, or hook the process into an Azure Function for on‑demand conversion. The possibilities are endless, and the core pattern stays the same.
 
