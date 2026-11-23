@@ -321,7 +321,6 @@ Ganti metode `Summarize` stub dengan panggilan HTTP nyata ke API masing‑masing
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Buat markdown dari word – Panduan C# Lengkap](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Buat PDF Aksesibel dan Konversi Word ke Markdown – Panduan C# Lengkap](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Buat Dokumen Word dengan Tabel Menggunakan Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

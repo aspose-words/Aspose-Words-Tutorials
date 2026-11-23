@@ -244,7 +244,6 @@ Sometimes you need to mark a specific paragraph as a *note* for assistive techno
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Erişilebilir PDF Oluşturma ve Word'ü Markdown'a Dönüştür – Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Word Belgesini PDF'ye Dönüştür 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

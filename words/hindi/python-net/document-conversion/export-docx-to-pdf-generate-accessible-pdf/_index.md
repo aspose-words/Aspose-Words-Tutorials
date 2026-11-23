@@ -150,7 +150,6 @@ print(f"Accessible PDF saved to {output_path}")
 निम्नलिखित ट्यूटोरियल्स निकटतम संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API फीचर्स में निपुण बनने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करेंगे।
 
 - [DOCX से सुलभ PDF बनाएं – पूर्ण गाइड](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [सुलभ PDF बनाएं और Word को Markdown में बदलें – पूर्ण C# गाइड](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [C# में सुलभ PDF बनाएं – PDF सुलभता ट्यूटोरियल](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

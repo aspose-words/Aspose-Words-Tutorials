@@ -321,7 +321,6 @@ namespace SummaryReportDemo
 以下教程涵盖与本指南技术紧密相关的主题，帮助你进一步掌握 API 功能并探索在项目中的替代实现方式。每篇资源都提供完整可运行的代码示例和逐步解释。
 
 - [Create markdown from word – Complete C# Guide](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

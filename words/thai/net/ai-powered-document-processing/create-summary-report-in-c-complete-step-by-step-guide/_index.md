@@ -321,7 +321,6 @@ namespace SummaryReportDemo
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอน‑ขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโปรเจกต์ของคุณ
 
 - [สร้าง markdown จาก Word – คู่มือ C# ฉบับเต็ม](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [สร้าง PDF ที่เข้าถึงได้และแปลง Word เป็น Markdown – คู่มือ C# ฉบับเต็ม](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [สร้างเอกสาร Word พร้อมตารางโดยใช้ Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

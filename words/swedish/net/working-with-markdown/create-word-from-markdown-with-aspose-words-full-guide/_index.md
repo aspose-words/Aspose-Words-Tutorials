@@ -187,7 +187,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Skapa tillgänglig PDF och konvertera Word till Markdown – Fullständig C#‑guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

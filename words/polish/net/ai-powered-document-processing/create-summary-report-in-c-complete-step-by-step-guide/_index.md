@@ -309,7 +309,6 @@ Zastąp szkieletowe metody `Summarize` rzeczywistymi wywołaniami HTTP do odpowi
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Utwórz markdown z Word – Kompletny przewodnik C#](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Utwórz dostępny PDF i konwertuj Word do Markdown – Pełny przewodnik C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Utwórz dokument Word z tabelą przy użyciu Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
