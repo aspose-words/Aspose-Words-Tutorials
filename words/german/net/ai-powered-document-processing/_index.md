@@ -67,7 +67,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Erstellen Sie einen Zusammenfassungsbericht in C# – Komplett‑Anleitung Schritt für Schritt](./create-summary-report-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# vollständige Zusammenfassungsberichte Schritt für Schritt erstellen. |
 | [Erstellen eines benutzerdefinierten KI-Modells – Vollständige Anleitung zur Grammatikprüfung in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein benutzerdefiniertes KI‑Modell zur Grammatikprüfung in C# erstellen und integrieren. |
 | [Wie man einen KI-Dokumentenzusammenfasser in C# verwendet](./how-to-use-an-ai-document-summarizer-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI ein Dokument in C# automatisch zusammenfassen. |
-| [Wie man docx mit Aspose.Words KI ins Französische übersetzt](./how-to-translate-docx-to-french-with-aspose-words-ai/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words KI automatisch ins Französische übersetzen. |
+| [Wie man docx mit Aspose.Words KI ins Französische übersetzt](./how-to-translate-docx-with-aspose-words-ai/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words KI automatisch ins Französische übersetzen. |
 | [Wie man den Übersetzer verwendet, um die Dokumentübersetzung in C# zu automatisieren](./how-to-use-translator-to-automate-document-translation-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und dem Translator Dokumente in C# automatisch übersetzen. |
 | [Wie man docx mit KI ins Französische übersetzt – C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI docx-Dateien automatisch ins Französische übersetzen. |
 | [Erstellen Sie ein leeres Word-Dokument und übersetzen Sie es ins Französische](./create-a-blank-word-document-and-translate-it-to-french/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Dokument erstellen und automatisch ins Französische übersetzen. |
@@ -75,6 +75,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man ein Word-Dokument mit OpenAI in C# zusammenfasst](./how-to-summarize-word-document-with-openai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und OpenAI ein Word‑Dokument in C# automatisch zusammenfassen. |
 | [Word-Dokument mit OpenAI-API in C# zusammenfassen](./summarize-word-document-with-openai-api-using-c/) | Erfahren Sie, wie Sie mit der OpenAI-API und C# Word-Dokumente automatisch zusammenfassen. |
 | [Wie man Text mit der Google Translate API in C# übersetzt – Schritt‑für‑Schritt‑Anleitung](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Erfahren Sie, wie Sie mit der Google Translate API Text in C# automatisch übersetzen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man eine Word-Datei mit Aspose.Words.AI in C# zusammenfasst](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words.AI und C# Word-Dateien automatisch zusammenfassen. |
+| [Wie man docx lädt und in C# ins Französische übersetzt](./how-to-load-docx-and-translate-it-to-french-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX in C# laden und automatisch ins Französische übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Belge Özeti Oluşturma – Tam OpenAI Kılavuzu](./create-document-summary-in-c-complete-openai-guide/) | OpenAI modelleriyle C# kullanarak belge özetleme sürecini adım adım öğrenin. |
 | [Aspose.Words AI ile Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aspose.Words AI kullanarak Word belgelerini etkili bir şekilde özetlemenin adım adım rehberi. |
 | [C#'ta AI belge özetleme – tam rehber](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET ve AI modelleriyle C# kullanarak belge özetlemenin tüm adımlarını öğrenin. |
+| [C#'ta Aspose.Words.AI ile Word dosyasını özetleme](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Aspose.Words.AI kullanarak C# ile Word dosyalarını etkili bir şekilde özetleyin. |
 | [C# ile AI özeti oluşturma – adım adım kılavuz](./create-ai-summary-in-c-step-by-step-guide/) | C# kullanarak AI destekli belge özetleri oluşturmayı adım adım öğrenin. |
 | [C# ile AI kullanarak docx'i Fransızcaya çevir](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx belgelerini Fransızcaya otomatik çevirin. |
 | [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
@@ -75,6 +76,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Google AI ile C#'ta Çevrilen Word Belgesini Kaydetme](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI kullanarak C# ile çevrilen Word belgesini nasıl kaydedeceğinizi adım adım öğrenin. |
 | [OpenAI API Kullanarak C# ile Word Belgesini Özetleme](./summarize-word-document-with-openai-api-using-c/) | C# ve OpenAI API'si ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [C# ile Google Translate API Kullanarak Metin Çevirme – Adım Adım Kılavuz](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Google Translate API'sini C# içinde kullanarak metin çevirmenin adım adım rehberi. |
+| [C# ile docx'i yükleyip Fransızcaya çevirme](./how-to-load-docx-and-translate-it-to-french-in-c/) | C# kullanarak docx dosyasını yükleyip Fransızcaya çevirin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

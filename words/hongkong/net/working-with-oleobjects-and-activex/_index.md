@@ -27,6 +27,7 @@ Aspose.Words for .NET 教學中關於使用 OLE 和 ActiveX 物件進行文字�
 | [使用 Ole 套件在 Word 中插入 Ole 對象](./insert-ole-object-with-ole-package/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中插入 OLE 物件。按照我們詳細的逐步指南無縫嵌入文件。 |
 | [在 Word 文件中將 Ole 物件插入](./insert-ole-object-as-icon/) |了解如何使用 Aspose.Words for .NET 將 OLE 物件作為圖示插入 Word 文件中。請按照我們的逐步指南來增強您的文件。 |
 | [使用流插入 Ole 物件作為圖標](./insert-ole-object-as-icon-using-stream/) |在本詳細的分步教程中學習如何使用 Aspose.Words for .NET 的流將 OLE 物件插入圖示。 |
+| [如何在 Word 中使用 C# 與 Aspose.Words 插入 Forms2Ole 控制項](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中將 Forms2Ole 控制項插入 Word 文件。 |
 | [從 Word 檔案讀取 Active XControl 屬性](./read-active-xcontrol-properties/) |透過逐步指南了解如何使用 Aspose.Words for .NET 從 Word 檔案中讀取 ActiveX 控制項屬性。增強您的文件自動化技能。 |
 | [使用 ActiveX 按鈕建立 Word 文件 – C# 指南](./create-word-document-with-activex-button-c-guide/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 C# 中建立包含 ActiveX 按鈕的 Word 文件。 |
 | [使用 Aspose.Words 為 Word 文件新增指令按鈕 – 完整指南](./add-command-button-to-word-document-with-aspose-words-comple/) |透過本完整指南學習如何使用 Aspose.Words 在 Word 文件中新增指令按鈕，實作互動功能。 |

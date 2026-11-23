@@ -74,6 +74,8 @@
 | [Πώς να συνοψίσετε έγγραφο Word με OpenAI σε C#](./how-to-summarize-word-document-with-openai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το OpenAI για να δημιουργήσετε σύνοψη εγγράφων Word σε C# με Aspose.Words. |
 | [Σύνοψη εγγράφου Word με OpenAI API χρησιμοποιώντας C#](./summarize-word-document-with-openai-api-using-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας το OpenAI API. |
 | [Πώς να μεταφράσετε κείμενο με το Google Translate API σε C# – βήμα‑βήμα οδηγός](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Μάθετε πώς να χρησιμοποιήσετε το Google Translate API σε C# για αυτόματη μετάφραση κειμένου, βήμα‑βήμα. |
+| [Πώς να συνοψίσετε ένα αρχείο Word με το Aspose.Words.AI σε C#](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words.AI για να δημιουργήσετε σύνοψη αρχείου Word σε C#. |
+| [Πώς να φορτώσετε docx και να το μεταφράσετε στα Γαλλικά σε C#](./how-to-load-docx-and-translate-it-to-french-in-c/) | Μάθετε πώς να φορτώσετε αρχεία docx και να τα μεταφράσετε αυτόματα στα Γαλλικά χρησιμοποιώντας C# και Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

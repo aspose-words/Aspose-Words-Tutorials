@@ -59,6 +59,7 @@
 | [دليل شامل لتلخيص المستندات بالذكاء الاصطناعي في C#](./ai-document-summarization-in-c-complete-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام الذكاء الاصطناعي في C# خطوة بخطوة. |
 | [إنشاء ملخص AI باستخدام C# – دليل خطوة بخطوة](./create-ai-summary-in-c-step-by-step-guide/) | دليل خطوة بخطوة لإنشاء ملخصات مستندات باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./translate-docx-to-french-with-ai-in-c/) | تعلم كيفية ترجمة مستندات docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
+| [كيفية تحميل ملف docx وترجمته إلى الفرنسية في C#](./how-to-load-docx-and-translate-it-to-french-in-c/) | تعلم كيفية تحميل ملفات docx وترجمتها إلى الفرنسية باستخدام C# و Aspose.Words. |
 | [تلخيص مستند Word باستخدام C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
 | [كيفية ترجمة ملف DOCX إلى الفرنسية وأتمتة ترجمة المستند](./how-to-translate-docx-to-french-and-automate-document-transl/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية تلقائيًا باستخدام Aspose.Words ودمج نماذج الذكاء الاصطناعي. |
 | [دليل LLM المحلي – كيفية استدعاء نموذج LLM محلي وتشغيل فحص القواعد](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | تعلم كيفية استدعاء نموذج LLM محلي وإجراء فحص القواعد النحوية باستخدام Aspose.Words. |
@@ -71,6 +72,7 @@
 | [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
 | [تلخيص مستند Word باستخدام واجهة OpenAI API عبر C#](./summarize-word-document-with-openai-api-using-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام واجهة OpenAI API مع C# للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية ترجمة النص باستخدام واجهة برمجة تطبيقات Google Translate في C# – دليل خطوة بخطوة](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | دليل شامل يوضح كيفية استخدام Google Translate API في C# لترجمة النصوص خطوة بخطوة. |
+| [كيفية تلخيص ملف Word باستخدام Aspose.Words.AI في C#](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات Word باستخدام Aspose.Words.AI في C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

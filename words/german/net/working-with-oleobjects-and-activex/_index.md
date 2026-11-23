@@ -43,6 +43,7 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 | [Word-Dokument programmgesteuert erstellen und ActiveX-Schaltfläche hinzufügen](./create-word-document-programmatically-and-add-activex-button/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument programmgesteuert erstellen und eine ActiveX-Schaltfläche hinzufügen. |
 | [Word-Dokument mit ActiveX-Schaltfläche in C# erstellen](./how-to-create-word-document-with-an-activex-command-button-i/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und eine ActiveX-Schaltfläche in C# hinzufügen. |
 | [Wie man ein Word-Dokument in C# mit einer ActiveX-Befehlsschaltfläche erstellt](./how-to-create-word-document-c-with-an-activex-command-button/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in C# erstellen und eine ActiveX-Befehlsschaltfläche hinzufügen. |
+| [Wie man das Forms2Ole-Steuerelement in Word mit C# und Aspose.Words einfügt](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET das Forms2Ole-Steuerelement in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

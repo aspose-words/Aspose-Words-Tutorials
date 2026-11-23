@@ -42,6 +42,7 @@
 | [Δημιουργία εγγράφου Word με κουμπί εντολής ActiveX σε C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με κουμπί εντολής ActiveX χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να δημιουργήσετε έγγραφο Word C# με κουμπί εντολής ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Μάθετε πώς να προσθέσετε προγραμματιστικά ένα κουμπί εντολής ActiveX σε έγγραφο Word χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να δημιουργήσετε κουμπί υποβολής σε αυτοματοποίηση Word με C#](./how-to-create-submit-button-in-c-word-automation/) | Μάθετε πώς να δημιουργήσετε κουμπί υποβολής σε αυτοματοποίηση Word με C#. |
+| [Πώς να εισαγάγετε έλεγχο Forms2Ole στο Word χρησιμοποιώντας C# και Aspose.Words](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) | Μάθετε πώς να ενσωματώσετε τον έλεγχο Forms2Ole σε έγγραφα Word με C# και Aspose.Words. |
 | [Δημιουργία κενού εγγράφου, προσθήκη ελέγχου ActiveX με περίληψη AI](./create-blank-document-add-activex-control-with-ai-summary/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

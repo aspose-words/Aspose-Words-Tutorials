@@ -74,6 +74,8 @@
 | [OpenAI を使用して C# で Word 文書を要約する方法](./how-to-summarize-word-document-with-openai-in-c/) Aspose.Words for .NET と OpenAI を組み合わせ、C# で Word 文書を自動要約する手順を学びます。 |
 | [OpenAI API を使用して C# で Word 文書を要約する](./summarize-word-document-with-openai-api-using-c/) Aspose.Words for .NET と OpenAI API を組み合わせ、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
 | [C# で Google Translate API を使用してテキストを翻訳する – ステップバイステップ ガイド](./how-to-translate-text-with-google-translate-api-in-c-step-by/) Google Translate API を C# で利用し、テキスト翻訳を自動化する手順をステップバイステップで解説します。 |
+| [Aspose.Words.AI を使用して C# で Word ファイルを要約する方法](./how-to-summarize-a-word-file-with-aspose-words-ai-in-c/) Aspose.Words.AI と C# を組み合わせて、Word ファイルを自動的に要約する手順をステップバイステップで解説します。 |
+| [C# で docx を読み込み、フランス語に翻訳する方法](./how-to-load-docx-and-translate-it-to-french-in-c/) Aspose.Words for .NET と AI を使用して、C# で docx ファイルを読み込みフランス語へ自動翻訳する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

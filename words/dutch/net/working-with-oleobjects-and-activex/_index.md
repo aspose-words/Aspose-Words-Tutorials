@@ -43,6 +43,7 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | [Programmamatig Word-document maken en ActiveX-knop toevoegen](./create-word-document-programmatically-and-add-activex-button/) | Leer hoe u met Aspose.Words voor .NET een Word-document maakt en een ActiveX-knop toevoegt via code. |
 | [Hoe een verzendknop te maken in C# Word-automatisering](./how-to-create-submit-button-in-c-word-automation/) | Leer hoe u een verzendknop toevoegt aan een Word-document via C#-automatisering met Aspose.Words. |
 | [Leeg document maken, ActiveX-besturingselement toevoegen met AI‑samenvatting](./create-blank-document-add-activex-control-with-ai-summary/) | Leer hoe u een leeg document maakt en een ActiveX-besturingselement met AI‑samenvatting toevoegt met Aspose.Words voor .NET. |
+| [Hoe Forms2Ole-besturingselement in Word invoegen met C# en Aspose.Words](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) | Leer hoe u een Forms2Ole-besturingselement in een Word-document invoegt met C# en Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

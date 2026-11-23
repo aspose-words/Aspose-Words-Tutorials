@@ -43,6 +43,7 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Comment créer un bouton d’envoi en automatisation Word C#](./how-to-create-submit-button-in-c-word-automation/) | Apprenez à ajouter un bouton de soumission dans un document Word via l’automatisation C# avec Aspose.Words. |
 | [Créer un document vierge, ajouter un contrôle ActiveX avec résumé IA](./create-blank-document-add-activex-control-with-ai-summary/) | Apprenez à créer un document vierge et y ajouter un contrôle ActiveX générant un résumé à l'aide de l'IA avec Aspose.Words pour .NET. |
 | [Comment créer un document Word C# avec un bouton de commande ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Apprenez à créer un document Word avec un bouton de commande ActiveX en C# grâce à Aspose.Words pour .NET. |
+| [Comment insérer le contrôle Forms2Ole dans Word avec C# et Aspose.Words](./how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w/) | Apprenez à insérer le contrôle Forms2Ole dans un document Word en C# avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
