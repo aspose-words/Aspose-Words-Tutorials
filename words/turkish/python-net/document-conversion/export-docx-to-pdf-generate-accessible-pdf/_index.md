@@ -148,7 +148,6 @@ Kodlamaktan keyif alın ve unutmayın: erişilebilirlik bir özelliktir, sonrada
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [DOCX'ten Erişilebilir PDF Oluştur – Tam Kılavuz](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Erişilebilir PDF Oluştur ve Word'ü Markdown'a Dönüştür – Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [C#'ta Erişilebilir PDF Oluştur – PDF Erişilebilirlik Öğreticisi](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

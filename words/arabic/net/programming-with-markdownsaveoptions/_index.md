@@ -27,7 +27,6 @@
 
 ### [حفظ Word كـ PDF واستعادة Word التالف – تحويل Word إلى Markdown في C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
-### [إنشاء PDF قابل للوصول وتحويل Word إلى Markdown – دليل C# كامل](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 ### [كيفية استخدام Markdown: تحويل DOCX إلى Markdown مع معادلات LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 

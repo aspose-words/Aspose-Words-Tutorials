@@ -310,7 +310,6 @@ Thay thế các phương thức `Summarize` mẫu bằng các cuộc gọi HTTP 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tạo markdown từ word – Hướng dẫn C# đầy đủ](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Tạo PDF có thể truy cập và Chuyển đổi Word sang Markdown – Hướng dẫn C# đầy đủ](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Tạo tài liệu Word với Bảng bằng Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

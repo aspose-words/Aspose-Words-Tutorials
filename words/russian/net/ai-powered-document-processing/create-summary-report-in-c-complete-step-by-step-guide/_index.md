@@ -322,7 +322,6 @@ namespace SummaryReportDemo
 Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом пособии. Каждый ресурс включает полностью рабочие примеры кода с пошаговыми объяснениями, чтобы вы могли освоить дополнительные возможности API и исследовать альтернативные подходы в своих проектах.
 
 - [Создать markdown из Word – Полное руководство C#](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Создать доступный PDF и конвертировать Word в Markdown – Полное руководство C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Создать документ Word с таблицей, используя Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -31,7 +31,6 @@ Aprenda a salvar documentos Word como arquivos Markdown usando C# com Aspose.Wor
 ### [Recuperar Documento Word com Aspose.Words – Guia Completo](./recover-word-document-with-aspose-words-full-guide/)
 Aprenda a recuperar documentos Word corrompidos usando Aspose.Words com um guia passo a passo em C#.
 
-### [Criar PDF acessível e converter Word para Markdown – Guia completo em C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Aprenda a gerar PDFs acessíveis e converter documentos Word para Markdown usando C# com Aspose.Words.
 
 ### [Como usar Markdown: converter DOCX para Markdown com equações LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)

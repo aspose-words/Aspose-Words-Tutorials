@@ -146,7 +146,6 @@ print(f"Accessible PDF saved to {output_path}")
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれ、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [DOCX からアクセシブル PDF を作成 – 完全ガイド](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [アクセシブル PDF を作成し、Word を Markdown に変換 – 完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [C# でアクセシブル PDF を作成 – PDF アクセシビリティチュートリアル](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

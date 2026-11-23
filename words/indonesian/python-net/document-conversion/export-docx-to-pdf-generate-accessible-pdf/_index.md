@@ -150,7 +150,6 @@ Selamat coding, dan ingat: aksesibilitas adalah fitur, bukan pemikiran setelah s
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
 - [Buat PDF yang Dapat Diakses dari DOCX – Panduan Lengkap](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Buat PDF yang Dapat Diakses dan Konversi Word ke Markdown – Panduan Lengkap C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Buat PDF yang Dapat Diakses di C# – Tutorial Aksesibilitas PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

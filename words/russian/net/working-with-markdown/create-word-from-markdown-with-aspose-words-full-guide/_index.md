@@ -246,7 +246,6 @@ namespace MarkdownToWordDemo
 
 - [Как экспортировать LaTeX из Word – Конвертация DOCX в Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Сохранить изображения Word – Конвертация Word в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Создание доступного PDF и конвертация Word в Markdown – Полное руководство C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
