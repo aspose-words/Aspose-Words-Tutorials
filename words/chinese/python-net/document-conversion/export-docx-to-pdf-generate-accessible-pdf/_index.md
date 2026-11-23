@@ -148,7 +148,6 @@ print(f"Accessible PDF saved to {output_path}")
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并在项目中探索替代实现方式。每个资源均提供完整的可运行代码示例和逐步解释。
 
 - [Create Accessible PDF from DOCX – Complete Guide](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Create Accessible PDF in C# – PDF Accessibility Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

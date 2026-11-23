@@ -150,7 +150,6 @@ Viel Spaß beim Programmieren, und denken Sie daran: Barrierefreiheit ist ein Fe
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Barrierefreies PDF aus DOCX erstellen – Komplett‑Leitfaden](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Barrierefreies PDF erstellen und Word nach Markdown konvertieren – Vollständiger C#‑Leitfaden](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Barrierefreies PDF in C# erstellen – PDF‑Barrierefreiheits‑Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

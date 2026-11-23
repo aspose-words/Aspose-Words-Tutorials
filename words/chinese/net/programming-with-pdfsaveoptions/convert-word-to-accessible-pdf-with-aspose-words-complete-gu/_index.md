@@ -242,7 +242,6 @@ class Program
 
 以下教程与本指南所示技术紧密相关，帮助你进一步掌握 API 功能并在项目中探索替代实现方式，每篇都包含完整可运行的代码示例和逐步说明。
 
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Convert Word Document To PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

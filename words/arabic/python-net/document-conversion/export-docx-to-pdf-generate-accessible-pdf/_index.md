@@ -148,7 +148,6 @@ print(f"Accessible PDF saved to {output_path}")
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شاملة للكود مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [إنشاء PDF يمكن الوصول إليه من DOCX – دليل كامل](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [إنشاء PDF يمكن الوصول إليه وتحويل Word إلى Markdown – دليل C# كامل](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [إنشاء PDF يمكن الوصول إليه في C# – درس إمكانية وصول PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

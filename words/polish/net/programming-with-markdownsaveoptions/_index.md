@@ -32,7 +32,6 @@ Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown, k
 
 ### [Zapisz dokument Word jako PDF i odzyskaj uszkodzony Word – konwertuj Word na Markdown w C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
-### [Utwórz dostępny PDF i konwertuj Word do Markdown – Pełny przewodnik C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentów Word do formatu Markdown.
 
 ### [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)

@@ -196,7 +196,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak exportovat LaTeX z Wordu – převést DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Uložit obrázky z Wordu – převést Word na Markdown pomocí Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Vytvořit přístupný PDF a převést Word na Markdown – Kompletní C# průvodce](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

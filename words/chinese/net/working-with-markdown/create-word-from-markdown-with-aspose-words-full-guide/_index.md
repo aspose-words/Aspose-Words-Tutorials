@@ -199,7 +199,6 @@ foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 
 - [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [保存 Word 图像 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [创建可访问的 PDF 并将 Word 转换为 Markdown – 完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
