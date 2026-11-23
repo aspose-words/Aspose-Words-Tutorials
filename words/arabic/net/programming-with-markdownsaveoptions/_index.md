@@ -120,7 +120,6 @@
 ### [مجلد صور مخصص – تحويل Word إلى Markdown باستخدام Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
 
 
-### [كيفية تحويل المعادلات من Word إلى Markdown – دليل C# كامل](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
 
 ### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
