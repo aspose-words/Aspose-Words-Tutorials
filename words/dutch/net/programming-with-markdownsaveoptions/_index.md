@@ -62,7 +62,6 @@ Leer hoe u Word-documenten naar Markdown converteert en wiskundige vergelijkinge
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#‑handleiding.
-### [Export docx als markdown – Complete C#-gids](./export-docx-as-markdown-complete-c-guide/)
 Leer hoe u docx-bestanden exporteert naar markdown met een volledige C#‑handleiding.
 
 
