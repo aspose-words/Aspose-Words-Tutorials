@@ -237,7 +237,6 @@ def batch_convert(folder: str):
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [دليل Word إلى PDF: تحويل DOCX إلى PDF باستخدام Aspose.Words](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [كيفية حفظ Markdown – تحويل Word إلى Markdown وتصدير الرياضيات باستخدام Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown وحفظه كـ PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

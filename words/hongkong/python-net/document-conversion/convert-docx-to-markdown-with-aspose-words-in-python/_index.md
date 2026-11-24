@@ -182,7 +182,6 @@ python convert_docx.py
 
 - [復原受損的 DOCX 並將 Word 轉換為 Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [如何儲存 Markdown – 將 Word 轉換為 Markdown 並使用 Aspose.Words 匯出數學](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

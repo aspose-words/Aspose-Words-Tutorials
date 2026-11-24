@@ -203,7 +203,6 @@ for filename in os.listdir(input_folder):
 
 Следующие руководства охватывают тесно связанные темы, которые опираются на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как сохранить Markdown – Конвертировать Word в Markdown и экспортировать Math с Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Как экспортировать LaTeX из Word – Конвертировать Word в TXT](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

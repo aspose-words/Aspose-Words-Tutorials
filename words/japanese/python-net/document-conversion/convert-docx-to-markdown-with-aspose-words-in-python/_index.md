@@ -182,7 +182,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [破損した DOCX の復元と Word から Markdown への変換](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Word から LaTeX をエクスポートする方法 – DOCX を Markdown に変換](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Markdown を保存する方法 – Word を Markdown に変換し、Aspose.Words で数式をエクスポート](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

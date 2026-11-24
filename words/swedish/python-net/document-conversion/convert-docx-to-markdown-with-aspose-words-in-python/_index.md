@@ -184,7 +184,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Återställ korrupt DOCX & konvertera Word till Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Hur man exporterar LaTeX från Word – konvertera DOCX till Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Hur man sparar Markdown – konvertera Word till Markdown & exportera matematik med Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

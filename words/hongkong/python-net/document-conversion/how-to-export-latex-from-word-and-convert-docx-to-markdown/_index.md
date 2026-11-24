@@ -200,7 +200,6 @@ for filename in os.listdir(input_folder):
 
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [如何儲存 Markdown – 使用 Aspose.Words 將 Word 轉換為 Markdown 並匯出數學](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [如何從 Word 匯出 LaTeX – 將 Word 轉換為 TXT](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

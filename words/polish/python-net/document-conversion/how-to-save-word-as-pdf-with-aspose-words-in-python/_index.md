@@ -238,7 +238,6 @@ Kolejne kroki, które możesz rozważyć:
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Samouczek Word do PDF: Konwertuj DOCX na PDF przy użyciu Aspose.Words](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Jak zapisać Markdown – Konwertuj Word na Markdown i eksportuj matematyki przy użyciu Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Jak wyeksportować LaTeX z Worda: Konwertuj DOCX na Markdown i zapisz jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

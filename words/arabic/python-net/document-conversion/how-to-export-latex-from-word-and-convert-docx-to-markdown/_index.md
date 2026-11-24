@@ -201,7 +201,6 @@ for filename in os.listdir(input_folder):
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
 
-- [How to Save Markdown – Convert Word to Markdown & Export Math with Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [How to Export LaTeX from Word – Convert Word to TXT](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

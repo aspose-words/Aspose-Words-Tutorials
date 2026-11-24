@@ -204,7 +204,6 @@ By mastering **how to export latex**, you unlock a fast, reliable way to **conve
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects. → 다음 튜토리얼은 이 가이드에서 보여준 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 리소스에는 완전한 코드 예제와 단계별 설명이 포함되어 있어 추가 API 기능을 마스터하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [Markdown 저장 – Word를 Markdown으로 변환하고 Aspose.Words로 수식 내보내기](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Word에서 LaTeX 내보내기 – Word를 TXT로 변환](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

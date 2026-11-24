@@ -238,7 +238,6 @@ Seçeneklerle denemeler yapın ve bulgularınızı paylaşın. Kodlamanın tadı
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanıza ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
 - [Word to PDF Öğreticisi: Aspose.Words ile DOCX'i PDF'e Dönüştürme](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Markdown Kaydetme – Word'ü Markdown'a Dönüştürme ve Matematik'i Aspose.Words ile Dışa Aktarma](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Word'den LaTeX Dışa Aktarma: DOCX'i Markdown'a Dönüştürme ve PDF Olarak Kaydetme](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
