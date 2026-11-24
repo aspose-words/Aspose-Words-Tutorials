@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-04-02
-description: How to use Aspose to convert DOCX to Markdown, including Office Math
-  export as LaTeX. Learn step‑by‑step conversion of equations and save Word as markdown.
+description: How to use Aspose to convert DOCX to Markdown, including Office Math export as LaTeX. Learn step‑by‑step conversion of equations and save Word as markdown.
 draft: false
 keywords:
 - how to use aspose
@@ -11,8 +10,7 @@ keywords:
 - how to convert equations
 - save word as markdown
 language: en
-og_description: How to use Aspose to convert DOCX to Markdown and export Office Math
-  as LaTeX. Complete guide for saving Word as markdown.
+og_description: How to use Aspose to convert DOCX to Markdown and export Office Math as LaTeX. Complete guide for saving Word as markdown.
 og_title: How to Use Aspose – Convert DOCX to Markdown with Math
 tags:
 - Aspose.Words
@@ -87,11 +85,10 @@ The key to **how to export math** lies in `MarkdownSaveOptions`. Setting `Office
 // Create options object and ask for LaTeX math export
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
     // Optional: keep original line breaks for better diff visibility
-    ExportImagesAsBase64 = true,
-    // Optional: preserve table formatting
-    ExportTableLayout = TableLayoutType.AutoFit
+    ExportImagesAsBase64 = true
+    // Optional: preserve table formatting (no direct option in MarkdownSaveOptions)
 };
 ```
 
@@ -171,9 +168,9 @@ class DocxToMarkdown
             // ==== 4️⃣ Set up Markdown options with LaTeX math export ====
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-                ExportImagesAsBase64 = true,
-                ExportTableLayout = TableLayoutType.AutoFit
+                OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
+                ExportImagesAsBase64 = true
+                // No direct table layout option for MarkdownSaveOptions
             };
 
             // ==== 5️⃣ Save as Markdown ====
