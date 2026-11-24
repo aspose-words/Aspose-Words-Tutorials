@@ -131,7 +131,6 @@ Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet utilis
 
 Apprenez à enregistrer des documents Word en Markdown avec extraction d'images grâce à Aspose.Words pour .NET.
 
-### [Enregistrer Word en markdown – extraire les images du docx](./save-word-as-markdown-extract-images-from-docx/)
 
 Apprenez à enregistrer un document Word en Markdown tout en extriquant les images du fichier DOCX grâce à Aspose.Words pour .NET.
 

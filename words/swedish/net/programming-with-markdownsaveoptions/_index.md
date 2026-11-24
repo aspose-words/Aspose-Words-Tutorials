@@ -139,7 +139,6 @@ Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad ste
 
 Lär dig spara DOCX som Markdown och exportera Word‑ekvationer till LaTeX med en komplett C#‑guide.
 
-### [Spara Word som markdown – extrahera bilder från docx](./save-word-as-markdown-extract-images-from-docx/)
 Lär dig spara Word-dokument som Markdown och extrahera bilder med en komplett C#‑guide.
 
 ### [Bevara radbrytningar: Konvertera DOCX till Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
