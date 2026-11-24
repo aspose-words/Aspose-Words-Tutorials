@@ -201,7 +201,6 @@ Kodlamaktan keyif alın ve PDF'lerinizi erişilebilir tutun!
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Docx'i PDF'e Dönüştür – Erişilebilir PDF'ler için Tam Kılavuz](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Word'den Erişilebilir PDF Oluştur – Tam Aspose.Words Kılavuzu](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Erişilebilir PDF Oluştur – Word'den PDF Erişilebilirliği](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

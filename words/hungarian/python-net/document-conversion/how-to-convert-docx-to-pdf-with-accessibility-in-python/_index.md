@@ -203,7 +203,6 @@ Boldog kódolást, és tartsd a PDF‑jeidet hozzáférhetőnek!
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Docx konvertálása pdf-re – Teljes útmutató hozzáférhető PDF-ekhez](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Hozzáférhető PDF létrehozása Word-ből – Teljes Aspose.Words útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Hozzáférhető PDF létrehozása – Word PDF hozzáférhetőség konvertálása](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
