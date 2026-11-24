@@ -151,7 +151,6 @@ Leer hoe u Markdown opslaat met een volledige C#‑gids.
 
 Leer hoe u een callback implementeert in C# om DOCX-bestanden naar Markdown te converteren met Aspose.Words.
 
-### [Docx opslaan als txt – converteer docx naar markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 
 Leer hoe u een DOCX-bestand opslaat als TXT en vervolgens converteert naar Markdown met Aspose.Words voor .NET.
 

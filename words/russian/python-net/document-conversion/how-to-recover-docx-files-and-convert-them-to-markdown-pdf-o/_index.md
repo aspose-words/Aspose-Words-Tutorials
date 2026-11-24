@@ -238,7 +238,6 @@ python convert_docx.py
 Следующие руководства охватывают тесно связанные темы, основанные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
 - [Конвертировать DOCX в Markdown – Полное руководство с использованием Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Сохранить docx как txt – конвертировать docx в markdown](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
