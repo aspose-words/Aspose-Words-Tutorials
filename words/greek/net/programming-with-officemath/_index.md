@@ -28,7 +28,6 @@
 | [Πώς να μετατρέψετε εξισώσεις στο Word σε LaTeX – αποθήκευση ως TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Μάθετε πώς να μετατρέψετε εξισώσεις Word σε LaTeX και να τις αποθηκεύσετε ως αρχείο TXT χρησιμοποιώντας Aspose.Words για .NET. |
 | [Μετατροπή Word σε LaTeX – Πλήρης Οδηγός C# για Εξαγωγή Office Math ως LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Μάθετε πώς να μετατρέπετε έγγραφα Word σε LaTeX, εξάγοντας μαθηματικές εξισώσεις Office Math με C#. |
 | [Αποθήκευση Office Math LaTeX – Εξαγωγή εξισώσεων Word σε LaTeX με C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Μάθετε πώς να εξάγετε εξισώσεις Office Math από έγγραφα Word σε μορφή LaTeX χρησιμοποιώντας C#. |
-| [Μετατροπή DOCX σε TXT – Εξαγωγή Εξισώσεων Word σε LaTeX με C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε TXT και να εξάγετε τις εξισώσεις Word σε LaTeX χρησιμοποιώντας C#. |
 | [Πώς να Εξάγετε Μαθηματικά από το Word σε LaTeX – Πλήρης Οδηγός](./how-to-export-math-from-word-to-latex-complete-guide/) | Μάθετε πώς να εξάγετε μαθηματικές εξισώσεις από έγγραφα Word σε μορφή LaTeX με πλήρη οδηγό βήμα-βήμα. |
 | [Αποθήκευση docx ως txt – Εξαγωγή εξισώσεων Word σε MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε εξισώσεις Word σε MathML χρησιμοποιώντας C#. |
 
