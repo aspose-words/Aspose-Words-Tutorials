@@ -194,7 +194,6 @@ Leer hoe u de juiste bestandsextensie bepaalt bij het omzetten van DOCX naar Mar
 
 Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑voor‑stap C#‑handleiding.
 
-### [Hoe Markdown te exporteren vanuit DOCX met afbeeldingen – Complete gids](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 ### [Aangepaste afbeeldingsmap – Converteer Word naar Markdown met Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
 
