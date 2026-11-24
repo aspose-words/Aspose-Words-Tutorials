@@ -72,7 +72,6 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 ### [Docx naar markdown – Complete gids met Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een volledige gids en Aspose.Words voor .NET.
-### [Word opslaan als markdown – afbeeldingen extraheren uit docx](./save-word-as-markdown-extract-images-from-docx/)
 
 Leer hoe u afbeeldingen uit een DOCX extraheert bij het opslaan als Markdown met Aspose.Words voor .NET.
 

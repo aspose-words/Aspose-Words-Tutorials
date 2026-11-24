@@ -143,7 +143,6 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Bildern in Markdown konvertieren – 
 
 Erfahren Sie, wie Sie Word‑Gleichungen beim Export nach Markdown in LaTeX‑Formeln umwandeln.
 
-### [Word als Markdown speichern – Bilder aus DOCX extrahieren](./save-word-as-markdown-extract-images-from-docx/)
 
 ### [Zeilenumbrüche beibehalten: DOCX in Markdown konvertieren](./preserve-line-breaks-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie beim Konvertieren von DOCX nach Markdown Zeilenumbrüche erhalten.
