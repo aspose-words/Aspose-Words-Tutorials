@@ -215,7 +215,6 @@ Apprenez à convertir des fichiers DOCX en Markdown en C# grâce à un guide com
 ### [Enregistrer docx en markdown – Guide complet avec équations LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 
 ### [Dossier d'images personnalisé pour l'exportation Markdown avec images – Guide complet](./custom-image-folder-for-export-markdown-with-images-complete/)
-### [Récupérer un document Word avec Aspose.Words – Guide complet](./recover-word-document-with-aspose-words-full-guide/)
 
 Apprenez à récupérer un document Word corrompu et à le restaurer en utilisant Aspose.Words avec un guide complet en C#.
 

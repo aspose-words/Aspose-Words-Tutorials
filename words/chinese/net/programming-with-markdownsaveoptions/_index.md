@@ -241,7 +241,6 @@
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 markdown，并提取并保存其中的图像文件。
 
-### [使用 Aspose.Words 恢复 Word 文档 – 完整指南](./recover-word-document-with-aspose-words-full-guide/)
 
 使用 Aspose.Words for .NET 将受损的 Word 文档恢复并保存，提供完整的 C# 示例和步骤指南。
 ### [将 docx 保存为 markdown – 完整 C# 指南（使用 Aspose.Words）](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
