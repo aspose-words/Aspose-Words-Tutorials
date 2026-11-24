@@ -81,7 +81,6 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [Aspose.Words を使用して DOCX から PDF を保存する方法 – ステップバイステップ ガイド](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使い、DOCX ファイルを PDF に変換して保存する手順を詳しく解説します。 |
 | [C#でドキュメントをPDFとして保存する – 完全ガイド](./save-document-as-pdf-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# でドキュメントを PDF に変換する完全な手順を学びます。 |
 
-| [Word からアクセシブルな PDF を作成 – 完全 C# ガイド](./create-accessible-pdf-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を C# で作成する手順を詳しく解説します。 |
 | [C#でPDFにアクセシビリティタグを付ける – 完全ガイド](./tag-pdf-for-accessibility-in-c-complete-guide/) Aspose.Words for .NET を使用し、C#でPDFにアクセシビリティタグを付与する完全な手順を解説します。 |
 | [Aspose を使用して Word から PDF をエクスポートする方法 – 完全ステップバイステップガイド](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) Aspose.Words for .NET を使い、Word 文書を PDF にエクスポートする手順を詳細に解説します。 |
 | [C#でフォント置換を使用してドキュメントをPDFとして保存する – 完全ガイド](./save-document-pdf-with-font-substitution-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント置換を行いながらドキュメントをPDFに保存する方法をステップバイステップで解説します。 |
