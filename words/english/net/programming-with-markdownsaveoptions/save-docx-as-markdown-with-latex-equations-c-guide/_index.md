@@ -80,11 +80,13 @@ Now we tell Aspose.Words how we want the Markdown to look. The key property is `
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
     // This option ensures that all Office Math is rendered as LaTeX
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
 
-    // Optional: preserve original line breaks for nicer diffing
-    ExportHeadersAsHtml = false,
-    ExportImagesAsBase64 = true // embed images directly into the MD file
+    // Do not export headers/footers (the original code used a non‑existent property)
+    ExportHeadersFootersMode = TxtExportHeadersFootersMode.None,
+
+    // Optional: embed images directly into the MD file
+    ExportImagesAsBase64 = true
 };
 
 // Show the chosen options (helpful when troubleshooting)
@@ -138,14 +140,14 @@ Most developers think “just drop the DOCX into a converter and hope for the be
 | **Plain text fallback** | Simple, no extra dependencies. | Lose the semantic meaning of equations. |
 | **LaTeX export (recommended)** | Small, searchable, renders nicely with MathJax/KaTeX. | Requires a Markdown renderer that supports LaTeX. |
 
-Because LaTeX is a de‑facto standard for scientific documentation, using `OfficeMathExportMode.LaTeX` gives you the best of both worlds: lightweight files and high‑quality rendering.
+Because LaTeX is a de‑facto standard for scientific documentation, using `MarkdownOfficeMathExportMode.Latex` gives you the best of both worlds: lightweight files and high‑quality rendering.
 
 ---
 
 ## Pro Tips & Common Pitfalls
 
 - **Path handling:** Use `Path.Combine(Environment.CurrentDirectory, "input.docx")` to avoid hard‑coded separators.
-- **Large documents:** If you’re processing a multi‑megabyte DOCX, consider streaming the file (`Document.Load(Stream)`) to reduce memory pressure.
+- **Large documents:** If you’re processing a multi‑megabyte DOCX, consider streaming the file (`new Document(stream)`) to reduce memory pressure.
 - **Images:** `ExportImagesAsBase64 = true` embeds images directly. If you prefer separate image files, set this to `false` and provide an `ImagesFolder` path.
 - **Encoding:** Aspose.Words writes UTF‑8 by default, which plays nicely with most Git pipelines. No extra conversion needed.
 - **Testing:** Run the generated Markdown through a local Markdown previewer that supports LaTeX (e.g., VS Code with the “Markdown+Math” extension) to verify the equations render correctly.
@@ -175,9 +177,9 @@ class Program
         // --------------------------------------------------------------
         MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
             ExportImagesAsBase64 = true,
-            ExportHeadersAsHtml = false
+            ExportHeadersFootersMode = TxtExportHeadersFootersMode.None
         };
 
         // --------------------------------------------------------------
