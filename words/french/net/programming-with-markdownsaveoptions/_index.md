@@ -220,7 +220,6 @@ Apprenez à récupérer un document Word corrompu et à le restaurer en utilisan
 
 
 Apprenez à exporter des documents Word en Markdown tout en conservant les ombres de formes et à générer des PDF/UA conformes.
-### [Supprimer les paragraphes vides – Convertir Word en Markdown en C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 
 Apprenez à supprimer les paragraphes vides lors de la conversion de documents Word en Markdown avec Aspose.Words pour .NET en C#.
 ### [Créer du markdown à partir de Word avec Aspose.Words – Guide complet C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)

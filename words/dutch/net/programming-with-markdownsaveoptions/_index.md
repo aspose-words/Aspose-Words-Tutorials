@@ -253,7 +253,6 @@ Leer hoe u met C# Markdown genereert vanuit Word-documenten met een volledige st
 
 Leer hoe u een markdown‑bestand maakt vanuit Word en formules exporteert met Aspose.Words voor .NET.
 
-### [Lege alinea's verwijderen – Converteer Word naar Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 
 Leer hoe u lege alinea's uit Word-documenten verwijdert tijdens de conversie naar Markdown met Aspose.Words voor .NET.
 

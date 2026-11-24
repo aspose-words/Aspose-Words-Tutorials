@@ -239,7 +239,6 @@ Lär dig skapa markdown‑filer från Word och exportera ekvationer med en kompl
 ### [Spara Markdown – Fullständig guide med bildextraktion](./how-to-save-markdown-full-guide-with-image-extraction/)
 Lär dig spara Markdown-filer och extrahera bilder med en komplett guide i C#.
 
-### [Ta bort tomma stycken – Konvertera Word till Markdown i C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Lär dig hur du tar bort tomma stycken när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 ### [Skapa markdown från Word med Aspose.Words – Fullständig C#-guide](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Lär dig konvertera Word-dokument till Markdown med en komplett C#-guide som täcker alla steg.
