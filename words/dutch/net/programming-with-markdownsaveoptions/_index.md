@@ -168,7 +168,6 @@ Leer hoe u een DOCX-bestand opslaat als TXT en vervolgens converteert naar Markd
 
 Leer hoe u afbeeldingen uit een DOCX-document in Markdown kunt embedden met Aspose.Words voor .NET.
 
-### [Hoe resolutie in te stellen bij het converteren van DOCX naar Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 
 Leer hoe u de resolutie configureert bij het omzetten van DOCX naar Markdown met Aspose.Words voor .NET.
 

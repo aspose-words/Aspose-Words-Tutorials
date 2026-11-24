@@ -141,7 +141,6 @@ Lär dig spara DOCX-filer som TXT och konvertera dem till Markdown med en enkel 
 ### [Hur man bäddar in bilder i Markdown från DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Lär dig hur du extraherar och bäddar in bilder från DOCX-filer när du konverterar till Markdown med Aspose.Words för .NET.
 
-### [Hur man ställer in upplösning vid konvertering av DOCX till Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Lär dig hur du anger upplösning för bilder när du konverterar DOCX-filer till Markdown med Aspose.Words för .NET.
 
 ### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
