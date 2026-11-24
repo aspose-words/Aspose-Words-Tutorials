@@ -130,7 +130,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – S
 ### [Wie man Callback in C# verwendet – DOCX in Markdown konvertieren](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie Callback‑Funktionen in C# nutzen, um DOCX‑Dateien in Markdown zu konvertieren.
 
-### [DOCX als TXT speichern – DOCX in Markdown konvertieren](./save-docx-as-txt-convert-docx-to-markdown/)
 Speichern Sie DOCX-Dateien als TXT und konvertieren Sie sie anschließend in Markdown – Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Word als Markdown speichern – Vollständige C#‑Anleitung](./how-to-save-word-as-markdown-complete-c-guide/)

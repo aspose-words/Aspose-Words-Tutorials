@@ -38,7 +38,6 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Exportovat Markdown z Wordu – kompletní průvodce v C#](./how-to-export-markdown-from-word-complete-c-guide/) | Naučte se, jak exportovat Markdown z Wordu pomocí kompletního průvodce v C#. |
 | [Jak používat Aspose – Převod DOCX do Markdownu s rovnicemi LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) | Naučte se převádět soubory DOCX do Markdownu a zachovat rovnice LaTeX pomocí Aspose.Words pro .NET. |
 | [Převod Wordu do Markdownu – Extrakce obrázků v C#](./convert-word-to-markdown-extract-images-in-c/) | Naučte se převádět dokumenty Word do Markdownu a extrahovat obrázky pomocí Aspose.Words pro .NET v C#. |
-| [Uložte docx jako txt – převod docx do markdownu](./save-docx-as-txt-convert-docx-to-markdown/) | Naučte se převádět soubory DOCX do formátu TXT a Markdown pomocí Aspose.Words pro .NET. |
 | [Jak vložit obrázky do Markdownu z DOCX](./how-to-embed-images-in-markdown-from-docx/) | Naučte se, jak vložit obrázky z dokumentu DOCX do Markdownu pomocí Aspose.Words pro .NET. |
 | [Export docx do markdown – Kompletní průvodce v C#](./export-docx-to-markdown-in-c-complete-guide/) | Naučte se převádět soubory DOCX do formátu Markdown pomocí kompletního průvodce v C#. |
 | [Uložení docx jako markdown – Export matematických rovnic z Wordu do LaTeXu pomocí Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Naučte se převádět soubory DOCX do Markdownu a exportovat rovnice Wordu do LaTeXu pomocí Aspose.Words pro .NET. |

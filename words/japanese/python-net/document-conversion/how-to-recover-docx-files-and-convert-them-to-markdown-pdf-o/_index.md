@@ -235,7 +235,6 @@ python convert_docx.py
 以下のチュートリアルは、本ガイドで示した手法に基づく関連トピックをカバーしています。各リソースには、完全に動作するコード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
 - [Aspose.Words を使用した DOCX から Markdown への変換完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [DOCX を txt として保存 – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
