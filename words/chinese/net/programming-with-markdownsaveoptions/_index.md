@@ -100,7 +100,6 @@
 
 使用 Aspose.Words for .NET 将 DOCX 文档中的 LaTeX 导出为 Markdown，提供完整示例和分步指南。
 
-### [如何使用 Aspose – 将 DOCX 转换为带 LaTeX 方程的 Markdown](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档转换为包含 LaTeX 方程的 Markdown，提供完整示例和步骤指南。
 ### [将 docx 保存为 txt – 将 docx 转换为 markdown](./save-docx-as-txt-convert-docx-to-markdown/)

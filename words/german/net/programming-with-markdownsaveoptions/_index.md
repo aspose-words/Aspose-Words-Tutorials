@@ -164,7 +164,6 @@ Erfahren Sie, wie Sie LaTeX‑Formeln aus Word extrahieren und DOCX‑Dateien in
 
 ### [Dateierweiterung beim Konvertieren von DOCX zu Markdown bestimmen – Vollständige Anleitung](./determine-file-extension-while-converting-docx-to-markdown-c/)
 
-### [Wie man Aspose verwendet – DOCX in Markdown mit LaTeX‑Gleichungen konvertieren](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 Erfahren Sie, wie Sie mit Aspose DOCX‑Dateien in Markdown konvertieren und dabei LaTeX‑Formeln korrekt übernehmen.
 
 ### [Word in Markdown konvertieren – Bilder extrahieren in C#](./convert-word-to-markdown-extract-images-in-c/)

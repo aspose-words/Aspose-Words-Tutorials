@@ -154,7 +154,6 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z dokume
 ### [Określ rozszerzenie pliku podczas konwertowania DOCX do Markdown – Kompletny przewodnik](./determine-file-extension-while-converting-docx-to-markdown-c/)
 Dowiedz się, jak ustalić właściwe rozszerzenie pliku przy konwersji DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
-### [Jak używać Aspose – konwertuj DOCX do Markdown z równaniami LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 Dowiedz się, jak konwertować pliki DOCX do formatu Markdown, zachowując równania LaTeX przy użyciu Aspose.Words dla .NET.
 
 ### [Zapisz obrazy Word podczas konwertowania Word na Markdown – Kompletny przewodnik C#](./save-word-images-while-converting-word-to-markdown-complete/)
