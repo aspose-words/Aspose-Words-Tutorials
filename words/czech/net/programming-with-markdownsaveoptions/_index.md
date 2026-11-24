@@ -61,7 +61,6 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Uložte Word jako Markdown – Kompletní průvodce v C#](./save-word-as-markdown-complete-c-guide/) | Naučte se převádět dokumenty Word do formátu Markdown pomocí kompletního průvodce v C#. |
 | [Vytvořte složku s prostředky a převádějte DOCX do Markdownu pomocí Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) |  |
 | [Uložení DOCX jako Markdown s Aspose.Words – Kompletní průvodce v C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Kompletní průvodce převodem DOCX do Markdownu v C# pomocí Aspose.Words. |
-| [Uložení docx jako markdown – Kompletní průvodce s prázdnými odstavci](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Naučte se převádět DOCX do Markdownu a zachovat prázdné odstavce pomocí Aspose.Words pro .NET. |
 | [Převod DOCX do Markdownu v C# – Kompletní průvodce](./convert-docx-to-markdown-in-c-complete-guide/) | Kompletní průvodce převodem souborů DOCX do Markdownu v C# pomocí Aspose.Words. |
 | [Jak uložit Markdown z Wordu – Kompletní průvodce k extrakci obrázků a konverzi DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Kompletní průvodce ukládáním Markdownu z Wordu, včetně extrakce obrázků a konverze DOCX pomocí Aspose.Words pro .NET. |
 | [Relativní cesta k obrázku v Markdownu – převod Wordu do Markdownu](./markdown-image-relative-path-convert-word-to-markdown/) | Naučte se, jak při konverzi Wordu do Markdownu nastavit relativní cesty k obrázkům pomocí Aspose.Words pro .NET. |
