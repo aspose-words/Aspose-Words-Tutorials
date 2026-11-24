@@ -224,7 +224,6 @@ Pokud se PDF otevře bez chyb a Markdown se vykreslí správně, úspěšně jst
 
 ## Co se naučíte dál?
 
-- [Jak uložit Markdown z DOCX – průvodce krok za krokem](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Uložit docx jako pdf s Aspose.Words – kompletní C# průvodce](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

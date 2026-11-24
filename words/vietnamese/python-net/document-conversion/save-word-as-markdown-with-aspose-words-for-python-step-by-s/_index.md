@@ -263,7 +263,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Cách Lưu Markdown từ Word – Hướng Dẫn Python Đầy Đủ](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Lưu Hình Ảnh Word – Chuyển Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Cách Lưu Markdown từ DOCX – Hướng Dẫn Từng Bước](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

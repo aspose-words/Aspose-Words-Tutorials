@@ -94,7 +94,6 @@ Apprenez à convertir des documents Word en Markdown tout en exportant un PDF co
 ### [Comment enregistrer Word en Markdown – Guide complet C#](./how-to-save-word-as-markdown-complete-c-guide/)
 ### [Créer du markdown depuis Word – Guide complet C#](./create-markdown-from-word-full-c-guide/)
 
-### [Comment enregistrer le Markdown depuis DOCX – Guide étape par étape](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [Enregistrer Word en Markdown – Guide complet C# avec Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 

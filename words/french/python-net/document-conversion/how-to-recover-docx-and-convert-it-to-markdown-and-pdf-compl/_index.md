@@ -225,7 +225,6 @@ Si le PDF s’ouvre sans erreur et que le Markdown s’affiche correctement, vou
 
 ## Que devriez‑vous apprendre ensuite ?
 
-- [Comment enregistrer le Markdown depuis DOCX – Guide étape par étape](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Enregistrer le docx en pdf avec Aspose.Words – Guide complet C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

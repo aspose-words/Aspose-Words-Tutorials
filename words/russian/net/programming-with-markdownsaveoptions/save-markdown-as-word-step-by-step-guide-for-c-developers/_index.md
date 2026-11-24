@@ -209,7 +209,6 @@ foreach (var md in mdFiles)
 
 - [Как сохранить Markdown из Word – Полное руководство C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Как сохранить Markdown из Word – Полное руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Как сохранить Markdown из DOCX – Пошаговое руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

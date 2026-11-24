@@ -207,7 +207,6 @@ foreach (var md in mdFiles)
 
 - [Word से मार्कडाउन सहेजें – पूर्ण C# गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Word से मार्कडाउन सहेजें – पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [DOCX से मार्कडाउन सहेजें – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

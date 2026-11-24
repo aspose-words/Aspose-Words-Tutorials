@@ -60,7 +60,6 @@
 เรียนรู้ขั้นตอนการบันทึกไฟล์ Word เป็นรูปแบบ Markdown อย่างละเอียดด้วย C#
 
 ### [วิธีบันทึก Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./how-to-save-markdown-full-guide-with-image-extraction/)
-### [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-markdown-from-docx-step-by-step-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown อย่างละเอียดตามขั้นตอนด้วย Aspose.Words สำหรับ .NET
 

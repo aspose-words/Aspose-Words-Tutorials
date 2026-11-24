@@ -238,7 +238,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Docx konvertálása markdown-re – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [HTML betöltése és DOCX-be mentése az Aspose.Words for Java segítségével](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Markdown mentése DOCX-ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

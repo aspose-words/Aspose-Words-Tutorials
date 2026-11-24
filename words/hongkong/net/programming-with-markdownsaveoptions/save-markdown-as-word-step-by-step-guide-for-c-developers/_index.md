@@ -206,7 +206,6 @@ foreach (var md in mdFiles)
 
 - [如何從 Word 儲存 Markdown – 完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [如何從 Word 儲存 Markdown – 完整指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [如何從 DOCX 儲存 Markdown – 逐步指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

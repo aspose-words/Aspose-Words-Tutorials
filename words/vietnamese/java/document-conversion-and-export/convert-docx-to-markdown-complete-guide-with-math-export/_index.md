@@ -254,7 +254,6 @@ Hãy thử nghiệm, điều chỉnh các tùy chọn, và để quy trình tài
 ## Các hướng dẫn liên quan
 
 - [Chuyển docx sang markdown – Xuất công thức toán học sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cách lưu Markdown từ DOCX – Hướng dẫn từng bước](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Cách sử dụng Markdown: Chuyển DOCX sang Markdown với công thức LaTeX](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

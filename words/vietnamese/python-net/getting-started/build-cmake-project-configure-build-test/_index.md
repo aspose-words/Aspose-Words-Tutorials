@@ -159,7 +159,6 @@ Chúc bạn build vui vẻ, và mong các build CMake của bạn luôn có th�
 
 Các tutorial sau đây bao quát các chủ đề liên quan chặt chẽ, dựa trên các kỹ thuật đã được trình bày trong hướng dẫn này. Mỗi tài nguyên đều bao gồm mã nguồn hoàn chỉnh cùng các giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách lưu Markdown từ DOCX – Hướng dẫn từng bước](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Cách hiển thị phiên bản Aspose.Words trong Python và .NET: Hướng dẫn từng bước](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

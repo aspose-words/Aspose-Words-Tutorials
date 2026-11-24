@@ -235,7 +235,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Cách tải HTML và lưu dưới dạng DOCX bằng Aspose.Words cho Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Cách lưu Markdown từ DOCX – Hướng dẫn từng bước](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
