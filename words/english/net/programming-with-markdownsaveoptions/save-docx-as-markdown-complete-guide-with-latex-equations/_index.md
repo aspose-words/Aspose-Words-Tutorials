@@ -29,8 +29,7 @@ schemas:
     text: 'Open `output.md` in any text editor and you should see something like:'
   - name: Images and Media
     text: 'Sometimes you don’t want huge Base64 strings in your Markdown. To store
-      images as separate files, set `SaveImagesToSeparateFiles` to `true` and provide
-      an `ImagesFolder` path:'
+      images as separate files, set an `ImagesFolder` path:'
   - name: Tables
     text: Markdown tables are generated automatically, but complex nested tables may
       lose some formatting. In those rare cases, consider exporting to HTML first,
@@ -85,13 +84,14 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 ## Step 2: Configure Markdown Save Options  
 
-Aspose.Words lets you fine‑tune how the conversion happens via `MarkdownSaveOptions`. The key property for our scenario is `OfficeMathExportMode`. Setting it to `OfficeMathExportMode.LaTeX` tells the library to render each equation as a LaTeX snippet inside the Markdown file.
+Aspose.Words lets you fine‑tune how the conversion happens via `MarkdownSaveOptions`. The key property for our scenario is `OfficeMathExportMode`. Setting it to `MarkdownOfficeMathExportMode.Latex` tells the library to render each equation as a LaTeX snippet inside the Markdown file.
 
 ```csharp
+using Aspose.Words.Saving;
 // Step 2: Set up Markdown save options to export OfficeMath as LaTeX
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex
 };
 ```
 
@@ -133,10 +133,9 @@ If your original Word file contained images, Aspose.Words will embed them as Bas
 
 ### Images and Media  
 
-Sometimes you don’t want huge Base64 strings in your Markdown. To store images as separate files, set `SaveImagesToSeparateFiles` to `true` and provide an `ImagesFolder` path:
+Sometimes you don’t want huge Base64 strings in your Markdown. To store images as separate files, set an `ImagesFolder` path; Aspose.Words will automatically save each image as an individual file in that folder:
 
 ```csharp
-mdOptions.SaveImagesToSeparateFiles = true;
 mdOptions.ImagesFolder = "YOUR_DIRECTORY/images";
 ```
 
@@ -174,7 +173,7 @@ A quick way to ensure everything went smoothly is to render the Markdown with a 
 ## Next Steps & Related Topics  
 
 - **Publish to GitHub Pages** – Convert the Markdown to HTML with Jekyll or MkDocs for static site hosting.
-- **Further customize LaTeX output** – Use `MarkdownSaveOptions.MathFormattingMode` to tweak spacing.
+- **Further customize LaTeX output** – Currently Aspose.Words does not provide additional LaTeX formatting options.
 - **Integrate with CI pipelines** – Add the conversion script to Azure DevOps or GitHub Actions for automated documentation builds.
 - **Explore other export formats** – Aspose.Words also supports HTML, PDF, and EPUB if you need multi‑format delivery.
 
