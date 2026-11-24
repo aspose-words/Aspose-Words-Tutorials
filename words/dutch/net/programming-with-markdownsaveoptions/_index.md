@@ -120,7 +120,6 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
 
-### [Hoe Markdown te exporteren vanuit DOCX – Complete stap‑voor‑stap gids](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.

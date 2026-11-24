@@ -100,7 +100,6 @@
 
 ### [كيفية تصدير Markdown من DOCX مع الصور – دليل كامل](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
-### [كيفية تصدير Markdown من DOCX – دليل خطوة بخطوة كامل](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 ### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
 

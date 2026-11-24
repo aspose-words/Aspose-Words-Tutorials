@@ -179,7 +179,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte S
 ### [Wie man Markdown aus DOCX mit Bildern exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Bildern in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [Wie man Markdown aus DOCX exportiert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Word in Markdown konvertieren in C# – Gleichungen als LaTeX exportieren](./convert-word-to-markdown-in-c-export-equations-as-latex/)
