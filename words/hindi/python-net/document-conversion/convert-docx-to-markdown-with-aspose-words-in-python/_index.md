@@ -185,7 +185,6 @@ python convert_docx.py
 
 - [दोषपूर्ण DOCX पुनर्प्राप्त करें और Word को Markdown में बदलें](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Word से LaTeX निर्यात करें – DOCX को Markdown में बदलें](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Markdown सहेजें – Word को Markdown में बदलें और Aspose.Words के साथ गणित निर्यात करें](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

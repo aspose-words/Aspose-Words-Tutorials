@@ -242,7 +242,6 @@ Experimentieren Sie gern mit den Optionen und teilen Sie Ihre Erkenntnisse. Viel
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Word‑zu‑PDF‑Tutorial: DOCX in PDF mit Aspose.Words konvertieren](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Wie man Markdown speichert – Word in Markdown konvertieren & Mathematik mit Aspose.Words exportieren](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Wie man LaTeX aus Word exportiert: DOCX in Markdown konvertieren & als PDF speichern](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

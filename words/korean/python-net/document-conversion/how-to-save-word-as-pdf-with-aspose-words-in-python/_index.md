@@ -238,7 +238,6 @@ Aspose.Words for Python via .NET은 .NET Core 위에서 동작하므로 크로�
 다음 튜토리얼에서는 이번 가이드에서 다룬 기술을 확장하는 관련 주제를 다룹니다. 각 자료는 완전한 코드 예제와 단계별 설명을 제공해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용할 수 있도록 돕습니다.
 
 - [Word to PDF 튜토리얼: Aspose.Words로 DOCX를 PDF로 변환](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Markdown 저장 방법 – Word를 Markdown으로 변환하고 수식 내보내기](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Word에서 LaTeX 내보내기: DOCX를 Markdown으로 변환하고 PDF로 저장](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

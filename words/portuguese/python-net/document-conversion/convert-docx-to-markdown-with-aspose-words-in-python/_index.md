@@ -182,7 +182,6 @@ Os tutoriais a seguir abordam tópicos intimamente relacionados que se baseiam n
 
 - [Recuperar DOCX corrompido e converter Word para Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Como exportar LaTeX do Word – Converter DOCX para Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Como salvar Markdown – Converter Word para Markdown e exportar matemática com Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

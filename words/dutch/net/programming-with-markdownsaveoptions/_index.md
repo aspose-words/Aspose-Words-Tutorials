@@ -81,7 +81,6 @@ Leer hoe u afbeeldingen uit een DOCX extraheert bij het opslaan als Markdown met
 ### [Docx opslaan als markdown – Word‑vergelijkingen exporteren naar LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 
 Leer hoe u Word‑vergelijkingen exporteert naar LaTeX bij het opslaan van een docx als markdown met C#.
-### [Hoe Markdown opslaan – Converteer Word naar Markdown & Exporteer wiskunde met Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exporteert met Aspose.Words voor .NET.
 ### [Word naar Markdown converteren – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-full-guide-with-image-extraction/)
 

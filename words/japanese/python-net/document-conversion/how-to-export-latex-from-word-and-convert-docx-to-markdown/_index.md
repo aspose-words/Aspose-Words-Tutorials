@@ -199,7 +199,6 @@ for filename in os.listdir(input_folder):
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説付きの完全な動作コード例が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Markdown を保存する方法 – Word を Markdown に変換し、Aspose.Words で数式をエクスポート](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Word から LaTeX をエクスポートする方法 – Word を TXT に変換](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
