@@ -29,7 +29,6 @@ OOXMLSaveOptions के साथ Words Processing पर Aspose.Words for .NET 
 | [अंतिम सहेजे गए समय की संपत्ति अपडेट करें](./update-last-saved-time-property/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अंतिम सहेजे गए समय गुण को अपडेट करना सीखें। हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [लीगेसी नियंत्रण वर्ण रखें](./keep-legacy-control-chars/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में विरासत नियंत्रण वर्णों को संरक्षित करने का तरीका जानें। |
 | [संपीड़न स्तर सेट करें](./set-compression-level/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में संपीड़न स्तर सेट करना सीखें। अपने दस्तावेज़ संग्रहण और प्रदर्शन को अनुकूलित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-| [Aspose.Words के साथ C# में Word दस्तावेज़ एन्कोडिंग बदलें](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Aspose.Words का उपयोग करके C# में Word दस्तावेज़ की एन्कोडिंग कैसे बदलें, इस चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
