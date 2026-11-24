@@ -230,7 +230,6 @@ public class MarkdownConversionTests
 
 - [Aspose.Words를 사용하여 Word를 Markdown으로 저장 – DOCX 변환 및 이미지 추출 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [DOCX를 Markdown으로 변환 – Aspose.Words 사용 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [DOCX에서 Markdown 저장 방법 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -71,7 +71,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – ko
 ### [Wie man Markdown aus Word exportiert – Vollständige C#‑Anleitung](./how-to-export-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [Wie man Markdown aus DOCX speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.

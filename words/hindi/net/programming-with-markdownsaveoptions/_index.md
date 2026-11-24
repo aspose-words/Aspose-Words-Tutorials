@@ -33,7 +33,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Aspose का उपयोग कैसे करें – LaTeX समीकरणों के साथ DOCX को Markdown में बदलें](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) | C# में Aspose का उपयोग करके LaTeX समीकरणों के साथ DOCX फ़ाइल को Markdown में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [Word को Markdown में बदलें – C# में छवियों को निकालें](./convert-word-to-markdown-extract-images-in-c/) | C# में Word दस्तावेज़ को Markdown में बदलते समय छवियों को निकालने की चरण‑दर‑स्टेप गाइड। |
 | [DOCX को मार्कडाउन के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण C# गाइड](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ DOCX को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
-| [DOCX को Markdown में बदलें – चरण‑दर‑स्टेप C# गाइड](./how-to-save-markdown-from-docx-step-by-step-guide/) | DOCX फ़ाइल को Markdown में बदलने की चरण‑दर‑स्टेप प्रक्रिया सीखें। |
 | [DOCX को TXT के रूप में सहेजें – DOCX को Markdown में बदलें](./save-docx-as-txt-convert-docx-to-markdown/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइल को TXT में सहेजें और उसे Markdown में बदलें। चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [Word को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./how-to-save-word-as-markdown-complete-c-guide/) | Word को Markdown में सहेजने की पूरी C# गाइड |
 | [DOCX को Markdown में परिवर्तित करते समय रिज़ॉल्यूशन कैसे सेट करें](./how-to-set-resolution-when-converting-docx-to-markdown/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को Markdown में बदलते समय रिज़ॉल्यूशन सेट करने की चरण‑दर‑स्टेप गाइड। |

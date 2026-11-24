@@ -207,7 +207,6 @@ foreach (var md in mdFiles)
 
 - [Word에서 Markdown 저장하기 – 완전 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Word에서 Markdown 저장하기 – 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [DOCX에서 Markdown 저장하기 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

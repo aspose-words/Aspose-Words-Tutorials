@@ -234,7 +234,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với trích xuất hình ảnh](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với công thức LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Cách lưu Markdown từ DOCX – Hướng dẫn từng bước](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -40,7 +40,6 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Word から Markdown をエクスポートする方法 – 完全 C# ガイド](./how-to-export-markdown-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown にエクスポートする完全な C# ガイドです。ステップバイステップで解説します。 |
 | [Word を Markdown に保存 – 完全 C# ガイド](./save-word-as-markdown-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown に保存する完全な C# ガイドです。ステップバイステップで解説します。 |
 | [画像付きDOCXからMarkdownにエクスポートする方法 – 完全 C# ガイド](./how-to-export-markdown-from-docx-with-images-complete-guide/) Aspose.Words for .NET を使用して、画像を含む DOCX を Markdown にエクスポートする手順をステップバイステップで解説します。 |
-| [DOCX から Markdown に保存する方法 – ステップバイステップ ガイド](./how-to-save-markdown-from-docx-step-by-step-guide/) Aspose.Words for .NET を使用して、DOCX ファイルを Markdown に変換し保存する手順をステップバイステップで解説します。 |
 | [Word を Markdown として保存 – DOCX を変換し画像を抽出する完全ガイド](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) Aspose.Words for .NET を使い、Word 文書を Markdown に保存し、DOCX から画像を抽出する手順を詳しく解説します。 |
 | [Aspose を使用して Word から Markdown を作成する — ステップバイステップガイド](./create-markdown-from-word-with-aspose-step-by-step-guide/) Aspose.Words for .NET を使って、Word 文書を Markdown に変換する手順を詳しく解説します。 |
 | [Aspose の使用方法 – LaTeX 数式付き DOCX を Markdown に変換](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) Aspose.Words for .NET を使用して、LaTeX 数式を含む DOCX を Markdown に変換する手順を解説します。 |

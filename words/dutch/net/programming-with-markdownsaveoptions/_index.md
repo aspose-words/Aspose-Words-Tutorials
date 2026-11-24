@@ -120,7 +120,6 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
 
 
 
-### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 ### [Word opslaan als Markdown – Complete C#-gids met Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Leer hoe u Word-documenten opslaat als Markdown met een volledige C#-handleiding en Aspose.Words.

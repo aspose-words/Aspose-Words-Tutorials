@@ -209,7 +209,6 @@ Tutorial berikut mencakup topik yang sangat terkait dan membangun pada teknik ya
 
 - [Cara Menyimpan Markdown dari Word – Panduan Lengkap C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Cara Menyimpan Markdown dari Word – Panduan Lengkap](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

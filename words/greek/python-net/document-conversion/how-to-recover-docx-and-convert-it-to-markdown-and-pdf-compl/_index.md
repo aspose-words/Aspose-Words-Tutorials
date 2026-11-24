@@ -215,7 +215,6 @@ if __name__ == "__main__":
 
 ## Τι Θα Πρέπει Να Μάθετε Στη Σύντομη Μελλοντική
 
-- [Πώς να Αποθηκεύσετε Markdown από DOCX – Οδηγός Βήμα‑βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

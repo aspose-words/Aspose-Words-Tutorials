@@ -254,7 +254,6 @@ Wypróbuj to, dostosuj opcje i niech Twój proces dokumentacji działa płynniej
 ## Powiązane poradniki
 
 - [Konwertuj docx na markdown – Eksport równań matematycznych do LaTeX z Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Jak używać Markdown: Konwertuj DOCX na Markdown z równaniami LaTeX](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -209,7 +209,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Hur man sparar Markdown från Word – Komplett C#‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Hur man sparar Markdown från Word – Komplett guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -264,7 +264,6 @@ A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [Hogyan menthetünk Markdownot Word‑ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Word képek mentése – Word konvertálása Markdownba Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Hogyan menthetünk Markdownot DOCX‑ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

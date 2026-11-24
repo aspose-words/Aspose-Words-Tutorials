@@ -234,7 +234,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [uložit docx jako markdown – Kompletní C# průvodce s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Uložit docx jako markdown – Kompletní C# průvodce s LaTeX rovnicemi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Jak uložit Markdown z DOCX – Krok za krokem průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

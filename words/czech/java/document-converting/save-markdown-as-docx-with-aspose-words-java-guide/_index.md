@@ -235,7 +235,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Převod docx na markdown – Export matematických rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Jak načíst HTML a uložit jako DOCX pomocí Aspose.Words pro Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Jak uložit Markdown z DOCX – Krok za krokem](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

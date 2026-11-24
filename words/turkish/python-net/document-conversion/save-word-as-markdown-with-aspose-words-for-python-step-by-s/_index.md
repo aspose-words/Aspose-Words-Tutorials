@@ -265,7 +265,6 @@ Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yak�
 
 - [Word'ten Markdown Kaydetme – Tam Python Kılavuzu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Word Görsellerini Kaydet – Word'ü Markdown'a Dönüştürme Aspose ile](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [DOCX'ten Markdown Kaydetme – Adım Adım Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -47,7 +47,6 @@
 | [Word 이미지 저장하면서 Markdown으로 변환 – 전체 C# 가이드](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 Markdown으로 변환하면서 저장하는 전체 C# 가이드 |
 | [Aspose docx를 markdown으로 변환 – 이미지 추출 전체 가이드](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words for .NET을 사용하여 docx를 markdown으로 변환하고 이미지 추출까지 수행하는 전체 가이드 |
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
-| [DOCX에서 Markdown 저장 방법 – 단계별 가이드](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 저장하는 단계별 가이드를 제공합니다. |
 | [Markdown 저장 방법 – 전체 C# 가이드](./how-to-save-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Markdown을 저장하는 전체 C# 가이드를 제공합니다. |
 | [docx를 txt로 저장 – docx를 markdown으로 변환](./save-docx-as-txt-convert-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 docx 파일을 txt 형식으로 저장하고 markdown으로 변환하는 방법을 단계별로 안내합니다. |
 | [DOCX를 Markdown으로 변환할 때 해상도 설정 방법](./how-to-set-resolution-when-converting-docx-to-markdown/) | Aspose.Words for .NET을 사용해 DOCX를 Markdown으로 변환할 때 이미지 해상도를 지정하는 방법을 단계별로 안내합니다. |

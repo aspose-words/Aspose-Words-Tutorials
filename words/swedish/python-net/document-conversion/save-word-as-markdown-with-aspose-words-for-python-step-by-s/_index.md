@@ -265,7 +265,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Hur man sparar Markdown från Word – Komplett Python‑guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

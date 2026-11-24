@@ -230,7 +230,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que se basan e
 
 - [Guardar Word como Markdown con Aspose.Words – Guía completa para convertir DOCX y extraer imágenes](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Convertir DOCX a Markdown – Guía completa usando Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Cómo guardar Markdown desde DOCX – Guía paso a paso](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

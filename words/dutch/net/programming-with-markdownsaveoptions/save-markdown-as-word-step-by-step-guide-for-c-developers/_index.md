@@ -209,7 +209,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Hoe Markdown vanuit Word op te slaan – Complete C#‑gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Hoe Markdown vanuit Word op te slaan – Complete gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Hoe Markdown vanuit DOCX op te slaan – Stapsgewijze handleiding](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
