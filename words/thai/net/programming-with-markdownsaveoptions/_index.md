@@ -125,7 +125,6 @@
 
 ### [วิธีใช้ Callback ใน C# – แปลง DOCX เป็น Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
-### [บันทึก docx เป็น txt – แปลง docx เป็น markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 แปลงไฟล์ docx เป็น txt แล้วแปลงเป็น markdown อย่างง่ายด้วย Aspose.Words สำหรับ .NET
 
 ### [วิธีฝังรูปภาพใน Markdown จาก DOCX](./how-to-embed-images-in-markdown-from-docx/)

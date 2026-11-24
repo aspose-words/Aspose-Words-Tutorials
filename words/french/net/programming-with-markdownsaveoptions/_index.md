@@ -127,7 +127,6 @@ Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet utilis
 
 ### [Comment utiliser le rappel en C# – Convertir DOCX en Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
-### [Enregistrer docx en txt – convertir docx en markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 
 ### [Comment intégrer des images dans Markdown depuis DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
