@@ -234,7 +234,6 @@ Siéntete libre de experimentar—cambiar la lógica del callback, probar difere
 
 - [Cómo incrustar imágenes en Markdown al convertir DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [Cómo renombrar imágenes al convertir DOCX a Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
-- [Cómo exportar Markdown desde DOCX – Guía completa](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

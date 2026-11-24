@@ -208,7 +208,6 @@ If everything is wired correctly, you’ll see the confirmation message and the 
 
 - {{< relref "../how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}}
 - {{< relref "../convert-docx-to-markdown-export-math-equations-to-latex-with/_index.md" >}}
-- {{< relref "net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/_index.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

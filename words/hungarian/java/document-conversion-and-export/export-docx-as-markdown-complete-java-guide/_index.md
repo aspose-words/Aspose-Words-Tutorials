@@ -234,7 +234,6 @@ Boldog kódolást, és legyen a markdownod mindig tiszta és képgazdag!
 
 - [Hogyan ágyazz be képeket a markdownba DOCX konvertálásakor](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [Hogyan nevezd át a képeket a DOCX‑ről markdown‑ra konvertáláskor](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
-- [Hogyan exportálj markdown‑t DOCX‑ből – Teljes útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
