@@ -38,7 +38,6 @@ Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteer
 ### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
 Leer hoe u DOCX-bestanden naar Markdown exporteert met een volledige stap‑voor‑stap handleiding.
 
-### [Hoe Markdown op te slaan vanuit Word – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
 ### [Hoe Markdown op te slaan vanuit Word – Complete gids om afbeeldingen te extraheren en DOCX te converteren](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)

@@ -274,7 +274,6 @@ Készen állsz, hogy beépítsd a saját projektedbe? Vedd a kódot, állítsd b
 
 ## Kapcsolódó oktatóanyagok
 
-- [Hogyan menthetünk markdown-t Word-ből – Teljes útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word konvertálása markdownba C#-ban – Teljes útmutató képek kinyerésével](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx konvertálása markdownba – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

@@ -293,7 +293,6 @@ Sẵn sàng đưa điều này vào dự án của bạn? Lấy mã, điều ch�
 
 ## Hướng dẫn liên quan
 
-- [Cách Lưu Markdown từ Word – Hướng dẫn đầy đủ](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Chuyển Word sang Markdown trong C# – Hướng dẫn đầy đủ với Trích xuất Hình ảnh](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Chuyển docx sang markdown – Xuất Phương trình Toán sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
