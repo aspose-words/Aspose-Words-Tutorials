@@ -203,7 +203,6 @@ A: Aspose.Words 會盡量保留版面，但非常複雜的表格可能會退回�
 以下教學涵蓋與本指南密切相關的主題，建立於此處示範的技巧之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在專案中探索替代實作方式。
 
 - [將 docx 儲存為 markdown – 完整的 C# 指南，含 LaTeX 方程式](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [如何從 DOCX 儲存為 Markdown – 步驟說明指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [儲存 Word 圖片 – 使用 Aspose 將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

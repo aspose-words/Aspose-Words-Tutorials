@@ -230,7 +230,6 @@ public class MarkdownConversionTests
 
 - [Αποθήκευση Word ως Markdown με Aspose.Words – Πλήρης Οδηγός για Μετατροπή DOCX και Εξαγωγή Εικόνων](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός με χρήση Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

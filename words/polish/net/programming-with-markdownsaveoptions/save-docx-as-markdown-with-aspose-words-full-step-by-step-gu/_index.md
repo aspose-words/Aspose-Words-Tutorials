@@ -260,7 +260,6 @@ Masz pytania dotyczące konkretnego typu równania lub innego formatu wyjściowe
 Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletny, działający kod wraz z wyczerpującymi wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
 - [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Zapisz obrazy Word – Konwertuj Word do Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

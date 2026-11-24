@@ -237,7 +237,6 @@ Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam na
 
 - [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Como carregar HTML e salvar como DOCX usando Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Como salvar Markdown a partir de DOCX – Guia passo a passo](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

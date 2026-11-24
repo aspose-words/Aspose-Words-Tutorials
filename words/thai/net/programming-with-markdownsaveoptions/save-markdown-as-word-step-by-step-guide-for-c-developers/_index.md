@@ -207,7 +207,6 @@ foreach (var md in mdFiles)
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

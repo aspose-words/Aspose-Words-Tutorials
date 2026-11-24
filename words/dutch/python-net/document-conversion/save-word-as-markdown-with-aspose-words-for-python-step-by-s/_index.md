@@ -265,7 +265,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Hoe Markdown opslaan vanuit Word – Complete Python‑gids](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Word‑afbeeldingen opslaan – Word naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Hoe Markdown opslaan vanuit DOCX – Stapsgewijze gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

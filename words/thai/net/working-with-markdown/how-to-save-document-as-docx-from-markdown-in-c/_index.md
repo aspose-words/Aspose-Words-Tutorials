@@ -230,7 +230,6 @@ public class MarkdownConversionTests
 
 - [บันทึก Word เป็น Markdown ด้วย Aspose.Words – คู่มือครบถ้วนในการแปลง DOCX และดึงรูปภาพ](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [แปลง DOCX เป็น Markdown – คู่มือครบถ้วนโดยใช้ Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

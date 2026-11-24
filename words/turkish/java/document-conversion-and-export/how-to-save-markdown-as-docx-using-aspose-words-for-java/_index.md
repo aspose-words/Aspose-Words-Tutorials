@@ -234,7 +234,6 @@ Artık Aspose.Words for Java ile **Markdown'i DOCX olarak kaydetmeyi**, **conver
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [DOCX'ten Markdown Kaydetme – Adım Adım Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX'i Markdown'a Dönüştür – Aspose.Words Kullanarak Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Word'den LaTeX Dışa Aktarma: DOCX'i Markdown'a Dönüştür & PDF Olarak Kaydet](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 

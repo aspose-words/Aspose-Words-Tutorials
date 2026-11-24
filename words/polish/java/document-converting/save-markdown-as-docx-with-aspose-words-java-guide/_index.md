@@ -236,7 +236,6 @@ Poniższe samouczki dotyczą ściśle powiązanych tematów, które rozwijają t
 
 - [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Jak wczytać HTML i zapisać jako DOCX przy użyciu Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

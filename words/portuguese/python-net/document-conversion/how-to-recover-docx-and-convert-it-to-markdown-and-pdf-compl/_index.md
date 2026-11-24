@@ -225,7 +225,6 @@ Se o PDF abrir sem erros e o Markdown for renderizado corretamente, você recupe
 
 ## What Should You Learn Next?
 
-- [Como Salvar Markdown a partir de DOCX – Guia Passo a Passo](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Salvar docx como pdf com Aspose.Words – Guia Completo em C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

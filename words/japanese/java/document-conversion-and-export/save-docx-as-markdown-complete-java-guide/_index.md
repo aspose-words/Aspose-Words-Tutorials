@@ -231,7 +231,6 @@ public class DocxToMarkdown {
 
 - [save docx as markdown – 画像抽出付き完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Save docx as markdown – LaTeX 方程式付き完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [DOCX から Markdown を保存する方法 – ステップバイステップ ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

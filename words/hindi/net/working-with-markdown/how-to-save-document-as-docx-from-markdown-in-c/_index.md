@@ -230,7 +230,6 @@ public class MarkdownConversionTests
 
 - [Aspose.Words के साथ Word को Markdown के रूप में सहेजें – DOCX को बदलने और इमेजेज़ निकालने के लिए पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [DOCX को Markdown में बदलें – Aspose.Words का उपयोग करके पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [DOCX से Markdown सहेजने का तरीका – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

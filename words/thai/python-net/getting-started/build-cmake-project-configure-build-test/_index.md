@@ -159,7 +159,6 @@ cmake -E chdir "$BUILD" ctest --verbose
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมตัวอย่างโค้ดที่ทำงานได้เต็มรูปแบบพร้อมคำอธิบายขั้นตอน‑ต่อ‑ขั้นตอน เพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานทางเลือกในโปรเจกต์ของคุณเอง
 
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [วิธีแสดงเวอร์ชัน Aspose.Words ใน Python และ .NET: คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

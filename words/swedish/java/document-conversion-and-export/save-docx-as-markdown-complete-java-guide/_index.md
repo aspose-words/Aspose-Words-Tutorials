@@ -230,7 +230,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [save docx as markdown – Fullständig C#‑guide med bildextraktion](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Save docx as markdown – Komplett C#‑guide med LaTeX‑ekvationer](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

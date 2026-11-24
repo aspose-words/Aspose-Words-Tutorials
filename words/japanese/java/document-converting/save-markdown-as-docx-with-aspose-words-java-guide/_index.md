@@ -237,7 +237,6 @@ public class MarkdownToDocxConverter {
 
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Aspose.Words for Java を使用して HTML をロードし DOCX として保存する方法](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [DOCX から Markdown を保存する方法 – ステップバイステップガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -266,7 +266,6 @@ Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang d
 
 - [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

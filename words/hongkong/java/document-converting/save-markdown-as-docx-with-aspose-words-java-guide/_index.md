@@ -233,7 +233,6 @@ public class MarkdownToDocxConverter {
 
 - [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式至 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [如何使用 Aspose.Words for Java 載入 HTML 並儲存為 DOCX](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [如何從 DOCX 儲存 Markdown – 步驟說明指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

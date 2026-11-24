@@ -230,7 +230,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Spara Word som Markdown med Aspose.Words – Komplett guide för att konvertera DOCX och extrahera bilder](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Konvertera DOCX till Markdown – Komplett guide med Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

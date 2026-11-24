@@ -210,7 +210,6 @@ PDF가 오류 없이 열리고 Markdown이 올바르게 렌더링된다면, **DO
 
 ## 다음에 배울 내용은?
 
-- [DOCX에서 Markdown 저장하기 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Aspose.Words로 docx를 pdf로 저장 – 완전한 C# 가이드](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

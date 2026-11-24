@@ -76,7 +76,6 @@ Lär dig exportera Word-dokument till Markdown med en komplett C#‑guide som t�
 ### [Hur man sparar Word som Markdown – Fullständig C#-guide](./how-to-save-word-as-markdown-complete-c-guide/)
 Lär dig spara Word-dokument som Markdown med en komplett C#‑guide.
 
-### [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i C#.
 
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.

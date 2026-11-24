@@ -232,7 +232,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [guardar docx como markdown – Guía completa en C# con extracción de imágenes](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Guardar docx como markdown – Guía completa en C# con ecuaciones LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Cómo guardar Markdown desde DOCX – Guía paso a paso](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

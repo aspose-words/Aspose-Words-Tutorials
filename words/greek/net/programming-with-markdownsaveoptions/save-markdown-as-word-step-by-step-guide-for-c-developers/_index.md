@@ -211,7 +211,6 @@ foreach (var md in mdFiles)
 
 - [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Πώς να αποθηκεύσετε Markdown από DOCX – Βήμα‑βήμα οδηγός](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

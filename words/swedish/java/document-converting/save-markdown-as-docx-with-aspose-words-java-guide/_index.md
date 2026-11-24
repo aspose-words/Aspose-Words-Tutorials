@@ -236,7 +236,6 @@ De följande handledningarna täcker närliggande ämnen som bygger på tekniker
 
 - [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Hur man laddar HTML och sparar som DOCX med Aspose.Words för Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

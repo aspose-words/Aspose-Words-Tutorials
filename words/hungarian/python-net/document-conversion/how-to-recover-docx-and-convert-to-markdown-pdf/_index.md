@@ -181,7 +181,6 @@ Az alábbiakban a teljes, futtatható szkript található, amely tartalmazza a m
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Sérült DOCX helyreállítása és Word konvertálása Markdown-re](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Hogyan mentsünk Markdown-t DOCX‑ből – lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

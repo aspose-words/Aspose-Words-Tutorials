@@ -230,7 +230,6 @@ Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan d
 
 - [Simpan Word sebagai Markdown dengan Aspose.Words – Panduan Lengkap untuk Mengonversi DOCX dan Mengekstrak Gambar](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Konversi DOCX ke Markdown – Panduan Lengkap Menggunakan Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -230,7 +230,6 @@ A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [Word mentése Markdownba az Aspose.Words segítségével – Teljes útmutató a DOCX konvertálásához és képek kinyeréséhez](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [DOCX konvertálása Markdownba – Teljes útmutató Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Hogyan mentsünk Markdown-t DOCX-ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

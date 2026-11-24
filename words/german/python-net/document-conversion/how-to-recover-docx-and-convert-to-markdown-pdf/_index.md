@@ -180,7 +180,6 @@ Im Folgenden finden Sie das komplette, sofort ausführbare Skript, das jeden bes
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Beschädigtes DOCX wiederherstellen & Word in Markdown konvertieren](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Wie man Markdown aus DOCX speichert – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -242,7 +242,6 @@ Got feedback, edge‑case stories, or a different workflow? Drop a comment below
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Word에서 Markdown 저장하기 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [DOCX에서 Markdown 저장하기 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

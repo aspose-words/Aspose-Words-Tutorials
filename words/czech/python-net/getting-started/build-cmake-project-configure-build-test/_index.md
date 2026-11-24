@@ -159,7 +159,6 @@ Klidně experimentujte s různými typy sestavení, přidávejte další testy n
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční kódové příklady s krok‑za‑krokem vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [Jak uložit Markdown z DOCX – krok za krokem](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Jak zobrazit verzi Aspose.Words v Pythonu a .NET : krok za krokem](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

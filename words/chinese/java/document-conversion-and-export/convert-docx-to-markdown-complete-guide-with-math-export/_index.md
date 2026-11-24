@@ -251,7 +251,6 @@ public class DocxToMarkdown {
 ## 相关教程
 
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学公式为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [如何从 DOCX 保存 Markdown – 步骤指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [如何使用 Markdown：将 DOCX 转换为带 LaTeX 公式的 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

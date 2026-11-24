@@ -243,7 +243,6 @@ Máte zpětnou vazbu, příběhy o okrajových případech nebo jiný pracovní 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Jak uložit Markdown z Wordu – Kompletní Python průvodce](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Jak uložit Markdown z DOCX – Krok za krokem průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
