@@ -81,7 +81,6 @@ Erfahren Sie, wie Sie LaTeX aus Word exportieren und DOCX‑Dateien mit Aspose i
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern und dabei Bilder extrahieren – komplette Schritt‑für‑Schritt‑Anleitung.
 
 Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und Bilder als Base64 einbetten.
-### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebeispielen und Tipps für optimale Ergebnisse.
 
 ### [Markdown aus Word mit Aspose – Schritt‑für‑Schritt‑Anleitung](./create-markdown-from-word-with-aspose-step-by-step-guide/)

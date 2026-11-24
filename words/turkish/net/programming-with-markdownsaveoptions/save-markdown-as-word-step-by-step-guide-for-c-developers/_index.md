@@ -207,7 +207,6 @@ Bu toplu yaklaşım doğrusal olarak ölçeklenir ve aynı `LoadOptions` örneğ
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren eksiksiz çalışan kod örnekleri sunar.
 
-- [Word'den Markdown Kaydetme – Tam C# Rehberi](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Word'den Markdown Kaydetme – Tam Rehber](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [DOCX'ten Markdown Kaydetme – Adım Adım Rehber](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 

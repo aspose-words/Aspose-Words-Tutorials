@@ -168,7 +168,6 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Comment enregistrer le Markdown depuis Word avec images – Guide complet C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
-### [Comment enregistrer le Markdown depuis Word – Guide complet C#](./how-to-save-markdown-from-word-complete-c-guide/)
 
 ### [Créer du Markdown à partir de Word avec Aspose – Guide étape par étape](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 
