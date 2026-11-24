@@ -209,7 +209,6 @@
 ### [ลบย่อหน้าว่าง – แปลง Word เป็น Markdown ด้วย C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 เรียนรู้วิธีลบย่อหน้าว่างจากเอกสาร Word ก่อนแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-### [วิธีส่งออกลิงก์: แปลง DOCX เป็น Markdown ด้วย C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 
 ### [แปลง DOCX เป็น Markdown ใน C# – คู่มือเต็ม](./convert-docx-to-markdown-in-c-complete-guide/)
 
