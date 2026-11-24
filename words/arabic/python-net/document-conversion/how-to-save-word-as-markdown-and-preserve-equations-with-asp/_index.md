@@ -190,7 +190,6 @@ for filename in os.listdir(input_dir):
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [كيفية حفظ Markdown من Word – دليل Python كامل](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [حفظ docx كـ markdown – تصدير معادلات Word إلى LaTeX في C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [تصدير مستندات Word إلى Markdown باستخدام Aspose.Words API لـ .NET مع MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

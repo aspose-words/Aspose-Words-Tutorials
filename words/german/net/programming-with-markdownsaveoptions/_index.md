@@ -144,7 +144,6 @@ Erfahren Sie, wie Sie die Bildauflösung beim Exportieren von DOCX nach Markdown
 ### [Word als Markdown mit Bildern speichern – C# Schritt‑für‑Schritt‑Anleitung](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Bildern in Markdown konvertieren – komplette C# Schritt‑für‑Schritt‑Anleitung.
 
-### [DOCX als Markdown speichern – Word‑Gleichungen nach LaTeX exportieren in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 Erfahren Sie, wie Sie Word‑Gleichungen beim Export nach Markdown in LaTeX‑Formeln umwandeln.
 
 ### [Word als Markdown speichern – Bilder aus DOCX extrahieren](./save-word-as-markdown-extract-images-from-docx/)

@@ -189,7 +189,6 @@ Neváhejte experimentovat s vlastnostmi `MarkdownSaveOptions`, abyste výstup p�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Jak uložit Markdown z Wordu – Kompletní průvodce pro Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Uložit docx jako markdown – Export rovnic z Wordu do LaTeXu v C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Export dokumentů Word do Markdown pomocí Aspose.Words API pro .NET s MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
