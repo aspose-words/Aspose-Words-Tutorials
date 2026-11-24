@@ -76,7 +76,7 @@ class Program
         {
             // PDF/UA (Universal Accessibility) ensures the PDF meets
             // the ISO 14289‑1 standard for accessibility.
-            Compliance = PdfCompliance.PdfUADocument // or PdfCompliance.PdfUAX for the newer spec
+            Compliance = PdfCompliance.PdfUa1 // or PdfCompliance.PdfUa2 for the newer spec
         };
 
         // -------------------------------------------------
@@ -94,7 +94,7 @@ class Program
 
 1. **Loading the DOCX** – `Document` parses the Word file, preserving styles, headings, and hidden structure that assistive tools rely on. Skipping this step would mean you’re converting raw bytes, which defeats the purpose of accessibility.
 
-2. **Setting `PdfCompliance`** – The `PdfCompliance.PdfUADocument` flag tells Aspose.Words to embed the necessary tags, alternate text placeholders, and logical reading order. If you omit it, you’ll get a regular PDF that may look fine but will fail a PDF/UA audit.
+2. **Setting `PdfCompliance`** – The `PdfCompliance.PdfUa1` flag tells Aspose.Words to embed the necessary tags, alternate text placeholders, and logical reading order. If you omit it, the PDF will not be marked as PDF/UA compliant.
 
 3. **Saving the File** – The `Save` method writes the PDF to disk. Because we passed the configured `PdfSaveOptions`, the output complies with PDF/UA automatically—no post‑processing needed.
 
@@ -119,9 +119,9 @@ If you’re using Visual Studio, you can also add it via **NuGet Package Manager
 | Scenario | How to adjust the code |
 |----------|-----------------------|
 | **Convert multiple files in a folder** | Loop over `Directory.GetFiles(folder, "*.docx")` and call the same save logic for each. |
-| **Specify PDF/A‑2b instead of PDF/UA** | Change `Compliance = PdfCompliance.PdfUADocument` to `PdfCompliance.PdfA2b`. |
-| **Add a custom document title tag** | Set `saveOptions.CustomProperties["Title"] = "My Accessible Report";` before saving. |
-| **Handle very large documents** | Increase the `MemoryOptimizationSwitch` (`doc.MemoryOptimizationSwitch = MemoryOptimizationSwitch.On;`). |
+| **Specify PDF/A‑2u instead of PDF/UA** | Change `Compliance = PdfCompliance.PdfUa1` to `PdfCompliance.PdfA2u`. |
+| **Add a custom document title tag** | Set `doc.BuiltInDocumentProperties.Title = "My Accessible Report";` and enable `saveOptions.DisplayDocTitle = true;` before saving. |
+| **Handle very large documents** | Set `saveOptions.MemoryOptimization = true;` to reduce memory usage during saving. |
 
 These variations keep the core idea—**convert docx to pdf**—intact while letting you adapt to real‑world needs.
 
@@ -141,7 +141,7 @@ If everything lines up, you’ve successfully **save[d] document as pdf** with f
 
 ## Edge Cases & Gotchas
 
-1. **Missing Fonts** – If the source DOCX uses a font not installed on the server, Aspose.Words substitutes a fallback, which might affect screen‑reader pronunciation. Embed fonts by setting `saveOptions.EmbedStandardWindowsFonts = true`.
+1. **Missing Fonts** – If the source DOCX uses a font not installed on the server, Aspose.Words substitutes a fallback, which might affect screen‑reader pronunciation. Embed fonts by setting `saveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll`.
 
 2. **Complex Tables** – Nested tables sometimes lose their structural tags. Test with a sample that contains a table of contents; if tags are missing, enable `saveOptions.ExportDocumentStructure = true`.
 
@@ -152,7 +152,7 @@ var loadOpts = new LoadOptions { Password = "mySecret" };
 Document protectedDoc = new Document(@"secure.docx", loadOpts);
 ```
 
-4. **Older Aspose.Words Versions** – Versions prior to 20.10 didn’t support PDF/UA at all. Always verify the library version if you inherit legacy code.
+4. **Older Aspose.Words Versions** – PDF/UA support was introduced in later releases; verify the library version if you inherit legacy code.
 
 ---
 
@@ -165,7 +165,7 @@ Document protectedDoc = new Document(@"secure.docx", loadOpts);
   Yes—replace the file path with a `MemoryStream` and call `doc.Save(stream, saveOptions);`.
 
 - **What if I need to add a custom watermark?**  
-  Insert a `Watermark` object into the document before saving; the PDF/UA tags will still be generated correctly.
+  Insert a `Watermark` object into the document before saving; the PDF/UA tags are generated as usual.
 
 ---
 
