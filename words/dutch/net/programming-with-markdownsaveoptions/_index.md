@@ -149,7 +149,6 @@ Leer hoe u DOCX-bestanden naar Markdown converteert, vormschaduwen behoudt en be
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappenplan.
 
-### [Hoe Markdown op te slaan – Complete C#-gids](./how-to-save-markdown-complete-c-guide/)
 ### [Markdown opslaan als docx in C# – stapsgewijze gids](./save-markdown-as-docx-in-c-step-by-step-guide/)
 ### [Markdown opslaan als Word – stapsgewijze gids voor C#‑ontwikkelaars](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 Leer hoe u Markdown-bestanden omzet naar Word met een stapsgewijze C#‑handleiding.
