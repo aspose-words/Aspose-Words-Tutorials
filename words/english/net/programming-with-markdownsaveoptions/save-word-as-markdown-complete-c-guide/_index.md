@@ -86,11 +86,10 @@ Aspose.Words ships with a `MarkdownSaveOptions` class that controls how the conv
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
     // This tells the saver to turn each Office Math object into a LaTeX block
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
 
-    // Optional: preserve original line breaks for better diff‑ability
-    ExportHeadersFooters = false,
-    ExportDocumentProperties = false
+    // Optional: turn off header/footer export to keep the markdown tidy
+    ExportHeadersFootersMode = TxtExportHeadersFootersMode.None
 };
 ```
 
