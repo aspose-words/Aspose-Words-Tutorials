@@ -231,7 +231,6 @@ Wypróbuj to, dostosuj opcje i pozwól swoim plikom Markdown zachować pełną b
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [save docx as markdown – Full C# Guide with Image Extraction](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Save docx as markdown – Complete C# Guide with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

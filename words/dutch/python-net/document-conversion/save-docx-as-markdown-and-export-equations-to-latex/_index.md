@@ -245,7 +245,6 @@ Veel plezier met coderen, en geniet van de naadloze brug van Word naar Markdown 
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Docx opslaan als markdown – Complete C#‑gids met LaTeX‑vergelijkingen](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Word opslaan als Markdown met Aspose.Words – Complete gids om DOCX te converteren en afbeeldingen te extraheren](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

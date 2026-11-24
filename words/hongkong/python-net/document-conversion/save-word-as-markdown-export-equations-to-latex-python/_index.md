@@ -174,7 +174,6 @@ for filename in os.listdir(source_dir):
 以下教學涵蓋與本指南緊密相關的主題，並以此為基礎。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教學](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [將 docx 儲存為 markdown – 完整 C# 教學（含 LaTeX 方程式）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

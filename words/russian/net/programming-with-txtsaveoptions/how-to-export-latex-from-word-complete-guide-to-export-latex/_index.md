@@ -207,7 +207,6 @@ foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
 - [Сохранить docx как txt – экспортировать Word Math в LaTeX с C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Сохранить docx как markdown – полное руководство C# с уравнениями LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

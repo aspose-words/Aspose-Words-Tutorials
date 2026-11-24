@@ -208,7 +208,6 @@ A continuación, podrías explorar **exportar ecuaciones de Word** a otros forma
 Los tutoriales siguientes cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Guardar docx como txt – Exportar matemáticas de Word a LaTeX con C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Guardar docx como markdown – Guía completa en C# con ecuaciones LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

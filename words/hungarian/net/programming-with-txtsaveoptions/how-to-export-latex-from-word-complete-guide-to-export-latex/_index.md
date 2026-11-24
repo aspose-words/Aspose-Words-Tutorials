@@ -211,7 +211,6 @@ Van egy nehéz dokumentumod vagy kérdésed a licenceléssel kapcsolatban? Írj 
 Az alábbi oktatóanyagok szorosan kapcsolódnak ehhez a leíráshoz, és további API‑funkciók elsajátítását, valamint alternatív megvalósítási megközelítéseket mutatnak be a saját projektjeidben.
 
 - [Save docx as txt – Export Word Math to LaTeX with C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Save docx as markdown – Complete C# Guide with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

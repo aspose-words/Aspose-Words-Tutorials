@@ -174,7 +174,6 @@ Voel je vrij om te experimenteren met verschillende LaTeX‑pakketten of Markdow
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe Markdown vanuit Word opslaan – Complete Python‑gids](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [docx opslaan als markdown – Complete C#‑gids met LaTeX‑vergelijkingen](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

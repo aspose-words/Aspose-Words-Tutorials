@@ -31,7 +31,6 @@ Pelajari cara mengonversi dokumen DOCX ke Markdown dengan persamaan LaTeX menggu
 Pelajari cara mengonversi file DOCX ke format Markdown dengan panduan langkah demi langkah menggunakan C#.
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap langkah demi langkah dalam C#.
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C#.
-### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Persamaan LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termasuk persamaan LaTeX.
 ### [Simpan docx sebagai markdown – Panduan Lengkap dengan Persamaan LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap termasuk persamaan LaTeX menggunakan Aspose.Words untuk .NET.

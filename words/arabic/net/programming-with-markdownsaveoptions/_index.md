@@ -33,7 +33,6 @@
 
 ### [تحويل Docx إلى Markdown باستخدام C# – دليل برمجة كامل](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 
-### [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 ### [حفظ docx كـ markdown مع معادلات LaTeX – دليل C#](./save-docx-as-markdown-with-latex-equations-c-guide/)

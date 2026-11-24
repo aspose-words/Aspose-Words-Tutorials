@@ -173,7 +173,6 @@ Farklı LaTeX paketleri veya Markdown renderlayıcılarıyla denemeler yapmaktan
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word'den Markdown Kaydetme – Tam Python Kılavuzu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [docx'i markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

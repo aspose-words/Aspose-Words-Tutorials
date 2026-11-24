@@ -257,7 +257,6 @@ Des questions sur des cas particuliers, la licence ou les performances avec de t
 
 Les tutoriels suivants abordent des sujets étroitement liés qui prolongent les techniques présentées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités de l’API et explorer des approches alternatives dans vos propres projets.
 
-- [Enregistrer docx en markdown – Guide complet C# avec équations LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Enregistrer les images Word – Convertir Word en Markdown avec Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

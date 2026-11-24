@@ -176,7 +176,6 @@ for filename in os.listdir(source_dir):
 Οι παρακάτω οδηγοί καλύπτουν στενά σχετιζόμενα θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε πρόσθετες λειτουργίες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να Αποθηκεύσετε Markdown από Word – Πλήρης Οδηγός Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξισώσεις LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

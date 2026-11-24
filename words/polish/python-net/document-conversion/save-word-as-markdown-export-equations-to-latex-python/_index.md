@@ -175,7 +175,6 @@ Od tego momentu możesz:
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Jak zapisać Markdown z Worda – Kompletny przewodnik Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

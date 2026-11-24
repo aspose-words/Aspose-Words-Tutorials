@@ -190,7 +190,6 @@ foreach (var file in files)
 
 다음 튜토리얼들은 이 가이드에서 보여준 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함해 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
-- [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [docx를 markdown으로 변환 – Aspose.Words로 수식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
