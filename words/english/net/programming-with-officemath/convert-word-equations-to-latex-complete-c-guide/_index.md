@@ -101,11 +101,12 @@ if (doc.GetChildNodes(NodeType.OfficeMath, true).Count == 0)
 Now we tell Aspose how we want the plain‑text file to look. The `TxtSaveOptions` class is where the magic lives—specifically the `OfficeMathExportMode` property.
 
 ```csharp
+using Aspose.Words.Saving;
 // Step 2: Configure TXT save options to export OfficeMath as LaTeX
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This forces every OfficeMath node to be rendered as LaTeX code.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: keep line breaks similar to the original Word layout.
     PreserveTableLayout = true
@@ -149,7 +150,7 @@ If you see raw Unicode math symbols instead, double‑check that you really set 
 
 The pattern above is flexible. Here are a few quick ideas you can implement without rewriting the core logic:
 
-- **Export to Markdown**: Change `TxtSaveOptions` to `MarkdownSaveOptions` and keep `OfficeMathExportMode.LaTeX`. The result will be a `.md` file with LaTeX blocks.
+- **Export to Markdown**: Change `TxtSaveOptions` to `MarkdownSaveOptions` and keep `MarkdownOfficeMathExportMode.Latex`. The result will be a `.md` file with LaTeX blocks.
 - **Batch processing**: Loop over a directory of `.docx` files, applying the same three‑step flow to each.  
 - **In‑memory streaming**: Use a `MemoryStream` instead of a file path if you need to send the LaTeX directly over HTTP.
 
