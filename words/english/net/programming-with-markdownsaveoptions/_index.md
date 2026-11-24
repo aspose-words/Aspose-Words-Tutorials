@@ -58,7 +58,6 @@ class Program
 | [Convert Word to Markdown in C# – Export Equations as LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/) | Learn how to convert Word documents to Markdown in C# while exporting equations as LaTeX using Aspose.Words for .NET. |
 | [save docx as markdown – Complete Guide with LaTeX Equations](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Complete C# Guide with Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Learn how to save DOCX as Markdown using Aspose.Words for .NET. |
-| [Save docx as markdown with LaTeX equations – C# guide](./save-docx-as-markdown-with-latex-equations-c-guide/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete Guide with Image Extraction](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with comprehensive image extraction using Aspose.Words for .NET. |
 | [save docx as markdown – Export Word Math to LaTeX with Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Export Word Math equations to LaTeX while saving DOCX as Markdown using Aspose.Words. |
