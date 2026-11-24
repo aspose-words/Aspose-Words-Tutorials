@@ -64,7 +64,6 @@ Pelajari cara menyematkan gambar dari file DOCX ke dalam dokumen Markdown menggu
 ### [Ekspor docx ke markdown dalam C# – Panduan Lengkap](./export-docx-to-markdown-in-c-complete-guide/)
 Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan lengkap menggunakan C# dan Aspose.Words.
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke format Markdown menggunakan Aspose.Words untuk .NET.
-### [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke Markdown menggunakan Aspose.Words untuk .NET.
 Pelajari cara mengonversi dokumen Word ke Markdown dengan menyematkan gambar sebagai string Base64 menggunakan Aspose.Words untuk .NET.
 ### [Cara Menyimpan Markdown dari Word – Panduan Lengkap C#](./how-to-save-markdown-from-word-complete-c-guide/)

@@ -206,7 +206,6 @@ A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [DOCX konvertálása TXT-re – Teljes útmutató a Word egyszerű szövegként mentéséhez](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [DOCX mentése TXT‑ként – Word Math exportálása LaTeX‑be C#‑vel](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Hogyan exportáljunk LaTeX-et a Word‑ből: DOCX konvertálása Markdown‑ba Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

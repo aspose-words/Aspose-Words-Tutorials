@@ -204,7 +204,6 @@ A: Aspose.Words 支持 `SaveFormat.MARKDOWN`。将 `TxtSaveOptions` 替换为 `M
 
 - [将 docx 转换为 txt – 完整指南：将 Word 保存为纯文本](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [将 docx 保存为 txt – 使用 C# 导出 Word 数学公式为 LaTeX](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [如何从 Word 导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

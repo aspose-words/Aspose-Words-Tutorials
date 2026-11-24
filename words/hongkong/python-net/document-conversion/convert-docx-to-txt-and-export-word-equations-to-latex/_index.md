@@ -182,7 +182,6 @@ A: 完全可以。只要執行環境符合版本需求，Aspose.Words for Python
 以下教學與本指南緊密相關，能進一步深化您所學的技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，或在自己的專案中探索替代實作方式。
 
 - [將 docx 轉換為 txt – 完整指南：將 Word 儲存為純文字](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式為 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

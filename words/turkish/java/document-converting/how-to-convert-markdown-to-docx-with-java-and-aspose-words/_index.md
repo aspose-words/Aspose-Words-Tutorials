@@ -222,7 +222,6 @@ Kodlamaktan keyif alın ve Aspose.Words'ün sunduğu birçok içe aktarma ayarı
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Docx'i markdown'e dönüştür – Matematik denklemlerini LaTeX'e dışa aktar Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word'den LaTeX nasıl dışa aktarılır – DOCX'i markdown'e dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Docx dosyasını markdown'e dönüştür](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

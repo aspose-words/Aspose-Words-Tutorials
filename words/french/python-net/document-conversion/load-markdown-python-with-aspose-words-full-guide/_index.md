@@ -208,7 +208,6 @@ Vous savez maintenant comment **load markdown python** des fichiers avec Aspose.
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
 - [Maîtriser les options de chargement Markdown d'Aspose.Words en Python pour un traitement de documents amélioré](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Comment exporter LaTeX depuis Word : Convertir DOCX en Markdown avec Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Comment exporter LaTeX depuis Word : Convertir DOCX en Markdown & enregistrer en PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

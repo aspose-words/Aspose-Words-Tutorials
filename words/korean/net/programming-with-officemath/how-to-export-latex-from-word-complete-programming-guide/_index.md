@@ -216,7 +216,6 @@ dotnet run
 
 다음 튜토리얼들은 이번 가이드에서 다룬 기술을 확장하거나 변형하는 내용으로, 단계별 코드 예제와 자세한 설명을 제공합니다.
 
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Save Document as Txt – Export Word Math to LaTeX in C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

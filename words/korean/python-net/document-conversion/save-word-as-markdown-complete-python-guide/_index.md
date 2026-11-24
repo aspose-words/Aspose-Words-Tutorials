@@ -281,7 +281,6 @@ $$
 ## 다음에 배울 내용
 
 - [Word에서 Markdown 저장 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Word에서 LaTeX 내보내기: Aspose로 DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX를 Markdown으로 변환 – Aspose.Words로 수식 LaTeX 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

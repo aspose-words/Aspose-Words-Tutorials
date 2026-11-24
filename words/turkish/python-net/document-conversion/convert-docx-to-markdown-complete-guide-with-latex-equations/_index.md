@@ -257,7 +257,6 @@ Got questions about edge cases, licensing, or performance on huge documents? Dro
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Word'den LaTeX Dışa Aktarma: Aspose ile DOCX'i Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX'i markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Rehberi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Word Görsellerini Kaydet – Aspose ile Word'ü Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 

@@ -206,7 +206,6 @@ From here you can explore further topics such as **convert markdown to docx** in
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Python에서 향상된 문서 처리를 위한 Aspose.Words Markdown 로드 옵션 마스터](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Word에서 LaTeX 내보내기: Aspose를 사용해 DOCX를 Markdown으로 변환하는 방법](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Word에서 LaTeX 내보내기: DOCX를 Markdown으로 변환하고 PDF로 저장하는 방법](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

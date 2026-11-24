@@ -205,7 +205,6 @@ Paylaşmak istediğiniz bir varyasyon var mı—ör. CSV'ye dışa aktarmak ya d
 ## Sonra Ne Öğrenmelisiniz?
 
 - [docx'i txt olarak kaydet – Word Matematiklerini C# ile LaTeX'e Dışa Aktar](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Aspose ile Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Markdown'a Dönüştür ve PDF Olarak Kaydet](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

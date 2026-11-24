@@ -186,7 +186,6 @@ A **convert docx to txt** és a kapcsolódó LaTeX export elsajátításával eg
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsenek további API‑funkciók elsajátításában és alternatív megvalósítási megközelítések felfedezésében saját projektjeidben.
 
 - [DOCX konvertálása TXT-re – Teljes útmutató a Word egyszerű szövegként mentéséhez](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Hogyan exportáljunk LaTeX-et Wordből: DOCX konvertálása Markdownba Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX konvertálása Markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

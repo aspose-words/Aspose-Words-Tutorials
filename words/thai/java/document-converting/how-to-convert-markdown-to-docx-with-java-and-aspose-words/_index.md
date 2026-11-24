@@ -222,7 +222,6 @@ Happy coding, and feel free to experiment with the many import settings Aspose.W
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่ใกล้เคียงและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโครงการของคุณ
 
 - [แปลง docx เป็น markdown – ส่งออกสมการ Math ไปยัง LaTeX ด้วย Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [แปลงไฟล์ Docx เป็น Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

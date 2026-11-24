@@ -204,7 +204,6 @@ CSV로 내보내거나 출력물을 검색 인덱스에 연결하는 등 새로�
 ## 다음에 배울 내용은?
 
 - [docx를 txt로 저장 – C#으로 Word 수식 LaTeX 내보내기](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Word에서 LaTeX 내보내기: Aspose로 DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Word에서 LaTeX 내보내기: DOCX를 Markdown으로 변환하고 PDF로 저장](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
