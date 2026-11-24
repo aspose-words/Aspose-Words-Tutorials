@@ -90,7 +90,6 @@ Aprenda a exportar documentos Word para Markdown usando C# com Aspose.Words, pas
 
 Aprenda a exportar links ao converter documentos DOCX para Markdown usando C# com Aspose.Words.
 
-### [Como Exportar Markdown de DOCX – Guia Completo](./how-to-export-markdown-from-docx-complete-guide/)
 Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words, passo a passo e exemplos de código.
 
 ### [Como Exportar Markdown de DOCX – Guia Completo Passo a Passo](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)

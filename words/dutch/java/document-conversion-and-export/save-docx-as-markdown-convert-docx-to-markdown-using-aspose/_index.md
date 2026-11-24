@@ -209,7 +209,6 @@ Als alles correct is geconfigureerd, zie je een bevestigingsbericht en is het Ma
 
 - [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown converteren & opslaan als PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [DOCX naar markdown converteren – Wiskundige vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hoe Markdown exporteren vanuit DOCX – Complete gids](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

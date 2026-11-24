@@ -213,7 +213,6 @@ N’hésitez pas à expérimenter avec les options d’enregistrement supplémen
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités d’API supplémentaires et à explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Comment exporter du Markdown depuis DOCX – Guide complet](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 - [Comment enregistrer du Markdown depuis DOCX – Guide étape par étape](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Comment intégrer des images dans le Markdown lors de la conversion de DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 

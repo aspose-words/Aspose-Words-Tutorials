@@ -212,7 +212,6 @@ Nếu mọi thứ được cấu hình đúng, bạn sẽ thấy thông báo xá
 
 - [Cách Xuất LaTeX từ Word: Chuyển DOCX sang Markdown & Lưu dưới dạng PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [Chuyển docx sang markdown – Xuất Phương Trình Toán sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cách Xuất Markdown từ DOCX – Hướng dẫn đầy đủ](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -213,7 +213,6 @@ Siéntete libre de experimentar con las opciones de guardado adicionales, proces
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Cómo exportar Markdown desde DOCX – Guía completa](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 - [Cómo guardar Markdown desde DOCX – Guía paso a paso](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Cómo incrustar imágenes en Markdown al convertir DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 

@@ -211,7 +211,6 @@ Om allt är korrekt konfigurerat kommer du att se bekräftelsemeddelandet och Ma
 
 - [Hur man exporterar LaTeX från Word: Konvertera DOCX till Markdown & Spara som PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hur man exporterar Markdown från DOCX – Komplett guide](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

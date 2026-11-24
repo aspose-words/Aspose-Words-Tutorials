@@ -198,7 +198,6 @@ print(f"Markdown exported successfully → {OUTPUT_PATH}")
 
 以下教學涵蓋與本指南緊密相關的主題，建立在所示技術之上。每個資源皆包含完整的可運作程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
-- [如何從 DOCX 匯出 Markdown – 完整指南](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 - [如何從 DOCX 儲存 Markdown – 步驟指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [將 DOCX 轉換為 Markdown 時如何嵌入影像](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 
