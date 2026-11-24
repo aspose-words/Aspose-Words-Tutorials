@@ -23,7 +23,6 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 | --- | --- |
 | [Eksportuj do Markdown z wyrównaniem zawartości tabeli](./export-into-markdown-with-table-content-alignment/) | Dowiedz się, jak eksportować dokumenty Word do Markdown z wyrównanymi tabelami przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać idealne tabele Markdown. |
 | [Ustaw folder obrazów](./set-images-folder/) Konwertuj dokumenty Word do Markdown z odpowiednim wyrównaniem tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać idealne wyniki. |
-| [Jak używać Markdown: konwertuj DOCX do Markdown z równaniami LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Dowiedz się, jak konwertować dokumenty DOCX do formatu Markdown, zachowując równania LaTeX przy użyciu Aspose.Words dla .NET. |
 | [Konwertuj docx do markdown – Przewodnik krok po kroku w C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Dowiedz się, jak krok po kroku konwertować pliki DOCX do formatu Markdown w C# przy użyciu Aspose.Words. |
 ### [Zapisz Word jako Markdown – Kompletny przewodnik konwersji DOCX i wyodrębniania obrazów](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown, konwertować DOCX i wyodrębniać obrazy przy użyciu Aspose.Words.

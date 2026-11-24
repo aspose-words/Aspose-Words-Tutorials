@@ -33,7 +33,6 @@ Aprenda a recuperar documentos Word corrompidos usando Aspose.Words com um guia 
 
 Aprenda a gerar PDFs acessíveis e converter documentos Word para Markdown usando C# com Aspose.Words.
 
-### [Como usar Markdown: converter DOCX para Markdown com equações LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 Aprenda a converter documentos DOCX para Markdown preservando equações LaTeX usando Aspose.Words para .NET.
 
 ### [Como usar Aspose – Converter DOCX para Markdown com Equações LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)

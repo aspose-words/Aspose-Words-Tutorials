@@ -249,7 +249,6 @@ Give it a spin, tweak the options, and let your documentation workflow run smoot
 ## Related Tutorials
 
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
-- [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations]({{< relref "net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

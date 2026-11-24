@@ -28,7 +28,6 @@ Ordbehandling med MarkdownSaveOptions är en djupgående resurs som guidar dig g
 
 Lär dig skapa tillgängliga PDF-filer och konvertera Word-dokument till Markdown med en komplett C#-guide.
 
-### [Hur man använder Markdown: Konvertera DOCX till Markdown med LaTeX-ekvationer](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 Lär dig konvertera DOCX-filer till Markdown med LaTeX-ekvationer med Aspose.Words för .NET.
 
 ### [Hur man använder Aspose – Konvertera DOCX till Markdown med LaTeX‑ekvationer](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)

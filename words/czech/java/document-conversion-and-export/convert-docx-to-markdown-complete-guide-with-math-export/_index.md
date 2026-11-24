@@ -254,7 +254,6 @@ Vyzkoušejte to, upravte možnosti a nechte svůj dokumentační workflow běže
 ## Související tutoriály
 
 - [Převod docx na markdown – Export rovnic do LaTeX s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Jak používat Markdown: Převod DOCX na Markdown s LaTeX rovnicemi](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

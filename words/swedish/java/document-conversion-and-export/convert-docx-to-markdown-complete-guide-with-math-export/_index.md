@@ -254,7 +254,6 @@ Ge det ett försök, justera alternativen, och låt ditt dokumentationsflöde bl
 ## Relaterade handledningar
 
 - [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hur man använder Markdown: Konvertera DOCX till Markdown med LaTeX‑ekvationer](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -33,7 +33,6 @@
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมจัดการเงารูปร่างและกู้คืนไฟล์ที่เสียหายด้วย Aspose.Words สำหรับ .NET
 
 สร้าง PDF ที่เข้าถึงได้และแปลงไฟล์ Word เป็น Markdown ด้วย C# อย่างละเอียด
-### [วิธีใช้ Markdown: แปลง DOCX เป็น Markdown พร้อมสมการ LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 เรียนรู้วิธีแปลงสมการจาก Word เป็น Markdown อย่างละเอียดด้วย C#
 
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)

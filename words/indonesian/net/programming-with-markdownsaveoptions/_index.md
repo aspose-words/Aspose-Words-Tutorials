@@ -26,7 +26,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 ### [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown dalam C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Pelajari cara menyimpan dokumen Word sebagai PDF dan memulihkan Word yang rusak, serta mengonversi Word ke Markdown menggunakan C#.
 Pelajari cara membuat PDF yang dapat diakses dan mengonversi dokumen Word ke Markdown dengan panduan lengkap C#.
-### [Cara Menggunakan Markdown: Mengonversi DOCX ke Markdown dengan Persamaan LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 Pelajari cara mengonversi dokumen DOCX ke Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk .NET.
 ### [Konversi docx ke markdown – Panduan Langkah‑demi‑Langkah C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 Pelajari cara mengonversi file DOCX ke format Markdown dengan panduan langkah demi langkah menggunakan C#.
