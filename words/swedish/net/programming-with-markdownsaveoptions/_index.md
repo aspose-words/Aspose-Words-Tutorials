@@ -24,7 +24,6 @@ Ordbehandling med MarkdownSaveOptions är en djupgående resurs som guidar dig g
 | [Exportera till Markdown med tabellinnehållsjustering](./export-into-markdown-with-table-content-alignment/) | Lär dig hur du exporterar Word-dokument till Markdown med justerade tabeller med hjälp av Aspose.Words för .NET. Följ vår steg-för-steg-guide för perfekta Markdown-tabeller. |
 | [Ställ in bildmapp](./set-images-folder/) Konvertera Word-dokument till Markdown med korrekt tabelljustering med Aspose.Words för .NET. Följ vår detaljerade guide för perfekta resultat. |
 
-### [Spara Word som PDF och återställ korrupt Word – Konvertera Word till Markdown i C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 Lär dig skapa tillgängliga PDF-filer och konvertera Word-dokument till Markdown med en komplett C#-guide.
 

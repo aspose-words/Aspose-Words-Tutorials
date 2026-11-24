@@ -27,7 +27,6 @@ Tekstverwerking met MarkdownSaveOptions is een uitgebreide bron die u begeleidt 
 ### [Map maken C# – Converteer Word naar Markdown & Extraheer afbeeldingen](./create-folder-c-convert-word-to-markdown-extract-images/)
 Leer hoe u een map maakt in C#, Word-documenten converteert naar Markdown en afbeeldingen extraheert met Aspose.Words voor .NET.
 
-### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteert met een volledige C#-handleiding.
 

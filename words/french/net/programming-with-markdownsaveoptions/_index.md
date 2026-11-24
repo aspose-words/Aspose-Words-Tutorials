@@ -31,7 +31,6 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Enregistrer le Markdown – Guide complet avec extraction d'images](./how-to-save-markdown-full-guide-with-image-extraction/) | Apprenez à enregistrer du contenu Markdown en extrayant les images avec Aspose.Words pour .NET. |
 | [Enregistrer Word en Markdown avec dossier d'images personnalisé – Guide complet](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Apprenez à enregistrer des documents Word en Markdown en spécifiant un dossier d'images personnalisé avec Aspose.Words pour .NET. |
 
-### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 Apprenez à enregistrer un document Word en PDF, à récupérer un fichier Word corrompu et à le convertir en Markdown en utilisant C# et Aspose.Words.
 

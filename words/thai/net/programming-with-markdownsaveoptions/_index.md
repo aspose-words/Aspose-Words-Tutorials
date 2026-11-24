@@ -27,7 +27,6 @@
 ### [สร้างโฟลเดอร์ Assets สำหรับแปลง Word เป็น Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 วิธีสร้างโฟลเดอร์ Assets เพื่อจัดเก็บไฟล์และรูปภาพเมื่อแปลง Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
  
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมจัดการเงารูปร่างและกู้คืนไฟล์ที่เสียหายด้วย Aspose.Words สำหรับ .NET
 
