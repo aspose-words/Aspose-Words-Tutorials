@@ -41,7 +41,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertiere
 
 ### [DOCX als Markdown speichern – Vollständige Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
-### [DOCX als Markdown speichern – C#‑Leitfaden mit LaTeX‑Gleichungen](./save-docx-as-markdown-with-latex-equations-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
