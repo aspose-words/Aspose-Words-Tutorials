@@ -228,7 +228,6 @@ Gotowy, aby zautomatyzować przepływ pracy dokumentacji? Spróbuj skonwertować
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [zapisz docx jako markdown – Pełny przewodnik C# z ekstrakcją obrazów](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Zapisz docx jako markdown przy użyciu Aspose.Words – Pełny przewodnik C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 - [Konwertuj plik Docx na Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
