@@ -209,7 +209,6 @@
 ### [บันทึก Word เป็น Markdown – คู่มือเต็ม C# เพื่อส่งออกรูปภาพจาก Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกรูปภาพด้วย C# อย่างละเอียด
 
-### [บันทึกรูปภาพ Word ขณะแปลงเป็น Markdown – คู่มือเต็ม C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
 ### [แปลง DOCX เป็น Markdown – สกัดรูปภาพจาก DOCX ด้วย Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 
