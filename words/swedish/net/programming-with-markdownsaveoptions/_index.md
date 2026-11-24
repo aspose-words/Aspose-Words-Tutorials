@@ -232,7 +232,6 @@ Lär dig skapa markdown från Word-dokument med en komplett C#‑guide.
 ### [Anpassad bildmapp för export av Markdown med bilder – Komplett guide](./custom-image-folder-for-export-markdown-with-images-complete/)
 Lär dig hur du anger en egen bildmapp när du exporterar Markdown med bilder i Aspose.Words för .NET.
 
-### [Återställ Word-dokument med Aspose.Words – Fullständig guide](./recover-word-document-with-aspose-words-full-guide/)
 Lär dig återställa korrupta Word-dokument med Aspose.Words i en komplett guide.
 Lär dig exportera Word-dokument till Markdown samtidigt som du bevarar formskuggor och skapar PDF/UA-filer med Aspose.Words för .NET.
 ### [Skapa markdown‑fil från Word – Fullständig guide för att exportera ekvationer](./create-markdown-file-from-word-full-guide-to-export-equation/)

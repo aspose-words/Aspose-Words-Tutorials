@@ -28,7 +28,6 @@ Processamento de Texto com MarkdownSaveOptions é um recurso aprofundado que o o
 
 ### [Como salvar Word como Markdown – Guia completo em C#](./how-to-save-word-as-markdown-complete-c-guide/)
 Aprenda a salvar documentos Word como arquivos Markdown usando C# com Aspose.Words, passo a passo e exemplos de código.
-### [Recuperar Documento Word com Aspose.Words – Guia Completo](./recover-word-document-with-aspose-words-full-guide/)
 Aprenda a recuperar documentos Word corrompidos usando Aspose.Words com um guia passo a passo em C#.
 
 Aprenda a gerar PDFs acessíveis e converter documentos Word para Markdown usando C# com Aspose.Words.

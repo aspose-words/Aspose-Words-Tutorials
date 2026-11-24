@@ -109,7 +109,6 @@ Kompletny przewodnik pokazujący, jak konwertować pliki DOCX do Markdown z eksp
 
 Dowiedz się, jak konwertować DOCX do Markdown, zachowując cienie kształtów i odzyskując uszkodzone dokumenty przy użyciu Aspose.Words dla .NET.
 
-### [Odzyskaj dokument Word przy użyciu Aspose.Words – Pełny przewodnik](./recover-word-document-with-aspose-words-full-guide/)
 Kompletny przewodnik C# pokazujący, jak odzyskać uszkodzony dokument Word przy użyciu Aspose.Words.
 
 ### [Konwertuj Word do Markdown – Kompletny przewodnik z wyodrębnianiem obrazów](./convert-word-to-markdown-complete-guide-with-image-extractio/)

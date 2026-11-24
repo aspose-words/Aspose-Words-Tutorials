@@ -146,7 +146,6 @@
 ### [مجلد صور مخصص لتصدير Markdown مع الصور – دليل كامل](./custom-image-folder-for-export-markdown-with-images-complete/)
 ### [تحويل docx إلى markdown وحفظ الصور من docx](./convert-docx-to-markdown-save-images-from-docx/)
 
-### [استعادة مستند Word باستخدام Aspose.Words – دليل كامل](./recover-word-document-with-aspose-words-full-guide/)
 
 ### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-full-c-guide/)
 
