@@ -164,7 +164,6 @@
 
 ### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 ### [حفظ المستند كـ markdown باستخدام C# – دليل كامل](./save-document-as-markdown-with-c-full-guide/)
-### [حفظ docx كـ markdown – تصدير معادلات Word إلى LaTeX باستخدام Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 
 ### [تحميل الصور إلى السحابة عند تحويل Word إلى Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
 ### [حفظ Word كـ Markdown – تصدير الجداول إلى HTML باستخدام Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)

@@ -39,7 +39,6 @@ Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentó
 ### [Zapisz docx jako markdown – Kompletny przewodnik z równaniami LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Kompletny przewodnik konwertujący pliki DOCX na Markdown z obsługą równań LaTeX przy użyciu Aspose.Words.
 
-### [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX przy użyciu Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 Dowiedz się, jak wyeksportować równania matematyczne z dokumentu Word do formatu LaTeX podczas konwersji do Markdown przy użyciu Aspose.Words.
 
 ### [Zapisz docx jako markdown – Pełny przewodnik C# z wyodrębnianiem obrazów](./save-docx-as-markdown-full-c-guide-with-image-extraction/)

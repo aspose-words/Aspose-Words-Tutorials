@@ -103,7 +103,6 @@
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมการสกัดและบันทึกรูปภาพจากไฟล์ต้นฉบับ
 ### [บันทึกเอกสารเป็น Markdown ด้วย C# – คู่มือเต็ม](./save-document-as-markdown-with-c-full-guide/)
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C#](./save-docx-as-markdown-complete-c-guide/)
-### [บันทึก docx เป็น markdown – ส่งออกสมการ Word ไปเป็น LaTeX ด้วย Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 เรียนรู้วิธีส่งออกสมการจากไฟล์ Word ไปเป็น LaTeX ระหว่างการแปลงเป็น Markdown ด้วย Aspose.Words
 ### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ด้วย Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 เรียนรู้วิธีส่งออกตารางจากไฟล์ Word เป็น HTML พร้อมบันทึกเป็น Markdown ด้วย Aspose.Words สำหรับ .NET

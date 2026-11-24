@@ -259,7 +259,6 @@ Lär dig spara Word som Markdown med en anpassad bildmapp i en komplett guide.
 ### [Spara dokument som Markdown med C# – Fullständig guide](./save-document-as-markdown-with-c-full-guide/)
 Lär dig spara dokument som Markdown med en komplett C#‑guide.
 Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med en komplett C#‑guide.
-### [Spara docx as markdown – Exportera Word-matematik till LaTeX med Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 Lär dig exportera matematiska ekvationer från Word till LaTeX när du sparar DOCX som Markdown med Aspose.Words.
 
 ### [Ladda upp bilder till molnet när du konverterar Word till Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)

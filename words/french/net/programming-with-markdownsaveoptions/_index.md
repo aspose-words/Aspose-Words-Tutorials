@@ -235,7 +235,6 @@ Apprenez à générer du markdown à partir de documents Word en C# avec Aspose.
 Apprenez à enregistrer un document Word au format Markdown avec un guide complet en C# utilisant Aspose.Words.
 
 Apprenez à exporter des fichiers DOCX au format Markdown avec un guide complet en C# utilisant Aspose.Words.
-### [Enregistrer docx en markdown – Exporter les formules Word en LaTeX avec Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 ### [Enregistrer Word en Markdown – Exporter les tableaux en HTML avec Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 ### [Enregistrer le markdown en docx en C# – guide étape par étape](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
