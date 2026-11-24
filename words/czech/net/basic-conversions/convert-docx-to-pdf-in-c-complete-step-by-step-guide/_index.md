@@ -272,7 +272,6 @@ Máte scénář, který zde není pokryt? Zanechte komentář a pojďme to spole
 ## Co byste se měli naučit dál?
 
 - [Převod souboru Word na PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Uložit Word jako PDF a obnovit poškozený Word – Convert Word to Markdown v C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

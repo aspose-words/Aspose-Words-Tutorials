@@ -23,7 +23,6 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | --- | --- |
 | [Tablo İçeriği Hizalamasıyla Markdown'a Aktarma](./export-into-markdown-with-table-content-alignment/) | Aspose.Words for .NET kullanarak Word belgelerini hizalanmış tablolarla Markdown'a nasıl aktaracağınızı öğrenin. Mükemmel Markdown tabloları için adım adım kılavuzumuzu izleyin. |
 | [Görüntüler Klasörünü Ayarla](./set-images-folder/) | Aspose.Words for .NET kullanarak Word belgelerini uygun tablo hizalamasıyla Markdown'a dönüştürün. Mükemmel sonuçlar için ayrıntılı kılavuzumuzu izleyin. |
-| [Word'ü PDF Olarak Kaydet ve Bozuk Word'ü Kurtar – C#'ta Word'ü Markdown'a Dönüştür](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) | Aspose.Words for .NET kullanarak Word belgelerini PDF olarak kaydedin, bozuk dosyaları kurtarın ve C# ile Markdown'a dönüştürün. |
 | [Word'ü Markdown Olarak Kaydet – Tam C# Rehberi](./how-to-save-word-as-markdown-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerini tam C# rehberiyle Markdown formatına kaydetmeyi öğrenin. |
 | [docx'i markdown'a dönüştür – Adım Adım C# Rehberi](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını adım adım markdown formatına dönüştürün. |
 | [docx'i markdown'a dönüştür – Tam C# Rehberi](./export-docx-to-markdown-in-c-complete-guide/) | Aspose.Words for .NET kullanarak docx dosyasını C# ile markdown formatına dönüştürmeyi adım adım öğrenin. |

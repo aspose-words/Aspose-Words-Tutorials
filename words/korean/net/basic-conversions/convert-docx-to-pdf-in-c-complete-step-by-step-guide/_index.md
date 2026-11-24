@@ -272,7 +272,6 @@ public IActionResult Convert(IFormFile file)
 ## 다음에 배울 내용
 
 - [Word 파일을 PDF로 변환](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Word를 PDF로 저장하고 손상된 Word 복구 – C#에서 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

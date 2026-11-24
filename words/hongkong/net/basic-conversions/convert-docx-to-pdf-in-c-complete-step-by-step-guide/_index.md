@@ -272,7 +272,6 @@ public IActionResult Convert(IFormFile file)
 ## 接下來你可以學習什麼？
 
 - [將 Word 檔案轉換為 PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [將 Word 儲存為 PDF 並修復損毀的 Word – 在 C# 中將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

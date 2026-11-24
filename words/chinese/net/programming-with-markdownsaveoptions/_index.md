@@ -39,7 +39,6 @@
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，提供完整的 C# 示例和分步指南。
 
-### [将 Word 保存为 PDF 并恢复损坏的 Word – 在 C# 中将 Word 转换为 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 PDF，恢复损坏的文档，并转换为 Markdown。
 

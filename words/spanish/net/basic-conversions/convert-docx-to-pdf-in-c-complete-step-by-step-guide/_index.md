@@ -274,7 +274,6 @@ A continuación, podrías explorar agregar marcas de agua, encriptar el PDF de s
 ## ¿Qué deberías aprender a continuación?
 
 - [Convertir archivo Word a PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Guardar Word como PDF y recuperar Word dañado – Convertir Word a Markdown en C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
