@@ -255,7 +255,6 @@ Cobalah, sesuaikan opsi, dan biarkan alur kerja dokumentasi Anda berjalan lebih 
 ## Tutorial Terkait
 
 - [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cara Menggunakan Markdown: Konversi DOCX ke Markdown dengan Persamaan LaTeX](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

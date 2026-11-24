@@ -254,7 +254,6 @@ public class DocxToMarkdown {
 ## संबंधित ट्यूटोरियल
 
 - [DOCX को Markdown में बदलें – Aspose.Words के साथ गणित समीकरणों को LaTeX में निर्यात करें](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Markdown का उपयोग कैसे करें: DOCX को LaTeX समीकरणों के साथ Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

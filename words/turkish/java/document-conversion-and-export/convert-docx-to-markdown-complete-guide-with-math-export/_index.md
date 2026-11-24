@@ -280,7 +280,6 @@ Give it a spin, tweak the options, and let your documentation workflow run smoot
 ## İlgili Öğreticiler
 
 - [DOCX'i Markdown'a Dönüştür – Matematik Denklemlerini LaTeX'e Aktar Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Markdown Kullanımı: DOCX'i LaTeX Denklemleriyle Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
