@@ -62,7 +62,6 @@
 - [บันทึก docx เป็น pdf พร้อมการส่งออก Shape – คู่มือฉบับสมบูรณ์](./save-docx-as-pdf-with-shape-export-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น pdf พร้อมการส่งออกรูปทรงด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 - [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย Aspose.Words ใน C# อย่างละเอียดและครบถ้วน
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-accessible-pdf-step-by-step-guide-for-developers/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
-- [สร้าง PDF/UA จาก Word ด้วย C# – คู่มือครบถ้วน](./create-pdf-ua-from-word-in-c-complete-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย C# อย่างละเอียดตามขั้นตอน
 - [แปลง docx เป็น pdf – คู่มือฉบับสมบูรณ์สำหรับ PDF ที่เข้าถึงได้](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PDF ที่เป็นมิตรกับการเข้าถึงด้วยขั้นตอนครบถ้วนและตัวอย่างโค้ด
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET และ C# ผ่านขั้นตอนละเอียด
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose ตามขั้นตอนที่อธิบายอย่างละเอียด |
