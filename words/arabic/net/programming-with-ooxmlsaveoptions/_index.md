@@ -29,7 +29,6 @@
 | [تحديث خاصية آخر وقت تم حفظه](./update-last-saved-time-property/) | تعرّف على كيفية تحديث خاصية آخر وقت محفوظ في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل خطوة بخطوة. |
 | [الاحتفاظ بأحرف التحكم القديمة](./keep-legacy-control-chars/) |تعرف على كيفية الحفاظ على أحرف التحكم القديمة في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل خطوة بخطوة. |
 | [ضبط مستوى الضغط](./set-compression-level/) تعرّف على كيفية ضبط مستوى الضغط في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين تخزين مستنداتك وأدائها. |
-| [كيفية تغيير ترميز مستند Word باستخدام Aspose.Words في C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) |تعرف على كيفية تغيير ترميز مستند Word باستخدام Aspose.Words في C# لتحسين التوافق والقراءة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
