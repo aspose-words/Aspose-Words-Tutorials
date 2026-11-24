@@ -210,7 +210,6 @@ java -cp "path/to/aspose-words.jar;." com.example.docx2md.DocxToMarkdown input.d
 
 - [如何從 Word 匯出 LaTeX：將 DOCX 轉換為 Markdown 並儲存為 PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式為 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [如何從 DOCX 匯出 Markdown – 完整指南](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

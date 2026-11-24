@@ -212,7 +212,6 @@ Si todo está configurado correctamente, verás el mensaje de confirmación y el
 
 - [Cómo exportar LaTeX desde Word: Convertir DOCX a Markdown y Guardar como PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Cómo exportar Markdown desde DOCX – Guía completa](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -234,7 +234,6 @@ Denemeler yapın—callback mantığını değiştirin, farklı görsel formatla
 
 - [DOCX Dönüştürürken Markdown'a Görsel Gömme](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [DOCX'ten Markdown'a Dönüştürürken Görselleri Yeniden Adlandırma](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
-- [DOCX'ten Markdown Dışa Aktarma – Tam Rehber](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

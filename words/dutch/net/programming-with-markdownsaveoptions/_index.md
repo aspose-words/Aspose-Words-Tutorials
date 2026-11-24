@@ -118,7 +118,6 @@ Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert 
 Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
 ### [Hoe Markdown op te slaan vanuit Word met afbeeldingen – Complete C#-gids](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
-### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete stap‑voor‑stap gids](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 

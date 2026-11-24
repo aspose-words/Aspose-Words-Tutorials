@@ -48,7 +48,6 @@
 
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
-### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 ### [حفظ Word كـ markdown – دليل C# كامل مع Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 
 
