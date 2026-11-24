@@ -269,7 +269,6 @@ class Program
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดตัวอย่างทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอน‑ตาม‑ขั้นตอน เพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโปรเจกต์ของคุณ
 
 - [Save docx as markdown with Aspose.Words – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

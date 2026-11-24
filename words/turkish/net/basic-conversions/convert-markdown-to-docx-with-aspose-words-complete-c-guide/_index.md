@@ -240,7 +240,6 @@ Deneyin, seçenekleri ayarlayın ve kütüphanenin ağır işi yapmasına izin v
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [DOCX'i markdown'a dönüştür – Adım Adım C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır: Aspose ile DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

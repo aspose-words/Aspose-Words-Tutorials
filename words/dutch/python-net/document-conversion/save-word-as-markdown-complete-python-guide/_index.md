@@ -266,7 +266,6 @@ Nu kun je vol vertrouwen **docx naar markdown converteren**, de juiste `export w
 ## Wat moet je hierna leren?
 
 - [Hoe Markdown opslaan vanuit Word – Complete Python Gids](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Convert docx naar markdown – Math‑vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

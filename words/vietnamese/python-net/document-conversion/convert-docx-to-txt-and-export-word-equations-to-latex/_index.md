@@ -186,7 +186,6 @@ Bằng cách thành thạo **convert docx to txt** và việc xuất LaTeX liên
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Chuyển đổi docx sang txt – Hướng dẫn đầy đủ để lưu Word dưới dạng văn bản thuần](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Chuyển docx sang markdown – Xuất các phương trình toán học sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

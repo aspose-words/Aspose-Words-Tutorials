@@ -301,7 +301,6 @@ Có cách tiếp cận nào bạn muốn chia sẻ? Hãy để lại bình luậ
 
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã đầy đủ, hoạt động kèm theo giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Chuyển docx sang markdown – Xuất công thức Math sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Lưu tài liệu dưới dạng Txt – Xuất Word Math sang LaTeX trong C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 

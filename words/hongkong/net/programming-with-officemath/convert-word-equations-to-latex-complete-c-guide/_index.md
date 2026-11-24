@@ -172,7 +172,6 @@ using (MemoryStream ms = new MemoryStream())
 
 以下教學涵蓋與本指南緊密相關的主題，建立在所示技巧之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式為 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

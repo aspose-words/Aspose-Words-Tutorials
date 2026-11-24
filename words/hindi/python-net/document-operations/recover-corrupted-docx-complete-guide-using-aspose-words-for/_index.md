@@ -226,7 +226,6 @@ A: लोड करने के बाद, `doc.get_child_nodes(aw.NodeType.SHA
 
 - [docx को पुनर्प्राप्त करने का तरीका – भ्रष्ट Word फ़ाइलों के लिए C# गाइड](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [docx को markdown में बदलें – चरण‑दर‑चरण C# गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Word से LaTeX निर्यात कैसे करें: Aspose के साथ DOCX को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

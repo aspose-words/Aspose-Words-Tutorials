@@ -255,7 +255,6 @@ Có câu hỏi về các trường hợp đặc biệt, giấy phép, hoặc hi�
 
 Các tutorial sau đây liên quan chặt chẽ tới các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm mã mẫu đầy đủ cùng giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với các phương trình LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Lưu hình ảnh Word – Chuyển Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 

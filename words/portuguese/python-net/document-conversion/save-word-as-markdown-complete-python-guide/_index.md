@@ -281,7 +281,6 @@ Agora você pode converter docx para markdown com confiança, escolher a estrat�
 ## O que você deve aprender a seguir?
 
 - [Como Salvar Markdown a partir do Word – Guia Completo em Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Como Exportar LaTeX do Word: Converter DOCX para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

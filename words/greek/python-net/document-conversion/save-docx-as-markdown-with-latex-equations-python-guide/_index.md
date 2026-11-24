@@ -241,7 +241,6 @@ python convert.py MathDocument.docx MathExport.md
 Τα παρακάτω εγχειρίδια καλύπτουν στενά συναφή θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να αποθηκεύσετε Markdown από Word – Πλήρης Οδηγός Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Πώς να εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

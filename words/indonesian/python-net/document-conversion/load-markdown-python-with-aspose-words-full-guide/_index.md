@@ -210,7 +210,6 @@ Selanjutnya Anda dapat menjelajahi topik lanjutan seperti **mengonversi markdown
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Menguasai Opsi Muat Markdown Aspose.Words di Python untuk Pemrosesan Dokumen yang Ditingkatkan](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown & Menyimpan sebagai PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

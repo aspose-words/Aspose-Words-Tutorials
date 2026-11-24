@@ -208,7 +208,6 @@ Härifrån kan du utforska vidare ämnen som **convert markdown to docx** i batc
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Behärska Aspose.Words Markdown Load Options i Python för förbättrad dokumenthantering](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Hur man exporterar LaTeX från Word: Konvertera DOCX till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Hur man exporterar LaTeX från Word: Konvertera DOCX till Markdown & spara som PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -283,7 +283,6 @@ Chúng tôi vừa trình bày cách **khôi phục một tài liệu Word**, **l
 Các hướng dẫn sau đây bao quát các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã được minh họa trong bài viết này. Mỗi tài nguyên đều bao gồm mã nguồn đầy đủ với các ví dụ hoạt động và giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Lưu Word dưới dạng PDF và Khôi phục Word bị hỏng – Chuyển Word sang Markdown trong C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

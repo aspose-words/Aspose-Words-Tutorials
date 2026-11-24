@@ -282,7 +282,6 @@ Acabamos de mostrar como **recuperar um documento Word**, **salvar como Markdown
 Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas em seus próprios projetos.
 
 - [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

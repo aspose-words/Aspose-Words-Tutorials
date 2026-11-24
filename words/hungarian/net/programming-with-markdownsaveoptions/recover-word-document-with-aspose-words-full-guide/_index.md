@@ -285,7 +285,6 @@ Megmutattuk, hogyan **helyreállítható egy Word dokumentum**, **menthető Mark
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket és lépésről‑lépésre magyarázatot tartalmaz, hogy további API‑funkciókat saját projektjeidben is felfedezhess és alternatív megvalósítási módokat próbálhass ki.
 
 - [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

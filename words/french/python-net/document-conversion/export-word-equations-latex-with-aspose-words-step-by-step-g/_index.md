@@ -214,7 +214,6 @@ N’hésitez pas à expérimenter avec les paramètres et à intégrer le script
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Comment exporter LaTeX depuis Word : convertir DOCX en Markdown avec Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Enregistrer docx en txt – Exporter les formules Word en LaTeX avec C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

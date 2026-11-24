@@ -218,7 +218,6 @@ Kapsamlı denklemler, özel makrolar gibi kenar durumlarıyla ilgili soruların�
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımları keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
-- [Word'den LaTeX Nasıl Dışa Aktarılır: Aspose ile DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Belgeyi Txt Olarak Kaydet – Word Matematiklerini C#'ta LaTeX'e Dışa Aktar](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

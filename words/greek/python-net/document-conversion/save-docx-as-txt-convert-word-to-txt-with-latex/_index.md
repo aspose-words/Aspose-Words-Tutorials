@@ -205,7 +205,6 @@ if __name__ == "__main__":
 ## Τι Θα Μάθετε Στη Σειρά;
 
 - [Αποθήκευση docx ως txt – Εξαγωγή Word Math σε LaTeX με C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown & Αποθήκευση ως PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

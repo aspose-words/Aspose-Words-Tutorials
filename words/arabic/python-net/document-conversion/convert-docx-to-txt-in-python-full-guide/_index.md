@@ -205,7 +205,6 @@ Another paragraph without equations.
 
 - [تحويل docx إلى txt – دليل كامل لحفظ Word كنص عادي](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [حفظ docx كـ txt – تصدير معادلات Word إلى LaTeX باستخدام C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

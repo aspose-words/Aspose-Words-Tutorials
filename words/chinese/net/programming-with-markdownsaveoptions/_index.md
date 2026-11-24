@@ -29,7 +29,6 @@
 | [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
 | [将 Word 转换为 Markdown – 提取图像（C#）](./convert-word-to-markdown-extract-images-in-c/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 并提取图像，提供完整示例和步骤指南。|
 | [如何在 Markdown 中嵌入来自 DOCX 的图像](./how-to-embed-images-in-markdown-from-docx/) 使用 Aspose.Words for .NET 将 DOCX 文档中的图像嵌入到生成的 Markdown 中，提供完整示例和步骤指南。|
-| [如何导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) 使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 方程导出为 Markdown，提供完整示例和步骤。|
 ### [将 Word 保存为 Markdown – 完整 C# 指南（转换 DOCX 并提取图像）](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 | [如何将 Markdown 从 Word 保存 – 完整 C# 指南](./how-to-save-markdown-from-word-complete-c-guide/) 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。|

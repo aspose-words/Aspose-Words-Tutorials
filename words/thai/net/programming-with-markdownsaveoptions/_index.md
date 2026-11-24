@@ -69,7 +69,6 @@
 ### [วิธีส่งออก Markdown จาก DOCX พร้อมรูปภาพ – คู่มือเต็ม](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown พร้อมการสกัดรูปภาพอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 
-### [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [บันทึก Word เป็น markdown – คู่มือเต็มการแปลง DOCX และสกัดรูปภาพ](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 

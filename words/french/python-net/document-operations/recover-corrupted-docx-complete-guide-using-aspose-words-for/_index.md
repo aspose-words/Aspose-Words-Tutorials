@@ -235,7 +235,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [comment récupérer docx – guide C# pour fichiers Word corrompus](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Convertir docx en markdown – guide C# étape par étape](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Comment exporter LaTeX depuis Word : convertir DOCX en Markdown avec Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

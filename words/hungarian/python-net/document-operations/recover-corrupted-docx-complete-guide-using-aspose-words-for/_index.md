@@ -227,7 +227,6 @@ Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jele
 
 - [hogyan állítsuk helyre a docx‑et – C# útmutató sérült Word fájlokhoz](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [Docx konvertálása markdown‑ba – Lépésről‑lépésre C# útmutató](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Hogyan exportáljunk LaTeX‑et Word‑ból: DOCX konvertálása markdown‑ba az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

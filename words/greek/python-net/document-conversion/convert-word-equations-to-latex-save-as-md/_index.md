@@ -302,7 +302,6 @@ python convert_word_to_latex_md.py
 
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να κυριαρχήσετε σε επιπλέον δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στην δική σας υλοποίηση.
 
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Μετατροπή docx σε markdown – Εξαγωγή Εξισώσεων Math σε LaTeX με Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Αποθήκευση Εγγράφου ως Txt – Εξαγωγή Word Math σε LaTeX σε C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 
