@@ -218,7 +218,6 @@ Herhangi bir sorunla karşılaşırsanız yorum bırakmaktan çekinmeyin ya da m
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Word'den Markdown Nasıl Kaydedilir – Tam Python Kılavuzu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Word Görsellerini Kaydet – Aspose ile Word'ü Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [docx'i markdown'a Dönüştür – Aspose.Words ile Matematik Denklemlerini LaTeX'e Dışa Aktar](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

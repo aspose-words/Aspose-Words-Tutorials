@@ -205,7 +205,6 @@ print(f"Found {len(latex_eqs) + len(display_eqs)} LaTeX equations.")
 以下教程与本指南紧密相关，帮助你进一步掌握 API 功能并探索在项目中的替代实现方式，每篇资源均提供完整可运行的代码示例和逐步解释。
 
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

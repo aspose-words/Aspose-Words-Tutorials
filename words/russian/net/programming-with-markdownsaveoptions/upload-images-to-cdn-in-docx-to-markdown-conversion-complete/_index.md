@@ -309,7 +309,6 @@ All images are now served from the CDN, meaning your Markdown can be published t
 Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы в ваших проектах.
 
 - [embed images markdown – Complete Guide to Converting Word Docs](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Master Markdown Conversion with Aspose.Words: Tables & Images Guide](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

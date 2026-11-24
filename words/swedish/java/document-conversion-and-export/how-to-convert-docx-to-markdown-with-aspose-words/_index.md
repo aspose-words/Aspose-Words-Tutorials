@@ -234,7 +234,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Konvertera docx till markdown – Steg‑för‑Steg C#‑guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Konvertera Word till Markdown – Komplett guide med bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

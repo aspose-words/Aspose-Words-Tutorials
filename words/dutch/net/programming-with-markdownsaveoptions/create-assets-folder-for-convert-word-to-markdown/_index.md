@@ -232,7 +232,6 @@ Als je ergens tegenaan loopt of ideeën hebt voor verbetering, laat dan een reac
 
 ## Gerelateerde tutorials
 
-- [Word-afbeeldingen opslaan – Convert Word naar Markdown met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Word naar Markdown in C# – Volledige gids met afbeeldingsextractie](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

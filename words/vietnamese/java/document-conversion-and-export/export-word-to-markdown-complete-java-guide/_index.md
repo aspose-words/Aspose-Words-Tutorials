@@ -232,7 +232,6 @@ Chúc lập trình vui vẻ, và đừng ngại để lại bình luận nếu g
 ## Bạn Nên Học Gì Tiếp Theo?
 
 - [Chuyển đổi docx sang markdown – Xuất Công Thức Toán sang LaTeX với Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Lưu Hình Ảnh Word – Chuyển Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Khôi Phục DOCX Hỏng & Chuyển Word sang Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

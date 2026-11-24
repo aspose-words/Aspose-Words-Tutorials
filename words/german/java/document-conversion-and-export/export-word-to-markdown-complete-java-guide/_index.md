@@ -230,7 +230,6 @@ Viel Spaß beim Coden, und zögern Sie nicht, einen Kommentar zu hinterlassen, f
 ## Was sollten Sie als Nächstes lernen?
 
 - [Convert docx to markdown – Math‑Gleichungen nach LaTeX exportieren mit Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word‑Bilder speichern – Word nach Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Beschädigtes DOCX wiederherstellen & Word nach Markdown konvertieren](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -254,7 +254,6 @@ namespace DocxToMarkdown
 
 以下教學與本篇內容緊密相關，能幫助你進一步掌握 API 功能並探索其他實作方式：
 
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -235,7 +235,6 @@ Kodlamaktan keyif alın ve bir sorunla karşılaşırsanız yorum bırakmaktan �
 ## Sonra Ne Öğrenmelisiniz?
 
 - [Docx'i markdown'a dönüştür – Aspose.Words ile Matematik Denklemlerini LaTeX'e Dışa Aktar](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word Görüntülerini Kaydet – Aspose ile Word'ü Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Bozuk DOCX'i Kurtar ve Word'ü Markdown'a Dönüştür](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -225,7 +225,6 @@ YOUR_DIRECTORY/Images/
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
 
 - [كيفية تعيين DPI عند تحويل Word إلى PNG – دليل C# كامل](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
-- [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [كيفية تحويل DOCX إلى PNG في Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

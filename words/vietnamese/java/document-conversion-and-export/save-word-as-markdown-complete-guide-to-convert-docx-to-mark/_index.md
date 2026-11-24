@@ -255,7 +255,6 @@ Có câu hỏi nào khác? Hãy để lại bình luận, thử mã, và cho ch�
 
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Lưu Hình Ảnh Word – Chuyển Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Chuyển Word sang Markdown trong C# – Hướng Dẫn Đầy Đủ với Trích Xuất Hình Ảnh](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [lưu docx thành markdown – Hướng Dẫn Đầy Đủ C# với Trích Xuất Hình Ảnh](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 

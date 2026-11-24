@@ -294,7 +294,6 @@ namespace DocxToMarkdownDemo
 ## ما الذي يجب أن تتعلمه بعد ذلك؟
 
 - [كيفية تضمين الصور في Markdown عند تحويل DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

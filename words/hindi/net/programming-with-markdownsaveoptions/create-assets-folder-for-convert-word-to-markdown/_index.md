@@ -230,7 +230,6 @@ Assets folder: C:\Temp\Output\assets
 
 ## संबंधित ट्यूटोरियल
 
-- [Word इमेज़ सहेजें – Aspose के साथ Word को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [C# में Word को Markdown में बदलें – इमेज़ निष्कर्षण के साथ पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

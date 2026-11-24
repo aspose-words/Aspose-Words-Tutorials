@@ -293,7 +293,6 @@ namespace DocxToMarkdownDemo
 ## 接下來該學什麼？
 
 - [如何在轉換 DOCX 時於 Markdown 中嵌入圖片](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [儲存 Word 圖片 – 使用 Aspose 將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [如何在將 DOCX 轉換為 Markdown 時重新命名圖片](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

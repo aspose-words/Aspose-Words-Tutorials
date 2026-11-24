@@ -295,7 +295,6 @@ Dari sini Anda dapat:
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
 - [Cara Menyematkan Gambar dalam Markdown Saat Mengonversi DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Cara Mengganti Nama Gambar Saat Mengonversi DOCX ke Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

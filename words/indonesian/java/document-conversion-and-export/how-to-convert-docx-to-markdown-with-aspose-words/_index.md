@@ -235,7 +235,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [Mengonversi docx ke markdown – Panduan Langkah‑per‑Langkah C# Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Mengonversi Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Simpan Gambar Word – Mengonversi Word ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

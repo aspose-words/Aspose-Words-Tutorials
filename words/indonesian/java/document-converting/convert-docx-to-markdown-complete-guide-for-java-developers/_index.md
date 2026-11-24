@@ -280,7 +280,6 @@ Cobalah, sesuaikan opsi, dan biarkan pipeline dokumentasi Anda berjalan lebih la
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
 - [Convert docx to markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Simpan Gambar Word – Convert Word ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Cara Mengekspor LaTeX dari Word: Convert DOCX ke Markdown & Simpan sebagai PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

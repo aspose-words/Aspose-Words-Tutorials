@@ -262,7 +262,6 @@ else:
 以下教學涵蓋與本指南技術緊密相關的主題，並提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索替代實作方式。
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教程](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [儲存 Word 圖片 – 使用 Aspose 將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

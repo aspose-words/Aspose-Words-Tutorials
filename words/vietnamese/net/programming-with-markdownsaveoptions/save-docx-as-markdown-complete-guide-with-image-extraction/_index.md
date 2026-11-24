@@ -282,7 +282,6 @@ Từ đây bạn có thể:
 ## Bạn nên học gì tiếp theo?
 
 - [Cách nhúng hình ảnh vào Markdown khi chuyển đổi DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Lưu hình ảnh Word – Chuyển đổi Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Cách đổi tên hình ảnh khi chuyển đổi DOCX sang Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

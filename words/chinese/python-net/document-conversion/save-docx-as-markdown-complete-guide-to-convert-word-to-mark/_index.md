@@ -202,7 +202,6 @@ A: Aspose.Words 会尝试保留布局，但非常复杂的表格可能会退化�
 
 以下教程涵盖与本指南紧密相关的主题，基于本教程展示的技术。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [保存 Word 图像 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -308,7 +308,6 @@ Absolutamente. `IResourceSavingCallback` funciona para cualquier formato de guar
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [incrustar imágenes markdown – Guía completa para convertir documentos Word](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Guardar imágenes de Word – Convertir Word a Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Domina la conversión a Markdown con Aspose.Words: Guía de tablas e imágenes](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

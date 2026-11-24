@@ -288,7 +288,6 @@ Absolut. `IResourceSavingCallback` fungerar för alla sparformat som avger exter
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Bädda in bilder i markdown – Komplett guide för att konvertera Word‑dokument](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Spara Word‑bilder – Konvertera Word till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Mästra Markdown‑konvertering med Aspose.Words: Tabeller‑ och bildguide](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

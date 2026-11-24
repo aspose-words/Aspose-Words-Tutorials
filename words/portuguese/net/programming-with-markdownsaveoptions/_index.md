@@ -105,7 +105,6 @@ Aprenda a exportar conteúdo LaTeX de arquivos DOCX para formatos Markdown e TXT
 ### [Como Renomear Imagens ao Converter DOCX para Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Aprenda a renomear imagens durante a conversão de DOCX para Markdown usando Aspose.Words para .NET.
 
-### [Salvar imagens do Word – Converter Word para Markdown com Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Aprenda a extrair e salvar imagens de documentos Word ao convertê-los para Markdown usando Aspose.Words.
 
 ### [Como salvar imagens – Converter DOCX para Markdown com Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)

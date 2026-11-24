@@ -227,7 +227,6 @@ Herhangi bir sorunla karşılaşırsanız ya da ek geliştirme fikirleriniz vars
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Tam C# Kılavuzu](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
-- [Word Görüntülerini Kaydet – Word'ü Aspose ile Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Java'da DOCX'i PNG'ye Dönüştürme – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

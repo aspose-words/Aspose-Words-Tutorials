@@ -231,7 +231,6 @@ A continuación, podrías explorar **convertir docx a markdown** para otros leng
 ## ¿Qué Deberías Aprender a Continuación?
 
 - [Convertir docx a markdown – Exportar Ecuaciones Matemáticas a LaTeX con Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Guardar Imágenes de Word – Convertir Word a Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Recuperar DOCX Corrupto y Convertir Word a Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -128,7 +128,6 @@ Leer hoe u LaTeX exporteert door DOCX-bestanden om te zetten naar Markdown en TX
 Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX naar Markdown met Aspose.Words voor .NET.
 
 
-### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [Word opslaan als Markdown – Tabellen exporteren naar HTML met Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML met Aspose.Words voor .NET.

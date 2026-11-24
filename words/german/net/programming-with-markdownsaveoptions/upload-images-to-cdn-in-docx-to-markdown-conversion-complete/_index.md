@@ -310,7 +310,6 @@ Absolut. `IResourceSavingCallback` funktioniert für jedes Speicherformat, das e
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Features zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Bilder in Markdown einbetten – Komplett‑Anleitung zum Konvertieren von Word‑Dokumenten](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Word‑Bilder speichern – Word nach Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Meisterhafte Markdown‑Konvertierung mit Aspose.Words: Tabellen‑ & Bilder‑Leitfaden](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

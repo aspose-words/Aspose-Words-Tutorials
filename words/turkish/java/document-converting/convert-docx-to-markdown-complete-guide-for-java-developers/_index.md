@@ -262,7 +262,6 @@ Bir deneyin, seçenekleri ayarlayın ve belgeleme hattınızın her zamankinden 
 Aşağıdaki öğreticiler bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [docx'i markdown'a dönüştür – Matematik Denklemlerini LaTeX'e Aktar Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word Görsellerini Kaydet – Word'ü Markdown'a Dönüştür Aspose ile](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Word'den LaTeX Nasıl Aktarılır: DOCX'i Markdown'a Dönüştür & PDF Olarak Kaydet](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

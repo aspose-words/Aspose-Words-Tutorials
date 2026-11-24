@@ -230,7 +230,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [save docx as markdown – Guida completa C# con estrazione immagini](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Converti Word in Markdown in C# – Guida completa con estrazione immagini](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [Salva immagini Word – Converti Word in Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

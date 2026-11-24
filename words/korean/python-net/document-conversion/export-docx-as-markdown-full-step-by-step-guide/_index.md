@@ -220,7 +220,6 @@ Aspose.Words for Python을 사용해 **docx를 markdown으로 내보내는** 방
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 확장하거나 대체 구현 방식을 탐구할 수 있도록 구성되었습니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함하고 있어 API 기능을 마스터하고 프로젝트에 적용하기에 최적입니다.
 
 - [Word에서 Markdown 저장 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [docx를 markdown으로 변환 – Aspose.Words로 수식 내보내기 (LaTeX)](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

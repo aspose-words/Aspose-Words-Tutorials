@@ -308,7 +308,6 @@ Kesinlikle. `IResourceSavingCallback` dış kaynak üreten tüm kaydetme formatl
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanıza ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [görselleri markdown'a göm – Word Belgelerini Dönüştürme Tam Kılavuzu](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Word Görsellerini Kaydet – Aspose ile Word'u Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Aspose.Words ile Markdown Dönüşümünde Uzmanlaşın: Tablolar ve Görseller Kılavuzu](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

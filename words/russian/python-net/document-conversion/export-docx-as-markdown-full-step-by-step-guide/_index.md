@@ -218,7 +218,6 @@ for filename in os.listdir(source_dir):
 ## What Should You Learn Next?
 
 - [Как сохранить Markdown из Word – Полное руководство на Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Сохранить изображения Word – Конвертировать Word в Markdown с помощью Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Конвертировать docx в markdown – Экспорт математических уравнений в LaTeX с Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

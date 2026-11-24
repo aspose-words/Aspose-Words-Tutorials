@@ -227,7 +227,6 @@ Nếu bạn gặp bất kỳ khó khăn nào hoặc có ý tưởng cải tiến
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Cách đặt DPI khi chuyển đổi Word sang PNG – Hướng dẫn C# đầy đủ](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
-- [Lưu hình ảnh Word – Chuyển đổi Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Cách chuyển đổi DOCX sang PNG trong Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

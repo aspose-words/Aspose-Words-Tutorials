@@ -224,7 +224,6 @@ convert_folder("YOUR_DIRECTORY/docx_batch", "YOUR_DIRECTORY/markdown_batch")
 
 - [將 docx 儲存為 markdown – 完整 C# 指南與圖像抽取](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [在 C# 中將 Word 轉換為 Markdown – 完整指南與圖像抽取](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [儲存 Word 圖像 – 使用 Aspose 將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

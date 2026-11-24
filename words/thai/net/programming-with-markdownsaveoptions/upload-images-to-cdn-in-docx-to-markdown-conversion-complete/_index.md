@@ -285,7 +285,6 @@ Callback จะให้ไบต์ดิบของภาพ คุณจึ�
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการนำไปใช้แบบต่าง ๆ ในโปรเจกต์ของคุณ
 
 - [ฝังรูปภาพใน markdown – คู่มือฉบับสมบูรณ์สำหรับการแปลงเอกสาร Word](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [บันทึกรูปภาพจาก Word – แปลง Word เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [เชี่ยวชาญการแปลง Markdown กับ Aspose.Words: คู่มือตารางและรูปภาพ](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

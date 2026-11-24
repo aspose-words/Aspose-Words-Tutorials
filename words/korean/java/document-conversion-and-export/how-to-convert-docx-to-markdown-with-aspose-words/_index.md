@@ -234,7 +234,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [docx를 markdown으로 변환 – 단계별 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Word를 Markdown으로 변환 – 이미지 추출 포함 전체 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Word 이미지 저장 – Aspose를 사용한 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -233,7 +233,6 @@ Dále můžete zkoumat **převod docx do markdown** pro jiné jazyky (C#, Python
 ## Co byste se měli naučit dál?
 
 - [Převést docx do markdown – Export rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Uložit obrázky z Wordu – Převést Word do Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Obnovit poškozený DOCX a převést Word do Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

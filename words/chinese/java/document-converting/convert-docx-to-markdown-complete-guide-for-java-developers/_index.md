@@ -280,7 +280,6 @@ public class DocxToMarkdown {
 以下教程涵盖与本指南技术密切相关的主题。每个资源都提供完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方案。
 
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学公式为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [保存 Word 图像 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [如何从 Word 导出 LaTeX：将 DOCX 转换为 Markdown 并保存为 PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

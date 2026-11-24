@@ -190,7 +190,6 @@ foreach (var file in files)
 以下教程涵盖与本指南紧密相关的主题，基于本指南展示的技术。每个资源都包含完整的可运行代码示例和逐步说明，帮助你掌握更多 API 功能并在自己的项目中探索替代实现方法。
 
 - [将 docx 转换为 markdown – 使用 Aspose.Words 导出数学方程为 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [保存 Word 图片 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

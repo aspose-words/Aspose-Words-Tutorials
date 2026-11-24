@@ -234,7 +234,6 @@ public class DocxToMarkdown {
 
 - [แปลง docx เป็น markdown – คำแนะนำ C# ทีละขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [แปลง Word เป็น Markdown – คู่มือครบถ้วนพร้อมการดึงภาพ](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [บันทึกภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

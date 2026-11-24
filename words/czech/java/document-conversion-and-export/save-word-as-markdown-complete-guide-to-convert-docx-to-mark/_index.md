@@ -249,7 +249,6 @@ Máte další otázky? Zanechte komentář, vyzkoušejte kód a dejte nám věd�
 
 ## Co byste se měli naučit dál?
 
-- [Uložit obrázky z Wordu – Převod Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Převod Wordu na Markdown v C# – Kompletní průvodce s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [uložit docx jako markdown – Kompletní průvodce v C# s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 

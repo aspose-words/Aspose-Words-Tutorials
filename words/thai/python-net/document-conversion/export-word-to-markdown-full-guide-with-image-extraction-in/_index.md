@@ -288,7 +288,6 @@ if __name__ == "__main__":
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ Python ครบถ้วน](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)  
 - [กู้คืน DOCX ที่เสียหาย & แปลง Word เป็น Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)  
-- [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -224,7 +224,6 @@ convert_folder("YOUR_DIRECTORY/docx_batch", "YOUR_DIRECTORY/markdown_batch")
 
 - [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

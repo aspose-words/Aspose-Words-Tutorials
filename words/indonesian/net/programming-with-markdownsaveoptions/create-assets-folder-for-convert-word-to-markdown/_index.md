@@ -232,7 +232,6 @@ Jika Anda mengalami kendala atau memiliki ide untuk perbaikan, tinggalkan koment
 
 ## Related Tutorials
 
-- [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Konversi Word ke Markdown dalam C# – Panduan Lengkap dengan Ekstraksi Gambar](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

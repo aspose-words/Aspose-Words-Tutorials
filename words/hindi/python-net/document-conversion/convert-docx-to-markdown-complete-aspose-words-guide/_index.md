@@ -226,7 +226,6 @@ convert_folder("YOUR_DIRECTORY/docx_batch", "YOUR_DIRECTORY/markdown_batch")
 
 - [save docx as markdown – पूर्ण C# गाइड इमेज एक्सट्रैक्शन](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [C# में Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [Word इमेज सहेजें – Aspose के साथ Word को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

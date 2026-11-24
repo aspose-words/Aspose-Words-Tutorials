@@ -231,7 +231,6 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 ## 다음에 배울 내용은?
 
 - [Convert docx to markdown – Aspose.Words로 수식 LaTeX 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [손상된 DOCX 복구 및 Word를 Markdown으로 변환](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -106,7 +106,6 @@ Lär dig spara DOCX som Markdown med en komplett C#‑guide som använder Aspose
 ### [Spara DOCX som Markdown med Aspose.Words – Fullständig steg‑för‑steg‑guide](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 Lär dig spara DOCX-filer som Markdown med en komplett steg‑för‑steg‑guide i C# med Aspose.Words.
 
-### [Spara Word-bilder – Konvertera Word till Markdown med Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [Spara Word som Markdown – Fullständig guide med Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett guide som använder Aspose.Words.

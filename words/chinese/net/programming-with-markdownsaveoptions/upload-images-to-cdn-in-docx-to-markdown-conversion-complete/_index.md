@@ -303,7 +303,6 @@ More text follows…
 以下教程涵盖与本指南密切相关的主题，基于本指南展示的技术。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
 - [嵌入图像 Markdown – 将 Word 文档转换的完整指南](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [保存 Word 图像 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [精通 Aspose.Words 的 Markdown 转换：表格与图像指南](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

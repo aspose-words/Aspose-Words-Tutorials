@@ -242,7 +242,6 @@ Images stored in the same folder.
 
 以下教程涵盖与本指南技术密切相关的主题，帮助你进一步掌握 API 功能并在项目中探索替代实现方式。每篇资源都包含完整的可运行代码示例和逐步说明。
 
-- [保存 Word 图片 – 使用 Aspose 将 Word 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [将 DOCX 转换为 Markdown 时如何重命名图片](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 - [将 docx 保存为 markdown – 完整 C# 指南及图片提取](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 

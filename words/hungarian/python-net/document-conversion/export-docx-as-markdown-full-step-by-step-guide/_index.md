@@ -220,7 +220,6 @@ Nyugodtan hagyj megjegyzést, ha elakadsz, vagy oszd meg saját tippjeidet a mar
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Hogyan menthetünk markdown‑t Word‑ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Word képek mentése – Word konvertálása markdown‑ba az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [docx konvertálása markdown‑ba – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words‑szal](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

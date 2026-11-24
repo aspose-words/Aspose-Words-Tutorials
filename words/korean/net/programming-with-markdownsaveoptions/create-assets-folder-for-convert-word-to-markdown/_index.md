@@ -230,7 +230,6 @@ Assets folder: C:\Temp\Output\assets
 
 ## 관련 튜토리얼
 
-- [Word 이미지 저장 – Aspose를 사용한 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [C#에서 Word를 Markdown으로 변환 – 이미지 추출 전체 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

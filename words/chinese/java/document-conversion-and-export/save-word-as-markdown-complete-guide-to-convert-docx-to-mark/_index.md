@@ -273,7 +273,6 @@ A: 能。该库与平台无关，只需确保使用正确的 Java 运行时并�
 
 以下教程与本指南紧密相关，基于本教程展示的技术进一步展开。每篇资源都提供完整的可运行代码示例，并配有逐步解释，帮助你掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Convert Word to Markdown in C# – Full Guide with Image Extraction](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [save docx as markdown – Full C# Guide with Image Extraction](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 

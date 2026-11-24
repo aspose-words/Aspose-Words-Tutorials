@@ -222,7 +222,6 @@ convert_folder("YOUR_DIRECTORY/docx_batch", "YOUR_DIRECTORY/markdown_batch")
 
 - [docx를 markdown으로 저장 – 이미지 추출 포함 전체 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [C#에서 Word를 Markdown으로 변환 – 이미지 추출 포함 전체 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [Word 이미지 저장 – Aspose를 사용한 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

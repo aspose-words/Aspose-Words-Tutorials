@@ -305,7 +305,6 @@ More text follows…
 以下教學與本指南緊密相關，能進一步深化本章所示技巧。每篇資源皆提供完整可執行的程式碼範例，並以步驟說明協助你掌握更多 API 功能，或在自己的專案中探索替代實作方式。
 
 - [embed images markdown – Complete Guide to Converting Word Docs](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Master Markdown Conversion with Aspose.Words: Tables & Images Guide](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

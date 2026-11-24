@@ -296,7 +296,6 @@ Ab hier können Sie:
 ## Was sollten Sie als Nächstes lernen?
 
 - [Wie man Bilder in Markdown einbettet beim Konvertieren von DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Word‑Bilder speichern – Word zu Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Wie man Bilder beim Konvertieren von DOCX zu Markdown umbenennt](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

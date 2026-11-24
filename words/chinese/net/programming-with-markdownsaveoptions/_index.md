@@ -118,7 +118,6 @@
 
 使用 Aspose.Words for .NET 将 DOCX 文档保存为 Markdown，提供完整的 C# 示例和分步指南。
 
-### [保存 Word 图像 – 使用 Aspose 将 Word 转换为 Markdown](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 使用 Aspose.Words for .NET 提取并保存 Word 文档中的图像，同时将文档转换为 Markdown 格式。
 

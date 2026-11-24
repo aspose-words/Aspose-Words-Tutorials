@@ -87,7 +87,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Inhalten in Markdown und TXT ex
 ### [Wie man Bilder beim Konvertieren von DOCX zu Markdown umbenennt](./how-to-rename-images-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie Bilder beim Export von DOCX nach Markdown umbenennen, um klare Dateinamen zu erhalten.
 
-### [Word‑Bilder speichern – Word in Markdown konvertieren mit Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konvertieren nach Markdown mit Aspose beibehalten.
 
 ### [Wie man Bilder speichert – DOCX zu Markdown mit Aspose.Words konvertieren](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)

@@ -296,7 +296,6 @@ Innen tovább:
 ## Mit érdemes legközelebb megtanulni?
 
 - [Hogyan ágyazzunk be képeket a Markdownba DOCX konvertálásakor](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Word képek mentése – Word konvertálása markdownra Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Hogyan nevezzen át képeket DOCX‑ról markdownra konvertáláskor](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

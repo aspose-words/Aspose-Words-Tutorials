@@ -235,7 +235,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Převod docx na markdown – krok za krokem průvodce C#](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Převod Wordu na Markdown – kompletní průvodce s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Uložení obrázků Word – převod Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

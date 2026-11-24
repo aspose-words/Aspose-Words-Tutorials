@@ -229,7 +229,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [save docx as markdown – Hướng dẫn đầy đủ C# với trích xuất ảnh](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
 - [Convert Word to Markdown trong C# – Hướng dẫn đầy đủ với trích xuất ảnh](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [Save Word Images – Chuyển Word sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

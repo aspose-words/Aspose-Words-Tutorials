@@ -293,7 +293,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [Come Salvare Markdown da Word – Guida Completa Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Recupera DOCX Corrotti & Converti Word in Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Salva Immagini Word – Converti Word in Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

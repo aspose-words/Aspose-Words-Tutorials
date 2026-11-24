@@ -264,7 +264,6 @@ Dále prozkoumejte související témata jako **convert docx to HTML**, **export
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Jak uložit Markdown z Wordu – kompletní průvodce v Pythonu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Uložení obrázků z Wordu – převod Wordu do Markdownu s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

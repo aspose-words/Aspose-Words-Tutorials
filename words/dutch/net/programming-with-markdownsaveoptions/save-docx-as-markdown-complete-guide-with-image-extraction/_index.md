@@ -295,7 +295,6 @@ Vanaf hier kun je:
 ## Wat moet je hierna leren?
 
 - [Hoe afbeeldingen in te sluiten in Markdown bij het converteren van DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Word‑afbeeldingen opslaan – Word naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Hoe afbeeldingen te hernoemen bij het converteren van DOCX naar Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -220,7 +220,6 @@ for filename in os.listdir(source_dir):
 以下教學與本指南緊密相關，能進一步深化你的技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，或探索其他實作方式。
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教學](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [儲存 Word 圖片 – 使用 Aspose 將 Word 轉為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [將 docx 轉為 markdown – 匯出數學公式為 LaTeX（使用 Aspose.Words）](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

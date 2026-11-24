@@ -308,7 +308,6 @@ More text follows…
 다음 튜토리얼들은 이번 가이드에서 다룬 기술을 확장하거나 보완하는 내용으로 구성되어 있습니다. 각 자료마다 완전한 코드 예제와 단계별 설명이 포함되어 있어 API 기능을 더욱 깊이 있게 마스터하고, 다양한 구현 방식을 직접 실험해 볼 수 있습니다.
 
 - [embed images markdown – Complete Guide to Converting Word Docs](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Master Markdown Conversion with Aspose.Words: Tables & Images Guide](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

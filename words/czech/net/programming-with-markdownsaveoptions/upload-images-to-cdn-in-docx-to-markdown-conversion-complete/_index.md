@@ -292,7 +292,6 @@ Rozhodně. `IResourceSavingCallback` funguje pro jakýkoli formát uložení, kt
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [vkládání obrázků markdown – Kompletní průvodce konverzí Word dokumentů](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Uložení obrázků z Wordu – Konverze Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Mistrovská konverze Markdown s Aspose.Words: Průvodce tabulkami a obrázky](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

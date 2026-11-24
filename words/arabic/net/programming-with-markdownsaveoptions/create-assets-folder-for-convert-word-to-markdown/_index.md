@@ -221,7 +221,6 @@ Assets folder: C:\Temp\Output\assets
 
 ## دروس ذات صلة
 
-- [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

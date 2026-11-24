@@ -233,7 +233,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [docx を markdown に変換 – ステップバイステップ C# ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Word を Markdown に変換 – 画像抽出付き完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Word 画像の保存 – Aspose を使用した Word から Markdown への変換](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

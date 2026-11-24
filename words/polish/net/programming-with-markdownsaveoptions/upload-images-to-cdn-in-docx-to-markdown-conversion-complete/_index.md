@@ -288,7 +288,6 @@ Zdecydowanie. `IResourceSavingCallback` działa dla każdego formatu zapisu, kt�
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [osadzanie obrazów markdown – Kompletny przewodnik po konwersji dokumentów Word](/words/english/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/)
-- [Zapisz obrazy Word – Konwertuj Word na Markdown z Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Mistrzowska konwersja Markdown z Aspose.Words: Przewodnik po tabelach i obrazach](/words/english/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

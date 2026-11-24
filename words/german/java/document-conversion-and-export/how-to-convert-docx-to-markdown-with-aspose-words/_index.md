@@ -235,7 +235,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [docx in markdown konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 - [Word in Markdown konvertieren – Vollständiger Leitfaden mit Bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/)
-- [Word‑Bilder speichern – Word in Markdown mit Aspose konvertieren](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

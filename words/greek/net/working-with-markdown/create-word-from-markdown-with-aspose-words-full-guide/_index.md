@@ -198,7 +198,6 @@ foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 
 ## Τι πρέπει να μάθετε στη συνέχεια;
 
-- [Αποθήκευση εικόνων Word – Μετατροπή Word σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

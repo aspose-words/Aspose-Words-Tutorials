@@ -233,7 +233,6 @@ Boldog kódolást, és nyugodtan hagyj egy megjegyzést, ha elakadsz!
 ## Mit érdemes még megtanulni?
 
 - [Convert docx to markdown – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Save Word Images – Word képek mentése – Convert Word to Markdown az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Corrupt DOCX helyreállítása & Convert Word to Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

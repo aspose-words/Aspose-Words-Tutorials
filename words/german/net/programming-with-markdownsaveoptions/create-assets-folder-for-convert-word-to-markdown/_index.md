@@ -231,7 +231,6 @@ Wenn Sie auf Probleme stoßen oder Ideen zur Verbesserung haben, hinterlassen Si
 
 ## Verwandte Tutorials
 
-- [Word-Bilder speichern – Word zu Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Word zu Markdown in C# – Vollständiger Leitfaden mit Bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
