@@ -154,7 +154,6 @@ print("Is PDF/UA compliant?", pdf_doc.is_compliant(ap.pdf.PdfCompliance.PDF_UA_1
 
 - [Word から PDF を作成 – Aspose.Words を使用した完全な Python ガイド](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Python で Word からアクセシブル PDF を作成 – ステップバイステップガイド](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Word からアクセシブル PDF を作成 – 完全な Aspose.Words ガイド](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

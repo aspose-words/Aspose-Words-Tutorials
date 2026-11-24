@@ -155,7 +155,6 @@ print("Is PDF/UA compliant?", pdf_doc.is_compliant(ap.pdf.PdfCompliance.PDF_UA_1
 
 - [إنشاء PDF من Word – دليل Python كامل مع Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [إنشاء PDF قابل للوصول من Word باستخدام Python – دليل خطوة بخطوة](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [إنشاء PDF قابل للوصول من Word – دليل Aspose.Words كامل](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

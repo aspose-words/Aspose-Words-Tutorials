@@ -202,7 +202,6 @@ Chúc lập trình vui vẻ, và hãy giữ PDF của bạn luôn có khả năn
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Chuyển đổi docx sang pdf – Hướng dẫn đầy đủ cho PDF có khả năng truy cập](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn đầy đủ Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Tạo PDF có khả năng truy cập – Chuyển đổi Word sang PDF với khả năng truy cập](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
