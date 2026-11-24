@@ -200,7 +200,6 @@ Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide som anv�
 ### [Spara Word som Markdown – Fullständig guide för att konvertera Word till Markdown och extrahera bilder](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 Lär dig hur du sparar Word-dokument som Markdown och extraherar bilder med en komplett C#‑guide.
 
-### [Spara DOCX som Markdown med Aspose.Words – Fullständig C#‑guide](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som använder Aspose.Words.
 
 Lär dig spara DOCX-filer som Markdown och hantera tomma stycken med en komplett C#‑guide.
