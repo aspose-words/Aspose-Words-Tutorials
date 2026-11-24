@@ -179,7 +179,6 @@ Erfahren Sie, wie Sie mit C# einen Ordner erstellen, ein Word‑Dokument nach Ma
 ### [Wie man Markdown aus Word mit Bildern speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown aus Word‑Dokumenten mit Bildextraktion speichern – komplette C#‑Anleitung.
 
-### [Word als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig in Markdown speichern – komplette C#‑Anleitung.
 
 ### [Benutzerdefinierter Bildordner – Word zu Markdown konvertieren mit Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)

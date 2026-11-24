@@ -149,7 +149,6 @@
 ### [创建文件夹 C# – 将 Word 转换为 Markdown 并提取图像](./create-folder-c-convert-word-to-markdown-extract-images/)
 
 使用 Aspose.Words for .NET 在 C# 中创建文件夹，将 Word 文档转换为 Markdown 并提取其中的图像。
-### [将 Word 保存为 Markdown – 完整 C# 指南（使用 Aspose.Words）](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。
 
