@@ -161,7 +161,6 @@ Dowiedz się, jak zapisać dokument Word jako Markdown oraz wyeksportować równ
 ### [Jak zapisać Markdown z Worda z obrazami – Kompletny przewodnik C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown z wyodrębnianiem obrazów przy użyciu Aspose.Words.
 
-### [Zapisz Word jako Markdown – Kompletny przewodnik C# z Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument Word w formacie Markdown przy użyciu Aspose.Words.
 
 ### [Niestandardowy folder obrazów – konwertuj Word do Markdown przy użyciu Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)

@@ -106,7 +106,6 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba, és export
 Ismerje meg, hogyan hozhat létre mappát C#-ban, konvertálhat Word dokumentumokat Markdownba, és nyerheti ki a képeket.
 ### [Hogyan mentse el a Markdownot a Wordből képekkel – Teljes C# útmutató](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Ismerje meg, hogyan mentheti el a Word dokumentumokat Markdown formátumba képekkel egy teljes C# útmutatóval.
-### [Word mentése Markdownba – Teljes C# útmutató az Aspose.Words segítségével](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba egy teljes C# útmutatóval az Aspose.Words segítségével.
 ### [Egyéni képmappa – Word konvertálása Markdownba az Aspose.Words segítségével](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
 Ismerje meg, hogyan állíthat be egyéni képmappát a Word dokumentumok Markdownba konvertálásához az Aspose.Words használatával.
