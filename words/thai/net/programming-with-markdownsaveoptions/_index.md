@@ -196,7 +196,6 @@
 ### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 ### [สร้างไฟล์ markdown จาก Word – คู่มือเต็มการส่งออกสมการ](./create-markdown-file-from-word-full-guide-to-export-equation/)
 เรียนรู้วิธีสร้างไฟล์ markdown จาก Word พร้อมส่งออกสมการอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
-### [ลบย่อหน้าว่าง – แปลง Word เป็น Markdown ด้วย C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 เรียนรู้วิธีลบย่อหน้าว่างจากเอกสาร Word ก่อนแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 
