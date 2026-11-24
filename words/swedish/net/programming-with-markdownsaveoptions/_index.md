@@ -193,7 +193,6 @@ Lär dig skapa en assets-mapp och konvertera DOCX-filer till Markdown med Aspose
 
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide som använder Aspose.Words.
 
-### [Spara Word som Markdown – Fullständig guide för att konvertera Word till Markdown och extrahera bilder](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 Lär dig hur du sparar Word-dokument som Markdown och extraherar bilder med en komplett C#‑guide.
 
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som använder Aspose.Words.
