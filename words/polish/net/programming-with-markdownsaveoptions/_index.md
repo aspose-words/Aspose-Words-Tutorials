@@ -136,7 +136,6 @@ Dowiedz się, jak określić rozdzielczość obrazów przy konwersji DOCX do for
 ### [Zapisz Word jako Markdown z obrazami – przewodnik krok po kroku w C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisywać dokumenty Word jako Markdown z wyodrębnianiem obrazów przy użyciu Aspose.Words.
 
-### [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX w C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 Kompletny przewodnik C# eksportujący równania Word do LaTeX w formacie Markdown.
 
 ### [Zachowaj podziały linii: konwertuj DOCX do Markdown](./preserve-line-breaks-convert-docx-to-markdown/)

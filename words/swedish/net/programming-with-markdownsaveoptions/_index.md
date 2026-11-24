@@ -141,7 +141,6 @@ Lär dig hur du anger upplösning för bilder när du konverterar DOCX-filer til
 ### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad steg‑för‑steg‑guide i C#.
 
-### [Spara docx som markdown – Exportera Word‑ekvationer till LaTeX i C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 Lär dig spara DOCX som Markdown och exportera Word‑ekvationer till LaTeX med en komplett C#‑guide.
 
 ### [Spara Word som markdown – extrahera bilder från docx](./save-word-as-markdown-extract-images-from-docx/)

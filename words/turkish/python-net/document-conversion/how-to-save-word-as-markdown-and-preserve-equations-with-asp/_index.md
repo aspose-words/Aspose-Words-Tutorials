@@ -192,7 +192,6 @@ Artık Aspose.Words for Python kullanarak **Word'ü markdown olarak kaydetme**, 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word'den Markdown Kaydetme – Tam Python Kılavuzu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [docx'i markdown olarak kaydet – Word denklemlerini C#'ta LaTeX'e dışa aktar](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Aspose.Words API for .NET ile MarkdownSaveOptions kullanarak Word Belgelerini Markdown'a Dışa Aktarma](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

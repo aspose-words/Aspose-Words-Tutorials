@@ -191,7 +191,6 @@ Nyugodtan kísérletezzen a `MarkdownSaveOptions` tulajdonságokkal, hogy a kime
 Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Hogyan mentse a Markdown-t Word-ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [docx mentése markdownba – Word képletek exportálása LaTeX-be C#-ban](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Word dokumentumok exportálása Markdownba az Aspose.Words API for .NET és a MarkdownSaveOptions használatával](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
