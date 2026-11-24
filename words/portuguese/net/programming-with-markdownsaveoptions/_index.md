@@ -171,7 +171,6 @@ Aprenda a converter arquivos DOCX em arquivos TXT e Markdown usando Aspose.Words
 ### [Como incorporar imagens em Markdown a partir de DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words para .NET.
 
-### [Como definir resolução ao converter DOCX para Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Aprenda a definir a resolução das imagens ao converter documentos DOCX para Markdown usando Aspose.Words para .NET.
 
 ### [Salvar docx como markdown – Exportar equações Word para LaTeX em C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)

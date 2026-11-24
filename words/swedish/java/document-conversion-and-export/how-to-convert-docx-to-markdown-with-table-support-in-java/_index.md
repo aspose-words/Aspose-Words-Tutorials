@@ -225,7 +225,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger vidare på tek
 
 - [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Hur man exporterar Markdown från Word med Java – Komplett guide](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [Hur man ställer in upplösning vid konvertering av DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

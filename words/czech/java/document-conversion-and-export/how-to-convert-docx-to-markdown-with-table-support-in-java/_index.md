@@ -224,7 +224,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Převést docx na markdown – Exportovat matematické rovnice do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Jak exportovat Markdown z Wordu pomocí Javy – Kompletní průvodce](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [Jak nastavit rozlišení při převodu DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

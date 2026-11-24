@@ -133,7 +133,6 @@ Dowiedz się, jak zapisać plik DOCX jako plik TXT i przekształcić go do forma
 ### [Jak osadzić obrazy w Markdown z DOCX](./how-to-embed-images-in-markdown-from-docx/)
 Dowiedz się, jak wyodrębnić i osadzić obrazy z pliku DOCX podczas konwersji do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
-### [Jak ustawić rozdzielczość podczas konwertowania DOCX do Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Dowiedz się, jak określić rozdzielczość obrazów przy konwersji DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
 ### [Zapisz Word jako Markdown z obrazami – przewodnik krok po kroku w C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
