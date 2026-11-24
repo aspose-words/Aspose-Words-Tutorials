@@ -25,7 +25,6 @@
 | [设置图像文件夹](./set-images-folder/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 文档，并保持表格对齐。请遵循我们详细的指南，以获得完美的结果。|
 | [自定义图像文件夹 – 使用 Aspose.Words 将 Word 转换为 Markdown](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并自定义图像文件夹以保存提取的图片。|
 | [将 docx 转换为 markdown – 步骤详解 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整示例和分步指南。|
-| [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
 | [将 Word 转换为 Markdown – 提取图像（C#）](./convert-word-to-markdown-extract-images-in-c/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 并提取图像，提供完整示例和步骤指南。|
 | [如何在 Markdown 中嵌入来自 DOCX 的图像](./how-to-embed-images-in-markdown-from-docx/) 使用 Aspose.Words for .NET 将 DOCX 文档中的图像嵌入到生成的 Markdown 中，提供完整示例和步骤指南。|
 ### [将 Word 保存为 Markdown – 完整 C# 指南（转换 DOCX 并提取图像）](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)

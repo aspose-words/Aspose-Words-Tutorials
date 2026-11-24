@@ -243,7 +243,6 @@ if __name__ == "__main__":
 다음 튜토리얼들은 이번 가이드에서 배운 기술을 확장하고, 프로젝트에 적용할 수 있는 다양한 API 기능과 대체 구현 방법을 단계별 예제로 제공합니다.
 
 - [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Save docx as markdown – Complete C# Guide with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

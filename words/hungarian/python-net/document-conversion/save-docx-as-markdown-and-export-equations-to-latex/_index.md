@@ -243,7 +243,6 @@ Boldog kódolást, és élvezd a Word és a Markdown közötti zökkenőmentes h
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket felfedezni a saját projektjeidben.
 
-- [Mentse a docx-et markdown formátumba – Teljes C# útmutató LaTeX egyenletekkel](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Word mentése markdown formátumba az Aspose.Words segítségével – Teljes útmutató a DOCX konvertálásához és képek kinyeréséhez](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

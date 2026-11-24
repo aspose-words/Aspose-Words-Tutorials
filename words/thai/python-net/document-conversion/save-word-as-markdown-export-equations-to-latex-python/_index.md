@@ -173,7 +173,6 @@ for filename in os.listdir(source_dir):
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบต่าง ๆ ในโปรเจกต์ของคุณ
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ Python ฉบับสมบูรณ์](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [บันทึก docx เป็น markdown – คู่มือ C# ฉบับสมบูรณ์พร้อมสมการ LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
