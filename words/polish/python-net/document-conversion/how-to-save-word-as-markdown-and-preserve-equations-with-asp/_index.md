@@ -192,7 +192,6 @@ Masz teraz kompletną, gotową do produkcji metodę **zapisu Word jako markdown*
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Jak zapisać Markdown z Word – Kompletny przewodnik Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX w C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Eksportuj dokumenty Word do Markdown przy użyciu Aspose.Words API dla .NET z MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
