@@ -31,11 +31,11 @@ url: /net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-complete-
 
 Ever needed to **create PDF/UA** from a Word file but weren’t sure which API to pick? You’re not the only one—accessibility compliance is a frequent hurdle for developers building document pipelines. The good news? With Aspose.Words you can **convert Word to PDF**, **save Word as PDF**, and **generate accessible PDF** in just a few lines of C#.
 
-In this guide we’ll walk through the whole process: loading a `.docx`, configuring PDF/UA compliance, and saving the result. By the end you’ll have a ready‑to‑use snippet you can drop into any .NET project, plus tips for handling common pitfalls.
+In this guide we’ll walk through the whole process: loading a `.docx`, configuring PDF/UA compliance, and saving the result. By the end you’ll have a ready‑to‑use snippet you can drop into any .NET project, plus notes for handling common situations.
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (latest version as of 2026, e.g., 24.12).  
+- **Aspose.Words for .NET** (latest version as of 2026).  
 - A .NET runtime that supports C# 10 (or later).  
 - A simple Word document (`input.docx`) you want to turn into an accessible PDF.  
 - (Optional) A valid Aspose license file—otherwise you’ll see evaluation watermarks.
@@ -64,24 +64,27 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 PDF/UA (ISO 14289) ensures that screen readers and other assistive tech can navigate the PDF correctly. Aspose.Words makes this a one‑liner by exposing `PdfSaveOptions.Compliance`.
 
 ```csharp
-// Set up PDF save options to target PDF/UA (accessibility) compliance
+// Set a title that will appear in the PDF properties (optional)
+doc.BuiltInDocumentProperties.Title = "My Accessible PDF";
+
+// Set up PDF save options to target PDF/UA‑1 compliance
 PdfSaveOptions pdfUaOptions = new PdfSaveOptions
 {
     // This flag tells Aspose to embed the necessary tags and structure
-    Compliance = PdfCompliance.PdfUa,
+    Compliance = PdfCompliance.PdfUa1,
 
     // Optional: embed all fonts to avoid missing‑glyph issues
     EmbedFullFonts = true,
 
-    // Optional: set a custom PDF/A/UA title
-    // DocumentTitle = "My Accessible PDF"
+    // Show the document title in PDF viewers
+    DisplayDocTitle = true
 };
 ```
 
 **Why you should enable these options:**  
-- `PdfCompliance.PdfUa` forces the library to add the required logical structure (tags).  
+- `PdfCompliance.PdfUa1` forces the library to add the required logical structure (tags).  
 - `EmbedFullFonts` prevents users on other machines from seeing garbled text.  
-- Setting a `DocumentTitle` improves discoverability for assistive tools.
+- `DisplayDocTitle` makes the title set on the document visible to assistive tools.
 
 ## Step 3: Save the Document as a PDF/UA‑Compliant File
 
@@ -92,7 +95,7 @@ Now we write the output file. The same `Save` method you’d use for a regular P
 doc.Save("YOUR_DIRECTORY/output.pdf", pdfUaOptions);
 ```
 
-When the call completes, `output.pdf` is an **accessible PDF** that passes most PDF/UA validators. You can verify it with free tools like the PDF Accessibility Checker (PAC) or Adobe Acrobat’s accessibility audit.
+When the call completes, `output.pdf` is intended to be PDF/UA‑1 compliant; you can verify it with a validator such as the PDF Accessibility Checker (PAC) or Adobe Acrobat’s accessibility audit.
 
 ### Full Working Example
 
@@ -111,12 +114,15 @@ class Program
         var docPath = @"C:\Docs\input.docx";
         Document doc = new Document(docPath);
 
+        // Optional: set a PDF title
+        doc.BuiltInDocumentProperties.Title = "Accessible PDF Example";
+
         // 2️⃣ Configure PDF/UA options
         PdfSaveOptions options = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfUa,
+            Compliance = PdfCompliance.PdfUa1,
             EmbedFullFonts = true,
-            // DocumentTitle = "Accessible PDF Example"
+            DisplayDocTitle = true
         };
 
         // 3️⃣ Save as PDF/UA
@@ -128,7 +134,7 @@ class Program
 }
 ```
 
-**Expected result:** A file `output.pdf` that, when opened in Adobe Reader, shows the “Tagged PDF” badge and passes accessibility checks.
+**Expected result:** A file `output.pdf` that, when opened in Adobe Reader, shows the “Tagged PDF” badge and can be checked with accessibility tools.
 
 ## Frequently Asked Questions & Edge Cases
 
@@ -146,7 +152,7 @@ options.Compliance = PdfCompliance.PdfA1b; // non‑UA but still archivable
 
 ### How do I **save Word as PDF** while preserving hyperlinks?
 
-Aspose.Words automatically preserves hyperlinks when you use `PdfSaveOptions`. No extra code needed—just make sure the source document actually contains hyperlink fields.
+Hyperlinks in the source document are usually preserved in the PDF output when using `PdfSaveOptions`. Ensure the source document contains hyperlink fields.
 
 ### I’m getting “Font not found” warnings. What now?
 
@@ -163,14 +169,7 @@ doc.FontSettings = fontSettings;
 
 ### Can I add a custom PDF/UA conformance level (e.g., PDF/UA‑2)?
 
-Aspose.Words currently supports PDF/UA‑1 via `PdfCompliance.PdfUa`. For newer conformance levels you’ll need to post‑process the PDF with a dedicated PDF library (e.g., Aspose.PDF). That’s an advanced scenario beyond this tutorial.
-
-## Pro Tips for Generating Accessible PDFs
-
-- **Use built‑in Word styles** (Heading 1, Heading 2, List Paragraph). They map directly to PDF tags.  
-- **Avoid manual text boxes** for important content; they become untagged artifacts.  
-- **Run a quick validation** after generation—PAC 3.0 takes less than a second for a typical document.  
-- **Keep your Aspose.Words version up to date**; each release adds new accessibility fixes.
+Aspose.Words currently supports PDF/UA‑1 via `PdfCompliance.PdfUa1`. For newer conformance levels you may need to post‑process the PDF with a dedicated PDF library (e.g., Aspose.PDF).
 
 ## Related Topics You Might Explore Next
 
@@ -181,7 +180,7 @@ Aspose.Words currently supports PDF/UA‑1 via `PdfCompliance.PdfUa`. For newer 
 
 ## Conclusion
 
-We’ve covered everything you need to **create PDF/UA** from a Word document in C#. By loading the file, configuring `PdfSaveOptions` for PDF/UA compliance, and saving the result, you end up with an **accessible PDF** that satisfies both legal requirements and user expectations. The same pattern lets you **convert Word to PDF**, **convert docx to PDF**, and **save Word as PDF** with just a tweak to the compliance setting.
+We’ve covered everything you need to **create PDF/UA** from a Word document in C#. By loading the file, configuring `PdfSaveOptions` for PDF/UA compliance, and saving the result, you end up with a **PDF/UA‑1 compliant** document that satisfies both legal requirements and user expectations. The same pattern lets you **convert Word to PDF**, **convert docx to PDF**, and **save Word as PDF** with just a tweak to the compliance setting.
 
 Give it a try, experiment with fonts and tags, and let your PDFs speak to everyone—no matter the ability. If you hit a snag, drop a comment below or check out Aspose’s documentation for deeper dives. Happy coding!
 
