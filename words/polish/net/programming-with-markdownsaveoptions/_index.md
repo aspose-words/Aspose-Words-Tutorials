@@ -85,7 +85,6 @@ Kompletny przewodnik C# pokazujący, jak zapisać dokument Word w formacie Markd
 ### [Utwórz Markdown z Worda przy użyciu Aspose — przewodnik krok po kroku](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 Kompletny przewodnik krok po kroku, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words w C#.
 
-### [Jak zapisać Markdown z Worda – Kompletny przewodnik](./how-to-save-markdown-from-word-complete-guide/)
 Kompletny przewodnik pokazujący, jak zapisać dokument Word w formacie Markdown.
 
 Dowiedz się, jak wyeksportować równania LaTeX, konwertując pliki DOCX na formaty Markdown oraz TXT przy użyciu Aspose.Words dla .NET.

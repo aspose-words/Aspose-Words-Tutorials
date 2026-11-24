@@ -100,7 +100,6 @@
 ### [كيفية تصدير Markdown من DOCX مع الصور – دليل كامل](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 
-### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
 
 ### [كيفية حفظ Markdown – تحويل Word إلى Markdown وتصدير الرياضيات باستخدام Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 

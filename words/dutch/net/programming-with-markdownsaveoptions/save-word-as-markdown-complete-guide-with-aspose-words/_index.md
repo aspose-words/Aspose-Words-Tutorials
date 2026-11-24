@@ -293,7 +293,6 @@ Klaar om dit in je eigen project te gebruiken? Pak de code, pas de bestands‑pa
 
 ## Gerelateerde tutorials
 
-- [Hoe markdown opslaan vanuit Word – Complete gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Docx naar markdown converteren – Wiskundige vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

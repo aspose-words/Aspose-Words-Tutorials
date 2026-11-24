@@ -96,7 +96,6 @@ Lär dig konvertera Word-dokument till Markdown och bädda in bilder som Base64�
 ### [Hur man sparar Markdown från Word – Komplett C#-guide](./how-to-save-markdown-from-word-complete-c-guide/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett C#‑guide.
 
-### [Hur man sparar Markdown från Word – Komplett guide](./how-to-save-markdown-from-word-complete-guide/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett guide.
 
 Lär dig exportera LaTeX från DOCX och spara som både Markdown och TXT med Aspose.Words för .NET.

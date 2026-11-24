@@ -289,7 +289,6 @@ saveOpts.setExportAsHtml(MarkdownExportAsHtml.TABLES_AS_MARKDOWN);
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полные работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как сохранить Markdown из Word – Полное руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Сохранить изображения Word – Конвертировать Word в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Конвертировать docx в markdown – Экспорт математических уравнений в LaTeX с Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

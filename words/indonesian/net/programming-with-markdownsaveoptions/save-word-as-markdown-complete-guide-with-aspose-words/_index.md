@@ -293,7 +293,6 @@ Siap memasukkan ini ke dalam proyek Anda sendiri? Ambil kode, sesuaikan path fil
 
 ## Tutorial Terkait
 
-- [Cara Menyimpan Markdown dari Word – Panduan Lengkap](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Konversi Word ke Markdown dalam C# – Panduan Lengkap dengan Ekstraksi Gambar](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

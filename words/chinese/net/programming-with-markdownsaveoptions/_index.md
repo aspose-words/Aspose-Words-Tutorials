@@ -36,7 +36,6 @@
 
 ### [如何从 DOCX 导出带图像的 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
-| [如何将 Markdown 从 Word 保存 – 完整指南](./how-to-save-markdown-from-word-complete-guide/) 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的示例和步骤指南。|
 | [重命名图像：将 DOCX 转换为 Markdown 时的图像重命名](./how-to-rename-images-when-converting-docx-to-markdown/) 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，演示如何重命名导出的图像文件，以便更好地组织和引用。|
 | [将 Word 保存为 Markdown（含图像） – C# 步骤指南](./save-word-as-markdown-with-images-c-step-by-step-guide/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取图像，提供完整的 C# 示例和步骤指南。|
 
@@ -203,7 +202,6 @@
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。
 
-### [如何将 Markdown 从 Word 保存 – 完整指南](./how-to-save-markdown-from-word-complete-guide/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的示例和步骤指南。
 

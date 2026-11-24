@@ -294,7 +294,6 @@ Redo att lägga in detta i ditt eget projekt? Hämta koden, justera filsökväga
 
 ## Relaterade handledningar
 
-- [Hur man sparar Markdown från Word – Komplett guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Konvertera Word till Markdown i C# – Full guide med bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
