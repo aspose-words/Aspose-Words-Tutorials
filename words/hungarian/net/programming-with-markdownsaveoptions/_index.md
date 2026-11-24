@@ -65,7 +65,6 @@ Ismerje meg, hogyan menthet képeket a Word dokumentumból a Markdownba konvert�
 ### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-full-guide-with-image-extraction/)
-### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words segítségével](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 ### [DOCX konvertálása Markdownba és képek mentése a DOCX‑ből](./convert-docx-to-markdown-save-images-from-docx/)
 ### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words használatával](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
 ### [Markdown mentése – Teljes útmutató képek kinyerésével](./how-to-save-markdown-full-guide-with-image-extraction/)
