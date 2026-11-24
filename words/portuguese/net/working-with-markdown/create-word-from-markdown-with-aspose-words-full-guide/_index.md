@@ -244,9 +244,7 @@ namespace MarkdownToWordDemo
 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
-- [Como Exportar LaTeX do Word – Converter DOCX para Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Salvar Imagens do Word – Converter Word para Markdown com Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Criar PDF Acessível e Converter Word para Markdown – Guia Completo em C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

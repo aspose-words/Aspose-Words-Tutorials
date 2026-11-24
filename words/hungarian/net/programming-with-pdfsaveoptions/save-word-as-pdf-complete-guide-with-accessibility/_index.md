@@ -180,7 +180,6 @@ Próbáld ki, finomítsd a beállításokat, és hagyd, hogy a PDF-jeid mindenki
 
 - [Hozzáférhető PDF létrehozása Wordből C#‑val – Lépésről‑lépésre útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word mentése PDF‑ként Aspose.Words‑szal – Teljes C# útmutató](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Word konvertálása PDF‑be C#‑ban az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

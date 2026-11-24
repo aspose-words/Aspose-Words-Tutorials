@@ -257,7 +257,6 @@ Each of these extensions builds on the same core concept of **importing
 निम्नलिखित ट्यूटोरियल निकटतम संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API सुविधाओं में निपुण बनने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
 - [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [DOCX से Markdown कैसे सहेजें – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Docx फ़ाइल को Markdown में बदलें](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -169,8 +169,6 @@ Sie wissen jetzt, wie Sie **Word als Markdown speichern**, den Export so konfigu
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Wie man Markdown aus DOCX speichert – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Wie man Markdown aus Word speichert – Komplett‑Leitfaden](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word‑Bilder speichern – Word in Markdown konvertieren mit Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

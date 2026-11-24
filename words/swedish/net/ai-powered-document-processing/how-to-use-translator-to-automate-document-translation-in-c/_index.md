@@ -194,7 +194,6 @@ Känn dig fri att experimentera med andra språk, lägga till felhantering eller
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man kontrollerar grammatik i DOCX med Aspose.Words – använd gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Hur man använder Callback i C# – Konvertera DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word-dokument – Hur man tar bort innehåll](/words/english/net/remove-content/)
 

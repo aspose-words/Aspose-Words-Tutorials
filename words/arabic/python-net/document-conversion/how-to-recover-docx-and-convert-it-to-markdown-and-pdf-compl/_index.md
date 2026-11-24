@@ -225,8 +225,6 @@ if __name__ == "__main__":
 
 ## ما الذي يجب أن تتعلمه بعد ذلك؟
 
-- [كيفية استعادة docx باستخدام Aspose.Words – خطوة بخطوة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [حفظ docx كـ pdf باستخدام Aspose.Words – دليل C# الكامل](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

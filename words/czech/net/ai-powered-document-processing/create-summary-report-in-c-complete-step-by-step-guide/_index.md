@@ -310,7 +310,6 @@ Nahraďte zástupné metody `Summarize` skutečnými HTTP voláními na příslu
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou ovládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Vytvořte markdown z Wordu – Kompletní průvodce v C#](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Vytvořte přístupný PDF a převod Wordu do Markdown – Kompletní průvodce v C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Vytvořte Word dokument s tabulkou pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

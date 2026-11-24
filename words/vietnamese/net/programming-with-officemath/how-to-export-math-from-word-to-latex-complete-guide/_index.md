@@ -238,8 +238,6 @@ Hãy thử, điều chỉnh các tùy chọn, và để mã thực hiện công 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên đều có các ví dụ mã hoàn chỉnh cùng với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Lưu Tài Liệu dưới dạng Txt – Xuất Công Thức Word sang LaTeX trong C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Cách Xuất LaTeX từ Word – Hướng Dẫn Từng Bước](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Cách Xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

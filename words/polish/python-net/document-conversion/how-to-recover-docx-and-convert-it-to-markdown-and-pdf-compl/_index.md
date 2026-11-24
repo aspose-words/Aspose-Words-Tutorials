@@ -227,8 +227,6 @@ Jeśli PDF otwiera się bez błędów, a Markdown renderuje się poprawnie, pomy
 
 ## Co warto nauczyć się dalej?
 
-- [jak odzyskać docx przy użyciu Aspose.Words – krok po kroku](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [Jak zapisać Markdown z DOCX – przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Zapisz docx jako pdf przy użyciu Aspose.Words – kompletny przewodnik C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

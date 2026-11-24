@@ -271,7 +271,6 @@ A: `ExportAsHtml = MarkdownExportAsHtml.None` に設定します。これによ�
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックを扱っています。各リソースには、ステップバイステップの解説と完全なコード例が含まれているので、API の追加機能を習得したり、別の実装アプローチを自分のプロジェクトで試したりするのに役立ちます。
 
 - [Word から Markdown をエクスポートする方法 – 完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/)
-- [Word から Markdown を保存する方法 – 完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Word 画像を保存 – Aspose で Word を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

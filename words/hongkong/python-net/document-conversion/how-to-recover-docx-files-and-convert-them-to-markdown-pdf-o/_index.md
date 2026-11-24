@@ -235,7 +235,6 @@ python convert_docx.py
 
 以下教學涵蓋與本指南緊密相關的主題，能進一步深化您對 API 功能的掌握，並提供在實際專案中可採用的替代實作方式，皆附有完整可執行的程式碼範例與逐步說明。
 
-- [如何恢復 DOCX – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 - [將 DOCX 轉換為 Markdown – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [將 docx 儲存為 txt – 轉換 docx 為 markdown](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 

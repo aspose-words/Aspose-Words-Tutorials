@@ -301,7 +301,6 @@ Voel je vrij de code aan te passen aan de architectuur van je project, en deel j
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe Markdown vanuit Word op te slaan – Complete gids](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word-afbeeldingen opslaan – Word naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Docx naar markdown converteren – Wiskundige vergelijkingen exporteren naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

@@ -234,7 +234,6 @@ Miłego kodowania i ciesz się przekształcaniem lekkiego Markdown w w pełni fu
 
 Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Konwertuj DOCX do Markdown – Kompletny przewodnik z użyciem Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Jak wyeksportować LaTeX z Word: konwertuj DOCX do Markdown i zapisz jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 

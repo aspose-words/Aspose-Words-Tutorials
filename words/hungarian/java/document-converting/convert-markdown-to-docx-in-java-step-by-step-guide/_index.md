@@ -251,7 +251,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Docx fájl konvertálása Markdown‑ra](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Docx konvertálása markdown‑ra – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hogyan exportáljunk LaTeX‑et Word‑ből – DOCX konvertálása Markdown‑ra](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

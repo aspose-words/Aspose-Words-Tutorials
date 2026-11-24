@@ -32,9 +32,9 @@ schemas:
     text: Plain‑text output isn’t just a dump of characters; you can steer how special
       objects are rendered. The `TxtSaveOptions` class is your toolbox.
   - name: 3. How to Export Equations as LaTeX
-    text: The key line above (`OfficeMathExportMode = OfficeMathExportMode.LaTeX`)
-      does the heavy lifting. Under the hood Aspose.Words parses the Office Math XML
-      and translates it into the corresponding LaTeX macro language.
+    text: The key line above (`OfficeMathExportMode = TxtOfficeMathExportMode.Latex`)
+      does the heavy lifting. The option automatically converts Office Math to LaTeX
+      when saving to plain‑text.
   - name: 4. Convert Equations LaTeX in a Text File
     text: Now we write the document out. The `Save` method respects the options we
       configured.
@@ -91,10 +91,11 @@ Document doc = new Document(inputPath);
 Plain‑text output isn’t just a dump of characters; you can steer how special objects are rendered. The `TxtSaveOptions` class is your toolbox.
 
 ```csharp
+using Aspose.Words.Saving;
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This tells Aspose.Words to turn Office Math into LaTeX syntax.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: preserve line breaks exactly as they appear in the Word file.
     PreserveTableLayout = true
@@ -105,17 +106,13 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 
 ### 3. How to Export Equations as LaTeX
 
-The key line above (`OfficeMathExportMode = OfficeMathExportMode.LaTeX`) does the heavy lifting. Under the hood Aspose.Words parses the Office Math XML and translates it into the corresponding LaTeX macro language.
+The key line above (`OfficeMathExportMode = TxtOfficeMathExportMode.Latex`) does the heavy lifting. The option automatically converts Office Math to LaTeX when saving to plain‑text.
 
 ```csharp
 // No extra code needed here – the option does the conversion automatically.
 ```
 
-If you ever need MathML instead, just swap `LaTeX` for `MathML`:
-
-```csharp
-txtOptions.OfficeMathExportMode = OfficeMathExportMode.MathML;
-```
+> **Note:** `TxtSaveOptions` supports only `TxtOfficeMathExportMode.Text` and `TxtOfficeMathExportMode.Latex`. If you need MathML output, you must use `HtmlSaveOptions` with `OfficeMathOutputMode = HtmlOfficeMathOutputMode.MathML` instead.
 
 ### 4. Convert Equations LaTeX in a Text File
 
@@ -146,6 +143,7 @@ Notice how the equation appears between `\[` and `\]` – that’s standard LaTe
 Putting it all together gives you a compact, reusable method:
 
 ```csharp
+using Aspose.Words.Saving;
 using Aspose.Words;
 using System;
 
@@ -161,10 +159,10 @@ public class DocxToTxtConverter
         // Load the source document
         Document doc = new Document(sourcePath);
 
-        // Configure TXT save options – this is where we **convert equations latex**
+        // Configure TXT save options – this is where we **convert equations to LaTeX**
         TxtSaveOptions options = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
             PreserveTableLayout = true
         };
 
@@ -206,9 +204,9 @@ All of these scenarios reuse the same `TxtSaveOptions` object, so your code stay
 
 ## Conclusion
 
-We’ve covered everything you need to **convert DOCX to TXT** while preserving math via LaTeX. The short answer: load the document, configure `TxtSaveOptions` with `OfficeMathExportMode.LaTeX`, and call `Save`. From there you can scale the solution, tweak options, or integrate it into larger workflows.
+We’ve covered everything you need to **convert DOCX to TXT** while preserving math via LaTeX. The short answer: load the document, configure `TxtSaveOptions` with `OfficeMathExportMode = TxtOfficeMathExportMode.Latex`, and call `Save`. From there you can scale the solution, tweak options, or integrate it into larger workflows.
 
-If you’re curious about other export formats—like HTML with embedded MathML—just flip the `OfficeMathExportMode` flag. The same pattern applies, proving that mastering **how to save txt** with custom options unlocks a whole suite of document‑processing capabilities.
+If you’re curious about other export formats—like HTML with embedded MathML—just flip the `OfficeMathOutputMode` flag on `HtmlSaveOptions`. The same pattern applies, proving that mastering **how to save txt** with custom options unlocks a whole suite of document‑processing capabilities.
 
 Got questions or want to share your own tweaks? Drop a comment below, and happy coding!
 
@@ -220,7 +218,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Save docx as txt – Export Word Math to LaTeX with C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [How to Export LaTeX: Convert DOCX to Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -235,7 +235,6 @@ A: หลังโหลด ให้วนลูป `doc.get_child_nodes(aw.Nod
 
 - [วิธีกู้คืน docx – คู่มือ C# สำหรับไฟล์ Word ที่เสีย](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [แปลง docx เป็น markdown – คู่มือ C# ขั้นตอนโดยละเอียด](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

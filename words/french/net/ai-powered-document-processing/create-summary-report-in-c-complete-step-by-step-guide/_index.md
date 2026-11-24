@@ -323,7 +323,6 @@ Remplacez les méthodes `Summarize` factices par de véritables appels HTTP aux 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités d’API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
 - [Create markdown from word – Complete C# Guide](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -188,8 +188,6 @@ Als Nächstes erkunden Sie verwandte Themen wie **Batch‑Verarbeitung mehrerer 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Wie man Word zu PDF mit Aspose.Words für Java konvertiert](/words/english/java/document-converting/using-document-converting/)
-- [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden zum Fix, PDF‑ & Markdown‑Export](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [Wie man LaTeX aus Word exportiert – DOCX zu Markdown konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

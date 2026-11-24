@@ -99,7 +99,7 @@ if (!chartShape.HasChart)
 }
 
 // Extract the Chart instance.
-Chart chart = chartShape.GetChart();
+Chart chart = chartShape.Chart;
 ```
 
 *Why this step matters*: Directly accessing `Chart` gives you full control over series, data points, and label properties. If the shape isn’t a chart, the code aborts early with an informative message.
@@ -112,7 +112,7 @@ Now iterate through every series and every data label, setting the `Position` to
 
 ```csharp
 // Center all data labels on each slice of the chart.
-foreach (Series series in chart.Series)
+foreach (ChartSeries series in chart.Series)
 {
     foreach (ChartDataLabel label in series.DataLabels)
     {
@@ -147,7 +147,7 @@ doc.Save(@"YOUR_DIRECTORY\ChartLabelsCentered.docx");
 |-----------|---------------|
 | **Multiple charts** in the same document | Loop over `doc.GetChildNodes(NodeType.Shape, true)` and check `shape.HasChart` for each shape. |
 | **Different chart types** (pie, doughnut, bar) | The same `ChartDataLabelPosition.Center` works for pie‑type charts. For bar/column charts you may prefer `InsideEnd` or `OutsideEnd`. |
-| **Label text needs formatting** | Access `label.TextProperties` to set font size, color, or boldness. |
+| **Label text needs formatting** | Use `label.Font` to set font size, color, or boldness. |
 | **Running on .NET Core** | Ensure you reference the .NET Standard version of Aspose.Words; the API is identical. |
 
 ---
@@ -182,10 +182,10 @@ class Program
         }
 
         // Get the Chart object.
-        Chart chart = chartShape.GetChart();
+        Chart chart = chartShape.Chart;
 
         // Center all data labels.
-        foreach (Series series in chart.Series)
+        foreach (ChartSeries series in chart.Series)
         {
             foreach (ChartDataLabel label in series.DataLabels)
             {

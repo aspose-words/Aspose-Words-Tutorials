@@ -272,7 +272,6 @@ if __name__ == "__main__":
 
 - [문서를 TXT로 저장 – Word Math 내보내기 빠른 가이드](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word에서 LaTeX 내보내기 – 단계별 가이드](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

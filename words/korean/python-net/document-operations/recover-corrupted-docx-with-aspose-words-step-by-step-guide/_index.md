@@ -267,7 +267,6 @@ Missing images  : False
 
 - [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words로 손상된 docx 복구 – 복구 모드와 로드 옵션 설정](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [DOCX 복구 완전 가이드 – Aspose.Words 사용](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

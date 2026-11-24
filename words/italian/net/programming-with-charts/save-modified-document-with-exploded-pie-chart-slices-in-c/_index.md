@@ -218,7 +218,6 @@ Sentiti libero di sperimentare con angoli diversi, impostazioni di esplosione o 
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come salvare un documento modificato in C# con Aspose.Words – Guida passo‑passo](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Aggiorna i dati della serie del grafico in un documento Word usando Aspose.Words per .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Inserisci un grafico a colonne in un documento Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

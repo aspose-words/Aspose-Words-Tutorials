@@ -207,9 +207,6 @@ foreach (var md in mdFiles)
 
 Следующие руководства охватывают тесно связанные темы, которые развивают техники, продемонстрированные в этом пособии. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как сохранить Markdown из Word – Полное руководство C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Как сохранить Markdown из Word – Полное руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Как сохранить Markdown из DOCX – Пошаговое руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

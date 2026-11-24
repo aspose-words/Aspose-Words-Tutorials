@@ -237,7 +237,6 @@ Sentiti libero di sperimentare con le opzioni e condividi i tuoi risultati nei c
 
 I tutorial seguenti coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come recuperare DOCX – Guida completa usando Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 - [Converti DOCX in Markdown – Guida completa usando Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [salva docx come txt – converti docx in markdown](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 

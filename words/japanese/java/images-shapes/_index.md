@@ -110,8 +110,10 @@ Aspose.Words for Java を使い、Word 文書内で図形をグループ化し�
 ### [C# と Aspose.Words を使用して Word で図形を非表示にする方法](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 C# と Aspose.Words を使用して Word 文書内の図形を非表示にする手順を解説します。
 
+### [C# を使用して Word で矩形シェイプとグループ化シェイプを作成する方法](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 ### [Javaで空白のWord文書を作成し、図形をグループ化する方法](./how-to-create-blank-word-document-and-group-shapes-in-java/)
-Javaで空白のWord文書を作成し、図形をグループ化する方法を解説します。
+Javaを使用して新しいWord文書を作成し、複数の図形をグループ化する手順を解説します。
 
 ### [非表示画像付きの新しいWord文書を作成する – ステップバイステップ ガイド](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 非表示画像を使用してWord文書を作成する方法をステップバイステップで解説します。

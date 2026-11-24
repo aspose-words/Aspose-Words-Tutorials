@@ -201,7 +201,6 @@ Got questions about edge cases—like handling macros, encrypted Word files, or 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Save Word as PDF with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Export Word Document Header Footer Bookmarks to PDF Document](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

@@ -249,9 +249,6 @@ Ora sai come **salvare markdown come docx** usando Aspose.Words in C#. Il tutori
 
 ### Cosa c'è dopo?
 
-- [Come salvare Markdown da DOCX – Guida passo‑passo](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Converti docx in markdown con Aspose.Words – Guida completa](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [Converti docx in markdown in C# – Guida passo‑passo](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

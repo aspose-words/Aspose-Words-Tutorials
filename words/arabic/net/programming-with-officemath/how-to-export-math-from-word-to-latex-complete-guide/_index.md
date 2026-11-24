@@ -236,8 +236,6 @@ System.IO.File.WriteAllText(
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مصدر يتضمن أمثلة شاملة مع شروح خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك الخاصة.
 
 - [حفظ المستند كملف Txt – تصدير رياضيات Word إلى LaTeX في C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -212,8 +212,6 @@ for filename in os.listdir(source_dir):
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโปรเจกต์ของคุณ
 
-- [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนต่อขั้นตอน](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [บันทึก docx เป็น txt – ส่งออก Word Math ไปยัง LaTeX ด้วย C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

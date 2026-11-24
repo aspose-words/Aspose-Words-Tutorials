@@ -211,8 +211,6 @@ Recovery complete. Files saved to YOUR_DIRECTORY.
 
 Следующие руководства охватывают тесно связанные темы, которые развивают техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные рабочие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в собственных проектах.
 
-- [Восстановление повреждённого DOCX – Полное руководство по исправлению, экспорту в PDF и Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [Как экспортировать LaTeX из Word: Конвертация DOCX в Markdown с помощью Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [как восстановить docx – установить режим восстановления и открыть повреждённые файлы Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -185,7 +185,6 @@ C: Kesinlikle. Aspose.Words for Python, çalışma zamanı sürüm gereksinimini
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [docx'i txt'ye dönüştürme – Word'ü Düz Metin Olarak Kaydetme Tam Kılavuzu](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Word'ten LaTeX Aktarma: Aspose ile DOCX'i Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx'i markdown'a dönüştürme – Aspose.Words ile Matematik Denklemlerini LaTeX'e Aktarma](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

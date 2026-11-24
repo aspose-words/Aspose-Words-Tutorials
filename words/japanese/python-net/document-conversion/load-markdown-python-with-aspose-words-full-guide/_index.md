@@ -208,7 +208,6 @@ if __name__ == "__main__":
 以下のチュートリアルは、本ガイドで示したテクニックを基に、さらに関連するトピックを深掘りします。各リソースには完全なコード例とステップバイステップの解説が含まれており、API の追加機能を習得したり、別の実装アプローチを自分のプロジェクトに取り入れたりするのに役立ちます。
 
 - [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

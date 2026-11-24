@@ -205,7 +205,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Hoe DOCX te laden en ontbrekende lettertypen te detecteren – Complete C#‑gids](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Hoe lettertypen te detecteren in Aspose.Words – Waarschuwingen & instellingen afhandelen](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Hoe LoadOptions te gebruiken in Aspose.Words – Complete gids](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

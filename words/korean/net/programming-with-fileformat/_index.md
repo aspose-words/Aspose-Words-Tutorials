@@ -27,7 +27,6 @@ Aspose.Words for .NET의 파일 형식을 활용한 워드 프로세싱 튜토�
 | [문서 파일 형식 감지](./detect-file-format/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 문서 파일 형식을 감지하는 방법을 알아보세요. |
 | [Word 문서에서 디지털 서명 감지](./detect-document-signatures/) | Aspose.Words for .NET을 사용하여 Word 문서에서 디지털 서명을 감지하는 방법을 단계별 가이드를 통해 알아보세요. |
 | [암호화된 Word 문서 확인](./verify-encrypted-document/) | 이 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서의 암호화 상태를 확인하는 방법을 알아보세요. |
-| [DOCX 복구 방법 – 손상된 파일을 위한 단계별 가이드](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하는 단계별 방법을 안내합니다. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

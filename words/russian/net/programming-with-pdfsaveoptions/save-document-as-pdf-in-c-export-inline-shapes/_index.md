@@ -224,7 +224,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [Сохранить docx как pdf с Aspose.Words – Полное руководство C#](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [Конвертировать word в pdf в C# с использованием Aspose.Words – Руководство](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

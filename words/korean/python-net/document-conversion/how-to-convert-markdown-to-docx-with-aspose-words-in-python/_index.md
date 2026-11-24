@@ -237,7 +237,6 @@ print(f"Document contains {paragraphs} paragraphs.")
 
 - [Docx 파일을 Markdown으로 변환](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Aspose.Words for Python 마스터하기: Markdown 표와 목록 포맷팅](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [LaTeX 내보내기 방법: DOCX를 Markdown 및 TXT로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

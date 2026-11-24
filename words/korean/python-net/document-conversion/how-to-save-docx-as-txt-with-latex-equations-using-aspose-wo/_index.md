@@ -247,7 +247,6 @@ A: 일반 텍스트 형식은 스타일을 유지하지 않습니다. 기본 스
 
 다음 튜토리얼은 이 가이드에서 보여준 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료는 단계별 설명과 함께 완전한 코드 예제를 제공하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
-- [Aspose.Words – docx를 txt로 저장하고 Word 방정식을 LaTeX로 내보내기 – 완전 가이드](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [LaTeX 방정식이 포함된 docx를 txt로 변환 – Aspose.Words 가이드](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Word의 방정식을 LaTeX로 변환하는 방법 – TXT로 저장](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

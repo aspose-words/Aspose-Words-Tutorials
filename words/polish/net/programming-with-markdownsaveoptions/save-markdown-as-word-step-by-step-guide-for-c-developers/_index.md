@@ -207,9 +207,6 @@ Opanowując przepływ pracy **save markdown as word**, możesz automatyzować ge
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak zapisać Markdown z Word – Kompletny przewodnik C#](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Jak zapisać Markdown z Word – Kompletny przewodnik](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

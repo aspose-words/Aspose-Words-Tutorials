@@ -57,7 +57,7 @@ In this tutorial we’ll walk through a real‑world example that shows you how 
 | Requirement | Why it matters |
 |-------------|----------------|
 | .NET 6 or later | Modern language features and `async` support. |
-| NuGet packages: `Aspose.Words` (or `DocumentFormat.OpenXml`), `System.Net.Http.Json` | `Aspose.Words` gives us the `Document` class shown in the snippet; `HttpClient` handles the API call. |
+| NuGet packages: `Aspose.Words`, `System.Net.Http.Json` | `Aspose.Words` gives us the `Document` class shown in the snippet; `HttpClient` handles the API call. |
 | API keys for OpenAI or Google Vertex AI | The summarizer needs a model endpoint; you’ll plug the key into the code. |
 | A sample Word file (`report.docx`) in a folder you can reference | The tutorial uses `load word document c#` to demonstrate file I/O. |
 
@@ -199,7 +199,6 @@ public static class AiSummarizer
                     maxOutputTokens = 500,
                     topK = 40,
                     topP = 0.95,
-                    // Vertex AI doesn’t have a built‑in sentence limit, so we post‑process later.
                 }
             };
 
@@ -287,8 +286,9 @@ If you switch `options.Model` to `SummarizationModel.Google`, you’ll see a sim
 |-----------|-------------------|-----------|
 | **Huge documents (>10 k tokens)** | API may reject the request or truncate output. | Split the text into logical sections (e.g., per heading) and summarize each chunk, then combine. |
 | **Missing or invalid API key** | 401 Unauthorized errors. | Verify `OPENAI_API_KEY` / `GOOGLE_API_KEY` are set in your environment or use a `appsettings.json` file for local dev. |
-| **Non‑English Word files** | Summar
+| **Non‑English Word files** | Summaries may be returned in the wrong language. | Use `AiSummarizer.SummarizeAsync` with a system prompt that specifies the target language, or pass the appropriate `Language` enum when using `AiModel.Translate`. |
 
+---
 
 ## What Should You Learn Next?
 

@@ -235,7 +235,6 @@ Voel je vrij om te experimenteren met verschillende `OfficeMathExportMode`‑waa
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe Markdown opslaan vanuit Word – Complete Python‑gids](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [DOCX naar Markdown converteren – Complete gids met Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

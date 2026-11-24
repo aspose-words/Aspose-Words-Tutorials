@@ -238,8 +238,6 @@ Vyzkoušejte to, upravte možnosti a nechte kód udělat těžkou práci. Šťas
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní přístupy v vašich projektech.
 
 - [Uložit dokument jako Txt – Exportovat matematiku z Wordu do LaTeXu v C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Jak exportovat LaTeX z Wordu – Průvodce krok za krokem](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Jak exportovat LaTeX z Wordu: Převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

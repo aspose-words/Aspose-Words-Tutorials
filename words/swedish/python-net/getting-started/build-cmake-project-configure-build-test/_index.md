@@ -159,8 +159,6 @@ Happy building, and may your CMake builds always be reproducible!
 
 De följande handledningarna täcker närbesläktade ämnen som bygger vidare på teknikerna som demonstrerades i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man exporterar LaTeX från Word – Steg‑för‑steg‑guide](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Hur man visar Aspose.Words‑version i Python och .NET&#58; En steg‑för‑steg‑guide](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

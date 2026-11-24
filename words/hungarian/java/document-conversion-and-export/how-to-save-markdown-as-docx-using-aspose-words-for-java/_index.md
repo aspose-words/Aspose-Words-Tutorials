@@ -236,7 +236,6 @@ Boldog kódolást, és élvezze a könnyű Markdown átalakítását teljes funk
 
 A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek további API‑funkciók elsajátításában és alternatív megvalósítási megközelítések felfedezésében saját projektjeiben.
 
-- [Hogyan mentse a Markdown-t DOCX‑ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX konvertálása Markdown‑ra – Teljes útmutató Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Hogyan exportáljon LaTeX‑et Word‑ből: DOCX konvertálása Markdown‑ra és mentés PDF‑ként](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 

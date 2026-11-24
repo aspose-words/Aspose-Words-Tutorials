@@ -245,8 +245,6 @@ A volte è necessario contrassegnare un paragrafo specifico come *nota* per le t
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell’API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [convertire word in pdf in C# usando Aspose.Words – Guida](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [Crea PDF accessibile e converti Word in Markdown – Guida completa C#](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Converti documento Word in PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

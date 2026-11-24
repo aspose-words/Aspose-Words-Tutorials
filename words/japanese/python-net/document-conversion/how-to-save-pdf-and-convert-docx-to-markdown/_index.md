@@ -183,8 +183,6 @@ print(f"PDF size: {os.path.getsize(pdf_path)} bytes")
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能を習得したり、独自プロジェクトで代替実装アプローチを検討したりするのに役立ちます。
 
 - [Aspose.Words for Java を使用した Word から PDF への変換方法](/words/english/java/document-converting/using-document-converting/)
-- [破損した DOCX の復元 – PDF と Markdown エクスポートの完全ガイド](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [Word から LaTeX をエクスポート – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

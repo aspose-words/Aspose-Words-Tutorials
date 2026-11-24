@@ -324,7 +324,6 @@ Ersetzen Sie die Stub‑`Summarize`‑Methoden durch echte HTTP‑Aufrufe zu den
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Markdown aus Word erstellen – Vollständige C#‑Anleitung](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Barrierefreies PDF erstellen und Word nach Markdown konvertieren – Vollständige C#‑Anleitung](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Ein Word‑Dokument mit Tabelle erstellen mit Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

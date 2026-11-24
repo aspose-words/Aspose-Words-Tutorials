@@ -165,8 +165,6 @@ md_opts.markdown_export_as_html = aw.saving.MarkdownExportAsHtml.NONE
 
 以下教程涵盖了与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中探索替代实现方案，每篇资源均提供完整可运行的代码示例和逐步解释。
 
-- [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [How to Save Markdown from Word – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

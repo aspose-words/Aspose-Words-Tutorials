@@ -238,8 +238,6 @@ Ge det ett försök, justera alternativen, och låt koden göra det tunga lyftet
 De följande handledningarna täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Spara dokument som Txt – Exportera Word‑matematik till LaTeX i C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Hur man exporterar LaTeX från Word – Steg‑för‑steg‑guide](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Hur man exporterar LaTeX från Word: Konvertera DOCX till Markdown med Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

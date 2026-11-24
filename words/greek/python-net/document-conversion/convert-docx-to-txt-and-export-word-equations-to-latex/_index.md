@@ -184,7 +184,6 @@ print("Conversion complete: DOCX → TXT with LaTeX equations.")
 ## Τι Θα Πρέπει Να Μάθετε Στη Σειρά;
 
 - [Μετατροπή docx σε txt – Πλήρης Οδηγός για την Αποθήκευση Word ως Απλό Κείμενο](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Μετατροπή docx σε markdown – Εξαγωγή Μαθηματικών Εξισώσεων σε LaTeX με Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

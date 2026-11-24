@@ -59,21 +59,21 @@ The library ships with a built‑in `RecoveryMode` enum that can attempt to read
 
 ### Step 1 – Choose a recovery mode
 
-We start by creating a `LoadOptions` object and setting `RecoveryMode` to `RecoverCorruptedDocument`. This tells the engine to be forgiving.
+We start by creating a `LoadOptions` object and setting `RecoveryMode` to `DocumentRecoveryMode.TryRecover`. This tells the engine to be forgiving.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 1: Configure recovery options
 LoadOptions loadOptions = new LoadOptions
 {
-    // RecoverCorruptedDocument attempts to load and recover what can be read
-    RecoveryMode = RecoveryMode.RecoverCorruptedDocument
+    // TryRecover attempts to load and recover what can be read
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
-*Pro tip:* If you only need to ignore encryption errors, `IgnoreEncryption` is another flag you can combine here. But for most broken files, `RecoverCorruptedDocument` is the go‑to.
+*Pro tip:* For most broken files, `TryRecover` is the go‑to setting.
 
 ### Step 2 – Load the document with recovery
 
@@ -85,7 +85,7 @@ string filePath = @"C:\Temp\possiblyCorrupt.docx";
 Document doc = new Document(filePath, loadOptions);
 ```
 
-At this point you can inspect `doc.IsEncrypted` or `doc.OriginalFormat` to verify what was actually parsed. The library silently skips over unreadable parts, leaving you with whatever survived.
+At this point you can inspect `doc.OriginalLoadFormat` to verify what format was detected. The library silently skips over unreadable parts, leaving you with whatever survived.
 
 ### Step 3 – Get page count docx after recovery
 
@@ -125,13 +125,13 @@ That’s the entire **load word document c#** workflow for a corrupted source.
 | `Password` | Supplies a password for encrypted files | `null` unless needed |
 | `LoadFormat` | Forces a specific file format | `LoadFormat.Docx` (optional) |
 | `Encoding` | Sets character encoding for plain‑text imports | Default UTF‑8 |
-| `RecoveryMode` | Determines how aggressively to fix errors | `RecoverCorruptedDocument` |
+| `RecoveryMode` | Determines how aggressively to fix errors | `DocumentRecoveryMode.TryRecover` |
 
 When you only care about **recover corrupted word**, you can leave the other properties at their defaults. If you later need to support password‑protected files, just fill in `Password`.
 
 ### When recovery fails
 
-Even the best recovery engine has limits. If Aspose.Words throws a `CorruptedFileException`, it means the file’s structure is too broken for any useful reconstruction. In that case:
+Even the best recovery engine has limits. If Aspose.Words throws a `FileCorruptedException`, it means the file’s structure is too broken for any useful reconstruction. In that case:
 
 1. Log the exception with full stack trace – helps you diagnose if the corruption is systemic.
 2. Prompt the user to upload a fresh copy.
@@ -155,17 +155,15 @@ By exposing the **get page count docx** value, you turn a silent recovery into a
 
 | Pitfall | Symptom | Fix |
 |---------|---------|-----|
-| Ignoring `LoadOptions` | `Document` throws an exception on the first corrupt node | Always instantiate `LoadOptions` with `RecoveryMode = RecoverCorruptedDocument`. |
+| Ignoring `LoadOptions` | `Document` throws an exception on the first corrupt node | Always instantiate `LoadOptions` with `RecoveryMode = DocumentRecoveryMode.TryRecover`. |
 | Saving to the same path | Overwrites the original, making debugging harder | Save to a new file (`recovered.docx`) and compare side‑by‑side. |
 | Assuming images survive | Some embedded media may be stripped | Check `doc.GetChildNodes(NodeType.Shape, true)` after load to see what images remain. |
-| Not disposing the `Document` | File handles stay open, causing “file in use” errors | Wrap the code in a `using` block or call `doc.Dispose()` when done. |
+| Not releasing file handles | File handles stay open, causing “file in use” errors | Ensure streams are closed after use; the `Document` class does not require disposal. |
 
 ---
 
 ## ## Tips for load word document c# projects
 
-- **Cache the license**: Load your Aspose.Words license once at application startup; repeated calls slow down recovery.
-- **Parallel processing**: If you have many files, use `Parallel.ForEach` with a thread‑safe license instance to speed up batch recovery.
 - **Logging**: Include the original file size and the recovered page count in logs – it helps spot patterns of corruption (e.g., network‑dropped packets).
 - **Unit tests**: Create a test suite with intentionally corrupted docx samples. Verify that `PageCount` matches expectations after recovery.
 

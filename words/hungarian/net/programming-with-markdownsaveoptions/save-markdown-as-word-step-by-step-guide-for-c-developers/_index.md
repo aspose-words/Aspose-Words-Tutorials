@@ -209,9 +209,6 @@ A **markdown mentése Word-be** munkafolyamat elsajátításával automatizálha
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan mentsünk Markdown-t Word‑ből – Teljes C# útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Hogyan mentsünk Markdown-t Word‑ből – Teljes útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
-- [Hogyan mentsünk Markdown-t DOCX‑ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

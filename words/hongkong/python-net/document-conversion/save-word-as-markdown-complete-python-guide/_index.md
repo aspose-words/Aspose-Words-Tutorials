@@ -278,7 +278,6 @@ $$
 ## 接下來該學什麼？
 
 - [如何從 Word 儲存 Markdown – 完整 Python 指南](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Convert docx to markdown – 使用 Aspose.Words 匯出數學公式為 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

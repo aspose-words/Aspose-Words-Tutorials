@@ -257,8 +257,6 @@ namespace OpenCorruptedWordFileDemo
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich vlastních projektech.
 
 - [jak obnovit docx – nastavit režim obnovy a otevřít poškozené soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Obnovení poškozeného souboru Word – Kompletní průvodce otevřením poškozeného DOCX a získáním stránky](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Obnovení dokumentu Word pomocí Aspose.Words v C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

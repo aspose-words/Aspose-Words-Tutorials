@@ -150,7 +150,6 @@ Happy coding, and remember: accessibility is a feature, not an afterthought.
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng dựa trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Create Accessible PDF from DOCX – Complete Guide](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Create Accessible PDF in C# – PDF Accessibility Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -202,8 +202,6 @@ En maîtrisant **how to export latex**, vous débloquez une méthode rapide et f
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Comment exporter du LaTeX depuis Word : convertir DOCX en Markdown avec Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [Comment enregistrer Markdown – Convertir Word en Markdown & exporter les mathématiques avec Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Comment exporter du LaTeX depuis Word – convertir Word en TXT](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

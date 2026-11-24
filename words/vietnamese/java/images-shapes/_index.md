@@ -36,6 +36,8 @@ Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [Cách tạo hình chữ nhật và nhóm các hình dạng trong Word bằng C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
 
 ### [Lưu trang và hình ảnh tùy chỉnh trong Java với Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Hướng dẫn mã cho Aspose.Words Java

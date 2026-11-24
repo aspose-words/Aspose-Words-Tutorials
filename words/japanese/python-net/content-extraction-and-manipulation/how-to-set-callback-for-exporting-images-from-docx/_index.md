@@ -260,7 +260,6 @@ md_options.export_svg = True  # Keep original SVG markup
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックを扱っています。各リソースには完全な動作コード例とステップバイステップの解説が含まれており、API の追加機能をマスターしたり、別の実装アプローチを自分のプロジェクトで試したりするのに役立ちます。
 
 - [DOCX から Markdown へ変換する際の画像リネーム方法](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
-- [DOCX から Markdown を保存する – ステップバイステップガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

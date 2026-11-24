@@ -301,7 +301,6 @@ Pruébalo en tu propio proyecto, ajusta `PdfSaveOptions` según tus necesidades 
 ## Tutoriales relacionados
 
 - [Convertir archivo Word a PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [convertir word a pdf en C# usando Aspose.Words – Guía](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Exportar encabezados, pies de página y marcadores de documento Word a documento PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

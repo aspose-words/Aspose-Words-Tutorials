@@ -265,7 +265,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak uložit Markdown z Wordu – kompletní průvodce v Pythonu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Uložení obrázků z Wordu – převod Wordu do Markdownu s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Jak uložit Markdown z DOCX – krok za krokem](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

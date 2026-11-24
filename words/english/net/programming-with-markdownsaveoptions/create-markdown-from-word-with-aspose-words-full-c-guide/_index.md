@@ -31,7 +31,7 @@ url: /net/programming-with-markdownsaveoptions/create-markdown-from-word-with-as
 
 Ever needed to **create markdown from word** but weren’t sure where to start? You’re not alone; many developers hit the same wall when a project demands a clean Markdown version of a .docx file, complete with images in the right folder.  
 
-In this tutorial we’ll walk through a practical, end‑to‑end solution that **converts word to markdown**, extracts every picture, and saves the result in a tidy folder structure. By the end you’ll know exactly how to **export docx to markdown** and **save docx as markdown** without hunting through the API docs.  
+In this tutorial we’ll walk through a practical, end‑to‑end solution that **converts word to markdown**, extracts every picture, and saves the result in a tidy folder structure. By the end you’ll know exactly how to **export docx to markdown** and **save docx as markdown**—without hunting through the API docs.  
 
 ## What You’ll Learn  
 
@@ -87,7 +87,7 @@ Loading the file gives you a `Document` object that represents every paragraph, 
 
 ## Step 2: Configure MarkdownSaveOptions with a Resource‑Saving Callback  
 
-The magic happens when you tell Aspose.Words where to put external resources. The `MarkdownSaveOptions` class accepts an `IResourceSavingCallback` implementation that fires for each image, chart, or embedded file.
+The magic happens when you tell Aspose.Words where to put external resources. The `MarkdownSaveOptions` class accepts an `IResourceSavingCallback` implementation that fires for each image.
 
 ```csharp
 using Aspose.Words.Saving;
@@ -190,11 +190,8 @@ That line proves the **extract images from docx** step worked and the links are 
 **Does this work with .NET Core on Linux?**  
 Absolutely. Aspose.Words is cross‑platform; just ensure you have the proper runtime installed and the file paths use forward slashes or `Path.Combine` as shown.
 
-**What if my DOCX contains SVG images?**  
-Aspose.Words converts SVG to PNG by default when saving to Markdown, so the callback will receive a PNG stream. No extra code needed.
-
 **Can I embed the images as base64 instead of separate files?**  
-Yes, set `markdownOptions.ImagesExportFormat = ImageExportFormat.Base64` and skip the callback. However, the resulting Markdown will be larger and less human‑readable.
+Yes, set `markdownOptions.ExportImagesAsBase64 = true` and skip the callback. This will embed each image directly in the Markdown file as a Base64 data URI.
 
 ## Conclusion  
 

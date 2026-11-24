@@ -85,7 +85,6 @@ class Program
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités d'API supplémentaires et à explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Résumer un document Word en C# avec l'API Aspose.Words – Guide complet alimenté par l'IA](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Créer un nouveau document Word](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Créer un document Word avec tableau en utilisant Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

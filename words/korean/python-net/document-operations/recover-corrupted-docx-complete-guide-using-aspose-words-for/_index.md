@@ -234,7 +234,6 @@ A: 로드 후 `doc.get_child_nodes(aw.NodeType.SHAPE, True)` 를 순회하면서
 
 - [docx 복구 – 손상된 Word 파일을 위한 C# 가이드](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
 - [docx를 markdown으로 변환 – 단계별 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Word에서 LaTeX 내보내기: Aspose로 DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

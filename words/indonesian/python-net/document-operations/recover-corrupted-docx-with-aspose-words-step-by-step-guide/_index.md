@@ -253,7 +253,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [cara memulihkan docx – atur mode pemulihan & buka file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [memulihkan docx yang rusak dengan Aspose.Words – atur mode pemulihan dan opsi pemuatan](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Cara Memulihkan DOCX – Panduan Lengkap Menggunakan Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

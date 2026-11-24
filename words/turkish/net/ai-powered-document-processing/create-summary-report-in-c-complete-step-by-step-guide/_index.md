@@ -322,7 +322,6 @@ Stub olarak bırakılmış `Summarize` metodlarını ilgili API'lere gerçek HTT
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Word'den markdown oluşturma – Tam C# Kılavuzu](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [Erişilebilir PDF Oluşturma ve Word'ü Markdown'a Dönüştürme – Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Aspose.Words Kullanarak Tablo İçeren Word Belgesi Oluşturma](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

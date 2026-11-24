@@ -157,8 +157,6 @@ cmake -E chdir "$BUILD" ctest --verbose
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مصدر يتضمن أمثلة شيفرة كاملة تعمل مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [كيفية عرض إصدار Aspose.Words في Python و .NET&#58; دليل خطوة بخطوة](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

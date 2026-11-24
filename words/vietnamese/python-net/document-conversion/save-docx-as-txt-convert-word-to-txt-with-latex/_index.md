@@ -205,7 +205,6 @@ Bạn có một cách tiếp cận mới muốn chia sẻ—có thể xuất ra 
 ## Bạn nên học gì tiếp theo?
 
 - [Lưu docx thành txt – Xuất Word Math sang LaTeX với C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown với Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown & Lưu dưới dạng PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -263,7 +263,6 @@ else:
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教程](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [儲存 Word 圖片 – 使用 Aspose 將 Word 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [如何從 DOCX 儲存 Markdown – 步驟說明指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -184,7 +184,6 @@ Yukarıdaki adımları ustalıkla uygulayarak, bir komut satırı aracı oluştu
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Convert docx to txt – Word'ü Düz Metin Olarak Kaydetme Tam Kılavuzu](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – docx'i txt olarak kaydetme ve Word denklemlerini LaTeX olarak dışa aktarma – Tam Kılavuz](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Word'dan PDF'ye Öğretici: DOCX'i Aspose.Words ile PDF'e Dönüştürme](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

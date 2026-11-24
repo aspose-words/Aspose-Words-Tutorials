@@ -243,8 +243,6 @@ Masz uwagi, historie o przypadkach brzegowych lub inny przepływ pracy? Dodaj ko
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Jak zapisać Markdown z Word – Kompletny przewodnik Pythona](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Jak eksportować LaTeX z Word: konwertuj DOCX do Markdown z Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -159,8 +159,6 @@ cmake -E chdir "$BUILD" ctest --verbose
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικά παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε σε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Πώς να εξάγετε LaTeX από το Word – Οδηγός βήμα‑βήμα](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Πώς να εμφανίσετε την έκδοση Aspose.Words σε Python και .NET: Οδηγός βήμα‑βήμα](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

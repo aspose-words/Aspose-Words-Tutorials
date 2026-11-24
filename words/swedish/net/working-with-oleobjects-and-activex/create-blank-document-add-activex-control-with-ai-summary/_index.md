@@ -84,7 +84,6 @@ class Program
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Sammanfatta Word‑dokument i C# med Aspose.Words API – Komplett AI‑driven guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Skapa nytt Word‑dokument](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Skapa ett Word‑dokument med tabell med hjälp av Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

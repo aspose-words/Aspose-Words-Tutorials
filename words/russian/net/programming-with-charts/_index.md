@@ -52,7 +52,6 @@
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Как установить количество корзин гистограммы и добавить подписи данных в диаграмму Word с помощью C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Программно настроить подписи диаграмм в документе Word с помощью C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Название | Описание |
 | --- | --- |
@@ -78,7 +77,6 @@
 | [Установить параметры по умолчанию для меток данных на диаграмме](./default-options-for-data-labels/) | Узнайте, как задать параметры по умолчанию для меток данных в диаграмме с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы создавать и настраивать диаграммы без усилий. |
 | [Настроить отдельную точку данных диаграммы на диаграмме](./single-chart-data-point/) | Узнайте, как настраивать отдельные точки данных диаграммы с помощью Aspose.Words для .NET в подробном пошаговом руководстве. Улучшите свои диаграммы с помощью уникальных маркеров и размеров. |
 | [Настройте отдельные серии диаграмм в диаграмме](./single-chart-series/) | Узнайте, как настроить отдельные серии диаграмм в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной работы. |
-| [Показать легенду диаграммы в Word с C# – Полное пошаговое руководство](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Узнайте, как отобразить легенду диаграммы в документе Word с помощью Aspose.Words для .NET и C# в этом полном пошаговом руководстве. |
 | [Создать круговую диаграмму в Word на C# – пошаговое руководство](./create-pie-chart-word-in-c-step-by-step-guide/) | Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для .NET, следуя пошаговому руководству на C#. |
 
 | [Взрыв куска круговой диаграммы в C# с Aspose.Words – Полное руководство](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Узнайте, как взорвать (отделить) кусок круговой диаграммы в документе Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
@@ -90,7 +88,6 @@
 | [Как создать документ Word на C# с колонной диаграммой и отформатированными метками](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Узнайте, как создать документ Word с колонной диаграммой и отформатировать метки данных, используя Aspose.Words для .NET. |
 | [Как создать документ Word с настраиваемой круговой диаграммой на C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Узнайте, как создать документ Word с кастомизированной круговой диаграммой в C# с помощью Aspose.Words. |
 | [Как установить количество корзин гистограммы и добавить подписи данных в диаграмму Word с помощью C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Узнайте, как задать количество корзин гистограммы и добавить подписи данных в диаграмму Word с помощью Aspose.Words для .NET. |
-| [Программно настроить подписи диаграмм в документе Word с помощью C#](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Узнайте, как программно изменять подписи диаграмм в документе Word с помощью C#. |
 | [Как создать радиальную диаграмму и добавить её в документ Word с C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Узнайте, как создать радиальную диаграмму и добавить её в документ Word с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -27,7 +27,6 @@ Aspose.Words for .NET 教程中有關使用文件格式進行文字處理的教�
 | [檢測文件文件格式](./detect-file-format/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 偵測文件檔案格式。 |
 | [偵測Word文件上的數位簽名](./detect-document-signatures/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 偵測 Word 文件中的數位簽章。 |
 | [驗證加密的Word文檔](./verify-encrypted-document/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 驗證 Word 文件的加密狀態。 |
-| [如何復原 DOCX – 受損檔案的逐步指南](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 復原受損的 DOCX 檔案。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -321,7 +321,6 @@ Mentse a fájlt `Program.cs` néven, helyezzen egy `
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Word dokumentum összefoglalása C#-ban az Aspose.Words API-val – Teljes AI‑alapú útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Új Word dokumentum létrehozása](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Word dokumentum létrehozása és formázása Aspose.Words for .NET-ben](/words/english/net/document-styling/apply-paragraph-style/)
 

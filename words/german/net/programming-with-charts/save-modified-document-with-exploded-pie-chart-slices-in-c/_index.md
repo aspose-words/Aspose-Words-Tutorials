@@ -218,7 +218,6 @@ Experimentieren Sie gern mit verschiedenen Winkeln, Explosions‑Einstellungen o
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in dieser Anleitung gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Wie man ein bearbeitetes Dokument in C# mit Aspose.Words speichert – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Diagramm‑Seriendaten in einem Word‑Dokument mit Aspose.Words für .NET aktualisieren](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Spalten‑Diagramm in ein Word‑Dokument einfügen](/words/english/net/programming-with-charts/insert-column-chart/)
 

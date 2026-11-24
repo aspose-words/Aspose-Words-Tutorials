@@ -231,7 +231,6 @@ Van még kérdésed a Word egyenletek LaTeX‑re konvertálásával vagy más f�
 Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd az API további funkcióit, és alternatív megvalósítási megközelítéseket fedezhess fel saját projektjeidben.
 
 - [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words használatával](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Hogyan exportáljunk LaTeX‑et: DOCX konvertálása markdownra és TXT‑re](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Dokumentum mentése TXT‑ként – Teljes C# útmutató a DOCX egyszerű szöveggé konvertálásához](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

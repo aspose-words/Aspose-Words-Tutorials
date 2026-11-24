@@ -209,8 +209,6 @@ for filename in os.listdir(source_dir):
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説付きの完全なコード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Word から LaTeX をエクスポートする方法 – ステップバイステップ ガイド](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Word から LaTeX をエクスポートする方法: Aspose で DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx を txt として保存 – C# で Word Math を LaTeX にエクスポート](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

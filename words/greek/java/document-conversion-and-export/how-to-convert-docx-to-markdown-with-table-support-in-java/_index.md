@@ -222,7 +222,6 @@ This paragraph is regular markdown text.
 
 - [Μετατροπή docx σε markdown – Εξαγωγή μαθηματικών εξισώσεων σε LaTeX με Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Πώς να εξάγετε Markdown από Word χρησιμοποιώντας Java – Πλήρης Οδηγός](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [Πώς να ορίσετε ανάλυση κατά τη μετατροπή DOCX σε Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

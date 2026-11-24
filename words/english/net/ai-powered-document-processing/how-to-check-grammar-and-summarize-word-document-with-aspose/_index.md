@@ -42,7 +42,7 @@ We’ll walk through everything you need—installing the NuGet packages, config
 - .NET 6.0 SDK or later (the code also works with .NET Core 3.1, but .NET 6 is the sweet spot)
 - Visual Studio 2022 or VS Code with C# extension
 - A local AI server that follows the OpenAI API schema (e.g., Ollama, LMStudio, or a custom FastAPI wrapper). It should be reachable at `http://localhost:8000/v1`.
-- Aspose.Words for .NET NuGet package (`Aspose.Words`) and the AI add‑on (`Aspose.Words.AI`).
+- Aspose.Words for .NET NuGet package (`Aspose.Words`). The AI features live in its `Aspose.Words.AI` namespace; no extra package is needed.
 
 > **Pro tip:** If you don’t have a local AI model yet, try `ollama run llama2` and expose it on port 8000; the endpoint will match the schema used below.
 
@@ -50,18 +50,25 @@ We’ll walk through everything you need—installing the NuGet packages, config
 
 ## Step 1: Set up the self‑hosted AI model – *how to check grammar* behind the scenes
 
-The first thing we need is an `AiModel` instance that tells Aspose.Words where to send the request. Even though many self‑hosted servers ignore the API key, we still pass a dummy value to satisfy the constructor.
+The first thing we need is an `AiModel` instance that tells Aspose.Words where to send the request. A self‑hosted, OpenAI‑compatible server is modeled as a small subclass of `OpenAiModel` that overrides `Url`. Many self‑hosted servers ignore the API key, but we still pass a dummy value through `WithApiKey`.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.AI;
 
 // Configure the local AI endpoint (OpenAI‑compatible)
-AiModel aiModel = new AiModel
+AiModel aiModel = new LocalAiModel("my-local-model", "http://localhost:8000/v1")
+    .WithApiKey("dummy");               // Most local servers don’t validate this
+
+// A self-hosted model: an OpenAiModel whose Url points at your server
+class LocalAiModel : OpenAiModel
 {
-    Url = "http://localhost:8000/v1"
-};
-aiModel = aiModel.WithApiKey("dummy");               // Most local servers don’t validate this
+    private readonly string _url;
+
+    public LocalAiModel(string name, string url) : base(name) => _url = url;
+
+    public override string Url => _url;
+}
 ```
 
 **Why this matters:** Aspose.Words delegates the heavy‑lifting (grammar analysis and summarization) to the AI model you provide. By pointing to a local endpoint you keep data on‑premise, avoid latency, and stay within compliance boundaries.
@@ -86,13 +93,15 @@ Document document = new Document(inputPath);
 
 ## Step 3: Run a grammar check – the core of **how to check grammar**
 
-Now we ask Aspose.Words to run the grammar engine. Under the hood it sends the document’s text to the AI model, receives suggestions, and annotates the `Document` object.
+Now we ask the AI model to check the document's grammar. Under the hood it sends the document’s text to the model and builds a corrected copy of the document.
 
 ```csharp
 try
 {
     // This will throw if the AI endpoint is unreachable
-    document.CheckGrammar(aiModel);
+    CheckGrammarOptions grammarOptions = new CheckGrammarOptions { MakeRevisions = true };
+    Document checkedDocument = aiModel.CheckGrammar(document, grammarOptions);
+    checkedDocument.Save("output_checked.docx");
     Console.WriteLine("✅ Grammar check completed successfully.");
 }
 catch (Exception ex)
@@ -102,7 +111,7 @@ catch (Exception ex)
 }
 ```
 
-**What happens:** The API returns a list of issues (typos, style problems, etc.). Aspose.Words inserts `Comment` objects at the relevant locations, which you can later inspect or export.
+**What happens:** `CheckGrammar` returns a new `Document` with the proofed text; the original `document` is left unchanged. With `MakeRevisions = true` the corrections appear as tracked changes, so you can review and accept or reject each one in Word.
 
 ---
 
@@ -114,9 +123,9 @@ With the grammar clean, let’s get a short synopsis. The same `AiModel` is reus
 try
 {
     // Generate a concise summary using the AI model
-    string summaryText = document.Summarize(aiModel);
+    Document summaryDocument = aiModel.Summarize(document, new SummarizeOptions { SummaryLength = SummaryLength.Short });
     Console.WriteLine("\n--- Document Summary ---");
-    Console.WriteLine(summaryText);
+    Console.WriteLine(summaryDocument.GetText());
 }
 catch (Exception ex)
 {
@@ -148,11 +157,8 @@ namespace DocAiDemo
             // -------------------------------------------------
             // 1️⃣ Configure the self‑hosted AI model
             // -------------------------------------------------
-            AiModel aiModel = new AiModel
-            {
-                Url = "http://localhost:8000/v1"
-            };
-            aiModel = aiModel.WithApiKey("dummy");
+            AiModel aiModel = new LocalAiModel("my-local-model", "http://localhost:8000/v1")
+                .WithApiKey("dummy");
 
             // -------------------------------------------------
             // 2️⃣ Load the DOCX file (load docx c#)
@@ -175,7 +181,8 @@ namespace DocAiDemo
             // -------------------------------------------------
             try
             {
-                document.CheckGrammar(aiModel);
+                Document checkedDocument = aiModel.CheckGrammar(document, new CheckGrammarOptions { MakeRevisions = true });
+                checkedDocument.Save("output_checked.docx");
                 Console.WriteLine("✅ Grammar check completed.");
             }
             catch (Exception gramEx)
@@ -189,15 +196,25 @@ namespace DocAiDemo
             // -------------------------------------------------
             try
             {
-                string summary = document.Summarize(aiModel);
+                Document summary = aiModel.Summarize(document, new SummarizeOptions { SummaryLength = SummaryLength.Short });
                 Console.WriteLine("\n--- Document Summary ---");
-                Console.WriteLine(summary);
+                Console.WriteLine(summary.GetText());
             }
             catch (Exception sumEx)
             {
                 Console.WriteLine($"❌ Summarization error: {sumEx.Message}");
             }
         }
+    }
+
+    // A self-hosted model: an OpenAiModel whose Url points at your server
+    class LocalAiModel : OpenAiModel
+    {
+        private readonly string _url;
+
+        public LocalAiModel(string name, string url) : base(name) => _url = url;
+
+        public override string Url => _url;
     }
 }
 ```
@@ -222,13 +239,13 @@ If the AI server is down, you’ll see an error message instead of the summary, 
 - **Solution:** Wrap calls in a `CancellationTokenSource` with a timeout (e.g., 30 seconds). If the token fires, fall back to a local rule‑based grammar checker like **LanguageTool**.
 
 ### 2. Large documents (>10 MB) may cause memory pressure.
-- **Solution:** Use `Document.Split` to process sections individually, then concatenate the summaries. This also gives you more granular grammar feedback.
+- **Solution:** Use `Document.ExtractPages` to process the document a few pages at a time, then combine the summaries. This also gives you more granular grammar feedback.
 
 ### 3. Handling non‑English content
 - The AI model you point to must support the target language. If you need multilingual support, pass the language code as part of the request payload—Aspose.Words AI respects the `language` parameter when provided.
 
 ### 4. Persisting grammar comments
-- After `CheckGrammar`, you can save the annotated file: `document.Save("output_with_comments.docx");`. Review the comments in Word to see suggested corrections.
+- `CheckGrammar` returns a new document; save it with `checkedDocument.Save("output_checked.docx");`. With `MakeRevisions = true`, review the suggested corrections as tracked changes in Word.
 
 ### 5. Security considerations
 - Even though we use a dummy API key, never expose production keys in source control. Store them in environment variables (`Environment.GetEnvironmentVariable("AI_API_KEY")`) and inject at runtime.

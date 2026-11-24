@@ -235,7 +235,6 @@ public class MarkdownResourceCallback {
 
 - [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

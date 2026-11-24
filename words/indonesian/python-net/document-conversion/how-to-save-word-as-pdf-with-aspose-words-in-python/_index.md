@@ -239,7 +239,6 @@ Silakan bereksperimen dengan opsi-opsi tersebut dan bagikan temuan Anda. Selamat
 Tutorial berikut mencakup topik yang sangat terkait dan membangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
 - [Tutorial Word ke PDF: Konversi DOCX ke PDF dengan Aspose.Words](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Cara Menyimpan Markdown – Konversi Word ke Markdown & Ekspor Math dengan Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Cara Mengekspor LaTeX dari Word: Konversi DOCX ke Markdown & Simpan sebagai PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

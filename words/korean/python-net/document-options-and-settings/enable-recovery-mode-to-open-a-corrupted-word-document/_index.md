@@ -194,7 +194,6 @@ Happy coding, and may your documents stay healthy!
 
 - [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [Aspose.Words로 손상된 docx 복구 – 복구 모드 및 로드 옵션 설정](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Aspose.Words LoadOptions로 손상된 DOCX 복구 – 완전한 C# 가이드](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

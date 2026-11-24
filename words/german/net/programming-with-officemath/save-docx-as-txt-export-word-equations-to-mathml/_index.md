@@ -296,7 +296,6 @@ Haben Sie weitere Szenarien im Kopf – zum Beispiel nur die Gleichungen extrahi
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
-- [Wie man LaTeX aus Word exportiert: DOCX nach Markdown mit Aspose konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx nach Markdown konvertieren – Math‑Gleichungen nach LaTeX mit Aspose.Words exportieren](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [docx als Markdown speichern – Vollständiger C#‑Leitfaden mit LaTeX‑Gleichungen](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 

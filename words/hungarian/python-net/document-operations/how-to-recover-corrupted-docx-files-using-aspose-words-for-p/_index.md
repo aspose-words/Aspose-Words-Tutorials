@@ -213,8 +213,6 @@ Boldog kódolást, és legyenek a dokumentumai mindig helyreállíthatók!
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépés‑ről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Sérült DOCX helyreállítása – Teljes útmutató a javításhoz, PDF és Markdown exporthoz](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [Hogyan exportáljunk LaTeX-et Wordből: DOCX konvertálása Markdownba az Aspose segítségével](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [hogyan állítsuk helyre a docx fájlokat – helyreállítási mód beállítása és sérült Word fájlok megnyitása](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

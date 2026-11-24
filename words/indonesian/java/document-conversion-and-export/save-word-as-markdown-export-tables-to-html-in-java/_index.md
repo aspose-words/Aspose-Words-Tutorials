@@ -236,8 +236,6 @@ Jalankan, buka `TableExport.md`, dan Anda akan melihat tabel Anda dirender sebag
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Konversi Word ke Markdown dalam C# – Panduan Lengkap dengan Ekstraksi Gambar](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [Cara Menyimpan Markdown dari Word – Panduan C# Lengkap](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
-- [Konversi Word ke Markdown – Sematkan Gambar sebagai Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

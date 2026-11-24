@@ -203,7 +203,6 @@ Se você achou este guia útil, dê um joinha, compartilhe com colegas ou deixe 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas de implementação em seus próprios projetos.
 
 - [Converter Word para PDF com Aspose.Words para Java](/words/english/java/document-converting/)
-- [converter word para pdf em C# usando Aspose.Words – Guia](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Salvar docx como pdf com Aspose.Words – Guia Completo C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

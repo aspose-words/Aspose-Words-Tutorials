@@ -35,7 +35,7 @@ In this tutorial we’ll walk through a full, ready‑to‑run C# program that *
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (v23.10 or later). You can grab a free trial NuGet package with `Install-Package Aspose.Words`.
+- **Aspose.Words for .NET**. You can grab a free trial NuGet package with `Install-Package Aspose.Words`.
 - .NET 6+ SDK (any recent version works fine).
 - A sample `input.docx` that contains at least one picture.
 - A folder where you want the markdown and image assets to live.
@@ -161,11 +161,11 @@ using (var img = System.Drawing.Image.FromStream(args.Stream))
 
 ### 4.3 Preserving Table Styles
 
-If your Word doc relies heavily on table formatting, you can tweak `MarkdownSaveOptions`:
+Markdown format does not provide options to preserve table column widths or borders. Tables will be rendered using standard Markdown syntax.
 
 ```csharp
-markdownOptions.ExportTableColumnWidths = true;   // keeps column widths
-markdownOptions.ExportTableBorders = true;       // adds markdown border syntax
+// Markdown format does not provide options to preserve table column widths or borders.
+// Tables will be rendered using standard Markdown syntax.
 ```
 
 ### 4.4 Using a Different Output Directory

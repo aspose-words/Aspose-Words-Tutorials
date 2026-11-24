@@ -88,7 +88,7 @@ TxtSaveOptions txtSaveOptions = new TxtSaveOptions
 };
 ```
 
-> **Pro tip:** If you ever need the equations in MathML instead, just swap `Latex` for `Text`. The same **how to save txt** pattern applies.
+> **Pro tip:** Plain text supports only `Latex` and `Text`. If you ever need the equations in MathML instead, save to HTML with `new HtmlSaveOptions { OfficeMathOutputMode = HtmlOfficeMathOutputMode.MathML }`.
 
 ---
 

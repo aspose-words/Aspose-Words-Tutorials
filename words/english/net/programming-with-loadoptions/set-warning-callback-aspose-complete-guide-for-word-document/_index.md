@@ -82,7 +82,7 @@ Below is the complete, self‑contained program. Save it as `Program.cs`, restor
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 using Aspose.Words.Fonts;
 
 // ------------------------------------------------------------
@@ -94,7 +94,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // We only care about font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             // The Description property tells you which font was substituted.
             Console.WriteLine($"Font substitution: {info.Description}");
@@ -202,7 +202,7 @@ class CollectingWarningHandler : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
             Messages.Add(info.Description);
     }
 }

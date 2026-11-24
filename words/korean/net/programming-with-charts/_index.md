@@ -52,7 +52,6 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C#를 사용하여 Word 차트에서 히스토그램 빈 개수를 설정하고 데이터 레이블 추가하는 방법" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C#를 사용하여 Word 문서에서 차트 레이블을 프로그래밍 방식으로 조정하기" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | 제목 | 설명 |
 | --- | --- |
@@ -80,7 +79,6 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [차트의 데이터 레이블에 대한 기본 옵션 설정](./default-options-for-data-labels/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블에 대한 기본 옵션을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 차트를 손쉽게 만들고 사용자 지정할 수 있습니다. |
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
-| [C#를 사용하여 Word에 차트 범례 표시 – 완전 단계별 가이드](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 이용해 C#로 Word 문서에 차트 범례를 표시하는 방법을 단계별로 안내합니다. |
 | [C#와 Aspose.Words를 사용한 파이 차트 조각 분리 – 전체 가이드](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용하여 파이 차트의 조각을 분리하는 방법을 단계별로 안내합니다. |
 | [C#와 Aspose.Words를 사용하여 파이 차트 레이블 추가 – 전체 가이드](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트 레이블을 추가하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words C#로 차트에 백분율 표시하는 방법](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET을 사용해 차트 데이터에 백분율을 표시하는 방법을 단계별로 안내합니다. |

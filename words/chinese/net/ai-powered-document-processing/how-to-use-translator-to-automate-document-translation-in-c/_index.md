@@ -194,7 +194,6 @@ Translation complete. Output saved to output.docx
 
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并探索替代实现方式：
 
-- [How to Check Grammar in DOCX with Aspose.Words – use gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [How to Use Callback in C# – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word Document - How to Remove Content](/words/english/net/remove-content/)
 

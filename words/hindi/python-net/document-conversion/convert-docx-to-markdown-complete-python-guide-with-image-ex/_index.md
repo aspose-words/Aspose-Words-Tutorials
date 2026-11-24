@@ -235,7 +235,6 @@ for doc_path in glob.glob("YOUR_DIRECTORY/*.docx"):
 
 - [Word से Markdown सहेजें – पूर्ण Python गाइड](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Docx फ़ाइल को Markdown में बदलें](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Word को Markdown में बदलें – इमेजेज़ को Base64 के रूप में एम्बेड करें](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

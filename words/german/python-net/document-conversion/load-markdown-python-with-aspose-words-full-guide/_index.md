@@ -208,7 +208,6 @@ Ab hier können Sie weitere Themen erkunden, wie **convert markdown to docx** im
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Meistern Sie Aspose.Words Markdown-Ladeoptionen in Python für eine verbesserte Dokumentenverarbeitung](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Wie man LaTeX aus Word exportiert: DOCX in Markdown mit Aspose konvertieren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Wie man LaTeX aus Word exportiert: DOCX in Markdown konvertieren & als PDF speichern](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

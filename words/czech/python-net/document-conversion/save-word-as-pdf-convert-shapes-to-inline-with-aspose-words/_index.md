@@ -221,7 +221,6 @@ Další kroky? Zkuste přidat vodoznak, vložit vlastní fonty nebo hromadně zp
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Uložte Word jako PDF s Aspose.Words – Kompletní průvodce v C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [převod word na pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Jak převést Word na PDF pomocí Aspose.Words pro Java](/words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -220,7 +220,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 - [접근 가능한 PDF 만들기 – PDF/UA 준수를 위한 단계별 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [C#에서 접근 가능한 PDF 만들기 – PDF 접근성 튜토리얼](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [Aspose.Words를 사용한 C#에서 워드 → PDF 변환 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

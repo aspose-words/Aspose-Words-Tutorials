@@ -321,7 +321,6 @@ Zapisz plik jako `Program.cs`, umieść `
 
 Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu wraz z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Podsumuj dokument Word w C# przy użyciu Aspose.Words API – Kompletny przewodnik AI‑napędzany](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [Utwórz nowy dokument Word](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [Utwórz i stylizuj dokument Word w Aspose.Words dla .NET](/words/english/net/document-styling/apply-paragraph-style/)
 

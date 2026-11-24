@@ -296,7 +296,6 @@ A: はい。`Converter.Convert(Stream source, Stream destination, PdfSaveOptions
 ## 関連チュートリアル
 
 - [Word ファイルを PDF に変換](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Aspose.Words を使用した C# での Word → PDF 変換 – ガイド](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word ドキュメントのヘッダー・フッター・ブックマークを PDF にエクスポート](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

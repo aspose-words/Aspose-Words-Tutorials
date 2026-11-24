@@ -207,7 +207,6 @@ Most már egy robusztus, végponttól végpontig terjedő megoldásod van a **co
 Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [DOCX konvertálása Markdown formátumba – Teljes útmutató Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Sérült DOCX helyreállítása – Teljes útmutató a javításhoz, PDF és Markdown exporthoz](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [DOCX konvertálása Markdown formátumba és képek kinyerése Aspose.Words segítségével – Teljes C# útmutató](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

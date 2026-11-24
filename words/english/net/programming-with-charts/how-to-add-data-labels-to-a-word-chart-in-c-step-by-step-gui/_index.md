@@ -36,7 +36,7 @@ schemas:
     text: '```csharp using Aspose.Words; using Aspose.Words.Drawing.Charts;'
   - name: – Retrieve the first chart from the document
     text: '```csharp // Find the first shape that contains a chart. Shape chartShape
-      = (Shape)document.GetChild(NodeType.Shape, 0, true); Chart chart = chartShape.GetChart();
+      = (Shape)document.GetChild(NodeType.Shape, 0, true); Chart chart = chartShape.Chart;
       ```'
   - name: – Enable data label customization and show percentages in chart
     text: '```csharp // Access the first series of the chart. ChartSeries series =
@@ -105,10 +105,10 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```csharp
 // Find the first shape that contains a chart.
 Shape chartShape = (Shape)document.GetChild(NodeType.Shape, 0, true);
-Chart chart = chartShape.GetChart();
+Chart chart = chartShape.Chart;
 ```
 
-*Why this step matters*: Charts are stored inside `Shape` nodes. By casting the retrieved node to `Shape` and calling `GetChart()`, you obtain a `Chart` object that exposes series, axes, and label collections.
+*Why this step matters*: Charts are stored inside `Shape` nodes. By casting the retrieved node to `Shape` and accessing its `Chart` property, you obtain a `Chart` object that exposes series, axes, and label collections.
 
 ### Step 3 – Enable data label customization and show percentages in chart
 
@@ -176,7 +176,7 @@ class AddDataLabelsDemo
 
         // 2. Retrieve the first chart.
         Shape chartShape = (Shape)document.GetChild(NodeType.Shape, 0, true);
-        Chart chart = chartShape.GetChart();
+        Chart chart = chartShape.Chart;
 
         // 3. Enable data labels and show percentages.
         ChartSeries series = chart.Series[0];
@@ -227,7 +227,7 @@ All chart modifications follow the same pattern: retrieve the chart, adjust its 
 |---|---|---|
 | The chart is inside a grouped shape. | `GetChild(NodeType.Shape, …)` returns the outer group, not the inner chart. | Search recursively for a shape with `shape.HasChart`. |
 | Data labels do not appear after saving. | `ShowValue` or `ShowPercentage` was not set to `true`. | Explicitly set both `ShowValue` and `ShowPercentage` as needed. |
-| Labels overlap on small slices. | Center positioning can cause crowding. | Use `ChartDataLabelPosition.OutSideEnd` for outside placement, or enable `LeaderLines`. |
+| Labels overlap on small slices. | Center positioning can cause crowding. | Use `ChartDataLabelPosition.OutsideEnd` for outside placement, or set `ShowLeaderLines = true`. |
 
 Applying these tips ensures reliable results across different chart types.
 

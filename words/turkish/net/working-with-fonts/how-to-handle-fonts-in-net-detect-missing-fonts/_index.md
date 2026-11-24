@@ -212,7 +212,6 @@ Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yak�
 
 - [DOCX Yükleme ve Eksik Yazı Tiplerini Algılama – Tam C# Kılavuzu](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Aspose.Words’ta Yazı Tiplerini Algılamak – Uyarıları ve Ayarları Yönetmek](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Aspose.Words’ta LoadOptions Kullanımı – Tam Kılavuz](/words/english/net/programming-with-loadoptions/how-to-use-loadoptions-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -244,8 +244,6 @@ Právě jsme ukázali, jak **povolit režim obnovy** v Aspose.Words, načíst po
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [jak obnovit docx – nastavit režim obnovy a otevřít poškozené soubory Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [jak obnovit docx s Aspose.Words – krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [Obnovení poškozeného souboru Word – Kompletní průvodce otevřením poškozeného DOCX a získáním stránky](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

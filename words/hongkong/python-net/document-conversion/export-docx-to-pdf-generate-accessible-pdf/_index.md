@@ -146,7 +146,6 @@ print(f"Accessible PDF saved to {output_path}")
 以下教學涵蓋與本指南技術密切相關的主題。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [從 DOCX 建立可存取 PDF – 完整指南](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [建立可存取 PDF 並將 Word 轉換為 Markdown – 完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [在 C# 中建立可存取 PDF – PDF 可存取性教學](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

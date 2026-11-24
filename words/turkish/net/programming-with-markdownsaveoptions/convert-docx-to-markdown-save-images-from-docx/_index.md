@@ -216,7 +216,6 @@ Klasör yapısını özelleştirmek, resim sıkıştırması eklemek veya `Markd
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
 - [Word Resimlerini Kaydet – Aspose ile Word'u Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word'u Markdown'a Dönüştür – Resimleri Base64 Olarak Göm](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [DOCX'i Markdown'a Dönüştürürken Resimleri Yeniden Adlandırma](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

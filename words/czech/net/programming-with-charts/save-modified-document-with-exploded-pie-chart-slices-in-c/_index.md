@@ -217,7 +217,6 @@ Neváhejte experimentovat s různými úhly, nastavením roztržení nebo formá
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Jak uložit upravený dokument v C# s Aspose.Words – krok za krokem průvodce](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Aktualizace datové série grafu ve Word dokumentu pomocí Aspose.Words pro .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Vložení sloupcového grafu do Word dokumentu](/words/english/net/programming-with-charts/insert-column-chart/)
 

@@ -204,7 +204,6 @@ Máte nápad, který byste chtěli sdílet – třeba export do CSV nebo předá
 ## Co byste se měli naučit dál?
 
 - [Uložit docx jako txt – Exportovat Word Math do LaTeXu s C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Jak exportovat LaTeX z Wordu: Převod DOCX na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Jak exportovat LaTeX z Wordu: Převod DOCX na Markdown a uložení jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

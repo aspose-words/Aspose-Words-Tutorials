@@ -220,7 +220,6 @@ Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [Utwórz dostępny PDF – Przewodnik krok po kroku dla zgodności PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [Utwórz dostępny PDF w C# – Samouczek dostępności PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [konwertuj Word na PDF w C# przy użyciu Aspose.Words – Poradnik](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

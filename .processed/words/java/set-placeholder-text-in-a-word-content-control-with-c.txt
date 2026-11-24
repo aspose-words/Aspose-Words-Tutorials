@@ -1,0 +1,7 @@
+Title: Set placeholder text in a Word content control with C#
+Slug: set-placeholder-text-in-a-word-content-control-with-c
+Category: using-document-elements
+ProcessedDate: 2026-11-22T13:18:08.208223
+SourceRepo: AI Search API
+Keywords: set placeholder text, create custom tag, how to insert content control, add placeholder to tag, insert plain text control
+PRNumber: 673

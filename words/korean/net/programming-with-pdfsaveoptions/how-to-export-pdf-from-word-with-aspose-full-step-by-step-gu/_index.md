@@ -200,7 +200,6 @@ foreach (string file in Directory.GetFiles(sourceFolder, "*.docx"))
 
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 한 연관 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함하고 있어, 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
 
-- [Aspose.Words를 사용한 C# Word → PDF 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Aspose.Words로 Word를 PDF로 저장 – 완전 C# 가이드](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word 문서 헤더·푸터·북마크를 PDF로 내보내기](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

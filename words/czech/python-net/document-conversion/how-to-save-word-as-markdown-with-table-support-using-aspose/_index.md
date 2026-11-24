@@ -166,8 +166,6 @@ Nyní víte, jak **uložit Word jako markdown**, jak nastavit export **tabulek j
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, která vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [Jak uložit Markdown z DOCX – krok za krokem průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Jak uložit Markdown z Wordu – kompletní průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Ukládání obrázků z Wordu – převod Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,0 +1,7 @@
+Title: Add rectangle shape and group shapes in Java
+Slug: add-rectangle-shape-and-group-shapes-in-java
+Category: images-shapes
+ProcessedDate: 2026-11-22T13:18:04.835041
+SourceRepo: AI Search API
+Keywords: add rectangle shape, set shape size, group multiple shapes, set shape dimensions, append shape to group
+PRNumber: 673

@@ -235,7 +235,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakınd
 
 - [Word'den Markdown Kaydetme – Tam Python Rehberi](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Docx Dosyasını Markdown'a Dönüştür](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Word'ü Markdown'a Dönüştür – Görüntüleri Base64 Olarak Göm](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

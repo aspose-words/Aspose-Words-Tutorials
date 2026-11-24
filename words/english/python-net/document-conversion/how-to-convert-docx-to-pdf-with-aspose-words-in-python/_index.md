@@ -208,7 +208,6 @@ Experiment with these variations to tailor the conversion process to your projec
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [aspose word to pdf – Convert DOCX to PDF in Java](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Convert Word to PDF with Aspose.Words for Java](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

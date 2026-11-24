@@ -157,8 +157,6 @@ Buona compilazione, e che le tue build CMake siano sempre riproducibili!
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come esportare LaTeX da Word – Guida passo‑passo](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Come salvare Markdown da DOCX – Guida passo‑passo](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Come visualizzare la versione di Aspose.Words in Python e .NET: Guida passo‑passo](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

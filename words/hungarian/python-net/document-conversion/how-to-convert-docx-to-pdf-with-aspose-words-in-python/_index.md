@@ -208,7 +208,6 @@ Kísérletezz ezekkel a variációkkal, hogy a konverziós folyamatot a projekte
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészletet és lépésről‑lépésre magyarázatot tartalmaz, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeidben.
 
 - [aspose word to pdf – Convert DOCX to PDF in Java](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Convert Word to PDF with Aspose.Words for Java](/words/english/java/document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

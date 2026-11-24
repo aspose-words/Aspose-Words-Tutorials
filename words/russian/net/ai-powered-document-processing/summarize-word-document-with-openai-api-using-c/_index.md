@@ -264,7 +264,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Как суммировать Word‑документ с помощью AI‑провайдеров в C#](/words/english/net/ai-powered-document-processing/how-to-summarize-word-document-with-ai-providers-in-c/)
 - [Сводка Word‑документа в C# – пошаговое руководство с использованием AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Сводка Word‑документа в C# с использованием кастомной модели GPT – Полное руководство](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

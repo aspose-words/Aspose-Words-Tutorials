@@ -173,7 +173,6 @@ foreach (var file in files)
 
 - [使用 Aspose.Words 將 Word 另存為 PDF – 完整 C# 指南](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [使用 Aspose.Words 將 docx 另存為 pdf – 完整 C# 指南](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [使用 Aspose.Words 在 C# 中將 Word 轉換為 PDF – 教學](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

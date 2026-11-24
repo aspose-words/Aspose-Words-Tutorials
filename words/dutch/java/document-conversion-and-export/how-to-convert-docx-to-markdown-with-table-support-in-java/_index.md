@@ -222,7 +222,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Convert docx naar markdown – Exporteer wiskundige vergelijkingen naar LaTeX met Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Hoe Markdown te exporteren vanuit Word met Java – Complete gids](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [Hoe resolutie in te stellen bij het converteren van DOCX naar Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -27,7 +27,6 @@ Aspose.Words for .NETのDocSaveOptionsを使ったWords処理に関するチュ�
 | [パスワードで文書を暗号化する](./encrypt-document-with-password/) Aspose.Words for .NET を使用してドキュメントをパスワードで暗号化する方法を、この詳細なステップバイステップガイドで学びましょう。機密情報を簡単に保護できます。 |
 | [小さなメタファイルを圧縮しない](./do-not-compress-small-metafiles/) Aspose.Words for .NET を使用して、Word 文書内の小さなメタファイルを圧縮せずに、品質と整合性を維持する方法を学びます。ステップバイステップのガイド付き。 |
 | [画像を保存しない](./do-not-save-picture-bullet/) ステップバイステップガイドで、Aspose.Words for .NET で画像の箇条書きを処理する方法を学びましょう。ドキュメント管理を簡素化し、プロフェッショナルなWord文書を簡単に作成できます。 |
-| [Aspose.Words を使用して C# で編集済みドキュメントを保存する方法 – ステップバイステップガイド](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) Aspose.Words for .NET を使い、C# で編集した Word 文書を保存する手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

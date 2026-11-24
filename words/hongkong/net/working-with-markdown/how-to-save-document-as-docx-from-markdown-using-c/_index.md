@@ -257,9 +257,7 @@ You now have a complete, production‑ready solution to **save document as docx*
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [如何從 DOCX 儲存 Markdown – 步驟說明指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [將 DOCX 轉換為 Markdown – 使用 Aspose.Words 的完整指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [將 docx 轉換為 pdf 與 markdown – 完整 C# 教學](/words/english/net/basic-conversions/convert-docx-to-pdf-and-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

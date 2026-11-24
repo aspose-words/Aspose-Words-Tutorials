@@ -256,9 +256,6 @@ Conversion complete: C:\Docs\Markdown_With_Underline.docx
 
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [Convert docx to markdown with Aspose.Words – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/)
-- [Convert docx to markdown in C# – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

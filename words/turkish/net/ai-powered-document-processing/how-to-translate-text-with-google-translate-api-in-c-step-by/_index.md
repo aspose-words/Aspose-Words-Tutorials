@@ -307,9 +307,7 @@ Kodlamaktan keyif alın ve küresel erişilebilir uygulamalar geliştirmenin tad
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words ve Google API ile docx'i Fransızcaya çevir](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 - [C# ile Google AI kullanarak çevrilmiş Word belgesini kaydetme](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
-- [C# ile Aspose.Words AI kullanarak dizeyi İspanyolcaya çevir](/words/english/net/ai-powered-document-processing/translate-string-to-spanish-in-c-with-aspose-words-ai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

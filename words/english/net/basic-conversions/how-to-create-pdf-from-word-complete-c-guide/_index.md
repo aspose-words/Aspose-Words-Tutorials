@@ -98,12 +98,12 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
     // This flag tells Aspose.Words to produce a PDF/UA‑2 compliant file
     Compliance = PdfCompliance.PdfUa2,
 
-    // Optional: set the document title for better accessibility
-    DocumentTitle = "Converted Document – PDF/UA‑2",
-
-    // Optional: embed the source language (helps screen readers)
-    Language = "en-US"
+    // Optional: display the document title in PDF viewers
+    DisplayDocTitle = true
 };
+
+// Set the document title (will be shown if DisplayDocTitle is true)
+document.BuiltInDocumentProperties.Title = "Converted Document – PDF/UA‑2";
 ```
 
 > **Why use PDF/UA‑2?** Without proper tagging, your PDF might look fine on the screen but be invisible to screen readers. `PdfCompliance.PdfUa2` automatically adds the necessary structure tags, alt‑text placeholders, and logical reading order.
@@ -169,8 +169,8 @@ protectedDoc.Save("protected.pdf", pdfSaveOptions);
 Sometimes you need to embed extra info (author, creation date) for compliance:
 
 ```csharp
-pdfSaveOptions.CustomProperties["Author"] = "John Doe";
-pdfSaveOptions.CustomProperties["GeneratedBy"] = Environment.MachineName;
+document.CustomDocumentProperties.Add("Author", "John Doe");
+document.CustomDocumentProperties.Add("GeneratedBy", Environment.MachineName);
 ```
 
 ---
@@ -179,7 +179,12 @@ pdfSaveOptions.CustomProperties["GeneratedBy"] = Environment.MachineName;
 
 - **License early:** If you run the code without a license, Aspose adds a small watermark to the first page. Not ideal for production.
 - **Stream instead of file path:** For web APIs, use `MemoryStream` to avoid hitting the disk.
-- **Set `PdfSaveOptions.UsePdfA_1A`** if you need PDF/A‑1a instead of PDF/UA‑2.
+- **Set PDF/A‑1a compliance:** If you need PDF/A‑1a instead of PDF/UA‑2, set the compliance level accordingly:
+
+  ```csharp
+  pdfSaveOptions.Compliance = PdfCompliance.PdfA1a;
+  ```
+
 - **Watch out for large images:** They can bloat the PDF. Use `ImageCompression` options in `PdfSaveOptions` to downscale if needed.
 
 ---

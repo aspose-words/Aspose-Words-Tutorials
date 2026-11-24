@@ -224,8 +224,6 @@ Ek Aspose.Words özellikleriyle (ör. özel alan işleme veya stil eşlemesi) Ma
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
 - [docx’i markdown’a dönüştür – Matematik Denklemlerini LaTeX’e Aktar Aspose.Words ile](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Word’den LaTeX Nasıl Dışa Aktarılır – DOCX’i Markdown’a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [DOCX’ten Markdown Dışa Aktarma – Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

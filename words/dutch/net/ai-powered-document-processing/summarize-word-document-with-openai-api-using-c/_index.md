@@ -263,7 +263,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Hoe een Word‑document samenvatten met AI‑providers in C#](/words/english/net/ai-powered-document-processing/how-to-summarize-word-document-with-ai-providers-in-c/)
 - [Samenvatten van Word‑document in C# – stap‑voor‑stap gids met AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-step-by-step-guide-using-ai/)
-- [Samenvatten van Word‑document in C# met een aangepast GPT‑model – volledige gids](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-using-a-custom-gpt-model-full-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

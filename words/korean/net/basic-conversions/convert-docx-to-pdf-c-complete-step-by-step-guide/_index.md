@@ -297,7 +297,6 @@ A: 있습니다. `Converter.Convert(Stream source, Stream destination, PdfSaveOp
 ## 관련 튜토리얼
 
 - [Word 파일을 PDF로 변환](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Aspose.Words를 사용한 C#에서 Word를 PDF로 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word 문서 헤더/푸터/북마크를 PDF 문서로 내보내기](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

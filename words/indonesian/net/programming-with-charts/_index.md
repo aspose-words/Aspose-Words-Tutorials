@@ -41,7 +41,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Contoh Bagan Radial Aspose.Words: Aktifkan Graduasi dalam C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Simpan Dokumen yang Dimodifikasi dengan Irisan Bagan Pai Meledak dalam C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
@@ -49,7 +48,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cara mengatur jumlah bin histogram dan menambahkan label data dalam bagan Word menggunakan C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Sesuaikan Label Bagan Secara Programatis dalam Dokumen Word dengan C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Membuat & Menyesuaikan Bagan Menggunakan Bentuk](./create-chart-using-shape/) | Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data. Bahasa Indonesia:
@@ -69,7 +67,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Opsi Default Untuk Label Data Dalam Bagan](./default-options-for-data-labels/) | Pelajari cara menetapkan opsi default untuk label data dalam bagan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat dan menyesuaikan bagan dengan mudah. Bahasa Indonesia:
 | [Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan](./single-chart-data-point/) | Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik. Bahasa Indonesia:
 | [Kustomisasi Seri Bagan Tunggal Dalam Bagan](./single-chart-series/) | Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar. |
-| [Menampilkan Legenda Bagan di Word dengan C# – Panduan Langkah demi Langkah Lengkap](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Pelajari cara menampilkan legenda bagan di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Mengekspansi Irisan Bagan Pai di C# dengan Aspose.Words – Panduan Lengkap](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Pelajari cara mengekspansi irisan bagan pai menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Menambahkan label bagan pai di C# menggunakan Aspose.Words – Panduan Lengkap](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Pelajari cara menambahkan label pada bagan pai di C# dengan Aspose.Words melalui panduan lengkap dan contoh kode. |
 | [Cara Menampilkan Persentase dalam Bagan dengan Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Pelajari cara menampilkan nilai persentase pada bagan di Word menggunakan Aspose.Words dengan C# dalam panduan langkah demi langkah ini. Bahasa Indonesia:

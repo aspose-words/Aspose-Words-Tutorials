@@ -301,7 +301,6 @@ Silakan sesuaikan kode dengan arsitektur proyek Anda, dan bagikan hasil Anda den
 
 Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Cara Menyimpan Markdown dari Word – Panduan Lengkap](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Simpan Gambar Word – Convert Word to Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [Convert docx to markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

@@ -274,7 +274,6 @@ Masz scenariusz, którego tutaj nie omówiono? Dodaj komentarz, a wspólnie rozw
 ## Co warto się nauczyć dalej?
 
 - [Konwertuj plik Word do PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [konwertowanie word do pdf w C# przy użyciu Aspose.Words – Poradnik](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Zapisz Word jako PDF i odzyskaj uszkodzony Word – Konwertuj Word do Markdown w C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

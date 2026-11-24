@@ -206,7 +206,6 @@ Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan d
 
 - [Convert docx to txt – Panduan Lengkap untuk Menyimpan Word sebagai Teks Biasa](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [Save docx as txt – Ekspor Word Math ke LaTeX dengan C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Cara Mengekspor LaTeX dari Word: Convert DOCX ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

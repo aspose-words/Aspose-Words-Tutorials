@@ -169,7 +169,7 @@ namespace AccessiblePdfDemo
 The PDF will still be technically accessible, but images will be marked as decorative. You should add alt text in Word first—select the picture → **Layout > Alt Text**—or programmatically set it via `Shape.AlternativeText`.
 
 ### Can I embed custom fonts?  
-Yes. Set `pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Always` to force font embedding. This prevents font substitution on machines that don’t have the original fonts installed.
+Yes. Set `pdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` to force font embedding. This prevents font substitution on machines that don’t have the original fonts installed.
 
 ### How do I handle large documents?  
 When dealing with files larger than 100 MB, consider streaming the output:
@@ -184,15 +184,14 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 Streaming reduces memory pressure and speeds up the write operation.
 
 ### Is PDF/UA‑2 the same as PDF/A‑2?  
-No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. Aspose.Words can produce both simultaneously by setting `Compliance = PdfCompliance.PdfUa2` and `PdfACompliance = PdfACompliance.PdfA2b` if you need archival compliance as well.
+No. PDF/A focuses on archival (no external content), while PDF/UA adds accessibility requirements. `Compliance` holds one value, so setting `PdfCompliance.PdfA2a` would replace `PdfUa2`, not add to it. If you need both, set `Compliance = PdfCompliance.PdfA4Ua2`, which meets PDF/A‑4 and PDF/UA‑2 together.
 
 ## Tips for a Smooth Conversion Experience  
 
-- **Validate early:** Use `doc.ValidateStructure()` before saving to catch malformed Word markup.  
 - **Keep headings logical:** Screen readers rely on heading levels (`Heading 1`, `Heading 2`, …).  
 - **Avoid nested tables:** They can confuse tag generators and lead to a broken reading order.  
 - **Test with a real screen reader:** NVDA (free) or JAWS (commercial) will reveal issues you might miss in Acrobat’s checker.  
-- **Batch processing:** Wrap the above logic in a loop to convert many DOCX files at once; just remember to dispose of each `Document` object to free memory.
+- **Batch processing:** Wrap the above logic in a loop to convert many DOCX files at once; just remember to dispose of each `Document` object to free memory.  
 
 ## Conclusion  
 

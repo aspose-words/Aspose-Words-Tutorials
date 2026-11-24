@@ -238,7 +238,6 @@ Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang d
 
 - [Mengonversi File Docx ke Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [Menguasai Aspose.Words untuk Python: Memformat Tabel dan Daftar Markdown](/words/english/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/)
-- [Cara Mengekspor LaTeX: Mengonversi DOCX ke Markdown & TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -269,8 +269,6 @@ class Program
 이 가이드에서 시연한 기술을 기반으로 하는 관련 주제 튜토리얼을 아래에서 확인할 수 있습니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 제공해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움을 줍니다.
 
 - [Aspose.Words를 사용한 docx를 markdown으로 저장 – 전체 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
-- [Word에서 LaTeX 내보내기: Aspose로 DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [DOCX에서 Markdown 저장 – 단계별 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

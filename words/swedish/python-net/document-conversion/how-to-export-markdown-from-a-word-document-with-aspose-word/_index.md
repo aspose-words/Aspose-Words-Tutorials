@@ -211,8 +211,6 @@ Känn dig fri att experimentera med de extra sparalternativen, bearbeta flera fi
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig behärska ytterligare API‑funktioner och utforska alternativa implementeringsmetoder i dina egna projekt.
 
-- [Hur man exporterar Markdown från DOCX – Komplett guide](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
-- [Hur man sparar Markdown från DOCX – Steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Hur man bäddar in bilder i Markdown vid konvertering av DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

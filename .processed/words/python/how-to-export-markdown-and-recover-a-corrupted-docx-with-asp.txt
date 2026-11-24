@@ -1,0 +1,7 @@
+Title: How to export markdown and recover a corrupted DOCX with Aspose.Words
+Slug: how-to-export-markdown-and-recover-a-corrupted-docx-with-asp
+Category: document-conversion
+ProcessedDate: 2026-11-22T13:37:19.502070
+SourceRepo: AI Search API
+Keywords: how to export markdown, export docx to txt, save word as pdf, how to recover document, recover corrupted docx
+PRNumber: 674

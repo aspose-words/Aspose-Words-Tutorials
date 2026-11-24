@@ -245,8 +245,6 @@ Sometimes you need to mark a specific paragraph as a *note* for assistive techno
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Word in PDF konvertieren in C# mit Aspose.Words – Anleitung](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [Barrierefreies PDF erstellen und Word in Markdown konvertieren – Vollständige C# Anleitung](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Word-Dokument in PDF konvertieren 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

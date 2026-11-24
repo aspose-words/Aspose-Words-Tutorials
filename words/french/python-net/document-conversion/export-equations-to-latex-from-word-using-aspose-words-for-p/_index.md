@@ -192,8 +192,6 @@ N’hésitez pas à expérimenter avec les options—Aspose.Words propose de nom
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Comment exporter du LaTeX depuis Word – Convertir DOCX en Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [Comment exporter du LaTeX depuis Word – Guide étape par étape](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

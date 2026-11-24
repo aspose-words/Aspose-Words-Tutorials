@@ -159,8 +159,6 @@ Happy building, and may your CMake builds always be reproducible!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe LaTeX te exporteren vanuit Word – Stapsgewijze handleiding](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze handleiding](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Hoe de Aspose.Words‑versie weer te geven in Python en .NET: Een stapsgewijze handleiding](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

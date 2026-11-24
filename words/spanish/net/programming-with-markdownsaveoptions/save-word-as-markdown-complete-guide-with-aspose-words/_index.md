@@ -293,7 +293,6 @@ A partir de aquí puedes experimentar con opciones adicionales—manejo de imág
 
 ## Tutoriales Relacionados
 
-- [Cómo Guardar Markdown desde Word – Guía Completa](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Convertir Word a Markdown en C# – Guía Completa con Extracción de Imágenes](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Convertir docx a markdown – Exportar Ecuaciones Matemáticas a LaTeX con Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

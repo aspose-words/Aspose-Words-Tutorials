@@ -261,9 +261,7 @@ Lycka till med kodandet, och njut av den sömlösa **markdown to word conversion
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man sparar Markdown från DOCX – steg‑för‑steg‑guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Konvertera DOCX till Markdown – komplett guide med Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [konvertera docx till pdf och markdown – komplett C#‑guide](/words/english/net/basic-conversions/convert-docx-to-pdf-and-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

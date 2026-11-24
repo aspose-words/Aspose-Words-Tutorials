@@ -296,7 +296,6 @@ Daha fazla senaryo mı aklınızda—örneğin sadece denklemleri çıkarıp çe
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Word'den LaTeX'i Dışa Aktarma: Aspose ile DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx'i markdown'a dönüştür – Aspose.Words ile Matematik Denklemlerini LaTeX'e Dışa Aktar](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [docx'i markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Rehberi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 

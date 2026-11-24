@@ -207,8 +207,6 @@ Recovery complete. Files saved to YOUR_DIRECTORY.
 
 ## ما الذي يجب أن تتعلمه بعد ذلك؟
 
-- [استعادة DOCX التالف – دليل كامل للإصلاح وتصدير PDF و Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [كيفية استعادة docx – ضبط وضع الاستعادة وفتح ملفات Word التالفة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -186,7 +186,6 @@ Dengan menguasai langkah-langkah di atas, Anda dapat **export word document txt*
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Convert docx to txt – Panduan Lengkap Menyimpan Word sebagai Teks Biasa](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – Simpan docx sebagai txt dan Ekspor Persamaan Word sebagai LaTeX – Panduan Lengkap](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Tutorial Word ke PDF: Konversi DOCX ke PDF dengan Aspose.Words](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

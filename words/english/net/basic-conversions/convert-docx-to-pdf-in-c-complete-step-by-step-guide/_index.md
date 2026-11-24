@@ -40,7 +40,8 @@ schemas:
       the conversion logic in a `foreach` loop and reuse a single `PdfSaveOptions`
       instance to improve performance.
   - name: 3️⃣ Handling Large Files (>100 MB)
-    text: 'Large Word files can consume significant memory. Enable **load on demand**:'
+    text: 'Large Word files can consume significant memory. Load them using standard
+      options:'
   - name: 4️⃣ Customizing Page Size or Orientation
     text: 'If the target PDF should be A4 landscape, adjust the `PageSetup` before
       saving:'
@@ -215,10 +216,10 @@ foreach (var file in Directory.GetFiles(inputFolder, "*.docx"))
 
 ### 3️⃣ Handling Large Files (>100 MB)
 
-Large Word files can consume significant memory. Enable **load on demand**:
+Large Word files can consume significant memory. Load them using standard options:
 
 ```csharp
-LoadOptions lo = new LoadOptions { LoadFormat = LoadFormat.Docx, LoadOptions = LoadOptions.LoadOnDemand };
+LoadOptions lo = new LoadOptions { LoadFormat = LoadFormat.Docx };
 Document largeDoc = new Document(sourcePath, lo);
 largeDoc.Save(outputPath, pdfOptions);
 ```
@@ -273,7 +274,6 @@ Got a scenario that isn’t covered here? Drop a comment, and let’s troublesho
 ## What Should You Learn Next?
 
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

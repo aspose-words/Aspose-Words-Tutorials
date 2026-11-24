@@ -190,8 +190,6 @@ for doc_file in source_dir.glob("*.docx"):
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [تحويل docx إلى markdown – تصدير معادلات رياضية إلى LaTeX باستخدام Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

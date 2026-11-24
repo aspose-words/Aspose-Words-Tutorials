@@ -233,8 +233,6 @@ Miłego kodowania i ciesz się mocą podsumowywania dokumentów napędzanym prze
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Podsumuj dokument Word w C# przy użyciu Aspose.Words API – Kompletny przewodnik AI‑Powered](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Podsumuj dokument Word przy użyciu AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Utwórz pusty dokument Word przy użyciu Aspose.Words – Przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

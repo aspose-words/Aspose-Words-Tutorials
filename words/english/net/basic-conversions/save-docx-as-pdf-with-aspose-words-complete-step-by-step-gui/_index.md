@@ -34,15 +34,14 @@ schemas:
   - name: 1. Large Documents and Memory Pressure
     text: If you’re converting massive DOCX files (hundreds of pages), loading the
       entire document into memory can be heavy. Aspose.Words offers a **LoadOptions**
-      class where you can enable **LoadFormat.Docx** with **MemoryOptimization** flags.
-      This helps when you also need to **save DOCX as PDF** in a backgr
+      class where you can specify **LoadFormat.Docx**. This helps when you also need to **save DOCX as PDF** in a background job.
   - name: 2. Missing Fonts
     text: 'If the source Word uses custom fonts not installed on the server, the PDF
       may fall back to a default font, breaking layout. Register the font folder with
       Aspose.Words:'
   - name: 3. Password‑Protected DOCX
     text: 'Attempting to **save DOCX as PDF** on a password‑protected file throws
-      an exception. Unlock it first:'
+      an exception. Load the document with the password first:'
   - name: 4. PDF/A Compliance
     text: For archival purposes you might need **aspose convert docx pdf** with PDF/A
       compliance. Just set the `Compliance` property in `PdfSaveOptions` (as shown
@@ -180,13 +179,12 @@ In many SaaS products the ability to **convert Word to PDF** on demand is a core
 ## Step 5: Common Pitfalls and Edge Cases
 
 ### 1. Large Documents and Memory Pressure
-If you’re converting massive DOCX files (hundreds of pages), loading the entire document into memory can be heavy. Aspose.Words offers a **LoadOptions** class where you can enable **LoadFormat.Docx** with **MemoryOptimization** flags. This helps when you also need to **save DOCX as PDF** in a background job.
+If you’re converting massive DOCX files (hundreds of pages), loading the entire document into memory can be heavy. Aspose.Words offers a **LoadOptions** class where you can specify **LoadFormat.Docx**. This can be useful when you also need to **save DOCX as PDF** in a background job.
 
 ```csharp
 var loadOptions = new LoadOptions
 {
-    LoadFormat = LoadFormat.Docx,
-    MemoryOptimization = true
+    LoadFormat = LoadFormat.Docx
 };
 Document largeDoc = new Document(@"C:\BigFiles\huge.docx", loadOptions);
 ```
@@ -201,10 +199,11 @@ doc.FontSettings = fontSettings;
 ```
 
 ### 3. Password‑Protected DOCX
-Attempting to **save DOCX as PDF** on a password‑protected file throws an exception. Unlock it first:
+Attempting to **save DOCX as PDF** on a password‑protected file throws an exception. Load the document with the password first:
 
 ```csharp
-doc.Decrypt("myPassword");
+var loadOptions = new LoadOptions { Password = "myPassword" };
+Document doc = new Document(@"C:\Secure\protected.docx", loadOptions);
 ```
 
 ### 4. PDF/A Compliance
@@ -256,7 +255,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [save docx as pdf with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 - [Save Word as PDF with Aspose.Words – Complete C# Guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -218,7 +218,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Salva docx come txt – Esporta Word Math in LaTeX con C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 - [Salva Documento come TXT – Guida Completa C# per Convertire DOCX in Testo Semplice](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Come Esportare LaTeX: Converti DOCX in Markdown e TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

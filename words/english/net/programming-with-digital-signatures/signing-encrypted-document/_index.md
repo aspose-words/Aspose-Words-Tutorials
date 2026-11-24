@@ -117,7 +117,7 @@ Unfortunately, without the decryption password, you won't be able to sign the do
 Yes, Aspose.Words allows you to add visible digital signatures as well.
 
 ### Is there a way to verify the signature?
-Yes, you can use the `DigitalSignatureUtil.Verify` method to verify signatures.
+Yes, you can load the signatures using `DigitalSignatureUtil.LoadSignatures` and examine the validation results provided in the returned `DigitalSignatureCollection`.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

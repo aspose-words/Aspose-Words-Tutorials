@@ -259,9 +259,7 @@ Success! DOCX file created at: C:\Path\To\Project\FromMarkdown.docx
 
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดตัวอย่างทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโปรเจกต์ของคุณ
 
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [แปลง DOCX เป็น Markdown – คู่มือครบถ้วนด้วย Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [แปลง docx เป็น pdf และ markdown – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/basic-conversions/convert-docx-to-pdf-and-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

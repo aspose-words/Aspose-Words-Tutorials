@@ -84,7 +84,7 @@ By default, when you ask Aspose to save a DOCX as Markdown, it rasterizes each O
 // Configure Markdown save options to export OfficeMath as LaTeX.
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    OfficeMathExportMode = MarkdownSaveOptions.OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex
 };
 ```
 
@@ -135,19 +135,19 @@ The `OfficeMathExportMode` setting is ignored, and Aspose simply writes the text
 
 ### Can I customize the Markdown flavor (GitHub vs. CommonMark)?
 
-Yes. `MarkdownSaveOptions` exposes properties like `ExportHeadersAsATX` and `ExportImagesAsBase64`. Adjust them before calling `Save` if you need a specific flavor.
+Yes. `MarkdownSaveOptions` exposes properties like `ExportImagesAsBase64`. Adjust them before calling `Save` if you need a specific flavor.
 
 ### How do I handle large documents (>50 MB)?
 
-Aspose streams the file, so memory usage stays modest. However, for massive files you might want to increase the `MemoryOptimizationSwitch` to `On`:
+Enable memory‑optimised saving to reduce the memory footprint:
 
 ```csharp
-markdownOptions.MemoryOptimizationSwitch = MemoryOptimizationSwitch.On;
+markdownOptions.MemoryOptimization = true;
 ```
 
 ### What about licensing warnings during the trial?
 
-If you run the code without a license, Aspose will embed a small "Evaluation" notice in the output. Register your license early:
+Without a license, the library runs in evaluation mode. Register your license early to remove any evaluation restrictions:
 
 ```csharp
 License license = new License();
@@ -179,10 +179,10 @@ class Program
         // 2️⃣ Set up Markdown options – export equations as LaTeX.
         var mdOptions = new MarkdownSaveOptions
         {
-            OfficeMathExportMode = MarkdownSaveOptions.OfficeMathExportMode.LaTeX,
+            OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
             // Example tweaks:
-            ExportHeadersAsATX = true,          // Use # for headings
-            ExportImagesAsBase64 = false        // Keep images as separate files
+            ExportImagesAsBase64 = false,        // Keep images as separate files
+            MemoryOptimization = true            // Reduce memory usage for large files
         };
 
         // 3️⃣ Save as Markdown.
@@ -217,10 +217,10 @@ You now know **how to use aspose** to **convert docx to markdown**, keep equatio
 
 1. Install Aspose.Words.
 2. Load your DOCX.
-3. Configure `MarkdownSaveOptions` with `OfficeMathExportMode.LaTeX`.
+3. Configure `MarkdownSaveOptions` with `MarkdownOfficeMathExportMode.Latex`.
 4. Save the document.
 
-From here you can explore further—maybe generate a full documentation site, integrate the conversion into a CI pipeline, or even add custom post‑processing of the Markdown output.
+From here you can explore further—maybe generate a full documentation site, integrate the conversion into a CI pipeline, or even add custom post‑processing of the Markdown output. The same pattern applies: load, set options, save.
 
 If you’re curious about other conversions, check out tutorials on **how to convert docx** to HTML, PDF, or plain text using the same library. The same pattern applies: load, set options, save.
 

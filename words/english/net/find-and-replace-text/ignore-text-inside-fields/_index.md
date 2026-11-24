@@ -32,8 +32,8 @@ Before we begin, ensure you have the following set up:
 To get started, include the necessary namespaces in your C# project:
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Builder;
-using Aspose.Words.FindReplace;
+using Aspose.Words.Fields;
+using Aspose.Words.Replacing;
 using System;
 using System.Text.RegularExpressions;
 ```

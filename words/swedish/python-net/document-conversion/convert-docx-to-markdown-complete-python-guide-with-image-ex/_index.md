@@ -235,7 +235,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger vidare på tek
 
 - [How to Save Markdown from Word – Complete Python Guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Convert Docx File To Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
-- [Convert Word to Markdown – Embed Images as Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

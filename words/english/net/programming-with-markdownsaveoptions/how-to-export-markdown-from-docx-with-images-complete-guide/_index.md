@@ -182,10 +182,11 @@ args.FileName = Path.Combine(resourceFolder, $"img_{args.Index}{ext}");
 ```
 
 ### 4. Exporting to a Different Markdown Flavour  
-Aspose supports GitHub‑flavoured markdown, CommonMark, etc. Set `markdownOptions.MarkdownVersion` accordingly:
+Aspose supports GitHub‑flavoured markdown, CommonMark, etc. However, Aspose.Words does not expose a `MarkdownVersion` option; the markdown output follows the default flavour internally. Therefore the line setting `MarkdownVersion` must be omitted.
 
 ```csharp
-markdownOptions.MarkdownVersion = MarkdownVersion.GitHub;
+// Aspose.Words does not expose a MarkdownVersion option; the markdown output follows the default CommonMark/GitHub flavour internally.
+// Therefore the line setting MarkdownVersion must be omitted.
 ```
 
 These tweaks illustrate **how to export markdown** in a way that fits your project's conventions.
@@ -196,7 +197,7 @@ These tweaks illustrate **how to export markdown** in a way that fits your proje
 
 - **Does this work with .NET Core?** Absolutely—Aspose.Words is cross‑platform. Just reference the NuGet package and you’re good.
 - **What about large DOCX files?** The process streams data, so memory usage stays modest. Still, keep an eye on disk space for the image folder.
-- **Can I skip image extraction?** Yes—omit the `ResourceSavingCallback` or set `markdownOptions.ExportImages = false`.
+- **Can I skip image extraction?** Yes—omit the `ResourceSavingCallback`; Aspose.Words will still extract images to files by default. There is no `ExportImages` property to disable extraction.
 
 ---
 

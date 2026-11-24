@@ -186,8 +186,6 @@ Dále prozkoumejte související témata, jako je **hromadné zpracování více
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Jak převést Word na PDF pomocí Aspose.Words pro Java](/words/english/java/document-converting/using-document-converting/)
-- [Obnovení poškozeného DOCX – Kompletní průvodce opravou, exportem do PDF a Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
-- [Jak exportovat LaTeX z Wordu – Převod DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

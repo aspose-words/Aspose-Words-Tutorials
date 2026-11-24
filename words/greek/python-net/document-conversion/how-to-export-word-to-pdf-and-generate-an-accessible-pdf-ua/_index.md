@@ -232,7 +232,6 @@ Saved plain PDF to 'YOUR_DIRECTORY\plain.pdf'.
 Τα παρακάτω tutorials καλύπτουν στενά συναφή θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
-- [μετατροπή word σε pdf σε C# χρησιμοποιώντας Aspose.Words – Οδηγός](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Εξαγωγή Δομής Εγγράφου Word σε Έγγραφο PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

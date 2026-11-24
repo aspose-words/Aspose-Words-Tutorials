@@ -1,0 +1,7 @@
+Title: Create pie chart with custom size, data labels, and rotation in Java
+Slug: create-pie-chart-with-custom-size-data-labels-and-rotation-i
+Category: getting-started
+ProcessedDate: 2026-11-22T13:18:17.796491
+SourceRepo: AI Search API
+Keywords: create pie chart, set chart size, show percentages pie chart, add data labels pie chart, rotate pie chart slice
+PRNumber: 673

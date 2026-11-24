@@ -209,8 +209,6 @@ print(f"Markdown exported successfully → {OUTPUT_PATH}")
 
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックを取り上げています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [DOCX から Markdown をエクスポートする方法 – 完全ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
-- [DOCX から Markdown を保存する方法 – ステップバイステップガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [DOCX を変換して Markdown に画像を埋め込む方法](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

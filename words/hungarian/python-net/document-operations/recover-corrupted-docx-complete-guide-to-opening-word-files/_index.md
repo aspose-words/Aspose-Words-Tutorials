@@ -229,7 +229,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Sérült DOCX helyreállítása – Word dokumentum megnyitása és betöltése](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Sérült DOCX helyreállítása és Word konvertálása Markdownra](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és oldalszám lekéréséhez](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

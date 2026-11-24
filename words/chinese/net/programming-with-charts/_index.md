@@ -55,7 +55,6 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./single-chart-series/" title="使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列" imgSrc="./single-chart-series/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="使用 C# 在 Word 文档中以编程方式调整图表标签" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|
@@ -78,7 +77,6 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [设置图表中数据标签的默认选项](./default-options-for-data-labels/) 了解如何使用 Aspose.Words for .NET 设置图表中数据标签的默认选项。按照我们的分步指南，轻松创建和自定义图表。|
 | [自定义图表中的单个图表数据点](./single-chart-data-point/) 学习如何使用 Aspose.Words for .NET 自定义单个图表数据点，并遵循详细的分步指南。使用独特的标记和大小增强您的图表。|
 | [自定义图表中的单个图表系列](./single-chart-series/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列。按照我们的分步指南，获得无缝体验。|
-| [在 Word 中显示图表图例（C#）——完整分步指南](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中显示图表图例，提供完整的 C# 分步指南。|
 | [使用 Aspose.Words 在 C# 中分离饼图切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) 学习如何使用 Aspose.Words for .NET 在 C# 中将饼图切片分离，提供完整的分步指南。|
 | [在 C# 中使用 Aspose.Words 添加饼图标签 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) 学习如何在 C# 使用 Aspose.Words 为饼图添加标签，完整分步指南。|
 | [使用 Aspose.Words C# 在图表中显示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) 学习如何使用 Aspose.Words for .NET C# 在图表中显示百分比，轻松实现数据可视化。|

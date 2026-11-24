@@ -321,7 +321,6 @@ namespace SummaryReportDemo
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مصدر يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [إنشاء markdown من Word – دليل C# كامل](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
-- [إنشاء PDF قابل للوصول وتحويل Word إلى Markdown – دليل C# كامل](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [إنشاء مستند Word مع جدول باستخدام Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

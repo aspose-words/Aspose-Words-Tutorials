@@ -72,15 +72,16 @@ You might wonder **why we need a using statement**—it simply lets you call `Do
 When a file is damaged, Aspose.Words can attempt a best‑effort recovery. However, if you’re building a pipeline that must reject broken files, you’ll want the **strict** mode so an exception is thrown the moment something is amiss.
 
 ```csharp
+using Aspose.Words.Loading;
 // Step 3: Set up load options for strict recovery
 var loadOptions = new LoadOptions
 {
-    // RecoveryMode.Strict causes an exception on any error.
-    RecoveryMode = RecoveryMode.Strict
+    // DocumentRecoveryMode.None causes an exception on any error.
+    RecoveryMode = DocumentRecoveryMode.None
 };
 ```
 
-**Why use `RecoveryMode.Strict`?**  
+**Why use `DocumentRecoveryMode.None`?**  
 It guarantees you won’t silently process a partially recovered document, which could lead to inaccurate page counts or missing content later on.
 
 ### Step 4: Load the Document Safely  
@@ -138,16 +139,17 @@ For massive documents, consider loading only the parts you need using `LoadOptio
 Sometimes the file you receive is half‑downloaded or suffered a disk error. **How to recover Word** files with Aspose.Words? The strict recovery mode we set earlier will throw an exception, but you can switch to a more forgiving mode if you want a best‑effort repair:
 
 ```csharp
+using Aspose.Words.Loading;
 var forgivingOptions = new LoadOptions
 {
-    RecoveryMode = RecoveryMode.Incremental // attempts to salvage what it can
+    RecoveryMode = DocumentRecoveryMode.TryRecover // attempts to salvage what it can
 };
 
 Document recoveredDoc = new Document("corrupted.docx", forgivingOptions);
 Console.WriteLine($"Recovered page count: {recoveredDoc.PageCount}");
 ```
 
-Use this only when you’re okay with a possibly incomplete page count. For mission‑critical pipelines, stick with `RecoveryMode.Strict`.
+Use this only when you’re okay with a possibly incomplete page count. For mission‑critical pipelines, stick with `DocumentRecoveryMode.None`.
 
 ---
 
@@ -162,6 +164,7 @@ You might ask, “Do I really need Microsoft Word installed to get the page coun
 Below is a self‑contained console application that demonstrates everything we’ve covered. Paste it into a new `Program.cs`, adjust the file path, and run.
 
 ```csharp
+using Aspose.Words.Loading;
 // ------------------------------------------------------------
 // Complete example: recover a Word document and count pages
 // ------------------------------------------------------------
@@ -180,7 +183,7 @@ class Program
         // 3️⃣  Set strict recovery options so we know if the file is broken.
         var loadOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.Strict
+            RecoveryMode = DocumentRecoveryMode.None
         };
 
         Document doc;

@@ -250,7 +250,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Återställ korrupt DOCX – Öppna & ladda Word-dokument](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Spara Word-dokument som PostScript i Python med Aspose.Words: En omfattande guide](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
-- [Återställ Word-dokument med Aspose.Words i C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

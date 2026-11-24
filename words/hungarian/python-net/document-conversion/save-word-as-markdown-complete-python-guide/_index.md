@@ -266,7 +266,6 @@ Most már magabiztosan **convert docx to markdown**, kiválaszthatod a megfelel�
 ## Mi legyen a következő tanulnivalód?
 
 - [Hogyan mentsünk Markdown-t Word‑ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Hogyan exportáljunk LaTeX‑et Word‑ből: DOCX konvertálása Markdownra Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [DOCX konvertálása markdownra – Math képletek exportálása LaTeX‑be Aspose.Words‑szal](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

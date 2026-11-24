@@ -36,7 +36,6 @@ Before writing any code, ensure that you have the necessary namespaces imported:
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
-using Aspose.Words.Protection;
 ```
 
 These namespaces will provide us with all the tools we need to manipulate Word documents.
@@ -66,14 +65,14 @@ That’s it! Your document is now unprotected. But what if there’s a password?
 
 ## Step 3: Remove Protection with Password
 
-If your document is protected with a password, you need to provide that password to remove the protection. Here’s how you do it:
+If your document is protected with a password, you can still remove the protection using the same `Unprotect` method. The method does not require you to supply the password; it will remove the protection regardless of whether a password is set.
 
 ```csharp
-// Remove protection with the correct password
-doc.Unprotect("currentPassword");
+// Remove protection (password is not required)
+doc.Unprotect();
 ```
 
-Replace `"currentPassword"` with the actual password used to protect the document. Once you provide the correct password, the protection is lifted.
+The `Unprotect` method works even when the document has a password, so you do not need to pass the password explicitly.
 
 ## Step 4: Add and Remove Protection
 
@@ -84,10 +83,10 @@ Let’s say you want to remove the current protection and then add a new one. Th
 doc.Protect(ProtectionType.ReadOnly, "newPassword");
 
 // Remove the new protection
-doc.Unprotect("newPassword");
+doc.Unprotect();
 ```
 
-In the above code, we first add a new protection with the password `"newPassword"`, and then immediately remove it using the same password.
+In the above code, we first add a new protection with the password `"newPassword"`, and then immediately remove it using `Unprotect`.
 
 ## Step 5: Save the Document
 
@@ -108,7 +107,7 @@ And there you have it! Removing protection from a Word document using Aspose.Wor
 
 ### What happens if I provide the wrong password?
 
-If you provide an incorrect password, Aspose.Words will throw an exception. Make sure you use the correct password to remove protection.
+`Document.Unprotect()` does not require a password and will remove protection regardless of whether a password is set. Therefore, providing an incorrect password is not applicable and will not cause an exception.
 
 ### Can I remove protection from multiple documents at once?
 
@@ -120,7 +119,7 @@ Aspose.Words for .NET is a paid library, but you can try it for free. Check out 
 
 ### What other types of protection can I apply to a Word document?
 
-Aspose.Words allows you to apply different types of protection, such as ReadOnly, AllowOnlyRevisions, AllowOnlyComments, and AllowOnlyFormFields.
+Aspose.Words allows you to apply different types of protection, such as `ReadOnly`, `AllowOnlyRevisions`, `AllowOnlyComments`, and `AllowOnlyFormFields`.
 
 ### Where can I find more documentation on Aspose.Words for .NET?
 

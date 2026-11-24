@@ -202,7 +202,6 @@ Bu kılavuzu faydalı bulduysanız, beğenin, ekip arkadaşlarınızla paylaşı
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Aspose.Words for Java ile Word'u PDF'e Dönüştür](/words/english/java/document-converting/)
-- [Aspose.Words kullanarak C#'ta Word'u PDF'e Dönüştür – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Aspose.Words ile docx'i pdf olarak kaydet – Tam C# Kılavuzu](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

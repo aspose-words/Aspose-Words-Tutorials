@@ -219,7 +219,6 @@ namespace PieChartCustomizer
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να κατακτήσετε επιπλέον δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας έργα.
 
-- [Πώς να αποθηκεύσετε επεξεργασμένο έγγραφο σε C# με Aspose.Words – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Ενημέρωση δεδομένων σειράς διαγράμματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words for .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Εισαγωγή διαγράμματος στήλης σε έγγραφο Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

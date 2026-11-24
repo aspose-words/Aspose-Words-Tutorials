@@ -208,7 +208,6 @@ foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하며, 관련 주제를 깊이 있게 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하도록 돕습니다.
 
 - [docx를 txt로 저장 – C#으로 Word 수식 LaTeX 내보내기](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [LaTeX 내보내기 방법: DOCX를 Markdown 및 TXT로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

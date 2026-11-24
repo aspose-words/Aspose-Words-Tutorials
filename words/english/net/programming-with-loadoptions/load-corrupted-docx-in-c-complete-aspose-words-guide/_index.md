@@ -7,7 +7,6 @@ draft: false
 keywords:
 - load corrupted docx
 - Aspose.Words LoadOptions
-- RecoveryMode Partial
 - skip corrupted parts
 - document styles count
 language: en
@@ -30,7 +29,7 @@ url: /net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-
 
 Ever tried to **load corrupted docx** and watched your app crash on the spot? It’s a frustrating sight—especially when the rest of the file is perfectly fine. The good news? Aspose.Words gives you fine‑grained control over how to deal with damaged parts, so you can still extract what’s usable.
 
-In this tutorial we’ll walk through a real‑world solution for loading a corrupted DOCX in C#. We’ll cover the `LoadOptions` class, explain the different `RecoveryMode` values, and show you how to verify that the document opened correctly. By the end you’ll have a ready‑to‑run snippet that gracefully handles broken files—no more unhandled exceptions.
+In this tutorial we’ll walk through a real‑world solution for loading a corrupted DOCX in C#. We’ll cover the `LoadOptions` class, explain the available `DocumentRecoveryMode` values, and show you how to verify that the document opened correctly. By the end you’ll have a ready‑to‑run snippet that gracefully handles broken files—no more unhandled exceptions.
 
 > **What you’ll need**  
 > • .NET 6 or later (the code works on .NET Framework 4.6+ as well)  
@@ -47,23 +46,22 @@ Let’s get started.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 /// <summary>
 /// Configures the loader to decide what to do with corrupted parts.
 /// </summary>
 LoadOptions loadOptions = new LoadOptions
 {
-    // RecoveryMode.Partial returns the readable sections and skips the rest.
-    RecoveryMode = RecoveryMode.Partial   // Change to Full or SkipCorrupted as needed
+    // DocumentRecoveryMode.TryRecover returns the readable sections and skips the rest.
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
-### Why RecoveryMode matters
+### Why DocumentRecoveryMode matters
 
-- **Partial** – Returns whatever can be parsed, discarding the broken bits. Ideal when you need any content at all.  
-- **Full** – Tries to reconstruct the whole document, which can be slower and may produce artifacts.  
-- **SkipCorrupted** – Ignores the corrupted document entirely and throws an exception. Use only when you want a hard failure.
+- **TryRecover** – Returns whatever can be parsed, discarding the broken bits. Ideal when you need any content at all.  
+- **None** – No recovery is attempted; if the document is invalid, loading will fail with an error. Use this when you want a strict failure.
 
 Choosing the right mode prevents your app from blowing up when a user uploads a damaged file.
 
@@ -76,7 +74,7 @@ Now that we have `LoadOptions` configured, the next step is to actually **load c
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -88,7 +86,7 @@ class Program
         // Configure LoadOptions – see the previous section for details.
         LoadOptions options = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.Partial // Try Partial first; switch if needed.
+            RecoveryMode = DocumentRecoveryMode.TryRecover // Adjust if you need a different behavior.
         };
 
         Document doc;
@@ -113,7 +111,7 @@ class Program
     /// </summary>
     static void VerifyDocument(Document document)
     {
-        // The Styles collection is always populated for a valid docx.
+        // The Styles collection may be empty if the document contains no styles.
         int styleCount = document.Styles.Count;
         Console.WriteLine($"Loaded with {styleCount} style{(styleCount == 1 ? "" : "s")}.");
     }
@@ -131,15 +129,15 @@ If the file is completely unreadable, you’ll see the error message from the `c
 
 ---
 
-## Step 2: Choosing the Right RecoveryMode for Your Scenario
+## Step 2: Choosing the Right DocumentRecoveryMode for Your Scenario
 
-You might wonder, *“Should I always use RecoveryMode.Partial?”* Not necessarily. Here’s a quick decision matrix:
+You might wonder, *“Should I always use DocumentRecoveryMode.TryRecover?”* Not necessarily. Here’s a quick decision matrix:
 
-| Situation | Recommended RecoveryMode | Reason |
-|-----------|--------------------------|--------|
-| You just need any text (e.g., search indexing) | **Partial** | Gives you whatever can be salvaged with minimal overhead. |
-| You need the document to look as close to original as possible (e.g., preview) | **Full** | Attempts a best‑effort reconstruction, preserving layout. |
-| Corruption is rare and you prefer a strict failure | **SkipCorrupted** | Fails fast, letting you log the problem and ask the user for a new file. |
+| Situation | Recommended DocumentRecoveryMode | Reason |
+|-----------|----------------------------------|--------|
+| You just need any text (e.g., search indexing) | **TryRecover** | Gives you whatever can be salvaged with minimal overhead. |
+| You need the document to look as close to original as possible (e.g., preview) | **None** | Fails fast if the document cannot be fully parsed, ensuring you only work with complete files. |
+| Corruption is rare and you prefer a strict failure | **None** | Lets you detect the problem early and ask the user for a new file. |
 
 Switch the mode by editing the `RecoveryMode` line in the `LoadOptions` initialization.
 
@@ -183,7 +181,7 @@ These extra checks help you decide whether the recovered document is *good enoug
 
 ### 1. Missing Aspose.Words License
 
-If you run the sample without a license, you’ll see a watermark in the output PDF (if you later convert). Register a free temporary license during development:
+If you run the sample without a license, certain features may be limited. Register a free temporary license during development:
 
 ```csharp
 License license = new License();
@@ -200,11 +198,7 @@ string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Corrupted
 
 ### 3. Large Documents
 
-Partial recovery on a 200 MB DOCX may still consume significant memory. Consider streaming the file or increasing the process’s memory limit if you hit `OutOfMemoryException`.
-
-### 4. Multi‑Threaded Scenarios
-
-`LoadOptions` is not thread‑safe. Create a fresh instance for each thread to avoid race conditions.
+Loading very large documents (e.g., 200 MB) may still consume significant memory. Consider streaming the file or increasing the process’s memory limit if you encounter `OutOfMemoryException`.
 
 ---
 
@@ -216,7 +210,7 @@ Below is the entire program you can drop into a new Console App project. It incl
 using System;
 using System.IO;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class LoadCorruptedDocxDemo
 {
@@ -234,8 +228,8 @@ class LoadCorruptedDocxDemo
         // ---------- 3. Configure LoadOptions ----------
         LoadOptions options = new LoadOptions
         {
-            // Choose Partial, Full, or SkipCorrupted depending on your needs.
-            RecoveryMode = RecoveryMode.Partial
+            // Choose TryRecover or None depending on your needs.
+            RecoveryMode = DocumentRecoveryMode.TryRecover
         };
 
         // ---------- 4. Load the document ----------
@@ -284,7 +278,7 @@ Run the program, point `Corrupted.docx` at a real broken file, and watch the con
 
 We’ve just covered everything you need to **load corrupted docx** files in C# using Aspose.Words:
 
-* Configure `LoadOptions` with the appropriate `RecoveryMode`.  
+* Configure `LoadOptions` with the appropriate `DocumentRecoveryMode`.  
 * Attempt to open the file inside a `try/catch` block.  
 * Verify the result by checking sections, paragraphs, and style count.  
 * Handle common pitfalls like licensing, path resolution, and memory concerns.

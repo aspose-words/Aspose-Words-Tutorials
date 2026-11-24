@@ -94,7 +94,7 @@ Aspose.Words ships with a `MarkdownSaveOptions` class that lets us tweak how the
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 ```
 
-You can adjust properties such as `ExportImagesAsBase64` (set to `false` because we want separate image files) or `ExportHeadersFooters` if you need those sections in Markdown.
+You can adjust properties such as `ExportImagesAsBase64` (set to `false` because we want separate image files) or other options supported by `MarkdownSaveOptions`.
 
 ---
 
@@ -250,13 +250,13 @@ All images appear side‑by‑side with the text, just as they did in the origin
 A: Yes. Inside the callback you can re‑encode the stream (e.g., to PNG) before writing it out. Use `System.Drawing` or `ImageSharp` to manipulate `args.Stream`.
 
 **Q: What if the Word document contains SVG or EMF images?**  
-A: Aspose.Words converts most vector formats to raster PNG by default. If you need the original vector, set `mdOptions.ExportImageResolution` and handle the stream accordingly.
+A: You can control the rasterization resolution of vector images by setting `mdOptions.ImageResolution`. This determines the DPI used when such images are rendered to raster formats.
 
 **Q: Does this work on .NET Core on Linux?**  
 A: Absolutely. Just ensure the `resources` path uses forward slashes (`/`) or `Path.Combine` as shown. Remember that Linux file systems are case‑sensitive, so keep folder names consistent.
 
 **Q: How do I suppress footnotes or comments?**  
-A: Adjust `mdOptions.ExportFootnotes` or `mdOptions.ExportComments` properties before saving.
+A: `MarkdownSaveOptions` does not provide direct properties to exclude footnotes or comments; they are always included in the generated Markdown.
 
 ---
 

@@ -228,7 +228,6 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 ## संबंधित ट्यूटोरियल
 
 - [C# के साथ Word से Accessible PDF बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [C# में Aspose.Words का उपयोग करके word को pdf में बदलें – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Accessible PDF बनाएं – PDF/UA अनुपालन के लिए चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

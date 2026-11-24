@@ -232,7 +232,6 @@ Pokud narazíte na problémy nebo máte nápady na vylepšení, zanechte koment�
 ## Související tutoriály
 
 - [Uložit obrázky z Wordu – Převod Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Převod Wordu na Markdown – Vložit obrázky jako Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Převod Wordu na Markdown v C# – Kompletní průvodce s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

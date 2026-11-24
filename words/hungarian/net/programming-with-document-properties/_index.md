@@ -34,7 +34,6 @@ Akár kezdő, akár tapasztalt fejlesztő vagy, az Aspose.Words for .NET szöveg
 | [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumokkal kapcsolatos feladatokat az Aspose.Words for .NET segítségével. Ez az útmutató a beállítást, a szövegcserét és egyebeket ismerteti, így a munkafolyamat hatékonyabbá válik. |
 | [Hogyan számoljuk meg a lapokat egy Word-dokumentumban – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Tanulja meg, hogyan számolhatja meg a Word-dokumentum lapjait az Aspose.Words for .NET használatával. |
 
-| [Oldalszám ellenőrzése Word dokumentumokban – Sérült fájlok helyreállítása](./check-page-count-in-word-docs-recover-corrupted-files/) | Tanulja meg, hogyan ellenőrizheti az oldalszámot Word dokumentumokban, és állíthatja helyre a sérült fájlokat az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -234,8 +234,6 @@ if __name__ == "__main__":
 以下教學涵蓋與本指南緊密相關的主題，建立在本篇示範的技術之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，並在專案中探索其他實作方式。
 
 - [如何復原 docx – 設定復原模式與開啟損壞的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [在 C# 中復原損壞文件 – 設定復原模式與提示使用者](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [如何使用 Aspose.Words 復原 docx – 步驟說明](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

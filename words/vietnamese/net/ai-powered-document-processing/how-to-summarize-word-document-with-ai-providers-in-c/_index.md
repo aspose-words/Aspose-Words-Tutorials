@@ -235,8 +235,6 @@ Chúc bạn lập trình vui vẻ, và tận hưởng sức mạnh của việc 
 
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, mở rộng các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm mã mẫu hoàn chỉnh với giải thích chi tiết từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tóm tắt tài liệu Word trong C# với Aspose.Words API – Hướng dẫn AI toàn diện](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Tóm tắt tài liệu Word với AI – So sánh OpenAI và Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Tạo tài liệu Word trống với Aspose.Words – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

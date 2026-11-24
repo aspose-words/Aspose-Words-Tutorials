@@ -243,8 +243,6 @@ Aspose.Words の **自動文書復元** 機能を使って、**破損した Word
 以下のチュートリアルは、本ガイドで示した手法を基にした、密接に関連するトピックを扱っています。各リソースには完全なコード例とステップバイステップの解説が含まれており、API の追加機能を習得したり、独自の実装アプローチを探求したりするのに役立ちます。
 
 - [docx の復元方法 – リカバリーモード設定と破損した Word ファイルの開き方](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [破損した Word ファイルの復元 – 完全ガイド (DOCX を開いてページ数取得) ](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
-- [Aspose.Words を使用した Word 文書の復元 (C#) ](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

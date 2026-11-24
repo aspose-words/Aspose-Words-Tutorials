@@ -228,7 +228,6 @@ Kết hợp tất cả lại, đây là một `Program.cs` tối thiểu minh h�
 ## Các Hướng Dẫn Liên Quan
 
 - [Tạo PDF Truy Cập Được từ Word với C# – Hướng Dẫn Từng Bước](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [chuyển đổi word sang pdf trong C# bằng Aspose.Words – Hướng Dẫn](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Tạo PDF Truy Cập Được – Hướng Dẫn Từng Bước cho Tuân Thủ PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

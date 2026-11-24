@@ -222,7 +222,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Elérhető PDF – Lépésről‑lépésre útmutató a PDF/UA megfelelőséghez](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 - [Elérhető PDF C#-ban – PDF hozzáférhetőségi útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
-- [Word konvertálása PDF-re C#-ban az Aspose.Words segítségével – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

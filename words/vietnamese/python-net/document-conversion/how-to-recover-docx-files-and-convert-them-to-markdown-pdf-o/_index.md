@@ -237,7 +237,6 @@ Bạn có thể thoải mái thử nghiệm các tùy chọn, và chia sẻ kế
 
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách Khôi phục DOCX – Hướng Dẫn Toàn Diện Sử Dụng Aspose.Words](/words/english/net/programming-with-loadoptions/how-to-recover-docx-complete-guide-using-aspose-words/)
 - [Chuyển DOCX sang Markdown – Hướng Dẫn Toàn Diện Sử Dụng Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [lưu docx dưới dạng txt – chuyển docx sang markdown](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 

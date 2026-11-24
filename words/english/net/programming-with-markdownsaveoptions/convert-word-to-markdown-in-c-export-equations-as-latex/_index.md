@@ -67,7 +67,7 @@ Aspose.Words can output Markdown directly, but we need to tell it *how* to handl
 // Set up Markdown options – export equations as LaTeX
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex
 };
 ```
 
@@ -100,7 +100,7 @@ If you also need a simple `.txt` version—perhaps for a quick preview or a down
 // Set up plain‑text options – keep equations as LaTeX
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 ```
 

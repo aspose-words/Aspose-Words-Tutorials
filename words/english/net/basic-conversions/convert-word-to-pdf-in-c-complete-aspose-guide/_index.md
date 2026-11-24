@@ -130,7 +130,7 @@ using (FileStream stream = new FileStream(outputPath, FileMode.Create))
 Missing fonts can cause layout shifts. Enable font embedding:
 
 ```csharp
-pdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.Always;
+pdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
 ```
 
 ### 3. Batch Conversion
@@ -161,7 +161,6 @@ foreach (var file in wordFiles)
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
-| PDF missing images | Images stored as linked resources | Set `PdfSaveOptions.ExportImagesAsEmbedded = true` |
 | Text boxes appear out of order | Default block‑level export | Use `ExportFloatingShapesAsInlineTag = true` (as shown) |
 | Conversion throws `LicenseException` | No valid license supplied | Apply your license file before creating `Document` (`License license = new License(); license.SetLicense("Aspose.Words.lic");`) |
 

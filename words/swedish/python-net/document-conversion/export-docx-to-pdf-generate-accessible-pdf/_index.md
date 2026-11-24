@@ -152,7 +152,6 @@ Lycka till med kodandet, och kom ihåg: tillgänglighet är en funktion, inte en
 Följande tutorials täcker närbesläktade ämnen som bygger vidare på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Create Accessible PDF from DOCX – Complete Guide](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
-- [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Create Accessible PDF in C# – PDF Accessibility Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

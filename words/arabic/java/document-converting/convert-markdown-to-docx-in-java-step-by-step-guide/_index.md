@@ -249,7 +249,6 @@ public class BatchMarkdownConverter {
 
 - [تحويل ملف Docx إلى Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 - [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -201,7 +201,6 @@ Ada pertanyaan tentang kasus tepi—seperti menangani makro, file Word terenkrip
 
 Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [konversi word ke pdf dalam C# menggunakan Aspose.Words – Panduan](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Simpan Word sebagai PDF dengan Aspose.Words – Panduan C# Lengkap](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Ekspor Penanda Buku Header Footer Dokumen Word ke Dokumen PDF](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

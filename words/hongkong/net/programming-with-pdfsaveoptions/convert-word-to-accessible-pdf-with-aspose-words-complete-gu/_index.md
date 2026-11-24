@@ -242,8 +242,6 @@ class Program
 
 以下教學與本指南緊密相關，能幫助您進一步掌握 API 功能，或探索在專案中實作其他方式的可能性。
 
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 完整指南](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [建立可存取 PDF 並將 Word 轉換為 Markdown – 完整 C# 教程](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Word 文件轉 PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

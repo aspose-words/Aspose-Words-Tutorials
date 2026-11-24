@@ -251,7 +251,6 @@ Miłego kodowania!
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Aspose.Words – Zapisz docx jako txt i eksportuj równania Word jako LaTeX – Kompletny przewodnik](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Konwertuj docx na txt z równaniami LaTeX – przewodnik Aspose.Words](/words/english/net/basic-conversions/convert-docx-to-txt-with-latex-equations-aspose-words-guide/)
 - [Jak konwertować równania w Wordzie do LaTeX – Zapisz jako TXT](/words/english/net/programming-with-officemath/how-to-convert-equations-in-word-to-latex-save-as-txt/)
 

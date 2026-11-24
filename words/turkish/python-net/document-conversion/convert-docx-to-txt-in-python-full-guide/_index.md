@@ -204,7 +204,6 @@ Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakı
 
 - [docx’i txt’ye dönüştür – Word’ü Düz Metin Olarak Kaydetme Tam Kılavuzu](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [docx’i txt olarak kaydet – Word Math’i C# ile LaTeX’e Dışa Aktar](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Word’ten LaTeX Nasıl Dışa Aktarılır: Aspose ile DOCX’i Markdown’a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

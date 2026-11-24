@@ -243,8 +243,6 @@ Ibland behöver du markera ett specifikt stycke som en *note* för hjälpmedelst
 
 De följande handledningarna täcker närbesläktade ämnen som bygger vidare på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [konvertera word till pdf i C# med Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [Skapa tillgänglig PDF och konvertera Word till Markdown – Fullständig C#‑guide](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Konvertera Word‑dokument till PDF 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

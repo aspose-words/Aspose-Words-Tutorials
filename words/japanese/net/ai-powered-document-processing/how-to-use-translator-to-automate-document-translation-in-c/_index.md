@@ -218,7 +218,6 @@ The following tutorials cover closely related topics that build on the technique
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Aspose.Words を使用した DOCX の文法チェック – gpt-4 turbo の使用方法](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [C# でコールバックを使用する方法 – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word ドキュメント - コンテンツの削除方法](/words/english/net/remove-content/)
 

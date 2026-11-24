@@ -49,22 +49,22 @@ Below we break the process into clear, bite‑sized steps.  Each step includes a
 
 ### Step 1: Configure Load Options with a Recovery Strategy
 
-The first thing you must do is tell Aspose.Words how aggressive it should be when it encounters broken XML parts inside the .docx.  Setting `RecoveryMode.RecoverAndContinue` tells the loader to keep going even if some chunks are unreadable.
+The first thing you must do is tell Aspose.Words how aggressive it should be when it encounters broken XML parts inside the .docx.  Setting `DocumentRecoveryMode.TryRecover` tells the loader to keep going even if some chunks are unreadable.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 1: Create load options and choose a recovery strategy
 LoadOptions loadOptions = new LoadOptions
 {
     // Recover the document and continue processing even if some parts are damaged
-    RecoveryMode = RecoveryMode.RecoverAndContinue
+    RecoveryMode = DocumentRecoveryMode.TryRecover
 };
 ```
 
 **Why this matters:**  
-If you omit the `RecoveryMode` setting, the library will throw an exception at the first sign of corruption, and you’ll never get a chance to salvage any text.  The `RecoverAndContinue` mode swallows those errors, giving you a partially repaired document that you can still read.
+If you omit the `RecoveryMode` setting, the library will still attempt recovery because the default is `DocumentRecoveryMode.TryRecover`.  The `TryRecover` mode swallows those errors, giving you a partially repaired document that you can still read.
 
 > **Pro tip:** When dealing with severely damaged files, consider also setting `LoadOptions.Password` if the document is password‑protected; otherwise the loader will stop before reaching the recovery logic.
 
@@ -164,7 +164,7 @@ Absolutely.  Aspose.Words targets .NET Standard 2.0+, so the same code runs on .
 
 ## Recap
 
-We’ve covered everything you need to **recover damaged word document** files in C#.  By configuring `LoadOptions` with `RecoveryMode.RecoverAndContinue`, loading the corrupted file, extracting its text, and optionally saving a clean copy, you can turn a broken .docx into usable content with just a handful of lines.
+We’ve covered everything you need to **recover damaged word document** files in C#.  By configuring `LoadOptions` with `DocumentRecoveryMode.TryRecover`, loading the corrupted file, extracting its text, and optionally saving a clean copy, you can turn a broken .docx into usable content with just a handful of lines.
 
 If you followed the steps, you should now be able to:
 

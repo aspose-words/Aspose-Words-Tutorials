@@ -196,7 +196,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [hur man återställer docx – sätt återställningsläge & öppna skadade Word-filer](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [återställ skadat docx med Aspose.Words – sätt återställningsläge och laddningsalternativ](/words/english/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words-set-recovery-mode-and/)
-- [Återställ skadad DOCX med Aspose.Words LoadOptions – Komplett C#‑guide](/words/english/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -33,14 +33,17 @@ using System.Threading.Tasks;
 // Load the source document
 Document doc = new Document("input.docx");
 
-// Create an Aspose LLM model for summarization (specify a preset name, e.g., "summarize")
-var model = new AsposeLlmModel("summarize");
+// Create a local Aspose LLM model from an Aspose.LLM preset class. Aspose.LLM is a
+// separate package with its own license; disposing the model releases it.
+string summary;
+using (AsposeLlmModel model = new AsposeLlmModel("Qwen25_3BPresetCpu"))
+{
+    // Summarize the document; the method returns a new Document containing the summary
+    Document summaryDoc = model.Summarize(doc);
 
-// Summarize the document; the method returns a new Document containing the summary
-Document summaryDoc = model.Summarize(doc);
-
-// Extract the summary text
-string summary = summaryDoc.GetText();
+    // Extract the summary text
+    summary = summaryDoc.GetText();
+}
 
 // Create a new document containing the summary
 Document outputDoc = new Document();
@@ -68,8 +71,6 @@ Finally, don’t forget to check out our {{< relref "working-with-summarize-opti
 | {{< relref "working-with-google-ai-model/_index.md" >}} | Elevate your document processing with Aspose.Words for .NET and Google AI to create concise summaries effortlessly. |
 | {{< relref "working-with-open-ai-model/_index.md" >}} | Unlock efficient document summarization using Aspose.Words for .NET with OpenAI's powerful models. Dive into this comprehensive guide now. |
 | {{< relref "working-with-summarize-options/_index.md" >}} | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step‑by‑step guide on integrating AI models for quick insights. |
-| {{< relref "summarize-word-document-in-c-complete-ai-powered-guide/_index.md" >}} | Learn how to summarize Word documents using Aspose.Words for .NET with a full AI‑powered C# guide. |
-| {{< relref "how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/_index.md" >}} | Learn to use Aspose.Words AI to automatically check and correct grammar in Word documents with step-by-step guidance. |
 | {{< relref "how-to-check-grammar-in-word-documents-complete-c-guide/_index.md" >}} | Learn how to use Aspose.Words for .NET to check grammar in Word documents with a complete C# guide. |
 | {{< relref "how-to-check-grammar-with-a-local-llm-in-c/_index.md" >}} | Learn to integrate a local LLM in C# for grammar checking with Aspose.Words for .NET. |
 

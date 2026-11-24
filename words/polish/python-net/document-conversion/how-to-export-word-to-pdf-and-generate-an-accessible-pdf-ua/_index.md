@@ -235,7 +235,6 @@ Teraz wiesz, jak **export Word to PDF** i wygenerować plik zgodny z PDF/UA przy
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z instrukcjami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Utwórz dostępny PDF z Word – Kompletny przewodnik Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Eksport struktury dokumentu Word do dokumentu PDF](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

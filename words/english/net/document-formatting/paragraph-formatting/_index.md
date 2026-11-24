@@ -38,7 +38,6 @@ First things first, let’s import the necessary namespaces. This is like settin
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.Paragraphs;
 ```
 
 Now that the stage is set, let's get to the exciting part – the step-by-step guide.

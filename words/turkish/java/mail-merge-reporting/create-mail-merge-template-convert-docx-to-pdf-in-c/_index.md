@@ -229,7 +229,6 @@ Her şeyi bir araya getirerek, şablon oluşturulmasından toplu PDF üretimine 
 ## İlgili Öğreticiler
 
 - [C# ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [Aspose.Words kullanarak C#'ta Word'ü PDF'e Dönüştürme – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

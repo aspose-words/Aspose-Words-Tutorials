@@ -214,8 +214,6 @@ for filename in os.listdir(source_dir):
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Πώς να Εξάγετε LaTeX από Word – Οδηγός Βήμα‑Βήμα](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Αποθήκευση docx ως txt – Εξαγωγή Word Math σε LaTeX με C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

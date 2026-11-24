@@ -244,7 +244,6 @@ if __name__ == "__main__":
 
 - [Save docx as markdown – 完整 C# 教學，含 LaTeX 方程式](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Save Word as Markdown with Aspose.Words – 完整指南，轉換 DOCX 並擷取圖片](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
-- [How to Export LaTeX from Word – 將 DOCX 轉為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -33,13 +33,12 @@ using Aspose.Words.Drawing;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insert an OLE object (Excel file) as an icon.
-builder.InsertOleObject(
-    "sample.xlsx",               // Path to the OLE package.
-    "Excel.Sheet",               // ProgId of the OLE object.
-    true,                        // Display as icon.
-    "Excel Worksheet",           // Icon label.
-    null);                       // No image stream.
+// Insert an OLE object (Excel file) as an icon with a custom label.
+builder.InsertOleObjectAsIcon(
+    "sample.xlsx",                // Path to the OLE package.
+    false,                        // Embed rather than link.
+    "path_to_your_icon.ico",      // Icon file to display.
+    "Excel Worksheet");           // Icon label.
 
 // Save the document.
 doc.Save("DocumentWithOleObject.docx");

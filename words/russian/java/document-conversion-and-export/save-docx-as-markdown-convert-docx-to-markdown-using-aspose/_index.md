@@ -212,7 +212,6 @@ java -cp "path/to/aspose-words.jar;." com.example.docx2md.DocxToMarkdown input.d
 
 - [Как экспортировать LaTeX из Word: конвертировать DOCX в Markdown и сохранить как PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [Конвертировать docx в markdown — экспортировать математические уравнения в LaTeX с помощью Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Как экспортировать Markdown из DOCX — полное руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -243,8 +243,6 @@ class Program
 
 다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 주제를 다룹니다. 각 자료는 단계별 설명과 함께 완전한 코드 예제를 제공하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색할 수 있도록 돕습니다.
 
-- [C#에서 Aspose.Words를 사용하여 Word를 PDF로 변환 – 가이드](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [접근 가능한 PDF 생성 및 Word를 Markdown으로 변환 – 전체 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 - [Word 문서를 PDF로 변환 1.7](/words/english/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

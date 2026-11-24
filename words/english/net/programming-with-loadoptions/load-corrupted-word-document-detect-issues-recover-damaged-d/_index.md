@@ -71,7 +71,7 @@ Below is the full, runnable C# program. It demonstrates how to load a potentiall
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -85,8 +85,8 @@ class Program
         // ------------------------------------------------------------
         LoadOptions failFastOptions = new LoadOptions
         {
-            // RecoveryMode.Fail tells Aspose to abort on the first sign of trouble.
-            RecoveryMode = RecoveryMode.Fail
+            // DocumentRecoveryMode.None tells Aspose to abort on the first sign of trouble.
+            RecoveryMode = DocumentRecoveryMode.None
         };
 
         try
@@ -106,7 +106,7 @@ class Program
         // ------------------------------------------------------------
         LoadOptions repairOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.Repair
+            RecoveryMode = DocumentRecoveryMode.TryRecover
         };
 
         try
@@ -131,8 +131,8 @@ class Program
 
 ### What the code does
 
-1. **Fail‑Fast Load** – `RecoveryMode.Fail` forces an immediate exception if any part of the zip package (the underlying `.docx` format) is unreadable. This is the fastest way to **detect corrupted word file** without parsing the whole thing.  
-2. **Repair Load** – Switching to `RecoveryMode.Repair` tells Aspose to ignore broken streams, rebuild the document tree, and give you a usable `Document`. You can then call `GetText()` or iterate over sections, tables, etc.  
+1. **Fail‑Fast Load** – `DocumentRecoveryMode.None` forces an immediate exception if any part of the zip package (the underlying `.docx` format) is unreadable. This is useful for quickly *detecting corrupted word file*.  
+2. **Repair Load** – Switching to `DocumentRecoveryMode.TryRecover` tells Aspose to ignore broken streams, rebuild the document tree, and give you a usable `Document`. You can then call `GetText()` or iterate over sections, tables, etc.  
 3. **Graceful handling** – Both attempts are wrapped in `try/catch` blocks, so your application never crashes.
 
 #### Expected output
@@ -175,12 +175,12 @@ This snippet confirms that the **how to recover damaged docx** step actually pro
 | Situation | Recommended Approach |
 |-----------|----------------------|
 | **Password‑protected file** | Load with `LoadOptions.Password` before choosing a recovery mode. |
-| **Very large documents (>100 MB)** | Increase the `LoadOptions.MemoryOptimization` flag to reduce memory pressure. |
+| **Very large documents (>100 MB)** | Consider using `SaveOptions.MemoryOptimization` when saving to reduce memory pressure. |
 | **Legacy `.doc` format** | Aspose.Words automatically converts `.doc` to its internal model; still use the same `RecoveryMode` settings. |
-| **Multiple corrupted parts** | After repair, iterate `docRepaired.NodeInserted` events (if you need detailed diagnostics). |
-| **Running on Linux** | Ensure the zip libraries used by Aspose are present; the NuGet package bundles them, so no extra steps needed. |
+| **Running on Linux** | The Aspose.Words NuGet package includes the required native libraries, so no additional steps are needed. |
+| **Multiple corrupted parts** | After repair, you can inspect the document structure (sections, paragraphs, etc.) to decide if further processing is possible. |
 
-> **Watch out:** The repair mode is *best‑effort*. It may drop images, footnotes, or complex styles that were stored in the corrupted streams. Always validate the output if you rely on those elements.
+> **Watch out:** The repair mode is *best‑effort*. Some content that cannot be reconstructed may be omitted.
 
 ## Step 6: Full Working Example (All Together)
 
@@ -189,7 +189,7 @@ Below is the complete program you can copy‑paste into a new console app (`dotn
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class RecoverDocx
 {
@@ -198,7 +198,7 @@ class RecoverDocx
         string filePath = @"C:\Docs\corrupted.docx";
 
         // ---------- Fail‑Fast detection ----------
-        LoadOptions failFast = new LoadOptions { RecoveryMode = RecoveryMode.Fail };
+        LoadOptions failFast = new LoadOptions { RecoveryMode = DocumentRecoveryMode.None };
         bool isCorrupted = false;
 
         try
@@ -215,7 +215,7 @@ class RecoverDocx
         // ---------- Attempt repair ----------
         if (isCorrupted)
         {
-            LoadOptions repair = new LoadOptions { RecoveryMode = RecoveryMode.Repair };
+            LoadOptions repair = new LoadOptions { RecoveryMode = DocumentRecoveryMode.TryRecover };
             try
             {
                 Document repaired = new Document(filePath, repair);

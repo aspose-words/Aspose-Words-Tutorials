@@ -254,8 +254,6 @@ C#을 이용해 Word 문서에서 LaTeX로 **수식을 내보내는 방법**을 
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하며, 추가 API 기능을 마스터하고 다양한 구현 방식을 탐구할 수 있도록 단계별 코드 예제를 제공합니다.
 
 - [문서를 Txt로 저장 – C#에서 Word 수식을 LaTeX로 내보내기](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [LaTeX를 Word에서 내보내는 방법 – 단계별 가이드](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Word에서 LaTeX 내보내기: Aspose로 DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

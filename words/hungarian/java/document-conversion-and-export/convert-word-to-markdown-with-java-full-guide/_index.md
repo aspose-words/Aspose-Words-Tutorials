@@ -235,8 +235,6 @@ Van egy saját megoldásod? Oszd meg a hozzászólásokban, és jó kódolást!
 Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Word képek mentése – Word konvertálása Markdown-re Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word konvertálása Markdown-re – Képek beágyazása Base64‑ként](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
-- [Hogyan exportáljunk LaTeX-et Word‑ből: DOCX konvertálása Markdown-re Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

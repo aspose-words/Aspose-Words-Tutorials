@@ -159,8 +159,6 @@ Boldog építést, és legyenek a CMake építéseid mindig reprodukálhatóak!
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan exportáljunk LaTeX-et Word‑ből – Lépésről‑lépésre útmutató](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Hogyan mentsünk Markdown‑t DOCX‑ből – Lépésről‑lépésre útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Hogyan jelenítsük meg az Aspose.Words verziót Pythonban és .NET‑ben&#58; Lépésről‑lépésre útmutató](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

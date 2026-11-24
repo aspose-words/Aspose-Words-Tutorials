@@ -235,7 +235,6 @@ Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jele
 
 - [Word mentése PDF‑ként az Aspose.Words segítségével – Teljes C# útmutató](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Hozzáférhető PDF létrehozása Word‑ből – Teljes útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Word konvertálása PDF‑be C#‑ben az Aspose.Words használatával – Útmutató](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

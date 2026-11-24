@@ -212,8 +212,6 @@ Silakan bereksperimen dengan pengaturan dan mengintegrasikan skrip ke dalam pipe
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑per‑Langkah](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dengan C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

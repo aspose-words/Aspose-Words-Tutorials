@@ -36,7 +36,7 @@ First things first, you need to import the necessary namespaces. These are like 
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.Compare;
+using Aspose.Words.Comparing;
 ```
 
 Alright, now let’s get into the exciting part – the step-by-step guide!
@@ -70,10 +70,10 @@ Document docB = new Document(dataDir + "DocumentB.docx");
 
 ## Step 4: Clone the Document
 
-Cloning is like making an identical twin of your document. This step ensures you have a backup copy to compare against the original.
+Cloning is like making an identical twin of your document. This step ensures you have a backup copy of the second document before you start the comparison.
 
 ```csharp
-Document docB = docA.Clone();
+Document docBClone = docB.Clone();
 ```
 
 ## Step 5: Set Comparison Options
@@ -93,7 +93,7 @@ CompareOptions options = new CompareOptions
 And now, the moment we’ve all been waiting for – comparing the documents! This is where the magic happens. Aspose.Words will compare the documents and highlight the differences.
 
 ```csharp
-docA.Compare(docB, "user", DateTime.Now, options);
+docA.Compare(docBClone, "user", DateTime.Now, options);
 ```
 
 ## Step 7: Save the Compared Document

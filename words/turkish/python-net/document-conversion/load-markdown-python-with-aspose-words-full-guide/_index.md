@@ -208,7 +208,6 @@ Buradan, toplu olarak **convert markdown to docx** yapmak, `DocumentBuilder` ile
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Python'da Gelişmiş Belge İşleme için Aspose.Words Markdown Yükleme Seçeneklerini Öğrenin](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır: Aspose ile DOCX'i Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Word'den LaTeX Nasıl Dışa Aktarılır: DOCX'i Markdown'a Dönüştür ve PDF Olarak Kaydet](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

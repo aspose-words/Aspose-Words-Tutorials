@@ -232,7 +232,6 @@ Assets folder: C:\Temp\Output\assets
 ## Related Tutorials
 
 - [Сохранить изображения Word – Конвертировать Word в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Конвертировать Word в Markdown – Встраивание изображений как Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [Конвертировать Word в Markdown на C# – Полное руководство с извлечением изображений](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

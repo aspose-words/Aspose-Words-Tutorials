@@ -265,7 +265,6 @@ Happy coding, and feel free to experiment with the options to match your exact p
 
 - [Как сохранить Markdown из Word – Полное руководство на Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Сохранить изображения Word – Конвертировать Word в Markdown с Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Как сохранить Markdown из DOCX – Пошаговое руководство](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -30,10 +30,8 @@ schemas:
   - answer: Slightly, because the parser performs additional checks. The overhead
       is negligible for typical documents (<10 MB).
     question: Is recovery mode slower?
-  - answer: '`RecoveryMode.Auto` (default) tries to recover only when an error occurs.
-      `RecoveryMode.None` disables any recovery attempts. `RecoveryMode.Recover` forces
-      the attempt every time. ## Full Working Example Below is a self‑contained console
-      app you can copy‑paste into a new .NET project. It demonstrate'
+  - answer: '`DocumentRecoveryMode.TryRecover` (default) tries to recover only when an error occurs.
+      `DocumentRecoveryMode.None` disables any recovery attempts. `DocumentRecoveryMode.TryRecover` attempts recovery when a loading error is detected.'
     question: What other recovery options exist?
   type: FAQPage
 tags:
@@ -80,24 +78,24 @@ Alternatively, in Visual Studio open **Tools → NuGet Package Manager → Manag
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 ```
 
 > **Pro tip:** Keep your packages up‑to‑date. The recovery logic improves with each release.
 
 ## Step 2: Enable recovery mode using `LoadOptions`
 
-The heart of the solution is the `LoadOptions` class. By setting its `RecoveryMode` property to `RecoveryMode.Recover`, you tell Aspose.Words to *enable recovery mode* while parsing the document.
+The heart of the solution is the `LoadOptions` class. By setting its `RecoveryMode` property to `DocumentRecoveryMode.TryRecover`, you tell Aspose.Words to *enable recovery mode* while parsing the document.
 
 ```csharp
 // Step 2: Create LoadOptions and enable recovery mode
 LoadOptions loadOptions = new LoadOptions
 {
-    RecoveryMode = RecoveryMode.Recover   // <-- this line turns on recovery
+    RecoveryMode = DocumentRecoveryMode.TryRecover   // <-- this line turns on recovery
 };
 ```
 
-Why does this matter? Without recovery mode, Aspose.Words aborts on the first sign of corruption. With it, the library tries its best to skip broken parts and still produce a usable `Document` object.
+Why does this matter? Without recovery mode, Aspose.Words aborts on the first sign of corruption. With it, Aspose.Words will attempt to recover the document when a loading error is detected, otherwise it loads the document normally.
 
 ## Step 3: Load the potentially corrupted file
 
@@ -169,7 +167,7 @@ A: Usually yes, as long as the underlying ZIP entry isn’t broken. If an image 
 A: Slightly, because the parser performs additional checks. The overhead is negligible for typical documents (<10 MB).
 
 **Q: What other recovery options exist?**  
-A: `RecoveryMode.Auto` (default) tries to recover only when an error occurs. `RecoveryMode.None` disables any recovery attempts. `RecoveryMode.Recover` forces the attempt every time.
+A: `DocumentRecoveryMode.TryRecover` (default) tries to recover only when an error occurs. `DocumentRecoveryMode.None` disables any recovery attempts. `DocumentRecoveryMode.TryRecover` attempts recovery when a loading error is detected.
 
 ## Full Working Example
 
@@ -178,7 +176,7 @@ Below is a self‑contained console app you can copy‑paste into a new .NET pro
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 namespace RecoverCorruptedDocx
 {
@@ -194,7 +192,7 @@ namespace RecoverCorruptedDocx
             // Step 1: Create LoadOptions and enable recovery mode
             LoadOptions loadOptions = new LoadOptions
             {
-                RecoveryMode = RecoveryMode.Recover
+                RecoveryMode = DocumentRecoveryMode.TryRecover
             };
 
             try
@@ -246,8 +244,6 @@ We’ve just shown how to **enable recovery mode** in Aspose.Words, load a broke
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [how to recover docx – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [how to recover docx with Aspose.Words – step by step](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [Recover Damaged Word File – Complete Guide to Open Corrupted DOCX & Get Page](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

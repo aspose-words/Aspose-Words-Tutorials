@@ -211,8 +211,6 @@ print(f"Markdown exported successfully → {OUTPUT_PATH}")
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Πώς να Εξάγετε Markdown από DOCX – Πλήρης Οδηγός](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
-- [Πώς να Αποθηκεύσετε Markdown από DOCX – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Πώς να Ενσωματώσετε Εικόνες σε Markdown Κατά τη Μετατροπή DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

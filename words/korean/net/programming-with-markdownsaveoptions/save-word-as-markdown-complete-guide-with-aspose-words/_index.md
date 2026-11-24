@@ -273,7 +273,6 @@ EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.BlankLine
 
 ## 관련 튜토리얼
 
-- [Word에서 Markdown 저장 방법 – 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [C#에서 Word를 Markdown으로 변환 – 이미지 추출 포함 전체 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

@@ -177,7 +177,6 @@ for filename in os.listdir(source_dir):
 
 - [Πώς να Αποθηκεύσετε Markdown από Word – Πλήρης Οδηγός Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξισώσεις LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [Πώς να Εξάγετε LaTeX από Word – Μετατροπή DOCX σε Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

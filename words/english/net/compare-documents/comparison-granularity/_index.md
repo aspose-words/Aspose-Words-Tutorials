@@ -32,7 +32,7 @@ To use the Compare Granularity feature of Aspose.Words for .NET, you need to add
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.DocumentBuilder;
+using Aspose.Words.Comparing;
 ```
 
 ## Step 4: Creating Documents
@@ -89,13 +89,13 @@ builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOpti
 
 ## Conclusion
 
-In this tutorial, we explored the Comparison Granularity feature of Aspose.Words for .NET. This feature allows you to specify the level of detail when comparing documents. By choosing different granularity levels, you can perform detailed comparisons at the character, word, or block level, depending on your specific requirements. Aspose.Words for .NET provides a flexible and powerful document comparison capability, making it easy to identify differences in documents with varying levels of granularity.
+In this tutorial, we explored the Comparison Granularity feature of Aspose.Words for .NET. This feature allows you to specify the level of detail when comparing documents. By choosing different granularity levels, you can perform detailed comparisons at the character or word level, depending on your specific requirements. Aspose.Words for .NET provides a flexible and powerful document comparison capability, making it easy to identify differences in documents with varying levels of granularity.
 
 ### FAQ's
 
 #### Q: What is the purpose of using Comparison Granularity in Aspose.Words for .NET?
 
-A: Comparison Granularity in Aspose.Words for .NET allows you to specify the level of detail when comparing documents. With this feature, you can compare documents at different levels, such as character-level, word-level, or even block-level. Each level of granularity provides a different level of detail in the comparison results.
+A: Comparison Granularity in Aspose.Words for .NET allows you to specify the level of detail when comparing documents. With this feature, you can compare documents at different levels, such as character-level or word-level. Each level of granularity provides a different level of detail in the comparison results.
 
 #### Q: How do I use Comparison Granularity in Aspose.Words for .NET?
 
@@ -108,10 +108,9 @@ A: To use Comparison Granularity in Aspose.Words for .NET, follow these steps:
 
 #### Q: What are the available levels of Comparison Granularity in Aspose.Words for .NET?
 
-A: Aspose.Words for .NET provides three levels of Comparison Granularity:
+A: Aspose.Words for .NET provides two levels of Comparison Granularity:
 - `Granularity.CharLevel`: Compares documents at the character level.
 - `Granularity.WordLevel`: Compares documents at the word level.
-- `Granularity.BlockLevel`: Compares documents at the block level.
 
 #### Q: How can I interpret the comparison results with character-level granularity?
 

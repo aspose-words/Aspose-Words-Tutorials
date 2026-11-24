@@ -201,7 +201,6 @@ Makrolar, şifreli Word dosyaları veya özel yazı tipleri gibi uç durumlarla 
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren eksiksiz çalışan kod örnekleri sunar.
 
-- [Aspose.Words kullanarak C#'ta Word'i PDF'e dönüştürme – Kılavuz](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word'ü PDF olarak kaydetme Aspose.Words ile – Tam C# Kılavuzu](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word Belgesi Başlık Altbilgi Yer İmlerini PDF Belgesine Dışa Aktarma](/words/english/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/)
 

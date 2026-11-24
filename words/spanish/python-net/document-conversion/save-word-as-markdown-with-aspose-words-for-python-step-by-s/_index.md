@@ -265,7 +265,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Cómo guardar Markdown desde Word – Guía completa de Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Guardar imágenes de Word – Convertir Word a Markdown con Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Cómo guardar Markdown desde DOCX – Guía paso a paso](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

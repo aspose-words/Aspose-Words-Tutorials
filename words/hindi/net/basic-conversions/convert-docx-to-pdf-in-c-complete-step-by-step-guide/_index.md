@@ -274,7 +274,6 @@ public IActionResult Convert(IFormFile file)
 ## आगे आप क्या सीखें?
 
 - [Word फ़ाइल को PDF में बदलें](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Aspose.Words का उपयोग करके C# में Word को PDF में बदलें – गाइड](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Word को PDF के रूप में सहेजें और भ्रष्ट Word को पुनर्प्राप्त करें – C# में Word को Markdown में बदलें](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

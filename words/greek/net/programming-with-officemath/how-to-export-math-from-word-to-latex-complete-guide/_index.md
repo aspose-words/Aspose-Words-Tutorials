@@ -241,8 +241,6 @@ System.IO.File.WriteAllText(
 Τα παρακάτω σεμινάρια καλύπτουν στενά σχετικά θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Αποθήκευση Εγγράφου ως Txt – Εξαγωγή Word Math σε LaTeX σε C#](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
-- [Πώς να Εξάγετε LaTeX από το Word – Οδηγός Βήμα‑βήμα](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [Πώς να Εξάγετε LaTeX από το Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

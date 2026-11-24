@@ -66,7 +66,7 @@ Before you start, make sure you have:
 
 - .NET 6.0 SDK or later (the code works with .NET Core and .NET Framework)
 - Visual Studio 2022 (or any IDE that supports C#)
-- The **Aspose.Words for .NET** NuGet package (the library that provides the `Document`, `Comparer`, and `ComparisonResult` classes)
+- The **Aspose.Words for .NET** NuGet package (the library that provides the `Document` class and its `Compare` method)
 - Two Word files you want to compare, e.g., `Version1.docx` and `Version2.docx`
 
 > **Pro tip:** Aspose.Words is a commercial library, but it offers a free trial with full functionality. If you prefer an open‑source alternative, you can explore **DocX** or **Open XML SDK**, though their comparison APIs are less feature‑rich.
@@ -159,10 +159,10 @@ If you don’t see any highlights, double‑check that the two source documents 
 
 | Situation | Recommended approach |
 |-----------|----------------------|
-| **Large documents (>50 MB)** | Use `Comparer.Compare` with `CompareOptions.DisableRevisions` to generate a lightweight diff, then manually add revision marks if needed. |
+| **Large documents (>50 MB)** | Set `CompareOptions.IgnoreFormatting = true` so formatting‑only differences don't add revisions, which keeps the result smaller. |
 | **Password‑protected files** | Load the document with `LoadOptions` specifying the password: `new Document(path, new LoadOptions { Password = "pwd" })`. |
-| **Different locales (e.g., en‑US vs en‑GB)** | Enable `IgnoreCaseChanges` and `IgnoreLocaleDifferences` in `CompareOptions`. |
-| **Images changed but not text** | Set `CompareOptions.IgnoreImages = false` to ensure image modifications are captured. |
+| **Different locales (e.g., en‑US vs en‑GB)** | Spelling differences such as *color*/*colour* are real text changes and show up as revisions; `CompareOptions` has no locale setting. `IgnoreCaseChanges` only treats case‑only differences as equal. |
+| **Images changed but not text** | Image changes are part of the comparison by default; `CompareOptions` has no separate image setting. |
 
 Addressing these scenarios ensures your **compare two Word documents** solution works reliably across real‑world projects.
 

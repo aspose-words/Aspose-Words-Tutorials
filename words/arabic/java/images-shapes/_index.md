@@ -168,6 +168,9 @@
 ### [إنشاء شكل مستطيل في مستند Word باستخدام Java](./create-rectangle-shape-in-a-word-document-using-java/)
 دليل خطوة بخطوة لإنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words لجافا
 
+### [كيفية إنشاء شكل مستطيل وتجميع الأشكال في Word باستخدام C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+دليل خطوة بخطوة لإنشاء شكل مستطيل وتجميع الأشكال في مستند Word باستخدام C#
+
 ## موارد إضافية
 
 ### [إنشاء مستند Word فارغ مع شكل إهليلجي مخفي](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

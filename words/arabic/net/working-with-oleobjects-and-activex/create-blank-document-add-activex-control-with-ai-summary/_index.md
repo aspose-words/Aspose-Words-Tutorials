@@ -82,7 +82,6 @@ class Program
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
 
-- [تلخيص مستند Word في C# باستخدام Aspose.Words API – دليل كامل مدعوم بالذكاء الاصطناعي](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [إنشاء مستند Word جديد](/words/english/net/add-content-using-documentbuilder/create-new-document/)
 - [إنشاء مستند Word مع جدول باستخدام Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 

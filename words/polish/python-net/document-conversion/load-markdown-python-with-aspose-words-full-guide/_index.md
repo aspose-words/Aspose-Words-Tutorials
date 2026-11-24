@@ -209,7 +209,6 @@ Od tego momentu możesz zgłębiać dalsze tematy, takie jak **convert markdown 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Opanuj opcje ładowania Markdown w Aspose.Words w Pythonie dla zaawansowanego przetwarzania dokumentów](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [Jak wyeksportować LaTeX z Word: konwertuj DOCX na Markdown przy użyciu Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [Jak wyeksportować LaTeX z Word: konwertuj DOCX na Markdown i zapisz jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -166,9 +166,9 @@ class Summarizer
 
 ### How the OpenAI engine works
 
-`model.Summarize()` serializes the document’s text, sends it to the OpenAI API, and returns a new `Document` that holds the model’s response. The method automatically respects the token limit of the chosen engine, splitting large documents into manageable chunks. If you hit the token limit, the API returns an error; the wrapper retries with smaller sections and concatenates the partial summaries.
+`model.Summarize()` serializes the document’s text, sends it to the OpenAI API, and returns a new `Document` that holds the model’s response. For a very long document, consider summarizing it a few pages at a time (for example with `Document.ExtractPages`) and combining the results.
 
-> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. Without it, the call throws an authentication exception. Set it once in your development environment:
+> **Common pitfall:** Forgetting to set the `OPENAI_API_KEY` environment variable. The model needs the key, passed through `WithApiKey`, to call OpenAI. Set it once in your development environment:
 
 ```bash
 export OPENAI_API_KEY=sk-*********************

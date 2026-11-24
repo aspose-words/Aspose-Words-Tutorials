@@ -248,7 +248,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que se basan e
 
 - [Recuperar DOCX corrupto – Abrir y cargar documento Word](/words/english/python-net/document-operations/recover-corrupted-docx-open-load-word-document/)
 - [Recuperar DOCX corrupto y convertir Word a Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
-- [Recuperar archivo Word dañado – Guía completa para abrir DOCX corrupto y obtener página](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

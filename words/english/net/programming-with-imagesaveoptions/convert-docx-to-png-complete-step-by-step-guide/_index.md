@@ -33,7 +33,8 @@ schemas:
     text: '| Property | Purpose | Relevance to Keywords | |----------|---------|-----------------------|
       | `PageSet` | Limits conversion to the first ten pages. | Helps you **export
       word pages as images** selectively. | | `PageSavingCallback` | Gives each PNG
-      a friendly, sequential name. | Directly impacts **s'
+      a friendly, sequential name. | Directly impacts **save word pages as png** with
+      predictable filenames. |'
   - name: Converting All Pages
     text: 'If you want to **convert docx to png** for the entire document, simply
       omit the `PageSet` assignment:'
@@ -190,7 +191,7 @@ imageOptions.PageSavingCallback = (sender, args) =>
   Directory.CreateDirectory("YOUR_DIRECTORY/Images");
   ```
 
-- **DPI vs. pixel dimensions:** 300 dpi doesn’t guarantee a specific pixel size; it scales the image based on the original page dimensions. If you need exact pixel width/height, calculate it from `doc.PageInfo` and set `ImageSize` accordingly.
+- **DPI vs. pixel dimensions:** 300 dpi doesn’t guarantee a specific pixel size; it scales the image based on the original page dimensions. If you need exact pixel width/height, calculate it from `doc.GetPageInfo(pageIndex)` (where `pageIndex` is the zero‑based page number) and set `ImageSize` accordingly.
 
 - **Performance tip:** Re‑using the same `ImageSaveOptions` instance for multiple saves (e.g., converting several DOCX files in a loop) reduces allocation overhead.
 

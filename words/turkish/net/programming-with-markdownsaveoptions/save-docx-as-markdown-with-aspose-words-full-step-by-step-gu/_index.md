@@ -256,7 +256,6 @@ Belirli bir denklem türü veya farklı bir çıktı formatı hakkında sorular�
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Docx'i markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [DOCX'ten Markdown Kaydetme – Adım Adım Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [Word Görsellerini Kaydet – Word'ü Aspose ile Markdown'a Dönüştürme](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

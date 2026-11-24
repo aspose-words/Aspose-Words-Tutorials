@@ -216,7 +216,6 @@ Word の数式を LaTeX に変換したり、他のファイル形式を扱う�
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれ、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [LaTeX をエクスポートする方法: DOCX を Markdown と TXT に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [ドキュメントを TXT として保存 – DOCX をプレーンテキストに変換する完全な C# ガイド](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

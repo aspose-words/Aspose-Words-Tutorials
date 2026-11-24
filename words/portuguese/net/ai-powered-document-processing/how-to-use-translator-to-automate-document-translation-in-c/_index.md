@@ -194,7 +194,6 @@ Sinta‑se à vontade para experimentar outros idiomas, adicionar tratamento de 
 
 Os tutoriais a seguir abordam tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Como verificar gramática em DOCX com Aspose.Words – usar gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Como usar Callback em C# – Converter DOCX para Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Documento Word - Como remover conteúdo](/words/english/net/remove-content/)
 

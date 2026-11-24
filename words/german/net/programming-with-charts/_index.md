@@ -46,7 +46,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 {{< tutorial-card link="./update-chart-title/" title="Diagrammtitel aktualisieren und Legenden‑Sichtbarkeit in Word mit Aspose.Words für .NET umschalten" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titel | Beschreibung |
 | --- | --- |
@@ -72,7 +71,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
-| [Diagrammlegende in Word mit C# anzeigen – vollständige Schritt‑für‑Schritt‑Anleitung](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET die Diagrammlegende in Word‑Dokumenten anzeigen. |
 | [Kuchenstück in einem Kreisdiagramm explodieren in C# mit Aspose.Words – Vollständige Anleitung](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie ein einzelnes Kuchenstück in einem Kreisdiagramm mit Aspose.Words für .NET hervorheben und anpassen. |
 | [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
 | [Prozentsätze in Diagrammen mit Aspose.Words C# anzeigen](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Prozentsätze in Diagrammen mit Aspose.Words für .NET anzeigen. |
@@ -85,7 +83,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 
 | [Modifiziertes Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Erfahren Sie, wie Sie ein Word‑Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern. |
 | [Wie man die Bin-Anzahl eines Histogramms festlegt und Datenbeschriftungen zu einem Word-Diagramm in C# hinzufügt](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Erfahren Sie, wie Sie die Bin-Anzahl eines Histogramms festlegen und Datenbeschriftungen in einem Word-Diagramm mit C# hinzufügen. |
-| [Diagrammbeschriftungen programmgesteuert in einem Word‑Dokument mit C# anpassen](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Erfahren Sie, wie Sie Diagrammbeschriftungen in Word‑Dokumenten programmgesteuert mit C# anpassen. |
 | [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen. |
 | [Radar-Diagramm erstellen und in Word einfügen mit C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm erstellen und in ein Word-Dokument einfügen. |
 

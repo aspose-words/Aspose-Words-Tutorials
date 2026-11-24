@@ -102,18 +102,18 @@ Now that the document is in memory, we tell Aspose.Words how we want the PDF to 
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // Enforce PDF/UA‑2 (accessible PDF) compliance.
-    Compliance = PdfCompliance.PdfUAXmpA2,
+    Compliance = PdfCompliance.PdfUa2,
 
     // Optional: embed all fonts to avoid missing glyphs on other machines.
     EmbedFullFonts = true,
 
-    // Optional: preserve the original document's layout exactly.
+    // Optional: preserve Word form fields as interactive PDF form fields.
     PreserveFormFields = true
 };
 ```
 
 **Why this matters:**  
-`PdfCompliance.PdfUAXmpA2` tells the library to embed the necessary tags and structures that screen readers rely on. Without this flag, you might get a perfectly looking PDF that fails an accessibility audit.
+`PdfCompliance.PdfUa2` tells the library to embed the necessary tags and structures that screen readers rely on. Without this flag, you might get a perfectly looking PDF that fails an accessibility audit.
 
 > **Tip:** If you only need a regular PDF, you can drop the `Compliance` line. The rest of the options still give you a high‑quality output.
 
@@ -131,7 +131,7 @@ sourceDoc.Save(outputPath, pdfSaveOptions);
 
 **What you get:**  
 - A PDF file at `outputPath` that mirrors the Word layout.
-- If you used the `PdfUAXmpA2` flag, the PDF will be marked as PDF/UA‑2 compliant.
+- If you used the `PdfCompliance.PdfUa2` flag, the PDF will be marked as PDF/UA‑2 compliant.
 - All fonts are embedded, so the file looks identical on any machine.
 
 ### ## Verify the Accessible PDF (Optional but Recommended)
@@ -151,7 +151,7 @@ If the validator reports no errors, you’ve successfully **convert word to pdf*
 | Missing fonts | The source DOCX uses a custom font not installed on the server. | Set `EmbedFullFonts = true` or install the font on the machine. |
 | Large file size | Images are embedded at full resolution. | Use `ImageCompression = PdfImageCompression.Jpeg` and set `JpegQuality` to a lower value. |
 | Broken hyperlinks | Links point to relative paths that don’t exist on the client. | Ensure URLs are absolute or adjust `HyperlinkTarget` property. |
-| Accessibility tags missing | `Compliance` flag not set. | Add `Compliance = PdfCompliance.PdfUAXmpA2` as shown above. |
+| Accessibility tags missing | `Compliance` flag not set. | Add `Compliance = PdfCompliance.PdfUa2` as shown above. |
 
 Keeping these in mind will make your **c# convert docx pdf** routine robust and production‑ready.
 
@@ -177,7 +177,7 @@ class Program
         // 2️⃣ Set up PDF save options to enforce PDF/UA‑2 compliance.
         PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfUAXmpA2, // makes the PDF accessible
+            Compliance = PdfCompliance.PdfUa2, // makes the PDF accessible
             EmbedFullFonts = true,                // avoids missing glyphs
             PreserveFormFields = true
         };

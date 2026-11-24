@@ -173,7 +173,6 @@ for filename in os.listdir(source_dir):
 
 - [如何从 Word 保存为 Markdown – 完整 Python 指南](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 公式）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-- [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

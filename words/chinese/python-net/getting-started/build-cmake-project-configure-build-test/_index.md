@@ -157,8 +157,6 @@ cmake -E chdir "$BUILD" ctest --verbose
 
 以下教程与本指南紧密相关，进一步扩展了本篇中演示的技巧。每个资源都提供完整可运行的代码示例以及逐步解释，帮助你掌握更多 API 功能，并在自己的项目中探索替代实现方式。
 
-- [How to Export LaTeX from Word – Step‑by‑Step Guide](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
-- [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [How to Display Aspose.Words Version in Python and .NET&#58; A Step-by-Step Guide](/words/english/python-net/document-properties-metadata/display-aspose-words-version-python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

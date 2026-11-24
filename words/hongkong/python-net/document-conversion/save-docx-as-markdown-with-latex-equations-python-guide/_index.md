@@ -242,8 +242,6 @@ python convert.py MathDocument.docx MathExport.md
 以下教學涵蓋與本指南緊密相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [如何從 Word 儲存 Markdown – 完整 Python 教學](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [如何從 DOCX 儲存 Markdown – 步驟教學](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

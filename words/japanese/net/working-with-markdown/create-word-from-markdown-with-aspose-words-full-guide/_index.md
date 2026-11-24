@@ -242,9 +242,7 @@ namespace MarkdownToWordDemo
 
 以下のチュートリアルは、本ガイドで示した手法を応用した、密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを検討したりするのに役立ちます。
 
-- [Word から LaTeX をエクスポートする方法 – DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
 - [Word の画像を保存 – Aspose を使って Word を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [アクセシブル PDF を作成し、Word を Markdown に変換 – 完全 C# ガイド](/words/english/net/programming-with-markdownsaveoptions/create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -114,7 +114,7 @@ Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 ```
 
 **Why this matters:**  
-The `Document` class represents the entire Word file in memory. Here the template is loaded once only to check that it opens before you **generate multiple word documents**; `MailMerger.Execute` reads the template file itself for every record.
+The `Document` class represents the entire Word file in memory. Here the template is loaded once only to check that it opens before you **generate multiple word documents**; `MailMerger.Execute` takes the template's file name and writes one output file per call.
 
 ### Step 3: Generate each invoice – call `MailMerger.Execute` for every record
 
@@ -156,7 +156,7 @@ class Program
         };
 
         // Step 2 – load the template once to check that it opens
-        // (MailMerger.Execute reads the template file itself for every record)
+        // (MailMerger.Execute takes the template's file name and writes one file per record)
         Document template = new Document("YOUR_DIRECTORY/InvoiceTemplate.docx");
 
         // Step 3 – generate each invoice
@@ -193,8 +193,8 @@ When you **create invoices from template**, you may encounter a few issues. Belo
 
 If you plan to **batch generate word files** for thousands of records, keep these guidelines in mind:
 
-1. **Keep the template small** – the static `MailMerger.Execute` method reads the template file for every record, so its size is paid once per generated document.
-2. **Parallelise the generation** – because each call to `MailMerger.Execute` works on an independent output file, you can safely run them in parallel.
+1. **Keep the template small** – every call to `MailMerger.Execute` merges the whole template, so a smaller template means less work per generated document.
+2. **Parallelise with care** – each call writes its own output file, but Aspose doesn't document `MailMerger.Execute` as thread‑safe; test the parallel version on your data before relying on it.
 
 ```csharp
 using System.Threading.Tasks;
@@ -212,7 +212,7 @@ Parallel.ForEach(invoiceData, (row, state, index) =>
 ```
 
 **Why this works:**  
-Each iteration creates its own output document, so there are no race conditions. The parallel loop can dramatically reduce total processing time on multi‑core machines.
+Each iteration writes its own output file. Aspose doesn't document whether `MailMerger.Execute` can be called from several threads at once, so test this version on your data before relying on it.
 
 ## Expected results and verification
 

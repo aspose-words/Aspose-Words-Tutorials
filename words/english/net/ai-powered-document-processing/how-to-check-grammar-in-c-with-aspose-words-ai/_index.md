@@ -37,7 +37,7 @@ In this tutorial we’ll walk through the entire process: **how to load docx**, 
 - .NET 6.0 SDK (or any recent .NET version)  
 - Visual Studio 2022 or VS Code – whichever you prefer  
 - Aspose.Words for .NET 23.11 (or newer) – NuGet package `Aspose.Words`  
-- An AI model supported by Aspose.Words AI (e.g., OpenAI, Azure OpenAI, or a self‑hosted compatible model)
+- An API key for a model type Aspose.Words AI supports (`AiModelType`: OpenAI GPT, Google Gemini or Anthropic Claude models), or a self‑hosted OpenAI‑compatible endpoint
 
 If you’ve got those, you’re set. If not, grab the latest Aspose.Words package from NuGet and make sure you have access to a supported AI model.
 
@@ -79,7 +79,8 @@ using Aspose.Words.AI;
 
 // Step 2: Initialise the AI model
 // Choose a model type that matches your subscription or self‑hosted endpoint.
-AiModel model = AiModel.Create(AiModelType.Gpt4OMini);   // replace with the appropriate type
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini)   // replace with the appropriate type
+    .WithApiKey(Environment.GetEnvironmentVariable("API_KEY"));
 Console.WriteLine("AI model initialised successfully.");
 
 // Step 3: Run the grammar check
@@ -214,7 +215,8 @@ namespace GrammarDemo
             try
             {
                 // Replace AiModelType with the one that matches your subscription or self‑hosted model.
-                return AiModel.Create(AiModelType.Gpt4OMini);
+                return AiModel.Create(AiModelType.Gpt4OMini)
+                    .WithApiKey(Environment.GetEnvironmentVariable("API_KEY"));
             }
             catch (Exception ex)
             {
@@ -245,7 +247,7 @@ namespace GrammarDemo
 2. Add Aspose.Words via NuGet: `dotnet add package Aspose.Words`.  
 3. Replace the generated `Program.cs` with the code above.  
 4. Drop an `input.docx` into `C:\Projects\GrammarDemo\`.  
-5. Adjust the `AiModel.Create` call to match the model you intend to use (e.g., Azure OpenAI, OpenAI, or a self‑hosted compatible endpoint).  
+5. Set the `API_KEY` environment variable, and adjust the `AiModelType` in `AiModel.Create` to the model you use (GPT, Gemini or Claude).  
 6. `dotnet run` – you should see the suggestion count printed.
 
 ## Frequently Asked Questions

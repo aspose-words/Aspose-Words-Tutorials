@@ -238,7 +238,6 @@ Teraz możesz wprowadzić Markdown do generatora stron statycznych lub dostarczy
 
 Poniższe samouczki dotyczą ściśle powiązanych tematów, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz szczegółowe wyjaśnienia, pomagające opanować dodatkowe funkcje API i eksplorować alternatywne podejścia w własnych projektach.
 
-- [jak odzyskać docx przy użyciu Aspose.Words – krok po kroku](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Konwersja docx do markdown – eksport równań matematycznych do LaTeX z Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

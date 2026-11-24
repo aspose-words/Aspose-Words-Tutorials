@@ -204,7 +204,6 @@ A: Το Aspose.Words υποστηρίζει το `SaveFormat.MARKDOWN`. Αντι
 
 - [Μετατροπή docx σε txt – Πλήρης Οδηγός για την Αποθήκευση Word ως Απλό Κείμενο](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
 - [Αποθήκευση docx ως txt – Εξαγωγή Word Math σε LaTeX με C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

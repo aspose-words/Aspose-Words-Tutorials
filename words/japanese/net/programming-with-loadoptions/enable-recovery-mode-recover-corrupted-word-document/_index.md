@@ -242,8 +242,6 @@ Recovered document saved to: C:\Temp\recovered.docx
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックをカバーしています。各リソースには、ステップバイステップの解説付きの完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [docx を復元する方法 – リカバリモードの設定と破損した Word ファイルの開き方](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words を使用して docx を復元する方法 – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [破損した Word ファイルの復元 – 破損した DOCX を開きページを取得する完全ガイド](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

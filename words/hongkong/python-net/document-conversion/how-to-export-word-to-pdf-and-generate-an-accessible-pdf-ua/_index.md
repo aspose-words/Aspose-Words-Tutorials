@@ -232,7 +232,6 @@ Saved plain PDF to 'YOUR_DIRECTORY\plain.pdf'.
 以下教學涵蓋與本指南緊密相關的主題，並在此基礎上延伸技術。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [從 Word 建立可存取 PDF – 完整 Aspose.Words 指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
-- [使用 Aspose.Words 於 C# 轉換 Word 為 PDF – 教學](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [匯出 Word 文件結構至 PDF 文件](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

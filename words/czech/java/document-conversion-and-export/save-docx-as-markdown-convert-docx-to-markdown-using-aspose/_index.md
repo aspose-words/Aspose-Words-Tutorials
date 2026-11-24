@@ -212,7 +212,6 @@ Pokud je vše správně propojeno, uvidíte potvrzovací zprávu a soubor Markdo
 
 - [Jak exportovat LaTeX z Wordu: převést DOCX na Markdown a uložit jako PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 - [Převést docx na markdown – Exportovat matematické rovnice do LaTeXu pomocí Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Jak exportovat Markdown z DOCX – Kompletní průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

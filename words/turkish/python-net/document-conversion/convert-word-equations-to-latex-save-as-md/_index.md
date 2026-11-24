@@ -299,7 +299,6 @@ Paylaşmak istediğiniz bir farklılık var mı? Aşağıya bir yorum bırakın,
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Word'ten LaTeX'e Nasıl Dışa Aktarılır: Aspose ile DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [docx'i markdown'a dönüştür – Math Denklemlerini LaTeX'e Aspose.Words ile Dışa Aktar](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Belgeyi Txt Olarak Kaydet – Word Math'i C#'ta LaTeX'e Dışa Aktar](/words/english/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/)
 

@@ -273,7 +273,6 @@ if __name__ == "__main__":
 
 - [將文件另存為 TXT – 匯出 Word 數學快速指南](/words/english/java/document-conversion-and-export/save-document-as-txt-quick-guide-to-exporting-word-math/)
 - [Convert docx to markdown – 匯出數學方程式為 LaTeX（使用 Aspose.Words）](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Export LaTeX from Word – Step‑by‑Step Guide](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

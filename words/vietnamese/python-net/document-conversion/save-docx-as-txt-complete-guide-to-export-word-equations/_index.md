@@ -243,7 +243,6 @@ Có câu hỏi về các trường hợp đặc biệt hoặc cần hỗ trợ t
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ code hoàn chỉnh, kèm theo giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn C# Toàn Diện để Chuyển DOCX sang Văn Bản Thuần](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [Cách Xuất LaTeX từ Word – Hướng Dẫn Từng Bước](/words/english/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/)
 - [Lưu docx dưới dạng markdown – Hướng Dẫn C# Toàn Diện với Phương Trình LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

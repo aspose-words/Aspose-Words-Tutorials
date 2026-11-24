@@ -157,9 +157,7 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
     ResourceSavingCallback = resourceCallback,
 
     // Optional: make the markdown more GitHub‑friendly.
-    ExportImagesAsBase64 = false, // we want separate files, not embedded data URIs.
-    ExportHeadersFooters = true,
-    ExportDocumentProperties = false
+    ExportImagesAsBase64 = false // we want separate files, not embedded data URIs.
 };
 ```
 

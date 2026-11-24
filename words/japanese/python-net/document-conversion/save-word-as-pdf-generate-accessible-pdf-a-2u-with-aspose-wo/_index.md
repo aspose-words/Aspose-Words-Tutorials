@@ -231,7 +231,6 @@ if __name__ == "__main__":
 
 - [Aspose.Words で Word を PDF として保存 – 完全な C# ガイド](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Word からアクセシブルな PDF を作成 – 完全ガイド](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Aspose.Words を使用した C# での Word から PDF への変換 – ガイド](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -233,7 +233,6 @@ Masz więcej pytań dotyczących konwersji równań Word do LaTeX lub obsługi i
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu wraz z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [Jak eksportować LaTeX: konwertuj DOCX do Markdown i TXT](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-convert-docx-to-markdown-txt/)
 - [Zapisz dokument jako TXT – Kompletny przewodnik C# konwertujący DOCX na zwykły tekst](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

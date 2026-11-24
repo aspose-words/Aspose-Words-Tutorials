@@ -170,7 +170,6 @@ if __name__ == "__main__":
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการนำไปใช้แบบทางเลือกในโครงการของคุณ.
 
-- [Aspose.Words – บันทึก docx เป็น txt และส่งออกสมการ Word เป็น LaTeX – คู่มือเต็ม](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [บันทึก docx เป็น txt – ส่งออกสมการเป็น LaTeX ด้วย Aspose.Words](/words/english/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/)
 - [แปลง docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/)
 

@@ -210,8 +210,6 @@ if __name__ == "__main__":
 
 ## สิ่งที่คุณควรเรียนต่อไป?
 
-- [วิธีกู้คืน docx ด้วย Aspose.Words – ขั้นตอนโดยละเอียด](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอน](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

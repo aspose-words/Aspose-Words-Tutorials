@@ -202,8 +202,6 @@ A **how to export latex** elsajátításával egy gyors, megbízható módot nyi
 
 A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan exportáljunk LaTeX-et Wordből: DOCX konvertálása Markdownba Aspose-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-- [Hogyan mentsünk Markdown‑t – Word konvertálása Markdownba & Math exportálása Aspose.Words-szal](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Hogyan exportáljunk LaTeX-et Wordből – Word konvertálása TXT‑be](/words/english/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

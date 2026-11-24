@@ -204,7 +204,6 @@ if __name__ == "__main__":
 以下教學涵蓋與本指南緊密相關的主題，建立在此處示範的技巧之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在專案中探索替代實作方式。
 
 - [精通 Aspose.Words Markdown 載入選項（Python）以提升文件處理](/words/english/python-net/document-operations/aspose-words-markdown-load-options-python/)
-- [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 - [如何從 Word 匯出 LaTeX：將 DOCX 轉換為 Markdown 並儲存為 PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -43,7 +43,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./update-chart-title/" title="Diagramcím frissítése és a jelmagyarázat láthatóságának váltása Word-ben az Aspose.Words for .NET használatával" imgSrc="./update-chart-title/images/thumb.png" >}}
 
-{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words radiális diagram példa: fokozatok engedélyezése C#-ban" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
@@ -51,7 +50,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programozottan állítsa be a diagramcímkéket egy Word-dokumentumban C#-val" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Cím | Leírás |
 | --- | --- |
@@ -73,7 +71,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Jelölje be a többsoros címke igazítását egy diagramban](./tick-multi-line-label-alignment/) | Tanuld meg, hogyan jelölheted be a többsoros feliratok igazítását egy diagramon az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes minden szintű fejlesztő számára. |
 | [Diagram adatcímkéjének testreszabása](./chart-data-label/) | Tanulja meg, hogyan szabhatja testre a diagram adatcímkéit az Aspose.Words for .NET használatával egy lépésről lépésre szóló útmutatóban. Tökéletes .NET fejlesztők számára. |
 | [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
-| [Diagram jelmagyarázat megjelenítése Wordben C#‑val – Teljes lépésről‑lépésre útmutató](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Tanulja meg, hogyan jelenítheti meg a diagram jelmagyarázatát Word dokumentumban C#‑ban, lépésről‑lépésre útmutatóval. |
 | [Egyetlen diagramadatpont testreszabása egy diagramban](./single-chart-data-point/) | Tanulja meg, hogyan szabhatja testre az egydiagramos adatpontokat az Aspose.Words for .NET használatával egy részletes, lépésről lépésre szóló útmutatóban. Tegye egyedi jelölőkkel és méretekkel egyedivé diagramjait. |
 | [Egyetlen diagramsorozat testreszabása egy diagramban](./single-chart-series/) | Ismerje meg, hogyan szabhatja testre egyetlen diagramsorozatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes élmény érdekében. |
 | [Kördiagram szelet szétrobbanása C#-ban az Aspose.Words segítségével – Teljes útmutató](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Tanulja meg, hogyan robbantja szét a kördiagram szeletét C#-ban az Aspose.Words használatával ebben a részletes útmutatóban. |

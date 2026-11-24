@@ -73,7 +73,7 @@ dotnet add package Aspose.Words
 
 ## Step 1: Load the Word document (load word document c#)
 
-The first operation is to open the `.docx` file that holds the histogram. Using `Document.Load` ensures all document parts, including charts, are available in memory.
+The first operation is to open the `.docx` file that holds the histogram. Loading the document reads its content into memory, allowing access to all parts, including charts.
 
 ```csharp
 using Aspose.Words;

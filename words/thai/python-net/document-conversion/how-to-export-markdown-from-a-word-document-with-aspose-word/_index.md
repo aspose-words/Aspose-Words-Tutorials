@@ -196,8 +196,6 @@ print(f"Markdown exported successfully → {OUTPUT_PATH}")
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโครงการของคุณ
 
-- [วิธีส่งออก Markdown จาก DOCX – คู่มือฉบับสมบูรณ์](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
-- [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
 - [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

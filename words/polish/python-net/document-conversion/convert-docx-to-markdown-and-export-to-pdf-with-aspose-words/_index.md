@@ -208,7 +208,6 @@ Masz teraz solidne, kompleksowe rozwiązanie do **convert docx to markdown**, **
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki zaprezentowane w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu oraz wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Recover Corrupted DOCX – Full Guide to Fix, PDF & Markdown Export](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Convert docx to markdown and extract images with Aspose.Words – Complete C# guide](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

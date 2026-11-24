@@ -1,0 +1,7 @@
+Title: How to insert Forms2Ole control in Word using C# and Aspose.Words
+Slug: how-to-insert-forms2ole-control-in-word-using-c-and-aspose-w
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-11-22T12:31:05.454844
+SourceRepo: AI Search API
+Keywords: insert forms2ole control word
+PRNumber: 668

@@ -242,7 +242,6 @@ Aspose.Words は、GitHub 風の markdown テーブルを標準でサポート�
 以下のチュートリアルは、本ガイドで示した手法を応用した、密接に関連するトピックを扱っています。各リソースには、完全に動作するコード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [docx を markdown に変換 – ステップバイステップ C# ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
-- [Word から LaTeX をエクスポートする方法: Aspose を使用して DOCX を markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -230,7 +230,6 @@ Word を Markdown に変換する際に **assets フォルダーを自動的に�
 ## 関連チュートリアル
 
 - [Word 画像の保存 – Aspose を使用した Word から Markdown への変換](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word を Markdown に変換 – 画像を Base64 で埋め込む](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
 - [C# で Word を Markdown に変換 – 画像抽出付きフルガイド](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

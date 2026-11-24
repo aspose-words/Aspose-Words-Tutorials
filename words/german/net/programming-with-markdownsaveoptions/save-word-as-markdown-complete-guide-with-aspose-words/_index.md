@@ -282,7 +282,6 @@ Bereit, das in Ihr eigenes Projekt zu übernehmen? Holen Sie sich den Code, pass
 
 ## Verwandte Tutorials
 
-- [Wie man Markdown aus Word speichert – Komplettanleitung](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word zu Markdown in C# konvertieren – Vollständige Anleitung mit Bildextraktion](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx zu markdown konvertieren – Mathematische Gleichungen nach LaTeX exportieren mit Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

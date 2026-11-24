@@ -218,7 +218,6 @@ namespace PieChartCustomizer
 
 Следующие руководства охватывают тесно связанные темы, которые развивают техники, продемонстрированные в этом руководстве. Каждый ресурс содержит полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как сохранить отредактированный документ в C# с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/)
 - [Обновление данных серии диаграммы в документе Word с помощью Aspose.Words для .NET](/words/english/net/programming-with-charts/modify-chart-series/)
 - [Вставка столбчатой диаграммы в документ Word](/words/english/net/programming-with-charts/insert-column-chart/)
 

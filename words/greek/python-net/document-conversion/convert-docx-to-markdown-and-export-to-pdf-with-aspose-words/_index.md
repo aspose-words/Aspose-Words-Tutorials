@@ -207,7 +207,6 @@ if shape is not None:
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός με χρήση Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός για Διόρθωση, Εξαγωγή PDF & Markdown](/words/english/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/)
 - [Μετατροπή docx σε markdown και εξαγωγή εικόνων με Aspose.Words – Πλήρης οδηγός C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

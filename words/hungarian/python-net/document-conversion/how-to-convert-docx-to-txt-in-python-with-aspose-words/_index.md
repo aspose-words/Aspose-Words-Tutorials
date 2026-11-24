@@ -184,7 +184,6 @@ A fenti lépések elsajátításával **export word document txt**-t végezhet b
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Convert docx to txt – Teljes útmutató a Word egyszerű szövegként mentéséhez](/words/english/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/)
-- [Aspose.Words – DOCX mentése txt-be és Word egyenletek exportálása LaTeX-be – Teljes útmutató](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 - [Word PDF-re útmutató: DOCX konvertálása PDF-be az Aspose.Words segítségével](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

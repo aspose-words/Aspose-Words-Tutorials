@@ -48,7 +48,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# का उपयोग करके Word चार्ट में हिस्टोग्राम बिन काउंट सेट करें और डेटा लेबल जोड़ें" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# के साथ Word दस्तावेज़ में चार्ट लेबल को प्रोग्रामेटिक रूप से समायोजित करें" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | शीर्षक | विवरण |
 | --- | --- |
@@ -75,7 +74,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [चार्ट में डेटा लेबल के लिए डिफ़ॉल्ट विकल्प सेट करें](./default-options-for-data-labels/) | .NET के लिए Aspose.Words का उपयोग करके चार्ट में डेटा लेबल के लिए डिफ़ॉल्ट विकल्प सेट करना सीखें। चार्ट को आसानी से बनाने और कस्टमाइज़ करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें। |
 | [चार्ट में एकल चार्ट डेटा बिंदु को अनुकूलित करें](./single-chart-data-point/) | विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके एकल चार्ट डेटा बिंदुओं को अनुकूलित करना सीखें। अद्वितीय मार्करों और आकारों के साथ अपने चार्ट को बेहतर बनाएँ। |
 | [एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें](./single-chart-series/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में एकल चार्ट श्रृंखला को अनुकूलित करना सीखें। सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-| [C# के साथ Word में चार्ट लेजेंड दिखाएँ – पूर्ण चरण‑दर‑चरण गाइड](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चार्ट लेजेंड कैसे दिखाएँ, सीखें। |
 | [C# में Aspose.Words के साथ पाई चार्ट स्लाइस को विस्फोटित करें – पूर्ण गाइड](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | C# में Aspose.Words का उपयोग करके पाई चार्ट के स्लाइस को अलग‑अलग करने की पूरी प्रक्रिया सीखें। |
 | [C# में Aspose.Words का उपयोग करके पाई चार्ट लेबल जोड़ें – पूर्ण गाइड](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | C# में Aspose.Words के साथ पाई चार्ट के लेबल जोड़ने की पूरी प्रक्रिया सीखें। अपने Word दस्तावेज़ को बेहतर बनाएं। |
 | [Aspose.Words C# के साथ चार्ट में प्रतिशत कैसे दिखाएँ](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words C# का उपयोग करके चार्ट में प्रतिशत मान प्रदर्शित करने की चरण-दर-चरण प्रक्रिया सीखें। |
@@ -84,7 +82,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# के साथ Word लाइन चार्ट में श्रृंखला को फ़ॉर्मेट करें](./how-to-format-series-in-a-word-line-chart-with-c/) | .NET के लिए Aspose.Words का उपयोग करके Word लाइन चार्ट में डेटा श्रृंखला को फ़ॉर्मेट करने की चरण-दर-चरण गाइड। |
 | [Word में Aspose.Words के साथ हिस्टोग्राम बनाना](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words का उपयोग करके Word में हिस्टोग्राम बनाने की चरण-दर-चरण गाइड। |
 | [C# में अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# में Aspose.Words का उपयोग करके अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
-| [Aspose.Words रेडियल चार्ट उदाहरण: C# में ग्रेजुएशन सक्षम करें](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words में रेडियल चार्ट पर ग्रेजुएशन सक्षम करने का चरण-दर-चरण उदाहरण। |
 | [C# में विस्फोटित पाई चार्ट स्लाइस के साथ संशोधित दस्तावेज़ सहेजें](./save-modified-document-with-exploded-pie-chart-slices-in-c/) |  |
 | [Aspose.Words के साथ पाई चार्ट वाला Word दस्तावेज़ बनाएं](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट बनाने की चरण-दर-चरण गाइड। |
 

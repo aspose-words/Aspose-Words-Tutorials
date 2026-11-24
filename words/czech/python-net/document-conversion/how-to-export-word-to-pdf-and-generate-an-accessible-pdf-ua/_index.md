@@ -231,7 +231,6 @@ Nyní víte, jak **export Word to PDF** a vytvořit PDF/UA‑kompatibilní soubo
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Vytvoření přístupného PDF z Word – Kompletní průvodce Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
-- [převod word do pdf v C# pomocí Aspose.Words – Průvodce](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Export struktury Word dokumentu do PDF dokumentu](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
