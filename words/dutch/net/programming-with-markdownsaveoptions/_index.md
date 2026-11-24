@@ -44,7 +44,6 @@ Leer hoe u Markdown opslaat, afbeeldingen extraheert en DOCX converteert met een
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#‑gids.
 
-### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX‑vergelijkingen.
 Leer hoe u LaTeX-inhoud uit een DOCX-bestand exporteert en converteert naar Markdown met Aspose.Words voor .NET.
 

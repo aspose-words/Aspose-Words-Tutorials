@@ -208,7 +208,6 @@ foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 以下教學與本指南所示技術密切相關，能在此基礎上進一步延伸。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [將 docx 儲存為 txt – 使用 C# 匯出 Word 數學為 LaTeX](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [將 docx 儲存為 markdown – 完整 C# 指南與 LaTeX 方程式](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

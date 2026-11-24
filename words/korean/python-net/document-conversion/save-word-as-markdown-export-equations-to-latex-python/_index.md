@@ -173,7 +173,6 @@ for filename in os.listdir(source_dir):
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료는 단계별 설명과 함께 완전한 코드 예제를 제공하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
 - [Word에서 Markdown 저장하기 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -40,7 +40,6 @@
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words ใน C# พร้อมตัวอย่างโค้ดครบถ้วน
 
 แปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย C# และ Aspose.Words
-### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 ### [บันทึก docx เป็น markdown พร้อมสมการ LaTeX – คู่มือ C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extraction/)

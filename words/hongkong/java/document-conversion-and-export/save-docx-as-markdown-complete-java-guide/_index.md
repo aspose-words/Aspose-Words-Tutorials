@@ -243,7 +243,6 @@ public class DocxToMarkdown {
 以下教學涵蓋與本指南緊密相關的主題，建立在所示技術之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通其他 API 功能，並在專案中探索替代實作方式。
 
 - [save docx as markdown – 完整 C# 指南（含圖片抽取）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Save docx as markdown – 完整 C# 指南（含 LaTeX 方程式）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

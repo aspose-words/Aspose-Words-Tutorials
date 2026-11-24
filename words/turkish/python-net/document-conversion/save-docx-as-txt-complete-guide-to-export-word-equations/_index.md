@@ -244,7 +244,6 @@ Got questions about edge cases or need help integrating this into a larger pipel
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [TXT Olarak Belge Kaydet – DOCX'i Düz Metne Dönüştürmek İçin Tam C# Kılavuzu](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
-- [docx'i markdown olarak kaydet – LaTeX Denklemleriyle Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

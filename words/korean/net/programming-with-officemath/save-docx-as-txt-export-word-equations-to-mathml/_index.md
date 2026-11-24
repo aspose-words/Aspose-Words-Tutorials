@@ -295,7 +295,6 @@ We've shown how to **save docx as txt** while preserving every formula, giving y
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [docx를 markdown으로 저장 – LaTeX 방정식이 포함된 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

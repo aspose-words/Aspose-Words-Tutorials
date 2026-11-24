@@ -37,7 +37,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte S
 
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 
-### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [DOCX als Markdown speichern – Vollständige Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-guide-with-latex-equations/)

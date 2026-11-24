@@ -192,7 +192,6 @@ Deneyin, seçenekleri iş akışınıza göre ayarlayın ve Markdown akışına 
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere yakın konuları kapsar ve ek API özelliklerini öğrenmenize, alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri içerir.
 
-- [Save docx as markdown – Complete C# Guide with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 

@@ -255,7 +255,6 @@ Got questions about a particular equation type or a different output format? Dro
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [บันทึก docx เป็น markdown – คู่มือ C# ฉบับสมบูรณ์พร้อมสมการ LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [บันทึกรูปภาพจาก Word – แปลง Word เป็น Markdown ด้วย Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

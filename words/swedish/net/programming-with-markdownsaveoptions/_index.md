@@ -39,7 +39,6 @@ Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑ste
 ### [Konvertera docx till markdown med C# – Komplett guide](./convert-docx-to-markdown-with-c-complete-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
 
-### [Spara docx som markdown – Fullständig C#-guide med LaTeX-ekvationer](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som inkluderar LaTeX‑ekvationer.
 
 ### [Spara docx som markdown – Fullständig guide med LaTeX‑ekvationer](./save-docx-as-markdown-complete-guide-with-latex-equations/)
