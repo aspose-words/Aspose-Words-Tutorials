@@ -31,7 +31,6 @@ Leer hoe u een map maakt in C#, Word-documenten converteert naar Markdown en afb
 
 Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteert met een volledige C#-handleiding.
 
-### [Hoe Markdown te gebruiken: DOCX naar Markdown converteren met LaTeX‑vergelijkingen](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 ### [Hoe Aspose te gebruiken: DOCX naar Markdown converteren met LaTeX‑vergelijkingen](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 

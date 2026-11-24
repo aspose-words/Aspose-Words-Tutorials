@@ -54,7 +54,6 @@ class Program
 | [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Save Word as Markdown with Aspose.Words – Full C# Guide](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words in a comprehensive C# guide. |
 | [Recover Word Document with Aspose.Words – Full Guide](./recover-word-document-with-aspose-words-full-guide/) | Learn how to recover corrupted Word documents using Aspose.Words in C# – full guide. |
-| [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [how to use aspose – Convert DOCX to Markdown with LaTeX Equations](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [How to Use Aspose to Convert DOCX to Markdown with Math Export](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Learn how to convert DOCX to Markdown with Math export using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
