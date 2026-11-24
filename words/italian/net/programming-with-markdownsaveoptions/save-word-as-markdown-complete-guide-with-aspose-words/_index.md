@@ -294,7 +294,6 @@ Pronto a inserirlo nel tuo progetto? Prendi il codice, adatta i percorsi dei fil
 
 ## Tutorial Correlati
 
-- [Come salvare Markdown da Word – Guida completa](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Converti Word in Markdown in C# – Guida completa con estrazione immagini](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

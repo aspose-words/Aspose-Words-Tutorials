@@ -73,7 +73,6 @@
 
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
-### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม](./how-to-save-markdown-from-word-complete-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็มสำหรับการสกัดรูปภาพและแปลง DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)

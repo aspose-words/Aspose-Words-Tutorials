@@ -293,7 +293,6 @@ Jste připraveni nasadit to ve svém projektu? Vezměte kód, upravte cesty k so
 
 ## Related Tutorials
 
-- [Jak uložit Markdown z Wordu – Kompletní průvodce](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Převod Wordu do Markdown v C# – Kompletní průvodce s extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [Převod docx do markdown – Export matematických rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

@@ -273,7 +273,6 @@ EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.BlankLine
 
 ## संबंधित ट्यूटोरियल
 
-- [Word से Markdown सहेजने का तरीका – पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [C# में Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में एक्सपोर्ट करें](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

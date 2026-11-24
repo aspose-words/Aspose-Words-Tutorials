@@ -270,7 +270,6 @@ By default Aspose.Words renders tables as markdown pipe syntax. If you need HTML
 
 ## 関連チュートリアル
 
-- [Word から Markdown を保存する方法 – 完全ガイド](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [C# で Word を Markdown に変換 – 画像抽出付き完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

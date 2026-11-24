@@ -299,7 +299,6 @@ saveOpts.setExportAsHtml(MarkdownExportAsHtml.TABLES_AS_MARKDOWN);
 
 以下教學涵蓋與本指南技術密切相關的主題，並在此基礎上延伸。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [如何從 Word 儲存 Markdown – 完整指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [儲存 Word 圖片 – 使用 Aspose 轉換 Word 為 Markdown](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式為 LaTeX](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

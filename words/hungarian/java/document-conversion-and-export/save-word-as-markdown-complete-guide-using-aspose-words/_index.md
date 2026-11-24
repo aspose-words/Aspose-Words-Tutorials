@@ -301,7 +301,6 @@ Nyugodtan adaptálja a kódot projektjének architektúrájához, és ossza meg 
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
 
-- [Hogyan mentse a Markdown-t Word‑ből – Teljes útmutató](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [Word képek mentése – Word konvertálása Markdownra az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 - [docx konvertálása markdownra – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words‑szal](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

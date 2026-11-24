@@ -293,7 +293,6 @@ Kendi projenize eklemeye hazır mısınız? Kodu alın, dosya yollarını ayarla
 
 ## İlgili Öğreticiler
 
-- [Word'den Markdown Kaydetme – Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 - [C# ile Word'ü Markdown'a Dönüştürme – Görsel Çıkarma İçeren Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 - [docx'i markdown'a Dönüştür – Matematik Denklemlerini LaTeX'e Aktararak Aspose.Words Kullanma](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

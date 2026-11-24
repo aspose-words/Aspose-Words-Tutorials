@@ -207,7 +207,6 @@ Dengan menguasai alur kerja **menyimpan markdown sebagai word**, Anda dapat meng
 
 Tutorial berikut mencakup topik yang sangat terkait dan membangun pada teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah‑per‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Cara Menyimpan Markdown dari Word – Panduan Lengkap](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
