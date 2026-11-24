@@ -74,8 +74,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
     // Enforce PDF/UA‑1 compliance (the official accessibility spec)
     Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: preserve original document layout exactly
-    // (helps when you have complex tables or multi‑column layouts)
+    // Optional: preserve Microsoft Word form fields as interactive fields in the PDF
     PreserveFormFields = true
 };
 ```
@@ -161,7 +160,7 @@ When exported, the PDF will carry the same description.
 
 ### 3. Handling Large Documents
 
-Very large `.docx` files (hundreds of pages) can strain memory. Use the `LoadOptions` with `LoadFormat.Docx` and enable `LoadOptions.LoadFormat` streaming:
+Very large `.docx` files (hundreds of pages) can strain memory. Use `LoadOptions` to specify the format explicitly:
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
@@ -174,10 +173,10 @@ largeDoc.Save(outputPath, pdfSaveOptions);
 If your Word file uses non‑standard fonts, make sure they’re embedded so the PDF renders correctly for all users:
 
 ```csharp
-pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+pdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
 ```
 
-Embedding fonts also prevents fallback to default fonts that might break the reading order.
+Embedding fonts ensures the PDF renders with the intended fonts on any system.
 
 ## Verify the Result
 
