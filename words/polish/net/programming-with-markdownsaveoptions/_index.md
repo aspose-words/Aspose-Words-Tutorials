@@ -234,7 +234,6 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować równania z dokumentu Wo
 ### [Jak zapisać Markdown – Pełny przewodnik z wyodrębnianiem obrazów](./how-to-save-markdown-full-guide-with-image-extraction/)
 Kompletny przewodnik C# pokazujący, jak zapisać pliki Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
 
-### [Usuń puste akapity – konwertuj Word na Markdown w C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Dowiedz się, jak usunąć puste akapity podczas konwersji dokumentów Word do formatu Markdown przy użyciu Aspose.Words w C#.
 
 Kompletny przewodnik C# konwertujący pliki DOCX do formatu Markdown, zawierający przykłady i najlepsze praktyki.

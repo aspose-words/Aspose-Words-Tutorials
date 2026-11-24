@@ -147,7 +147,6 @@ Lépésről‑lépésre bemutatjuk, hogyan hozhat létre Markdown fájlokat Word
 Ismerje meg, hogyan exportálhat Word dokumentumokat Markdownba, miközben megőrzi az alakzatok árnyékait, és PDF/UA kompatibilitást biztosít.
 ### [Markdown fájl létrehozása Wordből – Teljes útmutató az egyenletek exportálásához](./create-markdown-file-from-word-full-guide-to-export-equation/)
 Ismerje meg, hogyan exportálhat egyenleteket Word dokumentumból Markdown fájlba egy teljes C# útmutató segítségével.
-### [Üres bekezdések eltávolítása – Word konvertálása Markdownba C#-ban](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Ismerje meg, hogyan távolíthatja el az üres bekezdéseket a Word dokumentumból, miközben Markdownba konvertálja C#-ban.
 ### [Markdown létrehozása Wordből az Aspose.Words segítségével – Teljes C# útmutató](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Ismerje meg, hogyan hozhat létre Markdown fájlokat Word dokumentumokból az Aspose.Words használatával teljes C# útmutatóban.

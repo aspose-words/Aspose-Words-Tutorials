@@ -255,7 +255,6 @@
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并导出公式，提供完整的 C# 示例和步骤指南。
 
-### [删除空段落 – 在 C# 中将 Word 转换为 Markdown](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 
 使用 Aspose.Words for .NET 在 C# 中删除文档中的空段落，并将 Word 转换为 Markdown，提供完整示例和步骤指南。
 
