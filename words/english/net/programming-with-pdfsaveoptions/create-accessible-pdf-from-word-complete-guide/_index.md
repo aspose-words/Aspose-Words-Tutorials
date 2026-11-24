@@ -64,18 +64,17 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 ## Step 2: Configure PDF Save Options for Accessibility
 
-Now we tell the library to enforce PDF/UA‑1 compliance. This standard treats certain elements (like `<hr>`) as *artifacts*, which improves how assistive technologies interpret the layout.
+Now we tell the library to enforce PDF/UA‑1 compliance. This standard adds the necessary tags, logical reading order, and document‑structure metadata required for accessibility.
 
 ```csharp
 // Create PDF save options and enable PDF/UA‑1 compliance
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // PDF/UA‑1 treats <hr> elements as artifacts, improving accessibility
     Compliance = PdfCompliance.PdfUa1
 };
 ```
 
-*Why it’s essential*: Without setting `PdfCompliance.PdfUa1`, the generated PDF might look fine on screen but will fail an accessibility audit. The compliance flag automatically adds the necessary tags, logical reading order, and document structure metadata.
+*Why it’s essential*: Without setting `PdfCompliance.PdfUa1`, the generated PDF might look fine on screen but will fail an accessibility audit. The compliance flag automatically adds the required tags and structure.
 
 ## Step 3: Save the Document as an Accessible PDF
 
@@ -109,14 +108,30 @@ If you spot a problem, you can adjust the `PdfSaveOptions` further, for example 
 If you’re exposing this functionality via an ASP.NET Core endpoint, remember to stream the PDF back instead of writing to disk:
 
 ```csharp
+using System.IO;
+using Microsoft.AspNetCore.Mvc;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
 [HttpPost("api/convert")]
 public IActionResult ConvertToPdf(IFormFile file)
 {
+    // Load the uploaded DOCX file
     using var stream = file.OpenReadStream();
     Document doc = new Document(stream);
+
+    // Configure PDF save options for PDF/UA‑1 compliance
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+    {
+        Compliance = PdfCompliance.PdfUa1
+    };
+
+    // Save to a memory stream
     using var outStream = new MemoryStream();
     doc.Save(outStream, pdfSaveOptions);
     outStream.Position = 0;
+
+    // Return the PDF file
     return File(outStream, "application/pdf", "result.pdf");
 }
 ```
@@ -127,12 +142,25 @@ Both phrases refer to the same operation, but **export docx to pdf** is often us
 
 ### 3. Handling Large Documents
 
-For massive DOCX files, consider enabling **progress monitoring**:
+For massive DOCX files, consider enabling **progress monitoring**. The `ProgressCallback` property expects an object that implements `IDocumentSavingCallback`:
 
 ```csharp
-pdfSaveOptions.ProgressCallback = (sent, total) =>
+using Aspose.Words.Saving;
+
+class SaveProgressCallback : IDocumentSavingCallback
 {
-    Console.WriteLine($"Saved {sent} of {total} bytes...");
+    public void Update(int progress)
+    {
+        Console.WriteLine($"Saving progress: {progress}%");
+    }
+}
+
+// ...
+
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+{
+    Compliance = PdfCompliance.PdfUa1,
+    ProgressCallback = new SaveProgressCallback()
 };
 ```
 
@@ -140,7 +168,7 @@ This prevents your API from timing out and gives users visual feedback.
 
 ### 4. Preserving Custom Styles
 
-If your Word file uses custom heading styles, they’ll be carried over automatically. However, if you need to map a non‑standard style to a proper PDF heading tag, use the `PdfSaveOptions.CustomHeadingStyle` collection.
+Headings defined with Word’s built‑in styles are automatically mapped to proper PDF heading tags. Currently Aspose.Words does not provide a dedicated API to map non‑standard styles to specific PDF heading levels.
 
 ## Full Working Example
 
