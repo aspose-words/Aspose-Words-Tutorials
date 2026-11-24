@@ -234,7 +234,6 @@ public class WordToMarkdownDemo {
 以下教學涵蓋與本指南示範技術密切相關的主題。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [在 C# 中將 Word 轉換為 Markdown – 完整指南與圖片擷取](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-- [如何從 Word 儲存 Markdown – 完整 C# 指南](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

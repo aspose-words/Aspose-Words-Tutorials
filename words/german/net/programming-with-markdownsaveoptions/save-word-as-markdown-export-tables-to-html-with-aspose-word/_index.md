@@ -274,7 +274,6 @@ Wenn Sie auf Probleme stoßen, hinterlassen Sie einen Kommentar unten oder werfe
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
 - [How to Export Markdown from Word – Complete C# Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/)
-- [How to Save Markdown from Word – Complete C# Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/)
 - [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
