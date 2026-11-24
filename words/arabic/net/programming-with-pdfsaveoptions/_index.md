@@ -82,7 +82,6 @@
 | [كيفية حفظ PDF من DOCX باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | تعلم كيفية تحويل مستند DOCX إلى PDF باستخدام Aspose.Words خطوة بخطوة. |
 | [كيفية حفظ PDF من Word باستخدام C# – دليل شامل](./how-to-save-pdf-from-word-in-c-complete-guide/) |تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام C# مع Aspose.Words خطوة بخطوة. |
 | [حفظ المستند كملف PDF في C# – دليل كامل](./save-document-as-pdf-in-c-complete-guide/) | تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose.Words لـ .NET في C# مع شرح شامل للخيارات المتقدمة. |
-| [إنشاء ملف PDF قابل للوصول – تحويل Word إلى PDF باستخدام C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام C# و Aspose.Words. |
 | [حفظ المستند كملف PDF باستخدام Aspose.Words – دليل C# كامل](./save-document-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لحفظ المستندات كملفات PDF باستخدام Aspose.Words في بيئة C#. |
 | [حفظ Word كملف PDF – دليل كامل مع إمكانية الوصول](./save-word-as-pdf-complete-guide-with-accessibility/) |دليل شامل خطوة بخطوة لتحويل ملفات Word إلى PDF مع مراعاة إمكانية الوصول وفق معايير WCAG. |
 | [إنشاء ملف PDF/UA متوافق من Word – دليل تصدير كامل](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |دليل شامل خطوة بخطوة لتصدير ملفات PDF/UA متوافقة من مستندات Word باستخدام Aspose.Words لـ .NET. |

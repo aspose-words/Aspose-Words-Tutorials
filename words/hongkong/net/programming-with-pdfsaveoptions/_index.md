@@ -48,7 +48,6 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [使用 Aspose Words 將 Word 儲存為 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) |一步步教學，使用 Aspose.Words 於 C# 中將 Word 文件完整轉換為 PDF。 |
 | [使用 Aspose.Words 將 docx 另存為 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.Words 將 docx 檔案轉換為高品質 PDF。 |
 | [使用 C# 從 Word 建立可存取的 PDF – 步驟指南](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) |了解如何使用 Aspose.Words for .NET 以 C# 從 Word 文件生成符合可存取性標準的 PDF。 |
-| [建立可存取的 PDF – 使用 C# 將 Word 轉換為 PDF](./create-accessible-pdf-convert-word-to-pdf-with-c/) |使用 Aspose.Words for .NET 以 C# 將 Word 文件轉換為符合可存取性標準的 PDF，完整步驟指南。 |
 | [在 C# 中建立可存取的 PDF – PDF 可存取性教學](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) |使用 Aspose.Words for .NET 在 C# 中建立符合可存取性標準的 PDF 文件。 |
 | [在 C# 中為 PDF 加上可存取性標記 – 完整指南](./tag-pdf-for-accessibility-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.Words for .NET 在 C# 中為 PDF 添加可存取性標記。 |
 | [在 C# 中建立可存取的 PDF – 逐步指南](./create-accessible-pdf-in-c-step-by-step-guide/) |使用 Aspose.Words for .NET 在 C# 中建立符合可存取性標準的 PDF，遵循本逐步指南完成設定。 |
