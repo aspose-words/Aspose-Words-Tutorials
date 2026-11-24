@@ -74,14 +74,14 @@ Aspose.Words lets you decide how Office Math should be rendered. By default it t
 MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
     // This is the key line: export Office Math as LaTeX.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex,
 
     // Optional: keep non‑math images at a decent DPI.
     ImageResolution = 300
 };
 ```
 
-*Why `OfficeMathExportMode.LaTeX`?* LaTeX is the lingua franca of scientific publishing. When you later render the markdown with a static‑site generator or a Jupyter notebook, the equations will appear crisp at any zoom level.
+*Why `MarkdownOfficeMathExportMode.Latex`?* LaTeX is the lingua franca of scientific publishing. When you later render the markdown with a static‑site generator or a Jupyter notebook, the equations will appear crisp at any zoom level.
 
 ---
 
@@ -175,7 +175,7 @@ namespace WordToMarkdown
             // 3️⃣ Configure Markdown save options.
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX, // export equations to latex
+                OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex, // export equations to latex
                 ImageResolution = 300                              // set markdown image resolution
             };
 
