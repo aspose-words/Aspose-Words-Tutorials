@@ -228,7 +228,6 @@ Sẵn sàng tự động hoá quy trình tài liệu của bạn? Hãy thử chu
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với trích xuất hình ảnh](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Lưu docx dưới dạng markdown với Aspose.Words – Hướng dẫn C# đầy đủ](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 - [Chuyển đổi tệp Docx sang Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

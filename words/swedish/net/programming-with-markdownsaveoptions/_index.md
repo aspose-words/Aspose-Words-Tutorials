@@ -101,7 +101,6 @@ Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-fil
 
 Lär dig konvertera DOCX-filer till Markdown och exportera ekvationer med en komplett guide i C#.
 
-### [Spara docx som markdown med Aspose.Words – Fullständig C#-guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 Lär dig spara DOCX som Markdown med en komplett C#‑guide som använder Aspose.Words.
 
 ### [Spara DOCX som Markdown med Aspose.Words – Fullständig steg‑för‑steg‑guide](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)

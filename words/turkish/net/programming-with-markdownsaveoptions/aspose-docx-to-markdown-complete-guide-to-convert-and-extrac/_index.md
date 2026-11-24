@@ -270,7 +270,6 @@ Herhangi bir sorunla karşılaşırsanız, yorum bırakmaktan veya Aspose foruml
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve ilgili konuları derinlemesine ele alan tam çalışan kod örnekleri içerir. Her biri adım adım açıklamalarla API özelliklerini daha iyi kavramanızı ve projelerinizde alternatif uygulama yaklaşımları denemenizi sağlar.
 
-- [Save docx as markdown with Aspose.Words – Full C# Guide](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
