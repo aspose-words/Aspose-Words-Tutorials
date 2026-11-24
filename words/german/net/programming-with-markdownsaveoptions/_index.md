@@ -23,7 +23,6 @@
 | --- | --- |
 | [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für perfekte Markdown‑Tabellen. |
 | [Bilderordner festlegen](./set-images-folder/) Konvertieren Sie Word-Dokumente mit Aspose.Words für .NET in Markdown mit korrekter Tabellenausrichtung. Folgen Sie unserer ausführlichen Anleitung für perfekte Ergebnisse. |
-| [Markdown als Word speichern – Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Erfahren Sie, wie Sie Markdown-Dateien mit Aspose.Words für .NET in Word-Dokumente konvertieren – komplette Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler. |
 
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word‑Dokumente als PDF speichern, beschädigte Word‑Dateien wiederherstellen und sie in Markdown konvertieren.
