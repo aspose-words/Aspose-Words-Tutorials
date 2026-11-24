@@ -50,7 +50,7 @@ Before we dive in, make sure you have:
 
 | Requirement | Reason |
 |-------------|--------|
-| **Aspose.Words for .NET** (v24.5 or later) | Provides `TxtSaveOptions` and the `OfficeMathExportMode` enum. |
+| **Aspose.Words for .NET** (v24.5 or later) | Provides `TxtSaveOptions` and the `TxtOfficeMathExportMode` enum. |
 | **.NET 6.0+** (or .NET Framework 4.7.2+) | Required runtime for the library. |
 | A sample **.docx** containing at least one equation | To see the LaTeX conversion in action. |
 | Visual Studio 2022 (or any IDE you prefer) | For easy project setup. |
@@ -95,7 +95,7 @@ Now we tell Aspose that when we **save docx as txt**, any math should be emitted
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This flag converts Word equations to LaTeX syntax
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 ```
 
@@ -151,7 +151,7 @@ namespace DocxToTxtWithLatex
             // 2️⃣ Configure save options to export math as LaTeX
             TxtSaveOptions txtOptions = new TxtSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX
+                OfficeMathExportMode = TxtOfficeMathExportMode.Latex
             };
 
             // 3️⃣ Save as .txt
@@ -183,7 +183,7 @@ The library currently uses inline `$…$` for inline equations and `$$…$$` for
 Yes—Aspose.Words for .NET is cross‑platform when running on .NET 6+. Just adjust the file paths to use forward slashes or `Path.Combine`.
 
 ### 5. How does this differ from a plain **convert word to txt** using Word Interop?
-Word Interop can strip out Office Math entirely, leaving you with garbled characters. Aspose’s `OfficeMathExportMode.LaTeX` preserves the mathematical meaning, which is essential for scientific workflows.
+Word Interop can strip out Office Math entirely, leaving you with garbled characters. Aspose’s `TxtOfficeMathExportMode.Latex` preserves the mathematical meaning, which is essential for scientific workflows.
 
 ---
 
