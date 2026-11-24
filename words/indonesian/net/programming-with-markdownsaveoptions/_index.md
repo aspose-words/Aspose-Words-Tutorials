@@ -103,7 +103,6 @@ Pelajari cara mengekspor persamaan LaTeX dari dokumen Word dan mengonversinya me
 Pelajari cara menentukan ekstensi file yang tepat saat mengonversi DOCX ke Markdown menggunakan Aspose.Words untuk .NET.
 ### [Simpan gambar Word saat mengonversi Word ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Pelajari cara menyimpan gambar dari dokumen Word saat mengonversinya ke format Markdown dengan panduan lengkap C#.
-### [Cara Mengekspor Markdown dari DOCX – Panduan Langkah‑demi‑Langkah Lengkap](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah demi langkah yang lengkap.
 ### [Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
