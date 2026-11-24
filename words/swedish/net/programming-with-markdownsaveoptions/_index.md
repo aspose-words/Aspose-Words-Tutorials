@@ -88,7 +88,6 @@ Lär dig skapa Markdown från Word med Aspose i en detaljerad steg‑för‑steg
 
 ### [Hur man exporterar Markdown från DOCX med bilder – Fullständig guide](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
-### [Hur man exporterar Markdown från DOCX – Fullständig steg‑för‑steg‑guide](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown med Aspose.Words för .NET.
 
