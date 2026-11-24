@@ -202,7 +202,6 @@ Bon codage, et gardez vos PDF accessibles !
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
 - [Convertir docx en pdf – Guide complet pour les PDF accessibles](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Créer un PDF accessible à partir de Word – Guide complet Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Créer un PDF accessible – Convertir Word en PDF Accessibilité](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

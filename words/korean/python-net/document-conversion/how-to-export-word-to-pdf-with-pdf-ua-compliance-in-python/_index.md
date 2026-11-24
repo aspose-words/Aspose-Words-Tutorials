@@ -154,7 +154,6 @@ print("Is PDF/UA compliant?", pdf_doc.is_compliant(ap.pdf.PdfCompliance.PDF_UA_1
 
 - [Word에서 PDF 만들기 – Aspose.Words와 함께하는 완전한 Python 가이드](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Python으로 Word에서 접근성 PDF 만들기 – 단계별 가이드](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Word에서 접근성 PDF 만들기 – 완전한 Aspose.Words 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -157,7 +157,6 @@ A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek 
 
 - [PDF létrehozása Wordből – Teljes Python útmutató az Aspose.Words használatával](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Akadálymentes PDF létrehozása Wordből Python segítségével – Lépésről‑lépésre útmutató](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Akadálymentes PDF létrehozása Wordből – Teljes Aspose.Words útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
