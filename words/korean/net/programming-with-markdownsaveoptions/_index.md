@@ -26,7 +26,6 @@
 | [Word를 Markdown으로 변환하기 위한 Assets 폴더 만들기](./create-assets-folder-for-convert-word-to-markdown/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환할 때 필요한 assets 폴더를 생성하고 구성하는 방법을 단계별로 안내합니다. |
 | [이미지 포함 마크다운 내보내기를 위한 사용자 정의 이미지 폴더 – 전체 가이드](./custom-image-folder-for-export-markdown-with-images-complete/) | Aspose.Words for .NET을 사용하여 이미지가 포함된 마크다운을 내보낼 때 사용자 정의 이미지 폴더를 설정하는 전체 가이드 |
 | [사용자 지정 이미지 폴더로 Word를 Markdown으로 저장 – 전체 가이드](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Aspose.Words for .NET을 사용하여 사용자 지정 이미지 폴더를 설정하고 Word 문서를 Markdown으로 저장하는 전체 가이드 |
-| [Word를 PDF로 저장하고 손상된 Word 복구 – C#에서 Word를 Markdown으로 변환](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Word를 Markdown으로 저장 – DOCX 변환 및 이미지 추출 전체 가이드](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 이미지 추출까지 포함하는 전체 가이드 |
 | [docx를 markdown으로 변환 – 단계별 C# 가이드](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 단계별 C# 가이드 |
 | [C#로 docx를 markdown으로 변환 – 전체 가이드](./convert-docx-to-markdown-with-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#로 docx 파일을 markdown으로 변환하는 전체 단계별 가이드 |
