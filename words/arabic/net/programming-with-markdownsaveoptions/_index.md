@@ -68,7 +68,6 @@
 
 ### [حفظ docx كـ markdown واستخراج الصور – دليل C#](./save-docx-as-markdown-extract-images-c-guide/)
 
-### [كيفية حفظ Markdown – دليل C# كامل](./how-to-save-markdown-complete-c-guide/)
 
 ### [تحويل DOCX إلى Markdown – دليل كامل باستخدام Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

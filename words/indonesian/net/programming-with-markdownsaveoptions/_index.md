@@ -85,7 +85,6 @@ Pelajari cara mengatur folder khusus untuk menyimpan gambar saat mengekspor doku
 Pelajari cara mengonversi dokumen Word ke Markdown dengan ekstraksi gambar lengkap menggunakan C#.
 ### [Simpan docx sebagai markdown & ekstrak gambar – Panduan C#](./save-docx-as-markdown-extract-images-c-guide/)
 Pelajari cara menyimpan file DOCX sebagai Markdown dan mengekstrak gambar menggunakan C#.
-### [Cara Menyimpan Markdown – Panduan Lengkap C#](./how-to-save-markdown-complete-c-guide/)
 Pelajari cara menyimpan dokumen sebagai Markdown dengan panduan lengkap C#.
 ### [Konversi DOCX ke Markdown – Panduan Lengkap Menggunakan Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Panduan lengkap untuk mengonversi file DOCX ke format Markdown dengan Aspose.Words untuk .NET.

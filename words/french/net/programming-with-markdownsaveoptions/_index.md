@@ -128,7 +128,6 @@ Apprenez à exporter des fichiers DOCX en Markdown avec un guide complet en C#.
 
 ### [Enregistrer docx en markdown – Guide C# avec extraction d'images](./save-docx-as-markdown-extract-images-c-guide/)
 
-### [Comment enregistrer le Markdown – Guide complet C#](./how-to-save-markdown-complete-c-guide/)
 
 ### [Convertir DOCX en Markdown – Guide complet avec Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

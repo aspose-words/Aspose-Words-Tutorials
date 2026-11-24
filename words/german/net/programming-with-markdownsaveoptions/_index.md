@@ -126,7 +126,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 ### [DOCX nach Markdown exportieren in C# – Vollständige Anleitung](./export-docx-to-markdown-in-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
-### [Wie man Markdown speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown mit Aspose.Words für .NET in C# vollständig speichern – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [Markdown als DOCX speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-markdown-as-docx-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Markdown-Dateien in DOCX konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.

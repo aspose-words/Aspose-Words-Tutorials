@@ -133,7 +133,6 @@
 ### [将 Word 转换为 markdown – 完整 C# 指南（含图像提取）](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和详细步骤指南。
-### [如何保存 Markdown – 完整 C# 指南](./how-to-save-markdown-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将文档保存为 Markdown，提供完整的 C# 示例和分步指南。
 ### [如何在 C# 中使用回调 – 将 DOCX 转换为 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)

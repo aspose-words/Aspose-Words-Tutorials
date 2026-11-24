@@ -128,7 +128,6 @@
 
 ### [บันทึก docx เป็น markdown – คู่มือ C# สกัดรูปภาพ](./save-docx-as-markdown-extract-images-c-guide/)
 
-### [วิธีบันทึก Markdown – คู่มือเต็ม C#](./how-to-save-markdown-complete-c-guide/)
 
 ### [แปลง DOCX เป็น Markdown – คู่มือเต็มโดยใช้ Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
