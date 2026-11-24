@@ -183,7 +183,6 @@ python convert_docx.py
 
 - [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Πώς να Εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Πώς να Αποθηκεύσετε Markdown – Μετατροπή Word σε Markdown & Εξαγωγή Μαθηματικών με Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

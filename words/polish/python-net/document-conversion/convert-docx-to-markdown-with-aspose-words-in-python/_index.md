@@ -185,7 +185,6 @@ Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Jak wyeksportować LaTeX z Worda – konwertuj DOCX na Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Jak zapisać Markdown – konwertuj Word na Markdown i eksportuj matematykę przy użyciu Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

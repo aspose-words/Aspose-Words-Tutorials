@@ -185,7 +185,6 @@ python convert_docx.py
 
 - [Восстановление повреждённого DOCX и конвертация Word в Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Как экспортировать LaTeX из Word — конвертация DOCX в Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Как сохранить Markdown — конвертация Word в Markdown и экспорт математики с Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

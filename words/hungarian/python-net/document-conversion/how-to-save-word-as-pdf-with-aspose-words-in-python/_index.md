@@ -238,7 +238,6 @@ Nyugodtan kísérletezzen a beállításokkal, és ossza meg eredményeit. Boldo
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthassa a további API‑funkciókat, és alternatív megvalósítási megközelítéseket fedezhessen fel saját projektjeiben.
 
 - [Word to PDF oktatóanyag: DOCX konvertálása PDF‑re az Aspose.Words segítségével](/words/english/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/)
-- [Hogyan mentse a Markdown‑ot – Word konvertálása Markdown‑ra és matematikai elemek exportálása az Aspose.Words segítségével](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 - [Hogyan exportáljon LaTeX‑et Word‑ből: DOCX konvertálása Markdown‑ra és mentés PDF‑ként](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

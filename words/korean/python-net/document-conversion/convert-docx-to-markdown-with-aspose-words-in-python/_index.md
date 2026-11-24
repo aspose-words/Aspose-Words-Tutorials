@@ -184,7 +184,6 @@ python convert_docx.py
 
 - [손상된 DOCX 복구 및 Word를 Markdown으로 변환](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Markdown 저장 방법 – Word를 Markdown으로 변환 및 Aspose.Words로 수식 내보내기](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

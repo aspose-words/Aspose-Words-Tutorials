@@ -101,7 +101,6 @@
 
 ### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
 
-### [كيفية حفظ Markdown – تحويل Word إلى Markdown وتصدير الرياضيات باستخدام Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 ### [إنشاء مجلد C# – تحويل Word إلى Markdown واستخراج الصور](./create-folder-c-convert-word-to-markdown-extract-images/)
 

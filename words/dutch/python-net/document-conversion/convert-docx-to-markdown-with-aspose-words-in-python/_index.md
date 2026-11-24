@@ -182,7 +182,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Corrupt DOCX herstellen & Word naar Markdown converteren](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Markdown opslaan – Word naar Markdown converteren & wiskunde exporteren met Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

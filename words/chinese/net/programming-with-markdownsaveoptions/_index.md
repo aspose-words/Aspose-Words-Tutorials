@@ -152,7 +152,6 @@
 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，帮助您确定正确的文件扩展名的完整指南。
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整的 C# 示例和分步指南。
-### [如何保存 Markdown – 将 Word 转换为 Markdown 并导出数学公式（使用 Aspose.Words）](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并导出 LaTeX 数学公式，提供完整示例和分步指南。
 

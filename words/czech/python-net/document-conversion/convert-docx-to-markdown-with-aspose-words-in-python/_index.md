@@ -182,7 +182,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Obnovit poškozený DOCX a převést Word na Markdown](/words/english/python-net/document-conversion/recover-corrupted-docx-convert-word-to-markdown/)
 - [Jak exportovat LaTeX z Wordu – převést DOCX na Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Jak uložit Markdown – převést Word na Markdown a exportovat matematiku pomocí Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
