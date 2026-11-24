@@ -126,7 +126,6 @@ Pelajari cara mengonversi dokumen Word ke Markdown dengan panduan lengkap menggu
 ### [Buat folder aset dan konversi DOCX ke Markdown dengan Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
 Pelajari cara membuat folder aset dan mengonversi file DOCX ke format Markdown menggunakan Aspose.Words.
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap menggunakan Aspose.Words dan C#.
-### [Simpan Word sebagai Markdown – Panduan Lengkap Mengonversi Word ke Markdown & Ekstrak Gambar](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 Pelajari cara mengonversi dokumen Word ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap menggunakan Aspose.Words dan C#.
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap termasuk penanganan paragraf kosong.
