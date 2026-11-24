@@ -54,7 +54,7 @@ If you haven’t installed Aspose.Words yet, run:
 dotnet add package Aspose.Words
 ```
 
-That one‑liner pulls in everything you need, including the `OfficeMathExportMode` enum we’ll use later.
+That one‑liner pulls in everything you need, including the `TxtOfficeMathExportMode` enum we’ll use later.
 
 ## Step 1: Load the Word Document and Prepare the Save Options
 
@@ -76,7 +76,7 @@ class Program
         TxtSaveOptions txtOpts = new TxtSaveOptions
         {
             // This flag tells Aspose.Words to turn each equation into its LaTeX representation.
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex
         };
 ```
 
@@ -110,28 +110,34 @@ Another paragraph with an inline equation \(a^2 + b^2 = c^2\).
 
 Notice the LaTeX delimiters (`\[` … `\]` for display equations, `\(` … `\)` for inline). That’s exactly what the `convert word equations latex` step produced.
 
-## Step 3: (Optional) Extract Only the Equations to a Separate .txt File
+## Optional: Extract Only the Equations
 
-Sometimes you only care about the equations themselves. You can post‑process the generated text, or you can let Aspose.Words give you the raw LaTeX strings directly via the `NodeCollection` API. Here’s a quick way to write **only the equations** into a second file:
+If you need a file that contains **only** the LaTeX equations, you can post‑process the `Equations.txt` file generated in the previous step. For example, read the file line‑by‑line and keep only the lines that start with `\[` or `\(`. This approach works because the LaTeX delimiters are unique in the output.
 
 ```csharp
-        // Collect all LaTeX equations from the document.
-        var latexEquations = new System.Text.StringBuilder();
+using System.IO;
+using System.Text;
 
-        foreach (Node node in doc.GetChildNodes(NodeType.OfficeMath, true))
-        {
-            // Convert each OfficeMath node to LaTeX.
-            string latex = node.ToString(SaveFormat.LaTeX);
-            latexEquations.AppendLine(latex);
-        }
+// ...
 
-        // Save the equations to a dedicated txt file.
-        System.IO.File.WriteAllText(@"YOUR_DIRECTORY/OnlyEquations.txt", latexEquations.ToString());
+// Read the full text file.
+string[] lines = File.ReadAllLines(@"YOUR_DIRECTORY/Equations.txt");
 
-        Console.WriteLine("✅ Extracted equations saved to OnlyEquations.txt");
+// Filter lines that contain LaTeX equations.
+var equationLines = new StringBuilder();
+foreach (string line in lines)
+{
+    if (line.StartsWith(@"\[") || line.StartsWith(@"\("))
+        equationLines.AppendLine(line);
+}
+
+// Save the equations to a dedicated txt file.
+File.WriteAllText(@"YOUR_DIRECTORY/OnlyEquations.txt", equationLines.ToString());
+
+Console.WriteLine("✅ Extracted equations saved to OnlyEquations.txt");
 ```
 
-**Why you might do this:** If you feed the equations into a separate LaTeX compiler, a static‑site generator, or a machine‑learning pipeline, a clean list of LaTeX strings is often more convenient than a mixed document.
+**Why you might do this:** A clean list of LaTeX strings is often more convenient when feeding the equations into a LaTeX compiler, a static‑site generator, or a machine‑learning pipeline.
 
 ## Common Pitfalls & Pro Tips
 
@@ -161,6 +167,7 @@ If the LaTeX looks off, make sure the source Word file actually uses the built�
 
 ```csharp
 using System;
+using System.IO;
 using System.Text;
 using Aspose.Words;
 using Aspose.Words.Saving;
@@ -175,23 +182,23 @@ class ExportLatexDemo
         // 2️⃣ Configure TxtSaveOptions so OfficeMath becomes LaTeX.
         TxtSaveOptions txtOpts = new TxtSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
+            OfficeMathExportMode = TxtOfficeMathExportMode.Latex
         };
 
         // 3️⃣ Save the whole document as plain text (includes LaTeX equations).
         doc.Save(@"YOUR_DIRECTORY/Equations.txt", txtOpts);
         Console.WriteLine("✅ Document saved as plain text with LaTeX equations.");
 
-        // 4️⃣ (Optional) Extract only the LaTeX equations.
-        StringBuilder latexEquations = new StringBuilder();
-
-        foreach (Node node in doc.GetChildNodes(NodeType.OfficeMath, true))
+        // 4️⃣ (Optional) Extract only the LaTeX equations from the saved text file.
+        string[] lines = File.ReadAllLines(@"YOUR_DIRECTORY/Equations.txt");
+        var equationLines = new StringBuilder();
+        foreach (string line in lines)
         {
-            string latex = node.ToString(SaveFormat.LaTeX);
-            latexEquations.AppendLine(latex);
+            if (line.StartsWith(@"\[") || line.StartsWith(@"\("))
+                equationLines.AppendLine(line);
         }
 
-        System.IO.File.WriteAllText(@"YOUR_DIRECTORY/OnlyEquations.txt", latexEquations.ToString());
+        File.WriteAllText(@"YOUR_DIRECTORY/OnlyEquations.txt", equationLines.ToString());
         Console.WriteLine("✅ Extracted equations saved to OnlyEquations.txt");
     }
 }
