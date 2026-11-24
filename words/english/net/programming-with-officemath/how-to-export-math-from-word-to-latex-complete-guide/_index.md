@@ -93,7 +93,7 @@ Now that the document is in memory, we need to tell the saver **exactly** how we
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
     // This flag forces every OfficeMath element to be emitted as LaTeX code
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
 
     // Optional: keep line breaks as they appear in the original document
     PreserveTableLayout = true,
@@ -103,7 +103,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 };
 ```
 
-> **Explanation:** `OfficeMathExportMode.LaTeX` converts the internal MathML representation into clean LaTeX strings. If you leave this property at its default (`Text`), you’ll get the human‑readable version, which defeats the purpose of **export word math latex**.
+> **Explanation:** `TxtOfficeMathExportMode.Latex` exports OfficeMath as LaTeX code. If you leave this property at its default (`Text`), you’ll get the human‑readable version, which defeats the purpose of **export word math latex**.
 
 ---
 
@@ -152,7 +152,7 @@ namespace WordMathExport
             // -------------------------------------------------
             TxtSaveOptions txtOptions = new TxtSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
                 PreserveTableLayout = true,
                 Encoding = System.Text.Encoding.UTF8
             };
@@ -207,7 +207,7 @@ Console.WriteLine(containsMath
 | Pitfall | Why it Happens | Fix |
 |---------|----------------|-----|
 | **LaTeX symbols appear escaped** (e.g., `\` becomes `\\`) | Wrong encoding or double‑escaping when writing to a file. | Ensure `Encoding = UTF8` and avoid manual string concatenation that adds extra backslashes. |
-| **Equations are missing** | `OfficeMathExportMode` left at default (`Text`). | Set `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. |
+| **Equations are missing** | `OfficeMathExportMode` left at default (`Text`). | Set `OfficeMathExportMode = TxtOfficeMathExportMode.Latex`. |
 | **Large documents cause OutOfMemory** | Loading the whole document into memory without streaming. | Use `LoadOptions` with `LoadFormat.Docx` and process sections/pages individually if you hit memory limits. |
 | **Special characters in file paths** | Windows path handling issues. | Prefix the string with `@` (verbatim) or use `Path.Combine`. |
 
@@ -238,7 +238,7 @@ Now you have a **convert Word equations LaTeX** pipeline that ends with a ready�
 
 ## Conclusion
 
-We’ve covered **how to export math** from a Word document to LaTeX using C#, demonstrated the exact steps to **convert Word equations LaTeX**, and shown how to **save Word plain text** while preserving those equations. The core idea is simple: load the document, configure `TxtSaveOptions` with `OfficeMathExportMode.LaTeX`, and save. From there you can expand into full LaTeX projects or integrate the process into larger automation pipelines.
+We’ve covered **how to export math** from a Word document to LaTeX using C#, demonstrated the exact steps to **convert Word equations LaTeX**, and shown how to **save Word plain text** while preserving those equations. The core idea is simple: load the document, configure `TxtSaveOptions` with `TxtOfficeMathExportMode.Latex`, and save. From there you can expand into full LaTeX projects or integrate the process into larger automation pipelines.
 
 If you’re curious about related topics, consider exploring:
 
