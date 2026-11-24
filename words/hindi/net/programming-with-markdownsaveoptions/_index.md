@@ -66,7 +66,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Aspose.Words के साथ assets फ़ोल्डर बनाएं और DOCX को Markdown में बदलें](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) | Aspose.Words का उपयोग करके assets फ़ोल्डर बनाकर DOCX को Markdown में बदलना सीखें। |
 | [Word को Markdown के रूप में सहेजें – Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की पूरी गाइड। |
-| [DOCX को Markdown में सहेजें – खाली पैराग्राफ़ों के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | खाली पैराग्राफ़ों को बनाए रखते हुए DOCX को Markdown में सहेजने की पूरी गाइड। |
 | [DOCX को Markdown में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-in-c-complete-guide/) | C# में DOCX को Markdown में बदलने की पूरी गाइड। |
 | [Word से Markdown कैसे सहेजें – इमेज एक्सट्रैक्शन और DOCX रूपांतरण की पूरी गाइड](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | .NET के लिए Aspose.Words का उपयोग करके Word से Markdown सहेजें, इमेज निकालें और DOCX को रूपांतरित करें। |
 | [छवियों को सहेजें – Aspose.Words के साथ DOCX को Markdown में बदलें](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Aspose.Words का उपयोग करके DOCX फ़ाइल से छवियों को निकालें और उन्हें Markdown में सहेजें। |
