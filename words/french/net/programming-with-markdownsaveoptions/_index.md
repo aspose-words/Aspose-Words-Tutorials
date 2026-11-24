@@ -178,7 +178,6 @@ Apprenez à convertir des documents Word en Markdown avec Aspose.Words grâce à
 
 ### [Créer un dossier d'actifs et convertir DOCX en Markdown avec Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
 
-### [Enregistrer Word en Markdown – Guide complet pour convertir Word en Markdown et extraire les images](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 
 
 

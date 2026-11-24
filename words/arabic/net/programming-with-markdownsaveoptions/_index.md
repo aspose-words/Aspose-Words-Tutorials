@@ -117,7 +117,6 @@
 ### [إنشاء مجلد الأصول وتحويل DOCX إلى Markdown باستخدام Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
 
 
-### [حفظ Word كـ Markdown – دليل كامل لتحويل Word إلى Markdown واستخراج الصور](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 
 
 

@@ -202,7 +202,6 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig i
 ### [Assets-Ordner erstellen und DOCX mit Aspose.Words in Markdown konvertieren](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
 
 
-### [Word als Markdown speichern – Vollständige Anleitung zum Konvertieren von Word zu Markdown & Bildextraktion](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder extrahieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – komplette C#‑Anleitung.

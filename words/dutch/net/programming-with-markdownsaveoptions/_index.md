@@ -81,7 +81,6 @@ Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exportee
 ### [Word naar Markdown converteren – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
 Leer hoe u Word-documenten converteert naar Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
-### [Word opslaan als Markdown – Complete gids voor het converteren van Word naar Markdown en afbeeldingen extraheren](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 
 Leer hoe u Word-documenten opslaat als Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
