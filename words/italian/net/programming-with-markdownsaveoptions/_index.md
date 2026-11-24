@@ -41,7 +41,6 @@
 | [Converti Word in Markdown – Estrai immagini in C#](./convert-word-to-markdown-extract-images-in-c/) | Converti documenti Word in Markdown estraendo le immagini con una guida completa in C#. |
 | [Salva docx come txt – converti docx in markdown](./save-docx-as-txt-convert-docx-to-markdown/) | Converti file DOCX in TXT o Markdown con una guida passo‑passo in C#. |
 | [Come salvare Word come Markdown – Guida completa C#](./how-to-save-word-as-markdown-complete-c-guide/) | Scopri come convertire documenti Word in Markdown con una guida completa in C#. |
-| [Come impostare la risoluzione durante la conversione da DOCX a Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Imposta la risoluzione desiderata per l'esportazione da DOCX a Markdown con Aspose.Words per .NET. |
 | [Converti Word in Markdown in C# – Guida completa con estrazione immagini](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Impara a convertire documenti Word in Markdown con estrazione delle immagini, guida completa in C#. |
 | [Converti Word in Markdown – Guida completa con estrazione immagini](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Impara a convertire documenti Word in Markdown con estrazione completa delle immagini usando Aspose.Words per .NET. |
 | [Esporta docx in markdown in C# – Guida completa](./export-docx-to-markdown-in-c-complete-guide/) | Scopri come convertire file DOCX in Markdown con una guida completa in C#. |

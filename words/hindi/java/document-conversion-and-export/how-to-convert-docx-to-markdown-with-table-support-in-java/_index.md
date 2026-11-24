@@ -222,7 +222,6 @@ HTML तालिका को `<p>` टैग में लपेटा गय�
 
 - [docx को markdown में परिवर्तित करें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Java का उपयोग करके Word से Markdown निर्यात कैसे करें – पूर्ण गाइड](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [DOCX को Markdown में परिवर्तित करते समय रिज़ॉल्यूशन कैसे सेट करें](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

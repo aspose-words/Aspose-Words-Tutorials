@@ -142,7 +142,6 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown sp
 ### [Wie man Bilder in Markdown aus DOCX einbettet](./how-to-embed-images-in-markdown-from-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX-Dokumenten extrahieren und in Markdown einbetten.
 
-### [Wie man die Auflösung beim Konvertieren von DOCX in Markdown festlegt](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie die Bildauflösung beim Exportieren von DOCX nach Markdown mit Aspose.Words für .NET festlegen.
 
 ### [Word als Markdown mit Bildern speichern – C# Schritt‑für‑Schritt‑Anleitung](./save-word-as-markdown-with-images-c-step-by-step-guide/)

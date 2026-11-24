@@ -103,7 +103,6 @@
 ### [将 docx 保存为 txt – 将 docx 转换为 markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 
 使用 Aspose.Words for .NET 将 docx 文档保存为 txt，并转换为 Markdown，提供完整示例和步骤指南。
-### [将 DOCX 转换为 Markdown 时如何设置分辨率](./how-to-set-resolution-when-converting-docx-to-markdown/)
 
 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，设置导出分辨率的步骤和示例。
 ### [将 docx 导出为 markdown – 完整 C# 指南](./export-docx-to-markdown-in-c-complete-guide/)

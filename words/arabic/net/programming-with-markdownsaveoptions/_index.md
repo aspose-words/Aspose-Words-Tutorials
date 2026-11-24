@@ -76,7 +76,6 @@
 
 ### [كيفية تضمين الصور في Markdown من DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
-### [كيفية تعيين الدقة عند تحويل DOCX إلى Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 
 ### [حفظ Word كـ markdown مع الصور – دليل خطوة بخطوة C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 

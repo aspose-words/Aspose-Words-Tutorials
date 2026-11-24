@@ -220,7 +220,6 @@ This paragraph is regular markdown text.
 
 - [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [كيفية تصدير Markdown من Word باستخدام Java – دليل كامل](/words/english/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/)
-- [كيفية ضبط الدقة عند تحويل DOCX إلى Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
