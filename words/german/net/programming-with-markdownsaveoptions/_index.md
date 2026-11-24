@@ -28,7 +28,6 @@
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word‑Dokumente als PDF speichern, beschädigte Word‑Dateien wiederherstellen und sie in Markdown konvertieren.
 
-### [Word-Dokument wiederherstellen mit Aspose.Words – Vollständige Anleitung](./recover-word-document-with-aspose-words-full-guide/)
 Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words wiederherstellen – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word‑Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
