@@ -74,6 +74,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe een Word-document samenvatten met OpenAI in C#](./how-to-summarize-word-document-with-openai-in-c/) | Leer hoe u Word-documenten automatisch kunt samenvatten met OpenAI in C# met een stapsgewijze handleiding. |
 | [Word-document samenvatten met OpenAI API in C#](./summarize-word-document-with-openai-api-using-c/) | Leer hoe u met Aspose.Words voor .NET en de OpenAI API Word-documenten automatisch kunt samenvatten in C#. |
 | [Hoe tekst vertalen met Google Translate API in C# – stapsgewijze handleiding](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Leer hoe u met de Google Translate API tekst in C# vertaalt via een stap‑voor‑stap gids. |
+| [Hoe een Word-document met vormen, AI-samenvatting en vertaling te maken in C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Leer hoe u in C# een Word-document maakt met vormen, AI‑samenvatting en vertaling. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Översätt docx till franska med AI i C#](./translate-docx-to-french-with-ai-in-c/) | Lär dig att översätta DOCX-filer till franska med AI i C# med Aspose.Words. |
 | [Hur du sparar översatt Word-dokument i C# med Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Lär dig spara ett Word-dokument som har översatts med Google AI i C# med en steg‑för‑steg‑guide. |
 | [Hur du översätter text med Google Translate API i C# – steg‑för‑steg‑guide](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Lär dig att översätta text med Google Translate API i C# med en tydlig steg‑för‑steg‑guide. |
+| [Hur du skapar ett Word-dokument med former, AI‑sammanfattning och översättning i C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Lär dig skapa ett Word-dokument med former, använda AI‑sammanfattning och översätta innehållet i C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

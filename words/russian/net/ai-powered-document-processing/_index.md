@@ -73,6 +73,7 @@
 | [Как сохранить переведённый документ Word в C# с помощью Google AI](./how-to-save-translated-word-document-in-c-with-google-ai/) | Узнайте, как с помощью Aspose.Words и Google AI сохранять переведённые документы Word в C#. |
 | [Как резюмировать документ Word с OpenAI в C#](./how-to-summarize-word-document-with-openai-in-c/) | Пошаговое руководство по использованию OpenAI для создания резюме Word‑документов в C# с Aspose.Words. |
 | [Резюмирование документа Word с OpenAI API на C#](./summarize-word-document-with-openai-api-using-c/) |  |
+| [Как создать документ Word с фигурами, AI‑резюмированием и переводом в C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Узнайте, как с помощью Aspose.Words создать документ Word с фигурами, выполнить резюмирование ИИ и перевести его в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

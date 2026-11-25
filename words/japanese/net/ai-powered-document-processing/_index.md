@@ -73,6 +73,7 @@
 | [OpenAI を使用して C# で Word 文書を要約する方法](./how-to-summarize-word-document-with-openai-in-c/) Aspose.Words for .NET と OpenAI を組み合わせ、C# で Word 文書を自動要約する手順を学びます。 |
 | [OpenAI API を使用して C# で Word 文書を要約する](./summarize-word-document-with-openai-api-using-c/) Aspose.Words for .NET と OpenAI API を組み合わせ、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
 | [C# で Google Translate API を使用してテキストを翻訳する – ステップバイステップ ガイド](./how-to-translate-text-with-google-translate-api-in-c-step-by/) Google Translate API を C# で利用し、テキスト翻訳を自動化する手順をステップバイステップで解説します。 |
+| [C# でシェイプ、AI 要約、翻訳付きの Word 文書を作成する方法](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) C# と Aspose.Words を使用して、シェイプを含む文書を作成し、AI で要約・翻訳する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

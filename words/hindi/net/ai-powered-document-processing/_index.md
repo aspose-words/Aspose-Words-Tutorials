@@ -72,6 +72,8 @@
 | [Google AI के साथ C# में अनुवादित Word दस्तावेज़ को सहेजना कैसे करें](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI का उपयोग करके C# में अनुवादित Word फ़ाइल को सहेजने की प्रक्रिया सीखें। |
 | [OpenAI API का उपयोग करके C# में Word दस्तावेज़ का सारांश बनाएं](./summarize-word-document-with-openai-api-using-c/) | C# में OpenAI API का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की गाइड। |
 | [Google Translate API के साथ टेक्स्ट का अनुवाद कैसे करें – चरण‑दर‑चरण गाइड](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | C# में Google Translate API का उपयोग करके टेक्स्ट को आसानी से अनुवाद करने की चरण‑दर‑चरण गाइड। |
+| [C# में आकारों, AI सारांश और अनुवाद के साथ Word दस्तावेज़ कैसे बनाएं](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | C# का उपयोग करके आकार, AI‑सारांश और अनुवाद सहित Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

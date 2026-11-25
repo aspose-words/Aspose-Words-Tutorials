@@ -55,7 +55,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Word-Dokument mit lokalem LLM zusammenfassen – Schritt‑für‑Schritt C#‑Leitfaden](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Word-Dokumente in C# automatisch zusammenfassen. |
 | [Text mit KI in C# zusammenfassen – Vollständiger Programmierleitfaden](./summarize-text-with-ai-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI-Integration Text in C# effizient zusammenfassen. |
 | [Wie man ein übersetztes Word-Dokument in C# mit Google KI speichert](./how-to-save-translated-word-document-in-c-with-google-ai/) | Erfahren Sie, wie Sie ein mit Google KI übersetztes Word-Dokument in C# speichern. |
-| [Dokumentenzusammenfassung in C# erstellen – Vollständiger OpenAI-Leitfaden](./create-document-summary-in-c-complete-openai-guide/) | Erfahren Sie, wie Sie mit Aspose.Words und OpenAI in C# komplette Dokumentenzusammenfassungen erstellen – Schritt‑für‑Schritt‑Anleitung. |
+| [Dokumentenzusammenfassung in C# erstellen – Vollständiger OpenAI-Leitfaden](./create-document-summary-in-c-complete-openai-guide/) | Erfahren Sie, wie Sie mit Aspose.Words und OpenAI in C# komplette Dokumentzusammenfassungen erstellen – Schritt‑für‑Schritt‑Anleitung. |
 | [Word-Dokument mit Aspose.Words KI zusammenfassen – Vollständige Anleitung](./summarize-word-document-with-aspose-words-ai-full-guide/) | Erfahren Sie, wie Sie Word-Dokumente mithilfe von Aspose.Words KI vollständig zusammenfassen – Schritt für Schritt Anleitung. |
 | [KI-Dokumentenzusammenfassung in C# – vollständiger Leitfaden](./ai-document-summarization-in-c-complete-guide/) | Erfahren Sie, wie Sie KI-gestützte Dokumentenzusammenfassungen in C# mit Aspose.Words implementieren – Schritt‑für‑Schritt‑Anleitung. |
 | [KI-Zusammenfassung in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-ai-summary-in-c-step-by-step-guide/) |  |
@@ -74,6 +74,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man ein Word-Dokument mit OpenAI in C# zusammenfasst](./how-to-summarize-word-document-with-openai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und OpenAI ein Word‑Dokument in C# automatisch zusammenfassen. |
 | [Word-Dokument mit OpenAI-API in C# zusammenfassen](./summarize-word-document-with-openai-api-using-c/) | Erfahren Sie, wie Sie mit der OpenAI-API und C# Word-Dokumente automatisch zusammenfassen. |
 | [Wie man Text mit der Google Translate API in C# übersetzt – Schritt‑für‑Schritt‑Anleitung](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Erfahren Sie, wie Sie mit der Google Translate API Text in C# automatisch übersetzen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man ein Word-Dokument mit Formen, KI‑Zusammenfassung und Übersetzung in C# erstellt](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Erfahren Sie, wie Sie in C# ein Word‑Dokument mit Formen erstellen, KI‑Zusammenfassung anwenden und automatisch übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

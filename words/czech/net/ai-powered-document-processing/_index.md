@@ -72,6 +72,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak shrnout Word dokument pomocí OpenAI v C#](./how-to-summarize-word-document-with-openai-in-c/) | Kompletní návod, jak pomocí OpenAI v C# automaticky shrnout Word dokument s Aspose.Words. |
 | [Shrňte Word dokument pomocí OpenAI API v C#](./summarize-word-document-with-openai-api-using-c/) | Kompletní návod, jak pomocí OpenAI API v C# automaticky shrnout Word dokument s Aspose.Words. |
 | [Jak přeložit text pomocí Google Translate API v C# – krok za krokem](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Kompletní průvodce, jak v C# použít Google Translate API k překladu textu. |
+| [Jak vytvořit Word dokument s tvary, AI sumarizací a překladem v C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Naučte se vytvořit Word dokument s tvary, využít AI pro shrnutí a přeložit obsah pomocí Aspose.Words v C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
