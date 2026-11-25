@@ -103,7 +103,7 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
         string assetPath = Path.Combine(assetsFolder, safeFileName);
         using (FileStream fs = new FileStream(assetPath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // 4️⃣ Tell the markdown writer the *relative* path it should embed.
@@ -209,7 +209,7 @@ Yes. The code above targets .NET 6, but you can downgrade to .NET Framework�
 ## Pro Tips & Best Practices
 
 - **Keep the assets folder tidy** – after a batch conversion, run a quick script to delete zero‑byte files that may have been created by empty placeholders.  
-- **Use meaningful filenames** – if you need human‑readable image names, extract the original `AltText` (if present) from `args.ResourceFileName` and incorporate it.  
+- **Use meaningful filenames** – if you need human‑readable image names, you can derive them from the original file name or, for richer information, use an `ImageSavingCallback` where `ImageSavingArgs.CurrentShape.AlternativeText` provides the AltText.  
 - **Version control** – store only the markdown in your repo; the assets folder can be generated as part of the CI pipeline, keeping the repository lightweight.  
 - **Performance** – for huge documents, consider streaming the output by setting `markdownOptions.SaveFormat = SaveFormat.Markdown;` and writing to a `MemoryStream` first.
 
