@@ -242,7 +242,6 @@ if __name__ == "__main__":
 
 以下教學與本指南緊密相關，能進一步深化您對 API 功能的掌握，並探索在專案中實作的其他方式。
 
-- [Save Word as Markdown with Aspose.Words – 完整指南，轉換 DOCX 並擷取圖片](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

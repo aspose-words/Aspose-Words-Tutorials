@@ -244,7 +244,6 @@ Cobalah opsi yang disediakan oleh Aspose.Words untuk menyempurnakan penanganan g
 Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Simpan Word sebagai Markdown dengan Aspose.Words – Panduan Lengkap Mengonversi DOCX dan Mengekstrak Gambar](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [cara memulihkan docx – mengatur mode pemulihan & membuka file Word yang rusak](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
