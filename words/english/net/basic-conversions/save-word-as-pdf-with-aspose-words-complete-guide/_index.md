@@ -34,7 +34,7 @@ We’ll cover everything from setting up the warning collector to interpreting t
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (latest version, e.g., 24.10) – you can grab it via NuGet (`Install-Package Aspose.Words`).
+- **Aspose.Words for .NET** (latest version) – you can grab it via NuGet (`Install-Package Aspose.Words`).
 - A .NET development environment (Visual Studio, Rider, or VS Code works fine).
 - A sample DOCX file that may contain fonts not installed on the target machine.  
 That’s it. If you’ve got those basics, we’re ready to dive in.
@@ -79,7 +79,7 @@ namespace WordToPdfDemo
             var collector = (WarningInfoCollector)doc.WarningCallback;
             foreach (WarningInfo warning in collector.Warnings)
             {
-                if (warning.Type == WarningType.FontSubstitution)
+                if (warning.WarningType == WarningType.FontSubstitution)
                 {
                     Console.WriteLine($"Font substitution detected: {warning.Description}");
                 }
@@ -133,7 +133,7 @@ If your source document uses several custom fonts, the warning collector will co
 ```csharp
 var missingFonts = new HashSet<string>();
 foreach (var w in collector.Warnings)
-    if (w.Type == WarningType.FontSubstitution)
+    if (w.WarningType == WarningType.FontSubstitution)
         missingFonts.Add(w.Description);
 
 if (missingFonts.Count > 0)
@@ -162,7 +162,7 @@ If you prefer the conversion to fail when a font is missing (instead of silently
 ```csharp
 public void Warning(WarningInfo info)
 {
-    if (info.Type == WarningType.FontSubstitution)
+    if (info.WarningType == WarningType.FontSubstitution)
         throw new InvalidOperationException($"Missing font: {info.Description}");
 }
 ```
@@ -213,7 +213,7 @@ class FullDemo
 
         // Report any missing fonts
         foreach (var w in collector.Warnings)
-            if (w.Type == WarningType.FontSubstitution)
+            if (w.WarningType == WarningType.FontSubstitution)
                 Console.WriteLine($"⚠️ Font substitution: {w.Description}");
 
         Console.WriteLine($"✅ Done! PDF saved to {outputPath}");
