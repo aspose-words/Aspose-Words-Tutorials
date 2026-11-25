@@ -228,7 +228,6 @@ Artık C# kullanarak bir Markdown kaynağından **save document as docx** nasıl
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words ile Word'ü Markdown olarak kaydet – DOCX'i dönüştürme ve Görselleri Çıkarma için Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [DOCX'i Markdown'a Dönüştür – Aspose.Words Kullanarak Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
