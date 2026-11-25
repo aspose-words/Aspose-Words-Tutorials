@@ -246,7 +246,6 @@ Lär dig hur du automatiskt laddar upp bilder till molnlagring under konverterin
 Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown med Aspose.Words för .NET.
 ### [Spara markdown som docx i C# – steg‑för‑steg‑guide](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
-### [Ladda upp bilder till CDN i DOCX till Markdown‑konvertering – Komplett guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
 Lär dig hur du laddar upp bilder till ett CDN under konvertering av DOCX till Markdown med Aspose.Words för .NET.
 
 ### [Aspose docx till markdown – Fullständig guide för konvertering och bildextraktion](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
