@@ -48,7 +48,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Lưu tài liệu đã chỉnh sửa với các lát bánh tròn nổ trong C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cách đặt số bin cho biểu đồ histogram và thêm nhãn dữ liệu trong biểu đồ Word bằng C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
@@ -84,7 +83,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Cách thêm nhãn dữ liệu vào biểu đồ Word trong C# – hướng dẫn từng bước](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Hướng dẫn chi tiết cách thêm nhãn dữ liệu vào biểu đồ Word bằng C# trong Aspose.Words. |
 | [Tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C#](./custom-data-label-placement-for-charts-in-c/) | Hướng dẫn cách tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C# bằng Aspose.Words cho .NET. |
 | [Cách định dạng chuỗi trong biểu đồ đường Word bằng C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Hướng dẫn cách định dạng chuỗi dữ liệu trong biểu đồ đường của tài liệu Word bằng Aspose.Words cho .NET và C#. |
-| [Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Hướng dẫn cách định dạng biểu đồ trong Word bằng C# với các định dạng số tùy chỉnh. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
