@@ -36,8 +36,7 @@ schemas:
       for **every external resource** (images, SVGs, etc.) and lets us decide wh
   - name: Save the Document as Markdown
     text: Now we actually perform the conversion. The `Document.Save` method takes
-      the output path and our custom options. Because the callback already wrote image
-      files to disk, we tell Aspose to skip its default saving routine.
+      the output path and our custom options.
   - name: Define the Image‑Saving Callback
     text: 'This is the heart of the **export word to markdown** workflow. The `ImageSavingHandler`
       implements `IResourceSavingCallback`. For each image, we:'
@@ -54,8 +53,7 @@ schemas:
       and, if you want, convert the byte array to another format (e.g., JPEG) before
       writing. That’s an advanced scenario, but the callback gives you full control.
     question: Can I change the image format during export?
-  - answer: The callback runs synchronously for each resource, which is fine for most
-      cases. For massive batches, consider buffering writes or using asynchronous
+  - answer: For massive batches, consider buffering writes or using asynchronous
       I/O (`File.WriteAllBytesAsync`). Also, keep an eye on the target folder’s size;
       Git LFS might be required for very large assets.
     question: How do I handle large documents with hundreds of images?
@@ -134,7 +132,7 @@ MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 
 ### Step 3: Save the Document as Markdown
 
-Now we actually perform the conversion. The `Document.Save` method takes the output path and our custom options. Because the callback already wrote image files to disk, we tell Aspose to skip its default saving routine.
+Now we actually perform the conversion. The `Document.Save` method takes the output path and our custom options.
 
 ```csharp
 // Perform the conversion.
@@ -150,8 +148,7 @@ This is the heart of the **export word to markdown** workflow. The `ImageSavingH
 1. Build a folder path (`resources\` by default).  
 2. Ensure the folder exists (`Directory.CreateDirectory`).  
 3. Write the raw image bytes to a file (`File.WriteAllBytes`).  
-4. Rewrite the Markdown link (`args.Uri`) so the generated `.md` points to the new location.  
-5. Cancel the default save (`args.Cancel = true`) because we already wrote the file.
+4. Rewrite the Markdown link (`args.ResourceFileUri`) so the generated `.md` points to the new location.
 
 ```csharp
 // Callback that stores images in a custom folder and rewrites links.
@@ -168,13 +165,13 @@ class ImageSavingHandler : IResourceSavingCallback
         Directory.CreateDirectory(folder);
 
         // 3️⃣ Write the image data to disk.
-        File.WriteAllBytes(fullPath, args.ResourceData);
+        using (var fileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write))
+        {
+            args.ResourceStream.CopyTo(fileStream);
+        }
 
         // 4️⃣ Update the Markdown link.
-        args.Uri = $"resources/{fileName}";
-
-        // 5️⃣ Cancel the default saving because we already handled it.
-        args.Cancel = true;
+        args.ResourceFileUri = $"resources/{fileName}";
     }
 }
 ```
@@ -231,13 +228,13 @@ namespace DocxToMarkdownDemo
             string fullPath = Path.Combine(folder, fileName);
 
             Directory.CreateDirectory(folder);
-            File.WriteAllBytes(fullPath, args.ResourceData);
+            using (var fileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write))
+            {
+                args.ResourceStream.CopyTo(fileStream);
+            }
 
             // Update the link that will appear in the Markdown file.
-            args.Uri = $"resources/{fileName}";
-
-            // Cancel the default saving because we have already written the file.
-            args.Cancel = true;
+            args.ResourceFileUri = $"resources/{fileName}";
         }
     }
 }
@@ -270,7 +267,7 @@ The `resources` folder now holds `SampleImage.png` (or whatever the original ima
   Yes. Inside `ResourceSaving`, you can inspect `args.ResourceFileName` and, if you want, convert the byte array to another format (e.g., JPEG) before writing. That’s an advanced scenario, but the callback gives you full control.
 
 - **How do I handle large documents with hundreds of images?**  
-  The callback runs synchronously for each resource, which is fine for most cases. For massive batches, consider buffering writes or using asynchronous I/O (`File.WriteAllBytesAsync`). Also, keep an eye on the target folder’s size; Git LFS might be required for very large assets.
+  For massive batches, consider buffering writes or using asynchronous I/O (`File.WriteAllBytesAsync`). Also, keep an eye on the target folder’s size; Git LFS might be required for very large assets.
 
 - **Do I need a license for Aspose.Words?**  
   The library works in evaluation mode, but it adds a watermark to the generated Markdown. For production use, purchase a license and register it at the start of `Main` (`License license = new License(); license.SetLicense("Aspose.Words.lic");`).
