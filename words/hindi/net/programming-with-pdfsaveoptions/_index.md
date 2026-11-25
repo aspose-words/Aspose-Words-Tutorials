@@ -62,7 +62,6 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [सुलभ PDF बनाएं – डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-for-developers/) | डेवलपर्स के लिए सुलभ PDF बनाने की चरण-दर-चरण मार्गदर्शिका। |
 | [PDF/UA‑2 अनुरूप दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-pdf-ua-2-compliant-document-complete-c-guide/) | C# में Aspose.Words का उपयोग करके PDF/UA‑2 मानकों के अनुरूप दस्तावेज़ बनाने की पूरी मार्गदर्शिका। |
 | [Aspose के साथ Word से PDF निर्यात करने की पूरी चरण‑दर‑स्टेप गाइड](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF में बदलने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया सीखें। |
-| [C# में अभिगम्यता के लिए PDF टैग करें – पूर्ण गाइड](./tag-pdf-for-accessibility-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके PDF फ़ाइलों में अभिगम्यता टैग जोड़ने की पूरी चरण‑दर‑स्टेप गाइड। |
 | [C# में फ़ॉन्ट प्रतिस्थापन के साथ दस्तावेज़ PDF सहेजें – पूर्ण गाइड](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके फ़ॉन्ट प्रतिस्थापन के साथ PDF दस्तावेज़ सहेजने की पूरी प्रक्रिया सीखें। |
 | [Aspose.Words के साथ सुलभ PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके सुलभ PDF बनाने की पूरी मार्गदर्शिका। |
 | [Aspose.Words के साथ DOCX को PDF में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Aspose.Words का उपयोग करके DOCX को PDF में बदलने की पूरी प्रोग्रामिंग गाइड। |

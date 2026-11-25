@@ -66,7 +66,6 @@
 | [كيفية ضبط خيارات PDF في C# – تحويل Word إلى PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | تعرّف على ضبط خيارات PDF في C# لتحويل مستندات Word إلى PDF باستخدام Aspose.Words. |
 | [إنشاء مستند متوافق مع pdf/ua-2 – دليل C# كامل](./create-pdf-ua-2-compliant-document-complete-c-guide/) |دليل شامل خطوة بخطوة لإنشاء مستند PDF/UA-2 متوافق باستخدام Aspose.Words لـ .NET ولغة C#. |
 | [كيفية تصدير PDF من Word باستخدام Aspose – دليل كامل خطوة بخطوة](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) |دليل خطوة بخطوة لتصدير ملفات PDF من مستندات Word باستخدام Aspose.Words لـ .NET. |
-| [وسم ملف PDF لتسهيل الوصول في C# – دليل كامل](./tag-pdf-for-accessibility-in-c-complete-guide/) |تعلم كيفية إضافة وسوم إمكانية الوصول إلى ملفات PDF باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [حفظ مستند PDF مع استبدال الخطوط في C# – دليل كامل](./save-document-pdf-with-font-substitution-in-c-complete-guide/) |تعلم كيفية حفظ مستندات PDF مع استبدال الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول باستخدام Aspose.Words – دليل كامل](./create-accessible-pdf-with-aspose-words-complete-guide/) | دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول باستخدام Aspose.Words لـ .NET. |
 | [إنشاء ملف PDF قابل للوصول – دليل خطوة بخطوة للامتثال لمعيار PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |تعرف على كيفية إنشاء ملفات PDF قابلة للوصول وفقًا لمعيار PDF/UA باستخدام Aspose.Words لـ .NET من خلال دليل خطوة بخطوة. |
