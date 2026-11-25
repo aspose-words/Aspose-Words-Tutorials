@@ -93,7 +93,6 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑handleiding en Aspos
 ### [Hoe Markdown op te slaan – Volledige gids met afbeeldingsextractie](./how-to-save-markdown-full-guide-with-image-extraction/)
 
 Leer hoe u Markdown-bestanden opslaat en afbeeldingen extraheert met een volledige C#‑handleiding.
-### [Word opslaan als Markdown – Complete C#-gids voor het exporteren van Word-afbeeldingen](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 
 Leer hoe u Word-afbeeldingen exporteert bij het opslaan als Markdown met een volledige C#-handleiding.
 

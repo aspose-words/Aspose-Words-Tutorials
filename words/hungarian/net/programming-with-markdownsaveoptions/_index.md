@@ -131,7 +131,6 @@ Ismerje meg, hogyan távolíthatja el az üres bekezdéseket a Word dokumentumb�
 Ismerje meg, hogyan hozhat létre Markdown fájlokat Word dokumentumokból az Aspose.Words használatával teljes C# útmutatóban.
 ### [Hogyan használjuk az Aspose-t a DOCX‑t Markdownba konvertálni matematikai exporttal](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba matematikai egyenletekkel az Aspose.Words for .NET segítségével.
-### [Word mentése Markdownba – Teljes C# útmutató a Word képek exportálásához](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Ismerje meg, hogyan exportálhatja a Word dokumentumok képeit Markdown formátumba egy részletes C# útmutató segítségével.
 Ismerje meg, hogyan mentheti el a Word dokumentum képeit Markdown formátumba konvertálás közben C#-ban az Aspose.Words for .NET segítségével.
 ### [DOCX konvertálása Markdownba – Képek kinyerése a DOCX-ből Aspose.Words segítségével](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)

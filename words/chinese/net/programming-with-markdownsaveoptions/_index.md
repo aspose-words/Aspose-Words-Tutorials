@@ -63,7 +63,6 @@
 ### [如何保存 Markdown – 完整指南（含图像提取）](./how-to-save-markdown-full-guide-with-image-extraction/)
 
 使用 Aspose.Words for .NET 将文档保存为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
-### [将 Word 保存为 markdown – 完整 C# 指南（导出图像）](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并导出其中的图像，提供完整的 C# 示例和步骤指南。
 ### [将 docx 保存为 markdown – 完整指南（含图像提取）](./save-docx-as-markdown-complete-guide-with-image-extraction/)
