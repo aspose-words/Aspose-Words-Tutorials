@@ -41,7 +41,7 @@ url: /net/programming-with-charts/how-to-create-radar-chart-and-add-chart-to-wor
 
 # How to create radar chart and add chart to Word with C#
 
-If you need to **create radar chart** inside a Word file, this guide walks you through the entire process. You’ll learn how to **generate blank word document**, insert a radar chart, **set chart size word**, and enable axis graduations—all with a few lines of C# code.
+If you need to **create radar chart** inside a Word file, this guide walks you through the entire process. You’ll learn how to **generate blank word document**, insert a radar chart, **set chart size word**, and enable axis tick marks—all with a few lines of C# code.
 
 Adding visual data to reports is a common requirement, and using Aspose.Words makes it straightforward. In the steps below we also cover how to **add chart to word** documents programmatically, so you can automate dashboards, financial summaries, or any data‑driven content.
 
@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(document);
 Now you can **add radar chart** directly where the cursor is positioned. The `InsertChart` method accepts a `ChartType` enum, width, and height in points.
 
 ```csharp
-// 3️⃣ Insert a radar (radial) chart with a specific size
-Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300);
+// 3️⃣ Insert a radar chart with a specific size
+Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300).Chart;
 ```
 
 *Why 400 × 300?* These dimensions give a clear, readable chart on a standard A4 page. You can adjust the size later with the **set chart size word** step if your layout requires a different aspect ratio.
@@ -101,15 +101,15 @@ If you need to fine‑tune the size after insertion, you can modify the chart’
 
 ## Enable tick marks on the radial axis
 
-A radar chart is most useful when the radial axis shows clear graduations. The following settings turn on tick marks and set the interval to 30 degrees, which aligns with typical compass‑style radar displays.
+A radar chart is most useful when the radial axis shows clear tick marks. The following settings turn on major tick marks and set the interval to 30 degrees, which aligns with typical compass‑style radar displays.
 
 ```csharp
-// 5️⃣ Turn on graduations (tick marks) and set interval
-radarChart.AxisX.HasGraduations = true;      // show tick marks
-radarChart.AxisX.GraduationInterval = 30;   // every 30 degrees
+// 5️⃣ Turn on major tick marks and set interval
+radarChart.AxisX.MajorTickMark = AxisTickMark.Cross; // show tick marks
+radarChart.AxisX.MajorUnit = 30;                    // every 30 degrees
 ```
 
-*Why this matters:* Graduations help readers gauge values at each angle, improving readability for stakeholders who are not familiar with the data.
+*Why this matters:* Tick marks help readers gauge values at each angle, improving readability for stakeholders who are not familiar with the data.
 
 ## Save the document containing the chart
 
@@ -136,7 +136,7 @@ You can now replace the placeholder data series with your own values by accessin
 |----------|------------|
 | **Different chart type** | Replace `ChartType.Radar` with `ChartType.Column`, `ChartType.Pie`, etc. |
 | **Multiple charts** | Call `InsertChart` repeatedly; each call positions the new chart after the previous one. |
-| **Large data sets** | Use `radarChart.Series[0].DataPoints.AddDataPointForBarSeries(value)` to populate many points. |
+| **Large data sets** | Populate the chart with a series that includes all categories and values in one call, e.g., `radarChart.Series.Clear(); radarChart.Series.Add("Series 1", new[] {"A","B","C","D"}, new[] {10.0,20.0,30.0,40.0});`. |
 | **Saving as PDF** | Call `document.Save("RadialChart.pdf", SaveFormat.Pdf);` after the chart is added. |
 | **Running on .NET Core** | Ensure you reference `Aspose.Words` package; API usage is identical. |
 
@@ -162,22 +162,22 @@ namespace RadarChartDemo
             DocumentBuilder builder = new DocumentBuilder(document);
 
             // 3️⃣ Insert a radar chart (400 × 300 points)
-            Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300);
+            Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300).Chart;
 
             // 4️⃣ (Optional) Change chart size if needed
             // radarChart.Width = 500;
             // radarChart.Height = 350;
 
-            // 5️⃣ Enable tick marks on the radial axis
-            radarChart.AxisX.HasGraduations = true;          // show tick marks
-            radarChart.AxisX.GraduationInterval = 30;       // every 30 degrees
+            // 5️⃣ Enable major tick marks on the radial axis
+            radarChart.AxisX.MajorTickMark = AxisTickMark.Cross; // show tick marks
+            radarChart.AxisX.MajorUnit = 30;                    // every 30 degrees
 
             // 6️⃣ Populate the chart with sample data (optional)
-            radarChart.Series[0].DataPoints.Clear();
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(10);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(20);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(30);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(40);
+            radarChart.Series.Clear();
+            radarChart.Series.Add(
+                "Sample Series",
+                new[] { "A", "B", "C", "D" },
+                new[] { 10.0, 20.0, 30.0, 40.0 });
 
             // 7️⃣ Save the document
             string outputPath = @"C:\Temp\RadialChart.docx";
@@ -193,7 +193,7 @@ Run the program, open the resulting file, and you’ll see the radar chart exact
 
 ## Conclusion
 
-You now know how to **create radar chart** and **add chart to Word** documents using C#. The tutorial covered generating a **blank word document**, inserting a radar chart, **set chart size word**, and enabling axis graduations. With this foundation you can extend the solution to multiple charts, custom data series, or export to PDF.
+You now know how to **create radar chart** and **add chart to Word** documents using C#. The tutorial covered generating a **blank word document**, inserting a radar chart, **set chart size word**, and enabling axis tick marks. With this foundation you can extend the solution to multiple charts, custom data series, or export to PDF.
 
 ### Next steps
 
