@@ -117,6 +117,9 @@ Below is the full implementation of `MyResourceSaver`. It creates a `Resources` 
 // Define the callback that stores each extracted image in a sub‑folder
 class MyResourceSaver : IResourceSavingCallback
 {
+    // Simple counter to guarantee unique names
+    private static int _resourceCounter = 0;
+
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // 1️⃣ Ensure the resources folder exists
@@ -124,20 +127,21 @@ class MyResourceSaver : IResourceSavingCallback
         Directory.CreateDirectory(resourceFolder);
 
         // 2️⃣ Build a unique file name for each image (e.g., img_0.png)
-        string imageFileName = $"img_{args.Index}{Path.GetExtension(args.FileName)}";
+        // Use the original file extension provided by Aspose
+        string extension = Path.GetExtension(args.ResourceFileName);
+        string imageFileName = $"img_{_resourceCounter++}{extension}";
 
         // 3️⃣ Provide a stream that writes the image to the target file
         string fullPath = Path.Combine(resourceFolder, imageFileName);
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
         args.KeepResourceStreamOpen = false; // close the stream after saving
     }
 }
 ```
 
 > **Explanation of the arguments:**
-> - `args.Index` – a zero‑based counter that guarantees uniqueness.
-> - `args.FileName` – the original filename Aspose suggests (often something like `image001.png`).
-> - `args.Stream` – the output stream where the image bytes are written.
+> - `args.ResourceFileName` – the original filename Aspose suggests (often something like `image001.png`).
+> - `args.ResourceStream` – the output stream where the image bytes are written.
 > - `args.KeepResourceStreamOpen` – set to `false` so Aspose disposes the stream automatically, preventing file‑handle leaks.
 
 ---
@@ -176,15 +180,18 @@ namespace WordToMarkdown
     // 4️⃣ Callback implementation (see detailed version above)
     class MyResourceSaver : IResourceSavingCallback
     {
+        private static int _resourceCounter = 0;
+
         public void ResourceSaving(ResourceSavingArgs args)
         {
             string resourceFolder = "YOUR_DIRECTORY/Resources";
             Directory.CreateDirectory(resourceFolder);
 
-            string imageFileName = $"img_{args.Index}{Path.GetExtension(args.FileName)}";
+            string extension = Path.GetExtension(args.ResourceFileName);
+            string imageFileName = $"img_{_resourceCounter++}{extension}";
             string fullPath = Path.Combine(resourceFolder, imageFileName);
 
-            args.Stream = new FileStream(fullPath, FileMode.Create);
+            args.ResourceStream = new FileStream(fullPath, FileMode.Create);
             args.KeepResourceStreamOpen = false;
         }
     }
@@ -213,11 +220,11 @@ The callback writes the raw binary stream directly to a file, preserving the ori
 
 ### Can I change the image format (e.g., PNG → JPEG) during extraction?
 
-Absolutely. Inside `ResourceSaving` you can inspect `args.FileName` or `args.Stream`, load the image with `System.Drawing` or `ImageSharp`, then re‑encode it before writing. Just remember to update the markdown link extension accordingly.
+Absolutely. Inside `ResourceSaving` you can inspect `args.ResourceFileName` or `args.ResourceStream`, load the image with `System.Drawing` or `ImageSharp`, then re‑encode it before writing. Just remember to update the markdown link extension accordingly.
 
 ### What if I need the markdown files to reference a CDN instead of a local folder?
 
-Modify the callback to prepend a base URL to the markdown link. You can achieve this by setting `args.FileName` to a fully‑qualified URL after you upload the image to your CDN.
+Modify the callback to prepend a base URL to the markdown link. You can achieve this by setting `args.ResourceFileName` to a fully‑qualified URL after you upload the image to your CDN.
 
 ### Does this work with tables, footnotes, or other advanced Word features?
 
