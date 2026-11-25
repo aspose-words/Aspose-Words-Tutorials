@@ -90,7 +90,6 @@
 เรียนรู้วิธีกำหนดเส้นทางรูปภาพแบบสัมพันธ์เมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 ### [บันทึก Word เป็น Markdown – คู่มือเต็มกับ Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
-### [แปลง docx เป็น markdown ด้วย C# – คู่มือเต็ม](./convert-docx-to-markdown-with-c-complete-guide/)
 ### [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็มขั้นตอนโดยขั้นตอน](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 ### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมสมการ LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 ### [แปลง docx เป็น markdown และบันทึกรูปภาพจาก docx](./convert-docx-to-markdown-save-images-from-docx/)

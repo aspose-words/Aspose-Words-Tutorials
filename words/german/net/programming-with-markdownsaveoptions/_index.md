@@ -242,7 +242,6 @@ Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown relative Bildpfad
 
 ### [Word als Markdown speichern – Vollständige Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
-### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-with-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit C# vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
 ### [DOCX als Markdown speichern – Vollständige Schritt‑für‑Schritt‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
