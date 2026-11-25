@@ -50,7 +50,6 @@
 | [Aspose.Words AI로 문법 검사 및 Word 문서 요약하는 방법](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words for .NET을 사용하여 문법을 검사하고 문서를 요약하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words AI로 문법 검사하는 방법](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C# 코드에서 문법 오류를 자동으로 감지하고 교정하는 단계별 가이드. |
 | [LLM을 사용하여 Aspose.Words와 함께 C#에서 문단 재작성하기](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Aspose.Words와 LLM을 사용해 C#에서 문단을 재작성하는 방법을 단계별로 안내합니다. |
-| [C#에서 AI로 문단 재작성 – 로컬 LLM 구성 방법](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Aspose.Words for .NET과 로컬 LLM을 활용해 C#에서 AI 기반 문단 재작성 방법을 단계별로 안내합니다. |
 | [Aspose.Words AI로 문법 검사하기 – 완전 가이드](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI를 활용해 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [로컬 LLM으로 Word 문서 요약 – 단계별 C# 가이드](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | 로컬 LLM을 활용해 C#으로 Word 문서를 요약하는 방법을 단계별로 안내합니다. |
 | [C#에서 AI로 텍스트 요약 – 완전 프로그래밍 가이드](./summarize-text-with-ai-in-c-complete-programming-guide/) | C#과 Aspose.Words를 활용해 AI 기반 텍스트 요약을 구현하는 전체 단계별 가이드 |

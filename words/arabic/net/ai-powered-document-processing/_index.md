@@ -50,7 +50,6 @@
 | [كيفية فحص القواعد وتلخيص مستند Word باستخدام Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | تعلم كيفية فحص القواعد النحوية وتلخيص مستندات Word باستخدام الذكاء الاصطناعي من Aspose.Words. |
 | [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية للمستندات وتحسين جودة النص. |
 | [كيفية استخدام LLM مع Aspose.Words – إعادة كتابة الفقرات في C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | تعلم كيفية دمج نموذج اللغة الكبيرة مع Aspose.Words لإعادة كتابة فقرات مستندات Word باستخدام C#. |
-| [إعادة كتابة الفقرة باستخدام الذكاء الاصطناعي في C# – كيفية تكوين نموذج لغة محلي](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | تعلم كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words. |
 | [كيفية التحقق من القواعد النحوية باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | تعلم كيفية استخدام Aspose.Words AI للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
 | [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل خطوة بخطوة C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | تعلم كيفية استخدام نموذج لغة محلي لتلخيص مستندات Word في C# خطوة بخطوة. |
 | [تلخيص النص باستخدام الذكاء الاصطناعي في C# – دليل برمجة كامل](./summarize-text-with-ai-in-c-complete-programming-guide/) | دليل شامل لتلخيص النصوص باستخدام الذكاء الاصطناعي في C# مع Aspose.Words، خطوات عملية لتطبيق النماذج بسهولة. |
