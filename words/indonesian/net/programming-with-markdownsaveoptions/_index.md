@@ -101,7 +101,6 @@ Pelajari cara membuat folder, mengonversi dokumen Word ke Markdown, dan mengekst
 Pelajari cara menyimpan dokumen Word sebagai Markdown dengan gambar secara lengkap menggunakan C#.
 ### [Buat Markdown dari Word dengan Aspose — Panduan Langkah‑per‑Langkah](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 Pelajari cara membuat file Markdown dari dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah.
-### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 Pelajari cara menyimpan dokumen Word sebagai Markdown dengan panduan lengkap C# menggunakan Aspose.Words.
 ### [Folder gambar khusus – Konversi Word ke Markdown dengan Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
