@@ -47,7 +47,6 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Uložení upraveného dokumentu s výbuchovými výsečemi koláčového grafu v C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

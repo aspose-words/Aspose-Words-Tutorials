@@ -46,7 +46,6 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 {{< tutorial-card link="./update-chart-title/" title="Uppdatera diagramtitel och växla legendens synlighet i Word med Aspose.Words för .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Spara ett modifierat dokument med exploderade pajdiagramsegment i C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

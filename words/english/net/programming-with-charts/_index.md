@@ -56,7 +56,6 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 {{< tutorial-card link="./uniform-data-labels/" title="Set Uniform Data Labels in a Column Chart Using Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Save modified document with exploded pie chart slices in C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

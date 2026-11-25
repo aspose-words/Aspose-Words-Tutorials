@@ -78,7 +78,6 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Esplodere una fetta di grafico a torta in C# con Aspose.Words – Guida completa](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Scopri come far esplodere una fetta di grafico a torta in Word usando Aspose.Words per .NET con questa guida completa passo passo. |
 | [Come creare un grafico a torta in un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Scopri come inserire e personalizzare un grafico a torta in Word usando Aspose.Words per .NET. |
 | [Come formattare le serie in un grafico a linee Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Scopri come formattare le serie di un grafico a linee in Word usando Aspose.Words per .NET e C#. |
-| [Salva documento modificato con fette di grafico a torta esplose in C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Scopri come salvare un documento Word con fette di grafico a torta esplose usando Aspose.Words per .NET in C#. |
 | [Come creare un grafico radar e aggiungerlo a Word con C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Scopri come creare un grafico radar e inserirlo in un documento Word usando Aspose.Words per .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
