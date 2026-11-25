@@ -96,8 +96,10 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов.
 ### [Добавление контента с помощью DocumentBuilder в Aspose.Words для Java](./adding-content-using-documentbuilder/)
 Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
-### [Как создать документ Word в Java с помощью Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+### [Как создать документ Word в Java с Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
+### [Как создать круговую диаграмму, вставить её и настроить ориентацию в Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Создайте круговую диаграмму, вставьте её в документ Word и настройте ориентацию с помощью Aspose.Words для Java.
 ### [Как создать пустой документ Word с текстовым контролом](./how-to-create-a-blank-word-document-with-a-text-control/)
 Создайте пустой документ Word и добавьте в него текстовый контрол с помощью Aspose.Words для Java.
 ### [Как установить имя тега и добавить SDT в документ Word с C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)

@@ -147,6 +147,8 @@ Create a blank Word document using Aspose.Words for Java. Simple step-by-step gu
 
 ### [How to insert content control, set placeholder text word in Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 
+### [How to create a pie chart, insert it, and customize orientation in Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

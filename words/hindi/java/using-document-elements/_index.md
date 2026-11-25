@@ -128,13 +128,15 @@ Java के साथ Aspose.Words का उपयोग करके Word द�
 Word दस्तावेज़ में बटन कैसे डालें और उसकी कार्यक्षमता सेट करें, इस चरण‑दर‑चरण ट्यूटोरियल में सीखें।
 
 ### [Word में पाई चार्ट कैसे डालें – डेटा लेबल प्रतिशत जोड़ें](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
-Word दस्तावेज़ में पाई चार्ट डालें और डेटा लेबल में प्रतिशत दिखाएँ। चरण-दर-चरण ट्यूटोरियल।
+Word दस्तावेज़ में पाई चार्ट डालें और डेटा लेबल में प्रतिशत दिखाएँ। चरण‑दर‑चरण ट्यूटोरियल।
 ### [Java के लिए Aspose.Words में पाई स्लाइस को एक्सप्लोड करना](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
-Java में Aspose.Words चार्ट का उपयोग करके पाई स्लाइस को एक्सप्लोड करने की चरण-दर-चरण ट्यूटोरियल।
+Java में Aspose.Words चार्ट का उपयोग करके पाई स्लाइस को एक्सप्लोड करने की चरण‑दर‑चरण ट्यूटोरियल।
 ### [Java के साथ Word दस्तावेज़ में बटन की स्थिति सेट करना](./how-to-set-button-position-in-a-word-document-with-java/)
 ### [Java और Aspose.Words का उपयोग करके Word में चार्ट बनाना](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 ### [Java के लिए Aspose.Words में पाई चार्ट डालना – पूर्ण गाइड](./insert-pie-chart-word-in-java-complete-guide/)
 Java में Aspose.Words का उपयोग करके पाई चार्ट डालने की पूरी प्रक्रिया सीखें।
+
+### [Java में Aspose.Words का उपयोग करके संरचित दस्तावेज़ टैग बनाना](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

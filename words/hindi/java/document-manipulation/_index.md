@@ -139,12 +139,13 @@ C# में Aspose.Words का उपयोग करके Word दस्त�
 C# में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाएं और ActiveX बटन जोड़ें।
 ### [C# के साथ Word दस्तावेज़ में साधारण टेक्स्ट कंटेंट कंट्रोल डालना](./how-to-insert-plain-text-content-control-in-a-word-document/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Java में पाई चार्ट बनाना, सम्मिलित करना और अभिविन्यास को अनुकूलित करना](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Java के लिए Aspose.Words का उपयोग करके पाई चार्ट बनाएं, उसे दस्तावेज़ में डालें और अभिविन्यास को अनुकूलित करें।
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

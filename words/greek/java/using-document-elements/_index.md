@@ -101,7 +101,7 @@
 ### [Δημιουργία εγγράφου Word με σύμβολα κράτησης θέσης και λίστες](./how-to-create-word-document-with-placeholders-and-lists/)
 
 ### [Πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας σε Java με το Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
-Μάθετε πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας χρησιμοποιώντας το Chart API της Java. Οδηγός βήμα‑βήμα.
+Μάθετε πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας χρησιμοποιώντας το Chart API της Java. Οδηγός βήμα‑προς‑βήμα.
 ### [Πώς να εισάγετε κουμπί εντολής σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Μάθετε πώς να προσθέσετε κουμπί εντολής σε έγγραφο Word με το Aspose.Words για Java.
 ### [Πώς να επεξεργαστείτε γράφημα σε έγγραφο Word χρησιμοποιώντας Java](./how-to-edit-chart-in-a-word-document-using-java/)
@@ -135,12 +135,13 @@
 Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Πώς να προσθέσετε ActiveX και να εισαγάγετε διάγραμμα πίτας σε έγγραφο Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Πώς να δημιουργήσετε ετικέτα δομημένου εγγράφου σε Java χρησιμοποιώντας το Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Μάθετε πώς να δημιουργήσετε Structured Document Tag σε έγγραφο Word με Java και Aspose.Words.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

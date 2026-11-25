@@ -30,6 +30,7 @@
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Πώς να κρύψετε σχήμα σε Word χρησιμοποιώντας το Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -70,6 +71,8 @@
 ### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
 
+### [Πώς να ομαδοποιήσετε σχήματα στο Word και να ορίσετε τις διαστάσεις τους προγραμματιστικά](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος με εφέ σκιάς](./create-word-document-java-add-shape-with-shadow-effect/)
 Μάθετε πώς να προσθέσετε σχήμα με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
@@ -98,6 +101,8 @@
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, βήμα-βήμα.
 
 ### [Δημιουργία σχήματος ορθογωνίου σε Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
+
+### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word χρησιμοποιώντας Java](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 

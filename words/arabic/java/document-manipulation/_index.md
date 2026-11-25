@@ -138,6 +138,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 
 ### [تحرير مستند Word برمجيًا وإضافة زر أمر](./edit-word-document-programmatically-and-add-a-command-button/)
 
+### [كيفية إنشاء مخطط دائري، إدراجه، وتخصيص الاتجاه في Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+تعلم كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words لجافا وتخصيص اتجاهه.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

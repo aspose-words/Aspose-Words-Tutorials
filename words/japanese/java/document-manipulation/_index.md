@@ -136,6 +136,7 @@ Aspose.Words for Java を使用して、内容のない新しい Word 文書を�
 ### [C# で Word 文書にプレーンテキスト コンテンツ コントロールを挿入する方法](./how-to-insert-plain-text-content-control-in-a-word-document/)
 C# を使用して Word 文書にプレーンテキスト コンテンツ コントロールを追加し、データ入力を簡素化する手順を解説します。
 ### [プログラムで Word 文書を編集し、コマンドボタンを追加する](./edit-word-document-programmatically-and-add-a-command-button/)
+### [Javaで円グラフを作成し、挿入して向きをカスタマイズする方法](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

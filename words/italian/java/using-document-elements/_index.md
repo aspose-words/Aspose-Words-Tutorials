@@ -139,6 +139,9 @@ Scopri come inserire un grafico a torta in Word e aggiungere le percentuali alle
 ### [Come far esplodere una fetta di torta in Java – tutorial su grafici Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 Scopri come far esplodere una fetta di grafico a torta in Aspose.Words per Java con questo tutorial passo passo.
 
+### [Come creare un tag di documento strutturato in Java usando Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Impara a creare un tag di documento strutturato in Java con Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

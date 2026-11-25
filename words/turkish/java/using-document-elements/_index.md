@@ -133,6 +133,8 @@ Java ve Aspose.Words kullanarak Word belgesine pasta grafik eklemeyi adım adım
 
 ### [Java kullanarak bir Word belgesine pasta grafiği ekleme](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
+### [Java ile Aspose.Words kullanarak yapılandırılmış belge etiketi oluşturma](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

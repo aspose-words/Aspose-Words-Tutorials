@@ -117,12 +117,16 @@ Tanuld meg, hogyan készíts radiális diagramot Word dokumentumban Java segíts
 ### [Üres Word dokumentum létrehozása és egyszerű szövegvezérlő beszúrása](./create-blank-word-document-and-insert-a-plain-text-control/)
 Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű szövegvezérlőt.
 ### [Üres Word dokumentum létrehozása és radar diagram hozzáadása C#-ban](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
-Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
+Tanuld meg, hogyan hozhj létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
 ### [Kördiagram használata az Aspose.Words Java-ban](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
 ### [Kördiagram hozzáadása Word dokumentumhoz Java-val](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java használatával.
 ### [Kördiagram beszúrása Word-be Java-val – teljes útmutató](./insert-pie-chart-word-in-java-complete-guide/)
+Tanuld meg, hogyan szúrj be kördiagramot Word-be Java-val – teljes útmutató.
+
+### [Strukturált dokumentumcímke létrehozása Java-ban – Teljes Aspose.Words útmutató](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Tanuld meg, hogyan hozhatsz létre strukturált dokumentumcímkét Java-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Aspose.Words を使用して Word で図形を非表示にする方法](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [Aspose.Words コールバックを使用して Java でカスタムページと画像を保存する](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Javaのコードチュートリアル
@@ -128,8 +129,10 @@ C# と DocumentBuilder を使って Word 文書内の図形をグループ化す
 Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
 ### [Java で Word の図形をグループ化する方法 – 完全ガイド](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
+
 ### [Javaでシェイプに影を追加 – 完全プログラミングガイド](./add-shadow-to-shape-in-java-complete-programming-guide/)
 Javaでシェイプに影効果を追加し、ドキュメントの視覚的魅力を高める方法を学びます。
+
 ### [空白のWord文書を作成し、グループ化されたシェイプを追加する – Java ガイド](./create-blank-word-document-with-grouped-shape-java-guide/)
 Javaで空白のWord文書を作成し、グループ化されたシェイプを追加する方法を学びます。
 
@@ -144,22 +147,8 @@ Aspose.Words for Java を使用して、円グラフを文書に挿入し、ス�
 ### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
 JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
 
-### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
-JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
-
-### [Javaでグループ化シェイプを使用して空白のWord文書を作成](./create-blank-word-document-with-grouped-shapes-in-java/)
-Javaで複数のシェイプをグループ化し、空白のWord文書に挿入する方法を学びます。
-
-### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
-JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
-### [グループ化された図形を使用して空白の Word 文書を作成する方法](./how-to-create-blank-word-document-with-grouped-shapes/)
-グループ化された図形を含む空の Word 文書を作成し、レイアウトを簡単に管理する手順を解説します。
-
-### [空白のWord文書を作成し、矩形シェイプを追加する](./create-a-blank-word-document-and-add-a-rectangle-shape/)
-
-### [Javaでプログラム的にWord文書を作成し、シェイプを追加する](./create-word-document-programmatically-and-add-a-shape-in-jav/)
-
-### [Aspose を使用して画像を挿入し、Word 文書で非表示にする方法](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+### [Word でシェイプをグループ化し、プログラムでサイズを設定する方法](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+プログラムでシェイプをグループ化し、幅と高さを設定する手順を解説します。
 
 ## 追加リソース
 

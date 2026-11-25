@@ -39,9 +39,12 @@
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [如何在 Word 中使用 Aspose.Words 隱藏形狀](./how-to-hide-shape-in-word-using-aspose-words/)
+
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
+### [如何在 Word 中以程式方式將形狀分組並設定其尺寸](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ### [使用 Aspose.Words 回呼在 Java 中儲存自訂頁面和映像](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java 程式碼教程

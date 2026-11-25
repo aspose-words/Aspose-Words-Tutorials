@@ -144,12 +144,13 @@ Apprenez à modifier un document Word via le code Java et à y insérer un bouto
 ### [Créer un document Word vierge et ajouter un bouton ActiveX en C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 Apprenez à créer un document Word vierge et à y ajouter un bouton ActiveX en C# avec Aspose.Words.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Comment créer un diagramme circulaire, l’insérer et personnaliser son orientation](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Créez un diagramme circulaire, insérez‑le dans votre document et personnalisez son orientation avec Aspose.Words pour Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

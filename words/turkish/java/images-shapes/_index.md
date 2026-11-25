@@ -28,6 +28,9 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 ## Mevcut Eğitimler
 
+### [How to group shapes in Word and set their dimensions programmatically](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+
+
 ### [How to use Aspose to insert image and hide it in a Word document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 
@@ -35,6 +38,8 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+### [Aspose.Words kullanarak Word'de şekli gizleme](./how-to-hide-shape-in-word-using-aspose-words/)
 
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
@@ -155,7 +160,7 @@ Java kullanarak bir Word belgesi oluşturun ve içinde birden fazla şekli grupl
 Java kullanarak ActiveX kontrolü ekleyerek bir CommandButton oluşturmayı öğrenin.
 
 ### [Java ile Word belgesi oluştur – şekli gizle ve dolgu rengini ayarla](./create-word-document-java-hide-shape-and-set-fill-color/)
-Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlamayı öğrenin.
+Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlayın.
 ### [Gruplanmış Şekillerle Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-grouped-shapes/)
 Java kullanarak grup halinde şekiller içeren boş bir Word belgesi oluşturmayı öğrenin.
 

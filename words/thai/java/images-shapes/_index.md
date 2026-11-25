@@ -30,6 +30,9 @@
 
 ### [How to create blank Word document and group multiple shapes](./how-to-create-blank-word-document-and-group-multiple-shapes/)
 
+### [วิธีจัดกลุ่มรูปร่างใน Word และตั้งค่าขนาดโดยใช้โปรแกรม](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+
+เรียนรู้การจัดกลุ่มรูปร่างและกำหนดขนาดโดยอัตโนมัติใน Word
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -151,6 +154,8 @@
 ### [วิธีใช้ Aspose แทรกรูปภาพและซ่อนมันในเอกสาร Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [วิธีสร้างรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปร่างใน Word ด้วย C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [ซ่อนรูปร่างใน Word ด้วย Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

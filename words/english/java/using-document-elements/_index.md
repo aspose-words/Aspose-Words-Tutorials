@@ -138,6 +138,8 @@ Learn how to create charts in Word documents using Aspose.Words for Java.
 Learn how to insert a pie chart into a Word document using Aspose.Words for Java with this complete step-by-step guide.
 ### [How to set button position in a Word document with Java](./how-to-set-button-position-in-a-word-document-with-java/)
 Learn how to position buttons in Word documents using Aspose.Words for Java with step-by-step code examples.
+### [How to create structured document tag in Java using Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Learn how to create Structured Document Tags (SDT) in Word documents using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

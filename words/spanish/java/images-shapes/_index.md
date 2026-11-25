@@ -33,6 +33,7 @@ En el ámbito del procesamiento de documentos, la integración de imágenes y fo
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Cómo ocultar una forma en Word usando Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -172,6 +173,8 @@ Aprenda a insertar una imagen oculta en un documento Word mediante Aspose.Words 
 ### [Cómo usar Aspose para insertar una imagen y ocultarla en un documento Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [How to create rectangle shape and group shapes in Word using C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [Cómo agrupar formas en Word y establecer sus dimensiones programáticamente](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ## Recursos adicionales
 

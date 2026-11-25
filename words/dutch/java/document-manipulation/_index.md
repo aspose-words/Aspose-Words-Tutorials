@@ -140,6 +140,8 @@ Leer hoe u een leeg Word-document maakt met Aspose.Words voor Java.
 Leer hoe u een leeg Word-document kunt maken met Aspose.Words voor Java, inclusief basisinstellingen en codevoorbeelden.
 ### [Hoe een contentcontrol invoegen en placeholder-tekst instellen in Word met Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 Leer hoe u een inhoudsbesturingselement toevoegt en een placeholder-tekst instelt in een Word-document met Aspose.Words voor Java.
+### [Hoe een cirkeldiagram maken, invoegen en oriëntatie aanpassen in Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Leer hoe u een cirkeldiagram maakt, invoegt en de oriëntatie aanpast met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

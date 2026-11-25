@@ -94,6 +94,9 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 ### [以编程方式编辑 Word 文档并添加命令按钮](./edit-word-document-programmatically-and-add-a-command-button/)
 学习如何使用 Aspose.Words for Java 编程编辑 Word 文档并插入命令按钮。
 
+### [如何在 Java 中创建饼图、插入并自定义方向](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+学习如何使用 Aspose.Words for Java 创建饼图、将其插入文档并调整方向。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

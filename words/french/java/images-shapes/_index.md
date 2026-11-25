@@ -33,8 +33,12 @@ Dans le domaine du traitement de documents, l'intégration d'images et de formes
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Comment masquer une forme dans Word avec Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+### [Comment regrouper des formes dans Word et définir leurs dimensions par programme](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+Apprenez à regrouper des formes et à définir leurs dimensions via le code.
 
 ### [Comment créer une forme rectangle et regrouper des formes dans Word avec C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 Apprenez à créer une forme rectangle et à regrouper des formes dans Word avec C#.

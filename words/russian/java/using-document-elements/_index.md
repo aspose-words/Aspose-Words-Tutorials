@@ -134,12 +134,13 @@
 Подробное руководство по вставке круговой диаграммы в документ Word с использованием Aspose.Words для Java.
 ### [Как добавить круговую диаграмму в документ Word с помощью Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Как создать структурированный тег документа в Java с использованием Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Научитесь создавать структурированные теги документа в Java с помощью Aspose.Words.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

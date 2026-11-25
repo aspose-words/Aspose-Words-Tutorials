@@ -36,6 +36,7 @@ No âmbito do processamento de documentos, a integração de imagens e formas é
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Como ocultar forma no Word usando Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -105,7 +106,6 @@ Aprenda a criar um documento Word em branco e inserir formas agrupadas usando As
 Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
 
 ### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
-Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
 
 ### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
@@ -353,6 +353,113 @@ Aprenda passo a passo como criar e personalizar formas retangulares em documento
 
 ### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
 Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Criar documento Word Java – Adicionar forma com efeito de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+
+### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Criar documento Word Java – Adicionar forma com efeito de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+
+### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Criar documento Word Java – Adicionar forma com efeito de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+
+### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Criar documento Word Java – Adicionar forma com efeito de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+
+### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Criar documento Word Java – Adicionar forma com efeito de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+
+### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
+### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
+
+### [Criar documento Word em branco com forma agrupada – Guia Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a criar um documento Word em branco e adicionar forma agrupada usando Aspose.Words para Java.
+
+### [Criar documento Word em branco com formas agrupadas – Guia Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Aprenda a criar um documento Word em branco e inserir formas agrupadas usando Aspose.Words para Java.
+
+### [Como agrupar formas no Word e definir suas dimensões programaticamente](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+Aprenda a agrupar formas no Word e definir suas dimensões programaticamente usando Aspose.Words para Java.
 
 ## Recursos adicionais
 

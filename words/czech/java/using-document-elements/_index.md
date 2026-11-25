@@ -45,6 +45,8 @@ Pamatujte, že praxe dělá mistra, a s Aspose.Words pro Javu budete vytvářet,
 ## Výukové programy k prvkům dokumentu
 ### [Jak přidat SDT v C# – kompletní průvodce pro zástupce Wordu](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Naučte se, jak pomocí Aspose.Words pro C# vytvořit a spravovat SDT (Content Controls) jako zástupce v dokumentech Word.
+### [Jak vytvořit strukturovaný značkový prvek dokumentu v Javě pomocí Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Naučte se, jak v Aspose.Words pro Javu vytvořit strukturovaný značkový prvek dokumentu pro pokročilé zpracování obsahu.
 ### [Jak získat oddělovač ve Word dokumentech pomocí Javy](./how-to-get-separator-in-word-docs-with-java/)
 Naučte se, jak v Aspose.Words pro Javu získat a použít oddělovač v dokumentech Word.
 ### [Jak přidat vodící čáry do koláčového grafu v Javě pomocí Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)

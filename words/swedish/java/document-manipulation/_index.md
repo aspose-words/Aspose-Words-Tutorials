@@ -153,7 +153,7 @@ Lär dig hur du snabbt skapar ett tomt Word-dokument i Java med Aspose.Words.
 
 ### [Hur man ställer in taggnamn och lägger till SDT i ett Word-dokument med C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
-Lär dig hur du sätter taggnamn och lägger till Structured Document Tags i ett Word-dokument med C#.
+### [Hur man skapar ett cirkeldiagram, infogar det och anpassar orienteringen i Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

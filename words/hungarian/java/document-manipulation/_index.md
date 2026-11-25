@@ -143,6 +143,8 @@ Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és adhat hozzá Acti
 ### [Hogyan szúrjunk be egyszerű szöveges tartalomvezérlőt egy Word dokumentumba C#-ban](./how-to-insert-plain-text-content-control-in-a-word-document/)
 Egyszerű szöveges tartalomvezérlő hozzáadása Word dokumentumhoz C#-ban.
 
+### [Hogyan hozzunk létre kördiagramot, szúrjuk be, és testre szabjuk a tájolását Java-ban](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -118,7 +118,7 @@ Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
 Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Aspose.Words voor Java.
 ### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 ### [Hoe een cirkeldiagram in een Word-document met Java in te voegen](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
-Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
+Leer hoe u een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
 ### [Cirkeldiagram invoegen in Word – gegevenslabelpercentage toevoegen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Leer hoe u een cirkeldiagram in een Word‑document invoegt en gegevenslabels met percentages toevoegt met Aspose.Words voor Java.
 ### [Knop toevoegen aan Word-document – Stapsgewijze handleiding](./how-to-add-button-to-word-document-step-by-step-guide/)
@@ -134,6 +134,10 @@ Leer hoe u ActiveX kunt toevoegen en een cirkeldiagram in een Word‑document ku
 ### [Hoe een cirkeldiagram aan een Word-document toevoegen met Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 
 Leer hoe u een cirkeldiagram in een Word-document kunt invoegen met Java.
+
+### [Hoe een gestructureerde documenttag te maken in Java met Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+
+Leer hoe u een gestructureerde documenttag maakt in Java met Aspose.Words. Stapsgewijze handleiding voor documentstructurering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

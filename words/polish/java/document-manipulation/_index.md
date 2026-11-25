@@ -92,21 +92,21 @@ Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Jav
 ### [Tworzenie nowego dokumentu Word – Przewodnik krok po kroku po dodawaniu znacznika strukturalnego](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
 Dowiedz się, jak utworzyć nowy dokument Word i dodać do niego znacznik strukturalny przy użyciu Aspose.Words for Java.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
-Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words for Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
+Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words dla Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
 
 ### [Generowanie spisu treści w Aspose.Words dla Java](./generating-table-of-contents/)
-Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words for Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
+Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words dla Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
 
 ### [Ochrona dokumentów w Aspose.Words dla Java](./protecting-documents/)
 Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for Java. Chroń swoje dane hasłem i nie tylko.
 
 ### [Dzielenie dokumentów na strony w Aspose.Words dla Java](./splitting-documents-into-pages/)
-Dowiedz się, jak dzielić dokumenty na strony za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do wydajnego przetwarzania dokumentów.
+Dowiedz się, jak dzielić dokumenty na strony za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnego przetwarzania dokumentów.
 
 ### [Dzielenie dokumentów w Aspose.Words dla Java](./splitting-documents/)
-Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words for Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
+Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words dla Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
 ### [Dzielenie dokumentów na strony HTML w Aspose.Words dla Java](./splitting-documents-into-html-pages/)
-Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
+Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
 
 ### [Dodawanie zawartości za pomocą DocumentBuilder w Aspose.Words dla Java](./adding-content-using-documentbuilder/)
 Tworzenie dokumentów głównych z Aspose.Words dla Java. Przewodnik krok po kroku po dodawaniu tekstu, tabel, obrazów i innych. Twórz oszałamiające dokumenty Word bez wysiłku.
@@ -144,7 +144,7 @@ Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu
 ### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
 ### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
-### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
+### [Utwórz pusty dokument z interaktyjnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
 ### [Jak utworzyć pusty dokument Word z kontrolką tekstową](./how-to-create-a-blank-word-document-with-a-text-control/)
 
@@ -155,6 +155,9 @@ Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Word
 ### [Jak utworzyć pusty dokument Word przy użyciu Aspose.Words dla Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Dowiedz się, jak szybko utworzyć pusty dokument Word przy pomocy Aspose.Words for Java.
 ### [Jak ustawić nazwę tagu i dodać SDT w dokumencie Word przy użyciu C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+
+### [Jak utworzyć wykres kołowy, wstawić go i dostosować orientację w Javie](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Dowiedz się, jak w Aspose.Words for Java stworzyć wykres kołowy, wstawić go do dokumentu i zmienić jego orientację.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

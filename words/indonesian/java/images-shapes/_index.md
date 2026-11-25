@@ -30,6 +30,7 @@ Dalam bidang pemrosesan dokumen, mengintegrasikan gambar dan bentuk sangat penti
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Cara menyembunyikan bentuk di Word menggunakan Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -148,6 +149,8 @@ Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk yang dikelompok
 
 ### [Buat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Java](./create-rectangle-shape-in-a-word-document-using-java/)
 Pelajari cara membuat bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Cara mengelompokkan bentuk di Word dan mengatur dimensinya secara programatis](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ## Sumber Daya Tambahan
 

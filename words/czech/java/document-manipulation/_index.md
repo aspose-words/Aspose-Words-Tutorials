@@ -170,6 +170,9 @@ Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word.
 ### [Upravit dokument Word programově a přidat příkazové tlačítko](./edit-word-document-programmatically-and-add-a-command-button/)
 Naučte se, jak pomocí Aspose.Words pro Javu programově upravit dokument Word a vložit do něj příkazové tlačítko.
 
+### [Jak vytvořit koláčový graf, vložit jej a přizpůsobit orientaci v Javě](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Naučte se, jak v Javě vytvořit koláčový graf, vložit jej do dokumentu a upravit jeho orientaci pomocí Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -130,15 +130,14 @@ Aprenda a inserir um gráfico de pizza no Word e adicionar rótulos de dados em 
 Aprenda a explodir fatias de pizza em gráficos de pizza usando Aspose.Words para Java. Guia passo a passo para melhorar visualizações.
 ### [Como definir a posição do botão em um documento Word com Java](./how-to-set-button-position-in-a-word-document-with-java/)
 Aprenda a posicionar botões em documentos Word usando Aspose.Words para Java.
-
 ### [Como criar gráfico no Word com Java e Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
 Aprenda a criar gráficos em documentos Word usando Java e Aspose.Words com este tutorial passo a passo.
-
 ### [Inserindo gráfico de pizza no Word com Java – guia completo](./insert-pie-chart-word-in-java-complete-guide/)
 Aprenda a inserir um gráfico de pizza em documentos Word usando Java e Aspose.Words com este guia passo a passo.
-
 ### [Como adicionar um gráfico de pizza a um documento Word usando Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Aprenda a inserir um gráfico de pizza em documentos Word usando Aspose.Words para Java, passo a passo.
+### [Como criar tag de documento estruturado em Java usando Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Aprenda a criar tags de documento estruturado em Java com Aspose.Words, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

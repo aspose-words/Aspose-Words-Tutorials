@@ -30,6 +30,7 @@ In der Dokumentenverarbeitung ist die Integration von Bildern und Formen entsche
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Wie man ein Shape in Word mit Aspose.Words ausblendet](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -95,6 +96,9 @@ Ein umfassendes Codebeispiel, das zeigt, wie man mit Aspose.Words für C# ein Re
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und einen Schatteneffekt hinzufügen.
 ### [Gruppieren von Formen in Word – vollständiger Programmierleitfaden](./group-shapes-in-word-complete-programming-guide/)
 Ein umfassendes Codebeispiel, das zeigt, wie Sie Formen in Word gruppieren und verwalten.
+
+### [Wie man Formen in Word gruppiert und ihre Abmessungen programmgesteuert festlegt](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+Ein Codebeispiel, das zeigt, wie man Formen gruppiert und deren Größe festlegt.
 
 ### [Bild in Word ausblenden – Schritt‑für‑Schritt Java‑Leitfaden mit Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausblenden.
