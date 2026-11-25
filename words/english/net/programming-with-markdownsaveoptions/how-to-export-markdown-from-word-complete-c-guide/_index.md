@@ -79,9 +79,9 @@ public class MyResourceCallback : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Upload the resource (image, SVG, etc.) and obtain its public URL
-        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
-        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
-        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+        string cloudUrl = UploadToCloud(args.ResourceStream, args.ResourceFileName);
+        args.ResourceFileUri = cloudUrl;                     // URL that will appear in the Markdown
+        // No direct equivalent for skipping the local copy; the callback controls the URI.
     }
 
     private string UploadToCloud(Stream data, string name)
@@ -133,9 +133,9 @@ If you open the Markdown preview (VS Code, GitHub, etc.) the image should rend
 | Situation | What to Watch For | Quick Fix |
 |-----------|-------------------|-----------|
 | **Large images** | Upload may time‑out or exceed quota | Resize or compress before uploading; use `System.Drawing` to shrink streams |
-| **Non‑PNG formats** | Some CDNs reject certain mime types | Detect `args.FileName` extension, convert to PNG on the fly |
+| **Non‑PNG formats** | Some CDNs reject certain mime types | Detect `args.ResourceFileName` extension, convert to PNG on the fly |
 | **Missing cloud credentials** | `UploadToCloud` throws 401 | Store credentials securely (Azure Key Vault, AWS Secrets Manager) and inject them into the callback |
-| **Relative links in original DOCX** | Aspose may preserve the relative path | Override `args.Uri` regardless of the original value (as we do) |
+| **Relative links in original DOCX** | Aspose may preserve the relative path | Override `args.ResourceFileUri` regardless of the original value (as we do) |
 | **Multiple documents in parallel** | Race condition on same file name | Append a GUID to `name` inside `UploadToCloud` |
 
 Addressing these edge cases makes your solution robust enough for production pipelines.
@@ -164,8 +164,8 @@ public static class WordToMarkdownConverter
 
         public void ResourceSaving(ResourceSavingArgs args)
         {
-            args.Uri = _uploader(args.Stream, args.FileName);
-            args.KeepOriginalDocumentUri = false;
+            args.ResourceFileUri = _uploader(args.ResourceStream, args.ResourceFileName);
+            // No need to set a property to skip local copy; the URI controls the Markdown reference.
         }
     }
 }
