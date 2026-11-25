@@ -81,7 +81,6 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Utwórz plik PDF/UA zgodny ze standardem z Word – Kompletny przewodnik eksportu](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Dowiedz się, jak wyeksportować dokument Word do pliku PDF/UA zgodnego ze standardem, krok po kroku, używając Aspose.Words dla .NET. |
 | [Jak ustawić RenderChoiceFormFieldBorder na false podczas konwertowania Word do PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Dowiedz się, jak wyłączyć RenderChoiceFormFieldBorder przy konwersji Word do PDF przy użyciu Aspose.Words. |
 
-| [Jak zapisać PDF z Worda z eksportem kształtów wbudowanych – Kompletny przewodnik](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Dowiedz się, jak wyeksportować kształty inline podczas zapisywania dokumentu Word jako PDF przy użyciu Aspose.Words dla .NET. |
 | [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Dowiedz się, jak w C# utworzyć dokument PDF zgodny z normą PDF/UA‑2, spełniający wymogi dostępności, krok po kroku. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
