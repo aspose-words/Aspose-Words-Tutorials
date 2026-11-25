@@ -228,7 +228,6 @@ public class MarkdownConversionTests
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้. แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดที่ทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญคุณลักษณะ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโครงการของคุณ.
 
-- [บันทึก Word เป็น Markdown ด้วย Aspose.Words – คู่มือครบถ้วนในการแปลง DOCX และดึงรูปภาพ](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [แปลง DOCX เป็น Markdown – คู่มือครบถ้วนโดยใช้ Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

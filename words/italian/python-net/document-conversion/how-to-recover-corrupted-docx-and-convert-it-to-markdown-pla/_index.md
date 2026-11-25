@@ -246,7 +246,6 @@ Sperimenta con le opzioni offerte da Aspose.Words per affinare la gestione delle
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [How to Export LaTeX from Word – Convert DOCX to Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Save Word as Markdown with Aspose.Words – Complete Guide to Convert DOCX and Extract Images](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [how to recover docx – set recovery mode & open corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -244,7 +244,6 @@ Experimentujte s možnostmi poskytovanými Aspose.Words pro jemné ladění mani
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Jak exportovat LaTeX z Wordu – Převod DOCX na Markdown](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Uložení Wordu jako Markdown s Aspose.Words – Kompletní průvodce převodem DOCX a extrakcí obrázků](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [jak obnovit docx – nastavení režimu obnovy a otevření poškozených souborů Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

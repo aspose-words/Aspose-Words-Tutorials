@@ -228,7 +228,6 @@ Känn dig fri att experimentera med ytterligare Aspose.Words‑alternativ för a
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig behärska ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Spara Word som Markdown med Aspose.Words – Komplett guide för att konvertera DOCX och extrahera bilder](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Konvertera DOCX till Markdown – Komplett guide med Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

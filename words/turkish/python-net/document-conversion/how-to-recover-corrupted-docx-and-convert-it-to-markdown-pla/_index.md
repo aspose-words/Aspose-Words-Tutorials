@@ -246,7 +246,6 @@ Aspose.Words tarafından sunulan seçeneklerle görüntü işleme, font gömme v
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanıza ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım‑adım açıklamalarla tam çalışan kod örnekleri içerir.
 
 - [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown'a Dönüştürme](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Aspose.Words ile Word'u Markdown Olarak Kaydet – DOCX'i Dönüştürme ve Görselleri Çıkarma Tam Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [docx'i kurtarma – kurtarma modunu ayarla ve bozuk Word dosyalarını aç](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

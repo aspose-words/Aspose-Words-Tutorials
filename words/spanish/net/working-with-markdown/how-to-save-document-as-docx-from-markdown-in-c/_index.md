@@ -228,7 +228,6 @@ Siéntete libre de experimentar con opciones adicionales de Aspose.Words para ad
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Guardar Word como Markdown con Aspose.Words – Guía completa para convertir DOCX y extraer imágenes](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [Convertir DOCX a Markdown – Guía completa usando Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

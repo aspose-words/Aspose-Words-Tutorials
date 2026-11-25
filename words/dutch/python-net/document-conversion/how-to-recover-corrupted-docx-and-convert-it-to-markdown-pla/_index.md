@@ -244,7 +244,6 @@ Experimenteer met de opties die Aspose.Words biedt om beeldverwerking, lettertyp
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stapsgewijze uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe LaTeX uit Word exporteren – DOCX naar Markdown converteren](/words/english/python-net/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Word opslaan als Markdown met Aspose.Words – Complete gids om DOCX te converteren en afbeeldingen te extraheren](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 - [hoe docx te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

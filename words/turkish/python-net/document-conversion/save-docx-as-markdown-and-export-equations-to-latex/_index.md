@@ -243,7 +243,6 @@ Kodlamaktan keyif alın ve Word'den Markdown'a tam LaTeX desteğiyle sorunsuz k�
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Aspose.Words ile Word'ü Markdown olarak kaydet – DOCX'i Dönüştürme ve Görselleri Çıkarma Tam Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
