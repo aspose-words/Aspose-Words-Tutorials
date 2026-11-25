@@ -194,7 +194,6 @@ Translation complete. Output saved to output.docx
 
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并探索替代实现方式：
 
-- [How to Use Callback in C# – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word Document - How to Remove Content](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

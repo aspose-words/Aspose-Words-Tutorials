@@ -137,7 +137,6 @@ Leer hoe u Markdown-bestanden omzet naar Word met een stapsgewijze C#‑handleid
 
 Leer hoe u Markdown opslaat met een volledige C#‑gids.
 
-### [Hoe Callback te gebruiken in C# – Converteer DOCX naar Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
 Leer hoe u een callback implementeert in C# om DOCX-bestanden naar Markdown te converteren met Aspose.Words.
 

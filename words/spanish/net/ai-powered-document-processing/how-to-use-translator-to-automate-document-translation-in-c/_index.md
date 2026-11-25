@@ -196,7 +196,6 @@ Siéntete libre de experimentar con otros idiomas, añadir manejo de errores o i
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Cómo usar Callback en C# – Convertir DOCX a Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Documento Word - Cómo eliminar contenido](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

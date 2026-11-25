@@ -115,7 +115,6 @@
 
 ### [แปลง DOCX เป็น Markdown – คู่มือเต็มโดยใช้ Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
-### [วิธีใช้ Callback ใน C# – แปลง DOCX เป็น Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
 แปลงไฟล์ docx เป็น txt แล้วแปลงเป็น markdown อย่างง่ายด้วย Aspose.Words สำหรับ .NET
 
