@@ -78,7 +78,6 @@
 
 ### [تحويل Word إلى Markdown – استخراج الصور في C#](./convert-word-to-markdown-extract-images-in-c/)
 
-### [حفظ صور Word أثناء تحويل Word إلى Markdown – دليل C# كامل](./save-word-images-while-converting-word-to-markdown-complete/)
 
 
 

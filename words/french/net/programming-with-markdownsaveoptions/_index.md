@@ -138,7 +138,6 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Convertir Word en Markdown – Extraire les images en C#](./convert-word-to-markdown-extract-images-in-c/)
 
-### [Enregistrer les images Word lors de la conversion de Word en Markdown – Guide complet C#](./save-word-images-while-converting-word-to-markdown-complete/)
 
 
 

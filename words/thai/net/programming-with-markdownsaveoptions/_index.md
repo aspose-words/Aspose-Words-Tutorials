@@ -137,7 +137,6 @@
 ### [แปลง Word เป็น Markdown – สกัดรูปภาพใน C#](./convert-word-to-markdown-extract-images-in-c/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพโดยใช้ C# และ Aspose.Words
 
-### [บันทึกรูปภาพจาก Word ขณะแปลงเป็น Markdown – คู่มือเต็ม C#](./save-word-images-while-converting-word-to-markdown-complete/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word ระหว่างการแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดในคู่มือเต็ม C#
 
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการแปลงสมการคณิตศาสตร์โดยใช้ Aspose.Words สำหรับ .NET
