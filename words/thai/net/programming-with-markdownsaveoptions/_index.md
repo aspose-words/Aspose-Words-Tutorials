@@ -72,7 +72,6 @@
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการสกัดรูปภาพและแปลงเป็น DOCX อย่างละเอียด
 
 
-### [วิธีเปลี่ยนชื่อรูปภาพเมื่อแปลง DOCX เป็น Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 เรียนรู้วิธีตั้งชื่อรูปภาพใหม่ระหว่างการแปลงไฟล์ DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 

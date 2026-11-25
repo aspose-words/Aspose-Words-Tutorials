@@ -232,7 +232,6 @@ Bon codage, et que votre markdown reste toujours propre et riche en images !
 ## Que devriez‑vous apprendre ensuite ?
 
 - [Comment intégrer des images dans le Markdown lors de la conversion de DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Comment renommer les images lors de la conversion de DOCX en Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

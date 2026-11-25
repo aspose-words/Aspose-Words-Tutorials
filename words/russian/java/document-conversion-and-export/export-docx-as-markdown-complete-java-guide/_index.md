@@ -233,7 +233,6 @@ java -cp ".:aspose-words-23.10.jar" MarkdownExport
 ## Что стоит изучить дальше?
 
 - [Как встраивать изображения в Markdown при конвертации DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Как переименовывать изображения при конвертации DOCX в Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

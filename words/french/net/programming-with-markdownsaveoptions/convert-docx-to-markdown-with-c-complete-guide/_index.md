@@ -264,7 +264,6 @@ Vous avez une variante à partager ? Laissez un commentaire, et bon codage !
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
 - [enregistrer docx en markdown – Guide complet C# avec extraction d’images](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Comment renommer les images lors de la conversion DOCX en Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 - [Convertir docx en markdown – Guide C# étape par étape](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

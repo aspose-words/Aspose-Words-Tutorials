@@ -262,7 +262,6 @@ class Program
 以下教程涵盖与本指南紧密相关的主题，基于其中展示的技术进行扩展。每个资源都包含完整的可运行代码示例和逐步解释，帮助你掌握更多 API 功能，并在自己的项目中探索替代实现方案。
 
 - [将 docx 保存为 markdown – 完整 C# 指南（含图像提取）](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [将 DOCX 转换为 Markdown 时如何重命名图像](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 - [将 docx 转换为 markdown – 步骤式 C# 指南](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

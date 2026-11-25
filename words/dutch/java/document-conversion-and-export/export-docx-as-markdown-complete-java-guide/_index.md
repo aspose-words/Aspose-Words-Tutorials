@@ -232,7 +232,6 @@ Happy coding, en moge je markdown altijd schoon en rijk aan afbeeldingen blijven
 ## Wat moet je hierna leren?
 
 - [Hoe afbeeldingen in Markdown inbedden bij het converteren van DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Hoe afbeeldingen hernoemen bij het converteren van DOCX naar Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -264,7 +264,6 @@ Hai un'idea da condividere? Lascia un commento e buona programmazione!
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell'API ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [salva docx come markdown – Guida completa C# con estrazione immagini](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Come rinominare le immagini durante la conversione da DOCX a Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 - [Converti docx in markdown – Guida C# passo‑passo](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -46,7 +46,6 @@
 ### [حفظ Word كـ Markdown – دليل كامل لتحويل DOCX واستخراج الصور](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 
-### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 
 
 ### [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)

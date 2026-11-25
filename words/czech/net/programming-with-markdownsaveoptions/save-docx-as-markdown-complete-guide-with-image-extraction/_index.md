@@ -295,7 +295,6 @@ Od tady můžete:
 
 - [Jak vložit obrázky do Markdownu při převodu DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [Uložit obrázky z Wordu – převod Wordu na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Jak přejmenovat obrázky při převodu DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
