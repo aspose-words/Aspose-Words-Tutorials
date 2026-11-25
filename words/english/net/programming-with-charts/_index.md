@@ -90,7 +90,6 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
 
 | [Explode Pie Chart Slice in C# with Aspose.Words – Full Guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Learn how to explode a pie chart slice in Word using Aspose.Words for .NET with this step-by-step guide. |
-| [Add pie chart labels in C# using Aspose.Words – Complete Guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Learn how to add labels to pie charts in Word using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [How to Show Percentages in Chart with Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Learn how to display percentages in chart data labels using Aspose.Words for .NET with a clear step-by-step guide. |
 | [How to format series in a Word line chart with C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Learn how to format series in a line chart in Word using Aspose.Words for .NET with C# in this step-by-step guide. |
 | [How to create pie chart in a Word document with Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Learn how to create a pie chart in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to add visual data. |

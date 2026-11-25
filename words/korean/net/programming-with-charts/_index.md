@@ -80,7 +80,6 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
 | [C#와 Aspose.Words를 사용한 파이 차트 조각 분리 – 전체 가이드](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용하여 파이 차트의 조각을 분리하는 방법을 단계별로 안내합니다. |
-| [C#와 Aspose.Words를 사용하여 파이 차트 레이블 추가 – 전체 가이드](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트 레이블을 추가하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words C#로 차트에 백분율 표시하는 방법](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET을 사용해 차트 데이터에 백분율을 표시하는 방법을 단계별로 안내합니다. |
 | [C#에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [C#를 사용하여 Word 라인 차트에서 시리즈 서식 지정하는 방법](./how-to-format-series-in-a-word-line-chart-with-c/) | Aspose.Words for .NET을 활용해 Word 라인 차트의 데이터 시리즈를 C# 코드로 서식 지정하는 단계별 가이드입니다. |
