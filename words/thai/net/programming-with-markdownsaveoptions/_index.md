@@ -188,7 +188,6 @@
 เรียนรู้วิธีลบย่อหน้าว่างจากเอกสาร Word ก่อนแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 
-### [แปลง DOCX เป็น Markdown ใน C# – คู่มือเต็ม](./convert-docx-to-markdown-in-c-complete-guide/)
 
 ### [วิธีบันทึกรูปภาพ – แปลง DOCX เป็น Markdown ด้วย Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ DOCX และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET

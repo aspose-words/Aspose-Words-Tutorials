@@ -188,7 +188,6 @@ Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do Markdown, za
 Dowiedz się, jak wyeksportować linki podczas konwersji plików DOCX do formatu Markdown w C# przy użyciu Aspose.Words.
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
 
-### [Konwertuj DOCX do Markdown w C# – Kompletny przewodnik](./convert-docx-to-markdown-in-c-complete-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 Kompletny przewodnik C# pokazujący, jak wyeksportować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 
