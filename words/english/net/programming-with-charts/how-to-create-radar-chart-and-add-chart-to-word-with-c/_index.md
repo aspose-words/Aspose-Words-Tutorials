@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(document);
 Now you can **add radar chart** directly where the cursor is positioned. The `InsertChart` method accepts a `ChartType` enum, width, and height in points.
 
 ```csharp
-// 3️⃣ Insert a radar (radial) chart with a specific size
-Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300);
+// 3️⃣ Insert a radar chart with a specific size
+Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300).Chart;
 ```
 
 *Why 400 × 300?* These dimensions give a clear, readable chart on a standard A4 page. You can adjust the size later with the **set chart size word** step if your layout requires a different aspect ratio.
@@ -101,32 +101,45 @@ If you need to fine‑tune the size after insertion, you can modify the chart’
 
 ## Enable tick marks on the radial axis
 
-A radar chart is most useful when the radial axis shows clear graduations. The following settings turn on tick marks and set the interval to 30 degrees, which aligns with typical compass‑style radar displays.
+A radar chart is most useful when the radial axis shows clear graduations. The following settings turn on major tick marks on the radial (Y) axis and set a numeric interval.
 
 ```csharp
-// 5️⃣ Turn on graduations (tick marks) and set interval
-radarChart.AxisX.HasGraduations = true;      // show tick marks
-radarChart.AxisX.GraduationInterval = 30;   // every 30 degrees
+// 5️⃣ Turn on major tick marks on the radial axis and set the interval
+radarChart.AxisY.MajorTickMark = AxisTickMark.Cross;   // show tick marks
+radarChart.AxisY.MajorUnit = 30;                       // numeric interval
 ```
 
-*Why this matters:* Graduations help readers gauge values at each angle, improving readability for stakeholders who are not familiar with the data.
+*Why this matters:* Tick marks help readers gauge values at each angle, improving readability for stakeholders who are not familiar with the data.
+
+## Populate the chart with sample data (optional)
+
+Below is a simple way to replace the default demo series with your own values.
+
+```csharp
+// 6️⃣ Replace the default series with custom data
+radarChart.Series.Clear();
+radarChart.Series.Add(
+    "Sample Series",
+    new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
+    new double[] { 10, 20, 30, 40 });
+```
 
 ## Save the document containing the chart
 
 Finally, write the document to disk. You can choose any folder you like; just make sure the path exists.
 
 ```csharp
-// 6️⃣ Save the Word file
+// 7️⃣ Save the Word file
 document.Save(@"C:\Temp\RadialChart.docx");
 ```
 
-When you open `RadialChart.docx` in Microsoft Word, you’ll see a fully rendered radar chart centered on the page, sized as specified, with tick marks every 30 degrees.
+When you open `RadialChart.docx` in Microsoft Word, you’ll see a fully rendered radar chart centered on the page, sized as specified, with tick marks every 30 units on the radial axis.
 
 ### Expected output
 
 * A `.docx` file named **RadialChart.docx**  
 * The first page contains a radar chart of size 400 × 300 points  
-* The X‑axis (radial axis) displays tick marks at 0°, 30°, 60°, …, 330°  
+* The radial (Y) axis displays tick marks at intervals of 30 units  
 
 You can now replace the placeholder data series with your own values by accessing `radarChart.Series` – but that’s beyond the scope of this basic **add radar chart** tutorial.
 
@@ -136,7 +149,7 @@ You can now replace the placeholder data series with your own values by accessin
 |----------|------------|
 | **Different chart type** | Replace `ChartType.Radar` with `ChartType.Column`, `ChartType.Pie`, etc. |
 | **Multiple charts** | Call `InsertChart` repeatedly; each call positions the new chart after the previous one. |
-| **Large data sets** | Use `radarChart.Series[0].DataPoints.AddDataPointForBarSeries(value)` to populate many points. |
+| **Large data sets** | Use `radarChart.Series.Add(...)` with a larger array of values. |
 | **Saving as PDF** | Call `document.Save("RadialChart.pdf", SaveFormat.Pdf);` after the chart is added. |
 | **Running on .NET Core** | Ensure you reference `Aspose.Words` package; API usage is identical. |
 
@@ -162,22 +175,22 @@ namespace RadarChartDemo
             DocumentBuilder builder = new DocumentBuilder(document);
 
             // 3️⃣ Insert a radar chart (400 × 300 points)
-            Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300);
+            Chart radarChart = builder.InsertChart(ChartType.Radar, 400, 300).Chart;
 
             // 4️⃣ (Optional) Change chart size if needed
             // radarChart.Width = 500;
             // radarChart.Height = 350;
 
-            // 5️⃣ Enable tick marks on the radial axis
-            radarChart.AxisX.HasGraduations = true;          // show tick marks
-            radarChart.AxisX.GraduationInterval = 30;       // every 30 degrees
+            // 5️⃣ Enable major tick marks on the radial axis
+            radarChart.AxisY.MajorTickMark = AxisTickMark.Cross;
+            radarChart.AxisY.MajorUnit = 30;
 
             // 6️⃣ Populate the chart with sample data (optional)
-            radarChart.Series[0].DataPoints.Clear();
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(10);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(20);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(30);
-            radarChart.Series[0].DataPoints.AddDataPointForBarSeries(40);
+            radarChart.Series.Clear();
+            radarChart.Series.Add(
+                "Sample Series",
+                new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
+                new double[] { 10, 20, 30, 40 });
 
             // 7️⃣ Save the document
             string outputPath = @"C:\Temp\RadialChart.docx";
