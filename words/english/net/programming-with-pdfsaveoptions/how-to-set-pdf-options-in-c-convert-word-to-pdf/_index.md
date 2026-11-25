@@ -78,24 +78,27 @@ Document document = new Document(inputPath);
 
 ## Step 2: Configure PDF Save Options for Accessibility  
 
-The heart of **how to set PDF** options lies in `PdfSaveOptions`. Setting `Compliance = PdfCompliance.PdfUAXmpa` tells Aspose.Words to embed the necessary tags, structure elements, and metadata required by PDF/UA‑2.
+The heart of **how to set PDF** options lies in `PdfSaveOptions`. Setting `Compliance = PdfCompliance.PdfUa2` tells Aspose.Words to embed the necessary tags, structure elements, and metadata required by PDF/UA‑2.
 
 ```csharp
+// Set a custom title for the PDF metadata (optional)
+document.BuiltInDocumentProperties.Title = "Accessible PDF generated from Word";
+
 // Create PDF save options with PDF/UA‑2 compliance
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // PDF/UA‑2 compliance ensures the PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUAXmpa,
+    Compliance = PdfCompliance.PdfUa2,
 
     // Optional: embed all fonts to avoid missing‑glyph issues on other machines
     EmbedFullFonts = true,
 
-    // Optional: set a custom title for the PDF metadata
-    Title = "Accessible PDF generated from Word"
+    // Ensure the title set above is displayed in PDF viewers
+    DisplayDocTitle = true
 };
 ```
 
-*Why this matters:* Without the `PdfUAXmpa` flag, the generated PDF will look fine but screen readers may stumble over missing tags. Enabling full‑font embedding also prevents layout shifts when the PDF is opened on a system without the original fonts.
+*Why this matters:* Without the `PdfUa2` flag, the generated PDF will look fine but screen readers may stumble over missing tags. Enabling full‑font embedding also prevents layout shifts when the PDF is opened on a system without the original fonts. Setting `DisplayDocTitle` makes the title appear in PDF viewers.
 
 ---
 
@@ -111,7 +114,7 @@ document.Save(outputPath, pdfSaveOptions);
 Console.WriteLine($"PDF saved successfully to: {outputPath}");
 ```
 
-After this runs, you should see `output.pdf` in the same folder. Open it in Adobe Acrobat Reader and check **File → Properties → Description**; you’ll notice the “PDF/A‑2b (PDF/UA) compliant” tag.
+After this runs, you should see `output.pdf` in the same folder. Open it in Adobe Acrobat Reader and check **File → Properties → Description**; you’ll notice the “PDF/UA‑2 compliant” tag.
 
 ---
 
@@ -213,12 +216,15 @@ class Program
             // 1️⃣ Load the Word document
             Document doc = new Document(inputFile);
 
+            // Optional: set PDF title metadata
+            doc.BuiltInDocumentProperties.Title = "Accessible PDF generated from Word";
+
             // 2️⃣ Set up PDF save options for accessibility
             PdfSaveOptions pdfOpts = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUAXmpa, // generate accessible PDF
+                Compliance = PdfCompliance.PdfUa2, // generate accessible PDF
                 EmbedFullFonts = true,
-                Title = "Accessible PDF generated from Word"
+                DisplayDocTitle = true
             };
 
             // 3️⃣ Optional: add a footer (demonstrates extra manipulation)
@@ -259,7 +265,13 @@ class Program
 A: Absolutely. The same API surface is available; just reference the appropriate Aspose.Words DLL.
 
 **Q: What if I need to set a custom page size?**  
-A: Adjust `pdfOpts.PageSetup.PaperSize` before calling `Save`.
+A: Adjust the page size on each section’s `PageSetup`, for example:  
+
+```csharp
+document.Sections[0].PageSetup.PaperSize = PaperSize.A4;
+```  
+
+You can apply this to all sections as needed before saving.
 
 **Q: Can I convert a `.doc` (old Word format) as well?**  
 A: Yes—`Document` auto‑detects the format, so the same code works for `.doc` files.
