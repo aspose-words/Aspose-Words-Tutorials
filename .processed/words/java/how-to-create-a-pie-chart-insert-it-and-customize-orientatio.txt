@@ -1,0 +1,7 @@
+Title: How to create a pie chart, insert it, and customize orientation in Java
+Slug: how-to-create-a-pie-chart-insert-it-and-customize-orientatio
+Category: document-manipulation
+ProcessedDate: 2026-11-25T16:52:14.176916
+SourceRepo: AI Search API
+Keywords: create pie chart, change chart orientation, explode pie slice, insert pie chart, rotate pie chart
+PRNumber: 970
