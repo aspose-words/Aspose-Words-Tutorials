@@ -69,7 +69,6 @@
 - [บันทึก DOCX เป็น PDF ใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียดในคู่มือฉบับสมบูรณ์
 - [วิธีตั้งค่าตัวเลือก PDF ใน C# – แปลง Word เป็น PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | เรียนรู้วิธีตั้งค่าตัวเลือก PDF ใน C# เพื่อแปลงไฟล์ Word เป็น PDF ด้วย Aspose.Words สำหรับ .NET
 - [วิธีส่งออก PDF จาก Word ด้วย Aspose – คู่มือเต็มขั้นตอน](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | เรียนรู้วิธีส่งออกไฟล์ PDF จากเอกสาร Word ด้วย Aspose อย่างละเอียดตามขั้นตอนครบถ้วน
-- [แท็ก PDF เพื่อการเข้าถึงใน C# – คู่มือฉบับสมบูรณ์](./tag-pdf-for-accessibility-in-c-complete-guide/) | เรียนรู้วิธีแท็ก PDF เพื่อการเข้าถึงด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้
 - [บันทึกเอกสาร PDF ด้วยการแทนที่ฟอนต์ใน C# – คู่มือฉบับสมบูรณ์](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word พร้อมการแทนที่ฟอนต์ใน C# ด้วย Aspose.Words อย่างละเอียด
 - [แปลง Word เป็น PDF ที่เข้าถึงได้ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words อย่างละเอียด
 - [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words ผ่านขั้นตอนง่าย ๆ |
