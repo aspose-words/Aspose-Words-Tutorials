@@ -186,7 +186,6 @@
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的示例和步骤指南。
 
-### [如何从 Word 保存 Markdown – 完整指南（提取图像并转换 DOCX）](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，详细演示提取图像并将 DOCX 转换为 Markdown 的完整步骤。
 
