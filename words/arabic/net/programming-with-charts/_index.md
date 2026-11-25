@@ -49,7 +49,6 @@
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="حفظ المستند المعدل بشرائح فطيرة منفجرة في C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="كيفية تعيين عدد صناديق الرسم البياني التكراري وإضافة تسميات البيانات في مخطط Word باستخدام C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 {{< tutorial-card link="./single-chart-series/" title="تخصيص سلسلة مخطط واحد في مخطط" imgSrc="./single-chart-series/images/thumb.png" >}}
 

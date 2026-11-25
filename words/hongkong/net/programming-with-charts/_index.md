@@ -48,7 +48,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="在 C# 中儲存含有分離餅圖切片的已修改文件" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="使用 C# 在 Word 圖表中設定直方圖箱數量並新增資料標籤" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 

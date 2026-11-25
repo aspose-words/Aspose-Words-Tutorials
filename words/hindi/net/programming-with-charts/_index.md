@@ -46,7 +46,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET का उपयोग करके Word में चार्ट शीर्षक अपडेट करें और लेजेंड की दृश्यता टॉगल करें" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# का उपयोग करके Word चार्ट में हिस्टोग्राम बिन काउंट सेट करें और डेटा लेबल जोड़ें" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | शीर्षक | विवरण |
