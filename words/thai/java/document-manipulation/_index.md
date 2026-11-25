@@ -138,6 +138,9 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแทรก Content Control ข้อความธรรมดาในไฟล์ Word ด้วย C# โดยใช้ Aspose.Words
 ### [แก้ไขเอกสาร Word ด้วยโปรแกรมและเพิ่มปุ่มคำสั่ง](./edit-word-document-programmatically-and-add-a-command-button/)
 
+### [วิธีสร้างแผนภูมิวงกลม แทรกและปรับทิศทางใน Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมใน Aspose.Words for Java แทรกลงในเอกสารและปรับทิศทางตามต้องการ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

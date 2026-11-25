@@ -140,6 +140,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-D
 ### [Festlegen der Schaltflächenposition in Aspose.Words für Java](./how-to-set-button-position-in-a-word-document-with-java/)
 Erfahren Sie, wie Sie die Position einer Schaltfläche in einem Word-Dokument mit Aspose.Words für Java festlegen.
 
+### [Wie man ein strukturiertes Dokument-Tag in Java mit Aspose.Words erstellt](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Erfahren Sie, wie Sie in Aspose.Words für Java strukturierte Dokument-Tags erstellen und verwenden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

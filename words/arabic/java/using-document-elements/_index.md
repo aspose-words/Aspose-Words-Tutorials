@@ -114,7 +114,7 @@
 ### [كيفية إنشاء ملف docx يحتوي على ActiveX باستخدام Java و Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 ### [كيفية إدراج مخطط دائري في مستند Word باستخدام Java](./how-to-insert-pie-chart-into-a-word-document-using-java/)
 تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
-### [كيفية إضافة مخطط دائري إلى مستند Word باستخدام Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
+### [كيفية إضافة مخطط دائري إلى مستند Word باستخدام Java](./how-to-add-pie-chart-to-a-word-document-using-java/)
 تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
 ### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
 ### [كيفية تفجير شريحة فطيرة في Java – دليل Aspose.Words للمخططات](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
@@ -125,6 +125,7 @@
 تعلم كيفية تحديد موضع زر في مستند Word باستخدام Aspose.Words لجافا.
 ### [إدراج مخطط دائري في Word باستخدام Java – دليل كامل](./insert-pie-chart-word-in-java-complete-guide/)
 تعلم كيفية إدراج مخطط دائري في مستند Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+### [كيفية إنشاء Structured Document Tag في Java باستخدام Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

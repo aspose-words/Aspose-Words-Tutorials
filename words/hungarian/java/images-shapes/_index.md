@@ -36,6 +36,8 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Hogyan rejtsünk el alakzatot a Wordben az Aspose.Words használatával](./how-to-hide-shape-in-word-using-aspose-words/)
+
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -212,16 +214,6 @@ Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentu
 
 ### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
-
-### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-
-### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shadow-to-shape-guide/)
-Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
-
-### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
-
 ### [Hogyan használjuk az Aspose-t kép beszúrásához és elrejtéséhez egy Word dokumentumban](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
 ### [Hogyan hozzunk létre fánkdiagramot és szúrjunk be kördiagramot](./how-to-create-a-doughnut-chart-and-insert-a-pie-chart/)
@@ -229,6 +221,8 @@ Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentu
 ### [Téglalap alakzat létrehozása Word dokumentumban Java használatával](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [Hogyan hozzunk létre téglalap alakzatot és csoportosítsunk alakzatokat a Wordben C#-val](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
+
+### [Alakzatok csoportosítása Word-ben és méreteik programozott beállítása](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ## További források
 
@@ -264,10 +258,8 @@ Ismerje meg, hogyan hozhat létre üres Word dokumentumot és csoportosíthatja 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -36,6 +36,8 @@ In de wereld van documentverwerking is het integreren van afbeeldingen en vormen
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Hoe een vorm verbergen in Word met Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
+
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -161,6 +163,8 @@ Leer hoe u een leeg Word-document maakt en meerdere vormen groept met Aspose.Wor
 ### [Rechthoekvorm maken in een Word-document met Java](./create-rectangle-shape-in-a-word-document-using-java/)
 
 ### [Hoe Aspose te gebruiken om een afbeelding in te voegen en te verbergen in een Word-document](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
+
+### [Hoe vormen groeperen in Word en hun afmetingen programmatisch instellen](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ## Aanvullende bronnen
 

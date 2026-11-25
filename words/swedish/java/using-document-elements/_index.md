@@ -81,7 +81,7 @@ Lär dig skapa DOCX-filer som innehåller ActiveX-kontroller med Java och Aspose
 ### [Skapa ActiveX-kommandoknapp i Java](./how-to-create-activex-command-button-in-java/)
 Lär dig hur du skapar en ActiveX-kommandoknapp i Java med Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
-Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
+Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för‑steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
 ### [Skapa cirkeldiagram med Aspose.Words Java – Fullständig steg‑för‑steg‑guide](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
@@ -93,7 +93,7 @@ Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspos
 ### [Skapa tomt Word-dokument med en kommandoknapp – steg‑för‑steg‑guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en kommandoknapp med denna steg‑för‑steg‑guide.
 ### [Hur du får separator i Aspose.Words för Java](./how-to-get-separator-in-word-docs-with-java/)
-Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Java i denna steg-för-steg-handledning.
+Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Java i denna steg-för‑steg-handledning.
 ### [Hur man lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
 Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
 ### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
@@ -162,196 +162,8 @@ Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words fö
 Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
 ### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
 Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
-### [Hur du lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
-Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
+
+### [Hur du skapar strukturerad dokumenttagg i Java med Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
 
 ### [Hur man infogar ett cirkeldiagram i ett Word-dokument med Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.

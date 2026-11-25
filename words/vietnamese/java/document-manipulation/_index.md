@@ -155,13 +155,13 @@ Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java
 Hướng dẫn cách đặt tên thẻ và chèn Thẻ Tài liệu có Cấu trúc (SDT) vào tài liệu Word bằng C#.
 ### [Cách tạo tài liệu Word trống với điều khiển nội dung văn bản thuần trong C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 Hướng dẫn tạo tài liệu Word trống và chèn điều khiển nội dung văn bản thuần bằng C#.
+### [Cách tạo biểu đồ tròn, chèn nó và tùy chỉnh hướng trong Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Hướng dẫn tạo biểu đồ tròn, chèn vào tài liệu và điều chỉnh hướng bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

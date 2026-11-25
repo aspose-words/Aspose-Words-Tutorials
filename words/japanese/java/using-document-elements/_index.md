@@ -76,6 +76,9 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
 ### [Aspose.Words for Java のノードの使用](./using-nodes/)
+### [Java で Aspose.Words を使用して構造化ドキュメントタグを作成する方法](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Aspose.Words for Java で構造化ドキュメントタグ（SDT）を作成し、テンプレート化された文書を生成する手順を解説します。
+
 ### [Aspose.Words for Java で円グラフを挿入し、データ ラベルにパーセンテージを追加](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
 Aspose.Words for Java を使用して、Word 文書に円グラフを挿入し、データ ラベルにパーセンテージを表示する手順を学びます。
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
@@ -142,7 +145,6 @@ Aspose.Words for Java を使用して、Word 文書にチャートを挿入し�
 ### [Javaで円グラフを挿入する完全ガイド](./insert-pie-chart-word-in-java-complete-guide/)
 
 ### [Word 文書に ActiveX を追加し、円グラフを挿入する方法](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
-Aspose.Words for JavaでActiveXを追加し、円グラフを文書に挿入する手順を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

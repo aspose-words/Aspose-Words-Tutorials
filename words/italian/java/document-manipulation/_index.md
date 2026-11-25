@@ -49,7 +49,7 @@ Approfondisci argomenti avanzati come l'utilizzo di intestazioni e piè di pagin
 
 ## Dove trovare i tutorial di Aspose.Words per Java
 
-Pronti a intraprendere il vostro viaggio nella manipolazione dei documenti? Potete accedere ai nostri tutorial e risorse su [Documentazione API di Aspose.Words](https://reference.aspose.com/words/java/)Che tu sia un principiante o uno sviluppatore esperto, i nostri tutorial passo passo sono adatti a tutti i livelli di competenza.
+Pronti a intraprendere il vostro viaggio nella manipolazione dei documenti? Potete accedere ai nostri tutorial e risorse su [Documentazione API di Aspose.Words](https://reference.aspose.com/words/java/)Che tu sia un principiante o un sviluppatore esperto, i nostri tutorial passo passo sono adatti a tutti i livelli di competenza.
 
 La manipolazione di documenti con Aspose.Words per Java è una competenza preziosa per sviluppatori e aziende. Con i nostri tutorial e la potenza di Aspose.Words, puoi semplificare le attività relative ai documenti, aumentare la produttività e creare documenti straordinari senza sforzo.
 
@@ -138,7 +138,8 @@ Impara a generare un documento Word vuoto usando Aspose.Words per Java con pochi
 ### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
 ### [Modifica documento Word programmaticamente e aggiungi un pulsante di comando](./edit-word-document-programmatically-and-add-a-command-button/)
-Modifica un documento Word tramite codice Java e inserisci un pulsante di comando.
+
+### [Come creare un grafico a torta, inserirlo e personalizzare l'orientamento in Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

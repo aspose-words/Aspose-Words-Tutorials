@@ -73,7 +73,7 @@ Java için Aspose.Words'ün Gücünü Açın. Adım Adım Eğitimlerle XML Veri 
 ### [Java için Aspose.Words'de Belgelerden İçerik Çıkarma](./extracting-content-from-documents/)
 Aspose.Words for Java kullanarak belgelerden içerikleri kolayca nasıl çıkaracağınızı öğrenin. Adım adım kılavuzumuz ve kod örneklerimiz süreci basitleştirir.
 ### [Java için Aspose.Words'de İçerik Çıkarmak İçin Yardımcı Yöntemler](./helper-methods-for-extracting-content/)
-Aspose.Words for Java kullanarak Word belgelerinden içerikleri etkili bir şekilde nasıl çıkaracağınızı öğrenin. Bu kapsamlı kılavuzda yardımcı yöntemleri, özel biçimlendirmeyi ve daha fazlasını keşfedin.
+Aspose.Words for Java kullanarak Word belgelerinden içerikleri etkili bir şekilde nasıl çıkaracağınızı öğrenin. Bu kapsamlı rehberde yardımcı yöntemleri, özel biçimlendirmeyi ve daha fazlasını keşfedin.
 ### [Java için Aspose.Words'de Metin Bulma ve Değiştirme](./finding-and-replacing-text/)
 Aspose.Words for Java ile Word belgelerinde metin bulmayı ve değiştirmeyi öğrenin. Kod örnekleriyle adım adım kılavuz. Java belge düzenleme becerilerinizi geliştirin.
 ### [Java için Aspose.Words'de Belgelerden İçerik Kaldırma](./removing-content-from-documents/)
@@ -124,16 +124,13 @@ Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyece�
 ### [Java için Aspose.Words'de içerik denetimi ekleme ve yer tutucu metin ayarlama](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 Java'da içerik denetimi ekleyip yer tutucu metni ayarlamayı adım adım öğrenin.
 ### [Java ile Word'de etkileşimli komut düğmesiyle boş belge oluşturma](./create-blank-document-with-an-interactive-command-button-in/)
-
 ### [Word belgesini programlı olarak düzenleyin ve bir komut düğmesi ekleyin](./edit-word-document-programmatically-and-add-a-command-button/)
-
 ### [Metin Kontrolü Kullanarak Boş Word Belgesi Oluşturma](./how-to-create-a-blank-word-document-with-a-text-control/)
 ### [Java için Aspose.Words ile programlı olarak Word belgesi oluşturma](./how-to-create-word-document-programmatically-with-aspose-wor/)
 ### [DocumentBuilder ile docx kaydetme ve bir kontrolün sonrasına metin ekleme](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
 ### [Java için Aspose.Words'de Yeni Word Belgesi Oluşturma – Yapılandırılmış Etiket Eklemek İçin Adım‑Adım Kılavuz](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
-Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturun ve yapılandırılmış etiket eklemeyi adım adım öğrenin.
 ### [Aspose.Words for Java ile Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-aspose-words-for-java/)
-Aspose.Words for Java kullanarak sıfırdan boş bir Word belgesi oluşturmayı adım adım öğrenin.
+### [Java'da pasta grafiği oluşturma, ekleme ve yönlendirmeyi özelleştirme](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
 ### [C# ile bir Word belgesinde etiket adını ayarlama ve SDT ekleme](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

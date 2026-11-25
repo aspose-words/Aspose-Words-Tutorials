@@ -133,6 +133,8 @@ Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words u
 Pelajari cara membuat diagram di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Cara menambahkan diagram pai ke dokumen Word menggunakan Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
+### [Cara membuat tag dokumen terstruktur di Java menggunakan Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Pelajari cara membuat tag dokumen terstruktur di Java dengan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

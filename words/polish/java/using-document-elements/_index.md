@@ -102,6 +102,8 @@ Dowiedz się, jak ustawić pozycję przycisku w dokumencie Word przy użyciu Asp
 Dowiedz się, jak tworzyć wykresy w dokumentach Word przy użyciu Java i Aspose.Words w kilku prostych krokach.
 ### [Wstaw wykres kołowy w Wordzie przy użyciu Java – kompletny przewodnik](./insert-pie-chart-word-in-java-complete-guide/)
 Dowiedz się, jak w prosty sposób wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words for Java.
+### [Jak utworzyć znacznik strukturalny dokumentu w Javie przy użyciu Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Dowiedz się, jak w Aspose.Words for Java utworzyć znacznik strukturalny dokumentu, aby organizować zawartość i ułatwić przetwarzanie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

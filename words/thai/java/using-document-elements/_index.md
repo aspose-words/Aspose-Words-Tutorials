@@ -75,6 +75,8 @@
 ### [การใช้การแก้ไขใน Aspose.Words สำหรับ Java](./using-revisions/)
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
+### [วิธีสร้างแท็กเอกสารโครงสร้างใน Java ด้วย Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+เรียนรู้วิธีสร้าง Structured Document Tag ในเอกสาร Word ด้วย Java
 ### [ตั้งขนาดปุ่มใน Word ด้วย Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 เรียนรู้วิธีตั้งขนาดปุ่มในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียดและครบถ้วน
 ### [สร้างแผนภูมิวงกลมด้วย Aspose.Words Java – คู่มือเต็มขั้นตอน](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)

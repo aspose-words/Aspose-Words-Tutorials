@@ -52,6 +52,8 @@ Java를 사용해 Word 문서에서 구분 기호를 추출하는 방법을 단�
 빈 Word 문서를 생성하고 ActiveX 버튼을 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
 Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. 문서에 주석을 추가하고 사용자 지정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 구조화된 문서 태그 만들기](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Java에서 Aspose.Words를 사용해 구조화된 문서 태그(SDT)를 만드는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)
 이 단계별 튜토리얼을 통해 Aspose.Words for Java 필드를 효과적으로 사용하는 방법을 알아보세요. 동적인 Word 문서를 손쉽게 만들어 보세요.
 ### [Java용 Aspose.Words에서 글꼴 사용](./using-fonts/)

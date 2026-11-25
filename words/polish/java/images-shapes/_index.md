@@ -36,6 +36,7 @@ dziedzinie przetwarzania dokumentów integrowanie obrazów i kształtów jest kl
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Jak ukryć kształt w Wordzie przy użyciu Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 
@@ -139,7 +140,6 @@ Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspo
 Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego grupowany kształt przy użyciu Aspose.Words dla Java.
 
 ### [Utwórz dokument Word w Javie – Wstaw i ukryj obrazy](./create-word-document-java-insert-and-hide-images-with-aspose/)
-Dowiedz się, jak wstawiać obrazy do dokumentu Word i ukrywać je, korzystając z Aspose.Words dla Java.
 
 ### [Jak wstawić elipsę i prostokąt wewnątrz grupy kształtów przy użyciu Aspose.Words](./how-to-insert-ellipse-and-rectangle-shapes-inside-a-group-sh/)
 Instrukcja dodawania elipsy i prostokąta do grupy kształtów w dokumentach Word przy użyciu Aspose.Words dla Java.
@@ -169,6 +169,8 @@ Dowiedz się, jak programowo utworzyć dokument Word i dodać do niego kształt 
 
 ### [Jak używać Aspose do wstawiania obrazu i ukrywania go w dokumencie Word](./how-to-use-aspose-to-insert-image-and-hide-it-in-a-word-docu/)
 
+### [Jak grupować kształty w Wordzie i programowo ustawiać ich wymiary](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
+Dowiedz się, jak grupować kształty w Wordzie i ustawiać ich wymiary programowo przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

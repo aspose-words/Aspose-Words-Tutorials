@@ -143,6 +143,8 @@ Pelajari cara membuat dokumen Word kosong dan menambahkan tombol ActiveX menggun
 Pelajari cara menyisipkan kontrol konten teks biasa ke dalam dokumen Word menggunakan C#.
 ### [Cara menyisipkan kontrol konten, mengatur teks placeholder di Word dengan Java](./how-to-insert-content-control-set-placeholder-text-word-in-j/)
 Pelajari cara menyisipkan kontrol konten dan mengatur teks placeholder dalam dokumen Word menggunakan Aspose.Words untuk Java.
+### [Cara membuat diagram lingkaran, menyisipkannya, dan menyesuaikan orientasi di Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+Pelajari cara membuat diagram lingkaran, menyisipkannya ke dokumen, dan menyesuaikan orientasinya menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

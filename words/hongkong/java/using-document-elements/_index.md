@@ -144,6 +144,9 @@
 了解如何使用 Aspose.Words for Java 在 Word 文件中建立和自訂圖表的步驟。
 ### [在 Java 中插入餅圖至 Word – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
 
+### [如何在 Java 中使用 Aspose.Words 建立結構化文件標記](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+了解如何在 Java 使用 Aspose.Words 建立結構化文件標記（SDT），以實作動態內容與表單功能。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

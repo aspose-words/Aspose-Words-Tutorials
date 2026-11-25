@@ -162,6 +162,9 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 ### [在 C# 中建立空白 Word 文件並加入 ActiveX 按鈕](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 示範如何在 C# 使用 Aspose.Words 建立空白 Word 文件，並添加可點擊的 ActiveX 按鈕。
 
+### [在 Java 中建立餅圖、插入並自訂方向](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+示範如何使用 Aspose.Words for Java 建立餅圖、將其插入文件，並調整圖表方向。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

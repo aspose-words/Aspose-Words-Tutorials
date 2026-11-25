@@ -43,6 +43,8 @@
 记住，熟能生巧，有了 Aspose.Words for Java，您很快就能像专业人士一样创建、修改和增强文档。祝您编码愉快！
 
 ## 使用文档元素教程
+### [How to create structured document tag in Java using Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
 

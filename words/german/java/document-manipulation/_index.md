@@ -148,7 +148,11 @@ Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach 
 
 ### [Erstellen eines leeren Word-Dokuments und Hinzufügen einer ActiveX-Schaltfläche in C#](./create-a-blank-word-document-and-add-an-activex-button-in-c/)
 
- zur Dokumentbearbeitung
+zur Dokumentbearbeitung
+
+### [Wie man ein Kreisdiagramm erstellt, einfügt und die Ausrichtung in Java anpasst](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
+
+Erfahren Sie, wie Sie ein Kreisdiagramm in Java erstellen, einfügen und die Ausrichtung anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

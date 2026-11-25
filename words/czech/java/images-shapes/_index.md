@@ -30,8 +30,11 @@ oblasti zpracování dokumentů je integrace obrázků a tvarů klíčová pro v
 
 ### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
 
+### [Jak skrýt tvar ve Wordu pomocí Aspose.Words](./how-to-hide-shape-in-word-using-aspose-words/)
 
 ### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+### [Jak seskupit tvary ve Wordu a nastavit jejich rozměry programově](./how-to-group-shapes-in-word-and-set-their-dimensions-program/)
 
 ### [Jak vytvořit obdélníkový tvar a seskupit tvary ve Wordu pomocí C#](./how-to-create-rectangle-shape-and-group-shapes-in-word-using/)
 

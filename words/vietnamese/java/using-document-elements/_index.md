@@ -137,6 +137,8 @@ Hướng dẫn cách đặt vị trí nút trong tài liệu Word bằng Java.
 Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java.
 ### [Cách thêm biểu đồ tròn vào tài liệu Word bằng Java](./how-to-add-a-pie-chart-to-a-word-document-using-java/)
 Hướng dẫn chi tiết cách thêm biểu đồ tròn vào tài liệu Word bằng Aspose.Words for Java.
+### [Cách tạo thẻ tài liệu có cấu trúc trong Java bằng Aspose.Words](./how-to-create-structured-document-tag-in-java-using-aspose-w/)
+Hướng dẫn chi tiết cách tạo Structured Document Tag trong tài liệu Word bằng Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

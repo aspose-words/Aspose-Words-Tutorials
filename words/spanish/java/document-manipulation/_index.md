@@ -133,6 +133,7 @@ Aprenda a generar documentos Word de forma programática usando Aspose.Words en 
 Aprenda a generar un documento Word vacío usando Aspose.Words para Java con ejemplos de código simples.
 ### [Cómo crear un documento Word en blanco con Aspose.Words para Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
 Aprenda a crear un documento Word vacío usando Aspose.Words para Java.
+### [Cómo crear un gráfico circular, insertarlo y personalizar la orientación en Java](./how-to-create-a-pie-chart-insert-it-and-customize-orientatio/)
 ### [Cómo establecer el nombre de etiqueta y agregar SDT en un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [Cómo crear un documento Word en blanco con un control de contenido de texto sin formato en C#](./how-to-create-blank-word-document-with-a-plain-text-content/)
 
