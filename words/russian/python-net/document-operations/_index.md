@@ -101,6 +101,9 @@
 ### [Восстановление повреждённого DOCX – Полное руководство по Python](./recover-corrupted-docx-complete-python-guide/)
 Узнайте, как полностью восстановить повреждённый DOCX с помощью Aspose.Words для Python‑net, используя пошаговые инструкции и примеры кода.
 
+### [Восстановление повреждённого DOCX с Aspose.Words for Python](./recover-corrupted-docx-with-aspose-words-for-python/)
+Узнайте, как восстановить повреждённый DOCX‑файл с помощью Aspose.Words для Python, следуя пошаговым инструкциям.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

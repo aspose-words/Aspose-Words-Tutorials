@@ -28,34 +28,34 @@ La categoría "Operaciones con Documentos" está diseñada para desarrolladores 
 Aprende a manipular archivos PDF con Aspose.Words para Python. Convierte, edita y gestiona documentos cifrados fácilmente.
 
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
-Aprenda a convertir documentos de Microsoft Word (DOCX) en XAML de formato fijo utilizando Aspose.Words para Python, garantizando una gestión eficiente de los recursos y la integridad del diseño.
+    Aprenda a convertir documentos de Microsoft Word (DOCX) en XAML de formato fijo utilizando Aspose.Words para Python, garantizando una gestión eficiente de los recursos y la integridad del diseño.
 
     ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
-Aprenda a cargar documentos RTF de forma eficiente y a detectar la codificación UTF-8 con Aspose.Words para Python. Mejore la precisión del procesamiento de texto en sus proyectos.
+    Aprenda a cargar documentos RTF de forma eficiente y a detectar la codificación UTF-8 con Aspose.Words para Python. Mejore la precisión del procesamiento de texto en sus proyectos.
 
     ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-Aprenda a resolver enlaces rotos en archivos .chm con la potente biblioteca Aspose.Words. Mejore la fiabilidad de sus documentos y la experiencia del usuario con esta guía paso a paso.
+    Aprenda a resolver enlaces rotos en archivos .chm con la potente biblioteca Aspose.Words. Mejore la fiabilidad de sus documentos y la experiencia del usuario con esta guía paso a paso.
 
     ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
-Aprenda a usar Aspose.Words para Python para convertir documentos de Word en páginas HTML independientes mediante devoluciones de llamada personalizadas. Ideal para la gestión de documentos y la publicación web.
+    Aprenda a usar Aspose.Words para Python para convertir documentos de Word en páginas HTML independientes mediante devoluciones de llamada personalizadas. Ideal para la gestión de documentos y la publicación web.
 
     ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-Aprenda a gestionar y procesar archivos Markdown de forma eficiente con la función MarkdownLoadOptions de Aspose.Words en Python. Optimice sus flujos de trabajo de documentos con un control preciso del formato.
+    Aprenda a gestionar y procesar archivos Markdown de forma eficiente con la función MarkdownLoadOptions de Aspose.Words en Python. Optimice sus flujos de trabajo de documentos con un control preciso del formato.
 
     ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
-Aprenda a cargar, administrar y automatizar documentos de Microsoft Word con Aspose.Words en Python. Optimice el procesamiento de documentos sin esfuerzo.
+    Aprenda a cargar, administrar y automatizar documentos de Microsoft Word con Aspose.Words en Python. Optimice el procesamiento de documentos sin esfuerzo.
 
     ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
-Un tutorial de código para Aspose.Words Python-net
+    Un tutorial de código para Aspose.Words Python-net
 
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
-Aprenda a limitar los niveles de encabezado y aplicar firmas digitales en documentos XPS usando Aspose.Words para Python, mejorando la seguridad y la navegación del documento.
+    Aprenda a limitar los niveles de encabezado y aplicar firmas digitales en documentos XPS usando Aspose.Words para Python, mejorando la seguridad y la navegación del documento.
 
     ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
-Un tutorial de código para Aspose.Words Python-net
+    Un tutorial de código para Aspose.Words Python-net
 
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
-Aprenda a convertir documentos de Word a formato PostScript con Aspose.Words para Python. Esta guía abarca la configuración, la conversión y las opciones de impresión de libros plegados.
+    Aprenda a convertir documentos de Word a formato PostScript con Aspose.Words para Python. Esta guía abarca la configuración, la conversión y las opciones de impresión de libros plegados.
 
 ### [Recuperar archivos docx con Aspose.Words para Python – guía paso a paso](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
 Aprenda a recuperar archivos DOCX dañados usando Aspose.Words para Python paso a paso.
@@ -102,6 +102,9 @@ Aprenda a recuperar archivos DOCX dañados usando Aspose.Words para Python.
 Aprenda a abrir y reparar documentos Word corruptos usando Aspose.Words para Python-net.
 ### [Recuperar DOCX corrupto – Guía completa en Python](./recover-corrupted-docx-complete-python-guide/)
 Aprenda a reparar archivos DOCX dañados paso a paso usando Aspose.Words para Python, con ejemplos claros y soluciones efectivas.
+
+    ### [Recuperar docx corrupto con Aspose.Words para Python](./recover-corrupted-docx-with-aspose-words-for-python/)
+    Aprenda a reparar archivos DOCX dañados usando Aspose.Words para Python.
 
 ## Recursos adicionales
 

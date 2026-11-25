@@ -62,8 +62,11 @@ Python के लिए Aspose.Words का उपयोग करके दस�
 Python में Aspose.Words का उपयोग करके Shape में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
 
 ### [Python के साथ Word में आकृति में शैडो जोड़ें – पूर्ण गाइड](./add-shadow-to-shape-in-word-with-python-complete-guide/)
-Python का उपयोग करके Word दस्तावेज़ में आकृति पर शैडो लागू करने की पूरी प्रक्रिया सीखें।
-### [Python में Aspose.Words में शैडो सेट करना – उदाहरण](./how-to-set-shadow-in-aspose-words-python-example/)
+Python का उपयोग करके Word दस्तावेज़ में आकृति पर शैडो लागू करने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [Python का उपयोग करके Word दस्तावेज़ में आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-shape-in-a-word-document-using-python/)
+
+### [Python में शैडो सेट करना – उदाहरण](./how-to-set-shadow-in-aspose-words-python-example/)
 
 ### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 
@@ -93,6 +96,9 @@ Python में Aspose.Words का उपयोग करके खाली W
 
 ### [Python में आयत आकार और शैडो के साथ दस्तावेज़ कैसे बनाएं](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Python के लिए Aspose.Words का उपयोग करके आयत आकार और शैडो के साथ दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [Python का उपयोग करके Word में आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-shape-in-word-using-python/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर शैडो जोड़ने की प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

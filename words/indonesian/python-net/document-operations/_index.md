@@ -101,6 +101,8 @@ Pelajari cara memulihkan dokumen Word yang rusak secara menyeluruh menggunakan A
 ### [Pulihkan DOCX Rusak – Panduan Python Lengkap](./recover-corrupted-docx-complete-python-guide/)
 Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Python-net.
 
+### [Pulihkan docx rusak dengan Aspose.Words untuk Python](./recover-corrupted-docx-with-aspose-words-for-python/)
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

@@ -40,6 +40,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words cho Python.
 
+### [Cách khôi phục docx bị hỏng và chuyển sang markdown](./how-to-recover-corrupted-docx-and-convert-to-markdown/)
+Hướng dẫn chi tiết khôi phục tệp DOCX hỏng và chuyển nội dung sang định dạng Markdown bằng Aspose.Words cho Python.
+
 ### [Lưu DOCX dưới dạng Markdown – Hướng dẫn nhanh Python để xuất công thức sang LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
 Hướng dẫn nhanh cách lưu tệp DOCX thành Markdown và xuất công thức sang LaTeX bằng Aspose.Words cho Python.
 
@@ -124,6 +127,15 @@ Hướng dẫn chi tiết cách tạo lưới PNG từ tài liệu Word bằng A
 ### [Lưu Word thành PDF – Chuyển các hình dạng thành Inline với Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
 Hướng dẫn lưu tài liệu Word dưới dạng PDF và chuyển các hình dạng thành dạng inline bằng Aspose.Words cho Python.
 
+### [Lưu docx thành PDF với Aspose.Words – Hướng dẫn đầy đủ](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Hướng dẫn chi tiết cách lưu tệp DOCX thành PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
+
+### [Lưu docx dưới dạng PDF – Hướng dẫn Python đầy đủ](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python, từng bước một.
+
+### [Lưu docx thành pdf với Aspose.Words khi xuất hình dạng](./how-to-save-docx-as-pdf-with-aspose-words-while-exporting-sh/)
+Hướng dẫn chi tiết lưu tệp docx thành PDF và xuất các hình dạng bằng Aspose.Words trong Python.
+
 ### [Chuyển đổi docx sang pdf với Python – Hướng dẫn đầy đủ](./convert-docx-to-pdf-with-python-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python.
 
@@ -133,8 +145,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspos
 ### [Lưu Word dưới dạng Markdown – Hướng dẫn đầy đủ sử dụng Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng Aspose.Words.
 
-### [Lưu docx thành pdf với Aspose.Words – Hướng dẫn từng bước](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python, từng bước một.
+### [Lưu docx thành pdf với Aspose.Words – Hướng dẫn từng bước](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp docx sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
 
 ### [Xuất Word sang Markdown – Hướng dẫn đầy đủ với trích xuất hình ảnh trong Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Hướng dẫn chi tiết cách xuất tài liệu Word thành Markdown, đồng thời trích xuất hình ảnh, sử dụng Aspose.Words cho Python.
@@ -144,9 +156,6 @@ Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đ�
 
 ### [Lưu docx thành txt – Hướng dẫn đầy đủ xuất công thức Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 Hướng dẫn chi tiết cách lưu tài liệu Word (docx) thành tệp txt, bao gồm việc xuất các công thức Word một cách chính xác.
-
-### [Chuyển đổi docx sang markdown với Python – Hướng dẫn đầy đủ từng bước](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words for Python.
 
 ### [Cách lưu Word thành PDF – Hướng dẫn đầy đủ Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
@@ -184,7 +193,7 @@ Hướng dẫn chi tiết cách lưu tài liệu Word thành markdown đồng th
 ### [Khôi phục DOCX và chuyển đổi sang markdown, PDF hoặc txt với Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 Hướng dẫn chi tiết cách khôi phục tệp DOCX và chuyển đổi sang Markdown, PDF hoặc TXT bằng Aspose.Words cho Python.
 
-### [Cách lưu docx thành markdown với LaTeX bằng Aspose.Words](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+### [Cách lưu docx thành markdown với LaTeX bằng Aspose.Words](./how-to-save-docx-as-markdown-with-latex-using-aspose/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown có hỗ trợ LaTeX bằng Aspose.Words cho Python.
 
 ### [Cách lưu docx thành pdf với Aspose.Words trong Python](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
@@ -275,6 +284,18 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng
 
 ### [Tạo PDF có khả năng truy cập từ Word với Aspose.Words cho Python](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words cho Python.
+
+### [Lưu docx thành markdown với công thức LaTeX – Hướng dẫn Aspose.Words cho Python](./how-to-save-docx-as-markdown-with-latex-equations-using-aspo/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown và xuất công thức LaTeX bằng Aspose.Words cho Python.
+
+### [Lưu Word thành Markdown với công thức LaTeX – Hướng dẫn Aspose.Words cho Python](./how-to-save-word-as-markdown-with-latex-equations-using-aspo/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và xuất công thức LaTeX bằng Aspose.Words cho Python.
+
+### [Cách lưu docx thành văn bản thuần và xuất công thức sang LaTeX – hướng dẫn từng bước](./how-to-save-docx-as-plain-text-and-export-equations-to-latex/)
+Hướng dẫn chi tiết lưu tệp DOCX dưới dạng văn bản thuần và xuất các công thức toán học sang LaTeX bằng Aspose.Words cho Python.
+
+### [Cách lưu tài liệu dưới dạng PDF có khả năng truy cập bằng Aspose.Words](./how-to-save-document-as-pdf-with-accessibility-using-aspose/)
+Hướng dẫn chi tiết lưu tài liệu thành PDF có tính năng truy cập, đáp ứng chuẩn PDF/UA, sử dụng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

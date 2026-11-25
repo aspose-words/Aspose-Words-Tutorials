@@ -65,6 +65,8 @@ Aprenda a inserir e formatar formas retangulares em documentos Word usando Aspos
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python, com exemplos passo a passo.
 ### [Como definir sombra no Aspose.Words – Exemplo em Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Aprenda a aplicar sombra a objetos em documentos Word usando Aspose.Words com Python.
+### [Como adicionar sombra a forma no Word usando Python](./how-to-add-shadow-to-shape-in-word-using-python/)
+Aprenda a aplicar sombra a formas em documentos Word usando Aspose.Words para Python.
 ### [Desenhar retângulo em PDF com Aspose.Words para Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Aprenda a desenhar retângulos em documentos PDF usando Aspose.Words para Python.
 ### [Adicionar sombra a forma em Python – guia completo Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
@@ -86,6 +88,9 @@ Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para P
 
 ### [Como criar documento com forma de retângulo e sombra em Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
 Aprenda a gerar documentos Word contendo um retângulo com sombra usando Aspose.Words para Python.
+
+### [Como adicionar sombra a forma em um documento Word usando Python](./how-to-add-shadow-to-shape-in-a-word-document-using-python/)
+Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python.
 
 ## Recursos adicionais
 
