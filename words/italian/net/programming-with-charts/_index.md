@@ -81,7 +81,6 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Come visualizzare le percentuali in un grafico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Scopri come visualizzare le percentuali nei grafici di Word usando Aspose.Words per .NET in pochi semplici passaggi. |
 | [Come creare un grafico a torta in un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Scopri come inserire e personalizzare un grafico a torta in Word usando Aspose.Words per .NET. |
 | [Come formattare le serie in un grafico a linee Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Scopri come formattare le serie di un grafico a linee in Word usando Aspose.Words per .NET e C#. |
-| [Come creare un istogramma in Word con Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Scopri come creare un istogramma in un documento Word usando Aspose.Words per .NET con questa guida passo passo. |
 | [Salva documento modificato con fette di grafico a torta esplose in C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Scopri come salvare un documento Word con fette di grafico a torta esplose usando Aspose.Words per .NET in C#. |
 | [Come creare un grafico radar e aggiungerlo a Word con C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Scopri come creare un grafico radar e inserirlo in un documento Word usando Aspose.Words per .NET con C#. |
 
