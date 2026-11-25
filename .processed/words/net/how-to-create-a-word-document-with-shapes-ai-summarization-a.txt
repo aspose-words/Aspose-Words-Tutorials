@@ -1,0 +1,7 @@
+Title: How to create a Word document with shapes, AI summarization, and translation in C#
+Slug: how-to-create-a-word-document-with-shapes-ai-summarization-a
+Category: ai-powered-document-processing
+ProcessedDate: 2026-11-25T16:15:08.710530
+SourceRepo: AI Search API
+Keywords: create word document, add rectangle shape, summarize document with ai, save document as docx, translate text using ai
+PRNumber: 963
