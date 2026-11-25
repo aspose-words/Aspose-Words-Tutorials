@@ -237,7 +237,6 @@ class Program
 
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [แทรกรูปภาพ Inline ในเอกสาร Word ด้วย Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [สร้างเอกสาร Word ด้วย Aspose.Words – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

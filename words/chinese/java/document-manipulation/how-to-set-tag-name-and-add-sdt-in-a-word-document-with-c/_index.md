@@ -219,7 +219,6 @@ Document saved to: YOUR_DIRECTORY\output.docx
 
 - [使用 Document Builder 在 Aspose.Words for .NET 中添加内容](/words/english/net/add-content-using-document-builder/)
 - [Word 文档 - 如何删除内容](/words/english/net/remove-content/)
-- [使用 Aspose.Words 创建 Word 文档 – 步骤指南](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

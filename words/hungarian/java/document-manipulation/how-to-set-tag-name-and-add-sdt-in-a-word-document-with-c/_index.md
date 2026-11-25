@@ -224,7 +224,6 @@ Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Tartalom hozzáadása a Document Builder segítségével az Aspose.Words for .NET-ben](/words/english/net/add-content-using-document-builder/)
 - [Word dokumentum – Hogyan távolítsunk el tartalmat](/words/english/net/remove-content/)
-- [Word dokumentum létrehozása az Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

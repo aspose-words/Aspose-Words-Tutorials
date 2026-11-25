@@ -234,7 +234,6 @@ Happy coding, en veel plezier met het automatiseren van Word‑documenten!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementaties in je eigen projecten te verkennen.
 
-- [Maak Word‑document met Aspose.Words – Stapsgewijze gids](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Maak een Word‑document met tabel met Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Groep‑shape in Word‑document invoegen met Aspose.Words voor .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

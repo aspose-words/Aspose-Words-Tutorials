@@ -231,7 +231,6 @@ You now have a complete, production‑ready pattern for **create word document p
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose.Words로 워드 문서 만들기 – 단계별 가이드](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words를 사용하여 표가 포함된 워드 문서 만들기](/words/english/net/add-content-using-document-builder/build-table/)
 - [Aspose.Words for .NET으로 워드 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 

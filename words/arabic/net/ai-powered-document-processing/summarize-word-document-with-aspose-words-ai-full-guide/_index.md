@@ -276,7 +276,6 @@ The Q3 earnings rose 15% YoY, driven primarily by the new SaaS offering. Custome
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [إنشاء مستند Word باستخدام Aspose.Words – دليل خطوة بخطوة](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [إنشاء وتنسيق مستند Word في Aspose.Words for .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [إضافة علامة مائية نصية في مستند Word باستخدام Aspose.Words for .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

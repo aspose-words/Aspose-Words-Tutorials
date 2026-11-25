@@ -235,7 +235,6 @@ Bon codage et profitez de l’automatisation des documents Word !
 
 Les tutoriels suivants abordent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités de l’API et à explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Créer un document Word avec Aspose.Words – Guide étape par étape](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Créer un document Word avec un tableau en utilisant Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Créer une forme groupée dans un document Word en utilisant Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

@@ -251,7 +251,6 @@ namespace WordShapeGrouping
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह आकृति बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में आकृतियों को डालें](/words/english/net/working-with-shapes/insert-shape/)
-- [Aspose.Words के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

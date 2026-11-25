@@ -238,7 +238,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger vidare på tek
 
 - [Spara Word som PDF med Aspose.Words – Komplett C#‑guide](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Infoga inbäddad bild i Word‑dokument med Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Skapa Word‑dokument med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

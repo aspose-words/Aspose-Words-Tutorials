@@ -294,7 +294,6 @@ The Q3 earnings rose 15% YoY, driven primarily by the new SaaS offering. Custome
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคในคู่มือนี้ แต่ละแหล่งรวมตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้ในโปรเจกต์ของคุณเอง
 
-- [สร้างเอกสาร Word ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [สร้างและจัดรูปแบบเอกสาร Word ใน Aspose.Words สำหรับ .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [เพิ่มลายน้ำข้อความในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

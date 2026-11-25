@@ -220,7 +220,6 @@ Document saved to: YOUR_DIRECTORY\output.docx
 
 - [Aspose.Words for .NET の Document Builder を使用したコンテンツ追加](/words/english/net/add-content-using-document-builder/)
 - [Word 文書 - コンテンツの削除方法](/words/english/net/remove-content/)
-- [Aspose.Words で Word 文書を作成 – ステップバイステップガイド](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
