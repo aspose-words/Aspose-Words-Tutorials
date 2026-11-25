@@ -43,6 +43,9 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और मार्कडाउन, प्लेन टेक्स्ट, PDF में बदलें](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 दोषग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करके मार्कडाउन, साधारण टेक्स्ट और PDF में परिवर्तित करें।
 
+### [दोषग्रस्त docx को पुनर्प्राप्त करें और मार्कडाउन में बदलें](./how-to-recover-corrupted-docx-and-convert-to-markdown/)
+दोषग्रस्त DOCX फ़ाइलों को ठीक करके उन्हें मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [वर्ड से LaTeX निर्यात कैसे करें – DOCX को मार्कडाउन में परिवर्तित करें](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 वर्ड से LaTeX निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
 
@@ -93,11 +96,20 @@ DOCX फ़ाइल को ठीक करें, फिर पायथन �
 ### [DOCX को TXT के रूप में सहेजें – LaTeX के साथ Word को TXT में बदलें](./save-docx-as-txt-convert-word-to-txt-with-latex/)
 Python और LaTeX का उपयोग करके Word DOCX फ़ाइल को टेक्स्ट (TXT) फ़ॉर्मेट में बदलने का चरण‑दर‑स्टेप मार्गदर्शन।
 
+### [DOCX को TXT के रूप में सहेजें – वर्ड समीकरण निर्यात के लिए पूर्ण गाइड](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+DOCX फ़ाइलों को TXT में बदलें और वर्ड समीकरणों को निर्यात करने की पूरी प्रक्रिया सीखें।
+
+### [DOCX को साधारण टेक्स्ट के रूप में सहेजें और समीकरणों को LaTeX में निर्यात करें – चरण‑दर‑चरण गाइड](./how-to-save-docx-as-plain-text-and-export-equations-to-latex/)
+Aspose.Words का उपयोग करके docx फ़ाइल को TXT में बदलें और समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [वर्ड को PDF के रूप में सहेजें शैप टैगिंग के साथ – पूर्ण पायथन गाइड](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 शैप टैगिंग के साथ वर्ड फ़ाइल को PDF में बदलने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [वर्ड को PDF के रूप में सहेजें – शैप टैगिंग के साथ पूर्ण पायथन गाइड](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
 शैप टैगिंग के साथ वर्ड फ़ाइल को PDF में बदलने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [शैप निर्यात के साथ docx को PDF में सहेजें – Aspose.Words के साथ](./how-to-save-docx-as-pdf-with-aspose-words-while-exporting-sh/)
+Aspose.Words का उपयोग करके शैप निर्यात करते हुए docx फ़ाइल को PDF में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [Python के साथ docx को PDF में बदलें – संपूर्ण गाइड](./convert-docx-to-pdf-with-python-complete-guide/)
 Python और Aspose.Words का उपयोग करके docx फ़ाइलों को PDF में परिवर्तित करने की पूरी प्रक्रिया सीखें।
@@ -117,11 +129,18 @@ DOCX फ़ाइलों को TXT में बदलें और वर्
 
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और Aspose.Words (Python) के साथ PDF में परिवर्तित करें](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें Aspose.Words for Python का उपयोग करके PDF में बदलें। चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [वर्ड को सुलभ PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-word-complete-programming-guide/)
 Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को सुलभ PDF में बदलें। चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 
 ### [वर्ड को सुलभ PDF बनाएं – Aspose.Words for Python के साथ](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 Aspose.Words का उपयोग करके पायथन में Word फ़ाइल को सुलभ PDF में बदलें। चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words का उपयोग करके Word को LaTeX समीकरणों के साथ Markdown में सहेजें](./how-to-save-word-as-markdown-with-latex-equations-using-aspo/)
+Aspose.Words के साथ Word दस्तावेज़ को LaTeX समीकरणों सहित Markdown में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words के साथ दस्तावेज़ को सुलभ PDF के रूप में सहेजें](./how-to-save-document-as-pdf-with-accessibility-using-aspose/)
+Aspose.Words का उपयोग करके पायथन में दस्तावेज़ को सुलभ PDF में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,4 +148,3 @@ Aspose.Words का उपयोग करके पायथन में Word 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

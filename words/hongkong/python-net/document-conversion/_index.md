@@ -46,11 +46,15 @@
 ### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 DOCX 轉換為 Markdown 的完整步驟。
 
+### [如何復原損壞的 DOCX 並將其轉換為 Markdown](./how-to-recover-corrupted-docx-and-convert-to-markdown/)
+學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將其轉換為 Markdown 的完整步驟。
+
 ### [如何復原 Word 並將其轉換為帶 LaTeX 的 Markdown](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 學習使用 Aspose.Words for Python 復原 Word 並將其轉換為包含 LaTeX 的 Markdown 的完整步驟。
 
 ### [將 docx 儲存為 Markdown 並匯出方程式至 LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
 學習使用 Aspose.Words for Python 將 docx 轉換為 Markdown，並將方程式匯出為 LaTeX 的完整步驟。
+
 ### [如何復原損壞的 DOCX 並將其轉換為 Markdown、純文字和 PDF](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 學習使用 Aspose.Words for Python 復原損壞的 DOCX，並將其轉換為 Markdown、純文字與 PDF 的完整步驟。
 
@@ -80,6 +84,9 @@
 ### [使用 Aspose.Words 將 docx 儲存為 pdf – 完整 Python 指南](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
 學習使用 Aspose.Words for Python 將 docx 檔案轉換為 PDF 的完整步驟，提升文件處理效率。
 
+### [如何在匯出形狀時使用 Aspose.Words 將 docx 儲存為 PDF](./how-to-save-docx-as-pdf-with-aspose-words-while-exporting-sh/)
+學習使用 Aspose.Words for Python 在匯出形狀時將 docx 檔案儲存為 PDF 的完整步驟。
+
 ### [將 DOCX 轉換為 Markdown 時嵌入圖片 – 完整指南](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
 學習使用 Aspose.Words for Python 在將 DOCX 轉換為 Markdown 時嵌入圖片的完整步驟。
 
@@ -88,6 +95,9 @@
 
 ### [將 Word 儲存為 Markdown – 完整 Python 指南](./save-word-as-markdown-complete-python-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件儲存為 Markdown 格式的完整步驟。
+
+### [如何使用 Aspose.Words for Python 將 Word 儲存為帶 LaTeX 方程式的 Markdown](./how-to-save-word-as-markdown-with-latex-equations-using-aspo/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為包含 LaTeX 方程式的 Markdown 格式的完整步驟。
 
 ### [將 DOCX 儲存為 TXT – 使用 LaTeX 轉換 Word 為 TXT](./save-docx-as-txt-convert-word-to-txt-with-latex/)
 學習使用 Aspose.Words for Python 將 DOCX 轉換為 TXT，並利用 LaTeX 進行格式化的完整步驟。
@@ -98,10 +108,15 @@
 ### [如何在 Python 中將 Word 儲存為 PDF 並標記形狀](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
 學習使用 Aspose.Words for Python 將 Word 文件儲存為帶標記形狀的 PDF 的完整步驟。
 
-### [使用 Aspose.Words for Python 從 Word 建立可存取的 PDF](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
+### [使用 Aspose.Words 為 Python 從 Word 建立可存取的 PDF](./create-accessible-pdf-from-word-with-aspose-words-for-python/)
 學習如何使用 Aspose.Words for Python 將 Word 文件轉換為符合可存取性標準的 PDF。
 
 ### [將 docx 儲存為 pdf（使用 Aspose.Words）：逐步指南](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+
+### [將 docx 儲存為純文字並匯出方程式至 LaTeX – 完整步驟指南](./how-to-save-docx-as-plain-text-and-export-equations-to-latex/)
+
+### [如何使用 Aspose.Words for Python 將文件儲存為具可存取性的 PDF](./how-to-save-document-as-pdf-with-accessibility-using-aspose/)
+學習使用 Aspose.Words for Python 將文件儲存為符合可存取性標準的 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

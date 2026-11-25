@@ -42,7 +42,9 @@ Aprenda a exportar o conteúdo de arquivos DOCX como arquivos Markdown usando As
 ### [Como converter docx para markdown com Aspose.Words (Python)](./how-to-convert-docx-to-markdown-with-aspose-words-python/)
 Aprenda a converter arquivos DOCX em Markdown usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Recuperar DOCX Corrompido e Converter Word para Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-### [Como Exportar LaTeX do Word – Converter DOCX para Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+### [Como recuperar DOCX corrompido e converter para Markdown](./how-to-recover-corrupted-docx-and-convert-to-markdown/)
+Aprenda a recuperar arquivos DOCX corrompidos e convertê-los para Markdown usando Aspose.Words para Python.
+### [Como exportar LaTeX do Word – Converter DOCX para Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aprenda a exportar documentos Word como arquivos LaTeX usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Como exportar LaTeX do Word e converter DOCX para Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
 Aprenda a exportar documentos Word como LaTeX e convertê-los para Markdown usando Aspose.Words para Python.
@@ -70,6 +72,8 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 Aprenda a inserir imagens ao converter arquivos DOCX para Markdown usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Salvar Word como Markdown – Guia completo em Python](./save-word-as-markdown-complete-python-guide/)
 Aprenda a salvar documentos Word como arquivos Markdown usando Aspose.Words para Python. Guia completo passo a passo.
+### [Como salvar Word como Markdown com equações LaTeX usando Aspose.Words para Python](./how-to-save-word-as-markdown-with-latex-equations-using-aspo/)
+Aprenda a salvar documentos Word como Markdown incluindo equações LaTeX usando Aspose.Words para Python.
 ### [Salvar DOCX como TXT – converter Word para TXT com LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
 Aprenda a converter arquivos DOCX em TXT usando LaTeX com Aspose.Words para Python. Guia passo a passo.
 ### [Salvar Word como PDF com marcação de formas – Guia completo em Python](./how-to-save-word-as-pdf-with-shape-tagging-in-python/)
@@ -80,8 +84,6 @@ Aprenda a salvar documentos Word como PDF mantendo tags de formas usando Aspose.
 Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
 ### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
 ### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
 ### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
@@ -142,104 +144,10 @@ Aprenda a salvar documentos Word como PDF e converter formas em objetos inline u
 Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
 ### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
 Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
-### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
-Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
-### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
-Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
+### [Como salvar docx como texto simples e exportar equações para LaTeX – guia passo a passo](./how-to-save-docx-as-plain-text-and-export-equations-to-latex/)
+Aprenda a salvar arquivos DOCX como texto simples e exportar equações para LaTeX usando Aspose.Words para Python.
+### [Como salvar docx como pdf com Aspose.Words ao exportar formas](./how-to-save-docx-as-pdf-with-aspose-words-while-exporting-sh/)
+Aprenda a salvar arquivos DOCX como PDF mantendo as formas exportadas usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
