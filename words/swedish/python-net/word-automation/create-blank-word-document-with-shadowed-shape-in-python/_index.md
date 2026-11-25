@@ -196,7 +196,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Skapa rektangelform, lägg till skugga & spara PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Skapa PDF från Word – Komplett Python‑guide med Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Lägg till skugga på form i Word med Aspose.Words – Steg‑för‑steg](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

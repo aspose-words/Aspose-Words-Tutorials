@@ -196,7 +196,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 - [Создать прямоугольную фигуру, добавить тень и сохранить PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Создать PDF из Word – Полное руководство по Python с Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Добавить тень к фигуре в Word с Aspose.Words – Пошагово](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

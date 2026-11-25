@@ -194,7 +194,6 @@ Aşağıdaki eğitimler, bu rehberde gösterilen tekniklere dayanarak yakından 
 
 - [Dikdörtgen şekil oluştur, gölge ekle ve PDF olarak kaydet](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Word'den PDF oluştur – Aspose.Words ile Tam Python Rehberi](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Aspose.Words ile Word'de Şekle Gölge Ekle – Adım‑Adım](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
