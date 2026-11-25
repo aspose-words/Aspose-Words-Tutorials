@@ -1,0 +1,7 @@
+Title: How to create structured document tag in Java using Aspose.Words
+Slug: how-to-create-structured-document-tag-in-java-using-aspose-w
+Category: using-document-elements
+ProcessedDate: 2026-11-25T16:52:08.786317
+SourceRepo: AI Search API
+Keywords: create structured document tag, add plain‑text content control, save word document to specific folder
+PRNumber: 970
