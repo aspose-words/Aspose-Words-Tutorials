@@ -70,7 +70,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में सहेजें – Aspose.Words के साथ Word गणित को LaTeX में निर्यात करें](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में गणितीय समीकरणों को LaTeX में निर्यात करके DOCX को Markdown में बदलें। |
 | [Word को Markdown में बदलते समय छवियों को क्लाउड पर अपलोड करें](./upload-images-to-cloud-when-converting-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय छवियों को क्लाउड स्टोरेज में अपलोड करने की प्रक्रिया। |
 | [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ तालिकाओं को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजते हुए तालिकाओं को HTML में निर्यात करने का तरीका सीखें। |
-| [DOCX से Markdown रूपांतरण में CDN पर छवियों को अपलोड करें – पूर्ण गाइड](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | DOCX को Markdown में बदलते समय छवियों को CDN पर अपलोड करने की पूरी गाइड। |
 | [Aspose docx को markdown में बदलें – रूपांतरण और छवियों को निकालने की पूरी गाइड](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। चरण‑दर‑दर कोड उदाहरण और सर्वोत्तम अभ्यास। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |

@@ -97,7 +97,6 @@ Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder e
 Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder beim Export nach Markdown zu verwalten.
 ### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
-### [Bilder in CDN hochladen bei DOCX‑zu‑Markdown‑Konvertierung – Vollständige Anleitung](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
 Erfahren Sie, wie Sie Bilder während der DOCX‑zu‑Markdown‑Konvertierung automatisch in ein CDN hochladen.
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Gleichungen exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
