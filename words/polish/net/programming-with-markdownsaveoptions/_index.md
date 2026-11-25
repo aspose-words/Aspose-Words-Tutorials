@@ -89,7 +89,6 @@ Dowiedz się, jak wyodrębnić obrazy z dokumentu Word i zapisać je podczas kon
 
 Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z dokumentów Word do formatu Markdown.
 ### [Konwertuj docx do markdown – Kompletny przewodnik C#](./convert-docx-to-markdown-with-c-complete-guide/)
-### [Konwertuj Docx do Markdown w C# – Kompletny przewodnik programistyczny](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 ### [Niestandardowy folder obrazów dla eksportu Markdown z obrazami – Kompletny przewodnik](./custom-image-folder-for-export-markdown-with-images-complete/)
 Dowiedz się, jak ustawić własny folder dla obrazów podczas eksportu dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
