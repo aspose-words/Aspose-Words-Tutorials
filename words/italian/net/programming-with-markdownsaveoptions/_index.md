@@ -75,7 +75,6 @@
 | [Carica immagini su cloud durante la conversione da Word a Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/) | Scopri come caricare le immagini su un servizio cloud durante la conversione di documenti Word in Markdown con Aspose.Words per .NET. |
 | [Salva Word come Markdown – Esporta tabelle in HTML con Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Scopri come esportare tabelle da documenti Word in HTML durante la conversione in Markdown usando Aspose.Words per .NET. |
 | [Salva markdown come docx in C# – guida passo‑passo](./save-markdown-as-docx-in-c-step-by-step-guide/) | Impara a convertire file Markdown in documenti Word DOCX usando Aspose.Words per .NET con una guida passo‑passo in C#. |
-| [Carica immagini su CDN nella conversione da DOCX a Markdown – Guida completa](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Carica le immagini su un CDN durante la conversione da DOCX a Markdown per ottimizzare la gestione dei media. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
