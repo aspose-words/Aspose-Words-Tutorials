@@ -73,7 +73,6 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Zapisz Word jako PDF – Kompletny przewodnik z dostępnością](./save-word-as-pdf-complete-guide-with-accessibility/) | Dowiedz się, jak konwertować dokumenty Word do PDF z zachowaniem dostępności, krok po kroku, używając Aspose.Words dla .NET. |
 | [Utwórz dostępny PDF z Word – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-word-complete-programming-guide/) | Kompletny przewodnik programistyczny, jak generować dostępne pliki PDF z dokumentów Word przy użyciu Aspose.Words w C#. |
 | [Utwórz plik PDF/UA zgodny ze standardem z Word – Kompletny przewodnik eksportu](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Dowiedz się, jak wyeksportować dokument Word do pliku PDF/UA zgodnego ze standardem, krok po kroku, używając Aspose.Words dla .NET. |
-| [Jak ustawić RenderChoiceFormFieldBorder na false podczas konwertowania Word do PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Dowiedz się, jak wyłączyć RenderChoiceFormFieldBorder przy konwersji Word do PDF przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

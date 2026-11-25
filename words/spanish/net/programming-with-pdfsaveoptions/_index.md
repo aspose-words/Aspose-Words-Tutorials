@@ -89,7 +89,6 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Crear PDF accesible desde Word – Guía completa de programación](./create-accessible-pdf-from-word-complete-programming-guide/) | Aprenda a crear PDFs accesibles desde Word con Aspose.Words para .NET siguiendo una guía completa de programación paso a paso. |
 | [Crear archivo PDF/UA compatible desde Word – Guía completa de exportación](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Aprenda a generar archivos PDF/UA totalmente compatibles desde documentos Word con Aspose.Words para .NET en esta guía completa. |
 | [Guardar documento como PDF en C# – Exportar formas incrustadas](./save-document-as-pdf-in-c-export-inline-shapes/) | Aprenda a exportar formas incrustadas al guardar un documento Word como PDF usando Aspose.Words para .NET en C#. |
-| [Cómo establecer RenderChoiceFormFieldBorder en false al convertir Word a PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Aprenda a desactivar RenderChoiceFormFieldBorder al convertir documentos Word a PDF con Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
