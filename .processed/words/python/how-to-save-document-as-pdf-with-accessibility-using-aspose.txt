@@ -1,0 +1,7 @@
+Title: How to save document as PDF with accessibility using Aspose.Words
+Slug: how-to-save-document-as-pdf-with-accessibility-using-aspose
+Category: document-conversion
+ProcessedDate: 2026-11-25T19:33:49.706476
+SourceRepo: AI Search API
+Keywords: save document as pdf, generate accessible pdf, how to create pdf/ua, how to enable pdf accessibility, convert doc to accessible pdf
+PRNumber: 982
