@@ -62,8 +62,10 @@ Now we get to the heart of the matter—**aspose load options**. The `LoadOption
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -81,16 +83,9 @@ class Program
         // --------------------------------------------------------------
         // Step 2.2 – Register a warning callback to detect missing fonts
         // --------------------------------------------------------------
-        fontSettings.SubstitutionSettings.WarningCallback = (sender, args) =>
-        {
-            // This will be called for each missing font.
-            // args.FontInfo can be null, so we guard against it.
-            string missingFont = args.FontInfo?.FullFontName ?? "Unknown Font";
-            Console.WriteLine($"[Warning] Missing font: {missingFont}");
-        };
-
-        // Attach the FontSettings to the LoadOptions.
-        loadOptions.FontSettings = fontSettings;
+        // Capture warnings (including missing‑font warnings) via a WarningInfoCollection
+        WarningInfoCollection warnings = new WarningInfoCollection();
+        loadOptions.WarningCallback = warnings;
 
         // --------------------------------------------------------------
         // Step 2.3 – (Optional) Add a custom font folder
@@ -98,15 +93,10 @@ class Program
         // If you have a folder with corporate fonts, tell Aspose to use it.
         // Replace "C:\\MyFonts" with the actual path on your machine.
         fontSettings.SetFontsFolder(@"C:\MyFonts", recursive: true);
-```
 
-**Why this matters:** Without a warning callback, Aspose silently substitutes missing fonts, which can lead to layout surprises later on. By hooking into the callback, you **detect missing fonts** early and can decide whether to embed a fallback or ask the user to install the missing typeface.
+        // Attach the FontSettings to the LoadOptions.
+        loadOptions.FontSettings = fontSettings;
 
-## Step 3: Load the DOCX Using the Configured Options
-
-With the `LoadOptions` ready, loading a DOCX is a one‑liner. The `Document` constructor accepts the path to the file and the options we just built.
-
-```csharp
         // --------------------------------------------------------------
         // Step 3 – Load the DOCX file while respecting our custom settings
         // --------------------------------------------------------------
@@ -115,8 +105,51 @@ With the `LoadOptions` ready, loading a DOCX is a one‑liner. The `Document` co
         // The Document constructor will invoke the warning callback
         // for any font it cannot resolve.
         Document doc = new Document(inputPath, loadOptions);
-
         Console.WriteLine("Document loaded successfully.");
+
+        // --------------------------------------------------------------
+        // Step 4 – Report any missing fonts detected during loading
+        // --------------------------------------------------------------
+        foreach (WarningInfo warning in warnings)
+        {
+            if (warning.WarningType == WarningType.FontSubstitution)
+            {
+                // The warning description contains the missing font name
+                Console.WriteLine($"[Warning] Missing font: {warning.Description}");
+            }
+        }
+
+        // --------------------------------------------------------------
+        // Step 5 – Quick sanity check: print the first paragraph
+        // --------------------------------------------------------------
+        string firstParagraph = doc.FirstSection.Body.Paragraphs[0].GetText();
+        Console.WriteLine($"First paragraph text: {firstParagraph}");
+
+        // --------------------------------------------------------------
+        // (Optional) Demonstrate loading from a stream
+        // --------------------------------------------------------------
+        // byte[] bytes = File.ReadAllBytes(inputPath);
+        // using var ms = new MemoryStream(bytes);
+        // Document docFromStream = new Document(ms, loadOptions);
+        // Console.WriteLine("Loaded from stream.");
+    }
+}
+```
+
+**Why this matters:** Without a warning callback, Aspose silently substitutes missing fonts, which can lead to layout surprises later on. By hooking into the callback via `LoadOptions.WarningCallback`, you **detect missing fonts** early and can decide whether to embed a fallback or ask the user to install the missing typeface.
+
+## Step 3: Load the DOCX Using the Configured Options
+
+With the `LoadOptions` ready, loading a DOCX is a one‑liner. The `Document` constructor accepts the path to the file and the options we just built.
+
+```csharp
+string inputPath = @"C:\Documents\input.docx";
+
+// The Document constructor will invoke the warning callback
+// for any font it cannot resolve.
+Document doc = new Document(inputPath, loadOptions);
+
+Console.WriteLine("Document loaded successfully.");
 ```
 
 If the source file references a font that isn’t on the system or in the custom folder, you’ll see output like:
@@ -134,13 +167,11 @@ That immediate feedback is invaluable when you’re building a batch‑processin
 After loading, you might want to confirm that the document’s contents are accessible. For a quick sanity check, let’s output the first paragraph’s text.
 
 ```csharp
-        // --------------------------------------------------------------
-        // Step 4 – Quick sanity check: print the first paragraph
-        // --------------------------------------------------------------
-        string firstParagraph = doc.FirstSection.Body.Paragraphs[0].GetText();
-        Console.WriteLine($"First paragraph text: {firstParagraph}");
-    }
-}
+// --------------------------------------------------------------
+// Step 4 – Quick sanity check: print the first paragraph
+// --------------------------------------------------------------
+string firstParagraph = doc.FirstSection.Body.Paragraphs[0].GetText();
+Console.WriteLine($"First paragraph text: {firstParagraph}");
 ```
 
 Running the program now gives you:
@@ -190,6 +221,7 @@ using System;
 using System.IO;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -201,12 +233,9 @@ class Program
         LoadOptions loadOptions = new LoadOptions();
         FontSettings fontSettings = new FontSettings();
 
-        // Warn about missing fonts
-        fontSettings.SubstitutionSettings.WarningCallback = (sender, args) =>
-        {
-            string missing = args.FontInfo?.FullFontName ?? "Unknown Font";
-            Console.WriteLine($"[Warning] Missing font: {missing}");
-        };
+        // Capture warnings (including missing‑font warnings) via a WarningInfoCollection
+        WarningInfoCollection warnings = new WarningInfoCollection();
+        loadOptions.WarningCallback = warnings;
 
         // Optional: point to a folder with corporate fonts
         fontSettings.SetFontsFolder(@"C:\MyFonts", recursive: true);
@@ -220,6 +249,17 @@ class Program
         string inputPath = @"C:\Documents\input.docx";
         Document doc = new Document(inputPath, loadOptions);
         Console.WriteLine("Document loaded successfully.");
+
+        // --------------------------------------------------------------
+        // Report any missing fonts detected during loading
+        // --------------------------------------------------------------
+        foreach (WarningInfo warning in warnings)
+        {
+            if (warning.WarningType == WarningType.FontSubstitution)
+            {
+                Console.WriteLine($"[Warning] Missing font: {warning.Description}");
+            }
+        }
 
         // --------------------------------------------------------------
         // Quick sanity check – print first paragraph
