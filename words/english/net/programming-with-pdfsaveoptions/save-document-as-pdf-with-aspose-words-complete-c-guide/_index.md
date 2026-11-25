@@ -55,7 +55,6 @@ The first thing we need is a `Document` object that represents the source Word f
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Warnings;
 
 // Path to the source Word document that may reference missing fonts.
 string sourcePath = @"C:\Docs\MissingFont.docx";
@@ -102,18 +101,16 @@ document.Save(pdfPath);
 
 ## Step 4 – Analyze and Report Font Substitutions
 
-After the save operation, we iterate over the collected warnings. If any warning is of type `FontSubstitution`, we cast it to `FontSubstitutionWarning` to pull out the original and substituted font names.
+After the save operation, we iterate over the collected warnings. If any warning is of type `FontSubstitution`, we read its `Description` property, which contains details about the original and substituted font names.
 
 ```csharp
 // Loop through all captured warnings.
 foreach (WarningInfo warning in warningCollection)
 {
     // We're only interested in font substitution warnings.
-    if (warning.Type == WarningType.FontSubstitution)
+    if (warning.WarningType == WarningType.FontSubstitution)
     {
-        var fontWarning = (FontSubstitutionWarning)warning;
-        Console.WriteLine(
-            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+        Console.WriteLine($"Font substitution warning: {warning.Description}");
     }
 }
 ```
@@ -121,7 +118,7 @@ foreach (WarningInfo warning in warningCollection)
 **Sample console output**
 
 ```
-Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
+Font substitution warning: Font 'Papyrus' was not found. Substituted with 'Arial Unicode MS'.
 ```
 
 If the source document uses only installed fonts, the loop simply finishes without printing anything – a clean sign that the **save document as PDF** operation succeeded without substitutions.
@@ -135,7 +132,6 @@ Putting it all together, here’s the complete, ready‑to‑run program. Paste 
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.Warnings;
 
 class Program
 {
@@ -156,11 +152,9 @@ class Program
         // 4️⃣ Review the warnings and report any font substitutions.
         foreach (WarningInfo warning in warningCollection)
         {
-            if (warning.Type == WarningType.FontSubstitution)
+            if (warning.WarningType == WarningType.FontSubstitution)
             {
-                var fontWarning = (FontSubstitutionWarning)warning;
-                Console.WriteLine(
-                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+                Console.WriteLine($"Font substitution warning: {warning.Description}");
             }
         }
 
