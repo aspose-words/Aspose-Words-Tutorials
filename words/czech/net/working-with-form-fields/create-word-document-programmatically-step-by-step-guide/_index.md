@@ -231,7 +231,6 @@ Nyní máte kompletní, produkčně připravený vzor pro **create word document
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok za krokem vysvětleními, která vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Vytvoření Word dokumentu s Aspose.Words – krok za krokem průvodce](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Vytvoření Word dokumentu s tabulkou pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Vytvoření skupinového tvaru ve Word dokumentu pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

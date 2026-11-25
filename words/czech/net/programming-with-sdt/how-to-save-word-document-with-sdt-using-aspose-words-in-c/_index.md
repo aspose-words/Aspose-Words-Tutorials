@@ -238,7 +238,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Uložit Word jako PDF s Aspose.Words – kompletní průvodce C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Vložit inline obrázek do Word dokumentu pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Vytvořit Word dokument s Aspose.Words – krok za krokem průvodce](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

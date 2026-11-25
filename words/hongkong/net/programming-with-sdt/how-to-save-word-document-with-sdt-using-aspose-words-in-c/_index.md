@@ -235,7 +235,6 @@ class Program
 
 - [將 Word 另存為 PDF（Aspose.Words）– 完整 C# 教學](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [使用 Aspose.Words 在 Word 文件中插入行內圖片](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [使用 Aspose.Words 建立 Word 文件 – 步驟教學](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

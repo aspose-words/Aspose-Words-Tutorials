@@ -235,7 +235,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Word opslaan als PDF met Aspose.Words – Complete C# Gids](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Inline afbeelding invoegen in Word-document met Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Word-document maken met Aspose.Words – Stapsgewijze gids](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

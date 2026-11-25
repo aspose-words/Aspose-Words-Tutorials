@@ -225,7 +225,6 @@ Các tutorial sau đây đề cập đến các chủ đề liên quan chặt ch
 
 - [Thêm nội dung bằng Document Builder trong Aspose.Words cho .NET](/words/english/net/add-content-using-document-builder/)
 - [Tài liệu Word - Cách xóa nội dung](/words/english/net/remove-content/)
-- [Tạo tài liệu Word với Aspose.Words – Hướng dẫn từng bước](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

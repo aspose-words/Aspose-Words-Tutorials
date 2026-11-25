@@ -278,7 +278,6 @@ A: Αυξήστε την παράμετρο `maxSentences`. Λάβετε υπό�
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικό θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Δημιουργία Εγγράφου Word με Aspose.Words – Οδηγός Βήμα‑βήμα](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Δημιουργία και Στυλιζάρισμα Εγγράφου Word σε Aspose.Words για .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [Προσθήκη Υδατογράφηματος Κειμένου σε Έγγραφο Word Χρησιμοποιώντας Aspose.Words για .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

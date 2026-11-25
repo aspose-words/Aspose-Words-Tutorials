@@ -238,7 +238,6 @@ A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [Word mentése PDF-be az Aspose.Words használatával – Teljes C# útmutató](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Beágyazott kép beszúrása Word dokumentumba az Aspose.Words használatával](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Word dokumentum létrehozása Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

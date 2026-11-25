@@ -223,7 +223,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Dodaj zawartość przy użyciu Document Builder w Aspose.Words dla .NET](/words/english/net/add-content-using-document-builder/)
 - [Dokument Word – Jak usunąć zawartość](/words/english/net/remove-content/)
-- [Utwórz dokument Word przy użyciu Aspose.Words – Przewodnik krok po kroku](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

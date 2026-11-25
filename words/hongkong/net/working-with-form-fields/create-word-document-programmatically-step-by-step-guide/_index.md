@@ -231,7 +231,6 @@ class Program
 
 以下教學與本篇內容密切相關，能幫助你進一步掌握 API 功能，並在專案中探索其他實作方式：
 
-- [使用 Aspose.Words 建立 Word 文件 – 步驟教學](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [使用 Aspose.Words 以表格建立 Word 文件](/words/english/net/add-content-using-document-builder/build-table/)
 - [使用 Aspose.Words for .NET 在 Word 文件中建立群組圖形](/words/english/net/working-with-shapes/add-group-shape/)
 
