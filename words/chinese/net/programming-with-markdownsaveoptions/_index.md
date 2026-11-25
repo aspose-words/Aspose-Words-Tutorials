@@ -211,7 +211,6 @@
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整的 C# 示例和分步指南。
 
-### [使用 C# 将 Docx 转换为 Markdown – 完整编程指南](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 
 使用 Aspose.Words for .NET 将 Docx 文档转换为 Markdown，提供完整的 C# 示例和分步指南。
 
