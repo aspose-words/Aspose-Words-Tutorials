@@ -47,7 +47,6 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 {{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="使用 Aspose.Words for .NET 在 C# 中保存带有爆炸饼图切片的修改文档" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

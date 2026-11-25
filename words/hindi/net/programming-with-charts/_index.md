@@ -77,7 +77,6 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में चार्ट के लिए कस्टम डेटा‑लेबल प्लेसमेंट](./custom-data-label-placement-for-charts-in-c/) | C# में Aspose.Words का उपयोग करके चार्ट डेटा‑लेबल को कस्टम स्थान पर रखने की चरण‑दर‑चरण गाइड। |
 | [C# के साथ Word लाइन चार्ट में श्रृंखला को फ़ॉर्मेट करें](./how-to-format-series-in-a-word-line-chart-with-c/) | .NET के लिए Aspose.Words का उपयोग करके Word लाइन चार्ट में डेटा श्रृंखला को फ़ॉर्मेट करने की चरण-दर-चरण गाइड। |
 | [C# में अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाना](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | C# में Aspose.Words का उपयोग करके अनुकूलित पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
-| [C# में विस्फोटित पाई चार्ट स्लाइस के साथ संशोधित दस्तावेज़ सहेजें](./save-modified-document-with-exploded-pie-chart-slices-in-c/) |  |
 | [Aspose.Words के साथ पाई चार्ट वाला Word दस्तावेज़ बनाएं](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में पाई चार्ट बनाने की चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

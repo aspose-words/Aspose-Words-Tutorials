@@ -46,7 +46,6 @@
 {{< tutorial-card link="./update-chart-title/" title="Обновление заголовка диаграммы и переключение видимости легенды в Word с помощью Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Сохранить измененный документ с разорванными кусками круговой диаграммы в C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

@@ -46,7 +46,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 {{< tutorial-card link="./update-chart-title/" title="Cập nhật tiêu đề biểu đồ và bật/tắt hiển thị legend trong Word bằng Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Lưu tài liệu đã chỉnh sửa với các lát bánh tròn nổ trong C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 
