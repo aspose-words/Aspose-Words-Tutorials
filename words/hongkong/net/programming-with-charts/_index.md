@@ -74,7 +74,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
 | [使用 Aspose.Words 在 C# 中爆炸式切割圓餅圖切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 將圓餅圖切片設定為爆炸狀，以增強視覺效果。 |
-| [使用 Aspose.Words C# 在圖表中顯示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) |了解如何使用 Aspose.Words for .NET 在圖表中顯示百分比，提升資料可視化效果。 |
 | [在 C# 中向 Word 圖表添加資料標籤 – 步驟指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) |本逐步指南說明如何使用 Aspose.Words for .NET 在 C# 中為 Word 圖表新增資料標籤，提升圖表可讀性。 |
 | [在 Word 折線圖中使用 C# 格式化系列](./how-to-format-series-in-a-word-line-chart-with-c/) |了解如何在 Word 折線圖中使用 C# 進行系列格式設定，提升圖表外觀。 |
 | [使用 C# 建立帶格式化標籤的柱狀圖 Word 文件](./how-to-create-word-document-c-with-a-column-chart-and-format/) |了解如何在 Word 文件中使用 C# 插入柱狀圖並設定資料標籤格式。 |
