@@ -34,7 +34,6 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [コアフォントを埋め込まないことでPDFファイルのサイズを縮小する](./avoid-embedding-core-fonts/) Aspose.Words for .NET を使用してコアフォントを埋め込まずにPDFファイルのサイズを縮小する方法を学びましょう。ステップバイステップガイドに従ってPDFを最適化しましょう。 |
 | [PDF ドキュメント内の URI をエスケープする](./escape-uri/) Aspose.Words for .NET を使用してPDF内のURIをエスケープする方法を学びましょう。この詳細なガイドでは、手順をステップバイステップで説明します。 |
 | [Word文書のヘッダーとフッターのブックマークをPDF文書にエクスポートする](./export-header-footer-bookmarks/) ステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書からヘッダーとフッターのブックマークを PDF にエクスポートする方法を学びます。 |
-| [WMFフォントをメタファイルサイズにスケールしてPDFサイズを縮小](./scale-wmf-fonts-to-metafile-size/) Aspose.Words for .NET を使用して PDF に変換するときに、wmf フォントをメタファイル サイズにスケールして PDF サイズを縮小する手順ガイド。 |
 | [追加のテキスト配置による PDF テキストの配置の改善](./additional-text-positioning/) Aspose.Words for .NET を使って、PDF のテキスト配置を簡単な手順で改善する方法を学びましょう。ドキュメントの見栄えを向上できます。 |
 | [Word文書をPDFに変換する1.7](./conversion-to-pdf-17/) | Aspose.Words for .NET を使えば、Word 文書を簡単に PDF 1.7 に変換できます。このガイドに従って、文書を誰もがアクセスでき、プロフェッショナルなフォーマットで作成しましょう。 |
 | [ダウンサンプリング画像でPDF文書のサイズを縮小](./downsampling-images/) Aspose.Words for .NET を使用して画像をダウンサンプリングすることで、PDF ドキュメントのサイズを縮小します。PDF を最適化して、アップロードとダウンロードの時間を短縮します。 |

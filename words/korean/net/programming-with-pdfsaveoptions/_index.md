@@ -34,7 +34,6 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [핵심 글꼴을 포함하지 않아 PDF 파일 크기 줄이기](./avoid-embedding-core-fonts/) | Aspose.Words for .NET을 사용하여 핵심 글꼴을 포함하지 않고 PDF 파일 크기를 줄이는 방법을 알아보세요. 단계별 가이드를 따라 PDF를 최적화하세요. |
 | [PDF 문서에서 URI 이스케이프](./escape-uri/) Aspose.Words for .NET을 사용하여 PDF에서 URI를 이스케이프 처리하는 방법을 알아보세요. 이 자세한 가이드에서는 단계별로 프로세스를 안내합니다. |
 | [Word 문서 머리글, 바닥글, 북마크를 PDF 문서로 내보내기](./export-header-footer-bookmarks/) | Aspose.Words for .NET을 사용하여 Word 문서에서 머리글과 바닥글 북마크를 PDF로 내보내는 방법 단계별 가이드를 통해 알아보세요. |
-| [Scale WMF 글꼴을 메타파일 크기로 PDF 크기 줄이기](./scale-wmf-fonts-to-metafile-size/) | Aspose.Words for .NET을 사용하여 PDF로 변환할 때 WMF 글꼴을 메타파일 크기로 조정하여 PDF 크기를 줄이는 단계별 가이드입니다. |
 | [추가 텍스트 위치 지정으로 PDF 텍스트 위치 지정 개선](./additional-text-positioning/) | Aspose.Words for .NET을 사용하여 몇 가지 간단한 단계로 PDF 텍스트 배치를 개선하는 방법을 알아보세요. 문서의 모양을 개선해 보세요. |
 | [Word 문서를 PDF 1.7로 변환](./conversion-to-pdf-17/) | Aspose.Words for .NET을 사용하여 Word 문서를 PDF 1.7로 손쉽게 변환하세요. 이 가이드를 따라 누구든지 쉽게 접근하고 전문적인 서식을 갖춘 문서를 만드세요. |
 | [Aspose.Words를 사용하여 DOCX에서 PDF 저장 방법 – 단계별 가이드](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Aspose.Words를 활용해 DOCX 파일을 PDF로 변환하는 과정을 단계별로 안내합니다. |

@@ -34,7 +34,6 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [透過不嵌入核心字體來減少 PDF 文件大小](./avoid-embedding-core-fonts/) |了解如何透過使用 Aspose.Words for .NET 不嵌入核心字體來減少 PDF 檔案大小。請按照我們的逐步指南優化您的 PDF。 |
 | [PDF 文件中的轉義 URI](./escape-uri/) |了解如何使用 Aspose.Words for .NET 轉義 PDF 中的 URI。本詳細指南將逐步引導您完成整個過程。 |
 | [將 Word 文件頁首頁腳書籤匯出為 PDF 文檔](./export-header-footer-bookmarks/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 將 Word 文件的頁首和頁尾書籤匯出為 PDF。 |
-| [透過將 Wmf 字體縮放到圖元檔案大小來減少 PDF 大小](./scale-wmf-fonts-to-metafile-size/) |使用 Aspose.Words for .NET 轉換為 PDF 時，逐步指導如何透過將 wmf 字體縮放為圖元檔案大小來減少 PDF 大小。 |
 | [使用附加文字定位功能改進 PDF 文字定位](./additional-text-positioning/) |了解如何透過幾個簡單的步驟使用 Aspose.Words for .NET 改善 PDF 文字定位。增強文件的外觀。 |
 | [將Word文件轉換為PDF 1.7](./conversion-to-pdf-17/) |使用 Aspose.Words for .NET 輕鬆將 Word 文件轉換為 PDF 1.7。遵循本指南可確保您的文件可供所有人存取且具有專業格式。 |
 | [透過降低影像取樣率來減少 PDF 文件大小](./downsampling-images/) |使用 Aspose.Words for .NET 對影像進行下採樣來減少 PDF 文件大小。優化您的 PDF 以加快上傳和下載時間。 |
