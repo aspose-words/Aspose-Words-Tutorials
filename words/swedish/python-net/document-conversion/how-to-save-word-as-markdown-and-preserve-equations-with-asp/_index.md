@@ -190,7 +190,6 @@ Känn dig fri att experimentera med `MarkdownSaveOptions`‑egenskaperna för at
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Hur man sparar Markdown från Word – Komplett Python‑guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Spara docx som markdown – Exportera Word‑ekvationer till LaTeX i C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Exportera Word‑dokument till Markdown med Aspose.Words API för .NET med MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -275,7 +275,6 @@ Có trường hợp nào chưa được đề cập? Hãy để lại bình lu�
 ## Bạn nên học gì tiếp theo?
 
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

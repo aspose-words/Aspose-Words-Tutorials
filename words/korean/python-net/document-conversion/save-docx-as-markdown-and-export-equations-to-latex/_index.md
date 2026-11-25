@@ -242,7 +242,6 @@ if __name__ == "__main__":
 
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접하게 관련된 주제를 다룹니다. 각 리소스에는 단계별 설명과 함께 완전한 작업 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [docx를 markdown으로 저장 – LaTeX 수식이 포함된 완전한 C# 가이드](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Aspose.Words를 사용한 Word를 Markdown으로 저장 – DOCX 변환 및 이미지 추출 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

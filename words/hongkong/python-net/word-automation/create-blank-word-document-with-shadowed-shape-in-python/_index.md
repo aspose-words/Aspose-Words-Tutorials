@@ -194,7 +194,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 - [建立矩形形狀、加入陰影並另存為 PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [從 Word 建立 PDF – 完整 Python 指南與 Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [在 Word 中使用 Aspose.Words 為形狀加入陰影 – 步驟說明](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

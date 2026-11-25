@@ -173,7 +173,6 @@ Rychlý způsob, jak se ujistit, že vše proběhlo hladce, je vykreslit Markdow
 
 ## Další kroky a související témata  
 
-- [Uložte docx jako markdown – Kompletní průvodce C# s LaTeX rovnicemi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Převést docx na markdown – Export rovnic do LaTeXu s Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Uložit obrázky Word – Převést Word na Markdown s Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 

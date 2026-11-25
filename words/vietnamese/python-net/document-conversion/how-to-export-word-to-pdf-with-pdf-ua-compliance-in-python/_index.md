@@ -158,7 +158,6 @@ Các hướng dẫn sau đây đề cập đến các chủ đề liên quan ch�
 
 - [Tạo PDF từ Word – Hướng dẫn Python đầy đủ với Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn từng bước](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Tạo PDF có thể truy cập từ Word – Hướng dẫn Aspose.Words đầy đủ](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

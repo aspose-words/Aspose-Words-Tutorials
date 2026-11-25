@@ -192,7 +192,6 @@ Próbáld ki, finomhangold a beállításokat a munkafolyamatodhoz, és hagyd, h
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [docx mentése markdownként – Teljes C# útmutató LaTeX egyenletekkel](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [docx konvertálása markdownra – Matematikai egyenletek exportálása LaTeX‑be az Aspose.Words segítségével](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
 - [Word képek mentése – Word konvertálása markdownra az Aspose‑szal](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 

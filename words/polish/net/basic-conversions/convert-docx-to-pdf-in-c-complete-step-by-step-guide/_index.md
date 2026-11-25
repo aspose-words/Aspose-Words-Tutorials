@@ -274,7 +274,6 @@ Masz scenariusz, którego tutaj nie omówiono? Dodaj komentarz, a wspólnie rozw
 ## Co warto się nauczyć dalej?
 
 - [Konwertuj plik Word do PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Zapisz Word jako PDF i odzyskaj uszkodzony Word – Konwertuj Word do Markdown w C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

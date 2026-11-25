@@ -228,7 +228,6 @@ Belgelendirme iş akışınızı otomatikleştirmeye hazır mısınız? Bir grup
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren eksiksiz çalışan kod örnekleri sunar.
 
 - [docx'i markdown olarak kaydet – Görsel Çıkarma ile Tam C# Rehberi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Aspose.Words ile docx'i markdown olarak kaydet – Tam C# Rehberi](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 - [Docx Dosyasını Markdown'a Dönüştür](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

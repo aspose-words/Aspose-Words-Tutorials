@@ -231,7 +231,6 @@ Saved plain PDF to 'YOUR_DIRECTORY\plain.pdf'.
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您在项目中进一步掌握 API 功能并探索替代实现方式，每篇资源均提供完整可运行的代码示例和逐步说明。
 
-- [Create Accessible PDF from Word – Complete Aspose.Words Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Export Word Document Structure to PDF Document](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

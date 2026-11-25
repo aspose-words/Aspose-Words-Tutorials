@@ -250,7 +250,6 @@ Os tutoriais a seguir abordam tópicos intimamente relacionados que se baseiam n
 
 - [Criar forma de grupo em documento Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Inserir formas em documentos Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Criar documento Word com Aspose.Words – Guia passo a passo](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

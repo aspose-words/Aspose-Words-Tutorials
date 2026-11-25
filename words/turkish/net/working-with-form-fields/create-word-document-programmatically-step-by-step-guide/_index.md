@@ -231,7 +231,6 @@ Kodlamaktan keyif alın ve Word belgelerini otomatikleştirmenin tadını çıka
 
 Aşağıdaki eğitimler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Aspose.Words ile Word Belgesi Oluşturma – Adım Adım Kılavuz](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words Kullanarak Tablo ile Word Belgesi Oluşturma](/words/english/net/add-content-using-document-builder/build-table/)
 - [Aspose.Words for .NET Kullanarak Word Belgesinde Grup Şekli Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
 

@@ -202,7 +202,6 @@ Viel Spaß beim Coden und halten Sie Ihre PDFs barrierefrei!
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [docx zu pdf konvertieren – Vollständiger Leitfaden für barrierefreie PDFs](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Barrierefreies PDF aus Word erstellen – Vollständiger Aspose.Words‑Leitfaden](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Barrierefreies PDF erstellen – Word zu PDF‑Barrierefreiheit konvertieren](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

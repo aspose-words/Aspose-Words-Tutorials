@@ -190,7 +190,6 @@ for filename in os.listdir(input_dir):
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบอื่นในโปรเจคของคุณ.
 
 - [วิธีบันทึก Markdown จาก Word – คู่มือ Python ฉบับสมบูรณ์](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [บันทึก docx เป็น markdown – ส่งออกสมการ Word ไปยัง LaTeX ใน C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [ส่งออกเอกสาร Word ไปยัง Markdown ด้วย Aspose.Words API สำหรับ .NET พร้อม MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

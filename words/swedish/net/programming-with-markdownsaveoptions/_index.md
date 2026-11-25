@@ -24,7 +24,6 @@ Ordbehandling med MarkdownSaveOptions är en djupgående resurs som guidar dig g
 | [Exportera till Markdown med tabellinnehållsjustering](./export-into-markdown-with-table-content-alignment/) | Lär dig hur du exporterar Word-dokument till Markdown med justerade tabeller med hjälp av Aspose.Words för .NET. Följ vår steg-för-steg-guide för perfekta Markdown-tabeller. |
 | [Ställ in bildmapp](./set-images-folder/) Konvertera Word-dokument till Markdown med korrekt tabelljustering med Aspose.Words för .NET. Följ vår detaljerade guide för perfekta resultat. |
 
-### [Spara Word som PDF och återställ korrupt Word – Konvertera Word till Markdown i C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 Lär dig skapa tillgängliga PDF-filer och konvertera Word-dokument till Markdown med en komplett C#-guide.
 
@@ -39,12 +38,10 @@ Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑ste
 ### [Konvertera docx till markdown med C# – Komplett guide](./convert-docx-to-markdown-with-c-complete-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
 
-### [Spara docx som markdown – Fullständig C#-guide med LaTeX-ekvationer](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som inkluderar LaTeX‑ekvationer.
 
 ### [Spara docx som markdown – Fullständig guide med LaTeX‑ekvationer](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Lär dig spara DOCX-filer som Markdown med en komplett guide som inkluderar LaTeX‑ekvationer.
-### [Spara docx som markdown med LaTeX‑ekvationer – C#‑guide](./save-docx-as-markdown-with-latex-equations-c-guide/)
 Lär dig spara DOCX som Markdown med LaTeX‑ekvationer i en komplett C#‑guide.
 
 ### [Spara docx som markdown – Fullständig C#-guide med bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
@@ -102,7 +99,6 @@ Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-fil
 
 Lär dig konvertera DOCX-filer till Markdown och exportera ekvationer med en komplett guide i C#.
 
-### [Spara docx som markdown med Aspose.Words – Fullständig C#-guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 Lär dig spara DOCX som Markdown med en komplett C#‑guide som använder Aspose.Words.
 
 ### [Spara DOCX som Markdown med Aspose.Words – Fullständig steg‑för‑steg‑guide](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
@@ -130,7 +126,6 @@ Lär dig konvertera DOCX-filer till Markdown med en komplett guide som använder
 ### [Hur man använder Callback i C# – Konvertera DOCX till Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 Lär dig hur du använder callback-funktioner i C# för att konvertera DOCX-filer till Markdown med Aspose.Words.
 
-### [Spara docx som txt – konvertera docx till markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 Lär dig spara DOCX-filer som TXT och konvertera dem till Markdown med en enkel C#‑guide.
 
 ### [Hur man bäddar in bilder i Markdown från DOCX](./how-to-embed-images-in-markdown-from-docx/)
@@ -141,10 +136,8 @@ Lär dig hur du anger upplösning för bilder när du konverterar DOCX-filer til
 ### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad steg‑för‑steg‑guide i C#.
 
-### [Spara docx som markdown – Exportera Word‑ekvationer till LaTeX i C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 Lär dig spara DOCX som Markdown och exportera Word‑ekvationer till LaTeX med en komplett C#‑guide.
 
-### [Spara Word som markdown – extrahera bilder från docx](./save-word-as-markdown-extract-images-from-docx/)
 Lär dig spara Word-dokument som Markdown och extrahera bilder med en komplett C#‑guide.
 
 ### [Bevara radbrytningar: Konvertera DOCX till Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
@@ -172,7 +165,6 @@ Lär dig skapa en mapp i C#, konvertera Word-dokument till Markdown och extraher
 ### [Hur man sparar Markdown från Word med bilder – Fullständig C#-guide](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Lär dig spara Markdown från Word med bilder, inklusive bildhantering, i en komplett C#-guide.
 
-### [Spara Word som Markdown – Fullständig C#-guide med Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Lär dig spara Word-dokument som Markdown med en komplett C#-guide som använder Aspose.Words.
 
 ### [Spara Word som Markdown – Fullständig guide för att konvertera DOCX och extrahera bilder](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
@@ -199,13 +191,10 @@ Lär dig skapa en assets-mapp och konvertera DOCX-filer till Markdown med Aspose
 
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide som använder Aspose.Words.
 
-### [Spara Word som Markdown – Fullständig guide för att konvertera Word till Markdown och extrahera bilder](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 Lär dig hur du sparar Word-dokument som Markdown och extraherar bilder med en komplett C#‑guide.
 
-### [Spara DOCX som Markdown med Aspose.Words – Fullständig C#‑guide](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som använder Aspose.Words.
 
-### [Spara docx som markdown – Fullständig guide med tomma stycken](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 Lär dig spara DOCX-filer som Markdown och hantera tomma stycken med en komplett C#‑guide.
 
 Lär dig hur du exporterar länkar när du konverterar DOCX-filer till Markdown med C# och Aspose.Words.
@@ -239,7 +228,6 @@ Lär dig skapa markdown‑filer från Word och exportera ekvationer med en kompl
 ### [Spara Markdown – Fullständig guide med bildextraktion](./how-to-save-markdown-full-guide-with-image-extraction/)
 Lär dig spara Markdown-filer och extrahera bilder med en komplett guide i C#.
 
-### [Ta bort tomma stycken – Konvertera Word till Markdown i C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Lär dig hur du tar bort tomma stycken när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 ### [Skapa markdown från Word med Aspose.Words – Fullständig C#-guide](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Lär dig konvertera Word-dokument till Markdown med en komplett C#-guide som täcker alla steg.
@@ -248,7 +236,6 @@ Lär dig konvertera DOCX-filer till Markdown med matematikexport med Aspose.Word
 
 ### [Spara Word som Markdown – Fullständig C#-guide för att exportera Word‑bilder](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Lär dig exportera Word‑bilder när du sparar dokument som Markdown med en komplett C#‑guide.
-### [Spara Word‑bilder vid konvertering till Markdown – Fullständig C#‑guide](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 Lär dig spara bilder från Word när du konverterar till Markdown med en komplett C#‑guide.
 
 ### [Konvertera DOCX till Markdown – Extrahera bilder från DOCX med Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
@@ -268,7 +255,6 @@ Lär dig hur du automatiskt laddar upp bilder till molnlagring under konverterin
 ### [Spara Word som Markdown – Exportera tabeller till HTML med Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown med Aspose.Words för .NET.
 ### [Spara markdown som docx i C# – steg‑för‑steg‑guide](./save-markdown-as-docx-in-c-step-by-step-guide/)
-### [Spara markdown som Word – steg‑för‑steg‑guide för C#‑utvecklare](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 
 ### [Ladda upp bilder till CDN i DOCX till Markdown‑konvertering – Komplett guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
 Lär dig hur du laddar upp bilder till ett CDN under konvertering av DOCX till Markdown med Aspose.Words för .NET.

@@ -230,7 +230,6 @@ Redo att automatisera ditt dokumentationsflöde? Prova att konvertera en batch a
 Följande tutorials täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationssätt i dina egna projekt.
 
 - [spara docx som markdown – Fullständig C#‑guide med bildextraktion](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [Spara docx som markdown med Aspose.Words – Fullständig C#‑guide](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 - [Konvertera Docx‑fil till Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

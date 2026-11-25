@@ -158,7 +158,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Créer un PDF à partir de Word – Guide complet Python avec Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Créer un PDF accessible à partir de Word avec Python – Guide étape par étape](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Créer un PDF accessible à partir de Word – Guide complet Aspose.Words](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

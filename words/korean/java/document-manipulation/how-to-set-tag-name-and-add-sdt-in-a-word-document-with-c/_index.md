@@ -221,7 +221,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [Document Builder를 사용한 콘텐츠 추가 (Aspose.Words for .NET)](/words/english/net/add-content-using-document-builder/)
 - [Word 문서 - 콘텐츠 제거 방법](/words/english/net/remove-content/)
-- [Aspose.Words로 Word 문서 만들기 – 단계별 가이드](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

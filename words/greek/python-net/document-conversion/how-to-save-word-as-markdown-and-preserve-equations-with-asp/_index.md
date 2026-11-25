@@ -192,7 +192,6 @@ for filename in os.listdir(input_dir):
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
 - [Πώς να αποθηκεύσετε Markdown από Word – Πλήρης οδηγός Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Αποθήκευση docx ως markdown – Εξαγωγή εξισώσεων Word σε LaTeX σε C#](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 - [Εξαγωγή εγγράφων Word σε Markdown χρησιμοποιώντας το Aspose.Words API για .NET με MarkdownSaveOptions](/words/english/net/programming-with-markdownsaveoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

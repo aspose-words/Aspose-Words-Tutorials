@@ -232,7 +232,6 @@ Boldog kódolást, és élvezd a Word dokumentumok automatizálását!
 
 Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Word dokumentum létrehozása Aspose.Words‑szal – lépésről‑lépésre útmutató](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Word dokumentum létrehozása táblázattal Aspose.Words használatával](/words/english/net/add-content-using-document-builder/build-table/)
 - [Csoport alakzat létrehozása Word dokumentumban Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
 

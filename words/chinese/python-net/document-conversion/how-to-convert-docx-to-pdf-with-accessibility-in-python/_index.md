@@ -202,7 +202,6 @@ Aspose.Words 允许在 `PdfSaveOptions` 上同时设置 PDF/UA 和 PDF/A 标志�
 以下教程涵盖与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中尝试替代实现方式，每篇资源均提供完整可运行的代码示例和逐步解释。
 
 - [Convert docx to pdf – Complete Guide for Accessible PDFs](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Create Accessible PDF from Word – Complete Aspose.Words Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Create Accessible PDF – Convert Word to PDF Accessibility](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -96,11 +96,11 @@ A Structured Document Tag is the technical name for a **content control** in Wor
 // Step 3: Create a plain‑text Structured Document Tag (content control)
 StructuredDocumentTag plainTextTag = new StructuredDocumentTag(
     document,
-    StructuredDocumentTagType.PlainText,   // plain‑text content control
-    MarkupLevel.Inline);                    // appears inside a paragraph
+    SdtType.PlainText,   // plain‑text content control
+    MarkupLevel.Inline); // appears inside a paragraph
 ```
 
-*Why this matters*: Using `StructuredDocumentTagType.PlainText` tells Word that the control will accept only plain text. `MarkupLevel.Inline` makes the control behave like a regular word inside a paragraph, which is ideal for form fields.
+*Why this matters*: Using `SdtType.PlainText` tells Word that the control will accept only plain text. `MarkupLevel.Inline` makes the control behave like a regular word inside a paragraph, which is ideal for form fields.
 
 ## Step 4: Assign a title and placeholder text
 
@@ -174,7 +174,7 @@ class Program
         // 4. Create a plain‑text Structured Document Tag (content control)
         StructuredDocumentTag plainTextTag = new StructuredDocumentTag(
             document,
-            StructuredDocumentTagType.PlainText,
+            SdtType.PlainText,
             MarkupLevel.Inline);
 
         // 5. Set a title and placeholder text for the content control
@@ -198,7 +198,7 @@ class Program
 
 | Scenario | How to adapt the code |
 |----------|-----------------------|
-| **Multi‑line placeholder** | Use `StructuredDocumentTagType.RichText` instead of `PlainText` and set `plainTextTag.MultipleLines = true;`. |
+| **Multi‑line placeholder** | Use `SdtType.RichText` instead of `PlainText` and set `plainTextTag.Multiline = true;`. |
 | **Repeating the same control** | Clone the tag with `plainTextTag.Clone(true)` and insert the clone wherever needed. |
 | **Binding to data source** | After the user fills the document, retrieve the value with `document.GetChildNodes(NodeType.StructuredDocumentTag, true).Cast<StructuredDocumentTag>().First(t => t.Title == "CustomerName").GetText();`. |
 | **Locking the control** | Set `plainTextTag.LockContentControl = true;` to prevent users from deleting the control. |

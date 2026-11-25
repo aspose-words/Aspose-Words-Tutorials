@@ -298,7 +298,6 @@ Bereksperimenlah dengan berbagai penyedia, bahasa target, dan format dokumen unt
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Simpan Dokumen sebagai PDF di C# – Panduan Lengkap untuk Mengekspor Docx dan Memantau Font](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Simpan Dokumen sebagai TXT – Panduan Lengkap C# untuk Mengonversi DOCX ke Teks Biasa](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Konversi DOCX ke Markdown – Panduan Lengkap Menggunakan Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

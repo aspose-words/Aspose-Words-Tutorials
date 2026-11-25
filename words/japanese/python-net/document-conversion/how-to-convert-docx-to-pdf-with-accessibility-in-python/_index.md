@@ -199,7 +199,6 @@ Aspose.Words は `PdfSaveOptions` に両方のフラグを設定することで 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [Convert docx to pdf – Complete Guide for Accessible PDFs](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Create Accessible PDF from Word – Complete Aspose.Words Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Create Accessible PDF – Convert Word to PDF Accessibility](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

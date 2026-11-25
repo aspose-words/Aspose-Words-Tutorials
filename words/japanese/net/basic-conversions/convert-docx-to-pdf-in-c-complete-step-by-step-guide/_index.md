@@ -270,7 +270,6 @@ C#で **convert docx to pdf** を行うために必要なすべてを網羅し�
 ## 次に学ぶべきこと
 
 - [Word ファイルを PDF に変換](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Word を PDF として保存し破損した Word を復元 – C# で Word を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

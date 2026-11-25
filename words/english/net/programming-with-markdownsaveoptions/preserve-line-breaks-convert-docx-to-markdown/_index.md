@@ -84,7 +84,7 @@ Here’s where we answer the question **“how to export empty”** paragraphs. 
 | Mode | Result in Markdown |
 |------|--------------------|
 | `EmptyLine` | Inserts a blank line (`\n\n`). |
-| `PreserveLineBreaks` | Turns each line break into a hard break (`  \n`). |
+| `MarkdownHardLineBreak` | Exports a hard line break using the backslash character (`\`). |
 | `None` | Omits the empty paragraph entirely. |
 
 For most scenarios where you simply want a visual gap, `EmptyLine` does the trick.
@@ -94,15 +94,11 @@ MarkdownSaveOptions mdOpts = new MarkdownSaveOptions
 {
     // Export empty paragraphs as a single empty line.
     // This is the most intuitive way to keep visual spacing.
-    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine,
-
-    // Optional: keep original line breaks inside paragraphs.
-    // Uncomment if you need finer control.
-    // PreserveLineBreaks = true
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
 };
 ```
 
-> **Pro tip:** If you also need to keep manual line breaks (Shift + Enter in Word), set `PreserveLineBreaks = true`. That way, both empty paragraphs and soft breaks survive the round‑trip.
+> **Pro tip:** If you need to represent a hard line break (for example, when converting poetry that uses manual line breaks), you can set `EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.MarkdownHardLineBreak`. This will use the backslash character (`\`) to indicate a hard break in the Markdown output.
 
 ### 3️⃣ Save the Document as Markdown
 
@@ -136,8 +132,7 @@ class Program
         // 2️⃣ Set up Markdown options to preserve empty paragraphs
         MarkdownSaveOptions mdOpts = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine,
-            // PreserveLineBreaks = true   // Uncomment if you need soft line breaks
+            EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine
         };
 
         // 3️⃣ Save as Markdown
@@ -169,16 +164,15 @@ emptyCell.FirstParagraph.AppendChild(new Run(doc, "\u00A0")); // non‑breaking 
 
 If your DOCX contains pre‑formatted code, Aspose.Words will wrap it in triple backticks. Empty lines inside a code block are preserved automatically, regardless of the `EmptyParagraphExportMode`. However, if you notice missing blank lines, double‑check that the original Word paragraph style is set to “No Spacing”. That way, the library treats each line as a separate paragraph.
 
-### When to Use `PreserveLineBreaks` Instead
+### When to Use `MarkdownHardLineBreak`
 
-Sometimes you need a hard line break (`  `) rather than a full empty paragraph. For instance, poetry or address blocks often rely on single line breaks. Switch the option:
+Sometimes you need a hard line break (`\`) rather than a full empty paragraph. For instance, poetry or address blocks often rely on single line breaks. Switch the option:
 
 ```csharp
-mdOpts.PreserveLineBreaks = true;   // Turns soft breaks into Markdown hard breaks
-mdOpts.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None; // optional
+mdOpts.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.MarkdownHardLineBreak;
 ```
 
-Now each `Shift+Enter` in Word becomes `  \n` in Markdown, while truly empty paragraphs disappear (unless you also keep `EmptyLine`).
+Now each empty paragraph is rendered as a backslash‑escaped hard break in Markdown.
 
 ## How to Export Empty Paragraphs Correctly
 
@@ -186,9 +180,9 @@ The short answer: set `EmptyParagraphExportMode = MarkdownEmptyParagraphExportMo
 
 - **EmptyParagraphExportMode** tells the serializer *what* to do with a paragraph that contains no runs (text).  
 - **EmptyLine** inserts a double newline, which Markdown interprets as a paragraph separator.  
-- Other modes either collapse the paragraph (`None`) or treat line breaks as hard breaks (`PreserveLineBreaks`).
+- Other modes either collapse the paragraph (`None`) or treat empty paragraphs as a hard line break (`MarkdownHardLineBreak`).
 
-If you forget this setting, the default behavior is `None`, and all blank lines vanish—exactly the problem we’re trying to solve.
+If you forget this setting, the default behavior is `EmptyLine`, so blank lines are preserved automatically. Only when you explicitly change the mode to `None` will all empty paragraphs disappear.
 
 ## How to Preserve Breaks in Complex Documents
 
@@ -197,7 +191,7 @@ Complex documents often mix headings, images, and footnotes. Here’s a checklis
 | Checklist Item | Why It Matters |
 |----------------|----------------|
 | **Validate empty paragraphs** | Use `doc.GetChildNodes(NodeType.Paragraph, true)` to count blanks before conversion. |
-| **Enable `PreserveLineBreaks` for poetry** | Guarantees single line breaks survive. |
+| **Use `MarkdownHardLineBreak` for hard breaks** | Guarantees single line breaks become explicit backslash‑escaped breaks when needed. |
 | **Check image captions** | Captions are separate paragraphs; they need the same export mode. |
 | **Run a post‑conversion diff** | Compare the original text (extracted via `doc.GetText()`) with the Markdown output. |
 | **Test with a Markdown viewer** | Some renderers treat multiple blank lines differently; verify the visual result. |
@@ -220,7 +214,19 @@ Running this before the save step gives you confidence that the conversion will 
 
 ## Common Pitfalls & Pro Tips
 
-- **Pitfall:**
+- **Pitfall:** Assuming the default `EmptyParagraphExportMode` is `None`.  
+  **Fix:** The default is `EmptyLine`, which already preserves blank lines. Change the mode only if you need a different behavior.  
+
+- **Pitfall:** Expecting `MarkdownHardLineBreak` to insert two spaces (`  \n`).  
+  **Fix:** It actually uses a backslash character (`\`). Adjust any downstream processing accordingly.  
+
+- **Pitfall:** Trying to set a non‑existent `PreserveLineBreaks` property.  
+  **Fix:** Remove that setting; use `EmptyParagraphExportMode` options to control how line breaks are represented.  
+
+- **Pitfall:** Blank lines disappearing after conversion because the mode was unintentionally set to `None`.  
+  **Fix:** Ensure `EmptyParagraphExportMode` is set to `EmptyLine` (or `MarkdownHardLineBreak` if you need hard breaks).  
+
+By following these guidelines and using the code snippets above, you’ll get a clean Markdown representation of your Word documents that faithfully retains the visual spacing you intended.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

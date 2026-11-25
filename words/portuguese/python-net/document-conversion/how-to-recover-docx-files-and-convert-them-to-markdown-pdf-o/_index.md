@@ -238,7 +238,6 @@ Sinta‑se à vontade para experimentar as opções e compartilhar seus resultad
 Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
 - [Converter DOCX para Markdown – Guia Completo Usando Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [salvar docx como txt – converter docx para markdown](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -222,7 +222,6 @@ Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang d
 
 - [Tambahkan Konten Menggunakan Document Builder di Aspose.Words untuk .NET](/words/english/net/add-content-using-document-builder/)
 - [Dokumen Word - Cara Menghapus Konten](/words/english/net/remove-content/)
-- [Buat Dokumen Word dengan Aspose.Words – Panduan Langkah‑per‑Langkah](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

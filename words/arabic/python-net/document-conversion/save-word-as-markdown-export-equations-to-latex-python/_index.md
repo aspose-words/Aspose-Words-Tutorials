@@ -175,7 +175,6 @@ for filename in os.listdir(source_dir):
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك الخاصة.
 
 - [كيفية حفظ Markdown من Word – دليل Python كامل](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -73,7 +73,7 @@ catch (Exception ex)
 ```
 
 **Why this matters:**  
-The `Document` class abstracts away the Open XML format, so you don’t have to manually unzip the DOCX or parse XML. It also caches all shape information, which is crucial for the next step where we decide how those shapes should appear in the PDF.
+The `Document` class abstracts away the Open XML format, so you don’t have to manually unzip the DOCX or parse XML. It provides access to the document’s shapes, which is crucial for the next step where we decide how those shapes should appear in the PDF.
 
 ### Step 2 – Configure PDF Save Options to Control Shape Export
 
@@ -89,7 +89,7 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions
 
 // Optional: tweak image quality or compliance level if needed
 pdfOptions.ImageCompression = PdfImageCompression.Auto;
-pdfOptions.Compliance = PdfCompliance.PdfA2b;
+pdfOptions.Compliance = PdfCompliance.PdfA2u;
 ```
 
 **How it works:**  
@@ -126,9 +126,7 @@ Open `output.pdf` in any viewer. You should see the original floating image posi
 | Situation | What to Watch For | Quick Fix |
 |-----------|-------------------|-----------|
 | **Very large images** | PDF size balloons, rendering slows | Set `pdfOptions.ImageCompression = PdfImageCompression.Jpeg; pdfOptions.JpegQuality = 80;` |
-| **Complex SmartArt** | Some SmartArt elements become rasterized | Export as SVG first (`doc.Save("temp.svg", SaveFormat.Svg);`) then embed |
 | **Password‑protected DOCX** | Load throws `IncorrectPasswordException` | Pass the password: `new Document(inputPath, new LoadOptions { Password = "pwd" })` |
-| **Multi‑page headers/footers** | Shapes in headers may appear as block elements | Use `ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection;` |
 
 These tweaks keep your **convert docx to pdf** pipeline robust across real‑world documents.
 
@@ -168,7 +166,7 @@ namespace WordToPdfDemo
             {
                 ExportFloatingShapesAsInlineTag = true,
                 ImageCompression = PdfImageCompression.Auto,
-                Compliance = PdfCompliance.PdfA2b
+                Compliance = PdfCompliance.PdfA2u
             };
 
             // Step 3: Save as PDF

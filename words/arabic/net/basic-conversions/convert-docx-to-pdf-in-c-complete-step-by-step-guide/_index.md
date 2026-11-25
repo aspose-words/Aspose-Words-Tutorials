@@ -272,7 +272,6 @@ public IActionResult Convert(IFormFile file)
 ## ما الذي يجب أن تتعلمه بعد ذلك؟
 
 - [تحويل ملف Word إلى PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [حفظ Word كـ PDF واستعادة Word تالف – تحويل Word إلى Markdown في C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -229,7 +229,6 @@ Du vet nu hur du **export Word to PDF** och producerar en PDF/UA‑kompatibel fi
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Skapa tillgänglig PDF från Word – Komplett Aspose.Words‑guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Exportera Word-dokumentstruktur till PDF-dokument](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

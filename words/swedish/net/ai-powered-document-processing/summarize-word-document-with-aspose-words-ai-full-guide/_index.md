@@ -294,7 +294,6 @@ A: Öka argumentet `maxSentences`. Tänk på att längre utskrifter förbrukar f
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Skapa Word-dokument med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Skapa och formatera ett Word-dokument i Aspose.Words för .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [Lägg till textvattenstämpel i Word-dokument med Aspose.Words för .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

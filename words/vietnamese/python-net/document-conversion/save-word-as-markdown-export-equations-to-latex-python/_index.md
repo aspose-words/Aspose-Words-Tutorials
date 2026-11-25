@@ -177,7 +177,6 @@ Hãy tự do thử nghiệm các gói LaTeX khác nhau hoặc các trình hiển
 Các hướng dẫn sau đây bao quát các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
-- [Lưu docx dưới dạng markdown – Hướng dẫn C# đầy đủ với các phương trình LaTeX](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

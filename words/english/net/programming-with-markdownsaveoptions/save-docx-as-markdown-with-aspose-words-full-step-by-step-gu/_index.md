@@ -32,8 +32,8 @@ schemas:
       contains at least one Office Math equation.'
   - name: Load the source Word document
     text: We start by creating a `Document` object that points to the `.docx` file
-      you want to transform. Aspose.Words reads the entire file into memory, so you
-      can manipulate it before saving.
+      you want to transform. Aspose.Words loads the document, giving you access to
+      its object model before saving.
   - name: Configure Markdown save options
     text: The `MarkdownSaveOptions` class lets you fine‑tune the export. The key property
       for our use‑case is `OfficeMathExportMode`. Setting it to `LaTeX` tells Aspose
@@ -50,9 +50,8 @@ schemas:
     text: 'When you run the code without a valid license, Aspose prints a watermark
       in the output. To avoid this, register the license early:'
   - name: Equations That Use Unsupported Features
-    text: 'Some advanced Office Math constructs (like matrix equations with custom
-      delimiters) may fall back to image export even when `OfficeMathExportMode` is
-      set to `LaTeX`. In those rare cases, you can:'
+    text: 'If an equation does not render as LaTeX, it may be exported as an image.
+      In those cases you can:'
   - name: Large Documents and Memory
     text: 'If you’re converting gigabyte‑size Word files, consider streaming the document
       instead of loading it all at once:'
@@ -110,7 +109,7 @@ Below is the heart of the tutorial. Each step is explained, so you understand **
 
 ### Step 1: Load the source Word document
 
-We start by creating a `Document` object that points to the `.docx` file you want to transform. Aspose.Words reads the entire file into memory, so you can manipulate it before saving.
+We start by creating a `Document` object that points to the `.docx` file you want to transform. Aspose.Words loads the document, giving you access to its object model before saving.
 
 ```csharp
 using Aspose.Words;
@@ -131,7 +130,7 @@ The `MarkdownSaveOptions` class lets you fine‑tune the export. The key propert
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
     // Export Office Math equations as LaTeX markup
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex
 };
 ```
 
@@ -162,7 +161,7 @@ $$
 $$
 ```
 
-If the LaTeX looks right, you’ve successfully **convert word to markdown** and **export equations to latex**. If you see raw XML tags instead, double‑check that you’re using Aspose.Words 23.12.0 or later.
+If the LaTeX looks right, you’ve successfully **convert word to markdown** and **export equations to latex**. If you see raw XML tags instead, verify that `OfficeMathExportMode` is set to `MarkdownOfficeMathExportMode.Latex`.
 
 ## Handling Common Edge Cases
 
@@ -177,7 +176,7 @@ license.SetLicense(@"C:\Licenses\Aspose.Words.lic");
 
 ### Equations That Use Unsupported Features
 
-Some advanced Office Math constructs (like matrix equations with custom delimiters) may fall back to image export even when `OfficeMathExportMode` is set to `LaTeX`. In those rare cases, you can:
+If an equation does not render as LaTeX, it may be exported as an image. In those cases you can:
 
 1. **Pre‑process** the document to replace the problematic equation with a LaTeX snippet manually.
 2. **Post‑process** the markdown file, searching for `![image]` tags and swapping them with the correct LaTeX.
@@ -221,7 +220,7 @@ namespace DocxToMarkdown
             // 2️⃣ Configure Markdown options – export equations as LaTeX
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX
+                OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex
             };
             Console.WriteLine("Markdown options configured to export equations to LaTeX.");
 
@@ -257,7 +256,6 @@ Got questions about a particular equation type or a different output format? Dro
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Save docx as markdown – Complete C# Guide with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 - [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

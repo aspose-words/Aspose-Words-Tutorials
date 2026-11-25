@@ -228,7 +228,6 @@ namespace MarkdownToDocxDemo
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีโค้ดตัวอย่างทำงานครบถ้วนพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโปรเจกต์ของคุณ
 
 - [บันทึก docx เป็น markdown – คู่มือ C# เต็มรูปแบบพร้อมการสกัดภาพ](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือ C# เต็มรูปแบบ](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-aspose-words-full-c-guide/)
 - [แปลงไฟล์ Docx เป็น Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

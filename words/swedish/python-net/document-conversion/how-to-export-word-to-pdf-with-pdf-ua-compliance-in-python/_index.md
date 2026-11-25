@@ -156,7 +156,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Skapa PDF från Word – Komplett Python‑guide med Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 - [Skapa tillgänglig PDF från Word med Python – Steg‑för‑steg‑guide](/words/english/python-net/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-- [Skapa tillgänglig PDF från Word – Komplett Aspose.Words‑guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

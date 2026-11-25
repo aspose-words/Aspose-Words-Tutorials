@@ -75,12 +75,13 @@ Document doc = new Document(inputPath);
 
 ## Step 2: Configure `MarkdownSaveOptions` – **remove empty paragraphs** if you wish
 
-Aspose.Words lets you decide how empty paragraphs are treated. The enum `MarkdownEmptyParagraphExportMode` has two values:
+Aspose.Words lets you decide how empty paragraphs are treated. The enum `MarkdownEmptyParagraphExportMode` has three values:
 
 | Value | Behaviour |
 |-------|------------|
-| `Keep` | Empty lines are written as blank lines in the Markdown file. |
-| `Omit` | They disappear, producing a tighter document. |
+| `EmptyLine` | Empty paragraphs are exported as blank lines in the Markdown file. |
+| `MarkdownHardLineBreak` | Empty paragraphs are exported as Markdown hard‑line‑break characters (`\`). |
+| `None` | Empty paragraphs are omitted entirely. |
 
 If you’re generating API docs, you probably want to **remove empty paragraphs** to avoid stray line breaks.
 
@@ -88,8 +89,9 @@ If you’re generating API docs, you probably want to **remove empty paragraphs*
 // Create options for the markdown export
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    // Choose Omit to drop empty paragraphs, Keep to preserve them
-    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.Omit
+    // Choose None to drop empty paragraphs, EmptyLine to preserve them as blank lines,
+    // or MarkdownHardLineBreak to export them as hard line breaks.
+    EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None
 };
 ```
 
@@ -134,7 +136,7 @@ namespace DocxToMarkdownDemo
             // 2️⃣ Set up Markdown export options (remove empty paragraphs)
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.Omit
+                EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None
             };
 
             // 3️⃣ Save as Markdown
@@ -153,17 +155,14 @@ Run the program (`dotnet run`) and check `output.md`. You should see clean Markd
 
 | Symptom | Likely cause | Fix |
 |---------|--------------|-----|
-| Markdown file contains `\\` escape sequences | Using an old Aspose.Words version (< 22.3) where markdown escaping was buggy | Upgrade to the latest NuGet package. |
-| Images disappear | `MarkdownSaveOptions` defaults to `ImageSavingCallback = null` which skips embedded images | Provide an `ImageSavingCallback` to write images to a folder and reference them with relative paths. |
-| Empty paragraphs still appear | `EmptyParagraphExportMode` set to `Keep` by accident | Double‑check the enum value; use `Omit` for a compact file. |
-| Output encoding looks garbled | Default encoding is UTF‑8 without BOM, but your editor expects UTF‑16 | Open the file with an editor that respects UTF‑8, or set `mdOptions.Encoding = Encoding.UTF8;` explicitly. |
+| Empty paragraphs still appear | `EmptyParagraphExportMode` set to `EmptyLine` (or left at default) instead of `None` | Set `EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.None` to omit them, or choose `EmptyLine` if you want blank lines. |
 
 ## When to keep empty paragraphs instead of removing them
 
-Sometimes a blank line is intentional—think of Markdown where a double line break creates a new paragraph. If your source Word doc uses empty paragraphs for visual spacing, switch the option back to `Keep`. It’s a trade‑off between visual fidelity and compactness.
+Sometimes a blank line is intentional—think of Markdown where a double line break creates a new paragraph. If your source Word doc uses empty paragraphs for visual spacing, switch the option back to `EmptyLine`. It’s a trade‑off between visual fidelity and compactness.
 
 ```csharp
-mdOptions.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.Keep;
+mdOptions.EmptyParagraphExportMode = MarkdownEmptyParagraphExportMode.EmptyLine;
 ```
 
 ## Next steps: Extending the **export word document markdown** pipeline

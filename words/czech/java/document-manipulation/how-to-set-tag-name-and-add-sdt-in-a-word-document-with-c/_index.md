@@ -223,7 +223,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Přidání obsahu pomocí Document Builder v Aspose.Words pro .NET](/words/english/net/add-content-using-document-builder/)
 - [Word dokument – Jak odstranit obsah](/words/english/net/remove-content/)
-- [Vytvoření Word dokumentu s Aspose.Words – krok za krokem](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

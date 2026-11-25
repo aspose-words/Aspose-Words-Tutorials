@@ -76,7 +76,7 @@ Now you’re ready to **save word images** programmatically.
 
 ## Step 2 – Create a Callback to Control Image Saving
 
-Aspose.Words calls back for every external resource (images, fonts, etc.) it needs to write. By implementing `IResourceSavingCallback` you decide **where** each picture lands and **how** it’s named.
+Aspose.Words calls back for each image resource it needs to write. By implementing `IResourceSavingCallback` you decide **where** each picture lands and **how** it’s named.
 
 ```csharp
 // Step 2: Callback that decides the folder and filename for each image.
@@ -95,7 +95,7 @@ class MyCallback : IResourceSavingCallback
 
         // Combine folder and filename, then tell Aspose to write there.
         args.ResourceFileName = Path.Combine(resourcesFolder, uniqueFileName);
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 ```
@@ -128,11 +128,8 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
     // The callback will be invoked for every image.
     ResourceSavingCallback = new MyCallback(),
 
-    // Optional: control how headings are rendered.
-    ExportHeadersFooters = false,
-
-    // Optional: preserve original line breaks.
-    PreserveOriginalLineBreaks = true
+    // Optional: control how headers and footers are exported.
+    ExportHeadersFootersMode = TxtExportHeadersFootersMode.None
 };
 ```
 
@@ -217,7 +214,7 @@ class MyCallback : IResourceSavingCallback
 
         string uniqueFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";
         args.ResourceFileName = Path.Combine(resourcesFolder, uniqueFileName);
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 
@@ -232,8 +229,7 @@ class Program
         MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
         {
             ResourceSavingCallback = new MyCallback(),
-            ExportHeadersFooters = false,
-            PreserveOriginalLineBreaks = true
+            ExportHeadersFootersMode = TxtExportHeadersFootersMode.None
         };
 
         // Save as Markdown; images are saved to the Resources folder.

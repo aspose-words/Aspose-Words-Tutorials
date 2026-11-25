@@ -279,7 +279,6 @@ A:
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Crea documento Word con Aspose.Words – Guida passo‑passo](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Crea e formatta un documento Word in Aspose.Words per .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [Aggiungi filigrana di testo in documento Word usando Aspose.Words per .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

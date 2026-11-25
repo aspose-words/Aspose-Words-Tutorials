@@ -223,7 +223,6 @@ Document saved to: YOUR_DIRECTORY\output.docx
 
 - [Aspose.Words for .NET में Document Builder का उपयोग करके कंटेंट जोड़ें](/words/english/net/add-content-using-document-builder/)
 - [Word दस्तावेज़ - कंटेंट कैसे हटाएँ](/words/english/net/remove-content/)
-- [Aspose.Words के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

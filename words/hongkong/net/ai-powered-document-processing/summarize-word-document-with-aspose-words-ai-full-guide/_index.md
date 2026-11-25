@@ -293,7 +293,6 @@ A: 目前 `DocumentSummarizer` 只接受句數與語言設定，若想調整語�
 
 以下教學與本指南緊密相關，能幫助你進一步掌握 API 功能，並在自己的專案中探索其他實作方式。每篇資源皆提供完整可執行的程式碼範例與逐步說明。
 
-- [Create Word Document with Aspose.Words – Step‑by‑Step Guide](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Create and Style a Word Document in Aspose.Words for .NET](/words/english/net/document-styling/apply-paragraph-style/)
 - [Add Text Watermark in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

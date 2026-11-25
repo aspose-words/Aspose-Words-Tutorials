@@ -298,7 +298,6 @@ dotnet run
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικά παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Αποθήκευση Εγγράφου ως PDF σε C# – Πλήρης Οδηγός για Εξαγωγή Docx και Παρακολούθηση Γραμματοσειράς](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Αποθήκευση Εγγράφου ως TXT – Πλήρης Οδηγός C# για Μετατροπή DOCX σε Απλό Κείμενο](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός Χρήσης Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

@@ -194,7 +194,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Rechthoekvorm maken, schaduw toevoegen & PDF opslaan](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [PDF maken vanuit Word – Complete Python‑gids met Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Schaduw toevoegen aan vorm in Word met Aspose.Words – Stap‑voor‑stap](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

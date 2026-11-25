@@ -44,11 +44,8 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 {{< tutorial-card link="./update-chart-title/" title="Diagramcím frissítése és a jelmagyarázat láthatóságának váltása Word-ben az Aspose.Words for .NET használatával" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Diagram formázása Wordben C#-ban egyéni számformátumokkal" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Cím | Leírás |
@@ -74,16 +71,10 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Egyetlen diagramadatpont testreszabása egy diagramban](./single-chart-data-point/) | Tanulja meg, hogyan szabhatja testre az egydiagramos adatpontokat az Aspose.Words for .NET használatával egy részletes, lépésről lépésre szóló útmutatóban. Tegye egyedi jelölőkkel és méretekkel egyedivé diagramjait. |
 | [Egyetlen diagramsorozat testreszabása egy diagramban](./single-chart-series/) | Ismerje meg, hogyan szabhatja testre egyetlen diagramsorozatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes élmény érdekében. |
 | [Kördiagram szelet szétrobbanása C#-ban az Aspose.Words segítségével – Teljes útmutató](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Tanulja meg, hogyan robbantja szét a kördiagram szeletét C#-ban az Aspose.Words használatával ebben a részletes útmutatóban. |
-| [Kördiagram címkék hozzáadása C#-ban az Aspose.Words segítségével – Teljes útmutató](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Tanulja meg, hogyan adhat hozzá címkéket a kördiagramokhoz C#-ban az Aspose.Words segítségével ebben a részletes útmutatóban. |
-| [Százalékok megjelenítése diagramon az Aspose.Words C#-val](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tanulja meg, hogyan jelenítheti meg a százalékos értékeket diagramokban az Aspose.Words for .NET C# használatával. |
 | [Egyéni adatcímke elhelyezése diagramokban C#‑ban](./custom-data-label-placement-for-charts-in-c/) | Tanulja meg, hogyan helyezhet el egyéni adatcímkéket diagramokban C#‑ban az Aspose.Words for .NET használatával. |
-| [Pité diagram létrehozása Wordben C#‑ban – lépésről‑lépésre útmutató](./create-pie-chart-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban C#‑ban az Aspose.Words for .NET segítségével. |
 | [Sorozat formázása Word vonaldiagramban C#-val](./how-to-format-series-in-a-word-line-chart-with-c/) | Tanulja meg, hogyan formázhatja a sorozatot egy Word vonaldiagramban C# használatával ebben a lépésről lépésre útmutatóban. |
 | [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat kördiagramot Word dokumentumban az Aspose.Words for .NET használatával. |
-| [Hogyan hozzunk létre hisztogramot Wordben az Aspose.Words segítségével](./how-to-create-histogram-in-word-with-aspose-words/) | Tanulja meg, hogyan hozhat létre hisztogramot Word dokumentumban az Aspose.Words for .NET használatával. |
 | [Word dokumentum létrehozása testreszabott kördiagrammal C#-ban](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Tanulja meg, hogyan hozhat létre Word dokumentumot testreszabott kördiagrammal C#-ban az Aspose.Words for .NET használatával. |
-| [Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Tanulja meg, hogyan menthet egy módosított Word-dokumentumot, ahol a kördiagram szeletek széttörve vannak, C#-ban az Aspose.Words használatával. |
-| [Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Tanulja meg, hogyan állíthat be hisztogram bin-számot és adhat hozzá adatcímkéket egy Word-diagramban C#-ban az Aspose.Words for .NET segítségével. |
 | [Kördiagram létrehozása Word dokumentumban az Aspose.Words használatával](./create-pie-chart-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban az Aspose.Words for .NET segítségével. |
 | [Radar diagram létrehozása és hozzáadása Word dokumentumba C#-ban](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Tanulja meg, hogyan hozhat létre radar diagramot és adja hozzá Word dokumentumhoz C#-ban az Aspose.Words for .NET segítségével. |
 

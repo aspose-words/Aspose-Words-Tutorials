@@ -233,7 +233,6 @@ class Program
 
 Οι παρακάτω οδηγοί καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετα χαρακτηριστικά του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας έργα.
 
-- [Δημιουργία Εγγράφου Word με Aspose.Words – Οδηγός Βήμα‑Βήμα](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Δημιουργία Εγγράφου Word με Πίνακα Χρησιμοποιώντας Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Δημιουργία Group Shape σε Έγγραφο Word Χρησιμοποιώντας Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

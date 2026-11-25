@@ -239,7 +239,6 @@ Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Wstaw obraz w linii w dokumencie Word przy użyciu Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Utwórz dokument Word przy użyciu Aspose.Words – Przewodnik krok po kroku](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

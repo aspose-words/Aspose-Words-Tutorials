@@ -203,7 +203,6 @@ Para los siguientes pasos, considera:
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye código completo y ejemplos paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Convert docx to pdf – Complete Guide for Accessible PDFs](/words/english/net/programming-with-pdfsaveoptions/convert-docx-to-pdf-complete-guide-for-accessible-pdfs/)
-- [Create Accessible PDF from Word – Complete Aspose.Words Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/)
 - [Create Accessible PDF – Convert Word to PDF Accessibility](/words/english/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -294,7 +294,6 @@ Thử nghiệm với các nhà cung cấp khác nhau, ngôn ngữ đích và đ�
 
 Các hướng dẫn sau đây bao gồm các chủ đề có liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Save Document as PDF in C# – Complete Guide to Export Docx and Monitor Font](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) – Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ để xuất Docx và giám sát phông chữ
 - [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) – Lưu tài liệu dưới dạng TXT – Hướng dẫn C# đầy đủ để chuyển DOCX sang văn bản thuần
 - [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/) – Chuyển DOCX sang Markdown – Hướng dẫn đầy đủ sử dụng Aspose.Words
 

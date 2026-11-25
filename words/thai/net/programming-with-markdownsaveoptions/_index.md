@@ -23,12 +23,10 @@
 -
 - [ส่งออกเป็นมาร์กดาวน์พร้อมการจัดตำแหน่งเนื้อหาตาราง](./export-into-markdown-with-table-content-alignment/) | เรียนรู้วิธีการส่งออกเอกสาร Word เป็น Markdown พร้อมจัดตารางให้ตรงกันโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างตาราง Markdown ที่สมบูรณ์แบบ -
 | [ตั้งค่าโฟลเดอร์รูปภาพ](./set-images-folder/) แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ |
-- [บันทึก Markdown เป็น Word – คู่มือขั้นตอนโดยขั้นตอนสำหรับนักพัฒนา C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | เรียนรู้วิธีบันทึกไฟล์ Markdown เป็น Word ด้วย C# อย่างละเอียด
 
 ### [สร้างโฟลเดอร์ Assets สำหรับแปลง Word เป็น Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 วิธีสร้างโฟลเดอร์ Assets เพื่อจัดเก็บไฟล์และรูปภาพเมื่อแปลง Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
  
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมจัดการเงารูปร่างและกู้คืนไฟล์ที่เสียหายด้วย Aspose.Words สำหรับ .NET
 
@@ -40,15 +38,12 @@
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words ใน C# พร้อมตัวอย่างโค้ดครบถ้วน
 
 แปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย C# และ Aspose.Words
-### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-### [บันทึก docx เป็น markdown พร้อมสมการ LaTeX – คู่มือ C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [ส่งออก docx เป็น markdown ใน C# – คู่มือเต็ม](./export-docx-to-markdown-in-c-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ docx เป็น markdown ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 ### [บันทึก docx เป็น markdown – คู่มือ C# สมบูรณ์พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-full-guide-with-image-extraction/)
-### [บันทึก docx เป็น markdown – คู่มือเต็มกับย่อหน้าว่าง](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 ### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
@@ -81,7 +76,6 @@
 ### [วิธีเปลี่ยนชื่อรูปภาพเมื่อแปลง DOCX เป็น Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 เรียนรู้วิธีตั้งชื่อรูปภาพใหม่ระหว่างการแปลงไฟล์ DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-### [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 
 ### [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
@@ -128,7 +122,6 @@
 
 ### [วิธีใช้ Callback ใน C# – แปลง DOCX เป็น Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
-### [บันทึก docx เป็น txt – แปลง docx เป็น markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 แปลงไฟล์ docx เป็น txt แล้วแปลงเป็น markdown อย่างง่ายด้วย Aspose.Words สำหรับ .NET
 
 ### [วิธีฝังรูปภาพใน Markdown จาก DOCX](./how-to-embed-images-in-markdown-from-docx/)
@@ -137,9 +130,7 @@
 
 ### [บันทึก Word เป็น markdown พร้อมรูปภาพ – คู่มือขั้นตอนโดยขั้นตอน C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 
-### [บันทึก docx เป็น markdown – ส่งออกสมการ Word ไปเป็น LaTeX ด้วย C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 
-### [บันทึก Word เป็น markdown – สกัดรูปภาพจาก docx](./save-word-as-markdown-extract-images-from-docx/)
 
 ### [รักษาการขึ้นบรรทัดใหม่: แปลง DOCX เป็น Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
 เรียนรู้วิธีคงการขึ้นบรรทัดใหม่เมื่อแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
@@ -167,7 +158,6 @@
 ### [สร้าง Markdown จาก Word ด้วย Aspose — คู่มือขั้นตอนโดยขั้นตอน](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ Markdown จากเอกสาร Word โดยใช้ Aspose.Words อย่างละเอียดด้วยขั้นตอนทีละขั้นตอน
 
-### [บันทึก Word เป็น Markdown – คู่มือเต็ม C# พร้อม Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET ในคู่มือเต็ม C# นี้
 
 ### [โฟลเดอร์รูปภาพแบบกำหนดเอง – แปลง Word เป็น Markdown ด้วย Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
@@ -193,10 +183,8 @@
 ### [บันทึก Word เป็น Markdown – คู่มือเต็มเพื่อแปลง Word เป็น Markdown และสกัดรูปภาพ](./save-word-as-markdown-complete-guide-to-convert-word-to/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างละเอียดด้วย C#
 
-### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 ### [สร้างไฟล์ markdown จาก Word – คู่มือเต็มการส่งออกสมการ](./create-markdown-file-from-word-full-guide-to-export-equation/)
 เรียนรู้วิธีสร้างไฟล์ markdown จาก Word พร้อมส่งออกสมการอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
-### [ลบย่อหน้าว่าง – แปลง Word เป็น Markdown ด้วย C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 เรียนรู้วิธีลบย่อหน้าว่างจากเอกสาร Word ก่อนแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 
@@ -221,7 +209,6 @@
 ### [บันทึก Word เป็น Markdown – คู่มือเต็ม C# เพื่อส่งออกรูปภาพจาก Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกรูปภาพด้วย C# อย่างละเอียด
 
-### [บันทึกรูปภาพ Word ขณะแปลงเป็น Markdown – คู่มือเต็ม C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
 ### [แปลง DOCX เป็น Markdown – สกัดรูปภาพจาก DOCX ด้วย Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 

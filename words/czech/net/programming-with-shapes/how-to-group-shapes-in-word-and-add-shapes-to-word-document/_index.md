@@ -253,7 +253,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořit skupinový tvar v dokumentu Word pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Vložit tvary do dokumentů Word pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Vytvořit dokument Word s Aspose.Words – krok za krokem průvodce](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

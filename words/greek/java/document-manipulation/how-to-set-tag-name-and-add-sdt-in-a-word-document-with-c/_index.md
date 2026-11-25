@@ -223,7 +223,6 @@ Document saved to: YOUR_DIRECTORY\output.docx
 
 - [Προσθήκη περιεχομένου χρησιμοποιώντας Document Builder στο Aspose.Words for .NET](/words/english/net/add-content-using-document-builder/)
 - [Έγγραφο Word - Πώς να αφαιρέσετε περιεχόμενο](/words/english/net/remove-content/)
-- [Δημιουργία εγγράφου Word με Aspose.Words – Οδηγός βήμα‑βήμα](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

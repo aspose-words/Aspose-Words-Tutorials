@@ -239,7 +239,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Word'ü PDF olarak kaydetme – Aspose.Words – Tam C# Kılavuzu](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 - [Aspose.Words ile Word Belgesine Satır İçi Görsel Ekle](/words/english/net/add-content-using-document-builder/insert-inline-image/)
-- [Aspose.Words ile Word Belgesi Oluşturma – Adım Adım Kılavuz](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

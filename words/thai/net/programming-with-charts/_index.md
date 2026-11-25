@@ -48,11 +48,8 @@
 {{< tutorial-card link="./update-chart-title/" title="อัปเดตชื่อแผนภูมิและสลับการแสดงผลของคำอธิบายใน Word ด้วย Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="บันทึกเอกสารที่แก้ไขแล้วพร้อมส่วนของแผนภูมิเพียรที่แยกออกใน C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="วิธีจัดรูปแบบแผนภูมิใน Word ด้วย C# และรูปแบบตัวเลขแบบกำหนดเอง" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="วิธีตั้งค่าจำนวนบินของฮิสโตแกรมและเพิ่มป้ายข้อมูลในแผนภูมิ Word ด้วย C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -
@@ -74,12 +71,9 @@
 | [ตั้งค่าตัวเลือกเริ่มต้นสำหรับป้ายข้อมูลในแผนภูมิ](./default-options-for-data-labels/) | เรียนรู้วิธีตั้งค่าตัวเลือกเริ่มต้นสำหรับป้ายข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างและปรับแต่งแผนภูมิได้อย่างง่ายดาย -
 | [ปรับแต่งจุดข้อมูลแผนภูมิเดี่ยวในแผนภูมิ](./single-chart-data-point/) | เรียนรู้วิธีปรับแต่งจัญข้อมูลแผนภูมิเดี่ยวโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียด ปรับปรุงแผนภูมิของคุณด้วยเครื่องหมายและขนาดที่ไม่ซ้ำใคร -
 | [ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ](./single-chart-series/) | เรียนรู้วิธีปรับแต่งชุดแผนภูมิเดี่ยวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น |
-| [เพิ่มป้ายชื่อแผนภูมิกระบอกใน C# ด้วย Aspose.Words – คู่มือเต็ม](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | เรียนรู้วิธีเพิ่มป้ายชื่อให้กับแผนภูมิกระบอกใน Word ด้วย C# และ Aspose.Words ผ่านคู่มือขั้นตอนเต็ม |
 | [การแยกชิ้นส่วนพายชาร์ตใน C# ด้วย Aspose.Words – คู่มือเต็ม](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | เรียนรู้วิธีแยกชิ้นส่วนพายชาร์ตในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านคู่มือเต็มขั้นตอน |
-| [สร้างแผนภูมิวงกลมใน Word ด้วย C# – คู่มือทีละขั้นตอน](./create-pie-chart-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านคู่มือทีละขั้นตอน |
 | [วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | เรียน...
 | [วิธีจัดรูปแบบซีรีส์ในแผนภูมิเส้นของ Word ด้วย C#](./how-to-format-series-in-a-word-line-chart-with-c/) | เรียน...
-| [วิธีสร้างฮิสโตแกรมใน Word ด้วย Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | เรียน...
 - [วิธีสร้างเอกสาร Word ด้วย C# พร้อมแผนภูมิคอลัมน์และป้ายข้อมูลที่จัดรูปแบบ](./how-to-create-word-document-c-with-a-column-chart-and-format/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีแผนภูมิคอลัมน์พร้อมป้ายข้อมูลจัดรูปแบบด้วย C# และ Aspose.Words
 | [วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่กำหนดเองใน C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมแผนภูมิวงกลมที่ปรับแต่งได้โดยใช้ Aspose.Words สำหรับ .NET ด้วย C# -
 | [สร้างแผนภูมเรดาร์ในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./create-radar-chart-in-a-word-document-complete-c-guide/) | เรียนรู้วิธีสร้างและปรับแต่งแผนภูมเรดาร์ใน Word ด้วย C# อย่างละเอียดในคู่มือขั้นตอนนี้ -

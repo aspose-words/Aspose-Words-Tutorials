@@ -273,7 +273,6 @@ Har du ett scenario som inte täcks här? Lämna en kommentar så felsöker vi t
 ## Vad bör du lära dig härnäst?
 
 - [Konvertera Word‑fil till PDF](/words/english/net/basic-conversions/docx-to-pdf/)
-- [Spara Word som PDF och återställ skadat Word – Konvertera Word till Markdown i C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
