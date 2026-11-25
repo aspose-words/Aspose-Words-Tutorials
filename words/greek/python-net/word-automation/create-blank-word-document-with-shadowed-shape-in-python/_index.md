@@ -194,7 +194,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 - [Δημιουργία σχήματος ορθογωνίου, προσθήκη σκιάς & αποθήκευση PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Δημιουργία PDF από Word – Πλήρης Οδηγός Python με Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Προσθήκη Σκιάς σε Σχήμα στο Word με Aspose.Words – Βήμα‑Βήμα](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -194,7 +194,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Tạo hình chữ nhật, thêm bóng & lưu PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Tạo PDF từ Word – Hướng dẫn Python đầy đủ với Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Thêm bóng cho hình dạng trong Word với Aspose.Words – Bước‑bước](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

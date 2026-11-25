@@ -194,7 +194,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 - [Rectangle shape बनाएं, शैडो जोड़ें और PDF सेव करें](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Word से PDF बनाएं – Aspose.Words के साथ पूर्ण Python गाइड](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Word में Shape में Shadow जोड़ें Aspose.Words के साथ – चरण‑दर‑चरण](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
