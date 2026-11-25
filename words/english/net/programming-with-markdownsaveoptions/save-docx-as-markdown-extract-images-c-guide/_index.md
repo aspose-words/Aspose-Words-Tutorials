@@ -76,7 +76,7 @@ class Program
 
 ### Convert word to markdown – Configure save options with a callback
 
-The `MarkdownSaveOptions` class lets us control how resources (images, SVGs, etc.) are handled. By assigning a custom `ResourceSavingCallback`, we dictate exactly where each file lands.
+The `MarkdownSaveOptions` class lets us control how resources (images) are handled. By assigning a custom `ResourceSavingCallback`, we dictate exactly where each file lands.
 
 ```csharp
         // Step 2: Create save options and plug in our callback
@@ -115,12 +115,12 @@ public class CustomResourceCallback : IResourceSavingCallback
         args.ResourceFileName = Path.Combine(assetsFolder, fileName);
 
         // Open a stream that writes the resource to disk
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 ```
 
-> **What’s happening under the hood?** Aspose streams each image (PNG, JPEG, GIF, SVG, etc.) to the `args.Stream` you provide. By swapping the default stream for a `FileStream` that points at `assets/<image‑name>`, we effectively *extract images from docx* and keep the markdown clean.
+> **What’s happening under the hood?** Aspose streams each image (PNG, JPEG, GIF, SVG, etc.) to the `args.ResourceStream` you provide. By swapping the default stream for a `FileStream` that points at `assets/<image‑name>`, we effectively *extract images from docx* and keep the markdown clean.
 
 ### Verify the output – What you should see
 
@@ -150,7 +150,7 @@ Aspose.Words streams the raw bytes, so even a 10 MB diagram will be saved as�
 
 ```csharp
 // Example using System.Drawing (requires System.Drawing.Common on .NET Core)
-using (var img = System.Drawing.Image.FromStream(args.Stream))
+using (var img = System.Drawing.Image.FromStream(args.ResourceStream))
 {
     var resized = new Bitmap(img, new Size(800, 0)); // Keep aspect ratio
     resized.Save(args.ResourceFileName, img.RawFormat);
@@ -162,21 +162,6 @@ using (var img = System.Drawing.Image.FromStream(args.Stream))
 ### SVG handling
 
 SVGs are vector graphics; most static‑site generators treat them as regular files. The callback works unchanged, but ensure your Markdown processor supports inline SVG (e.g., GitHub Pages does).
-
-### Non‑image resources (fonts, OLE objects)
-
-Aspose also treats fonts, OLE objects, and other binary blobs as resources. If you only care about images, filter by extension:
-
-```csharp
-if (!args.ResourceFileName.EndsWith(".png", StringComparison.OrdinalIgnoreCase) &&
-    !args.ResourceFileName.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) &&
-    !args.ResourceFileName.EndsWith(".svg", StringComparison.OrdinalIgnoreCase))
-{
-    // Skip non‑image resources
-    args.Skip = true;
-    return;
-}
-```
 
 ---
 
@@ -233,7 +218,7 @@ public class CustomResourceCallback : IResourceSavingCallback
         args.ResourceFileName = Path.Combine(assetsFolder, fileName);
 
         // Write the resource to disk
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 ```
