@@ -127,8 +127,9 @@ public class ResourceSavingCallback : IResourceSavingCallback
 {
     public void ResourceSaving(ResourceSavingArgs args)
     {
-        // Build a subfolder called "img" inside the same directory as the .md file.
-        string imageFolder = Path.Combine(args.DocumentDirectory, "img");
+        // Determine a folder for images. Here we use the current working directory,
+        // but you can compute the path based on your own output location.
+        string imageFolder = Path.Combine(Directory.GetCurrentDirectory(), "img");
         Directory.CreateDirectory(imageFolder); // No error if it already exists.
 
         // Full path where the image will be written.
@@ -137,7 +138,7 @@ public class ResourceSavingCallback : IResourceSavingCallback
         // Copy the resource stream (the image) to the file system.
         using (FileStream fs = new FileStream(imagePath, FileMode.Create))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // Update the name that will be inserted into the Markdown file.
@@ -149,10 +150,10 @@ public class ResourceSavingCallback : IResourceSavingCallback
 
 **Explanation of each line**
 
-- `args.DocumentDirectory` – the folder where the Markdown file is being saved.  
-- `Path.Combine(..., "img")` – creates a platform‑independent path to the images folder.  
+- `args.ResourceFileName` – the original file name that Aspose.Words proposes for the image.  
+- `Path.Combine(Directory.GetCurrentDirectory(), "img")` – creates a platform‑independent path to the images folder. Adjust this logic if you need the folder relative to the Markdown file location.  
 - `Directory.CreateDirectory` – safely creates the folder; does nothing if it already exists.  
-- `args.Stream.CopyTo(fs)` – writes the raw image bytes to disk.  
+- `args.ResourceStream.CopyTo(fs)` – writes the raw image bytes to disk.  
 - `args.ResourceFileName = Path.Combine("img", args.ResourceFileName)` – rewrites the Markdown link so it points to `img/yourimage.png` instead of just `yourimage.png`.  
 
 ## Step 4: Run the Converter and Verify the Output  
@@ -183,7 +184,7 @@ That line proves the **extract images from docx** step worked and the links are 
 | Large DOCX with dozens of high‑resolution images | Disk space may balloon quickly. | Consider down‑scaling images in the callback (`System.Drawing` or `ImageSharp`). |
 | Images with duplicate filenames | The callback will overwrite earlier files. | Append a GUID or increment a counter to `args.ResourceFileName`. |
 | Need PDF or HTML in addition to Markdown | Same callback pattern works for `PdfSaveOptions` and `HtmlSaveOptions`. | Swap `MarkdownSaveOptions` for the desired format; keep the callback. |
-| Want relative paths that go up a level (`../assets/img`) | The default `DocumentDirectory` points to the Markdown folder. | Modify `args.ResourceFileName` accordingly (`Path.Combine("../assets/img", args.ResourceFileName)`). |
+| Want relative paths that go up a level (`../assets/img`) | The callback does not provide the Markdown folder directly; you must compute the desired relative path yourself. | Modify `args.ResourceFileName` accordingly (`Path.Combine("../assets/img", args.ResourceFileName)`). |
 
 ## Frequently Asked Questions  
 
