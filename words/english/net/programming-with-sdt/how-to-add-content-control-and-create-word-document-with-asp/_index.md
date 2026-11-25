@@ -97,7 +97,7 @@ Now open `Program.cs` and add the required `using` statements at the top:
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Markup;   // Provides StructuredDocumentTag and related enums
+using Aspose.Words.Markup;   // Provides StructuredDocumentTag, SdtType and related enums
 using System;                // For basic .NET types like Console
 ```
 
@@ -129,8 +129,8 @@ Aspose calls a content control a **StructuredDocumentTag (SDT)**. You can create
 // Create a plain‑text content control (SDT) that lives inline with the text.
 StructuredDocumentTag sdt = new StructuredDocumentTag(
     doc,
-    StructuredDocumentTagType.PlainText,   // Plain‑text type
-    MarkupLevel.Inline);                    // Inline means it behaves like a run of text
+    SdtType.PlainText,          // Plain‑text type
+    MarkupLevel.Inline);        // Inline means it behaves like a run of text
 
 // Give the control a meaningful title – this is how you’ll reference it later.
 sdt.Title = "CustomerName";
@@ -212,7 +212,7 @@ class Program
         // Step 2: Define a plain‑text content control (SDT).
         StructuredDocumentTag sdt = new StructuredDocumentTag(
             doc,
-            StructuredDocumentTagType.PlainText,
+            SdtType.PlainText,
             MarkupLevel.Inline);
         sdt.Title = "CustomerName";
         sdt.PlaceholderName = "Enter name here";
@@ -245,7 +245,7 @@ If you need formatted text (bold, italic, etc.) inside the control, switch the t
 ```csharp
 StructuredDocumentTag richSdt = new StructuredDocumentTag(
     doc,
-    StructuredDocumentTagType.RichText,
+    SdtType.RichText,
     MarkupLevel.Block);
 ```
 
@@ -258,7 +258,7 @@ You can repeat the insertion logic as many times as needed. Just change the `Tit
 ```csharp
 StructuredDocumentTag addressSdt = new StructuredDocumentTag(
     doc,
-    StructuredDocumentTagType.PlainText,
+    SdtType.PlainText,
     MarkupLevel.Inline);
 addressSdt.Title = "CustomerAddress";
 addressSdt.PlaceholderName = "Enter address here";
@@ -288,7 +288,6 @@ These patterns show that **how to add content control** is just the beginning; A
 - **Watch out for:** Saving to a read‑only folder. If you get an `UnauthorizedAccessException`, double‑check the output path.
 - **Performance note:** For generating thousands of documents, reuse a single `Document` template and clone it (`(Document)template.Clone(true)`) instead of creating a fresh `Document` each time.
 - **Compatibility:** The generated `.docx` complies with the Office Open XML standard, so it works in Word 2016+,
-
 
 ## What Should You Learn Next?
 
