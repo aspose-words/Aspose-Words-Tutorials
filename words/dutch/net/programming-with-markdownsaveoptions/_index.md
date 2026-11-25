@@ -226,7 +226,6 @@ Leer hoe u een assets‑map maakt voor het converteren van Word naar Markdown me
 ### [DOCX opslaan als Markdown met Aspose.Words – Volledige stapsgewijze gids](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 Leer hoe u DOCX-bestanden opslaat als Markdown met een volledige stap‑voor‑stap handleiding.
 
-### [Docx converteren naar Markdown met C# – Complete programmeergids](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 Leer stap voor stap hoe u Docx-bestanden converteert naar Markdown met C# en Aspose.Words in deze volledige programmeergids.
 ### [Aangepaste afbeeldingsmap voor exporteren naar Markdown met afbeeldingen – Volledige gids](./custom-image-folder-for-export-markdown-with-images-complete/)
 Leer hoe u een aangepaste map voor afbeeldingen instelt bij het exporteren van Word naar Markdown met Aspose.Words voor .NET.

@@ -85,7 +85,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [markdown इमेज रिलेटिव पाथ – वर्ड को मार्कडाउन में बदलें](./markdown-image-relative-path-convert-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय इमेज के रिलेटिव पाथ को सेट करने का तरीका सीखें। |
 | [Aspose.Words के साथ DOCX को Markdown में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
-| [C# के साथ Docx को Markdown में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-markdown-with-c-complete-programming-guide/) | C# में Docx फ़ाइल को Markdown में बदलने के लिए पूर्ण चरण‑दर‑चरण गाइड। |
 | [C# में markdown को docx के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-markdown-as-docx-in-c-step-by-step-guide/) | C# में markdown को docx फ़ाइल में बदलने की चरण‑दर‑चरण प्रक्रिया। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
