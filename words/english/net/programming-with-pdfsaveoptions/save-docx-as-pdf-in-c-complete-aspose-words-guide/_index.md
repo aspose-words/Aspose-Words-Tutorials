@@ -83,7 +83,6 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions
     ExportFloatingShapesAsInlineTag = true,
     
     // Optional: tighten the output file size
-    CompressImages = true,
     ImageCompression = PdfImageCompression.Jpeg,
     JpegQuality = 90
 };
@@ -149,7 +148,6 @@ namespace DocxToPdfDemo
                 PdfSaveOptions options = new PdfSaveOptions
                 {
                     ExportFloatingShapesAsInlineTag = true,
-                    CompressImages = true,
                     ImageCompression = PdfImageCompression.Jpeg,
                     JpegQuality = 90
                 };
