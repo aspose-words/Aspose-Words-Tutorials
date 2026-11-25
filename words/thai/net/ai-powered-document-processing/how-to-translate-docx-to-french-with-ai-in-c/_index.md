@@ -292,7 +292,6 @@ dotnet run
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้. แหล่งข้อมูลแต่ละรายการรวมตัวอย่างโค้ดที่ทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้ทางเลือกในโปรเจกต์ของคุณ.
 
-- [บันทึกเอกสารเป็น PDF ใน C# – คู่มือครบวงจรสำหรับการส่งออก Docx และตรวจสอบฟอนต์](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [บันทึกเอกสารเป็น TXT – คู่มือ C# ครบวงจรสำหรับแปลง DOCX เป็นข้อความธรรมดา](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [แปลง DOCX เป็น Markdown – คู่มือครบวงจรโดยใช้ Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

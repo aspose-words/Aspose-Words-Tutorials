@@ -292,7 +292,6 @@ dotnet run
 
 以下のチュートリアルは、本ガイドで示した手法を応用した密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能を習得したり、代替実装アプローチを自分のプロジェクトに取り入れたりするのに役立ちます。
 
-- [C# でドキュメントを PDF として保存 – Docx のエクスポートとフォント監視の完全ガイド](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [C# でドキュメントを TXT として保存 – DOCX をプレーンテキストに変換する完全ガイド](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [DOCX を Markdown に変換 – Aspose.Words を使用した完全ガイド](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

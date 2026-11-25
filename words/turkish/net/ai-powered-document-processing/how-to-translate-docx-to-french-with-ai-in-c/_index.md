@@ -298,7 +298,6 @@ Farklı sağlayıcıları, hedef dilleri ve belge formatlarını deneyerek .NET 
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, adım adım açıklamalarla tam çalışan kod örnekleri içerir ve ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olur.
 
-- [C#'ta Belgeyi PDF Olarak Kaydet – Docx'i Dışa Aktarma ve Yazı Tipi İzleme İçin Tam Kılavuz](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Belgeyi TXT Olarak Kaydet – DOCX'i Düz Metne Dönüştürmek İçin Tam C# Kılavuzu](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [DOCX'i Markdown'a Dönüştür – Aspose.Words Kullanarak Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
