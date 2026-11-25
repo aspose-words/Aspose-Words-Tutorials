@@ -95,7 +95,7 @@ public class ImageSavingCallback : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Grab just the file name (e.g., "image001.png")
-        string imageFileName = Path.GetFileName(args.FileName);
+        string imageFileName = Path.GetFileName(args.ResourceFileName);
 
         // Build the CDN URL – you can change the domain or path as needed
         string cdnUrl = $"https://cdn.mycompany.com/images/{imageFileName}";
@@ -106,7 +106,7 @@ public class ImageSavingCallback : IResourceSavingCallback
         // OPTIONAL: also keep a local copy for debugging or offline use
         string localFolder = Path.Combine(@"C:\MyProjects\Docs\images", imageFileName);
         Directory.CreateDirectory(Path.GetDirectoryName(localFolder)!);
-        args.Stream = File.Create(localFolder);
+        args.ResourceStream = File.Create(localFolder);
     }
 }
 ```
@@ -117,7 +117,7 @@ public class ImageSavingCallback : IResourceSavingCallback
 - **Backup:** Some teams keep a version‑controlled folder of assets.
 - **Performance testing:** Compare loading from CDN vs local disk.
 
-If you never need a local copy, simply omit the `args.Stream = …` line and the callback will only rewrite the URL.
+If you never need a local copy, simply omit the `args.ResourceStream = …` line and the callback will only rewrite the URL.
 
 ---
 
