@@ -148,7 +148,7 @@ Console.WriteLine($"Success! PDF saved to {outputPath}");
 | **Missing fonts** on the build server | Set `EmbedFullFonts = true` (as shown) or install the required fonts on the server. |
 | **Large batch conversion** (hundreds of DOCX files) | Wrap the above logic in a `foreach` loop; reuse a single `PdfSaveOptions` instance to reduce allocation overhead. |
 | **License not set** | Before loading any document, call `License license = new License(); license.SetLicense("Aspose.Words.lic");` to avoid the evaluation watermark. |
-| **Need to add a custom tag** (e.g., a PDF/UA “artifact”) | Use `PdfSaveOptions.CustomProperties` to inject additional metadata. |
+| **Need to add a custom tag** (e.g., a PDF/UA “artifact”) | Use `PdfSaveOptions.CustomPropertiesExport` to control whether custom document properties are exported to the PDF. |
 | **Performance bottleneck** | Stream the source file (`new Document(stream)`) and write directly to a `MemoryStream` when you don’t need a physical file. |
 
 These notes help you move from a single‑file demo to a production‑grade pipeline.
