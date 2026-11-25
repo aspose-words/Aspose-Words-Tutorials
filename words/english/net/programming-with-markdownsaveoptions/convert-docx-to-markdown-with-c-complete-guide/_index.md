@@ -51,8 +51,7 @@ schemas:
       writing, but that adds complexity. For most docs, letting Aspose write the original
       size is fine.
     question: What about large images?
-  - answer: Aspose.Words instances are not thread‑safe, so if you spin up parallel
-      conversions, create separate `Document` objects per thread.
+  - answer: Aspose.Words documentation does not guarantee thread‑safety; if you need parallel processing, create separate `Document` objects per thread.
     question: Is the library thread‑safe?
   type: FAQPage
 tags:
@@ -72,7 +71,7 @@ url: /net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-c-c
 
 Ever wondered how to **convert docx to markdown** without pulling your hair out? You're not the only one. In many projects—think static‑site generators, documentation pipelines, or quick‑look previews—you’ll need to turn a Word file into clean Markdown while keeping every picture in its right place.
 
-In this tutorial we’ll walk through a hands‑on solution that **saves document as markdown**, automatically **generates unique image names**, and stores those images where your Markdown expects them. By the end you’ll have a ready‑to‑run code snippet and a clear picture of why each piece matters.
+In this tutorial we’ll walk through a hands‑on solution that **saves document as markdown**, automatically **generates unique image names**, and **stores those images where your Markdown expects them**. By the end you’ll have a ready‑to‑run code snippet and a clear picture of why each piece matters.
 
 > **Quick note:** The approach below uses Aspose.Words for .NET, a commercial library that offers a robust `MarkdownSaveOptions` class. If you already have a license, great—otherwise a free evaluation works just fine for learning.
 
@@ -118,7 +117,7 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
         args.ResourceFileName = Path.Combine(folder, uniqueName);
 
         // 4️⃣ Redirect the stream so Aspose writes the file right there.
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 ```
@@ -201,7 +200,7 @@ Remember, the only thing you *must* keep consistent is the path you use inside t
   You can intercept the stream and perform on‑the‑fly compression before writing, but that adds complexity. For most docs, letting Aspose write the original size is fine.
 
 - **Is the library thread‑safe?**  
-  Aspose.Words instances are not thread‑safe, so if you spin up parallel conversions, create separate `Document` objects per thread.
+  Aspose.Words documentation does not guarantee thread‑safety; if you need parallel processing, create separate `Document` objects per thread.
 
 ## Full working example (copy‑paste ready)
 
@@ -220,7 +219,7 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
 
         string uniqueName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";
         args.ResourceFileName = Path.Combine(folder, uniqueName);
-        args.Stream = new FileStream(args.ResourceFileName, FileMode.Create);
+        args.ResourceStream = new FileStream(args.ResourceFileName, FileMode.Create);
     }
 }
 
