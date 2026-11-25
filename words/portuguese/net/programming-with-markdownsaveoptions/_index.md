@@ -148,7 +148,6 @@ Aprenda a salvar documentos como arquivos Markdown usando C# com Aspose.Words, p
 ### [Salvar markdown como docx em C# – guia passo a passo](./save-markdown-as-docx-in-c-step-by-step-guide/)
 Aprenda a salvar arquivos Markdown como DOCX usando C# com Aspose.Words, passo a passo.
 
-### [Como usar Callback em C# – Converter DOCX para Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 Aprenda a usar callbacks em C# para converter arquivos DOCX em Markdown com Aspose.Words.
 
 Aprenda a converter arquivos DOCX em arquivos TXT e Markdown usando Aspose.Words para .NET.

@@ -194,7 +194,6 @@ Nauczyłeś się **how to use translator**, aby przetłumaczyć plik DOCX na his
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak używać Callback w C# – konwertuj DOCX na Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Dokument Word – Jak usunąć zawartość](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

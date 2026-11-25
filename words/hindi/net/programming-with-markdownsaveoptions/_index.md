@@ -40,7 +40,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./how-to-save-markdown-from-docx-step-by-step-c-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX को Markdown में बदलें – Aspose.Words का उपयोग करके पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Aspose.Words का उपयोग करके DOCX फ़ाइलों को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ। |
-| [C# में कॉलबैक का उपयोग कैसे करें – DOCX को मार्कडाउन में बदलें](./how-to-use-callback-in-c-convert-docx-to-markdown/) | C# में कॉलबैक का उपयोग करके DOCX फ़ाइल को मार्कडाउन में परिवर्तित करने की चरण‑दर‑चरण मार्गदर्शिका। |
 | [लाइन ब्रेक संरक्षित रखें: DOCX को मार्कडाउन में बदलें](./preserve-line-breaks-convert-docx-to-markdown/) | DOCX फ़ाइल में लाइन ब्रेक को संरक्षित रखते हुए उसे मार्कडाउन में बदलने की चरण‑दर‑चरण गाइड। |
 | [DOCX को Markdown में बदलते समय फ़ाइल एक्सटेंशन निर्धारित करें – पूर्ण गाइड](./determine-file-extension-while-converting-docx-to-markdown-c/) | DOCX को Markdown में परिवर्तित करते समय फ़ाइल एक्सटेंशन कैसे निर्धारित करें, इस पूर्ण गाइड में सीखें। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
