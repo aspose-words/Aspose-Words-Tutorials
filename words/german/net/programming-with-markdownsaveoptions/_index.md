@@ -82,7 +82,6 @@ Erfahren Sie, wie Sie Word‑Dokumente vollständig als Markdown speichern – S
 
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Inhalten in Markdown und TXT exportieren.
 
-### [Wie man Bilder beim Konvertieren von DOCX zu Markdown umbenennt](./how-to-rename-images-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie Bilder beim Export von DOCX nach Markdown umbenennen, um klare Dateinamen zu erhalten.
 
 ### [Word‑Bilder speichern – Word in Markdown konvertieren mit Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)

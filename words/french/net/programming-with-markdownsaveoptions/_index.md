@@ -99,7 +99,6 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 Apprenez à enregistrer le Markdown depuis Word, extraire les images et convertir des fichiers DOCX avec Aspose.Words pour .NET.
 
 
-### [Comment renommer les images lors de la conversion de DOCX en Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 
 ### [Enregistrer les images Word – Convertir Word en Markdown avec Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 

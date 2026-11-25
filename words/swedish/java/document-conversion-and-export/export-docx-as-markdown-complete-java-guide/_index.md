@@ -232,7 +232,6 @@ Happy coding, and may your markdown always stay clean and image‑rich!
 ## Vad bör du lära dig härnäst?
 
 - [Hur man bäddar in bilder i Markdown vid konvertering av DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Hur man byter namn på bilder vid konvertering av DOCX till Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

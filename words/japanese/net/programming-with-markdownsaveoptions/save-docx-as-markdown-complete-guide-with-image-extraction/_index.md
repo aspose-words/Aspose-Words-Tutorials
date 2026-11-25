@@ -327,7 +327,6 @@ From here you can:
 
 - [DOCX を変換するときに Markdown に画像を埋め込む方法](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [Word 画像を保存 – Aspose で Word を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [DOCX から Markdown に変換するときに画像の名前を変更する方法](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

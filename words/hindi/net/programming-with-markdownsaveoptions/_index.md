@@ -38,7 +38,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [C# में docx को markdown में निर्यात – पूर्ण गाइड](./export-docx-to-markdown-in-c-complete-guide/) | C# में docx फ़ाइल को Markdown में निर्यात करने की पूरी गाइड |
 | [DOCX को मार्कडाउन में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-image-extraction/) | C# में इमेज एक्सट्रैक्शन के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
-| [DOCX को Markdown में बदलते समय छवियों का नाम कैसे बदलें](./how-to-rename-images-when-converting-docx-to-markdown/) | DOCX को Markdown में बदलते समय छवियों के नाम बदलने की प्रक्रिया और कोड उदाहरण। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./how-to-save-markdown-from-docx-step-by-step-c-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX को Markdown में बदलें – Aspose.Words का उपयोग करके पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Aspose.Words का उपयोग करके DOCX फ़ाइलों को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ। |
 | [C# में कॉलबैक का उपयोग कैसे करें – DOCX को मार्कडाउन में बदलें](./how-to-use-callback-in-c-convert-docx-to-markdown/) | C# में कॉलबैक का उपयोग करके DOCX फ़ाइल को मार्कडाउन में परिवर्तित करने की चरण‑दर‑चरण मार्गदर्शिका। |

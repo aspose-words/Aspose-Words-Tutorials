@@ -32,7 +32,6 @@
 ### [使用 Aspose 从 Word 创建 Markdown – 步骤指南](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 
 
-| [重命名图像：将 DOCX 转换为 Markdown 时的图像重命名](./how-to-rename-images-when-converting-docx-to-markdown/) 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，演示如何重命名导出的图像文件，以便更好地组织和引用。|
 | [将 Word 保存为 Markdown（含图像） – C# 步骤指南](./save-word-as-markdown-with-images-c-step-by-step-guide/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取图像，提供完整的 C# 示例和步骤指南。|
 
 

@@ -214,7 +214,6 @@ More text follows...
 以下教程涵盖与本指南技术紧密相关的主题，帮助你进一步掌握 API 功能并探索在项目中的其他实现方式。每篇资源都提供完整可运行的代码示例和逐步解释。
 
 - [Save Word Images – Convert Word to Markdown with Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [How to Rename Images When Converting DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -262,7 +262,6 @@ Hast du weitere Fragen zum **Extrahieren von Bildern** aus anderen Office‑Form
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um dir zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in deinen eigenen Projekten zu erkunden.
 
-- [How to Rename Images When Converting DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

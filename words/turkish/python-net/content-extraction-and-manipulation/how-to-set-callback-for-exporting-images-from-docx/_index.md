@@ -263,7 +263,6 @@ Diğer Office formatlarından **görüntü çıkarma** konusunda daha fazla soru
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, tam çalışan kod örnekleri ve adım adım açıklamalar içerir; böylece API özelliklerini daha da derinlemesine öğrenebilir ve projelerinizde alternatif uygulama yaklaşımlarını keşfedebilirsiniz.
 
-- [How to Rename Images When Converting DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

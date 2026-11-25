@@ -259,7 +259,6 @@ md_options.export_svg = True  # Keep original SVG markup
 
 以下教程与本指南的技术紧密相关，帮助你进一步掌握 API 功能并探索替代实现方式：
 
-- [How to Rename Images When Converting DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
