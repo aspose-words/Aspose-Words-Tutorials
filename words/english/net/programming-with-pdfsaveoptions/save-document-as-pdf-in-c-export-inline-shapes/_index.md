@@ -189,7 +189,7 @@ By converting them to **inline** elements, you guarantee that the PDF respects t
 
 | Issue | Symptom | Fix |
 |-------|---------|-----|
-| Missing fonts | Text appears as “□” or defaults to Arial | Embed fonts via `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Always`. |
+| Missing fonts | Text appears as “□” or defaults to Arial | Embed fonts via `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll`. |
 | Large images cause memory spikes | Out‑of‑memory exception on big DOCX | Downscale images before conversion or set `PdfSaveOptions.ImageCompression = PdfImageCompression.Jpeg;` |
 | Inline export not applied | Floating shapes still float in PDF | Verify you’re using the latest Aspose.Words version; the property name changed in older releases. |
 | Path errors | `FileNotFoundException` | Use `Path.Combine` and ensure the directory exists (`Directory.CreateDirectory`). |
