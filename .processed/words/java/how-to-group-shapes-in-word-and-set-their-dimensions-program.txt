@@ -1,0 +1,7 @@
+Title: How to group shapes in Word and set their dimensions programmatically
+Slug: how-to-group-shapes-in-word-and-set-their-dimensions-program
+Category: images-shapes
+ProcessedDate: 2026-11-25T16:52:05.152945
+SourceRepo: AI Search API
+Keywords: how to group shapes in word, how to set shape dimensions, set shape size word
+PRNumber: 970
