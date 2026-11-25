@@ -194,7 +194,6 @@ Translation complete. Output saved to output.docx
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية استخدام Callback في C# – تحويل DOCX إلى Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [مستند Word - كيفية إزالة المحتوى](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

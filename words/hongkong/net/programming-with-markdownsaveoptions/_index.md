@@ -47,7 +47,6 @@
 | [重新命名圖像：將 DOCX 轉換為 Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) |了解如何在將 DOCX 轉換為 Markdown 時重新命名圖像，以避免衝突並保持檔案組織。 |
 | [儲存 Word 圖像 – 使用 Aspose 將 Word 轉換為 Markdown](./save-word-images-convert-word-to-markdown-with-aspose/) |示範如何使用 Aspose.Words for .NET 從 Word 文件中提取圖像並將其匯出為 Markdown 格式。 |
 | [將 Word 轉換為 markdown – 完整 C# 指南（含圖像提取）](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 Markdown，並提取圖像。 |
-| [如何在 C# 中使用回呼 – 將 DOCX 轉換為 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/) |示範如何在 C# 中使用回呼函式將 DOCX 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 | [在將 DOCX 轉換為 Markdown 時判斷檔案副檔名 – 完整指南](./determine-file-extension-while-converting-docx-to-markdown-c/) |示範如何在使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown 時，正確判斷並設定輸出檔案的副檔名。 |
 | [在將 Word 轉換為 Markdown 時保存圖像 – 完整 C# 指南](./save-word-images-while-converting-word-to-markdown-complete/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 Markdown 時，同時保存所有圖像，提供完整範例程式碼。 |
 | [在 C# 中將 Word 轉換為 Markdown – 匯出方程式為 LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，並將方程式匯出為 LaTeX 格式。 |

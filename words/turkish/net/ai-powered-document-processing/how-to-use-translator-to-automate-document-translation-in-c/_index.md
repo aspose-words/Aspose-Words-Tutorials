@@ -196,7 +196,6 @@ Diğer dillerle denemeler yapmaktan, hata yönetimi eklemekten veya kodu daha b�
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
-- [C#'ta Geri Çağırma Kullanımı – DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word Belgesi - İçeriği Nasıl Kaldırılır](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

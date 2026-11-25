@@ -199,7 +199,6 @@ Translation complete. Output saved to output.docx
 
 Τα παρακάτω σεμινάρια καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κυριαρχήσετε επιπλέον δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [How to Use Callback in C# – Convert DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-use-callback-in-c-convert-docx-to-markdown/)
 - [Word Document - How to Remove Content](/words/english/net/remove-content/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

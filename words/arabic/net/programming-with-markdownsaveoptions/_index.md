@@ -62,7 +62,6 @@
 
 ### [تحويل DOCX إلى Markdown – دليل كامل باستخدام Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
-### [كيفية استخدام Callback في C# – تحويل DOCX إلى Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
 
 ### [كيفية تضمين الصور في Markdown من DOCX](./how-to-embed-images-in-markdown-from-docx/)
