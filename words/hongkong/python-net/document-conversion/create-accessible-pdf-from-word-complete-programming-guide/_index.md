@@ -163,7 +163,6 @@ if __name__ == "__main__":
 以下教學涵蓋與本指南密切相關的主題，建立在此處示範的技巧之上。每個資源皆提供完整可運作的程式碼範例與逐步說明，協助你精通更多 API 功能，並在專案中探索替代實作方式。
 
 - [從 Word 建立可存取的 PDF – 完整指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [使用 C# 從 Word 建立可存取的 PDF – 步驟說明](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [將 Word 檔案轉換為 PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

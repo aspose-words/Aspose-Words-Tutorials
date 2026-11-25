@@ -276,7 +276,6 @@ Weitere Fragen zur Erstellung barrierefreier PDFs? Hinterlassen Sie einen Kommen
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Features meistern und alternative Implementierungs‑Ansätze in eigenen Projekten erkunden können.
 
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Create Accessible PDF from Word – Complete Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Create Accessible PDF in C# – PDF Accessibility Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

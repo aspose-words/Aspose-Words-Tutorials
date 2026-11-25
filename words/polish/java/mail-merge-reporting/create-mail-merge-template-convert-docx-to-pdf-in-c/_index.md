@@ -229,7 +229,6 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 
 ## Powiązane samouczki
 
-- [Utwórz dostępny PDF z Worda w C# – Przewodnik krok po kroku](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Utwórz dostępny PDF – Przewodnik krok po kroku dla zgodności PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

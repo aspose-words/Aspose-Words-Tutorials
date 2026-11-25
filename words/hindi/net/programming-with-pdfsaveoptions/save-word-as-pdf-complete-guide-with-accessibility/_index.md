@@ -177,7 +177,6 @@ Console.WriteLine($"Success! PDF saved to {outputPath}");
 
 ## संबंधित ट्यूटोरियल
 
-- [C# के साथ Word से एक्सेसिबल PDF बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Aspose.Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

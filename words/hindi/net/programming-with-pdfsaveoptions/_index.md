@@ -48,7 +48,6 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [C# में सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-in-c-step-by-step-guide/) | इस चरण‑दर‑चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके C# में सुलभ PDF बनाने की प्रक्रिया सीखें। |
 | [Aspose Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण C# गाइड](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी मार्गदर्शिका। |
-| [C# के साथ Word से एक्सेसिबल PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके एक्सेसिबल PDF बनाने की विस्तृत चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [C# में सुलभ PDF बनाएं – PDF अभिगम्यता ट्यूटोरियल](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | C# के लिए Aspose.Words का उपयोग करके सुलभ PDF बनाने की चरण‑दर‑स्टेप गाइड। |
 | [Word से सुलभ PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-from-word-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 | [Word को PDF में सहेजें – सुलभता के साथ पूर्ण गाइड](./save-word-as-pdf-complete-guide-with-accessibility/) | C# में Aspose.Words का उपयोग करके Word को PDF में बदलें और सुलभता सुनिश्चित करने की पूरी मार्गदर्शिका। |

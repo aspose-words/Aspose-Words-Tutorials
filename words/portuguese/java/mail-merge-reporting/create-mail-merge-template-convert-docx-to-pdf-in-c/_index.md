@@ -229,7 +229,6 @@ Juntando tudo, aqui está um `Program.cs` mínimo que demonstra todo o fluxo, da
 
 ## Tutoriais Relacionados
 
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -269,7 +269,6 @@ Erişilebilir PDF oluşturma hakkında daha fazla sorunuz mu var? Yorum bırakı
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [C# ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Öğreticisi](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

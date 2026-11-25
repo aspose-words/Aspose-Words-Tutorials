@@ -228,7 +228,6 @@ Menggabungkan semuanya, berikut `Program.cs` minimal yang mendemonstrasikan alur
 
 ## Tutorial Terkait
 
-- [Buat PDF Aksesibel dari Word dengan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Buat PDF Aksesibel – Panduan Langkah‑per‑Langkah untuk Kepatuhan PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

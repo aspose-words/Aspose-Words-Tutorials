@@ -286,7 +286,6 @@ namespace AccessiblePdfDemo
 
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือเต็ม](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือขั้นตอน](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

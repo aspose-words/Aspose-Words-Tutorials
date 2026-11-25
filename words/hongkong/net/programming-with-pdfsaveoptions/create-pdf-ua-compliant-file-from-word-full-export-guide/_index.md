@@ -269,7 +269,6 @@ dotnet run
 
 以下教學涵蓋與本指南緊密相關的主題，建立在此處示範的技巧之上。每個資源皆提供完整的可執行程式碼範例與逐步說明，協助你精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [使用 C# 建立可存取 PDF（逐步指南）](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [從 Word 建立可存取 PDF – 完整指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [在 C# 中建立可存取 PDF – PDF 可存取性教學](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

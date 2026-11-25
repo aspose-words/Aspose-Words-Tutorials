@@ -177,7 +177,6 @@ Console.WriteLine($"Success! PDF saved to {outputPath}");
 
 ## Related Tutorials
 
-- [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Save Word as PDF with Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

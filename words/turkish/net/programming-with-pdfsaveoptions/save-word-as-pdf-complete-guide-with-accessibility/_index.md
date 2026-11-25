@@ -177,7 +177,6 @@ Give it a try, tweak the options, and let your PDFs speak to everyone—screen r
 
 ## İlgili Öğreticiler
 
-- [C# ile Word'ten Erişilebilir PDF Oluştur – Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Aspose.Words ile Word'ü PDF Olarak Kaydet – Tam C# Kılavuzu](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

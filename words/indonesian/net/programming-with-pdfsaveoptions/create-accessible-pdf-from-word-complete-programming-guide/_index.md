@@ -291,7 +291,6 @@ Ada pertanyaan atau mengalami kendala? Tinggalkan komentar di bawah, dan mari ki
 
 - [Membuat PDF Aksesibel dari Word – Panduan Lengkap](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Membuat PDF Aksesibel – Panduan Langkah‑per‑Langkah untuk Kepatuhan PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Membuat PDF Aksesibel dari Word dengan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

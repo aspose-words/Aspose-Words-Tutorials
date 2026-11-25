@@ -271,7 +271,6 @@ Máte další otázky ohledně generování přístupných PDF? Zanechte koment�
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční kódové příklady s podrobným vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní přístupy ve vlastních projektech.
 
-- [Vytvoření přístupného PDF z Wordu s C# – krok za krokem](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Vytvoření přístupného PDF z Wordu – kompletní průvodce](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Vytvoření přístupného PDF v C# – tutoriál o PDF přístupnosti](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

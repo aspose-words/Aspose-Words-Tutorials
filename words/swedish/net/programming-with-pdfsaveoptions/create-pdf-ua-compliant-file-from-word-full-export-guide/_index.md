@@ -269,7 +269,6 @@ Har du fler frågor om generering av tillgängliga PDF‑filer? Lämna en kommen
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Skapa tillgänglig PDF från Word med C# – Steg‑för‑steg‑guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Skapa tillgänglig PDF från Word – Komplett guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Skapa tillgänglig PDF i C# – PDF‑tillgänglighetstutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

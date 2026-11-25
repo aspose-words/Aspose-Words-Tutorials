@@ -298,7 +298,6 @@ namespace AccessiblePdfDemo
 
 - [Word से एक्सेसिबल PDF बनाएं – पूर्ण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [एक्सेसिबल PDF बनाएं – PDF/UA अनुपालन के लिए चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [C# के साथ Word से एक्सेसिबल PDF बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

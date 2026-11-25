@@ -305,7 +305,6 @@ Masz pytania lub napotkałeś problem? zostaw komentarz poniżej, a wspólnie zn
 
 - [Utwórz dostępny PDF z Word – Kompletny przewodnik](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Utwórz dostępny PDF – Przewodnik krok po kroku dla zgodności PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Utwórz dostępny PDF z Word przy użyciu C# – Przewodnik krok po kroku](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
