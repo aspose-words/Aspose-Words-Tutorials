@@ -72,7 +72,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Dokumen sebagai PDF di C# – Panduan Lengkap](./save-document-as-pdf-in-c-complete-guide/) | Panduan lengkap untuk menyimpan dokumen Word sebagai PDF menggunakan C# dengan Aspose.Words untuk .NET. |
 | [Simpan Word sebagai PDF – Panduan Lengkap dengan Aksesibilitas](./save-word-as-pdf-complete-guide-with-accessibility/) | Panduan lengkap langkah demi langkah untuk menyimpan dokumen Word sebagai PDF dengan mempertimbangkan aksesibilitas, menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 | [Buat File PDF/UA yang Mematuhi Standar dari Word – Panduan Ekspor Lengkap](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Panduan lengkap langkah demi langkah untuk membuat file PDF/UA yang mematuhi standar dari dokumen Word menggunakan Aspose.Words untuk .NET. |
-| [Cara mengatur RenderChoiceFormFieldBorder menjadi false saat mengonversi Word ke PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Pelajari cara menonaktifkan RenderChoiceFormFieldBorder saat mengonversi dokumen Word ke PDF menggunakan Aspose.Words untuk .NET. |
 
 | [Simpan Dokumen sebagai PDF di C# – Ekspor Bentuk Inline](./save-document-as-pdf-in-c-export-inline-shapes/) | Pelajari cara mengekspor bentuk inline ke PDF menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah ini. |
 {{< /blocks/products/pf/tutorial-page-section >}}

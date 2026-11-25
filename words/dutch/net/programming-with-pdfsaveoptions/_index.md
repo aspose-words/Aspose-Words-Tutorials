@@ -74,7 +74,6 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Document opslaan als PDF in C# – Complete gids](./save-document-as-pdf-in-c-complete-guide/) | Leer hoe u met Aspose.Words voor .NET een Word-document volledig naar PDF converteert in C# met alle beschikbare opties. |
 | [Word opslaan als PDF – Complete gids met toegankelijkheid](./save-word-as-pdf-complete-guide-with-accessibility/) | Leer hoe u een Word-document naar PDF converteert met volledige toegankelijkheidsopties met Aspose.Words voor .NET. |
 | [Maak PDF/UA-conforme bestand vanuit Word – Volledige exportgids](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Leer hoe u met Aspose.Words voor .NET een PDF/UA-conform bestand maakt vanuit Word met een volledige exportgids. |
-| [RenderChoiceFormFieldBorder false instellen bij conversie van Word naar PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
