@@ -149,11 +149,7 @@ Run the program, then compare `plain-output.pdf` with `tagged-output.pdf`. Youâ€
 
 ### What if my DOCX contains complex tables?  
 
-Aspose.Words handles tables out of the box, but for maximum accessibility you might also want to set `ExportTableStructure` to `true` in `PdfSaveOptions`. This adds `<Table>` tags that help screen readers navigate rows and columns.
-
-```csharp
-options.ExportTableStructure = true;
-```
+Aspose.Words converts tables to PDF as part of the document layout. At present there is no dedicated `PdfSaveOptions` property to explicitly control table tagging. After conversion, you can inspect the PDF tag tree (e.g., in Adobe Acrobat) to verify that tables are represented appropriately for assistive technologies.
 
 ### Can I convert multiple files in a folder?  
 
