@@ -33,14 +33,12 @@ schemas:
   steps:
   - name: Additional PdfSaveOptions you may want to set
     text: '| Option | Typical value | When to use it | |----------------------------|---------------|----------------|
-      | `Compliance` | `PdfCompliance.PdfA1b` | For archival PDFs | | `EmbedStandardFonts`
-      | `true` | To avoid font substitution on other machines | | `SaveFormat` | `SaveFormat.Pdf`
-      | Explicitly st'
+      | `Compliance` | `PdfCompliance.PdfA1b` | For archival PDFs | | `SaveFormat` | `SaveFormat.Pdf`
+      | Explicitly states the target format (optional) |'
   - name: Verifying the result
     text: Open `NoBorderChoice.pdf` in any PDF viewer (Adobe Acrobat, Foxit Reader,
       or the browser). You should see the drop‑down or combo‑box fields rendered as
-      plain text placeholders—no gray rectangle is visible. The fields remain interactive;
-      clicking on them still displays the list of choices.
+      plain text placeholders—no gray rectangle is visible.
   - name: Sample code for checking form fields
     text: '```csharp int choiceFieldCount = 0; foreach (FormField field in doc.Range.FormFields)
       { if (field.Type == FieldType.FieldFormDropDown || field.Type == FieldType.FieldFormComboBox)
@@ -64,7 +62,7 @@ url: /net/programming-with-pdfsaveoptions/how-to-set-renderchoiceformfieldborder
 
 If you need to **set RenderChoiceFormFieldBorder false** while exporting a Word document that contains choice form fields, this guide shows you the exact steps. By disabling the border rendering, the resulting PDF looks cleaner and matches the layout of the original document.
 
-In this tutorial you’ll learn how to configure **PdfSaveOptions** in Aspose.Words, why the setting matters, and how to handle common edge cases such as documents without any form fields. The solution works with the latest Aspose.Words for .NET (v23.10 at time of writing) and requires only a few lines of C# code.
+In this tutorial you’ll learn how to configure **PdfSaveOptions** in Aspose.Words, why the setting matters, and how to handle common edge cases such as documents without any form fields.
 
 ## Prerequisites
 
@@ -105,11 +103,10 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions
 
 ### Additional PdfSaveOptions you may want to set
 
-| Option                     | Typical value | When to use it |
-|----------------------------|---------------|----------------|
-| `Compliance`               | `PdfCompliance.PdfA1b` | For archival PDFs |
-| `EmbedStandardFonts`       | `true`        | To avoid font substitution on other machines |
-| `SaveFormat`               | `SaveFormat.Pdf` | Explicitly states the target format (optional) |
+| Option   | Typical value               | When to use it                                 |
+|----------|-----------------------------|-----------------------------------------------|
+| `Compliance` | `PdfCompliance.PdfA1b` | For archival PDFs |
+| `SaveFormat` | `SaveFormat.Pdf` | Explicitly states the target format (optional) |
 
 You can chain these settings with the border flag:
 
@@ -118,7 +115,7 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
     RenderChoiceFormFieldBorder = false,
     Compliance = PdfCompliance.PdfA1b,
-    EmbedStandardFonts = true
+    SaveFormat = SaveFormat.Pdf
 };
 ```
 
@@ -135,7 +132,7 @@ doc.Save("YOUR_DIRECTORY/NoBorderChoice.pdf", pdfOptions);
 
 ### Verifying the result
 
-Open `NoBorderChoice.pdf` in any PDF viewer (Adobe Acrobat, Foxit Reader, or the browser). You should see the drop‑down or combo‑box fields rendered as plain text placeholders—no gray rectangle is visible. The fields remain interactive; clicking on them still displays the list of choices.
+Open `NoBorderChoice.pdf` in any PDF viewer (Adobe Acrobat, Foxit Reader, or the browser). You should see the drop‑down or combo‑box fields rendered as plain text placeholders—no gray rectangle is visible.
 
 ## Handling edge cases
 
@@ -143,8 +140,7 @@ Open `NoBorderChoice.pdf` in any PDF viewer (Adobe Acrobat, Foxit Reader, or the
 |----------------------------------------|----------------------|
 | **Document has no choice form fields** | The border flag has no effect. You can optionally check `doc.Range.FormFields.Count` before conversion to skip unnecessary configuration. |
 | **Password‑protected Word file**       | Load the document with a `LoadOptions` object that includes the password, then apply the same `PdfSaveOptions`. |
-| **Large documents (> 100 MB)**         | Use `MemoryOptimization` options on `PdfSaveOptions` to reduce memory consumption during conversion. |
-| **Need to keep the border for specific fields** | After loading the document, iterate over `doc.Range.FormFields`, set `FieldType` to `FieldType.FieldFormDropDown` or `FieldFormComboBox`, and adjust the `Border` property manually before saving. |
+| **Large documents (> 100 MB)**         | Use `MemoryOptimization` on `PdfSaveOptions` to reduce memory consumption during conversion. |
 
 ### Sample code for checking form fields
 
@@ -192,7 +188,7 @@ class Program
             RenderChoiceFormFieldBorder = false,
             // Example of additional options you might need
             Compliance = PdfCompliance.PdfA1b,
-            EmbedStandardFonts = true
+            SaveFormat = SaveFormat.Pdf
         };
 
         // 3️⃣ Save the PDF
@@ -214,10 +210,7 @@ When you open `NoBorderChoice.pdf`, the drop‑down fields appear without the de
 
 ## Pro tips and common pitfalls
 
-* **Pro tip:** If you are generating PDFs in a web service, set `pdfOptions.SaveFormat = SaveFormat.Pdf` explicitly to avoid accidental format detection issues.
-* **Watch out for:** Older versions of Aspose.Words (pre‑v20) do not expose `RenderChoiceFormFieldBorder`. Upgrade to the latest release to use this flag.
-* **Performance tip:** Reuse a single `PdfSaveOptions` instance when converting many documents in a batch; creating a new object each time adds unnecessary overhead.
-* **Testing tip:** Include a unit test that loads a known `.docx` with a drop‑down, runs the conversion, and asserts that the resulting PDF stream does not contain the `/Border` PDF annotation for those fields.
+* **Watch out for:** The `RenderChoiceFormFieldBorder` property is available in recent releases of Aspose.Words. Ensure you are using a version that includes this member.
 
 ## Conclusion
 
