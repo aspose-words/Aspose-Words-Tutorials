@@ -77,7 +77,6 @@
 | [تخصيص نقطة بيانات مخطط واحدة في مخطط](./single-chart-data-point/) | تعرّف على كيفية تخصيص نقاط بيانات مخطط فردي باستخدام Aspose.Words لـ .NET في دليل مفصل خطوة بخطوة. حسّن مخططاتك باستخدام علامات وأحجام فريدة. |
 | [تخصيص سلسلة مخطط واحد في مخطط](./single-chart-series/) | تعرّف على كيفية تخصيص سلسلة مخططات فردية في مستند Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لتجربة سلسة. |
 | [تفجير شريحة مخطط دائري في C# باستخدام Aspose.Words – دليل كامل](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | تعرّف على كيفية تفجير شريحة مخطط دائري في C# باستخدام Aspose.Words خطوة بخطوة. |
-| [كيفية إظهار النسب المئوية في المخطط باستخدام Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | تعلم كيفية عرض القيم كنسب مئوية في المخططات باستخدام Aspose.Words لـ .NET مع C#. |
 | [كيفية إضافة تسميات البيانات إلى مخطط Word باستخدام C# – دليل خطوة بخطوة](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | تعلم كيفية إضافة وتخصيص تسميات البيانات في مخططات Word باستخدام Aspose.Words لـ .NET في دليل تفصيلي خطوة بخطوة. |
 | [تخصيص موضع تسمية البيانات للمخططات في C#](./custom-data-label-placement-for-charts-in-c/) | تعلم كيفية وضع تسميات البيانات في المخططات بشكل مخصص باستخدام Aspose.Words لـ .NET وC#. |
 | [كيفية تنسيق السلسلة في مخطط خطي في Word باستخدام C#](./how-to-format-series-in-a-word-line-chart-with-c/) | تعرّف على طريقة تنسيق سلاسل البيانات في مخطط خطي باستخدام Aspose.Words لـ .NET وC#. |
