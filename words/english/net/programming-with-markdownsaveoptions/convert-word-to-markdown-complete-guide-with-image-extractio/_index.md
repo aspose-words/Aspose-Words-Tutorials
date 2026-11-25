@@ -121,12 +121,14 @@ class ImageSavingCallback : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Build a unique file name like img_7f9c3a2b-1e4d.png
-        string uniqueName = $"img_{Guid.NewGuid()}{args.Extension}";
+        // MarkdownSaveOptions only provides image streams, so we default to .png.
+        // If you need the original format, you can inspect the stream contents yourself.
+        string uniqueName = $"img_{Guid.NewGuid()}.png";
         string fullPath = Path.Combine(_folder, uniqueName);
 
         // Tell Aspose to write the image to this path
-        args.FileName = fullPath;
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceFileName = fullPath;
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
     }
 }
 ```
@@ -135,7 +137,7 @@ class ImageSavingCallback : IResourceSavingCallback
 
 ## Step 5 – Save the Document as Markdown
 
-Now we finally perform the conversion. The callback runs automatically for every external resource (i.e., each image).
+Now we finally perform the conversion. The callback runs automatically for every image resource.
 
 ```csharp
 // Perform the conversion
@@ -148,7 +150,7 @@ Console.WriteLine($"🖼️ Images extracted to: {resourcesFolder}");
 When the save operation finishes, you’ll find:
 
 - `Doc.md` – a markdown file with image links like `![Image](Resources/img_...png)`.  
-- `Resources/` – a folder full of PNG/JPEG files that were inside the original Word document.
+- `Resources/` – a folder containing the image files that were inside the original Word document.
 
 That’s the whole **convert word to markdown** pipeline in just a few dozen lines.
 
@@ -160,15 +162,15 @@ Open `Doc.md` in any markdown viewer (VS Code, GitHub, MkDocs). You should see t
 
 ### “What if my Word file uses SVG or EMF images?”
 
-Aspose.Words automatically converts unsupported formats to PNG during the callback. You’ll still get a usable image, though the file extension will be `.png`. If you need the original format, you can inspect `args.Extension` and adjust the conversion logic.
+Aspose.Words may convert some unsupported image formats to PNG when the callback is invoked. The resulting file will have a `.png` extension, but the actual image data will be in PNG format. If preserving the original format is required, you can examine the `args.ResourceStream` (e.g., by checking the first few bytes) and perform your own conversion.
 
 ### “Can I control the image quality?”
 
 Yes. Within `ResourceSaving`, you could load the stream into a `System.Drawing.Image`, resize or re‑encode it, then write the modified stream back. This is handy when you want to **generate markdown from docx** for a web site that requires smaller assets.
 
-### “What about embedded fonts or other resources?”
+### “Does the callback fire for non‑image resources?”
 
-The `ResourceSavingCallback` fires for *any* external resource, not just images. If you also need to extract audio, video, or OLE objects, simply handle them in the same callback – the `args.Extension` will tell you the type.
+When saving to Markdown, `ResourceSavingCallback` is invoked only for image resources. Other external resources (e.g., audio, video) are not processed in this mode.
 
 ### “Is the markdown syntax GitHub‑compatible?”
 
@@ -226,10 +228,11 @@ namespace WordToMarkdownDemo
 
         public void ResourceSaving(ResourceSavingArgs args)
         {
-            string uniqueName = $"img_{Guid.NewGuid()}{args.Extension}";
+            // Default to PNG; adjust if you need a different format
+            string uniqueName = $"img_{Guid.NewGuid()}.png";
             string fullPath = Path.Combine(_folder, uniqueName);
-            args.FileName = fullPath;
-            args.Stream = new FileStream(fullPath, FileMode.Create);
+            args.ResourceFileName = fullPath;
+            args.ResourceStream = new FileStream(fullPath, FileMode.Create);
         }
     }
 }
