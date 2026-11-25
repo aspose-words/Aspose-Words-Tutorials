@@ -249,7 +249,6 @@
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，同时提取并保存嵌入的图像，提供完整的 C# 示例和步骤指南。
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并导出符合 PDF/UA 标准的 PDF，提供完整示例和分步指南。
-### [将 Word 保存为 Markdown 并使用自定义图像文件夹 – 完整指南](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并自定义图像文件夹，提供完整示例和步骤指南。
 
