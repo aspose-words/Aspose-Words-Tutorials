@@ -305,7 +305,6 @@ Hai domande o incontri un problema? Lascia un commento qui sotto e risolviamolo 
 
 - [Crea PDF accessibile da Word – Guida completa](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Crea PDF accessibile – Guida passo‑passo per la conformità PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Crea PDF accessibile da Word con C# – Guida passo‑passo](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -170,7 +170,6 @@ Kenara takıldığınız bir durum ya da iş akışınıza göre betiği özelle
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak ilgili konuları derinleştirir. Her kaynak, adım adım açıklamalar ve tam çalışan kod örnekleri içerir; böylece ek API özelliklerini kavrayabilir ve projelerinizde alternatif uygulama yaklaşımlarını keşfedebilirsiniz.
 
 - [Create Accessible PDF from Word – Complete Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

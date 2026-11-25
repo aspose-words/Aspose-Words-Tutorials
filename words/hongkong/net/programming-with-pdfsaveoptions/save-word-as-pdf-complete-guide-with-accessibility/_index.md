@@ -176,7 +176,6 @@ Console.WriteLine($"Success! PDF saved to {outputPath}");
 
 ## 相關教學
 
-- [使用 C# 從 Word 建立無障礙 PDF – 步驟說明指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 指南](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

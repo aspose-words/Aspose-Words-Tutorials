@@ -271,7 +271,6 @@ Có thêm câu hỏi nào về việc tạo PDF có khả năng truy cập khôn
 
 Các hướng dẫn sau đây liên quan chặt chẽ đến các kỹ thuật đã được trình bày trong bài viết này. Mỗi tài nguyên bao gồm mã mẫu đầy đủ với các giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tạo PDF Có Khả Năng Truy Cập từ Word với C# – Hướng Dẫn Từng Bước](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Tạo PDF Có Khả Năng Truy Cập từ Word – Hướng Dẫn Hoàn Chỉnh](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Tạo PDF Có Khả Năng Truy Cập trong C# – Hướng Dẫn Truy Cập PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

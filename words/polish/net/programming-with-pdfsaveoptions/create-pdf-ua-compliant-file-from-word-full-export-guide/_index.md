@@ -267,7 +267,6 @@ Masz więcej pytań dotyczących generowania dostępnych PDF‑ów? zostaw komen
 
 Poniższe samouczki dotyczą ściśle powiązanych tematów, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz szczegółowe wyjaśnienia, pomagające opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
-- [Utwórz dostępny PDF z Word przy użyciu C# – przewodnik krok po kroku](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Utwórz dostępny PDF z Word – kompletny przewodnik](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Utwórz dostępny PDF w C# – tutorial o dostępności PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

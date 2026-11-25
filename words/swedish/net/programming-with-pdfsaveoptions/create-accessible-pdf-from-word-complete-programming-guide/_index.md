@@ -305,7 +305,6 @@ Har du frågor eller stöter på problem? Lämna en kommentar nedan, så felsök
 
 - [Skapa tillgänglig PDF från Word – Komplett guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Skapa tillgänglig PDF – Steg‑för‑steg‑guide för PDF/UA‑kompatibilitet](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Skapa tillgänglig PDF från Word med C# – Steg‑för‑steg‑guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

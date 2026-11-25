@@ -305,7 +305,6 @@ Có câu hỏi hoặc gặp khó khăn? Để lại bình luận bên dưới, c
 
 - [Tạo PDF Truy cập được từ Word – Hướng dẫn Toàn diện](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Tạo PDF Truy cập được – Hướng dẫn Từng Bước cho Tuân thủ PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Tạo PDF Truy cập được từ Word với C# – Hướng dẫn Từng Bước](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

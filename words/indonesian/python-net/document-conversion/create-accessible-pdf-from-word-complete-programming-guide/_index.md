@@ -170,7 +170,6 @@ Ada pertanyaan tentang kasus khusus atau butuh bantuan menyesuaikan skrip untuk 
 Tutorial berikut mencakup topik terkait yang memperluas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Buat PDF Aksesibel dari Word – Panduan Lengkap](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Buat PDF Aksesibel dari Word dengan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Konversi File Word ke PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

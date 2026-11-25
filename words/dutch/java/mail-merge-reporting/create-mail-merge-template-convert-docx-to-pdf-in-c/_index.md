@@ -227,7 +227,6 @@ Putting it all together, here’s a minimal `Program.cs` that demonstrates the e
 
 ## Gerelateerde tutorials
 
-- [Maak toegankelijke PDF vanuit Word met C# – Stapsgewijze gids](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Maak toegankelijke PDF – Stapsgewijze gids voor PDF/UA‑compliance](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

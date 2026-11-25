@@ -177,7 +177,6 @@ Probieren Sie es aus, passen Sie die Optionen an und lassen Sie Ihre PDFs für a
 
 ## Verwandte Tutorials
 
-- [Erstelle barrierefreies PDF aus Word mit C# – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word als PDF speichern mit Aspose.Words – Vollständiger C#‑Leitfaden](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

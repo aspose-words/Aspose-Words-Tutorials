@@ -225,7 +225,6 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 
 ## 相关教程
 
-- [使用 C# 从 Word 创建可访问的 PDF – 步骤指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [创建可访问的 PDF – PDF/UA 合规的步骤指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

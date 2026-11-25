@@ -255,7 +255,6 @@ class Program
 
 ## Related Tutorials
 
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide]({{< relref "net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/" >}})
 - [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}

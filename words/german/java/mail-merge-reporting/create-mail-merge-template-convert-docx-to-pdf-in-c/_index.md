@@ -229,7 +229,6 @@ Alles zusammengefügt, hier ein minimales `Program.cs`, das den gesamten Workflo
 
 ## Verwandte Tutorials
 
-- [Barrierefreies PDF aus Word mit C# erstellen – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Barrierefreies PDF erstellen – Schritt‑für‑Schritt‑Anleitung für PDF/UA‑Konformität](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

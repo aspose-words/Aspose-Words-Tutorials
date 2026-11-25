@@ -227,7 +227,6 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 
 ## 관련 튜토리얼
 
-- [C#로 Word에서 접근성 PDF 만들기 – 단계별 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [접근성 PDF 만들기 – PDF/UA 준수를 위한 단계별 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

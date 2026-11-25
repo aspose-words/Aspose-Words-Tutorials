@@ -303,7 +303,6 @@ namespace AccessiblePdfDemo
 
 - [從 Word 建立可存取的 PDF – 完整指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [建立可存取的 PDF – PDF/UA 合規逐步指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [使用 C# 從 Word 建立可存取的 PDF – 步驟說明](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
