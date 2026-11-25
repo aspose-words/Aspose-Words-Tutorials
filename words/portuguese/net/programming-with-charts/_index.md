@@ -49,7 +49,6 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Salvar documento modificado com fatias de gráfico de pizza explodidas em C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Como definir a contagem de bins de histograma e adicionar rótulos de dados em um gráfico do Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Título | Descrição |

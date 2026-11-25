@@ -47,7 +47,6 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Come impostare il conteggio dei bin dell'istogramma e aggiungere etichette dati in un grafico Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Titolo | Descrizione |

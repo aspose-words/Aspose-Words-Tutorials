@@ -50,7 +50,6 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C# でエクスプロードされた円グラフスライスを使用して変更されたドキュメントを保存する" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# を使用して Word のチャートでヒストグラムのビン数を設定し、データ ラベルを追加する方法" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 {{< tutorial-card link="./single-chart-series/" title="Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。" imgSrc="./single-chart-series/images/thumb.png" >}}
 

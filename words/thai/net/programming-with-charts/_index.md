@@ -51,7 +51,6 @@
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="บันทึกเอกสารที่แก้ไขแล้วพร้อมส่วนของแผนภูมิเพียรที่แยกออกใน C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="วิธีตั้งค่าจำนวนบินของฮิสโตแกรมและเพิ่มป้ายข้อมูลในแผนภูมิ Word ด้วย C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -

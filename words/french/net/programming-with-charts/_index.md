@@ -49,7 +49,6 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Comment définir le nombre de classes d'un histogramme et ajouter des étiquettes de données dans un graphique Word avec C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Titre | Description |
