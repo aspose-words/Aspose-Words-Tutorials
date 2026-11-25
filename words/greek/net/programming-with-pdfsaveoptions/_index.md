@@ -54,7 +54,6 @@
 | [Δημιουργία Προσβάσιμου PDF – Οδηγός Βήμα‑βήμα για Προγραμματιστές](./create-accessible-pdf-step-by-step-guide-for-developers/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με οδηγίες βήμα‑βήμα για προγραμματιστές. |
 | [Δημιουργία προσβάσιμου PDF σε C# – Οδηγός βήμα‑προς‑βήμα](./create-accessible-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF σε C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση εγγράφου ως PDF σε C# – Εξαγωγή ενσωματωμένων σχήμάτων](./save-document-as-pdf-in-c-export-inline-shapes/) | Μάθετε πώς να εξάγετε ενσωματωμένα σχήματα σε PDF χρησιμοποιώντας Aspose.Words για .NET με C#. |
-| [Πώς να ορίσετε RenderChoiceFormFieldBorder σε false κατά τη μετατροπή Word σε PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Μάθετε πώς να απενεργοποιήσετε το RenderChoiceFormFieldBorder κατά τη μετατροπή εγγράφων Word σε PDF με Aspose.Words για .NET. |
 
 | [Μετατροπή docx σε pdf – Πλήρης Οδηγός για Προσβάσιμα PDF](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε προσβάσιμα PDF με πλήρη οδηγό βήμα-βήμα, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας. |
 | [Δημιουργία προσβάσιμου PDF από Word σε C# – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο αρχείο PDF από έγγραφο Word χρησιμοποιώντας C# και Aspose.Words, ακολουθώντας αυτόν τον οδηγό βήμα‑βήμα. |

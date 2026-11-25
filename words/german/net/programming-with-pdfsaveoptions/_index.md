@@ -74,7 +74,6 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [PDF/UA-konforme Datei aus Word erstellen – Vollständige Exportanleitung](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF/UA‑konformes Dokument aus Word exportieren – Schritt‑für‑Schritt‑Anleitung. |
 | [Barrierefreies PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF in C# Schritt für Schritt erstellen. |
 | [Dokument als PDF in C# speichern – Inline-Shapes exportieren](./save-document-as-pdf-in-c-export-inline-shapes/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Inline-Shapes beim Export in PDF aus C#-Code exportieren. |
-| [RenderChoiceFormFieldBorder beim Konvertieren von Word zu PDF auf false setzen](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Erfahren Sie, wie Sie beim Konvertieren von Word nach PDF die RenderChoiceFormFieldBorder‑Option deaktivieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
