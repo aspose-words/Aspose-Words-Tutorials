@@ -294,7 +294,6 @@ Experimentieren Sie mit verschiedenen Anbietern, Zielsprache und Dokumentformate
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Dokument als PDF in C# speichern – Vollständiger Leitfaden zum Export von Docx und zur Schriftüberwachung](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Dokument als TXT speichern – Vollständiger C#‑Leitfaden zum Konvertieren von DOCX in Klartext](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [DOCX in Markdown konvertieren – Vollständiger Leitfaden mit Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

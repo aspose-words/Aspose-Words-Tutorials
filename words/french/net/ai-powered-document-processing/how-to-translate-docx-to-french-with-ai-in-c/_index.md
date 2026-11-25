@@ -298,7 +298,6 @@ Expérimentez avec différents fournisseurs, langues cibles et formats de docume
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités d'API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Enregistrer le document en PDF avec C# – Guide complet pour exporter Docx et surveiller la police](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Enregistrer le document en TXT – Guide complet C# pour convertir DOCX en texte brut](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Convertir DOCX en Markdown – Guide complet avec Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

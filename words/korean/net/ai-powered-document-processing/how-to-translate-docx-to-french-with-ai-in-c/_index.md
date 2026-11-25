@@ -292,7 +292,6 @@ Experiment with different providers, target languages, and document formats to f
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [C#에서 문서를 PDF로 저장 – Docx 내보내기 및 글꼴 모니터링 완전 가이드](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [문서를 TXT로 저장 – DOCX를 일반 텍스트로 변환하는 완전 C# 가이드](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [DOCX를 Markdown으로 변환 – Aspose.Words 사용 완전 가이드](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

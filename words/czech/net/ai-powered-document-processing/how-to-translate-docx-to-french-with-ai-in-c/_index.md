@@ -295,7 +295,6 @@ Experimentujte s různými poskytovateli, cílovými jazyky a formáty dokument�
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
 
-- [Uložit dokument jako PDF v C# – Kompletní průvodce exportem Docx a sledováním fontů](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Uložit dokument jako TXT – Kompletní C# průvodce konverzí DOCX do prostého textu](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Převést DOCX na Markdown – Kompletní průvodce pomocí Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

@@ -294,7 +294,6 @@ Experimentera med olika leverantörer, målspråk och dokumentformat för att fu
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Spara dokument som PDF i C# – Komplett guide för att exportera Docx och övervaka typsnitt](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Spara dokument som TXT – Komplett C#‑guide för att konvertera DOCX till vanlig text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Konvertera DOCX till Markdown – Komplett guide med Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
