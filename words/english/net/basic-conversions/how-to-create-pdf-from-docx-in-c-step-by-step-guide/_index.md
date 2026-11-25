@@ -77,7 +77,7 @@ PDF/UA‑2 is the ISO standard for accessible PDFs. Setting the compliance flag 
 var pdfSaveOptions = new PdfSaveOptions
 {
     // This ensures the generated PDF meets the PDF/UA‑2 accessibility standard
-    Compliance = PdfCompliance.PdfUA2
+    Compliance = PdfCompliance.PdfUa2
 };
 ```
 
@@ -121,7 +121,7 @@ class Program
             // 2️⃣ Set PDF/UA‑2 compliance options
             var pdfSaveOptions = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUA2
+                Compliance = PdfCompliance.PdfUa2
             };
 
             // 3️⃣ Save as PDF
@@ -157,7 +157,7 @@ Absolutely. Wrap the loading and saving logic inside a `foreach (var file in Dir
 
 ### How do I handle large documents (hundreds of pages)?
 
-Aspose streams the content, so memory usage stays reasonable. However, if you hit out‑of‑memory errors, consider converting the document in sections or increasing the process’s memory limit.
+If you encounter out‑of‑memory errors, consider converting the document in sections or increasing the process’s memory limit.
 
 ### Is PDF/UA‑2 the only compliance option?
 
