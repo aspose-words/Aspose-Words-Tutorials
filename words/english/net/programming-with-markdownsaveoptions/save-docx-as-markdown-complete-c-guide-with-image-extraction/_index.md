@@ -73,8 +73,8 @@ Once the package is restored, you’ll have access to the `Document`, `MarkdownS
 When Aspose.Words writes a Markdown file it also needs to know **where** to dump the linked resources – typically images. By implementing `IResourceSavingCallback` you gain full control over the file name, folder, and even the stream handling.
 
 ```csharp
+using System;
 using System.IO;
-using Aspose.Words;
 using Aspose.Words.Saving;
 
 /// <summary>
@@ -83,15 +83,27 @@ using Aspose.Words.Saving;
 /// </summary>
 class MyMarkdownResourceCallback : IResourceSavingCallback
 {
+    private int _imageCounter = 0;
+
     public void ResourceSaving(ResourceSavingArgs args)
     {
-        // Define a folder relative to the output location.
-        string resourceFolder = @"YOUR_DIRECTORY/MarkdownResources/";
+        // Determine the folder where images will be saved.
+        string resourceFolder = Path.Combine(
+            Path.GetDirectoryName(args.ResourceFileName) ?? string.Empty,
+            "MarkdownResources");
         Directory.CreateDirectory(resourceFolder);
 
-        // Build a unique file name: img_0.png, img_1.jpg, etc.
-        string extension = Path.GetExtension(args.Path) ?? ".bin";
-        args.Path = Path.Combine(resourceFolder, $"img_{args.Index}{extension}");
+        // Preserve the original extension (e.g., .png, .jpeg).
+        string extension = Path.GetExtension(args.ResourceFileName);
+        if (string.IsNullOrEmpty(extension))
+            extension = ".bin";
+
+        // Build a unique file name for each image.
+        string newFileName = $"img_{_imageCounter}{extension}";
+        _imageCounter++;
+
+        // Set the full path for the image file.
+        args.ResourceFileName = Path.Combine(resourceFolder, newFileName);
 
         // Let Aspose close the stream after writing.
         args.KeepResourceStreamOpen = false;
@@ -196,14 +208,18 @@ class Program
 /// </summary>
 class MyMarkdownResourceCallback : IResourceSavingCallback
 {
+    private int _imageCounter = 0;
+
     public void ResourceSaving(ResourceSavingArgs args)
     {
         string resourceFolder = Path.Combine(
-            Path.GetDirectoryName(args.Path) ?? "", "MarkdownResources");
+            Path.GetDirectoryName(args.ResourceFileName) ?? "", "MarkdownResources");
         Directory.CreateDirectory(resourceFolder);
 
-        string ext = Path.GetExtension(args.Path) ?? ".bin";
-        args.Path = Path.Combine(resourceFolder, $"img_{args.Index}{ext}");
+        string ext = Path.GetExtension(args.ResourceFileName) ?? ".bin";
+        args.ResourceFileName = Path.Combine(resourceFolder, $"img_{_imageCounter}{ext}");
+        _imageCounter++;
+
         args.KeepResourceStreamOpen = false;
     }
 }
@@ -222,7 +238,7 @@ Aspose.Words preserves most formatting (headings, bold, lists, tables). If you n
 
 ### What if my document has **multiple images with the same name**?
 
-The callback uses the `args.Index` value, which is unique per resource, ensuring no collisions. You can also incorporate the original filename (`args.Path`) into the new name if you prefer a more readable scheme.
+The callback uses a local counter (`_imageCounter`), which is unique per resource, ensuring no collisions. You can also incorporate the original filename (`args.ResourceFileName`) into the new name if you prefer a more readable scheme.
 
 ### Can I **extract images** to a different location per document?
 
