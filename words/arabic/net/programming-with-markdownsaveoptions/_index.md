@@ -117,7 +117,6 @@
 
 
 ### [تحويل DOCX إلى Markdown في C# – دليل كامل](./convert-docx-to-markdown-in-c-complete-guide/)
-### [كيفية حفظ Markdown من Word – دليل كامل لاستخراج الصور وتحويل DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 
 ### [مسار الصورة النسبي في Markdown – تحويل Word إلى Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 ### [كيفية حفظ الصور – تحويل DOCX إلى Markdown باستخدام Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)

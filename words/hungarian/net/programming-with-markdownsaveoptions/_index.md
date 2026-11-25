@@ -77,7 +77,6 @@ Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból Markdown form�
 Ismerje meg, hogyan ágyazhat be képeket Base64 formátumban a Word dokumentumok Markdownba konvertálásakor az Aspose.Words for .NET segítségével.
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.Words for .NET segítségével.
-### [Hogyan mentse a Markdownot a Wordből – Teljes útmutató képek kinyerésével és DOCX konvertálásával](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdownba, miközben képeket nyer ki és DOCX fájlokat konvertál.
 ### [Hogyan nevezze át a képeket a DOCX‑ből Markdownba konvertáláskor](./how-to-rename-images-when-converting-docx-to-markdown/)
 Ismerje meg, hogyan mentheti el a Markdownot C#‑ban egy teljes útmutatóval.

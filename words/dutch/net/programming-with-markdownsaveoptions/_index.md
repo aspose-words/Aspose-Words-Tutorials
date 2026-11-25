@@ -38,7 +38,6 @@ Leer hoe u DOCX-bestanden naar Markdown exporteert met een volledige stap‑voor
 
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
-### [Hoe Markdown op te slaan vanuit Word – Complete gids om afbeeldingen te extraheren en DOCX te converteren](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 Leer hoe u Markdown opslaat, afbeeldingen extraheert en DOCX converteert met een volledige C#‑handleiding.
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#‑gids.

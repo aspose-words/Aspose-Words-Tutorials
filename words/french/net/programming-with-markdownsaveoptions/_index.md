@@ -94,7 +94,6 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 
 Apprenez à enregistrer un document Word au format Markdown avec un guide complet utilisant Aspose.Words.
 
-### [Comment enregistrer le Markdown depuis Word – Guide complet pour extraire les images et convertir DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
 
 Apprenez à enregistrer le Markdown depuis Word, extraire les images et convertir des fichiers DOCX avec Aspose.Words pour .NET.
 

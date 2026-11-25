@@ -53,7 +53,6 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Aspose.Words を使用した Word を Markdown に変換 – 完全 C# ガイド](./convert-word-to-markdown-with-aspose-words-full-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown に変換する完全な C# ガイドです。 |
 | [Assets フォルダーを作成し、Aspose.Words で DOCX を Markdown に変換する](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) Aspose.Words for .NET を使用して、Assets フォルダーを作成し、DOCX ファイルを Markdown に変換する手順を解説します。 |
 | [C# で DOCX を Markdown に変換 – 完全ガイド](./convert-docx-to-markdown-in-c-complete-guide/) Aspose.Words for .NET を使用して、DOCX ファイルを Markdown に変換する完全な C# ガイドです。 |
-| [Word から Markdown を保存する方法 – 画像抽出と DOCX 変換の完全ガイド](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) Aspose.Words for .NET を使用して、Word 文書から画像を抽出し、DOCX を Markdown に変換して保存する完全な手順を解説します。 |
 | [Markdown 画像の相対パス – Word を Markdown に変換](./markdown-image-relative-path-convert-word-to-markdown/) Aspose.Words for .NET を使用して、画像の相対パスを保持しながら Word 文書を Markdown に変換する方法を解説します。 |
 | [画像を保存する方法 – Aspose.WordsでDOCXをMarkdownに変換](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) Aspose.Words for .NET を使用して、DOCX ファイルの画像を抽出し、Markdown 形式に変換して保存する手順を解説します。 |
 | [Word を Markdown に変換するためのアセットフォルダーの作成](./create-assets-folder-for-convert-word-to-markdown/) Aspose.Words for .NET を使用して、Word から Markdown への変換時に必要なアセットフォルダーを作成する手順を解説します。 |
