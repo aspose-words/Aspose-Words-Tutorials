@@ -194,7 +194,6 @@ Happy coding!
 
 - [矩形シェイプを作成し、影を追加して PDF を保存](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Word から PDF を作成 – Aspose.Words を使用した完全な Python ガイド](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Aspose.Words で Word のシェイプに影を付ける – ステップバイステップ](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

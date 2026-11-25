@@ -196,7 +196,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [Rechteckform erstellen, Schatten hinzufügen & PDF speichern](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [PDF aus Word erstellen – Vollständiger Python‑Leitfaden mit Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Schatten zu Form in Word mit Aspose.Words hinzufügen – Schritt für Schritt](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

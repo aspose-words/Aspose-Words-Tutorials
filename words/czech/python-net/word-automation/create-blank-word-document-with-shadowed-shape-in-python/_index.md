@@ -194,7 +194,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořte obdélníkový tvar, přidejte stín a uložte PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Vytvořte PDF z Wordu – Kompletní průvodce Pythonem s Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Přidejte stín k tvaru ve Wordu s Aspose.Words – krok za krokem](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

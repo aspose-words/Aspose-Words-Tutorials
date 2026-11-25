@@ -196,7 +196,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Crear forma rectangular, añadir sombra y guardar PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Crear PDF desde Word – Guía completa de Python con Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
-- [Añadir sombra a una forma en Word con Aspose.Words – Paso a paso](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
