@@ -177,7 +177,7 @@ FontSettings fontSettings = new FontSettings();
 fontSettings.SetFontsFolder(@"C:\Corporate\Fonts", recursive: true);
 
 // Optionally, map a missing font to a specific substitute.
-fontSettings.SubstitutionSettings.FontSubstitutionTable.AddSubstitutes(
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes(
     "MissingFont", new[] { "Arial", "Times New Roman" });
 ```
 
