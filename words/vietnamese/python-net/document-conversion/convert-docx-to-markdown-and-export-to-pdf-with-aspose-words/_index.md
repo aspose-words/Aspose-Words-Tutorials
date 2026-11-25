@@ -207,7 +207,6 @@ Bạn hiện đã có một giải pháp mạnh mẽ, đầu‑cuối để **co
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Chuyển đổi DOCX sang Markdown – Hướng dẫn đầy đủ sử dụng Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [Chuyển đổi docx sang markdown và trích xuất hình ảnh với Aspose.Words – Hướng dẫn C# đầy đủ](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

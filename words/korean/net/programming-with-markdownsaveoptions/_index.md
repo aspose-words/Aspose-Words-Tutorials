@@ -44,7 +44,6 @@
 | [Word를 Markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 Word 문서를 Markdown으로 변환하는 전체 C# 가이드 |
 | [DOCX를 Markdown으로 변환 시 이미지 CDN에 업로드 – 전체 가이드](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Aspose.Words for .NET을 사용하여 DOCX를 Markdown으로 변환하면서 이미지를 CDN에 업로드하는 전체 단계별 가이드 |
 | [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](./save-word-images-convert-word-to-markdown-with-aspose/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 추출하고 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
-| [docx를 markdown으로 저장 및 이미지 추출 – C# 가이드](./save-docx-as-markdown-extract-images-c-guide/) | Aspose.Words for .NET을 사용해 docx 파일을 markdown으로 변환하고 이미지 추출까지 수행하는 단계별 C# 가이드 |
 | [DOCX를 Markdown으로 변환 – Aspose.Words를 사용한 전체 가이드](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Aspose.Words for .NET을 활용하여 DOCX 파일을 Markdown으로 변환하는 전체 단계별 가이드 |
 | [이미지를 포함한 Word를 Markdown으로 저장 – C# 단계별 가이드](./save-word-as-markdown-with-images-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 이미지를 포함한 Word 문서를 Markdown으로 변환하는 단계별 가이드 |
 | [줄 바꿈 보존: DOCX를 Markdown으로 변환](./preserve-line-breaks-convert-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX 파일의 줄 바꿈을 유지하면서 Markdown으로 변환하는 방법을 단계별로 안내합니다. |

@@ -52,7 +52,6 @@ Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown form�
 ### [DOCX mentése Markdownba – Teljes útmutató képek kinyerésével](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 ### [Word konvertálása Markdownba C#‑ban – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-### [DOCX mentése Markdownba – Képek kinyerése – C# útmutató](./save-docx-as-markdown-extract-images-c-guide/)
 Ismerje meg, hogyan exportálhatja a Word egyenleteket LaTeX-be C#-ban a DOCX fájlok Markdownba mentése közben.
 ### [Word képek mentése a Word Markdownba konvertálása közben – Teljes C# útmutató](./save-word-images-while-converting-word-to-markdown-complete/)
 Ismerje meg, hogyan menthet képeket a Word dokumentumból a Markdownba konvertálás során C#‑ban az Aspose.Words for .NET segítségével.

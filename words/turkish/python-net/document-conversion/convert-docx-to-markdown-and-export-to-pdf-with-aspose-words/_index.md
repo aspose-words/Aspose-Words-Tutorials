@@ -207,7 +207,6 @@ Artık Aspose.Words for Python kullanarak **docx'i markdown'a dönüştürmek**,
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [DOCX'i Markdown'a Dönüştür – Aspose.Words Kullanarak Tam Kılavuz](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
-- [docx'i markdown'a dönüştür ve görselleri Aspose.Words ile çıkar – Tam C# kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

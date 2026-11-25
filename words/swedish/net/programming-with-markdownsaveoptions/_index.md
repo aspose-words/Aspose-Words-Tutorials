@@ -112,7 +112,6 @@ Lär dig hur du skapar en mapp för att lagra resurser när du konverterar Word-
 ### [Exportera docx till markdown i C# – Fullständig guide](./export-docx-to-markdown-in-c-complete-guide/)
 Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med C# och Aspose.Words.
 
-### [Spara docx som markdown & extrahera bilder – C#‑guide](./save-docx-as-markdown-extract-images-c-guide/)
 Lär dig hur du sparar DOCX som Markdown och extraherar bilder med en detaljerad C#‑guide.
 
 Lär dig spara Markdown med en komplett C#‑guide som täcker alla steg.
