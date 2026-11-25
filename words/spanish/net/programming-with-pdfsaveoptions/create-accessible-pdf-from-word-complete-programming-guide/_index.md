@@ -305,7 +305,6 @@ Acabamos de **crear PDF accesibles** a partir de documentos Word usando Aspose.W
 
 - [Crear PDF accesible desde Word – Guía completa](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Crear PDF accesible – Guía paso a paso para cumplimiento PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Crear PDF accesible desde Word con C# – Guía paso a paso](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

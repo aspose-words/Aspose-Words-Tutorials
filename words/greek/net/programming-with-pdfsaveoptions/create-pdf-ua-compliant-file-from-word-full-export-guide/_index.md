@@ -267,7 +267,6 @@ dotnet run
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Δημιουργία Προσβάσιμου PDF από Word με C# – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Δημιουργία Προσβάσιμου PDF σε C# – Εξάσκηση Προσβασιμότητας PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

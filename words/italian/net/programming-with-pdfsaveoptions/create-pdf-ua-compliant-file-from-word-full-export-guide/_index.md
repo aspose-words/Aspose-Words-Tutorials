@@ -267,7 +267,6 @@ Hai altre domande sulla generazione di PDF accessibili? Lascia un commento e buo
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Crea PDF accessibile da Word con C# – Guida passo‑passo](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Crea PDF accessibile da Word – Guida completa](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Crea PDF accessibile in C# – Tutorial di accessibilità PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

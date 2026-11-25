@@ -166,7 +166,6 @@ if __name__ == "__main__":
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดที่ทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบต่าง ๆ ในโครงการของคุณ
 
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือฉบับสมบูรณ์](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [แปลงไฟล์ Word เป็น PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -168,7 +168,6 @@ Masz pytania dotyczące nietypowych przypadków lub potrzebujesz pomocy przy dos
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu oraz wyczerpujące wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
 - [Utwórz dostępny PDF z Word – Kompletny przewodnik](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Utwórz dostępny PDF z Word w C# – Przewodnik krok po kroku](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Konwertuj plik Word do PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

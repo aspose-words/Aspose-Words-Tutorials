@@ -275,7 +275,6 @@ Ada pertanyaan lebih lanjut tentang pembuatan PDF yang dapat diakses? Tinggalkan
 
 Tutorial berikut mencakup topik terkait yang erat dan membangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah‑per‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Buat PDF yang Dapat Diakses dari Word dengan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Buat PDF yang Dapat Diakses dari Word – Panduan Lengkap](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Buat PDF yang Dapat Diakses di C# – Tutorial Aksesibilitas PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

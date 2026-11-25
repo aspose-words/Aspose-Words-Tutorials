@@ -251,7 +251,6 @@ class Program
 
 ## Kapcsolódó útmutatók
 
-- [Elérhető PDF létrehozása Word‑ből C#‑al – Lépésről‑lépésre útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Elérhető PDF létrehozása – Lépésről‑lépésre útmutató a PDF/UA megfeleléshez](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

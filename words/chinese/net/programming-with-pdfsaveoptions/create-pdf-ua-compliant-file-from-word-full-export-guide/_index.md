@@ -272,7 +272,6 @@ dotnet run
 
 以下教程与本指南紧密相关，进一步扩展所示技术。每个资源都包含完整的代码示例和逐步解释，帮助你掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [使用 C# 创建可访问 PDF（逐步指南）](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [从 Word 创建可访问 PDF – 完整指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [在 C# 中创建可访问 PDF – PDF 可访问性教程](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

@@ -177,7 +177,6 @@ Probeer het, pas de opties aan, en laat je PDF's tot iedereen spreken — scherm
 
 ## Gerelateerde tutorials
 
-- [Maak toegankelijke PDF vanuit Word met C# – Stapsgewijze gids](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word opslaan als PDF met Aspose.Words – Complete C#‑gids](/words/english/net/basic-conversions/save-word-as-pdf-with-aspose-words-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

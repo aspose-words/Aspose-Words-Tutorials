@@ -269,7 +269,6 @@ dotnet run
 
 다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하며, 밀접하게 관련된 주제를 다룹니다. 각 리소스에는 완전한 코드 예제와 단계별 설명이 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
 
-- [C#로 Word에서 접근성 PDF 만들기 – 단계별 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word에서 접근성 PDF 만들기 – 전체 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [C#에서 접근성 PDF 만들기 – PDF 접근성 튜토리얼](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 

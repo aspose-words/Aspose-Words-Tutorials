@@ -168,7 +168,6 @@ Har du frågor om specialfall eller behöver hjälp med att justera skriptet fö
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Skapa Tillgänglig PDF från Word – Komplett Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Skapa Tillgänglig PDF från Word med C# – Steg‑för‑Steg Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Konvertera Word‑fil till PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

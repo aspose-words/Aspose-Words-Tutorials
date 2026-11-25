@@ -227,7 +227,6 @@ När vi sätter ihop allt, här är en minimal `Program.cs` som demonstrerar hel
 
 ## Relaterade handledningar
 
-- [Skapa tillgänglig PDF från Word med C# – steg‑för‑steg‑guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Skapa tillgänglig PDF – steg‑för‑steg‑guide för PDF/UA‑efterlevnad](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

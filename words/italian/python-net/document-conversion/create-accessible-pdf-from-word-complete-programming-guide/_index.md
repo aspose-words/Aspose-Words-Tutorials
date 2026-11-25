@@ -168,7 +168,6 @@ Hai domande su casi particolari o hai bisogno di aiuto per adattare lo script al
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell'API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Create Accessible PDF from Word – Complete Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Convert Word File to PDF](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

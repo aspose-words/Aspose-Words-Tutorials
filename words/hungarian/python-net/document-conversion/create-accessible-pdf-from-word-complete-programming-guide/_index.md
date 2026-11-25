@@ -168,7 +168,6 @@ Van kérdésed a széljegyekkel kapcsolatban, vagy segítségre van szükséged 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Hozzon létre akadálymentes PDF-et Wordből – Teljes útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Hozzon létre akadálymentes PDF-et Wordből C#‑val – Lépésről‑lépésre útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Word fájl konvertálása PDF‑be](/words/english/net/basic-conversions/docx-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

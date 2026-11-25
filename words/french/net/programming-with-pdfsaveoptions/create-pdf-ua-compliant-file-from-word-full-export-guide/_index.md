@@ -273,7 +273,6 @@ Vous avez d’autres questions sur la génération de PDF accessibles ? Laisse
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et à explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Créer un PDF accessible à partir de Word avec C# – Guide étape par étape](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
 - [Créer un PDF accessible à partir de Word – Guide complet](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
 - [Créer un PDF accessible en C# – Tutoriel d’accessibilité PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
 
