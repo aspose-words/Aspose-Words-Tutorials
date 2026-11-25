@@ -48,7 +48,6 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Spara ett modifierat dokument med exploderade pajdiagramsegment i C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hur man ställer in histogrambinsantal och lägger till dataetiketter i ett Word-diagram med C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Titel | Beskrivning |
@@ -81,7 +80,6 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Hur du formaterar serier i ett Word-linjediagram med C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Lär dig hur du formaterar serier i ett linjediagram i Word med Aspose.Words för .NET och C# i denna steg-för-steg-guide. |
 | [Hur du skapar Word-dokument C# med ett stapeldiagram och formaterade etiketter](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Lär dig hur du skapar ett Word-dokument med ett stapeldiagram och anpassade etiketter i C# med Aspose.Words för .NET. |
 | [Hur man skapar ett Word-dokument med ett anpassat cirkeldiagram i C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Lär dig hur du skapar ett Word-dokument med ett anpassat cirkeldiagram i C# med Aspose.Words för .NET. |
-| [Hur man ställer in histogrambinsantal och lägger till dataetiketter i ett Word-diagram med C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Lär dig hur du anger antalet histogrambins och lägger till dataetiketter i ett Word-diagram med C#. |
 | [Hur man skapar radardiagram och lägger till diagram i Word med C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Lär dig skapa ett radardiagram och infoga det i ett Word-dokument med Aspose.Words för .NET och C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

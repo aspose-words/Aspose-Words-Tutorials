@@ -49,7 +49,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Lưu tài liệu đã chỉnh sửa với các lát bánh tròn nổ trong C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cách đặt số bin cho biểu đồ histogram và thêm nhãn dữ liệu trong biểu đồ Word bằng C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Tiêu đề | Mô tả |

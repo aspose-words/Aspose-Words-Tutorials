@@ -78,7 +78,6 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Wie man ein Word-Dokument mit einem benutzerdefinierten Kreisdiagramm in C# erstellt](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem individuell angepassten Kreisdiagramm in C# erstellen. |
 
 | [Modifiziertes Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Erfahren Sie, wie Sie ein Word‑Dokument mit explodierten Tortendiagramm‑Scheiben in C# speichern. |
-| [Wie man die Bin-Anzahl eines Histogramms festlegt und Datenbeschriftungen zu einem Word-Diagramm in C# hinzufügt](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Erfahren Sie, wie Sie die Bin-Anzahl eines Histogramms festlegen und Datenbeschriftungen in einem Word-Diagramm mit C# hinzufügen. |
 | [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen. |
 | [Radar-Diagramm erstellen und in Word einfügen mit C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm erstellen und in ein Word-Dokument einfügen. |
 

@@ -50,7 +50,6 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Uložení upraveného dokumentu s výbuchovými výsečemi koláčového grafu v C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Jak nastavit počet košů histogramu a přidat popisky dat v grafu Word pomocí C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 | Název | Popis |
 | --- | --- |

@@ -47,7 +47,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Cím | Leírás |
@@ -79,7 +78,6 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat kördiagramot Word dokumentumban az Aspose.Words for .NET használatával. |
 | [Word dokumentum létrehozása testreszabott kördiagrammal C#-ban](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Tanulja meg, hogyan hozhat létre Word dokumentumot testreszabott kördiagrammal C#-ban az Aspose.Words for .NET használatával. |
 | [Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Tanulja meg, hogyan menthet egy módosított Word-dokumentumot, ahol a kördiagram szeletek széttörve vannak, C#-ban az Aspose.Words használatával. |
-| [Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Tanulja meg, hogyan állíthat be hisztogram bin-számot és adhat hozzá adatcímkéket egy Word-diagramban C#-ban az Aspose.Words for .NET segítségével. |
 | [Kördiagram létrehozása Word dokumentumban az Aspose.Words használatával](./create-pie-chart-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban az Aspose.Words for .NET segítségével. |
 | [Radar diagram létrehozása és hozzáadása Word dokumentumba C#-ban](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Tanulja meg, hogyan hozhat létre radar diagramot és adja hozzá Word dokumentumhoz C#-ban az Aspose.Words for .NET segítségével. |
 
