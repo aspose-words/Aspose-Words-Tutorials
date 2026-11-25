@@ -18,7 +18,7 @@ url: /net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
 
 ## Introduction
 
-In the realm of document processing, optimizing how your files are saved can significantly enhance their quality and usability. Aspose.Words for .NET offers a plethora of features to ensure your Word documents are saved with precision. One such feature is the "Do Not Compress Small Metafiles" option. This tutorial will guide you through the process of utilizing this feature to maintain the integrity of your metafiles in Word documents. Let's dive in!
+In the realm of document processing, optimizing how your files are saved can significantly enhance their quality and usability. Aspose.Words for .NET includes format‑specific save‑options classes that let you customize the saving process for each output format. One such option is the **Do Not Compress Small Metafiles** setting available on `DocSaveOptions`. This tutorial will guide you through the process of using this setting to maintain the integrity of your metafiles in Word documents. Let's dive in!
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Now, let's break down the process of using the "Do Not Compress Small Metafiles" feature in Aspose.Words for .NET. We'll go through each step in detail to ensure you can follow along easily.
+Now, let's break down the process of using the **Do Not Compress Small Metafiles** feature in Aspose.Words for .NET. We'll go through each step in detail to ensure you can follow along easily.
 
 ## Step 1: Setup Your Document Directory
 
@@ -62,19 +62,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
-Here, we initialize a `Document` object and use `DocumentBuilder` to add some text to it. The `Writeln` method adds a line of text to the document.
+Here, we initialize a `Document` object and use `DocumentBuilder` to add some text to the document. The `Writeln` method adds a line of text to the document.
 
 ## Step 3: Configure Save Options
 
-Now, we configure the save options to use the "Do Not Compress Small Metafiles" feature. This is done using the `DocSaveOptions` class.
+Now, we configure the save options to use the **Do Not Compress Small Metafiles** feature. This is done using the `DocSaveOptions` class.
 
 ```csharp
 // Configure save options with "Do Not Compress Small Metafiles" feature
-DocSaveOptions saveOptions = new DocSaveOptions();
-saveOptions.Compliance = PdfCompliance.PdfA1a;
+DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
+saveOptions.AlwaysCompressMetafiles = false; // Do not compress small metafiles
 ```
 
-In this step, we create an instance of `DocSaveOptions` and set the `Compliance` property to `PdfCompliance.PdfA1a`. This ensures the document adheres to the PDF/A-1a standard.
+In this step, we create an instance of `DocSaveOptions` for the DOC format and set the `AlwaysCompressMetafiles` property to `false`. This tells Aspose.Words to leave small metafiles uncompressed when the document is saved.
 
 ## Step 4: Save the Document
 
@@ -82,14 +82,14 @@ Finally, we save the document with the specified options to ensure that small me
 
 ```csharp
 // Save the document with the specified options
-doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
+doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.doc", saveOptions);
 ```
 
-Here, we use the `Save` method of the `Document` class to save the document. The path includes the directory and the file name "DocumentWithDoNotCompressMetafiles.pdf".
+Here, we use the `Save` method of the `Document` class to save the document as a DOC file. The file name reflects that the **Do Not Compress Small Metafiles** option was applied.
 
 ## Conclusion
 
-By following these steps, you can ensure that small metafiles in your Word documents are not compressed, preserving their quality and integrity. Aspose.Words for .NET provides powerful tools to customize your document processing needs, making it an invaluable asset for developers working with Word documents.
+By following these steps, you can ensure that small metafiles in your Word documents are not compressed, preserving their quality and integrity. Aspose.Words for .NET provides format‑specific save‑options classes that let you tailor the saving process to your needs, making it a valuable tool for developers working with Word documents.
 
 ## FAQ's
 
@@ -99,7 +99,7 @@ Using this feature helps maintain the quality and detail of small metafiles in y
 
 ### Can I use this feature with other file formats?
 
-Yes, Aspose.Words for .NET allows you to configure save options for various file formats, ensuring flexibility in document processing.
+The `AlwaysCompressMetafiles` option is specific to the DOC/DOT family of formats and is exposed through `DocSaveOptions`. Other formats have their own dedicated save‑options classes (for example, `PdfSaveOptions` for PDF).
 
 ### Do I need a license to use Aspose.Words for .NET?
 
@@ -107,13 +107,16 @@ While you can use Aspose.Words for .NET without a license for evaluation, a lice
 
 ### How can I ensure my documents comply with PDF/A standards?
 
-Aspose.Words for .NET allows you to set compliance options such as `PdfCompliance.PdfA1a` to ensure your documents meet specific standards.
+For PDF output, use `PdfSaveOptions` and set its `Compliance` property, e.g.:
+
+```csharp
+PdfSaveOptions pdfOptions = new PdfSaveOptions();
+pdfOptions.Compliance = PdfCompliance.PdfA1a;
+```
 
 ### Where can I find more information about Aspose.Words for .NET?
 
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/), and you can download the latest version [here](https://releases.aspose.com/words/net/).
-
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
