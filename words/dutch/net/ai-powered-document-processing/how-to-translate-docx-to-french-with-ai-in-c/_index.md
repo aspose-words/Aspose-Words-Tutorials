@@ -294,7 +294,6 @@ Experimenteer met verschillende providers, doeltalen en documentformaten om AI�
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Save Document as PDF in C# – Complete Guide to Export Docx and Monitor Font](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

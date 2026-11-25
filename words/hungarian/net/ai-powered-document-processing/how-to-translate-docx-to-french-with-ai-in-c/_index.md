@@ -294,7 +294,6 @@ Kísérletezz különböző szolgáltatókkal, célnyelvekkel és dokumentumform
 
 A következő bemutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat, és alternatív megvalósítási megközelítéseket fedezhess fel saját projektjeidben.
 
-- [Dokumentum mentése PDF‑ként C#‑ban – Teljes útmutató a Docx exportálásához és a betűtípus nyomon követéséhez](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Dokumentum mentése TXT‑ként – Teljes C# útmutató a DOCX egyszerű szöveggé konvertálásához](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [DOCX konvertálása Markdown‑ra – Teljes útmutató Aspose.Words használatával](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 

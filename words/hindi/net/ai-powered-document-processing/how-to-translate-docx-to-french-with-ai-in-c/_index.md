@@ -296,7 +296,6 @@ dotnet run
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Save Document as PDF in C# – Complete Guide to Export Docx and Monitor Font](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/)
 - [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](/words/english/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/)
 - [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 
