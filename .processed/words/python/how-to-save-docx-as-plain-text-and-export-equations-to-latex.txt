@@ -1,0 +1,7 @@
+Title: How to save docx as plain text and export equations to LaTeX – step‑by‑step guide
+Slug: how-to-save-docx-as-plain-text-and-export-equations-to-latex
+Category: document-conversion
+ProcessedDate: 2026-11-25T19:33:46.943391
+SourceRepo: AI Search API
+Keywords: how to save docx, save docx as txt, convert word equations latex, save word plain text, export equations to latex
+PRNumber: 982
