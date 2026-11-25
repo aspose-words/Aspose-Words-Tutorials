@@ -148,7 +148,6 @@
 
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการแปลงสมการคณิตศาสตร์โดยใช้ Aspose.Words สำหรับ .NET
 
-### [สร้างโฟลเดอร์ C# – แปลง Word เป็น Markdown และสกัดรูปภาพ](./create-folder-c-convert-word-to-markdown-extract-images/)
 สร้างโฟลเดอร์และแปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพด้วย C# อย่างละเอียด
 
 ### [วิธีบันทึก Markdown จาก Word พร้อมรูปภาพ – คู่มือเต็ม C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)

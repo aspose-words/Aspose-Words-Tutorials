@@ -158,7 +158,6 @@ Lär dig konvertera Word-dokument till Markdown och exportera ekvationer som LaT
 
 Lär dig spara Word som Markdown och exportera matematiska ekvationer med Aspose.Words för .NET.
 
-### [Skapa mapp C# – Konvertera Word till Markdown och extrahera bilder](./create-folder-c-convert-word-to-markdown-extract-images/)
 Lär dig skapa en mapp i C#, konvertera Word-dokument till Markdown och extrahera bilder med Aspose.Words för .NET.
 
 ### [Hur man sparar Markdown från Word med bilder – Fullständig C#-guide](./how-to-save-markdown-from-word-with-images-complete-c-guide/)

@@ -95,7 +95,6 @@ Ismerje meg, hogyan exportálhatja a DOCX fájlokat Markdown formátumba részle
 ### [Hogyan exportáljunk Markdownot DOCX‑ből képekkel – Teljes útmutató](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Ismerje meg, hogyan exportálhat DOCX fájlokat Markdown formátumba képek beágyazásával egy teljes C# útmutatóban.
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba, és exportálhatja a matematikai képleteket az Aspose.Words segítségével.
-### [Mappa létrehozása C# – Word konvertálása Markdownba és képek kinyerése](./create-folder-c-convert-word-to-markdown-extract-images/)
 Ismerje meg, hogyan hozhat létre mappát C#-ban, konvertálhat Word dokumentumokat Markdownba, és nyerheti ki a képeket.
 ### [Hogyan mentse el a Markdownot a Wordből képekkel – Teljes C# útmutató](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Ismerje meg, hogyan mentheti el a Word dokumentumokat Markdown formátumba képekkel egy teljes C# útmutatóval.
