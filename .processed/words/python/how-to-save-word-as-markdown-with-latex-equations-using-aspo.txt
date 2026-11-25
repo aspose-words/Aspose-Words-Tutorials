@@ -1,0 +1,7 @@
+Title: How to save Word as Markdown with LaTeX equations using Aspose.Words for Python
+Slug: how-to-save-word-as-markdown-with-latex-equations-using-aspo
+Category: document-conversion
+ProcessedDate: 2026-11-25T19:33:38.450180
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, export word equations latex, convert word math latex, word to markdown latex
+PRNumber: 982
