@@ -70,6 +70,7 @@
 | [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
 | [تلخيص مستند Word باستخدام واجهة OpenAI API عبر C#](./summarize-word-document-with-openai-api-using-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام واجهة OpenAI API مع C# للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية ترجمة النص باستخدام واجهة برمجة تطبيقات Google Translate في C# – دليل خطوة بخطوة](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | دليل شامل يوضح كيفية استخدام Google Translate API في C# لترجمة النصوص خطوة بخطوة. |
+| [كيفية إنشاء مستند Word مع أشكال، وتلخيص بالذكاء الاصطناعي، وترجمة في C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | تعلم إنشاء مستند Word يحتوي على أشكال، وتلخيصه بالذكاء الاصطناعي، وترجمته إلى لغات أخرى باستخدام C# و Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

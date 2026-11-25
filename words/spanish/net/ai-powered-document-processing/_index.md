@@ -73,6 +73,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo traducir docx a francés en C# – guía paso a paso](./how-to-translate-docx-to-french-in-c-step-by-step-guide/) | Aprenda a traducir archivos DOCX al francés en C# paso a paso usando Aspose.Words. |
 | [Cómo guardar un documento Word traducido en C# con Google IA](./how-to-save-translated-word-document-in-c-with-google-ai/) | Aprenda a guardar documentos Word traducidos usando C# y la IA de Google con Aspose.Words. |
 | [Cómo traducir texto con la API de Google Translate en C# – guía paso a paso](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Aprenda a traducir texto en C# usando la API de Google Translate con una guía paso a paso. |
+| [Cómo crear un documento Word con formas, resumen con IA y traducción en C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Aprenda a generar un documento Word con formas, resumirlo usando IA y traducirlo automáticamente en C# con Aspose.Words. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

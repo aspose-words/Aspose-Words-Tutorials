@@ -74,6 +74,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Google AI ile C#'ta Çevrilen Word Belgesini Kaydetme](./how-to-save-translated-word-document-in-c-with-google-ai/) | Google AI kullanarak C# ile çevrilen Word belgesini nasıl kaydedeceğinizi adım adım öğrenin. |
 | [OpenAI API Kullanarak C# ile Word Belgesini Özetleme](./summarize-word-document-with-openai-api-using-c/) | C# ve OpenAI API'si ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [C# ile Google Translate API Kullanarak Metin Çevirme – Adım Adım Kılavuz](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Google Translate API'sini C# içinde kullanarak metin çevirmenin adım adım rehberi. |
+| [C#'ta Şekiller, AI Özetleme ve Çeviri ile Word Belgesi Oluşturma](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | C# ve Aspose.Words kullanarak şekiller ekleyip, AI ile özetleyip, belgeyi çevirerek Word dosyası oluşturmayı öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

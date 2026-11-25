@@ -72,6 +72,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Meringkas Dokumen Word dengan OpenAI di C#](./how-to-summarize-word-document-with-openai-in-c/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan OpenAI dengan C#. |
 | [Ringkas dokumen Word dengan API OpenAI menggunakan C#](./summarize-word-document-with-openai-api-using-c/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan API OpenAI dengan C#. |
 | [Cara menerjemahkan teks dengan Google Translate API di C# – panduan langkah demi langkah](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Pelajari cara menggunakan Google Translate API di C# untuk menerjemahkan teks secara otomatis dengan panduan langkah demi langkah. |
+| [Cara membuat dokumen Word dengan bentuk, ringkasan AI, dan terjemahan dalam C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Pelajari cara membuat dokumen Word berisi bentuk, meringkas dengan AI, dan menerjemahkannya menggunakan C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -75,6 +75,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como resumir documento Word com OpenAI em C#](./how-to-summarize-word-document-with-openai-in-c/) | Aprenda a resumir documentos Word usando OpenAI em C# com um guia passo a passo completo. |
 | [Resumir documento Word com API OpenAI usando C#](./summarize-word-document-with-openai-api-using-c/) | Aprenda a resumir documentos Word usando a API OpenAI em C# com um guia passo a passo. |
 | [Como traduzir texto com a API do Google Translate em C# – guia passo a passo](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Aprenda a usar a API do Google Translate em C# para traduzir textos passo a passo. |
+| [Como criar um documento Word com formas, resumo de IA e tradução em C#](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Aprenda a gerar documentos Word com formas, usar IA para resumir e traduzir o conteúdo usando C# e Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@
 | [OpenAI를 사용한 C# Word 문서 요약 방법](./how-to-summarize-word-document-with-openai-in-c/) | OpenAI와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
 | [OpenAI API를 사용하여 C#로 Word 문서 요약하기](./summarize-word-document-with-openai-api-using-c/) | OpenAI API와 Aspose.Words for .NET을 활용해 C#에서 Word 문서를 자동으로 요약하는 단계별 가이드입니다. |
 | [C#에서 Google 번역 API로 텍스트 번역하기 – 단계별 가이드](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Google 번역 API를 사용해 C#에서 텍스트를 번역하는 방법을 단계별로 안내합니다. |
+| [C#에서 도형, AI 요약 및 번역이 포함된 Word 문서 만들기](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | C#와 Aspose.Words를 사용해 도형을 삽입하고 AI 요약 및 번역 기능을 적용하는 방법을 단계별로 안내합니다. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

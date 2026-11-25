@@ -45,7 +45,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Hogyan mentse el a lefordított Word dokumentumot C#-ban a Google AI-val](./how-to-save-translated-word-document-in-c-with-google-ai/) | Ismerje meg, hogyan menthet lefordított Word dokumentumot C#-ban a Google AI használatával. |
 | [Hogyan ellenőrizze a nyelvtant C#-ban egy helyi LLM használatával](./how-to-check-grammar-in-c-using-a-local-llm/) | Tanulja meg, hogyan használjon helyi nagy nyelvi modellt a C# kódban a nyelvtani hibák automatikus ellenőrzésére. |
-| [Hogyan foglaljunk össze Word dokumentumokat – Teljes C# útmutató](./how-to-summarize-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja a C#-ot a Word dokumentumok AI-alapú összefoglalásához az Aspose.Words segítségével. |
+| [Hogyan foglaljunk össze Word dokumentumok – Teljes C# útmutató](./how-to-summarize-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja a C#-ot a Word dokumentumok AI-alapú összefoglalásához az Aspose.Words segítségével. |
 | [Hogyan javítsuk ki a nyelvtant DOCX fájlokban C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Tanulja meg, hogyan javíthatja a DOCX fájlok nyelvtani hibáit C#‑ban egy részletes, lépésről‑lépésre útmutatóval. |
 | [Hogyan ellenőrizze a nyelvtant Word dokumentumokban – Teljes C# útmutató](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et a Word dokumentumok nyelvtani ellenőrzésére C#-ban, lépésről lépésre. |
 | [Hogyan ellenőrizze a nyelvtant egy helyi LLM-mel C#-ban](./how-to-check-grammar-with-a-local-llm-in-c/) | Tanulja meg, hogyan használhat helyi nagy nyelvi modellt a nyelvtani ellenőrzéshez C#-ban az Aspose.Words for .NET segítségével. |
@@ -62,6 +62,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Word dokumentum összefoglalása OpenAI API-val C#-ban](./summarize-word-document-with-openai-api-using-c/) | Ismerje meg, hogyan használhatja az OpenAI API-t a Word dokumentumok C#-os összefoglalásához. |
 | [Üres Word dokumentum létrehozása és francia nyelvre fordítása](./create-a-blank-word-document-and-translate-it-to-french/) | Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és fordíthatja le francia nyelvre az Aspose.Words for .NET segítségével. |
 | [Hogyan fordítsunk szöveget a Google Translate API-val C#‑ban – lépésről‑lépésre útmutató](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Ismerje meg, hogyan használhatja a Google Translate API-t C#‑ban szövegek fordításához lépésről‑lépésre útmutatóval. |
+| [Hogyan hozzon létre Word dokumentumot alakzatokkal, AI összefoglalással és fordítással C#-ban](./how-to-create-a-word-document-with-shapes-ai-summarization-a/) | Ismerje meg, hogyan hozhat létre Word dokumentumot alakzatokkal, AI összefoglalással és fordítással C#-ban. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
