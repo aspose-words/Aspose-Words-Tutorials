@@ -103,7 +103,7 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
         string assetPath = Path.Combine(assetsFolder, safeFileName);
         using (FileStream fs = new FileStream(assetPath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // 4️⃣ Tell the markdown writer the *relative* path it should embed.
