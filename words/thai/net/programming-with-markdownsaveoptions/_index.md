@@ -80,7 +80,6 @@
 ### [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
-### [โฟลเดอร์รูปภาพกำหนดเองสำหรับการส่งออก Markdown พร้อมรูปภาพ – คู่มือเต็ม](./custom-image-folder-for-export-markdown-with-images-complete/)
 ตั้งค่าโฟลเดอร์รูปภาพที่กำหนดเองเมื่อส่งออกเป็น Markdown พร้อมการฝังรูปภาพ – คำแนะนำครบถ้วน
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)

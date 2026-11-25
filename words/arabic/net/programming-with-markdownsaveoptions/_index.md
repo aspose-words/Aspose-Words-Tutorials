@@ -129,7 +129,6 @@
 ### [حفظ DOCX كـ markdown باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 ### [حفظ docx كـ markdown – دليل كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 
-### [مجلد صور مخصص لتصدير Markdown مع الصور – دليل كامل](./custom-image-folder-for-export-markdown-with-images-complete/)
 ### [تحويل docx إلى markdown وحفظ الصور من docx](./convert-docx-to-markdown-save-images-from-docx/)
 
 

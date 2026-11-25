@@ -216,7 +216,6 @@ Lär dig exportera LaTeX från DOCX och konvertera till Markdown med en komplett
 ### [Skapa markdown från Word – Fullständig C#‑guide](./create-markdown-from-word-full-c-guide/)
 Lär dig skapa markdown från Word-dokument med en komplett C#‑guide.
 
-### [Anpassad bildmapp för export av Markdown med bilder – Komplett guide](./custom-image-folder-for-export-markdown-with-images-complete/)
 Lär dig hur du anger en egen bildmapp när du exporterar Markdown med bilder i Aspose.Words för .NET.
 
 Lär dig återställa korrupta Word-dokument med Aspose.Words i en komplett guide.
