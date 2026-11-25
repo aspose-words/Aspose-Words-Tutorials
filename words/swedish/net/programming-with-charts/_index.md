@@ -54,7 +54,6 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | Titel | Beskrivning |
 | --- | --- |
 | [Formatera antalet dataetiketter i ett diagram](./format-number-of-data-label/) | Lär dig hur du formaterar dataetiketter i diagram med Aspose.Words för .NET med den här steg-för-steg-guiden. Förbättra dina Word-dokument utan ansträngning. |
-| [Hur du formaterar diagram i Word med C# och anpassade talformat](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Lär dig hur du använder anpassade talformat för att formatera diagram i Word med C#. |
 | [Skapa och anpassa diagram med hjälp av form](./create-chart-using-shape/) | Lär dig hur du skapar och anpassar diagram i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för datavisualisering. |
 | [Skapa radardiagram i ett Word-dokument – komplett C#-guide](./create-radar-chart-in-a-word-document-complete-c-guide/) | Lär dig steg för steg hur du skapar ett radardiagram i Word med Aspose.Words för .NET och C#. |
 | [Skapa cirkeldiagram i ett Word-dokument med Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |

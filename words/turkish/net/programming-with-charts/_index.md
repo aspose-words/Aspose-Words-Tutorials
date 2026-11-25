@@ -47,7 +47,6 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="C# ve özel sayı formatlarıyla Word'de grafiği biçimlendirme" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# kullanarak Word grafiğinde histogram kutu sayısını ayarlama ve veri etiketleri ekleme" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
