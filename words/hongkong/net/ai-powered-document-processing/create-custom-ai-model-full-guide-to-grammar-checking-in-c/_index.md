@@ -277,7 +277,6 @@ Console.WriteLine("Corrected document saved as output_corrected.docx");
 
 以下教學涵蓋與本指南緊密相關的主題，建立在此處示範的技巧之上。每個資源皆提供完整可執行的程式碼範例，並附有逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [Aspose 載入選項 – 使用自訂字型設定載入 DOCX](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [如何載入 DOCX 並偵測缺少的字型 – 完整 C# 指南](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [將 Docx 檔案轉換為 Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

@@ -294,7 +294,6 @@ Ge den ett försök, justera promptarna, och se dina dokument bli felfria med ba
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementeringsmetoder i dina egna projekt.
 
-- [Aspose Load Options – Ladda DOCX med anpassade teckensnittsinställningar](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#‑guide](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Konvertera Docx‑fil till Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

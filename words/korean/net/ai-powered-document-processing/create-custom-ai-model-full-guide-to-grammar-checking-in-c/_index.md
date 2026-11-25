@@ -278,7 +278,6 @@ Console.WriteLine("Corrected document saved as output_corrected.docx");
 
 다음 튜토리얼은 이 가이드에서 보여준 기술을 기반으로 하는 밀접한 주제를 다룹니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함해 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
-- [Aspose Load Options – 사용자 정의 글꼴 설정으로 DOCX 로드](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [DOCX 로드 및 누락된 글꼴 감지 방법 – 완전한 C# 가이드](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [DOCX 파일을 Markdown으로 변환](/words/english/net/basic-conversions/docx-to-markdown/)
 

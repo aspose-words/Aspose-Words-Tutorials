@@ -280,7 +280,6 @@ Hãy thử nghiệm, điều chỉnh các prompt, và xem tài liệu của bạ
 
 Các hướng dẫn sau đây bao quát các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Aspose Load Options – Tải DOCX với Cài Đặt Phông Tùy Chỉnh](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Cách Tải DOCX và Phát Hiện Phông Thiếu – Hướng Dẫn C# Đầy Đủ](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Chuyển Đổi Tệp Docx Sang Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

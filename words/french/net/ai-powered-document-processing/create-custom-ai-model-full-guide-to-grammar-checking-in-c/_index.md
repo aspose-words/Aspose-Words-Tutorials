@@ -281,7 +281,6 @@ Essayez-le, ajustez les prompts, et voyez vos documents devenir sans erreur avec
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Aspose Load Options – Charger un DOCX avec des paramètres de police personnalisés](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Comment charger un DOCX et détecter les polices manquantes – Guide complet C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Convertir un fichier Docx en Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

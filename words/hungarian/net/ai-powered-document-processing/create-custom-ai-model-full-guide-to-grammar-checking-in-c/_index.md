@@ -294,7 +294,6 @@ Próbáld ki, finomítsd a promptokat, és nézd, ahogy a dokumentumaid hibament
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Aspose Load Options – DOCX betöltése egyéni betűtípus beállításokkal](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Hogyan töltsünk be DOCX-et és észleljük a hiányzó betűtípusokat – Teljes C# útmutató](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [DOCX fájl konvertálása Markdownra](/words/english/net/basic-conversions/docx-to-markdown/)
 

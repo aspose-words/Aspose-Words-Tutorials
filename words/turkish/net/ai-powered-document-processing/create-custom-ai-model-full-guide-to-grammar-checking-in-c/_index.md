@@ -280,7 +280,6 @@ Deneyin, istemleri ayarlayın ve belgelerinizin sadece birkaç satır kodla hata
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren eksiksiz çalışan kod örnekleri sunar.
 
-- [Aspose Yükleme Seçenekleri – Özel Yazı Tipi Ayarlarıyla DOCX Yükleme](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [DOCX Yükleme ve Eksik Yazı Tiplerini Tespit Etme – Tam C# Kılavuzu](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Docx Dosyasını Markdown’a Dönüştür](/words/english/net/basic-conversions/docx-to-markdown/)
 

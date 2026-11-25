@@ -293,7 +293,6 @@ Console.WriteLine("Corrected document saved as output_corrected.docx");
 
 以下教程与本指南紧密相关，基于相同技术构建，均提供完整可运行的代码示例和逐步解释，帮助你掌握更多 API 功能并探索项目中的替代实现方式。
 
-- [Aspose Load Options – Load DOCX with Custom Font Settings](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Convert Docx File To Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

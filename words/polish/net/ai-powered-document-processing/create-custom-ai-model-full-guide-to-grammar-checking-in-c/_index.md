@@ -280,7 +280,6 @@ Spróbuj, dostosuj prompt, i obserwuj, jak Twoje dokumenty stają się wolne od 
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Opcje ładowania Aspose – Ładowanie DOCX z niestandardowymi ustawieniami czcionek](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Jak wczytać DOCX i wykryć brakujące czcionki – Kompletny przewodnik C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Konwersja pliku Docx do Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

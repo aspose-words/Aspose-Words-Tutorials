@@ -292,7 +292,6 @@ Vyzkoušejte to, upravte prompty a sledujte, jak se vaše dokumenty stanou bez c
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Aspose Load Options – Načtení DOCX s vlastními nastaveními fontů](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
 - [Jak načíst DOCX a detekovat chybějící fonty – Kompletní průvodce C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Převod souboru Docx na Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 

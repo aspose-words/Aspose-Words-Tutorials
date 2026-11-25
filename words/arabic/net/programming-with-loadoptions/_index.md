@@ -34,7 +34,6 @@
 | [تحويل ملفات التعريف إلى PNG](./convert-metafiles-to-png/) حوّل ملفات التعريف بسهولة إلى صيغة PNG في مستندات Word باستخدام Aspose.Words لـ .NET مع هذا البرنامج التعليمي خطوة بخطوة. بسّط إدارة مستنداتك. |
 | [تحميل ملفات Chm في مستند Word](./load-chm/) حمّل ملفات CHM بسهولة إلى مستندات Word باستخدام Aspose.Words for .NET مع هذا البرنامج التعليمي خطوة بخطوة. مثالي لتجميع وثائقك التقنية. |
 | [كيفية استعادة ملف DOCX – دليل خطوة بخطوة للملفات التالفة](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | تعرّف على طريقة استعادة ملفات DOCX التالفة خطوة بخطوة باستخدام Aspose.Words لـ .NET. |
-| [خيارات التحميل في Aspose – تحميل DOCX بإعدادات خطوط مخصصة](./aspose-load-options-load-docx-with-custom-font-settings/) | تعلّم كيفية تحميل مستند DOCX مع إعدادات خطوط مخصصة باستخدام Aspose Load Options لتحسين مظهر المستند. |
 | [استعادة مستند Word التالف – دليل كامل C#](./recover-damaged-word-document-complete-c-guide/) | تعلّم خطوة بخطوة كيفية استعادة مستندات Word التالفة باستخدام Aspose.Words لـ .NET مع دليل شامل بلغة C#. |
 | [استعادة ملف DOCX التالف باستخدام Aspose.Words – تعيين وضع الاسترداد وخيارات التحميل](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | تعلم كيفية استعادة ملفات DOCX التالفة وتعيين وضع الاسترداد وخيارات التحميل باستخدام Aspose.Words. |
 | [كيفية استعادة ملف docx – دليل C# للملفات Word التالفة](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | تعلم كيفية استعادة ملفات Word التالفة بصيغة docx باستخدام C# و Aspose.Words. |
