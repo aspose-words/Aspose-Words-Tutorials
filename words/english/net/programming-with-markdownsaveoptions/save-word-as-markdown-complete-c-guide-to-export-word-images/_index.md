@@ -38,7 +38,7 @@ In this tutorial we’ll walk through a single, self‑contained solution that *
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (latest version, e.g., 23.12). You can grab it from NuGet: `Install-Package Aspose.Words`.
+- **Aspose.Words for .NET** (latest version). You can grab it from NuGet: `Install-Package Aspose.Words`.
 - **.NET 6+** (any recent SDK works; the code compiles on .NET Framework 4.7 too).
 - A **sample DOCX** that contains a handful of images—this will be our test document.
 - A **writeable directory** where the markdown and image folder will live.
@@ -62,6 +62,9 @@ using System.IO;
 /// </summary>
 class MyMarkdownCallback : IResourceSavingCallback
 {
+    // Simple counter to generate deterministic file names.
+    private static int _imageIndex = 0;
+
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Define the folder that will hold the exported images.
@@ -70,12 +73,18 @@ class MyMarkdownCallback : IResourceSavingCallback
         // Ensure the folder exists – creates it the first time the callback runs.
         Directory.CreateDirectory(resourcesFolder);
 
+        // Preserve the original image extension.
+        string extension = Path.GetExtension(args.ResourceFileName);
+
         // Build a deterministic file name: img_####.<extension>
-        args.FileName = Path.Combine(resourcesFolder,
-            $"img_{args.ImageIndex:D4}{args.FileExtension}");
+        args.ResourceFileName = Path.Combine(resourcesFolder,
+            $"img_{_imageIndex:D4}{extension}");
+
+        // Increment the counter for the next image.
+        _imageIndex++;
 
         // If you wanted to modify the image stream (e.g., resize or re‑encode)
-        // you could replace args.Stream here. For now we just let Aspose write it.
+        // you could replace args.ResourceStream here. For now we just let Aspose write it.
     }
 }
 ```
@@ -133,7 +142,7 @@ doc.Save(outputPath, mdOptions);
 When the save finishes you should see:
 
 - `output.md` – the converted markdown text.
-- `Resources\` folder containing `img_0001.png`, `img_0002.jpg`, etc.
+- `Resources\` folder containing `img_0000.png`, `img_0001.jpg`, etc.
 
 **Expected markdown snippet** (truncated for brevity):
 
@@ -142,7 +151,7 @@ When the save finishes you should see:
 
 Here is an introductory paragraph.
 
-![Image 1](Resources/img_0001.png)
+![Image 1](Resources/img_0000.png)
 
 More text follows, perhaps a table:
 
@@ -173,10 +182,10 @@ If the count matches the number of pictures you see in the original DOCX, you’
 ## Common Questions & Edge Cases  
 
 ### What if the DOCX contains SVG or EMF graphics?  
-Aspose.Words rasterizes vector formats into PNG by default. If you need a different raster format, adjust `args.FileExtension` inside the callback.
+Aspose.Words rasterizes vector formats into PNG by default. If you need a different raster format, adjust the `extension` logic inside the callback.
 
 ### Can I change the image naming scheme?  
-Absolutely. The callback gives you full control over `args.FileName`. For example, you could preserve the original image name by reading `args.ImageFileName` (if available) or add a hash for uniqueness.
+Absolutely. The callback gives you full control over `args.ResourceFileName`. For example, you could preserve the original image name by reading `Path.GetFileNameWithoutExtension(args.ResourceFileName)` or add a hash for uniqueness.
 
 ### How do I handle large documents with hundreds of images?  
 Consider streaming the output folder to a temporary location and cleaning it up after the markdown is consumed. Also, set `mdOptions.ExportImagesAsBase64 = true` if you prefer a single markdown file—though the file size will grow.
@@ -199,12 +208,16 @@ using System.IO;
 
 class MyMarkdownCallback : IResourceSavingCallback
 {
+    private static int _imageIndex = 0;
+
     public void ResourceSaving(ResourceSavingArgs args)
     {
         string resourcesFolder = @"C:\MyExport\Resources\";
         Directory.CreateDirectory(resourcesFolder);
-        args.FileName = Path.Combine(resourcesFolder,
-            $"img_{args.ImageIndex:D4}{args.FileExtension}");
+        string extension = Path.GetExtension(args.ResourceFileName);
+        args.ResourceFileName = Path.Combine(resourcesFolder,
+            $"img_{_imageIndex:D4}{extension}");
+        _imageIndex++;
     }
 }
 
