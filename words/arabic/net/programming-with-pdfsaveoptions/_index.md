@@ -50,7 +50,6 @@
 | [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word – دليل كامل](./create-accessible-pdf-from-word-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word – دليل برمجة كامل](./create-accessible-pdf-from-word-complete-programming-guide/) | دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET. |
-| [إنشاء PDF يمكن الوصول إليه من Word باستخدام C# – دليل كامل](./create-accessible-pdf-from-word-in-c-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [حفظ ملف docx كـ pdf مع تصدير الشكل – دليل كامل](./save-docx-as-pdf-with-shape-export-complete-guide/) | تعلم كيفية حفظ مستندات docx كملفات PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء PDF يمكن الوصول إليه – دليل خطوة بخطوة للمطورين](./create-accessible-pdf-step-by-step-guide-for-developers/) |دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول باستخدام Aspose.Words لـ .NET. |
 | [تحويل docx إلى pdf – دليل شامل لإنشاء ملفات PDF قابلة للوصول](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) |تعلم كيفية تحويل مستندات docx إلى PDF مع تحسين إمكانية الوصول وفقًا لمعايير WCAG باستخدام Aspose.Words لـ .NET. |
