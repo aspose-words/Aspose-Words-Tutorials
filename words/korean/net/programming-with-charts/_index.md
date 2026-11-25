@@ -46,7 +46,6 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET을 사용하여 Word에서 차트 제목을 업데이트하고 범례 표시 여부를 전환하기" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C#에서 폭발된 파이 차트 조각을 포함한 수정 문서 저장" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

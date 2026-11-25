@@ -46,7 +46,6 @@
 {{< tutorial-card link="./update-chart-title/" title="تحديث عنوان المخطط وتبديل إظهار وسيلة الإيضاح في Word باستخدام Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="حفظ المستند المعدل بشرائح فطيرة منفجرة في C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

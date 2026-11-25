@@ -46,7 +46,6 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 {{< tutorial-card link="./update-chart-title/" title="Atualizar o Título do Gráfico e Alternar a Visibilidade da Legenda no Word usando Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Salvar documento modificado com fatias de gráfico de pizza explodidas em C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

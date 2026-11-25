@@ -48,7 +48,6 @@
 {{< tutorial-card link="./update-chart-title/" title="อัปเดตชื่อแผนภูมิและสลับการแสดงผลของคำอธิบายใน Word ด้วย Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="บันทึกเอกสารที่แก้ไขแล้วพร้อมส่วนของแผนภูมิเพียรที่แยกออกใน C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 
 

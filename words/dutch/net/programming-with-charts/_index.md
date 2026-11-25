@@ -46,7 +46,6 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 {{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Aangepast document opslaan met uitgeklapte taartdiagramsegmenten in C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 | Titel | Beschrijving |
 | --- | --- |
