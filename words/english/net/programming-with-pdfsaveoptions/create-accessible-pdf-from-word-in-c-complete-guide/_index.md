@@ -80,17 +80,17 @@ using Aspose.Words.Saving;
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // This flag tells Aspose to embed the necessary tags for accessibility
-    PdfCompliance = PdfCompliance.PdfUA2,
+    Compliance = PdfCompliance.PdfUa2,
 
     // Optional: embed the full font to avoid substitution issues
-    EmbedFullFonts = true,
-
-    // Optional: preserve the document outline (bookmarks) for screen readers
-    OutlineOptions = { HeadingsOutlineLevels = 3 }
+    EmbedFullFonts = true
 };
+
+// Optional: preserve the document outline (bookmarks) for screen readers
+pdfSaveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 ```
 
-> **Explanation:** Setting `PdfCompliance` to `PdfUA2` forces the library to generate a tagged PDF, embed structure elements, and add necessary metadata. The extra options improve the experience for users of assistive technology.
+> **Explanation:** Setting `Compliance` to `PdfUa2` forces the library to generate a tagged PDF, embed structure elements, and add necessary metadata. The extra options improve the experience for users of assistive technology.
 
 ## Step 4: Save the Document as an Accessible PDF  
 
@@ -154,10 +154,10 @@ public static class PdfAccessibilityHelper
             // Configure PDF/UA‑2 compliance
             PdfSaveOptions options = new PdfSaveOptions
             {
-                PdfCompliance = PdfCompliance.PdfUA2,
-                EmbedFullFonts = true,
-                OutlineOptions = { HeadingsOutlineLevels = 3 }
+                Compliance = PdfCompliance.PdfUa2,
+                EmbedFullFonts = true
             };
+            options.OutlineOptions.HeadingsOutlineLevels = 3;
 
             // Save as accessible PDF
             doc.Save(outputPdfPath, options);
