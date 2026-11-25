@@ -62,7 +62,6 @@
 | [C#에서 DOCX를 Markdown으로 변환 – 전체 가이드](./convert-docx-to-markdown-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 C#에서 Markdown으로 변환하는 전체 단계별 가이드 |
 | [Word에서 Markdown 저장하기 – 이미지 추출 및 DOCX 변환 전체 가이드](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하면서 이미지 추출 및 DOCX 변환 과정을 단계별로 안내합니다. |
 | [마크다운 이미지 상대 경로 – Word를 Markdown으로 변환](./markdown-image-relative-path-convert-word-to-markdown/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 상대 경로로 지정해 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
-| [이미지 저장 – Aspose.Words로 DOCX를 Markdown으로 변환](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Aspose.Words for .NET을 사용하여 DOCX 문서의 이미지를 추출하고 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words를 사용한 Word를 Markdown으로 저장 – 전체 가이드](./save-word-as-markdown-complete-guide-with-aspose-words/) | Aspose.Words for .NET을 활용하여 Word 문서를 Markdown 형식으로 저장하는 전체 단계별 가이드. |
 | [Aspose.Words를 사용하여 DOCX를 Markdown으로 저장 – 전체 단계별 가이드](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Aspose.Words for .NET을 사용해 DOCX 파일을 Markdown 형식으로 저장하는 전체 단계별 C# 가이드 |
 | [docx를 markdown으로 변환하고 이미지 저장하기](./convert-docx-to-markdown-save-images-from-docx/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하고 포함된 이미지를 추출하여 저장하는 방법을 단계별로 안내합니다. |
