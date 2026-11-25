@@ -120,7 +120,9 @@ class MyResourceCallback : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Define the folder where resources will be saved (relative to the .md file)
-        string resourceFolder = Path.Combine(Path.GetDirectoryName(args.DestinationFileName) ?? "", "Resources");
+        // Since ResourceSavingArgs does not expose the destination .md path,
+        // we place the resources next to the current working directory.
+        string resourceFolder = Path.Combine(Directory.GetCurrentDirectory(), "Resources");
 
         // Ensure the folder exists
         Directory.CreateDirectory(resourceFolder);
@@ -129,11 +131,14 @@ class MyResourceCallback : IResourceSavingCallback
         string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(args.ResourceFileName);
         string fullPath = Path.Combine(resourceFolder, uniqueFileName);
 
-        // Write the binary data to disk
-        File.WriteAllBytes(fullPath, args.ResourceData);
+        // Write the binary data to disk using the provided stream
+        using (FileStream fileStream = File.Create(fullPath))
+        {
+            args.ResourceStream.CopyTo(fileStream);
+        }
 
-        // Update the reference that will appear in the generated Markdown file
-        // Markdown expects a relative path from the .md file to the image
+        // Update the reference that will appear in the generated Markdown file.
+        // Markdown expects a relative path from the .md file to the image.
         args.ResourceFileName = $"Resources/{uniqueFileName}";
         args.KeepResourceStreamOpen = false; // close the stream after writing
     }
@@ -144,7 +149,7 @@ class MyResourceCallback : IResourceSavingCallback
 
 * `Guid.NewGuid()` guarantees a collision‑free name even if the source document has duplicate image names.
 * `args.KeepResourceStreamOpen = false` tells Aspose we’re done with the stream, preventing file‑handle leaks.
-* The callback uses `Path.GetDirectoryName(args.DestinationFileName)` to place the `Resources` folder next to the Markdown file, keeping the project tidy.
+* Because `ResourceSavingArgs` does not provide the Markdown file’s full path, we store resources in a folder relative to the current working directory. This keeps the example simple and works for most console‑app scenarios.
 
 ## Expected Output
 
@@ -180,7 +185,7 @@ foreach (var docxPath in Directory.GetFiles(@"C:\MyDocs\Batch", "*.docx"))
 
 ### Handling Large Images
 
-Very high‑resolution pictures can bloat the `Resources` folder. You can downscale them inside the callback using `System.Drawing` (for .NET Framework) or `SixLabors.ImageSharp` (for .NET Core). Insert a resizing step before `File.WriteAllBytes`.
+Very high‑resolution pictures can bloat the `Resources` folder. You can downscale them inside the callback using `System.Drawing` (for .NET Framework) or `SixLabors.ImageSharp` (for .NET Core). Insert a resizing step before `CopyTo`.
 
 ### Preserving Table Formatting
 
@@ -228,13 +233,17 @@ class MyResourceCallback : IResourceSavingCallback
 {
     public void ResourceSaving(ResourceSavingArgs args)
     {
-        string resourceFolder = Path.Combine(Path.GetDirectoryName(args.DestinationFileName) ?? "", "Resources");
+        string resourceFolder = Path.Combine(Directory.GetCurrentDirectory(), "Resources");
         Directory.CreateDirectory(resourceFolder);
 
         string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(args.ResourceFileName);
         string fullPath = Path.Combine(resourceFolder, uniqueFileName);
 
-        File.WriteAllBytes(fullPath, args.ResourceData);
+        using (FileStream fileStream = File.Create(fullPath))
+        {
+            args.ResourceStream.CopyTo(fileStream);
+        }
+
         args.ResourceFileName = $"Resources/{uniqueFileName}";
         args.KeepResourceStreamOpen = false;
     }
