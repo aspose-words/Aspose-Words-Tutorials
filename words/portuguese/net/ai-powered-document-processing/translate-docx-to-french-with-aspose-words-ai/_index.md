@@ -246,7 +246,6 @@ Feliz codificação, e aproveite o poder da tradução de documentos impulsionad
 Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
 - [Salvar docx como pdf com Aspose.Words – Guia completo C#](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [como recuperar docx com Aspose.Words – passo a passo](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Como mesclar vários arquivos DOCX usando Aspose.Words para Java](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

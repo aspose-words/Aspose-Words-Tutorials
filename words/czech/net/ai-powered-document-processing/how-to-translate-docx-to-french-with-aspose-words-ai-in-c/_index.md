@@ -246,8 +246,6 @@ Tento přístup zajišťuje, že tučné, kurzívou nebo hypertextové formátov
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
 
 - [Nahrazení textu v DOCX pomocí C# – krok za krokem průvodce](/words/english/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/)
-- [Jak zkontrolovat gramatiku v DOCX s Aspose.Words – použití gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [Aspose.Words – Uložit docx jako txt a exportovat rovnice Wordu jako LaTeX – kompletní průvodce](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

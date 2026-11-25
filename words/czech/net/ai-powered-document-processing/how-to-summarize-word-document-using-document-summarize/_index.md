@@ -209,9 +209,7 @@ Dále prozkoumejte související témata, jako je **auto summarize word** pro PD
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Jak shrnout Word dokument pomocí Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [Jak zkontrolovat gramatiku a shrnout Word dokument pomocí Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Shrnout Word dokument v C# – kompletní průvodce Aspose.Words AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

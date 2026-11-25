@@ -184,9 +184,7 @@ Heb je een andere draai aan dit scenario? Misschien moet je de corrupte delen be
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Herstel Word-document met Aspose.Words in C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [hoe docx te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Herstel beschadigd Word‑bestand – Complete gids om corrupte DOCX te openen & pagina te krijgen](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

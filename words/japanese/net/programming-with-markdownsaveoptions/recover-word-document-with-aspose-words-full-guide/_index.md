@@ -285,9 +285,7 @@ class Program
 
 以下のチュートリアルは、本ガイドで示した手法を基にした、密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、API の追加機能を習得したり、独自プロジェクトで代替実装を検討したりするのに役立ちます。
 
-- [Aspose.Words を使用した Word ドキュメントの復元（C#）](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [Word を PDF に保存し、破損した Word を復元 – C# で Word を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [Word から LaTeX をエクスポートする方法：Aspose で DOCX を Markdown に変換](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

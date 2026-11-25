@@ -246,7 +246,6 @@ Boldog kódolást, és élvezd az AI‑vezérelt dokumentumfordítás erejét!
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [DOCX mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [Hogyan állítsuk vissza a DOCX-et az Aspose.Words segítségével – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Hogyan egyesítsünk több DOCX fájlt az Aspose.Words for Java használatával](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

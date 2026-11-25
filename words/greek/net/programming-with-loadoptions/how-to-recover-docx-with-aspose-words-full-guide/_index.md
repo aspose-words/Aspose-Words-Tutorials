@@ -205,9 +205,7 @@ loadOptions.LoadFormat = LoadFormat.Docx; // forces explicit format detection
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετα χαρακτηριστικά του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [πώς να ανακτήσετε docx με Aspose.Words – βήμα προς βήμα](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [πώς να ανακτήσετε docx – οδηγός C# για κατεστραμμένα αρχεία Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Ανάκτηση Κατεστραμμένου Αρχείου Word – Πλήρης Οδηγός για Άνοιγμα Κατεστραμμένου DOCX & Λήψη Σελίδας](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

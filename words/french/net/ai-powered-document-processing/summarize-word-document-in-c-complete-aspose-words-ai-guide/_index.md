@@ -245,7 +245,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Créer un document Word avec Aspose.Words – Guide étape par étape](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Créer un document Word avec tableau en utilisant Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
-- [Récupérer un document Word avec Aspose.Words en C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

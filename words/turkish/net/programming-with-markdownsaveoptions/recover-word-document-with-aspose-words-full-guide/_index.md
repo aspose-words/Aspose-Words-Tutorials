@@ -286,9 +286,7 @@ Aspose.Words ile temiz bir C# iş akışında **Word belgesini kurtarmayı**, **
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words ile C#'ta Word Belgesini Kurtarma](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [Word'ü PDF Olarak Kaydet ve Bozuk Word'ü Kurtar – C#'ta Word'ü Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [Word'den LaTeX Nasıl Dışa Aktarılır: Aspose ile DOCX'i Markdown'a Dönüştür](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

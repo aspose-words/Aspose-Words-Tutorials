@@ -246,7 +246,6 @@ Odtud můžete zkoumat dávkové překlady, integrovat kód do webového API neb
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
 
 - [Uložit docx jako pdf pomocí Aspose.Words – Kompletní C# průvodce](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [jak obnovit docx pomocí Aspose.Words – krok za krokem](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Jak sloučit více souborů DOCX pomocí Aspose.Words pro Java](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

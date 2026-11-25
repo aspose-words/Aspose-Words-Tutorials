@@ -210,9 +210,7 @@ Viel Spaß beim Coden!
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Wie man ein Word‑Dokument mit Aspose.Words KI zusammenfasst](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [Wie man Grammatik prüft und ein Word‑Dokument mit Aspose.Words KI zusammenfasst](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Word‑Dokument in C# zusammenfassen – vollständiger Aspose.Words KI‑Leitfaden](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

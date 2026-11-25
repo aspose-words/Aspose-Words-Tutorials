@@ -287,9 +287,7 @@ class Program
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Ανάκτηση Εγγράφου Word με Aspose.Words σε C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [Αποθήκευση Word ως PDF και Ανάκτηση Κατεστραμμένου Word – Μετατροπή Word σε Markdown σε C#](/words/english/net/programming-with-markdownsaveoptions/save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-- [Πώς να Εξάγετε LaTeX από Word: Μετατροπή DOCX σε Markdown με Aspose](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

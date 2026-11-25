@@ -210,9 +210,7 @@ Happy coding!
 
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [How to summarize a Word document with Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [How to check grammar and summarize Word document with Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Summarize Word document in C# – complete Aspose.Words AI guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

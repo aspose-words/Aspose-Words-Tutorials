@@ -291,7 +291,6 @@ Recovered 42 paragraphs.
 
 - [docx を復元する – リカバリーモードの設定と破損した Word ファイルの開き方](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [docx を復元する – 破損した Word ファイル向け C# ガイド](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Aspose.Words で docx を復元する – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

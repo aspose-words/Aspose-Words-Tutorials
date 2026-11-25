@@ -230,8 +230,6 @@ Silakan bereksperimen dengan penyedia yang berbeda, tambahkan penanganan error, 
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Cara Memeriksa Tata Bahasa di DOCX dengan Aspose.Words – gunakan gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [Cara Memeriksa Tata Bahasa di Word dengan Aspose.Words AI – Panduan Lengkap](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/)
 - [Cara Memuat Dokumen Word Menggunakan Aspose.Words LoadOptions](/words/english/net/programming-with-loadoptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

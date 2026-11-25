@@ -245,8 +245,6 @@ Dieser Ansatz stellt sicher, dass Fett‑, Kursiv‑ oder Hyperlink‑Formatieru
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Replace Text in DOCX with C# – Step‑by‑Step Guide](/words/english/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/)
-- [How to Check Grammar in DOCX with Aspose.Words – use gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
-- [Aspose.Words – Save docx as txt and Export Word Equations as LaTeX – Complete Guide](/words/english/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

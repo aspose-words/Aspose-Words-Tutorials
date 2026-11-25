@@ -296,7 +296,6 @@ Poniższe tutoriale obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [jak odzyskać docx – przewodnik C# dla uszkodzonych plików Word](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [jak odzyskać docx przy użyciu Aspose.Words – krok po kroku](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

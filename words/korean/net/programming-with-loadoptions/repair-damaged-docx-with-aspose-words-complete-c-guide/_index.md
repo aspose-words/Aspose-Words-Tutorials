@@ -286,9 +286,7 @@ Aspose.Words를 사용해 **손상된 docx 복구**에 필요한 모든 과정�
 
 다음 튜토리얼들은 이번 가이드에서 다룬 기술을 확장하거나 대체 구현 방법을 탐구하는 데 도움이 됩니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함하고 있어, API 기능을 마스터하고 프로젝트에 적용하기에 최적입니다.
 
-- [손상된 Word 파일 복구 – 손상된 DOCX 열기 및 페이지 가져오기 완전 가이드](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [docx 복구 방법 – 복구 모드 설정 및 손상된 Word 파일 열기](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words로 docx 복구 – 단계별 가이드](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

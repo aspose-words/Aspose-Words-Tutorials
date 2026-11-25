@@ -245,7 +245,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořte Word dokument pomocí Aspose.Words – krok za krokem průvodce](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Vytvořte Word dokument s tabulkou pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
-- [Obnovte Word dokument pomocí Aspose.Words v C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

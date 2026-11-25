@@ -244,7 +244,6 @@ Kodlamaktan keyif alın ve AI‑destekli belge çevirisinin gücünün tadını 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayalı olarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
 - [Aspose.Words ile docx'i pdf olarak kaydet – Tam C# Rehberi](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [Aspose.Words ile docx'i kurtarma – adım adım](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Aspose.Words for Java ile Birden Çok DOCX Dosyasını Birleştirme](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

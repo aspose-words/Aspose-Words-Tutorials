@@ -246,7 +246,6 @@ foreach (var file in Directory.GetFiles(inputFolder, "*.docx"))
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مصدر يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [حفظ docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [كيفية استعادة docx باستخدام Aspose.Words – خطوة بخطوة](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [كيفية دمج ملفات DOCX متعددة باستخدام Aspose.Words للـ Java](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

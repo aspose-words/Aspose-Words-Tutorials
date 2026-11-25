@@ -296,7 +296,6 @@ class Program
 
 निम्नलिखित ट्यूटोरियल्स निकट-संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण-दर-चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API सुविधाओं में निपुण बनने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [Aspose.Words के साथ DOCX में व्याकरण जांचें – gpt-4 turbo का उपयोग](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [DOCX को Markdown में बदलें – Aspose.Words का उपयोग करके पूर्ण गाइड](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण C#‑गाइड](/words/swedish/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

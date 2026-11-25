@@ -242,7 +242,6 @@ catch (Exception ex) when (ex is InvalidOperationException || ex is HttpRequestE
 
 - [使用 Aspose.Words 建立 Word 文件 – 步驟指南](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [使用 Aspose.Words 建立含表格的 Word 文件](/words/english/net/add-content-using-document-builder/build-table/)
-- [在 C# 中使用 Aspose.Words 復原 Word 文件](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

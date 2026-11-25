@@ -183,9 +183,7 @@ Có biến thể nào cho kịch bản này không? Có thể bạn cần giữ 
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Khôi phục tài liệu Word với Aspose.Words trong C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [cách khôi phục docx – đặt chế độ phục hồi & mở tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Khôi phục tệp Word hỏng – Hướng dẫn đầy đủ để mở DOCX bị hỏng & lấy trang](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

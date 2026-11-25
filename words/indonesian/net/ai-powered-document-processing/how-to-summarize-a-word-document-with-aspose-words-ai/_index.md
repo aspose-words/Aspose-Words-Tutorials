@@ -218,8 +218,6 @@ Selamat coding, dan nikmati waktu yang dihemat dengan membiarkan AI melakukan pe
 
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Ringkas Dokumen Word dalam C# dengan Aspose.Words API – Panduan AI‑Powered Lengkap](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [Ringkas Dokumen Word dengan AI – OpenAI vs Gemini](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [Ringkas Dokumen Word dengan LLM Lokal – Panduan C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -296,7 +296,6 @@ Saved translated document to: C:\Path\To\Your\Project\output_fr.docx
 
 - [Πώς να αποθηκεύσετε μεταφρασμένο έγγραφο Word σε C# με το Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Πώς να μεταφράσετε DOCX στα Γαλλικά και να αυτοματοποιήσετε τη μετάφραση εγγράφων](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [μετάφραση docx στα γαλλικά με Aspose.Words και Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

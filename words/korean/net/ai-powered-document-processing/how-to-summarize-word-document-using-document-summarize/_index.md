@@ -209,9 +209,7 @@ public IActionResult GenerateSummary(IFormFile file)
 
 다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료는 단계별 설명과 함께 완전한 코드 예제를 제공하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
-- [How to summarize a Word document with Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [How to check grammar and summarize Word document with Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Summarize Word document in C# – complete Aspose.Words AI guide](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

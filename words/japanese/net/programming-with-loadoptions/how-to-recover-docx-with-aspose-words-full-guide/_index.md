@@ -212,9 +212,7 @@ loadOptions.LoadFormat = LoadFormat.Docx; // forces explicit format detection
 
 このガイドで示した手法を基に、以下のチュートリアルで関連トピックをさらに深掘りできます。各リソースには完全なコード例とステップバイステップの解説が含まれており、API の追加機能を習得したり、独自プロジェクトで代替実装を検討したりするのに役立ちます。
 
-- [Aspose.Words で docx を復元する方法 – ステップバイステップ](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [docx を復元する – 破損した Word ファイル向け C# ガイド](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [破損した Word ファイルの復元 – 破損した DOCX を開く完全ガイド & ページ取得](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

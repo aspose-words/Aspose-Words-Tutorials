@@ -298,7 +298,6 @@ Esplora la documentazione del **riassuntore AI di Aspose.Words** per scenari ava
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come controllare la grammatica in DOCX con Aspose.Words – usa gpt-4 turbo](/words/english/net/ai-powered-document-processing/how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/)
 - [Converti DOCX in Markdown – Guida completa usando Aspose.Words](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-using-aspose-words/)
 - [Salva docx come pdf con Aspose.Words – Guida completa C#](/words/swedish/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
 

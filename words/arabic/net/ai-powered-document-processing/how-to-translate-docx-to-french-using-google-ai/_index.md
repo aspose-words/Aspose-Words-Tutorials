@@ -296,7 +296,6 @@ Saved translated document to: C:\Path\To\Your\Project\output_fr.docx
 
 - [كيفية حفظ مستند Word مترجم في C# باستخدام Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [كيفية ترجمة DOCX إلى الفرنسية وأتمتة ترجمة المستند](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [ترجمة docx إلى الفرنسية باستخدام Aspose.Words وGoogle API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -296,7 +296,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [Wie man ein übersetztes Word‑Dokument in C# mit Google AI speichert](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Wie man DOCX ins Französische übersetzt und die Dokumentübersetzung automatisiert](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [docx ins Französische übersetzen mit Aspose.Words und Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

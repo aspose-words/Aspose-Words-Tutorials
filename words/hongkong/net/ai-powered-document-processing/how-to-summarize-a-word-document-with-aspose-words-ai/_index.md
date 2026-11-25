@@ -215,8 +215,6 @@ public class SummarizationService
 
 以下教學涵蓋與本指南密切相關的主題，並在此基礎上延伸技術。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [在 C# 中使用 Aspose.Words API 摘要 Word 文件 – 完整 AI 驅動指南](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
-- [使用 AI 摘要 Word 文件 – OpenAI 與 Gemini 比較](/words/english/net/ai-powered-document-processing/summarize-word-document-with-ai-openai-vs-gemini/)
 - [使用本地 LLM 摘要 Word 文件 – C# 指南](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

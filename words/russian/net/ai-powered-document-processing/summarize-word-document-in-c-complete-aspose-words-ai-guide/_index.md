@@ -249,7 +249,6 @@ catch (Exception ex) when (ex is InvalidOperationException || ex is HttpRequestE
 
 - [Создание Word‑документа с Aspose.Words – пошаговое руководство](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Создание Word‑документа с таблицей с помощью Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
-- [Восстановление Word‑документа с Aspose.Words в C#](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

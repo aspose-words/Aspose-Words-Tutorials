@@ -215,9 +215,7 @@ Az alábbi **teljes, azonnal futtatható konzolalkalmazás** bemutatja a teljes 
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy elsajátíthasd a további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [hogyan állítsuk helyre a docx-et az Aspose.Words segítségével – lépésről‑lépésre](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [hogyan állítsuk helyre a docx – C# útmutató sérült Word fájlokhoz](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és az oldal lekéréséhez](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

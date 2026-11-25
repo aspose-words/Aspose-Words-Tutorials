@@ -242,7 +242,6 @@ foreach (var file in Directory.GetFiles(inputFolder, "*.docx"))
 以下教學涵蓋與本指南技術緊密相關的主題。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在專案中探索替代實作方式。
 
 - [將 docx 另存為 pdf 使用 Aspose.Words – 完整 C# 指南](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [如何使用 Aspose.Words 復原 docx – 步驟說明](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [使用 Aspose.Words for Java 合併多個 DOCX 檔案](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

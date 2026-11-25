@@ -245,7 +245,6 @@ Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Word dokumentum létrehozása Aspose.Words‑szal – lépésről‑lépésre útmutató](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Word dokumentum létrehozása táblázattal az Aspose.Words használatával](/words/english/net/add-content-using-document-builder/build-table/)
-- [Word dokumentum helyreállítása Aspose.Words‑szal C#‑ban](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

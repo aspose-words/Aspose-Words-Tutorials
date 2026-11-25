@@ -296,7 +296,6 @@ Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Jak zapisać przetłumaczony dokument Word w C# przy użyciu Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Jak przetłumaczyć DOCX na francuski i zautomatyzować tłumaczenie dokumentu](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [przetłumacz docx na francuski przy użyciu Aspose.Words i Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

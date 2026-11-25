@@ -294,7 +294,6 @@ Recovered 42 paragraphs.
 
 - [docx को पुनर्प्राप्त कैसे करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
 - [docx को पुनर्प्राप्त कैसे करें – भ्रष्ट Word फ़ाइलों के लिए C# गाइड](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Aspose.Words के साथ docx को पुनर्प्राप्त करें – चरण‑दर‑चरण](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

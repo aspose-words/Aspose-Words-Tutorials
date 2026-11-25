@@ -290,9 +290,7 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Incoming", "*.docx"))
 
 Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в собственных проектах.
 
-- [Восстановление повреждённого Word‑файла – Полное руководство по открытию повреждённого DOCX и получению количества страниц](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [как восстановить docx – установить режим восстановления и открыть повреждённые Word‑файлы](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [как восстановить docx с помощью Aspose.Words – пошагово](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -246,7 +246,6 @@ Viel Spaß beim Programmieren und genießen Sie die Leistungsfähigkeit der KI�
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [DOCX als PDF speichern mit Aspose.Words – Vollständiger C#‑Leitfaden](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [Wie man DOCX mit Aspose.Words wiederherstellt – Schritt für Schritt](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Wie man mehrere DOCX‑Dateien mit Aspose.Words für Java zusammenführt](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

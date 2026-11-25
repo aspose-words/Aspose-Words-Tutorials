@@ -279,8 +279,6 @@ Document could not be recovered – skipping corrupted file.
 以下教學與本指南的技巧密切相關，提供完整的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索其他實作方式。
 
 - [如何恢復 docx – 設定修復模式並開啟損毀的 Word 檔案](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [在 C# 中修復損毀文件 – 設定修復模式並提示使用者](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [使用 Aspose.Words 恢復 docx – 步驟說明](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

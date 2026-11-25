@@ -296,7 +296,6 @@ Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jele
 
 - [Hogyan mentsünk lefordított Word dokumentumot C#-ban a Google AI segítségével](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Hogyan fordítsuk le a DOCX-et franciára és automatizáljuk a dokumentum fordítását](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [docx fordítása franciára Aspose.Words és Google API segítségével](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

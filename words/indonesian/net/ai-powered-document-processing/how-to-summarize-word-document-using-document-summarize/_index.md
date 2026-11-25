@@ -210,9 +210,7 @@ Selamat coding!
 
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
-- [Cara merangkum dokumen Word dengan Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [Cara memeriksa tata bahasa dan merangkum dokumen Word dengan Aspose.Words AI](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Ringkas dokumen Word dalam C# – panduan lengkap Aspose.Words AI](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

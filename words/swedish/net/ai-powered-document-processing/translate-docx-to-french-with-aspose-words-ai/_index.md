@@ -243,7 +243,6 @@ Härifrån kan du utforska batch‑översättning, integrera koden i ett webb‑
 Följande tutorials täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
 - [Spara docx som pdf med Aspose.Words – Komplett C#‑guide](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [så här återställer du docx med Aspose.Words – steg för steg](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [Hur man slår ihop flera DOCX‑filer med Aspose.Words för Java](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

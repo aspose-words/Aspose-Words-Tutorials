@@ -244,7 +244,6 @@ catch (Exception ex) when (ex is InvalidOperationException || ex is HttpRequestE
 
 - [Aspose.Words로 Word 문서 만들기 – 단계별 가이드](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words를 사용하여 표가 포함된 Word 문서 만들기](/words/english/net/add-content-using-document-builder/build-table/)
-- [C#에서 Aspose.Words로 Word 문서 복구](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

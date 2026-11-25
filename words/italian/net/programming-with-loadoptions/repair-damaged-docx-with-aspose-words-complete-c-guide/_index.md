@@ -287,9 +287,7 @@ Hai uno scenario speciale con cui stai lottando? Lascia un commento e lo risolve
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell’API e a esplorare approcci alternativi nei tuoi progetti.
 
-- [Recupera file Word danneggiato – Guida completa per aprire DOCX corrotti e ottenere la pagina](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [come recuperare docx – impostare la modalità di recupero e aprire file Word corrotti](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [come recuperare docx con Aspose.Words – passo passo](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

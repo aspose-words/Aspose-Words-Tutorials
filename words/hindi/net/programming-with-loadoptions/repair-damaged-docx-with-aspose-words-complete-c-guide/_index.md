@@ -287,9 +287,7 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Incoming", "*.docx"))
 
 नीचे दिए गए ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑बद्ध व्याख्याएँ हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर कर सकें।
 
-- [Damaged Word फ़ाइल को पुनः प्राप्त करें – भ्रष्ट DOCX खोलने और पेज प्राप्त करने की पूर्ण गाइड](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 - [docx को पुनः प्राप्त करें – रिकवरी मोड सेट करें और भ्रष्ट Word फ़ाइलें खोलें](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [Aspose.Words के साथ docx को पुनः प्राप्त करें – चरण‑दर‑चरण](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

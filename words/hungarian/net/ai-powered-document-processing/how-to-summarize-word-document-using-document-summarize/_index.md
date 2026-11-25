@@ -211,9 +211,7 @@ Boldog kódolást!
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan összefoglaljunk egy Word dokumentumot az Aspose.Words AI-val](/words/english/net/ai-powered-document-processing/how-to-summarize-a-word-document-with-aspose-words-ai/)
 - [Hogyan ellenőrizzük a nyelvtant és összefoglaljuk a Word dokumentumot az Aspose.Words AI-val](/words/english/net/ai-powered-document-processing/how-to-check-grammar-and-summarize-word-document-with-aspose/)
-- [Word dokumentum összefoglalása C#‑ban – teljes Aspose.Words AI útmutató](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-aspose-words-ai-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

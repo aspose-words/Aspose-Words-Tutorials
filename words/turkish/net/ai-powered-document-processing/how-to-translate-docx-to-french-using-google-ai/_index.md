@@ -295,7 +295,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [C# ile Google AI kullanarak çevrilen Word belgesini nasıl kaydedersiniz](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [DOCX dosyasını Fransızcaya nasıl çevirirsiniz ve belge çevirisini otomatikleştirirsiniz](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [Aspose.Words ve Google API ile docx'i Fransızcaya çevir](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

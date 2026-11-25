@@ -181,9 +181,7 @@ C:\Temp\Recovered.pdf
 
 以下教學與本篇內容密切相關，能進一步擴展你對 API 的掌握，並提供其他實作方式供你在專案中使用。
 
-- [使用 Aspose.Words 在 C# 中復原 Word 文件](/words/english/net/programming-with-loadoptions/recover-word-document-with-aspose-words-in-c/)
 - [如何復原 docx ─ 設定復原模式並開啟損壞的 Word 檔](/words/english/net/programming-with-loadoptions/how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/)
-- [復原損壞的 Word 檔 ─ 完整指南：開啟損壞的 DOCX 並取得頁面](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

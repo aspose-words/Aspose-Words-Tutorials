@@ -244,7 +244,6 @@ Happy coding, and enjoy the power of AI‑driven document translation!
 다음 튜토리얼들은 이 가이드에서 배운 기술을 확장하는 데 도움이 되는 관련 주제를 다룹니다. 각 리소스에는 완전한 코드 예제와 단계별 설명이 포함되어 있어 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용할 수 있습니다.
 
 - [Save docx as pdf with Aspose.Words – Complete C# Guide](/words/english/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-aspose-words-complete-c-guide/)
-- [how to recover docx with Aspose.Words – step by step](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [How to Merge Multiple DOCX Files Using Aspose.Words for Java](/words/english/java/document-merging/using-document-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

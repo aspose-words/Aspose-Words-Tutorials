@@ -214,9 +214,7 @@ Unten finden Sie eine **komplett lauffähige Konsolen‑App**, die den gesamten 
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
-- [wie man docx mit Aspose.Words wiederherstellt – Schritt für Schritt](/words/english/net/programming-with-loadoptions/how-to-recover-docx-with-aspose-words-step-by-step/)
 - [wie man docx wiederherstellt – C#‑Leitfaden für beschädigte Word‑Dateien](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Beschädigte Word‑Datei wiederherstellen – Vollständige Anleitung zum Öffnen beschädigter DOCX & Seite erhalten](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

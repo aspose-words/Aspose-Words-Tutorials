@@ -230,7 +230,6 @@ class Program
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบอื่นในโครงการของคุณ.
 
-- [สรุปเอกสาร Word ใน C# ด้วย Aspose.Words API – คู่มือ AI‑Powered ฉบับสมบูรณ์](/words/english/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/)
 - [สรุปเอกสาร Word ด้วย Local LLM – คู่มือ C#](/words/english/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/)
 - [สร้างเอกสาร Word ว่างด้วย Aspose.Words – คู่มือขั้นตอนต่อขั้นตอน](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 

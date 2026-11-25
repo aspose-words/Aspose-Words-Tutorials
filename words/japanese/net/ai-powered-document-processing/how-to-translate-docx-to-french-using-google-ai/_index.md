@@ -292,7 +292,6 @@ Saved translated document to: C:\Path\To\Your\Project\output_fr.docx
 
 - [Google AI を使用した C# で翻訳された Word ドキュメントの保存方法](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [DOCX をフランス語に翻訳し、ドキュメント翻訳を自動化する方法](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [Aspose.Words と Google API を使用して docx をフランス語に翻訳する方法](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

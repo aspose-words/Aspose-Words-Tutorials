@@ -297,7 +297,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que se basan e
 
 - [Cómo guardar el documento Word traducido en C# con Google AI](/words/english/net/ai-powered-document-processing/how-to-save-translated-word-document-in-c-with-google-ai/)
 - [Cómo traducir DOCX a francés y automatizar la traducción de documentos](/words/english/net/ai-powered-document-processing/how-to-translate-docx-to-french-and-automate-document-transl/)
-- [traducir docx a francés con Aspose.Words y Google API](/words/english/net/ai-powered-document-processing/translate-docx-to-french-with-aspose-words-and-google-api/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
