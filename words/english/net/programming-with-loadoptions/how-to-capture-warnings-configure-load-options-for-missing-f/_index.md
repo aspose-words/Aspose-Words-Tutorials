@@ -30,14 +30,14 @@ url: /net/programming-with-loadoptions/how-to-capture-warnings-configure-load-op
 
 Ever wondered **how to capture warnings** that pop up when a document tries to use a font you don’t have installed? It’s a scenario that trips up many developers working with Word‑processing libraries, especially when you need to **detect missing fonts** before they break your PDF export pipeline.  
 
-In this tutorial we’ll show you a practical, ready‑to‑run solution that **configures font settings**, **sets load options**, and prints every substitution warning to the console. By the end you’ll know exactly how to **handle missing fonts** in a way that keeps your application robust and your users happy.
+In this tutorial we’ll show you a practical, ready‑to‑run solution that **configures font settings**, **sets load options**, and prints warnings that occur during document loading. By the end you’ll know exactly how to **handle missing fonts** in a way that keeps your application robust and your users happy.
 
 ## What You’ll Learn
 
 - How to **set load options** so the library reports font problems instead of silently swapping them.
 - The exact steps to **configure font settings** for warning capture.
 - Ways to **detect missing fonts** programmatically and react accordingly.
-- A complete, copy‑paste C# example that works with the latest Aspose.Words for .NET (v24.10 at time of writing).
+- A complete, copy‑paste C# example that works with the latest Aspose.Words for .NET.
 - Tips for extending the solution to log warnings, fallback to custom fonts, or abort processing when critical fonts are absent.
 
 > **Prerequisite:** You need the Aspose.Words for .NET NuGet package installed (`Install-Package Aspose.Words`). No other external dependencies are required.
@@ -50,34 +50,32 @@ First, add the essential `using` directives. This isn’t just boilerplate; it t
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 ```
 
 > **Pro tip:** If you’re using .NET 6+ you can enable *global using* statements to avoid repeating these lines in every file.
 
 ---
 
-## Step 2: Set Load Options and Enable Font‑Substitution Warnings
+## Step 2: Set Load Options and Enable Warning Collection
 
-The heart of **how to capture warnings** lies in the `LoadOptions` object. By creating a fresh `FontSettings` instance and attaching an event handler to `SubstitutionWarning`, you tell the library to shout out every time it can’t find a requested font.
+The heart of **how to capture warnings** lies in the `LoadOptions` object. By creating a `FontSettings` instance and assigning a `WarningInfoCollection` to `LoadOptions.WarningCallback`, you can collect warnings that occur while loading, such as missing‑font warnings.
 
 ```csharp
-// Step 2: Create LoadOptions and turn on warning notifications
+// Step 2: Create LoadOptions and attach a warning collector
+var warningCollection = new WarningInfoCollection();
+
 LoadOptions loadOptions = new LoadOptions
 {
-    FontSettings = new FontSettings()
-};
-
-// Subscribe to the warning event – this is where we actually capture them
-loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
-{
-    // The warning message includes the missing font name and the fallback that was used
-    Console.WriteLine($"[Font warning] {e.Message}");
+    FontSettings = new FontSettings(),
+    WarningCallback = warningCollection
 };
 ```
 
-**Why this matters:** Without the event subscription, Aspose.Words silently falls back to a default font, and you never know which glyphs were swapped. By listening to `SubstitutionWarning`, you get a full audit trail—crucial for compliance‑heavy environments.
+**Why this matters:** If you do not set `WarningCallback`, warnings are not collected, and the library falls back to a default font silently. By providing a `WarningInfoCollection`, you obtain a list of `WarningInfo` objects that you can inspect after loading.
 
 ---
 
@@ -86,39 +84,30 @@ loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
 Now that the warnings are wired up, load your DOCX (or any supported format) with the `loadOptions` you just prepared. The `Document` constructor will trigger the font‑checking logic immediately.
 
 ```csharp
-// Step 3: Load a document that intentionally references a missing font
+// Step 3: Load a document that may reference missing fonts
 string filePath = @"C:\Docs\WithMissingFonts.docx";   // adjust to your environment
 Document doc = new Document(filePath, loadOptions);
 ```
 
-If the file references, say, *“Comic Sans MS”* on a machine that only has *“Arial”*, you’ll see something like:
-
-```
-[Font warning] Font "Comic Sans MS" is missing. Substituted with "Arial".
-```
-
-That line is printed straight to the console because of the handler we attached earlier.
+If the file references a font that is not available on the machine, a warning will be added to `warningCollection`. You can examine the collected warnings after the document is loaded.
 
 ---
 
 ## Step 4: Verify and React to Captured Warnings
 
-Capturing warnings is only half the battle; you often need to decide what to do next. Below is a quick pattern that stores warnings in a list for later analysis—perfect if you want to log them to a file or abort the import when a critical font is missing.
+Capturing warnings is only half the battle; you often need to decide what to do next. Below is a pattern that stores the warning messages in a list for later analysis—perfect if you want to log them to a file or abort the import when a critical font is missing.
 
 ```csharp
-using System.Collections.Generic;
-
+// Step 4: Process the collected warnings
 List<string> warningLog = new List<string>();
 
-loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
+foreach (WarningInfo warning in warningCollection)
 {
-    string msg = $"[Font warning] {e.Message}";
+    // The Description property contains details about the warning.
+    string msg = $"[Font warning] {warning.Description}";
     Console.WriteLine(msg);
     warningLog.Add(msg);
-};
-
-// Load the document (same as Step 3)
-Document doc = new Document(filePath, loadOptions);
+}
 
 // Example decision: abort if any warning mentions "Times New Roman"
 bool hasCriticalMissing = warningLog.Exists(w => w.Contains("Times New Roman"));
@@ -134,8 +123,14 @@ else
 ```
 
 **Edge case handling:**  
-- **Multiple missing fonts:** The list will contain one entry per substitution, so you can iterate and build a detailed report.  
-- **Custom fallback fonts:** If you have your own font files, add them to `FontSettings` before loading: `fontSettings.SetFontsFolder(@"C:\MyFonts", true);`. The warnings will then show the custom fallback instead of the system default.  
+- **Multiple missing fonts:** The collection will contain a warning for each issue that the loader reports.  
+- **Custom fallback fonts:** If you have your own font files, add them to `FontSettings` before loading, e.g.:
+
+```csharp
+loadOptions.FontSettings.SetFontsFolder(@"C:\MyCustomFonts", true);
+```
+
+The warnings will then reflect the fonts that were actually used as fallbacks.
 
 ---
 
@@ -149,38 +144,42 @@ using System;
 using System.Collections.Generic;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Prepare load options and enable warning events
+        // 1️⃣ Prepare a warning collector and load options
+        var warningCollection = new WarningInfoCollection();
+
         LoadOptions loadOptions = new LoadOptions
         {
-            FontSettings = new FontSettings()
-        };
-
-        List<string> warningLog = new List<string>();
-        loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
-        {
-            string msg = $"[Font warning] {e.Message}";
-            Console.WriteLine(msg);
-            warningLog.Add(msg);
+            FontSettings = new FontSettings(),
+            WarningCallback = warningCollection
         };
 
         // 2️⃣ (Optional) Point to a folder with custom fonts if you have any
         // loadOptions.FontSettings.SetFontsFolder(@"C:\MyCustomFonts", true);
 
-        // 3️⃣ Load the document – this triggers the warning capture
+        // 3️⃣ Load the document – this triggers the warning collection
         string filePath = @"C:\Docs\WithMissingFonts.docx"; // change as needed
         Document doc = new Document(filePath, loadOptions);
 
-        // 4️⃣ React to the captured warnings
+        // 4️⃣ Process the collected warnings
+        List<string> warningLog = new List<string>();
+        foreach (WarningInfo warning in warningCollection)
+        {
+            string msg = $"[Font warning] {warning.Description}";
+            Console.WriteLine(msg);
+            warningLog.Add(msg);
+        }
+
+        // 5️⃣ React to the captured warnings
         bool criticalMissing = warningLog.Exists(w => w.Contains("Times New Roman"));
         if (criticalMissing)
         {
             Console.WriteLine("Critical font missing – aborting further processing.");
-            // exit or throw as appropriate
             return;
         }
 
@@ -205,11 +204,11 @@ If a *critical* font like “Times New Roman” is missing, you’ll see the abo
 
 | Question | Answer |
 |----------|--------|
-| **Do I need to call `SetFontsFolder` to capture warnings?** | No. The warning event works with the default system fonts. Use `SetFontsFolder` only when you want to provide extra fallback fonts. |
-| **Will this work on .NET Core / .NET 5+?** | Absolutely. Aspose.Words 24.10 supports all modern .NET runtimes. Just ensure the NuGet package matches your target framework. |
-| **What if I want to log warnings to a file instead of console?** | Replace `Console.WriteLine(msg);` with any logging framework call, e.g., `File.AppendAllText("font_warnings.log", msg + Environment.NewLine);`. |
-| **Can I suppress warnings for specific fonts?** | Yes. Inside the event handler you can filter: `if (e.FontName == "SomeFont") return;`. This gives fine‑grained control. |
-| **Is there a way to treat missing fonts as errors?** | Throw an exception manually inside the handler when a condition is met, or set a flag and abort after `Document` construction as shown in the example. |
+| **Do I need to call `SetFontsFolder` to capture warnings?** | No. The warning collection works with the default system fonts. Use `SetFontsFolder` only when you want to provide additional fallback fonts. |
+| **Will this work on .NET Core / .NET 5+?** | Yes. Aspose.Words supports .NET Core, .NET 5+, .NET 6+, and the full .NET Framework as documented in the product requirements. |
+| **What if I want to log warnings to a file instead of the console?** | Replace `Console.WriteLine(msg);` with any logging framework call, e.g., `File.AppendAllText("font_warnings.log", msg + Environment.NewLine);`. |
+| **Can I suppress warnings for specific fonts?** | Yes. Inside the loop you can filter based on `warning.Description` or `warning.WarningType` to ignore entries you don’t care about. |
+| **Is there a way to treat missing fonts as errors?** | You can throw an exception manually inside the loop when a condition is met, or set a flag and abort after the `Document` construction as shown in the example. |
 
 ---
 
