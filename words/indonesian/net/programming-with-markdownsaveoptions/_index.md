@@ -90,7 +90,6 @@ Pelajari cara menentukan ekstensi file yang tepat saat mengonversi DOCX ke Markd
 ### [Simpan gambar Word saat mengonversi Word ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Pelajari cara menyimpan gambar dari dokumen Word saat mengonversinya ke format Markdown dengan panduan lengkap C#.
 Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah demi langkah yang lengkap.
-### [Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
 ### [Konversi Word ke Markdown dalam C# – Ekspor Persamaan sebagai LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)

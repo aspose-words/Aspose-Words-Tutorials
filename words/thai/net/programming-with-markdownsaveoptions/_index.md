@@ -57,7 +57,6 @@
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown อย่างละเอียดตามขั้นตอนด้วย Aspose.Words สำหรับ .NET
 
-### [วิธีส่งออก Markdown จาก DOCX พร้อมรูปภาพ – คู่มือเต็ม](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown พร้อมการสกัดรูปภาพอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 
 

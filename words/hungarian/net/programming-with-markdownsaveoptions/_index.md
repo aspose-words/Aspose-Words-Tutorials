@@ -92,7 +92,6 @@ Ismerje meg, hogyan őrizheti meg a sortöréseket a DOCX fájlok Markdownba kon
 ### [Fájl kiterjesztés meghatározása DOCX Markdownba konvertálás közben – Teljes útmutató](./determine-file-extension-while-converting-docx-to-markdown-c/)
 Ismerje meg, hogyan határozhatja meg a kimeneti fájl kiterjesztését a DOCX Markdownba konvertálásakor az Aspose.Words for .NET használatával.
 Ismerje meg, hogyan exportálhatja a DOCX fájlokat Markdown formátumba részletes, lépésről‑lépésre útmutatóval.
-### [Hogyan exportáljunk Markdownot DOCX‑ből képekkel – Teljes útmutató](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Ismerje meg, hogyan exportálhat DOCX fájlokat Markdown formátumba képek beágyazásával egy teljes C# útmutatóban.
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba, és exportálhatja a matematikai képleteket az Aspose.Words segítségével.
 ### [Mappa létrehozása C# – Word konvertálása Markdownba és képek kinyerése](./create-folder-c-convert-word-to-markdown-extract-images/)
