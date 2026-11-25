@@ -295,7 +295,6 @@ namespace DocxToMarkdownDemo
 
 - [DOCX 변환 시 Markdown에 이미지 삽입하는 방법](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
 - [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [DOCX를 Markdown으로 변환할 때 이미지 이름 바꾸는 방법](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

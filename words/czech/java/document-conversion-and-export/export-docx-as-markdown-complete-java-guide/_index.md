@@ -233,7 +233,6 @@ Klidně experimentujte—měňte logiku callbacku, hrajte si s různými formát
 ## Co byste se měli naučit dál?
 
 - [Jak vložit obrázky do Markdown při konverzi DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Jak přejmenovat obrázky při konverzi DOCX do Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

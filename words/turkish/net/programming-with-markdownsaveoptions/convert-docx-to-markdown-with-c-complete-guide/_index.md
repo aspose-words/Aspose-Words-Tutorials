@@ -264,7 +264,6 @@ Paylaşmak istediğiniz bir farklılık var mı? Yorum bırakın ve kodlamanın 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [docx'i markdown olarak kaydet – Görüntü Çıkarma ile Tam C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/save-docx-as-markdown-full-c-guide-with-image-extraction/)
-- [DOCX'i Markdown'a Dönüştürürken Resimleri Nasıl Yeniden Adlandırılır](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
 - [docx'i markdown'e Dönüştür – Adım Adım C# Kılavuzu](/words/english/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -80,7 +80,6 @@ Kompletny przewodnik pokazujący, jak zapisać dokument Word w formacie Markdown
 
 Dowiedz się, jak wyeksportować równania LaTeX, konwertując pliki DOCX na formaty Markdown oraz TXT przy użyciu Aspose.Words dla .NET.
 
-### [Jak zmienić nazwy obrazów podczas konwertowania DOCX do Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji dokumentów DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
 ### [Zapisz obrazy Word – konwertuj Word do Markdown przy użyciu Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
