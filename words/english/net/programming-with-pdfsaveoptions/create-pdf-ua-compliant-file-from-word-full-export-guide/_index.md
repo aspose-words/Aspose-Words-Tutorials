@@ -35,13 +35,9 @@ schemas:
   - answer: Yes, Aspose.Words supports .NET Framework 4.5+. Just adjust your project’s
       target framework accordingly.
     question: Does this work with .NET Framework 4.7?
-  - answer: Absolutely. Wrap the loading and saving logic inside a `foreach` loop
-      over a directory of `.docx` files.
+  - answer: Absolutely. Wrap the loading and saving logic inside a `foreach` loop over a directory of `.docx` files.
     question: Can I convert multiple Word files in a batch?
-  - answer: 'Set `pdfSaveOptions.Compliance = PdfCompliance.PdfUa1A` (or the appropriate
-      enum) to combine both standards. --- ## Full Working Example Below is a complete,
-      self‑contained console app that demonstrates the entire workflow—from loading
-      a Word file to producing a PDF/UA‑compliant output. ```csharp us'
+  - answer: 'Set `pdfSaveOptions.Compliance = PdfCompliance.PdfUa1` for PDF/UA‑1 compliance. If you also need PDF/A compliance, use a combined enum such as `PdfCompliance.PdfA4Ua2` (PDF/A‑4 + PDF/UA‑2).'
     question: What if I need PDF/A in addition to PDF/UA?
   type: FAQPage
 tags:
@@ -121,14 +117,14 @@ foreach (Shape shape in document.GetChildNodes(NodeType.Shape, true))
 
 ## Step 4: Configure PDF Save Options for PDF/UA Compliance
 
-Now we tell Aspose.Words to produce a PDF that follows the PDF/UA standard. The key property is `Compliance = PdfCompliance.PdfUax1`.
+Now we tell Aspose.Words to produce a PDF that follows the PDF/UA standard. The key property is `Compliance = PdfCompliance.PdfUa1`.
 
 ```csharp
 // Step 4: Configure PDF save options for PDF/UA compliance
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // Enable PDF/UA (Universal Accessibility) compliance
-    Compliance = PdfCompliance.PdfUax1,
+    Compliance = PdfCompliance.PdfUa1,
 
     // Optional: embed fonts to avoid substitution issues
     EmbedFullFonts = true,
@@ -196,7 +192,7 @@ A: Yes, Aspose.Words supports .NET Framework 4.5+. Just adjust your project’s 
 A: Absolutely. Wrap the loading and saving logic inside a `foreach` loop over a directory of `.docx` files.
 
 **Q: What if I need PDF/A in addition to PDF/UA?**  
-A: Set `pdfSaveOptions.Compliance = PdfCompliance.PdfUa1A` (or the appropriate enum) to combine both standards.
+A: Set `pdfSaveOptions.Compliance = PdfCompliance.PdfUa1` for PDF/UA‑1 compliance. If you also need PDF/A compliance, use a combined enum such as `PdfCompliance.PdfA4Ua2` (PDF/A‑4 + PDF/UA‑2).
 
 ---
 
@@ -231,7 +227,7 @@ class Program
         // 4️⃣ Configure PDF/UA options
         PdfSaveOptions options = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfUax1,
+            Compliance = PdfCompliance.PdfUa1,
             EmbedFullFonts = true,
             ExportDocumentStructure = true
         };
