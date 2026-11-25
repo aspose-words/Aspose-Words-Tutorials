@@ -210,7 +210,6 @@
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกรูปภาพด้วย C# อย่างละเอียด
 
 
-### [แปลง DOCX เป็น Markdown – สกัดรูปภาพจาก DOCX ด้วย Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 
 แปลงไฟล์ Word เป็น Markdown พร้อมการส่งออก PDF/UA อย่างละเอียด
 

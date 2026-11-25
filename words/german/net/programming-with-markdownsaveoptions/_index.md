@@ -251,7 +251,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren �
 ### [Docx in Markdown konvertieren mit C# – Vollständiger Programmierleitfaden](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 Erfahren Sie, wie Sie Docx-Dateien mit C# in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
 
-### [DOCX in Markdown konvertieren – Bildextraktion aus DOCX mit Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 Erfahren Sie, wie Sie Bilder aus DOCX‑Dateien extrahieren und das Dokument in Markdown konvertieren – vollständige Anleitung in C#.
 
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig einen PDF/UA‑Export für barrierefreie PDFs erstellen.

@@ -75,7 +75,6 @@ Aprenda a salvar documentos como arquivos Markdown extraindo imagens e preservan
 
 ### [Salvar Word como Markdown – Guia completo com Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 Aprenda a salvar documentos Word como arquivos Markdown usando Aspose.Words, com um guia completo em C#.
-### [Converter DOCX para Markdown – Extrair Imagens do DOCX com Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 Aprenda a converter DOCX para Markdown extraindo imagens usando Aspose.Words.
 
 ### [Como Exportar Markdown do Word – Guia Completo em C#](./how-to-export-markdown-from-word-complete-c-guide/)

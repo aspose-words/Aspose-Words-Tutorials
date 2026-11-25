@@ -243,7 +243,6 @@ Leer hoe u een markdown‑bestand maakt vanuit Word en formules exporteert met A
 
 Leer hoe u lege alinea's uit Word-documenten verwijdert tijdens de conversie naar Markdown met Aspose.Words voor .NET.
 
-### [DOCX naar Markdown converteren – Afbeeldingen extraheren uit DOCX met Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 
 Leer hoe u afbeeldingen uit een DOCX haalt en het document naar Markdown converteert met Aspose.Words.
 

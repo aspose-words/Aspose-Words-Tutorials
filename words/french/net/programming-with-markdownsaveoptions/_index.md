@@ -215,7 +215,6 @@ Apprenez à générer du markdown à partir de documents Word en C# avec Aspose.
 
 ### [Enregistrer Word en Markdown – Guide complet C# pour exporter les images Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 
-### [Convertir DOCX en Markdown – Extraire les images du DOCX avec Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
 ### [Enregistrer un document au format Markdown avec C# – Guide complet](./save-document-as-markdown-with-c-full-guide/)
 
 Apprenez à enregistrer un document Word au format Markdown avec un guide complet en C# utilisant Aspose.Words.
