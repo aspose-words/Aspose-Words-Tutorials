@@ -232,7 +232,6 @@ Selamat coding, dan nikmati mengotomatisasi dokumen Word!
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber daya menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Membuat Dokumen Word dengan Aspose.Words – Panduan Langkah‑per‑Langkah](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Membuat Dokumen Word dengan Tabel Menggunakan Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Membuat Group Shape dalam Dokumen Word Menggunakan Aspose.Words untuk .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

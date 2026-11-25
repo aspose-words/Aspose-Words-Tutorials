@@ -296,7 +296,6 @@ A: `maxSentences` आर्ग्यूमेंट बढ़ाएँ। ध्
 
 नीचे दिए गए ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर कर सकें।
 
-- [Aspose.Words के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words for .NET में Word दस्तावेज़ बनाएं और स्टाइल करें](/words/english/net/document-styling/apply-paragraph-style/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में टेक्स्ट वॉटरमार्क जोड़ें](/words/english/net/working-with-watermark/add-text-watermark/)
 

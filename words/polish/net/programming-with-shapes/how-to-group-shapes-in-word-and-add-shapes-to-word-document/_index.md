@@ -251,7 +251,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Utwórz grupowy kształt w dokumencie Word przy użyciu Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Wstaw kształty w dokumentach Word przy użyciu Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Utwórz dokument Word przy użyciu Aspose.Words – przewodnik krok po kroku](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

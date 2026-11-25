@@ -221,7 +221,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Lägg till innehåll med Document Builder i Aspose.Words för .NET](/words/english/net/add-content-using-document-builder/)
 - [Word-dokument – Hur man tar bort innehåll](/words/english/net/remove-content/)
-- [Skapa Word-dokument med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

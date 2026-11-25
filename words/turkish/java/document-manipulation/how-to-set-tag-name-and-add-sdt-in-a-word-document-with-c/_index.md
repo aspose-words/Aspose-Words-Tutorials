@@ -223,7 +223,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Aspose.Words for .NET'te Document Builder Kullanarak İçerik Ekleme](/words/english/net/add-content-using-document-builder/)
 - [Word Belgesi - İçerik Nasıl Kaldırılır](/words/english/net/remove-content/)
-- [Aspose.Words ile Word Belgesi Oluşturma – Adım Adım Kılavuz](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

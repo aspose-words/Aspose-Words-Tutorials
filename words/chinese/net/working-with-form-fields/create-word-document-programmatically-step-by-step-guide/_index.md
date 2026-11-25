@@ -229,7 +229,6 @@ class Program
 
 以下教程紧密围绕本指南展示的技术，帮助您进一步掌握 API 的其他功能，并在项目中探索替代实现方案，每篇资源均提供完整可运行的代码示例和逐步说明。
 
-- [Create Word Document with Aspose.Words – Step‑by‑Step Guide](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 - [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

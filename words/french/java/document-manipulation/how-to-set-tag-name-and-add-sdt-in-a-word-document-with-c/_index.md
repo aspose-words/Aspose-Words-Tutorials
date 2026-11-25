@@ -225,7 +225,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Ajouter du contenu avec Document Builder dans Aspose.Words pour .NET](/words/english/net/add-content-using-document-builder/)
 - [Document Word – Comment supprimer du contenu](/words/english/net/remove-content/)
-- [Créer un document Word avec Aspose.Words – Guide étape par étape](/words/english/net/enable-opentype-features/create-word-document-with-aspose-words-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
