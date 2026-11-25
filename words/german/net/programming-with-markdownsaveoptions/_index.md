@@ -150,7 +150,6 @@ Erfahren Sie, wie Sie mit Aspose DOCX‑Dateien in Markdown konvertieren und dab
 ### [Word in Markdown konvertieren – Bilder extrahieren in C#](./convert-word-to-markdown-extract-images-in-c/)
 Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konvertieren nach Markdown in C# beibehalten.
 
-### [Word-Bilder beim Konvertieren von Word zu Markdown speichern – Vollständige C#‑Anleitung](./save-word-images-while-converting-word-to-markdown-complete/)
 Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konvertieren in Markdown beibehalten – komplette C#‑Anleitung.
 
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.

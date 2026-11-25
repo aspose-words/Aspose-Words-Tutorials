@@ -85,7 +85,6 @@ Pelajari cara mempertahankan pemutusan baris saat mengonversi file DOCX ke Markd
 Pelajari cara mengekspor persamaan LaTeX dari dokumen Word dan mengonversinya menjadi file Markdown serta TXT menggunakan Aspose.Words untuk .NET.
 ### [Menentukan ekstensi file saat mengonversi DOCX ke Markdown – Panduan Lengkap](./determine-file-extension-while-converting-docx-to-markdown-c/)
 Pelajari cara menentukan ekstensi file yang tepat saat mengonversi DOCX ke Markdown menggunakan Aspose.Words untuk .NET.
-### [Simpan gambar Word saat mengonversi Word ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Pelajari cara menyimpan gambar dari dokumen Word saat mengonversinya ke format Markdown dengan panduan lengkap C#.
 Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah demi langkah yang lengkap.
 Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
