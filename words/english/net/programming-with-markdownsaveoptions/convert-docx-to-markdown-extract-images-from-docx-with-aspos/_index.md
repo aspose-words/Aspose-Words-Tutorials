@@ -62,7 +62,7 @@ cd DocxToMarkdownDemo
 dotnet add package Aspose.Words
 ```
 
-> **Pro tip:** Use the latest NuGet version (as of April 2026 it’s 24.12) to get the newest markdown export improvements.
+> **Pro tip:** Use the latest NuGet version to get the newest markdown export improvements.
 
 ---
 
@@ -99,6 +99,8 @@ class ImageResourceSaver : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Generate a unique name to avoid collisions.
+        // Aspose.Words does not provide the original image filename or format,
+        // so we default to PNG for all extracted images.
         string newFileName = $"img_{Guid.NewGuid():N}.png";
 
         // Full physical path where the image will be written.
@@ -108,7 +110,7 @@ class ImageResourceSaver : IResourceSavingCallback
         args.ResourceFileName = newFileName;
 
         // Provide a stream that writes to the desired location.
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
     }
 }
 ```
@@ -192,7 +194,7 @@ If you open the markdown file in a viewer that respects relative paths (e.g., VS
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
 | Images appear as broken links | The `ResourceFileName` wasn’t set, so the markdown points to a non‑existent file. | Ensure `args.ResourceFileName = newFileName;` inside the callback. |
-| PNG files are huge | Original images were JPEG or BMP; converting to PNG can increase size. | Detect the original format via `args.ResourceContentType` and preserve it: `args.ResourceFileName = $"{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";` |
+| PNG files are huge | Original images were JPEG or BMP; converting to PNG can increase size. | If you need to preserve the original format, you must decide on a format yourself (Aspose does not expose the original extension). |
 | Duplicate images still appear | You used a static filename instead of a GUID. | Switch back to GUID logic or add a counter per image type. |
 | Conversion throws `FileNotFoundException` | The source DOCX path is wrong or the folder lacks read permission. | Verify the path and grant appropriate file‑system rights. |
 
@@ -200,23 +202,21 @@ If you open the markdown file in a viewer that respects relative paths (e.g., VS
 
 ## Step 5: Advanced Tweaks (Optional)
 
-### 5.1 Preserve Original Image Formats
+### 5.1 Choose a Different Output Format
 
-If you want the output images to keep their original extensions, modify the callback:
+If you prefer another image format (e.g., JPEG) you can change the extension in the callback:
 
 ```csharp
 public void ResourceSaving(ResourceSavingArgs args)
 {
-    string ext = Path.GetExtension(args.ResourceFileName).ToLowerInvariant();
-    // Default to .png if Aspose couldn't determine an extension.
-    if (string.IsNullOrEmpty(ext)) ext = ".png";
-
-    string newFileName = $"img_{Guid.NewGuid():N}{ext}";
+    string newFileName = $"img_{Guid.NewGuid():N}.jpg";
     string fullPath = Path.Combine(_targetFolder, newFileName);
     args.ResourceFileName = newFileName;
-    args.Stream = new FileStream(fullPath, FileMode.Create);
+    args.ResourceStream = new FileStream(fullPath, FileMode.Create);
 }
 ```
+
+Because Aspose.Words does not provide the original image’s format, you must decide which format to use for all extracted images.
 
 ### 5.2 Embed Images as Base64 (When You *Don’t* Want Separate Files)
 
@@ -253,12 +253,11 @@ class ImageResourceSaver : IResourceSavingCallback
 
     public void ResourceSaving(ResourceSavingArgs args)
     {
-        string ext = Path.GetExtension(args.ResourceFileName).ToLowerInvariant();
-        if (string.IsNullOrEmpty(ext)) ext = ".png";
-        string newFileName = $"img_{Guid.NewGuid():N}{ext}";
+        // Aspose.Words does not expose the original image format, so we default to PNG.
+        string newFileName = $"img_{Guid.NewGuid():N}.png";
         string fullPath = Path.Combine(_targetFolder, newFileName);
         args.ResourceFileName = newFileName;
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
     }
 }
 
