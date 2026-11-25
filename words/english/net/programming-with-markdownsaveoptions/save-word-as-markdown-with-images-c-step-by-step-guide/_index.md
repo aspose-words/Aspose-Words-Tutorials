@@ -76,38 +76,35 @@ namespace DocxToMarkdownDemo
 
 ## Step 2 – Implement a Callback to **extract images from docx**
 
-Aspose.Words lets you hook into the saving pipeline via `IResourceSavingCallback`. This is where we **generate unique image names** and decide where the files land.
+Aspose.Words lets you hook into the saving pipeline via `IImageSavingCallback`. This is where we **generate unique image names** and decide where the files land.
 
 ```csharp
-// MyResourceCallback.cs – handles image extraction
-class MyResourceCallback : IResourceSavingCallback
+// MyImageSavingCallback.cs – handles image extraction
+using System;
+using System.IO;
+using Aspose.Words.Saving;
+
+class MyImageSavingCallback : IImageSavingCallback
 {
     // The folder where images will be stored.
     private readonly string _imagesFolder;
 
-    public MyResourceCallback(string imagesFolder)
+    public MyImageSavingCallback(string imagesFolder)
     {
         _imagesFolder = imagesFolder;
         // Ensure the folder exists.
         Directory.CreateDirectory(_imagesFolder);
     }
 
-    public void ResourceSaving(ResourceSavingArgs args)
+    public void ImageSaving(ImageSavingArgs args)
     {
-        // Only process image resources; ignore CSS, fonts, etc.
-        if (args.ResourceType != ResourceType.Image)
-        {
-            // Let Aspose handle non‑image resources the default way.
-            return;
-        }
-
         // Create a unique file name – e.g., img_3fa85f64‑5717‑4562‑b3fc‑2c963f66afa6.png
-        string uniqueName = $"img_{Guid.NewGuid()}{args.FileExtension}";
+        string uniqueName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ImageFileName)}";
         string fullPath = Path.Combine(_imagesFolder, uniqueName);
 
         // Tell Aspose where to write the image.
-        args.FileName = fullPath;
-        args.Stream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
+        args.ImageFileName = fullPath;
+        args.ImageStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
     }
 }
 ```
@@ -121,6 +118,11 @@ Now we bring the document into memory and tell Aspose we want a markdown file.
 
 ```csharp
 // MarkdownConverter.cs – core conversion logic
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
 static class MarkdownConverter
 {
     public static void Convert(string docxPath, string outputRoot)
@@ -134,7 +136,7 @@ static class MarkdownConverter
         // 3️⃣ Wire up the callback that extracts images.
         var mdOptions = new MarkdownSaveOptions
         {
-            ResourceSavingCallback = new MyResourceCallback(imagesFolder)
+            ImageSavingCallback = new MyImageSavingCallback(imagesFolder)
         };
 
         // 4️⃣ Ensure the output folder exists.
@@ -151,7 +153,7 @@ static class MarkdownConverter
 
 **Key points**
 
-- `ResourceSavingCallback` is the bridge that lets us **extract images from docx**.
+- `ImageSavingCallback` is the bridge that lets us **extract images from docx**.
 - By placing images in `outputRoot\Images`, the markdown file will reference them with relative paths like `Images/img_…png`. This satisfies the **markdown export with images** goal.
 - The `Guid.NewGuid()` call guarantees each image gets a **unique image name**, avoiding collisions when the same picture appears multiple times.
 
@@ -185,12 +187,12 @@ That’s the **save word as markdown** result we were after—each picture is co
 
 ### Handling Different Image Formats
 
-Aspose automatically sets `args.FileExtension` based on the original image type (png, jpg, gif, etc.). If you need all images as PNG, you can override the extension:
+Aspose automatically sets `args.ImageFileName` with the original extension. If you need all images as PNG, you can override the extension:
 
 ```csharp
-args.FileName = Path.Combine(_imagesFolder,
+args.ImageFileName = Path.Combine(_imagesFolder,
     $"img_{Guid.NewGuid()}.png");
-args.Stream = new FileStream(args.FileName, FileMode.Create, FileAccess.Write);
+args.ImageStream = new FileStream(args.ImageFileName, FileMode.Create, FileAccess.Write);
 ```
 
 ### Converting Multiple DOCX Files in a Batch
@@ -222,7 +224,7 @@ The callback simply never fires, and you’ll end up with a markdown file that c
 
 We’ve covered everything you need to **save word as markdown** while keeping every picture intact, **convert docx to markdown**, and **generate unique image names** for a tidy export. The complete, runnable example lives in the code snippets above, so you can copy‑paste, tweak the folder paths, and run it today.
 
-Next, you might explore **markdown export with images** for other formats (HTML, PDF) or integrate the converter into an ASP.NET Core API that serves markdown on demand. The same callback pattern works for extracting fonts, stylesheets, or even custom XML parts—just check `args.ResourceType` and handle accordingly.
+Next, you might explore **markdown export with images** for other formats (HTML, PDF) or integrate the converter into an ASP.NET Core API that serves markdown on demand. The same callback pattern works for extracting fonts, stylesheets, or even custom XML parts—just implement the appropriate saving callback and handle the resources accordingly.
 
 Happy coding, and may your markdown always be image‑rich!
 
