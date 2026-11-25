@@ -63,7 +63,6 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Chèn Biểu Đồ Cột Vào Tài Liệu Word](./insert-column-chart/) | Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn. |
 | [Cách tạo tài liệu Word với biểu đồ tròn tùy chỉnh trong C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Hướng dẫn chi tiết cách tạo tài liệu Word và chèn biểu đồ tròn tùy chỉnh bằng Aspose.Words cho .NET trong C#. |
 | [Chèn Biểu đồ Diện tích Vào Tài liệu Word](./insert-area-chart/) | Tìm hiểu cách chèn biểu đồ miền vào tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
-| [Tạo biểu đồ tròn trong Word bằng C# – hướng dẫn từng bước](./create-pie-chart-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng C# và Aspose.Words cho .NET. |
 | [Chèn biểu đồ bong bóng vào tài liệu Word](./insert-bubble-chart/) | Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn. |
 | [Cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Hướng dẫn tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words. |
 | [Cách tạo biểu đồ radar và chèn biểu đồ vào Word bằng C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Tìm hiểu cách tạo biểu đồ radar và chèn vào tài liệu Word bằng Aspose.Words cho .NET với C#. |
