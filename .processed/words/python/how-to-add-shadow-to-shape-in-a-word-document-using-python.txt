@@ -1,0 +1,7 @@
+Title: How to add shadow to shape in a Word document using Python
+Slug: how-to-add-shadow-to-shape-in-a-word-document-using-python
+Category: images-shapes
+ProcessedDate: 2026-11-25T19:33:52.850536
+SourceRepo: AI Search API
+Keywords: add shadow to shape, insert rectangle shape word, how to create word document python
+PRNumber: 982
