@@ -72,15 +72,15 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 Aspose.Words lets you specify the PDF compliance level. PDF/UA‑1 is the original accessibility standard, while PDF/UA‑2 adds a few newer tags. Choose the one that matches your client’s requirements.
 
 ```csharp
-// Choose PDF/UA‑1 (PdfUax1) or PDF/UA‑2 (PdfUax2) compliance
+// Choose PDF/UA‑1 (PdfUa1) or PDF/UA‑2 (PdfUa2) compliance
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
     // This ensures the output PDF meets accessibility guidelines
-    Compliance = PdfCompliance.PdfUax1
+    Compliance = PdfCompliance.PdfUa1
 };
 ```
 
-> **What “Compliance” does:** Setting `PdfCompliance.PdfUax1` tells Aspose.Words to embed proper tags, logical reading order, and alternate text for images—exactly what screen‑reader software looks for.
+> **What “Compliance” does:** Setting `PdfCompliance.PdfUa1` tells Aspose.Words to embed proper tags, logical reading order, and alternate text for images—exactly what screen‑reader software looks for.
 
 ## Step 4: Save the Document as an Accessible PDF
 
@@ -124,7 +124,7 @@ foreach (var file in files)
 Just change the `Compliance` enum:
 
 ```csharp
-pdfSaveOptions.Compliance = PdfCompliance.PdfUax2;
+pdfSaveOptions.Compliance = PdfCompliance.PdfUa2;
 ```
 
 ### Handling Custom Fonts
@@ -158,7 +158,7 @@ class Program
             // 2️⃣ Set up PDF options for accessibility (PDF/UA‑1)
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
             {
-                Compliance = PdfCompliance.PdfUax1,
+                Compliance = PdfCompliance.PdfUa1,
                 // Optional: embed all fonts to avoid missing‑font issues
                 FontEmbeddingMode = FontEmbeddingMode.EmbedAll
             };

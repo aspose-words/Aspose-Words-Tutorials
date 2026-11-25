@@ -73,7 +73,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     PageSet = new PageSet(0, document.PageCount),
 
     // Render at 300 DPI for high‑resolution output
-    ImageResolution = 300,
+    Resolution = 300,
 
     // Arrange pages side‑by‑side
     Layout = ImageSaveOptions.ImageLayout.Horizontal
@@ -82,7 +82,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 
 * **save all pages image** – The `PageSet` property with `document.PageCount` guarantees that every page is included in the final PNG.
 * **render word side‑by‑side** – Setting `Layout` to `Horizontal` stitches the pages together left‑to‑right.
-* **set image resolution 300dpi** – The `ImageResolution` line ensures the output is sharp enough for printing or detailed on‑screen inspection.
+* **set image resolution 300dpi** – The `Resolution` line ensures the output is sharp enough for printing or detailed on‑screen inspection.
 
 > **Pro tip:** If you only need the first three pages, change the `PageSet` constructor to `new PageSet(0, 3)`.
 
@@ -134,7 +134,7 @@ Resolution is measured in dots per inch (DPI). The higher the DPI, the larger th
 Feel free to experiment:
 
 ```csharp
-ImageResolution = 150   // lower file size, still readable on screen
+Resolution = 150   // lower file size, still readable on screen
 ```
 
 Just remember that lowering DPI after you’ve already rendered the image won’t improve performance; the resolution must be set **before** the `Save` call.
@@ -182,7 +182,7 @@ namespace WordToPngDemo
                 PageSet = new PageSet(0, doc.PageCount),
 
                 // High‑resolution output (ideal for printing)
-                ImageResolution = 300,
+                Resolution = 300,
 
                 // Horizontal layout – pages appear side‑by‑side
                 Layout = ImageSaveOptions.ImageLayout.Horizontal
