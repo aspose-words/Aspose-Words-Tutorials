@@ -50,7 +50,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="使用 C# 在 Word 圖表中設定直方圖箱數量並新增資料標籤" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="在 Word 中使用 C# 以及自訂數字格式格式化圖表" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
 
 |標題 |描述 |
@@ -66,7 +65,6 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在圖表中定義 XY 軸屬性](./define-xyaxis-properties/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 定義圖表中的 XY 軸屬性。非常適合 .NET 開發人員。 |
 | [將日期時間值加到圖表的軸上](./date-time-values-to-axis/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 將日期和時間值新增至圖表的軸。 |
 | [圖表中座標軸的數字格式](./number-format-for-axis/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 格式化圖表軸數字。輕鬆提昇文件的可讀性和專業性。 |
-| [在 Word 中使用 C# 以及自訂數字格式格式化圖表](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) |了解如何在 C# 中使用自訂數字格式來格式化 Word 圖表，提升資料呈現效果。 |
 | [軸的邊界](./bounds-of-axis/) |了解如何使用 Aspose.Words for .NET 設定圖表中軸的邊界，從而控制軸上顯示的值的範圍。 |
 | [圖表軸上標籤之間的間隔單位](./interval-unit-between-labels-on-axis/) |了解如何使用 Aspose.Words for .NET 設定圖表軸上標籤之間的間隔單位。 |
 | [在Word文檔中隱藏圖表軸](./hide-chart-axis/) |透過我們詳細的逐步教學，了解如何使用 Aspose.Words for .NET 隱藏 Word 文件中的圖表軸。 |

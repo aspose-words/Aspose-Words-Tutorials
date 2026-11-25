@@ -48,7 +48,6 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Comment formater un graphique dans Word avec C# et des formats numériques personnalisés" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Comment définir le nombre de classes d'un histogramme et ajouter des étiquettes de données dans un graphique Word avec C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
@@ -84,7 +83,6 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment créer un document Word C# avec un graphique à colonnes et des étiquettes formatées](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Apprenez à créer un document Word avec un graphique à colonnes et des étiquettes formatées en C# grâce à ce guide étape par étape. |
 | [Comment créer un document Word avec un graphique circulaire personnalisé en C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Apprenez à générer un document Word contenant un diagramme circulaire personnalisé avec Aspose.Words pour .NET en C#. |
 | [Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Enregistrez un document Word contenant un graphique circulaire éclaté avec Aspose.Words pour .NET. |
-| [Comment formater un graphique dans Word avec C# et des formats numériques personnalisés](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Apprenez à appliquer des formats numériques personnalisés aux graphiques Word avec Aspose.Words pour .NET en C#. |
 | [Créer un graphique radar dans un document Word – guide complet C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Apprenez à créer un graphique radar dans Word avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
 
 | [Comment créer un graphique radar et l'ajouter à Word avec C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Apprenez à créer un graphique radar et l'insérer dans un document Word avec Aspose.Words pour .NET en C#. |

@@ -48,7 +48,6 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 
 {{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Salvar documento modificado com fatias de gráfico de pizza explodidas em C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Como formatar gráfico no Word com C# e formatos numéricos personalizados" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
 {{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Como definir a contagem de bins de histograma e adicionar rótulos de dados em um gráfico do Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
@@ -84,7 +83,6 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Como exibir porcentagens em um gráfico com Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a exibir porcentagens em gráficos usando Aspose.Words para .NET com este guia passo a passo. |
 | [Como criar documento Word com um gráfico de pizza personalizado em C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aprenda a criar um documento Word contendo um gráfico de pizza personalizado usando Aspose.Words para .NET em C#. |
 
-| [Como formatar gráfico no Word com C# e formatos numéricos personalizados](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Aprenda a aplicar formatos numéricos personalizados a gráficos no Word usando Aspose.Words para .NET e C#. |
 | [Criar gráfico de pizza em documento Word com Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Aprenda a criar um gráfico de pizza em documentos Word usando Aspose.Words para .NET com este guia passo a passo. |
 | [Criar gráfico de radar em um documento Word – guia completo em C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aprenda a criar um gráfico de radar em documentos Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 
