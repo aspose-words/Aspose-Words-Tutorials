@@ -171,7 +171,7 @@ class Program
 | **`shape` is `null`** | Document has no shapes or the index is wrong. | Verify the Word file contains a shape, or loop through `doc.GetChildNodes(NodeType.Shape, true)` to find the correct one. |
 | **Shadow doesn’t appear in Word** | `Shadow.Enabled` left as `false` or the shape type doesn’t support shadows (e.g., plain text). | Ensure you’re working with a `Shape` object (pictures, drawings, SmartArt) and that `Enabled = true`. |
 | **Unexpected colour** | `Color` set to something other than what you see in Word because of theme overrides. | Use `Color.FromArgb(0,0,0)` for a pure black, or match the document’s theme with `shape.Shadow.ThemeColor`. |
-| **Performance slowdown** | Modifying many shapes in a large document without batching. | Wrap changes in `doc.BeginUpdateWords()` / `doc.EndUpdateWords()` (Aspose.Words v24+). |
+| **Performance slowdown** | Modifying many shapes in a large document without batching. | After batch modifications, call `doc.UpdatePageLayout()` to refresh layout efficiently. |
 
 ## Extending the Example
 
