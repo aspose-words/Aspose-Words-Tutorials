@@ -148,7 +148,6 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 ### [Convertir Word en Markdown en C# – Exporter les équations en LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
 
 
-### [Comment enregistrer le Markdown depuis Word avec images – Guide complet C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
 
 ### [Créer du Markdown à partir de Word avec Aspose – Guide étape par étape](./create-markdown-from-word-with-aspose-step-by-step-guide/)

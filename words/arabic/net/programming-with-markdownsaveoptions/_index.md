@@ -89,7 +89,6 @@
 
 ### [إنشاء مجلد C# – تحويل Word إلى Markdown واستخراج الصور](./create-folder-c-convert-word-to-markdown-extract-images/)
 
-### [كيفية حفظ Markdown من Word مع الصور – دليل C# كامل](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
 
 ### [إنشاء Markdown من Word باستخدام Aspose — دليل خطوة بخطوة](./create-markdown-from-word-with-aspose-step-by-step-guide/)
