@@ -1,0 +1,7 @@
+Title: How to recover corrupted docx and convert to markdown
+Slug: how-to-recover-corrupted-docx-and-convert-to-markdown
+Category: document-conversion
+ProcessedDate: 2026-11-25T19:33:55.871179
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, convert docx to markdown, how to recover word, how to convert word pdf, how to save pdf inline
+PRNumber: 982
