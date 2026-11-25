@@ -222,7 +222,6 @@
 
 使用 Aspose.Words for .NET 将 docx 文档保存为 markdown，包含 LaTeX 方程，提供完整的 C# 示例和详细指南。
 
-### [自定义图像文件夹导出 Markdown（含图像） – 完整指南](./custom-image-folder-for-export-markdown-with-images-complete/)
 
 使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，并将图像保存到自定义文件夹，提供完整的 C# 示例和步骤指南。
 

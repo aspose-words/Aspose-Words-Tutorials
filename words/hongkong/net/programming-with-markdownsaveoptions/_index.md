@@ -68,7 +68,6 @@
 | [使用 C# 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-with-c-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 docx 完整轉換為 markdown，提供詳細步驟與範例程式碼。 |
 | [將 DOCX 儲存為 Markdown（使用 Aspose.Words）– 完整逐步指南](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 完整轉換為 Markdown，提供逐步說明與完整範例程式碼。 |
 | [將 Word 轉換為 Markdown – 完整指南（含圖像提取）](./convert-word-to-markdown-complete-guide-with-image-extractio/) |示範如何使用 Aspose.Words for .NET 將 Word 轉換為 Markdown，並提取圖像。 |
-| [自訂圖像資料夾以匯出含圖像的 Markdown – 完整指南](./custom-image-folder-for-export-markdown-with-images-complete/) |示範如何在 Aspose.Words for .NET 中設定自訂圖像資料夾，將 Word 匯出為含圖像的 Markdown，完整步驟指南。 |
 | [將 docx 轉換為 markdown 並儲存來自 docx 的圖像](./convert-docx-to-markdown-save-images-from-docx/) |示範如何使用 Aspose.Words for .NET 將 docx 轉換為 markdown，並提取與儲存圖像。 |
 | [將 Word 轉換為 Markdown – 完整 C# 指南](./create-markdown-from-word-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件完整轉換為 Markdown，提供完整範例程式碼。 |
 | [將 docx 儲存為 markdown – 完整 C# 指南（含 Aspose.Words）](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，提供完整步驟與範例程式碼。 |
