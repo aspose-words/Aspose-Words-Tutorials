@@ -62,13 +62,13 @@ cd DocxToMarkdownDemo
 dotnet add package Aspose.Words
 ```
 
-> **Pro tip:** Use the latest NuGet version (as of April 2026 it’s 24.12) to get the newest markdown export improvements.
+> **Pro tip:** Use the latest NuGet version (as of November 2026 it’s **26.11**) to get the newest markdown export improvements.
 
 ---
 
 ## Step 2: Create a Callback to Save Images Where You Want Them
 
-Aspose.Words lets you intercept every resource (images, SVGs, etc.) that gets written during the markdown export. By implementing `IResourceSavingCallback` you can:
+Aspose.Words lets you intercept each **image** that gets written during the markdown export. By implementing `IResourceSavingCallback` you can:
 
 1. Choose a folder that lives next to your markdown file.
 2. Generate a unique filename (so you never overwrite an existing image).
@@ -108,7 +108,7 @@ class ImageResourceSaver : IResourceSavingCallback
         args.ResourceFileName = newFileName;
 
         // Provide a stream that writes to the desired location.
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
     }
 }
 ```
@@ -214,20 +214,20 @@ public void ResourceSaving(ResourceSavingArgs args)
     string newFileName = $"img_{Guid.NewGuid():N}{ext}";
     string fullPath = Path.Combine(_targetFolder, newFileName);
     args.ResourceFileName = newFileName;
-    args.Stream = new FileStream(fullPath, FileMode.Create);
+    args.ResourceStream = new FileStream(fullPath, FileMode.Create);
 }
 ```
 
 ### 5.2 Embed Images as Base64 (When You *Don’t* Want Separate Files)
 
-Sometimes a single‑file markdown is preferable (e.g., for sending via email). Change the option:
+Sometimes a single‑file markdown is preferable (e.g., for sending via email). Change the options:
 
 ```csharp
-mdOptions.ImagesFolder = string.Empty; // disables external folder
+mdOptions.ImagesFolder = string.Empty; // uses the default location (same folder as the .md file)
 mdOptions.ExportImagesAsBase64 = true;
 ```
 
-But remember: **extract images from DOCX** is the primary goal for most static‑site workflows, so the folder approach is usually the better choice.
+**Note:** Setting `ImagesFolder` to an empty string does **not** disable the external folder; it simply tells Aspose.Words to use the default location (the folder of the markdown file). To embed images directly in the markdown, enable `ExportImagesAsBase64`.
 
 ---
 
@@ -239,7 +239,7 @@ Below is the entire program in one file. Just replace the paths with your own an
 // ---------------------------------------------------------------
 // Convert DOCX to Markdown – Extract Images from DOCX
 // ---------------------------------------------------------------
-// NuGet: Aspose.Words (>= 24.12)
+// NuGet: Aspose.Words (>= 26.11)
 // ---------------------------------------------------------------
 using System;
 using System.IO;
@@ -258,7 +258,7 @@ class ImageResourceSaver : IResourceSavingCallback
         string newFileName = $"img_{Guid.NewGuid():N}{ext}";
         string fullPath = Path.Combine(_targetFolder, newFileName);
         args.ResourceFileName = newFileName;
-        args.Stream = new FileStream(fullPath, FileMode.Create);
+        args.ResourceStream = new FileStream(fullPath, FileMode.Create);
     }
 }
 
@@ -301,7 +301,7 @@ You now have a **complete, production‑ready solution to convert DOCX to Markdo
 In a single pass the code:
 
 1. Loads a Word document.
-2. Intercepts every image via `IResourceSavingCallback`.
+2. Intercepts each image via `IResourceSavingCallback`.
 3. Saves each image to a predictable folder with a unique name.
 4. Generates markdown that references those images.
 
