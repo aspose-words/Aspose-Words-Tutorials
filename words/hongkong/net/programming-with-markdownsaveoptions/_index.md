@@ -51,7 +51,6 @@
 | [在將 Word 轉換為 Markdown 時保存圖像 – 完整 C# 指南](./save-word-images-while-converting-word-to-markdown-complete/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 Markdown 時，同時保存所有圖像，提供完整範例程式碼。 |
 | [在 C# 中將 Word 轉換為 Markdown – 匯出方程式為 LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，並將方程式匯出為 LaTeX 格式。 |
 | [建立資料夾 C# – 將 Word 轉換為 Markdown 並提取圖像](./create-folder-c-convert-word-to-markdown-extract-images/) |示範如何在 C# 中使用 Aspose.Words for .NET 建立資料夾，將 Word 轉換為 Markdown 並提取圖像。 |
-| [將 Word 儲存為 markdown – 完整 C# 指南（含圖像）](./how-to-save-markdown-from-word-with-images-complete-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件匯出為 Markdown，並保留圖像，提供完整範例程式碼。 |
 | [將 docx 儲存為 markdown – 完整 C# 指南（含圖像提取）](./save-docx-as-markdown-complete-c-guide-with-image-extraction/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，並提取圖像。 |
 | [將 Word 轉換為 Markdown – 完整指南（含圖像提取）](./convert-word-to-markdown-full-guide-with-image-extraction/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，並提取圖像，提供完整步驟與範例程式碼。 |
 | [使用 Aspose.Words 將 Word 儲存為 Markdown – 完整 C# 指南](./save-word-as-markdown-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件儲存為 Markdown，提供完整步驟與範例程式碼。 |
