@@ -237,7 +237,6 @@ Aprenda a extrair e salvar imagens ao converter documentos Word para Markdown us
 
 Aprenda a converter documentos Word para Markdown e exportar PDFs compatíveis com PDF/UA usando Aspose.Words para .NET.
 
-### [Salvar Word como Markdown com Pasta de Imagens Personalizada – Guia Completo](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 Aprenda a salvar documentos Word como Markdown definindo uma pasta personalizada para imagens usando Aspose.Words para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
