@@ -43,7 +43,7 @@ In this tutorial we’ll walk through a complete, end‑to‑end solution that *
 Before we dive into code, make sure you have:
 
 - **.NET 6.0** or later installed (you can also target .NET Framework 4.7+, but .NET 6 is the sweet spot for new projects).
-- **Aspose.Words for .NET** (the latest NuGet package at the time of writing, version 23.12). Install it with:
+- **Aspose.Words for .NET** (the latest NuGet package). Install it with:
   ```bash
   dotnet add package Aspose.Words
   ```
@@ -135,7 +135,8 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
         // 3️⃣ Write the image stream to disk.
         using (FileStream fileStream = File.Create(targetPath))
         {
-            args.Stream.CopyTo(fileStream);
+            // args.ResourceStream contains the raw image bytes.
+            args.ResourceStream.CopyTo(fileStream);
         }
 
         // 4️⃣ Update the markdown reference to use a relative path.
@@ -145,11 +146,11 @@ class MyMarkdownResourceCallback : IResourceSavingCallback
 }
 ```
 
-*Why this works:* `args.Stream` contains the raw image bytes. By copying it to a file inside our `Resources` folder we **export images from docx** safely. Then we replace `args.ResourceFileName` with a relative URL (`Resources/image.png`). When Aspose.Words later writes the markdown, it injects exactly that string, giving us the desired *markdown image relative path*.
+*Why this works:* `args.ResourceStream` contains the raw image bytes. By copying it to a file inside our `Resources` folder we **export images from docx** safely. Then we replace `args.ResourceFileName` with a relative URL (`Resources/image.png`). When Aspose.Words later writes the markdown, it injects exactly that string, giving us the desired *markdown image relative path*.
 
 ---
 
-## Step 4: Verify the generated Markdown (what the final output looks like)
+## Step 4: Verify the generated Markdown (what the final output looks
 
 Open `Doc.md` in any text editor. You should see something similar to:
 
@@ -179,7 +180,7 @@ The important part is that each image reference points to `Resources/...` – th
 |-------|----------------|---------------|
 | Images end up in the root folder instead of `Resources` | The callback wasn’t attached or `args.ResourceFileName` wasn’t overwritten. | Double‑check that `ResourceSavingCallback` is set **before** calling `doc.Save`. |
 | Filenames contain illegal characters | Word sometimes names images with spaces or Unicode symbols. | Use `Path.GetInvalidFileNameChars()` to sanitize `args.ResourceFileName` inside the callback. |
-| Large documents take a long time to process | Each image is written synchronously. | Switch to asynchronous I/O (`await args.Stream.CopyToAsync(fileStream)`) if you’re on .NET 6+ and need performance. |
+| Large documents take a long time to process | Each image is written synchronously. | Switch to asynchronous I/O (`await args.ResourceStream.CopyToAsync(fileStream)`) if you’re on .NET 6+ and need performance. |
 | Relative paths break when the markdown is moved | The path is relative to the markdown file location. | Keep `Doc.md` and the `Resources` folder together, or adjust the callback to use a different relative prefix (e.g., `../assets`). |
 
 ---
