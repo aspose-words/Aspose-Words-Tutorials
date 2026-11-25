@@ -78,17 +78,18 @@ Document document = new Document(inputPath);
 
 ### Step 3 – Configure PDF Save Options for Accessibility  
 
-Aspose.Words lets you specify compliance levels. Setting `PdfCompliance.PdfUATagged` tags the PDF so assistive technologies can read it correctly—exactly what you need to **create accessible pdf** files.
+Aspose.Words lets you specify compliance levels. Setting `PdfCompliance.PdfUa2` tags the PDF so assistive technologies can read it correctly—exactly what you need to **create accessible pdf** files.
 
 ```csharp
 // Step 3: Configure PDF save options for PDF/UA‑2 compliance (accessibility)
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    Compliance = PdfCompliance.PdfUATagged,
+    Compliance = PdfCompliance.PdfUa2,
     // Optional: embed the original fonts to preserve layout
     EmbedFullFonts = true,
-    // Optional: set the PDF version if you target older readers
-    // PdfVersion = PdfVersion.Pdf14
+    // Optional: reduce file size by compressing images and setting JPEG quality
+    ImageCompression = PdfImageCompression.Jpeg,
+    JpegQuality = 80
 };
 ```
 
@@ -140,8 +141,10 @@ class Program
         // Configure PDF options for accessibility (PDF/UA‑2)
         PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            Compliance = PdfCompliance.PdfUATagged,
-            EmbedFullFonts = true
+            Compliance = PdfCompliance.PdfUa2,
+            EmbedFullFonts = true,
+            ImageCompression = PdfImageCompression.Jpeg,
+            JpegQuality = 80
         };
 
         // Save as PDF
@@ -184,33 +187,21 @@ protectedDoc.Save(outputPath, pdfOptions);
 
 ### Reducing File Size  
 
-If the generated PDF feels heavy, toggle `PdfSaveOptions` properties like `CompressImages` or `ImageQuality`.
-
-```csharp
-pdfOptions.CompressImages = true;
-pdfOptions.ImageQuality = 80; // 0‑100
-```
+If the generated PDF feels heavy, you can adjust image compression and JPEG quality as shown in the `PdfSaveOptions` example above.
 
 ---
 
 ## Export Word as PDF – Testing Accessibility  
 
-After you **export Word as PDF**, you might want to verify the accessibility tags. Adobe Acrobat’s “Accessibility” pane offers a quick check, or you can use the free **PDF/UA validator** from the PDF Association.
+After you **export Word as PDF**, you might want to verify the accessibility tags. Adobe Acrobat’s “Accessibility” pane offers a quick check, or you can use a third‑party PDF/UA validator (such as the free validator from the PDF Association) as part of your CI pipeline.
 
-```csharp
-// Quick validation (requires Aspose.PDF, not covered here)
-// var validator = new PdfValidator();
-// var result = validator.Validate(outputPath);
-// Console.WriteLine($"Accessibility score: {result.Score}");
-```
-
-Even though the code above needs an extra library, it shows that you can automate the validation step as part of your CI pipeline.
+> **Note:** The validator is part of the separate Aspose.PDF product, not Aspose.Words. If you need automated validation in code, add the Aspose.PDF NuGet package and use its validation facilities.
 
 ---
 
 ## Create Accessible PDF – Best Practices Checklist  
 
-- **Tag the document** (`PdfCompliance.PdfUATagged`).  
+- **Tag the document** (`PdfCompliance.PdfUa2`).  
 - **Embed fonts** to avoid layout shifts on other machines.  
 - **Use proper heading styles** in the Word source; Aspose.Words maps them to PDF tags automatically.  
 - **Add alt text** to images in Word before conversion; those alt texts become PDF alt attributes.  
@@ -220,7 +211,7 @@ Even though the code above needs an extra library, it shows that you can automat
 
 ## Conclusion  
 
-We’ve covered **how to create PDF** from a Word file using Aspose.Words, demonstrated the exact steps to **convert docx to PDF**, and showed you how to **export Word as PDF** while ensuring the result is a **create accessible pdf** that passes PDF/UA‑2 checks.  
+We’ve covered **how to create PDF** from a Word file using Aspose.Words, demonstrated the exact steps to **convert docx to PDF**, and showed you how to **export Word as PDF** while ensuring the result is a **create accessible pdf** that meets PDF/UA‑2 standards.  
 
 In a nutshell: install the NuGet package, load your `.docx`, set `PdfSaveOptions` for accessibility, and call `Save`. That’s it—no Office interop, no COM nightmares.  
 
