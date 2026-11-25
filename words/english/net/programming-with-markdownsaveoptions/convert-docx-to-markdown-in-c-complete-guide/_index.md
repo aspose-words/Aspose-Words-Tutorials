@@ -34,7 +34,7 @@ In this tutorial we’ll walk through a real‑world example that loads a `.docx
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (the latest version, e.g., 24.12). You can grab it from NuGet: `Install-Package Aspose.Words`.
+- **Aspose.Words for .NET** (the latest version). You can grab it from NuGet: `Install-Package Aspose.Words`.
 - **.NET 6.0** or later (the API works on .NET Framework as well, but .NET 6 gives you the best performance).
 - A simple console project or any C# host you prefer.
 - An input Word file (`input.docx`) that contains at least one picture so we can see the extraction in action.
@@ -77,7 +77,7 @@ Why do we wrap the path in `Path.Combine`? It makes the code portable across Win
 
 ## Step 3 – Configure Markdown Save Options with a Resource Callback
 
-When you ask Aspose.Words to save as Markdown, it normally embeds images as Base64 strings. That’s fine for tiny icons, but for larger photos it blows up the file size. Instead, we attach a **resource‑saving callback** that writes each image to disk and updates the Markdown link.
+When you ask Aspose.Words to save as Markdown, images are saved as separate files by default. To control where those files are written, we attach a **resource‑saving callback** that writes each image to disk and updates the Markdown link.
 
 ```csharp
 // Define where the Markdown and resources will live
@@ -99,12 +99,13 @@ Notice we pass `resourcesDir` into the callback’s constructor—this keeps the
 
 ## Step 4 – Implement the Resource‑Saving Callback
 
-The callback implements `IResourceSavingCallback`. For each image Aspose.Words wants to write, it hands us a `ResourceSavingArgs` object. We decide **where** to store the file, give it a unique name, and then tell the engine to skip its default saving behavior.
+The callback implements `IResourceSavingCallback`. For each image Aspose.Words wants to write, it hands us a `ResourceSavingArgs` object. We decide **where** to store the file, give it a unique name, and then tell the engine where the image will be referenced in the Markdown.
 
 ```csharp
 class MyResourceSaver : IResourceSavingCallback
 {
     private readonly string _resourcesFolder;
+    private int _counter = 0; // Simple counter to generate unique names
 
     public MyResourceSaver(string resourcesFolder)
     {
@@ -113,9 +114,9 @@ class MyResourceSaver : IResourceSavingCallback
 
     public void ResourceSaving(ResourceSavingArgs args)
     {
-        // Build a unique, deterministic file name
-        string ext = Path.GetExtension(args.FileName);          // e.g., ".png"
-        string fileName = $"img_{args.Index}{ext}";            // img_0.png, img_1.jpg, …
+        // Build a deterministic file name
+        string ext = Path.GetExtension(args.ResourceFileName); // e.g., ".png"
+        string fileName = $"img_{_counter++}{ext}";           // img_0.png, img_1.jpg, …
 
         // Full path on disk
         string filePath = Path.Combine(_resourcesFolder, fileName);
@@ -123,19 +124,17 @@ class MyResourceSaver : IResourceSavingCallback
         // Write the image bytes
         using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // Update the Markdown URI so it points to the saved image
-        args.Uri = $"Resources/{fileName}";
-
-        // Tell Aspose.Words we handled the saving
-        args.Cancel = true;
+        args.ResourceFileUri = $"Resources/{fileName}";
+        // No need to cancel; the default saving will write to the same location.
     }
 }
 ```
 
-**Why this matters:** By setting `args.Uri` we control exactly how the image will be referenced in the resulting `.md` file. The relative path `Resources/img_0.png` works whether you open the Markdown in VS Code, GitHub, or a static‑site generator.
+**Why this matters:** By setting `args.ResourceFileUri` we control exactly how the image will be referenced in the resulting `.md` file. The relative path `Resources/img_0.png` works whether you open the Markdown in VS Code, GitHub, or a static‑site generator.
 
 ## Step 5 – Save the Document as Markdown
 
@@ -211,6 +210,7 @@ class Program
 class MyResourceSaver : IResourceSavingCallback
 {
     private readonly string _resourcesFolder;
+    private int _counter = 0;
 
     public MyResourceSaver(string resourcesFolder)
     {
@@ -220,21 +220,19 @@ class MyResourceSaver : IResourceSavingCallback
     public void ResourceSaving(ResourceSavingArgs args)
     {
         // Create a deterministic file name like img_0.png
-        string extension = Path.GetExtension(args.FileName);
-        string fileName = $"img_{args.Index}{extension}";
+        string extension = Path.GetExtension(args.ResourceFileName);
+        string fileName = $"img_{_counter++}{extension}";
         string filePath = Path.Combine(_resourcesFolder, fileName);
 
         // Persist the image bytes
         using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // Update the Markdown link to point to the saved image
-        args.Uri = $"Resources/{fileName}";
-
-        // Cancel default saving because we already wrote the file
-        args.Cancel = true;
+        args.ResourceFileUri = $"Resources/{fileName}";
+        // No cancellation needed; the default saving writes to the same location.
     }
 }
 ```
@@ -261,13 +259,13 @@ The `Resources` folder will contain `img_0.png`, `img_1.jpg`, etc., matching the
 Yes. Aspose.Words can load `.doc`, `.docx`, `.rtf`, and many other formats. Just change the file extension in `inputPath`.
 
 **What if I need absolute URLs for the images?**  
-Replace `args.Uri = $"Resources/{fileName}";` with something like `args.Uri = $"https://mycdn.com/docs/{fileName}";`. The Markdown will then reference the remote location.
+Replace `args.ResourceFileUri = $"Resources/{fileName}";` with something like `args.ResourceFileUri = $"https://mycdn.com/docs/{fileName}";`. The Markdown will then reference the remote location.
 
 **Can I control image quality or format?**  
-The callback receives the original image stream. If you want to convert PNG to JPEG, you could load the stream into `System.Drawing.Image`, re‑encode, and write the new bytes before setting `args.Uri`.
+The callback receives the original image stream. If you want to convert PNG to JPEG, you could load the stream into `System.Drawing.Image`, re‑encode, and write the new bytes before setting `args.ResourceFileUri`.
 
 **Is the `ResourceSavingCallback` thread‑safe?**  
-Aspose.Words invokes the callback sequentially for each resource, so
+Aspose.Words invokes the callback for each resource synchronously. If you perform asynchronous work inside the callback or share mutable state, you must provide your own synchronization.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
