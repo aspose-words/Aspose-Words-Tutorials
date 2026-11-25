@@ -109,7 +109,7 @@ Console.WriteLine($"Word document converted to markdown at: {markdownPath}");
 
 ## Extract images from DOCX and save them
 
-The callback class implements `IResourceSavingCallback`. Inside we receive a `ResourceSavingArgs` object that contains the original image stream and the suggested file name. We then write that stream to disk, rename the file if we like, and tell Aspose we’ve handled it.
+The callback class implements `IResourceSavingCallback`. Inside we receive a `ResourceSavingArgs` object that contains the original image stream and the suggested file name. We then write that stream to disk, rename the file if we like, and let Aspose use the new file name in the markdown reference.
 
 ```csharp
 using Aspose.Words.Saving;
@@ -139,12 +139,12 @@ public class ImageSavingCallback : IResourceSavingCallback
         // **Copy stream to file** – the core of the image extraction
         using (FileStream fs = new FileStream(fullPath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
 
         // Tell Aspose to use our new path in the markdown reference
         args.ResourceFileName = Path.Combine("MyImages", newFileName);
-        args.Handled = true; // Prevent default saving logic
+        // No need to set a Handled flag – the callback replaces the default behavior
     }
 }
 ```
@@ -166,7 +166,7 @@ Because we changed `args.ResourceFileName` to a relative path, the markdown poin
 
 ## Copy stream to file – handling the image data
 
-You might wonder why we don’t just call `File.WriteAllBytes`. The answer lies in **stream flexibility**. `args.Stream` could be a memory stream, a network stream, or any other implementation. By using `CopyTo`, we stay agnostic and let .NET handle buffer sizing efficiently.
+You might wonder why we don’t just call `File.WriteAllBytes`. The answer lies in **stream flexibility**. `args.ResourceStream` could be a memory stream, a network stream, or any other implementation. By using `CopyTo`, we stay agnostic and let .NET handle buffer sizing efficiently.
 
 Here’s a compact utility method if you ever need to copy a generic stream elsewhere:
 
@@ -241,10 +241,10 @@ public class ImageSavingCallback : IResourceSavingCallback
         string fullPath = Path.Combine(_targetFolder, newFileName);
         using (FileStream fs = new FileStream(fullPath, FileMode.Create, FileAccess.Write))
         {
-            args.Stream.CopyTo(fs);
+            args.ResourceStream.CopyTo(fs);
         }
         args.ResourceFileName = Path.Combine("MyImages", newFileName);
-        args.Handled = true;
+        // No Handled flag needed; the callback overrides the default saving behavior
     }
 }
 ```
@@ -262,7 +262,11 @@ Open the markdown in any viewer (VS Code, GitHub, or a static‑site generator
 
 | Question | Answer |
 |----------|--------|
-| **What if the target folder already has files?** | `Directory.CreateDirectory` won’t overwrite. If you need a clean run, delete
+| **What if the target folder already has files?** | `Directory.CreateDirectory` won’t overwrite. If you need a clean run, delete the existing files in the images folder before conversion. |
+| **Why isn’t there a `Handled` property?** | `ResourceSavingArgs` does not expose a `Handled` flag. By setting `args.ResourceFileName` and writing the stream, the callback replaces the default saving logic automatically. |
+| **Can I change the image format?** | The stream contains the original image format. To convert, read the stream into an `Image` (e.g., `System.Drawing.Image`) and save it in a different format before writing to disk. |
+| **What if the document has no images?** | The callback simply won’t be invoked, and the markdown will contain no image references. |
+| **Do I need to set `ExportImagesAsBase64`?** | No. By providing a `ResourceSavingCallback` we control how images are saved, so the default `ExportImagesAsBase64` setting (false) is fine. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
