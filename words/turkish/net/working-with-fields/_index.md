@@ -46,7 +46,6 @@ Bu, Aspose.Words for .NET kitaplığını kullanarak Word belgelerindeki alanlar
 | [Belgedeki Alanları Dönüştür](./convert-fields-in-document/) | Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki alanları nasıl dönüştüreceğinizi öğrenin. Belgelerinizdeki alanları verimli bir şekilde yönetmek ve dönüştürmek için eğitimimizi izleyin. |
 | [Gövdedeki Alanları Dönüştür](./convert-fields-in-body/) | Word belgesinin gövdesindeki Sayfa alanlarını metne dönüştürmek için Aspose.Words for .NET'in nasıl kullanılacağını öğrenin. |
 | [Yerel Ayarı Değiştir](./change-locale/) Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki yerel ayarları nasıl değiştireceğinizi öğrenin. Uluslararası müşteriler ve projelerle başa çıkmak için mükemmeldir. |
-| [Aspose.Words kullanarak fatura şablonu oluşturma ve verileri birleştirme](./create-invoice-template-and-merge-data-using-aspose-words/) Aspose.Words for .NET ile fatura şablonu oluşturun ve verileri birleştirerek otomatik belge üretin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
