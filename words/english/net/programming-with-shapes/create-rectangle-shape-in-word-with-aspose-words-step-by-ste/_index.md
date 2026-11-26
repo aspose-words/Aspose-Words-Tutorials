@@ -79,14 +79,14 @@ rectangleShape.Height = 100; // height in points (≈1.39 inches)
 
 ## Step 3: **How to add shadow** – making the shape pop
 
-Shadows give a visual cue that the shape is “lifted” off the page. The `Shadow` property lets you tweak color, distance, transparency, and blur.
+Shadows give a visual cue that the shape is “lifted” off the page. The `ShadowFormat` property lets you set the shadow color, transparency, and choose a preset type that defines offset and blur.
 
 ```csharp
 // Step 3: Apply a shadow to the shape
-rectangleShape.Shadow.Color        = Color.Black; // Shadow color
-rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
-rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
-rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
+rectangleShape.ShadowFormat.Color = Color.Black; // Shadow color
+rectangleShape.ShadowFormat.Transparency = 0.4; // 40 % transparent
+// Optionally, choose a preset shadow type (e.g., Shadow1) to define offset and blur.
+rectangleShape.ShadowFormat.Type = Aspose.Words.Drawing.ShadowType.Shadow1;
 ```
 
 > **Why use transparency?** A fully opaque shadow can look harsh. Setting it to 0.4 makes the effect subtle and professional.
@@ -149,9 +149,9 @@ If the shape doesn’t appear, double‑check that you’ve referenced the corre
 
 | Question | Answer |
 |----------|--------|
-| *Can I change the shadow color to something other than black?* | Absolutely—set `rectangleShape.Shadow.Color = Color.Blue;` or any `System.Drawing.Color`. |
+| *Can I change the shadow color to something other than black?* | Absolutely—set `rectangleShape.ShadowFormat.Color = Color.Blue;` or any `System.Drawing.Color`. |
 | *What if I need a larger rectangle?* | Adjust `Width` and `Height` values. Remember they’re in points; 72 pt = 1 in. |
-| *Is it possible to place the shape at an absolute position?* | Yes—use `WrapType = WrapType.Absolute` and set `Top`/`Left` properties. |
+| *Is it possible to place the shape at an absolute position?* | Yes—set the shape to a floating shape (e.g., `WrapType = WrapType.None`), then specify its position using `Left`, `Top`, and optionally `RelativeHorizontalPosition = RelativeHorizontalPosition.Page` and `RelativeVerticalPosition = RelativeVerticalPosition.Page`. |
 | *Does this work with .NET Core?* | It does. Aspose.Words is cross‑platform; just install the NuGet package for .NET Standard. |
 | *Can I add text inside the rectangle?* | Not directly; you’d need to insert a `TextBox` shape instead of a plain rectangle. |
 
@@ -177,10 +177,9 @@ class Program
         rectangleShape.Height = 100;
 
         // 3️⃣ Add a subtle black shadow
-        rectangleShape.Shadow.Color         = Color.Black;
-        rectangleShape.Shadow.Distance     = 5;
-        rectangleShape.Shadow.Transparency = 0.4;
-        rectangleShape.Shadow.BlurRadius   = 8;
+        rectangleShape.ShadowFormat.Color = Color.Black;
+        rectangleShape.ShadowFormat.Transparency = 0.4;
+        rectangleShape.ShadowFormat.Type = ShadowType.Shadow1;
 
         // 4️⃣ Make the shape flow inline with text
         rectangleShape.WrapType = WrapType.Inline;
