@@ -31,7 +31,7 @@ url: /net/programming-with-shapes/create-rectangle-shape-with-shadow-in-c-using-
 
 Ever needed to **create rectangle shape** in a Word document but weren’t sure how to give it a subtle drop‑shadow? You’re not alone—many developers hit that snag when they first dabble with document automation. In this guide we’ll walk through exactly how to **add shadow to shape** using Aspose.Words, and we’ll also answer “**how to add shadow**”, “**how to create rectangle**”, and “**how to set shadow**” along the way.
 
-We’ll start with a clean‑slate `Document`, draw a rectangle, turn on its shadow, tweak the blur, distance, angle, and color, and finally save the file. By the end you’ll have a ready‑to‑use `.docx` that shows a gray‑toned rectangle floating just above the page. No mystery, just straight‑forward code you can copy‑paste into any .NET project.
+We’ll start with a clean‑slate `Document`, draw a rectangle, enable its shadow, tweak the color and transparency, and finally save the file. By the end you’ll have a ready‑to‑use `.docx` that shows a gray‑toned rectangle floating just above the page. No mystery, just straight‑forward code you can copy‑paste into any .NET project.
 
 ## Prerequisites
 
@@ -72,23 +72,20 @@ Why pick 200 × 100 points? It’s a decent size for a demo – large enough
 
 ## Step 3: Enable the shadow effect and configure its appearance
 
-Here’s the heart of the tutorial: **how to add shadow** and **how to set shadow** properties. Aspose.Words exposes a `Shadow` object on every shape, letting you toggle the effect and tweak visual parameters.
+Aspose.Words exposes a `ShadowFormat` object on every shape, letting you turn the effect on by assigning a preset type and then adjust its color and transparency.
 
 ```csharp
 // Step 3: Enable the shadow effect and configure its appearance
-rectangleShape.Shadow.Enabled    = true;                     // turn the shadow on
-rectangleShape.Shadow.BlurRadius = 5;                       // blur radius in pixels
-rectangleShape.Shadow.Distance   = 8;                       // distance from the shape in pixels
-rectangleShape.Shadow.Angle      = 45;                      // direction of the light source (degrees)
-rectangleShape.Shadow.Color      = System.Drawing.Color.Gray; // shadow color
+rectangleShape.ShadowFormat.Type = ShadowType.Shadow2;          // preset shadow
+rectangleShape.ShadowFormat.Color = System.Drawing.Color.Gray; // shadow color
+rectangleShape.ShadowFormat.Transparency = 0.5;                // 0 = opaque, 1 = fully transparent
 ```
 
-* **BlurRadius** softens the edges – a higher value makes the shadow look more diffused.
-* **Distance** pushes the shadow farther away from the rectangle.
-* **Angle** determines where the light appears to come from; 45° gives a diagonal, natural‑look.
-* **Color** lets you pick any `System.Drawing.Color`. Gray is a safe default, but you could go bold with `Color.Black` or subtle with `Color.LightGray`.
+* **Type** selects one of the predefined shadow presets. Setting it automatically makes the shadow visible.
+* **Color** lets you pick any `System.Drawing.Color`. Gray is a safe default, but you could use `Color.Black` or `Color.LightGray`.
+* **Transparency** controls how see‑through the shadow is. A lower value (closer to 0) makes the shadow more opaque; a higher value (closer to 1) makes it more transparent.
 
-Pro tip: If you set `Enabled = false`, all other shadow settings are ignored, so always double‑check that flag.
+Pro tip: If you later want to remove the shadow completely, call `rectangleShape.ShadowFormat.Clear();`.
 
 ## Step 4: Insert the shape into the document body
 
@@ -110,7 +107,7 @@ Finally, we write the file to disk. Change the path to wherever you like; the fo
 document.Save(@"C:\Temp\ShadowedRectangle.docx");
 ```
 
-Open the resulting `ShadowedRectangle.docx` in Microsoft Word (or LibreOffice) and you should see a gray rectangle with a crisp, diagonal shadow drifting down‑right. If the shadow looks too faint, increase `BlurRadius` or `Distance` and re‑run the code – experimentation is part of the fun.
+Open the resulting `ShadowedRectangle.docx` in Microsoft Word (or LibreOffice) and you should see a gray rectangle with a subtle shadow. If the shadow looks too faint, lower the `Transparency` value (move it closer to 0) or choose a darker `Color`, then re‑run the code – experimentation is part of the fun.
 
 ![Create rectangle shape with shadow example](rectangle-shadow.png){alt="Create rectangle shape with shadow example"}
 
@@ -118,7 +115,7 @@ Open the resulting `ShadowedRectangle.docx` in Microsoft Word (or LibreOffice) a
 
 * A single‑page Word document.
 * A 200 × 100‑point gray rectangle positioned at the top‑left of the page.
-* A subtle gray shadow offset by 8 pixels at a 45° angle, blurred by 5 pixels.
+* A subtle gray shadow defined by the selected preset, with 50 % transparency.
 
 ## How to add shadow to shape – deeper dive
 
@@ -128,7 +125,7 @@ You might wonder, *“Can I animate the shadow or make it change based on user i
 Color[] shadowColors = { Color.Gray, Color.Black, Color.DarkSlateGray };
 foreach (var col in shadowColors)
 {
-    rectangleShape.Shadow.Color = col;
+    rectangleShape.ShadowFormat.Color = col;
     document.Save($@"C:\Temp\Shadow_{col.Name}.docx");
 }
 ```
@@ -143,7 +140,7 @@ If you need a rounded rectangle, simply switch the `ShapeType`:
 Shape rounded = new Shape(document, ShapeType.RoundRectangle);
 rounded.Width  = 200;
 rounded.Height = 100;
-rounded.Shadow.Enabled = true; // shadow works the same way
+rounded.ShadowFormat.Type = ShadowType.Shadow2; // shadow works the same way
 ```
 
 Or, for a perfect square, set `Width` equal to `Height`. The same shadow properties apply, so you’re already covered on **how to add shadow** for any shape you choose.
@@ -152,8 +149,8 @@ Or, for a perfect square, set `Width` equal to `Height`. The same shadow propert
 
 | Symptom | Likely cause | Fix |
 |---------|--------------|-----|
-| Shadow doesn’t appear | `Shadow.Enabled` left as `false` | Set `rectangleShape.Shadow.Enabled = true;` |
-| Shadow looks too sharp | `BlurRadius` set to 0 | Increase `BlurRadius` to at least 3 |
+| Shadow doesn’t appear | `ShadowFormat.Type` left as default (`ShadowMixed`) | Set a preset, e.g., `rectangleShape.ShadowFormat.Type = ShadowType.Shadow2;` |
+| Shadow looks too faint | `Transparency` set too high (close to 1) | Decrease `Transparency` toward 0 |
 | Document throws `FileNotFoundException` on save | Destination folder doesn’t exist | Create the folder first or use a valid path |
 | Shape is invisible | Width/Height set to 0 | Ensure both dimensions are > 0 |
 
@@ -162,7 +159,7 @@ Keeping an eye on these issues saves you from the classic “why isn’t my shap
 ## Recap – what we’ve accomplished
 
 * **Create rectangle shape** in a new Word document using Aspose.Words.  
-* **Add shadow to shape** by toggling the `Shadow.Enabled` flag and tweaking blur, distance, angle, and color.  
+* **Add shadow to shape** by assigning a `ShadowFormat.Type` preset and adjusting color and transparency.  
 * Demonstrated **how to add shadow**, **how to create rectangle**, and **how to set shadow** in a clean, reusable code snippet.  
 * Provided a complete, ready‑to‑run example that you can paste into any C# project.
 
@@ -170,11 +167,11 @@ Keeping an eye on these issues saves you from the classic “why isn’t my shap
 
 Now that you’ve mastered the basics, consider exploring:
 
-* **How to add shadow to images** – the same `Shadow` API works for `ShapeType.Image`.
+* **How to add shadow to images** – the same `ShadowFormat` API works for `ShapeType.Image`.
 * **Combining multiple shapes** – create flowcharts or infographics directly in Word.
 * **Exporting to PDF** – call `document.Save("output.pdf")` after adding shadows for a printable version.
 
-Feel free to experiment with different colors, angles, or even gradient fills. The API is flexible enough to let you craft professional‑looking documents without ever opening Word manually.
+Feel free to experiment with different colors, transparency levels, or even gradient fills. The API is flexible enough to let you craft professional‑looking documents without ever opening Word manually.
 
 ---
 
