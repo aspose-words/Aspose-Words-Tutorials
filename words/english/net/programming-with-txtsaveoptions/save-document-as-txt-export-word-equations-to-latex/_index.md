@@ -36,7 +36,7 @@ In this tutorial we’ll walk through converting a Word file to a plain‑text f
 ## What You’ll Walk Away With
 
 - A step‑by‑step guide that starts with a fresh .NET console app and ends with a `Equations.txt` file full of LaTeX.
-- Understanding *why* `OfficeMathExportMode.LaTeX` is the right choice for preserving math.
+- Understanding *why* `TxtOfficeMathExportMode.Latex` is the right choice for preserving math.
 - Tips for handling multiple equations, complex layouts, and common pitfalls such as missing fonts.
 - A ready‑to‑run code sample that you can copy, paste, and execute right now.
 
@@ -59,7 +59,7 @@ cd TxtExportDemo
 dotnet add package Aspose.Words
 ```
 
-That one‑liner pulls the latest Aspose.Words binaries and adds them to your project file. In my experience, using the latest version (currently 24.10) avoids a handful of obscure bugs around Office Math handling.
+That one‑liner pulls the latest Aspose.Words binaries and adds them to your project file. In my experience, using the latest version avoids a handful of obscure bugs around Office Math handling.
 
 ## Step 2 – Load the Word Document
 
@@ -83,18 +83,19 @@ Why load it this way? `Document` parses the entire OpenXML package, exposing ima
 
 ## Step 3 – Configure TXT Save Options to Export Equations as LaTeX
 
-Here’s the heart of the tutorial. By default, saving as plain‑text strips out everything except raw characters. Setting `OfficeMathExportMode` to `LaTeX` tells Aspose.Words to replace each `OfficeMath` node with its LaTeX representation.
+Here’s the heart of the tutorial. By default, saving as plain‑text strips out everything except raw characters. Setting `OfficeMathExportMode` to `Latex` tells Aspose.Words to replace each `OfficeMath` node with its LaTeX representation.
 
 ```csharp
+using Aspose.Words.Saving;
 // Step 3: Configure TXT save options to export Office Math as LaTeX
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions
 {
     // This converts every equation into LaTeX syntax.
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 ```
 
-**Why LaTeX?** LaTeX is the lingua franca of scientific publishing. When you later feed the resulting `.txt` file into a LaTeX editor or a markdown processor that understands `$…$`, the equations render perfectly. If you prefer MathML or plain Unicode, Aspose.Words also supports those modes—just swap the enum value.
+**Why LaTeX?** LaTeX is the lingua franca of scientific publishing. When you later feed the resulting `.txt` file into a LaTeX editor or a markdown processor that understands `$…$`, the equations render perfectly. If you prefer plain text, Aspose.Words also supports that mode—just use `TxtOfficeMathExportMode.Text`.
 
 ## Step 4 – Save the Document as a Plain‑Text File
 
@@ -127,7 +128,7 @@ Notice the `\[` … `\]` delimiters—those are the LaTeX “display math” mar
 
 Open the generated file in any text editor. If you see raw LaTeX strings, you’ve succeeded. If the equations appear as garbled characters, double‑check two things:
 
-1. **OfficeMathExportMode** – make sure it’s set to `LaTeX`.  
+1. **OfficeMathExportMode** – make sure it’s set to `Latex`.  
 2. **Document version** – older .doc files sometimes store equations in a proprietary format; convert them to .docx first.
 
 A quick sanity check is to paste the contents into an online LaTeX renderer (like Overleaf). If the equations render, you’re golden.
@@ -146,23 +147,11 @@ File.WriteAllText(@"C:\Path\To\Equations.txt", txt);
 
 ### Preserving Non‑Math Formatting
 
-Plain‑text cannot hold bold or italic styles, but you can ask Aspose.Words to add markdown markers:
-
-```csharp
-txtSaveOptions.AdditionalExportOptions = TxtExportOptions.Markdown;
-```
-
-Now bold text appears as `**bold**`, and italics as `_italic_`. This is handy if you later pipe the file into a static‑site generator.
+Plain‑text cannot hold bold or italic styles. `TxtSaveOptions` does not provide a built‑in way to add markdown markers. If you need such formatting you must post‑process the generated `.txt` file yourself (e.g., replace `**` and `_` manually) after saving.
 
 ### Exporting to Other Math Formats
 
-If your downstream tool prefers MathML, simply switch:
-
-```csharp
-txtSaveOptions.OfficeMathExportMode = OfficeMathExportMode.MathML;
-```
-
-The rest of the workflow stays identical—showing how easy it is to **convert word to latex** *or* another format with a single line change.
+`TxtSaveOptions` supports only `TxtOfficeMathExportMode.Text` and `TxtOfficeMathExportMode.Latex`. MathML export is not available for plain‑text output. To get MathML you would need to save to another format such as HTML with `HtmlSaveOptions`.
 
 ## Frequently Asked Questions
 
@@ -182,7 +171,7 @@ A: Yes. Iterate through `doc.GetChildNodes(NodeType.OfficeMath, true)` and write
 
 ## Recap – Save Document as TXT with LaTeX Equations in One Shot
 
-We started with a simple question: *how do I save a Word file as txt while keeping the math?* By installing Aspose.Words, loading the document, configuring `TxtSaveOptions` with `OfficeMathExportMode.LaTeX`, and calling `doc.Save`, you now have a reliable pipeline that **save document as txt** and **export equations to latex**.  
+We started with a simple question: *how do I save a Word file as txt while keeping the math?* By installing Aspose.Words, loading the document, configuring `TxtSaveOptions` with `TxtOfficeMathExportMode.Latex`, and calling `doc.Save`, you now have a reliable pipeline that **save document as txt** and **export equations to latex**.  
 
 From here you might:
 
