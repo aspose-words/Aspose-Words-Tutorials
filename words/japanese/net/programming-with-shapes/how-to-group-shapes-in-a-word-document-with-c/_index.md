@@ -245,7 +245,6 @@ namespace ShapeGroupingDemo
 
 - [Aspose.Words for .NET を使用した Word ドキュメントでのグループ形状の作成](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET を使用した Word ドキュメントへの図形挿入](/words/english/net/working-with-shapes/insert-shape/)
-- [C# で Word に矩形図形を作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

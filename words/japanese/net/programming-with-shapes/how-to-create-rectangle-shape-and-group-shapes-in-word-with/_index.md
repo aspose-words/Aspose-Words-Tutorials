@@ -259,7 +259,6 @@ class Program
 
 - [Aspose.Words for .NET を使用して Word 文書にグループシェイプを作成する](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET を使用して Word 文書にシェイプを挿入する](/words/english/net/working-with-shapes/insert-shape/)
-- [C# を使用して Word に長方形シェイプを作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

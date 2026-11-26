@@ -231,7 +231,6 @@ Aspose.Words 23.10 及以上版本完全支持 `GroupShape` 和 `StructuredDocum
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步学习。每个资源都提供完整的可运行代码示例和一步步的解释，帮助您掌握更多 API 功能并在自己的项目中探索替代实现方案。
 
 - [使用 Aspose.Words for .NET 在 Word 文档中创建组形状](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 C# 在 Word 中创建矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [使用 Aspose.Words 创建空白 Word 文档 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -293,7 +293,6 @@ class Program
 以下教學與本指南所示技術緊密相關，能進一步深化您的應用。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [使用 Aspose.Words for .NET 在 Word 文件中建立群組形狀](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 C# 建立 Word 矩形形狀 – 步驟教學](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [從 Word 產生 markdown – 完整 C# 教學](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -288,7 +288,6 @@ static Document CreateBlankWordFile()
 
 - [Aspose.Words for .NET を使用した Word 文書でのグループ形状の作成](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET を使用した Word 文書への図形挿入](/words/english/net/working-with-shapes/insert-shape/)
-- [C# で矩形図形を作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

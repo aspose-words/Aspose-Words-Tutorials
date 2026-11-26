@@ -297,7 +297,6 @@ Diese Erweiterungen ermöglichen den Aufbau vollständig automatisierter Dokumen
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Erstelle Group Shape in Word-Dokument mit Aspose.Words für .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Erstelle Rechteckform in Word mit C# – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Erstelle Markdown aus Word – Vollständiger C#‑Leitfaden](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

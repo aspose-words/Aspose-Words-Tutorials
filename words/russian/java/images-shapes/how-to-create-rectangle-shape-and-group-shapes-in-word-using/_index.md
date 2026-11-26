@@ -246,7 +246,6 @@ class ShapeDemo
 
 - [Как создать прямоугольную форму и сгруппировать формы в Word с помощью Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Создать групповую форму в документе Word с использованием Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

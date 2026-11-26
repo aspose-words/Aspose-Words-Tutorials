@@ -260,7 +260,6 @@ Aspose.Words 将阴影渲染为矢量效果，兼容性相当好。但极老的�
 以下教程涵盖了与本指南技术紧密相关的主题，帮助你在项目中进一步扩展技巧。每篇资源都提供完整的可运行代码示例以及逐步解释，帮助你掌握更多 API 功能并探索替代实现方式。
 
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

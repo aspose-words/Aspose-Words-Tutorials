@@ -257,7 +257,6 @@ A: 转换为 PDF 时，默认会省略隐藏的形状，行为与 Word 的渲染
 以下教程涵盖与本指南技术紧密相关的主题，帮助您在实际项目中进一步应用这些技巧。每个资源都提供完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能并探索替代实现方式。
 
 - [Insert Shapes in Word Documents Using Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

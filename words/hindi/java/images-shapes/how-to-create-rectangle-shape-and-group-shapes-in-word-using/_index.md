@@ -246,7 +246,6 @@ class ShapeDemo
 
 - [Aspose.Words के साथ Word में आयताकार आकार बनाना और आकारों को समूहित करना](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह आकार बनाना](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# का उपयोग करके Word में आयताकार आकार बनाना – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

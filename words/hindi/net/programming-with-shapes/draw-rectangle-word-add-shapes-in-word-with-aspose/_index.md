@@ -206,7 +206,6 @@ Aspose.Words पुराने `.doc` फॉर्मेट में सेव
 
 निम्नलिखित ट्यूटोरियल्स उन निकट-संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API फीचर में निपुण बनने और अपने प्रोजेक्ट में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर करने में मदद करती हैं।
 
-- [C# का उपयोग करके Word में rectangle shape बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words के साथ Word में rectangle shape बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में Shapes डालें](/words/english/net/working-with-shapes/insert-shape/)
 

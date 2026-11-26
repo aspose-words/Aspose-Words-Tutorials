@@ -224,7 +224,6 @@ print(f"Document saved to {output_path}")
 以下教學涵蓋與本指南密切相關的主題，建立在此處示範的技術之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [在 Java 中建立 Word 文件 – 加入帶陰影的矩形形狀](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [在 Word 中使用 C# 建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

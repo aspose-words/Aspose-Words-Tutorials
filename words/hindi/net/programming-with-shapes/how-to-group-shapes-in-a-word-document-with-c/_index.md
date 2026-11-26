@@ -247,7 +247,6 @@ namespace ShapeGroupingDemo
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह आकृति बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में आकृतियों को डालें](/words/english/net/working-with-shapes/insert-shape/)
-- [C# – चरण‑दर‑चरण गाइड के साथ Word में आयताकार आकृति बनाएं](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

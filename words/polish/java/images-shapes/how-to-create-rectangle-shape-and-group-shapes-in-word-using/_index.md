@@ -247,7 +247,6 @@ Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają tech
 
 - [Jak utworzyć kształt prostokąta i grupować kształty w Wordzie przy użyciu Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Tworzenie kształtu grupy w dokumencie Word przy użyciu Aspose.Words dla .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Tworzenie kształtu prostokąta w Wordzie przy użyciu C# – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -46,7 +46,6 @@
 | [Aspose.Words के साथ Word में आयत आकार और समूह आकृतियाँ बनाना](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार और समूह आकृतियों को बनाने की चरण‑दर‑चरण गाइड। |
 | [शैडो वाले आयत के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | .NET के लिए Aspose.Words का उपयोग करके शैडो वाले आयत आकार के साथ Word दस्तावेज़ बनाना सीखें। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑शरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके दृश्य हमेशा सटीक हों। |
-| [C# का उपयोग करके Word में आयत आकार बनाएं – चरण‑दर‑चरण गाइड](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकृति जोड़ना और अनुकूलित करना सीखें। |
 | [C# का उपयोग करके Word में आकृति को छिपाने का तरीका – चरण‑दर‑चरण गाइड](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति को छिपाने के चरण‑दर‑चरण निर्देश। |
 | [C# के साथ Word में आयत आकार डालें – पूर्ण गाइड](./insert-rectangle-shape-in-word-with-c-complete-guide/) | C# और Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार जोड़ने के लिए चरण‑दर‑शरण पूर्ण गाइड। |
 | [वर्टिकल एंकर](./vertical-anchor/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण‑दर‑श...|

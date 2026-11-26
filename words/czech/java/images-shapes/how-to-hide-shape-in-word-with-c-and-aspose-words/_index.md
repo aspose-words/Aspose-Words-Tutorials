@@ -286,7 +286,6 @@ Dále prozkoumejte související témata, jako je **aktualizace vlastností tvar
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Vkládání tvarů do Word dokumentů pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Vytvoření obdélníkového tvaru ve Wordu pomocí C# – krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Vytvoření skupinového tvaru ve Word dokumentu pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
