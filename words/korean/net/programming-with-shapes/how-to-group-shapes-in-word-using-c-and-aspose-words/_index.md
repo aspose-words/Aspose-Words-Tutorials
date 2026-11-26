@@ -207,7 +207,6 @@ class Program
 
 - [Aspose.Words for .NET을 사용하여 Word 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET을 사용하여 Word 문서에 도형 삽입](/words/english/net/working-with-shapes/insert-shape/)
-- [Word에서 사각형 도형 만들기 – 전체 Aspose.Words 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -205,7 +205,6 @@ class Program
 
 - [إنشاء مجموعة شكل في مستند Word باستخدام Aspose.Words لـ .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [إدراج أشكال في مستندات Word باستخدام Aspose.Words لـ .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [إنشاء شكل مستطيل في Word – دليل Aspose.Words الكامل](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
