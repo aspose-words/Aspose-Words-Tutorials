@@ -26,7 +26,6 @@
 | --- | --- |
 | [समूह आकार जोड़ें](./add-group-shape/) | इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में समूह आकृतियों को जोड़ना सीखें। |
 | [Word में समूह आकृतियाँ – Aspose.Words के साथ पूर्ण C# गाइड](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को जोड़ने और प्रबंधित करने के लिए विस्तृत C# चरण‑दर‑शिक्षा। |
-| [Aspose.Words for C# के साथ Word में आकृतियों को समूहित करना](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C# का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने की प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word में समूह आकृतियों – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-using-c-complete-programming-guide/) | C# के साथ Word में समूह आकृतियों को जोड़ने और प्रबंधित करने के लिए पूर्ण मार्गदर्शिका |
 | [आकृति डालें](./insert-shape/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करना और उनमें हेरफेर करना सीखें। |
 | [C# और Aspose.Words का उपयोग करके Word में आकृतियों को समूहित करें](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C# कोड के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को जोड़ने की चरण‑दर‑शरण मार्गदर्शिका। |

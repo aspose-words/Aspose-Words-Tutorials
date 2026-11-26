@@ -26,7 +26,6 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | --- | --- |
 | [Dodaj kształt grupy](./add-group-shape/) | Dowiedz się, jak dodawać kształty grupowe do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku. |
 | [Kształty grupowe w Wordzie z Aspose.Words – kompletny przewodnik C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Dowiedz się, jak tworzyć i zarządzać grupowymi kształtami w Wordzie przy użyciu Aspose.Words i C#. |
-| [Jak grupować kształty w Wordzie przy użyciu Aspose.Words dla C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Dowiedz się, jak grupować kształty w dokumencie Word przy użyciu Aspose.Words dla C# w kilku prostych krokach. |
 | [Jak grupować kształty w Wordzie przy użyciu C# i Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Dowiedz się, jak grupować kształty w dokumencie Word przy użyciu C# i biblioteki Aspose.Words. |
 | [Wstaw kształt](./insert-shape/) | Dowiedz się, jak wstawiać i manipulować kształtami w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Jak ustawić cień na kształtach w C# – Kompletny przewodnik Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Dowiedz się, jak dodać cień do kształtów w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |

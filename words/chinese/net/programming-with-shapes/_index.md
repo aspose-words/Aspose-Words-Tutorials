@@ -60,7 +60,6 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | [在 Word 中对形状进行分组并将形状添加到 Word 文档](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) 学习如何在 Word 文档中对形状进行分组并添加新形状的分步指南。|
 | [使用 Aspose.Words 创建空白 Word 文档并添加彩色形状](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) 通过本分步指南学习如何使用 Aspose.Words for .NET 创建空白 Word 文档并添加彩色形状。|
 | [如何使用 Aspose.Words 在 C# 中创建隐藏形状的 docx](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 C# 中创建隐藏形状的 Word 文档。|
-| [使用 Aspose.Words for C# 在 Word 中对形状进行分组](./how-to-group-shapes-in-word-with-aspose-words-for-c/) 通过本分步指南学习如何使用 Aspose.Words for C# 在 Word 文档中对形状进行分组。|
 | [在 C# 中创建空白 Word 文档并分组形状](./how-to-create-blank-word-document-and-group-shapes-in-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 C# 中创建空白的 Word 文档并将形状分组。|
 | [创建空白 Word 文档并添加矩形形状](./create-a-blank-word-document-and-add-a-rectangle-shape/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在空白 Word 文档中添加矩形形状。|
 
