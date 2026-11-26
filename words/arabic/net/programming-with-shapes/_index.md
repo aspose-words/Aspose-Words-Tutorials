@@ -55,7 +55,6 @@
 | [حفظ ملف docx بأشكال مجموعة في Word باستخدام C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | تعلم كيفية حفظ مستند Word يحتوي على أشكال مجموعة باستخدام C#. |
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
 | [إدراج شكل مستطيل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# و Aspose.Words خطوة بخطوة. |
-| [كيفية إضافة ظل إلى الأشكال في C# – دليل Aspose.Words الكامل](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | تعرّف على كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
 | [إنشاء شكل مستطيل وتجميع أشكال متعددة في C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | تعلم كيفية إنشاء شكل مستطيل وتجميع عدة أشكال في مستند Word باستخدام C# و Aspose.Words. |
 | [كيفية إنشاء شكل مخفي في ملف docx باستخدام Aspose.Words في C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | تعلم كيفية إنشاء شكل مخفي في مستند Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |

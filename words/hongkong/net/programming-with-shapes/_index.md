@@ -52,7 +52,6 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [在 Word 中繪製矩形 – 使用 Aspose 添加形狀](./draw-rectangle-word-add-shapes-in-word-with-aspose/) |透過本教學學習如何使用 Aspose.Words for .NET 在 Word 文件中繪製矩形形狀並加入其他形狀。 |
 | [在 Word 中使用 C# 隱藏形狀 – 逐步指南](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |透過本逐步教學了解如何在 C# 中隱藏 Word 文件的形狀。 |
 | [在 Word 中如何群組形狀並將形狀新增至 Word 文件](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) |了解如何在 Word 中將形狀分組並新增至文件。 |
-| [在 C# 中設定形狀陰影 – 完整 Aspose.Words 指南](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) |透過本完整指南學習如何在 C# 使用 Aspose.Words 為 Word 形狀新增陰影效果。 |
 | [在 C# 中建立矩形形狀並將多個形狀分組](./create-rectangle-shape-and-group-multiple-shapes-in-c/) |學習如何在 C# 中使用 Aspose.Words for .NET 建立矩形形狀並將多個形狀分組。 |
 | [在 C# 中建立空白 Word 文件並群組形狀](./how-to-create-blank-word-document-and-group-shapes-in-c/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中建立空白 Word 文件並將形狀分組。 |
 | [以程式方式建立 Word 文件並在 C# 中群組形狀](./create-word-document-programmatically-and-group-shapes-in-c/) |透過本教學了解如何使用 Aspose.Words for .NET 以程式方式建立 Word 文件並群組形狀。 |
