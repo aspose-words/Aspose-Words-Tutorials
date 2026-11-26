@@ -234,7 +234,6 @@ Farklı hedef yazı tipleriyle denemeler yapmaktan veya tam taşınabilirlik iç
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımları keşfetmeniz için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Log Font Substitution Warnings – Complete Aspose.Words Guide](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Load With Encoding In Word Document](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

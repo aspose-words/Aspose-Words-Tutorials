@@ -248,7 +248,6 @@ Masz teraz solidne pojęcie o **Aspose Font Warning Handler** i o tym, jak
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu wraz z krok‑po‑kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Włącz ostrzeżenia o zamianie czcionek w Aspose.Words – Kompletny przewodnik](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Przechwytywanie ostrzeżeń o zamianie czcionek w Javie z Aspose.Words – Kompletny przewodnik](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Mistrzowskie ładowanie dokumentów z Aspose.Words dla Pythona](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

@@ -264,7 +264,6 @@ Haben Sie ein kniffliges Schrift‑Ersatz‑Szenario, das Sie beschäftigt? Hint
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
 - [Wie man Schriften in Aspose.Words erkennt – Warnungen & Einstellungen handhaben](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Warnungen für Schriftersetzung in Aspose.Words aktivieren – Vollständiger Leitfaden](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Wie man DOCX lädt und fehlende Schriften erkennt – Vollständiger C#‑Leitfaden](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

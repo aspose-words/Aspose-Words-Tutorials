@@ -232,7 +232,6 @@ Chúc lập trình vui vẻ!
 
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Kích hoạt Cảnh báo Thay thế Phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Ghi lại Cảnh báo Thay thế Phông chữ – Hướng dẫn Aspose.Words đầy đủ](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Tải với Mã hoá trong Tài liệu Word](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

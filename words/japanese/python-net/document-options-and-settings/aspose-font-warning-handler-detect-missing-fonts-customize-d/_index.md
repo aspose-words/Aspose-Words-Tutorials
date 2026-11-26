@@ -225,7 +225,6 @@ First page rendered to first_page.png
 
 以下のチュートリアルは、本ガイドで示した手法を基にした、密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Aspose.Words でフォント置換警告を有効にする – 完全ガイド](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Aspose.Words を使用した Java でのフォント置換警告の取得 – 完全ガイド](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Aspose.Words for Python でドキュメント読み込みをマスターする](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

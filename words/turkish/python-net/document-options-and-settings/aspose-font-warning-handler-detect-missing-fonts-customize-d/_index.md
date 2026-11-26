@@ -247,7 +247,6 @@ Artık **Aspose Font Warning Handler**'ı ve nasıl
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words'ta Yazı Tipi İkame Uyarılarını Etkinleştirme – Tam Kılavuz](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Java'da Aspose.Words ile Yazı Tipi İkame Uyarılarını Yakalama – Tam Kılavuz](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Aspose.Words for Python ile Belge Yüklemeyi Ustalaştırma](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

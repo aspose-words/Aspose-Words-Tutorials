@@ -230,7 +230,6 @@ Happy coding!
 
 다음 튜토리얼에서는 이 가이드에서 다룬 기술을 기반으로 하는 관련 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 포함하고 있어 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
 
-- [Aspose.Words에서 폰트 대체 경고 활성화 – 완전 가이드](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [폰트 대체 경고 로그 기록 – 완전 Aspose.Words 가이드](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Word 문서에서 인코딩으로 로드](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

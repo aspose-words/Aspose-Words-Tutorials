@@ -279,7 +279,6 @@ Document has 3 sections.
 
 - [Захват предупреждений о замене шрифтов в Java с Aspose.Words – Полное руководство](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Использование параметров и настроек документа в Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [Включение предупреждений о замене шрифтов в Aspose.Words – Полное руководство](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

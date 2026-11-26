@@ -269,7 +269,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie z Aspose.Words – Kompletny przewodnik](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Używanie opcji i ustawień dokumentu w Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [Włączanie ostrzeżeń o podstawianiu czcionek w Aspose.Words – Kompletny przewodnik](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

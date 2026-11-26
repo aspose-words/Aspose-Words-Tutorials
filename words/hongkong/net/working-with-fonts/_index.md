@@ -50,7 +50,6 @@
 | [接收警告通知](./receive-warning-notification/) |了解如何在使用 Aspose.Words for .NET 時接收警告通知並管理文件中的任何問題或警告。 |
 | [捕獲字體警告（C#）完整程式設計指南](./capture-font-warnings-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 於 C# 捕獲字體警告，完整程式設計指南。 |
 | [設定警告回呼 – 完整字體處理指南](./set-warning-callback-in-c-complete-guide-to-font-handling/) |了解如何在 Aspose.Words for .NET 中使用 C# 設定字體相關的警告回呼，以便捕捉和處理字體警告。 |
-| [在 Aspose.Words 中啟用字體替換警告 – 完整指南](./enable-font-substitution-warnings-in-aspose-words-complete-g/) |了解如何在 Aspose.Words for .NET 中啟用字體替換警告，以便在文件處理時接收相關通知。 |
 | [如何在 Aspose.Words 中捕獲警告 – 完整指南](./how-to-capture-warnings-in-aspose-words-complete-guide/) |了解如何在 Aspose.Words for .NET 中捕獲並處理警告，以確保文件處理的可靠性。 |
 | [如何捕獲警告 – 設定預設字型設定](./how-to-capture-warnings-set-default-font-settings/) |了解如何在 Aspose.Words for .NET 中捕獲字型相關警告並設定預設字型設定，以確保文件正確顯示。 |
 | [儲存 Word 文件 – 偵測缺少字體](./save-word-document-detect-missing-fonts-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在儲存 Word 文件時偵測缺少的字體。 |

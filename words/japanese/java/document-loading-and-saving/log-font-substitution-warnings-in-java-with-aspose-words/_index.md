@@ -264,7 +264,6 @@ Document has 3 sections.
 
 - [Java で Aspose.Words を使用したフォント置換警告の取得 – 完全ガイド](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Aspose.Words for Java のドキュメントオプションと設定の使用](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [Aspose.Words でフォント置換警告を有効化 – 完全ガイド](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
