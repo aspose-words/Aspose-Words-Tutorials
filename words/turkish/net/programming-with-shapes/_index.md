@@ -26,7 +26,6 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | --- | --- |
 | [Grup Şekli Ekle](./add-group-shape/) | Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine grup şekillerinin nasıl ekleneceğini öğrenin. |
 | [Aspose.Words ile Word'de Grup Şekilleri – Tam C# Kılavuzu](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET ile Word belgelerinde grup şekillerini ekleme, düzenleme ve yönetme adımlarını adım adım öğrenin. |
-| [C# ile Word'de Gruplanmış Şekillerle docx Dosyasını Kaydet](./save-docx-file-with-grouped-shapes-in-word-using-c/) | C# kullanarak Word belgesine gruplanmış şekiller ekleyip dosyayı kaydetmeyi öğrenin. |
 | [Word'de Şekilleri Gruplama ve Şekil Ekleme](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Word belgelerinde şekilleri gruplama ve yeni şekiller ekleme adımlarını öğrenin. |
 | [C#'ta Dikdörtgen Şekil Oluşturma ve Birden Çok Şekli Gruplama](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | C# kullanarak bir dikdörtgen şekil oluşturmayı ve birden fazla şekli gruplamayı adım adım öğrenin. |
 | [C# ve Aspose.Words ile Word'de Şekilleri Gruplama](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C# ve Aspose.Words kullanarak Word belgelerinde şekilleri nasıl gruplayacağınızı öğrenin. |

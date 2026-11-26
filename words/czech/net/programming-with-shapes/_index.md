@@ -26,7 +26,6 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | --- | --- |
 | [Přidat tvar skupiny](./add-group-shape/) | Naučte se, jak přidávat skupinové tvary do dokumentů Wordu pomocí Aspose.Words pro .NET v tomto komplexním návodu krok za krokem. |
 | [Skupinové tvary ve Wordu s Aspose.Words – Kompletní průvodce C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Naučte se, jak pracovat se skupinovými tvary ve Wordu pomocí Aspose.Words v kompletním průvodci pro C#. |
-| [Uložit soubor docx se skupinovými tvary ve Wordu pomocí C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Naučte se, jak uložit dokument Word s seskupenými tvary pomocí Aspose.Words pro .NET v C#. |
 | [Jak seskupit tvary ve Wordu a přidat je do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Naučte se, jak seskupit tvary a přidávat je do dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Vytvořit obdélníkový tvar a seskupit více tvarů v C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Naučte se, jak vytvořit obdélníkový tvar a seskupit více tvarů v dokumentech Word pomocí Aspose.Words pro .NET v C#. |
 | [Jak seskupit tvary ve Wordu pomocí C# a Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Naučte se, jak seskupit tvary ve Wordu pomocí C# a Aspose.Words v tomto podrobném návodu. |
