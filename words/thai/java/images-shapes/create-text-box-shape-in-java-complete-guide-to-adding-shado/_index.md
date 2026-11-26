@@ -276,7 +276,6 @@ API เหมือนกัน; ความแตกต่างเพีย�
 ## คุณควรเรียนรู้อะไรต่อไป?
 
 - [สร้างเอกสาร Word ด้วย Java – เพิ่ม Rectangle Shape พร้อมเอฟเฟกต์เงา](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [สร้างเอกสาร Word เปล่า พร้อม Rectangle Shape ที่มีเงา – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

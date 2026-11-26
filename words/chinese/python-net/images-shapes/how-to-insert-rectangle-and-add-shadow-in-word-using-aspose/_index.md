@@ -224,7 +224,6 @@ print(f"Document saved to {output_path}")
 ## 接下来你可以学习什么？
 
 - [创建 Word 文档（Java） – 添加带阴影的矩形形状](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [创建空白 Word 文档并添加带阴影的矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -207,7 +207,6 @@ public class SDTDemo {
 
 - [Word दस्तावेज़ जावा बनाएं – शैडो इफ़ेक्ट के साथ आयताकार आकार जोड़ें](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Aspose.Words for Java के साथ plain text फ़ाइल कैसे बनाएं](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Shadowed Rectangle Shape के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

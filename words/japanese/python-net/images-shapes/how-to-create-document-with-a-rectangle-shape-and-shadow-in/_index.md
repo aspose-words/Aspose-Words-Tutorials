@@ -254,7 +254,6 @@ Word ドキュメントの自動化をさらに進めたいですか？ テー�
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックを扱っています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能を習得したり、プロジェクトで代替実装アプローチを検討したりするのに役立ちます。
 
 - [矩形シェイプを作成し、影を追加して PDF として保存](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
-- [影付き矩形シェイプで空白の Word 文書を作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words for Pythonで文書変数を管理する方法：完全ガイド](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

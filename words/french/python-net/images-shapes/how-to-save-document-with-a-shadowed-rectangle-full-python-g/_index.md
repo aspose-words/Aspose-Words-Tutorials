@@ -208,7 +208,6 @@ Bon codage, et n’hésitez pas à laisser un commentaire si vous rencontrez des
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités d’API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
 
-- [Créer un document Word vierge avec une forme de rectangle ombré – Guide étape par étape](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Comment enregistrer du Markdown depuis Word – Guide complet Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Comment ajouter une ombre en C# – Guide complet de programmation](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

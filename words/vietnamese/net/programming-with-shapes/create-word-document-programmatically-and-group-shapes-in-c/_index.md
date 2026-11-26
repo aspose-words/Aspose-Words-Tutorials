@@ -248,7 +248,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Tạo nhóm hình dạng trong tài liệu Word bằng Aspose.Words cho .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Tạo tài liệu Word trống với hình chữ nhật có bóng – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

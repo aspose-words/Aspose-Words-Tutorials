@@ -210,7 +210,6 @@ Viel Spaß beim Programmieren, und hinterlassen Sie gerne einen Kommentar, falls
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Leeres Word‑Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Wie man Markdown aus Word speichert – Vollständige Python‑Anleitung](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Wie man in C# Schatten hinzufügt – Vollständige Programmieranleitung](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

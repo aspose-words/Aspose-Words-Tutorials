@@ -247,7 +247,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 
 - [Aspose.Words for .NET を使用して Word 文書にグループシェイプを作成](/words/english/net/working-with-shapes/add-group-shape/)
 - [C# を使用して Word に矩形シェイプを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [影付き矩形シェイプで空白の Word 文書を作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

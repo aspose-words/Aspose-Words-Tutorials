@@ -185,7 +185,6 @@ public class ShapeDemo {
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
 - [Создать групповую фигуру в документе Word с помощью Aspose.Words для .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Создать пустой документ Word с фигурой прямоугольника с тенью – пошаговое руководство](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Создать прямоугольную фигуру в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -252,7 +252,6 @@ Passen Sie gern die Abmessungen, Farben oder sogar mehrere Objekte an – Ihre W
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Word-Dokument mit Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words Java: Umfassender Leitfaden zur Word‑Dokumentenverarbeitung](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

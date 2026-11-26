@@ -227,7 +227,6 @@ class HiddenEllipseDemo
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετιζόμενα θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κυριαρχήσετε επιπλέον δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στην υλοποίηση των δικών σας έργων.
 
-- [Δημιουργία Κενής Εγγράφου Word με Σχήμα Ορθογωνίου με Σκιά – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Δημιουργία Ομαδικού Σχήματος σε Έγγραφο Word Χρησιμοποιώντας το Aspose.Words για .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Δημιουργία Σχήματος Ορθογωνίου σε Word με Aspose.Words – Οδηγός Βήμα‑Βήμα](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 

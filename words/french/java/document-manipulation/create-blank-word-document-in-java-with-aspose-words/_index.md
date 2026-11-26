@@ -190,7 +190,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Créer un document Word Java – Ajouter une forme rectangle avec effet d’ombre](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Comment créer un fichier texte brut avec Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Créer un document Word vierge avec forme rectangle ombrée – Guide étape par étape](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

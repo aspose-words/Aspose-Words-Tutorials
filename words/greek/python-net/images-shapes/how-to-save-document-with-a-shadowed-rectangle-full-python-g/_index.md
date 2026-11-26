@@ -206,7 +206,6 @@ print(f"Document saved successfully at: {output_file}")
 
 Τα παρακάτω σεμινάρια καλύπτουν στενά σχετικά θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κατακτήσετε πρόσθετες δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Δημιουργία Κενής Εγγράφου Word με Σκιώδες Ορθογώνιο Σχήμα – Οδηγός Βήμα‑βήμα](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Πώς να Αποθηκεύσετε Markdown από Word – Πλήρης Οδηγός Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

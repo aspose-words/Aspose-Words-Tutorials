@@ -276,7 +276,6 @@ API는 동일합니다; 차이점은 모양 타입뿐입니다. 텍스트 상자
 ## 다음에 배워야 할 내용은?
 
 - [Java로 Word 문서 만들기 – 사각형 모양에 그림자 효과 추가](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [그림자 사각형 모양이 있는 빈 Word 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

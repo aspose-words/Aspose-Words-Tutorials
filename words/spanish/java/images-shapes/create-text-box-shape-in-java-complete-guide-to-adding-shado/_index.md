@@ -274,7 +274,6 @@ Acabamos de recorrer un ejemplo completo, de extremo a extremo, que te muestra c
 ## ¿Qué deberías aprender a continuación?
 
 - [Crear documento Word Java – Agregar forma de rectángulo con efecto de sombra](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Crear documento Word en blanco con forma de rectángulo sombreada – Guía paso a paso](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

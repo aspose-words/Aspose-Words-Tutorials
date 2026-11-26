@@ -226,7 +226,6 @@ namespace WordButtonDemo
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
 - [Aspose.Words for .NET を使用した Word 文書でのグループシェイプの作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [影付き矩形シェイプ付きの空白のWord文書を作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words for .NET を使用した Word 文書の作成](/words/english/net/add-content-using-document-builder/insert-paragraph/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

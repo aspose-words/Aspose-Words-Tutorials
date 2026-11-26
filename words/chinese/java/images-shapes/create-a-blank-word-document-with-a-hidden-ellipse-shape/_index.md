@@ -231,7 +231,6 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能，并在自己的项目中探索替代实现方法。
 
-- [创建带阴影矩形形状的空白 Word 文档 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [在 Word 中使用 Aspose.Words 创建矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [使用 Aspose.Words for .NET 在 Word 文档中创建组合形状](/words/english/net/working-with-shapes/add-group-shape/)
 

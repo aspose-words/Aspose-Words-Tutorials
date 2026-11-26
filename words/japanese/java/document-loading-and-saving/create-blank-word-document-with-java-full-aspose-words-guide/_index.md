@@ -248,7 +248,6 @@ public class ShapeVisibilityDemo {
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [JavaでWord文書を作成 – 影付き長方形シェイプの追加](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [影付き長方形シェイプで空白のWord文書を作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words Java: Word文書処理の包括的ガイド](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

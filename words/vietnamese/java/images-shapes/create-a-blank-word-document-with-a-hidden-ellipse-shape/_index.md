@@ -233,7 +233,6 @@ Hãy tự do thử nghiệm với các loại hình dạng, kích thước và l
 
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tạo tài liệu Word trống với hình chữ nhật có bóng – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Tạo Group Shape trong tài liệu Word bằng Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

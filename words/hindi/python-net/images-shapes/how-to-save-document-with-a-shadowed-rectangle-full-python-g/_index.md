@@ -204,7 +204,6 @@ print(f"Document saved successfully at: {output_file}")
 
 निम्नलिखित ट्यूटोरियल्स निकट संबंधित विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करती हैं।
 
-- [ब्लैंक Word दस्तावेज़ बनाएं शैडो वाले आयत आकार के साथ – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Word से Markdown कैसे सहेजें – पूर्ण Python गाइड](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

@@ -247,7 +247,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořit skupinový tvar ve Word dokumentu pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Vytvořit obdélníkový tvar ve Wordu pomocí C# – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Vytvořit prázdný Word dokument se stínovaným obdélníkovým tvarem – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

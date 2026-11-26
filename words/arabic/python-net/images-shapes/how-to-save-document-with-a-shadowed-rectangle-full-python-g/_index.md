@@ -203,7 +203,6 @@ print(f"Document saved successfully at: {output_file}")
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [إنشاء مستند Word فارغ مع شكل مستطيل مظلل – دليل خطوة بخطوة](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [كيفية حفظ Markdown من Word – دليل بايثون كامل](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [كيفية إضافة الظل في C# – دليل برمجة كامل](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

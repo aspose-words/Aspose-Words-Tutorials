@@ -234,7 +234,6 @@ Silakan bereksperimen dengan berbagai tipe bentuk, ukuran, dan logika status ter
 
 Tutorial berikut mencakup topik yang sangat terkait dan membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Bayangan – Panduan Langkah demi Langkah](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Buat bentuk persegi panjang di Word dengan Aspose.Words – Panduan Langkah demi Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Buat Bentuk Grup dalam Dokumen Word Menggunakan Aspose.Words untuk .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

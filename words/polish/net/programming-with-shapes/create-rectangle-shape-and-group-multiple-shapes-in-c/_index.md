@@ -231,7 +231,6 @@ Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Utwórz prostokątny kształt w Word przy użyciu C# – Przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Utwórz grupowy kształt w dokumencie Word przy użyciu Aspose.Words dla .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Utwórz pusty dokument Word z cieniowanym prostokątnym kształtem – Przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

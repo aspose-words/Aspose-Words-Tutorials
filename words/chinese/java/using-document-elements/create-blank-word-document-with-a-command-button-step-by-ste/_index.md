@@ -226,7 +226,6 @@ namespace WordButtonDemo
 以下教程涵盖了与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中尝试替代实现方式。每篇资源都提供完整的可运行代码示例和逐步解释。
 
 - [使用 Aspose.Words for .NET 在 Word 文档中创建组合形状](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 Aspose.Words for .NET 创建带阴影矩形形状的空白 Word 文档 – 分步指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [使用 Aspose.Words for .NET 创建 Word 文档](/words/english/net/add-content-using-document-builder/insert-paragraph/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

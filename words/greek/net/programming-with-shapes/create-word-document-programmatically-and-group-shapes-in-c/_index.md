@@ -249,7 +249,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 
 - [Δημιουργία ομαδικού σχήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Δημιουργία σχήματος ορθογωνίου σε Word με C# – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Δημιουργία κενής εγγράφου Word με σχήμα ορθογωνίου με σκιά – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

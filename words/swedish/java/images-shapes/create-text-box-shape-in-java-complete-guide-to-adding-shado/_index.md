@@ -277,7 +277,6 @@ Vi har just gått igenom ett komplett, end‑to‑end‑exempel som visar dig hu
 ## Vad bör du lära dig härnäst?
 
 - [Skapa Word‑dokument Java – Lägg till rektangel‑form med skuggeffekt](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Skapa tomt Word‑dokument med skuggad rektangel‑form – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

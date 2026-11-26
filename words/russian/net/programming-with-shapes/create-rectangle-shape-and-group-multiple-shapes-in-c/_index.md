@@ -231,7 +231,6 @@ namespace GroupShapeDemo
 
 - [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Создать групповую форму в документе Word с использованием Aspose.Words для .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Создать пустой документ Word с теневой прямоугольной формой – пошаговое руководство](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

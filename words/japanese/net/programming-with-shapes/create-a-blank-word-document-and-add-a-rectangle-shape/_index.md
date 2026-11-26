@@ -227,7 +227,6 @@ rectangle.GetShapeRenderer().GetShapeXml()
 
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックを取り上げています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能を習得したり、独自プロジェクトで代替実装を検討したりする際に役立ちます。
 
-- [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

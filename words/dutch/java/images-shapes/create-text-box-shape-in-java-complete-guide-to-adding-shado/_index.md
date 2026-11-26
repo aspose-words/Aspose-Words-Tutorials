@@ -323,7 +323,6 @@ We hebben zojuist een volledig, end‑to‑end voorbeeld doorgenomen dat je laat
 ## Wat moet je hierna leren?
 
 - [Maak Word-document Java – Voeg rechthoekvorm met schaduweffect toe](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Maak leeg Word-document met tekstvak met schaduw – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

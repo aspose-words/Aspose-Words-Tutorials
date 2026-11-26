@@ -183,7 +183,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvoření Word dokumentu v Javě – Přidání obdélníkového tvaru s efektem stínu](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Vytvoření skupinového tvaru ve Word dokumentu pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Vytvoření prázdného Word dokumentu se stínovaným obdélníkovým tvarem – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

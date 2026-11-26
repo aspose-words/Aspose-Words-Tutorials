@@ -233,7 +233,6 @@ Hãy thoải mái điều chỉnh kích thước, màu sắc, hoặc thậm chí
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tạo Tài liệu Word Java – Thêm Hình Chữ Nhật với Hiệu Ứng Bóng](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Tạo Tài liệu Word Trống với Hình Chữ Nhật có Bóng – Hướng dẫn Từng Bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words Java: Hướng dẫn toàn diện về Xử lý Tài liệu Word](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

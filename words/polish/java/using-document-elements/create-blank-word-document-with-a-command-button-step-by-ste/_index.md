@@ -227,7 +227,6 @@ Miłego kodowania i przyjemnego tworzenia bogatszych dokumentów Word z interakt
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Utwórz grupowy kształt w dokumencie Word przy użyciu Aspose.Words dla .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Utwórz pusty dokument Word z kształtem prostokąta z cieniowaniem – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Utwórz dokument Word przy użyciu Aspose.Words dla .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
