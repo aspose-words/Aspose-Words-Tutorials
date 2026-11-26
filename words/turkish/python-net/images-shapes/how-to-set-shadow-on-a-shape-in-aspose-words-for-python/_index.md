@@ -214,7 +214,6 @@ Artık Aspose.Words for Python kullanarak bir şekle **gölge ayarlama** için t
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, adım adım açıklamalarla tam çalışan kod örnekleri içerir ve kendi projelerinizde ek API özelliklerini öğrenmenize ve alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olur.
 
 - [Word'de şekle gölge ekleme – Tam Aspose.Words Kılavuzu](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-- [Dikdörtgen şekil oluştur, gölge ekle ve PDF olarak kaydet](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

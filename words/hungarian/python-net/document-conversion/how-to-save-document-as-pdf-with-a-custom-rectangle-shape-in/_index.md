@@ -220,7 +220,6 @@ Ezek a kiterjesztések ugyanazt a mintát követik: alakzat létrehozása, tulaj
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Téglalap alakzat létrehozása, árnyék hozzáadása és PDF mentése](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Téglalap hozzáadása PDF-hez az Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Dokumentum mentése PDF‑ként az Aspose.Words segítségével – Teljes C# útmutató](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

@@ -217,7 +217,6 @@ if __name__ == "__main__":
 
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [建立矩形形狀、加入陰影並儲存 PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [將矩形加入 PDF（使用 Aspose.Words）– 步驟指南](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [使用 Aspose.Words 將文件儲存為 PDF – 完整 C# 指南](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

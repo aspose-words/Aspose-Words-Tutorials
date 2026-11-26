@@ -192,7 +192,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 以下教學涵蓋與本指南密切相關的主題，建立在所示技術之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
-- [建立矩形形狀、加入陰影並另存為 PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [從 Word 建立 PDF – 完整 Python 指南與 Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

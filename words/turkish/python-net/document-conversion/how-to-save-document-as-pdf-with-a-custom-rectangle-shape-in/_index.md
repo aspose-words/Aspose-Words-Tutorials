@@ -219,7 +219,6 @@ Bu uzantılar aynı modeli izler: bir şekil oluşturun, özelliklerini yapılan
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Dikdörtgen şekli oluştur, gölge ekle ve PDF olarak kaydet](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Aspose.Words ile PDF'ye dikdörtgen ekle – Adım Adım Kılavuz](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words ile Belgeyi PDF Olarak Kaydet – Tam C# Kılavuzu](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

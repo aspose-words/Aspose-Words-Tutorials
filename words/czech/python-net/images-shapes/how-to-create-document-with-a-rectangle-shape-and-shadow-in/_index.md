@@ -254,7 +254,6 @@ Jste připraveni automatizovat další dokumenty Word? Zkuste přidat tabulky, z
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Vytvořit obdélníkový tvar, přidat stín a uložit jako PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Jak spravovat proměnné dokumentu s Aspose.Words v Pythonu: Kompletní průvodce](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
