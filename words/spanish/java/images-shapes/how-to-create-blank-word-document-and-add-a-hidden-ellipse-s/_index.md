@@ -230,7 +230,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Crear forma rectangular en Word usando C# – Guía paso a paso](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Crear forma de grupo en un documento Word usando Aspose.Words para .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Crear documento Word con un rectángulo sombreado – Guía paso a paso](/words/english/net/programming-with-shapes/create-word-document-with-a-shadowed-rectangle-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

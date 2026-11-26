@@ -227,7 +227,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Rechthoekvorm maken in Word met C# – Stapsgewijze handleiding](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Groepvorm maken in Word‑document met Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Word‑document maken met een schaduwrijk rechthoek – Stapsgewijze handleiding](/words/english/net/programming-with-shapes/create-word-document-with-a-shadowed-rectangle-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

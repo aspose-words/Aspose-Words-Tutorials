@@ -232,7 +232,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Téglalap alakzat létrehozása Word‑ben C#‑ban – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Csoport alakzat létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
-- [Word dokumentum létrehozása árnyékolt téglalappal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-word-document-with-a-shadowed-rectangle-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
