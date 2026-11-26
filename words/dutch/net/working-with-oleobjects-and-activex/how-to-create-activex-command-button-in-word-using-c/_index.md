@@ -204,7 +204,6 @@ Vervolgens kun je gerelateerde onderwerpen verkennen, zoals **Aspose.Words Activ
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Maak een Word‑document met Aspose.Words for .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Maak een rechthoekige vorm in Word met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Maak een Word‑document met tabel met Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

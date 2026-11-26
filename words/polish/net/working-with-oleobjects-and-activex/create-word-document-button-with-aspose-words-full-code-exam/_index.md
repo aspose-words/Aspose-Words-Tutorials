@@ -252,7 +252,6 @@ Teraz, gdy opanowałeś podstawy, rozważ następujące pomysły na wyższy pozi
 Poniższe tutoriale obejmują tematy blisko powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz szczegółowe wyjaśnienia, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
 - [Utwórz dokument Word przy użyciu Aspose.Words dla .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Utwórz prostokątny kształt w Wordzie z Aspose.Words – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Wstaw obraz inline do dokumentu Word przy użyciu Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

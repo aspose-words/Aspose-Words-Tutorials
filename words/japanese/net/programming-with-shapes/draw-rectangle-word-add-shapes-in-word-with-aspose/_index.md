@@ -204,7 +204,6 @@ Aspose.Words は古い `.doc` 形式にも保存できますが、最新の図�
 
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックをカバーしています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Aspose.Words で Word に矩形を作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET を使用して Word 文書に図形を挿入する](/words/english/net/working-with-shapes/insert-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

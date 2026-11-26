@@ -276,7 +276,6 @@ Sentiti libero di sperimentare con colori diversi, livelli di blur e valori di o
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell'API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Crea forma rettangolare in Word con Aspose.Words – Guida passo‑per‑passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Crea Forma di Gruppo in un Documento Word usando Aspose.Words per .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

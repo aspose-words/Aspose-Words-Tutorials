@@ -225,7 +225,6 @@ Neváhejte upravit `blur_radius`, `distance` nebo barvu tak, aby odpovídaly va�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Nastavení licence Aspose.Words v Pythonu](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Vytvoření obdélníkového tvaru ve Wordu s Aspose.Words – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

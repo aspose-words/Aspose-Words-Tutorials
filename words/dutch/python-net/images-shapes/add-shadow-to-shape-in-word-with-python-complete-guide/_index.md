@@ -248,7 +248,6 @@ Probeer het, pas de vervaging‑ en opacity‑waarden aan, en zie hoe een kleine
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stapsgewijze uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Maak rechthoekige vorm in Word met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Maak Word‑document Java – Voeg rechthoekige vorm toe met schaduweffect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

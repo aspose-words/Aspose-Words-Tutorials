@@ -247,7 +247,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Utilizzare oggetti OLE e controlli ActiveX in Aspose.Words per Java](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Come creare campi modulo e aggiungere contenuto usando DocumentBuilder in Aspose.Words per Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Creare forma rettangolare in Word con Aspose.Words – Guida passo‑passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

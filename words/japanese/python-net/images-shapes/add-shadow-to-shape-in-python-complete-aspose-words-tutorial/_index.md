@@ -224,7 +224,6 @@ print(f"✅ PDF generated: {output}")
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれ、追加の API 機能を習得し、プロジェクトで代替実装アプローチを探るのに役立ちます。
 
 - [Python で Aspose.Words ライセンスを設定](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Aspose.Words を使用して Word に矩形シェイプを作成 – 手順別ガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

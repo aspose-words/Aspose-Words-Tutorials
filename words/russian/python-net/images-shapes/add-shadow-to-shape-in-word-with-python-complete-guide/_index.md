@@ -248,7 +248,6 @@ shape.shadow_type = aw.ShadowType.OUTER
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в своих проектах.
 
-- [Создание прямоугольной фигуры в Word с Aspose.Words – Пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Создание документа Word на Java – Добавление прямоугольной фигуры с эффектом тени](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

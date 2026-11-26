@@ -309,7 +309,6 @@ class Program
 以下のチュートリアルは、本ガイドで示した手法を応用した密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装方法を検討するのに役立ちます。
 
 - [Insert Shapes in Word Documents Using Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

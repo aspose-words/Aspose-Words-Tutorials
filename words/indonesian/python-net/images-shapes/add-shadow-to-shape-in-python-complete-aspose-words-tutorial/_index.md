@@ -235,7 +235,6 @@ Silakan sesuaikan radius blur, jarak, atau warna agar sesuai dengan pedoman mere
 Tutorial berikut mencakup topik terkait yang memperluas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Menyiapkan Lisensi Aspose.Words di Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Membuat bentuk persegi panjang di Word dengan Aspose.Words – Panduan Langkah demi Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

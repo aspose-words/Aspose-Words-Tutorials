@@ -233,7 +233,6 @@ Bulanıklık yarıçapını, mesafeyi ya da rengi marka yönergelerinize göre a
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve ilgili konuları derinlemesine ele alan kaynaklardır. Her biri adım adım açıklamalar ve tam çalışan kod örnekleri içerir, böylece ek API özelliklerini öğrenebilir ve projelerinizde alternatif uygulama yaklaşımlarını keşfedebilirsiniz.
 
 - [Set Up Aspose.Words License in Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

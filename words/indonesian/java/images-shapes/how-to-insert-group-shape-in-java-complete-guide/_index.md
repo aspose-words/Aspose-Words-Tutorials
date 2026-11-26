@@ -229,7 +229,6 @@ Tutorial berikut mencakup topik yang sangat terkait dan membangun teknik yang di
 
 - [Buat Dokumen Word Java – Tambahkan Shape Persegi Panjang dengan Efek Bayangan](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Cara membuat field formulir dan menambahkan konten menggunakan DocumentBuilder di Aspose.Words untuk Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Buat shape persegi panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

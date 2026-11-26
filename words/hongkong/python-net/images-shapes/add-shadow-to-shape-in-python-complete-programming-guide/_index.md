@@ -200,7 +200,6 @@ license.set_license("Aspose.Words.lic")
 
 以下教學與本指南所示技術密切相關，能進一步深化您的 API 應用與實作方式，每篇皆提供完整可執行的程式碼範例與逐步說明，協助您在專案中靈活運用。
 
-- [在 Word 中使用 Aspose.Words 建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [使用 Java 建立 Word 文件 – 添加帶陰影效果的矩形形狀](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

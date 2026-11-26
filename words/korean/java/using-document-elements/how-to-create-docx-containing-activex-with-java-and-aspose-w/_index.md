@@ -247,7 +247,6 @@ public class ActiveXDocxCreator {
 
 - [Aspose.Words for Java에서 OLE 객체 및 ActiveX 컨트롤 사용](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Aspose.Words for Java에서 DocumentBuilder를 사용하여 양식 필드 생성 및 콘텐츠 추가 방법](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Aspose.Words로 Word에서 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -234,7 +234,6 @@ Känn dig fri att justera blur‑radien, avståndet eller färgen för att match
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementeringsmetoder i dina egna projekt.
 
 - [Installera Aspose.Words-licens i Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -249,7 +249,6 @@ Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan d
 
 - [Menggunakan OLE Objects dan Kontrol ActiveX di Aspose.Words untuk Java](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Cara membuat bidang formulir dan menambahkan konten menggunakan DocumentBuilder di Aspose.Words untuk Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Membuat bentuk persegi panjang di Word dengan Aspose.Words – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -216,7 +216,6 @@ Nyugodtan kísérletezzen különböző méretekkel, színekkel és láthatósá
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és felfedezni alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Téglalap alakzat létrehozása Word-ben Aspose.Words‑szal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

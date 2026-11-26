@@ -203,7 +203,6 @@ static Forms2OleControl AddCommandButton(DocumentBuilder builder,
 以下のチュートリアルは、本ガイドで示した手法を応用した関連トピックを扱っています。各リソースには、完全なコード例とステップバイステップの解説が含まれており、API の追加機能を習得したり、代替実装アプローチを自分のプロジェクトで試したりするのに役立ちます。
 
 - [Aspose.Words for .NET を使用した Word ドキュメントの作成](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Aspose.Words で Word に長方形シェイプを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words を使用したテーブル付き Word ドキュメントの作成](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

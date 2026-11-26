@@ -227,7 +227,6 @@ Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jele
 
 - [Word dokumentum létrehozása Java‑ban – Téglalap alakzat hozzáadása árnyékhatással](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Űrlapmezők létrehozása és tartalom hozzáadása DocumentBuilder segítségével az Aspose.Words for Java‑ban](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Téglalap alakzat létrehozása Word‑ben az Aspose.Words‑szal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

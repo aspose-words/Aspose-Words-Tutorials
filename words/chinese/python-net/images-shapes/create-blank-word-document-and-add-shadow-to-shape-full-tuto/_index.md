@@ -244,7 +244,6 @@ print(f"💾 Document saved as '{output_path}'. Open it in Word to see the effec
 
 以下教程与本指南所示技术密切相关，帮助你进一步掌握 API 功能并在项目中探索替代实现方案。
 
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

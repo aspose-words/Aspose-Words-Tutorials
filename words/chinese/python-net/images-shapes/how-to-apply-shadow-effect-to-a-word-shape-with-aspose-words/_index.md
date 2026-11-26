@@ -184,7 +184,6 @@ print("Shadow effect applied and document saved as output.docx")
 以下教程涵盖与本指南演示技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方案。
 
 - [在 Word 中为形状添加阴影 – 完整 Aspose.Words 指南](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-- [使用 Aspose.Words 在 Word 中创建矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

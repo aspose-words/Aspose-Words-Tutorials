@@ -309,7 +309,6 @@ Most mindent lefedtünk, ami a **group shapes in Word** használatához szüksé
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
 - [Formák beszúrása Word dokumentumokba Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/insert-shape/)
-- [Rectangle shape létrehozása Wordben Aspose.Words‑szel – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

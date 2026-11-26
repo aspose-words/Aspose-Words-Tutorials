@@ -249,7 +249,6 @@ Nu när du behärskar grunderna, fundera på dessa mer avancerade idéer:
 Följande handledningar täcker närliggande ämnen som bygger vidare på teknikerna i den här guiden. Varje resurs innehåller kompletta kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationssätt i dina egna projekt.
 
 - [Skapa Word‑dokument med Aspose.Words för .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Skapa rektangulär form i Word med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Infoga inbäddad bild i Word‑dokument med Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

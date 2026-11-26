@@ -225,7 +225,6 @@ doc.save("GroupShapeDemo.pdf", SaveFormat.PDF);
 
 - [Word दस्तावेज़ Java बनाएं – शैडो इफ़ेक्ट के साथ रेक्टैंगल शेप जोड़ें](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Aspose.Words for Java में DocumentBuilder का उपयोग करके फ़ॉर्म फ़ील्ड बनाना और कंटेंट जोड़ना](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Aspose.Words के साथ Word में रेक्टैंगल शेप बनाना – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

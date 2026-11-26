@@ -282,7 +282,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Aspose.Words for Java'da DocumentBuilder kullanarak form alanları oluşturma ve içerik ekleme](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
 - [.NET için Aspose.Words kullanarak Word belgesinde Grup Şekli oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
-- [Aspose.Words ile Word'de dikdörtgen şekil oluşturma – Adım adım rehber](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

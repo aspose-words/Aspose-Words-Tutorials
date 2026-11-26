@@ -165,7 +165,6 @@ Hãy tự do thử nghiệm với các loại hình, màu sắc và quy tắc hi
 
 Các hướng dẫn sau đây liên quan chặt chẽ đến các kỹ thuật được trình bày trong bài viết này. Mỗi tài nguyên đều bao gồm mã nguồn đầy đủ, hoạt động được và các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn chi tiết](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Tạo Group Shape trong tài liệu Word bằng Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

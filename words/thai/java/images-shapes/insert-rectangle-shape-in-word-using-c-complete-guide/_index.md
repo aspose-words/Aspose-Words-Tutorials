@@ -221,7 +221,6 @@ class Program
 
 - [สร้าง Group Shape ในเอกสาร Word ด้วย Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [แทรกรูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [สร้างรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย Aspose.Words – คู่มือแบบขั้นตอน](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

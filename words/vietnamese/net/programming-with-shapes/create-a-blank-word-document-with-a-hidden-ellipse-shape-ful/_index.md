@@ -224,7 +224,6 @@ Nếu gặp khó khăn hoặc có ý tưởng mở rộng mẫu này, hãy để
 Các hướng dẫn sau đây liên quan chặt chẽ và mở rộng các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên đều bao gồm mã mẫu hoàn chỉnh và giải thích chi tiết từng bước để giúp bạn làm chủ các tính năng API khác và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tạo Nhóm Hình trong Tài liệu Word Sử dụng Aspose.Words cho .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Tạo hình chữ nhật trong Word với Aspose.Words – Hướng dẫn Từng Bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

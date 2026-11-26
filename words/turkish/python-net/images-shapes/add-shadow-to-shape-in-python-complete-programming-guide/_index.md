@@ -202,7 +202,6 @@ Gölgeyi ayarlama veya diğer Aspose özellikleriyle bütünleştirme konusunda 
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Aspose.Words ile Word'de Dikdörtgen Şekil Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Java ile Word Belgesi Oluşturma – Dikdörtgen Şekle Gölge Efekti Ekle](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

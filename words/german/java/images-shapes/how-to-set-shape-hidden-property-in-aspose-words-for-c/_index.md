@@ -199,7 +199,6 @@ Experimentieren Sie gern mit verschiedenen Bildformaten, Dokument‑Layouts und 
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungs‑Ansätze in Ihren Projekten erkunden können.
 
-- [Rechteckige Form in Word mit Aspose.Words erstellen – Schritt‑für‑Schritt‑Anleitung](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Gruppenform in Word‑Dokument mit Aspose.Words für .NET hinzufügen](/words/english/net/working-with-shapes/add-group-shape/)
 - [Inline‑Bild in Word‑Dokument mit Aspose.Words einfügen](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 

@@ -203,7 +203,6 @@ static Forms2OleControl AddCommandButton(DocumentBuilder builder,
 以下教程与本指南紧密相关，帮助您进一步掌握相关技术。每个资源都提供完整的可运行代码示例和逐步解释，助您在项目中灵活运用 API 并探索替代实现方案。
 
 - [Create Word Document with Aspose.Words for .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

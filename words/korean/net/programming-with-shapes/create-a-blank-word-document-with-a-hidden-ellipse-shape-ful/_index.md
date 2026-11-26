@@ -224,7 +224,6 @@ class HiddenEllipseDemo
 다음 튜토리얼들은 이 가이드에서 배운 기술을 기반으로 하며, 단계별 설명과 완전한 코드 예제를 제공합니다.
 
 - [Aspose.Words for .NET을 사용해 Word 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
-- [Aspose.Words로 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -228,7 +228,6 @@ doc.save("GroupShapeDemo.pdf", SaveFormat.PDF);
 
 - [Создать документ Word на Java – добавить прямоугольную форму с эффектом тени](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Как создавать поля формы и добавлять содержимое с помощью DocumentBuilder в Aspose.Words for Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Создать прямоугольную форму в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

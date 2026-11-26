@@ -204,7 +204,6 @@ Dále prozkoumejte související témata, jako jsou **Aspose.Words ActiveX** for
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Vytvořit Word dokument pomocí Aspose.Words pro .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Vytvořit obdélníkový tvar ve Wordu s Aspose.Words – krok za krokem průvodce](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Vytvořit Word dokument s tabulkou pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

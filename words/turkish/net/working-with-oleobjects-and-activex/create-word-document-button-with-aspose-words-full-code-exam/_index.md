@@ -247,7 +247,6 @@ Temel bilgileri kavradığınıza göre, aşağıdaki ileri seviye fikirleri de�
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak ilgili konuları kapsamaktadır. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımları keşfetmeniz için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Aspose.Words for .NET ile Word Belgesi Oluşturma](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Aspose.Words ile Word'de Dikdörtgen Şekil Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words kullanarak Word Belgesine Satır İçi Görsel Ekleme](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

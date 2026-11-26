@@ -247,7 +247,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Používání OLE objektů a ActiveX ovládacích prvků v Aspose.Words pro Java](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Jak vytvořit formulářová pole a přidat obsah pomocí DocumentBuilder v Aspose.Words pro Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Vytvoření obdélníkového tvaru ve Wordu s Aspose.Words – krok za krokem průvodce](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

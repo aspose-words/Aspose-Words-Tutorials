@@ -231,7 +231,6 @@ Miután elsajátítottad az alapokat, gondolj ezekre a haladó ötletekre:
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy további API funkciókat saját projektjeidben is könnyedén alkalmazhass.
 
 - [Word dokumentum létrehozása az Aspose.Words for .NET segítségével](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Téglalap alakú forma létrehozása Wordben az Aspose.Words‑szel – Lépés‑ről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Beágyazott kép beszúrása Word dokumentumba az Aspose.Words segítségével](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

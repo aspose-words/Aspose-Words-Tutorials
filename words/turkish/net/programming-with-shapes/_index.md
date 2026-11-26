@@ -40,7 +40,6 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Dikey Çapa](./vertical-anchor/) | Aspose.Words for .NET kullanarak Word belgelerindeki metin kutuları için dikey bağlantı konumlarının nasıl ayarlanacağını öğrenin. Kolay adım adım kılavuz dahildir. |
 | [Akıllı Sanat Şeklini Algıla](./detect-smart-art-shape/) | Bu kapsamlı kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde SmartArt şekillerini nasıl algılayacağınızı öğrenin. Belge iş akışınızı otomatikleştirmek için mükemmeldir. |
 | [Akıllı Sanat Çizimini Güncelle](./update-smart-art-drawing/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki Smart Art çizimlerini nasıl güncelleyeceğinizi öğrenin. Görsellerinizin her zaman doğru olduğundan emin olun. |
-| [Aspose.Words ile Word'de Dikdörtgen Şekil Oluşturma – Adım Adım Kılavuz](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aspose.Words for .NET kullanarak Word belgesine dikdörtgen şekil eklemeyi ve özelliklerini ayarlamayı adım adım öğrenin. |
 | [Gölgelikli Dikdörtgen ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aspose.Words for .NET kullanarak gölgelikli bir dikdörtgenle Word belgesi oluşturmayı adım adım öğrenin. |
 | [C# ile Aspose.Words kullanarak dikdörtgen şekil ekleme – adım adım kılavuz](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | C# ve Aspose.Words ile dikdörtgen şekil eklemeyi adım adım öğrenin. |
 

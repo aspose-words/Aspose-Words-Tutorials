@@ -235,7 +235,6 @@ Sentiti libero di modificare il raggio di sfocatura, la distanza o il colore per
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell'API e a esplorare approcci alternativi nei tuoi progetti.
 
 - [Configura la Licenza Aspose.Words in Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Crea una forma rettangolare in Word con Aspose.Words – Guida passo‑per‑passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

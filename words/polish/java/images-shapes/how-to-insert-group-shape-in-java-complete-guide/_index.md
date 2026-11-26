@@ -227,7 +227,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Jak tworzyć pola formularza i dodawać treść przy użyciu DocumentBuilder w Aspose.Words dla Javy](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Utwórz prostokątny kształt w Wordzie z Aspose.Words – Przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

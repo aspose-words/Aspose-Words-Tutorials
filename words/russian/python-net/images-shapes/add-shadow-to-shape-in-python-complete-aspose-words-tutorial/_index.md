@@ -234,7 +234,6 @@ print(f"✅ PDF generated: {output}")
 Следующие учебники охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы в собственных проектах.
 
 - [Настройка лицензии Aspose.Words в Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Создание прямоугольной фигуры в Word с Aspose.Words – Пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

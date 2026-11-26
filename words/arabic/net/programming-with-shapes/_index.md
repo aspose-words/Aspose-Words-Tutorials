@@ -36,7 +36,6 @@
 | [مرساة عمودية](./vertical-anchor/) | تعلّم كيفية ضبط مواضع الربط الرأسية لمربعات النص في مستندات Word باستخدام Aspose.Words لـ .NET مرفق دليل سهل خطوة بخطوة. |
 | [اكتشاف شكل الفن الذكي](./detect-smart-art-shape/) | تعرّف على كيفية اكتشاف أشكال SmartArt في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل الشامل. مثالي لأتمتة سير عمل مستنداتك. |
 | [تحديث رسم الفن الذكي](./update-smart-art-drawing/) | تعرّف على كيفية تحديث رسومات Smart Art في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. تأكد من دقة رسوماتك دائمًا. |
-| [إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | تعلم كيفية إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء مستند Word مع مستطيل بظل – دليل خطوة بخطوة](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | تعرف على كيفية إنشاء مستند Word يحتوي على مستطيل بظل باستخدام Aspose.Words for .NET من خلال دليل خطوة بخطوة. |
 | [إدراج شكل مستطيل في Word باستخدام C# – دليل كامل](./insert-rectangle-shape-in-word-with-c-complete-guide/) |تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# خطوة بخطوة. |
 | [إنشاء مستند Word فارغ وإضافة أشكال ملونة باستخدام Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | تعرّف على كيفية إنشاء مستند Word فارغ وإضافة أشكال ملونة باستخدام Aspose.Words في دليل خطوة بخطوة. |

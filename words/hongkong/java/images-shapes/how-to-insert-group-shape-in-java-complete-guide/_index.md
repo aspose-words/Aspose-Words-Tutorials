@@ -225,7 +225,6 @@ doc.save("GroupShapeDemo.pdf", SaveFormat.PDF);
 
 - [建立 Word 文件 Java – 新增帶陰影效果的矩形形狀](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [如何使用 Aspose.Words for Java 的 DocumentBuilder 建立表單欄位並新增內容](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [在 Word 中使用 Aspose.Words 建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

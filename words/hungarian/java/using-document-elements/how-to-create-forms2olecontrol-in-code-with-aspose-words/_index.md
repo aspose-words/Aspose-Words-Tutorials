@@ -284,7 +284,6 @@ Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jele
 
 - [Hogyan hozhatunk létre űrlapmezőket és adhatunk hozzá tartalmat a DocumentBuilder segítségével az Aspose.Words for Java-ban](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
 - [Csoport alakzat létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
-- [Téglalap alakzat létrehozása Wordben az Aspose.Words‑szal – lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

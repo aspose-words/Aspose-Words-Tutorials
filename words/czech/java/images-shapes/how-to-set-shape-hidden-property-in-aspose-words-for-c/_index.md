@@ -194,7 +194,6 @@ Nyní víte, jak **nastavit vlastnost skrytí tvaru** v Aspose.Words pro C#. Vlo
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Vytvořte obdélníkový tvar ve Wordu s Aspose.Words – krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Vytvořte skupinový tvar v dokumentu Word pomocí Aspose.Words pro .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Vložte inline obrázek do dokumentu Word pomocí Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 

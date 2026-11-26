@@ -205,7 +205,6 @@ Następnie, zapoznaj się z powiązanymi tematami, takimi jak pola formularzy **
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
 - [Utwórz dokument Word przy użyciu Aspose.Words for .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Utwórz prostokątny kształt w Wordzie przy użyciu Aspose.Words – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Utwórz dokument Word z tabelą przy użyciu Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -219,7 +219,6 @@ shape.Hidden = userWantsShape ? false : true;
 以下教學與本指南的技巧密切相關，能幫助你進一步掌握 API 功能並探索其他實作方式：
 
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -199,7 +199,6 @@ Nyugodtan kísérletezzen különböző képformátumokkal, dokumentumelrendezé
 
 A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépés‑ről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Téglalap shape létrehozása Word‑ben az Aspose.Words‑szal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Csoport shape létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
 - [Inline kép beszúrása Word dokumentumba az Aspose.Words segítségével](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 

@@ -207,7 +207,6 @@ Chúc bạn lập trình vui! Nếu gặp bất kỳ vấn đề nào hoặc có
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã được trình bày trong hướng dẫn này. Mỗi tài nguyên đều có ví dụ mã hoàn chỉnh, kèm theo giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Tạo hình chữ nhật trong Word với Aspose.Words – Hướng Dẫn Từng Bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Chèn Hình Dạng vào Tài liệu Word Sử dụng Aspose.Words cho .NET](/words/english/net/working-with-shapes/insert-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

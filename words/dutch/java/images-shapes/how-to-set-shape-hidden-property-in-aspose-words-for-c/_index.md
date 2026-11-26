@@ -196,7 +196,6 @@ Voel je vrij om te experimenteren met verschillende afbeeldingsformaten, documen
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Rechthoekige vorm maken in Word met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Groepvorm maken in Word‑document met Aspose.Words voor .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Inline‑afbeelding invoegen in Word‑document met Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 

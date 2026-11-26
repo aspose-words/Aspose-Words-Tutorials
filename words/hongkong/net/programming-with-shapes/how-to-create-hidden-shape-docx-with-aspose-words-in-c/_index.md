@@ -162,7 +162,6 @@ class Program
 
 以下教學與本指南緊密相關，能進一步深化您對相關技術的掌握。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您在專案中探索更多 API 功能與替代實作方式。
 
-- [使用 Aspose.Words 在 Word 中建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [使用 Aspose.Words for .NET 在 Word 文件中建立群組形狀](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

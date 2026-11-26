@@ -249,7 +249,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Kontrollerinin Kullanımı](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Aspose.Words for Java'da DocumentBuilder ile form alanları oluşturma ve içerik ekleme](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Aspose.Words ile Word'de dikdörtgen şekil oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

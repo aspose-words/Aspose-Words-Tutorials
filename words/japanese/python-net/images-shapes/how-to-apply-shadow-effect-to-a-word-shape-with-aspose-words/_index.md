@@ -184,7 +184,6 @@ print("Shadow effect applied and document saved as output.docx")
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連したトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [Word のシェイプに影を追加 – 完全 Aspose.Words ガイド](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-- [Aspose.Words で Word に矩形シェイプを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

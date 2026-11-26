@@ -250,7 +250,6 @@ class CreateWordDocumentButton
 Следующие руководства охватывают близкие темы, расширяющие техники, продемонстрированные в этом гиде. Каждый ресурс содержит полностью рабочие примеры кода с пошаговыми объяснениями, помогающими вам освоить дополнительные возможности API и исследовать альтернативные подходы в собственных проектах.
 
 - [Создать документ Word с Aspose.Words для .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)  
-- [Создать прямоугольную форму в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)  
 - [Вставить встроенное изображение в документ Word с помощью Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

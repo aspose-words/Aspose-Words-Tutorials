@@ -223,7 +223,6 @@ class Program
 
 - [Создать групповую форму в документе Word с использованием Aspose.Words для .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Вставка фигур в документы Word с использованием Aspose.Words для .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Создание прямоугольной фигуры в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

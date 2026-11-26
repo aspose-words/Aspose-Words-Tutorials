@@ -249,7 +249,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger vidare på tek
 
 - [Använda OLE‑objekt och ActiveX‑kontroller i Aspose.Words för Java](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Hur man skapar formulärfält och lägger till innehåll med DocumentBuilder i Aspose.Words för Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Skapa rektangel‑form i Word med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

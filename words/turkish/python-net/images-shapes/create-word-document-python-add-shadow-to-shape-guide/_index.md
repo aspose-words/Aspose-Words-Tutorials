@@ -207,7 +207,6 @@ Sırada ne var? Birden fazla şekli birleştirin, üzerine metin katmanlayın ve
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve ilgili konuları ayrıntılı bir şekilde ele alan tam çalışan kod örnekleri içerir.
 
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

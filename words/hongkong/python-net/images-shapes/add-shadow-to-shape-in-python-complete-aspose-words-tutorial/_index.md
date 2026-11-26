@@ -229,7 +229,6 @@ print(f"✅ PDF generated: {output}")
 以下教學涵蓋與本指南緊密相關的主題，並以此為基礎。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，並在自己的專案中探索其他實作方式。
 
 - [在 Python 中設定 Aspose.Words 授權](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [在 Word 中建立矩形形狀 – Aspose.Words 步驟說明](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

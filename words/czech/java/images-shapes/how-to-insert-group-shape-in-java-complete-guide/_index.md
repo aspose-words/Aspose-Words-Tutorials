@@ -226,7 +226,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar s efektem stínu](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Jak vytvořit formulářová pole a přidat obsah pomocí DocumentBuilder v Aspose.Words pro Javu](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Vytvořit obdélníkový tvar ve Wordu s Aspose.Words – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

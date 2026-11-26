@@ -276,7 +276,6 @@ The following tutorials cover closely related topics that build on the technique
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
 - [Aspose.Words for .NET で Word 文書を作成](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Aspose.Words を使用した Word の長方形シェイプ作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words を使用した Word 文書へのインライン画像挿入](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

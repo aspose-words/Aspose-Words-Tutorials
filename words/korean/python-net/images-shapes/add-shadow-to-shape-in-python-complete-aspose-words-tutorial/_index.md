@@ -223,7 +223,6 @@ Aspose.Words for Python에서 **도형에 그림자 추가**와 **도형 채우�
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 리소스는 단계별 설명과 함께 완전한 코드 예제를 제공하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하도록 돕습니다.
 
 - [Python에서 Aspose.Words 라이선스 설정](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
-- [Aspose.Words로 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

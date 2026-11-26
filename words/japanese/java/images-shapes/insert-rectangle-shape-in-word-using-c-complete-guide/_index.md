@@ -220,7 +220,6 @@ Word ドキュメントの自動化を始めませんか？ 例を拡張して�
 
 - [Aspose.Words for .NET を使用して Word 文書にグループシェイプを作成する](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET を使用して Word 文書にシェイプを挿入する](/words/english/net/working-with-shapes/insert-shape/)
-- [Aspose.Words で Word に長方形シェイプを作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

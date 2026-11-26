@@ -219,7 +219,6 @@ shape.Hidden = userWantsShape ? false : true;
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックです。各リソースには、ステップバイステップの説明と完全なコード例が含まれており、API の追加機能をマスターしたり、独自の実装アプローチを探求したりするのに役立ちます。
 
 - [Aspose.Words for .NET を使用した Word 文書へのグループ シェイプの作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [Aspose.Words で Word に矩形シェイプを作成する – ステップバイステップ ガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

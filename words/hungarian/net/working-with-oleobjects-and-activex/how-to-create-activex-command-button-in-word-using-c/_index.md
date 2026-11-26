@@ -205,7 +205,6 @@ Ezután fedezze fel a kapcsolódó témákat, például az **Aspose.Words Active
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Word dokumentum létrehozása Aspose.Words for .NET használatával](/words/english/net/add-content-using-document-builder/insert-paragraph/)
-- [Téglalap alakzat létrehozása Wordben Aspose.Words‑szel – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Word dokumentum létrehozása táblázattal Aspose.Words használatával](/words/english/net/add-content-using-document-builder/build-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

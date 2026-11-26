@@ -194,7 +194,6 @@ Farklı görüntü formatları, belge düzenleri ve dışa aktarma hedefleriyle 
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Word'de dikdörtgen şekil oluşturma – Adım adım rehber](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET kullanarak Word belgesinde Grup Şekli oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words kullanarak Word belgesine Satır İçi Görüntü ekleme](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 

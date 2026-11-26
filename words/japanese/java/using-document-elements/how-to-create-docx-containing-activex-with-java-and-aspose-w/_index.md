@@ -246,7 +246,6 @@ public class ActiveXDocxCreator {
 
 - [Aspose.Words for Java で OLE オブジェクトと ActiveX コントロールを使用する](/words/english/java/using-document-elements/using-ole-objects-and-activex/)
 - [Aspose.Words for Java で DocumentBuilder を使用してフォーム フィールドを作成しコンテンツを追加する方法](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [Aspose.Words で Word に矩形シェイプを作成する – ステップバイステップ ガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

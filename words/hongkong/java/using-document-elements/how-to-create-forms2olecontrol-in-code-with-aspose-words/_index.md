@@ -274,7 +274,6 @@ namespace Forms2OleControlDemo
 
 - [如何使用 Aspose.Words for Java 的 DocumentBuilder 建立表單欄位並加入內容](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
 - [在 Word 文件中使用 Aspose.Words for .NET 建立群組圖形](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 Aspose.Words 在 Word 中建立矩形圖形 – 步驟說明指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

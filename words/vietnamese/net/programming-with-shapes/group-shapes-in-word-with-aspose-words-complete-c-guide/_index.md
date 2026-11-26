@@ -310,7 +310,6 @@ Chúng ta vừa bao quát mọi thứ bạn cần để **group shapes in Word**
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã đầy đủ với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Chèn Các Hình Vào Tài Liệu Word Sử Dụng Aspose.Words cho .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Tạo Hình Chữ Nhật trong Word với Aspose.Words – Hướng Dẫn Từng Bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

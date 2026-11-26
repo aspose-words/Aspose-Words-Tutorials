@@ -247,7 +247,6 @@ shape.shadow_type = aw.ShadowType.OUTER
 
 以下教程涵盖了与本指南技术紧密相关的主题，均提供完整可运行的代码示例和逐步解释，帮助您掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -221,7 +221,6 @@ class Program
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह आकार बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में आकार डालें](/words/english/net/working-with-shapes/insert-shape/)
-- [Aspose.Words के साथ Word में आयताकार आकार बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
