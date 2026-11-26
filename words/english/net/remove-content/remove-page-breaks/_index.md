@@ -35,7 +35,6 @@ First, you need to import the necessary namespaces into your project. This will 
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Nodes;
 ```
 
 Let's break down the process into simple, manageable steps.
@@ -111,9 +110,6 @@ Replace `"YOUR DOCUMENT DIRECTORY"` with the path where you want to save the mod
 And there you have it! With just a few lines of code, we've successfully removed page breaks from a Word document using Aspose.Words for .NET. This library makes document manipulation straightforward and efficient. Whether you're working on large documents or small ones, Aspose.Words provides the tools you need to get the job done.
 
 ## FAQ's
-
-### Can I use Aspose.Words with other .NET languages?
-Yes, Aspose.Words supports all .NET languages, including VB.NET, F#, and others.
 
 ### Is Aspose.Words for .NET free to use?
 Aspose.Words offers a free trial. For long-term use, you can purchase a license from [Aspose Purchase](https://purchase.aspose.com/buy).
