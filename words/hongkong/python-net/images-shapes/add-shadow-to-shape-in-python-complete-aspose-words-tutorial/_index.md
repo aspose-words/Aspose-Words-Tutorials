@@ -230,7 +230,6 @@ print(f"✅ PDF generated: {output}")
 
 - [在 Python 中設定 Aspose.Words 授權](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [在 Word 中建立矩形形狀 – Aspose.Words 步驟說明](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words 形狀陰影教學 – 在 C# 中為 Word 形狀添加陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

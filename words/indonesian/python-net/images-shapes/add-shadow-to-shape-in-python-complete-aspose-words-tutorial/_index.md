@@ -236,7 +236,6 @@ Tutorial berikut mencakup topik terkait yang memperluas teknik yang ditunjukkan 
 
 - [Menyiapkan Lisensi Aspose.Words di Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Membuat bentuk persegi panjang di Word dengan Aspose.Words – Panduan Langkah demi Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Tutorial Bayangan Bentuk Aspose.Words – Menambahkan Bayangan ke Bentuk Word dalam C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

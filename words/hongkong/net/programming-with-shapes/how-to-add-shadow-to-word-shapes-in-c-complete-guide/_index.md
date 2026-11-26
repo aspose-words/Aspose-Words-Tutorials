@@ -234,7 +234,6 @@ shadow.Color = Color.FromArgb(
 
 以下教學涵蓋與本指南緊密相關的主題，建立在此處示範的技巧之上。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [Aspose.Words 形狀陰影教學 – 在 C# 中為 Word 形狀添加陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [如何在 C# 中添加陰影 – 完整程式設計指南](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [使用 Java 建立 Word 文件 – 為矩形形狀添加陰影效果](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

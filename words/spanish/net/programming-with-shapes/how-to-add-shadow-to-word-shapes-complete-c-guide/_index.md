@@ -220,7 +220,6 @@ Acabamos de cubrir **cómo agregar sombra** a una forma de Word usando C#. Los p
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques alternativos de implementación en tus propios proyectos.
 
-- [Tutorial de sombra de forma en Aspose.Words – Añadir una sombra a una forma de Word en C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Agregar contenido usando Document Builder en Aspose.Words para .NET](/words/english/net/add-content-using-document-builder/)
 - [Agregar marca de agua de texto en documento Word usando Aspose.Words para .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

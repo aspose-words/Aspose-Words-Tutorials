@@ -257,7 +257,6 @@ We’ve covered **
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose.Words 形狀陰影教學 – 在 C# 中為 Word 形狀新增陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [如何使用 Aspose.Words for Python 在 Word 文件中實作評論與回覆](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [如何在 Python 中使用 Aspose.Words 管理文件變數：完整指南](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

@@ -257,7 +257,6 @@ if __name__ == "__main__":
 
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックを扱っています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [Aspose.Words シェイプ影チュートリアル – C# で Word シェイプに影を追加](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Aspose.Words for Python を使用した Word ドキュメントでのコメントと返信の実装方法](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Aspose.Words for Python でドキュメント変数を管理する方法：完全ガイド](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

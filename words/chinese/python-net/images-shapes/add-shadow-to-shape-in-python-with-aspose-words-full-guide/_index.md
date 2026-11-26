@@ -229,7 +229,6 @@ print(f"PDF with shape shadow saved at: {output_path}")
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助你进一步掌握 API 的其他功能，并在项目中探索不同的实现方式。每篇资源都提供完整可运行的代码示例和逐步解释。
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

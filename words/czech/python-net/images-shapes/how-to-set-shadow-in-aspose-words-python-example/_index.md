@@ -260,7 +260,6 @@ We’ve covered **
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobným krok‑za‑krokem vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [Tutoriál stínů tvarů Aspose.Words – Přidání stínu do tvaru ve Wordu v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Jak implementovat komentáře a odpovědi v dokumentech Word pomocí Aspose.Words pro Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Jak spravovat proměnné dokumentu s Aspose.Words v Pythonu: Kompletní průvodce](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

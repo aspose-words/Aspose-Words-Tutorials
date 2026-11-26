@@ -245,7 +245,6 @@ Les prochaines étapes pourraient inclure :
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités supplémentaires de l'API et à explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Tutoriel Aspose.Words sur l'ombre des formes – Ajouter une ombre à une forme Word en C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Comment convertir DOCX en PNG en Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Enregistrer des documents Word en PostScript en Python avec Aspose.Words : Guide complet](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

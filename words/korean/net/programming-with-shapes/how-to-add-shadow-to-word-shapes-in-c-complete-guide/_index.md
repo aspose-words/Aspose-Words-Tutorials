@@ -238,7 +238,6 @@ C#을 사용해 Word 도형에 **그림자를 추가**하고, **투명도 변경
 
 다음 튜토리얼들은 이번 가이드에서 사용한 기술을 확장한 주제들을 다룹니다. 각각 완전한 코드 예제와 단계별 설명을 제공하므로 API 기능을 더욱 깊이 있게 익히고 다양한 구현 방법을 탐색할 수 있습니다.
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [How to Add Shadow in C# – Complete Programming Guide](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

@@ -245,7 +245,6 @@ A következő lépések lehetnek:
 
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#‑ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hogyan konvertáljunk DOCX‑t PNG‑be Java‑ban – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Word dokumentumok mentése PostScript‑ként Python‑ban az Aspose.Words használatával: Átfogó útmutató](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

@@ -236,7 +236,6 @@ Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam 
 
 - [Configurar Licença Aspose.Words em Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Criar forma retangular no Word com Aspose.Words – Guia passo a passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Tutorial de Sombra em Formas Aspose.Words – Adicionar Sombra a Forma Word em C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

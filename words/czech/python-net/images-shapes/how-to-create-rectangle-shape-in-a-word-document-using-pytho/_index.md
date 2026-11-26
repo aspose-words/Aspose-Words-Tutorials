@@ -200,7 +200,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínem](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Vytvořit obdélníkový tvar, přidat stín a uložit PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
-- [Aspose.Words Shape Shadow Tutorial – Přidat stín k Word tvaru v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

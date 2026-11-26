@@ -246,7 +246,6 @@ Hãy chạy thử mã, điều chỉnh các tham số, và xem một bóng nhỏ
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với hướng dẫn từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Hướng Dẫn Shadow Hình Dạng Aspose.Words – Thêm Bóng vào Hình Dạng Word trong C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cách Thêm Bóng trong C# – Hướng Dẫn Lập Trình Toàn Diện](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Tạo Hình Nhóm trong Tài liệu Word Sử Dụng Aspose.Words cho .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

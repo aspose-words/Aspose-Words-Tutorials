@@ -226,7 +226,6 @@ Następujące samouczki obejmują ściśle powiązane tematy, które rozwijają 
 
 - [Skonfiguruj licencję Aspose.Words w Pythonie](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Utwórz prostokątny kształt w Wordzie przy użyciu Aspose.Words – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Samouczek cienia kształtu Aspose.Words – Dodaj cień do kształtu w Wordzie w C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

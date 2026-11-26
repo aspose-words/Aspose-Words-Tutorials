@@ -196,7 +196,6 @@ Happy coding, and may your documents always have that perfect touch of depth!
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全に動作するコード例が含まれており、API の追加機能を習得したり、代替実装アプローチを自プロジェクトで試したりするのに役立ちます。
 
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

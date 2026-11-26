@@ -261,7 +261,6 @@ Chúng tôi đã bao phủ **
 
 Các hướng dẫn sau đây liên quan chặt chẽ và mở rộng các kỹ thuật đã trình bày trong bài viết này. Mỗi tài nguyên đều bao gồm mã nguồn đầy đủ và giải thích chi tiết từng bước để giúp bạn làm chủ các tính năng API khác và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Hướng dẫn Shadow cho Shape trong Aspose.Words – Thêm Shadow vào Shape trong Word bằng C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cách triển khai bình luận và trả lời trong tài liệu Word bằng Aspose.Words cho Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Cách quản lý biến tài liệu với Aspose.Words trong Python: Hướng dẫn đầy đủ](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

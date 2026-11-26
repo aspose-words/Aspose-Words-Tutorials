@@ -256,7 +256,6 @@ class AddActiveXButton
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งรวมโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโครงการของคุณเอง
 
 - [เพิ่มเนื้อหาโดยใช้ Document Builder ใน Aspose.Words for .NET](/words/english/net/add-content-using-document-builder/)
-- [Aspose.Words Shape Shadow Tutorial – เพิ่มเงาให้ Shape ใน Word ด้วย C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [เพิ่ม Section ใหม่ในเอกสาร Word | Aspose.Words for .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

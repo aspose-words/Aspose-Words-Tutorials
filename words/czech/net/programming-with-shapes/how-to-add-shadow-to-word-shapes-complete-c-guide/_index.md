@@ -216,7 +216,6 @@ Máte otázku ohledně konkrétního typu tvaru nebo potřebujete aplikovat stí
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
 
-- [Aspose.Words tutoriál stínů tvarů – Přidání stínu do tvaru Word v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Přidání obsahu pomocí Document Builder v Aspose.Words pro .NET](/words/english/net/add-content-using-document-builder/)
 - [Přidání textové vodoznaku do dokumentu Word pomocí Aspose.Words pro .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 
