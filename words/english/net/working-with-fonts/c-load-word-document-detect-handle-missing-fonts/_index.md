@@ -64,18 +64,14 @@ LoadOptions loadOptions = new LoadOptions
 **Why this matters:**  
 Without this configuration the library silently swaps a missing font with a generic one. That substitution can change line breaks, affect layout, and ultimately break the visual fidelity of your report. Enabling warnings gives you a hook to log or react to those substitutions.
 
-## Step 2: register a warning handler to detect missing fonts
+## Step 2: register a warning callback to detect missing fonts
 
-Aspose.Words fires a warning event whenever it can’t locate a requested typeface. By wiring up a handler we can capture the exact name of the missing font and decide what to do next.
+Aspose.Words fires warning events whenever it can’t locate a requested typeface. By wiring up a callback we can capture the exact name of the missing font and decide what to do next.
 
 ```csharp
-// Register a warning handler to report missing fonts
-loadOptions.FontSettings.SubstitutionSettings.WarningHandler = (sender, args) =>
-{
-    // args.FontInfo may be null for some warnings, so we guard against it
-    string missingFont = args.FontInfo?.FullFontName ?? "Unknown Font";
-    Console.WriteLine($"[Font warning] Missing: {missingFont}");
-};
+// Register a warning callback to capture font substitution warnings
+var warningInfo = new WarningInfoCollection();
+loadOptions.WarningCallback = warningInfo;
 ```
 
 **Pro tip:**  
@@ -91,14 +87,25 @@ string inputPath = @"C:\Docs\input.docx"; // adjust to your file location
 Document document = new Document(inputPath, loadOptions);
 ```
 
-If any font is missing, the warning handler from Step 2 will fire *before* the document is fully loaded, giving you a complete list of absent typefaces.
+If any font is missing, the warning callback from Step 2 will have recorded a warning before the document is fully loaded. We can now enumerate those warnings:
+
+```csharp
+// After loading, iterate over captured warnings
+foreach (WarningInfo warning in warningInfo)
+{
+    if (warning.WarningType == WarningType.FontSubstitution)
+    {
+        Console.WriteLine($"[Font warning] {warning.Description}");
+    }
+}
+```
 
 ## Step 4: verify the output – what to expect
 
 Run the program from a console or a unit test and watch the output. For every missing font you’ll see a line like:
 
 ```
-[Font warning] Missing: Times New Roman
+[Font warning] Font substitution: The font 'Papyrus' was not found. Substituted with 'Arial'.
 ```
 
 If all fonts are present, the console stays quiet and the `document` object is ready for further processing (saving to PDF, editing, etc.).
@@ -113,7 +120,7 @@ Sometimes you want the document to keep a consistent look even when the original
 
 ```csharp
 // Map any missing font to Arial as a fallback
-loadOptions.FontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
 Add this line *before* you load the document. Now, whenever a font can’t be found, Aspose.Words will automatically substitute it with Arial, and you’ll still get the warning from Step 2. This approach **handles missing fonts** without breaking the layout.
@@ -126,6 +133,7 @@ Below is the complete program you can copy‑paste into a new console app. It in
 using System;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -142,16 +150,13 @@ class Program
         // -------------------------------------------------
         // Step 2: Hook into the warning system to detect missing fonts
         // -------------------------------------------------
-        loadOptions.FontSettings.SubstitutionSettings.WarningHandler = (sender, args) =>
-        {
-            string missingFont = args.FontInfo?.FullFontName ?? "Unknown Font";
-            Console.WriteLine($"[Font warning] Missing: {missingFont}");
-        };
+        var warningInfo = new WarningInfoCollection();
+        loadOptions.WarningCallback = warningInfo;
 
         // -------------------------------------------------
         // Optional: Define a fallback font (handles missing fonts)
         // -------------------------------------------------
-        loadOptions.FontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+        loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 
         // -------------------------------------------------
         // Step 3: Load the Word file while using the options above
@@ -160,7 +165,18 @@ class Program
         Document doc = new Document(inputPath, loadOptions);
 
         // -------------------------------------------------
-        // Step 4: Save as PDF to verify everything works
+        // Step 4: Output any font substitution warnings
+        // -------------------------------------------------
+        foreach (WarningInfo warning in warningInfo)
+        {
+            if (warning.WarningType == WarningType.FontSubstitution)
+            {
+                Console.WriteLine($"[Font warning] {warning.Description}");
+            }
+        }
+
+        // -------------------------------------------------
+        // Step 5: Save as PDF to verify everything works
         // -------------------------------------------------
         string outputPath = @"C:\Docs\output.pdf";
         doc.Save(outputPath);
@@ -171,7 +187,7 @@ class Program
 
 **What this does:**  
 1. Sets up `LoadOptions` to surface font‑substitution warnings.  
-2. Registers a handler that prints each missing font name.  
+2. Registers a callback that records each missing font warning.  
 3. (Optionally) forces any unknown font to fall back to Arial.  
 4. Loads the Word file, logs any missing fonts, and finally saves the result as PDF.
 
@@ -179,21 +195,21 @@ Run the program, and you’ll see the warning messages followed by “Document s
 
 ## Common questions & edge cases
 
-- **What if `args.FontInfo` is null?**  
-  Certain warnings (e.g., when the font file is corrupted) may not provide a `FontInfo`. Our handler guards against this by using “Unknown Font” as a fallback.
+- **What if `warning.Description` does not contain a font name?**  
+  Certain warnings (e.g., when the font file is corrupted) may have a generic description. You can add additional logic to parse the description if needed.
 
 - **Does this work with .doc files?**  
-  Yes. The same `LoadOptions` can be used for *.doc, *.docx, *.rtf, and even OpenOffice formats. Just change the file extension in `inputPath`.
+  Yes. The same `LoadOptions` can be used for *.doc, *.docx, and *.rtf files. Just change the file extension in `inputPath`.
 
 - **Can I suppress warnings for specific fonts?**  
-  You can add conditional logic inside the warning handler to ignore fonts you know are intentionally missing.
+  You can add conditional logic inside the warning‑iteration loop to ignore fonts you know are intentionally missing.
 
-- **Is there a performance hit?**  
-  The overhead is minimal—Aspose.Words still needs to scan the document’s font table. The warning handler runs synchronously, so it won’t noticeably slow down a typical load operation.
+- **Is there a performance impact?**  
+  The warning callback runs synchronously as part of the loading process.
 
 ## Conclusion
 
-We’ve covered everything you need to **c# load word document** while **detect missing fonts** and **handle missing fonts** in a clean, production‑ready way. By configuring `LoadOptions`, registering a warning handler, and optionally providing a fallback font, you gain full visibility into font issues and keep your documents looking professional regardless of the environment.
+We’ve covered everything you need to **c# load word document** while **detect missing fonts** and **handle missing fonts** in a clean, production‑ready way. By configuring `LoadOptions`, registering a warning callback, and optionally providing a fallback font, you gain full visibility into font issues and keep your documents looking professional regardless of the environment.
 
 Next steps you might explore:
 
