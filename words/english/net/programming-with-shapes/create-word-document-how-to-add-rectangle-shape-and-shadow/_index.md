@@ -88,29 +88,23 @@ firstPara.AppendChild(rect);
 - `WrapType.Inline` ensures the rectangle moves with the text flow, which is usually what you expect in a word‑processing scenario.  
 - By appending to `FirstParagraph`, we avoid the need to manually insert a new paragraph; Aspose creates one for us if the document is truly empty.
 
-> **Pro tip:** If you need the shape to sit *behind* text, switch `WrapType` to `WrapType.Transparent`. That small change can make a huge visual difference.
+> **Pro tip:** If you need the shape to float rather than sit inline, change `WrapType` to `WrapType.Square`. This makes the shape a floating object that text can wrap around.
 
 ---
 
-## Step 3: Apply an Outer Shadow – Enhancing the Look
+## Step 3: Apply a Shadow – Enhancing the Look
 
-A flat rectangle is… well, flat. Adding an **add shadow to shape** gives it depth without extra images. Aspose’s `ShadowFormat` makes this a one‑liner.
+A flat rectangle is… well, flat. Adding a **shadow to shape** gives it depth without extra images. Aspose’s `ShadowFormat` makes this a one‑liner.
 
 ```csharp
-// Step 3: Configure an outer shadow for the rectangle
-rect.ShadowFormat.Type = ShadowType.OuterShadow;
-rect.ShadowFormat.Blur = 5.0;           // Softness of the shadow edge
-rect.ShadowFormat.Distance = 3.0;      // How far the shadow is offset
-rect.ShadowFormat.Angle = 45;          // Direction in degrees (45° = bottom‑right)
-rect.ShadowFormat.Color = Color.Gray; // Classic gray shadow
+// Step 3: Configure a shadow for the rectangle
+rect.ShadowFormat.Type = ShadowType.Shadow2;   // Choose a preset shadow
+rect.ShadowFormat.Color = Color.Gray;         // Classic gray shadow
 ```
 
-Why bother with those specific values?  
-- **Blur** of `5.0` gives a subtle feathered edge that looks professional on most monitors.  
-- **Distance** of `3.0` and **Angle** of `45` create a natural light source from the top‑left, a common design convention.  
-- **Color.Gray** works on both light and dark themes; you can swap it for `Color.Black` if you need a stronger contrast.
+`ShadowType.Shadow2` is one of the built‑in shadow presets provided by Aspose.Words. You can experiment with other values from the `ShadowType` enumeration (e.g., `Shadow5`, `Shadow10`) to achieve different visual effects.
 
-If you ever need an *inner* shadow (think of a recessed button), just change `ShadowType.OuterShadow` to `ShadowType.InnerShadow`. The same properties still apply.
+If you ever need a different preset, simply assign another `ShadowType` value to `rect.ShadowFormat.Type`. The `Color` property lets you match the shadow to your document’s design.
 
 ---
 
@@ -128,7 +122,7 @@ A couple of notes:
 - The `SaveFormat.Docx` enum guarantees the modern Office Open XML format, which is compatible with Word 2007+.  
 - If you need to stream the file directly to a web response, replace the file path with a `MemoryStream` and write it to the HTTP response.
 
-After running the code, open `ShadowedRectangle.docx` in Microsoft Word. You should see a gray rectangle with a soft shadow, sitting inline with the first paragraph—exactly what we set out to achieve.
+After running the code, open `ShadowedRectangle.docx` in Microsoft Word. You should see a gray rectangle with a preset shadow, sitting inline with the first paragraph—exactly what we set out to achieve.
 
 ---
 
@@ -159,9 +153,9 @@ When you open the generated file, you should see:
 
 - A single paragraph containing a gray rectangle.  
 - The rectangle measured roughly 2.8 × 1.4 inches.  
-- A subtle outer shadow offset to the bottom‑right.  
+- A shadow applied using the selected `ShadowType` preset.  
 
-If the shape appears *outside* the paragraph, double‑check the `WrapType`. If the shadow looks too harsh, lower the `Blur` value or switch the `Color` to a lighter shade.
+If the shape appears *outside* the paragraph, double‑check the `WrapType`. If the shadow looks too harsh, try a different `ShadowType` value.
 
 ---
 
@@ -170,8 +164,8 @@ If the shape appears *outside* the paragraph, double‑check the `WrapType`. If 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | Shape disappears after saving | `WrapType` set to `Inline` but paragraph was removed | Ensure the paragraph exists; use `doc.FirstSection.Body.FirstParagraph` to guarantee it. |
-| Shadow looks pixelated | Using a very low `Blur` value | Increase `Blur` to at least `3.0` for smooth edges. |
-| File size balloons | Adding many high‑resolution images alongside shapes | Use `doc.RemoveUnusedResources()` before saving if you added images. |
+| Shadow looks too strong | Using a dark `Color` or a preset with high contrast | Choose a lighter `Color` (e.g., `Color.LightGray`) or a different `ShadowType` preset. |
+| File size balloons | Adding many high‑resolution images alongside shapes | Remove unused images before saving, or avoid adding them if not needed. |
 | Color not showing on dark mode | Using a dark `Color` for the shape itself | Choose a contrasting color (e.g., `Color.White`) for better visibility. |
 
 ---
@@ -201,11 +195,8 @@ class Program
         };
         doc.FirstSection.Body.FirstParagraph.AppendChild(rect);
 
-        // 3️⃣ Apply an outer shadow to the rectangle
-        rect.ShadowFormat.Type = ShadowType.OuterShadow;
-        rect.ShadowFormat.Blur = 5.0;
-        rect.ShadowFormat.Distance = 3.0;
-        rect.ShadowFormat.Angle = 45;
+        // 3️⃣ Apply a shadow to the rectangle
+        rect.ShadowFormat.Type = ShadowType.Shadow2;
         rect.ShadowFormat.Color = Color.Gray;
 
         // 4️⃣ Save the document as a .docx file
