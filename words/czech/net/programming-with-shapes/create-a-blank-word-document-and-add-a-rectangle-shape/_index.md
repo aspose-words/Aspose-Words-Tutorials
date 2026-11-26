@@ -230,7 +230,6 @@ Skrytý tvar přidává stejný XML payload jako viditelný, takže nárůst vel
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní přístupy implementace ve vlastních projektech.
 
 - [Vytvořit prázdný dokument Word se stínovaným obdélníkovým tvarem – krok za krokem](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
-- [Vytvořit obdélníkový tvar ve Wordu pomocí C# – krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Tutoriál stínování tvaru Aspose.Words – Přidat stín k tvaru Word v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

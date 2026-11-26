@@ -211,7 +211,6 @@ namespace GroupShapeDemo
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
-- [C# を使用して Word に矩形シェイプを作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words for .NET を使用した Word ドキュメントへのシェイプ挿入](/words/english/net/working-with-shapes/insert-shape/)
 - [Aspose.Words for .NET を使用した Word ドキュメントでのグループシェイプ作成](/words/english/net/working-with-shapes/add-group-shape/)
 

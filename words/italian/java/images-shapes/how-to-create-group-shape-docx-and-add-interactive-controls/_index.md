@@ -297,7 +297,6 @@ Queste estensioni ti permettono di costruire pipeline di documenti completamente
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Crea Group Shape in documento Word usando Aspose.Words per .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Crea forma rettangolare in Word usando C# – Guida passo‑a‑passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Crea markdown da Word – Guida completa C#](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

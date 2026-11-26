@@ -244,7 +244,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Vytvoření Word dokumentu v Java – Přidání obdélníkového tvaru se stínem](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Aspose.Words tutoriál stínu tvaru – Přidání stínu k tvaru ve Wordu v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
-- [Vytvoření obdélníkového tvaru ve Wordu pomocí C# – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

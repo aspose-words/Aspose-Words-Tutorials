@@ -271,7 +271,6 @@ class InsertRectangleShapeDemo
 
 以下教學涵蓋與本指南技術密切相關的主題，並以完整可執行的程式碼範例與步驟說明，協助您精通更多 API 功能，並在專案中探索替代實作方式。
 
-- [在 Word 中使用 C# 建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words 形狀陰影教學 – 在 C# 為 Word 形狀加入陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [使用 Aspose.Words for .NET 在 Word 文件中建立群組形狀](/words/english/net/working-with-shapes/add-group-shape/)
 

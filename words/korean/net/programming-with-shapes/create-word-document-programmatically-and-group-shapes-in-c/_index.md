@@ -245,7 +245,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 리소스에는 전체 작동 코드 예제와 단계별 설명이 포함되어 있어 추가 API 기능을 마스터하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [Aspose.Words for .NET을 사용하여 워드 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
-- [C#를 사용하여 워드에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [그림자 사각형 도형이 있는 빈 워드 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

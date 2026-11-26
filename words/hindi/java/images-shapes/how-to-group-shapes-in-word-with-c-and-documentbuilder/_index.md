@@ -290,7 +290,6 @@ static Document CreateBlankWordFile()
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में ग्रुप शैप बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में शैप्स डालें](/words/english/net/working-with-shapes/insert-shape/)
-- [C# का उपयोग करके Word में रेक्टैंगल शैप बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

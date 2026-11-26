@@ -242,7 +242,6 @@ namespace ShapeGroupingDemo
 
 - [在 Word 文件中使用 Aspose.Words for .NET 建立群組形狀](/words/english/net/working-with-shapes/add-group-shape/)
 - [在 Word 文件中使用 Aspose.Words for .NET 插入形狀](/words/english/net/working-with-shapes/insert-shape/)
-- [使用 C# 在 Word 中建立矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

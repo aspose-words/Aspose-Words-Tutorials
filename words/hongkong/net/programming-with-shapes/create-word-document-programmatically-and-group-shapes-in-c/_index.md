@@ -243,7 +243,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 以下教學涵蓋與本指南密切相關的主題，建立在本篇示範的技巧之上。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
 
 - [使用 Aspose.Words for .NET 在 Word 文件中建立群組圖形](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 C# 在 Word 中建立矩形圖形 – 步驟指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [建立帶陰影矩形圖形的空白 Word 文件 – 步驟指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

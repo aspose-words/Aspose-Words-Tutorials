@@ -204,7 +204,6 @@ Aspose.Words 能儲存為舊版 `.doc` 格式，但某些較新的圖形功能�
 
 以下教學與本篇內容緊密相關，能進一步深化你所學的技巧。每篇皆提供完整可執行的程式碼範例與逐步說明，協助你掌握更多 API 功能，或在自己的專案中嘗試不同的實作方式。
 
-- [使用 C# 在 Word 中建立矩形圖形 – 步驟教學](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [使用 Aspose.Words 在 Word 中建立矩形圖形 – 步驟教學](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [使用 Aspose.Words for .NET 在 Word 文件中插入圖形](/words/english/net/working-with-shapes/insert-shape/)
 

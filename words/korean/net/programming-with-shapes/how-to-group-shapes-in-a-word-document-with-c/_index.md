@@ -245,7 +245,6 @@ Microsoft Word에서 `groupedShapes.docx`를 열면 연한 파란색 사각형�
 
 - [Aspose.Words for .NET를 사용하여 Word 문서에서 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET를 사용하여 Word 문서에 도형 삽입하기](/words/english/net/working-with-shapes/insert-shape/)
-- [C#를 사용하여 Word에서 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

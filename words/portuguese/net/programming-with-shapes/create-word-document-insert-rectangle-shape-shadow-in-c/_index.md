@@ -191,7 +191,6 @@ Experimente, ajuste os parâmetros e veja seus arquivos Word automatizados ficar
 
 ## Tutoriais Relacionados
 
-- [Criar forma retangular no Word usando C# – Guia passo a passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Tutorial de Sombra em Forma do Aspose.Words – Adicionar Sombra a Forma Word em C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Criar Forma de Grupo em Documento Word Usando Aspose.Words para .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

@@ -292,7 +292,6 @@ static Document CreateBlankWordFile()
 
 - [Δημιουργία Group Shape σε έγγραφο Word χρησιμοποιώντας Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Εισαγωγή Σχημάτων σε έγγραφα Word χρησιμοποιώντας Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Δημιουργία σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

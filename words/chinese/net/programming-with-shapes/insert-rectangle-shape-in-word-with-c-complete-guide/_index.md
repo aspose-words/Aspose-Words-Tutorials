@@ -214,7 +214,6 @@ foreach (Shape shp in document.GetChildNodes(NodeType.Shape, true))
 
 以下教程涵盖了与本指南技术紧密相关的主题，帮助你在项目中进一步扩展 API 功能并探索替代实现方式，每篇资源均提供完整可运行的代码示例和逐步解释。
 
-- [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 

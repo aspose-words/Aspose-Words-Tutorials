@@ -211,7 +211,6 @@ Experimente diferentes propriedades de forma, hierarquias de grupos e formatos d
 
 Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Criar forma retangular no Word usando C# – Guia passo a passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Inserir formas em documentos Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Criar Group Shape em documento Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

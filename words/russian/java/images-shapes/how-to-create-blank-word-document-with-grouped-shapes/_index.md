@@ -211,7 +211,6 @@ namespace GroupShapeDemo
 
 Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы в ваших проектах.
 
-- [Создать прямоугольную фигуру в Word с помощью C# – Пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Вставка фигур в документы Word с использованием Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Создание групповой фигуры в документе Word с использованием Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
