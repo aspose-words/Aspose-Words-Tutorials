@@ -45,7 +45,6 @@
 | [تحويل الحقول في المستند](./convert-fields-in-document/) تعرّف على كيفية تحويل الحقول في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. اتبع برنامجنا التعليمي لإدارة الحقول وتحويلها بكفاءة في مستنداتك.
 | [تحويل الحقول في النص](./convert-fields-in-body/) |تعرف على كيفية استخدام Aspose.Words for .NET لتحويل حقول الصفحة إلى نص في نص مستند Word. |
 | [تغيير الموقع](./change-locale/) تعرّف على كيفية تغيير الإعدادات المحلية في مستندات Word باستخدام Aspose.Words لـ .NET مع هذا الدليل. مثالي للتعامل مع العملاء والمشاريع الدولية. |
-| [إنشاء قالب فاتورة ودمج البيانات باستخدام Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | تعلم كيفية إنشاء قالب فاتورة ودمج البيانات في مستند Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
