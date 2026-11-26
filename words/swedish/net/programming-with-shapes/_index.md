@@ -48,7 +48,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Hur du lägger till en skugga på Word-former i C# – Komplett guide](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Lär dig hur du lägger till en skugga på Word-former i C# med Aspose.Words för .NET i denna kompletta guide. |
 | [Hur man skapar ett tomt Word-dokument och grupperar former i C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Lär dig skapa ett tomt Word-dokument och lägga till gruppformer med Aspose.Words för .NET i C#. |
 
-| [Hur du lägger till en skugga på Word-former – Komplett C#‑guide](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C#. |
 | [Hur du lägger till skugga på former i C# – Komplett Aspose.Words‑guide](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Lär dig hur du sätter skugga på former i C# med en komplett Aspose.Words‑guide i steg‑för‑steg‑format. |
 | [Skapa rektangelform och gruppera flera former i C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Lär dig hur du skapar en rektangelform och grupperar flera former i ett Word‑dokument med Aspose.Words för .NET i C#. |
 | [Skapa Word-dokument programatiskt och gruppera former i C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Lär dig hur du skapar ett Word-dokument och grupperar former programatiskt med C# och Aspose.Words. |
