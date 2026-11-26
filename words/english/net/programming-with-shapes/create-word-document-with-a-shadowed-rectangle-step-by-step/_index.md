@@ -94,36 +94,26 @@ The `InsertShape` method returns a `Shape` object, which we can further customis
 
 ## Step 4 – How to Add Shadow (Add Shape Shadow)
 
-Adding a shadow is surprisingly simple once you know which properties to touch. The `ShadowFormat` object controls visibility, color, blur, offset, and size.
+Adding a shadow is straightforward once you know which properties are available. The `ShadowFormat` object controls colour, transparency, and the preset shadow type. To enable a shadow you set a `ShadowType` value; this automatically makes the shadow visible.
 
 ```csharp
-// Make the shadow visible
-rectangleShape.ShadowFormat.Visible = true;
+// Choose a preset shadow type (this also makes the shadow visible)
+rectangleShape.ShadowFormat.Type = ShadowType.Shadow7;
 
 // Choose a subtle gray tone
 rectangleShape.ShadowFormat.Color = Color.Gray;
 
 // Set 30 % transparency – the shadow will be faint but noticeable
 rectangleShape.ShadowFormat.Transparency = 0.3;
-
-// Offset the shadow 5 points right and 5 points down
-rectangleShape.ShadowFormat.OffsetX = 5;
-rectangleShape.ShadowFormat.OffsetY = 5;
-
-// Soften the edges with a blur radius of 4 points
-rectangleShape.ShadowFormat.BlurRadius = 4;
-
-// Scale the shadow to 75 % of the shape size (percentage)
-rectangleShape.ShadowFormat.Size = 75;
 ```
 
-That block answers **how to add shadow** in plain English: turn it on, pick a colour, tweak transparency, offset, blur, and size. You can experiment with these numbers to get a heavy drop‑shadow or a whisper‑thin one.
+The API does not expose separate offset, blur‑radius, or size properties; those visual aspects are defined by the chosen `ShadowType` preset. You can experiment with different `ShadowType` values (e.g., `Shadow1` through `Shadow43`) to get a heavier or lighter drop‑shadow effect.
 
 ### Common Variations
 
 - **Different colours:** Use `Color.Black` for a classic drop shadow, or `Color.BlueViolet` for a stylised effect.  
-- **Zero blur:** Set `BlurRadius = 0` for a crisp, sharp edge.  
-- **Larger offsets:** Increase `OffsetX`/`OffsetY` to push the shadow farther away from the shape.
+- **Different preset:** Change `ShadowType.Shadow7` to another preset such as `Shadow1` or `Shadow20` to adjust the shadow’s spread and angle.  
+- **Transparency:** Adjust the `Transparency` value between `0.0` (opaque) and `1.0` (fully transparent) to make the shadow more or less pronounced.
 
 ## Step 5 – Save the Document and Verify
 
@@ -137,9 +127,9 @@ document.Save(outputPath);
 Console.WriteLine($"Document saved to {outputPath}");
 ```
 
-Open the resulting *ShadowRectangle.docx* in Microsoft Word. You should see a rectangle with a soft gray shadow offset to the bottom‑right—exactly what the code specified.
+Open the resulting *ShadowRectangle.docx* in Microsoft Word. You should see a rectangle with a gray shadow defined by the selected preset—exactly what the code specified.
 
-> **Expected output:** A single‑page Word file containing a 150 × 100‑point rectangle with a 30 % transparent gray shadow, offset by 5 pts, blurred by 4 pts, and sized at 75 % of the shape.
+> **Expected output:** A single‑page Word file containing a 150 × 100‑point rectangle with a 30 % transparent gray shadow, using the visual style of `ShadowType.Shadow7`.
 
 ## Full Working Example
 
@@ -166,13 +156,9 @@ class Program
         Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 100);
 
         // 4️⃣ How to add shadow – configure the ShadowFormat
-        rectangleShape.ShadowFormat.Visible = true;
+        rectangleShape.ShadowFormat.Type = ShadowType.Shadow7; // preset shadow
         rectangleShape.ShadowFormat.Color = Color.Gray;
         rectangleShape.ShadowFormat.Transparency = 0.3; // 30 % transparent
-        rectangleShape.ShadowFormat.OffsetX = 5;        // horizontal offset
-        rectangleShape.ShadowFormat.OffsetY = 5;        // vertical offset
-        rectangleShape.ShadowFormat.BlurRadius = 4;    // softer edge
-        rectangleShape.ShadowFormat.Size = 75;         // size as a percentage
 
         // 5️⃣ Save the document
         string outputPath = Path.Combine(Environment.CurrentDirectory, "ShadowRectangle.docx");
@@ -190,14 +176,14 @@ Run the program (`dotnet run`) and you’ll have a fresh Word file with a nicely
 A: Absolutely. The `InsertShape` method accepts any `ShapeType` enum value. Once you have a `Shape` instance, the `ShadowFormat` properties work identically, so **how to add shadow** is shape‑agnostic.
 
 **Q: What if I need the shadow on both sides of the shape?**  
-A: Aspose.Words only supports a single drop shadow per shape. To simulate a double‑sided effect, duplicate the shape, offset each copy differently, and set one’s `ShadowFormat.Visible` to `false` while keeping the other’s shadow visible.
+A: Aspose.Words only supports a single drop shadow per shape. To simulate a double‑sided effect, duplicate the shape, offset each copy differently, and set one’s `ShadowFormat.Type` to a preset while keeping the other’s shadow visible.
 
 **Q: Does this work on .NET Framework 4.8?**  
 A: Yes. The API is version‑agnostic; just reference the appropriate Aspose.Words DLL for your target framework.
 
 ## Tips & Pitfalls
 
-- **Don’t forget to set `Visible = true`**—the shadow properties are ignored otherwise.  
+- **Don’t forget to set a `ShadowType`.** The shadow properties are ignored unless a preset type is assigned.  
 - **Transparency values range from 0.0 (opaque) to 1.0 (fully transparent).** A common mistake is using `30` instead of `0.3`.  
 - **Saving to a read‑only folder throws an exception.** Make sure the output directory is writable.
 
@@ -209,7 +195,7 @@ Now that you know **how to insert shape**, **add shape shadow**, and **create wo
 - Applying **gradient fills** or **patterned borders** for richer visual styling.  
 - Automating the generation of multiple pages, each with a different shaded shape, to build dynamic reports.
 
-Feel free to experiment—changing the shadow’s colour, blur, or size can dramatically alter the look of your document.
+Feel free to experiment—changing the shadow’s colour, preset, or transparency can dramatically alter the look of your document.
 
 ---
 
