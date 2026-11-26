@@ -53,7 +53,6 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Vytvořit obdélníkový tvar se stínem](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Naučte se, jak vytvořit obdélníkový tvar se stínem v C# pomocí Aspose.Words. |
 | [Vytvořit dokument Word se stínovaným obdélníkovým tvarem – kompletní průvodce](./create-word-document-with-shadowed-rectangle-complete-guide/) | Naučte se, jak vytvořit dokument Word se stínovaným obdélníkovým tvarem pomocí Aspose.Words pro .NET. |
 | [Nastavit stín na tvaru](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Naučte se, jak nastavit stín tvaru v dokumentech Word pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. |
-| [Jak nastavit stín na tvar ve Wordu – C# tutoriál](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Naučte se, jak nastavit stín pro tvary ve Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 | [Vytvořit obdélníkový tvar a přidat stín v C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Naučte se, jak vytvořit obdélníkový tvar a přidat stín v C# pomocí Aspose.Words pro .NET. |
 | [Jak skrýt tvar ve Wordu pomocí C# – krok za krokem](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Naučte se, jak skrýt tvar v dokumentu Word pomocí Aspose.Words pro .NET v C#. |
 | [Vytvořit obdélník ve Wordu – Přidat tvary do Wordu pomocí Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Naučte se, jak pomocí Aspose.Words přidat obdélníkový tvar do dokumentu Word. |

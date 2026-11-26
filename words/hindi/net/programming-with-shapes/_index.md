@@ -51,7 +51,6 @@
 | [C# में शैडो के साथ आयत आकार बनाएं Aspose.Words का उपयोग करके](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | C# में Aspose.Words का उपयोग करके शैडो के साथ आयत आकृति बनाने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [छाया वाले आयत आकार के साथ Word दस्तावेज़ बनाएं – पूर्ण गाइड](./create-word-document-with-shadowed-rectangle-complete-guide/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ Word दस्तावेज़ बनाने के विस्तृत चरण‑दर‑चरण निर्देश। |
-| [Word आकृति पर शैडो सेट करें – C# ट्यूटोरियल](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | .NET के लिए Aspose.Words का उपयोग करके Word आकृति में शैडो कैसे सेट करें, इस चरण‑दर‑स्टेप गाइड में सीखें। |
 | [C# में आयत आकार बनाएं और शैडो जोड़ें](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाना और शैडो प्रभाव जोड़ना सीखें। |
 | [C# के साथ Word में आकृति को छुपाने का तरीका – चरण‑दर‑चरण गाइड](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति को छुपाने के चरण‑दर‑चरण निर्देश। |
 | [Word में आयत बनाएं – Aspose के साथ Word में आकृतियाँ जोड़ें](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार जोड़ने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
