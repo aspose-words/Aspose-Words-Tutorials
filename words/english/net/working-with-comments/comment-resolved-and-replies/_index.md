@@ -34,7 +34,6 @@ First things first, let's import the necessary namespaces. This ensures that all
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Comments;
 ```
 
 Let's break down the process into simple, easy-to-follow steps. Each step will help you understand the code and its functionality.
