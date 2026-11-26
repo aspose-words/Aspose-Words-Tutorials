@@ -180,7 +180,6 @@ Jste připraveni automatizovat svůj dokumentační workflow? Vyzkoušejte přev
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
 
 - [Uložit docx jako txt – Exportovat Word Math do LaTeX s C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Uložit docx jako txt s Aspose.Words TxtSaveOptions – Zachovat zalomení řádků a mezery v C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

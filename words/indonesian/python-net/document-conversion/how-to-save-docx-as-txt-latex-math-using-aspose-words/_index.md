@@ -177,7 +177,6 @@ Siap mengotomatisasi alur kerja dokumentasi Anda? Cobalah mengonversi sekumpulan
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dengan C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Simpan docx sebagai txt dengan Aspose.Words TxtSaveOptions – Pertahankan Baris Baru & Spasi dalam C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
