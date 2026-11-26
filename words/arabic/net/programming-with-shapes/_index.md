@@ -59,7 +59,6 @@
 | [كيفية إضافة ظل إلى الأشكال في C# – دليل Aspose.Words الكامل](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | تعرّف على كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
 | [إنشاء شكل مستطيل وتجميع أشكال متعددة في C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | تعلم كيفية إنشاء شكل مستطيل وتجميع عدة أشكال في مستند Word باستخدام C# و Aspose.Words. |
 | [كيفية إنشاء شكل مخفي في ملف docx باستخدام Aspose.Words في C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | تعلم كيفية إنشاء شكل مخفي في مستند Word باستخدام Aspose.Words وC#. |
-| [كيفية تجميع الأشكال في Word باستخدام Aspose.Words لـ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية إنشاء مستند Word فارغ وتجمّع الأشكال في C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words وC#. |
 | [إنشاء مستند Word برمجيًا وتجمّع الأشكال في C#](./create-word-document-programmatically-and-group-shapes-in-c/) | تعلم كيفية إنشاء مستند Word برمجيًا وإضافة مجموعة من الأشكال باستخدام Aspose.Words for .NET وC#. |
