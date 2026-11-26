@@ -242,7 +242,6 @@ Aspose.Words 会为 `SaveFormat` 支持的所有光栅格式渲染阴影。您�
 
 以下教程涵盖与本指南技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方法。
 
-- [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [如何在 Java 中将 DOCX 转换为 PNG – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [使用 Aspose.Words 在 Python 中将 Word 文档保存为 PostScript：综合指南](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

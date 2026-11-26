@@ -226,7 +226,6 @@ blur radius, distance, या color को अपने ब्रांड ग�
 
 - [Python में Aspose.Words लाइसेंस सेटअप करें](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Aspose.Words के साथ Word में rectangle shape बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words Shape Shadow ट्यूटोरियल – C# में Word Shape में Shadow जोड़ें](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

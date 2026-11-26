@@ -235,7 +235,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Installera Aspose.Words-licens i Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words Shape Shadow‑handledning – Lägg till en skugga på Word‑form i C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

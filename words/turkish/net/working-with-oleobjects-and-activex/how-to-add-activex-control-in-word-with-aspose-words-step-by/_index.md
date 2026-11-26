@@ -257,7 +257,6 @@ Düğme görünüyor ama hiçbir şey yapmıyorsa, makro adının tam olarak (`S
 Aşağıdaki eğitimler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
 - [Belge Builder Kullanarak İçerik Ekleme Aspose.Words for .NET'de](/words/english/net/add-content-using-document-builder/)
-- [Aspose.Words Şekil Gölge Eğitimi – C#'ta Word Şekline Gölge Ekleme](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Word Belgesine Yeni Bölüm Ekleme | Aspose.Words for .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

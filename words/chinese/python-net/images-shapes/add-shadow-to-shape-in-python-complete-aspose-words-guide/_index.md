@@ -272,7 +272,6 @@ if shape.is_group:
 
 以下教程与本指南紧密相关，帮助您进一步掌握相关技术。每篇资源均提供完整可运行的代码示例和逐步解释，助您在项目中灵活运用更多 API 功能并探索替代实现方案。
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

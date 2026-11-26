@@ -265,7 +265,6 @@ Hai provato una variante? Condividila nei commenti, o poni le tue domande rimast
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell’API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Crea Documento Word Java – Aggiungi Forma Rettangolare con Effetto Ombra](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Tutorial Ombra Forma Aspose.Words – Aggiungi un’Ombra a una Forma Word in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Crea forma rettangolare in Word usando C# – Guida Passo‑per‑Passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

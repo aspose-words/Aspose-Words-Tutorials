@@ -216,7 +216,6 @@ shape = doc.inline_shapes[0]._inline
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步学习。每个资源都提供完整的可运行代码示例和逐步解释，助您掌握更多 API 功能并在项目中探索替代实现方案。
 
 - [创建 Word 文档（Java）– 添加带阴影效果的矩形形状](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [如何从 Word 保存 Markdown – 完整 Python 指南](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -219,7 +219,6 @@ Những mở rộng này cho phép bạn xây dựng một quy trình định d�
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh cùng giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tạo Tài liệu Word Java – Thêm Hình chữ nhật với Hiệu ứng Bóng đổ](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Hướng dẫn Bóng đổ Hình dạng Aspose.Words – Thêm Bóng đổ cho Hình dạng Word trong C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cách Lưu Markdown từ Word – Hướng dẫn Python đầy đủ](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

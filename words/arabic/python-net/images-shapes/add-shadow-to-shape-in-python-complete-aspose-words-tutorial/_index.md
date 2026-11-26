@@ -234,7 +234,6 @@ print(f"✅ PDF generated: {output}")
 
 - [إعداد ترخيص Aspose.Words في بايثون](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [دروس ظل الشكل في Aspose.Words – إضافة ظل إلى شكل Word بلغة C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

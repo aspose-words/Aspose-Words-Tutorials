@@ -235,7 +235,6 @@ print(f"✅ PDF generated: {output}")
 
 - [Настройка лицензии Aspose.Words в Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Создание прямоугольной фигуры в Word с Aspose.Words – Пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Учебник по тени фигур Aspose.Words – Добавление тени к фигуре Word в C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

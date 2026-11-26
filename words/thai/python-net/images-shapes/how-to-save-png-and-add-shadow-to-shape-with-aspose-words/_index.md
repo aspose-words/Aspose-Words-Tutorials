@@ -245,7 +245,6 @@ Aspose.Words เรนเดอร์เงาสำหรับรูปแบ�
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้แบบอื่นในโครงการของคุณ
 
-- [บทแนะนำ Aspose.Words Shape Shadow – เพิ่มเงาให้ Shape ใน Word ด้วย C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [วิธีแปลง DOCX เป็น PNG ด้วย Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [บันทึกเอกสาร Word เป็น PostScript ด้วย Python โดยใช้ Aspose.Words: คู่มือฉบับสมบูรณ์](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

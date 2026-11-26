@@ -218,7 +218,6 @@ static void ApplyShadow(Shape s, int offset = 4, double transparency = 0.3,
 
 निम्नलिखित ट्यूटोरियल्स उन निकट संबंधित विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण-दर-चरण व्याख्याएँ शामिल हैं जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण करने में मदद करेंगे।
 
-- [Aspose.Words Shape Shadow ट्यूटोरियल – Word Shape में C# के साथ शैडो जोड़ें](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Aspose.Words for .NET में Document Builder का उपयोग करके कंटेंट जोड़ें](/words/english/net/add-content-using-document-builder/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में टेक्स्ट वॉटरमार्क जोड़ें](/words/english/net/working-with-watermark/add-text-watermark/)
 

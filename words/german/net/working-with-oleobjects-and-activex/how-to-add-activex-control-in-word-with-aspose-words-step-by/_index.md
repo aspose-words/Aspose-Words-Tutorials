@@ -258,7 +258,6 @@ Wenn der Button erscheint, aber nichts tut, prüfen Sie doppelt, dass der Makron
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Inhalt mit Document Builder in Aspose.Words für .NET hinzufügen](/words/english/net/add-content-using-document-builder/)
-- [Aspose.Words Shape Shadow Tutorial – Schatten zu Word‑Form hinzufügen in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Neuen Abschnitt zu Word‑Dokument hinzufügen | Aspose.Words für .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -268,7 +268,6 @@ API 完全相同；唯一的差別在於形狀類型。文字方塊為 `ShapeTyp
 ## 接下來該學什麼？
 
 - [在 Java 中建立 Word 文件 – 添加帶陰影的矩形形狀](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words 形狀陰影教學 – 在 C# 中為 Word 形狀添加陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [建立空白 Word 文件並添加帶陰影的矩形形狀 – 步驟指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

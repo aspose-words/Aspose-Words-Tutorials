@@ -243,7 +243,6 @@ Children in first group: 2
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करें](/words/english/net/working-with-shapes/insert-shape/)
 - [Aspose.Words के साथ Word में आयताकार आकृति बनाएं – चरण-दर-चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words आकृति छाया ट्यूटोरियल – C# में Word आकृति में छाया जोड़ें](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

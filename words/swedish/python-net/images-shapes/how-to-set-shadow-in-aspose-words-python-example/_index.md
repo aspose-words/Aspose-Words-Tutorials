@@ -260,7 +260,6 @@ Vi har gått igenom **
 
 De följande handledningarna täcker närbesläktade ämnen som bygger vidare på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Aspose.Words Form Skugga‑handledning – Lägg till en skugga på Word‑form i C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hur man implementerar kommentarer och svar i Word‑dokument med Aspose.Words för Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Hur man hanterar dokumentvariabler med Aspose.Words i Python: En komplett guide](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

@@ -216,7 +216,6 @@ static void ApplyShadow(Shape s, int offset = 4, double transparency = 0.3,
 
 以下教程与本指南紧密相关，帮助你进一步掌握 API 功能并探索在项目中的不同实现方式，每篇都附有完整可运行的代码示例和逐步说明。
 
-- [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [使用 Document Builder 在 Aspose.Words for .NET 中添加内容](/words/english/net/add-content-using-document-builder/)
 - [使用 Aspose.Words for .NET 在 Word 文档中添加文字水印](/words/english/net/working-with-watermark/add-text-watermark/)
 

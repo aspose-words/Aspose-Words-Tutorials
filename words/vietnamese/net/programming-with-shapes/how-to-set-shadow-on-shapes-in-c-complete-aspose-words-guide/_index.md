@@ -278,7 +278,6 @@ Happy coding, and may your documents always have just the right amount of depth!
 
 Các tutorial sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ code hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Hướng Dẫn Bóng Đổ Shape trong Aspose.Words – Thêm Bóng Đổ cho Shape trong Word bằng C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cách Thêm Bóng Đổ trong C# – Hướng Dẫn Lập Trình Toàn Diện](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Tạo Tài Liệu Word Java – Thêm Hình Chữ Nhật với Hiệu Ứng Bóng Đổ](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

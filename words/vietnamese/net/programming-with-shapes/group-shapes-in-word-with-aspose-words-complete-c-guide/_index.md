@@ -311,7 +311,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Chèn Các Hình Vào Tài Liệu Word Sử Dụng Aspose.Words cho .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Tạo Hình Chữ Nhật trong Word với Aspose.Words – Hướng Dẫn Từng Bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Hướng Dẫn Shadow cho Shape trong Aspose.Words – Thêm Bóng cho Shape Word trong C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

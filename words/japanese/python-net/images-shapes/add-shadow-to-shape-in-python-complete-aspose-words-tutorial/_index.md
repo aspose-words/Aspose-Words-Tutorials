@@ -225,7 +225,6 @@ print(f"✅ PDF generated: {output}")
 
 - [Python で Aspose.Words ライセンスを設定](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Aspose.Words を使用して Word に矩形シェイプを作成 – 手順別ガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words シェイプ影チュートリアル – C# で Word シェイプに影を追加](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

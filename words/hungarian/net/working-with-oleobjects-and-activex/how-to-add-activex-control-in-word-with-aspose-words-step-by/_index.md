@@ -261,7 +261,6 @@ Ha a gomb megjelenik, de nem csinál semmit, ellenőrizze, hogy a makró neve po
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek tovább építik a jelen útmutatóban bemutatott technikákat. Minden forrás tartalmaz teljes, működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Tartalom hozzáadása a Document Builder segítségével az Aspose.Words for .NET-ben](/words/english/net/add-content-using-document-builder/)
-- [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#-ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Új szakasz hozzáadása Word dokumentumhoz | Aspose.Words for .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

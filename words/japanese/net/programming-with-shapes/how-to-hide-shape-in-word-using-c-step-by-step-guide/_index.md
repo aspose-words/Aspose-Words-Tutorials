@@ -201,7 +201,6 @@ Microsoft Word で `ShapeHidden.docx` を開くと、元々表示されていた
 以下のチュートリアルは、本ガイドで示した手法に基づく密接に関連するトピックを取り上げています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [C# を使用して Word に矩形シェイプを作成する – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Aspose.Words シェイプシャドウチュートリアル – C# で Word シェイプに影を追加する](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Aspose.Words for .NET を使用して Word ドキュメントにグループシェイプを作成する](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

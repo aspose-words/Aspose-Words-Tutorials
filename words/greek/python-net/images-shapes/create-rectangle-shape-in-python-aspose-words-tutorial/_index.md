@@ -227,7 +227,6 @@ print(f"Document saved to {output_path}")
 
 - [Δημιουργία εγγράφου Word σε Java – Προσθήκη σχήματος ορθογωνίου με εφέ σκιάς](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Δημιουργία σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Aspose.Words Shape Shadow Tutorial – Προσθήκη σκιάς σε σχήμα Word σε C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

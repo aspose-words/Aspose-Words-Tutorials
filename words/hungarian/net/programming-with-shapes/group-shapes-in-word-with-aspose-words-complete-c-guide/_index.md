@@ -310,7 +310,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Formák beszúrása Word dokumentumokba Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/insert-shape/)
 - [Rectangle shape létrehozása Wordben Aspose.Words‑szel – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words Shape Shadow Tutorial – Árnyék hozzáadása Word shape-hez C#‑ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

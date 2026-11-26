@@ -244,7 +244,6 @@ dotnet run -- "C:\Docs\myTemplate.docx" "C:\Docs\myTemplate_shadowed.docx"
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة كود كاملة تعمل مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [دروس ظل شكل Aspose.Words – إضافة ظل إلى شكل Word في C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [كيفية إضافة ظل في C# – دليل برمجة كامل](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [إنشاء شكل مجموعة في مستند Word باستخدام Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
