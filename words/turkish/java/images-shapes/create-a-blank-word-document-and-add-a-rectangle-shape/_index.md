@@ -193,7 +193,6 @@ Artık **boş bir Word belgesi oluşturmayı**, **bir dikdörtgen şekli eklemey
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım adım açıklamalar içerir.
 
-- [Word Belgesi Oluştur – Dikdörtgen Şekli ve Gölge Ekleme](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Aspose.Words for .NET Kullanarak Word Belgesinde Grup Şekli Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
 - [Gizli Elips Şekilli Boş Word Belgesi Oluşturma – Tam C# Kılavuzu](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

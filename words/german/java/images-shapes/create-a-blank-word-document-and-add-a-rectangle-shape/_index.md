@@ -196,7 +196,6 @@ Viel Spaß beim Programmieren und fühlen Sie sich frei, mit anderen Formtypen u
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Handbuch gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Word-Dokument erstellen – Wie man eine Rechteckform und einen Schatten hinzufügt](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Gruppenform in Word-Dokument mit Aspose.Words für .NET erstellen](/words/english/net/working-with-shapes/add-group-shape/)
 - [Ein leeres Word-Dokument mit einer versteckten Ellipsenform erstellen – Vollständiger C#‑Leitfaden](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

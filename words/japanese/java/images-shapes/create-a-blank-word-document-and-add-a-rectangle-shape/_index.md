@@ -191,7 +191,6 @@ class Program
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
-- [Word 文書の作成 – 長方形の図形と影の追加方法](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Aspose.Words for .NET を使用した Word 文書でのグループ図形の作成](/words/english/net/working-with-shapes/add-group-shape/)
 - [非表示の楕円形を含む空白の Word 文書の作成 – 完全 C# ガイド](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

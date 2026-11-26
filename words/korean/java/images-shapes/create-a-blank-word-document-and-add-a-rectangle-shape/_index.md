@@ -193,7 +193,6 @@ You now know how to **create a blank Word document**, **add a rectangle shape**,
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Word 문서 만들기 – 사각형 도형 및 그림자 추가 방법](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Aspose.Words for .NET을 사용한 Word 문서에서 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 - [숨겨진 타원 도형이 있는 빈 Word 문서 만들기 – 전체 C# 가이드](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

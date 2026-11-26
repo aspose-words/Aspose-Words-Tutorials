@@ -193,7 +193,6 @@ Los siguientes pasos que podrías explorar:
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Crear documento Word – Cómo agregar forma rectangular y sombra](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Crear forma de grupo en documento Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Crear un documento Word en blanco con una forma elíptica oculta – Guía completa en C#](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

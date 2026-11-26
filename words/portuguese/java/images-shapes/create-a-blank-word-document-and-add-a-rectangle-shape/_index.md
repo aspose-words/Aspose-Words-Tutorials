@@ -193,7 +193,6 @@ Feliz codificação, e sinta-se à vontade para experimentar outros tipos de for
 
 Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Criar documento Word – Como adicionar forma retangular e sombra](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Criar forma de grupo em documento Word usando Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Criar um documento Word em branco com forma elipse oculta – Guia completo em C#](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

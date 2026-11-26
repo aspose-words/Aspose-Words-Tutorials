@@ -193,7 +193,6 @@ Veel programmeerplezier, en voel je vrij om met andere vormtypen en zichtbaarhei
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Word‑document maken – Hoe een rechthoekvorm en schaduw toe te voegen](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Groepvorm maken in Word‑document met Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Leeg Word‑document maken met een verborgen ellipsvorm – volledige C#‑gids](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

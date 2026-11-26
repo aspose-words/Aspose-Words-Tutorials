@@ -194,7 +194,6 @@ Selamat coding, dan silakan bereksperimen dengan tipe bentuk lain serta opsi vis
 
 Tutorial berikut mencakup topik yang terkait erat dan membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Buat Dokumen Word – Cara Menambahkan Bentuk Persegi Panjang dan Bayangan](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Buat Group Shape dalam Dokumen Word Menggunakan Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Buat Dokumen Word Kosong dengan Bentuk Elips Tersembunyi – Panduan C# Lengkap](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 

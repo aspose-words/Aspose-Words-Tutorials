@@ -194,7 +194,6 @@ Miłego kodowania i zachęcamy do eksperymentowania z innymi typami kształtów 
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Utwórz dokument Word – jak dodać prostokątny kształt i cień](/words/english/net/programming-with-shapes/create-word-document-how-to-add-rectangle-shape-and-shadow/)
 - [Utwórz grupowy kształt w dokumencie Word przy użyciu Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Utwórz pusty dokument Word z ukrytym eliptycznym kształtem – pełny przewodnik C#](/words/english/net/programming-with-shapes/create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/)
 
