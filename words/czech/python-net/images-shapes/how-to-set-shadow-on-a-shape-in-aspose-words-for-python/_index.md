@@ -212,7 +212,6 @@ Nyní máte kompletní, spustitelné řešení pro **jak nastavit stín** na tva
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Přidat stín k tvaru v C# – Kompletní průvodce aplikací efektu stínu](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/)
 - [Přidat stín k tvaru ve Wordu – Kompletní průvodce Aspose.Words](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 - [Vytvořit obdélníkový tvar, přidat stín a uložit PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 
