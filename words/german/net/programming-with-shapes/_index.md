@@ -25,7 +25,6 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | Titel | Beschreibung |
 | --- | --- |
 | [Gruppenform hinzufügen](./add-group-shape/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Gruppenformen zu Word-Dokumenten hinzufügen. |
-| [DOCX-Datei mit gruppierten Formen in Word speichern mit C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument mit gruppierten Formen in C# speichern. |
 | [Rechteckform erstellen und mehrere Formen gruppieren in C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck erstellen und mehrere Formen zu einer Gruppe zusammenfassen. |
 | [Wie man Formen in Word mit C# und Aspose.Words gruppiert](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET mehrere Formen in einem Word-Dokument zu einer Gruppe zusammenfassen. |
 | [Wie man ein leeres Word-Dokument und Gruppenformen in C# erstellt](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und Gruppenformen hinzufügen. |

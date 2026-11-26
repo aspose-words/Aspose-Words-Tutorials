@@ -33,7 +33,6 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Insert Shape](./insert-shape/) | Learn how to insert and manipulate shapes in Word documents using Aspose.Words for .NET with our step-by-step guide. |
 | [Aspect Ratio Locked](./aspect-ratio-locked/) | Learn how to lock the aspect ratio of shapes in Word documents using Aspose.Words for .NET. Follow this step-by-step guide to keep your images and shapes proportionate. |
 | [Layout In Cell](./layout-in-cell/) | Learn how to set the layout in cell using Aspose.Words for .NET with this comprehensive, guide. Perfect for developers looking to customize Word documents. |
-| [Save docx file with grouped shapes in Word using C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Learn how to save a DOCX file containing grouped shapes in Word using Aspose.Words for .NET with C#. |
 | [Add Corners Snipped](./add-corners-snipped/) | Learn how to add a corners snipped shape to your Word documents using Aspose.Words for .NET. This step-by-step guide ensures you can enhance your documents easily. |
 | [Get Actual Shape Bounds Points](./get-actual-shape-bounds-points/) | Discover how to get the actual shape bounds points in Word documents using Aspose.Words for .NET. Learn precise shape manipulation with this detailed guide. |
 | [Vertical Anchor](./vertical-anchor/) | Learn how to set vertical anchor positions for textboxes in Word documents using Aspose.Words for .NET. Easy step-by-step guide included.|
