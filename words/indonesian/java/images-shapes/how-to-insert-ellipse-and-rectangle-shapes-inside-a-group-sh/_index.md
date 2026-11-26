@@ -170,7 +170,6 @@ Siap untuk menjelajahi lebih lanjut? Cobalah menggabungkan teknik ini dengan **h
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Cara membuat bentuk persegi panjang dan grup shape di Word dengan Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Cara membuat dokumen Word kosong dan menambahkan bentuk elips tersembunyi dalam C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Cara membuat group shape docx dan menambahkan kontrol interaktif dalam C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

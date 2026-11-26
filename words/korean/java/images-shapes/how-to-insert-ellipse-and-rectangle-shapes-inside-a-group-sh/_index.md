@@ -167,7 +167,6 @@ Microsoft Word에서 저장된 파일을 열면, 사각형과 타원이 포함�
 
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 작동 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [Aspose.Words를 사용하여 Word에서 사각형 도형 및 그룹 도형 만들기](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [C#에서 빈 Word 문서를 만들고 숨겨진 타원 도형 추가하기](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [C#에서 그룹 도형 docx를 만들고 인터랙티브 컨트롤 추가하기](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

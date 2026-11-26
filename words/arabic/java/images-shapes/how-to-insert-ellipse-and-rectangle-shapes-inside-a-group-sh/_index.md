@@ -167,7 +167,6 @@ class GroupShapeDemo
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية إنشاء شكل مستطيل وأشكال مجموعة في Word باستخدام Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [كيفية إنشاء مستند Word فارغ وإضافة شكل قطع ناقص مخفي في C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [كيفية إنشاء شكل مجموعة docx وإضافة عناصر تحكم تفاعلية في C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

@@ -241,7 +241,6 @@ class ShapeDemo
 
 以下教程涵盖与本指南紧密相关的主题，基于所示技术进行扩展。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方式。
 
-- [使用 Aspose.Words 在 Word 中创建矩形形状并对形状进行分组](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [使用 Aspose.Words for .NET 在 Word 文档中创建分组形状](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -170,7 +170,6 @@ Bereit, mehr zu entdecken? Versuchen Sie, diese Technik mit **how to create grou
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Wie man Rechteckformen und Gruppierungsformen in Word mit Aspose.Words erstellt](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Wie man ein leeres Word‑Dokument erstellt und eine versteckte Ellipse in C# hinzufügt](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Wie man eine Gruppierungsform‑docx erstellt und interaktive Steuerelemente in C# hinzufügt](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

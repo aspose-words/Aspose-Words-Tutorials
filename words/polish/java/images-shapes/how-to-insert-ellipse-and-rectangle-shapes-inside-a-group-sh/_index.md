@@ -170,7 +170,6 @@ Gotowy, aby odkrywać dalej? Spróbuj połączyć tę technikę z **jak utworzy�
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Jak utworzyć prostokątny kształt i grupować kształty w Wordzie przy użyciu Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Jak utworzyć pusty dokument Word i dodać ukryty kształt elipsy w C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Jak utworzyć docx z kształtem grupy i dodać interaktywne kontrolki w C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

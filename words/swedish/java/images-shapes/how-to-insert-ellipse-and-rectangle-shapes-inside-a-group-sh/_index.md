@@ -169,7 +169,6 @@ Redo att utforska mer? Prova att kombinera denna teknik med **hur man skapar gru
 
 Följande handledningar täcker nära besläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementeringsmetoder i dina egna projekt.
 
-- [Hur man skapar rektangelform och gruppformer i Word med Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Hur man skapar ett tomt Word‑dokument och lägger till en dold ellipsform i C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Hur man skapar gruppform‑docx och lägger till interaktiva kontroller i C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

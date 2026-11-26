@@ -171,7 +171,6 @@ Prêt à explorer davantage ? Essayez de combiner cette technique avec **comme
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Comment créer une forme rectangle et des formes groupées dans Word avec Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Comment créer un document Word vierge et ajouter une forme ellipse cachée en C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Comment créer un docx avec forme groupée et ajouter des contrôles interactifs en C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

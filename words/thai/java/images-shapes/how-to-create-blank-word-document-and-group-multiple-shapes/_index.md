@@ -157,7 +157,6 @@ class Program
 
 - [วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปทรงใน C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [วิธีจัดกลุ่มรูปทรงใน Word และเพิ่มรูปทรงลงในเอกสาร Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [วิธีสร้างรูปสี่เหลี่ยมผืนผ้าและจัดกลุ่มรูปทรงใน Word ด้วย Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

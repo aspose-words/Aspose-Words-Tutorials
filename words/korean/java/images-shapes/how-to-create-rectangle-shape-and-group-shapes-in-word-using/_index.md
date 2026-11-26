@@ -243,7 +243,6 @@ class ShapeDemo
 
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 동작 코드 예제가 포함되어 있어 추가 API 기능을 숙달하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [Aspose.Words를 사용하여 Word에서 사각형 도형을 만들고 도형을 그룹화하는 방법](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Aspose.Words for .NET을 사용해 Word 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

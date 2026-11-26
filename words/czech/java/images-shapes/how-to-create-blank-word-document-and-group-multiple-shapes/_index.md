@@ -159,7 +159,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak vytvořit prázdný dokument Word a seskupit tvary v C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Jak seskupit tvary ve Wordu a přidat tvary do dokumentu Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Jak vytvořit obdélníkový tvar a seskupit tvary ve Wordu s Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -155,7 +155,6 @@ class Program
 
 - [如何在 C# 中建立空白 Word 文件並群組圖形](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [如何在 Word 中群組圖形並將圖形加入 Word 文件](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [如何使用 Aspose.Words 在 Word 中建立矩形圖形並群組圖形](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
