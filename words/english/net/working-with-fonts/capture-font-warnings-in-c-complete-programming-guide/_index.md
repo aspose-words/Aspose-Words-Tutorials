@@ -33,7 +33,7 @@ In this tutorial we’ll show you a ready‑to‑run solution that not only **ca
 
 ## What You’ll Learn
 
-- How to configure `LoadOptions` to turn on font‑substitution warnings.  
+- How to configure `LoadOptions` to capture font‑substitution warnings.  
 - The exact code you need to load a DOCX and pull out every warning.  
 - Why each step matters, including performance considerations.  
 - Edge‑case handling such as documents with mixed‑script fonts or custom font folders.  
@@ -44,7 +44,7 @@ In this tutorial we’ll show you a ready‑to‑run solution that not only **ca
 
 ## Capture Font Warnings – Why It Matters
 
-When Aspose.Words loads a document, it silently swaps any unavailable font with a fallback. That fallback keeps the load operation alive, but the visual result can be completely off‑center. By turning on the **SubstitutionWarningLevel.All** flag, the library adds a `WarningInfo` entry for each missing font, allowing you to **detect missing fonts** before the document is rendered or saved.
+When Aspose.Words loads a document, it silently swaps any unavailable font with a fallback. That fallback keeps the load operation alive, but the visual result can be completely off‑center. By assigning a warning callback, the library adds a `WarningInfo` entry for each missing font, allowing you to **detect missing fonts** before the document is rendered or saved.
 
 > **Pro tip:** If you’re processing hundreds of files in a batch job, logging these warnings to a central store can save you hours of manual QA later.
 
@@ -68,7 +68,7 @@ That’s it—no extra DLLs, no COM interop. The library ships everything you ne
 
 ## Step 2: Prepare Load Options to Capture All Font Substitution Warnings
 
-To make the engine **capture font warnings**, you must tell it to record every substitution. The following snippet creates a `LoadOptions` instance, enables the warning level, and (optionally) points the engine at a folder that contains custom fonts you might want to use.
+To make the engine **capture font warnings**, you must provide a warning callback that records every substitution. The following snippet creates a `LoadOptions` instance, attaches a `WarningInfoCollection`, and (optionally) points the engine at a folder that contains custom fonts you might want to use.
 
 ```csharp
 using Aspose.Words;
@@ -81,23 +81,24 @@ namespace FontWarningDemo
         static void Main(string[] args)
         {
             // -----------------------------------------------------------------
-            // Step 2.1 – Create LoadOptions and turn on font‑substitution warnings
+            // Step 2.1 – Create LoadOptions and attach a warning collector
             // -----------------------------------------------------------------
             LoadOptions loadOptions = new LoadOptions();
 
             // Initialise FontSettings if you need to add a custom font folder
             loadOptions.FontSettings = new FontSettings();
 
-            // Capture *all* font substitution events (this is the key for capture font warnings)
-            loadOptions.FontSettings.SubstitutionWarningLevel = FontSettings.SubstitutionWarningLevel.All;
+            // Attach a collector that will receive all warnings, including font substitutions
+            WarningInfoCollection warningCollector = new WarningInfoCollection();
+            loadOptions.WarningCallback = warningCollector;
 
             // Optional: add a folder that contains corporate fonts
             // loadOptions.FontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", false);
 ```
 
 **Why this matters:**  
-- `SubstitutionWarningLevel.All` ensures **every** missing‑font event is recorded, not just the first one.  
-- Without this flag, Aspose.Words silently replaces the font and you never know a problem exists.
+- The warning collector records **every** missing‑font event, not just the first one.  
+- Without a warning callback, Aspose.Words silently replaces the font and you never know a problem exists.
 
 ## Step 3: Load the Document Using the Configured Options
 
@@ -112,7 +113,7 @@ Now we actually open the file. Replace `DocumentWithMissingFonts.docx` with the 
             Document document = new Document(docPath, loadOptions);
 ```
 
-If the file contains any references to fonts that aren’t on the machine (or in the optional folder you added), the `document.WarningInfoCollection` will be populated.
+If the file contains any references to fonts that aren’t on the machine (or in the optional folder you added), the `warningCollector` will be populated.
 
 ## Step 4: Find and Display Any Font Substitution Warnings
 
@@ -122,8 +123,8 @@ Here’s the heart of the tutorial: iterating over the `WarningInfoCollection` t
             // -----------------------------------------------------------------
             // Step 2.3 – Enumerate and output font substitution warnings
             // -----------------------------------------------------------------
-            var fontWarnings = document.WarningInfoCollection
-                                         .Where(w => w.WarningType == WarningType.FontSubstitution);
+            var fontWarnings = warningCollector
+                                 .Where(w => w.WarningType == WarningType.FontSubstitution);
 
             if (!fontWarnings.Any())
             {
@@ -164,11 +165,7 @@ Simply printing a list may be enough for a diagnostic tool, but many production 
 ### 5.1 Substitute with a Known Fallback
 
 ```csharp
-loadOptions.FontSettings.DefaultFontSubstitution = new FontSettings.FontSubstitution
-{
-    // Replace any missing font with Arial, which is universally available
-    SubstituteFont = "Arial"
-};
+loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
 ### 5.2 Embed a Custom Font on the Fly
@@ -178,7 +175,8 @@ If you have a corporate font file (`MyBrand.ttf`), you can embed it when a missi
 ```csharp
 foreach (WarningInfo warning in fontWarnings)
 {
-    string missingFontName = warning.Description.Split('"')[1]; // crude extraction
+    // Extract the missing font name from the description (simple parsing)
+    string missingFontName = warning.Description.Split('"')[1];
     // Load your custom font (ensure the path is correct)
     string customFontPath = $@"C:\MyCompany\Fonts\{missingFontName}.ttf";
 
@@ -196,9 +194,8 @@ foreach (WarningInfo warning in fontWarnings)
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
-| No warnings appear even though the document looks wrong | `SubstitutionWarningLevel` not set to `All` | Ensure step 2 sets the flag exactly as shown |
+| No warnings appear even though the document looks wrong | Warning callback not attached | Ensure step 2 creates a `WarningInfoCollection` and assigns it to `loadOptions.WarningCallback` |
 | Warnings list the same font multiple times | Document contains the font in several styles | De‑duplicate if you only need a unique list: `fontWarnings.Select(w => w.Description).Distinct()` |
-| Application crashes on large DOCX files | Loading with default memory settings | Use `LoadOptions.LoadFormat` or stream the file to reduce memory pressure |
 
 ## Full Working Example (Copy‑Paste Ready)
 
@@ -222,7 +219,8 @@ namespace FontWarningDemo
             {
                 FontSettings = new FontSettings()
             };
-            loadOptions.FontSettings.SubstitutionWarningLevel = FontSettings.SubstitutionWarningLevel.All;
+            WarningInfoCollection warningCollector = new WarningInfoCollection();
+            loadOptions.WarningCallback = warningCollector;
 
             // OPTIONAL: add a folder with custom fonts
             // loadOptions.FontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", false);
@@ -236,8 +234,8 @@ namespace FontWarningDemo
             // ---------------------------------------------------------------
             // Retrieve and display missing‑font warnings
             // ---------------------------------------------------------------
-            var fontWarnings = doc.WarningInfoCollection
-                                  .Where(w => w.WarningType == WarningType.FontSubstitution);
+            var fontWarnings = warningCollector
+                               .Where(w => w.WarningType == WarningType.FontSubstitution);
 
             if (!fontWarnings.Any())
             {
@@ -256,7 +254,7 @@ namespace FontWarningDemo
             // OPTIONAL: automatic handling (fallback or embedding)
             // ---------------------------------------------------------------
             // Example: substitute everything with Arial
-            // loadOptions.FontSettings.DefaultFontSubstitution = new FontSettings.FontSubstitution { SubstituteFont = "Arial" };
+            // loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
