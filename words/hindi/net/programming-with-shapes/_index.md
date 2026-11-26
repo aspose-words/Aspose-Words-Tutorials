@@ -51,7 +51,6 @@
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑श... |
 | [C# में आकृति पर शैडो सेट करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word आकृति में शैडो जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
-| [C# में Aspose.Words के साथ आकृति छाया को संपादित करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words का उपयोग करके C# में आकृति की छाया को कैसे बदलें, इस चरण‑दर‑चरण मार्गदर्शिका में सीखें। |
 | [Aspose.Words के साथ खाली वर्ड दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words का उपयोग करके .NET में एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [C# में शैडो के साथ आयत आकार बनाएं Aspose.Words का उपयोग करके](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | C# में Aspose.Words का उपयोग करके शैडो के साथ आयत आकृति बनाने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |

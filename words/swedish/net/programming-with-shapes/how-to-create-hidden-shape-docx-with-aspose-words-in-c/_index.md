@@ -164,7 +164,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Skapa gruppform i Word-dokument med Aspose.Words för .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Hur man redigerar formskugga i C# med Aspose.Words – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

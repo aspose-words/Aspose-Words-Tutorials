@@ -168,7 +168,6 @@ class Program
 
 - [Создать прямоугольную форму в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Создать групповую форму в документе Word с использованием Aspose.Words для .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Как редактировать тень формы в C# с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
