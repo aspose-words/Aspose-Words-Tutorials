@@ -2,7 +2,7 @@
 title: Save Documents as TXT with Aspose.Words for .NET – Words Processing
 linktitle: Save Documents as TXT with Aspose.Words for .NET – Words Processing
 second_title: Aspose.Words Document Processing API
-description: Learn how to use the Aspose.Words for .NET API to save documents as TXT files with TxtSaveOptions, specifying encoding, column delimiters, line‑break handling, and whitespace management through step‑by‑step tutorials and C# sample code. This tutorial demonstrates how to convert Word documents to plain‑text, control formatting options, and optimize output for your applications.
+description: Learn how to use the Aspose.Words for .NET API to save documents as TXT files with TxtSaveOptions, specifying encoding and whitespace management through step‑by‑step tutorials and C# sample code. This tutorial demonstrates how to convert Word documents to plain‑text, control formatting options, and optimize output for your applications.
 weight: 1700
 url: /net/programming-with-txtsaveoptions/
 ---
@@ -17,9 +17,9 @@ url: /net/programming-with-txtsaveoptions/
 
 ## Overview
 
-Aspose.Words for .NET tutorials walk you through the various features and uses of the library in the context of manipulating Word documents. One of the tutorials focuses on Words Processing with TXT save options, showing you how to generate text files from Word documents while maintaining content formatting and structure. You will learn how to use the various options available to customize the conversion of documents to text files, such as specifying the column delimiter and managing white spaces.
+Aspose.Words for .NET tutorials walk you through the various features and uses of the library in the context of manipulating Word documents. One of the tutorials focuses on Words Processing with TXT save options, showing you how to generate text files from Word documents while maintaining content formatting and structure. You will learn how to use the various options available to customize the conversion of documents to text files, such as managing white spaces and preserving table layout.
 
-Below is a basic example of using **TxtSaveOptions** in C# to save a DOCX as a TXT file while preserving line breaks and spaces:
+Below is a basic example of using **TxtSaveOptions** in C# to save a DOCX as a TXT file while preserving table layout:
 
 ```csharp
 using Aspose.Words;
@@ -34,9 +34,7 @@ public void SaveDocAsTxt(string inputPath, string outputPath)
     TxtSaveOptions saveOptions = new TxtSaveOptions
     {
         Encoding = System.Text.Encoding.UTF8,
-        PreserveLineBreaks = true,
-        PreserveTableLayout = true,
-        ColumnDelimiter = '\t'   // Use tab as column delimiter
+        PreserveTableLayout = true
     };
 
     // Save the document as TXT
@@ -70,7 +68,6 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [How to Export LaTeX from Word – Complete Guide to Export LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Learn how to export Word documents to LaTeX format using Aspose.Words for .NET with a complete C# guide and key options. |
 | [Save docx as txt – Export Math to LaTeX with Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Learn how to save a DOCX as TXT while exporting Math equations to LaTeX using Aspose.Words for .NET. |
 | [save docx as txt – Export Word equations to LaTeX with C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Learn how to export Word equations to LaTeX while saving a DOCX as TXT using Aspose.Words for .NET and C#. |
-
 | [Save docx as txt – Export equations to LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Learn how to save a DOCX file as TXT while exporting equations to LaTeX using Aspose.Words for .NET. |
 | [How to Export LaTeX from Word – Convert DOCX to TXT with Equations](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Learn how to export LaTeX from Word by converting DOCX to TXT while preserving equations using Aspose.Words for .NET. |
 | [Save docx as txt – Complete Guide to Exporting Word Equations to LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Learn how to save DOCX as TXT while exporting Word equations to LaTeX using Aspose.Words for .NET. |
