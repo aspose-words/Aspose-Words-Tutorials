@@ -48,7 +48,6 @@
 | [إنشاء مستند Word فارغ باستخدام Aspose.Words – دليل خطوة بخطوة](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | تعرف على كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء شكل مستطيل، إضافة ظل وحفظ كملف PDF](./create-rectangle-shape-add-shadow-save-pdf/) |تعرف على كيفية إنشاء شكل مستطيل، إضافة ظل، وحفظ المستند كملف PDF باستخدام Aspose.Words for .NET. |
 | [إنشاء شكل مستطيل في Word – دليل كامل لـ Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | دليل شامل لإنشاء وتخصيص شكل مستطيل في مستندات Word باستخدام Aspose.Words خطوة بخطوة. |
-| [إنشاء مستند Word مع شكل مستطيل وظل – دليل خطوة بخطوة](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | تعلم كيفية إنشاء مستند Word يحتوي على شكل مستطيل مع تأثير الظل باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء شكل مستطيل بظل في Word باستخدام Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | تعلم كيفية إنشاء شكل مستطيل مع تأثير الظل في مستندات Word باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء مستند Word – كيفية إضافة شكل مستطيل وظل](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | تعرف على طريقة إضافة شكل مستطيل مع تأثير الظل إلى مستند Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء شكل مستطيل بظل في C# باستخدام Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | تعلم كيفية إنشاء مستطيل بظل في مستند Word باستخدام Aspose.Words وC# خطوة بخطوة. |
