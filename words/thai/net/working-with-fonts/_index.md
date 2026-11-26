@@ -60,7 +60,6 @@
 - [วิธีรับการแจ้งเตือน – ตั้งค่าการตั้งค่าแบบอักษรเริ่มต้น](./how-to-capture-warnings-set-default-font-settings/) | เรียนรู้วิธีจับคำเตือนและตั้งค่าฟอนต์เริ่มต้นใน Aspose.Words สำหรับ .NET ด้วยขั้นตอนละเอียด -
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 | [จัดการแบบอักษรที่หายไปใน C# ด้วย Aspose.Words – คู่มือเต็ม](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | เรียนรู้วิธีจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็ม |
-| [การตั้งค่าแบบอักษรแบบกำหนดเองใน C# – โหลด Word และจัดการแบบอักษรที่หายไป](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | เรียนรู้วิธีตั้งค่าแบบอักษรแบบกำหนดเองใน C# เพื่อโหลดไฟล์ Word และจัดการกับแบบอักษรที่ขาดหาย |
 | [จัดการแบบอักษรที่หายไปใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจัดการกับแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด -
 
 | [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
