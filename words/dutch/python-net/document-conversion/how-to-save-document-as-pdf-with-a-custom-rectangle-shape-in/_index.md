@@ -219,7 +219,6 @@ Deze uitbreidingen volgen hetzelfde patroon: maak een vorm, configureer de eigen
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Rechthoekvorm maken, schaduw toevoegen & PDF opslaan](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Rechthoek toevoegen aan PDF met Aspose.Words – Stapsgewijze gids](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Document opslaan als PDF met Aspose.Words – Complete C#‑gids](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

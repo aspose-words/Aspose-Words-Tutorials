@@ -212,7 +212,6 @@ if __name__ == "__main__":
 以下教學與本指南緊密相關，進一步延伸所學技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [在 Word 中為圖形加入陰影 – 完整 Aspose.Words 教學](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-- [建立矩形圖形、加入陰影並儲存為 PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

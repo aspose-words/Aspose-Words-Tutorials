@@ -251,7 +251,6 @@ def apply_shadow(shape, color=aw.drawing.Color.black, offset=5, blur=3):
 
 以下教學涵蓋與本指南密切相關的主題，並以此為基礎延伸技巧。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [Create rectangle shape, add shadow & save PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [How to Manage Document Variables with Aspose.Words in Python&#58; A Complete Guide](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -255,7 +255,6 @@ Készen állsz több Word‑dokumentum automatizálására? Próbálj meg tábl�
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeidben.
 
-- [Téglalap alakzat létrehozása, árnyék hozzáadása és PDF mentése](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Hogyan kezeljünk dokumentumváltozókat az Aspose.Words segítségével Pythonban: Teljes útmutató](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -255,7 +255,6 @@ Klaar om meer Word‑documenten te automatiseren? Probeer tabellen, kopteksten o
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Create rectangle shape, add shadow & save PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/) – *Rechthoekige vorm maken, schaduw toevoegen & PDF opslaan*
 - [How to Manage Document Variables with Aspose.Words in Python&#58; A Complete Guide](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/) – *Hoe documentvariabelen te beheren met Aspose.Words in Python: Een volledige gids*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
