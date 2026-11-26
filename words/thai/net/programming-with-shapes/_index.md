@@ -46,7 +46,6 @@
 | [สร้างเอกสาร Word เปล่าด้วย Aspose.Words – คู่มือทีละขั้นตอน](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | เรียนรู้วิธีสร้างเอกสาร Word เปล่าโดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [สร้างเอกสาร Word พร้อมสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ |
-| [สร้างเอกสาร Word – แทรกรูปสี่เหลี่ยมและเงาใน C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word และแทรกรูปสี่เหลี่ยมพร้อมเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีย้ายเงาใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีย้ายเงาของรูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET ผ่านคู่มือ C# ฉบับเต็ม |
 - [วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# อย่างละเอียดผ่านขั้นตอนและโค้ดตัวอย่าง
 - [วิธีเพิ่มเงาใน Word – คู่มือฉบับสมบูรณ์สำหรับรูปทรง](./how-to-add-shadow-word-complete-guide-for-shapes/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words for .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด

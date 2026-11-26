@@ -45,7 +45,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Hur man skapar rektangelform och gruppformer i Word med Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Lär dig skapa rektangelformar och gruppera former i Word-dokument med Aspose.Words för .NET. |
 | [Skapa Word-dokument med en skuggad rektangel – steg‑för‑steg‑guide](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Lär dig hur du skapar ett Word‑dokument med en rektangel med skugga med Aspose.Words för .NET. |
 | [Spara docx-fil med grupperade former i Word med C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Lär dig hur du sparar ett docx-dokument med grupperade former i Word med Aspose.Words för .NET och C#. |
-| [Skapa Word-dokument – Infoga rektangelform och skugga i C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Lär dig hur du skapar ett Word-dokument och lägger till en rektangelform med skugga i C# med Aspose.Words för .NET. |
 | [Hur du lägger till en skugga på Word-former i C# – Komplett guide](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Lär dig hur du lägger till en skugga på Word-former i C# med Aspose.Words för .NET i denna kompletta guide. |
 | [Hur man skapar ett tomt Word-dokument och grupperar former i C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Lär dig skapa ett tomt Word-dokument och lägga till gruppformer med Aspose.Words för .NET i C#. |
 
