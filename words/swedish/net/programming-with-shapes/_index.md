@@ -27,7 +27,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Lägg till gruppform](./add-group-shape/) | Lär dig hur du lägger till gruppformer i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-handledningen. |
 | [Hur man grupperar former i Word och lägger till former i Word-dokument](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Lär dig att gruppera former och infoga nya former i ett Word-dokument med Aspose.Words för .NET. |
 | [Hur man grupperar former i Word med C# och Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Lär dig att gruppera flera former i ett Word-dokument med C# och Aspose.Words i denna steg‑för‑steg‑guide. |
-| [Programmera ett Word-dokument med en gruppform](./programmatically-create-a-word-document-with-a-group-shape/) | Lär dig hur du programatiskt skapar ett Word-dokument med en gruppform med Aspose.Words för .NET. |
 | [Infoga form](./insert-shape/) | Lär dig hur du infogar och manipulerar former i Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. |
 | [Infoga rektangel i Word med C# – komplett guide](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Lär dig hur du infogar en rektangel i ett Word‑dokument med C# och Aspose.Words i en fullständig steg‑för‑steg‑guide. |
 | [Bildförhållande låst](./aspect-ratio-locked/) | Lär dig hur du låser bildförhållandet för former i Word-dokument med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för att hålla dina bilder och former proportionella. |
