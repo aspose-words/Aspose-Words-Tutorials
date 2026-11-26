@@ -58,7 +58,6 @@
 | [Πώς να δημιουργήσετε κενό έγγραφο Word και σχήματα ομάδας σε C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) |  |
 | [Δημιουργία ορθογωνίου σχήματος στο Word με C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Οδηγός βήμα‑βήμα για την προσθήκη ορθογωνίου σχήματος σε έγγραφο Word με C#. |
 | [Δημιουργία κενής εγγράφου Word και προσθήκη σχήματος ορθογωνίου](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σχήμα ορθογωνίου χρησιμοποιώντας Aspose.Words για .NET. |
-| [Προγραμματιστική δημιουργία εγγράφου Word με σχήμα ομάδας](./programmatically-create-a-word-document-with-a-group-shape/) | Δημιουργήστε προγραμματιστικά ένα έγγραφο Word που περιέχει σχήμα ομάδας χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

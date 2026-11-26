@@ -57,7 +57,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat dokumen Word secara programatis dan grupkan bentuk di C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word secara programatis dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Sisipkan bentuk persegi panjang di Word dengan C# – panduan lengkap](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Pelajari cara menyisipkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan panduan lengkap ini. |
 | [Buat dokumen Word kosong dan tambahkan bentuk persegi panjang](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk persegi panjang menggunakan Aspose.Words untuk .NET. |
-| [Membuat Dokumen Word secara Programatik dengan Bentuk Grup](./programmatically-create-a-word-document-with-a-group-shape/) | Pelajari cara membuat dokumen Word secara programatik dengan menambahkan bentuk grup menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
