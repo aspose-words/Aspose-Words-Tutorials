@@ -249,7 +249,6 @@ class Program
 
 - [Вставка фигур в документы Word с использованием Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Создание групповой фигуры в документе Word с использованием Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Добавление эффекта тени к фигурам Word – Полное руководство C#](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

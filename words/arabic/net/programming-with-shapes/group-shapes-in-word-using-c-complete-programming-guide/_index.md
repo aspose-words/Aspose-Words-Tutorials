@@ -248,7 +248,6 @@ class Program
 
 - [إدراج أشكال في مستندات Word باستخدام Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [إنشاء مجموعة أشكال في مستند Word باستخدام Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [إضافة تأثير الظل إلى أشكال Word – دليل C# كامل](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

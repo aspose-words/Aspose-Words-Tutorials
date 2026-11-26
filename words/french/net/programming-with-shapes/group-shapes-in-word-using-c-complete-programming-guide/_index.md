@@ -250,7 +250,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur
 
 - [Insérer des formes dans des documents Word avec Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Créer une forme de groupe dans un document Word avec Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Ajouter un effet d'ombre aux formes Word – Guide complet C#](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

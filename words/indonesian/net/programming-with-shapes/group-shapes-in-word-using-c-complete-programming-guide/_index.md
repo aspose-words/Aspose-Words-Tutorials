@@ -250,7 +250,6 @@ Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang d
 
 - [Menyisipkan Bentuk dalam Dokumen Word Menggunakan Aspose.Words untuk .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Membuat Group Shape dalam Dokumen Word Menggunakan Aspose.Words untuk .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Menambahkan Efek Bayangan ke Bentuk Word – Panduan C# Lengkap](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

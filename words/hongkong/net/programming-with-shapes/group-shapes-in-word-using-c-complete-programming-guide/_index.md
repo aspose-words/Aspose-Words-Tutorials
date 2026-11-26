@@ -246,7 +246,6 @@ class Program
 
 - [在 Word 文件中插入形狀（使用 Aspose.Words for .NET）](/words/english/net/working-with-shapes/insert-shape/)
 - [在 Word 文件中建立群組形狀（使用 Aspose.Words for .NET）](/words/english/net/working-with-shapes/add-group-shape/)
-- [為 Word 形狀新增陰影效果 – 完整 C# 指南](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

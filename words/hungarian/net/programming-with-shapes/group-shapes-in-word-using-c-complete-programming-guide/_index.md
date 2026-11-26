@@ -250,7 +250,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Alakzatok beszúrása Word dokumentumokba az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/insert-shape/)
 - [Csoportos alakzat létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
-- [Árnyékhatás hozzáadása Word alakzatokhoz – Teljes C# útmutató](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
