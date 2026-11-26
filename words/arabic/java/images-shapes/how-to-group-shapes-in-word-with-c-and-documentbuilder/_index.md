@@ -288,7 +288,6 @@ static Document CreateBlankWordFile()
 
 - [إنشاء شكل مجموعة في مستند Word باستخدام Aspose.Words لـ .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [إدراج أشكال في مستندات Word باستخدام Aspose.Words لـ .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [إنشاء شكل مستطيل في Word باستخدام C# – دليل خطوة بخطوة](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

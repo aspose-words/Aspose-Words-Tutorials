@@ -235,7 +235,6 @@ Aspose.Words はファイル形式を抽象化しているため、同じコー�
 
 - [Aspose.Words for .NET を使用した Word 文書へのシェイプ挿入](/words/english/net/working-with-shapes/insert-shape/)
 - [Aspose.Words for .NET を使用した Word 文書でのグループシェイプ作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# を使用した Word の長方形シェイプ作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

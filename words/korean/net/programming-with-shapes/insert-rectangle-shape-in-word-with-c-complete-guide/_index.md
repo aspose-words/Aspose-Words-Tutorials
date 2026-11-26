@@ -216,7 +216,6 @@ foreach (Shape shp in document.GetChildNodes(NodeType.Shape, true))
 
 다음 튜토리얼은 이 가이드에서 배운 기술을 기반으로 하며, 단계별 코드 예제와 자세한 설명을 포함하고 있어 추가 API 기능을 마스터하고 다양한 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [C#를 사용하여 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words를 사용하여 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

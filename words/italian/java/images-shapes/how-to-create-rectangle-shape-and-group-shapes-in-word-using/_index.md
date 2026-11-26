@@ -247,7 +247,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [Come creare una forma rettangolare e raggruppare forme in Word con Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Creare una forma di gruppo in un documento Word usando Aspose.Words per .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Creare una forma rettangolare in Word usando C# – Guida passo‑per‑passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

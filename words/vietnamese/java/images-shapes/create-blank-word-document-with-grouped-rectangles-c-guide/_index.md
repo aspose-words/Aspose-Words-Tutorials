@@ -255,7 +255,6 @@ Các hướng dẫn sau đây đề cập đến các chủ đề liên quan ch�
 
 - [Chèn hình dạng trong tài liệu Word bằng Aspose.Words cho .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Tạo Group Shape trong tài liệu Word bằng Aspose.Words cho .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn chi tiết](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

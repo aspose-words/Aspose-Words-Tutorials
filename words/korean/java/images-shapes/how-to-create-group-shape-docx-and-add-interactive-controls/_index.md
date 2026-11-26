@@ -295,7 +295,6 @@ Running the program generates `CompleteGroupShape.docx` containing:
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 코드 예제가 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [Aspose.Words for .NET을 사용하여 Word 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
-- [C#을 사용하여 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Word에서 마크다운 만들기 – 완전한 C# 가이드](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -255,7 +255,6 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 - [แทรกรูปทรงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [สร้าง Group Shape ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [สร้างสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

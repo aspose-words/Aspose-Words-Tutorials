@@ -246,7 +246,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説付きの完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
 
 - [Aspose.Words for .NET を使用して Word 文書にグループシェイプを作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# を使用して Word に矩形シェイプを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

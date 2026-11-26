@@ -247,7 +247,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Word'de Aspose.Words ile dikdörtgen şekli oluşturma ve şekilleri gruplama](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Aspose.Words for .NET ile Word Belgesinde Grup Şekli Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# ile Word'de dikdörtgen şekli oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

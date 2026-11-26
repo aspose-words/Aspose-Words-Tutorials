@@ -188,7 +188,6 @@ Deneyin, parametreleri ayarlayın ve otomatik Word dosyalarınızın sadece birk
 
 ## İlgili Öğreticiler
 
-- [C# ile Word'te dikdörtgen şekil oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words for .NET ile Word Belgesinde Grup Şekil Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

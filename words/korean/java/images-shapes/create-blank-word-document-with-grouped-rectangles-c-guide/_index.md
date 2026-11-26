@@ -254,7 +254,6 @@ Aspose.Words는 파일 형식을 추상화하므로 동일한 코드가 `.doc`�
 
 - [Aspose.Words for .NET을 사용하여 워드 문서에 도형 삽입](/words/english/net/working-with-shapes/insert-shape/)
 - [Aspose.Words for .NET을 사용하여 워드 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
-- [C#으로 워드에서 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -295,7 +295,6 @@ Các mở rộng này cho phép bạn xây dựng quy trình tài liệu hoàn t
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Tạo Group Shape trong Tài liệu Word bằng Aspose.Words cho .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn từng bước](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Tạo markdown từ Word – Hướng dẫn C# đầy đủ](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

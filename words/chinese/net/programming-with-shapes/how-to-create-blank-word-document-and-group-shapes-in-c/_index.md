@@ -224,7 +224,6 @@ class Program
 以下教程涵盖了与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并探索在项目中的其他实现方式。
 
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Insert Inline Image in Word Document using Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

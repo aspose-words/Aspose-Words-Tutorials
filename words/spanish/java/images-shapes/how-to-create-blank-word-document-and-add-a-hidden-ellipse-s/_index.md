@@ -228,7 +228,6 @@ Experimenta con diferentes formas y configuraciones de visibilidad para ver cóm
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Crear forma rectangular en Word usando C# – Guía paso a paso](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Crear forma de grupo en un documento Word usando Aspose.Words para .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Crear documento Word con un rectángulo sombreado – Guía paso a paso](/words/english/net/programming-with-shapes/create-word-document-with-a-shadowed-rectangle-step-by-step/)
 

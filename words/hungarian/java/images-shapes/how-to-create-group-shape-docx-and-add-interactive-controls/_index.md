@@ -299,7 +299,6 @@ Ezek a kiegészítések lehetővé teszik, hogy teljesen automatizált dokumentu
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek az API további funkcióinak elsajátításában és alternatív megvalósítási megközelítések felfedezésében a saját projektjeidben.
 
 - [Csoport alakzat létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
-- [Téglalap alakzat létrehozása Word-ben C#-al – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Markdown létrehozása Word-ből – Teljes C# útmutató](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

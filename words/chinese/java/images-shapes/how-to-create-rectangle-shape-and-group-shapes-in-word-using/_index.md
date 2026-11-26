@@ -243,7 +243,6 @@ class ShapeDemo
 
 - [使用 Aspose.Words 在 Word 中创建矩形形状并对形状进行分组](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [使用 Aspose.Words for .NET 在 Word 文档中创建分组形状](/words/english/net/working-with-shapes/add-group-shape/)
-- [使用 C# 在 Word 中创建矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

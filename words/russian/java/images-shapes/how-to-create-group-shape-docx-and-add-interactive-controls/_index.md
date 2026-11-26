@@ -297,7 +297,6 @@ class Program
 Следующие руководства охватывают тесно связанные темы, развивая техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы в ваших проектах.
 
 - [Создать групповой объект в документе Word с помощью Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Создать прямоугольный объект в Word с использованием C# – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Создать markdown из Word – полное руководство C#](/words/english/java/document-conversion-and-export/create-markdown-from-word-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

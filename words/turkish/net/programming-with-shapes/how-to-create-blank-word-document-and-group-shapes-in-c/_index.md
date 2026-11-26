@@ -225,7 +225,6 @@ class Program
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
 - [Aspose.Words for .NET Kullanarak Word Belgesinde Grup Şekli Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# Kullanarak Word'de Dikdörtgen Şekli Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words Kullanarak Word Belgesine Satır İçi Görüntü Ekleme](/words/english/net/add-content-using-document-builder/insert-inline-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

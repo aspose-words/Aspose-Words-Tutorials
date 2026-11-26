@@ -231,7 +231,6 @@ Kodlamanın tadını çıkarın!
 
 Aşağıdaki eğitimler, bu kılavuzda gösterilen tekniklere dayanan yakın konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
-- [C# ile Word’de dikdörtgen şekil oluşturma – Adım‑adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words for .NET ile Word Belgesine Grup Şekli Ekleme](/words/english/net/working-with-shapes/add-group-shape/)
 - [Gölgelendirilmiş Dikdörtgen ile Word Belgesi Oluşturma – Adım‑adım Kılavuz](/words/english/net/programming-with-shapes/create-word-document-with-a-shadowed-rectangle-step-by-step/)
 

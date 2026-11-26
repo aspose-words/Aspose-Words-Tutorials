@@ -366,7 +366,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakın
 
 - [Aspose.Words for .NET kullanarak Word Belgesinde Grup Şekli Oluştur](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words for .NET kullanarak Word Belgelerine Şekil Ekle](/words/english/net/working-with-shapes/insert-shape/)
-- [C# kullanarak Word'de dikdörtgen şekli oluştur – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

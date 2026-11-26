@@ -225,7 +225,6 @@ namespace GroupShapeDemo
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您在项目中进一步运用这些技巧。每个资源均提供完整的可运行代码示例和逐步解释，帮助您掌握更多 API 功能并探索替代实现方式。
 
-- [Create rectangle shape in Word using C# – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -247,7 +247,6 @@ Os tutoriais a seguir cobrem tópicos intimamente relacionados que ampliam as t�
 
 - [Criar forma de grupo em documento Word usando Aspose.Words para .NET](/words/english/net/working-with-shapes/add-group-shape/)
 - [Inserir formas em documentos Word usando Aspose.Words para .NET](/words/english/net/working-with-shapes/insert-shape/)
-- [Criar forma retangular no Word usando C# – Guia passo a passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

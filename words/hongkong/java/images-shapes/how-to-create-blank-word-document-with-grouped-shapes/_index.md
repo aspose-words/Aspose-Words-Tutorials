@@ -211,7 +211,6 @@ namespace GroupShapeDemo
 
 以下教學涵蓋與本指南技術緊密相關的主題，並在此基礎上延伸。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
-- [在 Word 中使用 C# 建立矩形圖形 – 步驟說明指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [在 Word 文件中插入圖形（使用 Aspose.Words for .NET）](/words/english/net/working-with-shapes/insert-shape/)
 - [在 Word 文件中建立群組圖形（使用 Aspose.Words for .NET）](/words/english/net/working-with-shapes/add-group-shape/)
 
