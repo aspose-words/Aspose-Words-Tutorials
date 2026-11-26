@@ -70,7 +70,7 @@ The magic happens in `TxtSaveOptions`. By setting `OfficeMathExportMode` to `LaT
 // Configure export options: equations become LaTeX strings
 TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
     // Optional: preserve line breaks as they appear in Word
     PreserveTableLayout = true
 };
@@ -118,7 +118,7 @@ If you need to **convert docx to txt** for a whole folder, wrap the logic in a `
 ```csharp
 TxtSaveOptions batchOptions = new TxtSaveOptions
 {
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    OfficeMathExportMode = TxtOfficeMathExportMode.Latex
 };
 
 foreach (string file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
@@ -146,7 +146,7 @@ If the source document uses image‑based equations, Aspose can’t turn them in
 ## Pro tips & gotchas
 
 * **Pro tip:** Turn on `PreserveTableLayout` (as shown in Step 2) if your document relies on tables for layout. It keeps column spacing roughly intact in the plain‑text output.
-* **Watch out for hidden sections:** Word can store text in headers, footers, or even comments. `TxtSaveOptions` exports those by default, but you can disable them with `ExportHeadersFooters = false` if you only need body content.
+* **Watch out for hidden sections:** Word can store text in headers, footers, or even comments. `TxtSaveOptions` exports those by default, but you can disable them with `ExportHeadersFootersMode = ExportHeadersFootersMode.None` if you only need body content.
 * **Performance tip:** For huge documents (hundreds of pages), reuse the same `TxtSaveOptions` instance and consider streaming the output with `doc.Save(Stream, txtOptions)` to reduce memory pressure.
 
 ---
@@ -185,10 +185,10 @@ class Program
             // 2️⃣ Configure export: equations become LaTeX
             TxtSaveOptions options = new TxtSaveOptions
             {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                OfficeMathExportMode = TxtOfficeMathExportMode.Latex,
                 PreserveTableLayout = true,
                 // Optional: keep headers/footers out of the output
-                // ExportHeadersFooters = false
+                // ExportHeadersFootersMode = ExportHeadersFootersMode.None
             };
 
             // 3️⃣ Save as plain text
