@@ -206,7 +206,6 @@ class Program
 
 - [使用 Aspose.Words for .NET 在 Word 文档中创建组形状](/words/english/net/working-with-shapes/add-group-shape/)
 - [使用 Aspose.Words for .NET 在 Word 文档中插入形状](/words/english/net/working-with-shapes/insert-shape/)
-- [在 Word 中创建矩形形状 – 完整 Aspose.Words 指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
