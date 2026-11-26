@@ -177,7 +177,6 @@ A = \pi r^2
 以下教程涵盖与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并探索替代实现方式：
 
 - [Save docx as txt – Export Word Math to LaTeX with C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Save docx as txt with Aspose.Words TxtSaveOptions – Preserve Line Breaks & Spaces in C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

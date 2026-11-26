@@ -180,7 +180,6 @@ Készen áll a dokumentációs munkafolyamat automatizálására? Próbálja meg
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [DOCX mentése txt‑ként – Word Math exportálása LaTeX‑be C#‑val](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [DOCX mentése txt‑ként Aspose.Words TxtSaveOptions használatával – sortörések és szóközök megőrzése C#‑ban](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

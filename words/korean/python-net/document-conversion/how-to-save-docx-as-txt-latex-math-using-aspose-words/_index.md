@@ -176,7 +176,6 @@ LaTeX 블록이 예시와 정확히 일치하면 변환이 성공한 것입니�
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명이 포함된 완전한 코드 예제가 제공되어 추가 API 기능을 숙달하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
 - [Save docx as txt – C#로 Word 수식을 LaTeX로 내보내기](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Aspose.Words TxtSaveOptions로 docx를 txt로 저장 – C#에서 줄 바꿈 및 공백 보존](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
