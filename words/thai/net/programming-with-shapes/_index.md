@@ -48,7 +48,6 @@
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ |
 | [สร้างเอกสาร Word – แทรกรูปสี่เหลี่ยมและเงาใน C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | เรียนรู้วิธีสร้างเอกสาร Word และแทรกรูปสี่เหลี่ยมพร้อมเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีย้ายเงาใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีย้ายเงาของรูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET ผ่านคู่มือ C# ฉบับเต็ม |
-- [วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# อย่างละเอียดผ่านขั้นตอนและโค้ดตัวอย่าง
 - [วิธีเพิ่มเงาใน Word – คู่มือฉบับสมบูรณ์สำหรับรูปทรง](./how-to-add-shadow-word-complete-guide-for-shapes/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words for .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 - [บันทึกไฟล์ docx พร้อมรูปกลุ่มใน Word ด้วย C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | เรียนรู้วิธีบันทึกไฟล์ docx ที่มีรูปกลุ่มใน Word ด้วย C#
 - [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
