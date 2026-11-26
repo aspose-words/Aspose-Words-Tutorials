@@ -177,7 +177,6 @@ Sẵn sàng tự động hoá quy trình tài liệu của bạn? Hãy thử chu
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Lưu docx thành txt – Xuất công thức Word sang LaTeX với C#](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Lưu docx thành txt với Aspose.Words TxtSaveOptions – Bảo tồn ngắt dòng & khoảng trắng trong C#](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -178,7 +178,6 @@ LaTeX ブロックが上記と同じ形で出現すれば、変換は成功で�
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックを扱っています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
 - [Save docx as txt – C# で Word Math を LaTeX にエクスポート](/words/english/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-with-c/)
-- [Save docx as txt with Aspose.Words TxtSaveOptions – C# で改行とスペースを保持](/words/english/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
