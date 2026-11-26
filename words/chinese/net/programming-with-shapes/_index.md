@@ -51,7 +51,6 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | [在 C# 中创建矩形形状并对多个形状进行分组](./create-rectangle-shape-and-group-multiple-shapes-in-c/) 学习如何使用 Aspose.Words for .NET 在 C# 中创建矩形形状并将多个形状组合为组。|
 | [使用 C# 在 Word 中插入矩形形状 – 完整指南](./insert-rectangle-shape-in-word-with-c-complete-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中插入矩形形状。|
 | [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档的形状上添加阴影效果。|
-| [如何在 Word 中为形状添加阴影 – 完整指南](./how-to-add-shadow-word-complete-guide-for-shapes/) 通过本分步指南学习如何使用 Aspose.Words for .NET 为 Word 文档中的形状添加阴影效果。|
 | [在 Word 中使用 Aspose.Words 为形状添加阴影 – 完整指南](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) 通过本完整分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档的形状上添加阴影效果。|
 | [如何在 C# 中为形状设置阴影 – 完整 Aspose.Words 指南](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) 通过本完整指南，深入了解在 C# 中使用 Aspose.Words 为 Word 文档中的形状添加和自定义阴影。|
 | [使用阴影矩形形状创建空白 Word 文档](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中创建带阴影的矩形形状。|

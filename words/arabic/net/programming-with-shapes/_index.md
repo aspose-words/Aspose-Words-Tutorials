@@ -56,7 +56,6 @@
 | [إنشاء مستند Word مع مستطيل مظلل – دليل كامل](./create-word-document-with-shadowed-rectangle-complete-guide/) | تعلم كيفية إنشاء مستند Word وإضافة مستطيل مظلل باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء مستند Word – إدراج شكل مستطيل وظل في C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | تعلم كيفية إنشاء مستند Word وإضافة شكل مستطيل مع ظل باستخدام C# و Aspose.Words. |
 | [كيفية إضافة ظل إلى أشكال Word في C# – دليل شامل](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | تعلم خطوة بخطوة كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام C# و Aspose.Words. |
-| [كيفية إضافة ظل إلى Word – دليل شامل للأشكال](./how-to-add-shadow-word-complete-guide-for-shapes/) |تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للـ .NET خطوة بخطوة. |
 | [إنشاء مستند Word C# – إضافة شكل بظل](./create-word-document-c-add-shape-with-shadow/) | تعلم كيفية إنشاء مستند Word وإضافة شكل مع تأثير الظل باستخدام Aspose.Words for .NET وC# خطوة بخطوة. |
 | [كيفية تعيين الظل على شكل في C# – دليل خطوة بخطوة](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | تعرّف على طريقة إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET مع مثال عملي بلغة C#. |
 | [كيفية تعيين الظل على شكل Word – دليل C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) |تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
