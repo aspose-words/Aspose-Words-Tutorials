@@ -1,40 +1,32 @@
 ---
 category: general
 date: 2026-06-20
-description: Add shadow to shape quickly and learn how to change shadow transparency,
-  add shape shadow, and apply blur shadow using Aspose.Words for .NET.
+description: Add shadow to shape quickly and learn how to change shadow transparency and add shape shadow using Aspose.Words for .NET.
 draft: false
 keywords:
 - add shadow to shape
 - how to change shadow transparency
 - how to add shape shadow
-- how to apply blur shadow
 language: en
-og_description: Add shadow to shape in a Word file, see how to change shadow transparency,
-  add shape shadow, and apply blur shadow with clear code examples.
+og_description: Add shadow to shape in a Word file, see how to change shadow transparency and add shape shadow with clear code examples.
 og_title: Add Shadow to Shape – Step‑by‑Step C# Tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-06-20'
-  description: Add shadow to shape quickly and learn how to change shadow transparency,
-    add shape shadow, and apply blur shadow using Aspose.Words for .NET.
+  description: Add shadow to shape quickly and learn how to change shadow transparency and add shape shadow using Aspose.Words for .NET.
   headline: Add Shadow to Shape in Word Documents – Complete C# Guide
   type: TechArticle
-- description: Add shadow to shape quickly and learn how to change shadow transparency,
-    add shape shadow, and apply blur shadow using Aspose.Words for .NET.
+- description: Add shadow to shape quickly and learn how to change shadow transparency and add shape shadow using Aspose.Words for .NET.
   name: Add Shadow to Shape in Word Documents – Complete C# Guide
   steps:
-  - name: What if the shape has no existing shadow object?
-    text: Aspose.Words automatically creates a `Shadow` object when you first access
-      `targetShape.Shadow`. No extra initialization is required.
+  - name: What if the shape has no existing shadow preset?
+    text: `ShadowFormat` is always available on a `Shape`. To make a shadow appear you need to assign a predefined `ShadowType`.
   - name: Does this work with other shape types, like circles or pictures?
-    text: Absolutely. The shadow API is shape‑agnostic. Just retrieve the appropriate
-      `Shape` node, and the same properties apply.
+    text: Yes. The `ShadowFormat` properties apply to any shape that supports shadows.
   - name: How to make the shadow invisible again?
-    text: Set `targetShape.Shadow.Visible = false;` or simply omit the shadow configuration.
+    text: Set `targetShape.ShadowFormat.Type = ShadowType.ShadowMixed;` which removes the preset.
   - name: Compatibility with older .NET versions?
-    text: The code uses only features available in Aspose.Words 23.x and .NET Standard
-      2.0+, so it runs on .NET Framework 4.6.1 and newer.
+    text: The code uses only features available in Aspose.Words for .NET, so it works with any supported .NET runtime.
   type: HowTo
 tags:
 - Aspose.Words
@@ -53,13 +45,12 @@ url: /net/programming-with-shapes/add-shadow-to-shape-in-word-documents-complete
 
 Ever wondered how to **add shadow to shape** in a Word file without fiddling with the UI? You're not alone. Many developers need to programmatically enhance document aesthetics, and the good news is that Aspose.Words makes it a piece of cake.
 
-In this tutorial we’ll walk through the exact steps to **add shadow to shape**, show you **how to change shadow transparency**, cover **how to add shape shadow** in various scenarios, and even explain **how to apply blur shadow** for that professional depth effect. By the end you’ll have a reusable snippet you can drop into any .NET project.
+In this tutorial we’ll walk through the exact steps to **add shadow to shape**, show you **how to change shadow transparency**, and **how to add shape shadow** in various scenarios. By the end you’ll have a reusable snippet you can drop into any .NET project.
 
 ## What You’ll Learn
 
 - Load a DOCX, locate a shape, and configure its shadow properties.
 - Adjust shadow opacity with `Transparency`.
-- Apply blur and offset to create a realistic drop‑shadow.
 - Save the altered document and verify the result.
 - Tips for handling multiple shapes, different shape types, and edge cases.
 
@@ -96,61 +87,46 @@ Shape targetShape = (Shape)document.GetChild(NodeType.Shape, 0, true);
 
 ## Step 3: Enable the Shadow and Set Its Basic Color
 
-A shadow won’t appear unless it’s visible and has a color. Let’s give it a subtle dark gray that works well on light backgrounds.
+A shadow appears when a predefined `ShadowType` is assigned. Choose a subtle dark gray that works well on light backgrounds.
 
 ```csharp
-// Make sure the shadow is turned on
-targetShape.Shadow.Visible = true;
+// Assign a preset shadow type to enable the effect
+targetShape.ShadowFormat.Type = ShadowType.Shadow1;
 
 // Choose a neutral color for the shadow
-targetShape.Shadow.Color = Color.DarkGray;
+targetShape.ShadowFormat.Color = Color.DarkGray;
 ```
 
 *Explanation:*  
-Setting `Visible` to `true` activates the effect, while `Color.DarkGray` provides a neutral tone that doesn’t clash with most document themes.
+Setting `Type` to any predefined `ShadowType` (e.g., `Shadow1`) activates the shadow. The `Color` property defines the shadow’s hue.
 
 ## Step 4: How to Change Shadow Transparency
 
-Transparency is the key to making a shadow feel natural. A value of `0` is fully opaque; `1` is completely invisible. Here’s how to **how to change shadow transparency** to 30 %:
+Transparency is the key to making a shadow feel natural. A value of `0` is fully opaque; `1` is completely invisible.
 
 ```csharp
 // 30 % transparent (0.3 means 30 % see‑through)
-targetShape.Shadow.Transparency = 0.3;
+targetShape.ShadowFormat.Transparency = 0.3;
 ```
 
 *Why 0.3?*  
 A 30 % transparent shadow mimics real‑world lighting without overwhelming the shape’s edges. You can experiment—`0.5` yields a softer look, while `0.1` makes the shadow more pronounced.
 
-## Step 5: How to Apply Blur Shadow for Depth
+## Step 5: Note on Blur and Offset
 
-A crisp, hard‑edge shadow looks flat. Adding blur gives it depth. This is where we answer **how to apply blur shadow** in code.
-
-```csharp
-// Define the blur radius (in points). Larger values = softer shadow.
-targetShape.Shadow.BlurRadius = 5;   // 5 pt blur
-
-// Offset determines where the shadow falls relative to the shape.
-targetShape.Shadow.OffsetX = 3;      // 3 pt to the right
-targetShape.Shadow.OffsetY = 3;      // 3 pt downwards
-```
-
-*What’s happening?*  
-`BlurRadius` softens the edges, while `OffsetX/Y` position the shadow as if a light source sits above‑left. Adjust these numbers to match your design language.
+Aspose.Words does not provide blur or offset properties for shadows. The visual appearance is controlled solely by the selected `ShadowType`. If you need more advanced effects, consider using a different preset or post‑processing the document image.
 
 ## Step 6: How to Add Shape Shadow to Multiple Shapes (Optional)
 
-If your document contains several shapes, you’ll likely want to **how to add shape shadow** to each of them. A quick loop does the trick:
+If your document contains several shapes, you’ll likely want to **add shape shadow** to each of them. A quick loop does the trick:
 
 ```csharp
 // Iterate over every shape in the document
 foreach (Shape shape in document.GetChildNodes(NodeType.Shape, true))
 {
-    shape.Shadow.Visible = true;
-    shape.Shadow.Color = Color.DarkGray;
-    shape.Shadow.Transparency = 0.3;
-    shape.Shadow.BlurRadius = 5;
-    shape.Shadow.OffsetX = 3;
-    shape.Shadow.OffsetY = 3;
+    shape.ShadowFormat.Type = ShadowType.Shadow1;
+    shape.ShadowFormat.Color = Color.DarkGray;
+    shape.ShadowFormat.Transparency = 0.3;
 }
 ```
 
@@ -166,21 +142,21 @@ All the heavy lifting is done—now persist the changes. You can overwrite the o
 document.Save(@"C:\Docs\output.docx");
 ```
 
-When you open `output.docx` in Word, you’ll see the rectangle (or any shape you targeted) sporting a subtle, semi‑transparent, blurred shadow.
+When you open `output.docx` in Word, you’ll see the rectangle (or any shape you targeted) sporting a subtle, semi‑transparent shadow.
 
 ## Common Questions & Edge Cases
 
-### What if the shape has no existing shadow object?
-Aspose.Words automatically creates a `Shadow` object when you first access `targetShape.Shadow`. No extra initialization is required.
+### What if the shape has no existing shadow preset?
+`ShadowFormat` is always present on a `Shape`. To make a shadow appear you must assign a predefined `ShadowType`.
 
 ### Does this work with other shape types, like circles or pictures?
-Absolutely. The shadow API is shape‑agnostic. Just retrieve the appropriate `Shape` node, and the same properties apply.
+Yes. The `ShadowFormat` properties apply to any shape that supports shadows.
 
 ### How to make the shadow invisible again?
-Set `targetShape.Shadow.Visible = false;` or simply omit the shadow configuration.
+Set `targetShape.ShadowFormat.Type = ShadowType.ShadowMixed;` which removes the preset.
 
 ### Compatibility with older .NET versions?
-The code uses only features available in Aspose.Words 23.x and .NET Standard 2.0+, so it runs on .NET Framework 4.6.1 and newer.
+The code uses only features available in Aspose.Words for .NET, so it works with any supported .NET runtime.
 
 ## Full Working Example
 
@@ -202,16 +178,11 @@ class Program
         Shape rect = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
         // Enable shadow and set its basic properties
-        rect.Shadow.Visible = true;
-        rect.Shadow.Color = Color.DarkGray;
+        rect.ShadowFormat.Type = ShadowType.Shadow1;
+        rect.ShadowFormat.Color = Color.DarkGray;
 
-        // How to change shadow transparency – 30 % transparent
-        rect.Shadow.Transparency = 0.3;
-
-        // How to apply blur shadow – add depth with blur and offset
-        rect.Shadow.BlurRadius = 5;   // 5 pt blur radius
-        rect.Shadow.OffsetX = 3;      // horizontal offset
-        rect.Shadow.OffsetY = 3;      // vertical offset
+        // Change shadow transparency – 30 % transparent
+        rect.ShadowFormat.Transparency = 0.3;
 
         // Save the modified document
         doc.Save(@"C:\Docs\output.docx");
@@ -219,17 +190,17 @@ class Program
 }
 ```
 
-**Expected output:** Open `output.docx` and you’ll see the original rectangle now rendered with a dark‑gray, 30 % transparent, blurred shadow offset slightly to the bottom‑right.
+**Expected output:** Open `output.docx` and you’ll see the original rectangle now rendered with a dark‑gray, 30 % transparent shadow.
 
 ## Conclusion
 
-We’ve covered everything you need to **add shadow to shape** programmatically, from loading the file to tweaking transparency and blur. You now know **how to change shadow transparency**, **how to add shape shadow** across multiple elements, and **how to apply blur shadow** for that polished look.
+We’ve covered everything you need to **add shadow to shape** programmatically, from loading the file to tweaking transparency. You now know **how to change shadow transparency** and **how to add shape shadow** across multiple elements.
 
 Ready for the next step? Try experimenting with:
 
 - Different shadow colors (`Color.Black`, `Color.FromArgb(128, 0, 0, 0)`) for darker effects.
-- Dynamic offsets based on shape size to maintain proportion.
-- Combining shadows with gradients or reflections for advanced styling.
+- Dynamic shadow types (`Shadow2`, `Shadow5`, etc.) to achieve varied visual styles.
+- Combining shadows with other shape formatting for advanced styling.
 
 Feel free to drop a comment if you hit any snags, and happy coding!
 
