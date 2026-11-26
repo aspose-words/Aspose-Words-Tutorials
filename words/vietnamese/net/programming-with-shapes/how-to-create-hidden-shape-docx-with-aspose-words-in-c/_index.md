@@ -167,7 +167,6 @@ Các hướng dẫn sau đây liên quan chặt chẽ đến các kỹ thuật �
 
 - [Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn chi tiết](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Tạo Group Shape trong tài liệu Word bằng Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Cách chỉnh sửa Shadow của Shape trong C# với Aspose.Words – Hướng dẫn chi tiết](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

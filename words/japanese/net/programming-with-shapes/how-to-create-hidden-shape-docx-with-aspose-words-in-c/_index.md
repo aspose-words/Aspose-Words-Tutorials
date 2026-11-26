@@ -166,7 +166,6 @@ Word を開かずにシェイプが確実に非表示であることを確認し
 
 - [Aspose.Words を使用した Word の矩形シェイプ作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET を使用した Word 文書へのグループシェイプ作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [Aspose.Words を使用した C# でシェイプの影を編集する方法 – ステップバイステップガイド](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

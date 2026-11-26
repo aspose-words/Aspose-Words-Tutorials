@@ -166,7 +166,6 @@ Word를 열지 않고도 도형이 실제로 숨겨졌는지 확인하려면, �
 
 - [Aspose.Words로 Word에서 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET을 사용한 Word 문서에 그룹 도형 추가](/words/english/net/working-with-shapes/add-group-shape/)
-- [C#에서 Aspose.Words로 도형 그림자 편집 – 단계별 가이드](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
