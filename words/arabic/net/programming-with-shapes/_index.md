@@ -45,7 +45,6 @@
 | [إنشاء شكل مستطيل بظل في C# باستخدام Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | تعلم كيفية إنشاء مستطيل بظل في مستند Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [إنشاء مستند Word فارغ مع شكل مستطيل مظلّل – دليل خطوة بخطوة](./create-blank-word-document-with-shadowed-rectangle-ste/) | تعرّف على كيفية إنشاء مستند Word فارغ وإضافة شكل مستطيل مظلّل باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء مستند Word مع مستطيل مظلل – دليل كامل](./create-word-document-with-shadowed-rectangle-complete-guide/) | تعلم كيفية إنشاء مستند Word وإضافة مستطيل مظلل باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
-| [كيفية تعيين الظل على شكل Word – دليل C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) |تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [إنشاء شكل مستطيل وكيفية إضافة الظل في C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | تعلم كيفية إنشاء شكل مستطيل وإضافة تأثير الظل في مستند Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [أشكال المجموعة في Word باستخدام Aspose.Words – دليل كامل C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | تعلم كيفية إنشاء وتعديل أشكال المجموعة في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | تعرّف على طريقة إخفاء الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
