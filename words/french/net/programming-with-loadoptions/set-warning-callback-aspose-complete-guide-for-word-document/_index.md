@@ -275,7 +275,6 @@ Essayez-le avec vos propres fichiers DOCX, ajustez les `FontSettings`, et observ
 ## Tutoriels associés
 
 - [Capturer les avertissements de substitution de police en Java avec Aspose.Words – Guide complet](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Activer les avertissements de substitution de police dans Aspose.Words – Guide complet](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Comment définir LoadOptions dans Aspose.Words pour Java](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

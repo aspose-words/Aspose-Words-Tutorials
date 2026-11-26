@@ -231,7 +231,6 @@ Neváhejte experimentovat s různými cílovými fonty nebo vložit vlastní fo
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s krok‑za‑krokem vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [Povolení varování o náhradě fontů v Aspose.Words – Kompletní průvodce](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Zaznamenání varování o náhradě fontů – Kompletní Aspose.Words průvodce](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Načtení s kódováním ve Word dokumentu](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

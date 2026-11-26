@@ -278,7 +278,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Uso de opciones y configuraciones de documento en Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [Habilitar advertencias de sustitución de fuentes en Aspose.Words – Guía completa](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

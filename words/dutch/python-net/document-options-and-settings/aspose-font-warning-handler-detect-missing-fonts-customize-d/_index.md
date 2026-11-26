@@ -248,7 +248,6 @@ Je hebt nu een solide begrip van de **Aspose Font Warning Handler** en hoe
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Lettertypevervangingswaarschuwingen inschakelen in Aspose.Words – Complete gids](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Lettertypevervangingswaarschuwingen vastleggen in Java met Aspose.Words – Complete gids](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Documentladen beheersen met Aspose.Words voor Python](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

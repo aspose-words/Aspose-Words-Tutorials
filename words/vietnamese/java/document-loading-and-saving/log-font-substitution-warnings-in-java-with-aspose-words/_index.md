@@ -266,7 +266,6 @@ Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ
 
 - [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Sử dụng Document Options và Settings trong Aspose.Words cho Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [Bật Cảnh báo Thay thế Phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -265,7 +265,6 @@ Van egy bonyolult betűkészlet‑helyettesítési szituáció, amivel küzdesz?
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutató technikáira épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy további API‑funkciókat saját projektjeidben is elsajátíthasd és alternatív megvalósítási megközelítéseket fedezhess fel.
 
 - [Hogyan észleljük a betűkészleteket az Aspose.Words‑ben – Figyelmeztetések és beállítások kezelése](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Betűkészlet‑helyettesítési figyelmeztetések engedélyezése az Aspose.Words‑ben – Teljes útmutató](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [DOCX betöltése és hiányzó betűkészletek észlelése – Teljes C# útmutató](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

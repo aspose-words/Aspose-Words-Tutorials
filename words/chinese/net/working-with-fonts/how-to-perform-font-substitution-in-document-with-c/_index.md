@@ -228,7 +228,6 @@ namespace FontSubstitutionDemo
 
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [在 Aspose.Words 中启用字体替换警告 – 完整指南](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [记录字体替换警告 – 完整 Aspose.Words 指南](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [在 Word 文档中使用编码加载](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

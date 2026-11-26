@@ -232,7 +232,6 @@ Selamat coding!
 
 Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Aktifkan Peringatan Penggantian Font di Aspose.Words – Panduan Lengkap](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Catat Peringatan Penggantian Font – Panduan Lengkap Aspose.Words](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Muat dengan Pengkodean dalam Dokumen Word](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

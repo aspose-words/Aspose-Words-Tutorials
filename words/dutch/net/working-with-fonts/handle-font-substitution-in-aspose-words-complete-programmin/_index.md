@@ -264,7 +264,6 @@ Heb je een lastig font‑substitutie‑scenario waar je mee worstelt? Laat een r
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
 - [Hoe lettertypen detecteren in Aspose.Words – Waarschuwingen & instellingen afhandelen](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Waarschuwingen voor fontvervanging inschakelen in Aspose.Words – Complete gids](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [DOCX laden en ontbrekende lettertypen detecteren – Complete C#‑gids](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

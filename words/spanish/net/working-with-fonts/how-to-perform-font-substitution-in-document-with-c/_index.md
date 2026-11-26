@@ -232,7 +232,6 @@ Siéntase libre de experimentar con diferentes fuentes de destino o incrustar fu
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarle a dominar características adicionales de la API y explorar enfoques de implementación alternativos en sus propios proyectos.
 
-- [Habilitar advertencias de sustitución de fuentes en Aspose.Words – Guía completa](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Registrar advertencias de sustitución de fuentes – Guía completa de Aspose.Words](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Cargar con codificación en documento Word](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

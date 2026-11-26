@@ -232,7 +232,6 @@ Miłego kodowania!
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Włącz ostrzeżenia o zamianie czcionek w Aspose.Words – Kompletny przewodnik](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Loguj ostrzeżenia o zamianie czcionek – Kompletny przewodnik Aspose.Words](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Ładuj z kodowaniem w dokumencie Word](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

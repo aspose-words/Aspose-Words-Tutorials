@@ -242,7 +242,6 @@ First page rendered to first_page.png
 
 以下教學涵蓋與本指南緊密相關的主題，並以此為基礎延伸技術。每個資源皆提供完整可運作的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索其他實作方式。
 
-- [在 Aspose.Words 中啟用字體替換警告 – 完整指南](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [在 Java 中捕獲字體替換警告 – Aspose.Words 完整指南](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [精通 Aspose.Words for Python 的文件載入](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

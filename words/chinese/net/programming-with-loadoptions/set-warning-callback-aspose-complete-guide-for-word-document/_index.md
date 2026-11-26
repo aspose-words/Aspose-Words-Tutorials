@@ -282,7 +282,6 @@ else
 ## 相关教程
 
 - [在 Java 中捕获字体替换警告 – 完整指南](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [在 Aspose.Words 中启用字体替换警告 – 完整指南](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [如何在 Aspose.Words for Java 中设置 LoadOptions](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

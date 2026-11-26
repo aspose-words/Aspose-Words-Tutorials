@@ -285,7 +285,6 @@ Provalo con i tuoi file DOCX, modifica i `FontSettings` e osserva la console che
 ## Tutorial correlati
 
 - [Catturare gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Abilitare gli avvisi di sostituzione dei font in Aspose.Words – Guida completa](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Come impostare LoadOptions in Aspose.Words per Java](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

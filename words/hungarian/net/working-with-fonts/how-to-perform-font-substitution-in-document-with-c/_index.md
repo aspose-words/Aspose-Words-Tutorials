@@ -232,7 +232,6 @@ Boldog kódolást!
 
 A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljesen működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Betűtípus helyettesítési figyelmeztetések engedélyezése az Aspose.Words‑ben – Teljes útmutató](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Betűtípus helyettesítési figyelmeztetések naplózása – Teljes Aspose.Words útmutató](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Betöltés kódolással Word dokumentumban](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 
