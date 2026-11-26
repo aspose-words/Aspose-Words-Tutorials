@@ -269,7 +269,6 @@ Prova det med dina egna DOCX‑filer, justera `FontSettings` och se hur konsolen
 ## Relaterade handledningar
 
 - [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Aktivera varningar för teckensnittssubstitution i Aspose.Words – Komplett guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Hur man sätter LoadOptions i Aspose.Words för Java](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

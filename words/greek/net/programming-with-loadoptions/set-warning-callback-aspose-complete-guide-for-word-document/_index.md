@@ -271,7 +271,6 @@ else
 ## Σχετικά Tutorials
 
 - [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειρών σε Java με Aspose.Words – Πλήρης Οδηγός](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Ενεργοποίηση Προειδοποιήσεων Αντικατάστασης Γραμματοσειρών στο Aspose.Words – Πλήρης Οδηγός](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Πώς να Ορίσετε LoadOptions στο Aspose.Words για Java](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

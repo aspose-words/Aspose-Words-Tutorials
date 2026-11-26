@@ -262,7 +262,6 @@ public class DocumentController : ControllerBase
 다음 튜토리얼들은 이번 가이드에서 다룬 기술을 확장하고, 추가 API 기능을 마스터하며, 프로젝트에 다양한 구현 방식을 적용할 수 있도록 돕습니다.
 
 - [How to Detect Fonts in Aspose.Words – Handle Warnings & Settings](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

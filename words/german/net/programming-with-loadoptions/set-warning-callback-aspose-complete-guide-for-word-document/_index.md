@@ -284,7 +284,6 @@ Probieren Sie es mit Ihren eigenen DOCX‑Dateien aus, passen Sie die `FontSetti
 ## Verwandte Tutorials
 
 - [Erfassung von Schriftart‑Ersetzungswarnungen in Java mit Aspose.Words – Komplettanleitung](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Aktivieren von Schriftart‑Ersetzungswarnungen in Aspose.Words – Komplettanleitung](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Wie man LoadOptions in Aspose.Words für Java festlegt](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

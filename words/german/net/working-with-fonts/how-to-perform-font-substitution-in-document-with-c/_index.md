@@ -232,7 +232,6 @@ Viel Spaß beim Programmieren!
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Warnungen zur Schriftart‑Ersetzung in Aspose.Words aktivieren – Vollständige Anleitung](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Warnungen zur Schriftart‑Ersetzung protokollieren – Vollständige Aspose.Words‑Anleitung](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Laden mit Kodierung in Word‑Dokument](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

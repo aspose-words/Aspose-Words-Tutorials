@@ -231,7 +231,6 @@ Lycka till med kodningen!
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Aktivera varningar för teckensnittsbyte i Aspose.Words – komplett guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Logga varningar för teckensnittsbyte – komplett Aspose.Words‑guide](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [Läs in med kodning i Word‑dokument](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

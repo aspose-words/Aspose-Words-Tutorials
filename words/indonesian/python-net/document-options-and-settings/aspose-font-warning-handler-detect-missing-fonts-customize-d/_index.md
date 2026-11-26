@@ -235,7 +235,6 @@ You now have a solid grasp of the **Aspose Font Warning Handler** and how
 
 Tutorial berikut mencakup topik terkait yang erat yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Aktifkan Peringatan Substitusi Font di Aspose.Words – Panduan Lengkap](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Tangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Kuasa Pemuatan Dokumen dengan Aspose.Words untuk Python](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

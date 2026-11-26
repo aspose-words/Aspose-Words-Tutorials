@@ -265,7 +265,6 @@ Zor bir yazı tipi‑değişim senaryonuz mu var? Aşağıya yorum bırakın, bi
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakın konuları kapsayan kaynaklardır. Her biri, ek API özelliklerini öğrenmenize ve projelerinizde alternatif uygulama yaklaşımları keşfetmenize yardımcı olacak tam çalışan kod örnekleri ve adım‑adım açıklamalar içerir.
 
 - [Aspose.Words’te Yazı Tiplerini Algılamak – Uyarıları ve Ayarları Yönetme](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Aspose.Words’te Yazı Tipi Değişim Uyarılarını Etkinleştirme – Tam Kılavuz](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [DOCX Yükleyip Eksik Yazı Tiplerini Tespit Etme – Tam C# Kılavuzu](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

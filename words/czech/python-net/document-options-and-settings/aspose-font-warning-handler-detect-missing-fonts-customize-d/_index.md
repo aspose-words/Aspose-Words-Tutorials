@@ -233,7 +233,6 @@ Nyní máte pevné pochopení **Aspose Font Warning Handler** a jak
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
-- [Povolení varování o substituci fontů v Aspose.Words – Kompletní průvodce](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Zachycení varování o substituci fontů v Javě s Aspose.Words – Kompletní průvodce](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Mistrovské načítání dokumentů s Aspose.Words pro Python](/words/english/python-net/document-operations/mastering-aspose-words-document-loading-python/)
 

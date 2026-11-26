@@ -262,7 +262,6 @@ public class DocumentController : ControllerBase
 以下教學與本指南示範的技巧密切相關，能幫助你進一步掌握 API 功能並探索其他實作方式：
 
 - [如何在 Aspose.Words 中偵測字體 – 處理警告與設定](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [在 Aspose.Words 中啟用字體替換警告 – 完整指南](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [如何載入 DOCX 並偵測缺少字體 – 完整 C# 指南](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

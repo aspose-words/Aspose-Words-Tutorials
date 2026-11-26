@@ -269,7 +269,6 @@ Hãy thử với các tệp DOCX của bạn, điều chỉnh `FontSettings`, v�
 ## Các Hướng Dẫn Liên Quan
 
 - [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng Dẫn Toàn Diện](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [Bật Cảnh báo Thay thế Phông chữ trong Aspose.Words – Hướng Dẫn Toàn Diện](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [Cách Đặt LoadOptions trong Aspose.Words cho Java](/words/english/java/document-loading-and-saving/using-load-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

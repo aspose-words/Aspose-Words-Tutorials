@@ -230,7 +230,6 @@ namespace FontSubstitutionDemo
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك الخاصة.
 
-- [تمكين تحذيرات استبدال الخط في Aspose.Words – دليل كامل](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 - [تسجيل تحذيرات استبدال الخط – دليل Aspose.Words كامل](/words/english/net/working-with-fonts/log-font-substitution-warnings-complete-aspose-words-guide/)
 - [التحميل مع الترميز في مستند Word](/words/english/net/programming-with-loadoptions/load-with-encoding/)
 

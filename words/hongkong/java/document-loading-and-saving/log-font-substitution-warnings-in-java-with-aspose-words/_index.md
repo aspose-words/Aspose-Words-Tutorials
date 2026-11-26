@@ -275,7 +275,6 @@ Document has 3 sections.
 
 - [在 Java 中捕獲字型替換警告 – 完整指南](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [在 Aspose.Words for Java 中使用文件選項與設定](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [啟用字型替換警告 – 完整指南](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
