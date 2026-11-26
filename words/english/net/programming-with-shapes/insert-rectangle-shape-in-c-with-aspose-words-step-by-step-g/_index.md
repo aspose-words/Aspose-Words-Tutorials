@@ -40,13 +40,13 @@ schemas:
       you can toggle the flag:'
   - name: 2. Adding a border (stroke)
     text: 'A hidden shape can still have a visible border when you decide to show
-      it. Set the `LineColor` and `LineWidth` properties:'
+      it. Set the `StrokeColor` and `StrokeWeight` properties:'
   - name: 3. Positioning the rectangle absolutely
     text: 'For precise layout control, switch the shape’s `WrapType` to `WrapType.Inline`
       (default) or `WrapType.TopBottom` and adjust `Left`/`Top` properties:'
   - name: 4. Using a different measurement unit
-    text: 'Aspose.Words works in points (1 pt = 1/72 inch). If you prefer centimeters,
-      convert first:'
+    text: 'Aspose.Words works in points (1 pt = 1/72 inch). To use centimeters, convert
+      the values to points before passing them to the API:'
   - name: Next steps
     text: '* Explore **how to insert shape** inside tables or headers/footers for
       watermarks. * Combine **add rectangle shape** with content controls to create
@@ -112,8 +112,7 @@ Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 100, 50);
 rectangleShape.FillColor = Color.Yellow;
 
 // 5️⃣ Hide the shape so it does not appear in the rendered document.
-//    When Hidden = true, the shape is stored in the file but omitted from layout.
-//    This is useful for placeholders, bookmarks, or metadata.
+//    When Hidden = true, the shape is not displayed in the document.
 rectangleShape.Hidden = true;
 
 // 6️⃣ Save the document to disk.
@@ -129,7 +128,7 @@ document.Save(@"C:\Temp\HiddenRectangleShape.docx");
 | **Initialize DocumentBuilder** | `DocumentBuilder` is the high‑level helper that lets you insert text, tables, and shapes without dealing with low‑level node trees. |
 | **Insert rectangle shape** | The `InsertShape` method returns a `Shape` object that you can further customize (size, position, borders, etc.). |
 | **Set fill color** | The `FillColor` property controls the interior color; you could use any `Color` value (`Color.Red`, `Color.FromArgb(255, 0, 255, 0)`, etc.). |
-| **Hide the shape** | `Hidden = true` tells Word to ignore the shape during layout while still keeping it in the document’s XML. This is the standard way to store invisible objects. |
+| **Hide the shape** | `Hidden = true` makes the shape invisible in the final document. |
 | **Save the document** | Persists the changes to a .docx file. The saved file will contain the hidden rectangle shape. |
 
 ## How to set fill color for a shape
@@ -145,7 +144,7 @@ rectangleShape.FillColor = Color.FromArgb(128, 0, 128, 128);
 
 ## How to hide shape in the final document
 
-The `Hidden` flag is a boolean property on the `Shape` class. Setting it to `true` ensures the shape is ignored by the Word layout engine.
+The `Hidden` flag is a boolean property on the `Shape` class. Setting it to `true` ensures the shape is not displayed in the document.
 
 ```csharp
 rectangleShape.Hidden = true;
@@ -154,7 +153,6 @@ rectangleShape.Hidden = true;
 **Common pitfalls**
 
 * **Hidden vs. Visible** – If you later need the shape to appear, simply set `Hidden = false`.
-* **Compatibility** – Older versions of Word (pre‑2007) may treat hidden drawing objects differently. Aspose.Words maintains compatibility by storing the flag in the appropriate OOXML element.
 
 ## How to insert shape programmatically
 
@@ -191,11 +189,11 @@ rectangleShape.Hidden = false;   // Shape will now be rendered
 
 ### 2. Adding a border (stroke)
 
-A hidden shape can still have a visible border when you decide to show it. Set the `LineColor` and `LineWidth` properties:
+A hidden shape can still have a visible border when you decide to show it. Set the `StrokeColor` and `StrokeWeight` properties:
 
 ```csharp
-rectangleShape.LineColor = Color.Black;
-rectangleShape.LineWeight = 1.5; // points
+rectangleShape.StrokeColor = Color.Black;
+rectangleShape.StrokeWeight = 1.5; // points
 ```
 
 ### 3. Positioning the rectangle absolutely
@@ -210,10 +208,10 @@ rectangleShape.Top = 144;   // 2 inches from the top margin
 
 ### 4. Using a different measurement unit
 
-Aspose.Words works in points (1 pt = 1/72 inch). If you prefer centimeters, convert first:
+Aspose.Words works in points (1 pt = 1/72 inch). To use centimeters, convert the values to points before passing them to the API:
 
 ```csharp
-float cmToPoints = 28.3465f; // 1 cm ≈ 28.3465 pt
+float cmToPoints = 28.3465f; // conversion factor
 float width = 5 * cmToPoints;   // 5 cm wide
 float height = 2 * cmToPoints;  // 2 cm tall
 Shape cmRectangle = builder.InsertShape(ShapeType.Rectangle, width, height);
