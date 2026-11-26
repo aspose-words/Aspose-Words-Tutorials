@@ -43,7 +43,6 @@
 | [สร้างเอกสาร Word เปล่าด้วย Aspose.Words – คู่มือทีละขั้นตอน](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | เรียนรู้วิธีสร้างเอกสาร Word เปล่าโดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [สร้างเอกสาร Word พร้อมสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ |
-- [บันทึกไฟล์ docx พร้อมรูปกลุ่มใน Word ด้วย C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | เรียนรู้วิธีบันทึกไฟล์ docx ที่มีรูปกลุ่มใน Word ด้วย C#
 - [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
 - [สร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีสันด้วย Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีต่างๆ ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่ายๆ
 - [วิธีสร้างเอกสาร docx ที่มีรูปร่างซ่อนด้วย Aspose.Words ใน C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | เรียนรู้วิธีสร้างรูปร่างซ่อนในไฟล์ docx ด้วย Aspose.Words for .NET ผ่านขั้นตอนใน C#

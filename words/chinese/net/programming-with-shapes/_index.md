@@ -26,7 +26,6 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | --- | --- |
 | [添加组形状](./add-group-shape/) 通过这个全面的分步教程学习如何使用 Aspose.Words for .NET 将组形状添加到 Word 文档。|
 | [Word 中的组形状 – 完整 C# 指南](./group-shapes-in-word-with-aspose-words-complete-c-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中创建和管理组形状。|
-| [使用 C# 在 Word 中保存带组形状的 docx 文件](./save-docx-file-with-grouped-shapes-in-word-using-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 中保存包含组形状的 docx 文件。|
 | [如何在 Word 中使用 C# 和 Aspose.Words 对形状进行分组](./how-to-group-shapes-in-word-using-c-and-aspose-words/) 通过本分步教程学习如何在 Word 文档中使用 C# 和 Aspose.Words 对形状进行分组。|
 | [使用 C# 在 Word 中进行组形状 – 完整编程指南](./group-shapes-in-word-using-c-complete-programming-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 中创建和管理组形状。|
 | [在 C# 中以编程方式创建 Word 文档并对形状进行分组](./create-word-document-programmatically-and-group-shapes-in-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 C# 中创建 Word 文档并将形状分组。|

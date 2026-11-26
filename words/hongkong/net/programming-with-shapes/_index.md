@@ -28,7 +28,6 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [在 Word 中使用 C# 與 Aspose.Words 進行形狀分組](./how-to-group-shapes-in-word-using-c-and-aspose-words/) |了解如何使用 Aspose.Words for .NET 於 C# 中將多個形狀分組於 Word 文件。 |
 | [在 Word 中使用 C# 進行群組形狀 – 完整程式指南](./group-shapes-in-word-using-c-complete-programming-guide/) |完整的 C# 程式指南，說明如何在 Word 中將形狀分組。 |
 | [在 Word 中使用 Aspose.Words 群組形狀 – 完整 C# 指南](./group-shapes-in-word-with-aspose-words-complete-c-guide/) |本完整 C# 教程說明如何在 Word 文件中使用 Aspose.Words 進行群組形狀的建立與管理。 |
-| [使用 C# 在 Word 中儲存包含群組形狀的 docx 檔案](./save-docx-file-with-grouped-shapes-in-word-using-c/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中將群組形狀儲存至 Word docx 檔案。 |
 | [刀片形狀](./insert-shape/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入和操作形狀。 |
 | [長寬比已鎖定](./aspect-ratio-locked/) |了解如何使用 Aspose.Words for .NET 鎖定 Word 文件中形狀的縱橫比。按照本逐步指南，保持圖像和形狀的比例。 |
 | [單元格佈局](./layout-in-cell/) |透過本綜合指南了解如何使用 Aspose.Words for .NET 設定儲存格佈局。非常適合希望自訂 Word 文件的開發人員。 |

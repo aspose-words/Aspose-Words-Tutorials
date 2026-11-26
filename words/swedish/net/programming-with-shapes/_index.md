@@ -40,7 +40,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Lär dig hur du skapar en rektangel i Word-dokument med Aspose.Words i en tydlig steg‑för‑steg‑guide. |
 | [Skapa tomt Word-dokument med Aspose.Words – steg‑för‑steg‑guide](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Lär dig hur du skapar ett tomt Word-dokument med Aspose.Words i en tydlig steg‑för‑steg‑guide. |
 | [Skapa Word-dokument med en skuggad rektangel – steg‑för‑steg‑guide](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Lär dig hur du skapar ett Word‑dokument med en rektangel med skugga med Aspose.Words för .NET. |
-| [Spara docx-fil med grupperade former i Word med C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Lär dig hur du sparar ett docx-dokument med grupperade former i Word med Aspose.Words för .NET och C#. |
 | [Hur man skapar ett tomt Word-dokument och grupperar former i C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Lär dig skapa ett tomt Word-dokument och lägga till gruppformer med Aspose.Words för .NET i C#. |
 
 | [Skapa rektangelform och gruppera flera former i C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Lär dig hur du skapar en rektangelform och grupperar flera former i ett Word‑dokument med Aspose.Words för .NET i C#. |
