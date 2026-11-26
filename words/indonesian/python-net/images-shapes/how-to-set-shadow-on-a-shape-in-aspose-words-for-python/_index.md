@@ -214,7 +214,6 @@ Anda kini memiliki solusi lengkap dan dapat dijalankan untuk **cara mengatur bay
 
 Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Menambahkan bayangan ke bentuk di C# – Panduan Lengkap untuk Menerapkan Efek Bayangan](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/)
 - [Menambahkan bayangan ke bentuk di Word – Panduan Lengkap Aspose.Words](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 - [Buat bentuk persegi panjang, tambahkan bayangan & simpan PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 

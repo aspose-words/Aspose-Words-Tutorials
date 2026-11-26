@@ -212,7 +212,6 @@ Je hebt nu een complete, uitvoerbare oplossing voor **hoe je schaduw instelt** o
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Schaduw toevoegen aan vorm in C# – Complete gids om schaduweffect toe te passen](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/)
 - [Schaduw toevoegen aan vorm in Word – Complete Aspose.Words‑gids](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 - [Rechthoekige vorm maken, schaduw toevoegen & PDF opslaan](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 
