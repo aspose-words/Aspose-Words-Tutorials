@@ -27,7 +27,6 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Thêm hình dạng nhóm](./add-group-shape/) | Tìm hiểu cách thêm hình dạng nhóm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Nhóm hình dạng trong Word với Aspose.Words – Hướng dẫn C# đầy đủ](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho .NET sử dụng C#. |
 | [Cách nhóm các hình dạng trong Word với Aspose.Words cho C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho C#. |
-| [Cách nhóm các hình dạng trong Word bằng C# và Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng C# và Aspose.Words. |
 | [Nhóm các hình dạng trong Word bằng C# – hướng dẫn lập trình đầy đủ](./group-shapes-in-word-using-c-complete-programming-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng C#. |
 | [Tạo tài liệu Word bằng lập trình với hình dạng nhóm](./programmatically-create-a-word-document-with-a-group-shape/) | Hướng dẫn tạo tài liệu Word và chèn hình dạng nhóm một cách lập trình bằng Aspose.Words cho .NET. |
 | [Chèn hình dạng](./insert-shape/) | Tìm hiểu cách chèn và thao tác hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |

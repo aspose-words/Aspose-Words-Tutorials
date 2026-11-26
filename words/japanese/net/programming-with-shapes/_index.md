@@ -27,7 +27,6 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [グループ図形を追加](./add-group-shape/) この包括的なステップバイステップのチュートリアルでは、Aspose.Words for .NET を使用して Word 文書にグループ図形を追加する方法を学習します。 |
 | [Aspose.Words で Word のグループ図形 – 完全 C# ガイド](./group-shapes-in-word-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用し、C# で Word 文書にグループ図形を追加・操作する手順を詳細に解説します。 |
 | [C# を使用してグループ化された図形を含む docx ファイルを Word に保存](./save-docx-file-with-grouped-shapes-in-word-using-c/) C# でグループ化された図形を含む docx ファイルを保存する方法を学びます。 |
-| [C# と Aspose.Words を使用して Word で図形をグループ化する方法](./how-to-group-shapes-in-word-using-c-and-aspose-words/) C# と Aspose.Words を使用して Word 文書内の図形をグループ化する手順を学びます。 |
 | [C# を使用した Word のグループ図形 – 完全プログラミングガイド](./group-shapes-in-word-using-c-complete-programming-guide/) Aspose.Words for .NET と C# を使って、Word 文書内でグループ図形を作成・操作する完全ガイドです。 |
 | [C# でプログラム的に Word 文書を作成し、図形をグループ化](./create-word-document-programmatically-and-group-shapes-in-c/) Aspose.Words for .NET を使用して、C# で Word 文書を作成し、図形をグループ化する方法をステップバイステップで解説します。 |
 | [プログラムでグループ図形を含む Word 文書を作成](./programmatically-create-a-word-document-with-a-group-shape/) Aspose.Words for .NET を使用して、プログラムでグループ図形を含む Word 文書を作成する方法をステップバイステップで解説します。 |

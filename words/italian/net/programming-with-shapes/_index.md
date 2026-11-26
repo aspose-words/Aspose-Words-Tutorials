@@ -26,7 +26,6 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | --- | --- |
 | [Aggiungi forma di gruppo](./add-group-shape/) | Scopri come aggiungere forme di gruppo ai documenti Word utilizzando Aspose.Words per .NET con questo tutorial completo e dettagliato. |
 | [Come raggruppare le forme in Word con Aspose.Words per C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Scopri come raggruppare più forme in un documento Word usando Aspose.Words per .NET con C#. |
-| [Come raggruppare le forme in Word usando C# e Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Scopri come raggruppare più forme in un documento Word con C# e Aspose.Words. |
 | [Creare programmaticamente un documento Word con una forma di gruppo](./programmatically-create-a-word-document-with-a-group-shape/) | Scopri come creare programmaticamente un documento Word contenente una forma di gruppo usando Aspose.Words per .NET. |
 | [Inserisci forma](./insert-shape/) | Scopri come inserire e manipolare forme nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata. |
 | [Proporzioni bloccate](./aspect-ratio-locked/) | Scopri come bloccare le proporzioni delle forme nei documenti Word utilizzando Aspose.Words per .NET. Segui questa guida passo passo per mantenere le proporzioni di immagini e forme. |
