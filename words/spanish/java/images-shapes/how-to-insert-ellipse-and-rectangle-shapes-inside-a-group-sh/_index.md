@@ -170,7 +170,6 @@ Ahora entiendes **cómo insertar una elipse** y **cómo agregar una forma de rec
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Cómo crear una forma de rectángulo y formas de grupo en Word con Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Cómo crear un documento Word en blanco y agregar una forma de elipse oculta en C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Cómo crear un docx con forma de grupo y agregar controles interactivos en C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

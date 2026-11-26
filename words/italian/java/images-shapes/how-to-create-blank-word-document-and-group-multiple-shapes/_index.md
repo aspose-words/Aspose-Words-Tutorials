@@ -159,7 +159,6 @@ I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle
 
 - [Come creare un documento Word vuoto e raggruppare forme in C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Come raggruppare forme in Word e aggiungere forme al documento Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Come creare una forma rettangolo e raggruppare forme in Word con Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

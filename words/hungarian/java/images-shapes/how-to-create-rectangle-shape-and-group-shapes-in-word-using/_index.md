@@ -246,7 +246,6 @@ Nyugodtan kísérletezz különböző méretekkel, pozíciókkal és további al
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek tovább építik a jelen útmutatóban bemutatott technikákat. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy könnyedén elsajátíthasd az API további funkcióit és alternatív megvalósítási módokat a saját projektjeidben.
 
-- [How to create rectangle shape and group shapes in Word with Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

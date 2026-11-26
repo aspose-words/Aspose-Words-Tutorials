@@ -170,7 +170,6 @@ Készen állsz a további felfedezésre? Próbáld meg kombinálni ezt a technik
 
 A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Hogyan hozzunk létre téglalap alakzatot és csoport alakzatokat Wordben az Aspose.Words segítségével](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Hogyan hozzunk létre üres Word dokumentumot és adjunk hozzá rejtett ellipszis alakzatot C#-ban](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Hogyan hozzunk létre csoport alakzatot docx-ben és adjunk hozzá interaktív vezérlőket C#-ban](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

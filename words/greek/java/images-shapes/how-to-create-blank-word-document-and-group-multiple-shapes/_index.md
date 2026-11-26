@@ -160,7 +160,6 @@ class Program
 
 - [Πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε σχήματα σε C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Πώς να ομαδοποιήσετε σχήματα στο Word και να προσθέσετε σχήματα σε έγγραφο Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Πώς να δημιουργήσετε σχήμα ορθογωνίου και να ομαδοποιήσετε σχήματα στο Word με Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

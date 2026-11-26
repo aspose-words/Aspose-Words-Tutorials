@@ -172,7 +172,6 @@ class GroupShapeDemo
 
 नीचे दिए गए ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API सुविधाओं में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों का अन्वेषण कर सकें।
 
-- [Word में आयत आकार और समूह आकार कैसे बनाएं Aspose.Words के साथ](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [खाली Word दस्तावेज़ बनाएं और C# में छिपा दीर्घवृत्त आकार जोड़ें](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [C# में समूह आकार docx बनाएं और इंटरैक्टिव कंट्रोल्स जोड़ें](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

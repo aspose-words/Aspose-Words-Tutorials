@@ -159,7 +159,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Hur man skapar ett tomt Word-dokument och grupperar former i C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Hur man grupperar former i Word och lägger till former i Word-dokument](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Hur man skapar en rektangelform och grupperar former i Word med Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

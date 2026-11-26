@@ -155,7 +155,6 @@ class Program
 
 - [空白の Word ドキュメントを作成し、C# で図形をグループ化する方法](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Word で図形をグループ化し、文書に図形を追加する方法](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Aspose.Words で矩形図形を作成し、図形をグループ化する方法](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

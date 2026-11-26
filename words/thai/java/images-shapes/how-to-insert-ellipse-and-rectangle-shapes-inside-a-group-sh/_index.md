@@ -167,7 +167,6 @@ class GroupShapeDemo
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานทางเลือกในโครงการของคุณ
 
-- [วิธีสร้างรูปสี่เหลี่ยมและรูปกลุ่มใน Word ด้วย Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปวงรีซ่อนใน C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [วิธีสร้างรูปกลุ่ม docx และเพิ่มคอนโทรลแบบโต้ตอบใน C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

@@ -157,7 +157,6 @@ class Program
 
 - [كيفية إنشاء مستند Word فارغ وتجميع الأشكال في C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [كيفية تجميع الأشكال في Word وإضافة أشكال إلى مستند Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [كيفية إنشاء شكل مستطيل وتجمع الأشكال في Word باستخدام Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -159,7 +159,6 @@ class Program
 
 - [C# में खाली Word दस्तावेज़ बनाना और शैप्स को समूहित करना](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Word में शैप्स को समूहित करना और दस्तावेज़ में शैप्स जोड़ना](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Aspose.Words के साथ Word में आयत शैप बनाना और शैप्स को समूहित करना](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

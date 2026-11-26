@@ -168,7 +168,6 @@ Daha fazlasını keşfetmeye hazır mısınız? Bu tekniği **grup şekil nasıl
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
 
-- [Aspose.Words ile Word'de dikdörtgen şekil ve grup şekilleri nasıl oluşturulur](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Boş Word belgesi oluşturma ve C#'ta gizli bir elips şekli ekleme](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [C#'ta grup şekil docx oluşturma ve etkileşimli denetimler ekleme](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

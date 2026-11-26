@@ -160,7 +160,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - {{< relref "net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/" >}}
 - {{< relref "net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/" >}}
-- {{< relref "net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/" >}}
 
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
