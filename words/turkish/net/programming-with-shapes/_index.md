@@ -44,7 +44,6 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Gölgelikli Dikdörtgen ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aspose.Words for .NET kullanarak gölgelikli bir dikdörtgenle Word belgesi oluşturmayı adım adım öğrenin. |
 | [C# ile Aspose.Words kullanarak dikdörtgen şekil ekleme – adım adım kılavuz](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | C# ve Aspose.Words ile dikdörtgen şekil eklemeyi adım adım öğrenin. |
 
-| [Aspose.Words'ta Gölgeyi Taşıma – Tam C# Kılavuzu](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile bir şeklin gölgesini nasıl taşıyacağınızı adım adım öğrenin. |
 | [C#'ta Şekillere Gölge Ekleme – Tam Aspose.Words Kılavuzu](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET kullanarak C# ile şekillere gölge eklemeyi adım adım öğrenin. |
 | [C# ile Word'e Dikdörtgen Şekil Ekleme – Tam Kılavuz](./insert-rectangle-shape-in-word-with-c-complete-guide/) | C# kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin. |
 | [Aspose.Words ile Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturmayı adım adım öğrenin. |
