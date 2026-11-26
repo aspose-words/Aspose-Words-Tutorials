@@ -226,7 +226,6 @@ Uruchomienie tego skryptu generuje dokładnie ten sam dokument, o którym rozmaw
 ## Co powinieneś nauczyć się dalej?
 
 - [Utwórz dokument Word w Java – Dodaj prostokątny kształt z efektem cienia](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Utwórz pusty dokument Word z prostokątnym kształtem z cieniem – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Samouczek cienia kształtu Aspose.Words – Dodaj cień do kształtu Word w C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

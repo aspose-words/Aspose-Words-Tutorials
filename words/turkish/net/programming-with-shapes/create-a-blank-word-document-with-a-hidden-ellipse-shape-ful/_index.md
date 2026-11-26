@@ -224,7 +224,6 @@ Bu yöntemde takıldığınız bir nokta olursa ya da bu deseni genişletmek iç
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Gölgelendirilmiş Dikdörtgen Şekilli Boş Word Belgesi Oluşturma – Adım‑Adım Kılavuz](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words for .NET ile Word Belgesine Grup Şekli Ekleme](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words ile Word’de Dikdörtgen Şekil Oluşturma – Adım‑Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 

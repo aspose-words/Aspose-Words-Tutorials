@@ -205,7 +205,6 @@ A: 对普通文档影响很小。如果要生成成千上万的形状，建议�
 
 以下教程与本指南紧密相关，帮助你在已有技术基础上进一步深入。每篇资源都包含完整可运行的代码示例和逐步解释，帮助你掌握更多 API 功能并探索替代实现方式。
 
-- [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

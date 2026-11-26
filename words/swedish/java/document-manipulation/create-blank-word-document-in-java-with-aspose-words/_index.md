@@ -208,7 +208,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Skapa Word-dokument Java – Lägg till rektangulär form med skuggeffekt](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Hur man skapar en vanlig textfil med Aspose.Words för Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Skapa tomt Word-dokument med skuggad rektangulär form – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

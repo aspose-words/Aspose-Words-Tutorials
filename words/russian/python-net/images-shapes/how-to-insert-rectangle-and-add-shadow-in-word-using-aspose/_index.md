@@ -225,7 +225,6 @@ print(f"Document saved to {output_path}")
 ## Что изучать дальше?
 
 - [Создать Word документ на Java – добавить форму прямоугольника с эффектом тени](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Создать пустой Word документ с прямоугольником с тенью – пошаговое руководство](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words учебник по тени фигур – добавить тень к фигуре Word в C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

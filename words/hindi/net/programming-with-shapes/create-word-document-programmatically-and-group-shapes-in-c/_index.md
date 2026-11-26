@@ -251,7 +251,6 @@ doc.Save("GroupAndSDT.pdf", SaveFormat.Pdf);
 
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह शैप बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
 - [C# का उपयोग करके Word में आयत शैप बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [छाया वाली आयत शैप के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

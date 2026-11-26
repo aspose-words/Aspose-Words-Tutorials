@@ -191,7 +191,6 @@ public class SDTDemo {
 
 - [إنشاء مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [كيفية إنشاء ملف نص عادي باستخدام Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [إنشاء مستند Word فارغ مع شكل مستطيل مظلل – دليل خطوة بخطوة](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

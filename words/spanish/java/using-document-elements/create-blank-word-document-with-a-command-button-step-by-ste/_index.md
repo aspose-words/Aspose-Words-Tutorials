@@ -231,7 +231,6 @@ Ahora sabes cómo **crear documento Word en blanco**, **insertar botón de coman
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Crear forma de grupo en documento Word usando Aspose.Words para .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Crear documento Word en blanco con forma rectangular con sombra – guía paso a paso](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Crear documento Word con Aspose.Words para .NET](/words/english/net/add-content-using-document-builder/insert-paragraph/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -205,7 +205,6 @@ print(f"Document saved successfully at: {output_file}")
 
 다음 튜토리얼들은 이번 가이드에서 배운 기술을 확장하는 데 도움이 되는 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 완전한 코드 예제가 포함되어 있어 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용할 수 있습니다.
 
-- [그림자 사각형이 포함된 빈 Word 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Word에서 Markdown 저장하기 – 완전한 Python 가이드](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [C#에서 그림자 추가하기 – 완전한 프로그래밍 가이드](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

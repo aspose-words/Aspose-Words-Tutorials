@@ -210,7 +210,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [Crea documento Word Java – Aggiungi forma rettangolare con effetto ombra](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Come creare un file di testo semplice con Aspose.Words per Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Crea documento Word vuoto con forma rettangolare ombreggiata – Guida passo‑a‑passo](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

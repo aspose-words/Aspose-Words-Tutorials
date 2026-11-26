@@ -228,7 +228,6 @@ Running this script produces the exact same document we discussed earlier. Feel 
 ## What Should You Learn Next?
 
 - [Word दस्तावेज़ Java बनाएं – आयत आकार के साथ शैडो इफ़ेक्ट जोड़ें](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Shadowed Rectangle Shape के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words Shape Shadow ट्यूटोरियल – C# में Word Shape में शैडो जोड़ें](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

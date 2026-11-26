@@ -189,7 +189,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Word-document maken in Java – Rechthoekvorm toevoegen met schaduweffect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Hoe een platte‑tekst‑bestand te maken met Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Leeg Word‑document maken met schaduwrijke rechthoekvorm – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -180,7 +180,6 @@ public class GroupedRectanglesDemo {
 
 - [创建 Word 文档 Java – 添加带阴影效果的矩形形状](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [在 Word 文档中使用 Aspose.Words for .NET 创建组形状](/words/english/net/working-with-shapes/add-group-shape/)
-- [创建带阴影矩形形状的空白 Word 文档 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

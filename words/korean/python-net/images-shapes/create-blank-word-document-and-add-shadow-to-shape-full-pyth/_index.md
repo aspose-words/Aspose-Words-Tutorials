@@ -264,7 +264,6 @@ print(f"Document saved to {output_path}")
 
 - [Word 문서 만들기 Java – 사각형 도형에 그림자 효과 추가](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Aspose.Words Shape Shadow 튜토리얼 – C#에서 Word 도형에 그림자 추가](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
-- [그림자 사각형 도형이 포함된 빈 Word 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

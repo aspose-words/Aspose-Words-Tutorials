@@ -208,7 +208,6 @@ A következő tutorialok szorosan kapcsolódó témákat fednek le, amelyek a je
 
 - [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Hogyan hozzunk létre egyszerű szövegfájlt az Aspose.Words for Java segítségével](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Üres Word dokumentum létrehozása árnyékolt téglalap alakzattal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

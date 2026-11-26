@@ -207,7 +207,6 @@ Cada uno de esos temas se basa en los mismos conceptos básicos que cubrimos, po
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Crear documento Word en blanco con forma de rectángulo con sombra – Guía paso a paso](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Cómo guardar Markdown desde Word – Guía completa en Python](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Cómo agregar sombra en C# – Guía completa de programación](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

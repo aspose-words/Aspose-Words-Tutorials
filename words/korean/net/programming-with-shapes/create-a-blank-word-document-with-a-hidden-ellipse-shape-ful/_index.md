@@ -223,7 +223,6 @@ class HiddenEllipseDemo
 
 다음 튜토리얼들은 이 가이드에서 배운 기술을 기반으로 하며, 단계별 설명과 완전한 코드 예제를 제공합니다.
 
-- [그림자 사각형 도형이 있는 빈 Word 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words for .NET을 사용해 Word 문서에 그룹 도형 만들기](/words/english/net/working-with-shapes/add-group-shape/)
 - [Aspose.Words로 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 

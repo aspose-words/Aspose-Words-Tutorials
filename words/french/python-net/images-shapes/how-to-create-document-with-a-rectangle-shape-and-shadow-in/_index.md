@@ -258,7 +258,6 @@ Prêt à automatiser davantage de documents Word ? Essayez d’ajouter des tab
 Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques présentées dans ce guide. Chaque ressource inclut des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités de l’API et à explorer des approches d’implémentation alternatives dans vos projets.
 
 - [Créer une forme rectangulaire, ajouter une ombre & enregistrer en PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
-- [Créer un document Word vierge avec une forme rectangulaire ombrée – Guide étape par étape](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Comment gérer les variables de document avec Aspose.Words en Python : guide complet](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -208,7 +208,6 @@ Selamat coding, dan jangan ragu meninggalkan komentar jika Anda menemui kendala!
 
 Tutorial berikut mencakup topik yang sangat terkait yang dibangun di atas teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan menjelajahi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Berbayang – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

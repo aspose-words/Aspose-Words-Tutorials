@@ -225,7 +225,6 @@ print(f"Document saved to {output_path}")
 ## สิ่งที่คุณควรเรียนต่อไป
 
 - [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมพร้อมเอฟเฟกต์เงา](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [สร้างเอกสาร Word เปล่าพร้อมสี่เหลี่ยมเงา – คู่มือขั้นตอนโดยละเอียด](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [บทแนะนำเงารูปทรง Aspose.Words – เพิ่มเงาให้รูป Word ใน C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -224,7 +224,6 @@ print(f"Document saved to {output_path}")
 ## 接下来你可以学习什么？
 
 - [创建 Word 文档（Java） – 添加带阴影的矩形形状](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [创建空白 Word 文档并添加带阴影的矩形形状 – 步骤指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

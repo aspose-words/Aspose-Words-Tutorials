@@ -249,7 +249,6 @@ Ada modifikasi yang Anda coba? Tinggalkan komentar di bawah—berbagi tip dunia 
 
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-- [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Berbayangan – Panduan Langkah‑ demi‑Langkah](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Tutorial Bayangan Shape Aspose.Words – Tambahkan Bayangan ke Shape Word dalam C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan Langkah‑ demi‑Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 

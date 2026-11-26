@@ -231,7 +231,6 @@ A szkript futtatása pontosan ugyanazt a dokumentumot hozza létre, amiről kor�
 ## Mit érdemes legközelebb megtanulni?
 
 - [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Üres Word dokumentum létrehozása árnyékolt téglalap alakzattal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#‑ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

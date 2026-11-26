@@ -272,7 +272,6 @@ Chúng tôi vừa đi qua một ví dụ hoàn chỉnh, từ đầu đến cuố
 
 - [Tạo Tài Liệu Word Java – Thêm Hình Chữ Nhật với Hiệu Ứng Bóng](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Hướng Dẫn Bóng Hình Aspose.Words – Thêm Bóng cho Hình Word trong C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
-- [Tạo Tài Liệu Word Trống với Hình Chữ Nhật Có Bóng – Hướng Dẫn Từng Bước](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
