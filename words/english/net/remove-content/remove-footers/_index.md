@@ -36,7 +36,6 @@ First things first, you need to import the necessary namespaces into your projec
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.HeadersFooters;
 ```
 
 ## Step 1: Load Your Document
