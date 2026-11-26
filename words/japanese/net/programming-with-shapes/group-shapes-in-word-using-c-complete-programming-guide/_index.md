@@ -247,7 +247,6 @@ class Program
 
 - [Aspose.Words for .NET を使用した Word ドキュメントへのシェイプ挿入](/words/english/net/working-with-shapes/insert-shape/)
 - [Aspose.Words for .NET を使用した Word ドキュメントでのグループシェイプ作成](/words/english/net/working-with-shapes/add-group-shape/)
-- [Word シェイプへの影効果追加 – 完全 C# ガイド](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

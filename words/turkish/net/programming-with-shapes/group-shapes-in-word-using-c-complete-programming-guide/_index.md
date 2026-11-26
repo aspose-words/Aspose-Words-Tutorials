@@ -249,7 +249,6 @@ Aşağıdaki eğitimler, bu rehberde gösterilen tekniklere dayanarak yakından 
 
 - [Word Belgelerinde Şekil Ekleme – Aspose.Words for .NET Kullanarak](/words/english/net/working-with-shapes/insert-shape/)
 - [Word Belgesinde Grup Şekli Oluşturma – Aspose.Words for .NET Kullanarak](/words/english/net/working-with-shapes/add-group-shape/)
-- [Word Şekillerine Gölge Efekti Ekleme – Tam C# Rehberi](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
