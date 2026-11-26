@@ -111,7 +111,7 @@ Handling spaces in text documents is a common but crucial task when working with
 You can use the `TxtLoadOptions` class to specify how leading and trailing spaces should be managed when loading text files.
 
 ### Can I keep leading spaces in my document?  
-Yes, you can configure the `TxtLoadOptions` to keep leading spaces by setting `LeadingSpacesOptions` to `TxtLeadingSpacesOptions.None`.
+Yes, you can configure the `TxtLoadOptions` to keep leading spaces by setting `LeadingSpacesOptions` to `TxtLeadingSpacesOptions.Preserve`.
 
 ### What happens if I don’t trim trailing spaces?  
 If trailing spaces are not trimmed, they will remain at the end of lines in your document, which may affect formatting or appearance.
