@@ -211,7 +211,6 @@ Masz teraz kompletną, działającą rozwiązanie dla **jak ustawić cień** na
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Dodaj cień do kształtu w C# – Kompletny przewodnik po zastosowaniu efektu cienia](/words/english/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/)
 - [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 - [Utwórz prostokątny kształt, dodaj cień i zapisz jako PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 
