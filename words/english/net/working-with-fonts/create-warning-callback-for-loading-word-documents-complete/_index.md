@@ -10,7 +10,7 @@ keywords:
 - detect missing fonts
 - configure font settings
 language: en
-og_description: Create warning callback to load Word document while detecting missing
+og_description: Create warning callback to load Word document while detecting
   fonts. This guide shows how to configure font settings in Aspose.Words.
 og_title: Create warning callback – Load Word document & detect missing fonts
 tags:
@@ -66,7 +66,7 @@ class FontWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // We only care about font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             Console.WriteLine($"⚠️ Font substitution detected: {info.Description}");
         }
@@ -152,7 +152,7 @@ class CollectingWarningHandler : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
             Messages.Add(info.Description);
     }
 }
@@ -170,7 +170,6 @@ Sometimes you want the missing font to be *embedded* in the output PDF so that d
 // Ensure the fallback font is embedded when saving to PDF.
 PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    EmbedStandardPdfFonts = false,
     FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll
 };
 
@@ -198,7 +197,7 @@ namespace FontWarningDemo
     {
         public void Warning(WarningInfo info)
         {
-            if (info.Type == WarningType.FontSubstitution)
+            if (info.WarningType == WarningType.FontSubstitution)
                 Console.WriteLine($"⚠️ Font substitution: {info.Description}");
         }
     }
@@ -227,7 +226,6 @@ namespace FontWarningDemo
             // Optional: Save as PDF with embedded fonts
             var pdfOptions = new PdfSaveOptions
             {
-                EmbedStandardPdfFonts = false,
                 FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll
             };
             doc.Save(@"C:\Docs\output.pdf", pdfOptions);
