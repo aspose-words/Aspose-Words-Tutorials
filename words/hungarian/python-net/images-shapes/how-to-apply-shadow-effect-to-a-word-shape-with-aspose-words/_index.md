@@ -187,7 +187,6 @@ Jó kódolást!
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
-- [Árnyékhatás hozzáadása Word alakzatokhoz – Teljes C# útmutató](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/)
 - [Árnyék hozzáadása alakzathoz Word‑ben – Teljes Aspose.Words útmutató](/words/english/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 - [Téglalap alakzat létrehozása Word‑ben az Aspose.Words‑szal – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 

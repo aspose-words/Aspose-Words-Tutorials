@@ -249,7 +249,6 @@ Poniższe tutoriale obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Insert Shapes in Word Documents Using Aspose.Words for .NET](/words/english/net/working-with-shapes/insert-shape/) – Wstawianie kształtów w dokumentach Word przy użyciu Aspose.Words dla .NET
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/) – Tworzenie grupy kształtów w dokumencie Word przy użyciu Aspose.Words dla .NET
-- [Add Shadow Effect to Word Shapes – Complete C# Guide](/words/english/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/) – Dodawanie efektu cienia do kształtów Word – kompletny przewodnik C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
