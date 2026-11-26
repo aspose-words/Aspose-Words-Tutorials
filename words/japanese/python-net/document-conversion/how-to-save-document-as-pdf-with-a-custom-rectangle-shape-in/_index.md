@@ -217,7 +217,6 @@ if __name__ == "__main__":
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを取り上げています。各リソースには完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得したり、独自プロジェクトで代替実装アプローチを探求したりするのに役立ちます。
 
-- [矩形シェイプを作成し、影を付けて PDF に保存](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Aspose.Words で矩形を PDF に追加 – ステップバイステップガイド](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Aspose.Words で文書を PDF に保存 – 完全 C# ガイド](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

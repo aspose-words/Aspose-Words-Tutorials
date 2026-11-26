@@ -199,7 +199,6 @@ Neváhejte přizpůsobit kód pro své vlastní reporty nebo šablony a podělte
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, která vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínem](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Vytvořit obdélníkový tvar, přidat stín a uložit PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Aspose.Words Shape Shadow Tutorial – Přidat stín k Word tvaru v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

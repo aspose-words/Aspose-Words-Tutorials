@@ -221,7 +221,6 @@ Diese Erweiterungen folgen dem gleichen Muster: Eine Form erstellen, ihre Eigens
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Rechteckform erstellen, Schatten hinzufügen & PDF speichern](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Rechteck zu PDF mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Dokument als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

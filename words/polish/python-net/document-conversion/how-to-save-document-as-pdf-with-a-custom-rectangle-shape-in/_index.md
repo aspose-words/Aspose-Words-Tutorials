@@ -221,7 +221,6 @@ Te rozszerzenia podążają za tym samym schematem: utwórz kształt, skonfiguru
 
 Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Utwórz kształt prostokąta, dodaj cień i zapisz PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Dodaj prostokąt do PDF przy użyciu Aspose.Words – przewodnik krok po kroku](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Zapisz dokument jako PDF z Aspose.Words – kompletny przewodnik C#](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

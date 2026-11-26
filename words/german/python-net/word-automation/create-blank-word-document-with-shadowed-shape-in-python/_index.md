@@ -194,7 +194,6 @@ Viel Spaß beim Coden!
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Rechteckform erstellen, Schatten hinzufügen & PDF speichern](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [PDF aus Word erstellen – Vollständiger Python‑Leitfaden mit Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

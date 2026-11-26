@@ -257,7 +257,6 @@ Gotowy, aby zautomatyzować więcej dokumentów Word? Spróbuj dodać tabele, na
 
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki zaprezentowane w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Utwórz prostokątny kształt, dodaj cień i zapisz PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Utwórz pusty dokument Word z prostokątnym kształtem z cieniem – przewodnik krok po kroku](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Jak zarządzać zmiennymi dokumentu przy użyciu Aspose.Words w Pythonie: kompletny przewodnik](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

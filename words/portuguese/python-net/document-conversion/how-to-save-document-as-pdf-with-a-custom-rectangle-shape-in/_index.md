@@ -220,7 +220,6 @@ Essas extensões seguem o mesmo padrão: criar uma forma, configurar suas propri
 
 Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá-lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
-- [Criar forma de retângulo, adicionar sombra e salvar PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Adicionar retângulo ao PDF com Aspose.Words – Guia passo a passo](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Salvar documento como PDF com Aspose.Words – Guia completo em C#](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

@@ -257,7 +257,6 @@ A partir de aquí puedes explorar temas relacionados como **agregar sombra a la 
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
-- [Crear forma rectangular, agregar sombra y guardar como PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Crear documento Word en blanco con forma rectangular sombreada – Guía paso a paso](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Cómo administrar variables de documento con Aspose.Words en Python&#58; Guía completa](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

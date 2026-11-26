@@ -218,7 +218,6 @@ Tyto rozšíření následují stejný vzor: vytvořte tvar, nakonfigurujte jeho
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto návodu. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Vytvořit obdélníkový tvar, přidat stín a uložit PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Přidat obdélník do PDF pomocí Aspose.Words – krok za krokem průvodce](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [Uložit dokument jako PDF s Aspose.Words – kompletní C# průvodce](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

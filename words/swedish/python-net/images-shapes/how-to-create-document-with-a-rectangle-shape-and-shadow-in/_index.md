@@ -255,7 +255,6 @@ Redo att automatisera fler Word‑dokument? Prova att lägga till tabeller, rubr
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementeringsmetoder i dina egna projekt.
 
-- [Skapa rektangelform, lägg till skugga & spara PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Skapa tomt Word‑dokument med skuggad rektangelform – steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Hur man hanterar dokumentvariabler med Aspose.Words i Python&#58; En komplett guide](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

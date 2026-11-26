@@ -218,7 +218,6 @@ if __name__ == "__main__":
 
 บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโครงการของคุณ.
 
-- [สร้างรูปสี่เหลี่ยม, เพิ่มเงา & บันทึก PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [เพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.Words – คู่มือขั้นตอน](/words/english/python-net/images-shapes/add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 - [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/)
 

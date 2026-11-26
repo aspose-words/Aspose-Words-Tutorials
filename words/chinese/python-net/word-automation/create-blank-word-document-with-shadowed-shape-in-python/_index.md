@@ -193,7 +193,6 @@ PDF generated at: output/shape_with_shadow.pdf
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中探索替代实现方式。每个资源均提供完整可运行的代码示例和逐步说明。
 
-- [Create rectangle shape, add shadow & save PDF](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
 - [Create PDF from Word – Complete Python Guide with Aspose.Words](/words/english/python-net/document-conversion/create-pdf-from-word-complete-python-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
