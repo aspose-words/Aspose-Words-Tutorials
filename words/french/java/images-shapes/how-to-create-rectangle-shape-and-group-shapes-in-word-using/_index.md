@@ -245,7 +245,6 @@ N'hésitez pas à expérimenter avec différentes tailles, positions et types de
 
 Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
 
-- [Comment créer une forme rectangulaire et regrouper des formes dans Word avec Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Créer une forme groupée dans un document Word en utilisant Aspose.Words pour .NET](/words/english/net/working-with-shapes/add-group-shape/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

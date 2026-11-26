@@ -167,7 +167,6 @@ class GroupShapeDemo
 
 以下のチュートリアルは、本ガイドで示したテクニックを基にした、密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能をマスターしたり、独自プロジェクトで代替実装を試したりするのに役立ちます。
 
-- [Aspose.Words を使用して Word に矩形シェイプとグループ シェイプを作成する方法](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [C# で空白の Word 文書を作成し、隠し楕円シェイプを追加する方法](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [C# でグループ シェイプ docx を作成し、インタラクティブ コントロールを追加する方法](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

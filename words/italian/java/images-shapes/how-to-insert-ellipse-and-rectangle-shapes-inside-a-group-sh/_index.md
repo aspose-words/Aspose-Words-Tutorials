@@ -170,7 +170,6 @@ Pronto a esplorare di più? Prova a combinare questa tecnica con **come creare u
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Come creare una forma rettangolo e forme di gruppo in Word con Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Come creare un documento Word vuoto e aggiungere una forma ellisse nascosta in C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Come creare un documento docx con forma di gruppo e aggiungere controlli interattivi in C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

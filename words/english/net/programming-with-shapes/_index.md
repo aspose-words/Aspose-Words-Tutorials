@@ -65,7 +65,6 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Insert rectangle shape in Word with C# – complete guide](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Learn how to insert a rectangle shape into a Word document using C# and Aspose.Words with this complete step‑by‑step guide. |
 | [Create word document programmatically and group shapes in C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Learn how to programmatically create a Word document and group shapes using Aspose.Words for .NET with this step‑by‑step guide. |
 | [Create a blank word document and add a rectangle shape](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Learn how to create a blank Word document and add a rectangle shape using Aspose.Words for .NET in this step‑by‑step guide. |
-| [How to create rectangle shape and group shapes in Word with Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Learn how to create rectangle shapes and group them in Word documents using Aspose.Words for .NET with this step‑by‑step guide. |
 
 | [Create Word Document – How to Add Rectangle Shape and Shadow](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Learn how to add a rectangle shape with shadow to a Word document using Aspose.Words for .NET. |
 | [Create rectangle shape with shadow in C# using Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Learn how to create a rectangle shape with shadow in Word documents using Aspose.Words for .NET with C#. |

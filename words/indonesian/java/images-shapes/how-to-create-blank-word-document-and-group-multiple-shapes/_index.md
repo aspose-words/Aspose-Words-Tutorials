@@ -159,7 +159,6 @@ Tutorial berikut mencakup topik yang terkait erat yang membangun teknik yang dit
 
 - [Cara membuat dokumen Word kosong dan mengelompokkan bentuk di C#](/words/english/net/programming-with-shapes/how-to-create-blank-word-document-and-group-shapes-in-c/)
 - [Cara mengelompokkan bentuk di Word dan menambahkan bentuk ke dokumen Word](/words/english/net/programming-with-shapes/how-to-group-shapes-in-word-and-add-shapes-to-word-document/)
-- [Cara membuat bentuk persegi panjang dan mengelompokkan bentuk di Word dengan Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

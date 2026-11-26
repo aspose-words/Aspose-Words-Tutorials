@@ -168,7 +168,6 @@ Jste připraveni objevovat dál? Zkuste kombinovat tuto techniku s **jak vytvoř
 
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
-- [Jak vytvořit obdélníkový tvar a skupinové tvary ve Wordu s Aspose.Words](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [Jak vytvořit prázdný dokument Word a přidat skrytý elipsový tvar v C#](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [Jak vytvořit docx se skupinovým tvarem a přidat interaktivní ovládací prvky v C#](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 

@@ -165,7 +165,6 @@ class GroupShapeDemo
 
 以下教程涵盖与本指南演示的技术密切相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能并在项目中探索替代实现方案。
 
-- [如何使用 Aspose.Words 在 Word 中创建矩形形状和组形状](/words/english/net/programming-with-shapes/how-to-create-rectangle-shape-and-group-shapes-in-word-with/)
 - [如何创建空白 Word 文档并在 C# 中添加隐藏的椭圆形状](/words/english/java/images-shapes/how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
 - [如何在 C# 中创建组形状 docx 并添加交互式控件](/words/english/java/images-shapes/how-to-create-group-shape-docx-and-add-interactive-controls/)
 
