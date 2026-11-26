@@ -27,7 +27,6 @@ Split Document เป็นแหล่งข้อมูลที่ครอ�
 | [รวมเอกสาร](./merge-documents/) | คู่มือทีละขั้นตอนในการอธิบายโค้ดต้นฉบับ C# ของฟีเจอร์ Merge Documents ของ Aspose.Words สำหรับ .NET -
 | [แบ่งเอกสาร Word ตามช่วงหน้า](./by-page-range/) | เรียนรู้วิธีแบ่งเอกสาร Word ตามช่วงหน้าโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา |
 - [สร้าง PDF จากหน้า – คู่มือการแยกหน้าที่ต้องการ](./create-pdf-from-pages-extract-specific-pages-guide/) | เรียนรู้วิธีสร้างไฟล์ PDFจากหน้าเฉพาะของเอกสารโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนที่ละเอียดและตัวอย่างโค้ด -
-- [แบ่งเอกสาร Word ตามหัวเรื่องด้วย C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | เรียนรู้วิธีแบ่งเอกสาร Word เป็นส่วนตามหัวเรื่องโดยใช้ C# และ Aspose.Words สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
