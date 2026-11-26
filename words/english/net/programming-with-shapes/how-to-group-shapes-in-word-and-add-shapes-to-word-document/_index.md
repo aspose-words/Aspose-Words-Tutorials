@@ -226,7 +226,7 @@ Open `GroupShape.docx`. You will see a single visual object that contains a blue
   Yes. Call `groupShape.AppendChild` for each additional `Shape` before inserting the group.
 
 * **What if I need to rotate the group?**  
-  Set `groupShape.RotationAngle = 45;` (angle in degrees) after the group is built.
+  Set `groupShape.Rotation = 45;` (angle in degrees) after the group is built.
 
 * **Do I need to call `doc.UpdatePageLayout()`?**  
   Not for this scenario. The layout updates automatically when the document is saved.
