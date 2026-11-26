@@ -227,7 +227,6 @@ print(f"Document saved to {output_path}")
 ## 次に学ぶべきことは？
 
 - [Java で Word ドキュメントを作成 – 長方形シェイプに影効果を追加](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [影付き長方形シェイプで空白の Word ドキュメントを作成 – ステップバイステップガイド](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

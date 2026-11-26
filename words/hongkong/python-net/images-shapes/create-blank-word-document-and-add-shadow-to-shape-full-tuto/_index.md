@@ -244,7 +244,6 @@ print(f"💾 Document saved as '{output_path}'. Open it in Word to see the effec
 
 以下教學涵蓋與本指南緊密相關的主題，並在此基礎上進一步延伸。每個資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [建立帶陰影矩形形狀的空白 Word 文件 – 步驟教學](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [使用 Aspose.Words 在 Word 中建立矩形形狀 – 步驟教學](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

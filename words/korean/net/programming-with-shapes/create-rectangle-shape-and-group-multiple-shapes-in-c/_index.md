@@ -229,7 +229,6 @@ namespace GroupShapeDemo
 
 - [C#를 사용하여 Word에서 사각형 모양 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words for .NET을 사용하여 Word 문서에 그룹 모양 만들기](/words/english/net/working-with-shapes/add-group-shape/)
-- [그림자 사각형 모양이 있는 빈 Word 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

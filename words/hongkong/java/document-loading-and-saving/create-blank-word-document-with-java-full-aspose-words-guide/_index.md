@@ -229,7 +229,6 @@ public class ShapeVisibilityDemo {
 以下教學涵蓋與本指南密切相關的主題，建立在此處示範的技巧之上。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在自己的專案中探索替代實作方式。
 
 - [建立 Word 文件 Java – 加入帶陰影效果的矩形圖形](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [建立帶陰影矩形圖形的空白 Word 文件 – 步驟說明指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Aspose.Words Java：完整的 Word 文件處理指南](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

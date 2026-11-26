@@ -231,7 +231,6 @@ Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan yakından
 
 - [C# kullanarak Word'de dikdörtgen şekli oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Word Belgesinde Grup Şekli Oluşturma – Aspose.Words for .NET Kullanarak](/words/english/net/working-with-shapes/add-group-shape/)
-- [Gölgelendirilmiş Dikdörtgen Şekilli Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

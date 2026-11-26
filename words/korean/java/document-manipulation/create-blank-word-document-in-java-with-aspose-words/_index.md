@@ -187,7 +187,6 @@ SDT가 일반 콘텐츠와 매끄럽게 통합되는 것을 보여주기 위해,
 
 - [Java로 워드 문서 만들기 – 그림자 효과가 있는 사각형 모양 추가](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Aspose.Words for Java로 일반 텍스트 파일 만드는 방법](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [그림자 사각형 모양이 있는 빈 워드 문서 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

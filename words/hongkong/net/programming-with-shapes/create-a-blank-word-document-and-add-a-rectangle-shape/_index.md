@@ -227,7 +227,6 @@ rectangle.GetShapeRenderer().GetShapeXml()
 
 以下教學與本指南示範的技術密切相關，並可作為進一步探索 API 功能與替代實作方式的資源。每篇文章皆提供完整可執行的程式碼範例與逐步說明，協助您在自己的專案中掌握更多技巧。
 
-- [建立帶陰影矩形形狀的空白 Word 文件 – 步驟說明指南](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [使用 C# 在 Word 中建立矩形形狀 – 步驟說明指南](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

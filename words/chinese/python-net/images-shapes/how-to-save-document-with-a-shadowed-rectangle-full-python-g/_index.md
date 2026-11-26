@@ -204,7 +204,6 @@ print(f"Document saved successfully at: {output_file}")
 
 以下教程涵盖与本指南紧密相关的主题，帮助你在项目中进一步运用这些技术。每篇资源都提供完整可运行的代码示例以及逐步解释，助你掌握更多 API 功能并探索替代实现方式。
 
-- [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [How to Save Markdown from Word – Complete Python Guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [How to Add Shadow in C# – Complete Programming Guide](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

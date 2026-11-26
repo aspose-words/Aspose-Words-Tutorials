@@ -228,7 +228,6 @@ Chạy script này sẽ tạo ra tài liệu giống hệt như chúng ta đã t
 ## Bạn nên học gì tiếp theo?
 
 - [Tạo tài liệu Word Java – Thêm hình chữ nhật có hiệu ứng bóng](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Tạo tài liệu Word trống với hình chữ nhật có bóng – Hướng dẫn chi tiết](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

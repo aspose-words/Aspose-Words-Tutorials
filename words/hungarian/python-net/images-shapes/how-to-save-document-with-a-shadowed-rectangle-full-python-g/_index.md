@@ -208,7 +208,6 @@ Boldog kódolást, és nyugodtan írj kommentet, ha elakadsz!
 
 Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket és lépésről‑lépésre magyarázatot tartalmaz, hogy további API‑funkciókat saját projektjeidben is felfedezhess és alternatív megvalósítási módokat próbálhass ki.
 
-- [Üres Word dokumentum létrehozása árnyékolt téglalap alakzattal – Lépés‑ről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Hogyan mentsünk Markdown‑ot Word‑ből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Hogyan adjunk árnyékot C#‑ban – Teljes programozási útmutató](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

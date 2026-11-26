@@ -207,7 +207,6 @@ Lycka till med kodandet, och tveka inte att lämna en kommentar om du stöter p�
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Skapa tomt Word‑dokument med skuggad rektangel‑form – Steg‑för‑steg‑guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Hur man sparar Markdown från Word – Komplett Python‑guide](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [Hur man lägger till skugga i C# – Komplett programmeringsguide](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

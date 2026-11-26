@@ -206,7 +206,6 @@ Kodlamaktan keyif alın, ve herhangi bir sorunla karşılaşırsanız yorum bır
 
 Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olmak için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Gölgelendirilmiş Dikdörtgen Şekilli Boş Word Belgesi Oluşturma – Adım Adım Rehber](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Word'den Markdown Nasıl Kaydedilir – Tam Python Rehberi](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 - [C#'da Gölge Nasıl Eklenir – Tam Programlama Rehberi](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 

@@ -267,7 +267,6 @@ Ognuno di questi approfondimenti si basa sui concetti chiave trattati qui, quind
 I tutorial seguenti trattano argomenti strettamente correlati che ampliano le tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑a‑passo per aiutarti a padroneggiare ulteriori funzionalità dell’API e a esplorare approcci alternativi di implementazione nei tuoi progetti.
 
 - [Crea documento Word Java – Aggiungi forma rettangolare con effetto ombra](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Crea documento Word vuoto con rettangolo ombreggiato – Guida passo‑a‑passo](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

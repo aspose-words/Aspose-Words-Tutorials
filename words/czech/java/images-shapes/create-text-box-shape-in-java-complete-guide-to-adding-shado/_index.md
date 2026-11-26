@@ -281,7 +281,6 @@ Právě jsme prošli kompletním příkladem od začátku do konce, který vám 
 ## Co byste se měli učit dál?
 
 - [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Vytvořit prázdný Word dokument s obdélníkovým tvarem se stínem – Průvodce krok za krokem](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

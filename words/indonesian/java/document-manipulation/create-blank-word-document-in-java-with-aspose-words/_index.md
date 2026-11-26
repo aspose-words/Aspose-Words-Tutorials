@@ -208,7 +208,6 @@ Tutorial berikut mencakup topik yang sangat terkait yang membangun teknik yang d
 
 - [Buat Dokumen Word Java – Tambahkan Bentuk Persegi Panjang dengan Efek Bayangan](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [Cara membuat file teks biasa dengan Aspose.Words untuk Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Bayangan – Panduan Langkah demi Langkah](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
