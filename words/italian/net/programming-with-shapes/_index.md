@@ -25,7 +25,6 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | Titolo | Descrizione |
 | --- | --- |
 | [Aggiungi forma di gruppo](./add-group-shape/) | Scopri come aggiungere forme di gruppo ai documenti Word utilizzando Aspose.Words per .NET con questo tutorial completo e dettagliato. |
-| [Come raggruppare forme in un documento Word con C#](./how-to-group-shapes-in-a-word-document-with-c/) | Scopri come raggruppare più forme in un documento Word usando Aspose.Words per .NET con C# in questa guida passo passo. |
 | [Come raggruppare le forme in Word con Aspose.Words per C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Scopri come raggruppare più forme in un documento Word usando Aspose.Words per .NET con C#. |
 | [Come raggruppare le forme in Word usando C# e Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Scopri come raggruppare più forme in un documento Word con C# e Aspose.Words. |
 | [Come raggruppare le forme in C# con Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | Scopri come raggruppare più forme in un documento Word usando Aspose.Words per .NET con C#. |

@@ -29,7 +29,6 @@
 | [Как группировать фигуры в Word с помощью C# и Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для .NET и C#. |
 | [Групповые фигуры в Word с использованием C# – полное руководство по программированию](./group-shapes-in-word-using-c-complete-programming-guide/) | Узнайте, как группировать фигуры в документах Word с помощью C# с полным пошаговым руководством. |
 | [Программно создать документ Word с групповой фигурой](./programmatically-create-a-word-document-with-a-group-shape/) | Программно создайте документ Word с групповой фигурой. |
-| [Как группировать фигуры в документе Word с помощью C#](./how-to-group-shapes-in-a-word-document-with-c/) | Узнайте, как группировать фигуры в документе Word с помощью C# и Aspose.Words для .NET. |
 | [Как группировать фигуры в C# с Aspose.Words](./how-to-group-shapes-in-c-with-aspose-words/) | Узнайте, как группировать фигуры в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Вставить форму](./insert-shape/) | Узнайте, как вставлять и изменять фигуры в документах Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. |
 | [Вставить прямоугольную форму в C# с Aspose.Words – пошаговое руководство](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Узнайте, как вставить прямоугольную форму в документ Word с помощью C# и Aspose.Words, следуя пошаговому руководству. |

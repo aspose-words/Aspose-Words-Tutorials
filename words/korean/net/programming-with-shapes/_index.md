@@ -26,7 +26,6 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | --- | --- |
 | [그룹 모양 추가](./add-group-shape/) | 이 포괄적인 단계별 튜토리얼을 통해 Aspose.Words for .NET을 사용하여 Word 문서에 그룹 모양을 추가하는 방법을 알아보세요. |
 | [Word에서 도형을 그룹화하고 문서에 도형 추가하는 방법](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형을 그룹화하고 새 도형을 추가하는 단계별 가이드. |
-| [C#를 사용하여 Word 문서에서 도형 그룹화하는 방법](./how-to-group-shapes-in-a-word-document-with-c/) | C# 코드로 Word 문서에서 여러 도형을 그룹으로 묶는 단계별 가이드. |
 | [Aspose.Words for C#를 사용하여 Word에서 도형 그룹화하는 방법](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for C#를 사용해 Word 문서에서 도형을 그룹화하는 단계별 가이드. |
 | [C#를 사용한 Word 그룹 도형 – 완전 프로그래밍 가이드](./group-shapes-in-word-using-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#로 Word 문서에 그룹 도형을 추가하고 관리하는 전체 가이드를 단계별로 안내합니다. |
 | [C#에서 Aspose.Words를 사용해 도형 그룹화하는 방법](./how-to-group-shapes-in-c-with-aspose-words/) | Aspose.Words for .NET을 활용해 C# 코드로 Word 문서에서 도형을 그룹화하는 단계별 가이드입니다. |

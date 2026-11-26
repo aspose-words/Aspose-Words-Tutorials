@@ -27,7 +27,6 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | --- | --- |
 | [Add Group Shape](./add-group-shape/) | Learn how to add group shapes to Word documents using Aspose.Words for .NET with this comprehensive, step-by-step tutorial. |
 | [How to group shapes in Word and add shapes to Word document](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Learn how to group shapes and add new shapes to Word documents using Aspose.Words for .NET. |
-| [How to group shapes in a Word document with C#](./how-to-group-shapes-in-a-word-document-with-c/) | Learn how to group multiple shapes in a Word document using Aspose.Words for .NET with C# in this step‑by‑step guide. |
 | [How to group shapes in Word with Aspose.Words for C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Learn how to group multiple shapes in a Word document using Aspose.Words for .NET with C# in this step‑by‑step guide. |
 | [How to group shapes in Word using C# and Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Learn how to group multiple shapes in a Word document using C# and Aspose.Words with this step‑by‑step guide. |
 | [How to create blank Word document and group shapes in C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Learn how to create a blank Word document and add group shapes using Aspose.Words for .NET in C#. |
