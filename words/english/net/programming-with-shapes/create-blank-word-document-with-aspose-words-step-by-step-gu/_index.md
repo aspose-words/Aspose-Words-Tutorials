@@ -34,7 +34,7 @@ In this guide we’ll walk through exactly that—starting from an empty documen
 
 ## What You’ll Need
 
-- **Aspose.Words for .NET** (any recent version, e.g., 24.10).  
+- **Aspose.Words for .NET** (any recent version).  
 - .NET 6 or later (the code works with .NET Framework 4.7+ as well).  
 - A basic C# IDE—Visual Studio, Rider, or even VS Code with the C# extension.  
 
@@ -72,25 +72,22 @@ Shape rectangleShape = new Shape(document, ShapeType.Rectangle)
 };
 ```
 
-> **Pro tip:** If you ever wonder **how to add shape** that isn’t a rectangle, just change `ShapeType.Rectangle` to any other enum value like `ShapeType.Ellipse` or `ShapeType.Polygon`. The rest of the code stays the same.
+> **Pro tip:** If you ever wonder **how to add shape** that isn’t a rectangle, just change `ShapeType.Rectangle` to any other enum value like `ShapeType.Ellipse` or `ShapeType.Arrow`. The rest of the code stays the same.
 
 ---
 
 ## Step 3: Configure a custom shadow for the shape
 
-A plain rectangle looks a bit dull, so we’ll **add shadow word** to make it pop. Aspose.Words exposes a `ShadowFormat` object with many properties.
+A plain rectangle looks a bit dull, so we’ll **add shadow word** to make it pop. Aspose.Words exposes a `ShadowFormat` object with a few configurable properties.
 
 ```csharp
 // Step 3 – enable and style the shadow
-rectangleShape.ShadowFormat.Enabled = true;                // turn on the shadow
-rectangleShape.ShadowFormat.Color = Color.Gray;           // shadow color
-rectangleShape.ShadowFormat.OffsetX = 5;                  // horizontal offset (points)
-rectangleShape.ShadowFormat.OffsetY = 5;                  // vertical offset (points)
-rectangleShape.ShadowFormat.Transparency = 0.3;           // 30 % transparent
-rectangleShape.ShadowFormat.BlurRadius = 4;               // soft edge blur
+rectangleShape.ShadowFormat.Type = ShadowType.Shadow1;    // preset shadow style
+rectangleShape.ShadowFormat.Color = Color.Gray;          // shadow color
+rectangleShape.ShadowFormat.Transparency = 0.3;          // 30 % transparent
 ```
 
-> **Why this matters:** The shadow gives a subtle depth cue, especially when the document will be viewed on screen. Adjust `OffsetX`, `OffsetY`, and `BlurRadius` to suit your design language.
+> **Why this matters:** The preset shadow gives a subtle depth cue. You can choose a different `ShadowType` to get other shadow appearances.
 
 ---
 
@@ -147,12 +144,9 @@ namespace AsposeWordShadowDemo
             };
 
             // 3️⃣ Configure a custom shadow (add shadow word)
-            rectangleShape.ShadowFormat.Enabled = true;
+            rectangleShape.ShadowFormat.Type = ShadowType.Shadow1;
             rectangleShape.ShadowFormat.Color = Color.Gray;
-            rectangleShape.ShadowFormat.OffsetX = 5;
-            rectangleShape.ShadowFormat.OffsetY = 5;
             rectangleShape.ShadowFormat.Transparency = 0.3;
-            rectangleShape.ShadowFormat.BlurRadius = 4;
 
             // 4️⃣ Insert the shape into the first paragraph
             document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
@@ -183,14 +177,14 @@ Just set `FillColor` before appending the shape.
 ### What if I need multiple shapes on the same page?
 Create additional `Shape` objects and append each to the same paragraph or to different paragraphs. You can also control layout using `WrapType` and `RelativeHorizontalPosition`.
 
-### Can I export to PDF while keeping the shadow?
-Absolutely. Use `document.Save("output.pdf")`—Aspose.Words preserves the shadow effect in the PDF conversion.
+### Can I export to PDF while keeping the shape?
+Absolutely. Use `document.Save("output.pdf")`—Aspose.Words renders the shape in the PDF.
 
-### Does this work on .NET Core?
-Yes. Aspose.Words is cross‑platform; the same code runs on .NET Core, .NET 5+, and .NET Framework.
+### Does this work on .NET platforms supported by Aspose.Words?
+Yes. The same code runs on any .NET runtime that Aspose.Words targets.
 
 ### How to add a shape without a paragraph?
-You can add the shape directly to a `Run` or to a `Story`. For more precise positioning, set `rectangleShape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page` and adjust `Left`/`Top` properties.
+Shapes must be added to a node that can contain them, such as a `Paragraph`. They cannot be added directly to a `Run`. Use the paragraph (or another suitable container) as the insertion point.
 
 ---
 
