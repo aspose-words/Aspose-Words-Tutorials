@@ -26,7 +26,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | --- | --- |
 | [Lägg till gruppform](./add-group-shape/) | Lär dig hur du lägger till gruppformer i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-handledningen. |
 | [Hur man grupperar former i Word och lägger till former i Word-dokument](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Lär dig att gruppera former och infoga nya former i ett Word-dokument med Aspose.Words för .NET. |
-| [Hur man grupperar former i ett Word-dokument med C#](./how-to-group-shapes-in-a-word-document-with-c/) | Lär dig hur du grupperar flera former i ett Word-dokument med C# och Aspose.Words för .NET. |
 | [Hur man grupperar former i Word med Aspose.Words för C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för C#. |
 | [Hur man grupperar former i Word med C# och Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Lär dig att gruppera flera former i ett Word-dokument med C# och Aspose.Words i denna steg‑för‑steg‑guide. |
 | [Programmera ett Word-dokument med en gruppform](./programmatically-create-a-word-document-with-a-group-shape/) | Lär dig hur du programatiskt skapar ett Word-dokument med en gruppform med Aspose.Words för .NET. |
