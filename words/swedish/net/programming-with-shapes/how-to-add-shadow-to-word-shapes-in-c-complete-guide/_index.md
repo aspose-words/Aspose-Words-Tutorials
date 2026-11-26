@@ -239,7 +239,6 @@ Prova det, justera värdena, och se hur en enkel skugga kan ge dina Word‑dokum
 
 Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Aspose.Words Shape Shadow Tutorial – Lägg till en skugga på Word-form i C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hur man lägger till skugga i C# – Komplett programmeringsguide](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Skapa Word-dokument Java – Lägg till rektangelform med skuggeffekt](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

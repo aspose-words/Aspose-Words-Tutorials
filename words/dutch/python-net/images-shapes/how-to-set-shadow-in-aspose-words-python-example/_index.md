@@ -247,7 +247,6 @@ We hebben behandeld **
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Aspose.Words Vorm Schaduw Tutorial – Voeg een schaduw toe aan Word‑vorm in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hoe opmerkingen en antwoorden te implementeren in Word‑documenten met Aspose.Words voor Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Hoe documentvariabelen te beheren met Aspose.Words in Python: Een complete gids](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

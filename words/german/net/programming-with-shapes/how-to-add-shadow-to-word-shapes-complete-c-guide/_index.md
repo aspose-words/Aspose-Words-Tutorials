@@ -220,7 +220,6 @@ Haben Sie eine Frage zu einem bestimmten Formtyp oder möchten Schatten bedingt 
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie weitere API‑Funktionen meistern und alternative Implementierungs‑Ansätze in Ihren Projekten erkunden können.
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Inhalt mit Document Builder in Aspose.Words für .NET hinzufügen](/words/english/net/add-content-using-document-builder/)
 - [Text‑Wasserzeichen in Word‑Dokument mit Aspose.Words für .NET hinzufügen](/words/english/net/working-with-watermark/add-text-watermark/)
 

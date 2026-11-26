@@ -242,7 +242,6 @@ Provalo, modifica i valori e osserva come una semplice ombra possa conferire ai 
 
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare ulteriori funzionalità dell'API e a esplorare approcci alternativi nei tuoi progetti.
 
-- [Aspose.Words Shape Shadow Tutorial – Aggiungere un'ombra a una forma Word in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Come aggiungere l'ombra in C# – Guida completa alla programmazione](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Creare documento Word Java – Aggiungere forma rettangolare con effetto ombra](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

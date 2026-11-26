@@ -279,7 +279,6 @@ Aşağıdaki eğitimler, bu kılavuzda gösterilen tekniklere dayanan yakından 
 
 - [C# kullanarak Word'de dikdörtgen şekil oluşturma – Adım Adım Kılavuz](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Aspose.Words for .NET Kullanarak Word Belgesinde Grup Şekli Oluşturma](/words/english/net/working-with-shapes/add-group-shape/)
-- [Aspose.Words Şekil Gölge Eğitimi – C# ile Word Şekline Gölge Ekle](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

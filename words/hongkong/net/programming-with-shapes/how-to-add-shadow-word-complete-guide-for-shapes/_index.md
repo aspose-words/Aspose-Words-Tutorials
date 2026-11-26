@@ -244,7 +244,6 @@ dotnet run -- "C:\Docs\myTemplate.docx" "C:\Docs\myTemplate_shadowed.docx"
 
 以下教學與本篇內容密切相關，能進一步擴展你的技巧。每篇資源皆提供完整範例與逐步說明，協助你掌握更多 API 功能，或在專案中嘗試不同的實作方式。
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [How to Add Shadow in C# – Complete Programming Guide](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
 

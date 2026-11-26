@@ -243,7 +243,6 @@ Các bước tiếp theo có thể bao gồm:
 
 Các hướng dẫn sau đây bao phủ các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Hướng dẫn Bóng Hình dạng Aspose.Words – Thêm Bóng cho Hình dạng Word trong C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cách Chuyển DOCX sang PNG trong Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Lưu Tài liệu Word dưới dạng PostScript trong Python bằng Aspose.Words: Hướng dẫn Toàn diện](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

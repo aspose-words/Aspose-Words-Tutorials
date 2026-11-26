@@ -243,7 +243,6 @@ dotnet run -- "C:\Docs\myTemplate.docx" "C:\Docs\myTemplate_shadowed.docx"
 
 以下教程涵盖与本指南技术紧密相关的主题。每个资源都包含完整的可运行代码示例和逐步说明，帮助您掌握更多 API 功能，并在自己的项目中探索替代实现方案。
 
-- [Aspose.Words 形状阴影教程 – 在 C# 中为 Word 形状添加阴影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [如何在 C# 中添加阴影 – 完整编程指南](/words/english/python-net/images-shapes/how-to-add-shadow-in-c-complete-programming-guide/)
 - [使用 Aspose.Words for .NET 在 Word 文档中创建组合形状](/words/english/net/working-with-shapes/add-group-shape/)
 

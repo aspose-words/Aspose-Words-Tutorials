@@ -224,7 +224,6 @@ Aspose.Words for Python에서 **도형에 그림자 추가**와 **도형 채우�
 
 - [Python에서 Aspose.Words 라이선스 설정](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Aspose.Words로 Word에 사각형 도형 만들기 – 단계별 가이드](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words 도형 그림자 튜토리얼 – C#에서 Word 도형에 그림자 추가](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

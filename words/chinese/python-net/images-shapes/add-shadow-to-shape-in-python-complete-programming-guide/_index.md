@@ -200,7 +200,6 @@ license.set_license("Aspose.Words.lic")
 
 以下教程与本指南的技术紧密相连，帮助你进一步掌握 API 的其他功能，并在项目中探索替代实现方式。每篇资源都包含完整可运行的代码示例和逐步解释。
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

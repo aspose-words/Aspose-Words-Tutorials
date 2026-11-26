@@ -222,7 +222,6 @@ Diese Erweiterungen ermöglichen Ihnen den Aufbau einer voll‑funktionsfähigen
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Word‑Dokument in Java erstellen – Rechteck‑Form mit Schatten‑Effekt hinzufügen](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words Form‑Schatten‑Tutorial – Einen Schatten zu einer Word‑Form in C# hinzufügen](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Wie man Markdown aus Word speichert – Vollständiger Python‑Leitfaden](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

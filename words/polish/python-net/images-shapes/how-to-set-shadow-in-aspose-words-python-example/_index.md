@@ -261,7 +261,6 @@ Omówiliśmy **
 
 Poniższe samouczki dotyczą ściśle powiązanych tematów, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu wraz z krok‑po‑kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia w własnych projektach.
 
-- [Samouczek cienia kształtu Aspose.Words – Dodaj cień do kształtu Word w C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Jak wdrożyć komentarze i odpowiedzi w dokumentach Word przy użyciu Aspose.Words dla Pythona](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Jak zarządzać zmiennymi dokumentu przy użyciu Aspose.Words w Pythonie: kompletny przewodnik](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

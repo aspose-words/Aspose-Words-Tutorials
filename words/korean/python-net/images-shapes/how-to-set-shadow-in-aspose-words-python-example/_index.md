@@ -259,7 +259,6 @@ if __name__ == "__main__":
 
 다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하며, 단계별 설명과 완전한 코드 예제를 포함하고 있어 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
 
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [How to Implement Comments and Replies in Word Documents using Aspose.Words for Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [How to Manage Document Variables with Aspose.Words in Python: A Complete Guide](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

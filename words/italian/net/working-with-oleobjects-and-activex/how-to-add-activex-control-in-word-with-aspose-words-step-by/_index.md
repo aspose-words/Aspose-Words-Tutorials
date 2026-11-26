@@ -259,7 +259,6 @@ Se il pulsante appare ma non fa nulla, verifica che il nome della macro corrispo
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Aggiungere contenuto usando Document Builder in Aspose.Words per .NET](/words/english/net/add-content-using-document-builder/)
-- [Tutorial Ombra Forma Aspose.Words – Aggiungere un'ombra a una forma Word in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Aggiungere una nuova sezione a un documento Word | Aspose.Words per .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

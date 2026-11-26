@@ -259,7 +259,6 @@ Pokud se tlačítko zobrazí, ale neprovádí nic, zkontrolujte dvakrát, že n�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Přidat obsah pomocí Document Builder v Aspose.Words pro .NET](/words/english/net/add-content-using-document-builder/)
-- [Aspose.Words Shape Shadow tutoriál – Přidat stín k Word tvaru v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Přidat novou sekci do Word dokumentu | Aspose.Words pro .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

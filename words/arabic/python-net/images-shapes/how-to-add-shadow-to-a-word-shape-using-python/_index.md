@@ -220,7 +220,6 @@ shape = doc.inline_shapes[0]._inline
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
 
 - [إنشاء مستند Word بلغة Java – إضافة شكل مستطيل مع تأثير الظل](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [دروس ظل شكل Aspose.Words – إضافة ظل إلى شكل Word بلغة C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [كيفية حفظ Markdown من Word – دليل Python كامل](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

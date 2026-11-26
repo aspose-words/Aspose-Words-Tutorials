@@ -216,7 +216,6 @@ Heb je een vraag over een specifiek vormtype of moet je schaduwen conditioneel t
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Aspose.Words Shape Shadow Tutorial – Voeg een schaduw toe aan Word‑vorm in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Inhoud toevoegen met Document Builder in Aspose.Words voor .NET](/words/english/net/add-content-using-document-builder/)
 - [Tekst‑watermerk toevoegen in Word‑document met Aspose.Words voor .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

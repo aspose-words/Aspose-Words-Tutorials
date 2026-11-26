@@ -223,7 +223,6 @@ Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen
 
 - [Csoport alakzat létrehozása Word dokumentumban Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
 - [Téglalap alakzat létrehozása Wordben Aspose.Words‑szel – lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Aspose.Words Shape Shadow útmutató – Árnyék hozzáadása Word alakzathoz C#‑ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

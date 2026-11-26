@@ -261,7 +261,6 @@ Wir haben behandelt **
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Aspose.Words Shape Shadow Tutorial – Schatten zu Word‑Form in C# hinzufügen](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Wie man Kommentare und Antworten in Word‑Dokumenten mit Aspose.Words für Python implementiert](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Wie man Dokumentvariablen mit Aspose.Words in Python verwaltet: Ein vollständiger Leitfaden](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

@@ -221,7 +221,6 @@ Ezek a kiegészítések lehetővé teszik, hogy teljes körű dokumentum‑stíl
 A következő oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
 
 - [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#-ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hogyan mentse a Markdown-et Wordből – Teljes Python útmutató](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

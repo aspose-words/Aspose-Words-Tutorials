@@ -259,7 +259,6 @@ if __name__ == "__main__":
 
 Τα παρακάτω tutorials καλύπτουν στενά σχετικότατα θέματα που βασίζονται στις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε σε πρόσθετα χαρακτηριστικά του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
 
-- [Tutorial Σκιάς Σχήματος Aspose.Words – Προσθήκη Σκιάς σε Σχήμα Word σε C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Πώς να Εφαρμόσετε Σχόλια και Απαντήσεις σε Έγγραφα Word χρησιμοποιώντας Aspose.Words για Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Πώς να Διαχειριστείτε Μεταβλητές Εγγράφου με Aspose.Words σε Python: Πλήρης Οδηγός](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

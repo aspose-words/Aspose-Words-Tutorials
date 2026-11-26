@@ -219,7 +219,6 @@ Bu uzantılar, kurumsal tasarım standartlarına uyan tam özellikli bir belge�
 Aşağıdaki eğitimler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
 - [Word Belgesi Oluşturma Java – Dikdörtgen Şekle Gölge Efekti Ekle](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Aspose.Words Şekil Gölge Eğitimi – C# ile Word Şekline Gölge Ekle](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Word'den Markdown Kaydetme – Tam Python Rehberi](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

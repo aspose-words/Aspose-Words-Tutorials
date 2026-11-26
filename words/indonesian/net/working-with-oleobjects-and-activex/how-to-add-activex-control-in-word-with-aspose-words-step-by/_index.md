@@ -259,7 +259,6 @@ Jika tombol muncul tetapi tidak berfungsi, periksa kembali bahwa nama makro pers
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
 - [Tambahkan Konten Menggunakan Document Builder di Aspose.Words untuk .NET](/words/english/net/add-content-using-document-builder/)
-- [Tutorial Bayangan Bentuk Aspose.Words – Tambahkan Bayangan ke Bentuk Word dalam C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Tambahkan Seksi Baru ke Dokumen Word | Aspose.Words untuk .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

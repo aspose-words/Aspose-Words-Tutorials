@@ -242,7 +242,6 @@ Children in first group: 2
 
 - [Вставка фигур в документы Word с помощью Aspose.Words для .NET](/words/english/net/working-with-shapes/insert-shape/)
 - [Создание прямоугольной фигуры в Word с Aspose.Words – пошаговое руководство](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Учебник по теням фигур Aspose.Words – добавление тени к фигуре Word в C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

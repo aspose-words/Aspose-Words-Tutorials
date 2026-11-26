@@ -220,7 +220,6 @@ Har du en fråga om en specifik formtyp eller behöver du applicera skuggor vill
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Aspose.Words Formskugga‑handledning – Lägg till en skugga på Word‑form i C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Lägg till innehåll med Document Builder i Aspose.Words för .NET](/words/english/net/add-content-using-document-builder/)
 - [Lägg till textvattenstämpel i Word‑dokument med Aspose.Words för .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

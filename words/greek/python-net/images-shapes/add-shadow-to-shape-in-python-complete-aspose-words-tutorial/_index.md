@@ -236,7 +236,6 @@ print(f"✅ PDF generated: {output}")
 
 - [Ρύθμιση Άδειας Aspose.Words σε Python](/words/english/python-net/getting-started/aspose-words-license-python-setup/)
 - [Δημιουργία ορθογώνιου σχήματος σε Word με Aspose.Words – Οδηγός βήμα‑βήμα](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Οδηγός Σκιάς Σχήματος Aspose.Words – Προσθήκη Σκιάς σε Σχήμα Word σε C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

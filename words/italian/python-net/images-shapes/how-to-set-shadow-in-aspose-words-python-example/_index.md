@@ -261,7 +261,6 @@ Abbiamo coperto **
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
-- [Tutorial Ombra Forma Aspose.Words – Aggiungi un'ombra a una forma Word in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Come implementare commenti e risposte nei documenti Word usando Aspose.Words per Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Come gestire le variabili del documento con Aspose.Words in Python: Guida completa](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

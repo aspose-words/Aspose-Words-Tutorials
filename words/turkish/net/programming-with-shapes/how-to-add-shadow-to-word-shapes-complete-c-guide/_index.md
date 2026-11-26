@@ -220,7 +220,6 @@ Belirli bir şekil türü hakkında sorunuz mu var ya da gölgeleri koşullu ola
 
 Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım adım açıklamalı tam çalışan kod örnekleri içerir.
 
-- [Aspose.Words Şekil Gölge Öğreticisi – C#'ta Word Şekline Gölge Ekleme](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Aspose.Words for .NET'te Document Builder Kullanarak İçerik Ekleme](/words/english/net/add-content-using-document-builder/)
 - [Aspose.Words for .NET ile Word Belgesine Metin Filigranı Ekleme](/words/english/net/working-with-watermark/add-text-watermark/)
 

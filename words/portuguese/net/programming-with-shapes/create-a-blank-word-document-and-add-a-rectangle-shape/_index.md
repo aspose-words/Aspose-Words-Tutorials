@@ -229,7 +229,6 @@ Os tutoriais a seguir abordam tópicos estreitamente relacionados que se baseiam
 
 - [Criar Documento Word em Branco com Forma Retangular com Sombra – Guia Passo a Passo](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
 - [Criar forma retangular no Word usando C# – Guia Passo a Passo](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
-- [Tutorial de Sombra de Forma Aspose.Words – Adicionar Sombra a Forma Word em C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

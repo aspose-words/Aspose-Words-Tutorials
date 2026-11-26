@@ -245,7 +245,6 @@ Aspose.Words는 `SaveFormat`이 지원하는 모든 래스터 형식에 대해 �
 
 다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하며, 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 되는 완전한 코드 예제와 단계별 설명을 제공합니다.
 
-- [Aspose.Words 도형 그림자 튜토리얼 – C#에서 Word 도형에 그림자 추가](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Java에서 DOCX를 PNG로 변환하는 방법 – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
 - [Python에서 Aspose.Words를 사용해 Word 문서를 PostScript로 저장하기: 종합 가이드](/words/english/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/)
 

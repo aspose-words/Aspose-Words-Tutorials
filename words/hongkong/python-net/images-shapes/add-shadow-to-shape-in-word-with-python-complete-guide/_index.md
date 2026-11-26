@@ -247,7 +247,6 @@ shape.shadow_type = aw.ShadowType.OUTER
 
 以下教學涵蓋與本指南緊密相關的主題，並以示範的技術為基礎。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助您精通更多 API 功能，並在專案中探索其他實作方式。
 
-- [Aspose.Words Shape Shadow 教學 – 在 C# 中為 Word 形狀添加陰影](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [使用 Aspose.Words 在 Word 中建立矩形形狀 – 步驟教學](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [使用 Java 建立 Word 文件 – 加入帶陰影的矩形形狀](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 

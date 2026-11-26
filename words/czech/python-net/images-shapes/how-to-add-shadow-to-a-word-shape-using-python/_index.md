@@ -219,7 +219,6 @@ Tyto rozšíření vám umožní vytvořit plnohodnotnou pipeline pro stylován�
 Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
 
 - [Vytvořit Word dokument v Java – Přidat obdélníkový tvar se stínem](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Tutoriál Aspose.Words Shape Shadow – Přidat stín k tvaru ve Wordu v C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Jak uložit Markdown z Wordu – Kompletní průvodce v Pythonu](/words/english/python-net/document-conversion/how-to-save-markdown-from-word-complete-python-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

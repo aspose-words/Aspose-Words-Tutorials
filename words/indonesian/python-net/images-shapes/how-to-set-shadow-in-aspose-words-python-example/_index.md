@@ -261,7 +261,6 @@ Kami telah membahas **
 
 Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber mencakup contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
 
-- [Tutorial Bayangan Bentuk Aspose.Words – Menambahkan Bayangan ke Bentuk Word dalam C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Cara Menerapkan Komentar dan Balasan dalam Dokumen Word menggunakan Aspose.Words untuk Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Cara Mengelola Variabel Dokumen dengan Aspose.Words dalam Python: Panduan Lengkap](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

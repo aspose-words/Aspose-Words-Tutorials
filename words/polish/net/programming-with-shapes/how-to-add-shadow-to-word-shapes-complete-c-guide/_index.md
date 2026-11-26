@@ -220,7 +220,6 @@ Masz pytanie dotyczące konkretnego typu kształtu lub chcesz warunkowo stosowa�
 
 Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z krok po kroku wyjaśnieniami, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
 
-- [Samouczek cienia kształtu Aspose.Words – Dodaj cień do kształtu Word w C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Dodaj treść przy użyciu Document Builder w Aspose.Words dla .NET](/words/english/net/add-content-using-document-builder/)
 - [Dodaj znak wodny tekstowy w dokumencie Word przy użyciu Aspose.Words dla .NET](/words/english/net/working-with-watermark/add-text-watermark/)
 

@@ -245,7 +245,6 @@ Futtasd a szkriptet, nyisd meg a `output.docx`‑et, és láthatod, hogy az alak
 
 Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes működő kódrészleteket tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
 
-- [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#-ban](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Hogyan valósítsunk meg megjegyzéseket és válaszokat Word dokumentumokban az Aspose.Words for Python használatával](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Hogyan kezeljünk dokumentum változókat az Aspose.Words Pythonban: Teljes útmutató](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

@@ -261,7 +261,6 @@ if __name__ == "__main__":
 
 Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс содержит полные рабочие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Учебник по тени фигур Aspose.Words — Добавление тени к фигуре Word на C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Как реализовать комментарии и ответы в документах Word с помощью Aspose.Words для Python](/words/english/python-net/annotations-comments/aspose-words-python-comments-replies/)
 - [Как управлять переменными документа с помощью Aspose.Words в Python: Полное руководство](/words/english/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/)
 

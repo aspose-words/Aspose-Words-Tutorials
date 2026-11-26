@@ -257,7 +257,6 @@ Nếu nút xuất hiện nhưng không thực hiện gì, hãy kiểm tra lại 
 Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, mở rộng các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
 - [Thêm nội dung bằng Document Builder trong Aspose.Words cho .NET](/words/english/net/add-content-using-document-builder/)
-- [Hướng dẫn Shadow cho Shape trong Aspose.Words – Thêm bóng cho Shape trong Word bằng C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 - [Thêm một Section mới vào tài liệu Word | Aspose.Words cho .NET](/words/english/net/document-sections/add-section/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

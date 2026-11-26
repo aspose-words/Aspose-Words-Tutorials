@@ -200,7 +200,6 @@ print(f"Document saved to {output_path}")
 
 - [Word दस्तावेज़ जावा बनाएं – शैडो इफ़ेक्ट के साथ आयताकार आकार जोड़ें](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 - [आयताकार आकार बनाएं, शैडो जोड़ें और PDF सहेजें](/words/english/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/)
-- [Aspose.Words Shape Shadow ट्यूटोरियल – C# में Word आकार में शैडो जोड़ें](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

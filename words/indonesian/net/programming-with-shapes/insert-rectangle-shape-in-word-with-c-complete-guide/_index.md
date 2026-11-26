@@ -221,7 +221,6 @@ Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan d
 
 - [Buat bentuk persegi panjang di Word menggunakan C# – Panduan Langkah‑per‑Langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-using-c-step-by-step-guide/)
 - [Buat bentuk persegi panjang di Word dengan Aspose.Words – Panduan langkah‑per‑langkah](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
-- [Tutorial Bayangan Bentuk Aspose.Words – Tambahkan Bayangan pada Bentuk Word di C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
