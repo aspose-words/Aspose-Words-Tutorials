@@ -88,54 +88,43 @@ class Program
 
 The `Document` class represents the entire Word file. Loading a file gives you a ready canvas for inserting shapes.
 
-## Step 3: Begin a group shape
+## Step 3: Create a group shape and add shapes to it
 
-A *group shape* lets you treat several independent shapes as a single unit—perfect for moving or resizing them together. To start a group, call `StartGroupShape()` on a `DocumentBuilder`.
+A *group shape* lets you treat several independent shapes as a single unit—perfect for moving or resizing them together. To create a group, instantiate a `GroupShape`, add the desired shapes to it, and then insert the group into the document.
 
 ```csharp
-        // Create a builder to edit the document
+        // Create a DocumentBuilder to work with the document
         DocumentBuilder builder = new DocumentBuilder(document);
 
-        // Begin a group shape that will contain multiple shapes
-        builder.StartGroupShape();
+        // Ensure there is a paragraph to host the group shape
+        builder.InsertParagraph();
+
+        // Create a new group shape
+        GroupShape group = new GroupShape(document);
+
+        // Create a rectangle shape (100 pt wide, 50 pt high) and add it to the group
+        Shape rectangle = new Shape(document, ShapeType.Rectangle)
+        {
+            Width = 100,
+            Height = 50
+        };
+        group.AppendChild(rectangle);
+
+        // Create an ellipse shape (80 pt wide, 80 pt high) and add it to the group
+        Shape ellipse = new Shape(document, ShapeType.Ellipse)
+        {
+            Width = 80,
+            Height = 80
+        };
+        group.AppendChild(ellipse);
+
+        // Insert the completed group shape into the document
+        builder.CurrentParagraph.AppendChild(group);
 ```
 
-Calling `StartGroupShape` tells Aspose.Words that every subsequent shape insertion belongs to the same logical group until you call `EndGroupShape`.
+All shapes added to the `GroupShape` share the same coordinate space, making it easy to align them visually. After the group is inserted, Word treats the rectangle and ellipse as a single object.
 
-## Step 4: How to add rectangle shape in Word
-
-Now that the group is open, insert a rectangle. The `InsertShape` method takes a `ShapeType` enum, followed by the width and height (in points).
-
-```csharp
-        // Add a rectangle shape to the group (100 pt wide, 50 pt high)
-        builder.InsertShape(ShapeType.Rectangle, 100, 50);
-```
-
-The rectangle becomes the first member of the group. You can customize its fill, outline, or text later if required.
-
-## Step 5: How to add ellipse shape in Word
-
-Next, add an ellipse (a circle when width equals height). This demonstrates **how to add ellipse** using the same builder.
-
-```csharp
-        // Add an ellipse shape to the same group (80 pt wide, 80 pt high)
-        builder.InsertShape(ShapeType.Ellipse, 80, 80);
-```
-
-Both shapes now share the same coordinate space inside the group, making it easy to align them visually.
-
-## Step 6: Close the group shape definition
-
-When you have added all the desired members, close the group. This finalizes the collection of shapes so Word treats them as one object.
-
-```csharp
-        // End the group shape definition
-        builder.EndGroupShape();
-```
-
-At this point the document contains a single grouped shape consisting of a rectangle and an ellipse.
-
-## Step 7: Save the modified document
+## Step 4: Save the modified document
 
 Finally, write the changes back to disk. You can overwrite the original file or create a new one.
 
@@ -168,22 +157,21 @@ Grouping shapes is more than a visual convenience. It allows you to:
 * **Apply transformations once** – rotate or scale the entire group instead of each shape individually.  
 * **Simplify downstream processing** – when other tools read the DOCX, they see a single composite shape, reducing complexity.
 
-If you ever need to add more shapes (e.g., a line or a text box) to the same logical unit, you only need to call `InsertShape` again before `EndGroupShape`.
+If you need to add additional shapes (e.g., a line or a text box) to the same logical unit, create the shape and call `group.AppendChild(newShape)` before inserting the group into the document.
 
 ## Common variations and edge cases
 
 | Situation | How to handle it |
 |-----------|-----------------|
-| **Different units** – you have measurements in centimeters | Convert centimeters to points (`1 cm ≈ 28.35 pt`) before calling `InsertShape`. |
-| **Adding a text label** – you want a caption inside the group | Insert a `ShapeType.TextBox` after the rectangle and ellipse, then set its `Text` property. |
-| **Applying a fill color** – you need a blue rectangle | After `InsertShape`, retrieve the last shape via `builder.CurrentParagraph.Runs[0].Font` and set `shape.FillColor = System.Drawing.Color.Blue;`. |
+| **Different units** – you have measurements in centimeters | Convert centimeters to points (`1 cm ≈ 28.35 pt`) before setting `Width` and `Height`. |
+| **Adding a text label** – you want a caption inside the group | Create a `Shape` with `ShapeType.TextBox`, set its `Text` property, and append it to the `GroupShape`. |
+| **Applying a fill color** – you need a blue rectangle | After creating the rectangle shape, set `rectangle.FillColor = System.Drawing.Color.Blue;`. |
 | **Using a different document format** – you target `.doc` instead of `.docx` | The same code works; just change the file extension when calling `Save`. Aspose.Words automatically handles the format. |
 
 ## Pro tips
 
-* **Reuse the builder** – you can start and end multiple groups in the same document; just call `StartGroupShape` again after `EndGroupShape`.  
-* **Performance** – batch shape insertion inside a single `StartGroupShape/EndGroupShape` block is faster than inserting shapes individually outside a group.  
-* **Licensing** – an evaluation license adds a watermark on the first page. Install a proper license to remove it in production environments.
+* **Create multiple groups** – you can instantiate a new `GroupShape` each time you need a separate logical unit and insert it wherever required.  
+* **Reuse the builder** – the same `DocumentBuilder` instance can be used to insert many groups throughout the document; simply create a new `GroupShape` for each group.  
 
 ## Conclusion
 
@@ -195,7 +183,7 @@ From here you can explore additional shape types, apply styling, or combine grou
 
 **Next steps**
 
-* Learn how to **rotate grouped shapes**: use `Shape.RotationAngle` after the group is closed.  
+* Learn how to **rotate grouped shapes**: use `group.Rotation = 45;` after the group is created.  
 * Explore **fill and outline customization** for rectangles and ellipses.  
 * Integrate this logic into an ASP.NET Core API to generate reports on demand.  
 
