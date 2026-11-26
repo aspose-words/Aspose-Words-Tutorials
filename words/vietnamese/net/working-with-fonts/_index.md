@@ -75,7 +75,6 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Bật Cảnh Báo Phông Chữ trong Aspose.Words – Hướng Dẫn C# Đầy Đủ](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Tìm hiểu cách bật cảnh báo phông chữ trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước bằng C#. |
 | [Cách tải phông chữ trong .NET – Thiết lập cài đặt phông chữ và cảnh báo](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Tìm hiểu cách tải phông chữ trong .NET, thiết lập cài đặt phông chữ và quản lý cảnh báo với Aspose.Words cho .NET. |
 
-| [Cài đặt phông chữ tùy chỉnh trong C# – Tải Word và Xử lý phông chữ thiếu](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Hướng dẫn cách tải tài liệu Word và xử lý các phông chữ bị thiếu bằng C# và Aspose.Words. |
 | [Cách bắt cảnh báo trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Tìm hiểu cách bắt các cảnh báo trong Aspose.Words bằng .NET với hướng dẫn chi tiết từng bước. |
 | [Lưu tài liệu Word – Phát hiện phông chữ thiếu với Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Tìm hiểu cách lưu tài liệu Word và phát hiện phông chữ thiếu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Tạo callback cảnh báo khi tải tài liệu Word – Hướng dẫn đầy đủ](./create-warning-callback-for-loading-word-documents-complete/) | Hướng dẫn chi tiết cách tạo callback cảnh báo khi tải tài liệu Word bằng Aspose.Words cho .NET. |

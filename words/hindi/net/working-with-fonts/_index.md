@@ -73,7 +73,6 @@
 | [Aspose फ़ॉन्ट प्रतिस्थापन – Word दस्तावेज़ों में लापता फ़ॉन्ट्स का पता लगाएँ](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में लापता फ़ॉन्ट्स का पता लगाने और प्रबंधित करने का तरीका सीखें। |
 
 | [Aspose.Words के साथ C# में लापता फ़ॉन्ट्स को संभालें – पूर्ण गाइड](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में लापता फ़ॉन्ट्स को कैसे संभालें, इस पूर्ण गाइड में सीखें। |
-| [C# में कस्टम फ़ॉन्ट सेटिंग्स – Word लोड करें और गायब फ़ॉन्ट्स को संभालें](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ लोड करना और गायब फ़ॉन्ट्स को संभालना सीखें। |
 | [Aspose.Words में लापता फ़ॉन्ट्स को संभालें – पूर्ण C# गाइड](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Aspose.Words में लापता फ़ॉन्ट्स को पहचानने और संभालने के लिए .NET C# कोड के साथ चरण-दर-चरण मार्गदर्शन। |
 | [Aspose.Words में लापता फ़ॉन्ट्स को संभालने के लिए FontSettings का उपयोग कैसे करें](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | .NET के लिए Aspose.Words में लापता फ़ॉन्ट्स को संभालने हेतु FontSettings सेट करने की चरण-दर-चरण गाइड। |
 | [C# में फ़ॉन्ट का पता कैसे लगाएँ – Aspose.Words के साथ कॉलबैक का उपयोग करें](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aspose.Words के साथ कॉलबैक का उपयोग करके C# में फ़ॉन्ट पहचानने की प्रक्रिया सीखें। |
