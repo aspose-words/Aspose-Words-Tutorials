@@ -92,7 +92,7 @@ Depending on your needs, you might want to customize how the styles are displaye
 ```csharp
 foreach (Style style in styles)
 {
-    if (style.IsBuiltin)
+    if (style.BuiltIn)
     {
         Console.WriteLine("Built-in Style: " + style.Name);
     }
@@ -103,7 +103,7 @@ foreach (Style style in styles)
 }
 ```
 
-In this example, we differentiate between built-in and custom styles by checking the `IsBuiltin` property.
+In this example, we differentiate between built-in and custom styles by checking the `BuiltIn` property.
 
 ## Conclusion
 
@@ -121,7 +121,7 @@ No, Aspose.Words is a standalone library and does not require additional librari
 Yes, you can access and manipulate styles in existing documents as well as newly created ones.
 
 ### How can I filter styles to display only specific types?
-You can filter styles by checking properties such as `IsBuiltin` or using custom logic based on style attributes.
+You can filter styles by checking properties such as `BuiltIn` or using custom logic based on style attributes.
 
 ### Where can I find more resources on Aspose.Words for .NET?
 You can explore more [here](https://reference.aspose.com/words/net/).
@@ -133,6 +133,5 @@ You can explore more [here](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
