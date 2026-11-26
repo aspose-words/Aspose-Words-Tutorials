@@ -167,7 +167,6 @@ Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Téglalap alakzat létrehozása Wordben az Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Csoport alakzat létrehozása Word dokumentumban az Aspose.Words for .NET használatával](/words/english/net/working-with-shapes/add-group-shape/)
-- [Alakzat árnyékának szerkesztése C#-ban az Aspose.Words segítségével – Lépésről‑lépésre útmutató](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -166,7 +166,6 @@ class Program
 
 - [Aspose.Words के साथ Word में आयताकार shape बनाएं – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में समूह shape बनाएं](/words/english/net/working-with-shapes/add-group-shape/)
-- [C# में Aspose.Words के साथ shape शैडो संपादित करना – चरण‑दर‑चरण गाइड](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

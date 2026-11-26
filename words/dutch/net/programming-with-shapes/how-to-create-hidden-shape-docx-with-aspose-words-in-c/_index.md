@@ -166,7 +166,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Maak rechthoekige vorm in Word met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
 - [Maak groepsvorm in Word‑document met Aspose.Words voor .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Hoe vormschaduw te bewerken in C# met Aspose.Words – Stapsgewijze gids](/words/english/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
