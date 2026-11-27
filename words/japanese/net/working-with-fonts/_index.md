@@ -54,7 +54,6 @@
 | [DOCX ファイルの読み込み時に警告を有効にし、欠落フォントを検出する方法](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) Aspose.Words for .NET を使用して、DOCX ファイルの読み込み時に警告を有効にし、欠落フォントを検出する手順を学びます。 |
 | [Aspose.Words で警告を取得する方法 – 完全ガイド](./how-to-capture-warnings-in-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、ドキュメント処理中に発生する警告を取得し、適切に処理する方法をステップバイステップで解説します。 |
 | [警告を取得する方法 – デフォルトフォント設定](./how-to-capture-warnings-set-default-font-settings/) Aspose.Words for .NET を使用して、警告を取得しデフォルトフォント設定を行う方法をステップバイステップで学びます。 |
-| [Aspose.Words でフォントを検出する方法 – 完全ガイド](./how-to-detect-fonts-in-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、フォント検出の完全ガイドをステップバイステップで学びます。 |
 | [Aspose.Words で警告を取得する方法 – 完全な C# ガイド](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、警告通知を取得する完全な C# ガイドをステップバイステップで学びます。 |
 | [Aspose.Words でフォント警告を有効にする – 完全な C# ガイド](./enable-font-warnings-in-aspose-words-complete-c-guide/) Aspose.Words for .NET でフォント警告を有効にし、欠落フォントの問題を検出する方法を学びます。 |
 | [Aspose.Words で置換を検出する方法 – 欠落フォントの処理](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) Aspose.Words for .NET を使用して、フォント置換を検出し、欠落フォントを処理する方法をステップバイステップで学びます。 |
