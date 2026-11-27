@@ -63,7 +63,7 @@ The callback implements `IWarningCallback`. When Aspose.Words encounters a font 
 
 ```csharp
 using System;
-using Aspose.Words.Warnings;
+using Aspose.Words;
 
 /// <summary>
 /// Collects font‑substitution warnings emitted by Aspose.Words.
@@ -92,7 +92,7 @@ class FontWarningCollector : IWarningCallback
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Configure load options with our custom warning handler.
 LoadOptions loadOptions = new LoadOptions
@@ -212,7 +212,7 @@ Now Aspose substitutes missing fonts with *Arial Unicode MS* while still reporti
 
 | Pitfall | Why it Happens | How to Avoid |
 |--------|----------------|--------------|
-| **Forgetting to reference `Aspose.Words.Warnings`** | The `IWarningCallback` interface lives there. | Add `using Aspose.Words.Warnings;` at the top. |
+| **Forgetting to reference `Aspose.Words`** | The `IWarningCallback` interface lives there. | Add `using Aspose.Words;` at the top. |
 | **Loading a document without `LoadOptions`** | The default loader silently substitutes fonts with no notification. | Always create a `LoadOptions` instance and assign your callback. |
 | **Running on a server with limited permissions** | Writing to a log file may throw `UnauthorizedAccessException`. | Use a write‑able folder (e.g., the app’s data directory) or stick to in‑memory collections. |
 | **Multiple threads sharing the same collector** | `FontWarningCollector` isn’t thread‑safe by default. | Create a separate collector per thread or protect the list with a lock. |
@@ -229,8 +229,8 @@ Now Aspose substitutes missing fonts with *Arial Unicode MS* while still reporti
 using System;
 using System.IO;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warnings;
+using Aspose.Words.Loading;
+using Aspose.Words;
 
 class FontWarningCollector : IWarningCallback
 {
