@@ -78,7 +78,7 @@ doc.FontSettings = fontSettings;
 
 ## Step 5: Save the Document
 
-Finally, we'll save the document. You can save it in various formats, but for this tutorial, we'll save it as a PDF.
+ Finally, we'll save the document. You can save it in various formats, but for this tutorial, we'll save it as a PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
@@ -91,13 +91,13 @@ And there you have it! You've successfully set up a True Type Fonts folder for y
 ## FAQ's
 
 ### Can I use multiple font folders?
-Yes, you can use multiple font folders by combining `FontSettings.GetFontSources` and `FontSettings.SetFontSources`.
+Yes, you can use multiple font folders by combining `FontSettings.GetFontsSources` and `FontSettings.SetFontsSources`.
 
 ### What if the specified font folder doesn't exist?
 If the specified font folder doesn't exist, Aspose.Words will not be able to locate the fonts, and the default system fonts will be used instead.
 
 ### Can I revert to the default font settings?
-Yes, you can revert to the default font settings by resetting the `FontSettings` instance.
+Yes, you can revert to the default font settings by calling `fontSettings.ResetFontSources()` or by using `FontSettings.DefaultInstance`.
 
 ### Is it possible to embed fonts in the document?
 Yes, Aspose.Words allows you to embed fonts in the document to ensure consistency across different devices.
@@ -112,6 +112,5 @@ Aspose.Words supports a variety of formats including PDF, DOCX, HTML, and more.
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
