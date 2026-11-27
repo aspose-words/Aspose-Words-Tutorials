@@ -72,18 +72,15 @@ LoadOptions loadOptions = new LoadOptions();
 
 ## Step 2 – Set Up Font Settings and Listen for Substitution Warnings
 
-Missing fonts are the most common nuisance when you **how to handle fonts** in a DOCX. Aspose.Words can automatically substitute them, but you often want to know *which* fonts were swapped. That’s where `FontSettings.SubstitutionWarning` shines.
+Missing fonts are the most common nuisance when you **how to handle fonts** in a DOCX. Aspose.Words can automatically substitute them, but you often want to know *which* fonts were swapped. That’s where the warning callback comes in.
 
 ```csharp
-// Step 2: Configure FontSettings and subscribe to warnings
+// Step 2: Configure FontSettings and set up a warning callback to capture font substitution warnings
 loadOptions.FontSettings = new FontSettings();
 
-// Subscribe to the SubstitutionWarning event
-loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
-{
-    Console.WriteLine(
-        $"Font '{e.FontInfo.FullFontName}' was substituted with '{e.SubstitutedFontInfo.FullFontName}'.");
-};
+// Create a warning collector
+var warningCollector = new WarningInfoCollection();
+loadOptions.WarningCallback = warningCollector;
 ```
 
 ### Customizing the Font Search Path (Optional)
@@ -107,6 +104,16 @@ Now comes the moment of truth: actually loading the file. Because we passed the 
 ```csharp
 // Step 3: Load the document with our custom load options
 Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+
+// After loading, inspect warnings for font substitution events
+foreach (WarningInfo warning in warningCollector)
+{
+    if (warning.WarningType == WarningType.FontSubstitution && warning is FontSubstitutionWarningInfo fsw)
+    {
+        Console.WriteLine(
+            $"Font '{fsw.RequestedFamilyName}' was substituted with '{fsw.ResolvedFont.FullFontName}'.");
+    }
+}
 ```
 
 If any fonts were missing, the console will print messages like:
@@ -142,6 +149,7 @@ using System;
 using System.IO;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words;
 
 class Program
 {
@@ -150,13 +158,10 @@ class Program
         // 1️⃣ Create LoadOptions
         LoadOptions loadOptions = new LoadOptions();
 
-        // 2️⃣ Set up FontSettings and subscribe to warnings
+        // 2️⃣ Set up FontSettings and a warning collector
         loadOptions.FontSettings = new FontSettings();
-        loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
-        {
-            Console.WriteLine(
-                $"Font '{e.FontInfo.FullFontName}' was substituted with '{e.SubstitutedFontInfo.FullFontName}'.");
-        };
+        var warningCollector = new WarningInfoCollection();
+        loadOptions.WarningCallback = warningCollector;
 
         // 👉 Optional: point to a folder with custom fonts
         string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
@@ -166,6 +171,16 @@ class Program
         // 3️⃣ Load the DOCX
         string docPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
         Document doc = new Document(docPath, loadOptions);
+
+        // 3️⃣️⃣ Inspect font substitution warnings
+        foreach (WarningInfo warning in warningCollector)
+        {
+            if (warning.WarningType == WarningType.FontSubstitution && warning is FontSubstitutionWarningInfo fsw)
+            {
+                Console.WriteLine(
+                    $"Font '{fsw.RequestedFamilyName}' was substituted with '{fsw.ResolvedFont.FullFontName}'.");
+            }
+        }
 
         // 4️⃣ Verify by saving as PDF (you can skip this if you only need the Document object)
         string pdfPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
@@ -190,14 +205,21 @@ If no substitution occurs, you’ll see only the final line.
 
 ### What if I want to **prevent** substitution altogether?
 
-You can disable automatic font substitution by clearing the `DefaultFontName` and handling the warning as an error:
+You can abort loading when a font substitution warning is raised by providing a custom `IWarningCallback` that throws:
 
 ```csharp
-loadOptions.FontSettings.SubstitutionWarning += (s, e) =>
+class ThrowOnFontSubstitution : IWarningCallback
 {
-    throw new InvalidOperationException(
-        $"Missing font: {e.FontInfo.FullFontName}. Provide the font or abort.");
-};
+    public void Warning(WarningInfo info)
+    {
+        if (info.WarningType == WarningType.FontSubstitution)
+            throw new InvalidOperationException(
+                $"Missing font: {((FontSubstitutionWarningInfo)info).RequestedFamilyName}. Provide the font or abort.");
+    }
+}
+
+// Use the custom callback
+loadOptions.WarningCallback = new ThrowOnFontSubstitution();
 ```
 
 ### How do I **load word document** from a stream instead of a file path?
@@ -213,21 +235,17 @@ using (FileStream stream = File.OpenRead("input.docx"))
 
 Yes—create a new `FontSettings` instance for each `LoadOptions` you pass. This isolates the configuration per load operation.
 
-### What about **Unicode characters** that aren’t covered by any installed font?
-
-Aspose.Words will fall back to the first font that contains the required glyphs. If none do, the character appears as a missing glyph (often a square). Adding a comprehensive Unicode font (e.g., *Arial Unicode MS*) to your custom folder solves this.
-
 ---
 
 ## Conclusion
 
-We’ve walked through **how to load docx** files in C# using Aspose.Words, shown you how to **detect missing fonts**, and demonstrated ways to **customize font settings** for reliable rendering. By creating `LoadOptions`, wiring up `FontSettings.SubstitutionWarning`, and optionally pointing the engine at your own font folder, you gain full control over the loading process.  
+We’ve walked through **how to load docx** files in C# using Aspose.Words, shown you how to **detect missing fonts**, and demonstrated ways to **customize font settings** for reliable rendering. By creating `LoadOptions`, wiring up a warning collector, and optionally pointing the engine at your own font folder, you gain full control over the loading process.  
 
 Now you can confidently **load word document** assets in any .NET service, web app, or console tool—without worrying about surprise font swaps or broken layouts.
 
 ### What’s Next?
 
-- Explore **font substitution rules** (e.g., `FontSettings.SubstitutionSettings.DefaultFontName`).
+- Explore **font substitution rules** (e.g., `FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName`).
 - Try **embedding fonts** directly into the DOCX before loading.
 - Convert the loaded document to **HTML** or **image** formats while preserving exact typography.
 - Dive into **advanced font fallback** strategies for multilingual documents.
