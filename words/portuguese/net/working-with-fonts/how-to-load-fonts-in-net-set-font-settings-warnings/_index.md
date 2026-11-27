@@ -249,7 +249,6 @@ Os tutoriais a seguir abordam tópicos estreitamente relacionados que ampliam as
 
 - [Definir Pastas de Fontes do Sistema e Pasta Personalizada](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Como Detectar Fontes no Aspose.Words – Tratar Avisos & Configurações](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Como Capturar Fontes no Aspose.Words – Guia Completo](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -247,7 +247,6 @@ A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a j
 
 - [Betűtípus mappák beállítása – rendszer és egyedi mappa](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Hogyan észleljük a betűtípusokat az Aspose.Words‑ben – figyelmeztetések és beállítások kezelése](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Hogyan rögzítsük a betűtípusokat az Aspose.Words‑ben – teljes útmutató](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

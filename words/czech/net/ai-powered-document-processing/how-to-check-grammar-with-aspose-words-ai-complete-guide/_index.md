@@ -252,7 +252,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Jak integrovat AI s Aspose.Words pro Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Jak načíst HTML a uložit jako DOCX pomocí Aspose.Words pro Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Jak zachytit fonty v Aspose.Words – Kompletní průvodce](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

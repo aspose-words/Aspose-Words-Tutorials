@@ -255,7 +255,6 @@ Các hướng dẫn sau đây đề cập đến các chủ đề liên quan ch�
 
 - [Cách Tích Hợp AI với Aspose.Words cho Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Cách Tải HTML và Lưu dưới dạng DOCX bằng Aspose.Words cho Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Cách Ghi Nhận Phông Chữ trong Aspose.Words – Hướng Dẫn Toàn Diện](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

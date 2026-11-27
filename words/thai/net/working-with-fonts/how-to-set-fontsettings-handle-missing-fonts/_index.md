@@ -203,7 +203,6 @@ Document processed and saved successfully.
 
 ## สิ่งที่คุณควรเรียนต่อไป
 
-- [วิธีจับฟอนต์ใน Aspose.Words – คู่มือเต็ม](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [วิธีตรวจจับฟอนต์ใน Aspose.Words – จัดการคำเตือนและการตั้งค่า](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [วิธีโหลด DOCX และตรวจจับฟอนต์ที่หายไป – คู่มือ C# เต็ม](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

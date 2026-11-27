@@ -247,7 +247,6 @@ Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają tech
 
 - [Ustaw foldery czcionek systemowych i własnych](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Jak wykrywać czcionki w Aspose.Words – Obsługa ostrzeżeń i ustawień](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Jak przechwytywać czcionki w Aspose.Words – Kompletny przewodnik](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

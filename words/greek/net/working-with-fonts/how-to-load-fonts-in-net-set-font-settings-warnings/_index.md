@@ -252,7 +252,6 @@ Loaded font sources:
 
 - [Ορισμός Φακέλων Γραμματοσειρών Συστήματος Και Προσαρμοσμένου Φακέλου](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Πώς να Εντοπίσετε Γραμματοσειρές στο Aspose.Words – Διαχείριση Προειδοποιήσεων & Ρυθμίσεων](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Πώς να Συλλέξετε Γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

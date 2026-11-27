@@ -247,7 +247,6 @@ Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Le
 
 - [Schriftordner festlegen: System‑ und benutzerdefinierter Ordner](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Wie man Schriftarten in Aspose.Words erkennt – Warnungen & Einstellungen behandeln](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Wie man Schriftarten in Aspose.Words erfasst – Vollständiger Leitfaden](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

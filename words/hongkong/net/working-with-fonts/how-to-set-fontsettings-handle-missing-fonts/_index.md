@@ -201,7 +201,6 @@ Document processed and saved successfully.
 
 ## 接下來該學什麼？
 
-- [如何在 Aspose.Words 中擷取字型 – 完整指南](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [如何在 Aspose.Words 中偵測字型 – 處理警告與設定](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [如何載入 DOCX 並偵測缺失字型 – 完整 C# 教學](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

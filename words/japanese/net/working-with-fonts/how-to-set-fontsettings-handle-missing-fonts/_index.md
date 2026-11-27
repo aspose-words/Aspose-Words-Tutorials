@@ -201,7 +201,6 @@ Document processed and saved successfully.
 
 ## 次に学ぶべきことは？
 
-- [Aspose.Words でフォントを取得する方法 – 完全ガイド](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Aspose.Words でフォントを検出する方法 – 警告と設定の処理](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [DOCX を読み込み欠落フォントを検出する方法 – 完全 C# ガイド](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

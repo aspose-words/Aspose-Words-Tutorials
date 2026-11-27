@@ -245,7 +245,6 @@ Loaded font sources:
 
 - [设置系统和自定义字体文件夹](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [如何在 Aspose.Words 中检测字体 – 处理警告与设置](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [如何在 Aspose.Words 中捕获字体 – 完整指南](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

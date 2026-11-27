@@ -205,7 +205,6 @@ Des questions sur des cas limites, comme la gestion des scripts de droite à gau
 
 ## Que devriez‑vous apprendre ensuite ?
 
-- [Comment capturer les polices dans Aspose.Words – Guide complet](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Comment détecter les polices dans Aspose.Words – Gérer les avertissements et les paramètres](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [Comment charger un DOCX et détecter les polices manquantes – Guide complet C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

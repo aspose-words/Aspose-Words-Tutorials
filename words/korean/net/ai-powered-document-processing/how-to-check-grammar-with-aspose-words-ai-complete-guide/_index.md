@@ -252,7 +252,6 @@ Issues found: 3 (processed in 1.42s)
 
 - [Aspose.Words for Java와 AI 통합 방법 – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Aspose.Words for Java를 사용하여 HTML 로드 및 DOCX 저장 방법](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Aspose.Words에서 폰트 캡처하기 – 완전 가이드](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
