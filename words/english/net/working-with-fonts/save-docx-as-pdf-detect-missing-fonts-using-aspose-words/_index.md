@@ -89,7 +89,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // We only care about font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             // This line prints the missing‑font details to the console.
             Console.WriteLine($"Font substitution: {info.Description}");
@@ -155,7 +155,7 @@ namespace WordToPdfWithFontTracking
     {
         public void Warning(WarningInfo info)
         {
-            if (info.Type == WarningType.FontSubstitution)
+            if (info.WarningType == WarningType.FontSubstitution)
             {
                 Console.WriteLine($"Font substitution: {info.Description}");
             }
@@ -187,7 +187,6 @@ namespace WordToPdfWithFontTracking
 
 - **Pro tip:** Register a `FontSettings` object with a fallback font (e.g., `Arial`) to guarantee a deterministic substitution result.  
 - **Watch out for:** If you forget to set `doc.WarningCallback` *before* `Save`, the substitution events are lost—no tracking, no logs.  
-- **Performance note:** The callback adds negligible overhead; the bottleneck remains the PDF rasterizer, not the warning system.  
 - **License reminder:** The free evaluation version stamps a watermark on each PDF. Make sure your license is applied, or you’ll see “Aspose.Words Evaluation” on the first page.
 
 ---
