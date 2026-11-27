@@ -243,7 +243,6 @@ Loaded font sources:
 
 - [設定字型資料夾（系統與自訂資料夾}](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [如何在 Aspose.Words 中偵測字型 – 處理警告與設定](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [如何在 Aspose.Words 中捕獲字型 – 完整指南](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

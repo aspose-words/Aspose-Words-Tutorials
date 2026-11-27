@@ -251,7 +251,6 @@ Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient s
 
 - [Définir les dossiers de polices système et personnalisé](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Comment détecter les polices dans Aspose.Words – Gérer les avertissements & paramètres](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Comment capturer les polices dans Aspose.Words – Guide complet](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

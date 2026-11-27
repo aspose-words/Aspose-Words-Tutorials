@@ -61,7 +61,6 @@
 | [如何偵測 Aspose.Words 中的字體 – 完整指南](./how-to-detect-fonts-in-aspose-words-complete-guide/) |了解如何在 Aspose.Words for .NET 中完整偵測字體，提供逐步指導，確保文件字體正確顯示。 |
 | [如何偵測 Aspose.Words 中的字體替代 – 處理缺失字型](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) |了解如何在 Aspose.Words for .NET 中偵測字體替代並處理缺失的字型。 |
 | [如何設定 FontSettings – 處理缺少字體](./how-to-set-fontsettings-handle-missing-fonts/) |了解如何使用 Aspose.Words for .NET 設定 FontSettings 以偵測並處理缺失的字體。 |
-| [如何在 Aspose.Words 中捕獲字體 – 完整指南](./how-to-capture-fonts-in-aspose-words-complete-guide/) |了解如何使用 Aspose.Words for .NET 捕獲字體，完整步驟指導，確保文檔字體正確呈現。 |
 | [如何載入 DOCX 並偵測缺失字型 – 完整 C# 指南](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) |本教學示範如何使用 Aspose.Words for .NET 載入 DOCX 並檢測遺失的字型。 |
 | [C# 載入 Word 文件 – 偵測與處理缺少的字體](./c-load-word-document-detect-handle-missing-fonts/) |了解如何使用 Aspose.Words for .NET 在載入 Word 文件時偵測缺失字體並進行相應處理。 |
 | [記錄字體替換警告 – 完整 Aspose.Words 指南](./log-font-substitution-warnings-complete-aspose-words-guide/) |了解如何使用 Aspose.Words for .NET 記錄字體替換警告，以便在文件處理過程中捕獲相關資訊。 |

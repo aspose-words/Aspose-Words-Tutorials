@@ -56,7 +56,6 @@
 | [获取不带后缀的替换](./get-substitution-without-suffixes/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中获取无后缀覆盖。|
 | [在 C# 中设置警告回调 – 完整的字体处理指南](./set-warning-callback-in-c-complete-guide-to-font-handling/) 了解如何在 Aspose.Words for .NET 中使用 C# 设置字体处理的警告回调，以捕获并处理字体相关警告。|
 | [如何在 C# 中加载 DOCX – 完整指南](./how-to-load-docx-in-c-complete-guide/) 通过本完整指南学习如何在 C# 中使用 Aspose.Words for .NET 加载 DOCX 文档。|
-| [如何在 Aspose.Words 中捕获字体 – 完整指南](./how-to-capture-fonts-in-aspose-words-complete-guide/) 通过本完整指南学习如何在 Aspose.Words 中捕获字体，确保文档字体完整并避免缺失。|
 | [如何加载 DOCX 并检测缺失字体 – 完整 C# 指南](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) 通过本完整的 C# 示例学习如何加载 DOCX 文档并检测缺失的字体，确保文档渲染一致。|
 | [加载 DOCX 文件时启用警告并检测缺失字体](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) 了解如何在使用 Aspose.Words for .NET 加载 DOCX 文件时启用警告并检测缺失的字体。|
 | [如何检测 Word 文档中的字体 – 完整 C# 指南](./how-to-detect-fonts-in-word-documents-complete-c-guide/) 通过完整的 C# 指南了解如何在 Word 文档中检测使用的字体。|

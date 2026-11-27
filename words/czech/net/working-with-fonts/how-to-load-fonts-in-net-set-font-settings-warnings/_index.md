@@ -248,7 +248,6 @@ Následující tutoriály pokrývají úzce související témata, která staví
 
 - [Nastavit složky písem – systémová a vlastní](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Jak detekovat písma v Aspose.Words – zpracovat varování a nastavení](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Jak zachytit písma v Aspose.Words – kompletní průvodce](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

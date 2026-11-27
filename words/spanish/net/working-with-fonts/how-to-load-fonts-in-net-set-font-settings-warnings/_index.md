@@ -249,7 +249,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Configurar carpetas de fuentes del sistema y carpeta personalizada](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Cómo detectar fuentes en Aspose.Words – Manejar advertencias y configuraciones](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Cómo capturar fuentes en Aspose.Words – Guía completa](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -204,7 +204,6 @@ Har du frågor om kantfall, som att hantera höger‑till‑vänster‑skript el
 
 ## Vad bör du lära dig härnäst?
 
-- [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Hur man upptäcker teckensnitt i Aspose.Words – Hantera varningar & inställningar](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#‑guide](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

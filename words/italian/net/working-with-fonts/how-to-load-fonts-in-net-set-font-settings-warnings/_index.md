@@ -251,7 +251,6 @@ I tutorial seguenti trattano argomenti strettamente correlati che si basano sull
 
 - [Impostare le Cartelle dei Font di Sistema e Personalizzate](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Come Rilevare i Font in Aspose.Words – Gestire Avvisi e Impostazioni](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Come Catturare i Font in Aspose.Words – Guida Completa](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

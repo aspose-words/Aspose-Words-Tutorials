@@ -252,7 +252,6 @@ Följande handledningar täcker närliggande ämnen som bygger på teknikerna so
 
 - [Hur man integrerar AI med Aspose.Words för Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Hur man laddar HTML och sparar som DOCX med Aspose.Words för Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

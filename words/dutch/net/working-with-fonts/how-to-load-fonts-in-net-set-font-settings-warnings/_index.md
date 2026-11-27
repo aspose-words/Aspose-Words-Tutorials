@@ -247,7 +247,6 @@ De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de
 
 - [Lettertype‑mappen instellen: systeem‑ en aangepaste map](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Hoe lettertypen te detecteren in Aspose.Words – Waarschuwingen & Instellingen afhandelen](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Hoe lettertypen vast te leggen in Aspose.Words – Complete gids](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

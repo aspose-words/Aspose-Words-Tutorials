@@ -254,7 +254,6 @@ Issues found: 3 (processed in 1.42s)
 
 - [Как интегрировать AI с Aspose.Words для Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Как загрузить HTML и сохранить как DOCX с помощью Aspose.Words для Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Как захватить шрифты в Aspose.Words – Полное руководство](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

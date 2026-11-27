@@ -204,7 +204,6 @@ Heb je vragen over edge‑cases, zoals het afhandelen van rechts‑naar‑links 
 
 ## Wat moet je hierna leren?
 
-- [Hoe lettertypen vast te leggen in Aspose.Words – Complete gids](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Hoe lettertypen te detecteren in Aspose.Words – Waarschuwingen & instellingen afhandelen](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [Hoe DOCX te laden en ontbrekende lettertypen te detecteren – Complete C#‑gids](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

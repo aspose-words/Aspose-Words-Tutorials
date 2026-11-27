@@ -250,7 +250,6 @@ Issues found: 3 (processed in 1.42s)
 
 - [如何在 Java 中将 AI 与 Aspose.Words 集成 – AI 与机器学习](/words/english/java/ai-machine-learning-integration/)
 - [如何在 Java 中加载 HTML 并保存为 DOCX](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [如何在 Aspose.Words 中捕获字体 – 完整指南](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

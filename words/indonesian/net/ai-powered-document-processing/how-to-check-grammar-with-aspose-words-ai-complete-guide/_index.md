@@ -236,7 +236,6 @@ Tutorial berikut mencakup topik terkait erat yang membangun teknik yang ditunjuk
 
 - [Cara Mengintegrasikan AI dengan Aspose.Words untuk Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Cara Memuat HTML dan Menyimpan sebagai DOCX menggunakan Aspose.Words untuk Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
