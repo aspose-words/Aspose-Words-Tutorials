@@ -46,7 +46,7 @@ Ready? Let’s dive in.
 
 ![c# load word document missing fonts detection](https://example.com/placeholder.png "c# load word document – detect missing fonts")
 
-## Step 1: set up loadOptions for font substitution warnings
+## Step 1: set up LoadOptions for font substitution warnings
 
 When you **c# load word document**, Aspose.Words uses its internal font‑settings engine. By default it silently substitutes missing fonts, which can hide problems. To make the engine speak up, we create a `LoadOptions` instance and attach a `FontSettings` object.
 
@@ -66,20 +66,16 @@ Without this configuration the library silently swaps a missing font with a gene
 
 ## Step 2: register a warning handler to detect missing fonts
 
-Aspose.Words fires a warning event whenever it can’t locate a requested typeface. By wiring up a handler we can capture the exact name of the missing font and decide what to do next.
+Aspose.Words reports font‑substitution issues through its warning callback. By assigning a `WarningInfoCollection` to `LoadOptions.WarningCallback` we can capture all warnings that occur during loading and filter out the font‑substitution ones.
 
 ```csharp
-// Register a warning handler to report missing fonts
-loadOptions.FontSettings.SubstitutionSettings.WarningHandler = (sender, args) =>
-{
-    // args.FontInfo may be null for some warnings, so we guard against it
-    string missingFont = args.FontInfo?.FullFontName ?? "Unknown Font";
-    Console.WriteLine($"[Font warning] Missing: {missingFont}");
-};
+// Prepare a collection to receive warnings
+var warnings = new Aspose.Words.WarningInfoCollection();
+loadOptions.WarningCallback = warnings;
 ```
 
 **Pro tip:**  
-If you plan to run this in a web service, replace `Console.WriteLine` with a proper logging framework (Serilog, NLog, etc.). That way you keep a permanent record of which fonts are absent on the server.
+If you plan to run this in a web service, replace the console output later with a proper logging framework (Serilog, NLog, etc.). That way you keep a permanent record of which fonts are absent on the server.
 
 ## Step 3: load the document using the configured options
 
@@ -89,9 +85,18 @@ Now that the warning infrastructure is in place, we finally **c# load word docum
 // Load the document using the configured options
 string inputPath = @"C:\Docs\input.docx"; // adjust to your file location
 Document document = new Document(inputPath, loadOptions);
+
+// After loading, iterate the collected warnings and report missing fonts
+foreach (Aspose.Words.WarningInfo warning in warnings)
+{
+    if (warning.WarningType == Aspose.Words.WarningType.FontSubstitution)
+    {
+        Console.WriteLine($"[Font warning] Missing: {warning.Description}");
+    }
+}
 ```
 
-If any font is missing, the warning handler from Step 2 will fire *before* the document is fully loaded, giving you a complete list of absent typefaces.
+If any font is missing, the loop above will print a line for each substitution warning, giving you a complete list of absent typefaces.
 
 ## Step 4: verify the output – what to expect
 
@@ -113,7 +118,7 @@ Sometimes you want the document to keep a consistent look even when the original
 
 ```csharp
 // Map any missing font to Arial as a fallback
-loadOptions.FontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
 Add this line *before* you load the document. Now, whenever a font can’t be found, Aspose.Words will automatically substitute it with Arial, and you’ll still get the warning from Step 2. This approach **handles missing fonts** without breaking the layout.
@@ -126,6 +131,7 @@ Below is the complete program you can copy‑paste into a new console app. It in
 using System;
 using Aspose.Words;
 using Aspose.Words.Fonts;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -142,22 +148,28 @@ class Program
         // -------------------------------------------------
         // Step 2: Hook into the warning system to detect missing fonts
         // -------------------------------------------------
-        loadOptions.FontSettings.SubstitutionSettings.WarningHandler = (sender, args) =>
-        {
-            string missingFont = args.FontInfo?.FullFontName ?? "Unknown Font";
-            Console.WriteLine($"[Font warning] Missing: {missingFont}");
-        };
+        var warnings = new WarningInfoCollection();
+        loadOptions.WarningCallback = warnings;
 
         // -------------------------------------------------
         // Optional: Define a fallback font (handles missing fonts)
         // -------------------------------------------------
-        loadOptions.FontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+        loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 
         // -------------------------------------------------
         // Step 3: Load the Word file while using the options above
         // -------------------------------------------------
         string inputPath = @"C:\Docs\input.docx"; // change to your file path
         Document doc = new Document(inputPath, loadOptions);
+
+        // -------------------------------------------------
+        // Step 3b: Report any font‑substitution warnings
+        // -------------------------------------------------
+        foreach (WarningInfo warning in warnings)
+        {
+            if (warning.WarningType == WarningType.FontSubstitution)
+                Console.WriteLine($"[Font warning] Missing: {warning.Description}");
+        }
 
         // -------------------------------------------------
         // Step 4: Save as PDF to verify everything works
@@ -171,7 +183,7 @@ class Program
 
 **What this does:**  
 1. Sets up `LoadOptions` to surface font‑substitution warnings.  
-2. Registers a handler that prints each missing font name.  
+2. Registers a collection that captures each warning and prints missing font names.  
 3. (Optionally) forces any unknown font to fall back to Arial.  
 4. Loads the Word file, logs any missing fonts, and finally saves the result as PDF.
 
@@ -179,21 +191,18 @@ Run the program, and you’ll see the warning messages followed by “Document s
 
 ## Common questions & edge cases
 
-- **What if `args.FontInfo` is null?**  
-  Certain warnings (e.g., when the font file is corrupted) may not provide a `FontInfo`. Our handler guards against this by using “Unknown Font” as a fallback.
+- **What if `warning.Description` is not a font name?**  
+  The warning collection may contain other types of warnings. The example filters by `WarningType.FontSubstitution` to ensure only font‑related messages are displayed.
 
 - **Does this work with .doc files?**  
   Yes. The same `LoadOptions` can be used for *.doc, *.docx, *.rtf, and even OpenOffice formats. Just change the file extension in `inputPath`.
 
 - **Can I suppress warnings for specific fonts?**  
-  You can add conditional logic inside the warning handler to ignore fonts you know are intentionally missing.
-
-- **Is there a performance hit?**  
-  The overhead is minimal—Aspose.Words still needs to scan the document’s font table. The warning handler runs synchronously, so it won’t noticeably slow down a typical load operation.
+  You can add conditional logic inside the warning‑processing loop to ignore fonts you know are intentionally missing.
 
 ## Conclusion
 
-We’ve covered everything you need to **c# load word document** while **detect missing fonts** and **handle missing fonts** in a clean, production‑ready way. By configuring `LoadOptions`, registering a warning handler, and optionally providing a fallback font, you gain full visibility into font issues and keep your documents looking professional regardless of the environment.
+We’ve covered everything you need to **c# load word document** while **detect missing fonts** and **handle missing fonts** in a clean, production‑ready way. By configuring `LoadOptions`, registering a warning callback, and optionally providing a fallback font, you gain full visibility into font issues and keep your documents looking professional regardless of the environment.
 
 Next steps you might explore:
 
