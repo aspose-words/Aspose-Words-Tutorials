@@ -73,7 +73,6 @@
 | [Πώς να εκτελέσετε αντικατάσταση γραμματοσειράς σε έγγραφο με C#](./how-to-perform-font-substitution-in-document-with-c/) |  |
 | [Πώς να ορίσετε FontSettings – Διαχείριση ελλιπών γραμματοσειρών](./how-to-set-fontsettings-handle-missing-fonts/) | Μάθετε πώς να ρυθμίσετε FontSettings για να αντιμετωπίζετε ελλιπείς γραμματοσειρές σε έγγραφα Word με Aspose.Words για .NET. |
 | [Πώς να χρησιμοποιήσετε το IWarningCallback – Εντοπισμός ελλιπών γραμματοσειρών με το Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Μάθετε πώς να χρησιμοποιείτε το IWarningCallback για να εντοπίζετε ελλείπουσες γραμματοσειρές σε έγγραφα Word με το Aspose.Words για .NET. |
-| [Πώς να φορτώσετε γραμματοσειρές σε .NET – Ορισμός ρυθμίσεων γραμματοσειράς & προειδοποιήσεων](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Μάθετε πώς να φορτώνετε γραμματοσειρές σε .NET, να ορίζετε ρυθμίσεις γραμματοσειράς και να διαχειρίζεστε προειδοποιήσεις με το Aspose.Words για .NET. |
 | [Αποθήκευση docx ως pdf & ανίχνευση ελλιπών γραμματοσειρών χρησιμοποιώντας το Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως pdf και να εντοπίζετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

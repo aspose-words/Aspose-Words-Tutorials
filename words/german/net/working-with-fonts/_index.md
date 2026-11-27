@@ -73,7 +73,6 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Warnungs-Callback für das Laden von Word-Dokumenten erstellen – Komplettanleitung](./create-warning-callback-for-loading-word-documents-complete/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen Warnungs-Callback beim Laden von Word-Dokumenten implementieren. |
 | [Schriftartenersetzung in Aspose.Words – Vollständige Programmieranleitung](./handle-font-substitution-in-aspose-words-complete-programmin/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie die Schriftartenersetzung in Aspose.Words für .NET verwalten. |
 | [Wie man IWarningCallback verwendet – Fehlende Schriftarten mit Aspose.Words erkennt](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET IWarningCallback implementieren, um fehlende Schriftarten zu erkennen. |
-| [Wie man Schriftarten in .NET lädt – Schriftarteinstellungen & Warnungen festlegen](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Erfahren Sie, wie Sie in Aspose.Words für .NET Schriftarten laden, Einstellungen festlegen und Warnungen verwalten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

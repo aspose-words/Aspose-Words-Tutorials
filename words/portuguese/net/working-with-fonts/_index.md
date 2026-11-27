@@ -73,7 +73,6 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Habilitar avisos de fontes no Aspose.Words – Guia completo em C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Aprenda a habilitar avisos de fontes ausentes ou substituídas no Aspose.Words para .NET usando C# passo a passo. |
 | [Como definir FontSettings – lidar com fontes ausentes](./how-to-set-fontsettings-handle-missing-fonts/) | Aprenda a definir FontSettings e lidar com fontes ausentes ao usar Aspose.Words para .NET. |
 | [Como usar IWarningCallback – Detectar fontes ausentes com Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Aprenda a usar IWarningCallback para detectar fontes ausentes ao processar documentos Word com Aspose.Words para .NET. |
-| [Como carregar fontes no .NET – Definir configurações de fonte e avisos](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Aprenda a carregar fontes no .NET, configurar opções de fontes e habilitar avisos usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,7 +90,6 @@ doc.Save("Output.docx");
 | [Aspose Font Substitution: Detect Missing Fonts in Word Docs](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Learn how to detect missing fonts in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
-| [How to Load Fonts in .NET – Set Font Settings & Warnings](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Learn how to load fonts in .NET, configure font settings, and handle warnings using Aspose.Words for .NET. |
 | [Save docx as pdf & detect missing fonts using Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Learn how to save a DOCX as PDF and detect missing fonts using Aspose.Words for .NET in this step-by-step guide. |
 
 
