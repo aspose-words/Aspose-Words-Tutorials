@@ -12,7 +12,6 @@ keywords:
 - C# LoadOptions
 - legacy font replacement
 - document encoding for Chinese
-- Docx loading C#
 language: en
 lastmod: 2026-10-13
 og_description: Font substitution in document is essential when working with legacy
@@ -125,18 +124,22 @@ Many older Chinese documents reference `MingLiU-ExtB`, which may not be present 
 
 ```csharp
 // Step 4: Perform font substitution in document.
-doc.FontInfos.Substitution.Add("MingLiU-ExtB", "Microsoft JhengHei");
+doc.FontSettings = new FontSettings(); // Ensure FontSettings is initialized.
+
+// Register a substitution rule: replace MingLiU-ExtB with Microsoft JhengHei.
+doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes(
+    "MingLiU-ExtB", "Microsoft JhengHei");
 
 // Optional: Verify that the substitution succeeded.
 foreach (FontInfo fontInfo in doc.FontInfos)
 {
-    Console.WriteLine($"Original: {fontInfo.FontFamilyName}, Substituted: {fontInfo.SubstitutedFontFamilyName}");
+    Console.WriteLine($"Font name: {fontInfo.Name}");
 }
 ```
 
 **Explanation:**  
-* `FontInfos.Substitution.Add(oldFont, newFont)` registers a global replacement rule. Every time Aspose.Words encounters `MingLiU-ExtB`, it swaps it for `Microsoft JhengHei`.  
-* The optional loop prints the mapping, which is useful for debugging in large documents with multiple font families.
+* `FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes` registers a global replacement rule. Every time Aspose.Words encounters `MingLiU-ExtB`, it swaps it for `Microsoft JhengHei`.  
+* The optional loop prints each font name found in the document, which is useful for debugging in large documents with multiple font families.
 
 ## Step 5: Save the processed document
 
@@ -156,9 +159,8 @@ Open the resulting file in Microsoft Word or any DOCX viewer; you should see the
 
 | Situation | Recommended approach |
 |-----------|----------------------|
-| **The source font is not listed in the document** | Use `doc.FontInfos.Substitution.Add` with a wildcard pattern, e.g., `doc.FontInfos.Substitution.Add("*MingLiU*", "Microsoft JhengHei")`. |
-| **Multiple legacy fonts need replacement** | Call `Add` for each pair, or load a substitution dictionary from a configuration file. |
-| **The target font is unavailable on the target machine** | Choose a font that ships with Windows (e.g., `Arial Unicode MS`) or embed the font using `doc.FontInfos.EmbeddingMode = FontEmbeddingMode.EmbedAll`. |
+| **Multiple legacy fonts need replacement** | Call `AddSubstitutes` for each pair, or load a substitution dictionary from a configuration file. |
+| **The target font is unavailable on the target machine** | Choose a font that ships with Windows (e.g., `Arial Unicode MS`). |
 | **Encoding errors still appear** | Verify the source file truly uses **big5**; you can inspect the file with a hex editor or use `File.ReadAllBytes` and compare byte patterns. |
 
 ## Full working example
@@ -192,13 +194,15 @@ namespace FontSubstitutionDemo
             string inputPath = @"C:\Docs\big5_doc.docx";
             Document doc = new Document(inputPath, loadOptions);
 
-            // 3️⃣ Substitute MingLiU-ExtB with Microsoft JhengHei.
-            doc.FontInfos.Substitution.Add("MingLiU-ExtB", "Microsoft JhengHei");
+            // 3️⃣ Initialize FontSettings and substitute MingLiU-ExtB with Microsoft JhengHei.
+            doc.FontSettings = new FontSettings();
+            doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes(
+                "MingLiU-ExtB", "Microsoft JhengHei");
 
-            // 4️⃣ (Optional) Log substitution details for verification.
+            // 4️⃣ (Optional) Log font names for verification.
             foreach (FontInfo fontInfo in doc.FontInfos)
             {
-                Console.WriteLine($"Original: {fontInfo.FontFamilyName}, Substituted: {fontInfo.SubstitutedFontFamilyName}");
+                Console.WriteLine($"Font name: {fontInfo.Name}");
             }
 
             // 5️⃣ Save the corrected document.
