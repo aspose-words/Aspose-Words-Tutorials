@@ -206,7 +206,6 @@ Van kérdésed a szélsőséges esetekkel kapcsolatban, például jobbról balra
 ## Mit érdemes még megtanulni?
 
 - [Hogyan észleljük a betűkészleteket az Aspose.Words-ban – Figyelmeztetések és beállítások kezelése](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Hogyan töltsünk be DOCX-et és észleljük a hiányzó betűkészleteket – Teljes C# útmutató](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

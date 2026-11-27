@@ -202,7 +202,6 @@ Hãy thử trong dự án của bạn—không còn văn bản rối rắm bí �
 
 Các tutorial sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với các giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-- [Cách Tải DOCX và Phát Hiện Phông Chữ Thiếu – Hướng Dẫn C# Đầy Đủ](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Cách Phát Hiện Phông Chữ trong Aspose.Words – Xử Lý Cảnh Báo & Cài Đặt](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

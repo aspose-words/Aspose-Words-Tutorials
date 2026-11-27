@@ -239,7 +239,6 @@ Con este conocimiento puedes proteger tus pipelines de procesamiento de document
 
 - [Capturar Advertencias de Sustitución de Fuentes en Java con Aspose.Words – Guía Completa](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Callback de Advertencia en Documento Word](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [Cómo Cargar DOCX y Detectar Fuentes Faltantes – Guía Completa en C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

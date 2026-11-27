@@ -298,7 +298,6 @@ Provalo, modifica i prompt e guarda i tuoi documenti diventare privi di errori c
 I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
 
 - [Aspose Load Options – Carica DOCX con Impostazioni Font Personalizzate](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
-- [Come Caricare DOCX e Rilevare Font Mancanti – Guida Completa C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Converti File Docx in Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

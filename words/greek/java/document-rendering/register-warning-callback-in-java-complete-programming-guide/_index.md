@@ -233,7 +233,6 @@ Document loaded and saved successfully.
 
 - [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειρών σε Java με Aspose.Words – Πλήρης Οδηγός](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Callback Προειδοποίησης σε Έγγραφο Word](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [Πώς να Φορτώσετε DOCX και να Ανιχνεύσετε Ελλιπείς Γραμματοσειρές – Πλήρης Οδηγός C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

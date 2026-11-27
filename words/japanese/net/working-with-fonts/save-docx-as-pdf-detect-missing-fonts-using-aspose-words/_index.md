@@ -202,7 +202,6 @@ Happy coding, and may your PDFs always render with the fonts you intended!
 
 以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックを扱っています。各リソースには完全な動作コード例とステップバイステップの解説が含まれており、追加の API 機能を習得し、プロジェクトで代替実装アプローチを探求するのに役立ちます。
 
-- [DOCX の読み込みと欠落フォントの検出 – 完全な C# ガイド](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [PDF を Word 形式（Docx）に保存](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
