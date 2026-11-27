@@ -206,7 +206,6 @@ Happy coding, and may your PDFs always render with the fonts you intended!
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe DOCX te laden en ontbrekende lettertypen te detecteren – Complete C#‑gids](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [PDF opslaan naar Word‑formaat (Docx)](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

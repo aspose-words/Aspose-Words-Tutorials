@@ -204,7 +204,6 @@ Lycka till med kodandet, och må dina PDF‑filer alltid renderas med de teckens
 
 Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna som demonstrerats i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
 
-- [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#‑guide](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Spara PDF till Word‑format (Docx)](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

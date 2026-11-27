@@ -204,7 +204,6 @@ namespace WordToPdfWithFontTracking
 
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-- [كيفية تحميل DOCX واكتشاف الخطوط المفقودة – دليل C# كامل](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [حفظ PDF إلى صيغة Word (Docx)](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

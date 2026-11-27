@@ -239,7 +239,6 @@ Viel Spaß beim Coden, und mögen Ihre PDFs stets exakt wie beabsichtigt gerende
 
 - [Font‑Substitutionswarnungen in Java mit Aspose.Words erfassen – Vollständige Anleitung](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Warnungs‑Callback in Word‑Dokumenten](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [DOCX laden und fehlende Schriftarten erkennen – Vollständige C#‑Anleitung](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

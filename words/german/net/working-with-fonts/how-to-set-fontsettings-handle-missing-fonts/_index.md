@@ -206,7 +206,6 @@ Haben Sie Fragen zu Sonderfällen, z. B. zur Handhabung von Rechts‑nach‑Li
 ## Was sollten Sie als Nächstes lernen?
 
 - [Wie man Schriften in Aspose.Words erkennt – Warnungen & Einstellungen behandeln](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Wie man DOCX lädt und fehlende Schriften erkennt – Vollständiger C#‑Leitfaden](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -206,7 +206,6 @@ Document processed and saved successfully.
 ## Τι πρέπει να μάθετε στη συνέχεια;
 
 - [Πώς να εντοπίσετε τις γραμματοσειρές στο Aspose.Words – Διαχείριση Προειδοποιήσεων & Ρυθμίσεων](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Πώς να φορτώσετε DOCX και να εντοπίσετε ελλειπούσες γραμματοσειρές – Πλήρης Οδηγός C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
