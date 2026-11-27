@@ -70,7 +70,7 @@ Now comes the crucial part—setting the fonts folders. This is where you specif
 fontSettings.SetFontsFolders(new[] { @"C:\MyFonts\", @"D:\Misc\Fonts\" }, true);
 ```
 
-The second parameter (`true`) indicates that these folders will override any default font sources. If you want to keep the system font sources as well, you can use a combination of `GetFontSources` and `SetFontSources`.
+If you want to keep the system font sources as well, you can retrieve the existing sources with `GetFontsSources`, combine them with a new `FolderFontSource`, and then apply the combined array using `SetFontsSources`.
 
 ## Step 4: Apply Font Settings to Document
 
@@ -99,14 +99,8 @@ Managing fonts in your documents can seem like a daunting task, but with Aspose.
 ### Can I use network paths for font folders?
 Yes, you can use network paths for your font folders. Just ensure the paths are accessible from your application.
 
-### What happens if a font is missing in the specified folders?
-If a font is missing, Aspose.Words will fall back to the default font specified or use a substitute font.
-
 ### Can I add font folders without overriding system fonts?
-Absolutely! Use `FontSettings.GetFontSources` to retrieve existing sources and combine them with your custom folders using `FontSettings.SetFontSources`.
-
-### Is there a limit to the number of font folders I can add?
-There’s no strict limit to the number of font folders. However, be mindful of performance, as more folders may increase font loading times.
+Absolutely! Retrieve the existing sources with `GetFontsSources`, combine them with your custom `FolderFontSource` instances, and set the combined array using `SetFontsSources`.
 
 ### How can I check which fonts are being used in my document?
 You can use the `FontSettings.GetFontsSources` method to retrieve and inspect the font sources currently set for your document.
