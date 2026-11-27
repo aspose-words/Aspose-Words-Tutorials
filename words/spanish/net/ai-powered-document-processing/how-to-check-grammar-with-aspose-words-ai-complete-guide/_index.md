@@ -236,7 +236,6 @@ Los siguientes tutoriales cubren temas estrechamente relacionados que amplían l
 
 - [Cómo integrar IA con Aspose.Words para Java – IA y ML](/words/english/java/ai-machine-learning-integration/)
 - [Cómo cargar HTML y guardar como DOCX usando Aspose.Words para Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Cómo capturar fuentes en Aspose.Words – Guía completa](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

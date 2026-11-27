@@ -245,7 +245,6 @@ Loaded font sources:
 
 - [ضبط مجلدات الخطوط النظامية والمخصصة](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [كيفية اكتشاف الخطوط في Aspose.Words – معالجة التحذيرات والإعدادات](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [كيفية التقاط الخطوط في Aspose.Words – دليل كامل](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

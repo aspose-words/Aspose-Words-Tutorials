@@ -203,7 +203,6 @@ Ahora tienes un patrón sólido y listo para producción para **cómo configurar
 
 ## ¿Qué deberías aprender a continuación?
 
-- [Cómo capturar fuentes en Aspose.Words – Guía completa](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Cómo detectar fuentes en Aspose.Words – Manejar advertencias y configuraciones](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [Cómo cargar DOCX y detectar fuentes faltantes – Guía completa en C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

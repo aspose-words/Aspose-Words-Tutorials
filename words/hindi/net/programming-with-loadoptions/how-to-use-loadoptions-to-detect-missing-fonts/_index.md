@@ -267,7 +267,6 @@ Document loaded successfully.
 निम्नलिखित ट्यूटोरियल्स निकट संबंधी विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जो आपको अतिरिक्त API फीचर्स में महारत हासिल करने और अपने प्रोजेक्ट्स में वैकल्पिक कार्यान्वयन दृष्टिकोणों की खोज करने में मदद करेंगे।
 
 - [Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ – चेतावनियों और सेटिंग्स को संभालें](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Aspose.Words में फ़ॉन्ट्स को कैप्चर कैसे करें – पूर्ण गाइड](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [DOCX को लोड करें और लापता फ़ॉन्ट्स का पता लगाएँ – पूर्ण C# गाइड](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

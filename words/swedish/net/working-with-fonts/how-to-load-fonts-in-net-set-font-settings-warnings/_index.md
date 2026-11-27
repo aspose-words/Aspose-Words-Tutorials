@@ -249,7 +249,6 @@ Följande handledningar täcker närbesläktade ämnen som bygger på teknikerna
 
 - [Ställ in teckensnittsmappsystem och anpassad mapp](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Hur man upptäcker teckensnitt i Aspose.Words – Hantera varningar & inställningar](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

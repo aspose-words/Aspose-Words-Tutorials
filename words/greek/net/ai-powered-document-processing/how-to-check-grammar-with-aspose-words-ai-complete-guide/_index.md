@@ -254,7 +254,6 @@ Issues found: 3 (processed in 1.42s)
 
 - [Πώς να Ενσωματώσετε AI με το Aspose.Words για Java – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Πώς να Φορτώσετε HTML και να Αποθηκεύσετε ως DOCX χρησιμοποιώντας το Aspose.Words για Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Πώς να Καταγράψετε Γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

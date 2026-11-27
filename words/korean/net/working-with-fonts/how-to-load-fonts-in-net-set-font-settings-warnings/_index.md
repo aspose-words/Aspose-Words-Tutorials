@@ -247,7 +247,6 @@ Loaded font sources:
 
 - [시스템 및 사용자 정의 폴더에 글꼴 폴더 설정](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [Aspose.Words에서 글꼴 감지 – 경고 및 설정 처리](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Aspose.Words에서 글꼴 캡처 – 완전 가이드](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

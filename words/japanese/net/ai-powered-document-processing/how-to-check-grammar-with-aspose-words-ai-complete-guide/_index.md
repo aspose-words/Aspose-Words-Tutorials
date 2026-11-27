@@ -252,7 +252,6 @@ Happy coding, and may your documents be forever error‑free!
 
 - [Aspose.Words for Java で AI を統合する方法 – AI & ML](/words/english/java/ai-machine-learning-integration/)
 - [Aspose.Words for Java で HTML を読み込み DOCX として保存する方法](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Aspose.Words でフォントをキャプチャする方法 – 完全ガイド](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

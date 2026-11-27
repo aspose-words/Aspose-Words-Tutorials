@@ -245,7 +245,6 @@ Loaded font sources:
 
 - [ตั้งค่าโฟลเดอร์ฟอนต์ระบบและโฟลเดอร์กำหนดเอง](/words/english/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/)
 - [วิธีตรวจจับฟอนต์ใน Aspose.Words – จัดการคำเตือนและการตั้งค่า](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [วิธีจับฟอนต์ใน Aspose.Words – คู่มือเต็ม](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

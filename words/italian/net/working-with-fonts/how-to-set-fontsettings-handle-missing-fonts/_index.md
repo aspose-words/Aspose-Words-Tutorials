@@ -203,7 +203,6 @@ Hai domande su casi limite, come la gestione di script da destra a sinistra o fo
 
 ## Cosa dovresti imparare dopo?
 
-- [Come acquisire i font in Aspose.Words – Guida completa](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Come rilevare i font in Aspose.Words – Gestire avvisi e impostazioni](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 - [Come caricare DOCX e rilevare i font mancanti – Guida completa C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 

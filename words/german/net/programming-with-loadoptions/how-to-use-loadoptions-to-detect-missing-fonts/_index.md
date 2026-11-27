@@ -268,7 +268,6 @@ Document loaded successfully.
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Wie man Schriftarten in Aspose.Words erkennt – Warnungen & Einstellungen behandeln](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Wie man Schriftarten in Aspose.Words erfasst – Vollständiger Leitfaden](/words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
 - [Wie man DOCX lädt und fehlende Schriftarten erkennt – Vollständiger C#‑Leitfaden](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
