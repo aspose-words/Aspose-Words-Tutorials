@@ -41,7 +41,6 @@
 | [تحميل ملف Markdown إلى مستند – دليل التحليل الكامل](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | تعلّم كيفية تحميل ملفات Markdown ومعالجتها بالكامل في مستند باستخدام Aspose.Words لـ .NET. |
 | [التأكيدات](./emphases/) | تعلّم كيفية إنشاء نص مُبرز في Markdown باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل الأنماط الغامقة والمائلة والمدمجة، مع تعليمات خطوة بخطوة. |
 | [استخدم مصدر التحذير](./use-warning-source/) أتقن استخدام Aspose.Words لـ .NET مع هذا الدليل التفصيلي حول استخدام فئة WarningSource للتعامل مع تحذيرات Markdown. مثالي لمطوري C#.
-| [كيفية حفظ ملف markdown كـ docx باستخدام Aspose.Words في C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | تعلّم كيفية تحويل ملفات markdown إلى صيغة docx وحفظها باستخدام Aspose.Words في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
