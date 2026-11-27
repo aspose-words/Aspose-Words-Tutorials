@@ -91,7 +91,7 @@ And there you have it! You've successfully set up a True Type Fonts folder for y
 ## FAQ's
 
 ### Can I use multiple font folders?
-Yes, you can use multiple font folders by combining `FontSettings.GetFontSources` and `FontSettings.SetFontSources`.
+Yes, you can use multiple font folders by combining `FontSettings.GetFontsSources` and `FontSettings.SetFontsSources`.
 
 ### What if the specified font folder doesn't exist?
 If the specified font folder doesn't exist, Aspose.Words will not be able to locate the fonts, and the default system fonts will be used instead.
