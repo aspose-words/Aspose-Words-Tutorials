@@ -77,7 +77,6 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Penggantian Font Aspose – Cara Mengonfigurasi Pengaturan Font di C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Pelajari cara mengonfigurasi pengaturan font di Aspose.Words untuk .NET menggunakan C# dengan contoh langkah demi langkah. |
 | [Cara Mengatur FontSettings – Menangani Font yang Hilang](./how-to-set-fontsettings-handle-missing-fonts/) | Pelajari cara mengatur FontSettings untuk menangani font yang hilang dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 
-### [Menangani Substitusi Font di Aspose.Words – Panduan Pemrograman Lengkap](./handle-font-substitution-in-aspose-words-complete-programmin/)
 Pelajari cara menangani substitusi font dalam Aspose.Words dengan panduan pemrograman lengkap untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
