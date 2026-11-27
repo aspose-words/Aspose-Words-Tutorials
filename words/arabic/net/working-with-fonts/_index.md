@@ -65,7 +65,6 @@
 | [كيفية التقاط التحذيرات في Aspose.Words – دليل شامل](./how-to-capture-warnings-in-aspose-words-complete-guide/) |تعرف على كيفية التقاط إشعارات التحذير في Aspose.Words باستخدام .NET خطوة بخطوة. |
 | [كيفية استخدام FontSettings للتعامل مع الخطوط المفقودة في Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |تعلم كيفية تكوين FontSettings لمعالجة الخطوط المفقودة وضمان عرض المستندات بشكل صحيح باستخدام Aspose.Words لـ .NET. |
 | [كيفية التقاط التحذيرات – تعيين إعدادات الخط الافتراضية](./how-to-capture-warnings-set-default-font-settings/) |تعلم كيفية التقاط التحذيرات وتعيين إعدادات الخط الافتراضية باستخدام Aspose.Words لـ .NET. |
-| [كيفية اكتشاف الخطوط في Aspose.Words – دليل كامل](./how-to-detect-fonts-in-aspose-words-complete-guide/) |تعرف على كيفية اكتشاف الخطوط في Aspose.Words من خلال دليل شامل خطوة بخطوة. |
 | [استبدال خطوط Aspose – كيفية تكوين إعدادات الخط في C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) |تعرف على كيفية تكوين إعدادات الخط في Aspose.Words لـ .NET باستخدام C# لتفعيل أو تعطيل استبدال الخطوط. |
 | [كيفية اكتشاف الخطوط في C# – دليل كامل](./how-to-detect-fonts-in-c-complete-guide/) |تعلم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لـ .NET عبر دليل شامل خطوة بخطوة. |
 
