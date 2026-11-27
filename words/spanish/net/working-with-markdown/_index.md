@@ -42,7 +42,6 @@ Procesamiento de textos con Markdown ofrece un recurso completo para aprender a 
 | [Cómo guardar markdown como docx con Aspose.Words en C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) Aprenda a convertir y guardar documentos Markdown como archivos DOCX usando Aspose.Words para .NET en C#. |
 | [Énfasis](./emphases/) Aprenda a crear texto destacado en Markdown con Aspose.Words para .NET. Esta guía explica los estilos de negrita, cursiva y combinados, con instrucciones paso a paso.
 | [Utilice la fuente de advertencia](./use-warning-source/) Domina Aspose.Words para .NET con esta guía paso a paso sobre el uso de la clase WarningSource para gestionar advertencias de Markdown. Ideal para desarrolladores de C#.
-| [Cómo guardar documento como docx desde Markdown en C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Aprenda a convertir y guardar documentos Markdown como archivos DOCX usando Aspose.Words para .NET en C#. |
 | [Cómo guardar documento como docx desde Markdown usando C#](./how-to-save-document-as-docx-from-markdown-using-c/) Aprenda a guardar documentos Markdown como archivos DOCX usando Aspose.Words para .NET con C#. |
 
 
