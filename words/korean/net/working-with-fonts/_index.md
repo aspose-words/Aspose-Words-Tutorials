@@ -56,7 +56,6 @@
 | [DOCX 로드 및 누락된 글꼴 감지 – 완전 C# 가이드](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aspose.Words for .NET을 사용해 DOCX 파일을 로드하고 누락된 글꼴을 감지하는 방법을 단계별 C# 가이드로 제공합니다. |
 | [c# 워드 문서 로드 – 누락된 글꼴 감지 및 처리](./c-load-word-document-detect-handle-missing-fonts/) | Aspose.Words for .NET을 사용하여 워드 문서를 로드하고 누락된 글꼴을 감지·처리하는 방법을 단계별로 안내합니다. |
 | [글꼴 대체 경고 기록 – 완전한 Aspose.Words 가이드](./log-font-substitution-warnings-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 글꼴 대체 경고를 기록하는 방법을 단계별로 안내합니다. |
-| [DOCX 파일 로드 시 경고를 활성화하고 누락된 글꼴을 감지하는 방법](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 로드할 때 경고를 켜고 누락된 글꼴을 감지하는 단계별 가이드. |
 | [C#에서 누락된 글꼴 처리 – 완전 가이드](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 누락된 글꼴을 감지하고 대체하거나 알림을 받는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴 경고 처리 – 누락된 글꼴 감지](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Aspose.Words for .NET을 사용하여 누락된 글꼴을 감지하고 경고를 처리하는 방법을 단계별로 안내합니다. |
 | [C#에서 글꼴 경고 캡처 – 완전 가이드](./capture-font-warnings-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 글꼴 경고를 캡처하고 처리하는 방법을 단계별로 안내합니다. |
