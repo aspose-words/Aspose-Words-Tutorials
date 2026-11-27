@@ -50,8 +50,7 @@ Below is the full, runnable program. It includes everything from the `using` sta
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warnings;
+using Aspose.Words.Loading;
 
 /// <summary>
 /// Custom warning handler that reacts only to font‑substitution warnings.
@@ -112,7 +111,7 @@ If the document contains **no missing fonts**, the warning line never appears—
 
 ### Why This Works
 
-Aspose.Words throws a `WarningInfo` for every non‑critical issue it encounters while parsing a file. By implementing `IWarningCallback` you gain a hook into that pipeline. The `WarningType.FontSubstitution` flag tells you precisely when the library had to replace a requested font with a fallback. This is the most reliable way to **handle font warnings** because it runs *during* loading, before you even touch the document object model.
+Aspose.Words reports warnings via the `IWarningCallback` interface; warnings are not thrown as exceptions. The `WarningType.FontSubstitution` flag tells you precisely when the library had to replace a requested font with a fallback. This is the most reliable way to **handle font warnings** because it runs *during* loading, before you even touch the document object model.
 
 ## Detect Missing Fonts Without Breaking Your App
 
@@ -151,7 +150,7 @@ That way, end‑users see the warning immediately, and you still **handle font w
   **Pro tip:** Use `Path.Combine` or a raw string literal (`@"C:\Docs\MissingFont.docx"` works on Windows; on Linux use `"/home/user/docs/MissingFont.docx"`).  
 
 - **Pitfall:** Assuming the warning will fire for embedded fonts.  
-  **Pro tip:** Embedded fonts are considered present, so no substitution warning appears. Test with truly *missing* fonts to see the handler in action.  
+  **Pro tip:** Embedded fonts are used directly by the library; a substitution warning is only raised for fonts that are not available in the document or on the system.  
 
 - **Pitfall:** Over‑logging every warning type.  
   **Pro tip:** Filter by `WarningType.FontSubstitution` as shown—this keeps the console clean and focuses on the **detect missing fonts** scenario.
@@ -163,8 +162,7 @@ Here’s the entire program again, this time without comments for those who pref
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
-using Aspose.Words.Warnings;
+using Aspose.Words.Loading;
 
 class FontWarningHandler : IWarningCallback
 {
