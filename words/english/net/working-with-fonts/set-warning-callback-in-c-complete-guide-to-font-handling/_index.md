@@ -50,7 +50,7 @@ The first thing you do when you want to control font handling is to build a `Loa
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 using Aspose.Words.Fonts;
 
 // Step 1: Build LoadOptions with a default font
@@ -71,37 +71,36 @@ If the source document references a font that isn’t installed on the server, A
 
 ## Step 2: **Set warning callback** to **monitor font changes**
 
-Aspose.Words emits a `WarningInfoCollection` whenever it has to substitute a font, among other things. By attaching a handler, you can log or react to each substitution.
+Attach a `WarningInfoCollection` to `LoadOptions`. After the document is loaded you can inspect the collection for any font‑substitution warnings.
 
 ```csharp
 // Step 2: Attach a warning callback to capture font substitution events
 var warningCollector = new WarningInfoCollection();
 loadOptions.WarningCallback = warningCollector;
-
-// Subscribe to the Warning event
-warningCollector.Warning += (sender, e) =>
-{
-    // We only care about font substitution warnings
-    if (e.Type == WarningType.FontSubstitution)
-    {
-        Console.WriteLine($"Font substituted: {e.Description}");
-    }
-};
 ```
 
 **Why this matters:**  
-Simply **configure default font** isn’t enough if you need to audit which fonts were actually swapped. The callback gives you a real‑time log, satisfying the **monitor font changes** requirement and helping you catch unexpected fallbacks early in a CI pipeline.
+Simply **configure default font** isn’t enough if you need to audit which fonts were actually swapped. The callback collects all warnings that occur during loading, allowing you to review them after the document is opened.
 
 ---
 
 ## Step 3: Load the document with the prepared options
 
-Now that the load options are fully prepared, you can safely load any `.docx` file. The callback fires automatically if a substitution occurs.
+Now that the load options are fully prepared, you can safely load any `.docx` file. The callback collection will be populated automatically if a substitution occurs.
 
 ```csharp
 // Step 3: Load the document using the configured LoadOptions
 string inputPath = @"C:\MyProject\input.docx";
 Document doc = new Document(inputPath, loadOptions);
+
+// After loading, iterate the collected warnings
+foreach (WarningInfo info in warningCollector)
+{
+    if (info.WarningType == WarningType.FontSubstitution)
+    {
+        Console.WriteLine($"Font substituted: {info.Description}");
+    }
+}
 
 // Optional: verify the document loaded correctly
 Console.WriteLine($"Document loaded – {doc.PageCount} page(s) total.");
@@ -125,7 +124,7 @@ Sometimes you might want to replace *all* missing fonts with a single family, re
 
 ```csharp
 // Step 4: Force all missing fonts to use a specific fallback
-loadOptions.FontSettings.SubstitutionSettings.FontSubstitutionRule.DefaultFontName = "Arial";
+loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
 **When to use this:**  
@@ -155,7 +154,7 @@ The resulting PDF will display the fallback font wherever a substitution took pl
 | **Callback never fires** | `LoadOptions.WarningCallback` wasn’t assigned *before* loading the document. | Always attach the callback **before** calling `new Document(...)`. |
 | **Wrong font folder** | Path typo or missing read permissions. | Verify the folder exists and the app has `Read` access. Use absolute paths for reliability. |
 | **Multiple substitutions, noisy output** | Large documents with many missing fonts. | Filter warnings by `WarningType.FontSubstitution` (as shown) or write them to a log file instead of console. |
-| **Fallback font not applied** | The fallback font isn’t installed on the machine. | Place the `.ttf`/`.otf` file in the folder you passed to `SetFontsFolder`. Aspose.Words loads it directly, no OS install needed. |
+| **Fallback font not applied** | The fallback font isn’t present in the specified folder. | Place the `.ttf`/`.otf` file in the folder you passed to `SetFontsFolder`. Aspose.Words loads it directly, no OS install needed. |
 
 **Pro tip:** When you’re running this in a CI/CD pipeline, redirect the console output to a build artifact. That way you have an audit trail of every font substitution that happened during the build.
 
@@ -169,7 +168,7 @@ Below is the complete program you can drop into a new Console App project. It in
 // Full example: Set warning callback, configure default font, and monitor font changes
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 using Aspose.Words.Fonts;
 
 namespace FontWarningDemo
@@ -186,24 +185,27 @@ namespace FontWarningDemo
             // Adjust the path to where your fallback fonts live
             loadOptions.FontSettings.SetFontsFolder(@"C:\MyProject\fonts", true);
 
-            // 2️⃣ Set up the warning callback to catch font substitutions
+            // 2️⃣ Set up the warning callback to collect font substitution warnings
             var warningCollector = new WarningInfoCollection();
             loadOptions.WarningCallback = warningCollector;
-            warningCollector.Warning += (sender, e) =>
-            {
-                if (e.Type == WarningType.FontSubstitution)
-                {
-                    Console.WriteLine($"Font substituted: {e.Description}");
-                }
-            };
 
             // 3️⃣ Load the document with the prepared options
             string inputPath = @"C:\MyProject\input.docx";
             Document doc = new Document(inputPath, loadOptions);
+
+            // After loading, output any font substitution warnings
+            foreach (WarningInfo info in warningCollector)
+            {
+                if (info.WarningType == WarningType.FontSubstitution)
+                {
+                    Console.WriteLine($"Font substituted: {info.Description}");
+                }
+            }
+
             Console.WriteLine($"Document loaded – {doc.PageCount} page(s).");
 
             // 4️⃣ (Optional) Force a single default font for *all* missing fonts
-            // loadOptions.FontSettings.SubstitutionSettings.FontSubstitutionRule.DefaultFontName = "Arial";
+            // loadOptions.FontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 
             // 5️⃣ Save as PDF to see the visual result
             string outputPath = @"C:\MyProject\output.pdf";
@@ -228,7 +230,7 @@ Run the program, open `output.pdf`, and you’ll see the document rendered with 
 
 ## Conclusion
 
-You now have a solid, production‑ready pattern for how to **set warning callback** in C#, **configure default font**, **monitor font changes**, and **set default import font** when working with Aspose.Words. By attaching a warning collector before loading, pointing `FontSettings` at a reliable font folder, and optionally forcing a global fallback, you gain full visibility and control over font substitution—exactly what any robust document‑processing pipeline needs.
+You now have a solid, production‑ready pattern for how to **set warning callback** in C#, **configure default font**, **monitor font changes**, and **set default import font** when working with Aspose.Words. By attaching a `WarningInfoCollection` before loading, pointing `FontSettings` at a reliable font folder, and optionally forcing a global fallback, you gain full visibility and control over font substitution—exactly what any robust document‑processing pipeline needs.
 
 Ready for the next level? Try combining this approach with:
 
