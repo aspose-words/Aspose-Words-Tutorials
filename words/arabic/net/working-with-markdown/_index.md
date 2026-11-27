@@ -42,7 +42,6 @@
 | [التأكيدات](./emphases/) | تعلّم كيفية إنشاء نص مُبرز في Markdown باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل الأنماط الغامقة والمائلة والمدمجة، مع تعليمات خطوة بخطوة. |
 | [استخدم مصدر التحذير](./use-warning-source/) أتقن استخدام Aspose.Words لـ .NET مع هذا الدليل التفصيلي حول استخدام فئة WarningSource للتعامل مع تحذيرات Markdown. مثالي لمطوري C#.
 | [كيفية حفظ ملف markdown كـ docx باستخدام Aspose.Words في C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | تعلّم كيفية تحويل ملفات markdown إلى صيغة docx وحفظها باستخدام Aspose.Words في C#. |
-| [كيفية حفظ المستند كملف docx من Markdown باستخدام C#](./how-to-save-document-as-docx-from-markdown-using-c/) | تعلم كيفية تحويل مستند Markdown وحفظه كملف docx باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

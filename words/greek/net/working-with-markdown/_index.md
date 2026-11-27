@@ -42,7 +42,6 @@
 | [Χρήση πηγής προειδοποίησης](./use-warning-source/) | Master Aspose.Words για .NET με αυτόν τον αναλυτικό οδηγό σχετικά με τη χρήση της κλάσης WarningSource για τον χειρισμό προειδοποιήσεων Markdown. Ιδανικό για προγραμματιστές C#. |
 | [Φόρτωση αρχείου Markdown σε Έγγραφο – Πλήρης Εκπαίδευση Ανάλυσης](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Μάθετε πώς να φορτώνετε αρχεία Markdown σε έγγραφο Word και να τα αναλύετε πλήρως με το Aspose.Words για .NET. |
 | [Πώς να αποθηκεύσετε markdown ως docx με Aspose.Words σε C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Μάθετε πώς να μετατρέπετε αρχεία markdown σε μορφή docx χρησιμοποιώντας Aspose.Words για .NET σε C#. |
-| [Πώς να αποθηκεύσετε το έγγραφο ως docx από Markdown με C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Μάθετε πώς να μετατρέψετε έγγραφα Markdown σε αρχείο docx χρησιμοποιώντας Aspose.Words για .NET με C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
