@@ -56,7 +56,6 @@
 | [警告を取得する方法 – デフォルトフォント設定](./how-to-capture-warnings-set-default-font-settings/) Aspose.Words for .NET を使用して、警告を取得しデフォルトフォント設定を行う方法をステップバイステップで学びます。 |
 | [Aspose.Words で警告を取得する方法 – 完全な C# ガイド](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、警告通知を取得する完全な C# ガイドをステップバイステップで学びます。 |
 | [Aspose.Words でフォント警告を有効にする – 完全な C# ガイド](./enable-font-warnings-in-aspose-words-complete-c-guide/) Aspose.Words for .NET でフォント警告を有効にし、欠落フォントの問題を検出する方法を学びます。 |
-| [Aspose.Words で置換を検出する方法 – 欠落フォントの処理](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) Aspose.Words for .NET を使用して、フォント置換を検出し、欠落フォントを処理する方法をステップバイステップで学びます。 |
 | [リソース Steam フォントソースの例](./resource-steam-font-source-example/) リソース ストリーム フォント ソースを使用してカスタム フォントを Aspose.Words for .NET に読み込む方法を学習します。 |
 | [接尾辞なしの置換を取得する](./get-substitution-without-suffixes/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でサフィックスなしのオーバーライドを取得する方法を学習します。 |
 | [C#で警告コールバックを設定する – フォント処理の完全ガイド](./set-warning-callback-in-c-complete-guide-to-font-handling/) Aspose.Words for .NET を使用して、フォント処理時の警告コールバックを設定する方法をステップバイステップで学びます。 |
