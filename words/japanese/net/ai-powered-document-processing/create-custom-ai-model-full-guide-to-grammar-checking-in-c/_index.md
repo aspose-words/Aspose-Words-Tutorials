@@ -293,7 +293,6 @@ Console.WriteLine("Corrected document saved as output_corrected.docx");
 以下のチュートリアルは、本ガイドで示したテクニックを応用した関連トピックを扱っています。各リソースには、ステップバイステップの解説と完全なコード例が含まれています。
 
 - [Aspose Load Options – カスタムフォント設定で DOCX をロード](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
-- [DOCX のロードと欠落フォント検出 – 完全 C# ガイド](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Docx ファイルを Markdown に変換](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
