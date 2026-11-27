@@ -81,7 +81,6 @@ doc.Save("Output.docx");
 | [How to Capture Warnings – Set Default Font Settings](./how-to-capture-warnings-set-default-font-settings/) | Learn how to capture warnings and set default font settings in Aspose.Words for .NET with a clear, step-by-step guide. |
 | [How to Detect Fonts in Aspose.Words – Complete Guide](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Learn how to detect fonts in Aspose.Words for .NET with this complete guide, covering detection, warnings, and settings. |
 | [how to handle fonts in .NET – detect missing fonts](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Learn how to handle fonts in .NET and detect missing fonts using Aspose.Words with a clear step-by-step guide. |
-| [How to Capture Warnings in Aspose.Words – Complete C# Guide](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Learn how to capture warning notifications in Aspose.Words for .NET with this comprehensive C# guide. |
 | [How to Set FontSettings – Handle Missing Fonts](./how-to-set-fontsettings-handle-missing-fonts/) | Learn how to set FontSettings to handle missing fonts in Aspose.Words for .NET with a clear step-by-step guide. |
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |

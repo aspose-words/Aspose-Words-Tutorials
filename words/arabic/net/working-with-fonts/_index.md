@@ -75,7 +75,6 @@
 | [حفظ مستند Word – اكتشاف الخطوط المفقودة باستخدام Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) |تعلم كيفية حفظ مستند Word مع الكشف عن الخطوط المفقودة باستخدام Aspose.Words لـ .NET. |
 | [كيفية التعامل مع الخطوط في .NET – اكتشاف الخطوط المفقودة](./how-to-handle-fonts-in-net-detect-missing-fonts/) |تعلم كيفية اكتشاف الخطوط المفقودة في مستندات .NET باستخدام Aspose.Words خطوة بخطوة. |
 | [معالجة استبدال الخط في Aspose.Words – دليل برمجة كامل](./handle-font-substitution-in-aspose-words-complete-programmin/) |تعرف على كيفية التعامل مع استبدال الخطوط في Aspose.Words عبر دليل برمجة شامل خطوة بخطوة. |
-| [كيفية التقاط التحذيرات في Aspose.Words – دليل C# كامل](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) |تعلم كيفية التقاط إشعارات التحذير في Aspose.Words باستخدام C# خطوة بخطوة. |
 | [تمكين تحذيرات الخط في Aspose.Words – دليل كامل C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) |تعرف على كيفية تمكين تحذيرات الخط في Aspose.Words باستخدام C# لضمان معالجة الخطوط بشكل صحيح. |
 | [كيفية تعيين FontSettings – معالجة الخطوط المفقودة](./how-to-set-fontsettings-handle-missing-fonts/) |تعلم كيفية تعيين FontSettings للتعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 | [حفظ ملف docx كـ pdf واكتشاف الخطوط المفقودة باستخدام Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) |تعلم كيفية حفظ مستند DOCX كملف PDF واكتشاف الخطوط المفقودة باستخدام Aspose.Words لـ .NET. |
