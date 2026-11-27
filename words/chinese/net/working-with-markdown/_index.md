@@ -42,7 +42,6 @@
 | [重点](./emphases/) 学习如何使用 Aspose.Words for .NET 在 Markdown 中创建强调文本。本指南将逐步讲解粗体、斜体和组合样式。|
 | [使用警告源](./use-warning-source/) 掌握 Aspose.Words for .NET 的使用方法，了解如何使用 WarningSource 类处理 Markdown 警告。非常适合 C# 开发人员。|
 | [如何在 C# 中使用 Aspose.Words 将 Markdown 保存为 DOCX](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) 学习如何使用 Aspose.Words for .NET 将 Markdown 文件保存为 DOCX 文档。|
-| [如何使用 C# 将 Markdown 保存为 docx 文档](./how-to-save-document-as-docx-from-markdown-using-c/) 学习使用 Aspose.Words for .NET 将 Markdown 内容转换并保存为 DOCX 文件的步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
