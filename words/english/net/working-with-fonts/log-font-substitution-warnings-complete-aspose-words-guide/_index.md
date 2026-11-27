@@ -34,7 +34,7 @@ In this tutorial we’ll walk through a real‑world scenario, show you the comp
 
 ## What You’ll Learn
 
-- How to configure `LoadOptions` so Aspose.Words raises typed warnings for font substitution.  
+- How to configure `LoadOptions` so Aspose.Words records font‑substitution warnings.  
 - The exact steps to **detect missing fonts** during document load.  
 - A clean way to **capture missing fonts** and write them to your own log or monitoring system.  
 - Edge‑case handling (e.g., when a document contains a font that isn’t installed on the server).  
@@ -47,53 +47,55 @@ In this tutorial we’ll walk through a real‑world scenario, show you the comp
 
 If you already have those, let’s dive in.
 
-## Step 1 – Set Up LoadOptions to Raise Typed Warnings
+## Step 1 – Set Up LoadOptions and a Warning Collector
 
-The heart of the solution lies in `LoadOptions.FontSubstitutionWarning`. By switching it to `RaiseTypedWarnings` you tell Aspose.Words to fire an event **every time** it can’t find the exact font you asked for.
+Aspose.Words uses a `WarningInfoCollection` to store warnings that occur while loading a document. By assigning this collection to `LoadOptions.WarningCallback` you can retrieve detailed font‑substitution information after the document is loaded.
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
+using Aspose.Words;   // contains WarningInfo, WarningInfoCollection, etc.
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create a LoadOptions instance that will raise warnings.
+        // Step 1: Create a WarningInfoCollection to collect warnings.
+        var warningCollector = new WarningInfoCollection();
+
+        // Create LoadOptions and attach the collector.
         var loadOptions = new LoadOptions
         {
-            // This flag makes Aspose.Words emit detailed warnings instead of silently substituting.
-            FontSubstitutionWarning = LoadOptions.FontSubstitutionWarningOption.RaiseTypedWarnings
+            WarningCallback = warningCollector
         };
 ```
 
-> **Why this matters:**  
-> The default behavior silently swaps a missing font with the closest match, which can lead to layout glitches you never see coming. Raising typed warnings gives you full visibility.
+## Step 2 – Load the Document
 
-## Step 2 – Subscribe to the Warning Event
-
-Now we hook into `loadOptions.FontSubstitutionWarning`. The lambda receives an `e` object that tells us exactly which font was missing and which one was used instead.
+With the warning collector in place, load the document as usual. All font‑substitution warnings will be stored in `warningCollector`.
 
 ```csharp
-        // Step 2: Attach an event handler to capture each substitution.
-        loadOptions.FontSubstitutionWarning += (sender, e) =>
-        {
-            // Log to console – replace with your own logger if needed.
-            Console.WriteLine($"Missing font: {e.FontName} – substituted with {e.SubstitutedFontName}");
-        };
-```
-
-> **Pro tip:** If you run this on a web server, replace `Console.WriteLine` with a structured logger (Serilog, NLog, etc.) so you can query the data later.
-
-## Step 3 – Load the Document Using the Configured Options
-
-With the warning mechanism in place, simply load the document as you normally would. The event fires automatically for every missing font.
-
-```csharp
-        // Step 3: Load the target document while the warning handler is active.
+        // Step 2: Load the target document while the warning collector is active.
         string inputPath = @"YOUR_DIRECTORY\input.docx";
         Document doc = new Document(inputPath, loadOptions);
+```
+
+## Step 3 – Process the Collected Font‑Substitution Warnings
+
+After loading, iterate through the collected warnings, filter for `FontSubstitutionWarningInfo`, and log the details you need.
+
+```csharp
+        // Step 3: Examine the collected warnings.
+        foreach (WarningInfo info in warningCollector)
+        {
+            if (info.WarningType == WarningType.FontSubstitution && info is FontSubstitutionWarningInfo fsw)
+            {
+                // Log to console – replace with your own logger if needed.
+                Console.WriteLine($"Missing font: {fsw.RequestedFamilyName} – substituted with {fsw.ResolvedFont.FullFontName}");
+            }
+        }
 
         // Optional: do something with the document – e.g., save as PDF.
         // doc.Save(@"YOUR_DIRECTORY\output.pdf");
@@ -116,7 +118,7 @@ Each line corresponds to a **detect missing fonts** event, giving you a complete
 
 ### 4.1 When No Substitution Happens
 
-Sometimes a document only uses system fonts that are already present. In that case the warning event never fires, and you’ll get a clean console with no output. That’s a good sign—your environment already has all required fonts.
+If the document only uses fonts that are already present, the warning collector will remain empty and no output will be produced. That indicates your environment already has all required fonts.
 
 ### 4.2 Capturing Warnings for Later Analysis
 
@@ -124,18 +126,21 @@ If you need to store the warnings for a nightly report, collect them in a list:
 
 ```csharp
         var missingFonts = new List<(string Original, string Substituted)>();
-        loadOptions.FontSubstitutionWarning += (s, e) =>
+        foreach (WarningInfo info in warningCollector)
         {
-            missingFonts.Add((e.FontName, e.SubstitutedFontName));
-            Console.WriteLine($"Missing font: {e.FontName} – substituted with {e.SubstitutedFontName}");
-        };
+            if (info.WarningType == WarningType.FontSubstitution && info is FontSubstitutionWarningInfo fsw)
+            {
+                missingFonts.Add((fsw.RequestedFamilyName, fsw.ResolvedFont.FullFontName));
+                Console.WriteLine($"Missing font: {fsw.RequestedFamilyName} – substituted with {fsw.ResolvedFont.FullFontName}");
+            }
+        }
+
+        // Serialize `missingFonts` to JSON, write to a database, or email a summary as needed.
 ```
 
-After loading, you can serialize `missingFonts` to JSON, write to a database, or email a summary.
+### 4.3 Working with Other Document Types
 
-### 4.3 Working with PDFs or Other Formats
-
-The same `LoadOptions` approach works for `Load` calls on PDFs, RTF, and even HTML files. Just pass the same options instance, and Aspose.Words will raise warnings for any font it can’t match.
+The same `LoadOptions` approach works for loading DOCX, DOC, RTF, and other formats supported by Aspose.Words. Simply pass the same `loadOptions` instance to the `Document` constructor for the format you are loading.
 
 ## Step 5 – Verify the Result Programmatically
 
@@ -159,10 +164,10 @@ This snippet demonstrates **how to capture missing fonts** in code, not just in 
 
 | Pitfall | Why it Happens | Fix |
 |---------|----------------|-----|
-| Forgetting to set `RaiseTypedWarnings` | The default is `DoNotRaise`, so no events fire. | Explicitly set `FontSubstitutionWarning` as shown in Step 1. |
+| Forgetting to assign a `WarningCallback` | Without a callback the warnings are not collected. | Assign a `WarningInfoCollection` to `LoadOptions.WarningCallback` as shown in Step 1. |
 | Using `Console.WriteLine` in a web app | Console output disappears in IIS/ASP.NET Core. | Switch to a persistent logger (e.g., Serilog). |
 | Loading a document with a relative path | The working directory may differ at runtime. | Use absolute paths or `Path.Combine(AppContext.BaseDirectory, "input.docx")`. |
-| Ignoring the `SubstitutedFontName` | You lose insight into which fallback was chosen. | Always log both `FontName` and `SubstitutedFontName`. |
+| Ignoring the `ResolvedFont` information | You lose insight into which fallback was chosen. | Always log both `RequestedFamilyName` and `ResolvedFont.FullFontName`. |
 
 ## Bonus: Automating Font Installation
 
@@ -180,7 +185,7 @@ Running this before your application starts eliminates most **detect missing fon
 
 ## Conclusion
 
-We’ve covered everything you need to **log font substitution warnings** when loading Word documents with Aspose.Words. By configuring `LoadOptions`, subscribing to the warning event, and optionally persisting the results, you can reliably **detect missing fonts** and understand **how to capture missing fonts** for any .NET project.
+We’ve covered everything you need to **log font substitution warnings** when loading Word documents with Aspose.Words. By configuring `LoadOptions`, attaching a warning collector, and processing the results, you can reliably **detect missing fonts** and understand **how to capture missing fonts** for any .NET project.
 
 Take the code, tweak the logger to fit your stack, and you’ll never be surprised by a silent font swap again. Next steps might include:
 
