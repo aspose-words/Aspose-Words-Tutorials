@@ -68,7 +68,7 @@ The good news is that Aspose.Words gives you a built‑in warning system that le
 
 ## ## Handle Font Substitution with a Custom Warning Handler
 
-Aspose.Words raises a `WarningInfo` object every time it can’t find a requested font. By default those warnings are ignored, which is why you often never notice a substitution. To **handle font substitution**, you replace the default warning handler with one that actually does something.
+Aspose.Words raises a `WarningInfo` object every time it can’t find a requested font. By default those warnings are ignored, which is why you often never notice a substitution. To **handle font substitution**, you assign a warning callback to the document and collect the warnings.
 
 ```csharp
 using System;
@@ -79,21 +79,26 @@ class Program
 {
     static void Main()
     {
-        // Register a custom warning handler that prints font‑substitution events.
-        FontSettings.DefaultWarningHandler = new WarningInfoCollectionHandler(
-            (sender, args) =>
-            {
-                // We're only interested in font‑substitution warnings.
-                if (args.WarningType == WarningType.FontSubstitution)
-                {
-                    Console.WriteLine($"⚠️ Font substituted: {args.Description}");
-                }
-            });
+        // Create a collector that implements IWarningCallback.
+        var warningCollector = new WarningInfoCollection();
 
         // Load a document that deliberately references an unavailable font.
         Document doc = new Document("Samples/MissingFont.docx");
 
-        // Force a save to trigger any pending warnings (e.g., PDF conversion).
+        // Register the collector for this document.
+        doc.WarningCallback = warningCollector;
+
+        // Force a layout pass – this will generate any pending warnings.
+        doc.UpdatePageLayout();
+
+        // Iterate over the collected warnings and print font‑substitution events.
+        foreach (WarningInfo info in warningCollector)
+        {
+            if (info.WarningType == WarningType.FontSubstitution)
+                Console.WriteLine($"⚠️ Font substituted: {info.Description}");
+        }
+
+        // Optionally, save the document (warnings have already been collected).
         doc.Save("Output/Result.pdf");
     }
 }
@@ -101,9 +106,9 @@ class Program
 
 ### Why This Works
 
-* `FontSettings.DefaultWarningHandler` is a global static property—once you set it, **every** Aspose.Words operation in the current AppDomain uses your delegate.
-* The `WarningInfoCollectionHandler` receives a `WarningInfo` object that contains `WarningType` and a human‑readable `Description`. Filtering on `WarningType.FontSubstitution` ensures you only see the events you care about.
-* Calling `doc.Save` forces the library to resolve all fonts, which is when the warnings fire. If you only need to inspect the document without saving, you can call `doc.UpdatePageLayout()` instead.
+* `doc.WarningCallback = warningCollector;` registers a callback **for that document instance**. Only operations performed on this `Document` after the assignment (layout, saving, etc.) will generate warnings that the collector receives.
+* The `WarningInfoCollection` implements `IWarningCallback` and stores each `WarningInfo` object, which includes `WarningType` and a human‑readable `Description`. Filtering on `WarningType.FontSubstitution` ensures you only see the events you care about.
+* Calling `doc.UpdatePageLayout()` forces the layout engine to run, which is when font‑substitution decisions are made and the corresponding warnings are raised. You can also trigger warnings by saving the document, but a layout pass is sufficient if you only need to inspect the document.
 
 **Expected console output** (assuming the missing font is “Papyrus”):
 
@@ -117,10 +122,12 @@ That line is your proof that the library **detected missing fonts** and chose a 
 
 ## ## Detect Missing Fonts Before Rendering
 
-Sometimes you want to stop the process entirely if a required font is missing—perhaps because brand guidelines demand exact typography. The warning handler can be extended to collect all missing‑font messages into a list, then you can make a decision.
+Sometimes you want to stop the process entirely if a required font is missing—perhaps because brand guidelines demand exact typography. The warning collector can be extended to gather all missing‑font messages into a list, then you can make a decision.
 
 ```csharp
 using System.Collections.Generic;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
 // ...
 
@@ -128,19 +135,23 @@ static List<string> missingFonts = new List<string>();
 
 static void Main()
 {
-    FontSettings.DefaultWarningHandler = new WarningInfoCollectionHandler(
-        (sender, args) =>
-        {
-            if (args.WarningType == WarningType.FontSubstitution)
-            {
-                // Store the description for later analysis.
-                missingFonts.Add(args.Description);
-                Console.WriteLine($"⚠️ Font substituted: {args.Description}");
-            }
-        });
+    var warningCollector = new WarningInfoCollection();
 
     Document doc = new Document("Samples/MissingFont.docx");
-    doc.UpdatePageLayout();   // Triggers warnings without saving.
+    doc.WarningCallback = warningCollector;
+
+    // Trigger layout to generate warnings.
+    doc.UpdatePageLayout();
+
+    // Examine the collected warnings.
+    foreach (WarningInfo info in warningCollector)
+    {
+        if (info.WarningType == WarningType.FontSubstitution)
+        {
+            missingFonts.Add(info.Description);
+            Console.WriteLine($"⚠️ Font substituted: {info.Description}");
+        }
+    }
 
     if (missingFonts.Count > 0)
     {
@@ -174,15 +185,32 @@ static void Main()
 If you have a corporate font that must be used, you can tell Aspose.Words to replace any missing font with your fallback automatically. This is handy when you want the document to *still* look acceptable without manual post‑processing.
 
 ```csharp
-// Configure a fallback font collection.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SubstitutionSettings.FontSubstitutes.AddSubstitutes(
-    "AnyMissingFont", new string[] { "Calibri", "Arial" });
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-FontSettings.DefaultFontSettings = fontSettings;
+// Configure a FontSettings instance.
+FontSettings fontSettings = new FontSettings();
+
+// Set a default font substitution rule (used when the requested font cannot be found).
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Calibri";
+
+// Optionally, add table‑based substitutes for specific missing fonts.
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Comic Sans MS", "Arial", "Times New Roman");
+
+// Apply the settings to the document before loading or layout.
+Document doc = new Document("Samples/MissingFont.docx");
+doc.FontSettings = fontSettings;
+
+// Register a warning collector if you still want to be notified.
+var warningCollector = new WarningInfoCollection();
+doc.WarningCallback = warningCollector;
+
+// Generate layout (warnings will be collected) and save.
+doc.UpdatePageLayout();
+doc.Save("Output/Result.pdf");
 ```
 
-Place the above snippet **before** loading the document. Now any missing font—no matter its original name—will be swapped with “Calibri” (or “Arial” if Calibri isn’t present). You’ll still get the warning, but the document will render with the font you control.
+Place the above snippet **before** you perform layout or saving. Now any missing font—no matter its original name—will be swapped with “Calibri” (or the fonts you listed in the table substitution). You’ll still receive the warning, but the document will render with the font you control.
 
 ---
 
@@ -190,9 +218,9 @@ Place the above snippet **before** loading the document. Now any missing font—
 
 | Pitfall | Why It Happens | Fix |
 |---------|----------------|-----|
-| **Warnings disappear after the first call** | The static `DefaultWarningHandler` is overwritten later in the app. | Set the handler **once** at application start, or store a reference and re‑assign if you change it. |
-| **Only the first missing font is reported** | Some APIs batch warnings; you need to call `UpdatePageLayout` or `Save` to flush the queue. | Force a layout update or save in the format you intend to generate. |
-| **Substitution still occurs even after aborting** | The warning handler runs *after* the substitution has already happened. | Use the handler to **log** and then throw an exception to stop further processing. |
+| **Warnings disappear after the first call** | The `WarningCallback` is overwritten later in the app. | Set the callback **once** for each `Document` you need to monitor, or keep a reference and re‑assign if you change it. |
+| **Only the first missing font is reported** | Some APIs batch warnings; you need to trigger layout or saving to flush the queue. | Call `UpdatePageLayout()` or `Save()` in the format you intend to generate before inspecting the collector. |
+| **Substitution still occurs even after aborting** | The warning callback runs after the library has already chosen a fallback font. | Use the callback to **log** and then throw an exception to stop further processing if missing fonts are unacceptable. |
 | **Missing fonts on Linux containers** | Linux often lacks the Windows font catalog, leading to many substitutions. | Mount required fonts into the container or use `FontSettings.SetFontsFolder` to point to a custom font directory. |
 
 ---
@@ -202,6 +230,11 @@ Place the above snippet **before** loading the document. Now any missing font—
 If you’re serving documents through ASP.NET Core, you probably don’t want console writes. Instead, collect warnings and return them as part of the HTTP response.
 
 ```csharp
+using System.Collections.Generic;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+using Microsoft.AspNetCore.Mvc;
+
 [ApiController]
 [Route("api/[controller]")]
 public class DocumentController : ControllerBase
@@ -210,19 +243,24 @@ public class DocumentController : ControllerBase
     public IActionResult Convert(IFormFile file)
     {
         var missingFonts = new List<string>();
+        var warningCollector = new WarningInfoCollection();
 
-        FontSettings.DefaultWarningHandler = new WarningInfoCollectionHandler(
-            (s, e) =>
-            {
-                if (e.WarningType == WarningType.FontSubstitution)
-                    missingFonts.Add(e.Description);
-            });
-
+        // Load the uploaded document.
         using var stream = file.OpenReadStream();
         var doc = new Document(stream);
+        doc.WarningCallback = warningCollector;
+
+        // Trigger layout to collect warnings.
         doc.UpdatePageLayout();
 
-        if (missingFonts.Any())
+        // Gather font‑substitution warnings.
+        foreach (WarningInfo info in warningCollector)
+        {
+            if (info.WarningType == WarningType.FontSubstitution)
+                missingFonts.Add(info.Description);
+        }
+
+        if (missingFonts.Count > 0)
         {
             return BadRequest(new { message = "Missing fonts detected", details = missingFonts });
         }
@@ -247,13 +285,13 @@ Now the API **detects missing fonts** and returns a clear JSON payload before an
 3. Verify that the console (or HTTP response) lists the substitution warning.  
 4. Optionally, open the resulting PDF and check the font properties—Aspose.Words should show the fallback font you configured.
 
-If you see the warning but the PDF still uses an unexpected font, double‑check the `SubstitutionSettings` order; the first match wins.
+If you see the warning but the PDF still uses an unexpected font, double‑check the `SubstitutionSettings` order; the first matching rule wins.
 
 ---
 
 ## ## Conclusion
 
-We’ve covered everything you need to **handle font substitution** in Aspose.Words, from registering a warning handler to programmatically **detect missing fonts** and even replace them with a corporate typeface. By tapping into the built‑in warning system you gain full visibility into every “font not found” event, which directly answers the “**how to detect missing fonts**?” question every developer asks when automating document generation.
+We’ve covered everything you need to **handle font substitution** in Aspose.Words, from registering a warning callback to programmatically **detect missing fonts** and even replace them with a corporate typeface. By tapping into the built‑in warning system you gain full visibility into every “font not found” event, which directly answers the “**how to detect missing fonts**?” question every developer asks when automating document generation.
 
 What’s next? Try combining this logic with **dynamic font loading** (`FontSettings.SetFontsFolder`) to support user‑uploaded fonts on the fly, or extend the warning handler to write entries into a central logging service like Serilog. The more you instrument font handling, the more reliable your document pipeline becomes.
 
