@@ -49,7 +49,6 @@
 | [احصل على قائمة الخطوط المتوفرة](./get-list-of-available-fonts/) اكتشف كيفية الحصول على قائمة بالخطوط المتاحة باستخدام Aspose.Words لـ .NET في هذا الدليل التعليمي المفصل خطوة بخطوة. طوّر مهاراتك في إدارة الخطوط. |
 | [تلقي إشعارات الخطوط](./receive-notifications-of-fonts/) |تعرف على كيفية تلقي إشعارات الخطوط المفقودة أو المستبدلة عند استخدام Aspose.Words لـ .NET. |
 | [تلقي إشعار تحذير](./receive-warning-notification/) |تعرف على كيفية تلقي إشعار تحذير عند استخدام Aspose.Words لـ .NET وإدارة أي مشكلات أو تحذيرات في مستنداتك. |
-| [كيفية تمكين التحذيرات واكتشاف الخطوط المفقودة عند تحميل ملفات DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | تعلم كيفية تمكين التحذيرات واكتشاف الخطوط المفقودة عند تحميل ملفات DOCX باستخدام Aspose.Words لـ .NET. |
 | [معالجة تحذيرات الخط في Aspose.Words – اكتشاف الخطوط المفقودة](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) |تعرف على كيفية التعامل مع تحذيرات الخطوط واكتشاف الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 | [إنشاء رد نداء تحذيري لتحميل مستندات Word – دليل كامل](./create-warning-callback-for-loading-word-documents-complete/) |تعلم كيفية إنشاء رد نداء تحذيري عند تحميل مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [مثال على مصدر خط Steam](./resource-steam-font-source-example/) |تعرف على كيفية استخدام مصدر خط Resource Stream لتحميل الخطوط المخصصة في Aspose.Words لـ .NET. |
