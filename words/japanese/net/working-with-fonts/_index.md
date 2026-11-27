@@ -74,7 +74,6 @@
 
 | [C# でフォント警告を取得する – 完全ガイド](./capture-font-warnings-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント警告を取得し処理する方法をステップバイステップで解説します。 |
 | [Word 文書の読み込み時に警告コールバックを作成する – 完全ガイド](./create-warning-callback-for-loading-word-documents-complete/) Aspose.Words for .NET を使用して、Word 文書の読み込み時に警告コールバックを設定し、問題を検出する方法をステップバイステップで学びます。 |
-| [C# でフォントを検出する方法 – 完全ガイド](./how-to-detect-fonts-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# でフォント検出を行う手順をステップバイステップで解説します。 |
 | [.NET でフォントをロードする方法 – フォント設定と警告の設定](./how-to-load-fonts-in-net-set-font-settings-warnings/) Aspose.Words for .NET を使用してフォントをロードし、フォント設定と警告を管理する方法をステップバイステップで学びます。 |
 | [Aspose.Words を使用して DOCX を PDF に保存し、欠落フォントを検出する](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) Aspose.Words for .NET を使用して、DOCX を PDF に変換し、欠落フォントを検出する手順をステップバイステップで学びます。 |
 
