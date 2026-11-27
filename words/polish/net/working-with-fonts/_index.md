@@ -58,7 +58,6 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czfontek
 | [c# ładowanie dokumentu Word – wykrywanie i obsługa brakujących czcionek](./c-load-word-document-detect-handle-missing-fonts/) | Dowiedz się, jak ładować dokumenty Word w C# i obsługiwać brakujące czcionki przy użyciu Aspose.Words dla .NET. |
 | [Rejestrowanie ostrzeżeń o podstawianiu czcionek – Kompletny przewodnik Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Dowiedz się, jak rejestrować ostrzeżenia o podstawianiu czcionek w Aspose.Words dla .NET. |
 | [Jak włączyć ostrzeżenia i wykrywać brakujące czcionki podczas ładowania plików DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Dowiedz się, jak włączać ostrzeżenia i wykrywać brakujące czcionki przy ładowaniu plików DOCX w Aspose.Words dla .NET. |
-| [Jak wykrywać czcionki w dokumentach Word – Kompletny przewodnik C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Dowiedz się, jak wykrywać czcionki w dokumentach Word przy użyciu Aspose.Words dla .NET w pełnym przewodniku C#. |
 | [Obsługa brakujących czcionek w C# z Aspose.Words – Kompletny przewodnik](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Dowiedz się, jak obsługiwać brakujące czcionki w aplikacjach C# przy użyciu Aspose.Words, krok po kroku. |
 | [Włącz ostrzeżenia czcionek w Aspose.Words – Kompletny przewodnik C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Dowiedz się, jak włączyć ostrzeżenia czcionek w Aspose.Words dla .NET przy użyciu C#. |
 

@@ -61,7 +61,6 @@
 | [كيفية تحميل ملف DOCX واكتشاف الخطوط المفقودة – دليل C# كامل](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) |تعلم كيفية تحميل مستندات DOCX واكتشاف الخطوط المفقودة باستخدام Aspose.Words لـ .NET في دليل C# خطوة بخطوة. |
 | [c# تحميل مستند Word – اكتشاف ومعالجة الخطوط المفقودة](./c-load-word-document-detect-handle-missing-fonts/) |تعلم كيفية تحميل مستند Word واكتشاف الخطوط المفقودة ومعالجتها باستخدام Aspose.Words لـ .NET. |
 | [تسجيل تحذيرات استبدال الخط – دليل Aspose.Words الكامل](./log-font-substitution-warnings-complete-aspose-words-guide/) |تعرف على كيفية تسجيل تحذيرات استبدال الخط في مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
-| [كيفية اكتشاف الخطوط في مستندات Word – دليل C# كامل](./how-to-detect-fonts-in-word-documents-complete-c-guide/) |تعلم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لـ .NET عبر دليل شامل خطوة بخطوة. |
 | [كيفية التقاط التحذيرات في Aspose.Words – دليل شامل](./how-to-capture-warnings-in-aspose-words-complete-guide/) |تعرف على كيفية التقاط إشعارات التحذير في Aspose.Words باستخدام .NET خطوة بخطوة. |
 | [كيفية استخدام FontSettings للتعامل مع الخطوط المفقودة في Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |تعلم كيفية تكوين FontSettings لمعالجة الخطوط المفقودة وضمان عرض المستندات بشكل صحيح باستخدام Aspose.Words لـ .NET. |
 | [كيفية التقاط التحذيرات – تعيين إعدادات الخط الافتراضية](./how-to-capture-warnings-set-default-font-settings/) |تعلم كيفية التقاط التحذيرات وتعيين إعدادات الخط الافتراضية باستخدام Aspose.Words لـ .NET. |
