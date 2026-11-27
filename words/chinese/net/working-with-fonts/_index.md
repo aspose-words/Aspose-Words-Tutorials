@@ -74,7 +74,6 @@
 | [处理 Aspose.Words 中的字体替换 – 完整编程指南](./handle-font-substitution-in-aspose-words-complete-programmin/) 通过完整的编程指南，学习在 Aspose.Words 中处理字体替换的所有步骤。|
 | [在 Aspose.Words 中启用字体警告 – 完整 C# 指南](./enable-font-warnings-in-aspose-words-complete-c-guide/) 通过本分步指南学习如何在 Aspose.Words for .NET 中启用字体警告，确保文档字体问题得到及时提示。|
 | [如何在 C# 中检测字体 – 完整指南](./how-to-detect-fonts-in-c-complete-guide/) 通过本完整指南学习如何使用 Aspose.Words for .NET 在 C# 中检测文档使用的字体。|
-| [如何检测 Aspose.Words 中的字体 – 完整指南](./how-to-detect-fonts-in-aspose-words-complete-guide/) 通过本完整指南学习如何在 Aspose.Words for .NET 中检测文档使用的字体，帮助您进行字体管理和兼容性检查。|
 | [如何设置 FontSettings – 处理缺失字体](./how-to-set-fontsettings-handle-missing-fonts/) 学习如何使用 Aspose.Words for .NET 设置 FontSettings 以处理缺失的字体，确保文档渲染完整。|
 | [如何使用 IWarningCallback – 检测缺失字体（Aspose.Words）](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) 学习如何实现 IWarningCallback 接口，以捕获并处理 Aspose.Words 中的缺失字体警告，确保文档完整。|
 | [使用 Aspose.Words 将 docx 保存为 pdf 并检测缺失字体](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) 通过本分步教程学习如何使用 Aspose.Words 将 DOCX 转换为 PDF 并检测缺失的字体，确保文档完整呈现。|
