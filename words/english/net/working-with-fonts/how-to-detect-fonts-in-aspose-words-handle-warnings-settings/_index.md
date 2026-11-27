@@ -51,7 +51,7 @@ Implement the `IWarningCallback` interface. Inside the `Warning` method, filter 
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 /// <summary>
 /// Receives warnings from Aspose.Words during document loading.
@@ -61,7 +61,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // Only act on font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             // This is where we **detect fonts** that were missing.
             Console.WriteLine($"Font substituted: {info.Description}");
@@ -121,7 +121,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             Substitutions.Add(info.Description);
             Console.WriteLine($"Font substituted: {info.Description}");
@@ -160,7 +160,7 @@ That snippet demonstrates **how to handle warnings** in a deterministic way, giv
 You can add conditional logic inside `Warning` and simply return without logging for fonts you consider acceptable.
 
 **Can I suppress all warnings and just get a boolean result?**  
-Yes—set `loadOptions.WarningCallback = null` and then inspect `doc.FontInfo` after loading (though you’ll lose the detailed log).
+Yes—set `loadOptions.WarningCallback = null` and then inspect `doc.FontInfos` after loading (though you’ll lose the detailed log).
 
 **Does this work with PDF conversion?**  
 Absolutely. The same warning mechanism fires when you call `doc.Save("out.pdf")`. The callback will capture any font swaps performed during the conversion step.
