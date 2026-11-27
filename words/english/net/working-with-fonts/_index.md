@@ -77,7 +77,6 @@ doc.Save("Output.docx");
 | [Log Font Substitution Warnings – Complete Aspose.Words Guide](./log-font-substitution-warnings-complete-aspose-words-guide/) | Learn how to log font substitution warnings in Aspose.Words for .NET with this comprehensive guide. |
 | [Capture Font Warnings in C# – Complete Guide](./capture-font-warnings-in-c-complete-guide/) | Learn how to capture font warnings in Aspose.Words for .NET using C# with this comprehensive step-by-step guide. |
 | [How to Capture Warnings – Set Default Font Settings](./how-to-capture-warnings-set-default-font-settings/) | Learn how to capture warnings and set default font settings in Aspose.Words for .NET with a clear, step-by-step guide. |
-| [how to handle fonts in .NET – detect missing fonts](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Learn how to handle fonts in .NET and detect missing fonts using Aspose.Words with a clear step-by-step guide. |
 | [How to Capture Warnings in Aspose.Words – Complete C# Guide](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Learn how to capture warning notifications in Aspose.Words for .NET with this comprehensive C# guide. |
 | [How to Set FontSettings – Handle Missing Fonts](./how-to-set-fontsettings-handle-missing-fonts/) | Learn how to set FontSettings to handle missing fonts in Aspose.Words for .NET with a clear step-by-step guide. |
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
