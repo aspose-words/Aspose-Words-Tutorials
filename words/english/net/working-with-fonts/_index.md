@@ -70,7 +70,6 @@ doc.Save("Output.docx");
 | [Handle Font Warnings in Aspose.Words – Detect Missing Fonts](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Learn how to detect missing fonts and handle font warnings in Aspose.Words for .NET with this step-by-step tutorial. |
 | [How to Detect Fonts in C# – Complete Guide](./how-to-detect-fonts-in-c-complete-guide/) | Learn how to detect fonts in Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
-| [How to Detect Fonts in C# – Use Callback with Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Learn how to detect fonts using a callback in Aspose.Words for .NET with C# in this step-by-step tutorial. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [Set warning callback in C# – Complete Guide to Font Handling](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Learn how to set a warning callback in Aspose.Words for .NET using C# to handle font warnings. |
 | [How to Use IWarningCallback – Detect Missing Fonts with Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Learn how to implement IWarningCallback to detect missing fonts in Word documents using Aspose.Words for .NET. |
