@@ -49,7 +49,7 @@ You’ll also learn how to **edit footnote separator** and the related **change 
 By the end of this guide you will be able to:
 
 * Load an existing *.docx* file that contains footnotes and endnotes.  
-* Access the separator nodes for footnotes, footnote continuations, and endnotes.  
+* Access the separator stories for footnotes, footnote continuations, and endnotes.  
 * Replace the separator character (for example, change the default line to an asterisk).  
 * Save the modified document without losing any other content.  
 
@@ -62,7 +62,7 @@ The tutorial assumes you have a basic understanding of C# and have installed the
 | Requirement | Reason |
 |-------------|--------|
 | .NET 6.0+ or .NET Framework 4.7.2+ | Required runtime for Aspose.Words |
-| Aspose.Words for .NET library | Provides the `Document` and `FootnoteOptions` APIs |
+| Aspose.Words for .NET library | Provides the `Document` API and footnote separator handling |
 | An input Word file (`input.docx`) with at least one footnote or endnote | Demonstrates the separator change |
 
 You can add Aspose.Words to your project with the following CLI command:
@@ -79,6 +79,7 @@ The first operation is to read the source file into a `Document` object. This ob
 
 ```csharp
 using Aspose.Words;
+using Aspose.Words.Notes;   // For FootnoteSeparatorType
 using Aspose.Words.Drawing;
 using Aspose.Words.Tables;
 
@@ -90,40 +91,35 @@ Document document = new Document(@"C:\Docs\input.docx");
 
 ---
 
-## Step 2: Access the footnote and endnote separator nodes
+## Step 2: Access the footnote and endnote separator stories
 
-`Document.FootnoteOptions` exposes three separator nodes:
-
-* `Separator` – the line that appears after the footnote collection on the first page.  
-* `ContinuationSeparator` – the line used when footnotes continue onto the next page.  
-* `EndnoteSeparator` – the line that separates the main text from the endnote list.
-
-You retrieve these nodes as generic `Node` objects, then cast them to `Run` to modify the text.
+`Document.FootnoteSeparators` provides a collection of the separator stories used by footnotes and endnotes. Each separator is identified by a `FootnoteSeparatorType` value.
 
 ```csharp
-// Retrieve the three separator nodes.
-Node footnoteSeparator = document.FootnoteOptions.Separator;
-Node footnoteContinuation = document.FootnoteOptions.ContinuationSeparator;
-Node endnoteSeparator = document.FootnoteOptions.EndnoteSeparator;
+using Aspose.Words.Notes;
+// Retrieve the separator stories.
+FootnoteSeparator footnoteSeparator          = document.FootnoteSeparators[FootnoteSeparatorType.FootnoteSeparator];
+FootnoteSeparator footnoteContinuationSeparator = document.FootnoteSeparators[FootnoteSeparatorType.FootnoteContinuationSeparator];
+FootnoteSeparator endnoteSeparator           = document.FootnoteSeparators[FootnoteSeparatorType.EndnoteSeparator];
 ```
 
-**Why this matters:** These nodes are the only places where the visual separator character lives. Changing any other node (e.g., a regular paragraph) will not affect the footnote formatting.
+**Why this matters:** These stories contain the visual separator characters (usually a line) that appear in the document. Modifying the text inside them changes the displayed separator.
 
 ---
 
 ## Step 3: Change the footnote separator character
 
-The most common requirement is to replace the default line with a symbol such as an asterisk (`*`). Because the separator is stored as a `Run`, you can safely modify its `Text` property.
+The separator is stored as a `Run` inside the first paragraph of the separator story. You can safely modify its `Text` property.
 
 ```csharp
 // Change the primary footnote separator to an asterisk.
-if (footnoteSeparator is Run footnoteRun)
+if (footnoteSeparator.FirstParagraph.FirstChild is Run footnoteRun)
 {
     footnoteRun.Text = "*";
 }
 
 // Optionally, change the continuation separator as well.
-if (footnoteContinuation is Run continuationRun)
+if (footnoteContinuationSeparator.FirstParagraph.FirstChild is Run continuationRun)
 {
     continuationRun.Text = "*";
 }
@@ -135,11 +131,11 @@ if (footnoteContinuation is Run continuationRun)
 
 ## Step 4: Change the endnote separator (optional)
 
-If you also need to **change endnote separator**, the process mirrors the footnote change. Replace the text of `endnoteSeparator` with your desired character.
+If you also need to **change endnote separator**, the process mirrors the footnote change. Replace the text of the endnote separator story with your desired character.
 
 ```csharp
 // Change the endnote separator to a dash.
-if (endnoteSeparator is Run endnoteRun)
+if (endnoteSeparator.FirstParagraph.FirstChild is Run endnoteRun)
 {
     endnoteRun.Text = "-";
 }
@@ -169,6 +165,7 @@ Putting all the pieces together, here is a self‑contained console application 
 ```csharp
 using System;
 using Aspose.Words;
+using Aspose.Words.Notes;   // For FootnoteSeparatorType
 
 namespace FootnoteSeparatorDemo
 {
@@ -180,21 +177,21 @@ namespace FootnoteSeparatorDemo
             string inputPath = @"C:\Docs\input.docx";
             Document doc = new Document(inputPath);
 
-            // 2️⃣ Access separator nodes.
-            Node footnoteSep = doc.FootnoteOptions.Separator;
-            Node footnoteCont = doc.FootnoteOptions.ContinuationSeparator;
-            Node endnoteSep = doc.FootnoteOptions.EndnoteSeparator;
+            // 2️⃣ Access separator stories.
+            FootnoteSeparator footnoteSep = doc.FootnoteSeparators[FootnoteSeparatorType.FootnoteSeparator];
+            FootnoteSeparator footnoteContSep = doc.FootnoteSeparators[FootnoteSeparatorType.FootnoteContinuationSeparator];
+            FootnoteSeparator endnoteSep = doc.FootnoteSeparators[FootnoteSeparatorType.EndnoteSeparator];
 
             // 3️⃣ Change footnote separator to an asterisk.
-            if (footnoteSep is Run footnoteRun)
+            if (footnoteSep.FirstParagraph.FirstChild is Run footnoteRun)
                 footnoteRun.Text = "*";
 
             // Optional: also change the continuation separator.
-            if (footnoteCont is Run contRun)
+            if (footnoteContSep.FirstParagraph.FirstChild is Run contRun)
                 contRun.Text = "*";
 
             // 4️⃣ Change endnote separator to a dash.
-            if (endnoteSep is Run endnoteRun)
+            if (endnoteSep.FirstParagraph.FirstChild is Run endnoteRun)
                 endnoteRun.Text = "-";
 
             // 5️⃣ Save the result.
@@ -215,21 +212,18 @@ namespace FootnoteSeparatorDemo
 
 | Question | Answer |
 |----------|--------|
-| **What if the document has no footnotes?** | `FootnoteOptions.Separator` still returns a `Run` node, but its text may be empty. The code safely checks the node type before modifying it. |
+| **What if the document has no footnotes?** | `FootnoteSeparators` always exist, but the separator story may contain no runs or its text may be empty. The code safely checks the node type before modifying it. |
 | **Can I use a multi‑character string (e.g., "***")?** | Yes. The `Run.Text` property accepts any string, including Unicode characters. |
 | **Will changing the separator affect existing footnote numbering?** | No. The separator is independent of the numbering scheme. |
-| **Do I need to dispose of the `Document` object?** | `Document` implements `IDisposable` implicitly via `Node`. In a short‑lived console app it's optional, but for long‑running services you can wrap it in a `using` block. |
-| **How does this work with .NET Core vs .NET Framework?** | The API is identical across runtimes; only the target framework version matters (must be supported by the Aspose.Words package). |
-
-**Pro tip:** If you need to apply different separators for different sections, you can iterate through `doc.GetChildNodes(NodeType.Footnote, true)` and adjust each footnote’s `Separator` property individually. This is more advanced but useful for complex documents.
+| **How does this work with .NET Core vs .NET Framework?** | The API is the same across supported runtimes; you only need a version of Aspose.Words that supports your target framework. |
 
 ---
 
 ## Conclusion
 
-You now know how to **change footnote separator** and **change endnote separator** in a Word file using Aspose.Words for C#. The guide covered loading the document, accessing the relevant separator nodes, modifying their text, and saving the result—all in a single, self‑contained program.
+You now know how to **change footnote separator** and **change endnote separator** in a Word file using Aspose.Words for C#. The guide covered loading the document, accessing the relevant separator stories, modifying their text, and saving the result—all in a single, self‑contained program.
 
-From here you can explore related topics such as **edit footnote separator style**, customizing footnote numbering, or applying conditional formatting based on page layout. The same pattern (retrieve a node, cast to `Run`, modify `Text`) works for many other Word‑processing scenarios.
+From here you can explore related topics such as **edit footnote separator style**, customizing footnote numbering, or applying conditional formatting based on page layout. The same pattern (retrieve a story, locate its `Run`, modify `Text`) works for many other Word‑processing scenarios.
 
 Happy coding, and feel free to experiment with different symbols or even embed images as separators for a truly unique document layout!
 
