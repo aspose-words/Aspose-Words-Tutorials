@@ -58,7 +58,6 @@
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 | [จัดการแบบอักษรที่หายไปใน C# ด้วย Aspose.Words – คู่มือเต็ม](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | เรียนรู้วิธีจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็ม |
 
-| [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words |
 | [สร้างการเรียกกลับคำเตือนสำหรับการโหลดเอกสาร Word – คู่มือฉบับสมบูรณ์](./create-warning-callback-for-loading-word-documents-complete/) | เรียนรู้วิธีสร้าง callback คำเตือนเมื่อโหลดเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีจับการแจ้งเตือนใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจับการแจ้งเตือนใน Aspose.Words ด้วย C# อย่างครบถ้วนในบทช่วยสอนนี้ |
