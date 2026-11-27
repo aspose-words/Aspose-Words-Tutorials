@@ -85,7 +85,6 @@ doc.Save("Output.docx");
 | [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Learn how to load a DOCX file and detect missing fonts using Aspose.Words for .NET in this complete C# guide. |
 | [c# load word document – detect & handle missing fonts](./c-load-word-document-detect-handle-missing-fonts/) | Learn how to load a Word document and detect & handle missing fonts using Aspose.Words for .NET. |
 | [Handle Missing Fonts in C# with Aspose.Words – Complete Guide](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Learn how to handle missing fonts in Word documents using Aspose.Words for .NET with a comprehensive C# guide. |
-| [How to Use FontSettings to Handle Missing Fonts in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Learn how to use FontSettings to manage missing fonts in Aspose.Words for .NET with a step-by-step guide. |
 | [Create warning callback for loading Word documents – Complete Guide](./create-warning-callback-for-loading-word-documents-complete/) | Learn how to create a warning callback for loading Word documents using Aspose.Words for .NET. Follow the complete step-by-step guide. |
 | [Aspose Font Substitution: Detect Missing Fonts in Word Docs](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Learn how to detect missing fonts in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 
