@@ -52,7 +52,6 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Jak detekovat písma v Aspose.Words – Kompletní průvodce](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Naučte se, jak v Aspose.Words detekovat použité písma v dokumentu a získat podrobné informace o nich. |
 | [Příklad zdroje písma Steam](./resource-steam-font-source-example/) | Naučte se, jak používat zdroj písem Resource Stream k načtení vlastních písem do Aspose.Words pro .NET. |
 | [Získat substituci bez přípon](./get-substitution-without-suffixes/) | V tomto tutoriálu se naučíte, jak získat přepsání bez přípon v dokumentu Word pomocí Aspose.Words pro .NET. |
-| [Zachycení varování o písmu v C# – Kompletní programovací průvodce](./capture-font-warnings-in-c-complete-programming-guide/) | Naučte se, jak zachytit a zpracovat varování o písmu v Aspose.Words pro .NET pomocí C# v tomto podrobném průvodci. |
 | [Jak načíst DOCX v C# – Kompletní průvodce](./how-to-load-docx-in-c-complete-guide/) | Kompletní průvodce načítáním souborů DOCX v C# pomocí Aspose.Words pro .NET. |
 | [Jak detekovat písma v Aspose.Words – Zpracování varování a nastavení](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Naučte se, jak detekovat písma, zpracovávat varování a konfigurovat nastavení písem v Aspose.Words pro .NET. |
 | [Jak zacházet s fonty v .NET – detekovat chybějící fonty](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Naučte se, jak detekovat chybějící fonty v .NET pomocí Aspose.Words v tomto podrobném tutoriálu. |
