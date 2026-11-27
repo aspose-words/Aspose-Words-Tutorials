@@ -57,7 +57,6 @@
 | [संसाधन स्टीम फ़ॉन्ट स्रोत उदाहरण](./resource-steam-font-source-example/) | .NET के लिए Aspose.Words में कस्टम फ़ॉन्ट लोड करने के लिए संसाधन स्ट्रीम फ़ॉन्ट स्रोत का उपयोग करना सीखें। |
 | [प्रत्यय के बिना प्रतिस्थापन प्राप्त करें](./get-substitution-without-suffixes/) | इस ट्यूटोरियल में, Aspose.Words for .NET के साथ Word दस्तावेज़ में प्रत्यय रहित ओवरराइड प्राप्त करना सीखें। |
 | [C# में चेतावनी कॉलबैक सेट करें – फ़ॉन्ट हैंडलिंग के लिए पूर्ण गाइड](./set-warning-callback-in-c-complete-guide-to-font-handling/) | C# में चेतावनी कॉलबैक सेट करने की चरण-दर-चरण गाइड, फ़ॉन्ट हैंडलिंग समस्याओं को संभालने के लिए। |
-| [C# में DOCX लोड करने का तरीका – पूर्ण गाइड](./how-to-load-docx-in-c-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX फ़ाइल लोड करने की पूरी प्रक्रिया सीखें। |
 | [Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ – चेतावनियों और सेटिंग्स को संभालें](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aspose.Words में फ़ॉन्ट पहचान, चेतावनी प्रबंधन और फ़ॉन्ट सेटिंग्स को कैसे संभालें, इस चरण-दर-चरण मार्गदर्शिका में सीखें। |
 | [Aspose.Words में फ़ॉन्ट प्रतिस्थापन को संभालें – पूर्ण प्रोग्रामिंग गाइड](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aspose.Words में फ़ॉन्ट प्रतिस्थापन को प्रबंधित करने के लिए पूर्ण चरण‑दर‑चरण प्रोग्रामिंग गाइड। |
 | [Aspose.Words का उपयोग करके docx को pdf के रूप में सहेजें और लापता फ़ॉन्ट्स का पता लगाएँ](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | .NET के लिए Aspose.Words का उपयोग करके docx को PDF में बदलें और लापता फ़ॉन्ट्स की पहचान करें। |
