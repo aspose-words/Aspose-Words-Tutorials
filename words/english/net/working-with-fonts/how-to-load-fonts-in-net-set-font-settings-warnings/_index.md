@@ -127,7 +127,7 @@ Sometimes you want to double‑check which fonts were actually resolved. Aspose.
 
 ```csharp
         // Step 4: (Optional) List all font sources that were used
-        FontSourcesCollection sources = loadOptions.FontSettings.GetFontSources();
+        FontSourceBase[] sources = loadOptions.FontSettings.GetFontsSources();
         Console.WriteLine("\nLoaded font sources:");
         foreach (var source in sources)
             Console.WriteLine($"- {source.GetType().Name}");
@@ -192,7 +192,7 @@ class Program
         Document doc = new Document(@"C:\Docs\DocWithMissingFont.docx", loadOptions);
 
         // 4️⃣ (Optional) List loaded font sources for debugging
-        FontSourcesCollection sources = loadOptions.FontSettings.GetFontSources();
+        FontSourceBase[] sources = loadOptions.FontSettings.GetFontsSources();
         Console.WriteLine("\nLoaded font sources:");
         foreach (var source in sources)
             Console.WriteLine($"- {source.GetType().Name}");
@@ -218,8 +218,6 @@ Loaded font sources:
 
 If you place the missing `Papyrus.ttf` file into `C:\MyCustomFonts` and run the program again, the warning line disappears, confirming that the custom folder was correctly consulted.
 
----
-
 ## Common Questions & Gotchas
 
 | Question | Answer |
@@ -240,7 +238,6 @@ We’ve covered **how to load fonts** in .NET by:
 3. **How to handle warnings** with a `WarningCallback` that prints font substitution messages.  
 4. **Detect missing fonts** by filtering `WarningType.FontSubstitution`.  
 5. Saving the document, confirming that the fallback
-
 
 ## What Should You Learn Next?
 
