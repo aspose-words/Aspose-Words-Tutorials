@@ -71,10 +71,13 @@ var fontSettings = new FontSettings();
 fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
 
 // You can also embed a default font to use when nothing matches
-fontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+
+// Prepare a collection to capture warnings during loading
+var warnings = new WarningInfoCollection();
 
 // Wrap the settings into LoadOptions so Aspose.Words uses them when loading
-var loadOptions = new LoadOptions { FontSettings = fontSettings };
+var loadOptions = new LoadOptions { FontSettings = fontSettings, WarningCallback = warnings };
 ```
 
 Why bother? If the document references *Comic Sans* but your server only has *Calibri*, Aspose.Words will substitute *Calibri* and raise a warning. By configuring the search path, you reduce unwanted surprises.
@@ -95,13 +98,13 @@ If the file can’t be found or is corrupted, an exception is thrown—so you mi
 
 ---
 
-## Step 4: Scan the Document Warnings for Font Substitutions
+## Step 4: Scan the Collected Warnings for Font Substitutions
 
 Aspose.Words collects a list of warnings while parsing. Among them, `FontSubstitutionWarning` tells you exactly which font was swapped.
 
 ```csharp
-// Step 4: Iterate over warnings and look for FontSubstitutionWarning instances
-foreach (WarningInfo warning in document.Warnings)
+// Step 4: Iterate over the collected warnings and look for FontSubstitutionWarning instances
+foreach (WarningInfo warning in warnings)
 {
     if (warning is FontSubstitutionWarning fontWarning)
     {
@@ -111,7 +114,7 @@ foreach (WarningInfo warning in document.Warnings)
 }
 ```
 
-The `Warnings` collection may also contain other items (e.g., `DocumentStructureWarning`). Filtering for `FontSubstitutionWarning` ensures we only report the **handle missing fonts** scenario we care about.
+The warnings collection may also contain other items (e.g., `DocumentStructureWarning`). Filtering for `FontSubstitutionWarning` ensures we only report the **handle missing fonts** scenario we care about.
 
 ---
 
@@ -132,10 +135,13 @@ class Program
         // 1️⃣ Prepare font settings (configure font settings)
         var fontSettings = new FontSettings();
         fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
-        fontSettings.SubstitutionSettings.DefaultFontName = "Arial";
+        fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 
-        // 2️⃣ Build load options with those settings
-        var loadOptions = new LoadOptions { FontSettings = fontSettings };
+        // Prepare a collection to capture warnings
+        var warnings = new WarningInfoCollection();
+
+        // 2️⃣ Build load options with those settings and the warning collector
+        var loadOptions = new LoadOptions { FontSettings = fontSettings, WarningCallback = warnings };
 
         // 3️⃣ Load the document (handle missing fonts gracefully)
         var docPath = @"C:\Docs\input.docx";
@@ -152,7 +158,7 @@ class Program
 
         // 4️⃣ Scan warnings for font substitution events
         bool anySubstitutions = false;
-        foreach (WarningInfo warning in document.Warnings)
+        foreach (WarningInfo warning in warnings)
         {
             if (warning is FontSubstitutionWarning fontWarning)
             {
@@ -190,7 +196,7 @@ That simply means every referenced font was located in the search folders you co
 
 ### Can I **log** warnings to a file instead of the console?
 
-Absolutely. Replace the `Console.WriteLine` calls with a logger of your choice (Serilog, NLog, etc.). The `WarningInfo` object also exposes `WarningType` and `WarningMessage` if you need more detail.
+Absolutely. Replace the `Console.WriteLine` calls with a logger of your choice (Serilog, NLog, etc.). The `WarningInfo` object also exposes `WarningType` and `Description` if you need more detail.
 
 ### How do I **ignore** certain fonts, like a corporate brand font that should never be swapped?
 
