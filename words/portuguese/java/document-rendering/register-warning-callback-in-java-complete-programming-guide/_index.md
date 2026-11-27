@@ -231,7 +231,6 @@ Boa codificação, e que seus PDFs sempre renderizem exatamente como pretendido!
 
 - [Capturar Avisos de Substituição de Fonte em Java com Aspose.Words – Guia Completo](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Callback de Aviso em Documento Word](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [Como Carregar DOCX e Detectar Fontes Ausentes – Guia Completo em C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

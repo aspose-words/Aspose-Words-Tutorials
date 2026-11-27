@@ -206,7 +206,6 @@ Viel Spaß beim Coden, und mögen Ihre PDFs stets mit den gewünschten Schriftar
 
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, damit Sie zusätzliche API‑Funktionen meistern und alternative Implementierungsansätze in Ihren eigenen Projekten erkunden können.
 
-- [Wie man DOCX lädt und fehlende Schriftarten erkennt – Vollständiger C#‑Leitfaden](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [PDF in Word‑Format (Docx) speichern](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

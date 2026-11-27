@@ -205,7 +205,6 @@ Sağ‑sol (RTL) betikler ya da emoji yazı tipleri gibi köşe durumlarıyla il
 ## Bir Sonraki Öğrenmeniz Gerekenler
 
 - [Aspose.Words’ta Yazı Tiplerini Algılama – Uyarılar ve Ayarlar](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [DOCX Yükleme ve Eksik Yazı Tiplerini Algılama – Tam C# Kılavuzu](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

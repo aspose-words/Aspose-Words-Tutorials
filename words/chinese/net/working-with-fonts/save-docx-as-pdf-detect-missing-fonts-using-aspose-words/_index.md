@@ -202,7 +202,6 @@ namespace WordToPdfWithFontTracking
 
 以下教程涵盖与本指南技术紧密相关的主题，帮助你进一步掌握 API 的其他功能，并在自己的项目中探索替代实现方式。每篇资源都提供完整可运行的代码示例和逐步解释。
 
-- [如何加载 DOCX 并检测缺失字体 – 完整 C# 指南](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [将 PDF 保存为 Word 格式（Docx）](/words/english/net/basic-conversions/pdf-to-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

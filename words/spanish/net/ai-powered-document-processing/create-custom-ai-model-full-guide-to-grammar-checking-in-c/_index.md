@@ -282,7 +282,6 @@ Pruébalo, ajusta los prompts y observa cómo tus documentos quedan libres de er
 Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
 
 - [Opciones de carga de Aspose – Cargar DOCX con configuración de fuentes personalizadas](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
-- [Cómo cargar DOCX y detectar fuentes faltantes – Guía completa en C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Convertir archivo Docx a Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

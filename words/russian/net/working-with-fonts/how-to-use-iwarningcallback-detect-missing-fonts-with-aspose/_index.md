@@ -205,7 +205,6 @@ File.AppendAllText("font-warnings.log", $"{DateTime.Now}: {info.Description}{Env
 
 Следующие руководства охватывают тесно связанные темы, которые опираются на техники, продемонстрированные в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
 
-- [Как загрузить DOCX и обнаружить отсутствующие шрифты – Полное руководство C#](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [Как обнаружить шрифты в Aspose.Words – Обработка предупреждений и настроек](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

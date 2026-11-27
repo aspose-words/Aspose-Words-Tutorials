@@ -237,7 +237,6 @@ Happy coding, and may your PDFs always render exactly as intended!
 
 - [Java’da Font İkame Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Word Belgesinde Uyarı Geri Çağrısı](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [DOCX Yükleme ve Eksik Fontları Algılama – Tam C# Kılavuzu](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -295,7 +295,6 @@ Console.WriteLine("Corrected document saved as output_corrected.docx");
 الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
 - [خيارات تحميل Aspose – تحميل DOCX بإعدادات خطوط مخصصة](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
-- [كيفية تحميل DOCX واكتشاف الخطوط المفقودة – دليل C# كامل](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [تحويل ملف Docx إلى Markdown](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

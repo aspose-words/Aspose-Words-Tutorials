@@ -204,7 +204,6 @@ Máte otázky ohledně okrajových případů, jako je zpracování skriptů zpr
 ## Co byste se měli naučit dál?
 
 - [Jak detekovat fonty v Aspose.Words – Zpracování varování a nastavení](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [Jak načíst DOCX a detekovat chybějící fonty – Kompletní C# průvodce](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
