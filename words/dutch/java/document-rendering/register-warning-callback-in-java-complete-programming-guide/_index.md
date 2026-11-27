@@ -237,7 +237,6 @@ Happy coding, en moge je PDF’s altijd exact renderen zoals bedoeld!
 
 - [Lettertype‑substitutie‑waarschuwingen vastleggen in Java met Aspose.Words – Complete gids](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Warning Callback in Word‑document](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [Hoe DOCX te laden en ontbrekende lettertypen te detecteren – Complete C#‑gids](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

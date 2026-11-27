@@ -237,7 +237,6 @@ Document loaded and saved successfully.
 
 - [จับคำเตือนการแทนที่แบบอักษรใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Warning Callback ในเอกสาร Word](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

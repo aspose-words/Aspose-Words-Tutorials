@@ -81,7 +81,6 @@ doc.Save("Output.docx");
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
 | [How to Load DOCX in C# – Complete Guide](./how-to-load-docx-in-c-complete-guide/) | Learn how to load DOCX files in C# using Aspose.Words for .NET with this comprehensive step-by-step guide. |
-| [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Learn how to load a DOCX file and detect missing fonts using Aspose.Words for .NET in this complete C# guide. |
 | [c# load word document – detect & handle missing fonts](./c-load-word-document-detect-handle-missing-fonts/) | Learn how to load a Word document and detect & handle missing fonts using Aspose.Words for .NET. |
 | [Handle Missing Fonts in C# with Aspose.Words – Complete Guide](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Learn how to handle missing fonts in Word documents using Aspose.Words for .NET with a comprehensive C# guide. |
 | [Create warning callback for loading Word documents – Complete Guide](./create-warning-callback-for-loading-word-documents-complete/) | Learn how to create a warning callback for loading Word documents using Aspose.Words for .NET. Follow the complete step-by-step guide. |

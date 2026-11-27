@@ -268,7 +268,6 @@ Document loaded successfully.
 บทแนะนำต่อไปนี้เกี่ยวข้องอย่างใกล้ชิดกับหัวข้อที่เราได้อธิบายไว้ในคู่มือนี้ โดยแต่ละแหล่งรวมตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโปรเจกต์ของคุณ
 
 - [วิธีตรวจจับฟอนต์ใน Aspose.Words – จัดการคำเตือนและการตั้งค่า](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [วิธีโหลด DOCX และตรวจจับฟอนต์ที่หายไป – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -262,7 +262,6 @@ Aspose.Words における **フォント置換の処理** に必要なすべて�
 以下のチュートリアルは、本ガイドで示したテクニックに密接に関連するテーマを扱っています。各リソースには完全なコード例とステップバイステップの解説が含まれており、追加の API 機能習得や代替実装アプローチの探求に役立ちます。
 
 - [Aspose.Words でフォントを検出する方法 – 警告と設定の処理](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [DOCX をロードして欠損フォントを検出する – 完全 C# ガイド](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

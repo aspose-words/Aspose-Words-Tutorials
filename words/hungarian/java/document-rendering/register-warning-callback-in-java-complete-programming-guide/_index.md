@@ -237,7 +237,6 @@ Boldog kódolást, és legyenek a PDF-jeid mindig pontosan úgy megjelenítve, a
 
 - [Betűkészlet helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words segítségével – Teljes útmutató](/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
 - [Figyelmeztető visszahívás Word dokumentumban](/words/english/net/programming-with-loadoptions/warning-callback/)
-- [Hogyan töltsünk be DOCX-et és észleljük a hiányzó betűkészleteket – Teljes C# útmutató](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

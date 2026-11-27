@@ -263,7 +263,6 @@ public class DocumentController : ControllerBase
 บทแนะนำต่อไปนี้เกี่ยวกับหัวข้อที่ใกล้เคียงและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ ทุกแหล่งข้อมูลมีโค้ดตัวอย่างทำงานเต็มรูปแบบพร้อมคำอธิบายทีละขั้นตอน เพื่อให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการทำงานอื่น ๆ ในโปรเจกต์ของคุณ
 
 - [วิธีตรวจจับฟอนต์ใน Aspose.Words – จัดการการเตือนและการตั้งค่า](/words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [วิธีโหลด DOCX และตรวจจับฟอนต์ที่หายไป – คู่มือ C# ฉบับสมบูรณ์](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

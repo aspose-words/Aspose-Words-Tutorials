@@ -292,7 +292,6 @@ Probieren Sie es aus, passen Sie die Prompts an und sehen Sie zu, wie Ihre Dokum
 Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [Aspose Load Options – DOCX mit benutzerdefinierten Schriftarteinstellungen laden](/words/english/net/programming-with-loadoptions/aspose-load-options-load-docx-with-custom-font-settings/)
-- [Wie man DOCX lädt und fehlende Schriftarten erkennt – vollständiger C#‑Leitfaden](/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/)
 - [DOCX‑Datei in Markdown konvertieren](/words/english/net/basic-conversions/docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
