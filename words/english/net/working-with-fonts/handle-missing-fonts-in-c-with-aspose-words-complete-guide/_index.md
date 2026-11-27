@@ -73,7 +73,7 @@ Aspose.Words raises a `WarningInfo` object for every non‑critical issue it enc
 ```csharp
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 public class FontWarningHandler : IWarningCallback
 {
@@ -81,7 +81,7 @@ public class FontWarningHandler : IWarningCallback
     public void Warning(WarningInfo info)
     {
         // We’re only interested in font‑substitution warnings.
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             // The Description property contains the name of the missing font and the substitute used.
             Console.WriteLine($"⚠️ Missing font detected: {info.Description}");
@@ -101,7 +101,7 @@ Now we tie the handler to the document‑loading process. `LoadOptions` lets you
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -161,7 +161,7 @@ public class FontWarningCollector : IWarningCallback
 
     public void Warning(WarningInfo info)
     {
-        if (info.Type == WarningType.FontSubstitution)
+        if (info.WarningType == WarningType.FontSubstitution)
         {
             string msg = $"Missing font: {info.Description}";
             Messages.Add(msg);
