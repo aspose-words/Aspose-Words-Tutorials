@@ -55,17 +55,18 @@ That one‑liner pulls the latest stable NuGet package. If you’re using a CI p
 
 ## Step 2 – Enable Detailed Font‑Substitution Warnings
 
-By default Aspose.Words only logs warnings internally. To surface them, you have to turn on the `FontSubstitutionWarnings` flag in a `LoadOptions` object.
+Aspose.Words reports warnings through an `IWarningCallback`. The easiest way to collect them is to use the built‑in `WarningInfoCollection`.
 
 ```csharp
-// Step 2: Create LoadOptions with font‑substitution warnings enabled
-var loadOptions = new Aspose.Words.LoadOptions
+// Step 2: Create LoadOptions and attach a warning collector
+var warningCollector = new Aspose.Words.WarningInfoCollection();
+var loadOptions = new Aspose.Words.Loading.LoadOptions
 {
-    FontSubstitutionWarnings = true
+    WarningCallback = warningCollector
 };
 ```
 
-**Why?** Without this flag the library will silently replace missing fonts with a fallback, and you’ll never know something changed. Enabling the flag tells the engine, “Hey, let me know when you do that.”
+**Why?** Without attaching a warning collector the library will still substitute missing fonts, but you won’t have a programmatic way to see which fonts were affected.
 
 ## Step 3 – Load the DOCX File
 
@@ -79,15 +80,15 @@ var document = new Aspose.Words.Document(docPath, loadOptions);
 
 If the file can’t be found, an exception is thrown—so you might want to wrap this in a try/catch in production code. For the purpose of this guide we keep it simple.
 
-## Step 4 – Iterate Over WarningInfo to Find Font Substitutions
+## Step 4 – Iterate Over Collected Warnings to Find Font Substitutions
 
-Aspose.Words stores every warning in the `Document.WarningInfo` collection. We’ll filter for `WarningType.FontSubstitution` and print a friendly message.
+The `warningCollector` now contains every warning that occurred during loading. We’ll filter for `WarningType.FontSubstitution` and print a friendly message.
 
 ```csharp
 // Step 4: List all font‑substitution warnings
-foreach (var warning in document.WarningInfo)
+foreach (var warning in warningCollector)
 {
-    if (warning.Type == Aspose.Words.WarningType.FontSubstitution)
+    if (warning.WarningType == Aspose.Words.WarningType.FontSubstitution)
     {
         Console.WriteLine($"⚠️ Font substituted: {warning.Description}");
     }
@@ -109,21 +110,24 @@ Putting it all together, here’s a complete program you can copy‑paste into a
 // ------------------------------------------------------------
 using System;
 using Aspose.Words;
+using Aspose.Words.Loading;
+using Aspose.Words.Fonts;
 
 try
 {
-    // 1️⃣ Enable detailed font‑substitution warnings
-    var loadOptions = new LoadOptions { FontSubstitutionWarnings = true };
+    // 1️⃣ Attach a warning collector to capture font‑substitution warnings
+    var warningCollector = new WarningInfoCollection();
+    var loadOptions = new LoadOptions { WarningCallback = warningCollector };
 
     // 2️⃣ Load the Word document (adjust the path as needed)
     string docPath = @"YOUR_DIRECTORY/MissingFont.docx";
     var doc = new Document(docPath, loadOptions);
 
-    // 3️⃣ Walk through all warnings and print font‑substitution entries
+    // 3️⃣ Walk through the collected warnings and print font‑substitution entries
     bool anyMissing = false;
-    foreach (var warning in doc.WarningInfo)
+    foreach (var warning in warningCollector)
     {
-        if (warning.Type == WarningType.FontSubstitution)
+        if (warning.WarningType == WarningType.FontSubstitution)
         {
             anyMissing = true;
             Console.WriteLine($"⚠️ Font substituted: {warning.Description}");
@@ -166,24 +170,15 @@ using var stream = new FileStream(docPath, FileMode.Open);
 var docFromStream = new Document(stream, loadOptions);
 ```
 
-### Suppressing All Warnings Except Font Substitution
-
-If you only care about missing fonts, you can clear other warnings after loading:
-
-```csharp
-doc.WarningInfo.Clear(); // Clears everything
-foreach (var warning in doc.WarningInfo) { /* ... */ } // Now only font warnings remain
-```
-
 ### Dealing with Multiple Missing Fonts
 
 The loop we used already aggregates every substitution warning, so you’ll see a line for each missing font. In a large batch job you might want to collect them into a list and write to a CSV for later analysis.
 
 ```csharp
 var missingFonts = new List<string>();
-foreach (var warning in doc.WarningInfo)
+foreach (var warning in warningCollector)
 {
-    if (warning.Type == WarningType.FontSubstitution)
+    if (warning.WarningType == WarningType.FontSubstitution)
         missingFonts.Add(warning.Description);
 }
 File.WriteAllLines("MissingFontsReport.txt", missingFonts);
@@ -202,10 +197,8 @@ That way the resulting document won’t need the font installed on the target ma
 
 ## Pro Tips & Pitfalls
 
-- **Pro tip:** Always enable `FontSubstitutionWarnings` in a staging environment. It’s cheap to do and can save you from nasty layout surprises in production.
+- **Pro tip:** Always attach a warning collector in a staging environment. It’s cheap to do and can save you from nasty layout surprises in production.
 - **Watch out for:** case‑sensitive font names on Linux. “Times New Roman” vs “times new roman” can be treated as different fonts.
-- **Performance note:** Loading large DOCX files with warnings enabled adds a tiny overhead (≈2‑3 %). In a high‑throughput service you might want to toggle it per request instead of globally.
-- **Version check:** The code above works with Aspose.Words 23.10 and later. If you’re on an older version, the `WarningInfo` property may be named `Warnings`. Adjust accordingly.
 
 ## Conclusion
 
