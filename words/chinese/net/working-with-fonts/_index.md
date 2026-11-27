@@ -61,7 +61,6 @@
 | [加载 DOCX 文件时启用警告并检测缺失字体](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) 了解如何在使用 Aspose.Words for .NET 加载 DOCX 文件时启用警告并检测缺失的字体。|
 | [如何检测 Word 文档中的字体 – 完整 C# 指南](./how-to-detect-fonts-in-word-documents-complete-c-guide/) 通过完整的 C# 指南了解如何在 Word 文档中检测使用的字体。|
 | [在 Aspose.Words 中处理字体警告 – 检测缺失字体](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) 学习如何捕获并处理缺失字体警告，确保文档渲染一致。|
-| [处理 Aspose.Words 中缺失字体 – 完整 C# 指南](./handle-missing-fonts-in-aspose-words-complete-c-guide/) 了解如何在 Aspose.Words for .NET 中处理缺失字体，提供完整的 C# 示例和分步指南。|
 | [如何在 C# 中检测字体 – 使用回调与 Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) 通过本分步教程学习如何在 Aspose.Words for .NET 中使用回调检测字体。|
 | [保存 Word 文档 – 检测缺失字体 (Aspose.Words)](./save-word-document-detect-missing-fonts-with-aspose-words/) 通过本教程学习如何使用 Aspose.Words for .NET 保存 Word 文档并检测缺失的字体，确保文档完整性。|
 | [创建加载 Word 文档的警告回调 – 完整指南](./create-warning-callback-for-loading-word-documents-complete/) 了解如何在 Aspose.Words for .NET 中为加载 Word 文档创建警告回调，以捕获并处理警告信息。|
