@@ -101,7 +101,7 @@ After the load completes, your `warningCollector` now contains every warning tha
 foreach (WarningInfo warning in warningCollector)
 {
     // Only interested in font‑substitution warnings?
-    if (warning.Type == WarningType.FontSubstitution)
+    if (warning.WarningType == WarningType.FontSubstitution)
     {
         Console.WriteLine($"Font substituted: {warning.Description}");
     }
@@ -115,7 +115,7 @@ Font substituted: Font "Comic Sans MS" was not found. Substituted with "Arial".
 Font substituted: Font "Times New Roman" was not found. Substituted with "Liberation Serif".
 ```
 
-If you want *all* warnings, simply remove the `if` check or log `warning.Type` for each entry.
+If you want *all* warnings, simply remove the `if` check or log `warning.WarningType` for each entry.
 
 ---
 
@@ -128,7 +128,7 @@ Capturing warnings is useful, but often you need to **handle missing fonts** pro
 ```csharp
 // Define a fallback font that you know is available.
 FontSettings fontSettings = new FontSettings();
-fontSettings.SubstitutionSettings.FontSubstitutionRule.DefaultFontName = "Calibri";
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Calibri";
 
 // Apply the settings before loading (or after, if you reload).
 loadOptions.FontSettings = fontSettings;
@@ -148,7 +148,7 @@ loadOptions.FontSettings = fontSettings;
 
 This approach is handy when you distribute a specific corporate font with your application.
 
-> **Edge case:** Documents that already embed the required font will ignore the system substitution rules. In that scenario, the warning collection will be empty for that font, which is exactly what you want.
+> **Edge case:** Documents that already embed the required font will use the embedded font and will not emit a substitution warning, even if the font isn’t installed locally. In that scenario the warning collection will simply be empty for that font.
 
 ---
 
@@ -180,7 +180,7 @@ class Program
 
         // OPTIONAL: Set a global fallback font (e.g., Calibri).
         FontSettings fontSettings = new FontSettings();
-        fontSettings.SubstitutionSettings.FontSubstitutionRule.DefaultFontName = "Calibri";
+        fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Calibri";
         loadOptions.FontSettings = fontSettings;
 
         // 3️⃣ Load the document.
@@ -191,7 +191,7 @@ class Program
         Console.WriteLine("=== Font Substitution Warnings ===");
         foreach (WarningInfo warning in warningCollector)
         {
-            if (warning.Type == WarningType.FontSubstitution)
+            if (warning.WarningType == WarningType.FontSubstitution)
             {
                 Console.WriteLine($"⚠️ {warning.Description}");
             }
@@ -232,9 +232,7 @@ A: Implement a custom class that inherits `IWarningCallback` and filter inside t
 ## Pro Tips & Pitfalls
 
 - **Pro tip:** Always inspect the `Warning.Description` – it contains the exact font name that was missing. This can help you decide whether to ship the font with your app.  
-- **Watch out for embedded fonts:** If the source DOCX already embeds the needed font, Aspose.Words will not emit a substitution warning, even if the font isn’t installed locally.  
-- **Thread safety:** `WarningInfoCollection` isn’t thread‑safe. If you load multiple documents concurrently, give each thread its own collection.  
-- **Version check:** The warning API has been stable since Aspose.Words 20.8. Make sure you’re on a recent version to avoid missing newer warning types.
+- **Watch out for embedded fonts:** If the source DOCX already embeds the needed font, Aspose.Words will **not** emit a substitution warning, even if the font isn’t installed locally.  
 
 ---
 
