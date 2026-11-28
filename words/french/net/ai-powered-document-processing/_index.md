@@ -17,23 +17,23 @@
 
 ## Introduction
 
-En matière de traitement de documents, Aspose.Words pour .NET est une véritable mine d'or qui vous permettra de passer à la vitesse supérieure. Mais par où commencer ? Je vous rassure : parcourir ces tutoriels est un jeu d'enfant, même sans être un expert en informatique. Que vous souhaitiez résumer des documents, améliorer la mise en forme ou automatiser des tâches, nos tutoriels proposent des guides étape par étape, conçus sur mesure.
+En matière de traitement de documents, Aspose.Words pour .NET est une véritable mine d'or qui vous permettra de passer à la vitesse supérieure. Mais par où commencer ? Je vous rassure : parcourir ces tutoriels est un jeu d'enfant, même sans être un expert en informatique. Que vous souhaitiez résumer des documents, améliorer la mise en forme ou automatiser des tâches, nos tutoriels proposent des guides étape par étape, conçus sur mesure.
 
 ## Premiers pas avec les modèles d'IA
 
-Imaginez pouvoir résumer des documents en quelques clics ! Génial, non ? Commençons par le [Travailler avec un modèle d'IA](./working-with-ai-model/) Tutoriel : vous apprendrez à intégrer l'IA pour synthétiser efficacement vos documents grâce à Aspose.Words. C'est comme si un assistant personnel parcourait des montagnes de texte, identifiait l'essentiel et le condensait pour vous. Ce tutoriel propose une feuille de route simple pour mettre en œuvre efficacement des modèles d'IA. 
+Imaginez pouvoir résumer des documents en quelques clics ! Génial, non ? Commençons par le [Travailler avec un modèle d'IA](./working-with-ai-model/) Tutoriel : vous apprendrez à intégrer l'IA pour synthétiser efficacement vos documents grâce à Aspose.Words. C'est comme si un assistant personnel parcourait des montagnes de texte, identifiait l'essentiel et le condensait pour vous. Ce tutoriel propose une feuille de route simple pour mettre en œuvre efficacement des modèles d'IA. 
 
 ## Améliorez votre jeu avec Google AI
 
-Ensuite, nous avons le [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Tutoriel. Et voilà : l'IA de Google peut faire des merveilles en association avec Aspose.Words. Dans ce tutoriel, vous découvrirez comment exploiter la puissante IA de Google pour créer des résumés concis en toute simplicité. Imaginez : vous avez un long rapport à lire, mais avec un résumé généré en quelques secondes, vous pouvez vous concentrer sur vos décisions plutôt que de vous plonger dans d'innombrables pages. C'est l'efficacité à son paroxysme et une solution révolutionnaire pour les professionnels pressés !
+Ensuite, nous avons le [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Tutoriel. Et voilà : l'IA de Google peut faire des merveilles en association avec Aspose.Words. Dans ce tutoriel, vous découvrirez comment exploiter la puissante IA de Google pour créer des résumés concis en toute simplicité. Imaginez : vous avez un long rapport à lire, mais avec un résumé généré en quelques secondes, vous pouvez vous concentrer sur vos décisions plutôt que de vous plonger dans d'innombrables pages. C'est l'efficacité à son paroxysme et une solution révolutionnaire pour les professionnels pressés !
 
 ## OpenAI pour la synthèse de documents
 
-Avez-vous déjà rêvé de transformer vos longs documents en résumés courts et digestes ? [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) Ce tutoriel est la solution ! Il vous ouvre les portes de l'utilisation pratique des modèles OpenAI pour les tâches de synthèse. Considérez-le comme votre arme secrète dans le traitement de documents : il vous fera gagner du temps et vous évitera de manquer des informations cruciales.
+Avez-vous déjà rêvé de transformer vos longs documents en résumés courts et digestes ? [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) Ce tutoriel est la solution ! Il vous ouvre les portes de l'utilisation pratique des modèles OpenAI pour les tâches de synthèse. Considérez-le comme votre arme secrète dans le traitement de documents : il vous fera gagner du temps et vous évitera de manquer des informations cruciales.
 
 ## Maîtriser les techniques de résumé
 
-Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé](./working-with-summarize-options/) Tutoriel : nous approfondissons les différentes techniques de synthèse d'Aspose.Words. Chaque méthode est soigneusement conçue pour vous aider à optimiser votre flux de travail et à transformer des documents complexes en informations exploitables en un rien de temps. 
+Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé](./working-with-summarize-options/) Tutoriel : nous approfondissons les différentes techniques de synthèse d'Aspose.Words. Chaque méthode est soigneusement conçue pour vous aider à optimiser votre flux de travail et à transformer des documents complexes en informations exploitables en un rien de temps. 
 
  ## Tutoriels sur le traitement de documents alimenté par l'IA
 | Titre | Description |
@@ -53,6 +53,14 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment vérifier la grammaire avec Aspose.Words AI – Guide complet](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Découvrez comment utiliser l'IA d'Aspose.Words pour corriger la grammaire de vos documents Word rapidement et efficacement. |
 | [Résumer un document Word avec un LLM local – Guide étape par étape en C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Apprenez à résumer un document Word en C# en utilisant un modèle de langage local avec Aspose.Words. |
 | [Résumer du texte avec l'IA en C# – Guide complet de programmation](./summarize-text-with-ai-in-c-complete-programming-guide/) | Apprenez à résumer automatiquement du texte en C# en utilisant l'IA avec Aspose.Words, étape par étape. |
+| [Comment traduire un docx en français avec l'IA de Google](./how-to-translate-docx-to-french-using-google-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant l'IA de Google avec Aspose.Words. |
+| [Traduire un docx en français avec Aspose.Words.AI – Guide complet](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Apprenez à traduire automatiquement des fichiers DOCX en français à l'aide d'Aspose.Words.AI grâce à ce guide complet. |
+| [Comment vérifier la grammaire en C# avec Aspose.Words IA – Guide complet](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Apprenez à utiliser l'IA d'Aspose.Words pour vérifier la grammaire de vos documents C# et améliorer la qualité du texte. |
+| [Comment appeler CheckGrammar en C# – Guide complet](./how-to-call-checkgrammar-in-c-complete-guide/) | Apprenez à utiliser la méthode CheckGrammar d'Aspose.Words en C# pour corriger la grammaire de vos documents Word. |
+| [Comment réécrire un paragraphe avec un LLM local en C# – Guide complet](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Apprenez à réécrire des paragraphes en C# en utilisant un modèle de langage local, avec un guide complet pas à pas. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Apprenez à traduire automatiquement des fichiers DOCX en français en utilisant Aspose.Words et l'IA avec C#. |
+| **[Comment traduire un docx en français avec Aspose.Words IA – Guide étape par étape](./how-to-translate-docx-to-french-in-c-step-by-step-guide/)** | Apprenez à traduire automatiquement des fichiers DOCX en français avec Aspose.Words en C# grâce à ce guide étape par étape. |
 | [Créer un résumé de document en C# – Guide complet OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Apprenez à générer des résumés de documents avec OpenAI en C# grâce à Aspose.Words, étape par étape. |
 | [Résumer un document Word avec Aspose.Words AI – Guide complet](./summarize-word-document-with-aspose-words-ai-full-guide/) | Apprenez à résumer automatiquement des documents Word en utilisant l'IA d'Aspose.Words grâce à ce guide complet. |
 | [Synthèse de documents IA en C# – guide complet](./ai-document-summarization-in-c-complete-guide/) | Guide complet pour résumer des documents avec l'IA en C# en utilisant Aspose.Words. |
@@ -71,6 +79,23 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment résumer un document Word avec OpenAI en C#](./how-to-summarize-word-document-with-openai-in-c/) |  |
 | [Résumer un document Word avec l'API OpenAI en C#](./summarize-word-document-with-openai-api-using-c/) | Apprenez à résumer un document Word en C# en utilisant l'API OpenAI. |
 | [Comment traduire du texte avec l'API Google Translate en C# – guide étape par étape](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | Apprenez à traduire du texte en C# en utilisant l'API Google Translate, étape par étape. |
+| [Résumer un document Word avec l'IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Comparez OpenAI et Gemini pour résumer vos documents Word avec Aspose.Words pour .NET. |
+| [Résumer un document Word en C# – Guide complet alimenté par l'IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Apprenez à résumer automatiquement des documents Word en C# avec Aspose.Words et l'IA, étape par étape. |
+| [Comment résumer des fichiers docx avec Aspose.Words IA en C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Apprenez à résumer automatiquement des fichiers docx en C# avec l'IA d'Aspose.Words. |
+| [Comment vérifier la grammaire d'un DOCX avec Aspose.Words – utiliser gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Vérifiez la grammaire de vos fichiers DOCX en utilisant Aspose.Words et le modèle gpt‑4 turbo pour des corrections précises. |
+| [Comment vérifier la grammaire dans Word avec Aspose.Words IA – Guide complet](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Apprenez à utiliser l'IA d'Aspose.Words pour détecter et corriger les fautes de grammaire dans vos documents Word. |
+| [Comment charger un document Word en C# et réécrire un paragraphe avec l'IA](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Apprenez à charger un fichier Word en C# et à réécrire un paragraphe en utilisant l'IA d'Aspose.Words. |
+| [Comment vérifier la grammaire en C# – Guide complet pour les documents Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Apprenez à vérifier la grammaire des documents Word en C# avec Aspose.Words grâce à ce guide complet. |
+| [Résumer un document Word en C# – Guide complet utilisant Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Apprenez à résumer des documents Word en C# avec le modèle Claude d'Anthropic via Aspose.Words. |
+| [Résumer un document Word en C# avec un modèle GPT personnalisé – Guide complet](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Apprenez à résumer des documents Word en C# en utilisant un modèle GPT personnalisé avec Aspose.Words. |
+| [Comment réécrire du texte dans des documents Word avec Aspose.Words AI – Guide complet](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Apprenez à modifier automatiquement le texte des fichiers Word en utilisant l'IA d'Aspose.Words pour des révisions rapides et précises. |
+| [Vérifier la grammaire en C# avec Aspose.Words – Guide](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Apprenez à détecter et corriger les fautes de grammaire dans vos documents Word en C# grâce à Aspose.Words. |
+| [Comment utiliser Summarize dans Aspose.Words – Guide complet](./how-to-use-summarize-in-aspose-words-complete-guide/) | Apprenez à exploiter la fonction Summarize d'Aspose.Words pour résumer vos documents Word rapidement et efficacement. |
+| [Comment vérifier la grammaire dans Word avec C# – Guide complet](./how-to-check-grammar-in-word-with-c-complete-guide/) | Apprenez à utiliser Aspose.Words pour .NET afin de vérifier la grammaire des documents Word avec C#. |
+| [Créer un résumé avec l'IA – Tutoriel C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Apprenez à générer des résumés de documents Word avec l'IA en utilisant C# et Aspose.Words. |
+| [Comment vérifier la grammaire en C# avec Aspose.Words – Guide étape par étape](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Apprenez à vérifier la grammaire de vos documents C# avec Aspose.Words grâce à un guide détaillé étape par étape. |
+| [Traduire un docx en français avec Aspose.Words et l'API Google](./translate-docx-to-french-with-aspose-words-and-google-api/) | Apprenez à traduire des documents Word en français en utilisant Aspose.Words et l'API Google en quelques étapes simples. |
+| [Comment résumer un document Word en utilisant Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | Apprenez à résumer automatiquement un document Word avec la méthode Document.Summarize d'Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

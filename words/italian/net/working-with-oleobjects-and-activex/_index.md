@@ -39,6 +39,7 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Come creare un documento Word con un pulsante di comando ActiveX in C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Scopri come creare un documento Word con un pulsante di comando ActiveX usando C# e Aspose.Words per .NET. |
 | [Come creare un documento Word C# con un pulsante di comando ActiveX](./how-to-create-word-document-c-with-an-activex-command-button/) | Scopri come creare un documento Word in C# con un pulsante di comando ActiveX usando Aspose.Words per .NET. |
 | [Crea documento vuoto, aggiungi controllo ActiveX con riepilogo AI](./create-blank-document-add-activex-control-with-ai-summary/) | Crea un documento vuoto e inserisci un controllo ActiveX con riepilogo generato dall'IA usando Aspose.Words per .NET. |
+| [Crea documento vuoto e inserisci un pulsante ActiveX](./create-a-blank-word-document-and-insert-an-activex-button/) | Crea un documento Word vuoto e inserisci un pulsante ActiveX con Aspose.Words per .NET. |
 
 | [Inserisci esempio OleControlType.CommandButton in Word](./insert-olecontroltype-commandbutton-example-in-word/) | Scopri come inserire un controllo CommandButton OLE in un documento Word usando Aspose.Words per .NET. |
 | [Come creare un pulsante di comando ActiveX in Word utilizzando C#](./how-to-create-activex-command-button-in-word-using-c/) | Scopri come creare un pulsante di comando ActiveX in Word usando C# con Aspose.Words per .NET. |

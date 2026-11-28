@@ -1,0 +1,287 @@
+---
+category: general
+date: 2026-06-08
+description: Hogyan írjunk át egy bekezdést AI-val C#-ban az Aspose.Words és egy helyi
+  LLM végpont használatával. Tanulja meg, hogyan szerkessze programozottan a Word
+  dokumentumot tiszta kóddal.
+draft: false
+keywords:
+- how to rewrite paragraph
+- rewrite paragraph with ai
+- integrate local llm
+- edit word document programmatically
+- local llm endpoint
+language: hu
+og_description: Hogyan írjuk át a bekezdést AI segítségével C#-ban az Aspose.Words
+  és egy helyi LLM végpont használatával. Sajátítsd el a Word dokumentumok programozott
+  szerkesztését.
+og_title: Hogyan írjuk át a bekezdést AI-val C#-ban – Teljes útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: How to rewrite paragraph with AI in C# using Aspose.Words and a local
+    LLM endpoint. Learn to edit Word document programmatically with clear code.
+  headline: How to Rewrite Paragraph with AI in C# – Full Guide
+  type: TechArticle
+- description: How to rewrite paragraph with AI in C# using Aspose.Words and a local
+    LLM endpoint. Learn to edit Word document programmatically with clear code.
+  name: How to Rewrite Paragraph with AI in C# – Full Guide
+  steps:
+  - name: 1️⃣ Load the Source Document
+    text: First we need to open the Word file we want to touch. Aspose.Words makes
+      this a one‑liner.
+  - name: 2️⃣ Grab the Paragraph to Rewrite
+    text: We’re focusing on the very first paragraph, but you could loop over any
+      collection.
+  - name: 3️⃣ Build the AI Rewrite Request
+    text: Aspose.Words.AI ships with a convenient `AiRewriteRequest` class. We point
+      it at our **local llm endpoint**, supply a prompt, and tell it which model to
+      hit.
+  - name: 4️⃣ Send the Request & Replace the Text
+    text: Now the magic happens—Aspose sends the paragraph text to the LLM, receives
+      the rewritten version, and we swap it in.
+  - name: 5️⃣ Save the Modified Document
+    text: Finally we write the updated file back to disk. The same `Document.Save`
+      method works for DOCX, PDF, HTML, and more.
+  type: HowTo
+- questions:
+  - answer: Absolutely. Replace `LocalLlModel` with `OpenAiModel("gpt-4")` (or any
+      cloud provider) and supply your API key.
+    question: Can I use a remote LLM instead?
+  - answer: As shown earlier, clear `firstParagraph.Runs` and append a new `Run`.
+      This avoids style clashes.
+    question: What if the paragraph has more than one run?
+  - answer: Yes, each `AiRewriteRequest` creates its own HTTP client under the hood.
+      You can fire off multiple rewrites in parallel with `Task.WhenAll`.
+    question: Is the rewrite operation thread‑safe?
+  - answer: Loop over `document.FirstSection.Body.Paragraphs` and apply the same request.
+      Remember to respect rate limits of your **local llm endpoint**.
+    question: How do I rewrite *all* paragraphs?
+  - answer: The free trial works for development, but a license removes evaluation
+      watermarks and unlocks full performance.
+    question: Do I need a license for Aspose.Words?
+  type: FAQPage
+tags:
+- Aspose.Words
+- C#
+- AI
+- LLM
+title: Hogyan írjunk át bekezdést AI-val C#-ban – Teljes útmutató
+url: /hu/net/find-and-replace-text/how-to-rewrite-paragraph-with-ai-in-c-full-guide/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hogyan írjunk át bekezdést AI-val C#-ban
+
+Gondoltad már, hogy **hogyan írjunk át bekezdést** automatikusan anélkül, hogy magad nyitnád meg a Word-öt? Nem vagy egyedül. Sok automatizálási folyamatban egy mondatot kell átadni, új hangnemet adni neki, és visszahelyezni ugyanabba a DOCX fájlba – mindezt anélkül, hogy emberi kéz gépelne.
+
+Ebben az útmutatóban egy teljes, futtatható példán keresztül vezetünk végig, amely bemutatja, hogyan **írjunk át bekezdést** az Aspose.Words használatával, hogyan **írjunk át bekezdést AI-val** egy **helyi LLM végpont** meghívásával, és hogyan **szerkessz Word dokumentumot programozottan**. A végére egy önálló C# konzolalkalmazásod lesz, amely az *input.docx* első bekezdését formális stílusban átírja, és az eredményt *Rewritten.docx*-ként menti.
+
+> **Miért fontos?**  
+> A hangnem‑állítások automatizálása (formális → közvetlen, egyszerű → technikai) órákat takaríthat meg a kézi szerkesztésből, különösen szerződések, jelentések vagy e‑mail vázlatok tömeges generálásakor.
+
+## Előkövetelmények
+
+- .NET 6 SDK (vagy bármely friss .NET verzió)  
+- Visual Studio 2022 vagy VS Code – attól függően, melyiket részesíted előnyben  
+- Aspose.Words for .NET (ingyenes próba vagy licenc) – telepítés NuGet-en keresztül  
+- Helyileg futtatott LLM, amely az OpenAI‑kompatibilis API-t használja (pl. Ollama, Llama.cpp, vagy egy egyedi Flask wrapper), amely a `http://localhost:5000` címen hallgat  
+
+Ha ezek megvannak, készen állunk a mélyebb merülésre.
+
+## Hogyan írjunk át bekezdést AI-val – Lépésről‑lépésre
+
+Az alábbiakban öt egyértelmű lépésre bontjuk a folyamatot. Minden lépésnek saját H2 címe, egy tömör kódrészlete, és egy magyarázat van arról, **miért** csináljuk, amit csinálunk.
+
+### 1️⃣ A forrásdokumentum betöltése
+
+Először meg kell nyitnunk azt a Word fájlt, amelyet módosítani szeretnénk. Az Aspose.Words ezt egyetlen sorra csökkenti.
+
+```csharp
+using Aspose.Words;
+
+// Load the DOCX that contains the paragraph we’ll rewrite
+Document document = new Document("YOUR_DIRECTORY/input.docx");
+
+// Quick sanity check – print the original first paragraph
+Console.WriteLine("Original: " + document.FirstSection.Body.Paragraphs[0].GetText());
+```
+
+*Miért fontos:*  
+A `Document` osztály elrejti a teljes Office fájlformátumot, közvetlen hozzáférést biztosítva a szekciókhoz, törzsekhez és bekezdésekhez. Nincs COM interop, nincs Office telepítés szükséges – tökéletes szerver‑oldali feladatokhoz.
+
+### 2️⃣ A átírandó bekezdés lekérése
+
+Az első bekezdésre koncentrálunk, de bármely gyűjteményen végig is iterálhatsz.
+
+```csharp
+// Retrieve the first paragraph object
+Paragraph firstParagraph = document.FirstSection.Body.Paragraphs[0];
+```
+
+*Pro tipp:*  
+Ha több bekezdéshez kell **helyi LLM integrál** logikát alkalmazni, először tárold őket egy listában:
+
+```csharp
+var paragraphs = document.FirstSection.Body.Paragraphs
+                     .Where(p => !string.IsNullOrWhiteSpace(p.GetText()))
+                     .ToList();
+```
+
+Így később iterálhatsz anélkül, hogy újra megnyitnád a dokumentumot.
+
+### 3️⃣ Az AI átírási kérés felépítése
+
+Az Aspose.Words.AI egy kényelmes `AiRewriteRequest` osztállyal érkezik. Rámutatunk a **helyi LLM végpontra**, megadunk egy promptot, és megmondjuk, melyik modellt kell használni.
+
+```csharp
+using Aspose.Words.AI;
+
+// Construct the request that tells the LLM what we want
+AiRewriteRequest rewriteRequest = new AiRewriteRequest
+{
+    Prompt = "Rewrite this sentence in a formal tone.",
+    // The LocalLlModel class wraps any HTTP‑compatible LLM service
+    Model = new LocalLlModel("http://localhost:5000")
+};
+```
+
+*Miért elengedhetetlen:*  
+A `LocalLlModel` használatával **helyi LLM-et integrálunk** anélkül, hogy külső felhő‑API‑kra támaszkodnánk. Ez csökkenti a késleltetést, a data on‑prem marad, és elkerüli az API‑kulcsokkal kapcsolatos gondokat.
+
+### 4️⃣ Kérés elküldése és a szöveg cseréje
+
+Most történik a varázslat – az Aspose elküldi a bekezdés szövegét az LLM-nek, megkapja az átírt változatot, és mi kicseréljük.
+
+```csharp
+// Ask the LLM to rewrite the paragraph
+string rewrittenText = firstParagraph.Rewrite(rewriteRequest);
+
+// Replace the original run's text with the new content
+firstParagraph.Runs[0].Text = rewrittenText;
+
+// Log the outcome for verification
+Console.WriteLine("Rewritten: " + rewrittenText);
+```
+
+*Különleges eset kezelése:*  
+Ha a bekezdés több run‑t tartalmaz (különböző stílusok, mezők stb.), előbb érdemes törölni őket:
+
+```csharp
+firstParagraph.Runs.Clear();
+firstParagraph.AppendChild(new Run(document, rewrittenText));
+```
+
+Ez tiszta cserét garantál, különösen ha az eredeti félkövér vagy hiperhivatkozásokat tartalmaz, amelyeket nem kell megőrizni.
+
+### 5️⃣ A módosított dokumentum mentése
+
+Végül visszaírjuk a frissített fájlt a lemezre. Ugyanaz a `Document.Save` metódus működik DOCX, PDF, HTML és további formátumok esetén.
+
+```csharp
+// Persist the changes
+document.Save("YOUR_DIRECTORY/Rewritten.docx");
+
+// Optional: open the file automatically (Windows only)
+System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+{
+    FileName = "YOUR_DIRECTORY/Rewritten.docx",
+    UseShellExecute = true
+});
+```
+
+*Mire számíthatsz:*  
+Amikor megnyitod a *Rewritten.docx*-t, az első bekezdésnek most formális hangvételűnek kell lennie – pontosan ahogy a prompt kérte. Kézi másolás‑beillesztés nem szükséges.
+
+## Teljes működő példa
+
+Másold az alábbiakat egy új Console App-ba (`dotnet new console`), és nyomd meg az **F5**-öt. Győződj meg róla, hogy a NuGet csomagok `Aspose.Words` és `Aspose.Words.AI` telepítve vannak (`dotnet add package Aspose.Words` stb.).
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.AI;
+
+namespace ParagraphRewriteDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1️⃣ Load the source DOCX
+            Document document = new Document("YOUR_DIRECTORY/input.docx");
+            Console.WriteLine("Original: " + document.FirstSection.Body.Paragraphs[0].GetText());
+
+            // 2️⃣ Retrieve the first paragraph
+            Paragraph firstParagraph = document.FirstSection.Body.Paragraphs[0];
+
+            // 3️⃣ Prepare the rewrite request (local LLM endpoint)
+            AiRewriteRequest rewriteRequest = new AiRewriteRequest
+            {
+                Prompt = "Rewrite this sentence in a formal tone.",
+                Model = new LocalLlModel("http://localhost:5000")
+            };
+
+            // 4️⃣ Perform the rewrite and replace the text
+            string rewrittenText = firstParagraph.Rewrite(rewriteRequest);
+            firstParagraph.Runs[0].Text = rewrittenText;
+            Console.WriteLine("Rewritten: " + rewrittenText);
+
+            // 5️⃣ Save the updated document
+            document.Save("YOUR_DIRECTORY/Rewritten.docx");
+            Console.WriteLine("Document saved as Rewritten.docx");
+        }
+    }
+}
+```
+
+**Várható konzolkimenet** (feltételezve, hogy az eredeti mondat: “Hey, we need this ASAP!”):
+
+```
+Original: Hey, we need this ASAP!
+Rewritten: Please expedite this matter at your earliest convenience.
+Document saved as Rewritten.docx
+```
+
+Ha a **helyi LLM végpont** hibát ad vissza, ellenőrizd, hogy követi-e az OpenAI `/v1/completions` sémát (modell neve, temperature, max_tokens). Az Aspose.Words.AI megjeleníti a HTTP hibaüzenetet, így a hibakeresés egyszerű.
+
+## Gyakori kérdések és pro tippek
+
+- **Használhatok távoli LLM-et helyette?**  
+  Természetesen. Cseréld le a `LocalLlModel`-t `OpenAiModel("gpt-4")`-ra (vagy bármely felhőszolgáltatóra), és add meg az API kulcsodat.
+
+- **Mi van, ha a bekezdés több run‑t tartalmaz?**  
+  Ahogy korábban láttad, töröld a `firstParagraph.Runs`-t, és adj hozzá egy új `Run`-t. Ez elkerüli a stílusütközéseket.
+
+- **A átírási művelet szálbiztos?**  
+  Igen, minden `AiRewriteRequest` saját HTTP klienst hoz létre a háttérben. Több átírást is párhuzamosan indíthatsz a `Task.WhenAll` segítségével.
+
+- **Hogyan írjam át az *összes* bekezdést?**  
+  Iterálj a `document.FirstSection.Body.Paragraphs`-on, és alkalmazd ugyanazt a kérést. Ne feledd betartani a **helyi LLM végpont** sebességkorlátait.
+
+- **Szükségem van licencre az Aspose.Words-hoz?**  
+  Az ingyenes próba fejlesztéshez használható, de egy licenc eltávolítja a kiértékelési vízjeleket és feloldja a teljes teljesítményt.
+
+## Összegzés
+
+Most bemutattuk, **hogyan írjunk át bekezdést** az Aspose.Words, egy **helyi LLM végpont** és néhány hasznos C# trükk segítségével. A lényeges ötlet – egy bekezdést elküldeni egy AI modellnek, visszakapni egy kifinomult változatot, és visszahelyezni a Word fájlba – kiterjeszthető tömeges feldolgozásra, többnyelvű fordításra vagy akár összefoglalók generálására.
+
+Következő lépések? Próbáld megcserélni a promptot „Tedd ezt a mondatot lazábbá” vagy „Fordítsd le ezt a bekezdést franciára”. A pipeline‑t be is kötheted egy Azure Function-be vagy AWS Lambda-ba, hogy **szerkessz Word dokumentumot programozottan** valós időben.
+
+Van még olyan szituáció, ami érdekel? Írj egy megjegyzést, és jó kódolást!
+
+## Mit érdemes még megtanulni?
+
+Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a bemutatott technikákra épülnek. Minden forrás teljes működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
+
+- [Insert Inline Image in Word Document using Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
+- [Create a Word Document with Table Using Aspose.Words](/words/english/net/add-content-using-document-builder/build-table/)
+- [Create Word Document with Header and Footer Using Aspose.Words](/words/english/net/header-footer-formatting/create-header-footer/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -58,7 +58,7 @@
 | [دليل شامل لتلخيص المستندات بالذكاء الاصطناعي في C#](./ai-document-summarization-in-c-complete-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام الذكاء الاصطناعي في C# خطوة بخطوة. |
 | [إنشاء ملخص AI باستخدام C# – دليل خطوة بخطوة](./create-ai-summary-in-c-step-by-step-guide/) | دليل خطوة بخطوة لإنشاء ملخصات مستندات باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./translate-docx-to-french-with-ai-in-c/) | تعلم كيفية ترجمة مستندات docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
-| [تلخيص مستند Word باستخدام C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
+| [تلخيص مستند Word في C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
 | [كيفية ترجمة ملف DOCX إلى الفرنسية وأتمتة ترجمة المستند](./how-to-translate-docx-to-french-and-automate-document-transl/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية تلقائيًا باستخدام Aspose.Words ودمج نماذج الذكاء الاصطناعي. |
 | [دليل LLM المحلي – كيفية استدعاء نموذج LLM محلي وتشغيل فحص القواعد](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | تعلم كيفية استدعاء نموذج LLM محلي وإجراء فحص القواعد النحوية باستخدام Aspose.Words. |
 | [إنشاء تقرير ملخص في C# – دليل شامل خطوة بخطوة](./create-summary-report-in-c-complete-step-by-step-guide/) | تعلم كيفية إنشاء تقرير ملخص باستخدام Aspose.Words لـ .NET بلغة C# خطوة بخطوة. |
@@ -70,6 +70,33 @@
 | [كيفية تلخيص مستند Word باستخدام OpenAI في C#](./how-to-summarize-word-document-with-openai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام OpenAI و C#. |
 | [تلخيص مستند Word باستخدام واجهة OpenAI API عبر C#](./summarize-word-document-with-openai-api-using-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام واجهة OpenAI API مع C# للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية ترجمة النص باستخدام واجهة برمجة تطبيقات Google Translate في C# – دليل خطوة بخطوة](./how-to-translate-text-with-google-translate-api-in-c-step-by/) | دليل شامل يوضح كيفية استخدام Google Translate API في C# لترجمة النصوص خطوة بخطوة. |
+| [تلخيص مستند Word في C# – دليل شامل مدعوم بالذكاء الاصطناعي](./summarize-word-document-in-c-complete-ai-powered-guide/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# ودمج نماذج الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
+| [تلخيص مستند Word باستخدام ملخص المستندات بالذكاء الاصطناعي](./summarize-word-document-with-ai-document-summarization/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام تقنيات الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
+| [كيفية فحص القواعد النحوية في DOCX باستخدام Aspose.Words – استخدم gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | تعلم كيفية فحص القواعد النحوية في مستندات DOCX باستخدام Aspose.Words و gpt-4 turbo للحصول على نصوص خالية من الأخطاء. |
+| [كيفية فحص القواعد النحوية في Word باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | تعلم كيفية استخدام Aspose.Words AI لفحص القواعد النحوية في مستندات Word وتحسين جودة النص بسهولة. |
+| [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | قارن بين نماذج OpenAI و Gemini لتلخيص مستندات Word باستخدام الذكاء الاصطناعي مع Aspose.Words. دليل شامل لاختيار الأنسب. |
+| [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل C#](./summarize-word-document-with-local-llm-c-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام نموذج لغة محلي في C# مع Aspose.Words. |
+| [كيفية تحميل مستند Word في C# وإعادة كتابة الفقرة باستخدام الذكاء الاصطناعي](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | تعلم كيفية تحميل مستند Word في C# وإعادة صياغة الفقرات باستخدام نماذج الذكاء الاصطناعي. |
+| [كيفية فحص القواعد النحوية في C# – دليل كامل لمستندات Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | تعلم كيفية فحص القواعد النحوية في مستندات Word باستخدام Aspose.Words لـ .NET وC#. |
+| [تلخيص مستند Word في C# – دليل كامل باستخدام Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words لـ .NET مع نموذج Anthropic Claude في دليل شامل خطوة بخطوة. |
+| [تلخيص مستند Word باستخدام نموذج GPT مخصص في C# – دليل كامل](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | تعلم كيفية تلخيص مستندات Word في C# باستخدام نموذج GPT مخصص خطوة بخطوة. |
+| [كيفية إعادة كتابة النص في مستندات Word باستخدام Aspose.Words AI – دليل كامل](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | تعلم كيفية إعادة صياغة النص في مستندات Word باستخدام تقنية Aspose.Words AI خطوة بخطوة. |
+| [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words – دليل](./how-to-check-grammar-in-c-with-aspose-words-guide/) | تعلم كيفية فحص القواعد النحوية في ملفات C# باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية استخدام Summarize في Aspose.Words – دليل كامل](./how-to-use-summarize-in-aspose-words-complete-guide/) | اكتشف كيفية استخدام Summarize في Aspose.Words لتلخيص المستندات بفعالية خطوة بخطوة. |
+| [إنشاء ملخص باستخدام الذكاء الاصطناعي – دليل Aspose Words لـ C#](./create-summary-with-ai-c-aspose-words-tutorial/) | تعلم كيفية إنشاء ملخصات مستندات Word باستخدام الذكاء الاصطناعي وAspose.Words لـ .NET مع C# بسهولة. |
+| [كيفية فحص القواعد في Word باستخدام C# – دليل شامل](./how-to-check-grammar-in-word-with-c-complete-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام C# مع دليل خطوة بخطوة. |
+| [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | تعلم كيفية فحص وتصحيح الأخطاء النحوية في مستندات C# باستخدام Aspose.Words خطوة بخطوة. |
+| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words و Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words وGoogle API بسهولة. |
+| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words.AI – دليل كامل](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | دليل شامل يوضح كيفية ترجمة مستندات DOCX إلى اللغة الفرنسية باستخدام Aspose.Words.AI خطوة بخطوة. |
+| [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
+| [كيفية استدعاء CheckGrammar في C# – دليل شامل](./how-to-call-checkgrammar-in-c-complete-guide/) | تعلم كيفية استدعاء طريقة CheckGrammar في Aspose.Words لـ .NET باستخدام C# لتحسين التدقيق اللغوي. |
+| [كيفية إعادة كتابة فقرة باستخدام نموذج لغة محلي في C# – دليل كامل](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | تعرّف على كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words خطوة بخطوة. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
+| [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
+| [كيفية تلخيص مستند Word باستخدام Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام Aspose.Words AI للحصول على ملخصات دقيقة وسريعة. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Google AI](./how-to-translate-docx-to-french-using-google-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Google AI مع Aspose.Words. |
+| [كيفية تلخيص مستند Word باستخدام Document.Summarize](./how-to-summarize-word-document-using-document-summarize/) | تعلم كيفية تلخيص مستند Word باستخدام خاصية Document.Summarize في Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
