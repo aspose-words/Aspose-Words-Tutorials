@@ -37,6 +37,8 @@ Naučte se převod dokumentů v Pythonu s Aspose.Words pro Python. Převádějte
 Naučte se uložit obsah Wordu jako Markdown pomocí Aspose.Words pro Python.
 ### [Obnova poškozeného DOCX a převod Wordu na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Naučte se opravit poškozené soubory DOCX a převést je do formátu Markdown pomocí Aspose.Words pro Python.
+### [Jak exportovat markdown a obnovit poškozený DOCX pomocí Aspose.Words](./how-to-export-markdown-and-recover-a-corrupted-docx-with-asp/)
+Naučte se exportovat markdown a opravit poškozené soubory DOCX pomocí Aspose.Words.
 ### [Jak exportovat LaTeX z Wordu – převod DOCX na Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Naučte se exportovat obsah Wordu jako LaTeX a převést soubory DOCX na Markdown pomocí Aspose.Words pro Python.
 ### [Jak exportovat LaTeX z Wordu a převést DOCX na Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
@@ -186,7 +188,7 @@ Naučte se exportovat rovnice a matematické objekty z Office do LaTeXu pomocí 
 ### [Jak uložit Word jako PDF pomocí Aspose.Words pro Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
 Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podrobnými ukázkami kódu.
 ### [Jak uložit dokument jako PDF s vlastním obdélníkovým tvarem v Pythonu](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
-Naučte se uložit dokument jako PDF s vlastním obdélníkovým tvarem pomocí Aspose.Words pro Python.
+Naučte se uložit dokument PDF s vlastním obdélníkovým tvarem pomocí Aspose.Words pro Python.
 ### [Jak obnovit poškozený DOCX a převést jej do Markdown, prostého textu a PDF pomocí Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 Naučte se opravit poškozené soubory DOCX a převést je do formátů Markdown, prostý text i PDF pomocí Aspose.Words.
 ### [Uložení DOCX jako PDF pomocí Aspose.Words: průvodce krok za krokem](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)

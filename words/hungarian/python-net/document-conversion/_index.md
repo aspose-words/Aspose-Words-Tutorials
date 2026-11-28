@@ -42,6 +42,8 @@ Ismerje meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba P
 Ismerje meg, hogyan menthet Word dokumentumot markdown formátumba táblázatok megőrzésével az Aspose.Words használatával.
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
+### [Hogyan exportáljon markdown-et és állítsa helyre a sérült DOCX-et az Aspose.Words segítségével](./how-to-export-markdown-and-recover-a-corrupted-docx-with-asp/)
+Ismerje meg, hogyan exportálhat markdown-et és helyreállíthat sérült DOCX fájlokat az Aspose.Words használatával.
 ### [Hogyan exportáljon LaTeX-et a Word-ből – DOCX konvertálása Markdown formátumba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba.
 ### [Hogyan exportáljon LaTeX-et a Word-ből és konvertálja a DOCX-et Markdown formátumba](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)

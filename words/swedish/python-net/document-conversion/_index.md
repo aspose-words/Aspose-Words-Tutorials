@@ -77,6 +77,8 @@ Lär dig hur du bäddar in bilder när du konverterar DOCX-filer till Markdown m
 Lär dig hur du bäddar in bilder i Markdown från DOCX med Aspose.Words för Python. Detaljerade steg-för-steg‑instruktioner och kodexempel.
 ### [Hur man återställer DOCX och konverterar det till Markdown och PDF – Komplett Python‑guide](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Lär dig återställa korrupta DOCX-filer och konvertera dem till både Markdown och PDF med Aspose.Words för Python. Steg‑för‑steg‑instruktioner.
+### [Hur man exporterar markdown och återställer en korrupt DOCX med Aspose.Words](./how-to-export-markdown-and-recover-a-corrupted-docx-with-asp/)
+Lär dig hur du exporterar markdown och återställer en korrupt DOCX med Aspose.Words.
 ### [Spara Word som Markdown – Komplett Python-guide](./save-word-as-markdown-complete-python-guide/)
 Lär dig hur du sparar Word-dokument som Markdown med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Spara DOCX som TXT – konvertera Word till TXT med LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
